@@ -1,0 +1,6 @@
+5,"SELECT G.run, G.rerun, G.camCol, G.field, G.obj, F.psf2GSigma1_g,F.psf2GSigma1_r,F.psf2GSigma1_i, F.psf2GSigma2_g,F.psf2GSigma2_r,F.psf2GSigma2_i, F.psf2GB_g,psf2GB_r,psf2GB_i FROM Galaxy as G, SpecObj as S Field as F WHERE G.fieldID = F.fieldID and petroMag_i < # and S.z < #"
+2019-03-03 09:31:00,1
+2019-03-03 10:51:00,1
+2019-03-03 11:14:00,1
+2019-03-03 11:56:00,1
+2019-03-03 12:24:00,1

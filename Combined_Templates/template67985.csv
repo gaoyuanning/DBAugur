@@ -1,0 +1,2 @@
+1,"SELECT TOP # RA, DEC, eboss_target0, eboss_target1, eboss_target2, boss_target1 FROM SpecObjAll WHERE eboss_target0> # AND boss_target1> #"
+2019-10-06 20:09:00,1

@@ -1,0 +1,2 @@
+2,"SELECT p.objID, s.sourceType, s.class, s.subclass, p.clean, p.RA, p.DEC, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, p.psfMagErr_u, p.psfMagErr_g, p.psfMagErr_r, p.psfMagErr_i, p.psfMagErr_z, s.z FROM #upload u JOIN #x x ON x.up_id = u.up_id JOIN photoObj As p ON p.ObjID = x.objID left outer JOIN specObj As s ON s.bestObjID = x.objID WHERE type = #"
+2019-08-25 12:21:00,2

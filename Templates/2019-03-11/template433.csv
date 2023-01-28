@@ -1,0 +1,4 @@
+4,"SELECT specObjID, z  FROM SpecObj  WHERE class = &&&  AND zWarning = # AND z BETWEEN # AND #"
+2019-03-11 10:45:00,1
+2019-03-11 10:46:00,1
+2019-03-11 10:47:00,2

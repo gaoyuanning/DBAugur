@@ -1,0 +1,5 @@
+4,"select objID, ra, dec, psfmag_u, psfmag_g, psfmag_r, psfmag_i, psfmag_z from photoobj where (ra between ( # ) and ( # ) or ra between ( # ) and ( # ) or ra between ( # ) and ( # )) and dec between ( # ) and ( # )"
+2019-04-20 18:26:00,1
+2019-04-20 18:30:00,1
+2019-04-20 18:37:00,1
+2019-04-20 18:40:00,1

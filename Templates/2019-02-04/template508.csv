@@ -1,0 +1,2 @@
+1,select * from dbo.PhotoObjAll where objID=#
+2019-02-04 03:26:00,1

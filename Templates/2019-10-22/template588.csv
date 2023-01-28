@@ -1,0 +1,2 @@
+2,"select ra, dec from DR1#.photoobjDR7   where run = # and rerun = # and camcol=   # and field=  # and obj=   #"
+2019-10-22 00:17:00,2

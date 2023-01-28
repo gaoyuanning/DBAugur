@@ -1,0 +1,2 @@
+1,"select # union select case when ordinal_position > # then # else # end + column_name + # + data_type, * from information_schema.columns where table_name like # order by ordinal_position union select #"
+2019-02-17 14:35:00,1

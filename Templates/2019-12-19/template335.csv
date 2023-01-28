@@ -1,0 +1,2 @@
+1,"SELECT top # p.ra, p.dec, x.SDSSObjid FROM photoobjall as p, xSDSSDR7 as x WHERE p.objid = x.objid AND distanceRank = # AND reverseDistanceRank = # AND reverseMultipleMatchCount = #"
+2019-12-19 09:55:00,1

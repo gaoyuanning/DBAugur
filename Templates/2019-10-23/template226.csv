@@ -1,0 +1,2 @@
+1,"select * from (select s.class, p.objid, p.petroMag_r, p.petroMag_g from PhotoObj as p join SpecObj as s on s.bestobjid = p.objid where (p.ra between # and #) and (p.dec between # and #)) where p.petroMag_g=(select max(p.petroMag_g) from (select s.class, p.objid, p.petroMag_r, p.petroMag_g from PhotoObj as p join SpecObj as s on s.bestobjid = p.objid where (p.ra between # and #) and (p.dec between # and #)))"
+2019-10-23 15:44:00,1

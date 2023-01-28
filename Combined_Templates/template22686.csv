@@ -1,0 +1,2 @@
+1,"SELECT ALL specObjID, ra, dec, spectroFlux_u, spectroFlux_g, spectroFlux_r, spectroFlux_i, spectroFlux_z FROM SpecObj WHERE class = # AND zWarning = #"
+2019-03-22 10:34:00,1

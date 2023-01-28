@@ -1,0 +1,2 @@
+1,"SELECT TOP # objId, z, zErr, absMagR, type FROM Photobj WHERE z BETWEEN # and # and photoErrorClass = # and nnCount> # and zErr BETWEEN # and # and type = supernova"
+2019-09-29 20:21:00,1

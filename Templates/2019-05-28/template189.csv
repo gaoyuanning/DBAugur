@@ -1,0 +1,14 @@
+16,"SELECT S.objID, S.ra, S.dec, S.u, S.g, S.r, S.i, S.z, S.err_u, S.err_g, S.err_r, S.err_i, S.err_z   FROM Star as S   JOIN dbo.fGetNearbyObjEq(#, #E-#, #) as SN   on S.objID = SN.objID   WHERE     ((S.flags_r & #) != #)     AND ((S.flags_r & #) = #)       AND (((S.flags_r & #) = #) or (S.psfmagerr_r <= #))       AND (((S.flags_r & #) = #) or (S.flags_r & #) = #)       AND ((S.flags_g & #) != #)     AND ((S.flags_g & #) = #)       AND (((S.flags_g & #) = #) or (S.psfmagerr_g <= #))       AND (((S.flags_g & #) = #) or (S.flags_g & #) = #)       AND ((S.flags_i & #) != #)     AND ((S.flags_i & #) = #)       AND (((S.flags_i & #) = #) or (S.psfmagerr_i <= #))       AND (((S.flags_i & #) = #) or (S.flags_i & #) = #)"
+2019-05-28 12:40:00,2
+2019-05-28 12:45:00,2
+2019-05-28 13:33:00,1
+2019-05-28 13:37:00,1
+2019-05-28 13:41:00,1
+2019-05-28 13:46:00,1
+2019-05-28 14:54:00,1
+2019-05-28 14:58:00,1
+2019-05-28 15:01:00,1
+2019-05-28 15:06:00,1
+2019-05-28 17:15:00,1
+2019-05-28 17:18:00,2
+2019-05-28 17:22:00,1

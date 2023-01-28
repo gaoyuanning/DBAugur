@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec INTO MyFirstTable FROM dr1#.photoObj where type = #"
+2019-10-08 10:29:00,1

@@ -1,0 +1,2 @@
+1,"SELECT po.objID, po.ra, po.raErr, po.dec, po.decErr, so.z, so.zErr, po.petroMag_r, po.petroMagErr_r, po.petroMag_g, po.petroMagErr_g, po.petroRad_r, po.petroRadErr_r FROM PhotoObj as po JOIN SpecObj as so ON so.bestObjID=po.objID WHERE po.ra BETWEEN # and # AND po.dec BETWEEN # and # AND so.z<# AND po.type=#"
+2019-02-24 03:31:00,1

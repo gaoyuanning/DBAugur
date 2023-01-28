@@ -1,0 +1,2 @@
+1,"SELECT   p.objid,p.ra,p.dec,b.z,   p.deVAB_r, p.deVAB_u, p.deVAB_z,   p.deVABErr_r, p.deVABErr_u, p.deVABErr_z, p.petroR5#_u, p.petroR5#_r, p.petroR5#_z, p.petroR5#Err_u,p.petroR5#Err_r,p.petroR5#Err_z,   b.lmass5#,b.velDisp,b.velDispErr,b.lrest_u,b.lrest_z,b.lrest_r,   s.plate,s.mjd,s.fiberID FROM MyDB.MyTable_# AS b   JOIN SpecObjAll s ON p.objid = s.BestObjid   JOIN PhotoObjAll as p ON b.objid = p.objid"
+2019-02-26 05:48:00,1

@@ -1,0 +1,2 @@
+1,"SELECT p.ra,p.dec,z,p1.p_el,p1.p_cw, p1.p_acw, p1.p_edge,p1.p_dk, p1.p_mgFROM SpecObj pJOIN zooVotes p1 on p1.specobjid=p.SpecObjIDWHERE (p.ra ># and p.ra <#) AND (p.dec># and p.dec<#)And p.class=&&& Order By p.ra"
+2019-08-22 08:40:00,1

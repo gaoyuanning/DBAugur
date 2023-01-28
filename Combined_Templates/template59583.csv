@@ -1,0 +1,2 @@
+1,"SELECT s.SpecObjID, s.ra, s.dec, s.z, s.psfmag_u, s.psfmag_g, s.psfmag_r, s.psfmag_i, s.psfmag_z FROM specphotoall as s JOIN dbo.fGetNearbyObjEq (#, #, #) n ON n.objID = s.ObjID where s.ra> #"
+2019-08-28 10:40:00,1

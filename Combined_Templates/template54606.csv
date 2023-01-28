@@ -1,0 +1,2 @@
+2,"SELECT p.run, p.rerun, p.camcol, p.field, p.kk_g, p.airrmass_g, p.aa_g into mydb.TDEfield from mydb.TDErrcf u JOIN DR1#.field p ON p.run = u.run AND p.rerun = u.rerun AND p.camcol = u.camcol AND p.field = u.field"
+2019-07-30 10:46:00,2

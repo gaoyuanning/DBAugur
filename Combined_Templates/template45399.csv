@@ -1,0 +1,3 @@
+3,"SELECT TOP # p.g, p.r, (p.g - p.r) , s.class FROM PhotoObj p JOIN SpecObj s ON s.bestobjid = p.objid WHERE s.class = #"
+2019-06-12 09:48:00,1
+2019-06-12 09:49:00,2

@@ -1,0 +1,2 @@
+1,"SELECT G.ObjID  FROM Galaxy as G, SpecObj as S, SpecLine as L WHERE G.ObjID = S.bestObjID  and S.SpecObjID = L.SpecObjID and L.LineId = # and L.ew > #"
+2019-03-14 19:03:00,1

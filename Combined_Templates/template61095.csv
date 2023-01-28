@@ -1,0 +1,2 @@
+1,"select top # s.z, p.z from SpecObj s inner join PhotoObj p on s.objid = p.objid where s.z> # and class = #"
+2019-09-04 21:23:00,1

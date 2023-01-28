@@ -1,0 +1,2 @@
+1,"select table_name,column_name from information_schema.columns order by #,#"
+2019-01-25 10:02:00,1

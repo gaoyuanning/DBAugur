@@ -1,0 +1,2 @@
+1,"SELECT m.objID, o.ra AS ra1, o.dec AS dec1, o.z, o.zWarning, o.class, o.subClass, m.ra AS ra2, m.dec AS dec2, m.j, m.h, m.k, m.phQual INTO mydb.sdssztmass FROM TwoMass AS m JOIN mydb.allsdssz AS o ON m.objID = m.bestObjID"
+2019-09-02 05:58:00,1

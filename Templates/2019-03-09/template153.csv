@@ -1,0 +1,2 @@
+1,"select ra,dec,PLATEID,FIBERMAG_r from specObj where ra BETWEEN # and # AND dec BETWEEN # and # AND PLATEID BETWEEN # and #"
+2019-03-09 17:29:00,1

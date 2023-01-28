@@ -1,0 +1,11 @@
+12,"SELECT TOP # objID, ra, dec, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z FROM Star WHERE ra BETWEEN # and # AND dec BETWEEN # and # AND clean = #"
+2019-01-21 18:22:00,2
+2019-01-21 18:23:00,1
+2019-01-21 18:24:00,1
+2019-01-21 18:28:00,2
+2019-01-21 18:29:00,1
+2019-01-21 18:30:00,1
+2019-01-21 18:37:00,1
+2019-10-08 21:29:00,1
+2019-10-08 21:30:00,1
+2019-10-08 21:44:00,1

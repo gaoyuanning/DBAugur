@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, ra, dec, modelMag_r, petroRad_r FROM PhotoPrimary WHERE ra > # and ra < # AND dec > # and dec < # AND type = # AND modjjelMag_r > #"
+2019-02-12 04:37:00,1

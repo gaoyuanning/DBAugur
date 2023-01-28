@@ -1,0 +1,2 @@
+1,"SELECT count (so.specObjID) , so.specObjID, s.objID, s.ra, s.dec, s.g, s.r, sp.SPECTYPEHAMMER FROM SpecObj AS so LEFT OUTER JOIN Star as s ON so.bestObjID = s.objID JOIN sppParams AS sp ON sp.specObjID = so.specObjID WHERE (so.ra between # and #) AND (so.dec between # and #) AND (s.g > #) and (s.g < #)"
+2019-02-23 16:42:00,1

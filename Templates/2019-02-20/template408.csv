@@ -1,0 +1,2 @@
+1,"SELECT Top #   objID,modelMag_u,modelMag_g,modelMag_r,modelMag_i,modelMag_z from PhotoObjAll   WHERE modelMag_u > # and modelMag_g > # and modelMag_r > # and modelMag_i ># and modelMag_z ># and mode = #"
+2019-02-20 09:29:00,1

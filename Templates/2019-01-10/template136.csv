@@ -1,0 +1,4 @@
+5,"SELECT U.up_id, S.*  FROM #upLoad U CROSS APPLY (SELECT Objid FROM   dbo.fGetNearbyObjEq( U.up_ra ,U.up_dec ,U.up_sep )) S  SELECT TOP #   p.ra,p.dec, p.run,p.rerun,p.camCol,p.field,p.obj,p.psfMag_u,p.psfMag_g,p.psfMag_r,p.psfMag_i,p.psfMag_z,p.psfMagErr_u,p.psfMagErr_g,p.psfMagErr_r,p.psfMagErr_i,p.psfMagErr_z,dbo.fIAUFromEq(p.ra,p.[dec]) as SDSSname,ISNULL(s.fiberID,#) as fiberID,ISNULL(s.mjd,#) as mjd,ISNULL(s.plate,#) as plate  FROM ..PhotoObj AS p  LEFT OUTER JOIN ..SpecObj s ON p.objID = s.bestObjID  JOIN #x AS x ON x.objID=p.objID  JOIN #upload AS u ON u.up_id = x.up_id   WHERE  ( p.type = # OR p.type = #)   ORDER BY x.up_id"
+2019-01-10 18:24:00,1
+2019-01-10 18:43:00,1
+2019-01-10 19:13:00,3

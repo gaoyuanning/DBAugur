@@ -1,0 +1,2 @@
+1,select * from public.ncarey.FramePathProcessing where fastTopScore > .# order by fastTopScore desc
+2019-05-28 14:08:00,1

@@ -1,0 +1,2 @@
+1,"select objID, petroRad_r from photoOBJ where objID IN ()"
+2019-11-22 18:21:00,1

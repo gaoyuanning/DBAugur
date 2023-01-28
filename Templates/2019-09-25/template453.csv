@@ -1,0 +1,4 @@
+4,"SELECT ra,dec,rerun,run,camcol,field FROM field WHERE ra BETWEEN # AND # dec BETWEEN # AND #"
+2019-09-25 10:53:00,2
+2019-09-25 10:55:00,1
+2019-09-25 10:56:00,1

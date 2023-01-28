@@ -1,0 +1,7 @@
+13,"SELECT up_id, dbo.fGetNearestObjIdEq(up_ra,up_dec,#) as objId   FROM #upload WHERE dbo.fGetNearestObjIdEq(up_ra,up_dec,#) IS NOT NULL  EXEC spExecuteSQL &&&,&&&, @log=#, @filter=#"
+2019-10-10 01:12:00,2
+2019-10-10 05:17:00,2
+2019-10-10 08:18:00,1
+2019-10-10 09:24:00,1
+2019-10-10 15:37:00,3
+2019-10-10 15:38:00,4

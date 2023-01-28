@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.run, p.rerun, p.camCol, p.field, p.obj FROM TARGDR7..Galaxy AS p JOIN TARGDR7.dbo.fGetNearbyObjEq (#, #, #) AS b ON b.objID = p.objID"
+2019-02-01 12:43:00,1

@@ -1,0 +1,2 @@
+1,"SELECT top # objid, ra, dec, psfmag_u AS mag_u, modelMag_u AS u, psfmag_g AS mag_g, modelMag_g AS g, psfmag_r AS mag_r, modelMag_r AS r, psfmag_i AS mag_i, modelMag_i AS i, psfmag_z AS mag_z, modelMag_z AS z, z AS redshift, plate, mjd, fiberid FROM SpecPhoto  WHERE  ((primTarget & dbo.fPrimTargetN(&&&) > #) AND (class = &&&) AND zWarning = #"
+2019-09-23 03:06:00,1

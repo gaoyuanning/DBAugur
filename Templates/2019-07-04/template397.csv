@@ -1,0 +1,2 @@
+1,"select   g.objid, p.u, p.g, p.r, p.i, z.p_mg into mydb.GZ_table_# from photoobj p   join   galaxy g on g.objid=p.objid   join   zoonospec z on z.objid=p.objid where   z.p_mg># and   z.nvote>=# and   p.r<#"
+2019-07-04 07:48:00,1

@@ -1,0 +1,4 @@
+3,"SELECT TOP # objID, ra, dec into mydb.MyTable from Galaxy WHERE r < # and extinction_r > #"
+2019-05-12 06:48:00,1
+2019-05-12 06:50:00,1
+2019-05-12 06:54:00,1

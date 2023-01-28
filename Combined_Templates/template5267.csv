@@ -1,0 +1,2 @@
+14,"SELECT TOP # g.ra, g.dec, p.z, dbo.fCosmoDm (p.z, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT) from GalaxyTag as g JOIN Photoz as p ON p.objID = g.objID WHERE g.ra BETWEEN # AND #"
+2019-01-22 00:34:00,14

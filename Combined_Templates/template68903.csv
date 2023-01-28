@@ -1,0 +1,4 @@
+3,"select top # za.specObjID, za.bestObjID, za.class, za.subClass, za.z, za.zErr, po.objID, po.type, po.flags, po.ra, po.dec, po.run, po.rerun, po.camcol, po.field, (po.petroMag_r - po.extinction_r) as dered_petro_r, zp.z as zphot, zp.zErr as dzphot, zi.e_bv_sfd, zi.primtarget, zi.sectarget, zi.targettype, zi.spectrotype, zi.subclass from specObj za join PhotoObjAll po ON (po.objID = za.bestObjID) join Photoz zp on (zp.objID = za.bestObjID) join galSpecInfo zi on (zi.SpecObjID = za.specObjID) where za.z > # and za.zWarning = # and za.targetType = # and za.survey = # and za.class = # and zi.primtarget> =# and po.clean = # and po.insideMask = # and po.petroMag_r - po.extinction_r< =# order by za.specObjID desc"
+2019-10-09 01:33:00,1
+2019-10-09 01:44:00,1
+2019-10-09 01:51:00,1

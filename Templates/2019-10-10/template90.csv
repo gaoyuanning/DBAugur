@@ -1,0 +1,2 @@
+1,"SELECT z, ra, dec, bestobjID FROM specObj WHERE (class = &&& or class = &&&)  AND z > #  AND zWarning = #  ORDER BY z DESC"
+2019-10-10 19:58:00,1

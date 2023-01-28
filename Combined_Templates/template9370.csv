@@ -1,0 +1,2 @@
+1,"SELECT my.id, my.ra_s, my.dec_s, my.bmag, my.bv, my.z_s, match.distance, u, g, r, i, z into mydb.salzer_sdss_phot from MyDB.salzer AS my OUTER APPLY dbo.fGetNearestObjEq (my.ra_s, my.dec_s, #) as match LEFT JOIN PhotoPrimary AS p ON match.objid = p.objid"
+2019-02-10 16:24:00,1

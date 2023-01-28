@@ -1,0 +1,6 @@
+8,"SELECT ALL ra,dec, g,err_g,flags_g, r,err_r,flags_r, i,err_i,flags_i FROM PhotoObjAll WHERE  ra BETWEEN # and # AND dec BETWEEN # and #  AND (err_g < #)  AND (err_g > #)  AND (err_r < #)  AND (err_r > #)  AND (err_i < #)  AND (err_i > #)"
+2019-02-14 10:28:00,2
+2019-02-14 10:29:00,3
+2019-02-14 10:30:00,1
+2019-02-14 10:31:00,1
+2019-02-14 10:33:00,1

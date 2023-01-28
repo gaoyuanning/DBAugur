@@ -1,0 +1,3 @@
+6,"select a.FL, count (*) as Counts from (select substring (Name, #, #) as FL from chinook.Artist) a group by FL"
+2019-04-21 12:11:00,5
+2019-04-21 12:21:00,1

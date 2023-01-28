@@ -1,0 +1,2 @@
+1,"SELECT top # G.ObjID, G.u, G.g, G.r, G.i, G.z into mydb.MyTable from Galaxy G, Star S WHERE G.parentID > # and G.parentID = S.parentID"
+2019-06-29 09:27:00,1

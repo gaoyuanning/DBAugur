@@ -1,0 +1,4 @@
+3,"SELECT p.objId,p.ra,p.dec,p.petror9#_r, p.expAB_r,     p.dered_u as u, p.dered_g as g, p.dered_r as r, p.dered_i as i,      p.dered_z as z, s.z as redshift, s.plate, s.mjd, s.fiberid,     m.nsa_elpetro_absmag_u as abs_u, m.nsa_elpetro_absmag_g as abs_g,     m.nsa_elpetro_absmag_r as abs_r, m.nsa_elpetro_absmag_i as abs_i,     m.nsa_elpetro_absmag_z as abs_z FROM galaxy AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid    JOIN mangaDRPall AS m ON abs(p.ra - m.objra) < # AND abs(p.dec - m.objdec) < # WHERE p.petror9#_r > #   and s.z between #. and #   and p.dered_g < #"
+2019-11-27 07:28:00,1
+2019-11-27 07:32:00,1
+2019-11-27 07:33:00,1

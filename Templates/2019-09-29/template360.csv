@@ -1,0 +1,2 @@
+1,"CREATE TABLE BCG_SF_OUT(  ra_BCG       float  not null,  dec_BCG       float  not null,  ra       float  not null,  dec       float  not null,   objID     bigint not null,   bpt     varchar  not null,   elliptical  int  not null,   spiral  int  not null,   uncertain  int  not null       );"
+2019-09-29 04:13:00,1

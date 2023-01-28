@@ -1,0 +1,4 @@
+7,"SELECT Name, Composer, Milliseconds, Bytes FROM chinook.Track WHERE Composer = # and Name = #"
+2019-04-24 14:56:00,2
+2019-04-24 14:58:00,4
+2019-04-24 14:59:00,1

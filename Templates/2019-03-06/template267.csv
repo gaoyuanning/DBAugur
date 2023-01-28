@@ -1,0 +1,2 @@
+1,"select distinct run1, run2 from astrometry.budavari.Neighbors2Star2#main where run1 = #"
+2019-03-06 17:47:00,1

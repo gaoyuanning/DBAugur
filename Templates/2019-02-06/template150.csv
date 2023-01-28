@@ -1,0 +1,7 @@
+9,"SELECT   g.objID, g.petroMag_g, g.petroMag_r, g.petroMag_i, g.petroMagErr_g, g.petroMagErr_r, g.petroMagErr_i, g.extinction_g, g.extinction_r, g.extinction_i,    g.petroR5#_r, g.petroR9#_r, sp.z, sp.zerr, sp.zconf    into mydb.MyTable_# from Galaxy as g   join specObj sp on sp.bestObjID = g.objID   WHERE sp.z > # and sp.z < # and g.petroMagErr_r<# and sp.zconf># and g.petroMag_r<#"
+2019-02-06 13:29:00,2
+2019-02-06 13:32:00,1
+2019-02-06 13:42:00,1
+2019-02-06 13:43:00,2
+2019-02-06 13:46:00,1
+2019-02-06 17:44:00,2

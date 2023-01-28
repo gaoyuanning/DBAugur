@@ -1,0 +1,3 @@
+3,"SELECT    m.ra AS ra1, m.dec AS dec1,    n.objid AS objid1, n.distance,    o.ra AS ra2, o.dec AS dec2,o.petroMag_r,o.extinction_r into MyDB.gal5#_DR4 FROM MyDB.gal5#_radec AS m    OUTER APPLY dbo.fGetNearbyObjEq( m.ra, m.dec, #) AS n    LEFT JOIN PhotoObj AS o ON n.objid=o.objid"
+2019-02-18 02:09:00,2
+2019-02-18 02:13:00,1

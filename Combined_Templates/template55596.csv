@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, z, zErr, velDisp into mydb.MyTable3 from SpecObjAll WHERE z > #"
+2019-08-06 07:01:00,1

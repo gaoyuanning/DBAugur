@@ -1,0 +1,4 @@
+3,"SELECT u, g, r, i, z, type FROM PhotoObj WHERE mode = # AND clean = # AND (type = # OR type = #) ORDER BY RAND ()"
+2019-12-02 17:18:00,1
+2019-12-02 17:21:00,1
+2019-12-02 21:10:00,1

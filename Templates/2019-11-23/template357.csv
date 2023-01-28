@@ -1,0 +1,2 @@
+1,"SELECT ALL  p.ra, p.dec, p.objID, p.expAB_r   FROM Galaxy AS p  WHERE  p.objID = # AND log1#(p.expAB_r)<#"
+2019-11-23 03:28:00,1

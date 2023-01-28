@@ -1,0 +1,2 @@
+1,"select PlateX.survey, specObj.fiberID, PhotoObj.modelMag_u, PhotoObj.modelMag_g, PhotoObj.modelMag_r, PhotoObj.modelMag_i, PhotoObj.modelMag_z, specObj.z, PhotoObj.ObjID from plateX p, specObj s, photoObj ob where ob.modelmag_g between # and # and s.z < # and ob.type = # and s.bestObjid = ob.ObjID AND p.plateID = s.plateID"
+2019-02-13 15:59:00,1

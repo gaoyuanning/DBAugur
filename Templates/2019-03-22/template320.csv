@@ -1,0 +1,2 @@
+1,"SELECT top # sp.plate, sp.mjd, sp.fiberid, sp.specobjid, sp.bestobjid, sp.elodiervfinal, sp.teffadop, sp.fehadop, sp.loggadop, ph.psfmag_g, ph.psfmag_r, ph.psfmag_i, ph.psfmagErr_g, ph.psfmagErr_r, ph.psfmagErr_i into mydb.MyTable_# from sppParams sp JOIN PhotoObjAll ph ON sp.bestobjid = ph.objid WHERE sp.seguePrimary = # AND ph.psfmag_g-ph.psfmag_r > # AND ph.psfmag_g-ph.psfmag_r < # AND ph.psfmag_g < # AND sp.snr > # AND elodiervfinalerr > #"
+2019-03-22 17:46:00,1

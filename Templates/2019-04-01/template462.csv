@@ -1,0 +1,2 @@
+1,"SELECT TOP #   objID, ra ,dec, u, g, I, r, logg, teff,   FROM   star  WHERE   ra > # and ra < #  AND dec > # and dec < #"
+2019-04-01 10:34:00,1

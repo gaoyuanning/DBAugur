@@ -1,0 +1,2 @@
+1,"select top # RunId from data order by ID asc -- select UserID from Runs where RunID = # -# --- select * from Users where UserID = # select top # u.*, d.ID, r.RunID from data as d join runs r on r.RunID = d.RunID join users u on u.UserID = r.UserID order by d.ID asc"
+2019-04-24 13:02:00,1

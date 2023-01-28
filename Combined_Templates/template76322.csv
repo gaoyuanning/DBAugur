@@ -1,0 +1,2 @@
+1,"SELECT g.objid, g.ra, g.dec, g.insideMask, g.modelMag_r, g.modelMagErr_r, g.run, g.camcol, g.field, g.type, s.z, s.zErr into mydb.MyTable from Galaxy AS g JOIN Photoz as s on s.ObjId = g.ObjId WHERE g.modelMag_r < # AND g.ra between # and # AND g.insideMask = #"
+2019-11-14 04:59:00,1

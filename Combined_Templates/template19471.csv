@@ -1,0 +1,3 @@
+2,"select sgn.*, el.* into mydb.SAGAN_SDSS_OBJID_#_emissionline from mydb.SAGAN_SDSS_OBJID_# sgn, specobjid s, emissionLinesPort el where sgn.objid = s.bestobjid and s.specobjid = el.specobjid"
+2019-03-11 10:11:00,1
+2019-03-11 10:12:00,1

@@ -1,0 +1,2 @@
+1,"SELECT elodieSpType, ra, dec FROM star WHERE ra BETWEEN # and # AND  dec BETWEEN # and #"
+2019-10-19 07:12:00,1

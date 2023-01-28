@@ -1,0 +1,3 @@
+2,"select   g.objID, pz.z, g.ra, g.dec, g.modelMag_i,  g.petroMag_u, g.petroMag_g,g.petroMag_r,g.petroMag_i,g.petroMag_z,  g.petroMagErr_u, g.petroMagErr_g,g.petroMagErr_r,g.petroMagErr_i,g.petroMagErr_z,  w.w1_mag, w.w2_mag, w.w1_mag_err, w.w2_mag_err from Galaxy as g join Photoz as pz on pz.objID = g.objID join wiseForcedTarget as w on w.objID = g.objID where  pz.z < #  and g.ra between # and #  and g.dec between # and #"
+2019-10-30 13:02:00,1
+2019-10-30 13:03:00,1

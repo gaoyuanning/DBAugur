@@ -1,0 +1,3 @@
+2,"select flags_r, ra, dec, (flags_r & #) , (flags & dbo.fPhotoFlags (#) ), (flags &dbo.fPhotoFlags (#) ), (flags &dbo.fPhotoFlags (#) ) , (flags & dbo.fPhotoFlags (#) ), (flags & dbo.fPhotoFlags (#) ), (flags & dbo.fphotoFlags (#) ) from photoobjall where ra between # and # and dec between # and # and (flags & dbo.fPhotoFlags (#) ) ! = #"
+2019-11-18 10:36:00,1
+2019-11-18 10:42:00,1

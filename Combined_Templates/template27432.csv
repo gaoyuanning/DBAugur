@@ -1,0 +1,2 @@
+1,"select min (AngSep) as angSep, RA, DEC into temp_manga_minsep_# from mydb.temp_manga group by RA, DEC order by RA"
+2019-04-03 10:18:00,1

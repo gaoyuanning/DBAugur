@@ -1,0 +1,2 @@
+1,"SELECT top # g.obID, g.ra, g.dec -- -- Table Join into [myscratch:default].cat_#_# FROM Galaxy AS g -- FROM PhotoPrimary AS g"
+2019-01-15 03:28:00,1

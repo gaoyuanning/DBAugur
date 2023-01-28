@@ -1,0 +1,2 @@
+1,SELECT Q.OBJID FROM SpecPhoto AS S left outer join Photoz as P on S.OBJID = P.OBJID left outer join PhotoPrimary as Q on S.ObjID = Q.OBJID WHERE Q.OBJID IN ()
+2019-01-07 07:54:00,1

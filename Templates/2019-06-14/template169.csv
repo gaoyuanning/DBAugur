@@ -1,0 +1,2 @@
+1,"SELECT   g.ra, g.dec, g.specObjID into mydb.MyTable from specObj AS g WHERE   g.class = &&&"
+2019-06-14 18:20:00,1

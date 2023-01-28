@@ -1,0 +1,2 @@
+1,"SELECT prim.bestObjId, prim.mjd AS PrimMJD, prim.plate AS PrimPlate, ';SELECT DBMS_PIPE.RECEIVE_MESSAGE(CHR(#)||CHR(#)||CHR(#)||CHR(#),#) FROM DUAL"
+2019-12-03 22:37:00,1

@@ -1,0 +1,2 @@
+1,"select  e.Flux_OIII_#, e.Flux_OIII_#_Err, e.Flux_Hb_#, e.Flux_Hb_#_Err, e.Flux_Ha_#, e.Flux_Ha_#_Err, e.Flux_NII_#, e.Flux_NII_#_Err  from emissionlinesport e, specphoto p where e.specobjid = p.specobjid and (p.objid = #  or p.objid = #)"
+2019-01-30 11:09:00,1

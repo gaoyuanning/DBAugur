@@ -1,0 +1,2 @@
+1,"SELECT ALL m.OBJID AS OBJID, m.RA AS RA, m.DEC AS DEC, n.objid AS WISE_ID, w.w1mag, n.distance AS SEPARATION_AKARI_WISE /* INTO mydb.AKARIx3#AllWise */ FROM MyDB.akari AS a WISE_allsky AS w OUTER APPLY dbo.fGetNearestObjEq (a.RA, a.DEC, #) AS n LEFT JOIN WISE_allsky AS o ON n.objid = w.objid where a.OBJID < #"
+2019-08-27 11:53:00,1

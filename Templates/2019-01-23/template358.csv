@@ -1,0 +1,2 @@
+1,"SELECT run, rerun from dbo.Run where stripe=#"
+2019-01-23 10:44:00,1

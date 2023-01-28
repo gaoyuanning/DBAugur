@@ -1,0 +1,2 @@
+1,"SELECT count (*) SpecObj.mjd, SpecObj.fiberID, SpecObj.z FROM SpecObj AS s JOIN GalSpecLine AS g s.specobjid = g.specobjid WHERE h_alpha_flux > #* h_beta_flux AND (s.class = # OR s.class = #) AND s.z BETWEEN # AND #"
+2019-05-17 09:04:00,1

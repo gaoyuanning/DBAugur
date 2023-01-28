@@ -1,0 +1,2 @@
+1,"SELECT z.RAJ AS ra1, z.DEJ AS dec1, z.nu, z.umed, z.s_umag as zue, z.ng, z.gmed, z.s_gmag as zge, z.nr, z.rmed, z.s_rmag as zre, n.objid, n.distance, ph.ra AS ra2, ph.dec AS dec2, ph.psfMag_u, ph.psfMagErr_u, ph.psfMag_g, ph.psfMagErr_g, ph.psfMag_r, ph.psfMagErr_r into mydb.zmatch_cr_g from myDB.zeljko AS z CROSS APPLY dbo.fGetNearestObjEq (z.RAJ, z.DEJ, #) AS n JOIN PhotoObj AS ph ON n.objid = ph.objid where ph.type = # and (ph.flags_g & #) ! =#"
+2019-11-11 13:49:00,1

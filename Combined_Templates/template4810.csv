@@ -1,0 +1,2 @@
+1,"select p.ra, p.dec FROM PhotoObj AS p WHERE p.objid IS #"
+2019-01-20 21:52:00,1

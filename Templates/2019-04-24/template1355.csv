@@ -1,0 +1,2 @@
+1,SELECT * LIMIT # into mydb.MyTable from dbo.Star;
+2019-04-24 07:24:00,1

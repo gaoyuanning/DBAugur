@@ -1,0 +1,2 @@
+1,"SELECT TOP # oiii_#_flux, oii_#_flux, oii_#_flux, nii_#_flux, h_beta_flux, h_alpha_flux INTO mydb.nearGalaxiesFluxes FROM dr1#.galSpecLine WHERE specObjID IN (SELECT specObjID FROM dr1#.galSpecInfo WHERE z < # AND spectrotype = &&&)"
+2019-07-28 09:31:00,1

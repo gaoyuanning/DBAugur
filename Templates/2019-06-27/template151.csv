@@ -1,0 +1,2 @@
+1,"SELECT  s.sciencePrimary, s.loadVersion, s.plateID, s.spectrographID, s.throughput, s.objType, s.objTypeName, s.targetID, s.targetObjID, s.bestObjID, s.img FROM SpecObjAll AS s  JOIN PhotoObj AS p ON p.objid=s.bestobjid WHERE   p.specObjID=s.specObjID AND p.ra BETWEEN # AND #  AND p.dec BETWEEN # AND # AND s.z<# AND p.type=# AND s.specclass=#"
+2019-06-27 20:19:00,1

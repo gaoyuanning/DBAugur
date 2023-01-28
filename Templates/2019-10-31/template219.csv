@@ -1,0 +1,2 @@
+1,"select ra, dec, g, i, dered_g, dered_i from star where (ra between # and #) and (dec between # and #) and clean = # and modelmag_g < #"
+2019-10-31 16:12:00,1

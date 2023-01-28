@@ -1,0 +1,8 @@
+7,"SELECT s.objID, s.mjd, s.plate, s.fiberID, s.SpecClass, s.RA, s.Dec, s.z, s.size, s.petroMag_g, p.petroR5#_g, p.petroR9#_g, s.extinction_g, p.isoA_g, p.isoB_g, s.petroMag_r, p.petroR5#_r, p.petroR9#_r, s.extinction_r, p.isoA_r, p.isoB_r, s.petroMag_z, p.petroR5#_z, p.petroR9#_z, s.extinction_z, p.isoA_z, p.isoB_z FROM SpecPhotoAll as s join PhotoObjAll as p on p.objID = s.objID WHERE s.z >= # and s.z <= #"
+2019-03-03 09:07:00,1
+2019-03-03 09:18:00,1
+2019-03-03 09:29:00,1
+2019-03-03 10:48:00,1
+2019-03-03 11:11:00,1
+2019-03-03 11:53:00,1
+2019-03-03 12:21:00,1

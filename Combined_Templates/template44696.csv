@@ -1,0 +1,3 @@
+4,"SELECT ga.specobjid INTO mydb.simpleclass FROM GalSpecLine as ga, specobj as s WHERE ga.oiii_#_flux > ga.oiii_#_flux_err*# AND s.class = #"
+2019-06-07 06:59:00,3
+2019-06-07 07:05:00,1

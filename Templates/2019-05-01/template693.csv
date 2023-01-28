@@ -1,0 +1,2 @@
+1,select count(*) as count into mydb.galaxy_count
+2019-05-01 00:25:00,1

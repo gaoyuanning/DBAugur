@@ -1,0 +1,2 @@
+1,"select TOP # (m.RA-w.ra), (m.DEC-w.dec), w.w1mpro from mydb.MaNGA_dap_mpl8 m, WISE_allsky w where abs(m.RA-w.ra) < # and abs(m.DEC-m.dec) < #"
+2019-04-03 06:41:00,1

@@ -1,0 +1,2 @@
+1,select * from specObj where ra BETWEEN # and # AND dec BETWEEN # and # and specObjID = #
+2019-06-26 17:10:00,1

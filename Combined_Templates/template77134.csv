@@ -1,0 +1,2 @@
+1,"select b.objID, b.plateid_ifuid, b.ra, b.dec, f.integr, f.rms into mydb.wylezrad from mydb.wylez2 as b, dbo.FIRST as f where f.objID = b.objID and f.integr > #"
+2019-11-18 01:49:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # sp.ra FROM Photoz as PZ,  SpecPhoto AS sp,  Neighbors as N JOIN PhotoObj AS P ON PZ.ObjID = P.ObjID"
+2019-02-26 11:16:00,1

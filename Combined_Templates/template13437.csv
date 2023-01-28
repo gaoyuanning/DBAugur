@@ -1,0 +1,2 @@
+1,"select top # z, ra, dec, bestObjID into mydb.MyTable from specObj where class = # AND sqrt (square (#-ra) + square (#-dec) ) < = # order by -z"
+2019-02-21 00:46:00,1

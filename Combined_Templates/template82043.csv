@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.specobjID, s.plate, s.mjd, s.fiberid, s.targetobjID, s.ra, s.dec, s.sourcetype, p.ra, p.dec, p.fiber2mag_i FROM specObj as s JOIN photoObj as p ON p.objID = s.objID WHERE s.sourcetype = # AND"
+2019-12-11 16:24:00,1

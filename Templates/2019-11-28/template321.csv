@@ -1,0 +1,2 @@
+2,"select   m.*, g.*   into mydb.SAGAN_GRGs_#_SDSSIV_line_DR1#    from   galspecline g, specobj s, mydb.SAGAN_GRGs_#_SDSSIV m    where   m.bestobjid = s.bestobjid   and s.specobjid = g.specobjid   and m.bestobjid != #    order by   s.ra"
+2019-11-28 09:46:00,2

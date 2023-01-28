@@ -1,0 +1,2 @@
+1,"create clustered index cix_schoolattendance on schoolattendance (school, date)"
+2019-03-03 16:30:00,1

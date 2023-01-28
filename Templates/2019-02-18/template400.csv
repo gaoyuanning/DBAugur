@@ -1,0 +1,2 @@
+1,"SELECT P.objID, P.type,   P.u, P.dered_u, P.err_u,   P.g, P.dered_g, P.err_g,   P.r, P.dered_r, P.err_r,   P.i, P.dered_i, P.err_i,   P.z, P.dered_z, P.err_z into mydb.galaxies_all_phot from mydb.galaxies_all as G   JOIN PhotoObjAll as P ON (G.bestObjID = P.objID)"
+2019-02-18 11:11:00,1

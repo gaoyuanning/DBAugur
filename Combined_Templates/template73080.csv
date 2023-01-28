@@ -1,0 +1,2 @@
+1,"SELECT f.fieldID, f.ra, f.dec FROM run AS r JOIN field AS f ON f.run = r.run WHERE r.stripe = # AND f.field = #"
+2019-11-01 07:38:00,1

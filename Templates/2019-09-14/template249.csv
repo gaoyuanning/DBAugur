@@ -1,0 +1,2 @@
+1,"select ObjID, ra, dec from star where ra between # and # and dec between # and # and r between # and # and g-r < #"
+2019-09-14 12:22:00,1

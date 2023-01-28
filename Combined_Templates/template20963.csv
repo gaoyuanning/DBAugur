@@ -1,0 +1,2 @@
+1,"SELECT specobjid, z, survey, bestobjid, count (*) FROM SpecObj WHERE survey = # and programname = # AND class = # AND zWarning = # GROUP BY class"
+2019-03-16 16:20:00,1

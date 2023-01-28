@@ -1,0 +1,3 @@
+4,"select ra, dec, petroMag_r, petroMagErr_r into mydb.MyTable_newer from PhotoObjAll where dec># and dec<# and ra># and ra<# and type=# and petroMag_r<#"
+2019-03-07 12:21:00,2
+2019-03-07 12:25:00,2

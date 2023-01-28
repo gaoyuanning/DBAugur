@@ -1,0 +1,2 @@
+1,"SELECT top # s.ra, s.dec FROM SpecObj s WHERE s.z BETWEEN # and # AND s.ra BETWEEN # AND # AND s.dec BETWEEN # AND # AND class = Galaxy"
+2019-01-16 04:33:00,1

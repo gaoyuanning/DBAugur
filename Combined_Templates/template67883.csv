@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.modelmag_g, s.devmag_g, s.expmag_g, s.devrad_g, s.exprad_g, s.devab_g, s.expab_g, s.extinction_g, s.modelmag_r, s.devmag_r, s.expmag_r, s.devrad_r, s.exprad_r, s.devab_r, s.expab_r, s.extinction_r, s.z INTO mydb.SampleA FROM SpecObj as s JOIN Galaxy as g ON s.specobjid = g.specobjid WHERE petroR9#_r/petroR5#_r > # AND s.eclass < # AND fracdev_g = #"
+2019-10-05 12:31:00,1

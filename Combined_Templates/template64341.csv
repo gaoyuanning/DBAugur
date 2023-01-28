@@ -1,0 +1,2 @@
+1,"SELECT p.run, p.rerun, p.camcol, p.field INTO run_rerun_camcol_field FROM MyDB.run_camcol_field AS b JOIN PhotoPrimary AS p ON p.run = b.run and p.camcol = b.camcol and p.field = b.field"
+2019-09-20 03:38:00,1

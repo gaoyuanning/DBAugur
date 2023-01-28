@@ -1,0 +1,3 @@
+2,"select haloid, x, y, z, np, halfMassRadius from mr where treeRootId = # and snapnum = #"
+2019-09-20 14:46:00,1
+2019-09-20 14:49:00,1

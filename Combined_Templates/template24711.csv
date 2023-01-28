@@ -1,0 +1,2 @@
+1,"select (modelMag_u-modelMag_g) , (modelMag_g-modelMag_r) from StarTag where (modelMag_g between # and #) and dec = # and z = # or z < #"
+2019-03-27 21:45:00,1

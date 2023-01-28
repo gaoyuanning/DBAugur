@@ -1,0 +1,4 @@
+8,"SELECT TOP # objid, q_r, u_r  from photoObj WHERE type = #"
+2019-08-12 01:13:00,1
+2019-08-12 01:14:00,4
+2019-08-12 01:15:00,3

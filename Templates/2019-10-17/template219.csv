@@ -1,0 +1,2 @@
+1,"SELECT TOP #   dr7cor.dr7objid, p.objid, p.ra, p.dec, p.type,   p.deVPhi_r, p.lnLDeV_r,   p.expPhi_r, p.lnLExp_r,   pz.z as zphot,   pz.zErr as zphot_err,   pz.photoErrorClass as zphot_errClass   INTO mydb.CG3_ang_zphot   FROM PhotoObj AS p, Photoz as pz, MyDB.idB_dr6 AS idB_dr6, PhotoPrimaryDR7 AS dr7cor    WHERE idB_dr6.ObjID_DR6 = dr7cor.dr7objid     AND dr7cor.dr8objid = p.objid     AND pz.objid = p.objid"
+2019-10-17 15:27:00,1

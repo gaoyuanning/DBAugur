@@ -1,0 +1,3 @@
+2,"SELECT e.ra, e.dec FROM emissionLinesPort as e WHERE e.specObjID = #"
+2019-02-14 14:26:00,1
+2019-02-14 14:27:00,1

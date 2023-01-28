@@ -1,0 +1,2 @@
+1,"SELECT TOP #      m.plateifu,   m.objra,   m.objdec     FROM mangaDAPall AS m --JOIN emissionLinesPort AS e ON s.specobjid = e.specobjid    --WHERE"
+2019-09-20 18:50:00,1

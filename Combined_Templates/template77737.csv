@@ -1,0 +1,2 @@
+2,"select top # ra, dec, psfmag_u, psfmag_g, psfmag_r, psfmag_i, psfmag_z, psfmagerr_u, psfmagerr_g, psfmagerr_r, psfmagerr_i, psfmagerr_z from DR5QuasarCatalog where specObjID = #"
+2019-11-21 17:09:00,2

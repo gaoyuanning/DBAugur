@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, s.z as redshift, s.plate, s.mjd, s.fiberid into mydb.qso_zWarning from PhotoObj AS p INNER JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE s.class = # AND s.zWarning = #"
+2019-03-24 04:49:00,1

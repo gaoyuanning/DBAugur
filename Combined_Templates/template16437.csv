@@ -1,0 +1,13 @@
+13,"SELECT ra, dec, psfMag_u, psfMagErr_u, psfMag_g, psfMagErr_g, psfMag_r, psfMagErr_r, psfMag_i, psfMagErr_i, psfMag_z, psfMagErr_z FROM Star WHERE (ra between # and #) and (dec between # and #)"
+2019-03-03 09:20:00,1
+2019-03-03 09:30:00,1
+2019-03-03 09:40:00,1
+2019-03-03 10:51:00,1
+2019-03-03 11:13:00,1
+2019-03-03 11:25:00,1
+2019-03-03 11:30:00,1
+2019-03-03 11:31:00,1
+2019-03-03 11:55:00,1
+2019-03-03 12:23:00,1
+2019-03-03 12:35:00,1
+2019-03-03 12:39:00,2

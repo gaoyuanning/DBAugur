@@ -1,0 +1,2 @@
+1,"select run1, run2, arcsec, cts=sum(cts) from astrometry.budavari.Neighbors0#Star2#PixEq where run1 not in () and run2 not in () group by run1, run2, arcsec order by #,#,#"
+2019-04-29 17:30:00,1

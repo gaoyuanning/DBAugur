@@ -1,0 +1,4 @@
+5,"select SpecPhotoAll.objID, SpecPhotoAll.plate, SpecPhotoAll.mjd, SpecPhotoAll.fiberID, SpecPhotoAll.ra,    SpecPhotoAll.dec, XiangXiang_giants.RAJ2#, XiangXiang_giants.DEJ2# into mydb.XiangXiang_giantIDs  from DR9.SpecPhotoAll, mydb.XiangXiang_giants  where SpecPhotoAll.ra = XiangXiang_giants.RAJ2# and SpecPhotoAll.dec = XiangXiang_giants.DEJ2#"
+2019-11-08 13:25:00,2
+2019-11-08 13:43:00,1
+2019-11-08 13:45:00,2

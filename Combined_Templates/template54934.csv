@@ -1,0 +1,2 @@
+1,"select ra, dec, objid, psfmag_u, psfmag_g, psfmag_r, psfmag_i, psfmag_z, psfmagerr_u, psfmagerr_g, psfmagerr_r, psfmagerr_i, psfmagerr_z, extinction_u, extinction_g, extinction_r, extinction_i, extinction_z from star into mydb.s8#coadd where ( (flags & #) ! = #) AND ( (flags & #) = #) AND ( ((flags & #) = #) or (psfmagerr_r < = # and psfmagerr_i< = # and psfmagerr_g< =#) ) AND ( ((flags & #) = #) or (flags & #) = #) AND (run = # or run = #)"
+2019-08-01 15:18:00,1

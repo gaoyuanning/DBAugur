@@ -1,0 +1,4 @@
+3,"SELECT TOP # str(p.ra,#,#) as ra,str(p.[dec],#,#) as dec,p.petroMag_u,p.petroMag_g,p.petroMag_r,p.petroMag_i,p.petroMag_z,p.petroMagErr_u,p.petroMagErr_g,p.petroMagErr_r,p.petroMagErr_i,p.petroMagErr_z FROM BESTDR9..PhotoObj AS p 	JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = P.objID WHERE  ( p.type = # OR p.type = #)"
+2019-09-03 10:43:00,1
+2019-09-03 10:44:00,1
+2019-09-03 10:45:00,1

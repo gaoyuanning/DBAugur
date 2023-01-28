@@ -1,0 +1,2 @@
+6,"select q.z, ra, dec, u, g, r, i, z, TAI_u, TAI_g, TAI_r, TAI_i, TAI_z from PhotoObjAll, Photoz as q where dec < # AND dec > # AND (ra > # AND ra < # )"
+2019-11-21 11:13:00,6

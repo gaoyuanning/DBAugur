@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.fracDeV_r, p.deVRad_i, p.deVAB_i into mydb.p2sdssdr1#spec6all FROM SpecObj as s, PhotoObj as p WHERE s.bestObjID = p.objID AND (s.class = # or s.class = #)"
+2019-12-31 00:15:00,1

@@ -1,0 +1,2 @@
+1,"select deVRad_r, deVRadErr_r, expRad_r, expRadErr_r from DR1#.photoObj where objID = #"
+2019-10-04 05:04:00,1

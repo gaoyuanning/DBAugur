@@ -1,0 +1,5 @@
+4,"SELECT TOP # specObjID, survey, bestobjid, z /*Table of top # objects with redshift, survey they are in, and object ID for searching*/  FROM SpecObj /*Objects with spectra*/ WHERE class = &&& /* The objects shown will all be QSO&&&sdss&&&boss') /*searching across both the legacy and boss surveys (and not other surveys) */  order by newid() /* This is the randomisation algorithm */"
+2019-03-29 10:40:00,1
+2019-03-29 10:41:00,1
+2019-03-29 10:46:00,1
+2019-03-29 10:57:00,1

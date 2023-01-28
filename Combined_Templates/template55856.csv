@@ -1,0 +1,4 @@
+5,"select top # objID, ra, dec, has_wise_phot, treated_as_pointsource, coadd_id, w1_mag, w1_mag_err, w2_mag, w2_mag_err from wiseForcedTarget"
+2019-08-07 08:42:00,2
+2019-08-07 08:59:00,2
+2019-08-07 09:06:00,1

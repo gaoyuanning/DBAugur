@@ -1,0 +1,2 @@
+1,SELECT Galaxy.objID into Large_galaxy_sample_with_errors_nocuts_idradec FROM Galaxy JOIN wiseForcedTarget on Galaxy.objID = wiseForcedTarget.objID
+2019-07-04 06:52:00,1

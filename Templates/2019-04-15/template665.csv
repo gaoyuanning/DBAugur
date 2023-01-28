@@ -1,0 +1,3 @@
+3,"SELECT TOP # gsl.oii_#_reqw, gsl.oii_#_reqw_err, p.objid, p.ra,p.dec,p.petror9#_r, p.dered_g, s.z as z_spec   FROM Galaxy as p    JOIN galSpecLine AS gsl ON p.objid = gsl.objid    JOIN SpecObj AS s ON s.bestobjid = p.objid"
+2019-04-15 12:44:00,1
+2019-04-15 12:46:00,2

@@ -1,0 +1,2 @@
+1,"SELECT * FROM SpecObjID WHERE # > = CAST (CHECKSUM (NEWID () , SpecObjID) & # AS float) / CAST (# AS int)"
+2019-03-22 12:02:00,1

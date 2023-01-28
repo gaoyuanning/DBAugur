@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.extinction_g,p.extinction_i,p.extinction_r,p.extinction_u,p.extinction_z FROM BESTDR7..Galaxy AS p"
+2019-05-01 06:29:00,1

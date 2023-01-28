@@ -1,0 +1,2 @@
+1,"select top #   id, specobjid from MyDB.MyTable as m   join SpecObjAll as s on s.bestObjID=m.dr1#objid   join galSpecExtra as x on x.specobjid=s.specobjid   order by id"
+2019-05-29 14:57:00,1

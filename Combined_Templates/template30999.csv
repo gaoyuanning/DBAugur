@@ -1,0 +1,2 @@
+1,"select top # ra, dec from PhotoObj as p where p.ra BETWEEN # and # AND p.dec BETWEEN +# and +# AND p.z BETWEEN # and #"
+2019-04-16 05:43:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,q.z,q.zerr FROM Galaxy as p JOIN PhotoZ as q ON p.objid=q.objid WHERE ( (p.g <= #)  and (p.u - p.g >= #)   and (p.u - p.g < #)   and (p.g - p.r >= #)   and (p.g - p.r < #)   and (p.r - p.i >= #)   and (p.r - p.i < #)   and (p.i - p.z >= #)   and (p.i - p.z < #) )"
+2019-01-29 04:23:00,1

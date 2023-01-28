@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, pm.pmRa, pm.pmRaErr, pm.pmDec, pm.pmDecErr into mydb.MyTable_# from PhotoObj as p   JOIN SpecObj as s ON s.bestObjID = p.objID   JOIN ProperMotions as pm ON pm.objid = p.objID    where p.dec > # and p.dec<# and ( p.ra># or p.ra<#)"
+2019-03-05 06:04:00,1

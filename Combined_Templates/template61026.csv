@@ -1,0 +1,4 @@
+3,"select objid, ra, dec, u, g, r, i, z from PhotoObj where objid ="
+2019-09-04 21:31:00,1
+2019-09-04 22:36:00,1
+2019-09-05 00:09:00,1

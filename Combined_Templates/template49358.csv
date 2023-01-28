@@ -1,0 +1,2 @@
+1,"select top # plate, mjd, fiberid, ra, dec, SPECOBJID from SpecObjAll s where (s.ra, s.dec) in (select ra, dec from SpecObjAll group by ra, dec having count (*) > #)"
+2019-07-01 01:39:00,1

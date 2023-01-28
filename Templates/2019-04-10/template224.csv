@@ -1,0 +1,2 @@
+1,"select top # specobjid, bestobjid, z, survey from specobj where zwarning = # and class = &&& and z between # and # oderby by NEWID()"
+2019-04-10 18:19:00,1

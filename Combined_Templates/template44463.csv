@@ -1,0 +1,3 @@
+2,"SELECT m.designation, m.ra AS ra1, m.dec AS dec1, n.objid, n.distance, o.ra AS ra2, o.dec AS dec2, s.z, s.zErr, s.zWarning, p.z as zPhot, p.zErr as zPhotErr, o.dered_u, o.dered_g, o.dered_i, o.dered_r, o.dered_z from mydb.wise1# AS m CROSS APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n JOIN PhotoObj AS o ON n.objid = o.objid LEFT JOIN SpecObj AS s on o.specObjID = s.specObjID LEFT JOIN Photoz as p on p.objID = o.objid WHERE o.mode = # AND o.type = #"
+2019-06-06 02:58:00,1
+2019-06-06 02:59:00,1

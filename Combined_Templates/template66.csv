@@ -1,0 +1,2 @@
+2,"SELECT specobjid, ra, dec, plate, mjd, fibered FROM SpecPhoto WHERE (class = #)"
+2019-01-01 11:39:00,2

@@ -1,0 +1,2 @@
+1,"SELECT s.plate, s.fiberid, s.mjd, s.ra, s.dec from SpecObj as s into mydb.test_fr2 JOIN photoobjall as ph on s.bestObjID = ph.objID JOIN mydb.FRII_control as fr2 on s.plate = fr2.plate and s.mjd = fr2.mjd and s.fiberid = fr2.fiberid --JOIN wISE_xmatch as wg on s.bestObjID = wg.sdss_objid --JOIN wISE_allsky as ws on ws.cntr = wg.wise_cntr ---INNER JOIN specDR7 as d on d.specObjID = s.specObjID WHERE s.z BETWEEN # AND #"
+2019-05-07 05:02:00,1

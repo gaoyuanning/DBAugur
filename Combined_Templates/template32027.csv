@@ -1,0 +1,2 @@
+1,"SELECT a.title, COUNT (t.albumId) FROM chinook.album a LEFT JOIN chinook.track t ON t.albumId = a.albumId GROUP BY t.albumId"
+2019-04-20 16:55:00,1

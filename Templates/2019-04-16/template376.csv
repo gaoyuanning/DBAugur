@@ -1,0 +1,7 @@
+6,"CREATE TABLE [Diet_by_#_hour_recall] ( 	eid BIGINT NOT NULL ,	[Daily_dietary_data_credible_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Invitation_to_complete_online_#_hour_recall_dietary_questionnaire_acceptance_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Invitation_to_complete_online_#_hour_recall_dietary_questionnaire_date_sent_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=# ,PRIMARY KEY (eid)) GO"
+2019-04-16 08:57:00,1
+2019-04-16 08:59:00,1
+2019-04-16 10:13:00,1
+2019-04-16 10:15:00,1
+2019-04-16 10:18:00,1
+2019-04-16 10:36:00,1

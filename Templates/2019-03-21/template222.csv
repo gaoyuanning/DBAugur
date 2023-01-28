@@ -1,0 +1,19 @@
+1670,"SELECT TOP #  cast(str(s.ra,#,#) as float) as ra,cast(str(s.[dec],#,#) as float) as dec,s.z,s.zErr,p.dered_g,p.dered_r,p.dered_i,p.dered_z  FROM ..SpecObj as s  JOIN ..PhotoObj AS p ON s.bestObjID = p.objID  JOIN dbo.fGetNearbySpecObjEq(#,#,#) AS b ON b.SpecobjID = S.SpecobjID  WHERE s.zWarning = # AND (s.class = &&&) AND ( p.type = # OR p.type = #)"
+2019-03-21 16:49:00,35
+2019-03-21 16:52:00,91
+2019-03-21 16:53:00,102
+2019-03-21 16:54:00,99
+2019-03-21 16:55:00,102
+2019-03-21 16:56:00,103
+2019-03-21 16:57:00,103
+2019-03-21 16:58:00,103
+2019-03-21 16:59:00,103
+2019-03-21 17:00:00,102
+2019-03-21 17:01:00,104
+2019-03-21 17:02:00,106
+2019-03-21 17:03:00,106
+2019-03-21 17:04:00,100
+2019-03-21 17:05:00,89
+2019-03-21 17:06:00,106
+2019-03-21 17:07:00,105
+2019-03-21 17:08:00,11

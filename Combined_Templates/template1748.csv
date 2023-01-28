@@ -1,0 +1,2 @@
+1,"SELECT top # m.objid, m.ra, m.dec FROM NN_#ARCSeconds m WHERE m.ra IN ()"
+2019-01-09 15:15:00,1

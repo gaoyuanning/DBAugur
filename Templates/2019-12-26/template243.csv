@@ -1,0 +1,2 @@
+3,"select plate,MJD,fiberID,subclass from specObj   where ra = # and dec = #"
+2019-12-26 07:48:00,3

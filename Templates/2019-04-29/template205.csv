@@ -1,0 +1,2 @@
+1,"SELECT ALL  p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,p.type,   p.probPSF,  p.petroR9#_u, p.petroR9#_g, p.petroR9#_r, p.petroR9#_i, p.petroR9#_z FROM PhotoObj AS p WHERE  p.ra BETWEEN %s AND %s  AND p.dec BETWEEN %s AND %s  AND p.type = # ORDER by p.r"
+2019-04-29 14:54:00,1

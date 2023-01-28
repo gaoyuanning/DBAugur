@@ -1,0 +1,3 @@
+4,"SELECT  g.objID,  g.petroR5#_u, g.petroR5#_g, g.petroR5#_r, g.petroR5#_i, g.petroR5#_z, g.petroR9#_u, g.petroR9#_g, g.petroR9#_r, g.petroR9#_i, g.petroR9#_z, g.mCr4_u, g.mCr4_g, g.mCr4_r, g.mCr4_i, g.mCr4_z, g.u, g.g, g.r, g.i, g.z, g.q_u, g.q_g, g.q_r, g.q_i, g.q_z, g.u_u, g.u_g, g.u_r, g.u_i, g.u_z, p.z, p.rest_ug, p.rest_gr, p.rest_ri, p.rest_iz FROM Galaxy AS g, PhotoZ AS p WHERE g.objID = p.objID AND g.specobjID > # AND htmid*# & # < (# * #) order by g.ra"
+2019-09-25 17:00:00,3
+2019-09-25 17:03:00,1

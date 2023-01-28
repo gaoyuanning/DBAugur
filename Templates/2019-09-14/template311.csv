@@ -1,0 +1,2 @@
+1,"select id0.*, gc2.t0#_edgeon_a0#_yes_flag as flg_edge,   gc2.t0#_edgeon_a0#_no_flag as flg_noedge,    gc2.t0#_odd_feature_a2#_merger_flag as flg_merger,    gc2.t0#_odd_feature_a2#_disturbed_flag as flg_disturb,   gc2.t0#_smooth_or_features_a0#_features_or_disk_flag as flg_disk,    gc2.t0#_smooth_or_features_a0#_smooth_flag as flg_ellip into GZ2_z0M1#  from zoo2Stripe8#Coadd2 as gc2    join mydb.PtDR8_z0M1# as id0 on gc2.specobjid = id0.specobjid"
+2019-09-14 00:09:00,1

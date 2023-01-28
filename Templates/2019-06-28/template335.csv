@@ -1,0 +1,3 @@
+2,"SELECT TOP # GAL.ObjID, SO.chunk, SO.ra, SO.dec,SO.z,PO.u,PO.g,PO.r,PO.i,PO.z,SO.specobjid from  SpecOBJ SO, galSpecLine LINE, Galaxy GAL, PhotoObjAll PO where SO.bestObjID= GAL.ObjID and LINE.specObjID = SO.specObjID AND SO.specObjID= PO.specObjID AND LINE.oiii_#_flux ># AND LINE.h_beta_flux ># AND SO.z between # and # and SO.snMedian ># and (LINE.oiii_#_flux / LINE.h_beta_flux) between # and # and (LINE.nii_#_flux / LINE.h_alpha_flux) between # and # and (LINE.oi_#_flux / LINE.h_alpha_flux) between # and # and ((LINE.sii_#_flux + LINE.sii_#_flux)/LINE.h_alpha_flux) between # and # AND LINE.h_alpha_flux <># order by ra"
+2019-06-28 02:49:00,1
+2019-06-28 13:14:00,1

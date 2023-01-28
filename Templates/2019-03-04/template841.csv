@@ -1,0 +1,7 @@
+8,"select ra,dec,z into mydb.MyTable_# from specObj  where ra BETWEEN # and # AND   dec BETWEEN # and # AND   z BETWEEN # AND #"
+2019-03-04 07:34:00,2
+2019-03-04 07:35:00,1
+2019-03-04 07:36:00,1
+2019-03-04 07:37:00,1
+2019-03-04 07:39:00,1
+2019-03-04 07:45:00,2

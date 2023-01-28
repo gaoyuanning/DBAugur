@@ -1,0 +1,2 @@
+1,"SELECT TOP # spectroFlux_r, spectroFlux_u, spectroFlux_g, spectroFlux_i, spectroFlux_z, z FROM SpecObjAll, PhotoObjAll WHERE class = qso"
+2019-12-10 00:06:00,1

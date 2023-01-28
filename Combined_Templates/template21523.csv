@@ -1,0 +1,2 @@
+1,"SELECT objid, ra, dec, dered_r, petroR5#_r, petroR9#_r, clean FROM PhotoPrimary WHERE type = # and dered_r > = # and dered_r < = #"
+2019-03-19 14:13:00,1

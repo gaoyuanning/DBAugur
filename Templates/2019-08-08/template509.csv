@@ -1,0 +1,2 @@
+1,"SELECT ALL specObjID, ra, dec, z, zErr,    fiberMag_u, fiberMag_g, fiberMag_r, fiberMag_i, fiberMag_z,    petroMag_u, petroMag_g, petroMag_r, petroMag_i, petroMag_z,    survey, programname, sourceType, type into mydb.MyTable3 from SpecPhoto WHERE     z < #"
+2019-08-08 06:48:00,1

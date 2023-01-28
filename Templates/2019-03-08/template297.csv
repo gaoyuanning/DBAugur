@@ -1,0 +1,2 @@
+1,"SELECT   p.objid, p.ra, p.dec, p.probPSF, p.psfMag_u,  s.specObjID, s.z, s.zErr,  z.z as pz, z.zErr as pzErr FROM photoObjAll p, dbo.fgetNearByObjEq(#,#,#) n JOIN SpecObj s ON s.bestobjid = p.objID WHERE   p.objid = n.objid"
+2019-03-08 16:18:00,1

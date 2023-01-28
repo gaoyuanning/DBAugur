@@ -1,0 +1,2 @@
+1,"select objID,specObjID,ra,dec,petroR5#_r,petroR9#_r into mydb.MyTable from PhotoTag where type=#   and specObjID!=#"
+2019-01-25 08:51:00,1

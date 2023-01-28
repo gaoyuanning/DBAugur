@@ -1,0 +1,2 @@
+1,"SELECT ALL into mydb.sdss_stripe sdss.objID, sdss.ra, sdss.dec, sdss.b, sdss.l, sdss.type, sdss.clean, sdss.flags, sdss.u, sdss.g, sdss.r, sdss.i, sdss.z FROM PhotoPrimary sdss WHERE sdss.b > # AND sdss.l > = # AND sdss.l < = #"
+2019-02-22 07:28:00,1

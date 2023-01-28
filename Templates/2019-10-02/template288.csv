@@ -1,0 +1,2 @@
+1,"select ra,dec,psfMag_u,psfMag_g,psfMag_r,psfMag_i,psfMag_z,objID from PhotoObj where psfMag_g > # and psfMag_u - psfMag_g > # and ra between # and #"
+2019-10-02 14:02:00,1

@@ -1,0 +1,2 @@
+1,"select g.ra, g.dec, g.petroMag_r, g.modelMag_r, g.modelMag_g, g.extinction_r,g.extinction_g, g.petroR5#_r, s.specObjID into mydb.MyTable_# from Galaxy as g   join SpecObj as s on (g.ra = s.ra and g.dec = s.dec) where (g.ra># and g.ra<#) and (g.dec># and g.dec<#) and g.petroMag_r <# and g.clean = # and (g.cmodelmag_r - g.psfMag_r > .#)"
+2019-04-28 17:03:00,1

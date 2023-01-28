@@ -1,0 +1,2 @@
+1,"select top #  specobjid, bestobjid, firstrelease, survey, sourcetype,   dbo.fPriTargetN(&&&) as priTarget,  ra, dec, z, zErr from Specobj  where   zwarning = #"
+2019-11-28 04:13:00,1

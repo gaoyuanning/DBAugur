@@ -1,0 +1,2 @@
+1,"select Track.AblumId, Track.TrackId, InvoiceLine.UnitPrice, InvoiceLine.TrackId  From chinook.* Inner Join chinook.InvoiceLine on Track.TrackId = InvoiceLine.TrackId"
+2019-04-21 12:37:00,1

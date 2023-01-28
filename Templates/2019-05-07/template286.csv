@@ -1,0 +1,2 @@
+1,"SELECT  s.specObjID         into  mydb.sourType         from SpecObj as s, PhotoObj as p         WHERE (s.class_noqso=&&& AND s.bestObjID = p.objID and s.sourceType!=&&& )"
+2019-05-07 17:10:00,1

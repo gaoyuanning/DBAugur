@@ -1,0 +1,2 @@
+1,"SELECT count(*) as &&&, SkyServer.b, SkyServer.l     sum( case when (Type=#) then # else # end) as &&&,     sum( case when (Type=#) then # else # end) as &&&,     sum( case when (Type not in (#,#)) then # else # end) as &&& FROM PhotoPrimary as p WHERE (b between # and #)"
+2019-03-05 16:31:00,1

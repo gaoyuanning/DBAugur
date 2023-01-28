@@ -1,0 +1,2 @@
+1,"SELECT tm.j, tm.h, tm.k, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z FROM TwoMass as tm INNER JOIN PhotoObjDR7 as p on p.ObjID = tm.ObjID WHERE p.specObjID = #"
+2019-09-17 17:20:00,1

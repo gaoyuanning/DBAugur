@@ -1,0 +1,2 @@
+1,"SELECT top # p.objid, p.cModelMag_u, p.cModelMag_g, p.cModelMag_r, p.cModelMag_i, p.cModelMag_z, s.class FROM PhotoObjAll p LEFT JOIN specObjAll s on p.objID=s.bestObjID"
+2019-03-25 16:04:00,1

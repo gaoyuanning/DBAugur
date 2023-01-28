@@ -1,0 +1,2 @@
+1,select count(*) into mydb.MyTable_# from specphoto
+2019-12-08 08:10:00,1

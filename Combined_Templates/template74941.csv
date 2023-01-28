@@ -1,0 +1,2 @@
+1,"select specobjid, ra, dec, cmodelmag_u, cmodelmag_g, cmodelmag_r, cmodelmag_i, cmodelmag_z, dered_u, dered_g, dered_r, dered_i, dered_z, Z, cModelMagErr_u, cModelMagErr_g, cModelMagErr_r, cModelMagErr_i, cModelMagErr_z, Zerr FROM SpecPhotoAll where type = #"
+2019-11-10 06:36:00,1

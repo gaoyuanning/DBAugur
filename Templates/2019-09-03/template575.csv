@@ -1,0 +1,2 @@
+1,"select  SMP.specObjID, SMP.ra, SMP.dec, SMP.z, 	SMP.logMass, SMP.minLogMass, SMP.maxLogMass, 	SMP.age, SMP.minAge, SMP.maxAge, 	SMP.SFR, SMP.minSFR, SMP.maxSFR  into mydb.Stellar_Mass from stellarMassPassivePort as SMP  WHERE (SMP.ra between # and #)  and (SMP.dec between # and #)"
+2019-09-03 01:03:00,1

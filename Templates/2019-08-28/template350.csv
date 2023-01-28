@@ -1,0 +1,3 @@
+4,"SELECT TOP # p.run,p.rerun,p.camCol,p.field,p.obj FROM BESTDR7..Star AS p 	JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = p.objID WHERE  (p.flags & (dbo.fPhotoFlags(&&&)) > #)"
+2019-08-28 05:39:00,3
+2019-08-28 05:40:00,1

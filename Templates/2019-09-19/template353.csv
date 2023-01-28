@@ -1,0 +1,2 @@
+1,"select haloid,x,y,z,np,halfMassRadius  from mr  where snapnum=# and np > #      -- halos at redshift #, ># particles    and firstHaloInFOFGroupId=haloid   -- halos at center of their fof group only"
+2019-09-19 09:44:00,1

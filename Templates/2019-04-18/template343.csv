@@ -1,0 +1,2 @@
+1,"SELECT TOP # oiii_#_reqw_err as oir, h_beta_reqw_err as hbr, nii_#_reqw_err as nir, h_alpha_reqw_err as har, specObjID   FROM galSpecLine as p   WHERE oiii_#_reqw_err > # AND oiii_#_reqw/oiii_#_reqw_err > #"
+2019-04-18 15:26:00,1

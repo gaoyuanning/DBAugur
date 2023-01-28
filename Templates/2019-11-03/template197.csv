@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec, s.z, s.zErr, s.velDisp, s.velDispErr, p.ra, p.dec, p.z, p.zErr From SpecObj AS s  JOIN SpecPhotoAll as p ON s.specObjID = p.specObjID"
+2019-11-03 17:25:00,1

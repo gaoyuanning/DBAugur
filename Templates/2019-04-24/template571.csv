@@ -1,0 +1,2 @@
+1,"CREATE TABLE out_zhao_# (   name bigint,   ra real,   dec real,   objid bigint,   specObjID bigint,   plate smallint,   mjd int,   fiberID smallint,   sra real,   sdec real,   sz real,   EW_Ha_# real,   EW_Ha_#_Err real )"
+2019-04-24 13:30:00,1

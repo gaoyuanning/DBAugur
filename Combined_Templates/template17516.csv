@@ -1,0 +1,2 @@
+1,"SELECT TOP # elp.specObjID, elp.plate, elp.fiberID, elp.mjd, elp.ra, elp.dec, elp.z, elp.redshift, elp.bpt, elp.ebmv, elp.ebmv_err, elp.V_Hb_#, elp.V_Hb_#_Err, elp.Sigma_Hb_#, elp.Sigma_Hb_#_Err, elp.Amplitude_Hb_#, elp.Amplitude_Hb_#_Err, elp.Flux_Hb_#, elp.Flux_Hb_#_Err, elp.EW_Hb_#, elp.EW_Hb_#_Err, elp.Flux_Cont_Hb_#, Flux_Cont_Hb_#_Err, elp.Fit_Warning_Hb_#, elp.Error_Warning FROM emissionLinesPort AS elp WHERE bpt = Star Forming AND"
+2019-03-05 11:23:00,1

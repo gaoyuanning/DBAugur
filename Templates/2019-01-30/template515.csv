@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.specObjID,s.spectroFlux_g,s.spectroFlux_i,s.spectroFlux_r,s.spectroFlux_u,s.spectroFlux_z,s.spectroFluxIvar_g,s.spectroFluxIvar_i,s.spectroFluxIvar_r,s.spectroFluxIvar_u,s.spectroFluxIvar_z,s.spectrographID,s.spectroSkyFlux_g,s.spectroSkyFlux_i,s.spectroSkyFlux_r,s.spectroSkyFlux_u  FROM ..SpecObj as s  JOIN dbo.fGetObjFromRect(#,#,#,#) AS b ON s.bestobjid = b.objID  WHERE s.zWarning = #"
+2019-01-30 06:20:00,1

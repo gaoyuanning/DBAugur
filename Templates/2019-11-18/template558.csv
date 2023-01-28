@@ -1,0 +1,2 @@
+1,"select sum(x * y #) as derived, stdev(y) from Data where x > .# and x+y between # and #"
+2019-11-18 12:35:00,1

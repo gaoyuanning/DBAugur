@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.skyIvar_r, p.sky_r, p.psffwhm_r, p.r FROM PhotoObj AS p WHERE p.probPSF_r < #"
+2019-05-17 12:39:00,1

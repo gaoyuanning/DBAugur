@@ -1,0 +1,2 @@
+1,"SELECT TOP #   SPhot.specObjID,        SPhot.objID               INTO mydb.mytable_withEmission_test FROM dr1#.SpecPhoto AS SPhot       JOIN dr1#.SpecObj AS     SObj ON SObj.specObjID = SPhot.specObjID"
+2019-12-02 01:32:00,1

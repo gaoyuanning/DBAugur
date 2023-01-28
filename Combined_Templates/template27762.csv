@@ -1,0 +1,7 @@
+6,"select top # p.ra, p.dec, m.glon, m.glat, p.apogee_id, m.apstar_id, p.j, p.j_err, p.h, p.h_err, p.k, p.k_err, p.irac_#_#, p.irac_#_#_err, p.src_#_# from apogeeObject p, apogeeStar m"
+2019-04-04 13:52:00,1
+2019-04-04 14:04:00,1
+2019-04-04 14:06:00,1
+2019-04-04 14:08:00,1
+2019-04-04 14:11:00,1
+2019-04-04 14:17:00,1

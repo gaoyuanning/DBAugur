@@ -1,0 +1,2 @@
+1,"select u.Name, r.RunID, r.Xmax - r.Xmin from Runs r, Users u -- aliases are convenient where r.UserID = u.UserID"
+2019-05-06 13:53:00,1

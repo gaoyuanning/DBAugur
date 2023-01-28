@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, z, g.h_alpha_flux, g.h_beta_flux, g.oii_#_flux FROM GalSpecLine AS g JOIN SpecObj AS s ON s.specobjid = g.specobjid WHERE dec BETWEEN # and # AND s.class = # AND h_alpha_flux > # AND h_beta_flux > # AND oii_#_flux > #"
+2019-04-03 18:34:00,1

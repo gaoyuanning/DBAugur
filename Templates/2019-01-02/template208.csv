@@ -1,0 +1,2 @@
+1,"CREATE TABLE Tmp_ClassTraining_SDSS_Objects (     objID bigint not null primary key,     trainID integer,     objectID bigint )     CREATE TABLE Tmp_ClassTraining_NonSDSS_Objects (     objID bigint not null primary key,     trainID integer,     raMean float,     raMeanErr real,     decMean float,     decMeanErr real )"
+2019-01-02 08:15:00,1

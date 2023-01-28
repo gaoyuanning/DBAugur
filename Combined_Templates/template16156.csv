@@ -1,0 +1,2 @@
+1,"select top # p.objid, p.ra, p.dec, p.mpe, p.mp2#, r.objid, r.cmodelmag_g, r.devrad_g, r.exprad_g from RC3 as p join PhotoObjAll as r on p.objid = r.objid where mpe > # and mp2# > #"
+2019-03-02 14:23:00,1

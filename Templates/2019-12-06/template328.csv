@@ -1,0 +1,2 @@
+1,"SELECT s.specObjID, s.objid, s.ra,s.dec, p.z AS photoz, p.zerr AS photoz_err, s.z AS specz, s.zerr AS specz_err,    s.modelMag_r, s.modelMagErr_r, s.type as specType, q.type as photpType, q.petroRad_r, q.psfMag_r,q.psfMagErr_r, q.fiberMag_r,q.fiberMagErr_r   INTO mydb.specPhotoDR1#v2 FROM SpecPhotoAll AS s  JOIN photoObjAll AS q ON s.objid=q.objid   LEFT OUTER JOIN Photoz AS p ON s.objid=p.objid"
+2019-12-06 10:00:00,1

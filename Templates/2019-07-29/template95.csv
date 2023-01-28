@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, psfmag_g, psfmag_r FROM PhotoPrimary AS p JOIN dbo.fGetNearbyObjEq(#,#, #) AS n ON p.objID = n.objID"
+2019-07-29 21:04:00,1

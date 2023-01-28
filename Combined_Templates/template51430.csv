@@ -1,0 +1,9 @@
+8,"select top # p.objid as name, p.ra, p.dec from photoobj p, specobj s where p.objid = s.bestobjid and (s.specclass = # or s.specclass = #)"
+2019-07-11 03:20:00,1
+2019-07-11 03:28:00,1
+2019-07-11 03:32:00,1
+2019-07-11 03:34:00,1
+2019-07-12 02:17:00,1
+2019-07-12 18:38:00,1
+2019-07-12 18:59:00,1
+2019-09-01 23:26:00,1

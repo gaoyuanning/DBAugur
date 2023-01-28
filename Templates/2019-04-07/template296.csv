@@ -1,0 +1,3 @@
+3,"select nsa_petro_th5#, nsa_elpetro_th5#_r, nsa_nsaid from nsatlas where plateifu = &&& or plateifu  = &&& into tmp"
+2019-04-07 08:21:00,1
+2019-04-07 08:22:00,2

@@ -1,0 +1,2 @@
+1,"SELECT G.ra, G.dec, G.petroMag_r, G.modelMag_g, G.modelMag_r, G.extinction_g, G.extinction_r, G.petroR5#_r, S.specObjID FROM Galaxy as G   JOIN SpecObj on S.specObjID=G.objID  WHERE ra between # and # AND   dec between # and #"
+2019-05-01 14:57:00,1

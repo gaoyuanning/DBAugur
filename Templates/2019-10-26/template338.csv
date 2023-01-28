@@ -1,0 +1,2 @@
+1,"select column_name   from information_schema.columns   where table_name=&&& and data_type in (&&&,&&&)     order by ordinal_position"
+2019-10-26 11:05:00,1

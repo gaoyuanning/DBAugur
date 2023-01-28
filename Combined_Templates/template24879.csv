@@ -1,0 +1,2 @@
+1,SELECT Q.objId FROM QSO as Q JOIN SpecObj as S ON Q.objId = S.bestObjId JOIN SpecLine as L ON S.specObjId = L.specObjId WHERE L.LineId = #
+2019-03-28 18:33:00,1

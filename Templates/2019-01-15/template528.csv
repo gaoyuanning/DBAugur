@@ -1,0 +1,2 @@
+1,"SELECT Top #   objID,modelMag_u,modelMag_g,modelMag_r,modelMag_i,modelMag_z into mydb.MyTable_# from PhotoObjAll   WHERE modelMag_u > # and modelMag_g > # and modelMag_r > # and modelMag_i ># and modelMag_z >#"
+2019-01-15 08:38:00,1

@@ -1,0 +1,2 @@
+2,"select specObjID, ra, dec from SpecPhotoAll where ra = #"
+2019-10-09 17:56:00,2

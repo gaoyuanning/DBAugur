@@ -1,0 +1,2 @@
+1,"SELECT    m.raj2#,m.dej2#, p.ra, p.dec into mydb.MyTable_# from mytable_# m, PhotoObjAll p"
+2019-08-22 03:30:00,1

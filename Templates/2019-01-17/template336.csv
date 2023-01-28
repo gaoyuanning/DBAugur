@@ -1,0 +1,2 @@
+1,"SELECT TOP #   ra ,dec   FROM   SpecObj  WHERE   ra > # and ra < #   AND dec > # and dec < #"
+2019-01-17 08:43:00,1

@@ -1,0 +1,2 @@
+1,"SELECT s.specObjID, s.z, p.petromag_r - p.extinction_r into mydb.MyTable_# from SpecObj s INNER JOIN PhotoObjAll p ON s.bestObjID = p.objID WHERE survey = # AND (s.legacy_target1 & #) < > # AND s.z BETWEEN # AND # AND p.petromag_r > #"
+2019-01-04 09:44:00,1

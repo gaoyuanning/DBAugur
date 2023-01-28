@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.ra, p.dec, p.specobjid, p.plate, p.mjd, p.fiberid, p.z, sp.fiberMag_i, p.run2d FROM specphoto as sp JOIN specobj as p WHERE survey = #"
+2019-02-04 23:56:00,1

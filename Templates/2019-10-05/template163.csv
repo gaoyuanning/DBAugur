@@ -1,0 +1,6 @@
+6,"CREATE TABLE Census(         ID bigint primary key not null,         Geog geography not null)"
+2019-10-05 18:16:00,1
+2019-10-05 18:17:00,1
+2019-10-05 18:19:00,1
+2019-10-05 18:20:00,2
+2019-10-05 18:26:00,1

@@ -1,0 +1,2 @@
+2,"select * from Portfolio.budavari.Parameters where day=# and algo in (&&&,&&&) and progress=# order by day"
+2019-02-18 10:32:00,2

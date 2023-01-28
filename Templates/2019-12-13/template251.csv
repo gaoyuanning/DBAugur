@@ -1,0 +1,2 @@
+1,"SELECT   m.ra,m.dec,o.velDisp into MyDBDispQuery FROM MyDB.dispersio_query AS m   CROSS APPLY dbo.fGetNearestObjEq(m.ra,m.dec,#) as n   JOIN SpecObjAll AS o ON n.objid=o.objid"
+2019-12-13 14:56:00,1

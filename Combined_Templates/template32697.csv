@@ -1,0 +1,2 @@
+1,SELECT count (*) FROM SpecObj WHERE class = # AND zWarning = # and z > = # and z < # and survey IN ()
+2019-04-21 10:28:00,1

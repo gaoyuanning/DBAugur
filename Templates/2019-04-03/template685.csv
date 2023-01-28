@@ -1,0 +1,4 @@
+4,"SELECT  dr7objid,dr8objid,ra,dec into mydb.coordinates FROM PhotoObjDR7 Where modeDR7=# and modeDR8=#"
+2019-04-03 08:22:00,2
+2019-04-03 08:24:00,1
+2019-04-03 08:25:00,1

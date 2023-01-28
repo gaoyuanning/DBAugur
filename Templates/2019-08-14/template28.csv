@@ -1,0 +1,2 @@
+1,"SELECT count(*)   class, z , plate, mjd, fiberid, snMedian FROM SpecObj  WHERE   z BETWEEN # AND #  AND class = &&&  AND zWarning = #"
+2019-08-14 23:19:00,1

@@ -1,0 +1,2 @@
+1,select * from geotest where the_geo is not null
+2019-11-26 16:42:00,1

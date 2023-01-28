@@ -1,0 +1,2 @@
+1,"select r.HUBBLE, r.M2#, r.M2#ERR, r.HI from RC3 r where r.objID=#"
+2019-04-29 14:39:00,1

@@ -1,0 +1,2 @@
+1,"SELECT g.ObjId, g.ra, g.dec, g.field, g.type, g.clean, g.probPSF, g.insideMask, g.flags, g.psfMag_r, g.psfMagErr_r, g.cmodelMag_r, g.cmodelMagErr_r, g.PSFfwhm_r, p.z, p.zErr into mydb.DR1#bc from Galaxy as g join Photoz as p on p.Objid = g.ObjId where g.type = # and g.cmodelMag_r < # and g.insideMask = # and p.z > # and g.ra between # and # and g.dec between # and #"
+2019-10-14 07:32:00,1

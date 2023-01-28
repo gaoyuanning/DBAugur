@@ -1,0 +1,3 @@
+3,"SELECT TOP # plateifu, mangaID, plateifu, objra, objdec FROM mangapipe3d WHERE (log_Mass > #.)"
+2019-12-11 13:13:00,1
+2019-12-14 10:32:00,2

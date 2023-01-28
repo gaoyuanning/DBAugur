@@ -1,0 +1,2 @@
+1,"SELECT t.objID,t.ra,t.dec,t.r,t.type,SQRT(POWER(((#-t.ra)*cos((t.dec)*(#/#))),#)+(POWER((#-t.dec),#))) as angsep INTO mydb.A1#_neighbors1 FROM dbo.PhotoObj as t where   SQRT(POWER(((#-t.ra)*cos((t.dec)*(#/#))),#)+(POWER((#-t.dec),#))) < .# and   t.type = #"
+2019-12-28 17:10:00,1

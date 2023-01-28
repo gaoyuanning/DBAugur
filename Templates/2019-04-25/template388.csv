@@ -1,0 +1,17 @@
+29,"select a.specObjID, a.img, a.fiberID, a.mjd, a.plate, a.survey, a.programname, a.instrument,a.sourceType,a.z, a.zErr, dbo.fSpecZWarningN(a.zWarning) as WARNING, a.sciencePrimary, dbo.fPrimTargetN(a.legacy_target1) as targetOne, a.legacy_target2 as targetTwo, a.class as CLASS, a.velDisp, a.velDispErr from SpecObjAll a where bestObjID=#"
+2019-04-25 12:44:00,1
+2019-04-25 13:01:00,2
+2019-04-25 13:04:00,1
+2019-04-25 13:35:00,1
+2019-04-25 13:39:00,1
+2019-04-25 13:42:00,1
+2019-04-25 13:44:00,1
+2019-04-25 13:45:00,1
+2019-04-25 13:48:00,2
+2019-04-25 13:49:00,1
+2019-04-25 13:52:00,1
+2019-04-25 13:53:00,1
+2019-04-25 14:25:00,2
+2019-04-25 14:38:00,2
+2019-04-25 14:41:00,5
+2019-04-25 14:42:00,6

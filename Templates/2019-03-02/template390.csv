@@ -1,0 +1,3 @@
+88,select objid from star where star.dec between # and # and star.ra between # and #
+2019-03-02 09:13:00,27
+2019-03-02 09:14:00,61

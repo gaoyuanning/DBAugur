@@ -1,0 +1,7 @@
+8,"SELECT TOP # gsl.oiii_#_flux, gsl.oiii_#_flux_err, gsl.nii_#_flux, gsl.nii_#_flux_err, gsl.h_alpha_flux, gsl.h_alpha_flux_err, gsl.h_beta_flux, gsl.h_beta_flux_err, p.objid, p.ra, p.dec, p.petror9#_r, p.dered_z, p.dered_r, p.dered_g   FROM Galaxy as p    JOIN galSpecLine AS gsl ON p.specobjid = gsl.specobjid     WHERE   gsl.oiii_#_flux > # AND gsl.nii_#_flux > # AND gsl.h_alpha_flux > # AND gsl.h_beta_flux > # AND gsl.oiii_#_flux/gsl.oiii_#_flux_err > # AND gsl.nii_#_flux/gsl.nii_#_flux_err > #          AND gsl.h_alpha_flux/gsl.h_alpha_flux_err > # AND gsl.h_beta_flux/gsl.h_beta_flux_err > #"
+2019-04-26 12:36:00,1
+2019-04-26 12:37:00,1
+2019-04-26 12:39:00,1
+2019-04-26 12:40:00,3
+2019-04-26 12:42:00,1
+2019-04-26 12:43:00,1

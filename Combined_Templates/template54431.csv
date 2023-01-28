@@ -1,0 +1,3 @@
+4,"SELECT s.specObjID as specobjid, s.ra, s.dec, s.class, s.subclass from MyDB.sdss_merge AS m LEFT JOIN SpecObjAll AS s ON n.specObjID = s.specObjID where ( (s.class = # AND s.subclass = #) OR (s.class = # AND s.subclass = #) )"
+2019-07-29 00:59:00,1
+2019-07-29 01:00:00,3

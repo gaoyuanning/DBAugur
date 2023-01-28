@@ -1,0 +1,2 @@
+1,select top # * into mydb.MyTable_# from dbo.Star;
+2019-01-07 07:47:00,1

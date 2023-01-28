@@ -1,0 +1,2 @@
+1,"SELECT survey, MIN (snMedian) +# AS min, MAX (snMedian) +# AS max FROM specObjAll WHERE zWarning = # and class = # and survey = # GROUP BY survey"
+2019-03-20 18:20:00,1

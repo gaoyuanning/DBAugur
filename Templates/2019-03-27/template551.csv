@@ -1,0 +1,2 @@
+1,"SELECT       gi.specObjID, gi.ra as gi_ra, gi.dec as gi_dec, gi.z as gi_z, gi.z_err as gi_zerr, gi.z_warning as gi_zwarning, s.z as s_z, s.z_err as s_zerr, s.z_warning as s_zwarning, gi.spectrotype, gi.subclass, gi.reliable as gi_reliable,   ge.bptclass into mydb.MyTable_# from galSpecInfo AS gi     LEFT JOIN galSpecExtra AS ge ON gi.specObjID = ge.specObjID     LEFT JOIN specObj as s ON gi.specObjID = s.specObjID"
+2019-03-27 07:52:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra, dec, flags, plate, mjd, fiberID FROM Galaxy WHERE ( (flags & #) = #) AND ( (flags & #) = #)"
+2019-03-29 14:55:00,1

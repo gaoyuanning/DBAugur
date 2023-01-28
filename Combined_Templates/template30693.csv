@@ -1,0 +1,2 @@
+1,SELECT count (*) into mydb.tmp4 from Galaxy as g
+2019-04-15 10:02:00,1

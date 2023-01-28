@@ -1,0 +1,2 @@
+1,"SELECT objID,  	    ra, dec, 	   cmodelMag_g,   cmodelMagErr_g,   cmodelMag_r,   cmodelMagErr_#,   cmodelMag_i,   cmodelMagErr_i,   cmodelMag_z,   cmodelMagErr_z,   type into mydb.MyTable from PhotoPrimary 	 WHERE   ra > # and ra < # and dec > # and dec < #"
+2019-09-22 10:18:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP #  g.d4#_sub, s.ra, s.dec FROM ..galSpecIndx as g, SpecObj as s  JOIN dbo.fGetNearbySpecObjEq(#,#,#) AS b ON b.SpecobjID = g.SpecobjID"
+2019-01-21 08:28:00,1

@@ -1,0 +1,2 @@
+2,"SELECT plateID, mjd, fiberid, sigma_balmer, sigma_forbidden FROM galSpecLine, galSpecInfo"
+2019-02-04 10:44:00,2

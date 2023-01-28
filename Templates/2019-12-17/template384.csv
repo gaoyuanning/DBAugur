@@ -1,0 +1,13 @@
+12,"SELECT str(p.ra,#,#) as ra,str(p.[dec],#,#) as dec ,p.psfMag_u,p.psfMag_g,p.psfMag_r,p.psfMag_i,p.psfMag_z,p.fiber2Mag_u,p.fiber2Mag_g,p.fiber2Mag_r,p.fiber2Mag_i,p.fiber2Mag_z,p.dered_g,p.dered_i,p.dered_r,p.dered_u,p.dered_z,p.petroR5#_r,p.petroR9#_r,ISNULL(s.velDisp,#) as velDisp,ISNULL(s.z,#) as z into mydb.Blank_# from BESTDR9...Galaxy AS p LEFT OUTER JOIN BESTDR9...SpecObj s ON p.objID = s.bestObjID 	JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = P.objID WHERE    (((p.flags & dbo.fPhotoFlags(&&&) = #) AND (p.flags & dbo.fPhotoFlags(&&&) = #) AND (p.flags & dbo.fPhotoFlags(&&&) = #) AND (p.flags & dbo.fPhotoFlags(&&&) = #)) OR (p.flags & dbo.fPhotoFlags(&&&) = #)) AND p.dered_r < # AND abs(p.dered_u-p.dered_g) < # AND abs(p.dered_g-p.dered_r) < # AND abs(p.dered_r-p.dered_i) < # AND abs(p.dered_i-p.dered_z) < #"
+2019-12-17 02:13:00,1
+2019-12-17 02:15:00,1
+2019-12-17 02:18:00,1
+2019-12-17 02:26:00,1
+2019-12-17 02:36:00,1
+2019-12-17 02:45:00,1
+2019-12-17 02:54:00,1
+2019-12-17 03:02:00,1
+2019-12-17 03:13:00,1
+2019-12-17 03:25:00,1
+2019-12-17 03:33:00,1
+2019-12-17 03:47:00,1

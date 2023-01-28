@@ -1,0 +1,2 @@
+1,"SELECT up_id, p.objID FROM #upload, PhotoTag p WHERE p.objID = dbo.fObjidFromSDSS (#, up_run, up_rerun, up_camcol, up_field, up_obj) EXEC spExecuteSQL #, #, @log = #, @filter = #"
+2019-09-12 13:27:00,1

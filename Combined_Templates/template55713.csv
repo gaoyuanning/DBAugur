@@ -1,0 +1,6 @@
+11,"SELECT p.ra, p.dec, p.petromag_g - p.extinction_g as magPetro_g, p.petromag_r - p.extinction_r as magPetro_r, p.petromag_i - p.extinction_i as magPetro_i, p.petroRad_r INTO myDB.cluster_# FROM Galaxy as p, dbo.fGetNearbyObjEq (#, #, #) as n WHERE p.petromag_r - p.extinction_r < = # AND n.objID = p.objID"
+2019-08-07 08:51:00,1
+2019-08-07 08:54:00,2
+2019-08-07 08:55:00,6
+2019-08-07 15:32:00,1
+2019-08-08 11:41:00,1

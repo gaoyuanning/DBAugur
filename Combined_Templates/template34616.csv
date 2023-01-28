@@ -1,0 +1,2 @@
+1,select count (*) from dbo.zoo2MainSpecz as zoo2 left join dbo.SpecObj as gal on (zoo2.specobjid = gal.specObjID) where (zoo2.t0#_smooth_or_features_a0#_features_or_disk_debiased > # and gal.z > #)
+2019-04-25 12:41:00,1

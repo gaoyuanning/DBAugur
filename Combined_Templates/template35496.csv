@@ -1,0 +1,2 @@
+2,"SELECT TOP # s.run1d, s.mjd, s.fiberID FROM SpecObj s WHERE s.z BETWEEN # AND #"
+2019-04-29 10:29:00,2

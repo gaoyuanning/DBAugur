@@ -1,0 +1,2 @@
+1,"SELECT   specObjID, ra, dec, z, zErr, targetType, sourceType FROM SpecObj"
+2019-12-13 11:12:00,1

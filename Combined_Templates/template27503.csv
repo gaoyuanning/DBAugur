@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec into mydb.coordenadas from Galaxy where skyVersion = #"
+2019-04-03 09:02:00,1

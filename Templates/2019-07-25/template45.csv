@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.plate,s.mjd,s.fiberid,p.run,p.rerun,p.camCol,p.field,p.obj,cast(str(p.ra,#,#) as float) as ra,cast(str(p.[dec],#,#) as float) as dec,p.r  FROM ..SpecObj as s  JOIN ..PhotoObj AS p ON s.bestObjID = p.objID  JOIN dbo.fGetObjFromRect(#,#,#,#) AS b ON s.bestobjid = b.objID  WHERE s.zWarning = #"
+2019-07-25 23:15:00,1

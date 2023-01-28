@@ -1,0 +1,2 @@
+1,select all mjd from specobj where class=&&& and specobj_id=&&&
+2019-12-10 17:41:00,1

@@ -1,0 +1,7 @@
+6,"SELECT TOP #  p.objID, p.ra, p.dec ,p.psfmag_r,p.psfmagerr_r,p.mjd FROM   PhotoObj p  WHERE   p.ra between #-# and #+#   and p.dec between #-# and #+#"
+2019-09-19 20:14:00,1
+2019-09-19 20:15:00,1
+2019-09-19 20:19:00,1
+2019-09-19 21:04:00,1
+2019-09-19 21:09:00,1
+2019-09-19 21:14:00,1

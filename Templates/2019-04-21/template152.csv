@@ -1,0 +1,5 @@
+4,"SELECT SUBSTRING(Name, #, #) as initial,         count(*) as num         FROM chinook.Artist         GROUP BY SUBSTRING(NAME, #, #)"
+2019-04-21 16:04:00,1
+2019-04-21 16:51:00,1
+2019-04-21 17:28:00,1
+2019-04-21 17:37:00,1

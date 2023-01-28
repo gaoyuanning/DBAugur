@@ -1,0 +1,2 @@
+1,"SELECT m.ObjID, m.maskID, m.masktype into mydb.MyTable_# from MaskedObject as m join PhotoObj as p on m.objid = p.objid"
+2019-09-13 07:53:00,1

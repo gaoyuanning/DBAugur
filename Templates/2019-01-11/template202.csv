@@ -1,0 +1,2 @@
+1,"select distinct isnull(privs,&&&) as privs   ,target,cat into mydb.MyTable_# from batch.servers    order by target,privs"
+2019-01-11 10:41:00,1

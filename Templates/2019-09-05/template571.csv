@@ -1,0 +1,2 @@
+2,"SELECT s.subClass, count(*) from PhotoObjAll as p, SpecObjAll as s WHERE p.objID=s.specObjID and p.psfMag_g<#   and p.psfMag_r<# and p.psfMag_g - p.psfMag_r<#   and s.class = &&& GROUP BY s.subClass;"
+2019-09-05 00:38:00,2

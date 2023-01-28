@@ -1,0 +1,5 @@
+4,"SELECT po.objID, po.ra, po.raErr, po.dec, po.decErr, so.z, so.zErr FROM PhotoObj as po JOIN SpecObj as so ON so.bestObjID=po.objID WHERE po.dec BETWEEN # and # AND so.z<# AND so.z># AND po.type=#"
+2019-09-22 08:55:00,1
+2019-09-22 09:07:00,1
+2019-09-22 09:15:00,1
+2019-09-22 09:17:00,1

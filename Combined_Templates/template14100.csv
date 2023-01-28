@@ -1,0 +1,3 @@
+2,"select f.seq, s.fiberID, s.mjd, s.plate, s.z, s.ra, s.dec, f.ra, f.dec into mydb.uiuc1 from SpecObj as s join mydb.test as f on abs (s.ra-f.ra) < # and abs (s.dec-f.dec) < # and abs (s.z-f.z) < #"
+2019-02-25 16:04:00,1
+2019-02-25 16:08:00,1

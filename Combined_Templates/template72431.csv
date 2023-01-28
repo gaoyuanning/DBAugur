@@ -1,0 +1,3 @@
+2,"SELECT m.original_ext_source_ID, m.source_ID, o.psfmag_u, o.psfmag_g, o.psfmag_r, o.psfmag_i, o.psfmag_z, o.petroMag_u, o.petroMag_g, o.petroMag_r, o.petroMag_i, o.petroMag_z, o.petroMagErr_u, o.petroMagErr_g, o.petroMagErr_r, o.petroMagErr_i, o.petroMagErr_z, o.petroRad_u, o.petroRad_g, o.petroRad_r, o.petroRad_i, o.petroRad_z, o.petroRadErr_u, o.petroRadErr_g, o.petroRadErr_r, o.petroRadErr_i, o.petroRadErr_z, deVRad_u, deVRad_g, deVRad_r, deVRad_i, deVRad_z, #-deVAB_u, #-deVAB_g, #-deVAB_r, #-deVAB_i, #-deVAB_z into mydb.MyTableJoin_CLS2p FROM MyDB.MyTable2 AS m JOIN PhotoObj AS o ON m.original_ext_source_ID = o.objID"
+2019-10-29 07:09:00,1
+2019-10-29 07:20:00,1

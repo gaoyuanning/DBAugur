@@ -1,0 +1,2 @@
+1,"SELECT top # s.specObjID, lgm_tot_p9#p5 as M, u.specObjID as spID, u.D4#, u.D4#_MODEL, u.D4#_SUB, u.D4#_N, u.D4#_N_MODEL, u.D4#_N_SUB, u.D4#_RED, st.t_age, st.t_age_mean, st.age, st.age_mean, sst.t_age as tage, sst.t_age_mean as tage_mean, sst.age as aage, st.age_mean as aage_mean, From galSpecExtra as s join galSpecIndx as u on u.specObjID = s.specObjID join stellarMassFSPSGranEarlyDust as st on st.specObjID = s.specObjID join stellarMassFSPSGranWideDust as sst on sst.specObjID = s.specObjID"
+2019-07-16 02:17:00,1

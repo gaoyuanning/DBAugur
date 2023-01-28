@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, z, zErr, zWarning, ra, dec, cModelMag_u, cModelMagErr_u FROM SpecPhoto WHERE (class = #)"
+2019-11-07 17:04:00,1

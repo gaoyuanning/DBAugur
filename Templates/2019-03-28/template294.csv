@@ -1,0 +1,2 @@
+1,SELECT specObjID FROM SpecObj JOIN SpecObj as S ON specObjID=S.bestObjId JOIN SpecLine as L ON S.specObjID=L.specObjId WHERE L.LineId = # z < .#
+2019-03-28 17:56:00,1

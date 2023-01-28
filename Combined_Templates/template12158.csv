@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.dered_u, p.dered_g, p.dered_r, p.dered_i, p.dered_z, s.specobjid, s.class, s.z, g.specObjID , s.specObjID, g.h_beta_flux, g.oiii_#_flux, g.h_alpha_flux, g.nii_#_flux into mydb.Test from dr1#.PhotoObjAll AS p JOIN dr1#.SpecObj AS s ON s.bestobjid = p.objid JOIN dr1#.galSpecLine AS g ON s.specObjID = g.specObjID WHERE s.z BETWEEN # AND # AND s.class = #"
+2019-02-18 00:39:00,1

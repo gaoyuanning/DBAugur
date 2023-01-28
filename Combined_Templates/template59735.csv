@@ -1,0 +1,4 @@
+5,"select all m.ifu_ra, m.ifu_dec, m.manga_tileids, m.manga_tileid, m.nsa_pid, m.nsa_nsaid, m.mangaID from mangatarget m"
+2019-08-29 10:43:00,1
+2019-08-29 10:48:00,1
+2019-08-29 10:51:00,3

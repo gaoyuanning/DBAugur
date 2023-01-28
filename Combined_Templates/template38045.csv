@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.run, p.rerun, p.camcol, p.field, p.obj, p.type, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.Err_u, p.Err_g, p.Err_r, p.Err_i, p.Err_z, gse.oh_p5#, gse.oh_p1#, gse.oh_p8#, gsl.h_alpha_flux, gsl.nii_#_flux, gsl.nii_#_flux , gsl.sii_#_flux, gsl.sii_#_flux, gsl.h_beta_flux, gsl.oiii_#_flux, gsl.oi_#_flux, gsl.oii_#_flux, gsl.oii_#_flux, gsl.oiii_#_flux FROM fGetNearbyObjEq (#, #, #) n, PhotoPrimary p, galSpecExtra gse, galSpecLine gsl WHERE n.objID = # and n.objID = p.objID and gse.specObjID = # and gse.specObjID = gsl.specObjID"
+2019-05-08 07:57:00,1

@@ -1,0 +1,3 @@
+2,"SELECT TOP (#) [CANCER_STUDY_ID]       ,[CANCER_STUDY_IDENTIFIER]       ,[TYPE_OF_CANCER_ID]       ,[NAME]       ,[SHORT_NAME]       ,[DESCRIPTION]       ,[PUBLIC]       ,[PMID]       ,[CITATION]       ,[GROUPS]       ,[STATUS]       ,[IMPORT_DATE]   FROM [cbioportal_mysql].[dbo].[cancer_study]"
+2019-11-05 15:13:00,1
+2019-11-05 15:53:00,1

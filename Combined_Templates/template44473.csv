@@ -1,0 +1,7 @@
+6,"SELECT ObjID, parentID, ra, dec, u, g, r, i, z, err_u, err_g, err_r, err_i, err_z FROM PhotoObj WHERE ra BETWEEN # AND # AND dec BETWEEN # AND #"
+2019-06-06 00:14:00,1
+2019-06-06 00:17:00,1
+2019-06-06 00:35:00,1
+2019-06-06 00:37:00,1
+2019-06-06 01:50:00,1
+2019-06-06 01:51:00,1

@@ -1,0 +1,2 @@
+1,"SELECT subclass, count (distinct specObjID) , count (specObjID) as num, min (z) as min_redshift, max (z) as max_redshift, avg (z) as avg_redshift, min (snMedian) as min_snMedian, max (snMedian) as max_snMedian, avg (snMedian) as avg_snMedian FROM specObj WHERE class = # and zWarning = # GROUP by subclass"
+2019-08-14 02:40:00,1

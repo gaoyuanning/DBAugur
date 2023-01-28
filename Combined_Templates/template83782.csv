@@ -1,0 +1,2 @@
+1,"SELECT TOP # run, camCol, rerun, field, objID, u, g, r, i, z, ra, dec, class into mydb.MyTable_# from PhotoPrimary WHERE class = # AND zWarning = #"
+2019-12-19 13:05:00,1

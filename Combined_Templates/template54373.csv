@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.run, p.rerun, p.camcol, p.field, p.PetroR9#_u, p.PetroR9#_g, p.PetroR9#_r, p.PetroR9#_i, p.PetroR9#_z, p.PetroR5#_u, p.PetroR5#_g, p.PetroR5#_r, p.PetroR5#_i, p.PetroR5#_z, s.specobjid, s.class, s.z as redshift, gs.lgm_tot_p5# FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN galSpecExtra AS gs ON gs.specObjID = s.specobjid WHERE p.ra BETWEEN # AND # AND p.dec BETWEEN # AND # AND s.class = # AND redshift BETWEEN # AND #"
+2019-07-29 06:59:00,1

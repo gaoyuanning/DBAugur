@@ -1,0 +1,3 @@
+2,"SELECT mjd, objID INTO MyDB.test1# FROM Galaxy"
+2019-11-07 05:36:00,1
+2019-11-07 05:37:00,1

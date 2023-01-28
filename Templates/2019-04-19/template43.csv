@@ -1,0 +1,15 @@
+56,"select psfSigma1_z, psfSigma2_z, psfB_z, psfP0_z, psfBeta_z, psfSigmaP_z, psfSigma1_u, psfSigma2_u, psfB_u, psfP0_u, psfBeta_u, psfSigmaP_u, psfSigma1_g, psfSigma2_g, psfB_g, psfP0_g, psfBeta_g, psfSigmaP_g, psfSigma1_r, psfSigma2_r, psfB_r, psfP0_r, psfBeta_r, psfSigmaP_r, psfSigma1_i, psfSigma2_i, psfB_i, psfP0_i, psfBeta_i, psfSigmaP_i from Field where run = # and rerun = # and camcol = # and field = #"
+2019-04-19 00:55:00,1
+2019-04-19 03:55:00,1
+2019-04-19 04:40:00,3
+2019-04-19 04:54:00,3
+2019-04-19 11:31:00,9
+2019-04-19 12:09:00,1
+2019-04-19 13:11:00,1
+2019-04-19 15:18:00,10
+2019-04-19 15:40:00,2
+2019-04-19 15:44:00,3
+2019-04-19 15:55:00,10
+2019-04-19 17:00:00,1
+2019-04-19 20:04:00,10
+2019-04-19 23:36:00,1

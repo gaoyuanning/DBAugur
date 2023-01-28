@@ -1,0 +1,2 @@
+1,"SELECT TOP #  cast(str(s.ra,#,#) as float) as ra,cast(str(s.[dec],#,#) as float) as dec  FROM ..SpecObj as s  WHERE s.zWarning = #"
+2019-12-13 10:40:00,1

@@ -1,0 +1,2 @@
+1,"select ra,dec,objID,spectroFlux_u,spectroFlux_g,spectroFlux_r,spectroFlux_i,spectroFlux_z from specObj where ra BETWEEN # and # AND u - g > # AND g > #"
+2019-02-13 15:51:00,1

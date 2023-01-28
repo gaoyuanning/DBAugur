@@ -1,0 +1,2 @@
+1,"SELECT top # l.cModelAbsMag_r, cModelAbsMag_g, p.modelMag_r, p.modelMag_g, l.ssfr, l.logMass, s.z, p.ObjID, e.EW_OIII_#, e.EW_NII_#, e.EW_Ha_#, e.EW_Hb_#, e.bpt FROM PhotoObj p JOIN specObj s ON s.bestObjID=p.objID JOIN emissionLinesPort e ON e.specObjID=s.specObjID JOIN stellarMassFSPSGranWideNoDust l ON l.specObjID=e.specObjID JOIN Neighbors i on i.objID=l.specObjID WHERE   class = &&& AND  s.z BETWEEN # and # AND  s.z > # AND  l.ssfr > # AND  e.EW_OIII_# ># AND  e.EW_NII_# ># AND  e.EW_Ha_# ># AND  e.EW_Hb_# >#"
+2019-03-09 10:06:00,1

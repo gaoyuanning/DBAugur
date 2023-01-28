@@ -1,0 +1,2 @@
+1,"SELECT o.objID, o.ra1, o.dec1AS dec1, o.z, o.zWarning, o.class, o.subClass, o.ra2, o.dec2, o.j, o.h, o.k, o.phQual, m.wise_cntr INTO mydb.sdsstmasswise FROM WISE_xmatch AS m   JOIN mydb.sdssztmass AS o    ON o.objID = m.sdss_objid"
+2019-09-02 06:20:00,1

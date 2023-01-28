@@ -1,0 +1,2 @@
+1,"select top # s.z,g.* from sdss_ml.galaxyzoo_ml g, dr7.specobjall s   where s.specobjid=g.specobjid"
+2019-05-07 13:32:00,1

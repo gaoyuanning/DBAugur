@@ -1,0 +1,2 @@
+1,"select top # * from PhotoTag, PhotoProfile where PhotoTag.objID = PhotoProfile.objID"
+2019-03-09 00:01:00,1

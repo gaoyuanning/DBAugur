@@ -1,0 +1,2 @@
+1,"SELECT top # m.ra AS ra1, m.dec AS dec1, stack.class AS class, stack.subClass AS subClass, stack.ra AS ra_spec, stack.dec AS dec_spec, stack.z AS z_spec, stack.zWarning AS zWarning FROM MyDB.millionandhalftrainsam_radec AS m OUTER APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n LEFT JOIN SpecPhotoAll AS stack ON n.objid = stack.objID"
+2019-06-22 18:45:00,1

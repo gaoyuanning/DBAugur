@@ -1,0 +1,3 @@
+2,"SELECT p.objID, q.ra, q.dec, q.u,q.err_u, q.g,q.err_g, q.r, q.err_r, q.i, q.err_i, q.z, q.err_z, q.type into MyDB.J1#_photometry from MyDB.mytable_J1# as p, DR1#.PhotoObjAll as q WHERE p.objID = q.objID"
+2019-08-02 16:27:00,1
+2019-08-02 16:30:00,1

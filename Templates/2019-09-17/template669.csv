@@ -1,0 +1,4 @@
+7,"SELECT   S.specObjID, S.z    INTO   exg_#  FROM   galSpecInfo as S,   stellarMassPCAWiscBC0# as BC,   stellarMassPCAWiscM1# as M  WHERE    S.z_warning=# and S.plateid>=# and S.targettype=&&& and S.spectrotype=&&&"
+2019-09-17 01:12:00,2
+2019-09-17 01:22:00,2
+2019-09-17 01:23:00,3

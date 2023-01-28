@@ -1,0 +1,2 @@
+1,select * into mydb.MyTable_# from PhotoObjAll where p.u between # and #
+2019-10-20 16:49:00,1

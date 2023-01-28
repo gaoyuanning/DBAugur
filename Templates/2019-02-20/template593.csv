@@ -1,0 +1,3 @@
+2,"select ra,dec,dered_u into mydb.test from photoprimary where err_r > # and err_z > # and ra >= # and ra<# and dec >= # and dec<= # and ((flags_u & #) != #) and ((flags_u & #) = #) and ((flags_u & #) = #) AND (((flags_u & #) = #) or (flags_u & #) = #)"
+2019-02-20 02:37:00,1
+2019-02-20 02:40:00,1

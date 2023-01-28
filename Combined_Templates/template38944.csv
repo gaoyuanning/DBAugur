@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec, psfMag_g, psfMag_i, clean into test1 from PhotoObjAll WHERE psfMag_g-psfMag_i > # and psfMag_g-psfMag_i < # AND psfMag_i > # and psfMag_i < # AND ra > # and ra < # AND clean = #"
+2019-05-12 03:11:00,1

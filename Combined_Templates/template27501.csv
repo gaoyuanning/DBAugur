@@ -1,0 +1,2 @@
+1,"select top # a.Plate, a.ra, a.dec, m.ra, m.dec into mydb.MyTable_# from mydb.bhagn as a, dbo.target as m where abs (a.ra-m.ra) < #/# and abs (a.dec-m.dec) < #/#"
+2019-04-03 09:03:00,1

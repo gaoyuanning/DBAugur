@@ -1,0 +1,2 @@
+2,"SELECT a.apogee_id, a.aspcap_id, m.SDSS_ID, m.ra_epoch2#, m.dec_epoch2#, params.*, paramerrs.*, elems.*, elemerrs.*, dbo.fApogeeAspcapFlagN(a.aspcapflag) into mydb.MyTable_# FROM mydb.Dani_table_Chiara as m JOIN aspcapStar AS a on a.apogee_id = m.SDSS_ID CROSS APPLY dbo.fAspcapParams(a.aspcap_id) params CROSS APPLY dbo.fAspcapParamErrs(a.aspcap_id) paramerrs CROSS APPLY dbo.fAspcapElems(a.aspcap_id) elems CROSS APPLY dbo.fAspcapElemErrs(a.aspcap_id) elemerrs WHERE a.apogee_id = m.SDSS_ID"
+2019-06-05 11:51:00,2

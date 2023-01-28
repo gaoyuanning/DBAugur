@@ -1,0 +1,2 @@
+2,"select p.SIT, p.id, p.objID_DR7, G.u as uu, G.g as gg, G.r as rr, G.i as ii, G.z as zz, G.err_u as uu_err, G.err_g as gg_err, G.err_r as rr_err, G.err_i as ii_err, G.err_z as zz_err, G.extinction_u as ext_u, G.extinction_g as ext_g, G.extinction_r as ext_r, G.extinction_i as ext_i, G.extinction_z as ext_z into mydb.SIT4#_objID_cigale_DR7 from mydb.SIT4#_objID as p, PhotoPrimary as G where p.objID = G.objID"
+2019-10-16 13:12:00,2

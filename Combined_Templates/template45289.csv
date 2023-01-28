@@ -1,0 +1,2 @@
+1,"select SpAll.velDisp as velDisp, SpAll.velDispErr, SpAll.SpecObjID as specobjID, SpAll.z, smd.smd_dr7ID into mydb.Simard_VelDisp from SpecObjAll as SpAll join mydb.smd_SpecID3 as smd on SpAll.specobjID = smd.specobjID"
+2019-06-11 03:27:00,1

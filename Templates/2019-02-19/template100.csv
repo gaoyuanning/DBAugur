@@ -1,0 +1,5 @@
+4,"SELECT S.specObjID, G.objID,  G.ra, G.dec, S.ra, S.dec, G.u, G.g, G.r, G.i, G.z, G.type, S.zErr, S.z, S.targetObjID, S.bestObjID  FROM SpecObjAll as S left outer join Galaxy as G  on G.objID=S.BestObjID JOIN dbo.fGetNearbyObjEq(#,#,#) n ON n.objID = G.objID"
+2019-02-19 20:15:00,1
+2019-02-19 20:17:00,1
+2019-02-19 20:27:00,1
+2019-02-19 20:46:00,1

@@ -1,0 +1,4 @@
+3,"SELECT class, count(*)  FROM SpecObj  GROUP BY class"
+2019-09-15 05:48:00,1
+2019-09-15 07:04:00,1
+2019-09-15 08:04:00,1

@@ -1,0 +1,2 @@
+1,"SELECT COUNT(G.objID) FROM Galaxy as G JOIN dbo.fGetNearbyObjEq(#,#,#) AS GN ON G.objID=GN.objID"
+2019-01-02 20:04:00,1

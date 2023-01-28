@@ -1,0 +1,2 @@
+1,"select db.objID, db.ra, db.dec, tm.J_R_E, tm.H_R_E, tm.K_R_E into mydb.MyTable_# from MyDB.A2#_targets as db   JOIN TwoMassXSC as tm on tm.objID = db.objID"
+2019-05-13 04:58:00,1

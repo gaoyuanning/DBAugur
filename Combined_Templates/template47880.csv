@@ -1,0 +1,2 @@
+1,"select count (*) as count, s.dered_r, s.ra, s.dec from galaxy p, specphoto s where p.objid = s.specObjID and s.ra = # and s.dec = #"
+2019-06-24 11:42:00,1

@@ -1,0 +1,2 @@
+1,"SELECT SpecObj.ra, SpecObj.dec, z, p_el, p_cw, p_acw, p_edge, p_dk, p_mg FROM SpecObj, zooSpec WHERE (SpecObj.ra > #h0m0s and SpecObj.ra < #h4#m5#s) AND (SpecObj.dec> # and SpecObj.dec< #) And SpecObj.class = # And zooSpec.specobjid = SpecObj.SpecObjID"
+2019-08-21 10:57:00,1

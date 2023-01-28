@@ -1,0 +1,4 @@
+4,"select SpecPhotoAll.ra,SpecPhotoAll.dec,SpecPhotoAll.subclass from SpecPhotoAll,Specobjall where SpecPhotoAll.specObjID = specobjAll.specObjID and   SpecPhotoAll.ra > # and SpecPhotoAll.ra < # and SpecPhotoAll.dec > # and SpecPhotoAll.dec < #"
+2019-12-28 07:46:00,1
+2019-12-28 07:48:00,2
+2019-12-28 07:59:00,1

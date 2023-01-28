@@ -1,0 +1,2 @@
+1,"select top # psfMag_u, psfMag_g, psfMag_u-psfMag_g as color from galaxy"
+2019-09-05 02:14:00,1

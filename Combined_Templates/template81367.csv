@@ -1,0 +1,2 @@
+1,"select extinction_u, extinction_g, extinction_r, extinction_i, extinction_z from specphoto where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-12-08 12:54:00,1

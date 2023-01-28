@@ -1,0 +1,3 @@
+2,"select a.*,t.objid as matched_id, s.z  from #tmp t    JOIN MYDB.Qfeeds_A_# a ON t.up_id = a.search_id    JOIN specobj s ON s.bestobjid=t.objid"
+2019-08-08 07:30:00,1
+2019-08-08 07:34:00,1

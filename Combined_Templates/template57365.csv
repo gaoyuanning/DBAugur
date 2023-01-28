@@ -1,0 +1,2 @@
+1,"SELECT specObjID, bestObjID, mjd, plate, fiberID, eboss_target_id, ra, dec into mydb.ID_table_# from ID_table WHERE plate > = #"
+2019-08-13 06:15:00,1

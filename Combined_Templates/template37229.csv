@@ -1,0 +1,3 @@
+2,"SELECT DISTINCT po.objid AS phot_id, po.modelmag_u AS modmag_u, po.modelmagerr_u AS moderr_u, po.modelmag_g AS modmag_g, po.modelmagerr_g AS moderr_g, po.modelmag_r AS modmag_r, po.modelmagerr_r AS moderr_r, po.modelmag_i AS modmag_i, po.modelmagerr_i AS moderr_i, po.modelmag_z AS modmag_z, po.modelmagerr_z AS moderr_z INTO MyDB.XMC_full_mod FROM MyDB.XMC_full_pos tmp INNER JOIN PhotoPrimary po ON po.objid = tmp.objid ORDER BY phot_id"
+2019-05-06 06:39:00,1
+2019-05-06 06:40:00,1

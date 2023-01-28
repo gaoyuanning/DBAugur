@@ -1,0 +1,2 @@
+1,"select s.psfMag_u, s.psfMag_g, s.psfMag_r, s.psfMag_i, s.psfMag_z,   s.cmodelMag_u, s.cmodelMag_g, s.cmodelMag_r, s.cmodelMag_i, s.cmodelMag_z,   LOG1#(ss.spectrosynflux_u), ss.spectrosynflux_g, ss.spectrosynflux_r, ss.spectrosynflux_i, ss.spectrosynflux_z from Star as s join SpecObj as ss on s.objid = ss.bestobjid where s.objid = #;"
+2019-01-24 13:25:00,1

@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec     from PhotoTag AS p ON p.objID=#"
+2019-12-11 02:55:00,1

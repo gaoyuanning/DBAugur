@@ -1,0 +1,2 @@
+1,"select distinct run, camcol, field, ramin, ramax, decmin, decmax into mydb.MyTable from dr8.frame where rerun = # and ramin > # and ramax < # and decmin > # and decmax < # order by run, camcol, field"
+2019-12-05 17:27:00,1

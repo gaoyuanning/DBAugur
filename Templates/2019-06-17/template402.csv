@@ -1,0 +1,2 @@
+1,"SELECT  objID,  	      field, run, rerun, camcol, ra, dec, flags into mydb.MyTable_# from PhotoObjAll"
+2019-06-17 10:15:00,1

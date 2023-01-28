@@ -1,0 +1,6 @@
+5,"select p.objid as name, p.ra, p.dec from galaxy p, specobj s where p.objid=s.bestobjid and (p.g BETWEEN # AND #) and s.z BETWEEN # AND #"
+2019-07-03 02:39:00,1
+2019-07-03 02:42:00,1
+2019-07-03 02:45:00,1
+2019-07-03 02:52:00,1
+2019-07-03 03:04:00,1

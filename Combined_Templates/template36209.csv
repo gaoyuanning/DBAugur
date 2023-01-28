@@ -1,0 +1,12 @@
+232,"SELECT TOP # p.objid, p.specobjid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.err_u, p.err_g, p.err_r, p.err_i, p.err_z, p.expRad_r, n.distance AS offset, pz.z AS redshift, pz.zErr AS redshift_err, p.expRad_r FROM fGetNearbyObjEq (#, #, #) n JOIN PhotoPrimary p ON n.objID = p.objID LEFT JOIN Photoz pz ON pz.objID = p.objID ORDER BY offset"
+2019-05-01 01:11:00,17
+2019-05-01 01:14:00,17
+2019-05-01 01:26:00,17
+2019-05-01 21:36:00,17
+2019-05-01 23:57:00,17
+2019-05-02 00:23:00,17
+2019-05-08 18:55:00,34
+2019-05-08 18:57:00,34
+2019-05-08 19:03:00,34
+2019-05-08 21:59:00,9
+2019-05-08 22:00:00,19

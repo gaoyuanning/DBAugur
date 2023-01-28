@@ -1,0 +1,2 @@
+1,"select  z, ra, dec, specobjid from specobjall where dec between # and #"
+2019-06-27 17:46:00,1

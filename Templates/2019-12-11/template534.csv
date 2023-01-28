@@ -1,0 +1,2 @@
+1,"SELECT TOP #   objID, ra ,dec ,class,subclass,magnitude  FROM   Photoprimer  WHERE   ra > # and ra < #   AND dec > # and dec < #"
+2019-12-11 06:28:00,1

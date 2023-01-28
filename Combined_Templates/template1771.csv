@@ -1,0 +1,3 @@
+2,"SELECT s.plate, s.mjd, s.fiberid INTO mydb.VYGsample_pmf FROM PhotoObj AS p, SpecObj AS s WHERE p.petroMag_r - p.extinction_r < # AND s.instrument = # and s.z > # and s.z < # AND s.class = # AND s.bestobjid = p.objid"
+2019-01-09 13:12:00,1
+2019-01-09 13:13:00,1

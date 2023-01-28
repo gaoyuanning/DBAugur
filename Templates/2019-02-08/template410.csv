@@ -1,0 +1,3 @@
+2,"SELECT p.specobjid, p.objid, p.ra, p.dec, p.run, p.rerun, p.camcol, p.field, s.z, p.psffwhm_i, p.psffwhm_m, p.psffwhm_g, p.psffwhm_s, p.psffwhm__, p.psffwhm_p, p.psffwhm_a, p.psffwhm_s, p.psffwhm_s, p.psffwhm__, p.psffwhm_#, p.expRad_i, p.expRad_m, p.expRad_g, p.expRad_s, p.expRad__, p.expRad_p, p.expRad_a, p.expRad_s, p.expRad_s, p.expRad__, p.expRad_#, p.expAB_i, p.expAB_m, p.expAB_g, p.expAB_s, p.expAB__, p.expAB_p, p.expAB_a, p.expAB_s, p.expAB_s, p.expAB__, p.expAB_#, p.expPhi_i, p.expPhi_m, p.expPhi_g, p.expPhi_s, p.expPhi__, p.expPhi_p, p.expPhi_a, p.expPhi_s, p.expPhi_s, p.expPhi__, p.expPhi_# FROM PhotoPrimary AS p JOIN SpecPhoto AS s ON s.specobjid=p.specobjid WHERE p.specobjid = #"
+2019-02-08 01:36:00,1
+2019-02-08 01:47:00,1

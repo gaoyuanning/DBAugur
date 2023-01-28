@@ -1,0 +1,3 @@
+2,"select r.HUBBLE, r.M2#, r.HI from RC3 r where r.objID=#"
+2019-03-15 16:43:00,1
+2019-03-15 16:50:00,1

@@ -1,0 +1,2 @@
+1,"SELECT bestObjID, z FROM (SELECT TOP (#) bestObjID, z FROM specObj WHERE class = # AND z BETWEEN # AND # UNION ALL SELECT bestObjID, z FROM (SELECT TOP (#) bestObjID, z FROM specObj WHERE class = # AND z BETWEEN # AND # GO"
+2019-03-25 06:20:00,1

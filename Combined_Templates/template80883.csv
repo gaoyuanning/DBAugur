@@ -1,0 +1,2 @@
+1,"SELECT z.petromag_u, z.petromag_g, z.petromag_r, z.petromag_i, z.petromag_z, g.lgm_tot_p5#, g.specsfr_tot_p5# FROM myDB.MyTable as m WHERE g.lgm_tot_p5# < > ###"
+2019-12-05 14:23:00,1

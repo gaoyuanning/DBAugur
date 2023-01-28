@@ -1,0 +1,2 @@
+1,"select top #   p.objid, p.flags into mydb.MyTable_# from PhotoPrimary p where  p.type = # and p.flags = #"
+2019-09-10 04:52:00,1

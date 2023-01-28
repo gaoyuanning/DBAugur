@@ -1,0 +1,2 @@
+1,"SELECT TOP # d.objid, d.ra, d.dec, d.dered_g, s.z as z_spec, s.plate, s.fiberid FROM BINTABLE as d JOIN ZooNoSpec AS zns ON p.objid = zns.objid JOIN SpecObj AS s ON s.bestobjid = p.objid"
+2019-09-18 11:32:00,1

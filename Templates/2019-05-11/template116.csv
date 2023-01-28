@@ -1,0 +1,2 @@
+1,"SELECT s.lgm_fib_p2p5, s.lgm_fib_p9#p5 FROM galSpecExtra as s WHERE   s.specObjID = #"
+2019-05-11 12:15:00,1

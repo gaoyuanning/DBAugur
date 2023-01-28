@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.specobjid, p.h_delta_eqw, p.h_delta_flux, p.h_alpha_eqw, p.alpha_flux FROM galspecline AS p"
+2019-09-30 12:59:00,1

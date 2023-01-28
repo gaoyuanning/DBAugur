@@ -1,0 +1,3 @@
+2,"SELECT objID, ra, dec, modelMag_i, z FROM specobjall WHERE z > # AND class = # AND zwarning = # SELECT count (*) FROM specobjall s JOIN PhotoObjAll p ON s.bestObjID = p.ObjID WHERE type = # AND petroR9#_i < # AND modelMag_i < # AND modelMag_i > # AND clean = # AND mode = # SELECT count (*) INTO mydb.count_galaxy"
+2019-08-20 18:05:00,1
+2019-08-20 18:06:00,1

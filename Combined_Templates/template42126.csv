@@ -1,0 +1,2 @@
+1,"select run1, run2, count (*) from Match where type1 = # and type2 = # group by run1, run2 order by #, #"
+2019-05-28 14:16:00,1

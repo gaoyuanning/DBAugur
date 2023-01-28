@@ -1,0 +1,5 @@
+7,SELECT z FROM SpecPhotoAll Where class = &&& and petroMagErr_g < # and petroMag_g between # and # and petroMagErr_r < # and petroMag_r between # and # and petroMagErr_i < # and petroMag_i between # and # and z>#
+2019-01-22 11:12:00,2
+2019-01-22 11:13:00,1
+2019-01-22 11:15:00,2
+2019-01-22 11:16:00,2

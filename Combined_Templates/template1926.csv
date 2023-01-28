@@ -1,0 +1,2 @@
+1,SELECT COUNT (mjd_u) FROM field WHERE ra_min < # AND ra_max > # AND dec_min < # AND dec_max > #
+2019-01-09 20:41:00,1

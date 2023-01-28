@@ -1,0 +1,4 @@
+3,"SELECT s.mjd, s.plate, s.fiberID, s.z as z FROM WISE_xmatch AS x JOIN WISE_allsky AS w ON x.wise_cntr = w.cntr JOIN (SELECT * FROM SpecObjAll WHERE SpecObjAll.z < # AND SpecObjAll.snmedian_g > # AND SpecObjAll.snmedian_r > #) AS s ON s.specobjid = p.specobjid WHERE (s.class = # or s.class = #) ORDER BY s.z DESC"
+2019-08-28 10:17:00,1
+2019-08-28 10:18:00,1
+2019-08-28 10:20:00,1

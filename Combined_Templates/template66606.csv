@@ -1,0 +1,2 @@
+1,"SELECT p.modelMag_u as MODELU, p.modelMag_g as MODELG, p.modelMag_r as MODELR, p.modelMag_i as MODELI, p.modelMag_z AS MODELZ, s.z as Z, p.extinction_u AS REDDU, p.extinction_g AS REDDG, p.extinction_r AS REDDR, p.extinction_i AS REDDI, p.extinction_z AS REDDZ from photoPrimary as p, specObj as s WHERE p.objID = s.origObjID and p.type = # and s.z between # and # and p.petroMag_r between # and #"
+2019-09-30 17:04:00,1

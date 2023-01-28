@@ -1,0 +1,23 @@
+67,"SELECT  s.objid,sz.ra as ra,sz.dec as dec,pz.z as photoz,pz.zerr as photozerr,sz.z as specz, sz.zerr as speczerr,b.distance as proj_sep,s.modelMag_u as umag,s.modelMagErr_u as umagerr, s.modelMag_g as gmag,s.modelMagErr_g as gmagerr,s.modelMag_r as rmag, s.modelMagerr_r as rmagerr, s.type as obj_type  FROM BESTDR1#..PhotoObjAll as s  JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = S.objID  JOIN Photoz as pz ON pz.objid = s.objid  JOIN specObjAll as sz ON sz.bestobjid = s.objid  WHERE (s.type=# and sz.z > # and sz.z < #) or  (s.type=# and pz.z > # and pz.z < #)"
+2019-03-23 07:38:00,1
+2019-03-23 07:41:00,1
+2019-03-23 12:01:00,1
+2019-03-23 12:22:00,1
+2019-03-23 12:23:00,4
+2019-03-23 12:24:00,2
+2019-03-23 12:27:00,5
+2019-03-23 12:28:00,5
+2019-03-23 12:30:00,4
+2019-03-23 12:31:00,5
+2019-03-23 12:32:00,5
+2019-03-23 12:33:00,6
+2019-03-23 12:36:00,3
+2019-03-23 12:37:00,3
+2019-03-23 12:41:00,3
+2019-03-23 12:42:00,2
+2019-03-23 12:48:00,1
+2019-03-23 12:49:00,5
+2019-03-23 12:50:00,3
+2019-03-23 12:59:00,2
+2019-03-23 13:00:00,4
+2019-03-23 15:46:00,1

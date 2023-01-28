@@ -1,0 +1,4 @@
+4,SELECT count (*) from SpecLineAll as G_SpecLine
+2019-11-21 14:26:00,1
+2019-11-21 14:30:00,1
+2019-11-21 14:32:00,2

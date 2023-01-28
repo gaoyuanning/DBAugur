@@ -1,0 +1,4 @@
+4,"SELECT TOP # ra, dec z, zErr FROM SpecPhotoAll WHERE class = # and zErr < = # and ra between # and # and dec between # and +#"
+2019-02-01 14:04:00,1
+2019-02-01 14:09:00,1
+2019-02-01 14:10:00,2

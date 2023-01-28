@@ -1,0 +1,2 @@
+1,SELECT * FROM SpecObj AS s WHERE s.plate = # and s.mjd = # and s.fiberid = #
+2019-09-24 17:32:00,1

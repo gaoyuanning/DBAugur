@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID , run, field, camcol FROM Galaxy WHERE petroRad_r > #"
+2019-05-15 21:11:00,1

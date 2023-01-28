@@ -1,0 +1,2 @@
+1,"SELECT     o.objid,m.ra_epoch2# AS ra1, m.dec_epoch2# AS dec1,     o.ra AS ra2, o.dec AS dec2, obj.apogee_id     o.specObjID, o.u, o.g, o.r, o.i,    o.z, o.dered_u, o.dered_g, o.dered_r, o.dered_i, o.dered_z,   o.extinction_u, o.extinction_g, o.extinction_r, o.extinction_i, o.extinction_z,   mode =#, type=# into mydb.MyTable_# from MyDB.Dani_table_Chiara AS m, apogeeObject AS obj OUTER APPLY dbo.fGetNearestObjEq( m.ra, m.dec, #) AS n     LEFT JOIN PhotoObj AS o ON n.objid=o.objid"
+2019-06-05 12:13:00,1

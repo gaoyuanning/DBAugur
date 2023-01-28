@@ -1,0 +1,2 @@
+1,"SELECT TOP # w.ra,w.dec from WISE_allsky AS w WHERE blend_ext_flags <> #;"
+2019-03-27 19:22:00,1

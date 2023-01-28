@@ -1,0 +1,2 @@
+1,"select g.name, gt.tablename, u.* from grouptables gt join groups g on g.gid = gt.gid -- join keystone k on k.wsid = gt.webservicesid join batch.users u on u.webservicesid = gt.webservicesid"
+2019-01-14 11:56:00,1

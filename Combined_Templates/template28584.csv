@@ -1,0 +1,2 @@
+1,"SELECT po.ra, po.dec into mydb.MyTable from dbo.segueTargetAll as st JOIN dbo.PhotoObjAll AS po ON st.objid = po.objID"
+2019-04-08 06:34:00,1

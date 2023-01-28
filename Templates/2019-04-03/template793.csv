@@ -1,0 +1,2 @@
+1,"SELECT TOP #    p.objID, s.specObjID, s.ra, s.dec, s.cx, s.cy, s.cz,      s.z_noqso, s.zErr_noqso. s.zWarning_noqso    p.u, p.g, p.r, p.i, p.z,   p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i, p.extinction_z,   p.err_u,  p.err_g,  p.err_r,  p.err_i,  p.err_z,   s.survey, s.instrument, s.programname, s.spectrographID into mydb.MyTable from PhotoObj as p JOIN SpecObj as s ON s.bestObjID = p.objID   where s.class=&&&"
+2019-04-03 05:10:00,1

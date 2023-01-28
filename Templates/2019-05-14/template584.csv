@@ -1,0 +1,5 @@
+4,"SELECT TOP #  s.plate,s.mjd,s.fiberid,s.z,s.zErr,s.zWarning,s.class,cast(str(s.ra,#,#) as float) as ra,cast(str(s.[dec],#,#) as float) as dec,s.eboss_target_id,s.specObjID  FROM ..SpecObj as s  WHERE s.z > # AND s.zWarning = # AND (s.class = &&&) AND s.z < #"
+2019-05-14 00:01:00,1
+2019-05-14 00:02:00,1
+2019-05-14 00:19:00,1
+2019-05-14 00:20:00,1

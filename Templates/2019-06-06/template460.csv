@@ -1,0 +1,2 @@
+1,"select top # objid, ra, dec  u, g, r, i, z, err_u, err_g, err_r, err_i, err_z, petror9#_r  into mydb.hugetable from galaxy where clean = #"
+2019-06-06 05:50:00,1

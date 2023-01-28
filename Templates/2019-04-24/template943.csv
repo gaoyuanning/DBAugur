@@ -1,0 +1,2 @@
+1,"select RunID, N=count(ID), Nr=count(distinct RunID), AVG(Y) as AvgY from data where X > # or X < # and Avg(Y) > # group by RunID   --having Avg(Y) > #"
+2019-04-24 12:47:00,1

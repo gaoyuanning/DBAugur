@@ -1,0 +1,2 @@
+1,"SELECT sp.ra,sp.dec,sp.z,sp.class into mydb.MyTable from SpecObj AS sp"
+2019-04-04 13:42:00,1

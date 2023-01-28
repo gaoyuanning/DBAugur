@@ -1,0 +1,2 @@
+1,"SELECT count(*) FROM galaxy p, spaceobj s WHERE p.objid=s.bestobjid and s.z BETWEEN .# AND .#"
+2019-10-25 21:34:00,1

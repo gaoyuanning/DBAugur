@@ -1,0 +1,4 @@
+5,"select ra, dec, class, subclass, psfmag_g, psfmag_r from specphotoall where ra between # and # and dec between # and # and class = # and psfmag_r < # and sciencePrimary = #"
+2019-05-20 22:57:00,1
+2019-05-20 23:08:00,1
+2019-05-20 23:12:00,3

@@ -1,0 +1,3 @@
+4,"select Milliseconds, Bytes, M.Name as MediaType from chinook.Track as T, chinook.MediaType as M where T.MediaTypeId = M.MediaTypeId"
+2019-04-17 11:07:00,3
+2019-04-17 11:08:00,1

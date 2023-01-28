@@ -1,0 +1,2 @@
+1,"select top  # s.plate,s.mid,s.fiberid,p.psfMag_u,psfMag_g,psfMag_r,psfMag_z,modelmag_u,modelmag_g,modelmag_r,modelmag_i,modelmag_z,petromag_r,petromag_i,petromag_z from photoobj p,specobj s where p.objid=s.bestobjid and s.plate<# and(s.class=&&&) and s.snmedian># and s.z>#"
+2019-01-23 02:24:00,1

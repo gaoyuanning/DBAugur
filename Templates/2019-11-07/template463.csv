@@ -1,0 +1,2 @@
+1,select into * from PhotoObjAll where ra > # and ra < # and dec > # and dec < #
+2019-11-07 05:07:00,1

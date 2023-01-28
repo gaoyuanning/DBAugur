@@ -1,0 +1,2 @@
+1,"SELECT Top1# specObjID, bestObjID, z FROM SpecObj WHERE class = # AND zWarning = # AND z BETWEEN # AND # ORDER BY RANDOM (#)"
+2019-03-18 11:26:00,1

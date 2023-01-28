@@ -1,0 +1,2 @@
+1,"SELECT Album.AlbumId as album, COUNT (*) as Count FROM chinook.Album INNER JOIN chinook.Album on chinook.Album.AlbumId = chinook.Track.AlbumId GROUP BY Album.AlbumId"
+2019-04-24 02:05:00,1

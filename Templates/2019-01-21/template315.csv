@@ -1,0 +1,4 @@
+4,"SELECT u.SN_name, u.ra, p.ra, u.dec, p.dec,      p.elpetro_kcorrect_f, p.elpetro_kcorrect_n, elpetro_kcorrect_u,     p.elpetro_kcorrect_g, elpetro_kcorrect_r, elpetro_kcorrect_i,     p.elpetro_kcorrect_z FROM mydb.Host_Gals_SNf as u  LEFT JOIN nsatlas as p on (ABS(p.ra-u.ra)<# AND ABS(p.dec-u.dec)<#)  ORDER BY u.SN_name asc  INTO mydb.Host_Gals_SNf_kcorr"
+2019-01-21 09:25:00,2
+2019-01-21 09:28:00,1
+2019-01-21 09:30:00,1

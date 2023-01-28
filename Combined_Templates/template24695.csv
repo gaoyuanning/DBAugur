@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, dered_r, dered_i, field, ra, dec from PhotoObjAll WHERE ra > #. and ra < # and dec > #. and dec < #"
+2019-03-27 09:48:00,1

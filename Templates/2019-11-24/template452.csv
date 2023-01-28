@@ -1,0 +1,2 @@
+2,"select t.objid, t.raErr, t.decErr, t.mode, t.clean, t.flags from MyDB.erosita_sdss_ids s inner join DR1#.PhotoObjAll t on t.objid=s.objID into erosita_sdssPhoto"
+2019-11-24 07:46:00,2

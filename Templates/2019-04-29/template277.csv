@@ -1,0 +1,2 @@
+1,"select RunID, MIN(x), MAX(x), MIN(y), MAX(Y)  from Data  group by RunID  order by AVG(X) desc"
+2019-04-29 13:03:00,1

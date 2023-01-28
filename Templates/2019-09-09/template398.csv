@@ -1,0 +1,2 @@
+2,"SELECT p.ra, p.dec, p.z,  s.ra, s.dec, s.z FROM PhotoObj AS p  JOIN SpecObj AS s ON s.specobjid = p.objid WHERE subclass=&&&"
+2019-09-09 04:32:00,2

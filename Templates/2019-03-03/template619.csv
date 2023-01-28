@@ -1,0 +1,4 @@
+4,"SELECT objID, type, clean, probPSF, psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z,    psfMagErr_u, psfMagErr_g, psfMagErr_r, psfMagErr_i, psfMagErr_z,   flags_u, flags_g, flags_r, flags_i, flags_z  into [myscratch:default].All_SDSSDR1# from PhotoPrimary 	 WHERE     g < # AND g > #"
+2019-03-03 08:46:00,2
+2019-03-03 08:48:00,1
+2019-03-03 08:50:00,1

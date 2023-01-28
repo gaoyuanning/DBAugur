@@ -1,0 +1,2 @@
+1,"select floor (ra/#) *#, count (*) from SpecPhoto group by floor (ra/#) *# order by floor (ra/#) *#"
+2019-01-25 18:07:00,1

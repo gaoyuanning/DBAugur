@@ -1,0 +1,2 @@
+1,select * from SpecPhotoAll where plate = # and mjd = # and fiberID = #
+2019-07-27 14:20:00,1

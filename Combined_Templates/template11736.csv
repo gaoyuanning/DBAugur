@@ -1,0 +1,2 @@
+1,"select # as foo, # as ordinal_position union all select top # case when ordinal_position > # then # else # end + column_name + # + data_type , ordinal_position from information_schema.columns where table_name like # order by ordinal_position union all select #, #) select foo from r order by ordinal_position"
+2019-02-17 14:37:00,1

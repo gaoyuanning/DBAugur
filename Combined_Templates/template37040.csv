@@ -1,0 +1,3 @@
+2,"select refererDomain, count (*) as hi from (select substring (referer, #, case when charindex (#, referer, #) > # then charindex (#, referer, #) else # end) as refererDomain from WeblogAll) T group by refererDomain go"
+2019-05-06 15:46:00,1
+2019-05-06 15:47:00,1

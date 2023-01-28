@@ -1,0 +1,2 @@
+1,"SELECT p.objId,p.ra,p.dec,s.z,z.p_el,z.p_cs,p.petror9#_r,p.petromag_u,p.petromag_g,p.petromag_r,p.petromagerr_u,p.petromagerr_g,p.petromagerr_r INTO ZooGal  FROM galaxy AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid    JOIN zooVotes AS z ON z.objid = p.objid WHERE ((z.p_el > #) OR (z.p_cs > #)) AND       (p.petromag_r between # AND #)"
+2019-10-02 10:39:00,1

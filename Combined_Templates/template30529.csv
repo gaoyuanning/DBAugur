@@ -1,0 +1,20 @@
+19,"CREATE TABLE [Blood_biochemistry_processing] (eid BIGINT NOT # , [Estimated_sample_dilution_factor_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Alanine_aminotransferase_aliquot_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Alanine_aminotransferase_assay_date_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Alanine_aminotransferase_correction_level_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Alanine_aminotransferase_correction_reason_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Alanine_aminotransferase_missing_reason_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Alanine_aminotransferase_reportability_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Albumin_aliquot_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Albumin_assay_date_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Albumin_correction_level_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Albumin_correction_reason_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Albumin_missing_reason_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Albumin_reportability_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Alkaline_phosphatase_aliquot_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Alkaline_phosphatase_assay_date_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Alkaline_phosphatase_correction_level_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Alkaline_phosphatase_correction_reason_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Alkaline_phosphatase_missing_reason_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Alkaline_phosphatase_reportability_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Apolipoprotein_A_aliquot_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Apolipoprotein_A_assay_date_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Apolipoprotein_A_correction_level_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Apolipoprotein_A_correction_reason_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Apolipoprotein_A_missing_reason_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Apolipoprotein_A_reportability_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Apolipoprotein_B_aliquot_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Apolipoprotein_B_assay_date_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Apolipoprotein_B_correction_level_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Apolipoprotein_B_correction_reason_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Apolipoprotein_B_missing_reason_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.o"
+2019-04-15 13:25:00,1
+2019-04-15 13:36:00,1
+2019-04-16 08:57:00,1
+2019-04-16 08:59:00,1
+2019-04-16 10:13:00,1
+2019-04-16 10:15:00,1
+2019-04-16 10:18:00,1
+2019-04-16 10:36:00,1
+2019-04-17 11:28:00,1
+2019-04-23 09:45:00,1
+2019-04-23 10:52:00,1
+2019-04-24 09:55:00,1
+2019-04-24 13:20:00,1
+2019-04-29 11:39:00,1
+2019-04-30 11:44:00,1
+2019-04-30 15:39:00,1
+2019-05-01 09:27:00,1
+2019-05-02 09:34:00,1
+2019-05-02 10:36:00,1

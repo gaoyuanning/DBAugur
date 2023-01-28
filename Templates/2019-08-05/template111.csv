@@ -1,0 +1,2 @@
+1,"SELECT TOP #  cast(str(p.ra,#,#) as float) as ra,cast(str(p.[dec],#,#) as float) as dec,ISNULL(s.plate,#) as plate,ISNULL(s.mjd,#) as mjd,ISNULL(s.fiberid,#) as fiberid,ISNULL(s.z,#) as redshift,ISNULL(s.zErr,#) as redshiftErr,ISNULL(s.zWarning,#) as zWarning,ISNULL(s.class,#) as class  FROM ..PhotoObj AS p  LEFT OUTER JOIN ..SpecObj s ON p.objID = s.bestObjID  JOIN dbo.fGetObjFromRect(#,#,#,#) AS b ON p.objID = b.objID"
+2019-08-05 20:26:00,1

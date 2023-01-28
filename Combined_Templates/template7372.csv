@@ -1,0 +1,3 @@
+2,"select FLOOR (l) , AVG ((z*#) /COS (RADIANS (b) )) v_D, STDEV ((z*#) /COS (RADIANS (b) )/SQRT (COUNT (*) )) hiba from SpecObj s inner join sppParams ON s.specObjID = sppParams.specObjID where feha > # AND feha < # AND ABS (z) < # group by FLOOR (l) order by #"
+2019-01-31 05:49:00,1
+2019-01-31 05:50:00,1

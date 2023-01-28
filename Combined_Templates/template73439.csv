@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec, s.z, s.zErr, s.velDisp, s.velDispErr, p.petroMag_r, p.extinction_r, s.legacyPrimary FROM SpecObj AS s CROSS APPLY dbo.fPrimTarget (GALAXY) as Galaxy JOIN SpecPhotoAll AS p ON s.SpecObjID = p.SpecObjID WHERE s.ra BETWEEN # AND # AND s.dec BETWEEN # AND # AND s.class = # AND s.subclass = # AND s.zWarning = # AND p.extinction_r - p.petroMag_r < #"
+2019-11-03 17:15:00,1

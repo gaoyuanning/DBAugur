@@ -1,0 +1,2 @@
+3,"SELECT  &&& + cast(p.objId as varchar(#)) + &&& + cast(p.objId as varchar(#)) + &&& as objID,    p.run, p.rerun, p.camcol, p.field, p.obj,    p.type, p.ra, p.dec, p.u,p.g,p.r,p.i,p.z,    p.Err_u, p.Err_g, p.Err_r,p.Err_i,p.Err_z    FROM fGetNearbyObjEq(#,#,#) n JOIN PhotoPrimary p ON n.objID=p.objID"
+2019-11-22 01:13:00,3

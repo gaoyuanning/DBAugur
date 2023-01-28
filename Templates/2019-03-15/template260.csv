@@ -1,0 +1,6 @@
+5,"select *          ,      case when ra > #. then ra - #. else ra end as ra_updated            from cones.MRscPlanck1_BC0#_#     )     select # as [type]          , (-((g.ra_updated-# ))+ # ) * #./@pixel as x_pix         , ( (g.dec-#)+ #) * #./@pixel as y_pix       ,      g.sdss_g as mag_total      ,      case when #*(g.sdss_g_bulge-g.sdss_g) < # then #.                  else power(convert(real,#),#*(g.sdss_g_bulge-g.sdss_g)) end as bulge_to_total      ,      g.bulgesize as re_bulge_arcsec      ,      # as bulge_proj_aspect_ratio      ,     (#.-g.pa) as bulge_pa      ,     (g.disksize/#.) as rh_disk_arcsec      ,     case when cos(pi()*g.inclination/#) < # then #                 else cos(pi()*g.inclination/#) end as disk_inclination      ,     (#.-g.pa) as disk_pa      ,     g.galaxyid     ,     g.z_geo       from g       where ra_updated between # and #            and g.dec between # and #                    order by g.z_geo"
+2019-03-15 07:42:00,1
+2019-03-15 14:58:00,1
+2019-03-15 15:22:00,1
+2019-03-15 15:36:00,1
+2019-03-15 15:44:00,1

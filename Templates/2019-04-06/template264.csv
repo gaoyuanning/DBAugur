@@ -1,0 +1,2 @@
+1,"SELECT    p.objID, p.ra, p.dec, p.type, p.q_u, p.u_u,     p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z,    s.specObjID, s.z, s.zErr, s.sourcetype, s.class, s.subClass, s.velDisp, s.velDispErr FROM PhotoTag p and SpecObjAll s"
+2019-04-06 05:24:00,1

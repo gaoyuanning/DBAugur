@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.class,s.dec,cast(str(s.ra,#,#) as float) as ra,s.z  FROM ..SpecObj as s  WHERE s.z > # AND s.zWarning = # AND s.z < # AND (s.primTarget & (dbo.fPrimTarget(&&&) + dbo.fPrimTarget(&&&)) > #)"
+2019-03-21 15:44:00,1

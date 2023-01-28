@@ -1,0 +1,3 @@
+2,"SELECT g.dr7objid, g.ra, g.dec into mydb.MyTable_# from PhotoObjDR7 g WHERE g.ra BETWEEN # AND # AND g.dec BETWEEN # AND # AND g.type = #"
+2019-05-14 10:12:00,1
+2019-05-14 10:15:00,1

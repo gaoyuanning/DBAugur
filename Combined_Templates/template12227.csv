@@ -1,0 +1,2 @@
+1,select count (*) from PhotoObj where abs (ra) < # and abs (dec) < # and objID> # order by objID
+2019-02-19 15:01:00,1

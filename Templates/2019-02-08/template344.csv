@@ -1,0 +1,2 @@
+1,"select top #  z, ra, dec, bestObjID from  specObj where  class = &&&   and z < .#  and z>.#   and zWarning = #"
+2019-02-08 08:45:00,1

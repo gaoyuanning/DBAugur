@@ -1,0 +1,2 @@
+1,"SELECT absid.OBSID_forfit, absid.objID, absid.SpObjID, dr.z, dr.zErr, dr.zWarning into mydb.absIDz from DR9.SpecObjAll AS dr JOIN absID_forfit AS absid ON dr.specObjID = absid.SpObjID;"
+2019-04-10 02:58:00,1

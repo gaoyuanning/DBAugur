@@ -1,0 +1,2 @@
+1,"SELECT * FROM ..SpecObj as s JOIN dbo.fGetNearbySpecObjEq (#, #, #) AS b ON b.SpecobjID = S.SpecobjID WHERE s.zWarning = #"
+2019-11-14 09:26:00,1

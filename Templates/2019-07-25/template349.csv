@@ -1,0 +1,3 @@
+3,"SELECT p.specobjid, p.objid, p.ra, p.dec, pz.z, p.dered_r  FROM PhotoPrimary AS p  JOIN Photoz AS pz ON pz.objid = p.objid  WHERE p.specobjid = # and pz.z !=# and p.type=# and s.class = &&& and p.dered_r BETWEEN # and #"
+2019-07-25 12:21:00,1
+2019-07-25 12:22:00,2

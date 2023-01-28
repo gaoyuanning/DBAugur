@@ -1,0 +1,2 @@
+1,"SELECT objId, z, zErr, O2EW, O2EWerr, HAEW, HAEWerr, sigma_balmer, sigma_balmer_err, sigma_forbidden, sigma_forbidden_err, absMagR, modelMagErr_r, (absmagU-absMagR) = URcolour, (absMagG-absMagZ) = GZcolour, fracDeV_r, petroR5#_r, petroR5#Err_r FROM MyDB.yourgalaxyparams"
+2019-02-03 16:47:00,1

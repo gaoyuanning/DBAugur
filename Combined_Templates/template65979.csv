@@ -1,0 +1,2 @@
+1,"SELECT d.RA_deg AS input_ra, d.DEC_deg AS input_dec, s.ra as s_ra, s.dec as s_dec, s.z as s_z, s.specObjID, p.objID, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z into mydb.MyTable from MyDB.ESO_prop_radec2 AS d OUTER APPLY dbo.fGetNearestObjEq (d.RA_deg, d.DEC_deg, #) AS n LEFT JOIN SpecObj AS s ON n.objid = s.bestObjID LEFT JOIN PhotoObj AS p ON n.objid = p.objID"
+2019-09-26 05:05:00,1

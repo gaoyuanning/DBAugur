@@ -1,0 +1,2 @@
+1,"SELECT objID, field, ra, dec, psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z, psfMagErr_u, psfMagErr_g, psfMagErr_r, psfMagErr_i, psfMagErr_z, cModelMag_u, cModelMag_g, cModelMag_r, cModelMag_i, cModelMag_z, cModelMagErr_u, cModelMagErr_g, cModelMagErr_r, cModelMagErr_i, cModelMagErr_z, ModelMagErr_u, ModelMagErr_g, ModelMagErr_r, ModelMagErr_i, ModelMagErr_z, ModelMag_u, ModelMag_g, ModelMag_r, ModelMag_i, ModelMag_z into mydb.MyTable from PhotoPrimary WHERE ra > # and ra < # and dec > #. and dec < #"
+2019-12-11 06:11:00,1

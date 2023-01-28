@@ -1,0 +1,2 @@
+2,"select ph.objid,ph.ra, ph.dec, ph.deVPhi_r as PA into mydb.PAs from PhotoObjAll ph"
+2019-09-11 05:14:00,2

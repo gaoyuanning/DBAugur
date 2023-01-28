@@ -1,0 +1,5 @@
+6,"SELECT TOP # p.run,p.rerun,p.camCol,p.field,p.obj FROM BESTDR8..PhotoObj AS p 	JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = P.objID WHERE  ( p.type = # OR p.type = #)"
+2019-09-29 11:28:00,1
+2019-09-29 11:29:00,1
+2019-09-29 11:30:00,3
+2019-09-29 11:31:00,1

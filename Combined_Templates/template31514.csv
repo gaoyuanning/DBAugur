@@ -1,0 +1,3 @@
+2,"SELECT ALL into mydb.H1#_data_Table SELECT all --SELECT TOP # db.objID, db.objType, db.primTarget FROM SpecPhotoAll db WHERE (db.ra < = #. or db.ra > = #.) and db.dec > = # and db.dec < = # and db.z < # and db.specclass = # and (db.primTarget = # or db.primTarget = # or db.primTarget = # or db.primTarget = #)"
+2019-04-18 11:10:00,1
+2019-04-18 11:11:00,1

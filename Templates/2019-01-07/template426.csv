@@ -1,0 +1,2 @@
+1,"SELECT s.z, dbo.fCosmoDl(s.z) AS DL, p.petromag_r, p.extinction_r, p.petromag_r - p.extinction_r - #*LOG1#(dbo.fCosmoDl(s.z)) - # AS absMag into mydb.luminozitas from SpecObjAll s INNER JOIN PhotoObj p ON s.bestObjID = p.objID WHERE s.specClass = #   AND s.z BETWEEN # AND # AND p.petromag_r > #"
+2019-01-07 05:14:00,1

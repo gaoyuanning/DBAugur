@@ -1,0 +1,2 @@
+1,"select   mt.ra, mt.dec, mt.z, mt.sGroupID, N.objID,  N.run, N.camcol, N.field, N.rerun, N.type, po.expAB_r,  po.deVAB_r, po.petroR9#_r, po.petroR5#_r from   fGetNearestObjEq(mt.ra, mt,dec,#./#.) as N,  noOranges as mt,  PhotoObjAll po where   po.objID = N.objID"
+2019-09-05 12:20:00,1

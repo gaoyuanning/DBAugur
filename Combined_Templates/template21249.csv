@@ -1,0 +1,2 @@
+2,"SELECT l.*, R.ext, R.ra as XRA, R.dec as XDec INTO DR5_LRGs_X_# FROM ROSAT.Rosat as R, DR5_lrgs as l WHERE abs (R.ra-l.ra) < # and abs (R.dec-l.dec) < # and R.ext > # ORDER BY l.objID"
+2019-03-18 17:16:00,2

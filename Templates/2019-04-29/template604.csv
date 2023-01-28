@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid,p.ra,p.dec,p.petroMag_r FROM PhotoObj AS p WHERE   p = #"
+2019-04-29 09:26:00,1

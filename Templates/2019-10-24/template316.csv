@@ -1,0 +1,5 @@
+4,SELECT count(*) FROM specObj WHERE snMedian > # AND Class = &&& AND Zwarning = #
+2019-10-24 11:17:00,1
+2019-10-24 11:18:00,1
+2019-10-24 11:19:00,1
+2019-10-24 11:21:00,1

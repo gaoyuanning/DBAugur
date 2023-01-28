@@ -1,0 +1,2 @@
+1,"SELECT DISTINCT p.psfMag_r, p.psfMagErr_r, p.cModelMag_r, p.cModelMagErr_r FROM PhotoObjAll AS p WHERE (p.run=# AND p.camcol=# AND p.field=# AND p.rerun=#)"
+2019-02-24 22:36:00,1

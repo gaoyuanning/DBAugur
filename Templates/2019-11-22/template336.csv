@@ -1,0 +1,2 @@
+1,"select cast(submittime as date) as _date ,      count(*) as num ,      avg(duration) as avgTime ,   sum(duration) as totTime   from Job where status=#    group by cast(submittime as date)    order by #"
+2019-11-22 15:47:00,1

@@ -1,0 +1,2 @@
+1,"SELECT COUNT (*) into mydb.MyTableCount2 from DR7.Photoz as Z, DR7.Galaxy as G WHERE Z.objID = G.Objid and Z.z ! = # and G.petromag_r-G.extinction_r < # and Z.z - Z.zErr < # and Z.z + Z.zErr > #"
+2019-01-28 03:03:00,1

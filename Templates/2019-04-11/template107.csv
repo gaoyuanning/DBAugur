@@ -1,0 +1,2 @@
+1,"SELECT TOP # gaia_source.ra,gaia_source.dec,gaia_source.parallax,gaia_source.parallax_error,gaia_source.pmra,gaia_source.pmdec,gaia_source.phot_g_mean_mag,gaia_source.phot_bp_mean_mag,gaia_source.phot_rp_mean_mag,gaia_source.bp_rp,gaia_source.radial_velocity,gaia_source.teff_val,gaia_source.lum_val,gaia_source.phot_variable_flag FROM gaiadr2.gaia_source WHERE CONTAINS(POINT(&&&,gaiadr2.gaia_source.ra,gaiadr2.gaia_source.dec),BOX(&&&,#,#,#,#))=#  AND (phot_g_mean_mag<= #)"
+2019-04-11 18:11:00,1

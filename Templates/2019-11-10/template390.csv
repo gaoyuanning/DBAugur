@@ -1,0 +1,2 @@
+1,"select    objid, ra, dec, psfmag_u, psfmag_g, psfmag_r, psfmag_i, psfmag_z,Z,psfMagErr_u, psfMagErr_g, psfMagErr_r, psfMagErr_i, psfMagErr_z, Zerr, class into mydb.MyTable from SpecPhoto where class=&&&"
+2019-11-10 06:55:00,1

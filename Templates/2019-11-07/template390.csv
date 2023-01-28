@@ -1,0 +1,3 @@
+2,"SELECT   s.plate, s.mjd, s.fiberid, p.ra, p.dec, s.z, p.fiberMag_z, p.modelMag_z        FROM   PhotoObj as p, SpecObj as s    WHERE   p.objid = s.bestObjID AND   s.bestObjID = #"
+2019-11-07 06:53:00,1
+2019-11-07 06:54:00,1

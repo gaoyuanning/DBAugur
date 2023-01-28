@@ -1,0 +1,6 @@
+25,"select ra, dec, psfMag_u, psfmagerr_u, psfMag_g, psfMagerr_g, psfMag_r, psfMagerr_r, psfMag_i, psfMagerr_i, psfMag_z, psfMagerr_z from PhotoPrimary where ra between # and # and dec between # and # and psfMag_g< # and psfMagerr_g< #"
+2019-01-22 22:17:00,5
+2019-01-22 22:19:00,5
+2019-01-22 22:20:00,5
+2019-01-22 22:21:00,5
+2019-01-24 09:33:00,5

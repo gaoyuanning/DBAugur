@@ -1,0 +1,2 @@
+1,"select photo.objID, data.* from   MyDB.DR1#_MGS_HETDEX_Data as data, DR1#.SpecPhoto as photo where     photo.specObjID = data.specObjID"
+2019-01-10 06:23:00,1

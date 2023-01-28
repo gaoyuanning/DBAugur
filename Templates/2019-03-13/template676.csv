@@ -1,0 +1,2 @@
+1,"select plate,MJD,fiberID into mydb.MyTable from specobjall where subClass like &&& and sn>=#"
+2019-03-13 01:20:00,1

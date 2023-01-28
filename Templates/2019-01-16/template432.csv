@@ -1,0 +1,2 @@
+2,"SELECT TOP # poa.objID, poa.ra, poa.dec, p.z, poa.type,  p.absMagR, poa.petroMag_i, p.absMagI, poa.petroMag_z, p.absMagZ, poa.petroRad_u, poa.petroRad_g, poa.petroRad_r, poa.petroRad_i, poa.petroRad_z FROM PhotoObjAll poa, Photoz p, dbo.fGetNearbyObjEq(#, #, #) n WHERE p.z BETWEEN # and # AND poa.type=# AND poa.objID = n.objID AND n.objID = p.objID"
+2019-01-16 06:32:00,2

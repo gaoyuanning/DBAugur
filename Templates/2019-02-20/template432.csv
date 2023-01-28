@@ -1,0 +1,3 @@
+2,"select ar.name, ar.artistid, sum(il.quantity*il.unitprice) as totalPrice, count(il.invoicelineid) as num from chinook.artist ar   join chinook.album al on al.artistId=ar.artistId   join chinook.track tr on tr.albumId=al.albumid   join  chinook.invoiceline il on il.trackid=tr.trackid group by ar.name, ar.artistid   order by # desc,#,#"
+2019-02-20 08:32:00,1
+2019-02-20 08:43:00,1

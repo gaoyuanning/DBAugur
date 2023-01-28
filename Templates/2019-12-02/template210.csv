@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.ra, p.dec into mydb.MyTable from Galaxy p WHERE    p.ra>=# and p.ra<=# and p.dec>=# and p.dec<#"
+2019-12-02 14:57:00,1

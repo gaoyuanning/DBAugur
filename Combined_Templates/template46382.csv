@@ -1,0 +1,2 @@
+1,"SELECT --TOP # SpecObj.specObjID, SpecObj.ra, SpecObj.dec, SpecObj.z as redshift, galaxy.u as magnitude_u, galaxy.g as magnitude_g, galaxy.r as magnitude_r, galaxy.i as magnitude_i, galaxy.z as magnitude_u, zooSpec.spiral, zooSpec.elliptical FROM SpecObj, zooSpec, galaxy WHERE zooSpec.specObjID = SpecObj.specObjID AND SpecObj.class = # AND SpecObj.sourceType = # AND (zooSpec.p_el > # OR zooSpec.p_cw > # OR zooSpec.p_acw > # OR zooSpec.p_mg > #) AND zooSpec.uncertain = # ORDER BY SpecObj.z DESC"
+2019-06-17 01:48:00,1

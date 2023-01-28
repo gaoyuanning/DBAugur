@@ -1,0 +1,12 @@
+11,"SELECT first.plate, other.plate,   COUNT(DISTINCT other.mjd) + COUNT(DISTINCT first.mjd) AS nightsObserved,   otherPlate.programname, count(DISTINCT other.bestObjID) AS objects  FROM SpecObjAll first  JOIN SpecObjAll other ON first.bestObjID = other.bestObjID  JOIN PlateX AS firstPlate ON firstPlate.plate = first.plate  JOIN PlateX AS otherPlate ON otherPlate.plate = other.plate  WHERE first.scienceprimary = # AND other.scienceprimary = #   AND other.bestObjID > #  GROUP BY first.plate, other.plate, otherPlate.programname  ORDER BY nightsObserved DESC, otherPlate.programname,   first.plate, other.plate"
+2019-08-31 14:03:00,1
+2019-08-31 14:08:00,1
+2019-08-31 14:13:00,1
+2019-08-31 14:22:00,1
+2019-08-31 14:39:00,1
+2019-08-31 17:52:00,1
+2019-08-31 17:54:00,1
+2019-08-31 17:57:00,1
+2019-08-31 18:02:00,1
+2019-08-31 18:11:00,1
+2019-08-31 18:28:00,1

@@ -1,0 +1,3 @@
+3,"SELECT m.id, m.ra AS ra1, m.dec AS dec1, n.objid, n.distance, s.ra AS ra2, s.dec AS dec2, s.class, s.subclass, s.z, s.zErr into mydb.GreenPeas_QSO from mydb.GreenPeas AS m CROSS APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n JOIN SpecPhotoAll AS s ON n.objid = s.objid"
+2019-09-17 16:41:00,2
+2019-09-17 16:48:00,1

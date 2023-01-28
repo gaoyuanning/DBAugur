@@ -1,0 +1,2 @@
+1,"select modelmag_u, modelmag_g, z from SpecPhoto where class=&&& and wWarning=#"
+2019-09-04 19:13:00,1

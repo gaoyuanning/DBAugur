@@ -1,0 +1,2 @@
+1,"SELECT mjd, plate, fiberID, ra, dec, targetType, z, e_z  into mydb.NOT_SKY from SpecObjAll WHERE z>=# AND z<#   AND plate>#"
+2019-11-18 16:01:00,1

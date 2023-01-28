@@ -1,0 +1,2 @@
+1,"select top # * from cancer_study select top (#) start_time, read_command from sys.dm_exec_external_work order by end_time DESC"
+2019-05-03 07:04:00,1

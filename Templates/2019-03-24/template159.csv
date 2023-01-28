@@ -1,0 +1,2 @@
+2,"SELECT p.ra, p.dec, p.ModelMag_i, p.extinction_i FROM TargetInfo t, PhotoTag p  WHERE (t.primtarget & #>#)  and p.objid=t.targetobjid"
+2019-03-24 20:02:00,2

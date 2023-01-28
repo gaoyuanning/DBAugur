@@ -1,0 +1,2 @@
+2,"select p.objID, p.ra, p.dec, psfmag_g, psfmag_r, psfmag_i, petromag_u, petromagerr_u, petromag_g, petromagerr_g, petromag_r, petromagerr_r, petromag_i, petromagerr_i, petromag_z, petromagerr_z, cmodelmag_u, cmodelmagerr_u, cmodelmag_g, cmodelmagerr_g, cmodelmag_r, cmodelmagerr_r, cmodelmag_i, cmodelmagerr_i, cmodelmag_z, cmodelmagerr_z, mRrCc_r, mRrCcErr_r, extinction_u, extinction_g, extinction_r, extinction_i, extinction_z into mydb.cosmos from dr1#.Galaxy as p where p.clean = # and (# < dec and dec < #.) AND (# < ra and ra < #)"
+2019-09-24 03:04:00,2

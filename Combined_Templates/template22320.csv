@@ -1,0 +1,2 @@
+1,"select top # s.specObjID, ph.u, ph.g, ph.r, ph.i, ph.z s.z, pl.plateID, s.fiberID from photoObj ph JOIN specObj s ON s.bestObjID = ph.ObjID JOIN plateX pl ON pl.plateID = s.plateID where g BETWEEN # and # AND r < # AND class = galaxy#"
+2019-03-22 20:34:00,1

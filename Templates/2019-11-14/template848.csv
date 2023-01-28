@@ -1,0 +1,2 @@
+1,"select   A.plateid,   A.mjd,   A.fiberid,   A.ra,   A.dec       INTO MyDB.BOSS_coord FROM   galSpecInfo as A      JOIN MYDB.lista_BOSS as B on    A.plateid = B.plate and   A.mjd = B.mjd and   A.fiberid = B.fiberid"
+2019-11-14 06:54:00,1

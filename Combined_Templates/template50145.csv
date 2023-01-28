@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, mjd, plate, fiberid, z, zerr, into mydb.MyTable_# from Galaxy WHERE z < #"
+2019-07-06 10:03:00,1

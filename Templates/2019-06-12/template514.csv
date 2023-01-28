@@ -1,0 +1,2 @@
+1,"SELECT sourceType,ra,dec,class,subClass,rChi2,elodieSpType,elodieTEff,elodieLogG,elodieFeH into mydb.testfield2_B from SpecObjAll WHERE ra between # and # and dec between # and #"
+2019-06-12 03:11:00,1

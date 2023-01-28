@@ -1,0 +1,2 @@
+1,"SELECT round (p.ra, #) as ra, round (p.dec, #) as dec,"
+2019-09-27 15:43:00,1

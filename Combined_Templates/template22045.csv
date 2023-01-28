@@ -1,0 +1,2 @@
+2,"SELECT COUNT (*) FROM SpecObj WHERE class = # AND zWarning = # create table ranges (s int not #, e int not #) ;"
+2019-03-21 18:16:00,2

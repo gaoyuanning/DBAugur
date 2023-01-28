@@ -1,0 +1,2 @@
+1,"select snapid, count (snapid) as num into MyDB.myjunctions from junctions group by snapid"
+2019-09-03 11:33:00,1

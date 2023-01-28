@@ -1,0 +1,2 @@
+1,select TOP # * into mydb.specphoto_top8#k from dbo.specPhotoAll where class=&&& and objID is not null
+2019-04-03 07:31:00,1

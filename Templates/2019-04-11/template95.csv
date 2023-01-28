@@ -1,0 +1,2 @@
+1,"select first # w.name,w.ra,w.dec,p.objID,p.ra,p.dec,zz.objID,zz.z into mydb.groupfriends from mydb.wiynobs as w,dbo.PhotObjAll as p,dbo.Photoz as zz where   abs(w.ra-p.ra) < .# and abs(w.dec-p.dec) < .#"
+2019-04-11 18:51:00,1

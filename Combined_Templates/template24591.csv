@@ -1,0 +1,2 @@
+1,"CREATE TABLE furnaceStateHistory (name, image, presentValue, setValue, upperShaftRotation, lowerShaftRotation, upperShaftFastMin, upperShaftFastHour, upperShaftSlowMin, upperShaftSlowHour, ) ;"
+2019-03-27 14:18:00,1

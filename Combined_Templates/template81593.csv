@@ -1,0 +1,5 @@
+4,"SELECT so.specObjID, so.plate, so.mjd, so.FiberID, s.objID, s.ra, s.dec, so.z, s.u, s.g, s.r, so.subClass, so.elodieFeH, so.sn1_g, so.sn2_g FROM SpecObj AS so LEFT OUTER JOIN Star as s ON so.bestObjID = s.objID JOIN sppParams AS sp ON sp.specObjID = so.specObjID WHERE (so.ra between # and #) AND (so.dec between # and #) AND (so.class = #) AND (so.elodieFeH > #) AND (so.elodieFeH< #)"
+2019-12-09 09:52:00,1
+2019-12-09 09:55:00,1
+2019-12-09 09:56:00,1
+2019-12-09 09:57:00,1

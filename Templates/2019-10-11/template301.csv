@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.SpecObjID, s.z, s.fCosmoDl into mydb.MyTable_# from SpecObj as s   JOIN SpecLine as L ON s.SpecObjID = L.specObjID WHERE L.LineID = #"
+2019-10-11 09:20:00,1

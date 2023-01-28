@@ -1,0 +1,2 @@
+1,SELECT count(*) into mydb.stripe8#galcount from SpecObj
+2019-08-07 07:14:00,1

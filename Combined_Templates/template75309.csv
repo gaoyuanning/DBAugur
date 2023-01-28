@@ -1,0 +1,3 @@
+2,"SELECT TOP # p.objID, p.ra, p.dec, s.specObjID, p.psfMag_r, p.modelMag_r, p.petroMag_r, p.fiberMag_r, p.petroRad_r, p.petroR5#_r, p.petroR9#_r, p.lnLStar_r, p.lnLExp_r, p.lnLDeV_r, p.mE1_r, p.mE2_r, p.mRrCc_r, p.type_r, p.type, s.class, s.class_person FROM PhotoObjAll AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE (p.modelMag_r BETWEEN # AND #) and (p.type = #) and (p.CLEAN = #)"
+2019-11-12 14:29:00,1
+2019-11-12 14:32:00,1

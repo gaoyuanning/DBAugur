@@ -1,0 +1,2 @@
+1,"select top # * FROM Junctions j, SnapCounts c INNER JOIN j.snapid = c.snapid"
+2019-06-26 14:58:00,1

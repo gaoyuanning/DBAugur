@@ -1,0 +1,2 @@
+1,select specObj.z from specObj where dec < # AND dec > # AND (ra > # AND ra < #)
+2019-11-21 11:37:00,1

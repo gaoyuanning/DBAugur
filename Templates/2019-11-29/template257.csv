@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, modelFlux_g, modelFlux_r, modelFluxIvar_g, modelFluxIvar_r into mydb.MyTable_# from Galaxy  WHERE    r < #"
+2019-11-29 09:48:00,1

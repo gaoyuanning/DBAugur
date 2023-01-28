@@ -1,0 +1,2 @@
+1,"SELECT TOP # w.ra, w.dec, CASE WHEN w.blend_ext_flags & # > # && w.blend_ext_flags & # = # && w.blend_ext_flags & # = # THEN # WHEN w.blend_ext_flags & # > # && w.blend_ext_flags & # = # && w.blend_ext_flags & # > # THEN # WHEN w.blend_ext_flags & # = # && w.blend_ext_flags & # > # && w.blend_ext_flags & # = # THEN # WHEN w.blend_ext_flags & # > # && w.blend_ext_flags & # > # && w.blend_ext_flags & # = # THEN # WHEN w.blend_ext_flags & # = # && w.blend_ext_flags & # = # && w.blend_ext_flags & # > # THEN # ELSE # END from WISE_allsky AS w;"
+2019-03-27 20:05:00,1

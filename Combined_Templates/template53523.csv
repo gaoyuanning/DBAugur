@@ -1,0 +1,2 @@
+1,"SELECT TOP # G.objID, GN.distance into mydb.MyTable from Galaxy AS G JOIN dbo.fGetNearbyObjEq (#., #, #) AS GN ON G.objID = GN.objID WHERE (G.flags & dbo.fPhotoFlags (#) ) = # ORDER BY distance"
+2019-07-24 14:19:00,1

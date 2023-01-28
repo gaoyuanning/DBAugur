@@ -1,0 +1,2 @@
+1,"select specObjID , ra , dec , z , zErr , class from SpecObjAll where zWarning = # AND z > # AND zErr/ (#+z) < # AND z < #"
+2019-08-20 07:56:00,1

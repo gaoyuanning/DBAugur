@@ -1,0 +1,4 @@
+3,"select floor(ra/.#)*#, count(*) from PhotoObjAll group by floor(ra/.#)*# order by floor(ra/.#)*.#"
+2019-01-25 18:14:00,1
+2019-01-25 18:34:00,1
+2019-01-25 18:36:00,1

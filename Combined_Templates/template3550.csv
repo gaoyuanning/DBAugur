@@ -1,0 +1,2 @@
+1,"select top # -- case -- when q.spectro = # then dbo.fSpecidFromSDSS (q.plate, q.mjd, q.fiberid, #) -- when q.spectro = # then dbo.fSpecidFromSDSS (q.plate, q.mjd, q.fiberid, #) -- else # -- end as specobijd -- dbo.fSpecidFromSDSS (q.plate, q.mjd, q.fiberid, #) q.plate, q.mjd, q.fiberid from mydb.dr1#q as q"
+2019-01-16 15:48:00,1

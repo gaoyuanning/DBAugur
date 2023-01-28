@@ -1,0 +1,2 @@
+1,SELECT MAX(TrackId) FROM chinook.Track GROUP BY AlbumId JOIN SELECT Name FROM chinook.Album
+2019-04-22 20:01:00,1

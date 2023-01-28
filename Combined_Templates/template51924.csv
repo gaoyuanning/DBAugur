@@ -1,0 +1,2 @@
+1,"SELECT p.objId as objid, pz.z FROM galaxy AS p JOIN Photoz AS pz ON pz.objID = p.objid"
+2019-07-15 12:10:00,1

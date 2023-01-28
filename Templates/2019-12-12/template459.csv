@@ -1,0 +1,2 @@
+1,"SELECT   gal.objID,gal.ra,gal.dec,l.allamID,l.ra,l.dec into mydb.Fianl FROM dr1#.Galaxy as gal   JOIN mydb.Lost as l WHERE   mode=#   AND type=#   AND petroRad_u># and petroRad_g># and petroRad_r># and petroRad_i># and petroRad_z># and petroRadErr_g>#   AND petroMag_g BETWEEN # and #   AND abs(gal.ra-l.ra)<=# and abs (gal.dec-l.dec)<=#   AND ((ra BETWEEN # and # AND dec BETWEEN # and #)   OR (ra BETWEEN # and # AND dec BETWEEN # and #)   OR (ra BETWEEN # and # AND dec BETWEEN # and #)   OR (ra BETWEEN # and # AND dec BETWEEN # and #)) ORDER BY objID"
+2019-12-12 07:07:00,1

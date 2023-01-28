@@ -1,0 +1,2 @@
+1,"INSERT INTO MTABusRoutes values(#,&&&,geography::STLineFromText(&&&,#))"
+2019-12-13 15:58:00,1

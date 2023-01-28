@@ -1,0 +1,2 @@
+1,select cast (ZTF_Name as varchar (#) ) from RCF_has_SDSS
+2019-05-07 12:08:00,1

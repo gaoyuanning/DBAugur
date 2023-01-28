@@ -1,0 +1,3 @@
+2,"select top # b.eid, a.Diagnoses_main_ICD1#_#, b.Eye_problems_disorders_#, i.meaning from dbo.Eyesight b cross apply openjson (Eye_problems_disorders_#) j cross apply openjson (j.value) v join r2#.summary_information_diagnoses_ a cross apply openjson (Diagnoses_main_ICD1#_#) h cross apply openjson (h.value) k on a.eid = b.eid AND a.Diagnoses_main_ICD1#_# is not # join metadata.icdcoding i on k.value = i.coding where v.value = #"
+2019-10-01 14:08:00,1
+2019-10-07 10:19:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.objid, s.ra, s.dec, s.z  FROM SpecObjAll as s    into MyDB.MyTable    WHERE s.z<#"
+2019-05-13 07:59:00,1

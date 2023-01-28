@@ -1,0 +1,2 @@
+1,"SELECT TOP # fieldID, photoStatus, ra, dec, run, rerun, camcol, field FROM dbo.Field WHERE ra BETWEEN # AND # AND dec BETWEEN # AND # AND photoStatus = #"
+2019-01-08 06:42:00,1

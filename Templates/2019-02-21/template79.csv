@@ -1,0 +1,3 @@
+6,"SELECT Top #  ra, dec, z FROM SpecObj WHERE   z BETWEEN # AND #  AND class=&&&"
+2019-02-21 22:13:00,2
+2019-02-21 22:14:00,4

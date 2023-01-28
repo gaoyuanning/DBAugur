@@ -1,0 +1,2 @@
+2,"select ObjID,ra,dec into mydb.g5_g1# from PhotoObjAll where type=# and petroRad_g># and ExpMag_g<#  and (flags & DEBLENDED_AS_PSF=#) and (flags & SATURATED = #) and (flags & DEBLENDED_AT_EDGE=#) and (flags & COSMIC_RAY = #) and (flags & TOO_FEW_GOOD_DETECTIONS =#)"
+2019-04-09 13:58:00,2

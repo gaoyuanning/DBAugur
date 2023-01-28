@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID,  	      field, ra, dec into mydb.MyTable1 from PhotoPrimary 	 WHERE     ra > #. and ra < # and dec > #. and dec < #"
+2019-06-30 04:15:00,1

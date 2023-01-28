@@ -1,0 +1,2 @@
+1,"select s.ra, s.dec, s.z, s.class, p.* from specObj as s join on s.bestobjid = p.objid where special_target1 & dbo.fSpecialTarget1 (#) > # and z between # and # and class = #"
+2019-04-01 17:12:00,1

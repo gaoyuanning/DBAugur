@@ -1,0 +1,3 @@
+3,"select p.objid as id, p.ra as ra, p.dec as dec, s.objtype as type, from photoobj as p join specobj as s on s.bestobjid = p.objid where s.objtype = #"
+2019-09-25 09:37:00,2
+2019-09-25 09:38:00,1

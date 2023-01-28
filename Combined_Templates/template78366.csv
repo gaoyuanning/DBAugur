@@ -1,0 +1,4 @@
+3,"select cx, cy, cz from specObj where cx BETWEEN # and #"
+2019-11-23 12:35:00,1
+2019-11-23 12:39:00,1
+2019-11-23 12:40:00,1

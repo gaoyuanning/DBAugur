@@ -1,0 +1,2 @@
+2,"SELECT DISTINCT po.objid AS phot_id, IS# (sp.snMedian, #) AS spec_snMedian INTO MyDB.SDSSspecDR1#_WISExmatch_snMedian FROM MyDB.tmp_objid_p1 tmp INNER JOIN PhotoPrimary po ON po.objid = tmp.objid INNER JOIN SpecObj sp ON sp.bestobjid = po.objid"
+2019-04-10 07:59:00,2

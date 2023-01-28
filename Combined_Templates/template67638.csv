@@ -1,0 +1,6 @@
+5,"SELECT s.plate, s.mjd, s.ra, s.dec, s.fiberid, p.objid, #+ cast (s.ra as varchar (#) )+ #+cast (s.dec as varchar (#) ) + #+ #"
+2019-10-04 14:25:00,1
+2019-10-04 17:15:00,1
+2019-10-04 17:16:00,1
+2019-10-04 17:26:00,1
+2019-10-04 17:52:00,1

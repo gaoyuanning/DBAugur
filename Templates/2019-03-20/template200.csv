@@ -1,0 +1,6 @@
+5,"SELECT survey, MIN(snMedian) AS min, MAX(snMedian) AS max FROM specObjAll GROUP BY survey"
+2019-03-20 17:44:00,1
+2019-03-20 17:47:00,1
+2019-03-20 17:50:00,1
+2019-03-20 17:51:00,1
+2019-03-20 17:52:00,1

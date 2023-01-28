@@ -1,0 +1,3 @@
+2,"select top # p.objID, p.ra, p.dec, p.deVRad_r, p.u, p.r, p.extinction_r, p.extinction_u, s.z as RedShift from galaxy as p, dbo.fgetNearByObjEq(#,#,#) as n, galSpecInfo as s where p.objid=n.objid and p.specObjID=s.specObjID and p.specObjID<># and s.z>#"
+2019-09-01 16:16:00,1
+2019-09-01 16:17:00,1

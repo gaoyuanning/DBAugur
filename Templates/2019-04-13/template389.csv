@@ -1,0 +1,3 @@
+3,"SELECT ra, dec from pop3_dr1#_# where (flags & #) = #  --not CHILD   and  ModelMag_g - ModelMag_r > #   and  ModelMagErr_u<#"
+2019-04-13 03:54:00,1
+2019-04-13 03:55:00,2

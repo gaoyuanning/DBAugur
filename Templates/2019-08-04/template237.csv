@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z,  w.w1mag as w1, w.w1sigmag as we1, w.w2mag as w2, w.w3mag as w3, w.w4mag as w4,  s.class, s.subclass, s.z as redshift FROM WISE_xmatch as xm   JOIN PhotoObjAll AS p on xm.sdss_objid = p.objid  JOIN SpecObjAll AS s ON s.bestobjid = p.objid  JOIN WISE_allsky AS w on xm.wise_cntr = w.cntr WHERE   p.u BETWEEN # AND #  AND p.g BETWEEN # AND #  AND s.class = &&& AND s.subclass != &&&"
+2019-08-04 02:12:00,1

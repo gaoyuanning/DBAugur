@@ -1,0 +1,2 @@
+1,"select objra,objdec,nsa_z,mangaid, plateifu,nsa_sersic_ba, nsa_sersic_th5# FROM mangaDAPall where objdec >=# AND nsa_sersic_ba >= #"
+2019-12-10 00:24:00,1

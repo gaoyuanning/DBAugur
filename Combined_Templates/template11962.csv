@@ -1,0 +1,2 @@
+1,"SELECT number, name AS courseName, description, credits FROM courses WHERE credits BETWEEN # AND #"
+2019-02-18 15:46:00,1

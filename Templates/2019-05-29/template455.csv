@@ -1,0 +1,2 @@
+1,select * from FramePathProcessing where goodMeltScore = # and fastTopScore = # and fastBottomScore = # and processed = #
+2019-05-29 13:14:00,1

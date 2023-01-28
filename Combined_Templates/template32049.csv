@@ -1,0 +1,2 @@
+1,"select GenreId.Name, MediaTypeId.Name from chinook.Track"
+2019-04-20 15:45:00,1

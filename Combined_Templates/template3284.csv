@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, glon, glat, apogee_id, apstar_id, target_id, rv_feh FROM SDSSDR1#:apogeeStar WHERE dec BETWEEN -.# AND # AND ra BETWEEN # and #"
+2019-01-15 10:47:00,1

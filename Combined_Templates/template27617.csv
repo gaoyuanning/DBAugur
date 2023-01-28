@@ -1,0 +1,5 @@
+4,select TOP # * into mydb.spec_ALL_dr1# from dbo.specPhotoAll where class = # and objID is not #
+2019-04-03 06:11:00,1
+2019-04-03 06:12:00,1
+2019-04-03 06:14:00,1
+2019-04-03 06:15:00,1

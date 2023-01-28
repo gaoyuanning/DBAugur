@@ -1,0 +1,2 @@
+1,"SELECT TOP # cast (str (s.ra, #, #) as float) as ra, cast (str (s.[dec], #, #) as float) as dec, s.z, s.zErr, p.err_g, p.err_r, p.fiber2Flux_r, p.fiber2Mag_g, p.fiber2Mag_r, p.fiber2MagErr_g, p.fiber2MagErr_r, p.g, p.r FROM ..SpecObj as s JOIN ..PhotoObj AS p ON s.bestObjID = p.objID JOIN dbo.fGetObjFromRect (#, #, #, #) AS b ON s.bestobjid = b.objID WHERE s.z > # AND s.zWarning = # AND (s.class = #) AND s.z < # AND p.r > # AND p.r < # AND (p.type = # OR p.type = #) AND (s.primTarget & (dbo.fPrimTarget (#) ) > #)"
+2019-02-05 16:24:00,1

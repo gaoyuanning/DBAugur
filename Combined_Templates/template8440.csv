@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objId, s.ra, s.dec, s.class FROM Specobj as s JOIN PhotoPrimary as p ON p.objID = bestObjID WHERE s.class = # AND p.clean = #"
+2019-02-05 05:01:00,1

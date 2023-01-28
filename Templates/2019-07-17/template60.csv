@@ -1,0 +1,2 @@
+1,"SELECT TOP # plate, mjd, fiberid, z FROM SpecObj AS s  where sourcetype = &&&"
+2019-07-17 22:38:00,1

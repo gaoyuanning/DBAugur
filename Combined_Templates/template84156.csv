@@ -1,0 +1,3 @@
+2,"select top # objid, ra, dec, petroR5#_r, petromag_r, (select max (p.petromag_r) from dbo.fGetNearbyObjEq (photoprimary.ra, photoprimary.dec, #*photoprimary.petroR5#_r) n join photoprimary p on p.objid = n.objid) as BrightestObjin1#R5# from photoprimary"
+2019-12-23 08:56:00,1
+2019-12-23 09:04:00,1

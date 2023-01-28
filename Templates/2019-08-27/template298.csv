@@ -1,0 +1,2 @@
+1,"SELECT   A.RAJ2#,A.DEJ2#,C.z as specz,C.zerr as speczerr,C.class as specclass,C.subClass as specsubClass,C.specObjID as specObjIDALL,D.specObjID as specObjID,A.INDX,C.ObjID,C.specObjID,B.distance FROM    SpecPhotoAll AS A    APPLY dbo.fGetNearestObjEq(A.ra,A.dec,#/#.) AS B    LEFT JOIN SpecPhotoAll AS C ON B.objID=C.objID INTO    MyDB.SpecMatch"
+2019-08-27 14:35:00,1

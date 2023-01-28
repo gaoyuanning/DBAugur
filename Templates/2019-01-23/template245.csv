@@ -1,0 +1,2 @@
+1,"SELECT ObjID, SpecObjID, ra, dec, u, g, r, i, z into mydb.MyTable_# from Mydb.Good_Calib_Data_#b   WHERE SpecObjID in (       SELECT SpecObjID from Mydb.Good_Calib_Data_#     )     ;"
+2019-01-23 15:22:00,1

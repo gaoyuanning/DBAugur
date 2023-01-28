@@ -1,0 +1,2 @@
+1,SELECT dbo.aspcapStar.* into mydb.MyTable from dbo.aspcapStar inner join dbo.apogeeStar on dbo.apogeeStar.apogee_id=dbo.aspcapStar.apogee_id
+2019-01-16 16:19:00,1

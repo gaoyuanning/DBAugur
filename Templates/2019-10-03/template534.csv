@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.ra, s.dec FROM Galaxy g, SpecObj s     Concentration Index = g.petroR9#_r/g.petroR5#_r > #     WHERE s.eclass < #     and g.fracdev_g = #"
+2019-10-03 01:03:00,1

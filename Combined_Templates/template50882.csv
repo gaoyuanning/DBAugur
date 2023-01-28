@@ -1,0 +1,2 @@
+1,"SELECT ALL ra, dec, elpetro_absmag_g, elpetro_kcorrect_g, sersic_absmag_g, sersic_kcorrect_g, iauname FROM nsatlas WHERE ra > # and ra < # and dec > # and dec < #"
+2019-07-09 01:59:00,1

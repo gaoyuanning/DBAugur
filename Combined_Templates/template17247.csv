@@ -1,0 +1,3 @@
+2,"SELECT specObjID, d4#, d4#_err, d4#_model, d4#_sub, d4#_sub_err, d4#_n, d4#_n_err, d4#_n_model, d4#_n_sub, d4#_n_sub_err, d4#_red, d4#_blue, d4#_n_red, d4#_n_blue, d4#_sub_red, d4#_sub_blue, d4#_n_sub_red, d4#_n_sub_blue into mydb.D4# from dr1#.galSpecIndx"
+2019-03-04 00:53:00,1
+2019-03-04 00:54:00,1

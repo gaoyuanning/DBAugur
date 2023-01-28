@@ -1,0 +1,2 @@
+1,"SELECT TOP # --*   plate, mjd, fiberid, instrument, survey FROM SpecObj WHERE instrument = &&&   AND z BETWEEN # AND #"
+2019-04-29 10:44:00,1

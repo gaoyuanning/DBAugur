@@ -1,0 +1,2 @@
+1,"select ra,dec from specObj where targetType = SKY"
+2019-11-15 17:33:00,1

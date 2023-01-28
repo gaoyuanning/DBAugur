@@ -1,0 +1,2 @@
+1,"SELECT top # g.ObjId, g.ra, g.dec, g.run, g.rerun, g.camcol, g.field, g.insideMask, g.modelMag_r, g.modelMagErr_r, p.z, p.zerr from Galaxy as g join Photoz as p.ObjID = g.ObjID"
+2019-11-15 14:12:00,1

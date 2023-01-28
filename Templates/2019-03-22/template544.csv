@@ -1,0 +1,2 @@
+1,"SELECT specObjID, bestObjID, z FROM ( SELECT *,ABS(CHECKSUM(NEWID())) AS Rnd FROM SpecObj ) vw WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& WHERE Rnd < #"
+2019-03-22 11:54:00,1

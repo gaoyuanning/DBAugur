@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, IS# (s.specobjid, #) AS specobjid, IS# (s.z, #) AS z FROM Galaxy AS p LEFT OUTER JOIN SpecObj s ON s.bestObjID #"
+2019-07-26 11:49:00,1

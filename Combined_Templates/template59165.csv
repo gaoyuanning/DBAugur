@@ -1,0 +1,2 @@
+1,"SELECT top # p.objID, p.flags, dbo.fPhotoFlagsN (p.flags) FROM photoObj p JOIN dbo.fGetNearbyObjEq (#, #, #) n ON n.objID = p.objID WHERE p.type = # order by p.flags desc"
+2019-08-25 08:54:00,1

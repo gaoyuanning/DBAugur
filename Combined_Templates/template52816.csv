@@ -1,0 +1,2 @@
+1,select * from metadata.columns where column_name = #
+2019-07-19 10:41:00,1

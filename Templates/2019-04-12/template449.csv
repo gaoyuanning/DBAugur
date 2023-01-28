@@ -1,0 +1,3 @@
+3,"SELECT s.ra, s.dec, s.z, s.zErr, s.dered_z FROM SpecPhoto s, dbo.fGetNearbyObjEq(#,#,#) as n   WHERE class=&&& AND n.objID=s.objID AND ABS(#-s.z)<= #*(#+s.z)"
+2019-04-12 02:52:00,1
+2019-04-12 02:53:00,2

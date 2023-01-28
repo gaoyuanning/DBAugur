@@ -1,0 +1,2 @@
+1,"SELECT sp.velDispZErr, sp.velDispChi2, sp.velDispNPix, sp.velDispDOF, sp.waveMin, sp.waveMax, sp.wCoverage, sp.snMedian_u, sp.snMedian_g, sp.snMedian_r, sp.snMedian_i, sp.snMedian_z, sp.snMedian, sp.chi6#p, sp.fracNSigma_#, sp.fracNSigma_#, sp.fracNSigma_#, sp.fracNSigma_#, sp.fracNSigma_#, sp.fracNSigma_# into mydb.DR1#_sp_# from SpecObj AS sp WHERE z BETWEEN #. AND #. AND class = #"
+2019-02-05 12:15:00,1

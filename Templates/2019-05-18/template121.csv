@@ -1,0 +1,2 @@
+1,"select p.ra,p.dec,p.objid into mydb.MyTable from photoobjall as p   into mydb.Mi_# where   abs(p.b)>#   AND p.ra<# AND p.ra>#   AND p.dec>#   AND p.type=#   AND p.flags&#=#   AND p.flags&#=#   AND p.flags&#=#   AND p.flags&#=#   AND p.psfmagerr_i<#   AND p.psfmag_i>#   AND p.psfmag_i<#"
+2019-05-18 17:21:00,1

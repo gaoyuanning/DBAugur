@@ -1,0 +1,3 @@
+2,"SELECT TOP # p.ra, p.dec, p.u as u_mag, p.Err_u, p.g as g_mag, p.Err_g, p.r as r_mag, p.Err_r, p.i as i_mag, p.Err_i, p.z as z_mag, p.Err_z, s.z as redshift, s.zErr FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE s.z< # AND"
+2019-09-25 15:05:00,1
+2019-09-25 15:06:00,1

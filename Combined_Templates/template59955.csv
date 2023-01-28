@@ -1,0 +1,2 @@
+1,"select s.objID from star as s join dbo.fgetnearbyobjeq (#, #, #) as n on s.objID = nobjID"
+2019-08-31 23:08:00,1

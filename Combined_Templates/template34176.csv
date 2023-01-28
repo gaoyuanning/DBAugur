@@ -1,0 +1,4 @@
+5,"select top # u.*, d.ID, r.RunID from data as d join runs r on r.RunID = d.RunID join users u on u.UserID = r.UserID where X> # order by d.ID asc"
+2019-04-24 13:03:00,3
+2019-04-24 13:04:00,1
+2019-04-24 13:07:00,1

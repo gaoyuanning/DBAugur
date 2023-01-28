@@ -1,0 +1,2 @@
+1,"select * from optw.tamass.VARIABLES where UNIT = # and CONCEPT like #) select top # v.TRACTID, v.VAL from optw.tamass.VALS v join bins b on b.ID = v.VARID"
+2019-12-15 11:35:00,1

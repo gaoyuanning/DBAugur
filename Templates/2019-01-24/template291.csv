@@ -1,0 +1,2 @@
+1,"SELECT   p.objid,p.ra,p.dec,  s.specobjid, s.z as Redshift,  (# * (s.z/#)) as Distance,  (.#*(p.g - p.r) +.#) as Color,  ((p.g+.#*(p.g-p.r) +.#)- (#*log(#) #)) as Magnitude FROM   PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   s.class = &&&  AND (#*POWER(#,#) * (s.z/#))<# AND (#*POWER(#,#) * (s.z/#))>#  AND (.#*(p.g - p.r) +.#) <#  AND ((p.g+.#*(p.g-p.r) +.#)- #*log(#*POWER(#,#) * (s.z/#)) +#) < #"
+2019-01-24 15:44:00,1

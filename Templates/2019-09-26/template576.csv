@@ -1,0 +1,3 @@
+2,"SELECT G.ObjID  -- we want the photometric ObjID FROM Galaxy as G,   -- G is the galaxy   SpecObj   as S,   -- S is the spectra of galaxy G   SpecLine  as L,    -- L is a line of S   SpecLineNames as LN  -- the names of the lines  WHERE G.ObjID = S.bestObjID	-- connect the galaxy to the spectrum      and S.SpecObjID = L.SpecObjID   -- and the spectral line L is detected in the spectrum      and L.LineId = LN.value		-- L is the H alpha line      and LN.name =  &&&         and L.ew > #                   -- and H alpha is at least # angstroms wide."
+2019-09-26 06:17:00,1
+2019-09-26 06:19:00,1

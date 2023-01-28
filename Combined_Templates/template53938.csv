@@ -1,0 +1,2 @@
+1,"select z, ra, dec, specObjID, plate , class, subClass, zErr, petroMag_g from specObjAll where zWarning = #"
+2019-07-26 13:32:00,1

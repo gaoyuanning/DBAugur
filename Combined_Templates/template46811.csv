@@ -1,0 +1,2 @@
+1,select max (timecreated) from batch.users
+2019-06-19 11:29:00,1

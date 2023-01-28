@@ -1,0 +1,3 @@
+2,"SELECT TOP # pz.objId, pz.z, pz.zErr, pz.absMagR, p.ra, p.dec FROM Photoz pz JOIN photoObj p ON p.objId = pz.objID WHERE pz.z BETWEEN # and # and pz.photoErrorClass = # and pz.nnCount> # and pz.zErr BETWEEN # and # and p.ra BETWEEN # and # and p.dec BETWEEN # and #"
+2019-09-25 11:10:00,1
+2019-09-25 12:40:00,1

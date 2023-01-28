@@ -1,0 +1,4 @@
+3,select count (*) from direction_new_left_phot where ra> # and ra< #
+2019-11-12 11:39:00,1
+2019-11-12 11:40:00,1
+2019-11-12 11:58:00,1

@@ -1,0 +1,6 @@
+6,"SELECT top # specObjId, z, bestObjId,   cast(  (z - (SELECT MIN(z)   FROM SpecObj   WHERE class = &&& AND zWarning = # and survey = &&&))  /  ((  (SELECT MAX(z)   FROM SpecObj   WHERE class = &&& AND zWarning = # and survey = &&&)  -   (SELECT MIN(z)   FROM SpecObj   WHERE class = &&& AND zWarning = # and survey = &&&)  ) / #  )  AS INT) as Bucket,  (z - (SELECT MIN(z)   FROM SpecObj   WHERE class = &&& AND zWarning = # and survey = &&&))  /  ((  (SELECT MAX(z)   FROM SpecObj   WHERE class = &&& AND zWarning = # and survey = &&&)  -   (SELECT MIN(z)   FROM SpecObj   WHERE class = &&& AND zWarning = # and survey = &&&)  ) / #  )  AS Raw FROM SpecObj WHERE class = &&& AND zWarning = # and survey = &&&"
+2019-03-07 16:30:00,1
+2019-03-07 16:31:00,1
+2019-03-07 16:32:00,1
+2019-03-07 16:38:00,1
+2019-03-07 16:39:00,2

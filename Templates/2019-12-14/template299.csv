@@ -1,0 +1,2 @@
+1,"select top # ra, dec, z, psfmag_u, field from specphoto where class=galaxy&&&"
+2019-12-14 02:38:00,1

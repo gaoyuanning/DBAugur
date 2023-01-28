@@ -1,0 +1,6 @@
+6,"SELECT TOP # s.z,p.objID FROM BESTDR7..SpecObj as s 	JOIN BESTDR7..PhotoObj AS p ON s.bestObjID = p.objID WHERE  s.z > # AND (s.specClass = dbo.fSpecClass(&&&)) AND s.z < # AND ( p.type = # OR p.type = #)"
+2019-02-18 07:04:00,1
+2019-02-18 07:09:00,1
+2019-02-18 07:10:00,2
+2019-02-18 07:24:00,1
+2019-02-18 15:27:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, ra , dec FROM PhotoObj p JOIN specObj s ON s.bestObjID = p.objID JOIN plateX x ON x.plateID = s.plateID WHERE s.class = # AND s.zWarning = # AND ra > # and ra < # AND dec > # and dec < # AND Class = GALAXY"
+2019-10-07 12:07:00,1

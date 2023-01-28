@@ -1,0 +1,2 @@
+1,"SELECT COUNT (*) into mydb.MyTable from SpecObj as spec, PhotoObj as phot, Photoz as photz WHERE spec.BestObjID = phot.ObjID AND spec.sourceType = # AND spec.zWarning = # AND (phot.modelmag_r - phot.extinction_r) BETWEEN # and # AND spec.ra BETWEEN # and # AND spec.dec BETWEEN # and # OR spec.ra BETWEEN # and # AND spec.dec BETWEEN # and #"
+2019-02-11 12:00:00,1

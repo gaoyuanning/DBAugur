@@ -1,0 +1,2 @@
+1,"SELECT TOP #  g.objID,g.ra, g.dec, g.u, g.g, g.r, g.i, g.z, p.z FROM Galaxy g, PhotoObj p WHERE g.objID=p.objID"
+2019-05-02 18:23:00,1

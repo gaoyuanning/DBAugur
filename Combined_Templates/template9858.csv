@@ -1,0 +1,3 @@
+2,"SELECT TOP # g.ObjID, g.modelMag_r, g.petroRad_r FROM Galaxy as g INNER JOIN SpecPhotoAll as s ON g.ObjID = s.specObjID WHERE (g.ra between # and #) and (g.dec between # and #) and g.modelMag_r < # and g.expRad_r > # and s.class"
+2019-02-11 00:15:00,1
+2019-02-11 00:18:00,1

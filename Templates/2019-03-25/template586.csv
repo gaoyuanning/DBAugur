@@ -1,0 +1,2 @@
+2,"SELECT PhotoObjAll.objid, PhotoObjAll.u, PhotoObjAll.g, PhotoObjAll.r, PhotoObjAll.i, PhotoObjAll.z FROM PhotoObjAll JOIN specObjAll ON PhotoObjAll.objid = specObjAll.objid"
+2019-03-25 15:48:00,2

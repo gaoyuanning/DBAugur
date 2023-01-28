@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.ra, s.dec, s.z, SFR, absMagK, SFH, Metallicity, logMass, age, minAge, maxAge FROM stellarMassStarformingPort AS g  JOIN SpecObj AS s  ON s.specobjid = g.specobjid  WHERE  s.class = &&&  AND s.zwarning = #"
+2019-07-14 12:26:00,1

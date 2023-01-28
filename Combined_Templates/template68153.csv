@@ -1,0 +1,2 @@
+1,SELECT top1# p.u FROM PhotoObj AS p WHERE p.u BETWEEN # AND # AND p.g BETWEEN # AND #
+2019-10-07 14:46:00,1

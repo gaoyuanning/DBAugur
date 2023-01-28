@@ -1,0 +1,2 @@
+1,"select s.objTypeName, s.objType, p.ra, p.dec, p.objID, s.z as redshift, p.g from photoObj p, SpecObj s WHERE s.objType=# and p.specObjID=s.specObjID and p.objID not in ( #, #, #, #, #) and p.ra BETWEEN # AND # AND p.dec BETWEEN # AND # order by p.ra"
+2019-06-27 20:00:00,1

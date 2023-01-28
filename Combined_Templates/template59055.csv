@@ -1,0 +1,2 @@
+1,"SELECT galSpecLine.plate, galSpecLine.mjd, galSpecLine.fiberID, galSpecLine.z FROM galSpecLine WHERE h_alpha_flux > #*h_beta_flux AND galSpecLine.class = # AND galSpecLine.z between # and # And galSpecLine.sn1_g > #"
+2019-08-23 21:34:00,1

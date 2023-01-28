@@ -1,0 +1,2 @@
+1,"SELECT p.objid, s.specobjid, p.type, s.class, p.deVRad_r, p.deVRadErr_r, p.expRad_r, p.expRadErr_r, s.ra, s.dec, s.z, s.Err, g.bptclass, p.lgm_tot_p5#, p.sfr_tot_p5#, p.specsfr_tot_p5# FROM photoobj as p JOIN SpecObj as s ON s.bestobjid = p.objid JOIN galspecextra as g on g.specobjid = s.specobjid WHERE p.type = # and s.class = Galaxy"
+2019-07-31 07:06:00,1

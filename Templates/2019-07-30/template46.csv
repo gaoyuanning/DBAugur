@@ -1,0 +1,5 @@
+4,"SELECT  p.objID,p.ra,p.dec,p.type,p.skyVersion,p.run,p.rerun,p.camcol,p.field,p.obj,p.mode,p.flags, z.dr7objid,z.nvote,z.p_el,z.p_cw,z.p_acw,z.p_edge,z.p_dk,z.p_mg,z.p_cs,z.p_el_debiased,z.p_cs_debiased,z.spiral,z.elliptical,z.uncertain,  s.specObjID,s.sourceType,s.targetType,s.class,s.subClass,s.velDisp,s.velDispZ,s.z,s.waveMin,s.waveMax,s.elodieObject,s.elodieSpType,s.elodieBV,s.elodieTEff,s.spectroFlux_u,s.spectroFlux_g,s.spectroFlux_r,s.spectroFlux_i,s.spectroFlux_z,s.spectroSynFlux_u,s.spectroSynFlux_g,s.spectroSynFlux_r,s.spectroSynFlux_i,,s.spectroSynFlux_z FROM  PhotoObj AS p  JOIN SpecObjAll AS s ON s.specObjID = p.specObjID  JOIN zooSpec as z ON z.objid=p.objID and z.specobjid = p.specObjID where p.type=# and p.mode=# and p.objID=#"
+2019-07-30 23:14:00,1
+2019-07-30 23:15:00,1
+2019-07-30 23:17:00,1
+2019-07-30 23:21:00,1

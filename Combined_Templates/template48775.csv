@@ -1,0 +1,2 @@
+1,"select # , cModelMag_u, cModelMag_g, cModelMag_r, cModelMag_i from specPhoto, galSpecInfo where targettype = QSO"
+2019-06-27 00:45:00,1

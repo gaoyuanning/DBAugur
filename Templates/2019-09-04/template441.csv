@@ -1,0 +1,2 @@
+1,"SELECT   p.objid,p.ra,p.dec,p.r FROM PhotoObj AS p WHERE   p.r < #  AND p.ra BETWEEN # AND #  AND p.dec BETWEEN # AND #"
+2019-09-04 12:14:00,1

@@ -1,0 +1,2 @@
+1,"select yy, mm, dd, hh, mi, ss, logID, clientIP, op, command, error, browser, isvisible, referer, bytesOut, bytesIn, elapsed into sqllogall2#_#_to_# from sqllogall where yy = # and mm between # and # and dd between # and #"
+2019-10-17 10:29:00,1

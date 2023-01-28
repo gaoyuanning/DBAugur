@@ -1,0 +1,2 @@
+2,"select ese.galID, ese.ra, ese.dec, ese.petroMag_u, ese.petroMag_g, ese.petroMag_r, ese.petroMag_i, ese.petroMag_z, ese.z, ese.groupID, ese.distToC, G.sfr_tot_p5#, G.sfr_tot_p2p5, G.sfr_tot_p1#, G.sfr_tot_p8#, G.sfr_tot_p9#p5, G.specsfr_tot_p5#, G.specsfr_tot_p2p5, G.specsfr_tot_p1#, G.specsfr_tot_p8#, G.specsfr_tot_p9#p5 from MyDB.pastilla3_#_p1 ese, galSpecExtra G where G.specObjID = ese.galID"
+2019-05-14 15:29:00,2

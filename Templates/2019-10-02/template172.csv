@@ -1,0 +1,2 @@
+1,"SELECT   p.objid,p.specobjid   into mydb.specobjid2objid  FROM   SpecPhotoAll as p"
+2019-10-02 16:40:00,1

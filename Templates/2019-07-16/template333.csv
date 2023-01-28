@@ -1,0 +1,2 @@
+1,"SELECT sm.specObjId,sm.ra,sm.dec,sm.z, sm.m2l_min_u as ml_u FROM stellarMassFSPSGranEarlyDust AS sm"
+2019-07-16 11:09:00,1

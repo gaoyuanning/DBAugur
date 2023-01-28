@@ -1,0 +1,2 @@
+1,"select top # p.ra, p.dec, s.z, (# - #*log1# (spectroFlux_g) ) from specobj as s, photoobj as p where specobjid = p.objid and (p.ra between # and #) and (p.dec between # and #) and s.class = # and spectroFlux_g > #"
+2019-09-08 14:50:00,1

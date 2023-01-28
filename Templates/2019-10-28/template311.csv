@@ -1,0 +1,2 @@
+1,"select datepart(yy,timesubmit) as yy,datepart(mm,timesubmit) as mm,count(distinct webservicesid) as users								 into MthlyUniqueCJUsers from jobs group by datepart(yy,timesubmit), datepart(mm,timesubmit) order by yy,mm"
+2019-10-28 11:41:00,1

@@ -1,0 +1,2 @@
+1,"SELECT distinct top # m.ra, m.dec, m.objid FROM NN1 m WHERE m.ra IN ()"
+2019-01-09 15:17:00,1

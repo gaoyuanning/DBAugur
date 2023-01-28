@@ -1,0 +1,2 @@
+1,"SELECT TOP1#  p.id, p.ra, p.dec, p.mpe, p.mp2# from RC3 as p where  p.mpe+#>#  and p.mp2#+#>#"
+2019-03-01 18:47:00,1

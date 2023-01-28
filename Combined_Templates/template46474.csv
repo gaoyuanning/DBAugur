@@ -1,0 +1,2 @@
+1,"select m.mangaid, m.ra as ra1, m.dec as dec1, n.objid, z.nvote, z.p_el as elliptical, z.p_cw as spiralclock, z.p_acw as antispiralclock, z.p_edge as edgeon, z.p_dk as dontknow, z.p_mg as merger into mydb.table_AGN_MPL8_galaxyzoo from MyDB.MyTable_# as m cross apply dbo.fGetNearestObjEq (m.ra, m.dec, #) as n join PhotoObj as o on n.objid = o.objid join PhotoZ as p on n.objid = p.objid join stellarMassFSPSGranWideDust as s on o.specObjID = s.specObjID join DR8.ZooSpec as z on n.objid = z.objid"
+2019-06-18 12:59:00,1

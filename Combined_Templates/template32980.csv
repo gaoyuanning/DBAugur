@@ -1,0 +1,2 @@
+1,"select Name, Substring (Name, #, #) as Initial from chinook.Artist group by Initial"
+2019-04-22 08:13:00,1

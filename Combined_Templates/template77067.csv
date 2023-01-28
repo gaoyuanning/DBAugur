@@ -1,0 +1,2 @@
+4,"select flags_r, ra, dec, (flags_r & #) from photoobjall where ra between # and # and dec between # and #"
+2019-11-18 10:27:00,4

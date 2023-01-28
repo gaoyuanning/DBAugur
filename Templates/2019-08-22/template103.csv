@@ -1,0 +1,4 @@
+15,"SELECT g.objid, g.ra, g.dec, g.petroMag_r, s.z, s.zErr, dbo.fPhotoTypeN(g.type) as type, s.sourceType, n.distance FROM Galaxy AS g JOIN SpecObj AS s ON g.objid = s.bestobjid, fGetNearbyObjEq(#,#,#) AS n WHERE g.objID = n.objID"
+2019-08-22 21:20:00,1
+2019-08-22 21:37:00,3
+2019-08-22 22:31:00,11

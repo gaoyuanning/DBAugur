@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.SpecObjID, s.z  FROM SpecObj as s ORDER BY s.z"
+2019-09-27 11:39:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # S.ObjID, SN.sn_#, L1.ew, L2.ew, L3.ew, SNN2.sn FROM SpecPhoto AS S JOIN SpecLine AS L1 ON S.SpecObjID = L1.SpecObjID JOIN SpecLine AS L2 ON S.SpecObjID = L2.SpecObjID JOIN SpecLine AS L3 ON S.SpecObjID = L3.SpecObjID JOIN SpecObjAll AS SN ON S.SpecObjID = SN.SpecObjID JOIN SpecLineIndex AS SNN2 ON S.SpecObjID = SNN2.SpecObjID WHERE L1.LineId = # and L2.LineId = # and L3.LineID = # and (S.specclass = # or S.specclass = #) and S.zconf > .# and S.z < .# and SN.sn_# > # and L2.ew > # and L3.ew > #"
+2019-06-11 17:53:00,1

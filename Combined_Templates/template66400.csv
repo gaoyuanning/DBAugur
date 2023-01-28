@@ -1,0 +1,2 @@
+1,"select specObjID, ra, dec into MyDB.STAR_CATY_VAR from DR1#.SpecObjAll where sourceType = #"
+2019-09-28 04:52:00,1

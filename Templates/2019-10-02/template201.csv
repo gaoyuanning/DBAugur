@@ -1,0 +1,2 @@
+1,"select     plateX.plate, plateX.mjd,      specObj.fiberID,      PhotoObj.modelMag_u, PhotoObj.modelMag_g,      PhotoObj.modelMag_r, PhotoObj.modelMag_i,      PhotoObj.modelMag_z,     PhotoObj.ra, PhotoObj.dec,     specObj.z, PhotoObj.ObjID into mydb.MyTable from photoObj, specObj, plateX where     specObj.bestObjid = PhotoObj.ObjID      and plateX.plateID = specObj.plateID      and class = &&&      and specObj.zWarning = #      and specobj.z between # and #"
+2019-10-02 16:04:00,1

@@ -1,0 +1,2 @@
+2,"select    s.ra, s.dec, s.z, s.boss_target1,s.bossPrimary,s.bossSpecObjID,s.firstRelease,s.instrument,s.programname    from    SpecObjAll as s      into MyDB.Kauffmann_specobjAll_finding_BOSS_final_test    where   s.z between # and #"
+2019-06-16 07:31:00,2

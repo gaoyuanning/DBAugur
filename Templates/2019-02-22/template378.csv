@@ -1,0 +1,2 @@
+1,"select s.specobjid, s.plate,s.mjd,s.fiberid,s.ra,s.dec,s.cx,s.cy,s.cz,s.z,s.veldisp, s.veldisperr,p.pc1,p.pc2 into myDB.psb_COSa from specobj as s, myDB.DR6pcs as p where s.sn_#># and ((-p.pc2 >= #*p.pc1+# and p.pc1 < # and -p.pc2 > #*p.pc1#) or (-p.pc2 >= #*p.pc1+# or p.pc1 <= # and -p.pc2 < #)) and p.specobjid=s.specobjid"
+2019-02-22 05:54:00,1

@@ -1,0 +1,2 @@
+1,"select s.specobjid, p.objid into mydb.GR5_AIS_SDSS_D1#_INFO_catalog_errmagFUVandNUV_menor_#_#mag from MyDB.GALEX_GR5_AIS_SDSS_DR7_Matched_catalog_errmagFUVandNUV_menor_#_#mag AS m, specobjall as s CROSS APPLY dbo.fGetNearestObjEq (m.ra_x, m.dec_x, #) AS n JOIN PhotoObj AS p ON n.objid = p.objid"
+2019-07-21 14:04:00,1

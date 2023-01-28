@@ -1,0 +1,2 @@
+1,"SELECT dr7.primtarget, dbo.fprimtargetN (dr7.primtarget) as primt where plate and fiberid and mjd from db.pfmQN INTO db.target"
+2019-11-26 04:51:00,1

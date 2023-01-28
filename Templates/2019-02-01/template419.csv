@@ -1,0 +1,2 @@
+1,"select  * from parameters where progress > #  select p.algo, p.progress, r.beta  from portfolios r join parameters p on p.hash=r.hash"
+2019-02-01 10:04:00,1

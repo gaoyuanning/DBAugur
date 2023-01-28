@@ -1,0 +1,2 @@
+1,"select photoobj.u,photoobj.g,photoobj.r,photoobj.i,photoobj.z specobj.z,specobj.ra,specobj.dec,XCredshift.tempno from photoobj,specobj,xcredshift where specobj.objid=xcredshift.objid and photoobjid=specobjid and specclass=# and specobj.z>#"
+2019-06-19 17:00:00,1

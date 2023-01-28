@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.specObjID, s.plate, s.fiberid, dbo.fGetUrlFitsSpectrum (s.specObjID) FROM SpecObjAll s INNER JOIN Star p ON p.objid = s.bestObjID WHERE p.r BETWEEN # AND #"
+2019-11-20 12:07:00,1

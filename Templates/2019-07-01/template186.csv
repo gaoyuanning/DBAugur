@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID, z, ra, dec FROM SpecObj FROM PhotoPrimary WHERE class = &&& AND zWarning = #  WHERE ra BETWEEN # and #.   dec between # and #"
+2019-07-01 19:17:00,1

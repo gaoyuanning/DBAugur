@@ -1,0 +1,2 @@
+1,select count (ra) into mydb.MyTable from photoobj
+2019-09-17 18:28:00,1

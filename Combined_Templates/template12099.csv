@@ -1,0 +1,2 @@
+1,"select id.objID, p.objID, p.expMag_u, p.expMag_g, p.expMag_r, p.expMag_i, p.expMag_z, p.expMagErr_u, p.expMagErr_g, p.expMagErr_r, p.expMagErr_i, p.expMagErr_z from mydb.EXPID as id, PhotoObjAll as p where id.objID = p.objID"
+2019-02-18 06:52:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP #   g.objID, g.ra, g.dec, y.z     into mydb.cesam from galaxy g      join specobj y ON y.specobjID = g.specobjID WHERE g.ra># and g.ra<# and g.dec># and g.dec<#"
+2019-11-19 05:36:00,1

@@ -1,0 +1,3 @@
+2,"select top # objid, modelmag_u, modelmag_g, modelmag_r, modelmag_i, modelmag_z, z from (select top #* from SpecPhoto order by col1 asc) x order by col1 desc where specclass = # and zconf > .#"
+2019-07-11 13:49:00,1
+2019-07-11 13:50:00,1

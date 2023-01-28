@@ -1,0 +1,6 @@
+17,"select p.ra, p.dec from PhotoObj as p, dbo.fGetNearestObjEq (#, #, #) as no where p.objID = no.objID"
+2019-09-19 21:12:00,1
+2019-09-19 21:15:00,1
+2019-09-19 21:21:00,1
+2019-12-24 23:30:00,11
+2019-12-24 23:31:00,3

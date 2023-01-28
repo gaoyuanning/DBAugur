@@ -1,0 +1,5 @@
+4,"CREATE TABLE [r2#][Myocardial_infarction_outcomes] (eid BIGINT NOT # , [Date_of_myocardial_infarction_#] DATETIME -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Source_of_myocardial_infarction_report_#] INTEGER -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Date_of_STEMI_#] DATETIME -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Source_of_STEMI_report_#] INTEGER -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Date_of_NSTEMI_#] DATETIME -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Source_of_NSTEMI_report_#] INTEGER -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , PRIMARY KEY (eid) ) GO"
+2019-04-15 14:30:00,1
+2019-04-15 14:32:00,1
+2019-04-15 14:34:00,1
+2019-04-15 14:36:00,1

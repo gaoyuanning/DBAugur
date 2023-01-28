@@ -1,0 +1,2 @@
+1,"select *   specObjId,ra,dec, modelMag_u, modelMag_g, modelMag_r, modelMag_i, , modelMag_z, z from SpecPhotoAll where   z<#   ra<# and ra>#   dec<# and dec<#"
+2019-09-26 13:27:00,1

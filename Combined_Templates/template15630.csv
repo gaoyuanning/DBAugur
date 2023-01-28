@@ -1,0 +1,8 @@
+10,"SELECT TOP # s.z as z_spec, p.objid, p.dered_g, p.dered_r, zns.p_el as elliptical, zns.p_cs as combined_spiral FROM Galaxy as p JOIN ZooNoSpec AS zns ON p.objid = zns.objid JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE s.z between # and # and zns.p_cs > #"
+2019-02-28 11:04:00,2
+2019-02-28 11:07:00,1
+2019-02-28 11:10:00,2
+2019-02-28 11:11:00,1
+2019-02-28 11:14:00,1
+2019-02-28 11:15:00,1
+2019-02-28 11:16:00,2

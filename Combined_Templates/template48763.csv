@@ -1,0 +1,2 @@
+1,"select # cModelMag_u, cModelMag_g, cModelMag_r, cModelMag_i from specPhoto Whereand ra BETWEEN # and # and dec BETWEEN # and # and class = qso"
+2019-06-27 01:00:00,1

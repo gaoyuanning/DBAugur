@@ -1,0 +1,3 @@
+2,"select objid, ra, dec  from SpecPhotoAll where plate = #  and mjd = # and fiberid =   #"
+2019-10-04 14:48:00,1
+2019-10-04 14:49:00,1

@@ -1,0 +1,5 @@
+5,"SELECT top # p.objid as objid, p.ra, p.dec, p.petror9#_r as petror9#_r, p.fiberMag_g as fiberMag_g, S.velDisp as velDisp, p.g FROM fGetNearbyObjEq (#, #, #) n, PhotoPrimary p, SpecObj as S WHERE n.objID = p.objID and p.objid = S. bestObjID AND s.z < # AND velDisp > #. INTO micado_galaxies_byradius"
+2019-07-07 08:48:00,1
+2019-07-07 08:51:00,2
+2019-07-07 08:52:00,1
+2019-07-07 08:53:00,1

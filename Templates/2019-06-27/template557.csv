@@ -1,0 +1,3 @@
+4,"select    a.plateid,   a.mjd,   a.fiberid,   a.ra,   a.dec      into mydb.kk    FROM   galSpecInfo as a where   a.plateid = # and   a.mjd = # and   a.fiberid = #"
+2019-06-27 04:48:00,3
+2019-06-27 04:49:00,1

@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, psfmag_g, psfmagerr_g, psfmag_r, psfmagerr_r into mydb.MyTable from Star WHERE    clean=# AND psfMag_g < #"
+2019-09-09 19:12:00,1

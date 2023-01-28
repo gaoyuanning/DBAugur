@@ -1,0 +1,2 @@
+3,"select p.objid as name, p.ra, p.dec from photoObj p join dbo.fgetnearbyobjeq (#, #, #) n on p.objid = n.objid join specObj s on p.objid = s.bestobjid and p.u < # and s.Class = # and s.z > = # and s.z < #"
+2019-05-24 19:52:00,3

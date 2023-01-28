@@ -1,0 +1,3 @@
+3,"SELECT Zipcode, Permit_ZipCode,   sum(case SFParklets.Permit_Number when NULL then # else # END),   sum(case SFViolations.[Complaint Number] when NULL then # else # END) FROM SFViolations, SFParklets   WHERE Zipcode = Permit_ZipCode GROUP BY Zipcode, Permit_ZipCode"
+2019-02-11 13:16:00,2
+2019-02-11 13:17:00,1

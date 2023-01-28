@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, ra, dec, z, u-r, r-z FROM Galaxy WHERE u-r < # and r-z < # modelmag_u-modelmag_r > # + modelmag_r-modelmag_z"
+2019-04-30 04:44:00,1

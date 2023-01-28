@@ -1,0 +1,2 @@
+1,"SELECT search_id AS up_id, ra AS up_ra, dec AS up_dec  FROM MyDB.AKARI_lost_pos  CREATE TABLE #tmp ( 	up_id int, 	objid bigint ) INSERT INTO #tmp EXEC spGetNeighbors #    INSERT INTO MyDB.tmp1# SELECT MIN(tmp.up_id) AS up_id, tmp.objid AS objid FROM #tmp tmp"
+2019-10-08 04:22:00,1

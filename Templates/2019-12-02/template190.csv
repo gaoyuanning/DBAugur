@@ -1,0 +1,4 @@
+7,"SELECT TOP # p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,n.distance FROM fGetNearbyObjEq(#,#,#) n, PhotoObj AS p WHERE n.objid = p.objid ORDER BY n.distance"
+2019-12-02 14:42:00,3
+2019-12-02 14:44:00,2
+2019-12-02 15:25:00,2

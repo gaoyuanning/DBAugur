@@ -1,0 +1,2 @@
+1,"SELECT sourceType,ra,dec,class,subClass,rChi2,elodieSpType,elodieTEff,elodieLogG,elodieFeH into mydb.Stripe8# Spectra from SpecObjAll WHERE ra between # and # and dec between # and #"
+2019-06-05 06:35:00,1

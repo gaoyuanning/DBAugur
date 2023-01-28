@@ -1,0 +1,2 @@
+1,"select fieldID,ra,dec,Run.strip, Run.run, Run.rerun, field, camcol, raMin, raMax, decMin, decMax from Field inner join dbo.Run on Run.run=Field.run where Run.stripe=# and ra between # and # --select top # * from dbo.PhotoObjAll where type=# and field=# and run=# and camcol=# select top # * from dbo.specObjAll where type=# and field=# and run=# and camcol=#"
+2019-01-29 05:27:00,1

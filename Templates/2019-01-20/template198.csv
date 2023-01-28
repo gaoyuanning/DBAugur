@@ -1,0 +1,10 @@
+14,"SELECT *                       FROM INFORMATION_SCHEMA.TABLES                       WHERE TABLE_NAME = &&&))     BEGIN     drop table CycleEdges_SD1     END      CREATE TABLE CycleEdges_SD1 (cycleRootId integer, snapnum smallint, rankInCycle integer, elementId integer, edgeRank tinyint)"
+2019-01-20 07:57:00,2
+2019-01-20 08:27:00,1
+2019-01-20 08:28:00,2
+2019-01-20 08:29:00,2
+2019-01-20 08:30:00,1
+2019-01-20 08:31:00,2
+2019-01-20 08:35:00,2
+2019-01-20 08:38:00,1
+2019-01-20 09:30:00,1

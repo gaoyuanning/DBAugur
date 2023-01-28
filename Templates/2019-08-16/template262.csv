@@ -1,0 +1,2 @@
+1,SELECT count(*) as &&& into mydb.countalltarg from PhotoPrimary
+2019-08-16 13:25:00,1

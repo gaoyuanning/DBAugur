@@ -1,0 +1,2 @@
+1,"select S.bestobjID objectID, S.z redshift into mydb.HQuasars from SpecObj S where SpecClass = #"
+2019-06-01 15:04:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.petroMag_r, p.extinction_r, p.petroR5#_r, IS# (s.z, #) as redshift, IS# (s.velDisp, #) as velDisp JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.u BETWEEN # AND # AND g BETWEEN # AND #"
+2019-04-09 03:11:00,1

@@ -1,0 +1,4 @@
+3,"SELECT my.id, my.ra_s, my.dec_s, my.bmag, my.bvcolor, my.z_s, match.distance, p.z FROM MyDB.s2# as my OUTER APPLY dbo.fGetNearestObjEQ (my.ra_s, my.dec_s, #) as match JOIN SpecPhoto as p on p.objid = match.objid"
+2019-02-12 12:33:00,1
+2019-02-12 12:34:00,1
+2019-02-12 12:36:00,1

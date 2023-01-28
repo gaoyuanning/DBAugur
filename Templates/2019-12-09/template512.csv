@@ -1,0 +1,6 @@
+5,"select p.objid, p.ra, p.dec, p.u, p.err_u, p.g, p.err_g, p.r, p.err_r, p.i, p.err_i, p.z, p.err_z from photoobj p WHERE   p.ra BETWEEN # AND #  AND p.dec BETWEEN # AND #"
+2019-12-09 01:34:00,1
+2019-12-09 01:39:00,1
+2019-12-09 01:48:00,1
+2019-12-09 02:02:00,1
+2019-12-09 02:42:00,1

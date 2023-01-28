@@ -1,0 +1,2 @@
+1,"SELECT s.plate,s.mjd,s.ra,s.dec,s.fiberid into mydb.MyTable FROM   Event E        INNER JOIN        (         SELECT &&& as StatusCode, ReasonCode, Name         FROM   ReadyReason         UNION         SELECT &&&, ReasonCode, Name         FROM   DelayReason         UNION         SELECT &&&, ReasonCode, Name         FROM   SpareReason         UNION         SELECT &&&, ReasonCode, Name         FROM   DownReason        ) SR        ON E.StatusCode = SR.StatusCode AND        E.ReasonCode = SR.ReasonCode"
+2019-10-04 12:48:00,1

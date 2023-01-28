@@ -1,0 +1,2 @@
+1,"SELECT TOP # P.ra, S.mjd, ssp.TEFFADOP into mydb.MyTable from PhotoObj AS P   JOIN SpecObj AS S ON P.objid = S.bestObjID   JOIN sppParams As ssp ON P.objid = ssp.bestObjID WHERE   ssp.TEFFADOP > # AND ssp.TEFFADOP < #"
+2019-04-24 15:25:00,1

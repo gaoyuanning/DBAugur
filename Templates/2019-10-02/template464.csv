@@ -1,0 +1,4 @@
+3,"SELECT s.SpecObjID, s.z into mydb.MyTable from SpecObj as s JOIN SpecLine as L ON s.SpecObjID = L.specobjID WHERE L.LineID =#"
+2019-10-02 08:12:00,1
+2019-10-02 08:19:00,1
+2019-10-02 08:20:00,1

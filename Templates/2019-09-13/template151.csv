@@ -1,0 +1,2 @@
+1,"SELECT TOP #    specObjID, plateID, survey, instrument, mjd, plate, fiberID, ra, dec, z, zErr, class, subClass, snMedian, programname, platerun, legacy_target1, DR1#.fPriTargetN(primTarget) into mydb.MyTable from SpecObj    WHERE (class = &&&)"
+2019-09-13 17:47:00,1

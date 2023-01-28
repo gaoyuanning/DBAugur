@@ -1,0 +1,2 @@
+1,"select top # devflux_g, expflux_g, deVRad_g, expRad_g, #*devflux_g/deVRad_g/deVRad_g - #*expflux_g/expRad_g/expRad_g from PhotoObjall where expflux_g ! = # and deVRad_g ! =#"
+2019-10-30 11:09:00,1

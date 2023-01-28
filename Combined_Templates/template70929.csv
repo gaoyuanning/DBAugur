@@ -1,0 +1,4 @@
+4,"select top # * from mangaDRPall as m, specObjAll as s where ROUND (m.objdec, #) = ROUND (s.dec, #) and ROUND (m.objra, #) = ROUND (s.ra, #) and s.elodieTEff> # and s.elodieTEff< #"
+2019-10-21 02:49:00,1
+2019-10-21 02:52:00,2
+2019-10-21 02:53:00,1

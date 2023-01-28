@@ -1,0 +1,7 @@
+8,"SELECT       s.specObjID as specObjID,   m.ra AS ra,   m.dec AS dec,   s.Flux_Hb_# as h_beta,   s.Flux_OIII_# as OIII,   s.Flux_Ha_# as h_alpha,   s.Flux_NII_# as NII   into mydb.MyTable_# from MyDB.temp2 AS m   OUTER APPLY dbo.fGetNearestSpecObjAllEq( m.ra, m.dec, #) AS n    LEFT JOIN emissionLinesPort AS s ON n.specObjID=s.specObjID"
+2019-04-05 18:28:00,1
+2019-04-05 18:29:00,1
+2019-04-05 18:33:00,2
+2019-04-05 18:35:00,1
+2019-04-05 18:36:00,2
+2019-04-05 18:37:00,1

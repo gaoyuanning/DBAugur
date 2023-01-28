@@ -1,0 +1,2 @@
+1,"select a.*, t.objid as matched_id, s.z from #tmp t JOIN MYDB.SecondID2 a ON t.up_id = a.int_id JOIN specobj s ON s.bestobjid = t.objid"
+2019-06-18 12:04:00,1

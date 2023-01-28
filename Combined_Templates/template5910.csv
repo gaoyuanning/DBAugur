@@ -1,0 +1,2 @@
+1,"select top # p.objid as name, p.ra, p.dec from photoobj p where (p.u BETWEEN # AND #) and p.clean = #"
+2019-01-24 08:11:00,1

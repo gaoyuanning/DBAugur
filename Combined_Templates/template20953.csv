@@ -1,0 +1,2 @@
+1,select count (*) From SPECOBJ where z = randomnumber
+2019-03-16 17:17:00,1

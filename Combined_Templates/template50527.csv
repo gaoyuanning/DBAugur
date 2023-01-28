@@ -1,0 +1,3 @@
+4,"select p.objID, p.ra, p.dec into mydb.DR7_PhotoObjAll_ojbID_ra_dec from PhotoObjAll p"
+2019-07-08 03:28:00,2
+2019-07-08 03:31:00,2

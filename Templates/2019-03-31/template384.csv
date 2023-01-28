@@ -1,0 +1,2 @@
+1,"select t.albumid, count(*) as num,count(distinct composer) as numC from chinook.track t  group by t.albumid  ) select * from r   join chinook.track t on t.albumid=r.albumid   join chinook.album b on b.albumid=t.albumid   join chinook.artist a on a.artistid=b.artistid    where r.numC between # and #   order by r.num"
+2019-03-31 12:13:00,1

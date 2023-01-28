@@ -1,0 +1,2 @@
+1,"select TOP # dbo.fDistanceEq (m.RA, m.DEC, w.ra, w.dec) , w.w1mpro from mydb.MaNGA_dap_mpl8 m, WISE_allsky w"
+2019-04-03 06:26:00,1

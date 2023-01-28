@@ -1,0 +1,2 @@
+1,"select dbo.fCosmoAbsMag (#, #, #, #, #e-#, #, #) --select dbo.fCosmoAbsMag (#, #, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT) --SELECT TOP # cModelMag_r into MyDB.magr --FROM PhotoObjAll ---select dbo.fCosmoAbsMag (MyDB.magr[#], #, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT) --select dbo.fCosmoAbsMag (MyDB.magr[#], #, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT) create procedure pwhile () begin declare i int; set i = #; while i < # do insert into table_name values (i) ; set i = i+#; end while; end; call pwhile () ;"
+2019-04-18 07:25:00,1

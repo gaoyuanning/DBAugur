@@ -1,0 +1,2 @@
+1,"SELECT p.u, p.g, p.r, p.i, p.z FROM PhotoObj p WHERE (p.ra BETWEEN # AND #) AND (p.dec BETWEEN # AND #) AND p.type = # AND p.run = # AND p.rerun = # AND p.camcol = # AND p.field = #"
+2019-01-07 11:29:00,1

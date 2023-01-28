@@ -1,0 +1,2 @@
+1,"SELECT top # p.objid, p.ra, p.dec, deVRad_u, deVRad_g, deVRad_r, deVRad_i, deVRad_z, expRad_u, expRad_g, expRad_r, expRad_i, expRad_z, p.u, p.g, p.r, p.i, p.z dbo.fPhotoFlagsN (flags) as flags FROM galaxy p WHERE (htmid*# & # < (# * #) ) AND (p.u BETWEEN # AND #) AND (p.g BETWEEN # AND #) AND (p.r BETWEEN # AND #) AND (p.i BETWEEN # AND #) AND (p.z BETWEEN # AND #) AND ( (flags & #) = #)"
+2019-10-21 15:04:00,1

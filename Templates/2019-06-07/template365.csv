@@ -1,0 +1,2 @@
+1,select count(*) from specObj where (zwarning = #) | (zwarning = #)
+2019-06-07 10:38:00,1

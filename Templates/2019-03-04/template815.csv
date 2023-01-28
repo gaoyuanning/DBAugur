@@ -1,0 +1,2 @@
+1,"SELECT TOP  f.ra, f.dec, f.peak, f.integr, f.rms FROM FIRST AS f"
+2019-03-04 08:42:00,1

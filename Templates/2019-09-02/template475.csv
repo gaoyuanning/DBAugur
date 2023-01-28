@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.specObjID, s.bestObjID FROM SpecObjAll as s   WHERE s.bestObjID!=#"
+2019-09-02 07:18:00,1

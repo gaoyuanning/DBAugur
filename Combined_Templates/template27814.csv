@@ -1,0 +1,7 @@
+6,"SELECT TOP # p.run, p.rerun, p.camCol, p.field, p.obj FROM BESTDR7..PhotoObj AS p JOIN dbo.fGetObjFromRect (#, #, #, #) AS b ON p.objID = b.objID WHERE (p.type = # OR p.type = #)"
+2019-04-04 11:52:00,1
+2019-06-04 00:27:00,1
+2019-06-04 00:30:00,1
+2019-11-12 19:07:00,1
+2019-11-12 19:09:00,1
+2019-11-12 19:11:00,1

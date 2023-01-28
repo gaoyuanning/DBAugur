@@ -1,0 +1,3 @@
+2,SELECT COUNT (*) INTO mydb.temp FROM SpecPhoto
+2019-08-08 06:04:00,1
+2019-08-08 06:05:00,1

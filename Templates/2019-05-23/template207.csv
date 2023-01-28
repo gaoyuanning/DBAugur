@@ -1,0 +1,2 @@
+1,"SELECT TOP #    sp.*, p.*, zoo.*          INTO mydb.SpecZoo2 FROM PhotoObjAll AS p        JOIN SpecObjAll AS s ON s.specobjid = p.specobjid   JOIN zoo2MainSpecz AS zoo ON zoo.specobjid = p.specobjid      WHERE     s.class = &&&     AND s.zwarning = #     AND zoo.total_votes> #     AND p.clean = #"
+2019-05-23 16:39:00,1

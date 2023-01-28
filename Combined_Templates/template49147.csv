@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec, s.modelMag_u, s.modelMag_g, s.modelMag_r, s.modelMag_i, s.modelMag_z, s.specobjid, s.class, s.z as redshift, s.class FROM specphotoall s WHERE s.class = # and redshift > #"
+2019-06-30 13:44:00,1

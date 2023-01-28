@@ -1,0 +1,2 @@
+1,"select objid as name, ra, dec from phototag where objid in (# ,# ,# ,#)  order by ra"
+2019-01-12 10:40:00,1

@@ -1,0 +1,7 @@
+11,"select p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, s.z as redshift, s.zErr, s.zWarning, s.class, s.snMedian from photoobj as p join specobj as s on s.bestobjid = p.objidwhere p.ra< (# #) and p.ra> (#-#) and p.dec< (# #) and p.dec> (#-#) and s.z< (# #) and s.z> (#-#) and p.type = #"
+2019-12-13 22:14:00,1
+2019-12-13 22:18:00,2
+2019-12-13 22:19:00,2
+2019-12-13 22:25:00,2
+2019-12-13 22:26:00,2
+2019-12-13 22:27:00,2

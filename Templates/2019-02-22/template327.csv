@@ -1,0 +1,2 @@
+1,"select top #   s.ra, s.dec, p.dered_r from specObjAll as s, photoobjall as p where s.objid = p.objid and s.plateID = # order by p.dered_r desc"
+2019-02-22 07:45:00,1

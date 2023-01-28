@@ -1,0 +1,2 @@
+1,"SELECT s.z, s.specObjID, gi.d4#_err, gs.oii_#_cont, gs.oii_#_cont_err, gs.oii_#_flux, gs.oii_#_flux_err, gs.oii_#_cont, gs.oii_#_cont_err, gs.oii_#_flux, gs.oii_#_flux_err FROM SpecObj as s JOIN galSpecLine as gs ON s.specObjID = gs.specObjID WHERE s.z BETWEEN # AND #"
+2019-03-30 23:49:00,1

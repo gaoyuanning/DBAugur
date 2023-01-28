@@ -1,0 +1,2 @@
+1,"SELECT TOP # * FROM (SELECT TOP # FROM mydb.grlist_s_ntot_gt_#) AS gr, Galaxy as G JOIN dbo.fGetNearbyObjEq (gr.RAJ2#, gr.DEJ2#, #) as GN ON G.objID = GN.objID"
+2019-07-23 16:41:00,1

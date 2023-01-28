@@ -1,0 +1,2 @@
+1,"select top # s.ra, s.dec, p.l, p.b, snMedian, p.u, p.g, p.r, p.i, p.z from specobj as s, photoobj as p where s.specobjid = p.specobjid and s.class = # and snMedian > #."
+2019-12-31 22:50:00,1

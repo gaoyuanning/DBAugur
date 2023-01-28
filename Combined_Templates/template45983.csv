@@ -1,0 +1,2 @@
+2,"select s.ra, s.dec, s.z, s.boss_target1 from SpecObjAll as s into MyDB.Kauffmann_specobjAll_#"
+2019-06-15 06:26:00,2

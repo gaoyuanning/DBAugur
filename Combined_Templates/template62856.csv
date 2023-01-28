@@ -1,0 +1,5 @@
+6,"select top # p.ra, p.dec from photoz2 pz, photoTag p where p.objID = pz.objID AND pz.flag = # AND p.petroMag_r-p.extinction_r < # into MyDB.test2"
+2019-09-13 17:35:00,1
+2019-09-13 17:36:00,1
+2019-09-13 17:37:00,3
+2019-09-13 17:38:00,1

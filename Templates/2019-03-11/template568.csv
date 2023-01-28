@@ -1,0 +1,2 @@
+1,"SELECT p.ra,p.dec,p.modelMag_g-p.modelMag_r as c,p.petroMag_r as m FROM PhotoObjAll as p,   mydb.test_# as a,   SpecObjAll as s WHERE a.objId=s.bestObjID and p.objID = s.bestObjID    and c>#-(#*(m+#))"
+2019-03-11 03:16:00,1

@@ -1,0 +1,2 @@
+1,"SELECT m.*, p.deVMag_u, p.deVMag_g, p.deVMag_r, p.deVMag_i, p.deVMag_z into mydb.NN_#ArcSec_with_zerr_real_w_mags from MyDb.NN_#ArcSec_with_zerr_real as m   join PhotoPrimary as p on m.objid = p.objid"
+2019-12-02 13:44:00,1

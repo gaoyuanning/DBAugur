@@ -1,0 +1,2 @@
+1,"SELECT  petroMag_g, petroMagErr_g, petroMag_r, petroMagErr_r, petroMag_i, petroMagErr_i, psfMag_g, psfMagErr_g, psfMag_r, psfMagErr_r, psfMag_i, psfMagErr_i, class, z FROM SpecPhotoAll WHERE class = &&& AND petroMag_i># AND petroMag_i<# AND petroMag_r># AND petroMag_r<# AND petroMag_g># AND petroMag_g<#"
+2019-04-10 10:49:00,1

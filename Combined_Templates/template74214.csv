@@ -1,0 +1,2 @@
+1,"SELECT TOP # G.objID, G.ra, G.dec, s.specObjID, s.h_alpha_flux, s.h_alpha_flux_err, s.h_beta_flux, s.h_beta_flux_err, s.oiii_#_flux, s.oiii_#_flux_err, s.oiii_#_flux, s.oiii_#_flux_err, s.nii_#_flux, s.nii_#_flux_err, so.z, so.zErr FROM Galaxy as G JOIN GalSpecLine AS s ON G.specObjID = s.specObjID JOIN specObj so ON G.ObjID = p.ObjID WHERE ( (u - r < = #) and (r - i < = #) and (r - z < = #) and (g - r > = r - i + #) and (u - r > = #* (r - z) ))"
+2019-11-06 01:45:00,1

@@ -1,0 +1,2 @@
+1,"select e1.* , n1.x as x1,n1.y as y1 , n2.x as x2,n2.y as y2   from cracks_sd1 e1   ,    nodes_sd1 n1   ,    nodes_sd1 n2 where e1.snapnum=#    and n1.snapnum=e1.snapnum    and n1.nodeid=e1.node1    and n2.snapnum=e1.snapnum    and n2.nodeid=e1.node2"
+2019-01-19 10:57:00,1

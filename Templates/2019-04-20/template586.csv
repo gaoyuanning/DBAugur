@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.run,p.rerun,p.camCol,p.field,p.obj,cast(str(p.ra,#,#) as float) as ra,cast(str(p.[dec],#,#) as float) as dec,p.r  FROM ..PhotoObj AS p  JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = P.objID  WHERE ( p.type = # OR p.type = #)"
+2019-04-20 05:51:00,1

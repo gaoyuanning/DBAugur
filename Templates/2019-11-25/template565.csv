@@ -1,0 +1,2 @@
+1,"SELECT     m.id, m.plate, m.mjd, m.fiberid, m.slope, m.ra AS ra, m.dec AS dec, m.specObjID, m.z,     o.ra AS ra_Photo, o.dec AS dec_Photo, o.petror5#_u as r5#_u, o.petror5#_g as r5#_g, o.petror5#_r as r5#_r, o.petror5#_i as r5#_i, o.petror5#_z as r5#_z, o.petror9#_u as r9#_u, o.petror9#_g as r9#_g, o.petror9#_r as r9#_r, o.petror9#_i as r9#_i, o.petror9#_z as r9#_z into mydb.LBA2_n from MyDB.LBA2_n_spec AS m     OUTER APPLY dbo.fGetNearestObjEq( m.ra, m.dec, #) AS n     LEFT JOIN PhotoObjAll AS o ON n.objid=o.objid"
+2019-11-25 00:40:00,1

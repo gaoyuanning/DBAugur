@@ -1,0 +1,2 @@
+1,"select m.sdssid, pDR7.dr7objid, s.specobjid, p.objid into mydb.GR5_AIS_SDSS_D1#_INFO_catalog_errmagFUVandNUV_menor_#_#mag from MyDB.GALEX_GR5_AIS_SDSS_DR7_Matched_catalog_errmagFUVandNUV_menor_#_#mag AS m , photoobjall as p, specobjall as s INNER JOIN PhotoObjDR7 as pDR7 ON pDR7.dr7objid = #"
+2019-07-21 13:02:00,1

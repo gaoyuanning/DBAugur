@@ -1,0 +1,4 @@
+4,"SELECT p.allamID, p.objID, p.specObjID as specObjID_p, s.specObjID, s.mjd, s.plate, s.tile, s.xFocal, s.yFocal, s.fiberID, s.z, s.zErr, s.class, s.zWarning, s.velDisp, s.velDispErr, s.snMedian_u, s.snMedian_g, s.snMedian_r, s.snMedian_i, s.snMedian_z, z.synthU, z.synthG, z.synthR, z.synthI, z.synthZ, s.ra, s.dec, s.cx, s.cy, s.cz, s.htmID, s.primTarget, s.secTarget, s.sciencePrimary, s.loadVersion, s.plateID, s.spectrographID, dbo.fSourceType (s.sourceType) as objType, s.sourceType as objTypeName, s.targetObjID, s.bestObjID, z.kcorrU, z.kcorrG, z.kcorrR, z.kcorrI, z.kcorrZ, z.kcorrU0#, z.kcorrG0#, z.kcorrR0#, z.kcorrI0#, z.kcorrZ0# into mydb.spectra2 FROM mydb.pmetric2 as p JOIN SpecObjAll as s ON s.bestObjID = p.objID and s.specObjID = p.specObjID JOIN PhotoZ as z ON z.objID = p.objID WHERE s.specObjID = p.specObjID ORDER BY p.allamID"
+2019-12-13 04:30:00,2
+2019-12-15 10:31:00,1
+2019-12-15 10:32:00,1

@@ -1,0 +1,2 @@
+1,"select top # objId, ra, dec, u, g, r, i, z into TAPSampleTable from dr1#.photoobjall"
+2019-10-09 12:26:00,1

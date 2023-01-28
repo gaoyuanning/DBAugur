@@ -1,0 +1,2 @@
+1,"select p.ID ,      po.objId as x_id, p.ra, p.dec, o.distance*# as d_arcsec ,      case when po.raErr > po.decErr then po.raErr else po.decErr end as pos_err ,      po.u,po.g,po.r,po.i,po.z into Nway_input_scs_DR1#  from MyDB.Nway_input p     cross apply dbo.fGetNearbyObjEq(p.ra,p.dec, #) o   join photoobj po   on po.objid=o.objid   order by distance"
+2019-10-23 09:52:00,1

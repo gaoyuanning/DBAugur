@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.specobjid, s.ra, s.dec, s.class, s.subclass FROM SpecObj AS s  WHERE   s.zWarning=# and s.class=&&&"
+2019-01-19 08:37:00,1

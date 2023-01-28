@@ -1,0 +1,2 @@
+1,"select top # mtn.pk, mtn.manga_target_pk, mt.mangaid from manga_target_to_nsa mtn join manga_target mt on mt.pk = mtn.manga_target_pk"
+2019-04-02 11:49:00,1

@@ -1,0 +1,6 @@
+12,"SELECT starname, fcjd, jd, time, mjd, rv, offseterror, ra, dec FROM marvelsVelocityCurveUF1D WHERE starname LIKE # and keep = #"
+2019-07-13 11:24:00,1
+2019-07-13 11:27:00,1
+2019-07-13 11:28:00,4
+2019-07-13 11:29:00,2
+2019-07-13 11:30:00,4

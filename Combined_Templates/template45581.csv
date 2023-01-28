@@ -1,0 +1,3 @@
+2,"SELECT tm.*, zoo.* INTO mydb.TWOMASS_GalaxyZoo1 FROM TwoMassXSC AS tm JOIN zooVotes AS zoo ON tm.objID = zoo.objid WHERE tm.SYS_FLG = # and tm.CONTAM_FLG = #"
+2019-06-13 14:58:00,1
+2019-07-23 07:39:00,1

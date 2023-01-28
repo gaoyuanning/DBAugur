@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID, ep.Flux_OIII_# as oxy4# FROM emissionLinesPort as ep WHERE ep.Flux_OIII_# > #"
+2019-09-21 02:21:00,1

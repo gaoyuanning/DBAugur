@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, s.specobjid, s.class, s.z as redshift, (#*s.z/#) as dist, p.err_u, err_g, err_r, err_i, err_z, extinction_u, extinction_g, extinction_r, extinction_i, extinction_z FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE s.class = galaxy#"
+2019-06-05 19:16:00,1

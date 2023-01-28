@@ -1,0 +1,2 @@
+2,"select spec.plate, spec.mjd, spec.fiberid, spec.z, photo.modelMag_g, photo.modelMag_r from specobj as spec join photoobj as photo on ( (spec.specobjid = photo.specobjid) ) where spec.z < #"
+2019-09-25 05:10:00,2

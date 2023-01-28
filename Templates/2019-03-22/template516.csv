@@ -1,0 +1,2 @@
+2,"SELECT specObjID, bestObjID, z, ROW_NUMBER() OVER(ORDER BY z) as rownum2 FROM ( SELECT specObjID, bestObjID, z,ROW_NUMBER() OVER(ORDER BY z) as rownum FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&&) as t where z % # = #  order by z"
+2019-03-22 12:11:00,2

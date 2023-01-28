@@ -1,0 +1,2 @@
+2,"SELECT m.*, o.* , s.* into mydb.AllcUVLGs_FluxData_DR1#_v2 from MyDB.All_cUVLGs_Roderik AS m OUTER APPLY dbo.fGetNearestSpecObjEq (m.ra, m.dec, #) AS n LEFT JOIN galSpecLine AS o ON n.specObjID = o.specObjID LEFT JOIN SpecObjAll_tab AS s ON s.specObjID = o.specObjID ORDER BY m.ID"
+2019-01-09 16:30:00,2

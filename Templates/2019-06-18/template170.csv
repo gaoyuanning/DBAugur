@@ -1,0 +1,2 @@
+1,"SELECT s.specObjID, s.mjd, s.plate, s.fiberID, s.ra, s.dec, s.z, s.specClass FROM SpecObj s   INNER JOIN sppParams spp ON spp.specobjID = s.specObjID WHERE s.mjd = # AND s.plate = #"
+2019-06-18 16:48:00,1

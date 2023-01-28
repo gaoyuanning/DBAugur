@@ -1,0 +1,2 @@
+1,"select s.objid, p.flags, count (*) join galSpecExtra g on g.specobjid = s.specobjid join photoobjall p on p.objid = s.objid where s.type = # and s.sourceType = # and s.class = # group by p.flags"
+2019-09-15 05:42:00,1

@@ -1,0 +1,4 @@
+7,SELECT DISTINCT FROM PhotoObjAll AS p JOIN SpecObjAll s ON p.objID = s.bestObjID WHERE ((p.ra between # and #) and (p.dec between # and #))
+2019-05-30 09:48:00,1
+2019-05-30 09:49:00,2
+2019-05-30 09:51:00,4

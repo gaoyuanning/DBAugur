@@ -1,0 +1,15 @@
+24,"select top # x.plate, x.mjd, x.ra, x.dec, x.z, x.logMass, g.oii_#_flux, g.oii_#_flux_err from stellarMassFSPSGranEarlyDust x JOIN galSpecLine g ON g.specObjID = x.specObjID WHERE ra BETWEEN # AND # AND dec BETWEEN # AND #"
+2019-03-04 01:52:00,1
+2019-03-04 02:11:00,2
+2019-03-04 02:12:00,1
+2019-03-04 02:15:00,2
+2019-03-04 02:16:00,2
+2019-03-04 02:17:00,1
+2019-03-04 02:41:00,1
+2019-03-04 03:44:00,1
+2019-03-04 03:45:00,1
+2019-03-04 04:21:00,3
+2019-03-04 18:51:00,3
+2019-03-06 22:07:00,1
+2019-03-06 22:08:00,2
+2019-03-10 05:27:00,3

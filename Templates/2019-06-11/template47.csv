@@ -1,0 +1,7 @@
+6,"SELECT prim.bestObjId, prim.mjd AS PrimMJD, prim.plate AS PrimPlate,   other.mjd AS OtherMJD, other.plate AS OtherPlate,  prim.z AS PrimZ, other.z AS OtherZ, plate.programname FROM SpecObjAll prim  JOIN SpecObjAll other ON prim.bestObjId = other.bestObjId  JOIN platex AS plate ON other.plate = plate.plate AND other.mjd = plate.mjd WHERE other.bestObjId > #  AND prim.sciencePrimary = #  AND other.sciencePrimary = #  AND prim.z > # ORDER BY prim.bestObjId"
+2019-06-11 00:09:00,1
+2019-06-11 01:13:00,1
+2019-06-11 02:11:00,1
+2019-06-11 15:06:00,1
+2019-06-11 16:36:00,1
+2019-06-11 22:07:00,1

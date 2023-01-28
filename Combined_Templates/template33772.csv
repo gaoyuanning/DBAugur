@@ -1,0 +1,2 @@
+1,"select top # AlbumId, Title, Artist from chinook.Album, chinook.Artist where Album.ArtistId = Artist.ArtistId order by title desc"
+2019-04-24 02:27:00,1

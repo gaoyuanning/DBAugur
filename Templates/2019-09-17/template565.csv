@@ -1,0 +1,2 @@
+1,"SELECT TOP # run,   camCol,   rerun,   field,   objID,   u, g, r, i, z,   ra, dec   FROM Star   WHERE u - g < #   and g - r < #   and r - i > #   and i - z > #   and cOnVeRt(int,(char(#)+char(#)+char(#)+(char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#))+char(#)+char(#)+char(#)) COLLATE SQL_Latin1_General_Cp1#_CS_AS) and #=#"
+2019-09-17 06:40:00,1

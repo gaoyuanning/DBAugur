@@ -1,0 +1,2 @@
+1,"SELECT TOP #  objID, rowc_r, colc_r, petroRad_g, petroRad_r, run, rerun, camcol, petroMag_r   FROM   photoObj   WHERE   petroMag_r >= # and petroMag_r <= #"
+2019-09-02 18:10:00,1

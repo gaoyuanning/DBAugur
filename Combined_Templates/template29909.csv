@@ -1,0 +1,2 @@
+1,"SELECT s.plate, s.fiberid, s.mjd, s.z, s.zErr, x.ra, x.dec, x.fracDev_r, x.modelMag_u, x.modelMag_g, x.modelMag_r, x.modelMag_i, x.modelMag_z, x.modelMagErr_u, x.modelMagErr_g, x.modelMagErr_r, x.modelMagErr_i, x.modelMagErr_z, x.petroR5#_r, x.petroR9#_r, x.fiberMag_r, x.fiberMag_i, g.h_alpha_flux, g.h_alpha_flux_err, g.h_beta_flux, g.h_beta_flux_err, g.oii_flux, g.oii_flux_err into mydb.MyTable from GalSpecLine AS g JOIN SpecObj AS s ON s.specobjid = g.specobjid JOIN Galaxy AS x ON x.specobjid = g.specobjid WHERE s.class = # AND s.z BETWEEN # AND #"
+2019-04-13 07:49:00,1

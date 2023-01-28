@@ -1,0 +1,4 @@
+3,"select all 	S.objid, S.ra as sdss_ra, S.dec as sdss_dec, S.ra as wise_ra, S.dec as wise_dec,  	S.specObjID, S.plate, S.mjd, S.fiberid, S.class, S.subClass, 	S.survey, S.programname, S.z as redshift, S.zErr as redshift_err, 	S.dered_u, S.dered_g, S.dered_r, S.dered_i, S.dered_z, 	S.modelMagErr_u, S.modelMagErr_g, S.modelMagErr_r, S.modelMagErr_i, S.modelMagErr_z, 	W.w1mpro, W.w2mpro, W.w3mpro, W.w4mpro, 	W.w1sigmpro, W.w2sigmpro, W.w3sigmpro, W.w4sigmpro from dbo.WISE_xmatch as X 	join dbo.WISE_allsky as W on X.wise_cntr = W.cntr 	join dbo.SpecPhotoAll as S on X.sdss_objid = S.objID where #*W.w1sigmpro < LOG(#)/# and #*W.w2sigmpro < LOG(#)/# and #*W.w3sigmpro < LOG(#)/# /*and #*S.modelMagErr_u < LOG(#)/# and #*S.modelMagErr_g < LOG(#)/# and #*S.modelMagErr_r < LOG(#)/# and #*S.modelMagErr_i < LOG(#)/# and #*S.modelMagErr_z < LOG(#)/#*/ into myDB.Sample"
+2019-12-20 09:32:00,1
+2019-12-20 09:33:00,1
+2019-12-20 09:38:00,1

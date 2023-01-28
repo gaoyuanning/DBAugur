@@ -1,0 +1,2 @@
+1,"select z.objid, z.dr7objid, s.ra-s.dec, s.z, z.elliptical, z.p_el, z.nvote from GalexGR6 as g, SpecObjAll as s, PhotoObjAll as p into MyDB.sdss_galex where g.objid = s.bestObjID and s.bestObjID = p.objID and s.sciencePrimary = # and p.mode = # and p.type = # and s.z between # and # and s.zerr BETWEEN # AND # AND p.petroMag_r BETWEEN # AND # and s.ra between # and # and s.dec between # and # and z.p_el between # and #"
+2019-05-13 04:58:00,1

@@ -1,0 +1,2 @@
+2,"select g.objID, g.u, g.g, g.i, g.r, g.z from galaxy g JOIN specObj s on s.bestObjID = g.ObjID JOIN galSpecLine l on l.specObjID = s.specObjID where g.type = # AND g.ra between # and # AND g.dec between # and # AND s.z < #"
+2019-11-14 18:28:00,2

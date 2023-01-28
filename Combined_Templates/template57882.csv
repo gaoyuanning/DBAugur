@@ -1,0 +1,2 @@
+1,"SELECT plate, mjd, fiberID, specObjID, ra, dec, plateSN2, deredSN2 into mydb.MyTable_# from dr1#.SpecObjAll"
+2019-08-15 06:46:00,1

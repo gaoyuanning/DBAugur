@@ -1,0 +1,2 @@
+1,"SELECT p.snMedian_r, p.mjd, p.plate, p.fiberID into mydb.sn_r from SpecObjAll AS p"
+2019-09-05 05:04:00,1

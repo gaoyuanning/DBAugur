@@ -1,0 +1,2 @@
+2,"select imag, zmag, (gmag-rmag) from DR7 where name = rs1##rf0##rf0#"
+2019-03-07 18:15:00,2

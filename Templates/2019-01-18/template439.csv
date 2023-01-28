@@ -1,0 +1,2 @@
+1,SELECT COUNT(*) into mydb.SDSS_specZ from SpecObj
+2019-01-18 09:34:00,1

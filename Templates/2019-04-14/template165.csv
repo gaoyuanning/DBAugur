@@ -1,0 +1,2 @@
+2,"SELECT    m.ra as my_ra,   m.dec as my_dec,   m.petro_r,   s.objid,    s.ra,    s.dec,   s.petroMag_r    into mydb.PhotoCompanions from MyDB.colors_platemjdfiber AS m   OUTER APPLY dbo.fGetNearbyObjEq( m.ra, m.dec, @radius) AS n      LEFT JOIN SpecPhotoAll AS s ON n.objID=s.objID   WHERE s.petroMag_r > m.petro_r     AND s.sourceType = &&&"
+2019-04-14 16:59:00,2

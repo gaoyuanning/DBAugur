@@ -1,0 +1,2 @@
+1,"select PhotoObj.modelMag_u, PhotoObj.modelMag_g, PhotoObj.modelMag_r, PhotoObj.modelMag_i, PhotoObj.modelMag_z, specObj.z, plateX.plate, plateX.mjd, specObj.fiberID from PhotoObj, PlateX, specObj where PhotoObj.modelMag_g BETWEEN # and # AND specObj.z < # AND specObj.specClass = #"
+2019-04-10 14:00:00,1

@@ -1,0 +1,2 @@
+1,SELECT count (*) into mydb.galcount from SpecObj
+2019-08-07 07:54:00,1

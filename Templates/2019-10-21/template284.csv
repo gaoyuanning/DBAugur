@@ -1,0 +1,7 @@
+11,"SELECT count(*) FROM Galaxy as p, SpecObj as s where p.mode = # AND s.zWarning = # AND p.specObjId = s.specObjId AND p.clean = # AND p.ra > # AND p.dec < #"
+2019-10-21 13:57:00,1
+2019-10-21 13:59:00,1
+2019-10-21 14:00:00,1
+2019-10-21 14:01:00,1
+2019-10-21 14:02:00,1
+2019-10-21 14:04:00,6

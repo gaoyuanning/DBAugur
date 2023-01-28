@@ -1,0 +1,2 @@
+2,"select s.plate, s.mjd, s.fiberID into mydb.sdssdr1#_spec from SpecObjAll as s"
+2019-02-11 13:52:00,2

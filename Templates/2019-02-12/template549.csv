@@ -1,0 +1,2 @@
+1,"select fGetNearestObjez(my.ra_s, my.dec_s,#) from mydb.#s as my"
+2019-02-12 12:02:00,1

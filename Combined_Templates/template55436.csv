@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.run, p.rerun, p.camcol, p.field, s.specobjid, s.class, s.z as redshift, s.plate, s.mjd, s.fiberid, e.bpt FROM SpecObj AS s JOIN PhotObj AS p ON p.objid = s.bestobjid JOIN emissionLinesPort AS e ON e.specobjid = s.specobjid WHERE s.z BETWEEN # AND # AND s.class LIKE # AND e.bpt LIKE #"
+2019-08-06 15:16:00,1

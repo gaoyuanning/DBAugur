@@ -1,0 +1,4 @@
+4,SELECT * FROM dr1#.galspecextra WHERE specobjid = #;
+2019-10-16 17:13:00,1
+2019-10-16 17:14:00,2
+2019-10-16 17:27:00,1

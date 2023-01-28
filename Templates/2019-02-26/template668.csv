@@ -1,0 +1,2 @@
+1,"SELECT PZ.objId,PZ.z,PZ.zErr,P.ra, P.dec, P.u,P.g,P.r,P.i,P.z,PZ.synthU, PZ.synthG, PZ.synthU, PZ.absMagR,PZ.synthI,PZ.synthZ,PZ.absMagG,PZ.absMagR,PZ.absMagI,PZ.absMagZ into mydb.SDSSgalsRAlt1# from Photoz as PZ JOIN PhotoObj  AS P ON PZ.ObjID = P.ObjID WHERE      PZ.z BETWEEN # and #      and PZ.photoErrorClass=#       and PZ.nnCount># 	   and PZ.zErr BETWEEN # and #   and P.ra<#"
+2019-02-26 06:28:00,1

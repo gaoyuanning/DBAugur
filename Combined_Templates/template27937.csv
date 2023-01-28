@@ -1,0 +1,2 @@
+1,"select a.teff, a.teff_err, a.logg, a.logg_err, a.fparam_teff, a.fparam_alpha_m, a.fe_h, a.fe_h_err, a.alpha_m, a.alpha_m_err, m.vhelio_avg, m.vscatter, m.verr, m.rv_teff, dbo.fApogeeTarget1N (m.apogee_target1) as target1, dbo.fApogeeTarget2N (m.apogee_target2) as target2, m.commiss, p.ra, p.dec, m.glon, m.glat, p.apogee_id, m.apstar_id, p.j, p.j_err, p.h, p.h_err, p.k, p.k_err, p.wise_#_#, p.wise_#_#_err, p.src_#_# from apogeeObject p, apogeeStar m, aspcapStar a where m.apogee_id = #M1#+###M1#+###M1#+##"
+2019-04-05 19:39:00,1

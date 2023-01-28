@@ -1,0 +1,2 @@
+1,"select TOP # p.objid,s.redshift,p.u,p.g,p.r,p.i,p.z,l.plateid,p.fiberid from galaxy p join specobjall s on s.bestobjid=p.objid join plate l on l.plateid=p.fiberid where p.g between # and # and p.redshift < #"
+2019-09-19 03:13:00,1

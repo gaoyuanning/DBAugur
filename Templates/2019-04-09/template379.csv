@@ -1,0 +1,2 @@
+1,"select specObjID, (nii_#_flux*h_alpha_cont/(nii_#_cont*h_alpha_flux)), (oiii_#_flux*h_beta_cont/(oiii_#_cont*h_beta_flux)) from galSpecLine where   specObjID = #"
+2019-04-09 14:43:00,1

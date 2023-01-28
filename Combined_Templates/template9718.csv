@@ -1,0 +1,2 @@
+1,"SELECT Zipcode, count (SFParklets.Permit_Number) FROM SFViolations OUTER JOIN SFParklets ON SFParklets.[Permit_ZipCode] = SFViolations.Zipcode"
+2019-02-11 13:10:00,1

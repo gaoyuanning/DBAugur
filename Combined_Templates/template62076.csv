@@ -1,0 +1,2 @@
+1,select top # * from views.Acceleration_averages where [Average acceleration #:# - #:#] is not #
+2019-09-10 16:37:00,1

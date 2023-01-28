@@ -1,0 +1,2 @@
+2,"SELECT      pz.*     FROM SpecPhotoAll  as pz     JOIN dbo.fGetNearestObjEq( #,#,#)      AS n ON pz.objid = n.objid     ORDER by n.distance"
+2019-04-10 19:54:00,2

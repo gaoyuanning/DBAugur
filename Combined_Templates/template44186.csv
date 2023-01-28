@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec, psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z FROM PhotoObj WHERE (ra> # AND ra< #) AND (psfMag_g< #) AND (psfMag_u - psfMag_g) > #"
+2019-06-06 17:14:00,1

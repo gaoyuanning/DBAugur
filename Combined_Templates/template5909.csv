@@ -1,0 +1,2 @@
+1,"select top # specObjID, dr7ObjID into mydb.MyTable_# from dr9.SpecDR7 where flags & (dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) ) = # and (petroMag_r - extinction_r) between # and # and Type = #"
+2019-01-24 08:12:00,1

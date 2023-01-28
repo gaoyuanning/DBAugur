@@ -1,0 +1,2 @@
+1,"select z2n.ra, z2n.dec from zoo2MainPhotoz z2mp join zoo2Stripe8#Normal z2n on z2n.dr8objid = z2mp.dr8objid"
+2019-11-20 12:44:00,1

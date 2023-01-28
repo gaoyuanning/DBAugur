@@ -1,0 +1,2 @@
+1,"select ROUND(x, #) as x2, cts = count(ID) from Data group by x2 order by #"
+2019-11-18 12:39:00,1

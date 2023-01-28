@@ -1,0 +1,2 @@
+1,"SELECT t.thingid, t.ndetect, d.objid, p.psfMag_r, p.psfMagerr_r, p.ra, p.dec FROM thingIndex AS t JOIN detectionindex AS d ON t.thingid = d.thingid JOIN Star AS p ON d.objid = p.objid WHERE t.ndetect = #  and (t.ra between # and #)  and (t.dec between # and #)"
+2019-08-15 09:49:00,1

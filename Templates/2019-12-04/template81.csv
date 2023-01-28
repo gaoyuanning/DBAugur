@@ -1,0 +1,2 @@
+1,"SELECT TOP # sp.specObjID,sp.z,sp.zWarning,sp.petroMag_g,sp.cModelMag_g,sp.petroMag_r,sp.cModelMag_r,sp.petroMag_i,sp.cModelMag_i,p.petroMag_z,sp.cModelMag_z FROM SpecPhotoAll AS sp  JOIN galSpecExtra AS g ON sp.specObjID = g.specObjID  JOIN galSpecIndx AS gs ON sp.specObjID = gs.specObjID WHERE   sp.sourceType = &&& AND  sp.petroMag_r < # AND  sp.sciencePrimary > #  AND sp.specObjID > # ORDER BY sp.specObjID"
+2019-12-04 23:04:00,1

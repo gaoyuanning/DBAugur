@@ -1,0 +1,21 @@
+20,"SELECT  za.specObjID, za.bestObjID, za.class, za.subClass, za.z, za.zErr, po.objID, po.type, po.flags, po.ra, po.dec, po.petroMag_r - po.extinction_r,  zp.z AS zphot, zp.zErr AS dzphot, zi.e_bv_sfd, zi.primtarget, zi.sectarget, zi.targettype, zi.spectrotype, zi.subclass FROM  SpecObjAll za JOIN  PhotoObjAll po ON (po.objID = za.bestObjID)  JOIN  Photoz zp ON (zp.objID = za.bestObjID) JOIN  galSpecInfo zi ON (zi.SpecObjID = za.specObjID)  WHERE  za.z > # and za.zWarning=# AND za.targetType = &&& AND za.survey = &&& AND za.class = &&& AND zi.primtarget >= # AND po.clean = # AND po.insideMask = #  AND po.petroMag_r - po.extinction_r <= #"
+2019-02-19 13:30:00,1
+2019-02-19 13:39:00,1
+2019-02-19 14:39:00,1
+2019-02-19 14:41:00,1
+2019-02-19 16:46:00,1
+2019-02-19 16:48:00,1
+2019-02-19 17:30:00,1
+2019-02-19 18:13:00,1
+2019-02-19 20:39:00,1
+2019-02-19 20:45:00,1
+2019-02-19 20:54:00,1
+2019-02-19 20:57:00,1
+2019-02-19 21:01:00,1
+2019-02-19 21:05:00,1
+2019-02-19 21:23:00,1
+2019-02-19 22:10:00,1
+2019-02-19 22:13:00,1
+2019-02-19 22:21:00,1
+2019-02-19 22:24:00,1
+2019-02-19 22:25:00,1

@@ -1,0 +1,2 @@
+1,"SELECT ra, dec into mydb.MyTable_# from dr1#.QSO where ra BETWEEN # and # AND dec BETWEEN # AND #"
+2019-03-23 06:36:00,1

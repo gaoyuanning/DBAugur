@@ -1,0 +1,2 @@
+1,"select run1,run2 from S8#MatchRunPairs where Column1>#) select run1 from p union  select run2 from p"
+2019-03-04 09:18:00,1

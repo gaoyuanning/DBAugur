@@ -1,0 +1,2 @@
+1,"select ObjID, ra, dec into DR1#_g5_g1# from g5_g1# where (flags & # = #) and (flags & # = #) and (flags & # = #) and (flags & # = #)"
+2019-04-11 13:32:00,1

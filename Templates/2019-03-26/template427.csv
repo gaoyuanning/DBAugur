@@ -1,0 +1,6 @@
+6,"select top # p.objid, p.run, p.rerun, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.Err_u, p.Err_g, p.Err_r, p.Err_i, p.Err_z  from star p"
+2019-03-26 17:49:00,1
+2019-03-26 17:50:00,2
+2019-03-26 17:51:00,1
+2019-03-26 17:52:00,1
+2019-03-26 17:53:00,1

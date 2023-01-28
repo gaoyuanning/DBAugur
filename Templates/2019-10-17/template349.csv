@@ -1,0 +1,2 @@
+2,"select top # specobjid, ra,dec,run,rerun,camCol,field from specphoto   where specclass=# and z># and z<#"
+2019-10-17 10:57:00,2

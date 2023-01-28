@@ -1,0 +1,2 @@
+1,"SELECT top # objid, ra, dec FROM photoTag WHERE (flags & dbo.fPhotoFlags(&&&)) = #"
+2019-07-22 21:00:00,1

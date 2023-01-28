@@ -1,0 +1,2 @@
+10,"SELECT top # modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z, modelMagErr_u, modelMagErr_g, modelMagErr_r, modelMagErr_i, modelMagErr_z FROM photoobj WHERE objID = #"
+2019-06-17 12:31:00,10

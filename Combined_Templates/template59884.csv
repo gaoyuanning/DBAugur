@@ -1,0 +1,2 @@
+1,"select top # cg.geom.ToString () as wkt, cg.geom.STArea () as area, cg.cellid from cellgeom cg"
+2019-08-30 09:36:00,1

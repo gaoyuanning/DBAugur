@@ -1,0 +1,3 @@
+2,"SELECT top # m.ra AS ra1, m.dec AS de1, galex.ra AS galex_ra, galex.dec AS galex_dec, galex.e_bv AS galex_e_bv, galex.fuv_mag AS fuv_mag, galex.fuv_magerr AS fuv_magerr, galex.nuv_mag AS nuv_mag, galex.nuv_magerr AS nuv_magerr, galex.fuv_s2n AS fuv_s2n, galex.nuv_s2n AS nuv_s2n, galex.fuv_artifact AS fuv_artifact, galex.nuv_artifact AS nuv_artifact FROM MyDB.panstarrs_qso_final AS m OUTER APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n LEFT JOIN photoobjall AS galex ON n.objid = galex.objid"
+2019-05-30 01:09:00,1
+2019-06-02 09:50:00,1

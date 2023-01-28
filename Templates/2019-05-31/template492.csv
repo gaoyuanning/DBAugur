@@ -1,0 +1,2 @@
+1,"select specObjID,cModelAbsMag_r,logMass into mydb.MyTable from stellarMassFSPSGranEarlyDust"
+2019-05-31 05:27:00,1

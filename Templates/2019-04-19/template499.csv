@@ -1,0 +1,2 @@
+1,select count(*) into mydb.MyTable_# from nsatlas;
+2019-04-19 04:37:00,1

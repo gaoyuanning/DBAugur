@@ -1,0 +1,2 @@
+1,"select top # objID, ra, dec from DR1#.photoObj where ra < # and dec < #"
+2019-01-10 09:16:00,1

@@ -1,0 +1,2 @@
+2,"SELECT m.*, s.snMedian_u, s.snMedian_g, s.snMedian_r, s.snMedian_i, s.snMedian_z, o.psfMag_u, o.psfMag_g, o.psfMag_r, o.psfMag_i, o.psfMag_z into mydb.sdss2#  from mydb.ss AS m, dr1#.SpecPhotoAll as o, dr1#.SpecObjAll as s   where m.mjd=o.mjd and m.plate=o.plate and m.fiberid=o.fiberid and m.mjd=s.mjd and m.plate=s.plate and m.fiberid=s.fiberid and s.mjd=o.mjd and s.plate=o.plate and s.fiberid=o.fiberid"
+2019-05-06 08:45:00,2

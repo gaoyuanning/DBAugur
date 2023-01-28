@@ -1,0 +1,2 @@
+1,"SELECT   objID,   skyVersion,   run,   rerun,   camcol,   field,   obj,   ra, dec,flags,type,   rowc_r,colc_r,rowcErr_r,colcErr_r,   psfmag_u,psfMag_g, psfMag_r, psfMag_i,psfMag_z,    psfmagerr_u,psfmagerr_g, psfmagerr_r,psfmagerr_i, psfmagerr_z  into mydb.ra3#_# from PhotoPrimary WHERE   ((flags & #) != #)   AND ((flags & #) = #)   AND (((flags & #) = #) or (psfmagerr_r <= # and psfmagerr_i<= # and psfmagerr_g<=#))   AND (((flags & #) = #) or (flags & #) = #)   AND (run = # or run = #)    AND ((ra BETWEEN # and #))   AND (psfMag_i BETWEEN # and #)"
+2019-10-21 02:57:00,1

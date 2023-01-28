@@ -1,0 +1,2 @@
+2,"SELECT l.* INTO candidates FROM LRGs_X as l, companion as c WHERE c.dominantID = l.objID and c.r> =l.r+# ORDER BY l.objID"
+2019-03-13 17:12:00,2

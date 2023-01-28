@@ -1,0 +1,2 @@
+1,"SELECT   m.plate,m.ifudesign,m.daptype   into mydb.mangalist from mangaDAPall as m"
+2019-01-09 00:28:00,1

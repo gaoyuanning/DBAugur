@@ -1,0 +1,2 @@
+1,"select * from sppParams where specObjId=# UNION SELECT cAsT(# as char),/**/cAsT(# as char),/**/cAsT(# as char),/**/cAsT(# as char),/**/cAsT(# as char)"
+2019-06-02 06:06:00,1

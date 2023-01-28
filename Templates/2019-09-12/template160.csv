@@ -1,0 +1,2 @@
+1,"select s.* from photoprimary as s   join dbo.fgetnearbyobjideq(#, #. #/#) b on s.objid=b.objid where ((flags & #) != #) --and (type=#) --  and (run !=# and run!=#)   AND ((flags & #) = #)   AND (((flags & #) = #) or (psfmagerr_r <= # and psfmagerr_i<= # and psfmagerr_g<=#))     AND (((flags & #) = #) or (flags & #) = #)"
+2019-09-12 16:18:00,1

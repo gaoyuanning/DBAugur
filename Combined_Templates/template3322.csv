@@ -1,0 +1,5 @@
+5,"SELECT t.objid , t.thingid, t.ndetect FROM thingIndex t , dbo.fgetNearByObjEq (#, #, #) n where t.objid = n.objid"
+2019-01-15 09:48:00,1
+2019-01-15 09:49:00,1
+2019-01-15 09:51:00,2
+2019-01-15 09:52:00,1

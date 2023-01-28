@@ -1,0 +1,2 @@
+1,"SELECT ra, dec into Large_galaxy_sample_Bright_Stars_extrabright from Star WHERE dec BETWEEN # AND #    AND modelMag_i<#   OFFSET #"
+2019-09-03 11:38:00,1

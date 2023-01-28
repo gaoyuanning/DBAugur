@@ -1,0 +1,2 @@
+1,"SELECT ALL ROW_NUMBER () OVER (ORDER BY ra ASC) as RowNumber, count (ra) FROM TwoMass WHERE ra BETWEEN # AND #"
+2019-03-21 14:18:00,1

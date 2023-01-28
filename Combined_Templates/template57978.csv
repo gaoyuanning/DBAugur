@@ -1,0 +1,3 @@
+2,"SELECT ra, dec, t0#_odd_feature_a2#_merger_count, t0#_odd_feature_a2#_merger_fraction, t0#_odd_feature_a2#_merger_flag FROM dbo.zoo2MainPhotoz INTO GALAXY_MERGER_# where t0#_odd_feature_a2#_merger_count > =#"
+2019-08-16 03:30:00,1
+2019-08-16 03:32:00,1

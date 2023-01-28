@@ -1,0 +1,3 @@
+3,"SELECT top # o.apogee_id, m.ra_epoch2# AS ra1, m.dec_epoch2# AS dec1, n.distance, n.objid, o.ra AS ra2, o.dec AS dec2 into mydb.MyTable_# from mydb.Dani_table_Chiara AS m OUTER APPLY dbo.fGetNearestObjEq (m.ra_epoch2#, m.dec_epoch2#, #) AS n JOIN apogeeObject AS o ON n.objid = o.apogee_id"
+2019-06-05 10:51:00,2
+2019-06-05 10:53:00,1

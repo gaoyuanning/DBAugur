@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.extinction_i IS# (s.specobjid, #) AS specobjid, IS# (s.z, #) AS zs , IS# (s.class, #) AS class , IS# (s.subclass, #) AS subclass FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid"
+2019-08-13 11:07:00,1

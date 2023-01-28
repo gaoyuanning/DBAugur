@@ -1,0 +1,2 @@
+1,select count(*) from computemessages c join messages m on m.row_id = c.row_id join users u on u.user_id = m.user_id WHEREu.user_name != &&& ORu.user_name != &&&
+2019-03-08 10:59:00,1

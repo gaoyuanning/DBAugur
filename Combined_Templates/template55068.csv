@@ -1,0 +1,2 @@
+1,"SELECT objid, ra, dec, u, g, r, i, z, err_u, err_g, err_r, err_i, err_z FROM PhotoObj WHERE p.ra BETWEEN # AND # AND p.probPSF = #"
+2019-08-01 19:42:00,1

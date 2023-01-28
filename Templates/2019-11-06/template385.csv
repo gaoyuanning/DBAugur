@@ -1,0 +1,2 @@
+2,"select   l.NII_#_flux,l.NII_#_flux_err into NII_flux    from galSpecline as l join SpecObjALL as s  on l.specObjID=s.specObjID    where   s.sciencePrimary=#"
+2019-11-06 01:47:00,2

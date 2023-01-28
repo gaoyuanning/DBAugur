@@ -1,0 +1,2 @@
+1,"select top # h.ObjID, ObjID1, ObjID2 from MatchHead h   join PhotoTag t on t.ObjID=h.ObjID   join Match m on m.MatchHead=h.ObjID where type1=# and type2=#   and pdfMag_r between # and #"
+2019-05-28 13:56:00,1

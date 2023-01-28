@@ -1,0 +1,2 @@
+1,"select modelMag_u,modelMag_g,modelMag_r from photoObj where ra >= # AND dec <= #"
+2019-04-06 20:43:00,1

@@ -1,0 +1,2 @@
+1,SELECT DISTINCT platerun FROM dbo.SpecObjAll WHERE class = #
+2019-01-23 09:44:00,1

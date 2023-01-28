@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.ra,s.dec,s.targetObjID FROM BESTDR1#..SpecObj as s 	JOIN #x AS x ON x.SpecobjID=s.SpecobjID JOIN #upload AS u ON u.up_id = x.up_id  WHERE  s.zWarning = # ORDER BY x.up_id"
+2019-04-03 13:41:00,1

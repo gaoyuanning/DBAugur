@@ -1,0 +1,2 @@
+1,"SELECT top # sp.ra, sp.dec, sp.z, sp.class, sp.subclass, so.class_noqso, so.subclass_noqso, so.class, so.subclass, so.spectroFlux_u, w.w1mpro AS w1, w.w2mpro AS w2, w.w3mpro AS w3, w.w4mpro AS w4, f.peak, f.integr, f.rms, sp.zwarning FROM SpecObj AS so JOIN SpecPhoto AS sp ON so.bestObjID = sp.ObjID JOIN wise_xmatch AS xm ON so.specObjID = xm.sdss_objid JOIN FIRST AS f ON so.specObjID = f.objid JOIN wise_allsky AS w ON xm.wise_cntr = w.cntr"
+2019-03-20 14:50:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.ra,s.dec,s.dered_r,s.class FROM SpecPhoto as s WHERE   s.r between # and #  AND s.dec between # and #"
+2019-06-24 11:58:00,1

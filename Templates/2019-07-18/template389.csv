@@ -1,0 +1,2 @@
+1,"SELECT #    p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,    ISNULL(s.specobjid,#) AS specobjid, ISNULL(s.z, #) AS zs ,ISNULL(s.class, #) AS class , ISNULL(s.subclass, #) AS subclass FROM PhotoObj AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid"
+2019-07-18 11:42:00,1

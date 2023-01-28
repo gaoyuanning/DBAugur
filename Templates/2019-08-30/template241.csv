@@ -1,0 +1,3 @@
+2,"SELECT specObjID, plateID, survey, instrument, mjd, plate, fiberID, ra, dec, z, zErr, class, subClass, snMedian, programname, platerun into mydb.MyTable_# from SpecObj    WHERE (class = &&&) AND (snMedian > #)"
+2019-08-30 12:00:00,1
+2019-08-30 12:01:00,1

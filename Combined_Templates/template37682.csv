@@ -1,0 +1,2 @@
+2,"SELECT SPA.SpecObjID, SPA.z, SPA.ra, SPA.dec, GSX.d4# FROM SpecPhotoAll as SPA, galSpecInfo as GSI, galSpecLine as GSL, galSpecIndx as GSX WHERE SPA.z > = # and SPA.z < = # and SPA.petroMag_r < = # and SPA.SpecObjID = GSI.SpecObjID and SPA.SpecObjID = GSL.SpecObjID"
+2019-05-07 10:14:00,2

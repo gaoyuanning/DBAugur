@@ -1,0 +1,2 @@
+1,"select @@servername , db_name ()"
+2019-09-05 15:03:00,1

@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, s.z , s.zErr, s.velDisp, s.velDispErr FROM SpecObj AS s JOIN SpecPhotoAll AS p ON s.specObjID = p.specObjID WHERE (ra between # and #) and (dec between # and #) and (p.petroMag_r + p.extinction_r< #) and (p.zWarning = #) and p.class = # and p.subclass = # and p.survey = # and p.programname = #"
+2019-11-02 15:47:00,1

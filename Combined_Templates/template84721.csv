@@ -1,0 +1,2 @@
+1,"select min (ra) , max (ra) , min (dec) , max (dec) from PhotoObjAll"
+2019-12-30 14:07:00,1

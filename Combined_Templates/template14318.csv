@@ -1,0 +1,2 @@
+1,"SELECT Q.BestObjID, S.modelMag_u, S.modelMag_g, S.ra, S.dec, Q.z, G.ObjID, G.ra, G.dec, P.z, G.u, G.g, G.r, G.i, G.z, N.distance into mydb.final_search2 from Galaxy as G, SpecObj as Q, Neighbors as N, SpecObj as S, Photoz as P WHERE Q.BestObjID = S.BestObjID and S.z > # and S.z < # and S.modelMag_u < # and S.modelMag_g < # and G.g> # and G.ObjID = P.ObjID and P.z BETWEEN # and # and photoErrorClass = # and S.z> P.z and Q.class IN () and G.ObjID = N.ObjID and Q.BestObjID = N.NeighborObjID and N.distance < #/#"
+2019-02-25 06:48:00,1

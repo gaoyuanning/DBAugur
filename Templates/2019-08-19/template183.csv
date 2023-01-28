@@ -1,0 +1,4 @@
+5,"SELECT ra, dec, objID     FROM PhotoObjAll     WHERE objID in (&&&, &&&)"
+2019-08-19 13:32:00,1
+2019-08-19 13:33:00,3
+2019-08-19 13:34:00,1

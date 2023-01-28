@@ -1,0 +1,7 @@
+6,"SELECT TOP #   run,   camCol,   rerun,   field,   objID,   ra,   dec   FROM Galaxy   WHERE ( flags & (dbo.fPhotoFlags(&&&)   | dbo.fPhotoFlags(&&&)   | dbo.fPhotoFlags(&&&)) ) > #   and ( flags & (dbo.fPhotoFlags(&&&)   | dbo.fPhotoFlags(&&&)   | dbo.fPhotoFlags(&&&)) ) != dbo.fPhotoFlags(&&&)   and ( (flags & dbo.fPhotoFlags(&&&) = #)   and petroR5#_i > #)"
+2019-11-18 23:05:00,1
+2019-11-18 23:07:00,1
+2019-11-18 23:10:00,1
+2019-11-18 23:16:00,1
+2019-11-18 23:25:00,1
+2019-11-18 23:42:00,1

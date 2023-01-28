@@ -1,0 +1,2 @@
+1,"select z, ra, dec, specObjID, plate , class, subClass, zErr, petroMag_u, petroMag_g, petroMag_r, petroMag_i, petroMag_z, petroMagErr_u, petroMagErr_g, petroMagErr_r, petroMagErr_i, petroMagErr_z from SpecObjAll JOIN SpecPhotoAll ON SpecObjAll.specObjID = SpecPhotoAll.specObjID where zWarning = #"
+2019-07-30 10:19:00,1

@@ -1,0 +1,2 @@
+1,"select Track.AblumId, Track.TrackId, InvoiceLine.UnitPrice, InvoiceLine.TrackId From chinook.Track"
+2019-04-21 12:37:00,1

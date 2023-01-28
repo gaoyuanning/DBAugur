@@ -1,0 +1,2 @@
+1,"select bestobjID, ra from photoObj where ra between # and # and modelMag_u - modelMag_g > #"
+2019-03-13 14:58:00,1

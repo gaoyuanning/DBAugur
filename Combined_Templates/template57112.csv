@@ -1,0 +1,2 @@
+1,"SELECT TOP # o.SpecObjID, o.ra, o.dec, gsl.nii_#_flux AS NII_#_FLUX FROM galSpecLine AS o where #"
+2019-08-13 16:39:00,1

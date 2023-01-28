@@ -1,0 +1,2 @@
+1,select * from public.ncarey.framePathProcessingNewFrames where processed = #
+2019-06-09 12:54:00,1

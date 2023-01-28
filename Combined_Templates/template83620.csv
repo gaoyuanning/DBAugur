@@ -1,0 +1,20 @@
+183,"select s.targetObjID, s.ra, s.dec, s.z, s.zErr, s.plate, s.fiberID, e.Flux_Hb_#, e.Flux_OIII_#, e.Flux_Ha_#, e.Flux_NII_#, sm.logMass, sm.Metallicity FROM SpecObj AS s JOIN emissionLinesPort AS e ON s.specObjID = e.specObjID JOIN stellarMassStarformingPort AS sm ON s.specObjID = sm.specObjID where s.dec between # and # and s.z between # and # and e.Flux_Ha_#> # and e.Flux_NII_#> # order by s.ra"
+2019-12-18 14:22:00,15
+2019-12-18 14:23:00,10
+2019-12-18 14:24:00,5
+2019-12-18 14:25:00,5
+2019-12-19 12:39:00,10
+2019-12-19 12:40:00,10
+2019-12-19 12:41:00,10
+2019-12-19 12:42:00,14
+2019-12-19 12:43:00,20
+2019-12-19 12:44:00,15
+2019-12-19 12:45:00,10
+2019-12-19 12:47:00,12
+2019-12-19 12:48:00,1
+2019-12-19 12:54:00,10
+2019-12-19 16:57:00,5
+2019-12-19 16:59:00,1
+2019-12-19 17:08:00,10
+2019-12-20 07:34:00,10
+2019-12-20 07:35:00,10

@@ -1,0 +1,2 @@
+1,"select count(*) from users where datepart(yy,lastmodified) = #"
+2019-11-18 17:57:00,1

@@ -1,0 +1,5 @@
+4,"SELECT EID,[Average_#_hour_sound_level_of_noise_pollution_#],[Average_#_hour_sound_level_of_noise_pollution_#],[Average_daytime_sound_level_of_noise_pollution_#],[Average_evening_sound_level_of_noise_pollution_#],[Average_night_time_sound_level_of_noise_pollution_#] FROM [r2#]Residential_noise_pollution GO"
+2019-04-15 14:30:00,1
+2019-04-15 14:32:00,1
+2019-04-15 14:34:00,1
+2019-04-15 14:36:00,1

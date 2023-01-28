@@ -1,0 +1,3 @@
+2,"SELECT TOP # u, g, r, i, z FROM Galaxy where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-06-14 00:26:00,1
+2019-06-14 00:32:00,1

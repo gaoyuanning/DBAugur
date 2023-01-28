@@ -1,0 +1,2 @@
+1,"SELECT r, g-r AS color FROM PhotoObj WHERE ra BETWEEN # AND # AND déc BETWEEN # AND #"
+2019-06-12 09:27:00,1

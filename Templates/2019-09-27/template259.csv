@@ -1,0 +1,4 @@
+3,"SELECT  objid,ra,dec,modelmag_u,modelmag_g,modelmag_i,modelmag_r,modelmag_z FROM galaxy AS g WHERE  modelmag_r < # AND ra BETWEEN # AND # AND dec between # and #"
+2019-09-27 12:07:00,1
+2019-09-27 12:11:00,1
+2019-09-27 12:14:00,1

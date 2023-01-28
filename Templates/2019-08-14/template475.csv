@@ -1,0 +1,4 @@
+3,"SELECT ObjID,r,g,i,u,redness,s.z,s.ra,s.dec into mydb.E_Galaxies_Spec FROM mydb.Red_E_Galaxies as e   JOIN SpecObj as s   ON e.ObjID = s.bestObjid"
+2019-08-14 09:13:00,1
+2019-08-14 09:21:00,1
+2019-08-14 09:27:00,1

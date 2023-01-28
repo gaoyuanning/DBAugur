@@ -1,0 +1,2 @@
+1,"SELECT TOP # str (p.ra, #, #) as ra, str (p.[dec], #, #) as dec, IS# (s.plate, #) as plate, IS# (s.mjd, #) as mjd, IS# (s.fiberid, #) as fiberid FROM BESTDR7..PhotoObj AS p LEFT OUTER JOIN BESTDR7..SpecObj s ON p.objID = s.bestObjID JOIN dbo.fGetNearbyObjEq (#, #, #) AS b ON b.objID = p.objID WHERE (p.type = # OR p.type = #)"
+2019-02-26 04:51:00,1

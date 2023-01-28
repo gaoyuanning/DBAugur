@@ -1,0 +1,2 @@
+1,"SELECT   p.objid as dr8objid, s.plate, s.mjd, s.fiberid, p.ra, p.dec, s.z, p.petroMag_r from PhotoObj AS p   JOIN specObj AS s ON s.bestObjID=p.objID   LEFT JOIN PhotoObjDR7 as PP ON p.objID=PP.dr8objid    WHERE s.class = &&& AND ((p.ra between # and #) AND (p.dec between # and #)) AND s.z <= #"
+2019-11-07 04:21:00,1

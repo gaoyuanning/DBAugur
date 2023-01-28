@@ -1,0 +1,2 @@
+1,"SELECT  m.ra, m.dec, m.plate, m.mjd, m.fiberid into mydb.emgal_#ra5_#dec4#_dr1# from photobjall as m  WHERE m.ra>=# and m.ra<=# and m.dec>=# and m.dec<=#     and  (m.Class=&&& or m.Class=&&&)    and m.zWarning = #"
+2019-05-23 12:38:00,1

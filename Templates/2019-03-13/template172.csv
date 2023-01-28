@@ -1,0 +1,4 @@
+5,"SELECT TOP #  p.objID,cast(str(p.ra,#,#) as float) as ra,p.dec,p.probPSF,p.psfMag_u,p.psfMagErr_u,p.psfMag_g,p.psfMagErr_g,p.psfMag_r,p.psfMagErr_r,p.psfMag_i,p.psfMagErr_i,p.psfMag_z,p.psfMagErr_z,p.modelMag_u,p.modelMagErr_u,p.modelMag_g,p.modelMagErr_g,p.modelMag_r,p.modelMagErr_r,p.modelMag_i,p.modelMagErr_i,p.modelMag_z,p.modelMagErr_z,ISNULL(s.specObjID,#) as specObjID,ISNULL(s.z,#) as redshift,ISNULL(s.zErr,#) as redshiftErr  FROM ..PhotoObj AS p  LEFT OUTER JOIN ..SpecObj s ON p.objID = s.bestObjID  JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = P.objID"
+2019-03-13 18:27:00,2
+2019-03-13 18:31:00,2
+2019-03-13 19:10:00,1

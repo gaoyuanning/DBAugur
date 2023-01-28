@@ -1,0 +1,2 @@
+1,select * into mydb.MyTable_# from SpecObjAll where mjd = # and fiberId = # and plate = #
+2019-03-14 07:43:00,1

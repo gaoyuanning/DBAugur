@@ -1,0 +1,2 @@
+1,"SELECT top #   ra, dec, modelMag_u, modelMag_g,modelMag_r,modelMag_i,modelMag_z, z, zErr    FROM SpecPhotoAll  WHERE class = &&& and zErr <= #"
+2019-01-31 15:05:00,1

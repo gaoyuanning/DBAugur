@@ -1,0 +1,2 @@
+1,"SELECT gal.ra, gal.dec, sp.z into mydb.stripedata1 from galaxy gal WHERE stripe = # gal.petroMag_g < # AND sp.z < # AND sp.z > #"
+2019-08-29 12:53:00,1

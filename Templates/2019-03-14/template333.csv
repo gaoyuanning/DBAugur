@@ -1,0 +1,3 @@
+2,"SELECT TOP #  p.r, p.dered_r, p.petroMag_r, p.petroMag_r-p.extinction_r,s.z as redshift FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   p.objid=#"
+2019-03-14 15:44:00,1
+2019-03-14 15:45:00,1

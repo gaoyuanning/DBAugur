@@ -1,0 +1,2 @@
+1,"SELECT TOP #      dbo.fSDSS(p.objId) AS ID, p.objID, p.run, p.ra, p.dec, p.psfMag_u, p.psfMag_g,    p.psfMag_r, p.psfMag_i, p.psfMag_z, f.mjd_r into mydb.MyTable_# from detectionindex d            JOIN PhotoObjAll p ON d.objid=p.objid     JOIN Field f ON p.fieldid=f.fieldid     WHERE d.thingid=#"
+2019-09-10 04:35:00,1

@@ -1,0 +1,4 @@
+4,"SELECT TOP # psfmag_u, psfmag_g, psfmag_r, psfmag_i, psfmag_z, ra, dec FROM Star WHERE ra between # and # and dec between +#. and +#. and (psfmag_u> #.) and (psfmag_u< #.) and (psfmag_g> #.) and (psfmag_g< #.) and (psfmag_r> #.) and (psfmag_r< #.) and (psfmag_i> #.) and (psfmag_i< #.) and (psfmag_z> #.) and (psfmag_z< #.) and psfmagerr_u< # and psfmagerr_g< # and psfmagerr_r< # and psfmagerr_i< # and psfmagerr_z< #"
+2019-05-06 13:03:00,1
+2019-05-06 13:04:00,1
+2019-08-03 11:39:00,2

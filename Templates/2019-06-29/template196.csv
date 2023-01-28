@@ -1,0 +1,2 @@
+2,"SELECT specobjid,objid,ra,dec,z,zErr,zWarning,class,subClass,targetObjID,dered_u,modelMagErr_u,dered_g,modelMagErr_g,dered_r,modelMagErr_r,dered_i,modelMagErr_i,dered_z,modelMagErr_z FROM SpecPhotoAll"
+2019-06-29 16:16:00,2

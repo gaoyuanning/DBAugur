@@ -1,0 +1,2 @@
+1,"SELECT p.specObjID, m.specObjID FROM SpecPhotoAll as p JOIN MyDB.MGS_subset as m ON p.specObjID = m.specObjID"
+2019-10-11 16:08:00,1

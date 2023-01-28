@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec, s.dered_g, s.dered_r, p.oiii_#_reqw as oir, p.h_beta_reqw as hbr, p.nii_#_reqw as nir, p.h_alpha_reqw as har, p.oiii_#_reqw_err as oir_e, p.h_beta_reqw_err as hbr_e, p.nii_#_reqw_err as nir_e, p.h_alpha_reqw_err as har_e, p.specObjID FROM galSpecLine as p JOIN PhotoObjAll as s ON p.specObjID = s.objID"
+2019-04-18 15:36:00,1

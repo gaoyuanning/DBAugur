@@ -1,0 +1,2 @@
+1,"SELECT  m.original_ext_source_ID, o.petroRad_u,o.petroRad_g,o.petroRad_r,o.petroRad_i,o.petroRad_z, o.petroRadErr_u,o.petroRadErr_g,o.petroRadErr_r,o.petroRadErr_i,o.petroRadErr_z, deVRad_u,deVRad_g,deVRad_r,deVRad_i,deVRad_z, #-deVAB_u,#-deVAB_g,#-deVAB_r,#-deVAB_i,#-deVAB_z into mydb.MyTableJoin_CLS FROM MyDB.MyTable AS m   JOIN PhotoObj AS o ON m.original_ext_source_ID =o.objID"
+2019-10-29 07:00:00,1

@@ -1,0 +1,4 @@
+4,"SELECT ALL ra, dec, iauname, mag, elpetro_absmag_f, elpetro_absmag_u, elpetro_absmag_g, elpetro_absmag_r, elpetro_absmag_i, elpetro_absmag_z, sersic_absmag_f, sersic_absmag_n, sersic_absmag_u, sersic_absmag_g, sersic_absmag_r, sersic_absmag_i, sersic_absmag_z FROM nsatlas  WHERE ra ># and ra < # and dec > # and dec < #"
+2019-06-04 18:01:00,1
+2019-06-04 18:03:00,2
+2019-06-04 18:04:00,1

@@ -1,0 +1,7 @@
+7,"SELECT TOP # specObjID, subclass, ra, dec FROM SpecPhotoAll WHERE class = # AND zWarning = # and subclass like # and psfMag_r < #"
+2019-06-20 16:52:00,1
+2019-06-20 16:53:00,1
+2019-06-20 16:54:00,2
+2019-06-20 16:57:00,1
+2019-06-20 16:59:00,1
+2019-06-20 17:01:00,1

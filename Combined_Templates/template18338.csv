@@ -1,0 +1,2 @@
+1,"SELECT MIN (z) AS Minimum, MAX (z) AS Maximum, (SELECT MAX (z) *# FROM SpecObj WHERE class = # AND zWarning = # and survey = #) - (SELECT MIN (z) FROM SpecObj WHERE class = # AND zWarning = # and survey = #) ) AS Spread, (SELECT MAX (z) *# FROM SpecObj WHERE class = # AND zWarning = # and survey = #) - (SELECT MIN (z) FROM SpecObj WHERE class = # AND zWarning = # and survey = #) ) / # AS Width FROM SpecObj WHERE class = # AND zWarning = # and survey = #"
+2019-03-07 17:01:00,1

@@ -1,0 +1,3 @@
+3,"SELECT COUNT (*) specObjID, z FROM SpecObj WHERE class = # AND zWarning = #"
+2019-03-20 10:21:00,1
+2019-03-20 10:22:00,2

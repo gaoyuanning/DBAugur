@@ -1,0 +1,2 @@
+2,select carro from LALUDCO where ra BETWEEN # and # AND dec BETWEEN # and #
+2019-11-21 18:10:00,2

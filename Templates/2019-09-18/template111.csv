@@ -1,0 +1,2 @@
+1,"SELECT  s.psfMag_r,  s.run,  s.camCol,  s.rerun,  s.field  FROM Star AS s  JOIN Field AS f ON s.fieldID = f.fieldID  WHERE s.psfMag_r < #  and f.pspStatus = #"
+2019-09-18 21:40:00,1

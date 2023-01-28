@@ -1,0 +1,4 @@
+3,"select distinct eid , JSON_VALUE (Ever_had_eye_surgery_#, #) as I0"
+2019-07-15 15:10:00,1
+2019-07-15 15:11:00,1
+2019-07-15 15:12:00,1

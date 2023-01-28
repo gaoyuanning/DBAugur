@@ -1,0 +1,5 @@
+11,"select top # objid, modelmag_i, z from SpecPhoto where class = # AND modelmag_i> # AND z = #"
+2019-04-05 08:51:00,2
+2019-04-05 08:52:00,6
+2019-04-05 08:53:00,2
+2019-04-05 08:54:00,1

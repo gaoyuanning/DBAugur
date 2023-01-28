@@ -1,0 +1,7 @@
+6,"SELECT TOP # ra, dec, specobjid, plate, mjd, fiberid FROM specObj WHERE survey = &&& and programname = &&&"
+2019-04-01 06:25:00,1
+2019-04-01 16:56:00,1
+2019-04-01 18:26:00,1
+2019-04-01 20:12:00,1
+2019-04-01 21:43:00,1
+2019-04-01 22:21:00,1

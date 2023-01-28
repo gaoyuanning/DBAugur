@@ -1,0 +1,10 @@
+9,"SELECT  top #   p.run, p.rerun, p.camcol, p.field, p.obj,    p.type, p.ra, p.dec, p.u,p.g, p.r, p.i, p.z,    p.Err_u, p.Err_g, p.Err_r, p.Err_i, p.Err_z    FROM fGetObjFromRect(#,#,#,#) n,   PhotoPrimary p    WHERE n.objID=p.objID"
+2019-12-16 00:48:00,1
+2019-12-16 01:16:00,1
+2019-12-16 02:56:00,1
+2019-12-16 03:25:00,1
+2019-12-16 06:14:00,1
+2019-12-16 11:33:00,1
+2019-12-16 11:41:00,1
+2019-12-16 13:00:00,1
+2019-12-16 17:55:00,1

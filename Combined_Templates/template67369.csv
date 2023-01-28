@@ -1,0 +1,2 @@
+1,"SELECT top # g.objid as name, g.ra, g.dec FROM galaxy g, specobj s WHERE g.devmag_r < # and g.devmag_r > # and s.bestobjid = g.objid"
+2019-10-02 19:58:00,1

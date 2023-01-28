@@ -1,0 +1,2 @@
+1,"SELECT FLOOR ((dered_r-#.) /#) *# as magbin, COUNT (*) AS num into mydb.MyTable from PhotoPrimary GROUP BY FLOOR ((dered_r-#.) /#) *# ORDER BY #"
+2019-12-24 01:56:00,1

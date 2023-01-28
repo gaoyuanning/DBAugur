@@ -1,0 +1,2 @@
+1,"SELECT    o.ra,o.dec,   g.oiii_#_flux, g.h_beta_flux, g.nii_#_flux, g.h_alpha_flux,g.oiii_#_flux_err, g.h_beta_flux_err, g.nii_#_flux_err, g.h_alpha_flux_err      into mydb.dr1#_mpa_jhu FROM MyDB.MyTable_# AS m   CROSS APPLY dbo.fGetNearestObjEq( m.objra, m.objdec, #) AS n    JOIN specphotoall AS o ON n.objid=o.objid   JOIN galspecline AS g ON o.specobjid=g.specobjid"
+2019-03-10 17:45:00,1

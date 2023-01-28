@@ -1,0 +1,2 @@
+5,"SELECT all specObjID, z, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z FROM SpecPhotoAll WHERE class = # AND zWarning = # AND modelMag_u! =# AND modelMag_g! =# AND modelMag_r! =# AND modelMag_i! =# AND modelMag_z! =#"
+2019-01-06 09:45:00,5

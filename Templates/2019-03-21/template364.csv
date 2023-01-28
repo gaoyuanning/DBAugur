@@ -1,0 +1,2 @@
+1,"SELECT top # ROW_NUMBER() OVER(ORDER BY z DESC) AS Row,  bestObjId, z, ra, dec, plate, mjd, fiberId, run2d,   &&& + cast(run2d as varchar(#)) + &&& + format(plate, &&&) +  &&& + format(plate, &&&) + &&& + cast(mjd as varchar(#)) + &&& + format(fiberid, &&&) + &&& as url FROM specObjAll WHERE class = &&& and zWarning = # AND bestObjId > #  AND snMedian > #  AND (z > # AND z < #)  AND (htmid*# & #) < (# * #)"
+2019-03-21 14:18:00,1

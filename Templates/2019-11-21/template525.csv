@@ -1,0 +1,2 @@
+1,"SELECT ra,dec,z,zErr as z_err,class,SPECOBJID from SpecObj"
+2019-11-21 06:00:00,1

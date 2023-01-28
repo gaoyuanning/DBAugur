@@ -1,0 +1,2 @@
+1,"SELECT * ROW_NUMBER () OVER (ORDER BY ra ASC) as RowNumber, ra, dec, j, jIvar, h, hIvar, k, kIvar FROM TwoMass WHERE ra BETWEEN # AND #"
+2019-03-21 14:16:00,1

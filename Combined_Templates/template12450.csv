@@ -1,0 +1,2 @@
+2,"select Orders TABLESAMPLE (# rows) PhotoObj.modelMag_u, PhotoObj.modelMag_g, PhotoObj.modelMag_r, PhotoObj.modelMag_i, PhotoObj.modelMag_z, specObj.z from photoObj, specObj where specObj.bestObjid = PhotoObj.ObjID and class = # and specObj.zWarning = # and specobj.z between # and #"
+2019-02-20 20:38:00,2

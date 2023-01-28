@@ -1,0 +1,2 @@
+1,"SELECT TOP # 	     ra, dec, thing_id, z, zErr, Zwarning, velDisp, velDispErr, class, subClass into mydb.MyTable_# from dbo.SpecObjAll WHERE     ra > #. and ra < #. and dec > #. and dec < #."
+2019-03-29 15:11:00,1

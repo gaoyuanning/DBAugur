@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, s.z as specz FROM PhotoTag p, dbo.fGetNearbyObjEq (#, #, #) n LEFT OUTER JOIN specObjAll as s ON s.bestObjID = p.ObjID WHERE p.objID = n.objID"
+2019-05-29 11:24:00,1

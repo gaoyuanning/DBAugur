@@ -1,0 +1,2 @@
+1,"SELECT s.specObjId, s.plate, s.mjd, s.fiberId, s.ra, s.dec, s.z, s.class, s.subClass, e.bpt, p.g - p.dered_g - p.r + p.dered_r as Egr, LOG1# (e.Flux_OIII_# / e.Flux_Hb_#) as y, LOG1# (e.Flux_NII_# / e.Flux_Ha_#) as x FROM specObj AS s JOIN photoObj AS p ON p.objId = s.bestObjId LEFT JOIN emissionLinesPort AS e ON e.specObjId = s.specObjId WHERE s.class = GALAXY"
+2019-08-23 08:03:00,1

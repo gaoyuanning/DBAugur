@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.oiii_#_reqw_err as oir, p.h_beta_reqw_err as hbr, p.nii_#_reqw_err as nir, p.h_alpha_reqw_err as har, p.specObjID FROM galSpecLine as p JOIN ZooNoSpec AS zns ON p.specObjID = zns.specObjID JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE zns.nvote > = # and zns.p_cw > #"
+2019-04-11 15:51:00,1

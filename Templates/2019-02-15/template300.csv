@@ -1,0 +1,5 @@
+4,"select G.specobjid, ra, dec, z into A9# from specObjAll as G    Where (ra between # and #) and (dec between # and #) and z># and z<#"
+2019-02-15 11:09:00,1
+2019-02-15 11:10:00,1
+2019-02-15 11:13:00,1
+2019-02-15 11:14:00,1

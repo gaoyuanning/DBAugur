@@ -1,0 +1,2 @@
+1,"SELECT s.plate,s.mjd,s.fiberid, FROM BESTDR1#..SpecObj as s 	JOIN BESTDR1#..PhotoObj AS p ON s.bestObjID = p.objID"
+2019-10-16 10:02:00,1

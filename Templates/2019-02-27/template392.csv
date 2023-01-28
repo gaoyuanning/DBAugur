@@ -1,0 +1,20 @@
+38,"SELECT TOP # p.objid, p.ra,p.dec,p.petror9#_r, p.dered_g, dered_r, s.z as z_spec, s.zErr, zns.nvote, zns.p_el as elliptical, zns.p_cw as spiralclock, zns.p_acw as spiralanticlock, zns.p_edge as edgeon, zns.p_dk as dontknow, zns.p_mg as merger   FROM Galaxy as p    JOIN ZooNoSpec AS zns ON p.objid = zns.objid    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.clean=# and zns.nvote >= # and zns.p_acw > #"
+2019-02-27 14:09:00,1
+2019-02-27 14:10:00,2
+2019-02-27 14:11:00,2
+2019-02-27 14:15:00,1
+2019-02-27 14:44:00,5
+2019-02-27 14:45:00,5
+2019-02-27 14:46:00,2
+2019-02-27 14:47:00,2
+2019-02-27 14:48:00,2
+2019-02-27 14:49:00,2
+2019-02-27 14:55:00,1
+2019-02-27 14:56:00,2
+2019-02-27 14:58:00,2
+2019-02-27 14:59:00,2
+2019-02-27 15:00:00,1
+2019-02-27 15:01:00,2
+2019-02-27 15:02:00,2
+2019-02-27 15:03:00,1
+2019-02-27 17:21:00,1

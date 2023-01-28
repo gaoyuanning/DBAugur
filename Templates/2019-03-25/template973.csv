@@ -1,0 +1,2 @@
+1,"SELECT s.objid, s.ra, s.dec, g.objid, g.ra, g.dec INTO twowayxmatch FROM XMATCH(   MUST EXIST IN SDSSDR7:PhotoObjAll AS s   MUST EXIST IN MUSE_NVSS )"
+2019-03-25 11:40:00,1

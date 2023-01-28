@@ -1,0 +1,2 @@
+1,select thingId from DR1#.thingIndex where nDetect > #
+2019-09-26 11:19:00,1

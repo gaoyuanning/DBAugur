@@ -1,0 +1,2 @@
+1,"SELECT p.objId, p.ra, p.dec, p.petror9#_r, p.expAB_r, p.dered_u as u, p.dered_g as g, p.dered_r as r, p.dered_i as i, s.cModelMag_g as magG, s.cModelMag_i as magI, s.cModelMag_r as magR, s.cModelMag_u as magU, s.cModelMag_z as magZ FROM galaxy AS p JOIN PhotoObjAll AS s ON s.sdss_objid = p.objid WHERE p.petror9#_r > # and p.ra between # and # and s.z between # and # and p.g < #"
+2019-11-25 12:56:00,1

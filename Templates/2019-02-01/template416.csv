@@ -1,0 +1,2 @@
+1,update Parameters set progress=# where hash=# and progress=# with (tablockx)
+2019-02-01 10:18:00,1

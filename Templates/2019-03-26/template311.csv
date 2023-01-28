@@ -1,0 +1,2 @@
+1,"select count(*) from specobj  where z_warning=# and class=&&&  and survey in (&&&, &&&)"
+2019-03-26 20:26:00,1

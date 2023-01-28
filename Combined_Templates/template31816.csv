@@ -1,0 +1,2 @@
+1,SELECT * from specObj where ra = # and dec = #;
+2019-04-19 13:24:00,1

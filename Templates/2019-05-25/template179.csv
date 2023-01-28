@@ -1,0 +1,2 @@
+32,"select specObjID, objID, ra, dec, z from SpecPhotoAll where ra between # and # and dec between # and # and z between # and # and type = #"
+2019-05-25 09:44:00,32

@@ -1,0 +1,3 @@
+2,"SELECT a.objID, b.z, b.zErr, b.specObjID, a.petroMag_r FROM Galaxy a, SpecPhoto b WHERE b.objID = a.objID   INTO SDSS_DR8_match_Galaxy_SpecPhoto"
+2019-03-06 14:12:00,1
+2019-03-06 14:14:00,1

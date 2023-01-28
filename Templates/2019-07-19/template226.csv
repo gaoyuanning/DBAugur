@@ -1,0 +1,2 @@
+1,"select   PhotoObjAll.ra, PhotoObjAll.dec,   PhotoZ.z, PhotoZ.zErr, PhotoObjAll.objID,   n.distance from    PhotoZ, PhotoObjAll, MyDB.sourceList   cross apply dbo.fGetNearbyObjAllEq(MyDB.sourceList.ra,MyDB.sourceList.dec,#) as n   join PhotoObj as o on n.objID = o.objID where   PhotoZ.objID = PhotoObjAll.objID"
+2019-07-19 15:05:00,1

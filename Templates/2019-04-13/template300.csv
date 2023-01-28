@@ -1,0 +1,2 @@
+1,"SELECT t.Name,t.targetID,t.objID,t.AngSep INTO mydb.neighbors FROM mydb.all_angsep as t where   t.AngSep < #"
+2019-04-13 12:35:00,1

@@ -1,0 +1,3 @@
+2,"select top # a.bestObjID, petroMag_u as upmag, petroMag_g as gpmag, petroMag_r as rpmag, petroMag_i as ipmag, petroMag_z as zpmag from MyDB.andre as a join PhotoObjAll as p on p.objid = a.bestObjID"
+2019-02-20 03:08:00,1
+2019-02-20 03:09:00,1

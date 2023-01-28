@@ -1,0 +1,2 @@
+1,"select top # z, ra, dec, bestObjID from photObjAll where psfmag_r-psfmag_z > #"
+2019-08-27 15:25:00,1

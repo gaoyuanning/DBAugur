@@ -1,0 +1,2 @@
+1,"SELECT    s.plate,s.mjd,s.fiberID,    s.velDisp , st.vdisp_median, st.vdisp_err into mydb.MyTable_# from specObjAll AS s   JOIN stellarMassPCAWisc st on st.specObjid = s.specObjid   JOIN MyDB.MyTable m on s.bestObjid = m.objid"
+2019-02-21 09:12:00,1

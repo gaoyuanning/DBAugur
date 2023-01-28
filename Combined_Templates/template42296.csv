@@ -1,0 +1,2 @@
+2,"SELECT TOP # run, camCol, rerun, field, thingID, r, u-g, g-r, r-i, ra, dec into mydb.CVn_# from Star WHERE r < # and u - g < # and g - r < # and g - r > # and r - i > # and r - i < # and u-g > # and dec > #"
+2019-05-28 03:25:00,2

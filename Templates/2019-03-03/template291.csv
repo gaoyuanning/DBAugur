@@ -1,0 +1,11 @@
+12,"create table SchoolAttendance (  _id integer not null , [School] VARCHAR(#) , [Date] INTEGER , [Absent] SMALLINT , [SchoolYear] INTEGER , [Released] SMALLINT , [Enrolled] SMALLINT , [Present] SMALLINT )"
+2019-03-03 15:49:00,1
+2019-03-03 16:10:00,1
+2019-03-03 16:11:00,1
+2019-03-03 16:13:00,2
+2019-03-03 16:19:00,2
+2019-03-03 16:20:00,1
+2019-03-03 16:23:00,1
+2019-03-03 16:24:00,1
+2019-03-03 16:26:00,1
+2019-03-03 16:27:00,1

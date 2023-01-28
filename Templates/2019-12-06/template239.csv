@@ -1,0 +1,3 @@
+5,"select p.objid, p.ra, p.dec, s.z as redshift from galaxy p, specobj s, dbo.fGetObjFromRect( #, #, # , # ) n where p.objid=s.bestobjid and p.objid=n.objid and s.bestobjid=n.objid and s.z BETWEEN #  AND #"
+2019-12-06 16:17:00,1
+2019-12-06 16:18:00,4

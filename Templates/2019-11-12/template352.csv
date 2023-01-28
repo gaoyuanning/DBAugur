@@ -1,0 +1,3 @@
+2,"SELECT TOP # ra, dec, fmjd, p.psfMag_ru, p.psfMag_g,p.psfMag_r,p.psfMag_i,p.psfMag_z from dr1#.PhotoObjAll"
+2019-11-12 13:14:00,1
+2019-11-12 13:17:00,1

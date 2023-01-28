@@ -1,0 +1,2 @@
+1,"SELECT n.distance s.z, s.zErr, g.petroMag_r, dbo.fPhotoTypeN (g.type) as type, s.sourceType, FROM Galaxy AS g JOIN SpecObj AS s ON g.objid = s.bestobjid, fGetNearbyObjEq (#, #, #) AS n WHERE g.objID = n.objID"
+2019-08-22 22:59:00,1

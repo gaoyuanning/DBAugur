@@ -1,0 +1,13 @@
+12,"SELECT p.objId,p.ra,p.dec,p.petror9#_r, p.expAB_r,     p.dered_u as u, p.dered_g as g, p.dered_r as r, p.dered_i as i,      s.z, s.plate, s.mjd, s.fiberid FROM galaxy AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.petror9#_r > #   and s.z between # and #"
+2019-11-20 05:19:00,1
+2019-11-20 05:20:00,1
+2019-11-20 05:22:00,1
+2019-11-20 07:06:00,1
+2019-11-20 07:39:00,1
+2019-11-20 07:41:00,1
+2019-11-20 09:56:00,1
+2019-11-20 09:57:00,1
+2019-11-20 09:58:00,1
+2019-11-20 10:00:00,1
+2019-11-20 10:01:00,1
+2019-11-20 10:02:00,1

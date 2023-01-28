@@ -1,0 +1,19 @@
+18,"CREATE TABLE [Summary_Information_operations_] (eid BIGINT NOT # , [Operative_procedures_OPCS4_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Date_of_first_operative_procedure_OPCS4_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Operative_procedures_OPCS3_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Date_of_first_operative_procedure_OPCS3_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Operative_procedures_main_OPCS4_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Date_of_first_operative_procedure_main_OPCS4_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Operative_procedures_secondary_OPCS4_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Operative_procedures_main_OPCS3_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Date_of_first_operative_procedure_main_OPCS3_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Operative_procedures_secondary_OPCS3_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , PRIMARY KEY (eid) ) GO"
+2019-04-15 13:26:00,1
+2019-04-15 13:36:00,1
+2019-04-16 08:58:00,1
+2019-04-16 09:00:00,1
+2019-04-16 10:13:00,1
+2019-04-16 10:15:00,1
+2019-04-16 10:18:00,1
+2019-04-17 11:28:00,1
+2019-04-23 09:46:00,1
+2019-04-23 10:53:00,1
+2019-04-24 09:56:00,1
+2019-04-24 13:21:00,1
+2019-04-29 11:40:00,1
+2019-04-30 11:45:00,1
+2019-04-30 15:40:00,1
+2019-05-01 09:29:00,1
+2019-05-02 09:36:00,1
+2019-05-02 10:37:00,1

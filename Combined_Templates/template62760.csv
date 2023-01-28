@@ -1,0 +1,4 @@
+3,"SELECT TOP # s.class, s.subclass FROM WISE_xmatch as xm JOIN PhotoObj AS p on xm.sdss_objid = p.objid JOIN SpecObj AS s on p.objid = s.bestobjid JOIN WISE_allsky AS w on xm.wise_cntr = w.cntr WHERE s.class = #"
+2019-09-12 09:21:00,1
+2019-09-12 09:22:00,1
+2019-09-12 09:24:00,1

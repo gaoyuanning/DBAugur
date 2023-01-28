@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.u, p.g, p.r, p.i, p.z DECLARE @var INT; FROM Galaxy AS p, dbo.fGetNearbyObjEq (#, #, #) as N WHERE p.objID = N.objID"
+2019-11-24 02:17:00,1

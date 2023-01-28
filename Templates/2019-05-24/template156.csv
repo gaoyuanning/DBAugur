@@ -1,0 +1,2 @@
+1,"SELECT TOP # sp.objID, sp.ra, sp.dec, sp.mjd, px.taiBegin, px.taiEnd, sp.fiberID, sp.z FROM specPhoto AS sp JOIN PhotoPrimary AS pp ON sp.plateID = pp.plateID WHERE ra > # and ra < # AND dec > # and dec < #"
+2019-05-24 21:50:00,1

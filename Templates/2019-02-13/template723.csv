@@ -1,0 +1,2 @@
+1,"SELECT n.objid, p.objid FROM fGetNearbyObjEq(#,#,#) as n INNER JOIN PhotoPrimary p ON n.objID=p.objID"
+2019-02-13 04:51:00,1

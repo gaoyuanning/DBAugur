@@ -1,0 +1,2 @@
+1,"select top #  p.objID, p.modelMag_u from PhotoObj as p where p.objID = #"
+2019-06-14 05:07:00,1

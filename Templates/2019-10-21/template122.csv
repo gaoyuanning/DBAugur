@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.plate,s.mjd,s.fiberid,p.run,p.rerun,p.camCol,p.field,p.obj  FROM ..SpecObj as s  JOIN ..PhotoObj AS p ON s.bestObjID = p.objID  JOIN dbo.fGetObjFromRect(#,#,#,#) AS b ON s.bestobjid = b.objID  WHERE (s.class = &&& OR s.class = &&& OR s.class = &&&) AND s.zWarning = #"
+2019-10-21 19:21:00,1

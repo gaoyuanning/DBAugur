@@ -1,0 +1,2 @@
+1,"SELECT   p.objID, p.ra, p.dec, dbo.fPhotoTypeN(p.type) as type, f.psfWidth_r FROM #upload u  JOIN #x x ON x.up_id = u.up_id  JOIN PhotoObjAll p ON p.objID = x.objID  JOIN Field f ON (f.field = p.field AND f.run = p.run AND f.rerun = p.rerun and f.camcol = p.camcol) WHERE (((p.psfMag_r - p.modelMag_r) < # AND p.psfMag_r < #) OR (p.parentID = #)) AND p.probPSF = # ORDER BY x.up_id  &&&#', @log=#, @filter=#"
+2019-11-28 16:23:00,1

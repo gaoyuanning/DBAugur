@@ -1,0 +1,2 @@
+1,"SELECT   s.bestobjid,  s.plate, s.mjd, s.fiberid into mydb.metal_dr7objid from MyDB.metallicities AS m, SpecObj AS s      WHERE m.plate=s.plate       and m.mjd=s.mjd       and m.fiberid=s.fiberid"
+2019-01-10 12:15:00,1

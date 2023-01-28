@@ -1,0 +1,3 @@
+3,"SELECT up_id, up_ra, up_dec, up_sep, dbo.fGetNearestSpecObjIdEq (up_ra, up_dec, up_sep) as SpecobjId FROM (SELECT * from (values (#, #, #, #) , (#, #, #, #) ) as upload (up_id, up_ra, up_dec, up_sep) ) as x WHERE dbo.fGetNearestSpecObjIdEq (up_ra, up_dec, up_sep) IS NOT #"
+2019-10-29 19:33:00,1
+2019-10-29 19:39:00,2

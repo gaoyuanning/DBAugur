@@ -1,0 +1,2 @@
+1,"SELECT album.Title, artist.Name, SUM(t.UnitPrice) AS totalPrice, COUNT(t.AlbumID)         AS numTracks     FROM chinook.Track t     JOIN chinook.Album album ON album.AlbumID=t.AlbumID     JOIN chinook.Artist artist ON artist.ArtistID=album.ArtistID     GROUP BY AlbumID ) SELECT TOP # Title, Name, album.numTracks, album.totalP FROM album ORDER BY totalP DESC"
+2019-04-24 19:39:00,1

@@ -1,0 +1,2 @@
+1,"SELECT o.GALname, o.ra, o.dec, o.z, p.objId, p.petroFlux_u, p.petroFlux_g, p.petroFlux_r, p.petroFlux_i, p.petroFlux_z, p.petroFluxErr_u, p.petroFluxErr_g, p.petroFluxErr_r, p.petroFluxErr_i, p.petroFluxErr_z INTO mydb.pisco_sdss_petroflux FROM mydb.pisco_final_galaxies as o CROSS APPLY dbo.fGetNearestObjEq (o.ra, o.dec, #) AS near INNER JOIN PhotoPrimary AS p ON p.objID = near.objID INNER JOIN Galaxy AS g ON g.objID = p.objID"
+2019-06-18 15:58:00,1

@@ -1,0 +1,2 @@
+1,"SELECT ph.ra, ph.dec, psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z, sp.plate, sp.mjd, sp.fiberid, sp.zwarning, sp.snr from sppParams sp, Photoprimary ph WHERE ph.objid = sp.bestobjid and type = # and elodiervfinalerr > # and zwarning = # and fehadop > # and ph.clean = #"
+2019-11-14 08:14:00,1

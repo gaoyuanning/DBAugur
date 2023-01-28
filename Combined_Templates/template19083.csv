@@ -1,0 +1,3 @@
+2,"select * from DBViewCols a, DBColumns b where a.name = b.name"
+2019-03-09 20:47:00,1
+2019-03-09 20:49:00,1

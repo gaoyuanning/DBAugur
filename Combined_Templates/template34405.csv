@@ -1,0 +1,2 @@
+1,"select COUNT (a.specObjID) , a.specObjID, a.fiberID, a.mjd, a.plate, a.survey, a.programname, a.instrument, a.sourceType, a.z, a.zErr, dbo.fSpecZWarningN (a.zWarning) as WARNING, a.sciencePrimary, dbo.fPrimTargetN (a.legacy_target1) as targetOne, a.legacy_target2 as targetTwo, a.class as CLASS, a.velDisp, a.velDispErr from SpecObjAll a group by a.bestObjID"
+2019-04-25 19:22:00,1

@@ -1,0 +1,6 @@
+5,"SELECT   p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  s.specobjid, s.survey, s.instrument, s.programname,  s.boss_target1, s.bossPrimary, s.zWarning_noqso, s.chunk,  fiber2Mag_i, psfMag_z, psfMag_i, modelMag_z, modelMag_i,  s.class, s.z as redshift FROM PhotoObjAll AS p  JOIN SpecObjAll AS s ON s.bestobjid = p.objid WHERE   s.class=&&&"
+2019-09-15 13:07:00,1
+2019-09-15 13:16:00,1
+2019-09-15 13:24:00,1
+2019-09-15 13:31:00,1
+2019-09-15 13:36:00,1

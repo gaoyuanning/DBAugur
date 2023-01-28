@@ -1,0 +1,2 @@
+1,"SELECT n.objID, n.distance, n.@ra, n.@dec, n.@r, n.type from Galaxy as G OUTER APPLY dbo.fGetNearbyObjEq (#, #, #) AS n Where G.objID = N.objID INTO MyDB.NearbyObjEq"
+2019-02-02 13:49:00,1

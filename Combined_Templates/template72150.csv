@@ -1,0 +1,2 @@
+1,"SELECT f.run, f.rerun, f.field, f.camcol, p.rowc, p.colc, p.r, p.modelMagErr_r into mydb.cc5_s_coo from photoObj p JOIN field f ON f.fieldid = p.fieldid WHERE f.camcol = # and (p.field = # or p.field = # or p.field = # or p.field = # or p.field = # or p.field = # or p.field = #) and p.type = # and f.run = #"
+2019-10-28 07:00:00,1

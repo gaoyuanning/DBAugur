@@ -1,0 +1,2 @@
+1,"SELECT TOP # m.ra AS raSDSS, m.dec AS decSDSS, m.psfMag_u, m.psfMagErr_u, m.psfMag_g, m.psfMagErr_g, m.psfMag_r, m.psfMagErr_r, m.psfMag_i, m.psfMagErr_i, m.psfMag_z, m.psfMagErr_z FROM SpecPhotoAll AS m INTO myDB.SDSSStars WHERE m.ra > # and m.ra < #"
+2019-08-15 10:57:00,1

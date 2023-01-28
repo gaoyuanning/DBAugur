@@ -1,0 +1,3 @@
+2,"select top # za.specObjID, za.bestObjID, za.class, za.subClass, za.z, za.zErr, po.objID, po.type, po.flags, po.ra, po.dec from specObj za join PhotoObjAll po ON (po.objID = za.bestObjID) join Photoz zp on (zp.objID = za.bestObjID) join galSpecInfo zi on (zi.SpecObjID = za.specObjID) where za.class = # and za.z > # and za.zWarning = #"
+2019-10-08 04:45:00,1
+2019-10-08 04:47:00,1

@@ -1,0 +1,2 @@
+1,"SELECT SpecObj.ra, SpecObj.dec, SpecObj.z, StellarMasses.logmstar, StellarMasses.metal, StellarMasses.absMag_r FROM SpecObj JOIN StellarMasses ON SpecObj.CATAID = StellarMasses.CATAID WHERE SpecObj.nq> # and SpecObj.prob > #"
+2019-08-26 20:51:00,1

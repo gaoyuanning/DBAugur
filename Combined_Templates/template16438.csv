@@ -1,0 +1,3 @@
+2,"select p.objid, dbo.fGeturlExpID (p.objid) from dbo.fGetNearestObjEq (#, #, #) n, PhotoObj p where n.objid = p.objid"
+2019-03-03 11:29:00,1
+2019-03-03 12:38:00,1

@@ -1,0 +1,4 @@
+3,"SELECT galaxy.objID, galaxy.ra, galaxy.dec, galaxy.dered_g, galaxy.dered_r, galaxy.dered_i, galaxy.dered_z, galaxy.err_g, galaxy.err_r, galaxy.err_i, galaxy.err_z, specObj.z into mydb.dr7_gals_withradec_dered from galaxy, specObj, plateX where specObj.bestObjid = galaxy.ObjId and plateX.plateID = specObj.plateID and specObj.zWarning = # AND ( (galaxy.flags_r & #) ! = #) AND ( (galaxy.flags_r & #) = #) AND ( ((galaxy.flags_r & #) = #) or (galaxy.psfmagerr_r < = #) ) AND ( ((galaxy.flags_r & #) = #) or (galaxy.flags_r & #) = #)"
+2019-01-11 09:09:00,1
+2019-01-11 09:17:00,1
+2019-01-11 09:19:00,1

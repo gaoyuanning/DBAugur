@@ -1,0 +1,2 @@
+1,"select top # b.yearId as year, max(p.nameLast) as lastName, max(p.nameFirst) as firstName, sum(b.hr) as numHR   from baseball.batting b   join baseball.players p on p.playerid=b.playerid  group by b.yearId, b.playerId"
+2019-02-20 18:28:00,1

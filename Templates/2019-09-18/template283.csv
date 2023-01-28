@@ -1,0 +1,2 @@
+1,"select count(*) as n, sum_big(np) as npa from mr where snapnum=# and np > #   and firstHaloInFOFGroupId=haloid"
+2019-09-18 17:37:00,1

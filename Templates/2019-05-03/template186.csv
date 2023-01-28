@@ -1,0 +1,3 @@
+2,"select TwoMASS.OBJID, t.w1mag, t.w2mag, t.w3mag, t.w4mag from WISE_allsky t, TwoMASS where t.tmass_key=TwoMASS.ptsKey and TwoMASS.OBJID=#"
+2019-05-03 15:02:00,1
+2019-05-03 15:04:00,1

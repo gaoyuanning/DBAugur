@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.plate, s.mjd, s.fiberid FROM SpecObj AS s WHERE  # >= CAST(CHECKSUM(NEWID(), htmid) & # AS float) / CAST (# AS int) AND  s.instrument = BOSS&&&"
+2019-05-28 01:31:00,1

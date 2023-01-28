@@ -1,0 +1,2 @@
+2,"select mt.objID, ge.specObjID, ge.bptclass, gi.subclass into mydb.yang_AGN from MyDB.objYang mt, galSpecExtra ge, galSpecInfo gi, SpecPhotoAll spa where spa.objID = mt.objID and spa.specObjID = ge.specObjID and spa.specObjID = gi.specObjID"
+2019-09-02 12:18:00,2

@@ -1,0 +1,4 @@
+3,"SELECT u.up_name as [name], x.objID, s.plate, s.mjd, s.fiberid, s.dered_r, p.rest_ug, p.rest_gr FROM #upload u JOIN #x x ON x.up_id = u.up_id JOIN PhotoTag pp ON pp.objID = x.objID JOIN Photoz p ON p.objID = x.objID JOIN SpecPhotoAll AS s ON s.objID = p.objID ORDER by x.up_id"
+2019-01-12 04:50:00,1
+2019-01-12 04:51:00,1
+2019-01-12 04:52:00,1

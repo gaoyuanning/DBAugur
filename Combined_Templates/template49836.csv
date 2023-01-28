@@ -1,0 +1,2 @@
+1,"select #+c.table_name, c.column_name, ci.datatype, ci.encoding_id from information_schema.columns c inner join metadata.columninfo ci on ci.table_name = c.table_name and c.column_name like ci.column_name+#"
+2019-07-04 12:24:00,1

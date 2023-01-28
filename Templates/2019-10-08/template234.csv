@@ -1,0 +1,8 @@
+7,"select floor(px/#)*# px, floor(py/#)*# py, avg(CMembrane5#) PDL1, avg(CMembrane6#) PD1     from CellTag3 where sampleid=#     group by floor(px/#)*#, floor(py/#)*#"
+2019-10-08 15:10:00,1
+2019-10-08 15:52:00,1
+2019-10-08 15:54:00,1
+2019-10-08 15:56:00,1
+2019-10-08 16:30:00,1
+2019-10-08 16:34:00,1
+2019-10-08 16:55:00,1

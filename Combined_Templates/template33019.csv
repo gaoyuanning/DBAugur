@@ -1,0 +1,2 @@
+2,"SELECT ra, dec, z into mydb.MyTable_# from SpecObj where survey = # and class = #"
+2019-04-22 04:12:00,2

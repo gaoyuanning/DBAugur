@@ -1,0 +1,2 @@
+1,"SELECT DISTINCT hip_name, starname FROM marvelsStar WHERE starname LIKE # AND hip_name LIKE #"
+2019-06-12 04:47:00,1

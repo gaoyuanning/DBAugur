@@ -1,0 +1,2 @@
+1,"SELECT p.specobjid, p.dec, p.p_el, p.p_cw, p.p_acw, p.p_mg, s.z FROM zooSpec p  JOIN specObj s ON s.bestObjID = p.specobjid WHERE ra between # and #   and s.z between # and #   and s.class= &&&"
+2019-11-23 12:48:00,1

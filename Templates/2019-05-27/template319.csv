@@ -1,0 +1,2 @@
+1,"select   s.bestObjID, g.ra, g.dec,  s.z, s.zErr,  s.velDisp, s.velDispErr from SpecObj as s join Galaxy as g  on s.bestObjID = g.objID where   g.ra between # and #  and g.dec between # and #  and s.zWarning=#  and s.z>#  and (s.class=&&& or s.class=&&&)"
+2019-05-27 11:54:00,1

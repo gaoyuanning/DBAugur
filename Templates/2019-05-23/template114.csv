@@ -1,0 +1,10 @@
+11,"SELECT TOP #  s.plate,s.mjd,s.fiberid,s.z,s.zErr,s.zWarning,s.class,cast(str(s.ra,#,#) as float) as ra,cast(str(s.[dec],#,#) as float) as dec  FROM ..SpecObj as s  JOIN dbo.fGetNearbySpecObjEq(#,#,#) AS b ON b.SpecobjID = S.SpecobjID  WHERE s.zWarning = #"
+2019-05-23 18:22:00,1
+2019-05-23 18:31:00,1
+2019-05-23 18:49:00,1
+2019-05-23 18:56:00,1
+2019-05-23 19:05:00,1
+2019-05-23 19:24:00,1
+2019-05-23 19:32:00,2
+2019-05-23 19:45:00,2
+2019-05-23 19:51:00,1

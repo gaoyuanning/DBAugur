@@ -1,0 +1,4 @@
+3,"select p.objID, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z from photoObj p, dbo.fGetNearbyObjEq (#, #, #) n where p.objID = n.objID and p.type = # and p.r BETWEEN # and # and p.g-p.r BETWEEN # and #"
+2019-02-13 16:40:00,1
+2019-02-13 16:41:00,1
+2019-02-13 16:47:00,1

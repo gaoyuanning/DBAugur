@@ -1,0 +1,2 @@
+1,"select GALAXY ra,dec from specClass where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-06-19 14:35:00,1

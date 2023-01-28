@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec from MyDB.Sample5#_coord_I Das  m  FROM PhotoObj as p, dbo.fGetNearbyObjEq(m.ra,m.dec,#) n WHERE n.objID = p.objID"
+2019-12-05 01:38:00,1

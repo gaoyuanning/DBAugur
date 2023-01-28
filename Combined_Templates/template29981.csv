@@ -1,0 +1,6 @@
+5,"select p.ObjID, p.type, p.ra, p.dec, p.psfMag_g, p.psfMag_r, p.z from SpecPhotoAll p, dbo.fGetNearbyObjEq (#, #, #) n where p.objID = n.objID AND p.type = #"
+2019-04-14 17:44:00,1
+2019-04-14 17:47:00,1
+2019-04-14 17:56:00,1
+2019-04-14 17:57:00,1
+2019-04-14 17:58:00,1

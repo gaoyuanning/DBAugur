@@ -1,0 +1,4 @@
+4,"SELECT    s.bestobjid, s.ra,s.dec,s.plate,s.mjd,s.fiberid, p.u, p.g, p.r, p.i, p.z, s.snMedian_g into mydb.MyTable_# from ..SpecObj as s   JOIN PhotoObj AS p ON s.bestobjid=p.objid  WHERE  s.zWarning = # AND (s.class = &&&) AND s.z < # AND (p.u - p.g) > # AND (p.g - p.r) > # AND (p.u - p.g) < # AND (p.g - p.r) < #  AND p.g># AND p.g<# AND s.snMedian_g>=#"
+2019-02-27 07:52:00,1
+2019-02-27 07:53:00,2
+2019-02-27 07:54:00,1

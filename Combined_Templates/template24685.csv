@@ -1,0 +1,3 @@
+3,"SELECT top # specobjid, z from specobj WHERE class = # AND zWarning = # AND z BETWEEN # and # order by rand ()"
+2019-03-27 10:16:00,1
+2019-03-27 10:17:00,2

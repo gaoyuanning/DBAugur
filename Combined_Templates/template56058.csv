@@ -1,0 +1,2 @@
+1,"SELECT specObjID, bestObjID, fluxObjID, targetObjID, plateID, sciencePrimary, mjd, plate, fiberID, ra, dec FROM specObj WHERE sciencePrimary > #"
+2019-08-08 15:56:00,1

@@ -1,0 +1,3 @@
+2,"select s.specobjid, s.programname, s.plate, s.mjd, s.fiberid, s.flag,     s.elodiervfinal, s.elodiervfinalerr, s.spectypesubclass into mydb.MyTable from sppParams as s    join SpecPhotoAll as o   on s.specobjid = o.specobjid where s.programname like &&&   and s.teffadop > #   and s.loggadop > #   and s.fehadop > #   and s.zwarning = #   and s.spectypesubclass like &&&"
+2019-01-24 00:34:00,1
+2019-01-24 00:40:00,1

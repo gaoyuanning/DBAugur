@@ -1,0 +1,6 @@
+13,"SELECT aa_i,kk_i,airmass_i,gain_i,sky_i,skysig_i FROM Field where run=# AND rerun=# AND camcol=# AND field=#"
+2019-07-31 01:23:00,1
+2019-07-31 01:24:00,2
+2019-07-31 01:44:00,1
+2019-07-31 01:45:00,5
+2019-07-31 01:46:00,4

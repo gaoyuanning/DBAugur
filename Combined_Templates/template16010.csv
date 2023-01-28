@@ -1,0 +1,2 @@
+2,"SELECT TOP # ra, dec, z, mag FROM nsaID WHERE ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-03-01 03:30:00,2

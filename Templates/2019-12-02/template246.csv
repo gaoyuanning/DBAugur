@@ -1,0 +1,2 @@
+1,"select   m.*, p.deVMag_u, p.deVMag_g, p.deVMag_r, p.deVMag_i, p.deVMag_z into mydb.Final_Spec_Z_and_mag from MyDB.Final_Spec_z m    JOIN PhotoPrimary p on p.objid = m.objid"
+2019-12-02 13:58:00,1

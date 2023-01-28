@@ -1,0 +1,4 @@
+5,"SELECT TOP # s1.z, count(*) FROM SpecObjAll s1, SpecObjAll s2 WHERE s2.class=&&&    AND s1.class=&&& AND   s1.z > s2.z AND   (s1.ra BETWEEN s1.ra # AND s1.ra + #) AND   (s1.dec BETWEEN s1.dec # AND s1.dec + #)  GROUP BY s1.z HAVING COUNT(*) > #"
+2019-02-28 09:53:00,3
+2019-02-28 09:54:00,1
+2019-02-28 09:56:00,1

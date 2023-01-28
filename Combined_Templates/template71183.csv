@@ -1,0 +1,2 @@
+2,"SELECT m.objid, m.specobjid, g.sii_#_flux, g.sii_#_flux into S0_SII from dr1#.galSpecLine AS g JOIN MyDB.S0_restr AS m ON m.specobjid = g.specObjID"
+2019-10-22 04:43:00,2

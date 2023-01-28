@@ -1,0 +1,5 @@
+5,"SELECT TOP #   r.run,   r.rerun,   f.camCol,   f.field,   p.objID,   p.ra,   p.dec,   p.modelMag_r,   f.psfWidth_r   FROM   PhotoTag AS p   JOIN Field AS f ON f.fieldid = p.fieldid   JOIN Run AS r ON f.run = r.run   WHERE mode=#   and f.psfWidth_r > #   and p.modelMag_r < #.   and r.stripe = #"
+2019-03-19 06:44:00,1
+2019-03-19 10:33:00,1
+2019-03-19 13:41:00,2
+2019-03-19 17:28:00,1

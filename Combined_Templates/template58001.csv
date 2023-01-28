@@ -1,0 +1,2 @@
+1,"SELECT TOP # sall.ra, sall.dec, spp.ELODIERVFINAL, spp.ELODIERVFINALERR FROM specobjall AS sall JOIN sppparams AS spp ON spp.specObjID = sall.specObjID WHERE spp.specObjID = #"
+2019-08-16 01:16:00,1

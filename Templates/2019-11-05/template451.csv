@@ -1,0 +1,2 @@
+1,"select   PhotoObjAll.modelMag_u, PhotoObjAll.modelMag_g,    PhotoObjAll.modelMag_r, PhotoObjAll.modelMag_i,    PhotoObjAll.modelMag_z,   PhotoObjAll.ra, PhotoObjAll.dec,   SpecObjAll.z, PhotoObjAll.ObjID,   SpecObjAll.class into mydb.MyTable_# from PhotoObjAll, SpecObjAll where   SpecObjAll.bestObjID = PhotoObjAll.ObjID    and (SpecObjAll.class = &&& or SpecObjAll.class = &&&)    and SpecObjAll.zWarning = #    and SpecObjAll.z > #"
+2019-11-05 05:06:00,1

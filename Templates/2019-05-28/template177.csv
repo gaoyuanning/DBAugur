@@ -1,0 +1,2 @@
+1,"select stripe, run from Segment order by stripe select top # objid, modelmag_u, modelmag_g, modelmag_r, modelmag_i, modelmag_z,z from SpecPhoto where specclass=# and zconf > .#"
+2019-05-28 17:55:00,1

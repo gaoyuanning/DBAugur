@@ -1,0 +1,3 @@
+2,"SELECT p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, (p.u-p.r) as #, (p.r-p.i) as #, (p.r-p.z) as #, (p.g-p.r) as #, p.type as obj_ph_type into mydb.photopeasdr7 from PhotoObj AS p WHERE p.r BETWEEN # AND # AND p.petrorad_r < = # AND (p.u-p.r < = #) AND (p.r-p.i < = #) AND (p.r-p.z < = #) AND (p.g-p.r > = (p.r-p.i) + #) AND (p.u-p.r > = #* (p.r-p.z) )"
+2019-04-29 05:14:00,1
+2019-04-29 05:15:00,1

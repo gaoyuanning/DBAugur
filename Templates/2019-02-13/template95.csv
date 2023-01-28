@@ -1,0 +1,2 @@
+1,"select s.specObjID,  max(l.sigma*#/l.wave) as veldisp,  avg(s.z) as z  into qso from SpecObj s, specLine l  where s.specObjID=l.specObjID  and ( (s.specClass = dbo.fSpecClass(&&&)) or  (s.specClass = dbo.fSpecClass(&&&))  and s.z between # and #  and l.sigma*#/l.wave >#  and s.zConf > #  group by s.specObjID"
+2019-02-13 21:31:00,1

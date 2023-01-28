@@ -1,0 +1,2 @@
+2,"SELECT   z.allamID,p.objID into mydb.zLost FROM dr1#.PhotoObjAll as p   JOIN dr1#.SpecObjAll as s ON s.bestObjID=p.objID and s.specObjID=p.specObjID   JOIN mydb.MyTable as z ON z.mjd=s.mjd WHERE   s.plate=z.plate   AND s.fiberID=z.fiberID"
+2019-12-24 02:56:00,2

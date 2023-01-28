@@ -1,0 +1,2 @@
+1,"SELECT * INTO mydb.xrbheii_targs_phot FROM MyDB.xrbheii_targs as m CROSS APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n JOIN PhotoObj AS o ON n.objid = o.objid"
+2019-06-28 14:23:00,1

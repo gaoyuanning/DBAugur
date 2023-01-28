@@ -1,0 +1,2 @@
+2,"SELECT TOP # S.specObjID, S.bestObjID, S.plateID, S.MJD, S.fiberID, S.firstRelease, S.survey, S.instrument, S.sourceType, S.ra, S.dec, S.z, S.zErr    WHERE S.sciencePrimary = # AND S.zWarning = #      FROM SpecObjAll AS S"
+2019-02-18 10:57:00,2

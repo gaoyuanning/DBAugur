@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.z, s.zErr, s.zWarning, p.dec, cast (str (p.ra, #, #) as float) as ra FROM ..SpecObj as s JOIN ..PhotoObj AS p ON s.bestObjID = p.objID WHERE s.zWarning = # AND (s.class = #) AND (p.type = # OR p.type = #)"
+2019-02-06 17:49:00,1

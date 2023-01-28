@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objID, s.sourceType, s.class, s.subclass, p.clean, p.RA, p.DEC, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z FROM PhotoObj As p JOIN specObj As s ON s.bestObjID = p.ObjID WHERE type = #"
+2019-06-22 15:47:00,1

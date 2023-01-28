@@ -1,0 +1,2 @@
+2,"select top # p.u, p.g, p.r, p.i, p.z, s.z, x.mjd, s.fiberID from photoobj p join specobj s ON s.ra = p.ra join plateX x ON s.plateID = x.plateID where p.g BEWTEEN # AND # AND s.z< .#"
+2019-06-20 16:06:00,2

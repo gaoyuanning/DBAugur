@@ -1,0 +1,3 @@
+2,"SELECT TOP # p.aperFlux7_g, p.aperFlux7_i, p.aperFlux7_r FROM ..PhotoObj AS p JOIN dbo.fGetObjFromRect (#, #, #, #) AS b ON p.objID = b.objID WHERE (p.type = # OR p.type = #)"
+2019-07-03 08:35:00,1
+2019-07-03 08:37:00,1

@@ -1,0 +1,2 @@
+3,"SELECT psfMag_g, psfMagErr_g, psfMag_r, psfMagErr_r, psfMag_i, psfMagErr_i, psfMag_z, psfMagErr_z, class, z FROM SpecPhotoAll Where class = &&& and psfMagErr_g < # and psfMag_g between # and # and psfMagErr_r < # and psfMag_r between # and # and psfMagErr_i < # and psfMag_i between # and # and psfMagErr_z < # and psfMag_z between # and # and z>#"
+2019-01-11 13:36:00,3

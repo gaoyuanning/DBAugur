@@ -1,0 +1,2 @@
+1,"SELECT specObjID, z, SpecClass FROM SpecObj JOIN SpecObj as S ON specObjID = S.bestObjId JOIN SpecLine as L ON S.specObjID = L.specObjId WHERE L.LineId = # zconf > .# z < .#"
+2019-03-28 17:54:00,1

@@ -1,0 +1,5 @@
+15,"select specObjID, (Flux_NII_#*Flux_Cont_Ha_#/ (Flux_Cont_NII_#*Flux_Ha_#) ) as nii_ha, (Flux_OIII_#*Flux_Cont_Hb_#/ (Flux_Cont_OIII_#*Flux_Hb_#) ) as oiii_hb from emissionLinesPort where specObjID = #"
+2019-04-09 14:52:00,3
+2019-04-09 14:53:00,4
+2019-04-09 14:54:00,5
+2019-04-09 14:55:00,3

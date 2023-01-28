@@ -1,0 +1,2 @@
+1,"select top # *, Pt = convert (geometry, #) into TEST4 from IntroSQL.data"
+2019-11-23 17:21:00,1

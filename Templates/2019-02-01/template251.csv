@@ -1,0 +1,2 @@
+1,"SELECT TOP #   ra, dec z, zErr, specClass into mydb.MyTable_# from PhotoObjAll"
+2019-02-01 14:20:00,1

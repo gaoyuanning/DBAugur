@@ -1,0 +1,2 @@
+1,"select avg(u-g),stdev(u-g),count(u-g),stdev(u-g)/sqrt(count(u-g)) from SpecObjAll, PhotoObjAll where   PhotoObjAll.ObjID=SpecObjAll.BestObjID and SpecObjAll.class=&&& and SpecObjAll.z>=# and   SpecObjAll.z<# and u># and g># and u<# and g<#"
+2019-01-19 19:05:00,1

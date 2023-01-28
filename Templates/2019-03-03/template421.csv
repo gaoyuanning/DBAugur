@@ -1,0 +1,3 @@
+2,select count(*) from photoobjall where run=# and camcol=# and field=# and type = STAR
+2019-03-03 11:34:00,1
+2019-03-03 12:42:00,1

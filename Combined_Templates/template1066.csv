@@ -1,0 +1,2 @@
+1,"SELECT TOP # pz.z, pz.zErr, pz.absMagU, pz.absMagG, pz.absMagR, pz.absMagI, pz.absMagZ, pz.ra, pz.dec FROM Photoz AS pz WHERE pz.z BETWEEN # AND # AND pz.ra BETWEEN # and # AND pz.dec BETWEEN # and #"
+2019-01-05 15:57:00,1

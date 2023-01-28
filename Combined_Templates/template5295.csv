@@ -1,0 +1,2 @@
+1,"SELECT s.plate, s.mjd, s.fiberID, g.oiii_#_flux, g.oiii_#_cont, g.oiii_#_eqw, s.plate, s.mjd, s.fiberid FROM SpecObj as s JOIN GalSpecLine as g ON s.specobjid = g.specobjid WHERE g.h_beta_eqw < # AND g.oiii_#_eqw < # AND s.class = # AND s.z between # and # AND s.snmedian_g > #"
+2019-01-22 22:28:00,1

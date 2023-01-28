@@ -1,0 +1,9 @@
+13,"SELECT TOP # p.psfMag_r, p.fiberMag_r, p.fiber2Mag_r, p.petroMag_r, p.deVMag_r, p.expMag_r, p.modelMag_r, p.cModelMag_r, s.class FROM PhotoObjAll AS p JOIN specObjAll s ON s.bestobjid = p.objid WHERE p.mode = # AND s.sciencePrimary = # AND p.clean = # AND s.class != &&&"
+2019-04-17 01:45:00,1
+2019-04-17 02:14:00,1
+2019-04-17 14:23:00,1
+2019-04-17 14:38:00,1
+2019-04-17 14:55:00,1
+2019-04-17 14:59:00,2
+2019-04-17 15:00:00,3
+2019-04-17 15:01:00,3

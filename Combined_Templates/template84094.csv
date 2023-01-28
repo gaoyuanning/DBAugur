@@ -1,0 +1,2 @@
+1,"select specObjID, ra, dec, snMedian_r, plate, mjd, fiberid, z, zerr into mydb.sdss_galaxy_zwarning0 from SpecObjAll where class = # and zwarning = #"
+2019-12-21 02:48:00,1

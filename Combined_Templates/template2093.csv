@@ -1,0 +1,2 @@
+1,select data.* from MyDB.DR1#_MGS_HETEDX_Data as data
+2019-01-10 08:35:00,1

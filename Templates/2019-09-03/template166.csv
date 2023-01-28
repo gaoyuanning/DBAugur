@@ -1,0 +1,2 @@
+1,"SELECT TOP #   A.UIIID,A.RAJ2#WISE_AGN_R9#_ptsrc_VIZIER,A.DEJ2#WISE_AGN_R9#_ptsrc_VIZIER,  B.speczAllSDSSspecDR1#,B.speczerrAllSDSSspecDR1#,B.specclassAllSDSSspecDR1#,B.specsubClassAllSDSSspecDR1#,B.specObjIDAllSDSSspecDR1#,B.ObjIDSDSSDR1#,SQRT() FROM  					  MyDB.CasjobsCombinedOutputBrief AS A, MyDB.CCOSEDPropsZspec AS B  					WHERE  AND A.UIIID=# ORDER BY SQRT() INTO 					   MyDB.CasjobsCombinedOutputBrief_SpecPhotoAll_MagSpace1"
+2019-09-03 18:17:00,1

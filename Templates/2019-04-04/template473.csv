@@ -1,0 +1,2 @@
+1,"select TOP # specObjID, class, modelMag_u, modelMag_g, modelMag_r,  modelMag_i, modelMag_z, z from SpecPhoto where modelMag_r < # order by z"
+2019-04-04 02:12:00,1

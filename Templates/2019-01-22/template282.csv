@@ -1,0 +1,2 @@
+1,"SELECT b.objid, b.distance  from MyDB.RA_AND_DEC m CROSS APPLY dbo.fGetNearbyObjEq(#,#, .#) b"
+2019-01-22 16:40:00,1

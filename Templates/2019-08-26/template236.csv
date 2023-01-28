@@ -1,0 +1,2 @@
+1,"SELECT id.plate_eu, so.specObjID, so.ra, so.dec into mydb.xmatch_eu_eso from mydb.eu_ids AS id, SpecObjAll AS so WHERE id.plate_eu = so.plate"
+2019-08-26 10:53:00,1

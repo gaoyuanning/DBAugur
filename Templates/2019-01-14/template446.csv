@@ -1,0 +1,2 @@
+1,"SELECT *  p.objid,p.ra,p.dec,p.petroR5#_z,p.petroR5#_r FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   p.ra==# AND p.dec==# or  p.ra==# AND p.dec==#"
+2019-01-14 10:09:00,1

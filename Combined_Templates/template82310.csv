@@ -1,0 +1,3 @@
+3,"SELECT specobjid, bestobjid, fluxobjid, targetobjid, plateid, survey, instrument, programname, ra, dec, z, zerr, zwarning, class, subclass, rchi2, dof, rchi2diff, z_noqso, zerr_noqso, zwarning_noqso, class_noqso, subclass_noqso, rchi2diff_noqso, z_person, class_person, comments_person, tfile FROM specobj INTO [myscratch:default].sdss_specobj_dr1#"
+2019-12-11 02:58:00,2
+2019-12-11 03:03:00,1

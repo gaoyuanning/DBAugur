@@ -1,0 +1,2 @@
+1,"SELECT m.field, m.ra AS ra1, m.dec AS dec1, n.objid, n.distance, o.ra AS ra2, o.dec AS dec2 into mydb.MyTable_# from MyDB.test AS m, dr1#.photoobj as o Where abs (m.ra-o.ra) < # and abs (m.dec-o.dec) < #"
+2019-03-15 06:51:00,1

@@ -1,0 +1,2 @@
+2,"SELECT       d.specObjID, d.plateID, d.mjd, d.fiberID  into pasquetSpecDetails   FROM SpecObjAll AS d     JOIN MyDB.pasquetData AS g ON d.specObjID = g.specObjID"
+2019-05-09 12:30:00,2

@@ -1,0 +1,2 @@
+1,"SELECT   p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  s.specobjid, s.class, s.z as redshift FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   s.z BETWEEN # AND # ORDER BY RAND(s.z)"
+2019-03-07 23:59:00,1

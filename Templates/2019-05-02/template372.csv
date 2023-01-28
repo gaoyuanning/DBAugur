@@ -1,0 +1,2 @@
+1,"select top # s.bestobjid as name, s.ra, s.dec from  SpecObj s join dbo.fgetnearbyobjeq(#,#,#) n on s.bestobjid = n.objid"
+2019-05-02 15:11:00,1

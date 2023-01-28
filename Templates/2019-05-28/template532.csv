@@ -1,0 +1,2 @@
+1,"SELECT p.objId,p.ra,p.dec,p.petror9#_r, p.expAB_r,     p.dered_u as u, p.dered_g as g, p.dered_r as r, p.dered_i as i,      s.z, s.plate, s.mjd, s.fiberid FROM galaxy AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE      ((s.BOSS_TARGET1 & dbo.fBossTarget1(&&&) > #) or      (s.BOSS_TARGET1 & dbo.fBossTarget1(&&&) > #) )     and s.z > #     and s.z < #     and s.ra > #     and s.ra < #"
+2019-05-28 07:59:00,1

@@ -1,0 +1,6 @@
+5,"SELECT s.specobjid, s.z, s.zErr, pz.objId, pz.z as photz, pz.zErr as photzerr, -- redshifts and IDs pz.absMagU, pz.absMagG, pz.absMagR, pz.absMagI, pz.absMagZ, g.modelMagErr_r, -- magnitude info g.fracDeV_r, g.petroR5#_r, g.petroR5#Err_r -- classification and size info INTO MyDB.yourgalaxies FROM Photoz AS pz JOIN Galaxy as g ON g.objid = pz.objid JOIN SpecObj as s ON s.bestobjid = pz.objid WHERE s.z < = # -- add a lower limit on s.z here AND s.zWarning = # AND pz.photoErrorClass = # AND pz.nnCount> # AND pz.zErr BETWEEN # and #"
+2019-01-22 00:16:00,1
+2019-01-22 00:21:00,1
+2019-02-01 09:57:00,1
+2019-02-01 10:07:00,1
+2019-02-01 10:16:00,1

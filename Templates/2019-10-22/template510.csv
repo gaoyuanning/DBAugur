@@ -1,0 +1,2 @@
+1,"select s.gal_id, o.objid as galex_id, o.nuv_alpha_j2# as ra, o.nuv_delta_j2# as dec,   o.nuv_poserr as poserr, (n.distance * #) as distance,   o.nuv_flags, o.nuv_s2n, (o.fov_radius * #) as fov_radius into mydb.match_galex from mydb.sdss7 as s   cross apply dbo.fGetNearestObjEq( s.ra, s.dec, #) AS n   join galexgr6.photoobjall as o on n.objid = o.objid  where o.nuv_s2n > #"
+2019-10-22 04:53:00,1

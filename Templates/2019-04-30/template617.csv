@@ -1,0 +1,2 @@
+1,"SELECT SOA.specObjID, SOA.ra, SOA.dec, SOA.z, SOA.velDisp, PA.petroMag_u, PA.petroMag_g, PA.petroMag_r, PA.petroMag_i, PA.petroMag_z, PA.deVRad_r, PA.fracDeV_r into GU2#_hw2_w1  From SpecObjAll as SOA, PhotoObjAll as PA Where   SOA.z < # and SOA.z > # and SOA.specObjID = PA.specObjID"
+2019-04-30 07:48:00,1

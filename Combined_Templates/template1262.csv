@@ -1,0 +1,17 @@
+16,"select top # p.objid, p.ra, p.dec, p.g, s.z as redshift from photoobj p, specobj s, dbo.fgetNearByObjEq (#, #, #) n where p.objid = s.bestobjid and p.objid = n.objid and s.bestobjid = n.objid and (p.g BETWEEN # AND #) and s.z BETWEEN # AND # order by p.g"
+2019-01-07 09:43:00,1
+2019-01-07 10:02:00,1
+2019-01-07 10:18:00,1
+2019-01-07 10:30:00,1
+2019-01-07 16:46:00,1
+2019-01-07 16:47:00,1
+2019-01-07 16:53:00,1
+2019-01-08 13:32:00,1
+2019-01-08 13:43:00,1
+2019-01-08 13:48:00,1
+2019-01-08 13:53:00,1
+2019-01-08 14:36:00,1
+2019-01-08 15:39:00,1
+2019-01-08 15:41:00,1
+2019-01-08 16:25:00,1
+2019-01-08 16:27:00,1

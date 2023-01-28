@@ -1,0 +1,2 @@
+1,"select BlockLot, FullAddress, IsMCC, IsDemolished, IsVacant from RealPropertiesExtra where neighborhood like # and isMCC = # */ select neighborhood, count (ID) from RealPropertiesExtra where IsMCC = # and IsVacant = # group by neighborhood order by #"
+2019-05-06 09:37:00,1

@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.psfmag_g, f.mjd_g FROM PhotoPrimary p, Field f WHERE (f.fieldID = p.fieldID AND run = #)"
+2019-09-06 04:06:00,1

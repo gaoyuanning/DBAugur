@@ -1,0 +1,2 @@
+1,"select zoo.objID, zoo.ra, zoo.dec, zoo.p_cw, zoo.p_acw, po.expAB_r, re.z into mydb.zooCosas from zooSpec zoo, photoObjAll po, galSpecInfo re where zoo.objID = po.objID and re.specObjID = zoo.specObjID"
+2019-10-10 14:19:00,1

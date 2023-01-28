@@ -1,0 +1,2 @@
+1,"select m.mangaID,a.ra,a.dec,m.object_ra,m.object_dec,a.L,a.H into mydb.bagninmanga_#_obj from mydb.bhagn_# as a,dbo.mangatarget as m where   abs(a.ra-m.object_ra) < .# and abs(a.dec-m.object_dec) < .#"
+2019-04-04 11:02:00,1

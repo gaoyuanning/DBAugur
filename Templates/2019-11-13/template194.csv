@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.elodieBV,s.elodieFeH,s.elodieLogG,s.elodieObject,s.elodieSpType,s.elodieTEff,s.elodieZ,s.elodieZErr,cast(str(p.ra,#,#) as float) as ra,cast(str(p.[dec],#,#) as float) as dec,p.psfMag_u,p.psfMag_g,p.psfMag_r,p.psfMag_i,p.psfMag_z,p.psfMagErr_u,p.psfMagErr_g,p.psfMagErr_r,p.psfMagErr_i,p.psfMagErr_z into mydb.crap2 from ..SpecObj as s  JOIN ..Star AS p ON s.bestObjID = p.objID  WHERE  s.zWarning = # AND p.g > # AND p.g < # AND elodieSpType != &&& AND elodieSpType != &&&"
+2019-11-13 18:39:00,1

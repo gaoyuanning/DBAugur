@@ -1,0 +1,2 @@
+2,"SELECT   m.*, p.petroR5#_r, p.petroR9#_r, p.petroRad_r, e.specsfr_tot_p5#, e.lgm_tot_p5#   INTO   myDB.PosterResults   FROM   myDB.PosterCoord as m, galSpecExtra as e, PhotoObjAll as p, specObjID as s    WHERE   m.ra <= #. and   m.ra >= #. and   s.specObjID = e.specObjID"
+2019-07-23 16:29:00,2

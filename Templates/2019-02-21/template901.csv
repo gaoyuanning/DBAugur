@@ -1,0 +1,3 @@
+2,"SELECT TOP # objID, ra, dec, modelMag_g, z, type   FROM SpecPhoto   WHERE type = #"
+2019-02-21 01:44:00,1
+2019-02-21 01:45:00,1

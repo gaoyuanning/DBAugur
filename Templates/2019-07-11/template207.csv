@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.r, p.r-#*log1#(#E+#*s.z)+# as abs_r, p.flags, PhotoFlags.fPhotoFlagsN(p.flags) as info FROM PhotoObj p, SpecObj s WHERE s.z># AND p.type=#"
+2019-07-11 15:48:00,1

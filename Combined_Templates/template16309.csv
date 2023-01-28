@@ -1,0 +1,2 @@
+1,"select count (*) , max (date) from schoolattendance"
+2019-03-03 16:51:00,1

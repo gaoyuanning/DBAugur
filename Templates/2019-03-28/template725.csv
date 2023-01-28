@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z into mydb.Bright_Obj_CFHTLS_D1RD0# from PhotoObj AS p WHERE p.ra BETWEEN # AND #   AND p.dec BETWEEN # AND #   AND p.r BETWEEN # AND #"
+2019-03-28 04:29:00,1

@@ -1,0 +1,2 @@
+1,"select distinct state, county from optw.tamass.TRACTS where #=# -- centroid.STDistance(@center) < # -- meters --    and county in (&&&, &&&, &&&, &&&, &&&, &&&, &&&, &&&, &&&, &&&, &&&, &&&) -- within #km in Orego     and county in (&&&, &&&, &&&, &&&, &&&, &&&, &&&, &&&, &&&, &&&, &&&, &&&, &&&, &&&, &&&, &&&) -- within #km --order by # asc"
+2019-10-26 17:12:00,1

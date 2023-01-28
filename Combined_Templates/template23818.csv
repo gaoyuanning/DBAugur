@@ -1,0 +1,4 @@
+5,"SELECT top # p.u, p.g, p.r, p.i, p.z, s.z FROM SpecObj AS s INNER JOIN PhotoObj AS p ON S.bestObjId = p.objID WHERE p.type = # AND s.z BETWEEN # AND #"
+2019-03-25 12:11:00,1
+2019-03-25 12:12:00,2
+2019-03-25 12:13:00,2

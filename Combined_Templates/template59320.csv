@@ -1,0 +1,3 @@
+5,"select ra, dec, p_cs into mydb.MyTable_# from zoovotes"
+2019-08-26 03:48:00,2
+2019-08-26 03:49:00,3

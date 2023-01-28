@@ -1,0 +1,2 @@
+1,"SELECT top # specObjID, ra, dec, z FROM Specobj WHERE z > #. and z < =#"
+2019-10-31 19:00:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP #  specsfr_tot_p9#p5,specsfr_fib_entropy FROM galSpecExtra with (nolock)    WHERE   specsfr_tot_p9#p5!=# AND specsfr_fib_entropy!=#"
+2019-10-24 08:07:00,1

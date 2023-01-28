@@ -1,0 +1,3 @@
+2,"SELECT TOP # objID, u,g,r,i,u-g, r-i, g-r, type, s.z, zErr,velDisp into mydb.SecondGrand from Galaxy AS p   JOIN SpecObj AS s ON s.bestObjID=p.objID WHERE   r < #      AND s.z >#"
+2019-04-03 14:27:00,1
+2019-04-03 14:28:00,1

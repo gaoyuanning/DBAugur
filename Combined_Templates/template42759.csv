@@ -1,0 +1,2 @@
+1,"select plateX.mjd, plateX.plate, plateX.tile, decBoresight, raBoresight from plateX join specObj on specObj.plate = plateX.plate where plateX.plate IN () and z > #"
+2019-05-30 18:11:00,1

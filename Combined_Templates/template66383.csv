@@ -1,0 +1,2 @@
+1,"SELECT top # mjd, plate, fiberid, SUBCLASS FROM SpecObjAll WHERE class = # and z < # and snMedian > # and zwarning = # and (subclass = # OR subclass = #) and instrument = #"
+2019-09-28 06:54:00,1

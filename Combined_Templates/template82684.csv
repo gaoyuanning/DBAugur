@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, BESTOBJID into mydb.MyTable_# from SpecObj where z< # and z> #"
+2019-12-13 10:43:00,1

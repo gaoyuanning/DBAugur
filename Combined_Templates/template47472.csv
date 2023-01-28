@@ -1,0 +1,2 @@
+1,"SELECT TOP # rv_teff, objid, modelmag_r, modelmag_r-#*log1# (#E+#*z) +# as abs_mag_r FROM SpecPhoto, apogeeStar WHERE modelmag_r-#*log1# (#E+#*z) +#"
+2019-06-22 01:06:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # A.ra,A.dec,A.objID,A.z,A.zerr,A.class,A.subClass,A.specobjID,A.specobjIDClean FROM   MyDB.CasjobsCombinedOutputCtrl AS A   LEFT INNER APPLY dbo.fGetNearestObjEq( A.RAJ2#, A.DEJ2#, #/#.) AS B   LEFT INNER JOIN SpecPhotoAll AS C ON B.objID=C.objID   LEFT INNER JOIN stellarMassFSPSGranEarlyDust as D ON C.specObjID=D.specObjID   LEFT INNER JOIN galSpecLine as E ON C.specObjID=E.specObjID INTO    MyDB.CTRLStellarMassGalSpecLine"
+2019-09-09 15:00:00,1

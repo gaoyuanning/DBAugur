@@ -1,0 +1,2 @@
+1,"SELECT       i.thingId, i.objID into mydb.MyTable_# from thingIndex i           INNER JOIN mydb.Pet AS d ON d.objID = i.objid"
+2019-09-10 09:04:00,1

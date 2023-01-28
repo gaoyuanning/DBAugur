@@ -1,0 +1,2 @@
+1,"select CSC_name, SDSS_name into mydb.MyTable from first1#"
+2019-12-13 10:04:00,1

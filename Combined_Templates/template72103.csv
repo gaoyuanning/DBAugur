@@ -1,0 +1,4 @@
+3,"SELECT TOP # st.ra, st.dec, st.psfMag_g-st.extinction_g AS psf_mag_g, st.psfMag_r-st.extinction_r AS psf_mag_r, st.psfMag_i-st.extinction_i AS psf_mag_i, st.psfMag_z-st.extinction_z AS psf_mag_z, FROM Star AS st"
+2019-10-28 10:48:00,1
+2019-10-28 10:49:00,1
+2019-10-28 10:50:00,1

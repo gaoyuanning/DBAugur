@@ -1,0 +1,2 @@
+2,select fieldid from field where kdot_u between -.# and .# and kterm_i between # and #
+2019-01-24 20:57:00,2

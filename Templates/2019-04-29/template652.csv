@@ -1,0 +1,2 @@
+3,"SELECT TOP # objid,ra,dec,r FROM Galaxy WHERE g-r BETWEEN # AND #"
+2019-04-29 06:16:00,3

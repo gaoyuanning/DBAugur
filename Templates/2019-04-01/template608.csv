@@ -1,0 +1,2 @@
+2,"select s.specObjID into [myscratch:default].Testing2 from dbo.galSpecInfo as s, dbo.galSpecExtra as e, dbo.zoo2MainSpecz as z where s.z between # and # and s.z_warning = # and e.lgm_tot_p5# between # and # and s.v_disp_err > # and z.specobjid = s.specObjID and z.total_votes >#"
+2019-04-01 01:15:00,2

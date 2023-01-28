@@ -1,0 +1,4 @@
+3,"SELECT ra,dec,z FROM SpecObj WHERE ra ># and ra <# AND dec > # and dec < # And class=&&&"
+2019-09-13 02:14:00,1
+2019-09-13 02:18:00,1
+2019-09-13 02:19:00,1

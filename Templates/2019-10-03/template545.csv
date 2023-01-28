@@ -1,0 +1,2 @@
+1,"select top # astar.ra, astar.dec, #*(astar.ra - ap.racen)/cos(ap.deccen*PI()/#) as xfocal, #*ap.deccen*(astar.dec - ap.deccen) as yfocal, astar.ra - ap.racen from apogeestar as astar join apogeePlate as ap on ap.location_id=astar.location_id where ap.plate = #"
+2019-10-03 00:42:00,1

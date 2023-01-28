@@ -1,0 +1,2 @@
+1,"select ra, dec from logMass_min where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-01-13 14:44:00,1

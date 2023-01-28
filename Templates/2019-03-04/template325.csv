@@ -1,0 +1,2 @@
+1,"select into gz2diskmass_dr1#   gz.mangaid,   gz.plateifu,   gz.specObjID,   ge.lgm_tot_p1#,   ge.lgm_tot_p5#,   ge.lgm_tot_p8#,   w.mstellar_median,   w.mstellar_err from mydb.gz2disks_dr1# gz left outer join galSpecExtra ge on ge.specObjID = gz.specObjID left outer join stellarMassPCAWiscBC0# w on w.specObjID = gz.specObjID"
+2019-03-04 15:51:00,1

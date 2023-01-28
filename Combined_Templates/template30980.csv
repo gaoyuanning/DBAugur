@@ -1,0 +1,3 @@
+2,"SELECT TOP # ROW_NUMBER () OVER (ORDER BY gi.specObjID) AS Row, x.objID AS xObjID, gi.specObjID, gl.specObjID AS glSpecObjID FROM MyDB.FIRST_RADec_Half AS f CROSS APPLY dbo.fGetNearestObjEq (f.ra, f.dec, #) AS x JOIN galSpecInfo gi ON x.objID = gi.specObjID JOIN galSpecLine gl ON gi.specObjID = gl.specObjID"
+2019-04-16 06:07:00,1
+2019-04-16 06:08:00,1

@@ -1,0 +1,2 @@
+2,"select PhotoObjAll.ObjID,buta.ra,buta.dec,buta.z into MyDB.buta_ids from buta,PhotoObjAll where sqrt(power(buta.ra-PhotoObjAll.ra,#)+power(buta.dec-PhotoObjAll.dec,#))<#"
+2019-09-16 17:15:00,2

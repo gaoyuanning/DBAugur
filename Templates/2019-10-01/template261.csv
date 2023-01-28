@@ -1,0 +1,2 @@
+1,"select top #   z, zErr, ra, dec, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z from SpecPhotoAll where    z < # and z > # and ra > # and ra < # and dec > # and dec < #"
+2019-10-01 12:44:00,1

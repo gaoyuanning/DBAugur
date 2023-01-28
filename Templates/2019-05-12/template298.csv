@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.run,p.rerun,p.camCol,p.field,p.obj,cast(str(p.ra,#,#) as float) as ra,cast(str(p.[dec],#,#) as float) as dec,p.r  FROM ..PhotoObj AS p  JOIN dbo.fGetObjFromRect(#,#,#,#) AS b ON p.objID = b.objID  WHERE p.u > # AND p.g > # AND p.r > # AND p.i > # AND p.z > # AND p.u < # AND p.g < # AND p.r < # AND p.i < # AND p.z < # AND ( p.type = # OR p.type = #)"
+2019-05-12 00:44:00,1

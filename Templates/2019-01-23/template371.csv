@@ -1,0 +1,2 @@
+1,SELECT DISTINCT(mode) FROM dbo.PhotoObjAll WHERE type=# specObjID <> #
+2019-01-23 10:28:00,1

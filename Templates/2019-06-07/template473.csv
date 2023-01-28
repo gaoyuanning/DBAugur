@@ -1,0 +1,2 @@
+1,"SELECT       ga.specobjid as specid1, e.specobjid as specid2    FROM      GalSpecLine as ga,    emissionLinesPort as e       WHERE ga.oiii_#_flux > ga.oiii_#_flux_err*#        OR e.Flux_OIII_# > e.Flux_OIII_#_Err*#"
+2019-06-07 06:25:00,1

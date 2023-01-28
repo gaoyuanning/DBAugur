@@ -1,0 +1,2 @@
+1,"SELECT ra, dec FROM Galaxy WHERE (ra = # and dec = #)"
+2019-10-04 23:46:00,1

@@ -1,0 +1,2 @@
+1,"SELECT ra, dec into mydb.MyTable_# from PhotoObjAll LIMIT #"
+2019-08-22 03:40:00,1

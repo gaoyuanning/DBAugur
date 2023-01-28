@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, ra, dec, deVAB_r, expAB_r  FROM PhotoObjAll  WHERE SpecObjAll.z BETWEEN # AND #"
+2019-07-26 21:42:00,1

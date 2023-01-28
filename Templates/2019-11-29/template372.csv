@@ -1,0 +1,2 @@
+1,"select   i.Z,l.OIII_#_FLUX,l.OIII_#_FLUX_ERR into data    from galSpecline as l join SpecObjALL as s    on l.specObjID=s.specObjID join galSpecinfo as i   on l.specObjID=i.specObjID    where s.scienceprimary=#,i.Z_WARNING=#"
+2019-11-29 00:39:00,1

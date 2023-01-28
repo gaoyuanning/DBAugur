@@ -1,0 +1,4 @@
+3,"SELECT so.specObjID, so.ra, so.dec, so.plate, so.mjd, so.fiberID, elp.Flux_Hb_#, elp.AoN_Hb_#, elp.Flux_NII_#,elp.FLUX_OIII_#, elp.AoN_NII_#, elp.Flux_Ha_#, elp.AoN_Ha_#,elp.AoN_OIII_#, elp.Flux_HeII_#, elp.AoN_HeII_#, so.z, so.snMedian_g, elp.V_Hb_#,elp.V_NII_#,elp.V_Ha_#,elp.V_OIII_#, elp.Flux_OI_#,elp.AoN_OI_#,elp.Flux_SII_#,elp.AoN_SII_#,elp.Flux_SII_#,elp.AoN_SII_#,elp.V_SII_#,elp.V_SII_#,elp.V_OI_#,elp.bpt,elp.V_HeII_# FROM #upload u JOIN #x x ON x.up_id = u.up_id JOIN SpecObjAll so ON so.specObjID = x.specObjID JOIN emissionLinesPort as elp ON so.specObjid = elp.specObjid"
+2019-08-19 06:17:00,1
+2019-08-19 06:29:00,1
+2019-08-19 06:50:00,1

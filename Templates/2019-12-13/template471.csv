@@ -1,0 +1,3 @@
+2,"INSERT INTO Routes values(#,&&&,geography::STLineFromText(&&&,#))"
+2019-12-13 07:09:00,1
+2019-12-13 07:10:00,1

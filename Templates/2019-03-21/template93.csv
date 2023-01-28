@@ -1,0 +1,2 @@
+2,"SELECT bestObjID, count(*) FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& group by bestObjID order by count(*) desc"
+2019-03-21 20:14:00,2

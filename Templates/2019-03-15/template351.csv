@@ -1,0 +1,2 @@
+1,"SELECT count(*)  FROM SpecObj  WHERE class = &&&  AND zWarning = #  and z between # and #, z between # and #"
+2019-03-15 13:34:00,1

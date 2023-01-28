@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.type, s.specobjid, s.class, s.subClass, s.z as spec_redshift, s.zErr as spec_redshift_Err, s.zWarning as Spec_redshift_Warning, s.plate, s.mjd, s.fiberid, pz.z As Photo_Z, pz.zErr AS Photo_Err FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN Photoz as pz ON pz.objID = p.objid"
+2019-06-21 08:37:00,1

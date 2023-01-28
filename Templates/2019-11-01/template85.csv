@@ -1,0 +1,11 @@
+64,"SELECT s.ra, s.dec, s.plate, s.mjd, s.fiberid, s.z, s.zerr, s.class FROM SpecObj as s WHERE s.specObjID = dbo.fGetNearestSpecObjIdEq(#,#,#) AND s.zWarning = # AND s.class = &&&"
+2019-11-01 20:48:00,2
+2019-11-01 20:49:00,11
+2019-11-01 20:50:00,7
+2019-11-01 20:51:00,3
+2019-11-01 20:57:00,2
+2019-11-01 20:58:00,6
+2019-11-01 21:01:00,7
+2019-11-01 21:04:00,10
+2019-11-01 21:05:00,10
+2019-11-01 21:06:00,6

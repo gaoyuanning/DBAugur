@@ -1,0 +1,2 @@
+1,"SELECT top #  z - (SELECT MIN(z)   FROM SpecObj   WHERE class = &&& AND zWarning = # and survey = &&&)  as Bottom,  z - (SELECT MIN(z)   FROM SpecObj   WHERE class = &&& AND zWarning = # and survey = &&&)  +  ((SELECT MAX(z) *#  FROM SpecObj   WHERE class = &&& AND zWarning = # and survey = &&&)  -   (SELECT MIN(z)   FROM SpecObj   WHERE class = &&& AND zWarning = # and survey = &&&)  ) / # as Top From SpecObj"
+2019-03-15 12:46:00,1

@@ -1,0 +1,8 @@
+10,"SELECT ra,dec,u,Err_u,g,Err_g,r,Err_r,i,Err_i,z,Err_z FROM PhotoObj WHERE ra BETWEEN # AND # AND dec BETWEEN # and # AND g<# AND Err_g<#"
+2019-05-06 10:26:00,1
+2019-05-06 13:02:00,1
+2019-05-06 13:12:00,4
+2019-05-06 14:48:00,1
+2019-05-06 14:49:00,1
+2019-05-06 15:23:00,1
+2019-05-06 15:55:00,1

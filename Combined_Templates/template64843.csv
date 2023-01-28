@@ -1,0 +1,2 @@
+1,"select count (*) into mydb.MyTable_# from galaxy p, specobj s, dbo.fgetNearByObjEq (#, #, #) n where p.objid = s.bestobjid and p.objid = n.objid and s.bestobjid = n.objid and s.z BETWEEN # AND #"
+2019-09-24 18:21:00,1

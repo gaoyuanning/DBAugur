@@ -1,0 +1,2 @@
+1,"SELECT    sp.specObjID, sp.ra, sp.dec, sp.pmRa, sp.pmDec,   sp.psfMag_i - sp.extinction_i as imag, sp.psfMagErr_i as ierr        FROM dr7.SpecDR7 AS sp  WHERE    sp.type = #                 INTO mydb.For_Ref_Star"
+2019-08-13 00:42:00,1

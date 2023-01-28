@@ -1,0 +1,2 @@
+1,"SELECT a.id, a.objid as objid1, b.neighborobjid as objid2 into mydb.MyTable_# from MyDB.MyObjs a   JOIN (SELECT TOP # * FROM Neighbors n WHERE n.objid=a.objid ORDER BY distance) b ON b.objid=a.objid"
+2019-03-29 12:07:00,1

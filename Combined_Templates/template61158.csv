@@ -1,0 +1,2 @@
+1,"SELECT p.objID, s.subClass, p.ra, p.dec, s.run1d, p.modelMag_g, p.modelMag_r FROM PhotoObjAll as p, SpecObjAll as s WHERE and p.objID = s.bestObjID and s.class = #;"
+2019-09-05 14:22:00,1

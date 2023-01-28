@@ -1,0 +1,5 @@
+21,"SELECT ALL  p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.type,   p.deVRad_u, p.deVRad_g, p.deVRad_r, p.deVRad_i, p.deVRad_z,   p.deVMag_u, p.deVMag_g, p.deVMag_r, p.deVMag_i, p.deVMag_z,   p.deVMagErr_u, p.deVMagErr_g, p.deVMagErr_r, p.deVMagErr_i,   p.deVMagErr_z,   p.expRad_u, p.expRad_g, p.expRad_r, p.expRad_i, p.expRad_z,   p.expMag_u, p.expMag_g, p.expMag_r, p.expMag_i, p.expMag_z,   p.expMagErr_u, p.expMagErr_g, p.expMagErr_r, p.expMagErr_i,  p.expMagErr_z  FROM PhotoObj AS p  WHERE  p.ra BETWEEN # AND #  AND p.dec BETWEEN # AND #  AND p.type = #  ORDER by p.r"
+2019-11-14 10:01:00,1
+2019-11-14 10:19:00,5
+2019-11-14 10:20:00,12
+2019-11-14 10:21:00,3

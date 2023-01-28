@@ -1,0 +1,2 @@
+1,"SELECT TOP # G.objID, GN.distance, G.z, G.ra, G.decFROM Galaxy as G JOIN dbo.fGetNearbyObjEq (#, #, #) AS GN ON G.objID = GN.objID WHERE z > #"
+2019-09-16 22:00:00,1

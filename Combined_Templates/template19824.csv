@@ -1,0 +1,2 @@
+1,"SELECT RA, DEC, f_#RXS, errf_#RXS, fden_#RXS, errfden_#RXS, f_XMMSL, errf_XMMSL, DR1#_PLUG_RA, DR1#_PLUG_DEC, redshift, CLASS_BEST, CONF_BEST, l_#, errl_#, logBHMS_mgII, errlogBHMS_mgII, logBHMVP_hb, errlogBHMVP_hb, logBHMMD_hb, errlogBHMMD_hb, logBHMA_hb, errlogBHMA_hb into mydb.quasartable FROM DR1#.spiders_quasar WHERE redshift BETWEEN # and #"
+2019-03-12 05:23:00,1

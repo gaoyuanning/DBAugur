@@ -1,0 +1,2 @@
+1,"select dr1#.objID, dr1#.ra, dr1#.dec, dr1#.psfMag_r, dr1#.petroMag_r, dr1#.fiberMag_r, dr1#.fiberMag_g, dr1#.fiber2Mag_r, dr1#.fiber2Mag_g, dr1#.petroRad_r, dr1#.petroR5#_r, dr1#.petroR9#_r, cModelMag_r into mydb.A2#_more from PhotoObjAll JOIN mydb.A2#_extended as my on my.objID = dr1#.objID"
+2019-06-05 13:20:00,1

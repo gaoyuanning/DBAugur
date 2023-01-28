@@ -1,0 +1,4 @@
+3,"SELECT objID, ra, dec, g, r FROM Star WHERE  (ra between # and #) AND (dec between # and #) AND (ABS(g-r) < #) AND (g > #) and (g < #)"
+2019-02-12 09:40:00,1
+2019-02-12 09:43:00,1
+2019-02-12 09:44:00,1

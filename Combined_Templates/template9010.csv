@@ -1,0 +1,2 @@
+2,"SELECT n FROM dbo.fCosmoComovDist2ObjectsRADEC (#, #, #, #, #, #, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT) as n INTO MyDB.NearbyObjEq5"
+2019-02-08 16:22:00,2

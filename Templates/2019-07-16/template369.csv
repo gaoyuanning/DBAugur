@@ -1,0 +1,2 @@
+1,"SELECT P.ra, P.dec, P.modelMag_g, P.modelMag_i, P.extinction_g, P.extinction_i into mydb.proj2 from PhotoObjAll as P"
+2019-07-16 09:43:00,1

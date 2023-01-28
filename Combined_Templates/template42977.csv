@@ -1,0 +1,2 @@
+1,"SELECT s.SpecObjID, s.z, L.ew, K.ew FROM SpecObj as s RIGHT JOIN SpecLineAll as L ON s.SpecObjID = L.specObjID WHERE (L.LineID = #) and L.ew/#if (L.ewErr, #) > # RIGHT JOIN SpecLineAll as K ON s.SpecObjID = K.specObjID WHERE (K.LineID = #) and K.ew/#if (K.ewErr, #) > #"
+2019-05-30 06:17:00,1

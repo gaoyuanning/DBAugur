@@ -1,0 +1,4 @@
+3,"SELECT EID,[Illnesses_of_adopted_father_#],[Illnesses_of_adopted_mother_#],[Illnesses_of_adopted_siblings_#],[Illnesses_of_father_#],[Illnesses_of_mother_#],[Illnesses_of_siblings_#],[Father_still_alive_#],[Adopted_father_still_alive_#],[Father_s_age_#],[Father_s_age_at_death_#],[Mother_still_alive_#],[Adopted_mother_still_alive_#],[Mother_s_age_#],[Mother_s_age_at_death_#],[Number_of_full_brothers_#],[Number_of_adopted_brothers_#],[Number_of_full_sisters_#],[Number_of_adopted_sisters_#],[Number_of_older_siblings_#],[Non_accidental_death_in_close_genetic_family_#] FROM Family_history GO"
+2019-04-23 09:44:00,1
+2019-04-23 10:47:00,1
+2019-04-23 10:51:00,1

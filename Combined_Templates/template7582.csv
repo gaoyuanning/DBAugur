@@ -1,0 +1,10 @@
+10,"SELECT U.up_id, S.* FROM #upLoad U CROSS APPLY (SELECT SpecObjid from dbo.fGetNearbySpecObjEq (U.up_ra , U.up_dec , U.up_sep) ) S SELECT TOP # s.ra, s.dec, s.plate, s.mjd, s.fiberid FROM ..SpecObj as s JOIN #x AS x ON x.SpecobjID = s.SpecobjID JOIN #upload AS u ON u.up_id = x.up_id WHERE s.zWarning = # AND (s.class = #) ORDER BY x.up_id"
+2019-02-01 11:25:00,1
+2019-02-01 11:26:00,1
+2019-09-09 07:38:00,1
+2019-09-09 07:39:00,1
+2019-09-12 19:10:00,1
+2019-09-12 19:11:00,2
+2019-09-12 19:15:00,1
+2019-09-18 03:45:00,1
+2019-09-18 03:51:00,1

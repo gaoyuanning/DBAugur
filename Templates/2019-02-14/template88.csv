@@ -1,0 +1,4 @@
+3,"SELECT TOP # plateifu,   mangaid, objra, objdec, mngtarg1, drp3qual  FROM mangadrpall  WHERE  ((mngtarg1 != # or mngtarg3 != #)  and (drp3qual < #)  and (ifudesignsize = #)  and (nsa_z > #)  and (nsa_elpetro_mass >#e1#))"
+2019-02-14 12:53:00,1
+2019-02-14 15:30:00,1
+2019-02-14 21:38:00,1

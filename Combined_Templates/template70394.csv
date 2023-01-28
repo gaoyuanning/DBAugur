@@ -1,0 +1,3 @@
+3,"SELECT TOP # s.specObjID, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.objid, s.ra, s.dec, s.mag_#, s.mag_#, s.mag_#, s.specClass, s.z, s.plate, s.mjd, f.mjd_r, s.fiberid, s.objTypeName, s.objType FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN Field AS f ON f.fieldid = p.fieldid WHERE p.u BETWEEN # AND # AND g BETWEEN # AND # AND s.specClass = QSO"
+2019-10-18 02:30:00,2
+2019-10-18 02:32:00,1

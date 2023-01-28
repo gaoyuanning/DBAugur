@@ -1,0 +1,2 @@
+1,"select top # objid, ra, dec, cmodelmag_g, devrad_g, exprad_g from photobjall where cmodelmag_g + # + #*log1# (#*devrad_g*devrad_g) > #"
+2019-03-01 18:59:00,1

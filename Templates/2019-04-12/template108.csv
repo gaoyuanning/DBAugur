@@ -1,0 +1,2 @@
+1,"SELECT    o.objid, o.ra,o.dec,p.petrorad_r        into mydb.exclu_petrorad FROM MyDB.MyTable AS m    CROSS APPLY dbo.fGetNearestObjEq( m.ra, m.dec, #) AS n    JOIN PhotoObjall AS o ON n.objid=o.objid"
+2019-04-12 18:22:00,1

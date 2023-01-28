@@ -1,0 +1,2 @@
+2,"SELECT g.objid, g.ra, g.dec, g.insidemask, g.rerun, g.run, g.camcol, g.probpsf, g.psfmag_r, g.psfmagerr_r, g.cmodelMag_r, g.cmodelmagerr_r, p.z, p.zerr into mydb.MyTable from GalaxyTag as g JOIN Photoz on g.ObjId = p.ObjID WHERE g.ra between # and # AND g.dec between # and # AND g.type = # AND g.cmodelmag_r < #"
+2019-11-20 03:33:00,2

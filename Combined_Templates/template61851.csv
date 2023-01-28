@@ -1,0 +1,22 @@
+22,"select p.*, s.z as zspec, s.zErr as zspec_err, s.zWarning, s.class, s.subclass, s.primTarget, s.spectroFlux_u, s.spectroFlux_g, s.spectroFlux_r, s.spectroFlux_i, s.spectroFlux_z, s.spectroFluxIvar_u, s.spectroFluxIvar_g, s.spectroFluxIvar_r, s.spectroFluxIvar_i, s.spectroFluxIvar_z, s.snMedian_u, s.snMedian_g, s.snMedian_r, s.snMedian_i, s.snMedian_z from Galaxy as p, SpecObj as s where p.mode = # AND s.zWarning = # AND p.specObjId = s.specObjId AND p.dec > # AND p.dec < # AND p.clean = #"
+2019-09-09 10:23:00,1
+2019-09-09 12:26:00,1
+2019-09-09 13:19:00,2
+2019-10-21 09:48:00,1
+2019-10-21 09:59:00,1
+2019-10-21 10:13:00,1
+2019-10-21 10:15:00,1
+2019-10-21 10:18:00,1
+2019-10-21 10:20:00,1
+2019-11-07 18:03:00,1
+2019-11-07 18:22:00,1
+2019-11-07 18:23:00,1
+2019-11-07 18:31:00,1
+2019-11-07 18:32:00,1
+2019-11-11 13:12:00,1
+2019-11-11 13:13:00,1
+2019-11-11 13:14:00,1
+2019-11-11 13:27:00,1
+2019-11-11 14:04:00,1
+2019-11-15 12:48:00,1
+2019-11-15 12:55:00,1

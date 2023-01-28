@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, z FROM SpecPhotoAll WHERE class=&&& AND petroMag_r > # AND petroMag_r < #"
+2019-04-15 03:37:00,1

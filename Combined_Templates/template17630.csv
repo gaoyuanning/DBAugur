@@ -1,0 +1,2 @@
+1,"SELECT count (*) --p.ra, p.dec, pm.pmRa, pm.pmRaErr, pm.pmDec, pm.pmDecErr FROM PhotoObj as p JOIN SpecObj as s ON s.bestObjID = p.objID JOIN ProperMotions as pm ON pm.objid = p.objID where p.dec > # and p.dec< # and (p.ra> # or p.ra< #)"
+2019-03-05 05:55:00,1

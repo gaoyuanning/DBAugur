@@ -1,0 +1,2 @@
+1,"CREATE TABLE [tmpTRACTS](         [VINTAGE] [int] NOT NULL,         [STATE] [char](#) NOT NULL,         [COUNTY] [char](#) NOT NULL,         [TRACT] [char](#) NOT NULL,         [GEOM] [varchar](max) NULL,         [CENTROID] [varchar](#) NULL     )"
+2019-10-22 13:43:00,1

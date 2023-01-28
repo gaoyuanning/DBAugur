@@ -1,0 +1,4 @@
+3,"SELECT TOP # plateifu,   mangaid, objra, objdec, mngtarg1, drp3qual  FROM mangadrpall  WHERE  (((mngtarg1 & (power(#,#)+power(#,#))) != #)   and ((drp3qual & power(#,#)) = #))"
+2019-09-08 09:37:00,1
+2019-09-08 12:30:00,1
+2019-09-08 18:15:00,1

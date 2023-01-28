@@ -1,0 +1,2 @@
+1,"select logmass_max,errl_# from spiders_quasar and stellarMassFSPSGranEarlyDust where logmass_max BETWEEN # and # AND errl_# BETWEEN # and #"
+2019-06-26 11:43:00,1

@@ -1,0 +1,3 @@
+2,"select top # x, y, c = sin (y+x) from data where y < # -- negative and cos (x) - y^y < # order by RUNID asc, x desc*/ select count (ID) from data"
+2019-04-24 12:42:00,1
+2019-04-24 12:54:00,1

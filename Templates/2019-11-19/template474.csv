@@ -1,0 +1,2 @@
+1,"SELECT z.p_cs_debiased, z.p_el_debiased, z.spiral, z.elliptical, z.uncertain FROM zooSpec AS  INTO mydb.table1#"
+2019-11-19 05:53:00,1

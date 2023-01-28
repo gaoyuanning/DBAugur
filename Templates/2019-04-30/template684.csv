@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, ra, dec, z, u-r, r-z   FROM Galaxy  WHERE    (u-r < #			-- r IS NOT deredenned   and r-z < #     and u-r > #+# (r-z)) -- extinction more than #"
+2019-04-30 04:14:00,1

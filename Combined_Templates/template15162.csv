@@ -1,0 +1,2 @@
+1,"SELECT top # objid, ra, dec, psfmag_r, z FROM SpecPhoto WHERE class = # AND ra< # And dec BETWEEN # AND #"
+2019-02-27 13:33:00,1

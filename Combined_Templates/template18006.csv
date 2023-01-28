@@ -1,0 +1,2 @@
+2,"select top # c.row_id, c.doShowInUserHistory, c.content from computemessages c"
+2019-03-06 10:33:00,2

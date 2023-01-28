@@ -1,0 +1,2 @@
+1,SELECT DISTINCT p.Photostatus FROM PhotoObjAll AS p WHERE ((p.ra between # and #) and (p.dec between # and #))
+2019-06-07 15:09:00,1

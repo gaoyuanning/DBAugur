@@ -1,0 +1,3 @@
+4,"SELECT     m.gaia, m.ra AS ra1, m.dec AS dec1,     n.objid, n.distance,     s.ra AS ra2, s.dec AS dec2  FROM MyDB.My_Table AS m     CROSS APPLY dbo.fGetNearestObjEq( m.ra, m.dec, #) AS n    JOIN SpecObjAll AS s ON n.objid=s.specObjID"
+2019-09-09 12:08:00,1
+2019-09-09 12:09:00,3

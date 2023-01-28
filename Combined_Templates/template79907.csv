@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec, petroRad_u, z FROM Galaxy WHERE ra BETWEEN # AND # AND dec BETWEEN # AND # AND petroRad_u > # AND z BETWEEN # AND #"
+2019-12-02 16:17:00,1

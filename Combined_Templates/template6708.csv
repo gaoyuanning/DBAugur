@@ -1,0 +1,2 @@
+1,select max (z) from dbo.specObjAll where
+2019-01-29 10:11:00,1

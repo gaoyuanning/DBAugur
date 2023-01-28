@@ -1,0 +1,2 @@
+1,"select name from sysobjects where xtype in (N&&&, N&&&, N&&&, N&&&, N&&&) order by name asc"
+2019-02-14 10:22:00,1

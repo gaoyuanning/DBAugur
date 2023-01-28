@@ -1,0 +1,2 @@
+1,"SELECT   p.objid, p.ra, p.dec ,p.u, p.err_u, p.g, p.err_g, p.r, p.err_r, p.i, p.err_i, p.z, p.err_z from PhotoPrimary as p into mydb.eboss_region     where        p.ra > # AND       p.ra < # AND       p.dec > # AND       p.dec < #"
+2019-02-03 16:08:00,1

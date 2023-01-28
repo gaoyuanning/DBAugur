@@ -1,0 +1,4 @@
+3,"SELECT TOP #  objid, ra, dec  FROM  PhotoObjAll WHERE   type=#  AND RA between # and #  AND Dec > #"
+2019-10-04 10:47:00,1
+2019-10-04 10:49:00,1
+2019-10-04 10:52:00,1

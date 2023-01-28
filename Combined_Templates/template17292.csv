@@ -1,0 +1,2 @@
+1,"SELECT TOP # P1.objID AS P1_ID, P1.ra AS first_ra, P1.dec AS first_dec, P2.objID AS second_ID, P2.ra AS second_ra, P2.dec AS second_dec FROM PhotoObj P1, WHERE type = #, Neighbors N, PhotoOjj P2 WHERE type = #, WHERE P1.objID = N. objID AND P2.objID = N.NeighborObjID AND N.Distance < .#"
+2019-03-05 21:53:00,1

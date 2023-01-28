@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.ra,p.dec,p.objID,p.skyVersion,p.run,p.rerun,p.camcol,p.field,p.obj,p.mode,p.flags, s.sourceType,s.targetType,s.class,s.subClass FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid"
+2019-06-22 18:42:00,1

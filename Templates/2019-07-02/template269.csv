@@ -1,0 +1,23 @@
+82,"SELECT p.objid, p.ra, p.dec, f.fieldid, p.field, p.InsideMask, p.u, p.err_u, p.g, p.err_g, p.r, p.err_r, p.i, p.err_i, p.z, p.err_z, p.type, f.quality, p.specObjID FROM PhotoPrimary AS p JOIN Field AS f ON f.fieldid = p.fieldid WHERE (clean = #) AND ((f.quality = #) OR (f.quality = #)) AND (p.type = dbo.fPhotoType(&&&) OR p.type = dbo.fPhotoType(&&&)) AND (p.ra BETWEEN # AND #) AND p.dec BETWEEN # AND # AND ((p.InsideMask = #) OR (p.InsideMask = #) OR (p.InsideMask = #)) AND (#/p.err_u > #) AND (#/p.err_g > #) AND (#/p.err_r > #) AND (#/p.err_i > #) AND (#/p.err_z > #)"
+2019-07-02 08:36:00,1
+2019-07-02 08:41:00,2
+2019-07-02 08:45:00,1
+2019-07-02 08:46:00,6
+2019-07-02 08:47:00,1
+2019-07-02 08:56:00,2
+2019-07-02 08:57:00,6
+2019-07-02 09:32:00,2
+2019-07-02 09:33:00,6
+2019-07-02 09:39:00,6
+2019-07-02 09:40:00,2
+2019-07-02 09:49:00,6
+2019-07-02 09:51:00,3
+2019-07-02 09:52:00,3
+2019-07-02 10:41:00,3
+2019-07-02 10:42:00,5
+2019-07-02 10:43:00,7
+2019-07-02 10:44:00,2
+2019-07-02 11:25:00,2
+2019-07-02 11:26:00,4
+2019-07-02 11:47:00,6
+2019-07-02 17:57:00,6

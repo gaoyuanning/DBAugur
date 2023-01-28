@@ -1,0 +1,3 @@
+2,"select top # galaxy.u, galaxy.g, galaxy.r, galaxy.i, specObj.z from galaxy, specObj where specObj.bestObjId=galaxy.objId AND specObj.class=&&& AND specObj.z > #"
+2019-03-03 21:01:00,1
+2019-03-03 21:11:00,1

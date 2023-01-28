@@ -1,0 +1,2 @@
+1,"SELECT TOP # ROW_NUMBER () OVER (ORDER BY s.specobjid DESC) AS RowNumber, s.plate, s.fiberid, s.mjd, s.ra, s.dec, s.z, s.zwarning, g.h_beta_flux, g.h_beta_flux_err, g.oiii_#_flux, g.oiii_#_flux_err, g.nii_#_flux, g.nii_#_flux_err, g.h_alpha_flux, g.h_alpha_flux_err FROM GalSpecLine AS g JOIN SpecObj AS s ON s.specobjid = g.specobjid ADD ROW_NUMBER () OVER (ORDER BY s.specobjid DESC) AS RowNumber WHERE s.class = # AND s.zwarning = # AND plate = #"
+2019-01-18 11:03:00,1

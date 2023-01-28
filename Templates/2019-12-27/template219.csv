@@ -1,0 +1,2 @@
+1,"select * --from specObj --  where dec > # and dec < # and ra > # and ra < # select dbo.fIAUFromEq(#, #)"
+2019-12-27 09:38:00,1

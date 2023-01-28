@@ -1,0 +1,10 @@
+10,"SELECT TOP #  s.plate,s.mjd,s.fiberid,cast(str(p.ra,#,#) as float) as ra,cast(str(p.[dec],#,#) as float) as dec  FROM ..SpecObj as s  JOIN ..PhotoObj AS p ON s.bestObjID = p.objID  WHERE s.z > # AND s.zWarning = # AND (s.class = &&&) AND s.z < # AND ( p.type = # OR p.type = #)"
+2019-11-02 00:52:00,1
+2019-11-02 00:57:00,1
+2019-11-02 01:06:00,1
+2019-11-02 01:07:00,1
+2019-11-02 01:08:00,2
+2019-11-02 01:09:00,1
+2019-11-02 01:28:00,1
+2019-11-02 01:49:00,1
+2019-11-02 01:52:00,1

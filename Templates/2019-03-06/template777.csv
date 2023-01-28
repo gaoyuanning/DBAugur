@@ -1,0 +1,2 @@
+1,"SELECT top # g.h_alpha_flux, g.h_alpha_flux_err, f.u, f.g, f.r, f.i, f.z FROM GalSpecLine AS g JOIN PhotoObj AS f ON f.bestObjID = g.specobjid WHERE h_alpha_flux > h_alpha_flux_err*# AND  h_alpha_flux_err > #"
+2019-03-06 01:35:00,1

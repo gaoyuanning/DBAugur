@@ -1,0 +1,2 @@
+1,"select photoobj.u, photoobj.g, photoobj.r, photoobj.i, photoobj.z, specobj.z, specobj.ra, specobj.dec, from photoobj, specobj where photoobj.objid = specobj.objid and specclass = # and specobj.z> #"
+2019-06-19 17:03:00,1

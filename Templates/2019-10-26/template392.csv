@@ -1,0 +1,3 @@
+2,"SELECT m.id, m.ra AS ra, m.dec AS dec, m.z AS z, m.weight_fkp, m.weight_noz, m.weight_cp, m.weight_star, m.weight_seeing, cModelMag_i-extinction_i AS cdered_i, modelMagErr_u, dered_u, modelMagErr_g, dered_g, modelMagErr_r, dered_r, modelMagErr_i, dered_i, modelMagErr_z, dered_z INTO MyDB.BOSS_DR1#_CMASSLOWZTOT_North_final FROM MyDB.BOSS_DR1#_CMASSLOWZTOT_North_clust AS m   CROSS APPLY dbo.fGetNearestObjEq(m.ra, m.dec, #) AS n JOIN PhotoObjAll AS o ON n.objid=o.objid ORDER BY id"
+2019-10-26 00:33:00,1
+2019-10-26 01:33:00,1

@@ -1,0 +1,2 @@
+1,SELECT MAX (TrackId) FROM chinook.Track GROUP BY AlbumId UNION SELECT * FROM chinook.Artist
+2019-04-22 19:59:00,1

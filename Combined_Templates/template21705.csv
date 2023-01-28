@@ -1,0 +1,2 @@
+1,"SELECT TOP1# Bestobjid, z FROM Specobj WHERE CLASS = # AND survey = # AND zwarning = # AND z> #"
+2019-03-20 21:16:00,1

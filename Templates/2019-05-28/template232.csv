@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid, p.ra, p.dec, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z  s.specObjID, s.lgm_fib_p9#p5 FROM SpecPhoto AS p  JOIN galSpecExtra AS s ON s.specObjId = p.specObjId WHERE   p.u BETWEEN # AND #  AND g BETWEEN # AND #"
+2019-05-28 16:04:00,1

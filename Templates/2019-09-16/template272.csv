@@ -1,0 +1,2 @@
+1,"select a.encoding_id, b.meaning from dbo.Eyesight      a Inner join metadata.encoding b      on a.encoding_id=b.encoding_id      where a.encoding_id=#"
+2019-09-16 12:34:00,1

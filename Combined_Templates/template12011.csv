@@ -1,0 +1,5 @@
+4,"select ra, dec, dered_u into mydb.A6# from photoprimary where type = # AND err_r > # and err_z > # and ra > = # and ra< # and dec > =# and dec< =# and ( (flags_u & #) ! = #) and ( (flags_u & #) = #) and ( (flags_u & #) = #) AND ( ((flags_u & #) = #) or (flags_u & #) = #)"
+2019-02-18 12:16:00,1
+2019-02-18 12:19:00,1
+2019-02-18 12:28:00,1
+2019-02-20 01:40:00,1

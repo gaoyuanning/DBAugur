@@ -1,0 +1,2 @@
+1,"SELECT DISTINCT chinook.Genre.Name, chinook.MediaType.Name AS Genre, MediaType FROM chinook.Track, chinook.Genre, chinook.MediaType WHERE chinook.Track.MediaTypeId = chinook.MediaType.MediaTypeId AND chinook.Track.GenreId = chinook.Genre.GenreId"
+2019-04-23 15:37:00,1

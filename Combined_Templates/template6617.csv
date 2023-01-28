@@ -1,0 +1,4 @@
+3,"select fieldID, ra, dec, Run.strip, Run.run, Run.rerun, field, camcol, raMin, raMax, decMin, decMax from Field inner join dbo.Run on Run.run = Field.run where Run.stripe = # and ra between # and #"
+2019-01-28 06:25:00,1
+2019-01-28 08:49:00,1
+2019-01-29 05:23:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid,p.ra,p.dec WHERE   p.u BETWEEN # AND #  AND g BETWEEN # AND #"
+2019-10-21 13:07:00,1

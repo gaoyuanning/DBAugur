@@ -1,0 +1,3 @@
+2,"SELECT g.ObjId, g.ra, g.dec, g.field, g.type, g.clean, g.probPSF, g.insideMask, g.flags, g.psfMag_r, g.psfMagErr_r, g.cmodelMag_r, g.cmodelMagErr_r, g.PSFfwhm_r, p.z, p.zErr, s.z as specz, s.zErr as speczerr, s.class into mydb.MyTable from GalaxyTag as g join Photoz as p on p.Objid = g.ObjId join SpecObj as s on s.targetObjID = g.ObjId where g.dec between # and # and g.ra between # and # and s.class = #"
+2019-07-09 09:40:00,1
+2019-07-09 09:42:00,1

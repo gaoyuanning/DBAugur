@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, u, b, err_u FROM GALAXY WHERE ra BETWEEN # AND # AND dec BETWEEN # AND #"
+2019-08-14 00:54:00,1

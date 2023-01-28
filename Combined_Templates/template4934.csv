@@ -1,0 +1,4 @@
+4,"SELECT TOP # gt.ra, gt.dec, pz.z, gt.objID, pz.objID from GalaxyTag as gt JOIN Photoz as pz ON pz.objID = gt.objID WHERE gt.ra BETWEEN # AND #"
+2019-01-21 23:43:00,1
+2019-01-21 23:44:00,2
+2019-01-21 23:45:00,1

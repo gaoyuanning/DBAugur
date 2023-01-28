@@ -1,0 +1,3 @@
+2,"select top # objid, ra, dec, r into mydb.MyTable from galaxy"
+2019-01-26 10:52:00,1
+2019-01-26 10:53:00,1

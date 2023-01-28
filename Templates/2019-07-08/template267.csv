@@ -1,0 +1,2 @@
+1,"select specObjID,z,dec,ra from SpecObj where z># and z<=# and class=GALAXY and ra># and ra<=# and dec># and dec<=#"
+2019-07-08 15:57:00,1

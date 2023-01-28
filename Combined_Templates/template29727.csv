@@ -1,0 +1,4 @@
+3,"SELECT ra, dec, z into mydb.QSO_#_# from dr1#.SpecObj WHERE class = # AND ra between # and # AND dec between # and #"
+2019-04-12 00:11:00,1
+2019-04-12 00:12:00,1
+2019-04-12 00:21:00,1

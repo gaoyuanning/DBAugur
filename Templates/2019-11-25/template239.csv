@@ -1,0 +1,7 @@
+6,"SELECT all p.ra,p.dec,p.type,p.CmodelMag_g,p.CmodelMag_r FROM PhotoObj AS p WHERE   p.ra BETWEEN # AND #  AND p.dec BETWEEN # AND #  AND p.type = #"
+2019-11-25 07:52:00,1
+2019-11-25 07:55:00,1
+2019-11-25 11:43:00,1
+2019-11-25 11:47:00,1
+2019-11-25 13:40:00,1
+2019-11-25 13:49:00,1

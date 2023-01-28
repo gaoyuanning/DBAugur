@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.dered_u, p.dered_r, s.z FROM PhotoObj AS p SpecObj AS s JOIN SpecObj AS s ON s.SpecObjid = p.SpecObjid WHERE class = # and s.z > # and s.z < # and s.zWarning = #"
+2019-05-07 13:59:00,1

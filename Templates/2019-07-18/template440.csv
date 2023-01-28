@@ -1,0 +1,3 @@
+3,"SELECT TOP #    p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,    ISNULL(s.specobjid,#) AS specobjid, ISNULL(s.z, #) AS zs ,ISNULL(s.class, #) AS class FROM PhotoObj AS p    LEFT OUTER JOIN SpecObj AS s ON s.bestobjid = p.objid"
+2019-07-18 08:13:00,2
+2019-07-18 08:14:00,1

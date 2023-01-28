@@ -1,0 +1,2 @@
+1,"SELECT TOP #   run,            camCol,            rerun,            field,            objID,    thingId,   type,   ra, dec,   raErr,decErr,   psfMag_u,psfMag_g,psfMag_r,psfMag_i,psfMag_z,   psfMagErr_u,psfMagErr_g,psfMagErr_r,psfMagErr_i,psfMagErr_z,   u, g, r, i, z,   err_u,err_g,err_r,err_i,err_z into mydb.MyTable1 from Star   WHERE   and ( i < # )    and ( psfMag_r > # )   and (dec between # and #)"
+2019-10-03 04:00:00,1

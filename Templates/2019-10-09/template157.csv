@@ -1,0 +1,2 @@
+2,"select target_ra , target_dec from mydb.target_kGiants select objID, ra, dec into mydb.giantIDs from PhotoObjAll where ra = target_ra and dec = target_dec"
+2019-10-09 17:49:00,2

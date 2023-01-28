@@ -1,0 +1,2 @@
+1,select count(*) from star p where (p.g BETWEEN # AND #)
+2019-07-11 02:03:00,1

@@ -1,0 +1,2 @@
+1,"select mt.specObjID, ge.bptclass, gi.subclass into mydb.specO_AGN from MyDB.specO_mBCG mt, galSpecExtra ge, galSpecInfo gi where mt.specObjID = ge.specObjID and mt.specObjID = gi.specObjID"
+2019-09-02 11:49:00,1

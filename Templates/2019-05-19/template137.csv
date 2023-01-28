@@ -1,0 +1,6 @@
+6,"SELECT TOP #  p.objid,p.ra,p.dec, s.specobjid, s.class, s.subclass, s.z as redshift,  s.plate, s.mjd, s.fiberid, s.snMedian, s.zWarning FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   s.snMedian > #  AND s.class = &&&   AND (subclass LIKE &&& OR subclass LIKE &&&)   AND s.zWarning = #"
+2019-05-19 17:14:00,2
+2019-05-19 17:15:00,1
+2019-05-19 17:17:00,1
+2019-05-19 17:18:00,1
+2019-05-19 17:19:00,1

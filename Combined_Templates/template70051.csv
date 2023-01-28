@@ -1,0 +1,2 @@
+2,"select ra, dec, specsfr_tot_p5# from galSpecExtra where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-10-16 21:46:00,2

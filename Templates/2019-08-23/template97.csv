@@ -1,0 +1,4 @@
+3,"SELECT TOP #   modelMag_u, modelMag_g, objID   FROM Galaxy   WHERE   ( Flags & (dbo.fPhotoFlags(&&&) +   dbo.fPhotoFlags(&&&) +   dbo.fPhotoFlags(&&&)) ) = #   and petroRad_r < #   and ((modelMag_u - modelMag_g) - (psfMag_u - psfMag_g)) < #"
+2019-08-23 13:38:00,1
+2019-08-23 14:30:00,1
+2019-08-23 20:31:00,1

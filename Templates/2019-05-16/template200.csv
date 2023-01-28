@@ -1,0 +1,2 @@
+1,"SELECT nsaid, ra, dec, z, elpetro_absmag_g as g, elpetro_absmag_r as r, elpetro_th5#_g as g_radius, elpetro_th5#_r as r_radius, elpetro_mets as Metallicity, elpetro_mass as Mass, (#*z/#) as Dist, (elpetro_absmag_g+.#*(elpetro_absmag_g-elpetro_absmag_r)) as AbsMag, (elpetro_absmag_g+.#*(elpetro_absmag_g-elpetro_absmag_r) # +#*log(#*#*z/#,#)) as AppMag FROM nsatlas WHERE (#*#*z/#) >#"
+2019-05-16 15:12:00,1

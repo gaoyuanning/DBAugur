@@ -1,0 +1,2 @@
+1,"SELECT TOP # dr.ra, dr.dec FROM PhotoObjAll AS dr WHERE dr.probPSF = #;"
+2019-04-16 20:10:00,1

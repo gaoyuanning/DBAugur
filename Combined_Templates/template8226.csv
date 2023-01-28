@@ -1,0 +1,2 @@
+1,"SELECT TOP # P.ObjID, G.objID, G.ra, G.dec, S.ra, S.dec, G.u, G.g, G.r, G.i, G.z, G.type, P.zErr, P.z, P.absMagR FROM Galaxy as G left outer join Photoz as P on G.objID = P.ObjID JOIN dbo.fGetNearbyObjEq (#, #, #) n ON n.objID = G.objID"
+2019-02-05 19:15:00,1

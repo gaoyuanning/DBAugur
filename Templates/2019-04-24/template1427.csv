@@ -1,0 +1,2 @@
+1,"SELECT MediaTypeID, COUNT(GenreID) FROM chinook.Track GROUP BY GenreID"
+2019-04-24 05:01:00,1

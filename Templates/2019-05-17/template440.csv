@@ -1,0 +1,2 @@
+1,"select t.genreid, g.genreid  from chinook.track t    left join chinook.genre g      on g.genreid = t.genreid"
+2019-05-17 08:58:00,1

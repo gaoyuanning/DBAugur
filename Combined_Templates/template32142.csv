@@ -1,0 +1,20 @@
+20,"select gp.stable_id as genetic_profile_id , gp.name as genetic_profile_name , gp.description as genetic_profile_description , cs.cancer_study_id , gp.genetic_alteration_type , gp.show_profile_in_analysis_tab from cancer_study cs join genetic_profile gp on gp.cancer_study_id = cs.cancer_study_id where cs.cancer_study_identifier = #"
+2019-04-20 12:03:00,1
+2019-04-20 12:07:00,2
+2019-04-20 12:10:00,1
+2019-04-20 12:16:00,1
+2019-04-21 09:48:00,1
+2019-04-21 13:29:00,1
+2019-05-06 12:09:00,1
+2019-05-06 12:11:00,1
+2019-05-06 15:09:00,1
+2019-05-07 18:07:00,1
+2019-05-07 18:17:00,1
+2019-05-07 18:29:00,1
+2019-05-07 18:37:00,1
+2019-05-07 19:01:00,1
+2019-05-07 19:05:00,1
+2019-05-29 14:17:00,1
+2019-11-06 11:29:00,1
+2019-11-11 11:39:00,1
+2019-11-11 11:51:00,1

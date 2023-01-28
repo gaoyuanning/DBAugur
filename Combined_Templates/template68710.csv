@@ -1,0 +1,2 @@
+1,"select plate as target_plate, mjd as target_mjd, fiberid as target_fiberid from mydb.kGiants as targets select objID, plate, mjd, fiberID, ra, dec into mydb.giantIDs from SpecPhotoAll as want join want on objID, plate = target_plate and mjd = target_mjd and fiberID = target_fiberid"
+2019-10-09 18:12:00,1

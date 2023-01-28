@@ -1,0 +1,11 @@
+13,"SELECT TOP # p.run, p.rerun, p.camCol, p.field, p.obj, IS# (s.plate, #) as plate, IS# (s.mjd, #) as mjd, IS# (s.fiberid, #) as fiberid FROM BESTDR7..PhotoObj AS p LEFT OUTER JOIN BESTDR7..SpecObj s ON p.objID = s.bestObjID JOIN dbo.fGetNearbyObjEq (#, #, #) AS b ON b.objID = p.objID WHERE (p.type = # OR p.type = #)"
+2019-02-05 08:50:00,1
+2019-02-05 09:07:00,1
+2019-02-09 20:09:00,1
+2019-02-14 19:12:00,1
+2019-02-14 19:13:00,2
+2019-02-14 19:14:00,2
+2019-03-09 08:57:00,1
+2019-08-20 08:22:00,2
+2019-08-20 08:23:00,1
+2019-11-23 15:08:00,1

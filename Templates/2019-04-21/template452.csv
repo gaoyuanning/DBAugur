@@ -1,0 +1,2 @@
+1,"select Album.Title, Album.AlbumId from chinook.Album inner join group by Album.Title, Album.AlbumId"
+2019-04-21 12:33:00,1

@@ -1,0 +1,4 @@
+3,"SELECT GN.distance, p.objid, pz.z as redshift, pz.zErr as redshift_error FROM PhotoObj as p JOIN dbo.fGetNearbyObjEq(#,#,#) AS GN ON GN.objID=p.objID JOIN Photoz AS pz ON pz.objID=p.objID ORDER BY distance"
+2019-09-21 03:21:00,1
+2019-09-21 03:43:00,1
+2019-09-21 03:50:00,1

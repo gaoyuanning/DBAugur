@@ -1,0 +1,4 @@
+4,"SELECT m.specobjid, m.bestObjID, s.z, s.zErr, s.zwarning, p.cModelMag_g, p.cModelMag_r, p.cModelMag_i, p.fracDeV_g, p.fracDeV_r, p.fracDeV_i, q.z, q.zErr, q.bestFitTemplateID, q.absMagG, q.absMagR, q.absMagI, i.d4#_n, i.d4#_n_err, g.h_beta_flux, g.h_beta_flux_err, g.oiii_#_flux, g.oiii_#_flux_err, g.oi_#_flux, g.oi_#_flux_err, g.h_alpha_flux, g.h_alpha_flux_err into mydb.A_SDSSTest from mydb.AGalList AS m JOIN SpecObjAll AS s ON s.specobjid = m.specobjid JOIN PhotoObjAll AS p ON p.objID = m.bestObjID JOIN Photoz AS q ON q.objID = m.bestObjID JOIN galSpecIndx AS i ON i.specobjid = m.specobjid JOIN galSpecLine AS g ON g.specobjid = m.specobjid where s.z < #"
+2019-01-15 00:03:00,2
+2019-01-15 00:23:00,1
+2019-01-15 00:49:00,1

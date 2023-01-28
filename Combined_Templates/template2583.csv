@@ -1,0 +1,2 @@
+3,"select SpecObjID, ra, dec, z, logMass, chi2, ssfr, metallicity from stellarMassFSPSGranWideNoDust where chi2 BETWEEN # and # AND z = # AND ssfr < > #"
+2019-01-14 19:26:00,3

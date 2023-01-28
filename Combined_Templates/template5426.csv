@@ -1,0 +1,2 @@
+1,"SELECT T.ra, T.dec, T.psfMag_u, T.psfMag_g, T.psfMag_r, T.psfMag_i, T.psfMag_z, T.psfMagErr_u, T.psfMagErr_g, T.psfMagErr_r, T.psfMagErr_i, T.psfMagErr_z FROM PhotoObjDR7 as T WHERE T.ra BETWEEN # AND # AND T.dec BETWEEN # AND #;"
+2019-01-23 12:02:00,1

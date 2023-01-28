@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objId,p.z,p.zErr, s.ra, s.dec FROM Photoz as p AND GalaxyTag as s    WHERE    p.z between # and #   and p.zErr BETWEEN # and #"
+2019-03-25 12:12:00,1

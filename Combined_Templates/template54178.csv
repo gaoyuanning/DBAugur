@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec, psfMag_g, psfMag_r, psfMag_i, z FROM Stars WHERE (ra between # and #) and (dec between # and #)"
+2019-07-28 13:40:00,1

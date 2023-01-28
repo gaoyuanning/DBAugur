@@ -1,0 +1,2 @@
+1,"SELECT TOP #  gz.specobjid, p.ra, p.dec, p.expRad_r, p.expAB_r,  gz.t0#_spiral_a0#_spiral_flag, gz.t1#_arms_number_a3#_#_flag,  gz.t0#_edgeon_a0#_yes_flag, p.expRad_r, p.expAB_r, p.clean FROM zoo2MainSpecz AS gz  JOIN PhotoObjAll AS p ON abs(p.ra-gz.ra)<# AND abs(p.dec-gz.dec)<# WHERE  p.type = #  AND gz.t0#_spiral_a0#_spiral_flag = #  AND gz.t1#_arms_number_a3#_#_flag = #  AND p.expRad_r>#"
+2019-07-26 09:16:00,1

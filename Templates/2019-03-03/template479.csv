@@ -1,0 +1,2 @@
+1,"select name,station,location.ToString() as location from weatherstation where location is not null"
+2019-03-03 12:32:00,1

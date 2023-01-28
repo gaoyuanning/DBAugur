@@ -1,0 +1,2 @@
+1,"SELECT Composer, AlbumId, SUM(UnitPrice)   FROM Chinook.Track   ORDER BY AlbumId"
+2019-04-23 00:41:00,1

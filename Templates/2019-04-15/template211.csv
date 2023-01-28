@@ -1,0 +1,2 @@
+2,"SELECT TOP # nsa_nsaid, catalog_ra, catalog_dec, nsa_z, nsa_zdist FROM mangatarget WHERE  nsa_nsaid = #"
+2019-04-15 17:43:00,2

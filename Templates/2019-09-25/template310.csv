@@ -1,0 +1,2 @@
+2,"SELECT - FROM - WHERE query.  SELECT objID,	-- Get the unique object ID, field, ra, dec -- the field number, and coordinates FROM PhotoObj	-- From the photometric data WHERE run=# and field = #	-- that matches our criteria"
+2019-09-25 13:40:00,2

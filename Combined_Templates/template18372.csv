@@ -1,0 +1,2 @@
+1,"SELECT top # specObjId, z, bestObjId, cast (z - (SELECT MIN (z) FROM SpecObj WHERE class = # AND zWarning = # and survey = #) ) / ( ((SELECT MAX (z) FROM SpecObj WHERE class = # AND zWarning = # and survey = #) - (SELECT MIN (z) FROM SpecObj WHERE class = # AND zWarning = # and survey = #) ) / # as int) as Bucket FROM SpecObj WHERE class = # AND zWarning = # and survey = #"
+2019-03-07 16:00:00,1

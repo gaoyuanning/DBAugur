@@ -1,0 +1,4 @@
+17,"select TOP # ra, dec from specObj where ra BETWEEN # and # AND dec BETWEEN # and # AND htmid*# & # < (# * #)"
+2019-09-04 02:16:00,4
+2019-09-04 02:17:00,10
+2019-09-04 02:18:00,3

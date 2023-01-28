@@ -1,0 +1,4 @@
+3,"SELECT ID, rent, wkt=COORDS.ToString()     , dist=# --COORDS.STDistance(@price_center_Portland)  FROM optw.tamass.ASSETS WHERE PropertyType = &&&"
+2019-12-01 04:29:00,1
+2019-12-01 07:15:00,1
+2019-12-01 07:32:00,1

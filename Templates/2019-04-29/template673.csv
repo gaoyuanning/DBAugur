@@ -1,0 +1,3 @@
+2,"CREATE TABLE AMIGA2#_ZOOSPEC_OUT(   ra_iso   float  not null,   dec_iso   float  not null,   objID     bigint not null,    ra       float  not null,   dec       float  not null,   spiral  int  not null,   elliptical  int  not null,   uncertain  int  not null       );"
+2019-04-29 03:29:00,1
+2019-04-29 03:58:00,1

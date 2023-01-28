@@ -1,0 +1,2 @@
+1,SELECT count(*) FROM SpecObj as s WHERE ra > # AND ra < #
+2019-09-09 12:58:00,1

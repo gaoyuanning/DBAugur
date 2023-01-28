@@ -1,0 +1,2 @@
+1,"SELECT   g.ra,  g.dec, g.z      into mydb.file_#stars_z FROM MyDB.MyTable_# AS m    CROSS APPLY dbo.fGetNearestObjEq(m.ra_#, m.dec_#, #) AS n    JOIN emissionlinesport AS g ON n.objid=g.objid"
+2019-12-16 12:10:00,1

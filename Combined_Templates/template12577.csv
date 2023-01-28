@@ -1,0 +1,3 @@
+2,"SELECT sp.apogee_id, sp.ra, sp.dec, sp.snr, sp.synthvhelio_avg, sp.synthverr, v.visit_id, v.vhelio, v.vrelerr FROM apogeeVisit as v JOIN apogeeStar as sp ON v.apogee_id = sp.apogee_id WHERE sp.apogee_id = #M1#-# into MyDB.ApogeeBulge_weirdstar"
+2019-02-20 11:48:00,1
+2019-02-20 11:49:00,1

@@ -1,0 +1,2 @@
+1,"SELECT s.specObjID into mydb.usuaal from SpecObj as s, PhotoObj as p WHERE (s.class_noqso = # AND s.bestObjID = p.objID)"
+2019-05-07 14:04:00,1

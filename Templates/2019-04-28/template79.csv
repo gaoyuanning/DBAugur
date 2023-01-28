@@ -1,0 +1,2 @@
+1,"select top # ra, dec, z, class, subclass, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z, fiberMag_u, fiberMag_g, fiberMag_r, fiberMag_i, fiberMag_z from specphoto where (z between # and #) and (modelMag_r < #)"
+2019-04-28 21:30:00,1

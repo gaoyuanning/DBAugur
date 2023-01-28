@@ -1,0 +1,2 @@
+2,"SELECT TOP # ra, dec, flags, specObjID FROM PhotoObj WHERE ( (flags & #) = #) AND ( (flags & #) = #)"
+2019-03-29 15:09:00,2

@@ -1,0 +1,2 @@
+2,"select g.objID, pz.photozd1, g.ra, g.dec, g.modelMag_i, g.petroMag_u, g.petroMag_g, g.petroMag_r, g.petroMag_i, g.petroMag_z, g.petroMagErr_u, g.petroMagErr_g, g.petroMagErr_r, g.petroMagErr_i, g.petroMagErr_z from Galaxy as g join Photoz2 as pz on pz.objid = g.objID where pz.photozd1 < # and g.ra between # and # and g.dec between # and #"
+2019-10-29 18:46:00,2

@@ -1,0 +1,3 @@
+3,"select top # p.objid, p.ra, p.dec,p.nuv_mag, p.nuv_magerr, p.fuv_mag, p.fuv_magerr as survey into mydb.MyTable_# from PhotoObjAll as p"
+2019-10-18 14:40:00,1
+2019-10-18 15:11:00,2

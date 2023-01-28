@@ -1,0 +1,2 @@
+2,"select p.run, p.rerun, p.camcol, p.field, p.obj, p.ra, p.dec, p.rowc, p.colc into mydb.test_check_mga from photoobjall as p, mydb.smga as s where ((abs (p.ra - s.ra) < #e-#) and (abs (p.dec - s.dec) < #e-#) ) group by s.id"
+2019-05-13 06:13:00,2

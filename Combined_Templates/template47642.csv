@@ -1,0 +1,2 @@
+1,"SELECT m.objid, c.identifier, m.objid, m.ra, m.dec, m.run, m.camcol, m.field, m.gain_g, m.gain_i, m.gain_r, m.gain_u, m.gain_z, m.kk_g, m.kk_i, m.kk_r, m.kk_u, m.kk_z, m.airmass_g, m.airmass_i, m.airmass_r, m.airmass_u, m.airmass_z, m.aa_g, m.aa_i, m.aa_r, m.aa_u, m.aa_z, m.seeing_g, m.seeing_i, m.seeing_r, m.seeing_u, m.seeing_z into MyDB.new_#_corr FROM MyDB.new_# AS m JOIN MyDB.new_#_id_coord as c ON c.ra = m.ra AND c.dec = m.dec"
+2019-06-23 13:12:00,1

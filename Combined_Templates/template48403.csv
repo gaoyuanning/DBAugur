@@ -1,0 +1,2 @@
+2,"select p.specObjID, p.bestObjID, p.z, m.petroMag_u, m.petroMagErr_u, m.petroMag_g, m.petroMagErr_g, m.petroMag_r, m.petroMagErr_r, m.petroMag_i, m.petroMagErr_i, m.petroMag_z, m.petroMagErr_z INTO MYDB.Galaxias_Pablo_mag FROM MYDB.Galaxias_Pablo_# as p JOIN PhotoObjAll as m ON p.bestObjID = m.objID"
+2019-06-26 06:57:00,2

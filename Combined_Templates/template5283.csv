@@ -1,0 +1,2 @@
+1,"SELECT specObjID, z FROM SpecObj WHERE class = # OR (Class = # AND subClass = #) OR (Class = # AND subClass = #) AND zWarning = # AND (z < #)"
+2019-01-22 22:59:00,1

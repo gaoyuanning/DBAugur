@@ -1,0 +1,2 @@
+1,"SELECT TOP # ph.modelMag_u as Mag_u, ph.modelMag_g as Mag_g, ph.modelMag_r as Mag_r, ph.modelMag_i as Mag_i, ph.modelMag_z as Mag_z, z as Redshift FROM SpecObj sp, plateX pl, photoObj ph WHERE class = qso"
+2019-12-10 00:29:00,1

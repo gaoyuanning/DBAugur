@@ -1,0 +1,2 @@
+1,"select p.objID, p.run, p.rerun, p.camcol, p.field, p.obj, p.rowc, p.rowcErr, p.colc, p.colcErr, p.extinction_r, p.ra, p.dec, p.petroR5#_r into mydb.NGC4# from PhotoObjAll as p.field as f where (p.objid = #)"
+2019-03-07 03:33:00,1

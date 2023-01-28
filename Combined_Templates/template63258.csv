@@ -1,0 +1,2 @@
+2,"select distinct pho.objID, pho.ra, pho.dec, pho.petroMag_r, pho.z into mydb.edgeon_exclude from SpecPhotoAll as pho where pho.petroMag_r< # and pho.petroMag_r> # and pho.dec< # and pho.z> # and pho.type = # order by pho.ra"
+2019-09-15 00:40:00,2

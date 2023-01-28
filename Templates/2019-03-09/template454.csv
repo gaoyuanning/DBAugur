@@ -1,0 +1,6 @@
+5,"SELECT TOP # s.z,p.objID FROM BESTDR7..SpecObj as s 	JOIN BESTDR7..PhotoObj AS p ON s.bestObjID = p.objID WHERE  s.z > # AND s.z < # AND ( p.type = # OR p.type = #)"
+2019-03-09 02:38:00,1
+2019-03-09 02:43:00,1
+2019-03-09 02:52:00,1
+2019-03-09 03:22:00,1
+2019-03-09 03:26:00,1

@@ -1,0 +1,2 @@
+1,"select top # SpecPhotoAll.ra,SpecPhotoAll.dec,SpecPhotoAll.subclass from SpecPhotoAll,Specobjall where SpecPhotoAll.specObjID = specobjAll.specObjID and"
+2019-12-28 07:59:00,1

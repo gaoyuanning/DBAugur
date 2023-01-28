@@ -1,0 +1,7 @@
+8,"SELECT TOP # specobjid, ra, dec, z, zerr, class, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z FROM SpecPhoto WHERE ra BETWEEN (#-#) *# AND (#+#) *# AND dec BETWEEN #-# AND #+# AND z BETWEEN # AND #"
+2019-06-29 15:40:00,1
+2019-06-29 15:45:00,1
+2019-06-29 16:36:00,1
+2019-06-29 16:50:00,2
+2019-06-29 16:55:00,2
+2019-06-29 17:13:00,1

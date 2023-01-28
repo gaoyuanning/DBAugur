@@ -1,0 +1,4 @@
+7,"SELECT TOP # objID, modelMag_r, b, modelMag_g FROM PhotoPrimary WHERE (l between # and #) and (b between # and #)"
+2019-03-07 14:45:00,1
+2019-03-07 14:46:00,2
+2019-03-07 14:48:00,4

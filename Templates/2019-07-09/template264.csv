@@ -1,0 +1,2 @@
+1,"select top # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z from photoobj p, specobj s where p.objid=s.bestobjid and (p.i BETWEEN # AND #)  and (s.class = &&&) and s.z BETWEEN # AND #"
+2019-07-09 14:12:00,1

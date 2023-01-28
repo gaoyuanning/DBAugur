@@ -1,0 +1,2 @@
+1,"select top # P.ra, P.dec s.bestobjid from PhotoObj AS P OIN SpecObj AS s ON s.bestobjid = P.objid"
+2019-06-20 08:12:00,1

@@ -1,0 +1,4 @@
+5,"SELECT PetroMag_g, PetroMagErr_g, PetroMag_r, PetroMagErr_r, PetroMag_i, PetroMagErr_i, PetroMag_z, PetroMagErr_z, class, z FROM SpecPhotoAll Where class = # and PetroMagErr_g < # and PetroMag_g between # and # and PetroMagErr_r < # and PetroMag_r between # and # and PetroMagErr_i < # and PetroMag_i between # and # and z> #"
+2019-09-20 13:09:00,1
+2019-09-20 13:10:00,3
+2019-09-20 13:11:00,1

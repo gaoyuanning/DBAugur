@@ -1,0 +1,2 @@
+5,"SELECT DISTINCT s.ra, s.dec, s.plate, s.z, s.zErr FROM PhotoObjAll AS p JOIN SpecObjAll s ON p.objID = s.bestObjID WHERE (s.plate=#)"
+2019-06-02 15:25:00,5

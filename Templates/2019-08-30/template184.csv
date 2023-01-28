@@ -1,0 +1,2 @@
+1,"SELECT   PZ.objID AS objID_gal,   GT.ra AS ra_gal,   GT.dec AS dec_gal,   PZ.z AS z_gal,   PZ.zErr AS zErr_gal   HS.RA_DEG_J2# AS ra_qso,   HS.DEC_DEG_J2# AS dec_qso,   HS.NVSS_RM AS RM_qso,   HS.NVSS_RM_ERR AS RMErr_qso,   HS.SELECTED_REDSHIFT AS z_qso,   HS.SELECTED_REDSHIFT_ERR AS zErr_qso INTO myDB.startfromquasar FROM myDB.Hammond_Short HS   JOIN DR1#.PhotoZ PZ ON dbo.fGetNearbyObjEq(HS.RA_DEG_J2#, HS.DEC_DEG_J2#, #) = PZ.objID   JOIN DR1#.GalaxyTag GT ON PZ.objID = GT.objID WHERE PZ.z != # and PZ.zErr != # and PZ.z >= #"
+2019-08-30 13:46:00,1

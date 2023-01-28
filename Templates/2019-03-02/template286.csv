@@ -1,0 +1,2 @@
+1,"select top #   dr7objid, dr8objid, distance, z  from PhotoObjDR7 as p   join SpecPhotoAll as s on s.objid=p.dr8objid   where p.type=#"
+2019-03-02 15:57:00,1

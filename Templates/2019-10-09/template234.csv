@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec FROM PhotoObjAll WHERE ra IN (SELECT ra from mydb.kGiants) AND WHERE dec IN (SELECT dec from mydb.kGiants)"
+2019-10-09 16:26:00,1

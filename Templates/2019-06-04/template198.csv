@@ -1,0 +1,9 @@
+10,"SELECT TOP # p.type, p.g,p.r,p.i,p.z FROM fGetNearbyObjEq(#,#,#) n, PhotoPrimary p WHERE n.objID=p.objID AND p.type = # AND p.g BETWEEN # AND # AND p.r BETWEEN # AND # AND p.i BETWEEN # AND #"
+2019-06-04 14:41:00,1
+2019-06-04 14:48:00,1
+2019-06-04 14:49:00,1
+2019-06-04 14:50:00,1
+2019-06-04 14:51:00,2
+2019-06-04 14:52:00,1
+2019-06-04 14:53:00,2
+2019-06-04 14:55:00,1

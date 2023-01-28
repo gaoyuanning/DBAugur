@@ -1,0 +1,2 @@
+1,select * from field where photostatus not IN ()
+2019-08-09 10:46:00,1

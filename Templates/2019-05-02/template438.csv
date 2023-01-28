@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra, dec  into mydb.MyTable_# from star	 WHERE     ra > #. and ra < # and dec > # and dec < #"
+2019-05-02 13:38:00,1

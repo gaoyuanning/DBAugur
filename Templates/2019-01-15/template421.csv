@@ -1,0 +1,2 @@
+1,"SELECT TOP # u, g, r, i, z, objid FROM Galaxy with (nolock) WHERE objid IN (#)"
+2019-01-15 10:52:00,1

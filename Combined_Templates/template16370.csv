@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.run, p.rerun, p.camCol, p.field, p.obj FROM ..Star AS p WHERE (p.psfMag_u - p.psfMag_g) > # AND (p.psfMag_g - p.psfMag_r) > # AND (p.psfMag_r - p.psfMag_i) > # AND (p.psfMag_i - p.psfMag_z) > # AND (p.psfMag_u - p.psfMag_g) < # AND (p.psfMag_g - p.psfMag_r) < # AND (p.psfMag_r - p.psfMag_i) < # AND (p.psfMag_i - p.psfMag_z) < #"
+2019-03-03 14:57:00,1

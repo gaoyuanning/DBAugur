@@ -1,0 +1,2 @@
+1,"select top # ra, dec, modelMag_u, modelMag_r, modelMag_g, modelMag_i, modelMag_z from specObj where type = # and modelMag_u-modelMag_g> #"
+2019-06-22 20:20:00,1

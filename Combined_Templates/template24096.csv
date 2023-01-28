@@ -1,0 +1,3 @@
+2,"select top # objid, ra, dec from photoobjall where ra between # and # and dec between # and # into mydb.myobjs"
+2019-03-26 17:54:00,1
+2019-03-26 17:55:00,1

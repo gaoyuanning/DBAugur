@@ -1,0 +1,2 @@
+1,"SELECT top # ra, dec from PhotoObj WHERE z> # AND type = # AND ra> # AND ra< # ORDER by z"
+2019-01-18 10:40:00,1

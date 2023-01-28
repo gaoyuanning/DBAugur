@@ -1,0 +1,2 @@
+1,select count(*) from ( select unique objID from PhotoObjAll );
+2019-12-30 09:04:00,1

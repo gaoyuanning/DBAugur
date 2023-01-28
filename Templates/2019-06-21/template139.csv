@@ -1,0 +1,2 @@
+1,"SELECT   e.specObjID, e.ra, e.dec, e.z, e.zErr, e.subClass,   dbo.fGetUrlFitsSpectrum(e.specObjID) as urlfits into mydb.specobj_starburst FROM specObj AS e WHERE   e.z < #   AND e.subClass = &&&"
+2019-06-21 17:03:00,1

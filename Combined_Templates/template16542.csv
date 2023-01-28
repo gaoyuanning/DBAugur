@@ -1,0 +1,2 @@
+1,"SELECT FLOOR (# * (g.ra + # - FLOOR ((g.ra+#) /#) *#) )*# as ra , FLOOR (# * (g.dec + # - FLOOR ((g.dec+#) /#) *#) )*# as dec , FLOOR (# * g.dered_u) *# as u , FLOOR (# * g.dered_g) *# as g , FLOOR (# *g.dered_r) *# as r, FLOOR (# *g.dered_i) *# as i, FLOOR (# *g.dered_z) *# as z, FLOOR (# * #*g.mRrCc_r) *# as size, floor (#*power (power (g.mE1_r, #) + power (g.mE2_r, #) , #) )*# as ellipticity, floor (#*s.z) *# as redshift into mydb.MyTable_# from galaxy as g INNER JOIN SpecObjAll as s on s.bestObjID = g.objID WHERE s.z> # and s.z< #"
+2019-03-03 07:39:00,1

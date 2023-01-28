@@ -1,0 +1,3 @@
+2,"SELECT m.*, e.specsfr_tot_p5#, e.lgm_tot_p5# INTO myDB.lixodr1# FROM myDB.PosterCoord as m, galSpecExtra as e, specObj as s WHERE s.bestobjID = m.objID and s.specObjID = e.specObjID"
+2019-07-24 17:59:00,1
+2019-07-24 18:00:00,1

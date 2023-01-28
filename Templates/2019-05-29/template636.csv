@@ -1,0 +1,2 @@
+1,"select   S.bestobjID objectID, P.modelMag_u, P.modelMag_g, P.modelMag_r, P.modelMag_i, P.modelMag_z into mydb.MyTable_# from SpecObj S, PhotoObj P, where   S.z < # AND (S.specclass = #) AND S.bestObjID == P.ObjID"
+2019-05-29 07:37:00,1

@@ -1,0 +1,2 @@
+1,"select s.z, s.ra, s.dec, s.petromag_r, s.extinction_r, p.kcorrR, z.t0#_bar_a0#_bar_debiased, z.t0#_bar_a0#_no_bar_debiased, z.t0#_spiral_a0#_spiral_debiased from zoo2MainSpecz as z, Photoz as p, SpecPhotoAll as s into mydb.table3 where p.objID = s.objID and s.specObjID = z.specobjid"
+2019-10-15 05:33:00,1

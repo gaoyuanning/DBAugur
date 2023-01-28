@@ -1,0 +1,2 @@
+1,"SELECT distinct TOP # s.SpecObjID, s.z, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.err_u, p.err_g, p.err_r, p.err_i, p.err_z, p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i, p.extinction_z, s.sn1_g, s.sn1_r, s.sn1_i, s.sn2_g, s.sn2_r, s.sn2_i, s.subclass FROM SpecObjAll AS s JOIN sppParams AS spp ON spp.SpecObjID = s.SpecObjID JOIN PhotoObj AS p ON p.SpecObjID = s.SpecObjID WHERE s.z > # and s.SourceType = # and s.subclass = BROADLINE and p.u > # and p.g > # and p.r > # and p.i > # and p.z > # and p.ra between # and #"
+2019-01-24 10:25:00,1

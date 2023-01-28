@@ -1,0 +1,2 @@
+1,"select top # b.eid,a.Diagnoses_main_ICD1#_#,b.Eye_problems_disorders_#  from r2#.summary_information_diagnoses_ a      cross apply openjson(Diagnoses_main_ICD1#_#) h      cross apply openjson(h.value) k on a.eid=b.eid AND"
+2019-10-07 10:19:00,1

@@ -1,0 +1,2 @@
+1,"select top # ra, dec, z, (# - #*log1#(spectroFlux_g)) from specobj where (ra between # and #.) and (dec between # and #) and class = &&& and spectroFlux_g > #"
+2019-05-02 19:08:00,1

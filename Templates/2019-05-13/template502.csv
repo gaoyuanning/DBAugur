@@ -1,0 +1,2 @@
+1,"select db.objID, db.ra, db.dec, dr1#.dered_r, dr1#.dered_g, dr1#.dered_i, dr1#.dered_z, tm.J_R_E, tm.H_R_E, tm.K_R_E, dr1#.petroR9#_r, dr1#.deVAB_r into mydb.MyTable_# from MyDB.A2#_targets as db   INNER JOIN PhotoObjAll as dr1# on dr1#.objID = db.objID   OUTER JOIN TwoMassXSC as tm on tm.objID = db.objID"
+2019-05-13 05:19:00,1

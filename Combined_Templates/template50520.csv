@@ -1,0 +1,2 @@
+1,"SELECT top # objID, ra, dec, l, b, clean, psfmag_u, psfmagerr_u, extinction_u, psfmag_g, psfmagerr_g, extinction_g, psfmag_r, psfmagerr_r, extinction_r, psfmag_i, psfmagerr_i, extinction_i, psfmag_z, psfmagerr_z, extinction_z FROM PhotoPrimary as p INTO mydb.footprintfp_# where type = # AND psfmag_g between # and # and psfmag_u - psfmag_g < # and psfmag_g-psfmag_r < # AND b > # AND psfmagerr_r < # AND clean = #"
+2019-07-08 04:05:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # ObjID, g.modelMag_r, g.petroRad_r FROM Galaxy as g JOIN SpecObjas s ON g.ObjID= s.bestObjID WHERE (ra between # and #) and (dec between # and #) and modelMag_r < # and expRad_r > #"
+2019-02-09 22:17:00,1

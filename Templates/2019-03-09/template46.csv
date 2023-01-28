@@ -1,0 +1,2 @@
+1,select a.parent from DBViewCols as a and DBObjects as b where a.name = b.name
+2019-03-09 22:36:00,1

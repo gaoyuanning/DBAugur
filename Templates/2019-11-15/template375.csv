@@ -1,0 +1,2 @@
+1,"select tilename, count(*) from photoobjall where ra > # and ra < #  and dec > # and dec < # group by tilename"
+2019-11-15 03:49:00,1

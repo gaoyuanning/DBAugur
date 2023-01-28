@@ -1,0 +1,2 @@
+1,"SELECT  p.ObjId, p.type, p.ra, p.dec, p.dered_r, p.dered_g, p.petromag_r, p.petromag_g, m.nsa_z  FROM PhotoObjAll p JOIN MangaDRPall m ON p.ra=m.objra WHERE  type = #  AND ra > # and ra < #  AND dec > # and dec < #"
+2019-10-07 12:54:00,1

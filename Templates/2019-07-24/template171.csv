@@ -1,0 +1,4 @@
+5,"SELECT p.objID into MyDB.mytable_J1# from fGetNearbyObjAllEq(#,#, #) as p"
+2019-07-24 17:22:00,2
+2019-07-24 17:23:00,1
+2019-07-24 17:31:00,2

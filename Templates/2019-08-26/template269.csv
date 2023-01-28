@@ -1,0 +1,4 @@
+6,"SELECT TOP #   m.OBJID AS OBJID,   m.RA AS RA,   m.DEC AS DEC,      n.objid AS GALEX_IDn,      o.nuv_flux AS nuv_flux,	 	 	    o.nuv_fluxerr AS nuv_fluxerr,		 	 	    o.nuv_mag AS nuv_mag,		 	 	    o.nuv_magerr AS nuv_magerr,		 	 	    o.fuv_flux AS fuv_flux,	 	 	    o.fuv_fluxerr AS fuv_fluxerr,		 	 	    o.fuv_mag AS fuv_mag,		 	 	    o.fuv_magerr AS fuv_magerr,		 	      n.distance AS SEPARATION_AKARI_GALEX  FROM MyDB.akari AS m       OUTER APPLY dbo.fGetNearestObjEq( m.RA, m.DEC, #) AS n    LEFT JOIN photoobjall AS o ON n.objid=o.objid    WHERE m.OBJID < #"
+2019-08-26 09:50:00,1
+2019-08-26 09:51:00,3
+2019-08-26 09:52:00,2

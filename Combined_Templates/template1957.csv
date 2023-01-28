@@ -1,0 +1,4 @@
+3,"SELECT TOP # objID, ra, dec, psfMag_u, psfMagErr_u, psfMag_g, psfMagErr_g, psfMag_r, psfMagErr_r, psfMag_i, psfMagErr_i into mydb.ngc4# from Star WHERE ra BETWEEN # AND # AND dec BETWEEN # AND # AND psfMagErr_g < #"
+2019-01-10 17:26:00,1
+2019-04-09 15:58:00,1
+2019-06-27 16:27:00,1

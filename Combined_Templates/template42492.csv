@@ -1,0 +1,2 @@
+1,"select top # id, s.specobjid, bptclass as bpt, lgm_tot_p5# as smass, sfr_tot_p5# as sfr, specsfr_tot_p5# as ssfr from MyDB.MyTable as m join SpecObjAll as s on s.bestObjID = m.dr1#objid join galSpecExtra as x on x.specobjid = s.specobjid order by id"
+2019-05-29 14:58:00,1

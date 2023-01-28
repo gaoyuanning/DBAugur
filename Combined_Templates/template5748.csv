@@ -1,0 +1,2 @@
+1,"SELECT ALL p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, q.z FROM PhotoObj AS p JOIN Photoz AS q ON q.objID = p.objid WHERE p.ra BETWEEN # AND # p.dec BETWEEN # AND #"
+2019-01-24 15:25:00,1

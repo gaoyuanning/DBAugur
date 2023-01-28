@@ -1,0 +1,3 @@
+2,"select floor(ra/.#)*#, count(*) from GalaxyTag group by floor(ra/.#)*# order by floor(ra/.#)*.#"
+2019-01-25 18:27:00,1
+2019-01-25 18:42:00,1

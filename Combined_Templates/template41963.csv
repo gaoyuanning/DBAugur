@@ -1,0 +1,2 @@
+1,"SELECT top # sp.z AS z, sp.ra AS ra1, sp.DEC AS dec1 FROM SpecPhotoAll AS sp"
+2019-05-27 01:33:00,1

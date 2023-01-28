@@ -1,0 +1,2 @@
+1,select count(s.bestObjID) as num_objs and (max(e.zerr/e.z)-min(e.zerr/e.z))/# as med_fzerr
+2019-01-03 13:42:00,1

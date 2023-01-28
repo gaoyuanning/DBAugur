@@ -1,0 +1,2 @@
+1,"SELECT TOP # e.specObjID, e.ra, e.dec, e.z, e.zErr, FROM specObj AS e WHERE z < # AND subClass = #"
+2019-06-21 16:18:00,1

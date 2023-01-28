@@ -1,0 +1,2 @@
+1,"select max (ra) as max_ra, min (ra) as min_ra from specObj"
+2019-06-21 18:33:00,1

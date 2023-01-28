@@ -1,0 +1,2 @@
+1,"select run1, run2, n=count_big(*) into #Match0#Stars1#k from Match where distance < @lim  	and type1=# and type2=# group by run1, run2 having count_big(*) > # go  select * from #Match0#Stars1#k where run1<# and run2<# order by #, #  select distinct run=run1 from #Match0#Stars1#k where run1<# and run2<# union select distinct run=run2 from #Match0#Stars1#k where run1<# and run2<# order by #   select * into Stripe8#Match0#Stars1#k from #Match0#Stars1#k"
+2019-06-06 15:50:00,1

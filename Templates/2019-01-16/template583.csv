@@ -1,0 +1,2 @@
+1,"select top # G.objID, zmp.dr8objid, G.ra, G.dec, zmp.rastring, zmp.decstring from Galaxy as G full outer join zoo2MainPhotoz as zmp on G.objID = zmp.dr8objid where G.ra = zmp.ra"
+2019-01-16 01:29:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objID,p.bin,p.band,p.profMean,p.profErr,s.mjd,s.plate,s.fiberID FROM PhotoProfile as p  JOIN SpecPhotoAll as s  ON s.objID=p.objID"
+2019-07-09 16:39:00,1

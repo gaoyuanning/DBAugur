@@ -1,0 +1,2 @@
+1,"select plate, mjd, fiberID from dbo.fGetNearbySpecObjAllEq(#, #, #)"
+2019-03-27 17:50:00,1

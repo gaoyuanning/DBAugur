@@ -1,0 +1,2 @@
+1,"SELECT DISTINCT programname SELECT s.Ra, s.Dec, s.z, s.zErr, s.velDisp, s.velDispErr, s.zWarning FROM SpecObj AS s  JOIN SpecPhotoAll AS p ON s.bestobjid = p.objid WHERE (s.Dec between # and #) and (s.Ra between # and #)  AND programname = &&&  AND (p.petroMag_r-p.extinction_r)<#  AND s.class=GALAXY&&&NULL&&&#"
+2019-11-04 01:17:00,1

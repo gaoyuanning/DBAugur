@@ -1,0 +1,2 @@
+1,"select    o.name_#,o.ra_#,o.dec_#,o.ra,o.dec,o.w1mpro,o.w1sigmpro,o.w1snr,o.w2mpro,o.w2sigmpro,o.w2snr,o.w3mpro,o.w3sigmpro,o.w3snr,o.w4mpro,o.w4sigmpro into mydb.MyTable from MyDB.NonMasers as o   cross join   MyDB.NonMasers_IPACangsep as n where   o.cntr_#=n.cntr_#   and o.dist_x=n.dist_x"
+2019-07-18 15:15:00,1

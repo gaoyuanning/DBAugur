@@ -1,0 +1,2 @@
+1,"SELECT s.psfMag_u,s.psfMag_g,s.psfMag_r,s.psfMag_i,s.psfMag_z, s.ra, s.dec FROM PhotoObjAll p, Star s WHERE p.objType = s.objType   and ra between # and #    and dec between # and #"
+2019-01-02 11:40:00,1

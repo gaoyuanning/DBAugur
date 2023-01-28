@@ -1,0 +1,2 @@
+1,"select specObjID, ra, dec, mjd, z, bpt from emissionLinesPort where bpt = #"
+2019-06-28 11:57:00,1

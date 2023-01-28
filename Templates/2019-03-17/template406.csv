@@ -1,0 +1,2 @@
+1,SELECT * FROM aspcapStar JOIN apogeeStar ON aspcapStar.apstar_id = apogeeStar.apstar_id WHERE apogeeStar.andflag=# AND aspcapStar.aspcapflag=# LIMIT #
+2019-03-17 03:49:00,1

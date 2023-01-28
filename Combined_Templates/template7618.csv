@@ -1,0 +1,2 @@
+1,"SELECT m.*, s.z as specZ, s.zErr as specZ_err INTO myDB.IZw1#_#kpc_zspec FROM myDB.IZw1#_#kpc as m, SpecObj as s WHERE s.bestObjID = m.objID"
+2019-02-01 08:46:00,1

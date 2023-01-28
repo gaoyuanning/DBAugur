@@ -1,0 +1,2 @@
+1,"select top # m.row_id, m.message_type,m.host, m.application, m.method, m.time, m.client_IP, m.user_id from SciServerLog.Messages m where m.task_name like &&& and year(time)=#"
+2019-03-05 12:11:00,1

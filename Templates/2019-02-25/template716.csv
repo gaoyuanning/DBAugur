@@ -1,0 +1,2 @@
+1,"SELECT TOP #   p.ra,p.dec, p.run,p.rerun,p.camCol,p.field,p.obj  FROM PhotoObjAll AS p,   mydb.test_# as a,   SpecObjAll as s       --WHERE  ( p.type = # OR p.type = #) and p.objId=a.objId and p.objID = s.bestObjID   WHERE   ( p.type = # OR p.type = #) and a.objId=s.bestObjID and p.objID = s.bestObjID"
+2019-02-25 02:27:00,1

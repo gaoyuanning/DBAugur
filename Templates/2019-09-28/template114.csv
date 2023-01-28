@@ -1,0 +1,3 @@
+2,"SELECT top #   modelmag_g, devmag_g, expmag_g, devrad_g, exprad_g, devab_g, expab_g,   extinction_g, z  FROM specObj AS s   JOIN Galax AS g ON s.specobjid=g.specobjid             WHERE     ConcentrationIndex = petroR9#_r/petroR5#_r    ConcentrationIndex > #  eclass < #   fracdev_g = #"
+2019-09-28 19:59:00,1
+2019-09-28 20:00:00,1

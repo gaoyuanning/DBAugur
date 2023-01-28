@@ -1,0 +1,5 @@
+4,"SELECT Galaxy.ra, Galaxy.dec, Galaxy.dered_u, Galaxy.dered_g, Galaxy.dered_r, Galaxy.dered_i, Galaxy.dered_z, Photoz.z, Photoz.zErr into mydb.MyTable_# from Photoz, Galaxy WHERE Galaxy.mode = # and Galaxy.type = # and Photoz.z between # and # and photoErrorClass between # and # and Galaxy.dered_r between # and #"
+2019-04-02 04:48:00,1
+2019-04-02 05:11:00,1
+2019-04-02 05:24:00,1
+2019-04-02 05:26:00,1

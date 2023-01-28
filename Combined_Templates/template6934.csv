@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.petroMag_r, p.petroMagErr_r FROM BESTDR8..PhotoObj AS p WHERE p.r > # AND (p.type = # OR p.type = #)"
+2019-01-30 14:54:00,1

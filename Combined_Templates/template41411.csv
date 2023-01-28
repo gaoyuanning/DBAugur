@@ -1,0 +1,2 @@
+1,"SELECT count (ra) , z into mydb.MyTable from PhotoObjAll WHERE (ra BETWEEN # AND #) AND (PhotoObjAll.dec BETWEEN # AND #) GROUP BY z"
+2019-05-23 09:22:00,1

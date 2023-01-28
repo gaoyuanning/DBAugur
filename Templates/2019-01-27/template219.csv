@@ -1,0 +1,2 @@
+1,"SELECT top #  specObjID,ra,dec,spectrotype,subclass,z FROM galSpecInfo WHERE   z BETWEEN # AND #  AND spectrotype=GALAXY"
+2019-01-27 15:20:00,1

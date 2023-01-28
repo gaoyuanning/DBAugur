@@ -1,0 +1,2 @@
+1,"SELECT   g.specobjid,l. into mydb.DR1#_line    from galspecinfo AS g   JOIN galspecline AS l ON l.specobjid = g.specobjid   JOIN SpecObjAll AS s ON s.specobjid = g.specobjid  WHERE   s.scienceprimary=#"
+2019-04-12 02:42:00,1

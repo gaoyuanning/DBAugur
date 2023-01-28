@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.u,p.g,p.r from PhotoObjAll AS p WHERE p.g < #"
+2019-12-03 09:13:00,1

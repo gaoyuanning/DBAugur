@@ -1,0 +1,2 @@
+1,"SELECT t.name, a.albumId, t.albumId FROM chinook.album a LEFT JOIN chinook.track t ON t.albumId = a.albumId"
+2019-04-20 17:01:00,1

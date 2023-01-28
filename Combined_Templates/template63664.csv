@@ -1,0 +1,2 @@
+1,select min (sfr_tot_p5#) from dr1#.galSpecExtra where sir_tot_p5# > #
+2019-09-17 09:09:00,1

@@ -1,0 +1,2 @@
+20,"SELECT TOP # g.ra, g.dec, g.psfMag_u as U, g.psfMag_g as G, g.psfMag_r as R, g.psfMag_i as I, g.psfMag_z as Z, p.z, p.zErr from GalaxyTag as g JOIN Photoz as p ON p.objID = g.objID WHERE g.ra BETWEEN # AND #"
+2019-01-22 01:19:00,20

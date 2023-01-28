@@ -1,0 +1,2 @@
+1,"SELECT ALL   m.OBJID AS akari_ID,   m.RA AS akari_ra,   m.DEC AS akari_dec,         o.modelMag_u AS umag,   o.modelMag_g AS gmag,   o.modelMag_r AS rmag,   o.modelMag_i AS imag,   o.modelMag_z AS zmag,   o.modelMagErr_u AS e_umag,   o.modelMagErr_g AS e_gmag,   o.modelMagErr_r AS e_rmag,   o.modelMagErr_i AS e_imag,   o.modelMagErr_z AS e_zmag,      n.objid, n.distance into mydb.AKARIx3#SDSS1# from MyDB.akari AS m     OUTER APPLY dbo.fGetNearestObjEq( m.ra, m.dec, #) AS n     LEFT JOIN PhotoObjAll AS o ON n.objid=o.objid"
+2019-08-07 08:52:00,1

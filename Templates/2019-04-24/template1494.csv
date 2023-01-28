@@ -1,0 +1,2 @@
+1,"SELECT SUBSTRING(Composer, #, #) as initial     FROM chinook.Track GROUPBY initial"
+2019-04-24 03:59:00,1

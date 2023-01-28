@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid,p.ra,p.dec,p.u,pz.z FROM Photoz AS pz  JOIN PhotoObj AS p ON pz.objid = p.objid WHERE   p.type=# AND p.mode=#"
+2019-07-01 20:10:00,1

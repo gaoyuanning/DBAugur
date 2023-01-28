@@ -1,0 +1,2 @@
+1,"SELECT TOP # cast (str (s.ra, #, #) as float) as ra, cast (str (s.[dec], #, #) as float) as dec, s.velDisp, s.velDispErr, s.z, p.petroFlux_r, p.petroMag_r, p.petroR5#_r FROM ..SpecObj as s JOIN ..Galaxy AS p ON s.bestObjID = p.objID JOIN dbo.fGetNearbySpecObjEq (#, #, #) AS b ON b.SpecobjID = S.SpecobjID WHERE s.z > # AND (s.class = #) AND s.z < # AND p.petroMag_r > # AND p.petroMag_r < # AND s.zWarning = #"
+2019-12-25 03:52:00,1

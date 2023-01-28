@@ -1,0 +1,2 @@
+1,"select top # a.RAJ2# as a.ra, a.DEJ2# as a.dec, a.Plate, gn.distance into mydb.MyTable from webuser.bestheckmanagn as a join dbo.fGetNearbyObjEq (#., #, #) as gn on a.Plate = gn.objID"
+2019-04-03 06:24:00,1

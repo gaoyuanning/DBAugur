@@ -1,0 +1,2 @@
+1,"SELECT specObjID, ra, dec, z, primTarget, sourceType, class into mydb.QSO_HIZ_all from SpecObj WHERE (LEGACY_TARGET1 & #) > #"
+2019-06-05 14:02:00,1

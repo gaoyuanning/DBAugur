@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.ra, p.dec, q.z as photoz, q.zErr as photoz_err, p.petroMag_r-p.extinction_r as r_deext, p.petroMag_g-p.extinction_g as g_deext, q.absMagR, q.absMagG INTO [myscratch:default].dr7photoz_rlt2# FROM photoobjall as p JOIN photoz as q on q.objid = p.objid WHERE p.type = # and p.clean = # and p.mode = # and q.photoErrorClass = # and p.petroMag_r-p.extinction_r< #"
+2019-01-10 00:54:00,1

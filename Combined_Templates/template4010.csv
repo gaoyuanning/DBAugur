@@ -1,0 +1,2 @@
+1,"SELECT g.objID, mE1_r, mE2_r, mE1PSF_r, mE2PSF_r INTO mydb.sdss_xmatch_adapt_moments_psf FROM mydb.desy1eqsdssxmatch as d INNER JOIN GAlAXY as g ON d.s_objID = g.objID"
+2019-01-17 13:29:00,1

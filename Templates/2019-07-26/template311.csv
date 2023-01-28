@@ -1,0 +1,2 @@
+1,select bestObjID as objID from SpecObjAll where specObjID=#
+2019-07-26 11:50:00,1

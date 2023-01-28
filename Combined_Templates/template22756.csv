@@ -1,0 +1,2 @@
+1,"SELECT s.specObjID, s.plate, s.mjd, s.fiberid, s.run2d, s.z, s.class, p.extinction_g, s.snMedian, s.ra, s.dec into mydb.all_galaxies_and_quasars from ..SpecObj as s LEFT JOIN PhotoObjAll p on s.bestObjID = p. objID WHERE ( ((s.class = #) OR (s.class = #) ) AND (s.snMedian > #) )"
+2019-03-22 07:10:00,1

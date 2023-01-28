@@ -1,0 +1,2 @@
+1,"SELECT s.specObjID, s.ra, s.dec, s.z, s.class, s.zWarning, s.snMedian, bcg.ra_bcg, bcg.dec_bcg, mass.* into mydb.#bcg_stellarMassStarformingPort from mydb.#bcg_radec as bcg CROSS APPLY dbo.fGetNearestSpecObjEq (bcg.ra_bcg, bcg.dec_bcg, #) AS near JOIN SpecObjAll as s ON near.specObjID = s.specObjID JOIN stellarMassStarformingPort AS mass ON mass.specObjID = near.specObjID"
+2019-07-25 04:53:00,1

@@ -1,0 +1,2 @@
+1,"SELECT PG.objid, S.specObjID, S.plate, S.mjd, S.fiberID into mydb.MyTable from Galaxy as PG JOIN SpecObj as S ON PG.objId=S.bestObjId"
+2019-12-10 05:07:00,1

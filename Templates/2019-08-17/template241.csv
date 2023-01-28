@@ -1,0 +1,2 @@
+1,"SELECT TOP #   a.OBJID AS OBJID,   a.RA AS RA,   a.DEC AS DEC,      sp.ra AS RA_sdss,   sp.dec AS DEC_sdss,   sp.specObjID AS sdssid_specobjall_spec,   sp.z AS zsp_sp,   sp.zErr AS e_zsp,   sp.class AS class,   sp.subClass AS subClass,   sp.zWarning AS zWarning,      n.distance AS SEPARATION_AKARI_SDSS1#   INTO    mydb.akari_#_output   FROM MyDB.akari_# AS a    OUTER APPLY dbo.fGetNearestSpecObjEq( a.RA, a.DEC, #) AS n   LEFT JOIN SpecPhotoAll AS sp ON n.specObjID = sp.specObjID"
+2019-08-17 07:33:00,1

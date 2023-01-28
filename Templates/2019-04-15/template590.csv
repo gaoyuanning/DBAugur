@@ -1,0 +1,3 @@
+2,"SELECT EID,[Reason_for_skipping_IOP_left__#],[Reason_for_skipping_IOP_right__#],[Intra_ocular_pressure_IOP_method_left__#],[Intra_ocular_pressure_IOP_method_right__#],[Corneal_hysteresis_left__#],[Corneal_hysteresis_right__#],[Corneal_resistance_factor_left__#],[Corneal_resistance_factor_right__#],[Intra_ocular_pressure_corneal_compensated_left__#],[Intra_ocular_pressure_corneal_compensated_right__#],[Intra_ocular_pressure_Goldmann_correlated_left__#],[Intra_ocular_pressure_Goldmann_correlated_right__#],[Applanation_curve_left__#],[Applanation_curve_right__#],[Pressure_curve_left__#],[Pressure_curve_right__#],[Intra_ocular_pressure_device_ID_left__#],[Intra_ocular_pressure_device_ID_right__#] FROM Intraocular_pressure GO"
+2019-04-15 13:25:00,1
+2019-04-15 13:35:00,1

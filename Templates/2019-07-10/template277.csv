@@ -1,0 +1,2 @@
+2,"SELECT   specObjID, sourceType, targetType FROM specObj          WHERE     plateID = # AND sourceType = STAR&&&"
+2019-07-10 15:08:00,2

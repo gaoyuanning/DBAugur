@@ -1,0 +1,2 @@
+1,"SELECT m.id, o.ra AS ra2, o.dec AS dec2, o.z AS redshift, o.veldisp AS velocity into Group_#kpc_w_redshift FROM MyDB.Table1 AS m CROSS APPLY dbo.fGetNearbyObjEq (m.ra, m.dec, m.dist) AS n JOIN SpecObj AS o ON n.objid = o.objid WHERE o.petroMag_i < m.imag AND o.type = # order by m.id"
+2019-06-18 15:24:00,1

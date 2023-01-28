@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.specobjid into mydb.an_example_# FROM PhotoObj as p WHERE p.run = # and p.rerun = # and p.camcol = # and p.field = # and p.obj = #"
+2019-12-15 13:48:00,1

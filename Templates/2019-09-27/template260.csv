@@ -1,0 +1,2 @@
+1,"select top # * from dbo.fGetNearbyObjEq(#, #, #) n on g.source_id = n.source_id"
+2019-09-27 12:07:00,1

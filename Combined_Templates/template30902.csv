@@ -1,0 +1,2 @@
+1,"select p.objid, s.z, s.ra, s.dec, z.p_cw, z.p_acw, z.spiral from DR1#.zooSpec z join DR8.specObj s ON s.specObjID = z.specObjID join DR8.photoObj p ON p.objID = s.bestObjID join DR8.photoZ pz ON pz.objID = p.objID into mydb.zoo_spiral_objid where s.origObjId = s.bestObjId"
+2019-04-16 10:22:00,1

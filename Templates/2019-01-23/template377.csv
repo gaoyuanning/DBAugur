@@ -1,0 +1,2 @@
+1,SELECT TOP # * FROM dbo.PhotoPrimary WHERE type=# AND specObjID <> #
+2019-01-23 10:25:00,1

@@ -1,0 +1,3 @@
+2,select ra dec Sigma_Hb_# Sigma_Hb_#_Err Sigma_OIII_# Sigma_OIII_#_Err FROM emissionLinesPort where mjd = # and plate = # and fiber = #
+2019-01-29 00:43:00,1
+2019-01-29 01:09:00,1

@@ -1,0 +1,2 @@
+1,"SELECT i.encoding_id, i.value, i.meaning, r.encoding_id, r.value, r.meaning FROM metadata.esimpint AS i JOIN metadata.esimpreal AS r"
+2019-09-12 09:45:00,1

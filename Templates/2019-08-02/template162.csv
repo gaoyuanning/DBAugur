@@ -1,0 +1,2 @@
+1,"select me.plate, me.mjd, me.fiberid, me.specobjid, me.segue2_target1, me.bestobjid, me.ra, me.dec, me.objID, l.Na1#side,l.NaI2#side,.Na2#side,l.NaIredside,l.NaI1#side   INTO mydb.mgiant_index_#gaia FROM   mydb.mgiant_spec_primary_# me   JOIN sppLines l on    me.specobjid=l.specobjid"
+2019-08-02 17:52:00,1

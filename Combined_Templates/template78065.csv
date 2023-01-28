@@ -1,0 +1,2 @@
+1,"SELECT TOP # -- p8.objID, p8.ra, p8.dec, p8.phioffset_u, p8.phioffset_g, p8.phioffset_r, p8.phioffset_i, p8.phioffset_z --FROM PhotoObjAll p8 --JOIN PhotoObjDR7 p7 ON p8.objID = p7.dr8objID SELECT TOP # P7.dr7objID, P7.dr8objID, s.dr7objID FROM PhotoObjDR7 p7 JOIN mydb.Simard1#_ObjID s ON p7.dr7ObjID = s.dr7objID"
+2019-11-22 15:03:00,1

@@ -1,0 +1,2 @@
+3,"select ra,dec from target where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-03-07 04:24:00,3

@@ -1,0 +1,3 @@
+2,"SELECT g.ObjID, g.specObjId, g.ra, g.dec, p.zErr, p.z AS photo_z, g.isoA_u, g.isoA_g, g.isoA_r, g.isoA_i, g.isoA_z, g.isoB_u, g.isoB_g, g.isoB_r, g.isoB_i, g.isoB_z, g.isoPhi_u, g.isoPhi_g, g.isoPhi_r, g.isoPhi_i, g.isoPhi_z, g.deVRad_u, g.deVRad_g, g.deVRad_r, g.deVRad_i, g.deVRad_z, g.expRad_u, g.expRad_g, g.expRad_r, g.expRad_i, g.expRad_z INTO myDB.DR7_image_z FROM Galaxy AS g, Photoz AS p, SpecObjAll AS s WHERE p.ObjID = g.ObjID AND g.ObjID = s.ObjID AND s.z BETWEEN # AND # AND p.nnIsInside = # AND p.nnCount > # AND g.isoA_r > # AND s.zerr < # ORDER BY g.ObjID"
+2019-04-24 16:30:00,1
+2019-04-24 16:31:00,1

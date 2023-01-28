@@ -1,0 +1,2 @@
+1,"SELECT Top # cModelMag_g AS magnitude, z AS redshift, ra AS RA, dec AS Dec, class, specObjID FROM SpecPhoto WHERE class = # AND zWarning = # AND z BETWEEN # AND # AND ra BETWEEN # AND # AND dec BETWEEN # AND # Order by z"
+2019-01-23 20:07:00,1

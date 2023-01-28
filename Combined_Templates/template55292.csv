@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.ra, p.dec, s.specObjID FROM #upload u JOIN #x x ON x.up_id = u.up_id JOIN PhotoTag p ON p.objID = x.objID JOIN SpecObjAll s ON p.objID = s.bestObjID ORDER by x.up_id"
+2019-08-05 17:02:00,1

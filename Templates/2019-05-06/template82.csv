@@ -1,0 +1,2 @@
+1,"SELECT ALL s.bestObjID as id, s.z as z_spec, s.zErr as z_err, s.ra as ra, s.dec as dec into mydb.gal_table from SpecObj AS s   WHERE s.sourcetype=&&&"
+2019-05-06 19:40:00,1

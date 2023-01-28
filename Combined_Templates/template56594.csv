@@ -1,0 +1,3 @@
+2,"SELECT #< a target = INFO href = http://skyserver.sdss.org/DR1#/en/tools/explore/obj.aspx? id = # + cast (x.objId as varchar (#) ) + #> #+ cast (x.objId as varchar (#) ) + #< /a> # as objID, p.ra, p.dec, p.run, p.rerun, p.camcol, p.field FROM #upload u JOIN #x x ON x.up_id = u.up_id JOIN PhotoTag p ON p.objID = x.objID ORDER BY p.run ##', @log = #, @filter = #"
+2019-08-10 15:09:00,1
+2019-08-10 15:17:00,1

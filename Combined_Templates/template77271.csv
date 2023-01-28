@@ -1,0 +1,2 @@
+2,"select mjd, ra, dec, z from SpecObjAll where (dec < # AND dec > #) AND (ra < # AND ra > #) AND z > #"
+2019-11-19 08:49:00,2

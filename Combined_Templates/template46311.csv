@@ -1,0 +1,2 @@
+1,"select top # p.objid, p.ra, p.dec, p.run, p.rerun, f.stripe into mydb.stripe8# from PhotoPrimary as p, run as f where p.run = f.run and p.rerun = f.rerun and f.stripe = #"
+2019-06-17 07:08:00,1

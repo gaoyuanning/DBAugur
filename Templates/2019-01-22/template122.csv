@@ -1,0 +1,2 @@
+1,"SELECT Top # sp.plate, sp.fiberid, sp.mjd, sp.z, sp.zwarning,  g.h_beta_flux, g.h_beta_flux_err,  g.h_alpha_flux, g.h_alpha_flux_err, g.h_alpha_eqw, g.oii_#_eqw, sp.ra, sp.dec FROM GalSpecLine AS g  JOIN SpecPhoto AS sp ON sp.specobjid = g.specobjid  JOIN dbo.fGetNearbySpecObjIDEq(#,#,#) AS GN ON GN.specobjID = g.specobjid WHERE  h_alpha_eqw between # and #"
+2019-01-22 21:32:00,1

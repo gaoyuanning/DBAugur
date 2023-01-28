@@ -1,0 +1,4 @@
+5,"select    po.objID,   po.ra,   po.dec,   sp.z,   sp.zErr,   po.psfMag_u,   po.psfMag_r,   po.psfMag_z,   po.petroRad_u,   po.petroRad_r,   po.petroRad_z,   po.cx,   po.cy,   po.cz    into MyTable_# from SpecObjAll as sp   JOIN PhotoObjAll po ON sp.bestObjID=po.objID    where sp.class = &&&"
+2019-04-08 09:10:00,3
+2019-04-08 09:13:00,1
+2019-04-08 09:15:00,1

@@ -1,0 +1,2 @@
+1,"SELECT top # objid, ra, dec, type, cModelMag_g AS g, cModelMagErr_g AS g_err, z, zErr WHERE (class = Galaxy)"
+2019-03-06 12:33:00,1

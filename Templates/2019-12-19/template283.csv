@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, x.objID, p.fmn, p.fuv_mag, p.nuv_mag, p.nuv_s2n, p.fuv_s2n, p.nuv_class_star, p.fuv_class_star,   p.nuv_flags, p.fuv_flags, p.primary_flag into mydb.galexsdss_gal from mydb.galex_xsdssdr7 as p, Galaxy as x WHERE p.SDSSObjid = x.objID"
+2019-12-19 11:02:00,1

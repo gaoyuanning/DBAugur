@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, specObjID, ra, dec, psfMag_u, psfMagErr_u, psfMag_g, psfMagErr_g, psfMag_r, psfMagErr_r, psfMag_i, psfMagErr_i, psfMag_z, psfMagErr_z, z into mydb.MyTable_# from SpecPhotoAll"
+2019-03-26 17:56:00,1

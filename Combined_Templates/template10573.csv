@@ -1,0 +1,4 @@
+4,"SELECT TOP # p.run, p.rerun, p.camCol, p.field, p.obj FROM ..PhotoObj AS p"
+2019-02-13 19:30:00,1
+2019-02-21 21:23:00,1
+2019-10-09 12:15:00,2

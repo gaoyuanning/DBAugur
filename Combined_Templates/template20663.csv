@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objID, p.ra, p.dec FROM PhotoObj p JOIN dbo.fGetObjFromRectEq (#, #, #, #) r ON p.objID = r.objID"
+2019-03-15 17:22:00,1

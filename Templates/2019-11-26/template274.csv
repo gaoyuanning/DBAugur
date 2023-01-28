@@ -1,0 +1,3 @@
+3,"SELECT TOP # mjd, plate, fiberID, ra, dec, targetType, sourceType, z, zErr, zWarning, snMedian  into mydb.sdss_test from SpecObjAll WHERE plate < #   AND z >= #"
+2019-11-26 11:53:00,2
+2019-11-26 11:54:00,1

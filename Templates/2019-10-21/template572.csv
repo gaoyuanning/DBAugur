@@ -1,0 +1,2 @@
+1,"select top # * from mangaDRPall as m,specObjAll as s where m.objdec=s.dec and m.objra=s.ra and s.elodieTEff># and s.elodieTEff<#"
+2019-10-21 02:22:00,1

@@ -1,0 +1,2 @@
+2,"select ss.ra, ss.dec, ss.z, ss.ssfr, ss.logMass, ss.logMass_err, ss.logMass_max from stellarMassFSPSGranEarlyDust as ss into MyDB.conroy_mass_included where ss.z between # and #"
+2019-04-16 07:14:00,2

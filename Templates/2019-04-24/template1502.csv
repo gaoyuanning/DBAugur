@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, ra, dec, z, color, Mag, cModelMag_g into mydb.MyTable from Galaxy  WHERE ra BETWEEN # AND #    AND dec < #   AND cModelMag_g BETWEEN # AND #"
+2019-04-24 03:37:00,1

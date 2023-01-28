@@ -1,0 +1,3 @@
+2,"SELECT s.specObjID, s.ra, s.dec, s.z, s.class, s.zWarning, s.snMedian, ife.ra, ife.dec, mass.* into mydb.ife_stellarMass_galSpecExtra_dr1#_v2 from mydb.for_bpt as ife CROSS APPLY dbo.fGetNearestSpecObjEq (ife.ra, ife.dec, #) AS near JOIN SpecObjAll as s ON near.specObjID = s.specObjID JOIN galSpecExtra AS mass ON mass.specObjID = near.specObjID WHERE s.class = # AND s.zWarning = # AND mass.lgm_tot_p5# ! = # AND mass.lgm_fib_p5# ! = #"
+2019-07-09 17:14:00,1
+2019-07-09 17:23:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra, dec, objId FROM PrimTarget WHERE ra> #, dec< #"
+2019-01-16 10:05:00,1

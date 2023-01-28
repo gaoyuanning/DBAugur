@@ -1,0 +1,2 @@
+1,"select ra, dec as ra_cl, dec_cl from PhotoObjAll where clean = #"
+2019-03-13 16:22:00,1

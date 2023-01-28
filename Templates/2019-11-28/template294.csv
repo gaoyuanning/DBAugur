@@ -1,0 +1,2 @@
+2,"SELECT  g.ObjID, u, g, r, i, z 	into  mydb.galPhot_# 	from dbo.Galaxy as g, mydb.MyTable as o 	WHERE g.ObjID = o.SdssObjID"
+2019-11-28 11:25:00,2

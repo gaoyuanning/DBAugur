@@ -1,0 +1,2 @@
+1,"SELECT top # ra, dec, z, specObjID, lambdaEff FROM SpecObj WHERE z> # ORDER BY z DESC class = #"
+2019-11-14 11:36:00,1

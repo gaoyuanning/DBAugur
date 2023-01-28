@@ -1,0 +1,2 @@
+2,"SELECT TOP #  w.ra,w.dec FROM WISE_allsky AS w WHERE   w.ra BETWEEN # AND #  AND w.dec BETWEEN # AND #"
+2019-11-01 19:59:00,2

@@ -1,0 +1,2 @@
+1,"SELECT TOP # u,g,r,i,z,petroR5#_r,petroR9#_r,Err_u,Err_g,Err_r,Err_i,Err_z,petroR5#Err_r,petroR9#Err_r into mydb.MyTable from Galaxy WHERE clean = #"
+2019-11-10 06:35:00,1

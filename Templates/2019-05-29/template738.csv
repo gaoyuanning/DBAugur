@@ -1,0 +1,2 @@
+1,"select top #  id, objid, ra, dec, dered_u, dered_g, dered_r, dered_i, dered_z from MyDB.data as d   join PhotoObjAll as p on p.objid=d.dr7objid"
+2019-05-29 02:22:00,1

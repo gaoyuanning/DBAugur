@@ -1,0 +1,2 @@
+1,"SELECT # FROM Stars objID, ra, dec, psfMag_g, psfMag_r, psfMag_i, z dbo.fPhotoFlagsN (flags) WHERE dec > # and dec < #"
+2019-07-28 12:28:00,1

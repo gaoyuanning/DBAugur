@@ -1,0 +1,16 @@
+24,"SELECT u.up_name as [name], str (fsps.ra, #, #) as ra, str (fsps.[dec], #, #) as dec, str (fsps.logmass, #, #) as lgmass, str (fsps.logmass_err, #, #) as elgmas, str (fsps.t_age_mean, #, #) as t_age, str (fsps.t_age_err, #, #) as t_eage, str (fsps.metallicity_mean, #, #) as metal, str (fsps.metallicity_err, #, #) as emeta, str (fsps.tau_mean, #, #) as tau, str (fsps.tau_err, #, #) as etau, str (fsps.age_mean, #, #) as age, str (fsps.age_min, #, #) as agemin, str (fsps.age_max, #, #) as agemax, str (fsps.ssfr_mean, #, #) as ssfr, str (fsps.ssfr_min, #, #) as ssfrmin, str (fsps.ssfr_max, #, #) as ssfrmax FROM #upload u JOIN #x x ON x.up_id = u.up_id JOIN stellarMassFSPSGranEarlyNoDust fsps ON fsps.specobjID = x.specobjID"
+2019-02-13 12:25:00,1
+2019-02-13 12:26:00,1
+2019-02-13 12:27:00,3
+2019-02-13 12:29:00,1
+2019-02-13 12:35:00,1
+2019-02-13 12:36:00,1
+2019-02-13 12:37:00,1
+2019-02-13 12:38:00,2
+2019-02-13 13:16:00,2
+2019-02-13 13:17:00,2
+2019-02-13 13:18:00,2
+2019-02-13 13:19:00,2
+2019-02-13 13:20:00,1
+2019-02-13 13:21:00,3
+2019-02-13 13:22:00,1

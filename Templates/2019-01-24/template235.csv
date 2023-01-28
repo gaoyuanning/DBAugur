@@ -1,0 +1,4 @@
+3,"INSERT INTO #upload values  EXEC spExecuteSQL &&&,&&&, @log=#, @filter=#"
+2019-01-24 17:55:00,1
+2019-01-24 17:57:00,1
+2019-01-24 17:58:00,1

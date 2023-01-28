@@ -1,0 +1,2 @@
+1,"select Name from chinook.Artist select SUBSTRING (#, #, #) FROM chinook.Artists"
+2019-04-20 10:20:00,1

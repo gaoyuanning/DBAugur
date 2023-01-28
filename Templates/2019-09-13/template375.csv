@@ -1,0 +1,2 @@
+1,"SELECT   m.maskID, m.field, m.mask, m.filter, m.ra, m.dec, m.radius, m.area, m.type, m.seeing, m.cx, m.cy, m.cz, m.htmID into mydb.MyTable from Mask as m     join GalaxyTag as g on g.ObjId = m.maskID     where g.z < #"
+2019-09-13 07:39:00,1

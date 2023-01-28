@@ -1,0 +1,7 @@
+6,"SELECT EID,[Completion_status_of_numeric_memory_test_#],[Number_of_rounds_of_numeric_memory_test_performed_#],[Round_of_numeric_memory_test_#],[Number_entered_by_participant_#],[Digits_entered_correctly_#],[Maximum_digits_remembered_correctly_#] FROM Numeric_memory GO"
+2019-04-16 08:56:00,1
+2019-04-16 08:58:00,1
+2019-04-16 10:12:00,1
+2019-04-16 10:14:00,1
+2019-04-16 10:17:00,1
+2019-04-16 10:35:00,1

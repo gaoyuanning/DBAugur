@@ -1,0 +1,2 @@
+2,"select RunID, MIN (x) , MAX (x) , MIN (y) , MAX (Y) from Data where X> # -- filtering on the input group by RunID having MAX (Y) < # -- filtering on aggregate order by AVG (X) desc"
+2019-05-06 01:23:00,2

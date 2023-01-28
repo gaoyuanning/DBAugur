@@ -1,0 +1,2 @@
+1,"SELECT  P.objid ,P.ra,P.dec,dered_r,dered_i,dered_g,cmodelmag_i,extinction_i,fiber2mag_i, s.z, s.velDisp FROM photoprimary as P JOIN dr1#..SpecObj as S on P.objid = S. bestObjID WHERE s.z <= # and velDisp > #. INTO micado_galaxies_v_gt_#_z_lt_#"
+2019-07-04 05:41:00,1

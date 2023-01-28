@@ -1,0 +1,2 @@
+1,"SELECT m.*, p.petromag_g - p.extinction_g as magPetro_g, p.petromag_r - p.extinction_r as magPetro_r, p.petromag_i - p.extinction_i as magPetro_i, p.modelmag_g - p.extinction_g as magModel_g, p.modelmag_r - p.extinction_r as magModel_r, p.modelmag_i - p.extinction_i as magModel_i, p.petromagErr_g, p.petromagErr_r, p.petromagErr_i, p.modelmagErr_g, p.modelmagErr_r, p.modelmagErr_i INTO myDB.lixo_mags FROM PhotoObj as p, myDB.lixo as m WHERE p.objID = m.objID"
+2019-07-04 13:04:00,1

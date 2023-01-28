@@ -1,0 +1,6 @@
+5,"select u.*, p.objId, ltrim(str(p.ra,#,#)) as ra, ltrim(str(p.dec,#,#)) as dec, dbo.fPhotoTypeN(p.type) as type from #x x, #upload u, photoTag p  where u.up_id = x.up_id and x.objID=p.objID and p.mode=# order by x.up_id"
+2019-10-03 03:40:00,1
+2019-10-03 04:27:00,1
+2019-10-03 11:58:00,1
+2019-10-03 13:49:00,1
+2019-10-03 14:09:00,1

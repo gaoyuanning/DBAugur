@@ -1,0 +1,2 @@
+2,"select ra, dec, expRad_g, petroRad_g, modelmag_g, modelmag_i from galaxy where (ra between # and #) and (dec between # and #) and clean = # and modelmag_g < #"
+2019-12-01 13:45:00,2

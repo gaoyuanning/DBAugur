@@ -1,0 +1,2 @@
+1,"select r.run, r.rerun, r.field0, r.nFields, s.* from run r join segment s on s.segmentid=r.segmentid  select top # * from segment"
+2019-05-22 16:10:00,1

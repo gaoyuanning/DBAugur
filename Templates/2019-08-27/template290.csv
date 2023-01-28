@@ -1,0 +1,2 @@
+2,"SELECT   TOP # A.ra,A.dec FROM    SpecPhotoAll AS A   CROSS APPLY dbo.fGetNearestObjEq(A.ra,A.dec,#/#.) AS B   LEFT JOIN SpecPhotoAll AS C ON B.objID=C.objID INTO    MyDB.SpecMatch"
+2019-08-27 14:40:00,2

@@ -1,0 +1,2 @@
+1,select e.* from genes g join exons e on e.gene_id=g.gene_id where g.symbol=&&&
+2019-06-26 15:15:00,1

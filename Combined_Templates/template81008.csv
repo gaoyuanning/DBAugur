@@ -1,0 +1,2 @@
+1,"SELECT s.specObjID as specObjID_DR7, s.objID as objID_DR7, m.ra AS ra, m.dec AS dec, s.h_beta_flux as h_beta, s.oiii_#_flux as OIII, s.h_alpha_flux as h_alpha, s.nii_#_flux as NII into mydb.DR7_ids from MyDB.Sample5#_coord_ID AS m OUTER APPLY dbo.fGetNearestSpecObjAllEq (m.ra, m.dec, #) AS n LEFT JOIN galSpecLine AS s ON n.specObjID = s.specObjID"
+2019-12-05 01:57:00,1

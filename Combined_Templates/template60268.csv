@@ -1,0 +1,2 @@
+1,"select plate, MJD, fiberID from (select row_number () over (order by MJD desc) as rowNum , top # plate, MJD, fiberID from specobjall where class = # and waveMin < = # and waveMax > = #) as tb where rowNum between # and #"
+2019-09-02 07:18:00,1

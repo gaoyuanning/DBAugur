@@ -1,0 +1,2 @@
+2,"select   m.*, p.objid, p.ra, p.dec, p.clean, p.type,   p.dered_u, p.dered_g, p.dered_r, p.dered_i, p.dered_z,   p.err_u, p.err_g, p.err_r, p.err_i, p.err_z into mydb.Pratik6#grgc_SDSS_specz_photometry_DR1#    from   photoobj p, mydb.Pratik6#grgc_SDSS_specz m    where   m.bestobjid = p.objid   and m.bestobjid != #    order by    p.ra"
+2019-12-12 13:14:00,2

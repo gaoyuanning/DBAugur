@@ -1,0 +1,2 @@
+1,"SELECT convert(varchar(#),Address), &&&, geography::STMPointFromText(&&&+convert(varchar(#), lon)+&&&+ convert(varchar(#), lat) +&&&)     FROM tmpREONOMY"
+2019-11-04 06:20:00,1

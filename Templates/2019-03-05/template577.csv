@@ -1,0 +1,3 @@
+2,"select objID, z, zErr, absMagU, absMagG, absMagR, absMagI, absMagZ into mydb.MyTable from photoz where objID in (select objID from specphoto)"
+2019-03-05 10:00:00,1
+2019-03-05 11:15:00,1

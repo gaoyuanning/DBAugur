@@ -1,0 +1,2 @@
+2,"SELECT    s.plate,s.mjd,s.fiberid,p.ra,p.dec,p.g,p.r, s.subClass, spp.SNR, p.psfMag_g, p.psfMag_r, p.extinction_g, p.extinction_r, (p.psfMag_g-p.extinction_g)-(p.psfMag_r-p.extinction_r) as gmr , s.elodieLogG, s.elodieFeH, s.elodieSpType, s.snMedian,   s.class into mydb.M1#_new_# from ..SpecObj as s    JOIN ..PhotoObj AS p ON s.bestObjID = p.objID     JOIN sppParams as spp ON s.specObjID = spp.SPECOBJID  JOIN dbo.fGetNearbySpecObjEq(#,#,#) AS b ON  b.SpecobjID = S.SpecobjID  WHERE  s.zWarning = # AND (p.type = #)"
+2019-06-07 11:04:00,2

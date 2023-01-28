@@ -1,0 +1,2 @@
+1,"select top # e.eid,e.Qualifications_#,c.encoding_id  from dbo.Education e            join metadata.columns d on d.column_name =&&& join metadata.encoding c on c.encoding_id=d.encoding_id"
+2019-10-07 10:48:00,1

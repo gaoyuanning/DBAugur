@@ -1,0 +1,2 @@
+1,"SELECT A.RAJ2#, A.DEJ2# FROM SpecPhotoAll AS A INNER APPLY dbo.fGetNearestObjEq (A.ra, A.dec, #/#.) AS B INTO MyDB.SpecMatch"
+2019-08-27 14:36:00,1

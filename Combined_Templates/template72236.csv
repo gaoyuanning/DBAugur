@@ -1,0 +1,2 @@
+1,"SELECT * FROM SpecObj as s WHERE s.specObjID = dbo.fGetNearestSpecObjIdEq (#, #, #)"
+2019-10-29 20:52:00,1

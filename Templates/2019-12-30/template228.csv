@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid,p.ra,p.dec FROM Galaxy WHERE   p.u BETWEEN # AND #  AND g BETWEEN # AND #  AND (flags & (dbo.fPhotoFlags(&&&))) != #"
+2019-12-30 08:47:00,1

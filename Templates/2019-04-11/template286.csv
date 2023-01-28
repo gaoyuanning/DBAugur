@@ -1,0 +1,4 @@
+5,"SELECT a.Title, COUNT(*) as numTracks FROM chinook.Album AS a JOIN chinook.Track AS t ON a.AlbumId = t.AlbumId GROUP BY a.Title"
+2019-04-11 14:55:00,1
+2019-04-11 14:56:00,1
+2019-04-11 14:57:00,3

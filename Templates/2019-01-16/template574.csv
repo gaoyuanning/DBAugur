@@ -1,0 +1,2 @@
+1,"select top # zmp.ra, zmp.dec from Galaxy as G   join PhotoPrimaryDR7 as PO   on G.obj = PO.obj   join zoo2MainPhotoz as zmp   on PO.dr8objid = zmp.dr8objid where"
+2019-01-16 01:39:00,1

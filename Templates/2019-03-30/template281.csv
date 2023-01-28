@@ -1,0 +1,2 @@
+1,"SELECT p.mode, p.type, p.clean, p.probPSF, p.score, p.parentID, p.objID,    p.dered_u, p.dered_g, p.dered_r, p.dered_i, p.dered_z,   p.fiberMag_u,p.fiberMag_g,p.fiberMag_r,p.fiberMag_i,p.fiberMag_z      from PhotoObj as p   JOIN SpecObj as s ON s.bestObjID = p.objID"
+2019-03-30 13:41:00,1

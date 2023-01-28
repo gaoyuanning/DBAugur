@@ -1,0 +1,2 @@
+1,"select p.run, p.rerun, p.camcol, p.field, p.obj, p.ra, p.dec, p.rowc, p.colc into mydb.test_check_mga from photoobjall p inner join mydb.smga s on ((abs (p.ra - s.ra) = min (abs (p.ra-s.ra) )) and (abs (p.dec - s.dec) = min (abs (p.dec-s.dec) )) )"
+2019-05-13 06:35:00,1

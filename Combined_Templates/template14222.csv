@@ -1,0 +1,4 @@
+3,"select a.objID, a.specObjID, a.ra, a.dec, d.z, a.petroMag_g, a.petroMagErr_g, a.petroMag_r, a.petroMagErr_r, a.extinction_g, a.extinction_r into mydb.fast1 from PhotoObj as a, SpecPhotoAll as d where a.type = # and a.objID = d.objID and d.specObjID = a.specObjID and d.z< #"
+2019-02-25 10:53:00,1
+2019-02-25 10:55:00,1
+2019-02-25 10:57:00,1

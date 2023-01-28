@@ -1,0 +1,3 @@
+2,"SELECT TOP # ra as radeg,dec as decdeg,  u as Sloan_u,err_u as Sloan_u_err,  g as Sloan_g,err_g as Sloan_g_err,  r as Sloan_r,err_r as Sloan_r_err,  i as Sloan_i,err_i as Sloan_i_err,  z as Sloan_z,err_z as Sloan_z_err  FROM Star as s  JOIN dbo.fGetNearbyObjEq(#,#, #) AS sn  ON s.objID = sn.objID  WHERE s.CLEAN=# and s.g<#"
+2019-06-18 10:51:00,1
+2019-06-18 10:54:00,1

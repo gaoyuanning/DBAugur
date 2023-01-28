@@ -1,0 +1,2 @@
+1,"select  count(objid), fPhotoFlags(&&&) from  photoObj where  run = # and camcol = # and field = #"
+2019-02-13 16:10:00,1

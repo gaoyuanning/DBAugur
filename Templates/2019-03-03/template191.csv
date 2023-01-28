@@ -1,0 +1,3 @@
+3,"SELECT TOP # objid, ra, u, g, r FROM star WHERE r<#"
+2019-03-03 18:13:00,1
+2019-03-03 18:14:00,2

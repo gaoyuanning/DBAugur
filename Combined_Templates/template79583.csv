@@ -1,0 +1,2 @@
+1,"select TOP # s.specobjid, s.bestobjid, s.firstrelease, s.survey, s.sourcetype, p.ra, p.raErr, p.dec, p.decErr, s.z, s.zErr, p.modelMag_g from Specobj as s join Photoobj as p on p.objid = s.bestobjid where s.zwarning = # AND S.eboss_target0 & dbo.fEbossTarget0 (#) > #"
+2019-11-28 05:16:00,1

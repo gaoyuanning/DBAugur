@@ -1,0 +1,2 @@
+1,"SELECT top #   DR1#.GalaxyTag.ra,   DR1#.GalaxyTag.dec,   DR1#.GalaxyTag.ObjID into mydb.MyTable from DR1#.GalaxyTag"
+2019-08-26 09:38:00,1

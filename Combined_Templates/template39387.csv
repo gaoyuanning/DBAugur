@@ -1,0 +1,2 @@
+1,"SELECT g.dr7objid, g.ra, g.dec into mydb.MyTable_# from PhotoObjDR7 g WHERE g.ra BETWEEN # AND # AND g.dec BETWEEN # AND # AND g.type = # AND g.primTarget & dbo.fPrimTarget (#) > #"
+2019-05-14 10:41:00,1

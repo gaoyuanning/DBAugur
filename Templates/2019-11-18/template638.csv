@@ -1,0 +1,2 @@
+1,"select top # x, y into mydb.MyTable from Data where x > # order by y desc"
+2019-11-18 12:31:00,1

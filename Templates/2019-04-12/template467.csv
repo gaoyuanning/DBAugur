@@ -1,0 +1,2 @@
+1,"SELECT   g.specobjid,g.plateid,g.mjd,g.fiberid,g.ra,g.dec,g.z,g.z_err,g.z_warning,g.v_disp,g.v_disp_err,g.sn_median,l.all into mydb.DR1#    from galspecinfo AS g   JOIN galspecline AS l ON l.specobjid = g.specobjid   JOIN SpecObjAll AS s ON s.specobjid = g.specobjid  WHERE   s.scienceprimary=#"
+2019-04-12 02:24:00,1

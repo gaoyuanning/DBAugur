@@ -1,0 +1,2 @@
+1,"select top # ra, dec, z, class, modelMag_g from specphoto where subclass = # and (z between # and #) and (modelMag_g between # and #) and (ra between # and #) and (dec between # and #)"
+2019-04-08 01:07:00,1

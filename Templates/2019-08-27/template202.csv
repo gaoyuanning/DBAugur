@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.run,p.rerun,p.camCol,p.field,p.obj,cast(str(p.ra,#,#) as float) as ra,cast(str(p.[dec],#,#) as float) as dec,p.r  FROM ..PhotoObj AS p  WHERE ( p.type = #)"
+2019-08-27 18:21:00,1

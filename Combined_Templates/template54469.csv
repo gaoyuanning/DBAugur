@@ -1,0 +1,3 @@
+2,"SELECT po.objid AS phot_id, po.ra AS phot_ra, po.dec AS phot_dec, po.i AS modmag_i FROM MyScratch.EBV0p1_# tmp INNER JOIN DR1#.PhotoPrimary po ON po.objid = tmp.phot_id"
+2019-07-30 18:59:00,1
+2019-07-30 19:00:00,1

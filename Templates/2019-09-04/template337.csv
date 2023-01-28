@@ -1,0 +1,2 @@
+1,"SELECT p.specObjID, s.subclass into mydb.MyTable2 from photoObjAll as p, SpecObjAll as s WHERE   p.specObjID = s.specObjID    and p.g < # and p.r < #    and p.g - p.r < #   and s.class = &&&"
+2019-09-04 15:50:00,1

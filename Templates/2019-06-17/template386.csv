@@ -1,0 +1,2 @@
+2,"SELECT s.plate, s.fiberid, s.mjd, g.u, g.r, e.flux_oiii_#, e.flux_oiii_#_err    INTO mydb.portsmuth_mags_flux_class  FROM emissionlinesport as e, specobj as s, Galaxy as g      WHERE e.flux_oiii_# > e.flux_oiii_#_err*#       AND s.specobjid = e.specobjid   AND e.flux_oiii_#_err > #   AND s.specobjid = g.specobjid"
+2019-06-17 10:54:00,2

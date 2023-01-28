@@ -1,0 +1,7 @@
+13,"SELECT TOP # G.ObjID, G.u, G.g, G.r, G.i, G.z   FROM Galaxy AS G   JOIN Star AS S   ON G.parentID = S.parentID   WHERE G.parentID > #"
+2019-03-19 09:53:00,1
+2019-03-19 15:13:00,1
+2019-03-19 15:14:00,2
+2019-03-19 15:16:00,1
+2019-03-19 15:18:00,2
+2019-03-19 15:24:00,6

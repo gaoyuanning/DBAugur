@@ -1,0 +1,3 @@
+2,"select ra, dec from SpecPhotoAll, fGetNearbyObjEq(#,#,#)"
+2019-10-03 16:52:00,1
+2019-10-03 16:53:00,1

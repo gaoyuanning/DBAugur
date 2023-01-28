@@ -1,0 +1,2 @@
+1,"SELECT za.specObjID, (po.petroMag_r - po.extinction_r) as dered_petro_r,  FROM SpecObjAll za JOIN PhotoObjAll po ON (po.objID = za.bestObjID) JOIN Photoz zp ON (zp.objID = za.bestObjID) JOIN galSpecInfo zi ON (zi.SpecObjID = za.specObjID) WHERE za.z > # and za.zWarning=# and za.targetType =SCIENCE and za.survey=sdss and za.class=GALAXY and zi.primtarget=# and po.clean=# and po.insideMask=# and dered_petro_r=#"
+2019-10-06 08:10:00,1

@@ -1,0 +1,24 @@
+24,"SELECT EID, [Current_employment_status_corrected_#], [Distance_between_home_and_job_workplace_#], [Current_employment_status_#], [Time_employed_in_main_current_job_#], [Length_of_working_week_for_main_job_#], [Frequency_of_travelling_from_home_to_job_workplace_#], [Transport_type_for_commuting_to_job_workplace_#], [Job_involves_mainly_walking_or_standing_#], [Job_involves_heavy_manual_or_physical_work_#], [Job_involves_shift_work_#], [Job_involve_night_shift_work_#] FROM Employment GO"
+2019-04-15 13:24:00,1
+2019-04-15 13:34:00,1
+2019-04-16 08:56:00,1
+2019-04-16 08:58:00,1
+2019-04-16 10:12:00,1
+2019-04-16 10:14:00,1
+2019-04-16 10:17:00,1
+2019-04-16 10:34:00,1
+2019-04-16 10:35:00,1
+2019-04-17 11:26:00,2
+2019-04-23 09:44:00,1
+2019-04-23 10:47:00,1
+2019-04-23 10:51:00,1
+2019-04-24 09:48:00,1
+2019-04-24 09:54:00,1
+2019-04-24 13:19:00,1
+2019-04-29 11:38:00,1
+2019-04-30 11:43:00,1
+2019-04-30 15:36:00,1
+2019-05-01 09:25:00,1
+2019-05-02 09:32:00,1
+2019-05-02 10:33:00,1
+2019-05-09 10:26:00,1

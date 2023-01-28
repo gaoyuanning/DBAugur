@@ -1,0 +1,7 @@
+7,"select _id ,      location.ToString() as location    from Crimes   where date between &&& and &&&    and homicide = #    and location is not null"
+2019-03-03 13:18:00,2
+2019-03-03 13:20:00,1
+2019-03-03 13:24:00,1
+2019-03-03 14:02:00,1
+2019-03-03 14:03:00,1
+2019-03-03 14:58:00,1

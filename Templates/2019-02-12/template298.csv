@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, modelMag_r, petroMag_r FROM PhotoObjAll WHERE ra > # and ra < # AND dec > # and dec < # AND modelMag_r > # AND Obj > r=#"
+2019-02-12 15:10:00,1

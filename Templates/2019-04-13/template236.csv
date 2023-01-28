@@ -1,0 +1,2 @@
+1,"SELECT p.Name,p.objID,p.photoz,p.photozErr,s.z as specz,s.zErr as speczErr INTO mydb.wiyn_targets_allz1 FROM mydb.wiyn_targets_allphotz as p FULL OUTER JOIN mydb.specz_wiyn_targets as s ON p.objID = s.objID"
+2019-04-13 14:01:00,1

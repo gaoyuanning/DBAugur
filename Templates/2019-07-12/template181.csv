@@ -1,0 +1,2 @@
+1,"select top # p.objid as name, p.ra, p.dec from photoobj p where  (specclass=# or specclass=#)  and zconf > .#"
+2019-07-12 18:41:00,1

@@ -1,0 +1,4 @@
+3,"SELECT TOP #  s.plate,s.mjd,s.fiberid,p.u,p.g,p.r,p.i,p.z,p.modelMagErr_u,p.modelMagErr_g,p.modelMagErr_r,p.modelMagErr_i,p.modelMagErr_z,p.psfMag_u,p.psfMag_g,p.psfMag_r,p.psfMag_i,p.psfMag_z,p.psfMagErr_u,p.psfMagErr_g,p.psfMagErr_r,p.psfMagErr_i,p.psfMagErr_z  FROM ..SpecObj as s  JOIN ..PhotoObj AS p ON s.bestObjID = p.objID  JOIN dbo.fGetObjFromRect(#,#,#,#) AS b ON s.bestobjid = b.objID  WHERE s.z > .# AND s.zWarning = # AND (s.class = &&&) AND s.z < .# AND p.r > # AND p.r < # AND ( p.type = # OR p.type = #)"
+2019-03-24 18:04:00,1
+2019-03-24 18:10:00,1
+2019-03-24 18:11:00,1

@@ -1,0 +1,3 @@
+2,"select p.ra, p.dec, p.run, p.rerun, p.camcol, p.field, p.obj, s.z, p.isoA_g, p.isoA_r, p.isoA_i, p.isoB_g, p.isoB_r, p.isoB_i, p.petroMag_i, p.type, p.nChild from PhotoObjAll p, SpecObjAll s where s.bestObjId = p.ObjID and s.specClass = # and p.isoA_i > # and (p.isoB_g/p.isoA_g) < .# and (p.isoB_r/p.isoA_r) < .# and (p.isoB_i/p.isoA_i) < .# and s.z < # and p.petroMag_i < # and p.nChild < = #"
+2019-03-03 11:35:00,1
+2019-03-03 12:43:00,1

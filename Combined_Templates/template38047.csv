@@ -1,0 +1,2 @@
+1,"SELECT TOP # plateid, mjd, fiberid FROM SpecObj WHERE z BETWEEN # AND # AND snMedian_r > #"
+2019-05-08 07:45:00,1

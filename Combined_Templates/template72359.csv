@@ -1,0 +1,2 @@
+1,"select (convert (varchar, datepart (year, timecreated) )+#+ right (#+convert (varchar, datepart (month, timecreated) ), #) ) as yymm, count (*) as ucnt from users group by convert (varchar, datepart (year, timecreated) )+#+ right (#+convert (varchar, datepart (month, timecreated) ), #) order by convert (varchar, datepart (year, timecreated) )+#+ right (#+convert (varchar, datepart (month, timecreated) ), #)"
+2019-10-29 13:52:00,1

@@ -1,0 +1,3 @@
+3,"SELECT TOP # MJD, plate, fiberID, ra, dec, modelMag_g, modelMag_r into mydb.MyTable from SpecPhotoAll WHERE class = # AND zWarning = # AND modelMag_g - modelMag_r BETWEEN # and # AND modelMag_r > #"
+2019-05-29 13:03:00,2
+2019-05-29 13:04:00,1

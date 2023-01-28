@@ -1,0 +1,2 @@
+2,"select mt.objID, pe.petroR5#_r, pe.petroR9#_r from MyDB.allIDs, photoObjAll pe where pe.objID = mt.objID"
+2019-10-31 09:33:00,2

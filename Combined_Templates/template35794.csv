@@ -1,0 +1,4 @@
+6,"SELECT m.*, o.mjd, o.plate, o.fiberID, dbo.fGetUrlFitsSpectrum (o.specObjId) into mydb.WDlow_cross_SDSSDR1#fits_#sec from mydb.WDlow AS m CROSS APPLY dbo.fGetNearestObjEq (m.RA, m.DEC, #) AS n JOIN SpecPhotoAll AS o ON n.objID = o.objID"
+2019-04-30 07:30:00,2
+2019-04-30 07:44:00,2
+2019-04-30 07:52:00,2

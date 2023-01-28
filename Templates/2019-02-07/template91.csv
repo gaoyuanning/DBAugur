@@ -1,0 +1,2 @@
+1,"SELECT TOP # P.camcol, P.type, P.rowv FROM PhotoObj AS P WHERE P.rowv > #"
+2019-02-07 20:04:00,1

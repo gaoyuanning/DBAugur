@@ -1,0 +1,2 @@
+1,"select plateID, ra, dec from platex WHERE ra > # and ra < #"
+2019-09-26 20:18:00,1

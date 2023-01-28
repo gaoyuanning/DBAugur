@@ -1,0 +1,2 @@
+1,"SELECT TOP # MAX(ar.Name), a.Title, COUNT(*) as numTracks, SUM(t.UnitPrice) as price FROM chinook.Album AS a JOIN chinook.Track AS t ON a.AlbumId = t.AlbumId JOIN chinook.Artist AS ar on ar.ArtistId = a.ArtistId GROUP BY a.Title ORDER BY price DESC"
+2019-04-11 15:03:00,1

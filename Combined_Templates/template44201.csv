@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec into stars.radec FROM star WHERE dec > = #"
+2019-06-06 15:49:00,1

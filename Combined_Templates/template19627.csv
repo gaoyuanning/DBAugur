@@ -1,0 +1,2 @@
+1,"select top # objId, dbo.fPrimTargetN (primTarget) as primTarget from photoObj"
+2019-03-12 20:01:00,1

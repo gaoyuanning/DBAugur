@@ -1,0 +1,4 @@
+3,select thingId into mydb.MyTable from DR1#.thingIndex where nDetect > #
+2019-09-26 11:20:00,1
+2019-09-26 11:21:00,1
+2019-09-26 11:27:00,1

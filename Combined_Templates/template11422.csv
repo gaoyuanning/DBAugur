@@ -1,0 +1,2 @@
+1,"select top # objid, z, zErr, absMagR from photoz where z Between # and # and nnCount > # and zErr BETWEEN # and #"
+2019-02-15 14:55:00,1

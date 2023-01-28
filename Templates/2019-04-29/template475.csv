@@ -1,0 +1,2 @@
+1,"select top # X, ROUND(X*X,#) from Data"
+2019-04-29 11:00:00,1

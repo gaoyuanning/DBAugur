@@ -1,0 +1,2 @@
+1,"select fparam_teff as xcol, fparam_logg as ycol from proba6 where fparam_teff between # and # AND fparam_logg between # and #"
+2019-03-07 13:42:00,1

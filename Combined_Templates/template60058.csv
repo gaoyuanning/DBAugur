@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.deVRad_u, p.deVRadErr_u, p.deVRad_z, p.deVRadErr_z, g.lgm_tot_p5# p.z, p.run, p.rerun, p.camcol, p.field, s.specobjid, s.class, s.z as redshift, s.plate, s.mjd, s.fiberid FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN galSpecExtra AS g ON g.specobjid = p.specobjid WHERE s.z BETWEEN # AND # AND g.lgm_tot_p5# > #"
+2019-09-01 22:12:00,1

@@ -1,0 +1,2 @@
+2,"SELECT objID, ra, dec FROM Galaxy WHERE ra is between # and #"
+2019-06-15 12:42:00,2

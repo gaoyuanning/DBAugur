@@ -1,0 +1,2 @@
+1,SELECT TOP #    * FROM sppParams as sp join SpecObjAll as SOA on sp.bestObjID=SOA.bestObjID WHERE	    SOA.ra between # and # and SOA.dec between # and # -- where the velocities are reliable
+2019-05-23 02:51:00,1

@@ -1,0 +1,2 @@
+1,"select ra, dec, z, class from specObj where special_target1 & dbo.fSpecialTarget1 (#) > # and z between # and # and class = #"
+2019-03-30 05:12:00,1

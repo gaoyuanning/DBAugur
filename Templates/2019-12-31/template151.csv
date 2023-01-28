@@ -1,0 +1,2 @@
+1,"select top # ra, dec, j from apogeestar join apogeeobject on apogeeobject.target_id=apogeestar.target_id"
+2019-12-31 11:34:00,1

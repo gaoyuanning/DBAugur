@@ -1,0 +1,2 @@
+1,"select *,topoint(ra,dec) as pt into tapsampletablepoint from tapsampletable"
+2019-10-09 14:02:00,1

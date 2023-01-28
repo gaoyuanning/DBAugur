@@ -1,0 +1,2 @@
+1,"SELECT TOP #  a.telescope  FROM apogeeStar as a  JOIN dbo.fGetNearbyApogeeStarEq(#,#,#) AS b ON b.apstar_id = a.apstar_id  JOIN apogeeObject as o ON a.apogee_id=o.apogee_id  JOIN aspcapStar as q ON a.apstar_id=q.apstar_id"
+2019-12-09 17:34:00,1

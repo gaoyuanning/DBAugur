@@ -1,0 +1,2 @@
+1,"SELECT t.thingid, t.ndetect, p.objid, p.dec, p.ra, p.psfMag_u, p.psfMagErr_u, p.psfMag_g, p.psfMagErr_g, p.psfMag_r, p.psfMagErr_r, p.psfMag_i, p.psfMagErr_i, p.psfMag_z, p.psfMagErr_z, p.mjd, p.score into mydb.MyTable from mydb.AllThingIds as things JOIN thingIndex AS t ON things.thingid= t.thingid JOIN detectionindex AS d ON t.thingid = d.thingid JOIN SpecPhotoALL p ON d.objid=p.objid                  order by t.thingid"
+2019-01-16 14:02:00,1

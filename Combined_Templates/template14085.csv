@@ -1,0 +1,2 @@
+1,"select top # p.objid, p.ra, p.dec, sp.z, sp.class from photoobj p, dbo.fgetNearByObjEq (#, #, #) n, SpecPhoto as sp where (sp.psfmag_r-sp.extinction_r > #)"
+2019-02-25 16:52:00,1

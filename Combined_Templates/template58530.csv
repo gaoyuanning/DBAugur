@@ -1,0 +1,3 @@
+2,"SELECT p.objID, q.ra, q.dec, q.fiber2Flux_u, q.fiber2FluxIvar_u, q.fiber2Flux_g, q.fiber2FluxIvar_g, q.fiber2Flux_r, q.fiber2FluxIvar_r, q.fiber2Flux_i, q.fiber2FluxIvar_i, q.fiber2Flux_z, q.fiber2FluxIvar_z into MyDB.J1#_#fiberphotometry from fGetObjFromRect (#, #, #, #) as p, DR1#.PhotoObjAll as q WHERE p.objID = q.objID"
+2019-08-20 00:01:00,1
+2019-08-20 00:02:00,1

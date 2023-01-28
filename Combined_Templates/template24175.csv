@@ -1,0 +1,2 @@
+1,"SELECT gal.objID, s.ra, s.dec, s.z, s.zErr into mydb.MyTable from Galaxy as gal JOIN SpecObj s ON s.bestObjID = gal.objID JOIN galSpecExtra gse ON gse.specObjID = s.specObjID WHERE s.z BETWEEN # AND # AND gse.lgm_tot_p5# > #"
+2019-03-26 14:57:00,1

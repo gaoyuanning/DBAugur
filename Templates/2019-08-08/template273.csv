@@ -1,0 +1,3 @@
+2,"SELECT  g.objID, g.petroRad_u, g.petroRad_g, g.petroRad_r, g.petroRad_i, g.petroRad_z, p.z FROM Galaxy g JOIN Photoz p ON p.objID = g.objID WHERE g.type = &&& AND p.z > &&& AND p.z <= &&&"
+2019-08-08 14:12:00,1
+2019-08-08 14:14:00,1

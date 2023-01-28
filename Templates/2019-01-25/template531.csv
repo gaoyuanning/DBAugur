@@ -1,0 +1,3 @@
+3,"SELECT Z.objID, Z.z, Z.zErr, G.ra, G.dec, Z.absMag_r, Z.rest_gr into mydb.photoz from DR7.Photoz as Z, DR7.PhotoObjAll as G WHERE Z.objID = G.Objid and G.type = # and Z.z < # and Z.z != # and G.ra <= #"
+2019-01-25 04:40:00,2
+2019-01-25 04:42:00,1

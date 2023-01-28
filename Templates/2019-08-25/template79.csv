@@ -1,0 +1,3 @@
+3,"SELECT GP_S.indd, GP_S.SDSS_DR1#_BestObjIDD, GP_S.SpecObjIDD, SO.specObjID, S.specObjID, S.ra, S.dec, S.z, S.fiberID, S.plate , S.mjd, S.tile, GSL.h_alpha_flux, GSL.h_alpha_flux_err,    GSL.h_beta_flux, GSL.h_beta_flux_err, GSL.oii_#_flux, GSL.oii_#_flux_err, GSL.oii_#_flux, GSL.oii_#_flux_err, GSL.oiii_#_flux, GSL.oiii_#_flux_err, GSL.oiii_#_flux, GSL.oiii_#_flux_err        into mydb.MyTable_#_LBA_SDSS_Obj_table_info_#_#_v2  from SpecPhotoAll as S, SpecObj as SO, galSpecLine as GSL, mydb.MyTable_#_LBA_SDSS_Obj_table as GP_S WHERE      GP_S.SDSS_DR1#_BestObjIDD = SO.bestObjID and SO.SpecObjID = S.SpecObjID and S.SpecObjID = GSL.specObjID"
+2019-08-25 18:35:00,2
+2019-08-25 18:36:00,1

@@ -1,0 +1,3 @@
+2,select top(#) * from sys.dm_exec_external_work order by end_time DESC
+2019-05-03 06:58:00,1
+2019-05-03 06:59:00,1

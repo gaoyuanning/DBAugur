@@ -1,0 +1,3 @@
+2,select count (objID) into mydb.MyTable from phototag
+2019-07-30 16:16:00,1
+2019-07-30 16:27:00,1

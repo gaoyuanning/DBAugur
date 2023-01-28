@@ -1,0 +1,2 @@
+1,"select top # s.class, s.subclass, p.ra as sdss_ra, p.dec as sdss_dec, W.ra as wise_ra, W.dec as wise_dec, p.psfmag_r as r, W.w1mpro as w1, W.w2mpro as w2, W.w3mpro as w3 from wise_xmatch as X join wise_allsky as W on X.wise_cntr = W.cntr join photoTag as p on X.sdss_objid = p.objid JOIN SpecObj AS s ON s.specobjid = p.specobjid where p.nchild = #"
+2019-01-09 09:09:00,1

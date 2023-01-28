@@ -1,0 +1,2 @@
+1,"SELECT p.objID,p.ra,p.dec,p.clean,p.flags,s.specObjID as specObjID,s.z_noqso as specz_noqso,s.zErr_noqso as speczErr_noqso,s.zWarning_noqso as speczWarning_noqso,s.class,p.rowv as RowV,p.rowvErr as RowVErr,p.colv as ColV,p.colvErr as ColVErr, dbo.fPhotoFlagsN(p.flags) as note from Galaxy as p LEFT OUTER JOIN specObjAll as s ON s.bestObjID = p.ObjID WHERE (p.clean = #) AND ((p.rowv*p.rowv)/(p.rowVerr*p.rowVerr)+(p.colv*p.colv)/(p.colvErr*p.colvErr)>#) AND s.z># AND s.zErr># AND s.class=&&& AND"
+2019-05-08 03:55:00,1

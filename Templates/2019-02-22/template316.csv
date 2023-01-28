@@ -1,0 +1,2 @@
+1,"SELECT ALL into mydb.sdss_stripe_Xallwise      wiseXsdss.sdss_objid,   wiseXsdss.wise_cntr,    wiseXsdss.match_dist       FROM      WISE_xmatch wiseXsdss    JOIN    PhotoPrimary sdss ON sdss.objID = wiseXsdss.sdss_objid     WHERE   sdss.b > #   AND sdss.l >= #   AND sdss.l <= #"
+2019-02-22 08:06:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # G.ObjID, G.ra, G.dec, spec.z, G.u, G.g, G.r, G.i, G.z FROM Galaxy as G   join SpecObjAll as spec on spec.specObjID = G.specObjID   Into MyDB.ellip2_galax   WHERE      (spec.z between # and #) and          spec.zErr < #    and (G.flags & (dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&))) > #      and (G.flags & ( dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&))) != dbo.fPhotoFlags(&&&)      and (G.flags & (dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&))) = #"
+2019-05-26 00:47:00,1

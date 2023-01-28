@@ -1,0 +1,5 @@
+5,"SELECT p.objID, p.ra, p.raErr, p.dec, p.decErr, z.z, z.zErr INTO mydb.Clustering FROM PhotoObjAll p INNER JOIN Photoz z ON z.objID = p.objID WHERE p.type = # AND z.z < #"
+2019-08-25 04:17:00,2
+2019-08-25 04:22:00,1
+2019-08-25 04:23:00,1
+2019-08-25 04:26:00,1

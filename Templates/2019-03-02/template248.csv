@@ -1,0 +1,2 @@
+1,"SELECT Top #   g.ra,g.dec,   n.objid, n.distance,   o.specObjID, o.plate, o.fiberID, o.mjd, o.z, o.zErr, o.zWarning, o.class, o.bestObjID, o.sciencePrimary INTO MyDB.CGM_ALF_SDSS_SPEC  FROM MyDB.CGM_ALF_OC AS g  CROSS APPLY dbo.fGetNearbyObjAllEq(g.ra, g.dec, #) AS n  JOIN SpecObj AS o ON n.objid = o.bestObjID"
+2019-03-02 17:00:00,1

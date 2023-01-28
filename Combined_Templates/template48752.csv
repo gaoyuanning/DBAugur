@@ -1,0 +1,2 @@
+1,"select ObjID, g, r, i from photoObj where ObjID IN ()"
+2019-06-27 02:48:00,1

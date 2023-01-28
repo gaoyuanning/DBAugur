@@ -1,0 +1,6 @@
+6,"SELECT TOP #  g.lgm_tot_p5#, p.devRad_r, p.devRadErr_r,  s.z as redshift, p.ra,p.dec,   s.class, p.fracDev_r, Z.p_cs_debiased, Z.p_el_debiased, Z.spiral FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid  JOIN galSpecExtra AS g ON g.specobjid = s.specobjid  JOIN zooSpec AS Z ON Z.specobjid = s.specobjid WHERE   s.z BETWEEN # AND #  AND g.lgm_tot_p5# > #  AND p.devRadErr_r > #  AND p.devRad_r > #  AND s.class = &&&"
+2019-12-17 13:34:00,2
+2019-12-17 14:20:00,1
+2019-12-17 14:24:00,1
+2019-12-17 14:26:00,1
+2019-12-17 15:22:00,1

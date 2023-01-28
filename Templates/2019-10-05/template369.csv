@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, i, r, g FROM dbo.PhotoObj  WHERE (ra = # AND dec = #,  i = # AND r= # AND g = #)"
+2019-10-05 00:58:00,1

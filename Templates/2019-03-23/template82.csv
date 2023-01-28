@@ -1,0 +1,5 @@
+7,"select top # ra, dec, z, spectroFlux_g from specobj where (ra between # and #) and (dec between # and #) and class = &&& and spectroFlux_g > #"
+2019-03-23 19:34:00,1
+2019-03-23 19:48:00,3
+2019-03-23 19:50:00,2
+2019-03-23 20:06:00,1

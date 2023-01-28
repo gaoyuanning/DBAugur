@@ -1,0 +1,2 @@
+1,"select TOP # (m.RA-w.ra), (m.DEC-w.dec), w.w1mpro from mydb.MaNGA_dap_mpl8 m, WISE_allsky w where m.RA BETWEEN (w.ra + #) and (w.ra - #)"
+2019-04-03 06:31:00,1

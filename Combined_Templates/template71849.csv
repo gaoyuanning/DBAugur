@@ -1,0 +1,6 @@
+6,"select DISTINCT TOP # G.objid, G.ra, G.dec, G.u, G.g, G.r, G.i, G.z, G.fieldID, G.specobjid, S.subclass, S.z, S.veldisp, s.elodieFeH, Z.nvote, Z.spiral, Z.elliptical, Z.uncertain from zooSpec Z join Galaxy G on Z.specObjID = G.specObjID join Frame F on F.fieldID = G.fieldID join SpecObj S on S.specObjID = G.specObjID"
+2019-10-27 16:20:00,1
+2019-10-27 16:33:00,1
+2019-10-27 16:34:00,1
+2019-10-27 16:59:00,1
+2019-10-27 17:00:00,2

@@ -1,0 +1,4 @@
+3,"SELECT TOP # PERCENT objID,type,dec,ra,u,g,r,i,z,flags_r into mydb.MyTable from Galaxy WHERE   AND ((flags_r & #) != #)   AND ((flags_r & #) = #)   AND (((flags_r & #) = #) or (psfmagerr_r <= #))   AND (((flags_r & #) = #) or (flags_r & #) = #)"
+2019-07-09 10:59:00,1
+2019-07-09 11:05:00,1
+2019-07-09 11:06:00,1

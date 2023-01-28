@@ -1,0 +1,6 @@
+5,"SELECT p.objid,s.fiberID,p.fiberMag_r,s.mjd,s.plate,s.specClass,s.specObjID,s.z,s.zErr,p.ra,p.dec, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, p.modelMagerr_u, p.modelMagerr_g, p.modelMagerr_r, p.modelMagerr_i, p.modelMagerr_z, p.petroMag_u, p.petroMag_g, p.petroMag_r, p.petroMag_i, p.petroMag_z, p.petroMagerr_u, p.petroMagerr_g, p.petroMagerr_r, p.petroMagerr_i, p.petroMagerr_z, p.camcol, p.extinction_g,p.extinction_i,p.extinction_r,p.extinction_u,p.extinction_z,p.field,p.rerun,p.run,p.petroRad_r,p.petroRaderr_r,p.deVRad_i,p.deVAB_i,p.expRad_i,p.expAB_i,p.deVPhi_i,p.expPhi_i FROM dbo.fGetNearbyObjEq(#, #, #) as b, PhotoObj as p, SpecObj as s WHERE b.objID = p.objID and s.bestObjID = p.objID"
+2019-08-21 01:10:00,1
+2019-08-21 04:44:00,1
+2019-08-21 05:17:00,1
+2019-08-21 05:20:00,1
+2019-08-21 05:50:00,1

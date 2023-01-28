@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.expMag_u, p.expMag_g, p.expMag_r, p.expMag_i, p.expMag_z INTO MyDB.sdssbasicdata4 FROM PhotoObjAll AS p INNER JOIN SpecObjAll AS s on p.objID = s.bestObjID"
+2019-06-22 06:35:00,1

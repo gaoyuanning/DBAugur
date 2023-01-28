@@ -1,0 +1,2 @@
+1,"SELECT * FROM SELECT COUNT (one) , COUNT (two) FROM (SELECT CASE WHEN N.i> # THEN # END one, CASE WHEN NN.i> # THEN # END two FROM dbo.spNearestObjEq (#, #, #) as N, dbo.spNearestObjEq (#, #, #) as NN"
+2019-02-03 10:08:00,1

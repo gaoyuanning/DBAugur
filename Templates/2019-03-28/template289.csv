@@ -1,0 +1,2 @@
+1,SELECT G.objId top # FROM Galaxy as G JOIN SpecObj as S ON G.objId=S.bestObjId JOIN SpecLine as L ON S.specObjId=L.specObjId WHERE L.LineId = #
+2019-03-28 17:58:00,1

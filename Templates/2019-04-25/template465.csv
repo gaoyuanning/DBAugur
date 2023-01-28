@@ -1,0 +1,2 @@
+1,"select   s.specObjID, s.objID, s.ra, s.dec, s.z, s.zerr,s.zWarning,   s.rerun,s.plate, s.tile, s.fiberID, s.fiberMag_g,s.fiberMag_r    from SpecPhotoAll as s      into MyDB.nep_z2#arcmin_#a    where     s.ra between # and # and   s.dec between # and #"
+2019-04-25 12:33:00,1

@@ -1,0 +1,2 @@
+1,"SELECT o.SdssNum, s.specObjID, s.ra, s.dec, s.z_noqso, s.zErr_noqso, s.z, s.zErr, s.class, s.subClass into mydb.emplibSpec from dbo.SpecObj as s, mydb.emplib1 as o WHERE s.specObjID = o.specObjID"
+2019-12-01 06:59:00,1

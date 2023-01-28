@@ -1,0 +1,2 @@
+1,"select p. ra, p. dec, p. specObjID, s. run1d, p. modelMa_g, s. subClass, p. psfMag_r, p. psfMag_g, p. modelMa_r from PhotoObjAll as p, SpecObjAll as s where p. specObjID = s. specObjID and s. class = # ;"
+2019-09-05 14:27:00,1

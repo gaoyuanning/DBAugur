@@ -1,0 +1,3 @@
+2,"SELECT t.thingid, t.ndetect,t.ra,t.dec,d.objid,p.mjd, p.u, p.g, p.r, p.i,p.z, p.err_u,p.err_g,p.err_r,p.err_i,p.err_z FROM thingIndex AS t  JOIN detectionindex AS d ON t.thingid = d.thingid JOIN specobj AS s ON t.objid = s.bestobjid  JOIN photoobjall AS p ON p.objid = d.objid  where t.thingid=#"
+2019-03-05 17:17:00,1
+2019-03-05 17:18:00,1

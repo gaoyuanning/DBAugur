@@ -1,0 +1,5 @@
+4,"SELECT TOP # GalSpecLine.oii_#_flux, GalSpecLine.h_beta_flux, GalSpecLine.nii_#_flux, GalSpecLine.h_alpha_flux, GalSpecLine.sii_#_flux, GalSpecLine.sii_#_flux, GalSpecLine.oi_#_flux FROM SpecObj JOIN GalSpecLine ON SpecObj.specobjid = GalSpecLine.specobjid WHERE SpecObj.class = galaxy AND SpecObj.z between # and # AND SpecObj.snmedian_g > # AND GalSpecLine.sigma_balmer < # AND GalSpecLine.oiii_#_flux > # AND GalSpecLine.h_beta_flux > # AND GalSpecLine.nii_#_flux > # AND GalSpecLine.h_alpha_flux > # AND GalSpecLine.sii_#_flux > # AND GalSpecLine.sii_#_flux > # AND GalSpecLine.oi_#_flux > #"
+2019-12-10 05:56:00,1
+2019-12-10 05:58:00,1
+2019-12-10 06:01:00,1
+2019-12-10 06:02:00,1

@@ -1,0 +1,2 @@
+1,"SELECT objid, ra, dec, u, g, r, i, z, psfMag_u, psfMagErr_u, psfMag_g, psfMagErr_g, psfMag_r, psfMagErr_r, psfMag_i, psfMagErr_i, psfMag_z, psfMagErr_z FROM PhotoObj  WHERE objid= #"
+2019-02-27 16:12:00,1

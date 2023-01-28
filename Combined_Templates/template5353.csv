@@ -1,0 +1,3 @@
+2,"SELECT p.ra AS ra_p, p.dec AS dec_p, o.ra AS ra_s, o.dec AS dec_s, p.ObjID, o.bestObjID, o.fluxObjID, o.specObjID, o.z, o.zErr, o.zWarning, o.class, o.subClass, o.rChi2, o.z_noqso, o.zErr_noqso, o.zWarning_noqso, o.class_noqso, o.z_person, o.class_person, p.modelMag_u, p.modelMagErr_u, p.modelMag_g, p.modelMagErr_g, p.modelMag_r, p.modelMagErr_r, p.modelMag_i, p.modelMagErr_i, p.modelMag_z, p.modelMagErr_z, p.flags AS flags_p INTO MyDB.All_SHELA_data FROM dbo.PhotoObj AS p LEFT JOIN dbo.SpecObj AS o ON p.ObjID = o.bestObjID WHERE p.ra > # and p.ra < # and p.dec > # and p.dec < #"
+2019-01-23 17:23:00,1
+2019-01-23 17:24:00,1

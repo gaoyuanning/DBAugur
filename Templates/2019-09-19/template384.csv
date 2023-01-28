@@ -1,0 +1,2 @@
+1,"SELECT top #  objid, ra, dec, psfmag_i-extinction_i AS mag_i,  psfmag_r, extinction_r, z   FROM SpecPhoto   WHERE # < ra < #"
+2019-09-19 04:13:00,1

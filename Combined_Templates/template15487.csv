@@ -1,0 +1,2 @@
+1,"select top # _id, latitude, longitude, location.ToString () as location , [date] from weather order by [date] desc"
+2019-02-28 16:33:00,1

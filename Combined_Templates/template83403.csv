@@ -1,0 +1,2 @@
+1,"SELECT TOP # f.specobjid, f.plate, f.mjd, f.fiberid, f.ra, f.dec, f.z_noqso AS redshift, f.Chabrier_MILES_metallicity_lightW FROM sdssEbossFirefly f WHERE f.z_noqso > #"
+2019-12-17 12:02:00,1

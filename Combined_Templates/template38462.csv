@@ -1,0 +1,2 @@
+1,"select Galaxy.modelMag_u, Galaxy.modelMag_g, Galaxy.modelMag_r, Galaxy.modelMag_i, Galaxy.modelMag_z, Galaxy.ra, Galaxy.dec, Galaxy.ObjID from Galaxy JOIN dbo.fGetNearbyObjEq (#., #, #) AS GN ON G.objID = GN.objID ORDER BY distance"
+2019-05-10 15:28:00,1

@@ -1,0 +1,2 @@
+1,"SELECT z, ra, dec, bestObjID FROM specObj WHERE (class = nebula)"
+2019-11-26 22:44:00,1

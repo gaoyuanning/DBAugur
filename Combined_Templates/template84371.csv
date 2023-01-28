@@ -1,0 +1,2 @@
+2,"SELECT TOP # \ \ objID, ra, dec, modelMag_u, modelMag_g \ \FROM \ \ PhotoPrimary \ \WHERE \ \ ra BETWEEN # and # \ \AND dec BETWEEN # and # \ \AND type = # \ \AND clean = # \ \AND modelMag_u - modelMag_g < # AND modelMag_u - modelMag_g < # \\"
+2019-12-24 17:29:00,2

@@ -1,0 +1,2 @@
+1,"select top # objid, ra, dec, modelMag_r, modelMag_i, modelMag_u, modelMag_z, modelMag_g from SpecObjAll where dec BETWEEN # AND # and ra between # and #"
+2019-09-29 15:19:00,1

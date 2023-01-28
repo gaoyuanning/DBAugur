@@ -1,0 +1,2 @@
+1,"SELECT     p.ra,p.dec,p.type into mydb.MyTable from photoobj AS p   JOIN mydb.stripe8#_star AS s ON    s.ra = p.ra and s.dec=p.dec"
+2019-05-02 04:30:00,1

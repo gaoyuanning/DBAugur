@@ -1,0 +1,2 @@
+1,"SELECT top # p.ra, p.dec, s.z, p.ObjID FROM photoObj p JOIN specObj s ON s.bestObjID = p.objID WHERE s.z between # and #"
+2019-11-07 14:35:00,1

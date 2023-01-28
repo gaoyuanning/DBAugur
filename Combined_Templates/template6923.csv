@@ -1,0 +1,3 @@
+4,"select A.specObjID, A.plateid, A.mjd, B.h_beta_flux, B.h_alpha_flux, B.oiii_#_flux, B.oiii_#_flux, B.nii_#_flux, B.nii_#_flux, B.h_beta_flux_err, B.h_alpha_flux_err, B.oiii_#_flux_err, B.oiii_#_flux_err, B.nii_#_flux_err, B.nii_#_flux_err INTO MYDB.Rosi_lineas_broadline FROM MYDB.MyTable_BR as A JOIN galSpecLine as B on A.specObjID = B.specObjID"
+2019-01-30 14:57:00,2
+2019-01-30 15:02:00,2

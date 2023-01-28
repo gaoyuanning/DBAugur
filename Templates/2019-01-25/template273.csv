@@ -1,0 +1,2 @@
+1,SELECT TOP # s.objID into mydb.MyTable from SpecObj as s
+2019-01-25 15:26:00,1

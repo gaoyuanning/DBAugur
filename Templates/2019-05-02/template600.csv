@@ -1,0 +1,3 @@
+2,"CREATE TABLE [Work_environment] ( 	eid BIGINT NOT NULL ,	[When_occupational_data_entered_#] DATETIME -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Year_ended_full_time_education_#] INTEGER -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Invitation_to_complete_online_occupational_questionnaire_date_sent_#] DATETIME -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Device_used_to_enter_occupational_data_#] INTEGER -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=# ,PRIMARY KEY (eid)) GO"
+2019-05-02 09:35:00,1
+2019-05-02 10:37:00,1

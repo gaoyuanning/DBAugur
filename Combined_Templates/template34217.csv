@@ -1,0 +1,2 @@
+1,"select top # x, y, c = sin (y+x) from data where y < # and cos (x) -y*y > # order by RunID asc, x desc */ /* select RunID, N = count (ID) , Nr = count (distinct RunID) , AVG (Y) as AvgY from data where X > # or X < # group by RunID */ /* declare @bin float = # select x = round (x / @bin, #) * @bin, n = count (ID) from data group by round (x / @bin, #) * @bin order by # */ select distinct UserID from Runs where RunID IN () --select * from Users where UserID = #"
+2019-04-24 12:58:00,1

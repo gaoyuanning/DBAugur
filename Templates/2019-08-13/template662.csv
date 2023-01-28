@@ -1,0 +1,2 @@
+1,"SELECT   s.specobjid, s.ra, s.dec, s.z,   s.velDisp, s.velDispErr, s.special_target1, s.sourceType, g.lgm_tot_p5#,  dr7.dr7objid, dr7.distance FROM SpecObj as s ON s.bestobjid = p.objid  JOIN galSpecExtra as g ON g.specobjid = s.specobjid  JOIN PhotoObjDR7 as dr7 ON dr7.dr8objid = p.objid WHERE dr7.dr7objid = #"
+2019-08-13 05:22:00,1

@@ -1,0 +1,2 @@
+1,select t.z_SN into mydb.test2# from mydb.OpenSN t
+2019-03-22 10:24:00,1

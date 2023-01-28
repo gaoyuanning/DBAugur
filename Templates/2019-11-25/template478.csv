@@ -1,0 +1,2 @@
+1,"SELECT   g.objID, y.specobjID, g.ra, g.dec, y.ra, y.dec, y.z, y.zerr, y.zwarning, z_person, class_person, comments_person, g.Modelmag_u, g.Modelmagerr_u,    g.Modelmag_g, g.Modelmagerr_g, g.Modelmag_r, g.Modelmagerr_r, g.Modelmag_i, g.Modelmagerr_i, g.Modelmag_z, g.Modelmagerr_z,      into mydb.sdss1 from galaxyTag g      join specobj y ON y.specobjID = g.specobjID WHERE g.ra># and g.ra<#"
+2019-11-25 03:59:00,1

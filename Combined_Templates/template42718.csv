@@ -1,0 +1,2 @@
+1,"select objid, ra, dec, dered_u, dered_g, dered_r, dered_i, dered_z into MyDB.dr7allobjs from PhotoObjAll where type = #"
+2019-05-29 02:10:00,1

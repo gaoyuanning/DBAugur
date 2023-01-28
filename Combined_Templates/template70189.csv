@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.SpecObjID, s.z, L.ew, L.sigma, L.height, dbo.fCosmoDl (s.z) , wave, restWave, so.mag_# into mydb.help FROM SpecPhoto as s, SpecLine as L, SpecObjAll as so WHERE s.specClass = # AND L.lineID = # AND L.ew > # AND L.height > # AND abs (s.z-#) < # AND L.specObjID = s.specObjID AND so.specObjID = s.specObjID"
+2019-10-17 06:28:00,1

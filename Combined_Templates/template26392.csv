@@ -1,0 +1,3 @@
+2,"SELECT TrackId, Name, Composer, UnitPrice into mydb.MyTable from chinook.Track"
+2019-04-01 15:21:00,1
+2019-04-01 15:23:00,1

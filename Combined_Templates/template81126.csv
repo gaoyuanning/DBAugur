@@ -1,0 +1,2 @@
+1,"select SpecPhotoAll.objID, SpecPhotoAll.plate as SDSSplate, SpecPhotoAll.mjd as SDSSmjd, SpecPhotoAll.fiberID, SpecPhotoAll.ra as SDSSra, SpecPhotoAll.dec as SDSS dec, XX_new.* into mydb.giantIDs_new3 from DR9.SpecPhotoAll, mydb.XX_new where SpecPhotoAll.plate = XX_new.plate and SpecPhotoAll.mjd = XX_new.mjd and SpecPhotoAll.fiberID = XX_new.fib"
+2019-12-06 12:43:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # z, zErr into mydb.MyTable_# from Photoz ORDER BY zErr DESC"
+2019-02-22 11:47:00,1

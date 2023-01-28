@@ -1,0 +1,2 @@
+2,"SELECT o.ra, o.dec into mydb.y FROM MyDB.MyTable AS m ? Join dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n ? JOIN PhotoObj AS o"
+2019-12-31 01:29:00,2

@@ -1,0 +1,4 @@
+3,"SELECT x.name as name, s.specobjid, s.ra, s.dec, s.z, s.plate, s.mjd, s.fiberid, s.psfMag_u, s.psfMag_g, s.psfMag_r, s.psfMag_i, s.psfMag_z, s.psfMagErr_u, s.psfMagErr_g, s.psfMagErr_r, s.psfMagErr_i, s.psfMagErr_z, s.class, s.type INTO mydb.svi_Spec_Photo_r_do_#_DR1# FROM mydb.qso2 as x CROSS APPLY dbo.fGetNearbySpecObjEq (x.ra, x.dec, #) AS n JOIN SpecPhotoAll AS s ON n.specobjid = s.specobjid WHERE class ! = # AND psfMag_r < #"
+2019-11-07 07:52:00,1
+2019-11-07 07:58:00,1
+2019-11-07 08:03:00,1

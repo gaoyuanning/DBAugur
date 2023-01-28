@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra, dec, z, z_err, modelMag_u as mag_u, modelMag_g as mag_g, modelMag_r as mag_r, modelMag_i as mag_i, modelMag_z as mag_z FROM SpecPhoto WHERE dec BETWEEN # AND # AND specClass = # AND z < #"
+2019-09-23 16:35:00,1

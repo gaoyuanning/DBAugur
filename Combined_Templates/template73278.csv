@@ -1,0 +1,5 @@
+4,"SELECT p.objId, p.ra, p.dec, p.petror9#_r, p.expAB_r, p.dered_u as u, p.dered_g as g, p.dered_r as r, p.dered_i as i, s.z, s.plate, s.mjd, s.fiberid FROM galaxy AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN galSpecInfo as g ON g.ra = p.ra AND g.dec = p.dec WHERE s.z between # and # ORDER BY p.objId"
+2019-11-02 10:09:00,1
+2019-11-02 10:11:00,1
+2019-11-02 10:12:00,1
+2019-11-02 10:14:00,1

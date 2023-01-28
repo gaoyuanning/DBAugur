@@ -1,0 +1,2 @@
+1,"select TOP # s.z, p.fracDeV_r, p.expAB_r from PhotoObjAll as p, SpecObjAll AS s, SpecPhotoAll AS sp where p.objID = s.bestObjID AND p.objID = sp.objID"
+2019-10-22 15:58:00,1

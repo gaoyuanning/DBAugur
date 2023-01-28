@@ -1,0 +1,4 @@
+3,"select  top #   specObjID,ra,dec,z,modelMag_u,modelMag_i,modelMag_r,modelMag_g,modelMag_z from SpecPhotoAll where   z<# and dec <# and dec># and ra< # and ra>#"
+2019-09-30 09:38:00,1
+2019-09-30 09:41:00,1
+2019-09-30 09:46:00,1

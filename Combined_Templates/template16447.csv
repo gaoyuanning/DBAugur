@@ -1,0 +1,3 @@
+2,"SELECT str (p.ra, #, #) as ra, str (p.[dec], #, #) as dec, p.u, p.g, p.r, p.i, p.z, IS# (s.z, #) as z, pz.z FROM dbo.fGetNearbyObjEq (#, #, #) as b, BESTDR5..Galaxy as p LEFT OUTER JOIN BESTDR5..SpecObj s ON p.objID = s.bestObjID LEFT OUTER JOIN BESTDR5..Photoz pz ON p.objID = pz.objID WHERE b.objID = p.objID AND p.r < #. AND ( (flags_r & #) ! = #) AND ( (flags_r & #) = #) AND ( ((flags_r & #) = #) or (psfmagerr_g < = #) ) AND ( ((flags_r & #) = #) or (flags_r & #) = #)"
+2019-03-03 11:27:00,1
+2019-03-03 12:37:00,1

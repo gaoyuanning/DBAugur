@@ -1,0 +1,5 @@
+5,"select CANCER_STUDY_IDENTIFIER as cancer_study_id, name, description from cancer_study order by name select top # * from sys.dm_exec_external_work order by end_time DESC"
+2019-05-03 07:15:00,1
+2019-05-03 07:16:00,1
+2019-05-03 07:17:00,2
+2019-05-03 13:56:00,1

@@ -1,0 +1,2 @@
+1,"SELECT top #   x.plate, x.mjd, s.fiberID,p.run, p.rerun, p.camcol, p.field, p.objID, p.ra, p.dec,p.i,s.z FROM photoObj p JOIN dbo.fGetNearbyObjEq(#,#,#) n ON n.objID = p.objID Join specObj s oN s.bestObjID = p.objID JOIN plateX x ON x.plateID = s.plateID where p.type = # and s.z between # and # and s.zWarning = # order by s.z"
+2019-10-13 18:07:00,1

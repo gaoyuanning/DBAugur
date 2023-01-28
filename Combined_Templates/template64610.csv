@@ -1,0 +1,2 @@
+1,"SELECT po.objID, po.ra, po.dec, po.run, po.rerun, po.camcol, po.field, u.UGC_AGC FROM mydb.alpha4# AS u JOIN PhotoObjAll AS po ON (po.objID = u.ObjID)"
+2019-09-23 14:12:00,1

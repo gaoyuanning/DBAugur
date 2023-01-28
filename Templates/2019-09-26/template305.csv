@@ -1,0 +1,6 @@
+5,"SELECT TOP #   ra, dec, modelMag_u , modelMag_g , modelMag_r,modelMag_i,modelMag_z, z into mydb.MyTable_# from SpecPhoto WHERE    z BETWEEN # AND #   AND dec BETWEEN # AND #   AND ra BETWEEN # AND #"
+2019-09-26 14:23:00,1
+2019-09-26 14:26:00,1
+2019-09-26 14:31:00,1
+2019-09-26 14:33:00,1
+2019-09-26 14:34:00,1

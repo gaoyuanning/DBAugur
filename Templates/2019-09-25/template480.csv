@@ -1,0 +1,2 @@
+1,"select *,htmid.FromEq(ra,dec) as sh   from mydb.myhtm"
+2019-09-25 09:49:00,1

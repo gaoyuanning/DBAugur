@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid,p.ra,p.dec,  s.specobjid, s.class, s.z as redshift FROM PhotoObj AS p  JOIN SpecObj AS s ON s.ra = p.ra WHERE"
+2019-06-16 13:58:00,1

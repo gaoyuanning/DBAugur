@@ -1,0 +1,3 @@
+2,"select ra, dec, modelMag_u, modelMag_g, modelMag_r, z as redshift from SpecPhoto  where class = GALAXY"
+2019-03-27 21:29:00,1
+2019-03-27 21:42:00,1

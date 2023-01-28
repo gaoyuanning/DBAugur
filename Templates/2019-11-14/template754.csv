@@ -1,0 +1,2 @@
+1,"SELECT top # ra,dec,z FROM SpecObj  WHERE z># class = &&& ra between # and # and dec between # and # order by z desc"
+2019-11-14 11:18:00,1

@@ -1,0 +1,3 @@
+2,"SELECT gal.ra, gal.dec, gal.corrmag_fuv, gal.corrmag_nuv, gal.FUV_a, gal.NUV_a, sdss.extinction_g into mydb.result_galex from mydb.galex AS gal CROSS APPLY dbo.fGetNearestObjEq(gal.ra, gal.dec, #) AS o JOIN dr7.PhotoObjAll AS sdss ON o.objid=sdss.objid"
+2019-12-27 04:36:00,1
+2019-12-27 05:39:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.plate,s.mjd,s.fiberid FROM BESTDR7..SpecObj as s 	JOIN BESTDR7..PhotoObj AS p ON s.bestObjID = p.objID WHERE  ( p.type = # OR p.type = #)"
+2019-12-04 16:28:00,1

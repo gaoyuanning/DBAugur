@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, z, class, subclass into mydb.dr1#_spec_class from SpecObj WHERE zWarning = # AND class = #"
+2019-11-27 11:56:00,1

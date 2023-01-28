@@ -1,0 +1,2 @@
+1,"select top # g.objid, g.ra, g.dec, g.u AS u, g.g AS g, g.r AS r, g.i AS i, g.z AS z, s.z AS z_obs, p.absMagU AS U, p.absMagG AS G, p.absMagR AS R, p.absMagI AS I, p.absMagZ AS Z, s.subclass, el.bpt from galaxy g, dbo.fgetNearByObjEq (#, #, #) n, specObj s, emissionLinesPort el, Photoz p where g.objid = n.objid and g.objID = s.bestObjID and g.objID = p.objID"
+2019-01-15 08:48:00,1

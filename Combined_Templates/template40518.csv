@@ -1,0 +1,2 @@
+1,"SELECT SpecObjId, z, ra, dec, spectroFlux_u FROM SpecObjAll s1 WHERE class = # AND zWarning = # AND exists (SELECT z FROM SpecObjAll s2 WHERE class = # AND zWarning = # and s1.z = s2.z GROUP BY z HAVING count (*) > = #) ORDER BY z"
+2019-05-20 17:24:00,1

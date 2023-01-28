@@ -1,0 +1,2 @@
+1,"select top # g.ra, g.dec, s.z from galaxy as g, specobj as s where g.ra > # and g.ra < # and g.dec > # and g.dec < # and s.z < #"
+2019-04-26 16:22:00,1

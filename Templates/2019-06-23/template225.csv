@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.plate,s.mjd,s.fiberid,s.z,s.zErr,s.zWarning,s.class,cast(str(s.ra,#,#) as float) as ra,cast(str(s.[dec],#,#) as float) as dec  FROM ..SpecObj as s  JOIN PhotoObj AS p ON s.bestobjid=p.objid  WHERE s.zWarning = # AND p.g < #"
+2019-06-23 19:06:00,1

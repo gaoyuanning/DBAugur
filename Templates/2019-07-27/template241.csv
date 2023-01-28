@@ -1,0 +1,4 @@
+7,"SELECT TOP #  SQRT(# / p.modelFlux_g) as modelflux, s.z as redshift FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE  p.u BETWEEN # AND #  AND s.z BETWEEN # AND #  AND s.class = &&&"
+2019-07-27 09:43:00,1
+2019-07-27 09:44:00,1
+2019-07-27 09:49:00,5

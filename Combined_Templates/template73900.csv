@@ -1,0 +1,4 @@
+3,"SELECT TOP # objid, ra, dec, g, type FROM PhotoObj WHERE run = # and camcol = # and field = # and ra> # and ra< #"
+2019-11-05 14:33:00,1
+2019-11-05 14:41:00,1
+2019-11-08 07:27:00,1

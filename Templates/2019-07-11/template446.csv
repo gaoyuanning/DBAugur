@@ -1,0 +1,2 @@
+1,"SELECT TOP # PERCENT g.objid, g.dec, g.ra, g.u, g.g, g.r, g.i, g.z, zns.nvote, zns.p_el as elliptical, zns.p_cw as spiralclock, zns.p_acw as spiralanticlock, zns.p_edge as edgeon, zns.p_dk as dontknow, zns.p_mg as merger, pz.z, pz.absMagU, pz.absMagG, pz.absMagR, pz.absMagI, pz.absMagZ into mydb.MyTable FROM Galaxy AS G JOIN ZooNoSpec AS zns   ON G.objid = zns.objid JOIN Photoz AS pz      ON G.objid = pz.objid WHERE g.clean=#"
+2019-07-11 09:50:00,1

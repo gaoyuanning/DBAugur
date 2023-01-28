@@ -1,0 +1,2 @@
+1,"SELECT z, count (*) FROM SpecObj GROUP BY z"
+2019-01-25 16:56:00,1

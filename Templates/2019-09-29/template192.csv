@@ -1,0 +1,14 @@
+29,"select top # p.objid,p.ra,p.dec,dbo.fPhotoTypeN(p.type) as type,u,g,r,i,z,Err_u,Err_g,Err_r,Err_i,Err_z,psfMag_u,psfMagErr_u,psfMag_g,psfMagErr_g,psfMag_r,psfMagErr_r,psfMag_i,psfMagErr_i,psfMag_z,psfMagErr_z  from PhotoPrimary p, dbo.fGetNearbyObjEq(#,#,#) n  where p.objId=n.objId"
+2019-09-29 00:45:00,1
+2019-09-29 01:45:00,1
+2019-09-29 02:45:00,1
+2019-09-29 03:45:00,1
+2019-09-29 14:45:00,1
+2019-09-29 15:12:00,9
+2019-09-29 15:32:00,1
+2019-09-29 15:45:00,1
+2019-09-29 16:45:00,1
+2019-09-29 17:37:00,9
+2019-09-29 17:45:00,1
+2019-09-29 18:45:00,1
+2019-09-29 19:45:00,1

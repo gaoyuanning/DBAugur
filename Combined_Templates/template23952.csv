@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, ra , dec, specObjID, ugriz_mags, ugriz_error, photoz FROM PhotoPrimary WHERE ra > # and ra < # AND dec > # and dec < #"
+2019-03-26 21:47:00,1

@@ -1,0 +1,2 @@
+1,"SELECT a.objID, b.ra, b.dec, b.u, b.g, b.r, b.i, b.z into mydb.MyTable from MyDB.t1 a         JOIN PhotoObjAll b ON a.objid=b.objid"
+2019-12-10 18:08:00,1

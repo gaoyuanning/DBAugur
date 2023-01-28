@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, deVAB_r, deVPhi_r, expAB_r, expPhi_r, r FROM Galaxy WHERE r < # AND deVAB_r < # AND expAB_r < #"
+2019-05-15 19:26:00,1

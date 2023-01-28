@@ -1,0 +1,4 @@
+3,"SELECT x.plate, x.mjd, s.fiberID, p.run, p.rerun, p.camcol, p.field, p.objID, p.ra, p.dec, p.i, s.z, p.petroRad_i, p.petroRadErr_i, p.psffwhm_i, p.petroMag_i, p.petroMagErr_i, p.deVRad_i, p.deVRadErr_i, p.deVAB_i, p.deVABErr_i, p.deVPhi_i, p.deVMag_i, p.deVMagErr_i, p.expRad_i, p.expRadErr_i, p.expAB_i, p.expABErr_i, p.expPhi_i, p.expMag_i, p.cModelMag_i, p.cModelMagErr_i, p.extinction_i, p.dered_i, s.velDisp, s.velDispErr, p.petroR5#_i, p.petroR5#Err_i, p.petroR9#_i, petroR9#Err_i FROM photoObj p JOIN dbo.fGetNearbyObjEq (#, #, #) n ON n.objID = p.objID Join specObj s oN s.bestObjID = p.objID JOIN plateX x ON x.plateID = s.plateID where p.type = # and s.z between # and # and s.zWarning = #"
+2019-09-30 17:17:00,1
+2019-09-30 17:32:00,1
+2019-09-30 17:33:00,1

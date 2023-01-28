@@ -1,0 +1,3 @@
+2,"SELECT TOP #   o.SpecObjID,   o.nii_#_flux AS NII_#_FLUX  FROM dbo.galSpecLine AS o"
+2019-08-13 16:42:00,1
+2019-08-13 16:43:00,1

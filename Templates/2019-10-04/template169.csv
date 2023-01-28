@@ -1,0 +1,2 @@
+1,"select top # s.specobjid, s.ra, s.dec, s.z from specobjall s join dbo.fGetNearbyObjEq(#, #, #) n on n.objid = s.objid"
+2019-10-04 15:26:00,1

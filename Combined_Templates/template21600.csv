@@ -1,0 +1,3 @@
+4,"SELECT m.id AS id, m.ra AS ra, m.dec AS dec, n.distance AS dist, o.npof AS nprof, o.profMean as prof_mean FROM MyDB.CAM_CATALOGUE AS m CROSS APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n JOIN fpObjc AS o ON n.objid = o.objid"
+2019-03-19 08:51:00,2
+2019-03-19 08:53:00,2

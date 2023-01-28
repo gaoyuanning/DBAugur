@@ -1,0 +1,2 @@
+1,"select top # modelmag_u, modelmag_g, modelmag_r, z from SpecPhoto where class = # and z< #"
+2019-12-11 13:53:00,1

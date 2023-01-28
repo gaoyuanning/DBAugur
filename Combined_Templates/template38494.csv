@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.class, s.z as redshift, s.elodieSpType as spectraltype, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.deVRad_u, p.deVRad_g, deVRad_r, deVRad_i, deVRad_z, p.deVAB_u, p.deVAB_g, deVAB_r, deVAB_i, deVAB_z, p.mCr4_u, p.mCr4_g, mCr4_r, mCr4_i, mCr4_z, p.petroRad_u, p.petroRad_g, petroRad_r, petroRad_i, petroRad_z FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.u BETWEEN # AND # AND g BETWEEN # AND #"
+2019-05-10 15:04:00,1

@@ -1,0 +1,2 @@
+1,"SELECT ALL p.specObjID, p.b, n.zdist FROM galSpecExtra AS g JOIN PhotoObjAll AS p ON p.specObjID = g.specObjID JOIN nsatlas AS n ON n.ra = p.ra WHERE g.specsfr_fib_p5# < # AND p.b BETWEEN # AND #"
+2019-03-31 23:27:00,1

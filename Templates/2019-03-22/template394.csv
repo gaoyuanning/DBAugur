@@ -1,0 +1,2 @@
+1,"SELECT TOP # bestobjid  p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  p.run, p.rerun, p.camcol, p.field,  s.specobjid, s.class, s.z as redshift,  s.plate, s.mjd, s.fiberid FROM specobj  WHERE  class= &&& and survey=&&& and zwarning=# and z between # and #"
+2019-03-22 15:39:00,1

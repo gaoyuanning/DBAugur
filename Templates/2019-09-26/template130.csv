@@ -1,0 +1,2 @@
+1,"select   p.objid as sdss_id,   s.specobjid as spec_id,   s.bestobjid as best_id,   p.ra as ra,   p.dec as dec,   p.psfMag_u,   p.psfMag_g,   p.psfMag_r,   p.psfMag_i,   p.psfMag_z,   f.mjd_r into mydb.MyTable from photoobj as p   join specobj as s on s.bestobjid = p.objid   join field as f on f.fieldid = p.fieldid      where s.class = &&&"
+2019-09-26 19:18:00,1

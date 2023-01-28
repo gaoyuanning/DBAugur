@@ -1,0 +1,2 @@
+1,"SELECT top # objid,ra,dec,modelmag_g,z FROM SpecPhotoAll WHERE z > # AND z < #"
+2019-11-08 08:22:00,1

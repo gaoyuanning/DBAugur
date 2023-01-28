@@ -1,0 +1,2 @@
+2,"select ra, dec from specObjAll where      mjd = # and   fiberID = # and    plate = #"
+2019-10-15 11:30:00,2

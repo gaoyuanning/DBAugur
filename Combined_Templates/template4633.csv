@@ -1,0 +1,7 @@
+6,"SELECT p.objID, p.ra, p.dec, p.dered_u, p.dered_g, p.dered_r, p.dered_i, p.dered_z, p.clean, p.flags, z.z as photoz, z.zErr as photozErr, s.specObjID as specObjID, s.z as specz, s.zErr as speczErr, dbo.fPhotoFlagsN (flags) as note from Galaxy as p LEFT OUTER JOIN photoz as z ON z.ObjID = p.ObjID LEFT OUTER JOIN specObjAll as s ON s.bestObjID = p.ObjID WHERE p.ObjID = #"
+2019-01-19 10:21:00,1
+2019-01-19 15:51:00,1
+2019-01-19 16:00:00,1
+2019-01-19 16:01:00,1
+2019-01-19 16:06:00,1
+2019-01-20 15:06:00,1

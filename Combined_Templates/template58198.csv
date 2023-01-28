@@ -1,0 +1,2 @@
+1,"SELECT s.plate, s.fiberid, s.mjd, s.z, s.zwarning, g.h_beta_flux, g.h_beta_flux_err, g.h_alpha_flux, g.h_alpha_flux_err, g.h_alpha_eqw, g.h_alpha_eqw_err, g.h_delta_eqw, g.h_delta_eqw_err into mydb.MyTable from GalSpecLine AS g JOIN SpecObj AS s ON s.specobjid = g.specobjid WHERE h_alpha_flux > h_alpha_flux_err*# AND h_beta_flux > h_beta_flux_err*# AND h_beta_flux_err > # AND h_delta_dqw_err > # AND s.class = # AND s.zwarning = #"
+2019-08-19 18:31:00,1

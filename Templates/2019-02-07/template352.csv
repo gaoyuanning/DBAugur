@@ -1,0 +1,2 @@
+1,"SELECT specObjID, z, logMass, age, SFR, SFH AND Metallicity into mydb.MyTable from stellarMassStarformingPort   WHERE specObjID = #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, OR #"
+2019-02-07 11:53:00,1

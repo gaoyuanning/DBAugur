@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.dered_r, s.z, petroR5#_r, p.clean  FROM PhotoPrimary AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid  WHERE p.type = # and s.class=&&& and s.z <=# and s.z >=#"
+2019-03-23 16:00:00,1

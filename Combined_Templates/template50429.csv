@@ -1,0 +1,3 @@
+2,"select top # s.z, s.ra, s.dec, p.modelMag_r, p.modelMag_u, p.objid from specObj s join photoObj p on s.bestObjID = p.objID where class = QSO#"
+2019-07-08 10:47:00,1
+2019-07-08 10:48:00,1

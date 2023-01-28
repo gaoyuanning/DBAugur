@@ -1,0 +1,2 @@
+1,"select plateX.mjd, plateX.plate, ra, dec, z from plateX join specObj on specObj.plate = plateX.plate where plateX.plate = #"
+2019-05-30 18:05:00,1

@@ -1,0 +1,2 @@
+1,"SELECT d.dr7ObjID,s.plate,s.fiberid,s.mjd,s.ra,s.dec,g.fuv_mag,g.nuv_mag,g.fuv_magErr,g.nuv_magErr,g.e_bv  from SpecObj as s into mydb.glx_sdss_dr7_sample    JOIN photoobjall as ph on s.bestObjID=ph.objID JOIN specDR7 as d on s.specObjID = d.specObjID JOIN GalexGR6.xSDSSDR7 as x on d.dr7ObjID=x.SDSSobjid JOIN GalexGR6.photoobjall as g on x.objID=g.objID WHERE g.nuv_mag != #  and x.reverseDistanceRank=# and s.z BETWEEN # AND #"
+2019-09-21 03:45:00,1

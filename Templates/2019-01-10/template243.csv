@@ -1,0 +1,4 @@
+3,"select distinct p.run,p.rerun,p.camcol,p.field from dbo.fGetNearbyObjeq(#,#,#) p"
+2019-01-10 12:59:00,1
+2019-01-10 13:20:00,1
+2019-01-10 14:27:00,1

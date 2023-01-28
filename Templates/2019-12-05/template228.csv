@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec, g FROM STAR WHERE ra BETWEEN # and # AND dec BETWEEN # and # AND g between # and #"
+2019-12-05 17:27:00,1

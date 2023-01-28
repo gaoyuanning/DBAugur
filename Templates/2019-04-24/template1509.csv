@@ -1,0 +1,4 @@
+4,"select p.objid, p.ra, p.dec, s.z as redshift, s.specobjid, s.plate, s.mjd, s.fiberid from star p, specobj s, dbo.fgetNearByObjEq(#, #,#) n where p.objid=s.bestobjid and p.objid=n.objid and s.bestobjid=n.objid"
+2019-04-24 03:05:00,1
+2019-04-24 03:08:00,1
+2019-04-24 03:09:00,2

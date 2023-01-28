@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p7.dr7objid into mydb.Nsdssdr1#dr7 FROM SpecObj as s, PhotoObj as p, PhotoObjDR7 as p7 WHERE s.bestObjID = p.objID AND p7.dr8objid = p.objID"
+2019-12-31 01:01:00,1

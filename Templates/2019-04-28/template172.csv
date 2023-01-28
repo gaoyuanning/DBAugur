@@ -1,0 +1,2 @@
+1,"select ra, dec, petroMag_r, modelMag_r, modelMag_g, extinction_r,extinction_g, petroR5#_r, specObjID from Galaxy as g   join SpecObj as s on g.ObjID = s.BestObjId where (g.ra># and g.ra<#) and (g.dec># and g.dec<#) and g.petroMag_r <# and g.clean = # and (g.cmodelmag_r - g.psfMag_r > .#)"
+2019-04-28 16:57:00,1

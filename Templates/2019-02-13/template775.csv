@@ -1,0 +1,3 @@
+2,"SELECT   p.objID, p.run, p.rerun, p.camcol, p.field, p.obj,p.rowc,p.rowcErr, p.colc, p.colcErr, p.extinction_r, p.ra,p.dec,p.petroR5#_r,f.airmass_r,f.kk_r,f.aa_r,f.aaErr_r   into mydb.ttttt8 from PhotoObjAll as p ,field as f  where( p.objid = #) and f.fieldID = p.fieldID"
+2019-02-13 00:30:00,1
+2019-02-13 00:31:00,1

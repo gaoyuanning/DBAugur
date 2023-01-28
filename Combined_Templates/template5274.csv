@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.z as zz, p.dered_u, p.dered_g, p.dered_r, p.dered_i, p.dered_z FROM photoprimary AS p JOIN SpecObjAll AS s ON s.bestObjID = p.objID WHERE p.modelMagErr_u < # AND p.modelMagErr_g < # AND p.modelMagErr_r < # AND p.modelMagErr_i < # AND p.modelMagErr_z < # AND s.Class = # AND s.zErr < # AND p.type = # AND p.probPSF < # AND s.z BETWEEN # AND #"
+2019-01-22 00:24:00,1

@@ -1,0 +1,2 @@
+1,"select top # class, (#*z) as redshift from SpecObj where zWarning = # and class = galaxy"
+2019-02-13 16:38:00,1

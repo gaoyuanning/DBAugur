@@ -1,0 +1,2 @@
+1,"SELECT TOP # objid, colc_g, colc_r  INTO MyDB.MyRowColData  FROM Galaxy     (# * cx + # * cy>=#) and (# * cx - # * cy <#)"
+2019-05-24 14:57:00,1

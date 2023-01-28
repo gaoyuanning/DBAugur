@@ -1,0 +1,2 @@
+1,"select top # sp.ra, sp.dec, sp.z, sp.objid from photoobj sp, dbo.fgetNearByObjEq (#, #, #) n JOIN dbo.fGetNearbyObjEq (#, #, #) as GN on sp.objid = GN.objid where sp.objid = n.objid"
+2019-02-25 18:06:00,1

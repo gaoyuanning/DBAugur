@@ -1,0 +1,5 @@
+6,"SELECT TOP #  s.plate,s.mjd,s.fiberid,s.z,s.zErr,s.zWarning,s.class,cast(str(s.ra,#,#) as float) as ra,cast(str(s.[dec],#,#) as float) as dec  FROM ..SpecObj as s  WHERE (s.class = &&&) AND s.zWarning = #"
+2019-02-03 03:23:00,1
+2019-02-03 03:30:00,2
+2019-02-03 03:36:00,2
+2019-02-03 03:39:00,1

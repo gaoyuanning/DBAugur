@@ -1,0 +1,2 @@
+1,"select G.objID, ra, dec, z into UMa from specObjAll as G    Where (ra between # and #) and (dec between # and #) and z># and z<#"
+2019-07-02 10:37:00,1

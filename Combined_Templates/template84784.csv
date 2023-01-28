@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.cModelMag_u, p.cModelMagerr_u, p.cModelMag_g, p.cModelMagerr_g, p.cModelMag_r, p.cModelMagerr_r, p.cModelMag_i, p.cModelMagerr_i, p.cModelMag_z, p.cModelMagerr_z, p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i, p.extinction_z into mydb.E2FGNRADsdssdr1#phot2gal1#_#p1#_# FROM Galaxy as p WHERE p.petroMag_r-p.extinction_r < = #"
+2019-12-30 03:58:00,1

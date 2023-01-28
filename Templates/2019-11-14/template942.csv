@@ -1,0 +1,2 @@
+1,"select top #   ra,dec from    PhotoPrimary where   ra between # and #   and    dec between # and #"
+2019-11-14 03:50:00,1

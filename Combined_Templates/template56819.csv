@@ -1,0 +1,2 @@
+1,"SELECT g.objid, g.ra, g.dec, g.petroMag_r, s.class, s.z, s.zErr, s.zWarning, g.type, s.sourceType FROM PhotoObj AS g JOIN SpecObj AS s ON s.bestobjid = g.objid, fGetNearbyObjEq (#, #, #) AS n WHERE g.objID = n.objID AND g.type = #"
+2019-08-11 22:17:00,1

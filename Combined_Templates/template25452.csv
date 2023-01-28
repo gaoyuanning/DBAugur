@@ -1,0 +1,2 @@
+1,"SELECT TOP # G.objID, G.modelMag_u, G.modelMag_g, G.cx, G.cy, G.cz, p.u, p.g, p.r, p.i, p.z, pz.kcorr_u FROM Photoz as pz JOIN GALAXY as G ON G.objid = pz.objid JOIN SpecObj AS s ON s.bestobjid = G.objid JOIN PhotoObj AS p ON s.bestobjid = p.objid"
+2019-03-29 15:18:00,1

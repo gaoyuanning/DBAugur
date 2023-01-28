@@ -1,0 +1,2 @@
+1,"select top #  z, ra, dec, bestObjID from  galaxy where  class = &&&   and z > #  and zWarning = #"
+2019-07-26 21:07:00,1

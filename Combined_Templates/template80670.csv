@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.plate, s.mjd, s.fiberid, s.z, s.zErr, s.zWarning, s.class, p.run, p.rerun, p.camCol, p.field, p.obj, cast (str (p.ra, #, #) as float) as ra, cast (str (p.[dec], #, #) as float) as dec, p.r FROM ..SpecObj as s JOIN ..PhotoObj AS p ON s.bestObjID = p.objID WHERE s.zWarning = # AND p.u < # AND p.g < # AND p.r < # AND p.i < # AND (p.type = # OR p.type = #)"
+2019-12-04 08:30:00,1

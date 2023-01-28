@@ -1,0 +1,2 @@
+3,"SELECT    m.usno_b1_id AS usno_b1_id,     m.USNORa AS USNORa,     m.USNODec AS USNODec,    m.red1mag AS red1mag,    m.red2mag AS red2mag,    m.blue1mag AS blue1mag,    m.blue2mag AS blue2mag,    m.pmRa AS pmRA,    m.pmDec AS pmDec,    n.objid, n.distance,    o.ra AS ra2, o.dec AS dec2 into mydb.footpringTrues2_nearestBIG from MyDB.footpringTrues2 AS m    OUTER APPLY dbo.fGetNearestObjEq(m.USNOra,m.USNOdec,#) AS n    LEFT JOIN PhotoObj AS o ON n.objid=o.objid"
+2019-02-14 12:36:00,3

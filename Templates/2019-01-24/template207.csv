@@ -1,0 +1,2 @@
+1,"SELECT    o.objID, p.z, p.zerr, o.ra, o.dec, p.absMagG, p.absMagR, p.absMagG - p.absMagR into mydb.MyTable from Photoz AS p     JOIN PhotoObjAll AS o ON  p.objID = o.objID WHERE    p.zerr / (# + p.z) < .# and (p.absMagG - p.absMagR) > #"
+2019-01-24 18:28:00,1

@@ -1,0 +1,3 @@
+2,"select dbo.fGetUrlFitsSpectrum (s.specObjId) , c.plate, c.mjd, c.fiberid into mydb.UrlFistSpectrum_gaiasdss from SpecObjAll as s, mydb.gaiasdss_pmf as c where s.plate = c.plate and s.mjd = c.mjd and s.fiberID = c.fiberid"
+2019-04-22 06:18:00,1
+2019-04-22 06:19:00,1

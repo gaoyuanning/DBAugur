@@ -1,0 +1,2 @@
+1,"SELECT  u.up_id, s.bestobjID, s.ra, s.dec, s.plate, s.mjd, s.fiberid FROM #upload u       JOIN SpecObjAll s ON (s.plate=u.up_plate AND s.mjd=u.up_mjd AND s.fiberID=u.up_fiber) ) THEN BEGIN SELECT  u.up_id, s.bestobjID, s.ra, s.dec, s.plate, s.mjd, s.fiberid FROM #upload u       JOIN SpecObjAll s ON (s.plate=u.up_plate AND s.mjd=u.up_mjd AND s.fiberID=u.up_fiber) END; ELSE BEGIN     SELECT # as id, &&& as Description, # as price END; END IF"
+2019-04-08 15:42:00,1

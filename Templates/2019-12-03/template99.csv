@@ -1,0 +1,2 @@
+1,"SELECT prim.bestObjId, prim.mjd AS PrimMJD, prim.plate AS PrimPlate, ') UNION ALL SELECT NULL,NULL,NULL"
+2019-12-03 22:38:00,1

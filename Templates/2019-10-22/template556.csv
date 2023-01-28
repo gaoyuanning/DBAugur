@@ -1,0 +1,4 @@
+3,"SELECT TOP #  p.objid,p.ra,p.dec,p.psfMag_u,p.psfMag_g,p.psfMag_r,p.psfMag_i,p.psfMag_z,  p.run, p.rerun, p.camcol, p.field, p.extinction_u, p.extinction_g,  p.extinction_r,p.extinction_i,p.extinction_z,  s.specobjid, s.class, s.z as zspec FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   s.class= &&& AND p.ra BETWEEN # AND #  AND p.dec BETWEEN # AND #"
+2019-10-22 03:22:00,1
+2019-10-22 03:37:00,1
+2019-10-22 03:38:00,1

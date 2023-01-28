@@ -1,0 +1,2 @@
+1,"SELECT   p.ObjID,  p.modelMag_r, p.modelMagErr_r,  p.modelmag_r-extinction_r,  extinction_r,  p.ra, p.dec,  s.z,  s.zerr FROM photoObj p JOIN specObj s ON s.bestObjID = p.objID  WHERE  s.class = &&&  and p.ra between # and #  and p.dec between # and #  and s.zWarning = #   and s.z between # and #"
+2019-04-03 07:57:00,1

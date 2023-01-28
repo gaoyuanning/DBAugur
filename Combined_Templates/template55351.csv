@@ -1,0 +1,4 @@
+4,"SELECT a.objID, a.ra, a.dec, a.FLUX6#, a.FLUX9#, a.FLUX1#, a.FLUX1#, a.FERR6#, a.FERR9#, a.FERR1#, a.FERR1#, n.objID, n.ra, n.dec, n.flux, n.flux, n.fluxErr INTO MyDB.mymatch FROM AKARI AS a INNER JOIN NVSS AS n ON a.fGetNearbyObjEq (n.ra, n.dec, #)"
+2019-08-05 12:06:00,2
+2019-08-05 12:08:00,1
+2019-08-05 12:09:00,1

@@ -1,0 +1,2 @@
+2,"SELECT q.*, p.ra, p.dec, p.extinction_u as Au, p.extinction_g as Ag,     p.extinction_r as Ar, p.extinction_i as Ai, p.extinction_z as Az From MyDB.dr1#qCoord as q INTO MyDB.dr1#qExtinct OUTER APPLY dbo.fGetNearestObjEq(q.ra,q.dec,#) as n LEFT OUTER JOIN phototag as p ON p.objid = n.objid ORDER BY q.qsoIdx"
+2019-09-19 12:34:00,2

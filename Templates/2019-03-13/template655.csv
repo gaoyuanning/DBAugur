@@ -1,0 +1,2 @@
+1,"select ra, dec, z, zErr, zWarning, z_person into mydb.MyTable_# from SpecObjAll"
+2019-03-13 02:50:00,1

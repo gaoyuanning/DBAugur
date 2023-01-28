@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.plate,s.mjd,s.fiberid  FROM ..SpecObj as s  WHERE s.zWarning = #"
+2019-06-03 15:12:00,1

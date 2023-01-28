@@ -1,0 +1,4 @@
+33,"SELECT DISTINCT p.run, p.rerun, p.camcol, p.field FROM PhotoObjAll AS p WHERE (p.run=# AND p.camcol=# AND p.field=# AND p.rerun=#)"
+2019-01-22 02:12:00,4
+2019-01-22 02:13:00,14
+2019-01-22 02:14:00,15

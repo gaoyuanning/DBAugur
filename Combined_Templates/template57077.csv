@@ -1,0 +1,2 @@
+1,"SELECT sp.specobjid, sp.bestobjid FROM SpecObj AS sp WHERE (sp.plate = # and sp.mjd = # and sp.fiberid = #)"
+2019-08-13 17:38:00,1

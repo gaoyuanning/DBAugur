@@ -1,0 +1,3 @@
+3,"select m.BOSS_HEADS_RA,  --FROM RA_AND_DEC m  --GROUP BY m.BOSS_HEADS_RA --  HAVING COUNT(m.BOSS_HEADS_RA) > #    select top # m.* FROM NN m   WHERE m.ra IN (#)  order by distance"
+2019-01-07 15:23:00,2
+2019-01-07 15:24:00,1

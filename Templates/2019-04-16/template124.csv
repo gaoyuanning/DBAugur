@@ -1,0 +1,4 @@
+9,"SELECT p.objid, p.type, p.clean, p.ra, p.dec, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, p.petroR9#_u, p.petroR9#_g, p.petroR9#_r, p.petroR9#_i, p.petroR9#_z, p.psffwhm_u, p.psffwhm_g, p.psffwhm_r, p.psffwhm_i, p.psffwhm_z, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, pz.z, pz.zErr FROM PhotoObj AS p , dbo.fGetNearbyObjEq(#, #, #) AS n LEFT JOIN Photoz AS pz ON pz.objID = n.objID WHERE n.objID = p.objID"
+2019-04-16 19:52:00,2
+2019-04-16 19:53:00,4
+2019-04-16 19:54:00,3

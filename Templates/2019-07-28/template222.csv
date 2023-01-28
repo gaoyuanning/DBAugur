@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec FROM Stars WHERE (dec between # and #)"
+2019-07-28 12:33:00,1

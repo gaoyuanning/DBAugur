@@ -1,0 +1,2 @@
+1,"select * from (select substring(name,#,#) as initial from chinook.artist)"
+2019-04-19 16:16:00,1

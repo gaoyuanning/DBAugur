@@ -1,0 +1,2 @@
+1,"SELECT TOP # ObjID,  	      field, ra, dec, z into mydb.testt2 from SpecPhoto	 WHERE   ObjID in(#)"
+2019-05-31 15:48:00,1

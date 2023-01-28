@@ -1,0 +1,2 @@
+1,"select top #  ra, dec, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z, objID from  specObj where  (class = &&& or class = &&&)  and z > #   and zWarning = #  and modelMag_u - modelMag_g < #"
+2019-02-15 04:24:00,1

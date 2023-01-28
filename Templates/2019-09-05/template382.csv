@@ -1,0 +1,2 @@
+1,"SELECT specObjID, bestObjID, mjd, plate, fiberID, ra, dec, snMedian_r, snMedian into mydb.SDSS1#_z0# from SpecObjAll WHERE z># AND z<=#   AND plate>#   AND snMedian_r > #"
+2019-09-05 09:29:00,1

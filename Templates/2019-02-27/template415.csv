@@ -1,0 +1,2 @@
+1,"SELECT TOP #, p.ObjID, p.specObjID, p.ra, p.dec,  p.z, p.zErr,   p.petroR5#_r, p.petroR9#_r, p.petroRad_r    FROM SpecPhotoAll AS p,   MyDB.Manu       AS manu    INTO myDB.manu_matched    WHERE p.ObjID = manu.ObjID"
+2019-02-27 17:02:00,1

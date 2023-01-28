@@ -1,0 +1,2 @@
+1,SELECT @specid = m.specobjiddr8 FROM mydb.test1# as m
+2019-05-15 10:18:00,1

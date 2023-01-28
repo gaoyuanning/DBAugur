@@ -1,0 +1,2 @@
+1,"SELECT Top # specObjID, ra, dec into mydb.MyTable_# from SpecObjAll WHERE SpecClass = # and z < #"
+2019-09-12 12:09:00,1

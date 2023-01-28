@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.specObjID,s.ra,s.dec,s.z,s.zErr,s.zWarning,s.class FROM ..SpecObj as s JOIN dbo.fGetNearbySpecObjEq( #, #, #) AS b ON b.SpecobjID = S.SpecobjID WHERE pz.z > # AND (p.class = &&& OR p.class = &&&) AND pz.z < #"
+2019-03-29 14:04:00,1

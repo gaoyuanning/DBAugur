@@ -1,0 +1,2 @@
+1,"select top # plate, MJD, fiber, subClass from specobjall where class = # and subClass = # and waveMin < = # and waveMax > = #"
+2019-09-16 03:16:00,1

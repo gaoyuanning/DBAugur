@@ -1,0 +1,9 @@
+8,"select p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, c.z, c.zErr, c.photoErrorClass, str(p.u - p.g,#,#) as ugModelColor, str(p.g - p.r,#,#) as grModelColor, str(p.r - p.i,#,#) as riModelColor, str(p.i - p.z,#,#) as izModelColor from Galaxy p, dbo.fgetNearByObjEq(#,#,#) n, Photoz c where p.objid=n.objid AND c.objID=p.objID AND c.z > # AND c.z < #"
+2019-08-21 12:45:00,1
+2019-08-21 12:46:00,1
+2019-08-21 12:48:00,1
+2019-08-21 12:51:00,1
+2019-08-21 13:34:00,1
+2019-08-21 20:34:00,1
+2019-08-21 20:35:00,1
+2019-08-21 20:59:00,1

@@ -1,0 +1,2 @@
+2,"SELECT s.ra, s.dec, s.plate, s.mjd, s.fiberid, s.psfMag_u, s.psfMag_g, s.psfMag_r, s.psfMag_i, s.psfMag_z, s.z, s.zWarning FROM SpecPhotoAll as s, MyDB.pmf_mj as m INTO MyDB.pmf_mj_full WHERE s.plate = m.plate AND s.mjd = m.mjd AND s.fiberid = m.fiberid"
+2019-11-22 12:09:00,2

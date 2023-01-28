@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec, u, err_u, g, err_g, r, err_r, i, err_i, z, err_z, cModelMag_u, cModelMagErr_u, cModelMag_g, cModelMagErr_g, cModelMag_r, cModelMagErr_r, cModelMag_i, cModelMagErr_i, cModelMag_z, cModelMagErr_z, extinction_u, extinction_g, extinction_r, extinction_i, extinction_z FROM galaxy WHERE CLEAN = # AND (ra between # and #) AND (dec between # and #) AND (nDetect> #) AND (nObserve> #)"
+2019-10-02 20:34:00,1

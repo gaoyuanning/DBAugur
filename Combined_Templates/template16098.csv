@@ -1,0 +1,2 @@
+1,"SELECT Top # g.ra, g.dec, n.objid, n.distance, o.specObjID, o.plate, o.fiberID, o.mjd, o.z, o.zErr, o.zStatus, o.specClass, o.bestObjID -- INTO MyDB.get_all_objs_test -- Uncomment this if you want to store it in your DB FROM MyDB.CGM_ALF_OC AS g CROSS APPLY dbo.fGetNearbyObjAllEq (g.ra, g.dec, #) AS n JOIN SpecObj AS o ON n.objid = o.bestObjID"
+2019-03-02 16:56:00,1

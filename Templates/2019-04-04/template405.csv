@@ -1,0 +1,11 @@
+154,"SELECT TOP # p.g, p.r, p.u, p.i, p.z, p.dered_g, p.dered_r, p.l, p.b, p.extinction_g, p.extinction_r, p.extinction_u, p.extinction_i, p.extinction_z       FROM PhotoPrimary as p     WHERE p.clean=# and (b between # and #) and (l between # and #)"
+2019-04-04 10:33:00,5
+2019-04-04 10:34:00,4
+2019-04-04 10:35:00,4
+2019-04-04 10:36:00,14
+2019-04-04 10:37:00,25
+2019-04-04 10:43:00,17
+2019-04-04 10:44:00,17
+2019-04-04 10:49:00,13
+2019-04-04 10:50:00,20
+2019-04-04 10:51:00,35

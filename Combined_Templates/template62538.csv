@@ -1,0 +1,2 @@
+1,"select top # specObjID, z, SFR from stellarMassPassivePort WHERE z BETWEEN # AND # AND SFR > #"
+2019-09-11 22:46:00,1

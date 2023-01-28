@@ -1,0 +1,2 @@
+1,"SELECT p.objid,p.ra,p.dec, p.psfMag_u,p.psfMagerr_u,p.psfMag_g,p.psfMagerr_g,p.psfMag_r,p.psfMagerr_r,p.psfMag_i,p.psfMagerr_i,p.psfMag_z,p.psfMagerr_z, p.modelMag_u,p.modelMagerr_u,p.modelMag_g,p.modelMagerr_g,p.modelMag_r,p.modelMagerr_r,p.modelMag_i,p.modelMagerr_i,p.modelMag_z,p.modelMagerr_z into mydb.sdssdr1#Gal2 FROM SpecObj as s, PhotoObj as p WHERE s.bestObjID = p.objID AND s.class=&&&"
+2019-09-05 00:22:00,1

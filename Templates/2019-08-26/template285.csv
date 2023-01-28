@@ -1,0 +1,5 @@
+8,"select objid,ra,dec,u,g,r,petromag_u,petromag_g,petromag_r,petror9#_r,petror5#_r,fracdev_r from PhotoObjall"
+2019-08-26 09:05:00,3
+2019-08-26 09:28:00,1
+2019-08-26 09:29:00,3
+2019-08-26 09:33:00,1

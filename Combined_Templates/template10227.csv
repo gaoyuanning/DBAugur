@@ -1,0 +1,2 @@
+1,"SELECT g.objID, s.ra, s.dec, s.z as redshift, s.class, s.subclass, g.type into mydb.MyTable_# from PhotoObj AS g JOIN SpecObj AS s ON s.fluxObjID = g.objID"
+2019-02-12 09:18:00,1

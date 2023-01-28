@@ -1,0 +1,3 @@
+4,"SELECT S.specObjID, S.plateid, S.mjd, S.fiberid, S.z, BC.mstellar_median, M.mstellar_median, BC.vdisp_median, M.vdisp_median INTO exg_# FROM galSpecInfo as S, stellarMassPCAWiscBC0# as BC, stellarMassPCAWiscM1# as M, stellarMassFSPSGranEarlyDust as ED, stellarMassFSPSGranWideDust as WD WHERE S.z_warning = # and S.plateid> =# and S.targettype = # and S.spectrotype = # and S.specObjID = BC.specObjID and S.specObjID = M.specObjID and S.specObjID = ED.specObjID and S.specObjID = WD.specObjID"
+2019-09-17 01:46:00,2
+2019-09-17 01:47:00,2

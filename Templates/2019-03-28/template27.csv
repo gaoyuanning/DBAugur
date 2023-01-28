@@ -1,0 +1,2 @@
+2,"SELECT top # sp.plate, sp.mjd, sp.fiberid, sp.specobjid, sp.bestobjid, s.elodiervfinal, s.teffadop, s.fehadop, s.loggadop, sp.ra, sp.dec  FROM sppParams as s JOIN SpecObjAll as sp ON s.specobjid = sp.specobjid WHERE s.teffadop between # and # AND sp.ra > # and sp.ra < #  AND sp.dec > # and sp.dec < #"
+2019-03-28 23:55:00,2

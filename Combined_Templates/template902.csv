@@ -1,0 +1,2 @@
+1,"SELECT objID, run, ra, dec, u, g, r, i, z, lnLStar_r, type_r into mydb.S3# from PhotoPrimary WHERE r < # and ra < # and ra > # and dec < # and dec > #"
+2019-01-04 13:45:00,1

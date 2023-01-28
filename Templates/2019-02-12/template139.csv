@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.specObjId,p.plate,p.mjd,p.fiberID,p.petroMag_u,p.petroMag_r  s.specObjId,s.d4#,s.d4#_sub,s.d4#_n,s.d4#_n_sub FROM specObjID AS p  JOIN galSpecIndex AS s ON s.specObjId = p.specObjId WHERE   p.plate=#"
+2019-02-12 19:56:00,1

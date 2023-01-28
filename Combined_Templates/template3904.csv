@@ -1,0 +1,2 @@
+1,"SELECT s.bestObjID, s.specObjID, z.specobjid, z.objid, z.ra, z.dec, s.z, z.nvote, z.p_el, z.p_cw, z.p_acw, z.p_edge, z.p_dk, z.p_mg, z.p_cs, z.p_el_debiased, z.p_cs_debiased, z.spiral, z.elliptical, z.uncertain FROM zooSpec as z JOIN specObj AS s ON s.specObjID = z.specobjid WHERE z.p_mg BETWEEN # and # AND (s.legacy_target1 & (# | # | #) ) > # AND s.z BETWEEN # and #"
+2019-01-16 01:27:00,1

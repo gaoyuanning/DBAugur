@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objID, p.run, p.skyVersion, p.ra, p.dec, p.type, p.clean INTO mydb.sample8 FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.skyVersion > # and class ! = # AND zWarning = # AND p.expRad_r < # AND p.deVRad_r < # AND s.zErr < # AND s.z < #;"
+2019-05-09 10:06:00,1

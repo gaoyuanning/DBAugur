@@ -1,0 +1,7 @@
+6,"SELECT TOP # p.objid, p.ra,p.dec,p.petror9#_r, p.dered_g, p.dered_r, s.z as z_spec, s.zErr   FROM Galaxy as p    JOIN ZooNoSpec AS zns ON p.objid = zns.objid    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.clean=# AND p.dered_g/p.err_g > # AND p.dered_r/p.err_r > # AND s.z BETWEEN # and #     AND p.dered_g BETWEEN # and # AND (p.dered_g - p.dered_r) BETWEEN # and .#"
+2019-02-23 17:07:00,1
+2019-02-23 17:08:00,1
+2019-02-23 17:09:00,1
+2019-02-23 17:16:00,1
+2019-02-23 17:19:00,1
+2019-02-23 17:21:00,1

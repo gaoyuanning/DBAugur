@@ -1,0 +1,2 @@
+1,select top # objID from PhotoObjAll where run=# and rerun=# and camcol=# and field=# and obj=#
+2019-04-26 16:28:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP #  cast(str(s.ra,#,#) as float) as ra,cast(str(s.[dec],#,#) as float) as dec  FROM ..SpecObj as s  JOIN dbo.fGetObjFromRect(#,#,#,#) AS b ON s.bestobjid = b.objID  JOIN PhotoObj AS p ON s.bestobjid=p.objid  WHERE s.zWarning = # AND p.i > # AND p.i < # AND (p.g - p.r) > # AND (p.g - p.r) < #"
+2019-08-19 13:48:00,1

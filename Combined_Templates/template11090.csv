@@ -1,0 +1,2 @@
+2,"select top # ra, dec, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z, objID from specObj where type = # and modelMag_u - modelMag_g < #"
+2019-02-14 14:47:00,2

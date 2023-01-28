@@ -1,0 +1,2 @@
+1,"SELECT count(*) into mydb.sdssdr1#_PhotoObjAll_bestObjID_nobj FROM SpecObj as s, PhotoObjAll as p WHERE s.bestObjID = p.objID"
+2019-09-05 09:05:00,1

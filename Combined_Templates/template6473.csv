@@ -1,0 +1,3 @@
+13,select fieldid from field where cccol_u between -.# and -.# and skyframes_r between # and # and expapcorrectionerr_r between # and #
+2019-01-28 18:00:00,2
+2019-01-28 18:01:00,11

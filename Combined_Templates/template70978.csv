@@ -1,0 +1,2 @@
+1,"SELECT g.SpecObjID, p.RA, p.Dec, s.z, g.H_alpha_EQW FROM SpecObj as s JOIN galSpecLine AS g ON s.specobjid = g.specobjid JOIN PhotoObj AS p ON s.bestobjid = p.objid WHERE s.z < #"
+2019-10-22 20:57:00,1

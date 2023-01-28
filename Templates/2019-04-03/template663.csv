@@ -1,0 +1,2 @@
+1,"select ra,bpt,Flux_OIII_#, Flux_OIII_#_err, Flux_Hb_#, Flux_Hb_#_Err, Flux_Ha_#, Flux_Ha_#_Err, Flux_NII_#,Flux_NII_#_Err, EW_Ha_#,EW_Ha_#_Err into mydb.MyTable from dr1#.emissionLinesPort order by ra"
+2019-04-03 08:48:00,1

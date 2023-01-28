@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.obj,p.objID,p.petroMag_u,p.petroMag_g,p.petroMag_r,p.petroMag_i,p.petroMag_z,p.petroMagErr_u,p.petroMagErr_g,p.petroMagErr_r,p.petroMagErr_i,p.petroMagErr_z,p.extinction_g,p.extinction_i,p.extinction_r,p.extinction_u,p.extinction_z,p.type FROM BESTDR7..PhotoObj AS p  JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = p.objID  JOIN BESTDR7..SpecObjAll AS s ON s.bestObjID = p.objID WHERE ( p.type = # OR p.type = #)"
+2019-04-18 05:55:00,1

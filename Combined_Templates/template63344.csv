@@ -1,0 +1,3 @@
+2,"SELECT BC.mstellar_median, BC.mstellar_err, BC.mstellar_p1#, BC.mstellar_p8# INTO BC0#_# FROM stellarMassPCAWiscBC0# as BC"
+2019-09-16 09:11:00,1
+2019-09-16 09:12:00,1

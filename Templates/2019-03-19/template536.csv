@@ -1,0 +1,2 @@
+1,"SELECT u.source_id, u.ra, u.dec, s.plate, s.mjd, s.fiberid FROM SpecObjAll s JOIN MyDB.ELMcan u ON #=CONTAINS(POINT(&&&, s.ra, s.dec),                  CIRCLE(&&&, u.ra, u.dec, #./#.))"
+2019-03-19 04:57:00,1

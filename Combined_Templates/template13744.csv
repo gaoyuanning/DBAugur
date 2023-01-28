@@ -1,0 +1,2 @@
+1,"SELECT up_id, dbo.fGetNearestObjIdEq (up_ra, up_dec, up_sep) as objId into mydb.MyTable_# from upload WHERE dbo.fGetNearestObjIdEq (up_ra, up_dec, up_sep) IS NOT #"
+2019-02-23 02:42:00,1

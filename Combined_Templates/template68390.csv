@@ -1,0 +1,4 @@
+3,"SELECT objID, ra, dec, mode into mydb.MyTable from Photoobjall WHERE ra > # and ra < # AND dec > # and dec < #"
+2019-10-07 06:36:00,1
+2019-10-07 06:44:00,1
+2019-10-07 06:47:00,1

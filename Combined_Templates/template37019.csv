@@ -1,0 +1,4 @@
+4,"SELECT z, count (*) FROM SpecObj WHERE class = # AND zWarning = # GROUP BY z HAVING count (*) > #"
+2019-05-06 16:50:00,1
+2019-05-06 16:51:00,1
+2019-05-10 14:36:00,2

@@ -1,0 +1,2 @@
+1,"SELECT top #    m.objid,s.ra1 AS ra1, s.dec1 AS dec1, m.RAdeg, m.DEdeg,   s.apstar_id, s.apogee_id, s.params.*, s.paramerrs.*, s.elems.*, s.elemerrs.*, s.elemsALL.* into mydb.MyTable_# from mydb.Dani_table_Chiara_new AS m    JOIN mydb.MyTable_# AS s ON m.objid = s.objid"
+2019-06-07 07:15:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP #, dbo.fIAUFromEq (s.ra, s.dec) , s.bestobjId, s.ra, s.dec, p.z, p.zErr FROM Photoz p JOIN specobj s ON s.bestObjId = p.objId WHERE (s.ra BETWEEN # AND # OR s.ra BETWEEN # AND #) AND s.z < = # AND photoErrorClass = # AND p.zErr < = # AND s.dec BETWEEN # and # AND (class = # OR class = # OR class = # OR class = #) AND s.zWarning = # ORDER BY s.ra DESC"
+2019-05-02 19:27:00,1

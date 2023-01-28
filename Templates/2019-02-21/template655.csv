@@ -1,0 +1,2 @@
+1,"SELECT    p.objid as sdss_p_objid, p.ra AS sdss_p_ra, p.dec AS sdss_p_dec,    s.specObjId as sdss_s_specObjId, s.plate, s.fiberID, s.mjd, s.ra as sdss_s_ra, s.dec as sdss_s_dec, s.z as sdss_s_z, s.zerr as sdss_s_zerr, s.zwarning as sdss_s_zwarning, s.class as sdss_s_class, s.subClass as sdss_s_subClass,   dbo.fPhotoTypeN(p.type) as sdss_p_type into mydb.MyTable from PhotoObj AS p   LEFT JOIN SpecObjAll AS s ON p.objID = s.bestObjID where s.z<=#"
+2019-02-21 12:47:00,1

@@ -1,0 +1,2 @@
+1,"select top # G.modelMag_u, G.modelMag_g, G.objID from photoObj p join p.ra, p.dec on Galaxy G where (Flags & (dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) )) = # and petroRad_r < # and ( (modelMag_u - modelMag_g) - (psfMag_u - psfMag_g) ) < #"
+2019-07-10 05:31:00,1

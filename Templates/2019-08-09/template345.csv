@@ -1,0 +1,2 @@
+1,SELECT TOP # ObjID G.r G.g G.i into mydb.E_Galaxies from Galaxy as G
+2019-08-09 10:47:00,1

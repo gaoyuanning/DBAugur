@@ -1,0 +1,2 @@
+2,"SELECT z.ra, z.dec, z.objid, z.elliptical into mydb.ZOOphotETG from zooNoSpec as z WHERE z.elliptical = #"
+2019-12-11 09:40:00,2

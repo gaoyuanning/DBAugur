@@ -1,0 +1,4 @@
+3,"select ra, dec from specobj where (z between # and #) and snMedian > # and class = # order by z"
+2019-01-05 16:41:00,1
+2019-11-03 22:00:00,1
+2019-11-12 15:38:00,1

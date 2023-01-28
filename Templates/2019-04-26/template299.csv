@@ -1,0 +1,2 @@
+1,"select g.ra, g.dec, s.z from galaxy as g, specobj as s where g.ObjID = s.bestObjID and g.ra > # and g.ra < # and g.dec > # and g.dec < # and s.z < # and s.z > # and s.zWarning = #"
+2019-04-26 16:31:00,1

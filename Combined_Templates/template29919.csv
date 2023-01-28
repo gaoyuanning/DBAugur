@@ -1,0 +1,2 @@
+1,"SELECT into mydb.tugas_ekstragalaksi_# s.objID, s.ra, s.dec, s.z, s.class, s.zErr, z.z, z.zErr, s.petroMag_u, s.petroMag_g, s.petroMag_r, s.petroMag_i, s.petroMag_z, s.extinction_u, s.extinction_g, s.extinction_r, s.extinction_i, s.extinction_z, z.kcorr_u, z.kcorr_g, z.kcorr_r, z.kcorr_i, z.kcorr_, z, s.sourceType FROM SpecPhotoAll s, Photoz z WHERE s.objID = zobjID AND s.sourceType = #"
+2019-04-13 06:43:00,1

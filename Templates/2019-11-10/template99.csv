@@ -1,0 +1,2 @@
+1,"select cat1=run1, cat2=run2, row1, cts=sum(cts)  from astrometry.budavari.S8#r2#q1#_select  where run1 in (#,#,#,#,#) and run2 in (#,#,#,#,#)   and type1 in (#) and type2 in (#)   and mag1 in (#,#,#,#,#,#,#,#,#,#,#)   and row1=row2    and run1<run2   and row1=# group by run1, run2, row1  order by run1, run2, row1"
+2019-11-10 18:37:00,1

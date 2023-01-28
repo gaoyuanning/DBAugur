@@ -1,0 +1,2 @@
+1,"SELECT p.objid,p.ra,p.dec,z.z,z.zErr,z.absMagR FROM Photoz z,photoobj p,dbo.fgetNearByObjEq(#,#,#) n WHERE  z BETWEEN # and #  and photoErrorClass=#   and nnCount>#   and zErr BETWEEN # and #   and p.objid=n.objid"
+2019-06-23 19:09:00,1

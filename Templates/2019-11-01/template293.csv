@@ -1,0 +1,2 @@
+1,"select mjd,plate from plateX where plate <= # order by mjd"
+2019-11-01 07:15:00,1

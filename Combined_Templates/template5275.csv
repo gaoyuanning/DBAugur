@@ -1,0 +1,4 @@
+3,"SELECT yg.specobjid, yg.z, yg.zErr, yg.fracDeV_r, yg.petroR5#_r, yg.petroR5#Err_r, sigma_balmer, sigma_balmer_err, sigma_forbidden, sigma_forbidden_err, gsl.h_alpha_eqw as HAEW, gsl.h_alpha_eqw_err as HAEWerr, BLANK1 as O2EW, -- insert expression for O2EW here BLANK2 as O2EWerr, -- insert expression for O2EW uncertainty here yg.objId, yg.photz, yg.photzerr, yg.absmagU, yg.absMagG, yg.absMagR, yg.absMagI, yg.absMagZ, yg.modelMagErr_r INTO MyDB.yourgalaxyparams FROM MyDB.yourgalaxies as yg JOIN galSpecLine as gsl on BLANK3 = BLANK4 -- insert parameters to match on here WHERE -- add constraint on BLANK1 here"
+2019-01-22 00:22:00,1
+2019-02-01 10:10:00,1
+2019-02-01 10:19:00,1

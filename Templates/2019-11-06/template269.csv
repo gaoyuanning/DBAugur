@@ -1,0 +1,2 @@
+1,"SELECT     m.XMM, m.ra_COSMOS_OPTICAL AS ra_cosmos, m.dec_COSMOS_OPTICAL AS dec_cosmos,     n.objid, n.distance,     o.ra AS ra_sdss, o.dec AS dec_sdss  FROM MyDB.MATCH_DB AS m     CROSS APPLY dbo.fGetNearestObjEq( m.ra_COSMOS_OPTICAL, m.dec_COSMOS_OPTICAL, #) AS n     JOIN PhotoObj AS o ON n.objid=o.objid"
+2019-11-06 08:58:00,1

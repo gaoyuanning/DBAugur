@@ -1,0 +1,2 @@
+1,"select P.objID, P.type, P.petroMag_u, P.petroMagErr_u, P.petroMag_g, P.petroMagErr_g, P.petroMag_r, P.petroMagErr_r, P.petroMag_i, P.petroMagErr_i, P.petroMag_z, P.petroMagErr_z into mydb.MyTable_# from PhotoObjAll as P join apogee_radec as A where arccos[cos (A.ra-p.ra) cosA.deccosP.dec+sinA.decsinP.dec] < = #/#"
+2019-12-28 10:20:00,1

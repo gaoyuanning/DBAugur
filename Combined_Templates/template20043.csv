@@ -1,0 +1,2 @@
+1,"select survey, programname, count (*) from specphoto group by survey, programname order by survey"
+2019-03-13 15:04:00,1

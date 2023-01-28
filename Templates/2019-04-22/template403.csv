@@ -1,0 +1,2 @@
+1,"SELECT   * into mydb.MyTable from ParentEngagement_RSEDSQL pe  LEFT JOIN   TestScores_RSEDSQL ts,      ON   pe.StudentID = ts.SystemStudentID    AND   LEFT JOIN   Metrics_RSEDSQL m   ON   pe.StudentID= m.StudentID    AND   LEFT JOIN   EmotionalScreener_RSEDSQL em   ON   pe.StudentID = em.StudentID"
+2019-04-22 14:21:00,1

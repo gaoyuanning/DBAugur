@@ -1,0 +1,2 @@
+1,"SELECT PhotoObjAll.objID, PhotoObjAll.ra, PhotoObjAll.dec, Photoz.z as redshift, Photoz.zErr as redshift_err into mydb.MyTable  FROM PhotoObjAll, Photoz  WHERE PhotoObjAll.objID = Photoz.objID"
+2019-07-10 15:25:00,1

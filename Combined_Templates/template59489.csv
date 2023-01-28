@@ -1,0 +1,4 @@
+3,"select top # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z from photoobj p where (p.u BETWEEN # AND #)"
+2019-08-28 16:48:00,1
+2019-08-28 16:52:00,1
+2019-08-28 16:53:00,1

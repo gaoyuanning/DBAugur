@@ -1,0 +1,2 @@
+1,"SELECT p.specObjID, p.bestObjID, p.z, p.zErr, p.zWarning, p.class, p.subClass, p.sdssPrimary, p.sourceType into mydb.JPAS_v1_SpecObjAll FROM SpecObjAll as P JOIN mydb.JPAS_v1_objall AS S ON p.specObjID = S.specObjID"
+2019-05-07 16:00:00,1

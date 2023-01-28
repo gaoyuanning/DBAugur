@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.ra, p.dec, dbo.fPhotoTypeN (p.type) as type FROM #upload u JOIN #x x ON x.up_id = u.up_id JOIN PhotoTag p ON p.objID = x.objID WHERE ( (p.psfMag_r - p.modelMag_r) < # AND p.psfMag_r < #) ORDER BY x.up_id ##', @log = #, @filter = #"
+2019-11-28 13:51:00,1

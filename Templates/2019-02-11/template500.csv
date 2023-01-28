@@ -1,0 +1,2 @@
+1,"SELECT Zipcode, sum(case SFParklets.Permit_Number == NULL then # else # END) FROM SFViolations OUTER JOIN SFParklets ON SFParklets.[Permit_ZipCode] = SFViolations.Zipcode"
+2019-02-11 13:11:00,1

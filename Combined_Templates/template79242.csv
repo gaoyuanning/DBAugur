@@ -1,0 +1,2 @@
+1,"SELECT z, plateX.plate FROM photoObj, specObj, plateX WHERE specObj.bestObjid = photoObj.ObjID AND plateX.plateID = specObj.plateID AND specObj.class = qso"
+2019-11-26 22:57:00,1

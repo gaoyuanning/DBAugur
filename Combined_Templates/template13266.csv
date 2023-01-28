@@ -1,0 +1,2 @@
+1,"select ra, dec, z, specLineID rom specObj where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-02-21 09:27:00,1

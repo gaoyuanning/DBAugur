@@ -1,0 +1,5 @@
+4,"SELECT p.objid, p.ra, p.dec, s.specobjid, s.z into mydb.MyTable from PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE s.z BETWEEN # AND #"
+2019-11-27 11:33:00,1
+2019-11-27 12:25:00,1
+2019-11-27 13:30:00,1
+2019-11-27 13:38:00,1

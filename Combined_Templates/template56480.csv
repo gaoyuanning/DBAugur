@@ -1,0 +1,2 @@
+1,"SELECT # from MyDB.akari AS m OUTER APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n LEFT JOIN galSpecInfo AS o ON n.objid = o.specObjID where m.OBJID < #"
+2019-08-09 07:57:00,1

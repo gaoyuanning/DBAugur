@@ -1,0 +1,2 @@
+1,"SELECT my1#.RA, my1#.DEC, po.type, po.objID, po.u, po.g, po.r, po.i, po.z, po.expRad_r, po.expRad_i, po.expRadErr_r, po.expRadErr_i, po.expAB_r, po.expAB_i, po.expABErr_r, po.expABErr_i, po.expPhi_r, po.expPhi_i, po.expMag_r, po.expMag_i, po.expMagErr_r, po.expMagErr_i, po.ra, po.dec into mydb.MyTable_# FROM PhotoObjAll as po, MyDB.MyTable_# as my1# WHERE po.type = # and ABS (po.RA-my1#.RA) < # and ABS (po.dec-my1#.DEC) < #"
+2019-02-25 13:01:00,1

@@ -1,0 +1,2 @@
+1,"SELECT top # objid, ra, dec, type, cModelMag_g, cModelMagErr_g, z, zErr   FROM SpecPhoto WHERE  (class = Galaxy)"
+2019-03-06 12:41:00,1

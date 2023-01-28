@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.r, p.i, p.z, g.h_alpha_flux_err FROM GalSpecLine AS p JOIN PhotoObj AS p ON p.photobjid = g. photobjid WHERE p.r > # AND s.class = #"
+2019-01-16 08:24:00,1

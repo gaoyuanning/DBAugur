@@ -1,0 +1,2 @@
+1,"select * into myplates from openquery([#.#], &&&) a"
+2019-05-10 12:50:00,1

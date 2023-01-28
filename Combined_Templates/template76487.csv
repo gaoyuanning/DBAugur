@@ -1,0 +1,2 @@
+1,"select tilenum, count (*) into [myscratch:default].efeds_galex_tiles from photoobjall where ra > # and ra < # and dec > # and dec < # group by tilenum"
+2019-11-15 03:57:00,1

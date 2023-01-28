@@ -1,0 +1,2 @@
+1,"select PLATEIFU, min(AngSep) as angSep into temp_manga_minsep from mydb.temp_manga group by PLATEIFU order by PLATEIFU"
+2019-04-03 10:53:00,1

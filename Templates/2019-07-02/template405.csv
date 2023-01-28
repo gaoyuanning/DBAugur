@@ -1,0 +1,2 @@
+2,"SELECT T.ID, T.hostra, T.hostdec, P.petroMag_u, P.petroMag_g, P.petroMag_r, P.petroMag_i, P.petroMag_z, P.petroMagErr_u, P.petroMagErr_g, P.petroMagErr_r, P.petroMagErr_i, P.petroMagErr_z, P.extinction_u, P.extinction_g, P.extinction_r, P.extinction_i, P.extinction_z INTO mydb.Kcorrect_petroMags FROM DR1#.PhotoObj as P, mydb.SQL_Table_ObjID as T WHERE P.objID = T.ObjID"
+2019-07-02 12:28:00,2

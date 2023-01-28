@@ -1,0 +1,3 @@
+2,"SELECT up_id,  dbo.fGetNearestObjIdEq( up_ra,up_dec,up_sep ) as objId   FROM #upload  WHERE  dbo.fGetNearestObjIdEq( up_ra,up_dec,up_sep ) IS NOT NULL  SELECT TOP #   p.ra,p.dec, cast(str(p.ra,#,#) as float) as ra,cast(str(p.[dec],#,#) as float) as dec,p.u,p.g,p.r,p.i,p.z,p.modelMagErr_u,p.modelMagErr_g,p.modelMagErr_r,p.modelMagErr_i,p.modelMagErr_z,p.fiberMag_i,p.fiberMag_r,p.fracDeV_r,p.petroR5#_r,p.petroR9#_r  FROM ..PhotoObj AS p  JOIN #x AS x ON x.objID=p.objID  JOIN #upload AS u ON u.up_id = x.up_id   WHERE  ( p.type = # OR p.type = #)   ORDER BY x.up_id"
+2019-04-13 12:56:00,1
+2019-04-13 13:00:00,1

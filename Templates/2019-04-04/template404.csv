@@ -1,0 +1,2 @@
+1,"select plateifu, ra_MaNGA as RA, dec_MaNGA as DEC, i1_f_ap1 as i1, i2_f_ap1 as i2,    i3_f_ap1 as i3, i4_f_ap1 as i4, m1_f_ap as m1,   SQRT(POWER(((ra_s-ra_MaNGA)*cos((dec_MaNGA)*(#/#))),#)+(POWER((dec_s-dec_MaNGA),#)))*# as AngSep into temp_manga from mydb.Spitzer_MaNGA_mpl7  where   ra_s between (ra_MaNGA-#) and (ra_MaNGA+#) and    dec_s between (dec_MaNGA-#) and (dec_MaNGA+#)"
+2019-04-04 10:57:00,1

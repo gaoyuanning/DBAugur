@@ -1,0 +1,2 @@
+2,"SELECT a.objid as galex_objid, s.sdssobjid as sdssdr1#_objid, g.mpstype FROM XSDSSDR1# as s, photoextract as g, photoobjall as a INTO MyDB.GALEX_DIS_SDSS_DR1#ALL WHERE (s.objid = a.objid AND g.photoExtractID = a.photoExtractID AND g.mpstype = #)"
+2019-09-25 13:21:00,2

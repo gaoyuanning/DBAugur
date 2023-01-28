@@ -1,0 +1,2 @@
+1,"select top # p.fieldID, p.objID into mydb.galaxy_sort1 from Galaxy as p where p.dec > = # AND p.dec < #"
+2019-05-22 12:23:00,1

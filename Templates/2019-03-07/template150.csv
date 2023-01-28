@@ -1,0 +1,6 @@
+5,"SELECT top # x.plate,x.mjd,s.fiberID FROM PhotoObj p JOIN specObj s ON s.bestObjID=p.objID JOIN plateX x ON x.plateID=s.plateID WHERE s.class=&&&"
+2019-03-07 19:15:00,1
+2019-03-07 19:23:00,1
+2019-03-07 19:34:00,1
+2019-03-07 20:15:00,1
+2019-03-07 21:27:00,1

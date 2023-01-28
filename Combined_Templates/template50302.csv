@@ -1,0 +1,2 @@
+1,"SELECT up_id, dbo.fGetNearestSpecObjIdEq (up_ra, up_dec, #) as SpecobjId FROM #upload WHERE dbo.fGetNearestSpecObjIdEq (up_ra, up_dec, #) IS NOT #"
+2019-07-08 18:50:00,1

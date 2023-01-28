@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objID, f.kcorrU, f.kcorrG, f.kcorrR, f.z, f.zErr, a.extinction_u, a.extinction_g, a.extinction_r, p.u, p.r, p.g, p.u-p.r, p.dec, p.ra into mydb.Table3#_abr1# from Photoz AS f, photoObj AS p, SpecObj AS s, PhotoPrimary AS a WHERE s.bestObjID = f.objID AND s.bestObjID = p.objID AND s.bestObjID = a.objID AND p.r < # AND f.z > #"
+2019-05-01 00:46:00,1

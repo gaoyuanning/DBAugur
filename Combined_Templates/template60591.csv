@@ -1,0 +1,4 @@
+3,"select top # psfMag_u, psfMag_g, psfMag_u-psfMag_g as color, ra, dec, type from galaxy where psfMag_u-psfMag_g> # and psfMag_u-psfMag_g< #"
+2019-09-03 08:56:00,1
+2019-09-03 08:58:00,1
+2019-09-03 09:02:00,1

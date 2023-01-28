@@ -1,0 +1,2 @@
+2,"SELECT      BestObjID,   p.ObjID,   p.specObjID as p_spec,   s.specObjID,   s.ra,   p.ra as photra,   s.dec,   s.z,   s.specClass into mydb.MyTable from SpecObj s JOIN PhotoObj p ON s.specObjID = p.specObjID    WHERE (s.z between # and #)   and (S.specClass = &&&)                                                   and (S.ra between # and #)   and (p.type = &&&)"
+2019-04-05 17:26:00,2

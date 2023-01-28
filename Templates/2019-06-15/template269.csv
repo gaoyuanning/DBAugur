@@ -1,0 +1,2 @@
+2,"SELECT TOP # g.objID, g.ra, g.dec, g.u_r, g.q_r, g.petroR5#_r, g.psfMag_g, g.psfMag_i FROM Galaxy AS g"
+2019-06-15 04:55:00,2

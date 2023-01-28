@@ -1,0 +1,2 @@
+1,SELECT    m.* into mydb.MyTable_# from MyDB.t1 AS m
+2019-12-10 10:42:00,1

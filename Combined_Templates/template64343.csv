@@ -1,0 +1,2 @@
+1,"select ra, class from specphoto s where ra between # and # group by class order by ra"
+2019-09-20 03:26:00,1

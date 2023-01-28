@@ -1,0 +1,5 @@
+4,"SELECT TOP # objID, cModelMag_g   FROM Galaxy   WHERE   cModelMag_g between # and #"
+2019-03-14 00:48:00,1
+2019-03-14 07:27:00,1
+2019-03-14 07:55:00,1
+2019-03-14 10:15:00,1

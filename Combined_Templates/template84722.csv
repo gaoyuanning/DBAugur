@@ -1,0 +1,2 @@
+1,"select min (ra) , max (ra) , min (dec) , max (dec) into mydb.MyTable from PhotoObjAll"
+2019-12-30 14:06:00,1

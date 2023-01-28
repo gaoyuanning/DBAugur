@@ -1,0 +1,2 @@
+1,"SELECT to upload -- the results to the SAS (Science Archive Server) for FITS file retrieval. SELECT TOP #   pz.objid,pz.z,g.ra,g.dec FROM Galaxy AS g   join Photoz as pz on pz.objid=g.objid    WHERE     g.ra BETWEEN # AND #    g.dec BETWEEN # AND #"
+2019-01-24 02:52:00,1

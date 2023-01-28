@@ -1,0 +1,2 @@
+1,"select p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z from photoobj p"
+2019-11-14 03:43:00,1

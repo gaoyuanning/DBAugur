@@ -1,0 +1,2 @@
+1,"SELECT TOP # plateifu,    -- Get the unique object ID,     mangaid, objra, objdec, mngtarg1, drp3qual -- and other quantities FROM mangadrpall -- From the drpall catalog WHERE     (((mngtarg1 & (power(#,#)+power(#,#))) != #) -- Either bit # or # of mngtarg1     and ((drp3qual & power(#,#)) = #)) -- Not bit # of drp3qual"
+2019-12-30 01:31:00,1

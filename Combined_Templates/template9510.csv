@@ -1,0 +1,2 @@
+2,"SELECT ObjID, modelMag_r, petroRad_r FROM extended object WHERE ra > = # and ra < = # AND DEC > = # and DEC < = #"
+2019-02-11 19:25:00,2

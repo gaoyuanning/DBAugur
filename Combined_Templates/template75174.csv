@@ -1,0 +1,2 @@
+1,select plate-mjd-fiberId as myfield from SpecObj where plate = # and mjd = # and fiberId = #
+2019-11-11 21:17:00,1

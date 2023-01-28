@@ -1,0 +1,2 @@
+1,"SELECT profMean, bin FROM PhotoProfile WHERE objID = # and band = #"
+2019-11-04 10:59:00,1

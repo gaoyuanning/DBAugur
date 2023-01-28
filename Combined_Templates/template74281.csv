@@ -1,0 +1,4 @@
+3,"SELECT p.ra, p.dec, p.psfmag_i, f.mjd_i, n.distance*# FROM fGetNearbyObjEq (#, #, #) n, PhotoPrimary p, Field f WHERE n.objID = p.objID and f.fieldID = p.fieldID and p.psfmag_i< #"
+2019-11-07 18:08:00,1
+2019-11-07 18:09:00,1
+2019-11-08 19:20:00,1

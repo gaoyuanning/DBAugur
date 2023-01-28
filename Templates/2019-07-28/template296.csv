@@ -1,0 +1,2 @@
+1,"select top # plateID, dbo.fPlate(plateID) as plate from PlateX"
+2019-07-28 03:25:00,1

@@ -1,0 +1,2 @@
+1,"SELECT s.subclass, count (*) FROM photoObjAll as p, SpecObjAll as s WHERE p.objid = s.objid and p.g < # and p.r < # and p.g - p.r < # and s.class = STAR GROUP BY s.subclass;"
+2019-09-04 19:27:00,1

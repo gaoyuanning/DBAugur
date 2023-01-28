@@ -1,0 +1,2 @@
+1,"SELECT TOP # a.OBJID AS OBJID, n.specObjID AS sdssid, n.z AS zsp_sp, n.zErr AS e_zsp, n.zWarning AS zWarning, n.distance AS SEPARATION_AKARI_SDSS1# /* INTO mydb.akari_#_output */ FROM MyDB.akari_# AS a CROSS APPLY dbo.fGetNearestSpecObjEq (a.RA, a.DEC, #) AS n"
+2019-08-18 08:50:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid,  g.d4#_n, g.d4#_n_err,  FROM fGetNearbyObjEq(#,#,#) n, PhotoPrimary p, galSpecIndx g  WHERE n.objID=p.objID"
+2019-02-11 06:29:00,1

@@ -1,0 +1,2 @@
+1,"select   PhotoObjAll.ra, PhotoObjAll.dec,   DR1#:dbo.Photoz.z, DR1#:dbo.Photoz.zErr, DR1#:dbo.Photoz.objID  from   DR1#:dbo.Photoz, PhotoObjAll where   DR1#:dbo.Photoz.objID = PhotoObjAll.objID   and PhotoObjAll.type = #"
+2019-07-19 14:05:00,1

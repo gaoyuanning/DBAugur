@@ -1,0 +1,2 @@
+1,"select ra, dec, fiber2Mag_g from PhotoObjAll p fGetNearbyObjEq (#, #, #) N where p.objID = N.objID"
+2019-10-03 16:52:00,1

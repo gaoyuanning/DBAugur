@@ -1,0 +1,2 @@
+1,"SELECT min(balkan_id), max(balkan_id) from photoObjAll;"
+2019-08-02 10:08:00,1

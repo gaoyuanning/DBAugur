@@ -1,0 +1,2 @@
+1,"SELECT    ra,dec into mydb.gz_acw0# from dbo.zooVotes  WHERE p_acw >#"
+2019-03-25 15:06:00,1

@@ -1,0 +1,2 @@
+2,"SELECT TOP # cntr AS cntr, ra, dec FROM /* MyDB.akari */ WISE_allsky WHERE id = #"
+2019-08-28 10:06:00,2

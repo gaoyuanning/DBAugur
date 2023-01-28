@@ -1,0 +1,2 @@
+1,"select z,ra,dec,bestObjID from specObj where specClass = # AND z > # AND zConf > # AND ra LIKE &&&"
+2019-12-13 15:09:00,1

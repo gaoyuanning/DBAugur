@@ -1,0 +1,2 @@
+1,"select top # * from SpecObjAll s where (s.ra, s.dec) in (select ra, dec from SpecObjAll group by ra, dec having count (*) > #)"
+2019-07-01 01:40:00,1

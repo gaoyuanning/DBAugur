@@ -1,0 +1,2 @@
+1,"select stripe, run from Segment order by stripe  select s.objid, s.ra, s.dec, s.u, s.g, s.r, s.i, s.z from star s, dbo.fGetNearbyObjEq(#,#,#) n where s.objid = n.objid"
+2019-04-28 18:51:00,1

@@ -1,0 +1,2 @@
+1,"SELECT a.objID, a.fiberFlux_u, a.fiberFlux_g, a.fiberFlux_r, a.fiberFlux_i, a.fiberFlux_z, a.fiberMag_u, a.fiberMag_g, a.fiberMag_r, a.fiberMag_i, a.fiberMag_z, b.devFlux_u, b.devFlux_g, b.devFlux_r, b.devFlux_i, b.devFlux_z, b.devMag_u, b.devMag_g, b.devMag_r, b.devMag_i, b.devMag_z INTO MyDB.sdssdata3 FROM sdssbasic5 AS a INNER JOIN sdssbasic6 as b ON a.objID = b.objID"
+2019-06-18 08:26:00,1

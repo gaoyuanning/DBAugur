@@ -1,0 +1,3 @@
+2,select fieldid from field where medianpsfcolor_z between -.# and -.# and q_u between .# and .#
+2019-01-24 14:21:00,1
+2019-01-24 17:50:00,1

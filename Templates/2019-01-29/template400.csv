@@ -1,0 +1,4 @@
+40,"select o.objID, o.ra, o.dec, o.rerun, o.run, o.camcol, o.field  from PhotoObjAll o where o.ra between # and # and o.dec between # and #"
+2019-01-29 00:14:00,6
+2019-01-29 00:15:00,13
+2019-01-29 00:16:00,21

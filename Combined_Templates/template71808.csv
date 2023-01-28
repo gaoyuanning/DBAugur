@@ -1,0 +1,2 @@
+1,"select state, vintage, n = count (*) , minSqMiles = min (geom.MakeValid () .STArea () )*#e-# , avgSqMiles = avg (geom.MakeValid () .STArea () )*#e-# , maxSqMiles = max (geom.MakeValid () .STArea () )*#e-# from optw.tamass.TRACTS where --geom.MakeValid () .STArea () *#e-# < # geom.MakeValid () .STArea () < #e1# group by state, vintage"
+2019-10-26 15:37:00,1

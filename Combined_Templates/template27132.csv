@@ -1,0 +1,7 @@
+7,"SELECT top # specObjID, z, survey FROM SpecObj WHERE class = # AND zwarning = # AND z BETWEEN # AND # AND (survey = # OR survey = #) AND htmid*# & # < (# * #)"
+2019-04-03 20:08:00,1
+2019-04-03 20:10:00,2
+2019-04-03 20:16:00,1
+2019-04-03 20:18:00,1
+2019-04-03 20:21:00,1
+2019-04-03 20:50:00,1

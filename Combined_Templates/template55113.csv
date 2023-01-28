@@ -1,0 +1,2 @@
+1,"SELECT z, class, subClass, ra, dec, objID into mydb.gondor from specPhoto WHERE z < # and class = # and cModelMag_i < #"
+2019-08-02 14:36:00,1

@@ -1,0 +1,3 @@
+2,"SELECT objid, petroR5#_g  FROM PhotoObj  WHERE objid = # OR objid = # OR objid = # OR objid = # OR objid = #  ORDER BY objid ASC"
+2019-03-13 17:04:00,1
+2019-03-13 17:07:00,1

@@ -1,0 +1,2 @@
+1,select top # * from metadata.columninfo ci join information_schame.columns c
+2019-07-04 12:08:00,1

@@ -1,0 +1,4 @@
+3,"SELECT number, name AS courseName, description, credits FROM courses"
+2019-02-18 15:40:00,1
+2019-02-18 15:43:00,1
+2019-02-18 15:49:00,1

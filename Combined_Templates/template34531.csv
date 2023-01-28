@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, s.specobjid, s.class, s.z as redshift, s.plate, s.mjd, s.fiberid WHERE p.ra > # and p.ra < # AND pdec > # and p.dec < #"
+2019-04-25 15:21:00,1

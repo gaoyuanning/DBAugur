@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.cModelMag_u, p.cModelMagerr_u, p.cModelMag_g, p.cModelMagerr_g, p.cModelMag_r, p.cModelMagerr_r, p.cModelMag_i, p.cModelMagerr_i, p.cModelMag_z, p.cModelMagerr_z into mydb.cMsdssdr1#spec2all FROM SpecObj as s, PhotoObj as p WHERE s.bestObjID = p.objID AND (s.class = # or s.class = #)"
+2019-12-30 00:26:00,1

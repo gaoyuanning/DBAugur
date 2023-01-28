@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjId,ra, dec, class, subclass, survey, programname,z, zErr, fiberMag_g, fiberMagErr_g FROM SpecPhotoAll WHERE class = GALAXY"
+2019-09-29 21:13:00,1

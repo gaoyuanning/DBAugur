@@ -1,0 +1,4 @@
+3,select * into mydb.MyTable from dbo.SpecObjAll where class = #
+2019-02-11 06:57:00,1
+2019-02-11 10:04:00,1
+2019-08-15 10:17:00,1

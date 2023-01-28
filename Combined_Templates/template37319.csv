@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.dered_u, p.dered_r, p.deVRad_r, p.deVRadErr_r FROM photoObj AS p WHERE s.class = # AND s.z between # and # AND s.zWarning = # AND p.fracDeV_r > #"
+2019-05-07 18:08:00,1

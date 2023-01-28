@@ -1,0 +1,6 @@
+5,"SELECT TOP #  p.objid,p.ra,p.dec,p.probPSF,p.  psfMag_u,p.psfMag_g,p.psfMag_r,p.psfMag_i,  p.psfMagErr_u,p.psfMagErr_g,p.psfMagErr_r,p.psfMagErr_i,p.flags FROM PhotoObj AS p  JOIN dbo.fGetObjFromRect(#,#,#,#) AS b ON p.objID = b.objID  WHERE (p.type = #)"
+2019-08-27 02:11:00,1
+2019-08-27 02:16:00,1
+2019-08-27 02:21:00,1
+2019-08-27 02:29:00,1
+2019-08-27 02:37:00,1

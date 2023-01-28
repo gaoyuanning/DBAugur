@@ -1,0 +1,2 @@
+1,"SELECT top #    p.ra,p.dec,p.type_r   FROM  PhotoObj as p    WHERE ( p.type = # ) and    p.ra between # and #   p.dec between # and #"
+2019-07-23 10:01:00,1

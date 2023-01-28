@@ -1,0 +1,2 @@
+1,"SELECT ra,dec,u,g,r,i,z,Err_u,Err_g,Err_r,Err_i,Err_z  FROM BestDR1#..Star WHERE (  ((ra BETWEEN # AND # ) AND ( dec BETWEEN # AND # )) AND (Err_u < # and Err_g < # and Err_r < # and Err_i < # ) )"
+2019-06-25 05:30:00,1

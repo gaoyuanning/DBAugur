@@ -1,0 +1,2 @@
+1,"select ra,dec from specObj where ((#<ra<#) and  (#<dec<#))"
+2019-01-12 18:22:00,1

@@ -1,0 +1,2 @@
+1,"SELECT s.plate, s.mjd, s.fiberid, p.ra, p.dec, p.g, p.r, s.subClass, (p.psfMag_g-p.extinction_g) - (p.psfMag_r-p.extinction_r) as gmr into mydb.M1#_new_withcorrections_# from ..SpecObj as s JOIN ..PhotoObj AS p ON s.bestObjID = p.objID JOIN dbo.fGetNearbySpecObjEq (#, #, #) AS b ON b.SpecobjID = S.SpecobjID WHERE p.type = #"
+2019-07-22 09:35:00,1

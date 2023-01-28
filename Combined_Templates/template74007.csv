@@ -1,0 +1,2 @@
+1,"select p.specobjID, p.z from dbo.fGetNearbySpecObjEq (#, #, #, #) As p where p.z> # and p.z< #"
+2019-11-05 08:01:00,1

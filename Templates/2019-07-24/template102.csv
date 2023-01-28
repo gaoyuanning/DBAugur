@@ -1,0 +1,2 @@
+2,"SELECT lcgID,ra_lcg,dec_lcg FROM MYDB.lista_all_galaxies  OPEN my_cursor   WHILE(#=#)  BEGIN    FETCH NEXT from my_cursor into @lcgID, @ra_lcg, @dec_lcg    IF (@@fetch_status < #) break    INSERT MYDB.LCG_objIDs    SELECT @lcgID, p.objID as objID_lcg, p.ra as ra_lcg, p.dec as dec_lcg    FROM dbo.fGetNearestObjEq(@ra_lcg,@dec_lcg, #) as n, PhotoObj as p    WHERE    n.objID = p.objID     END         CLOSE my_cursor  DEALLOCATE my_cursor"
+2019-07-24 19:25:00,2

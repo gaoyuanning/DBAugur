@@ -1,0 +1,2 @@
+1,"SELECT CT.*, WX.wise_cntr, WX.match_dist INTO MyDB.Tmp_ClassTraining_SDSS_WISE FROM MyDB.Tmp_ClassTraining_SDSS_Objects AS CT INNER JOIN WISE_xmatch AS WX ON WX.sdss_objid = CT.objectID"
+2019-01-02 08:43:00,1

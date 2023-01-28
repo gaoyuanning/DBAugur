@@ -1,0 +1,4 @@
+3,create table WebRefererDomain --------------------------------------------------------------------------------------------- --/H  domain of the web referrer string   ------------------------------------------------------------------------------- --/T a typical refererDomain string is  --/T http://cas.sdss.org/ we truncated  astro/en/tools/chart/shownavi.asp?ra=#&dec=#&opt=&scale=#&size=# --/T <br> or --/T http://www.google.com.au/  --/T <br> the referer is the full string and the refererURI is the string to the left of the ?
+2019-05-06 15:03:00,1
+2019-05-06 15:53:00,1
+2019-05-06 15:57:00,1

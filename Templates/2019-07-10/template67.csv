@@ -1,0 +1,5 @@
+5,"SELECT TOP #  cast(str(p.ra,#,#) as float) as ra,cast(str(p.[dec],#,#) as float) as dec,p.u,p.g,p.r,p.i,p.z  FROM ..PhotoObj AS p  JOIN dbo.fGetObjFromRect(#,#,#,#) AS b ON p.objID = b.objID  WHERE p.g < # AND p.r < # AND ( p.type = # OR p.type = #)"
+2019-07-10 22:16:00,1
+2019-07-10 22:25:00,1
+2019-07-10 22:33:00,1
+2019-07-10 22:34:00,2

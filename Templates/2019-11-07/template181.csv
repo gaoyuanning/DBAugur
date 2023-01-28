@@ -1,0 +1,2 @@
+1,"SELECT g.objid, g.ra, g.dec, g. dered_g, g. dered_r, err_g, err_r, petroRad_r, petroRadErr_r FROM Galaxy AS g, dbo.fGetNearbyObjEq(#,#,#) AS n WHERE g.objID = n.objID AND ((g.flags_r & #) != #) AND ((g.flags_r & #) = #) AND (((g.flags_r & #) = #) or (g.psfmagerr_r <= #)) AND (((g.flags_r & #) = #) or (g.flags_r & #) = #)"
+2019-11-07 14:59:00,1

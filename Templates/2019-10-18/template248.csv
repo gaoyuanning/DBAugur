@@ -1,0 +1,2 @@
+1,"SELECT TOP # sp.psfMag_u,sp.psfMag_g,sp.psfMag_r,sp.psfMag_i,sp.psfMagErr_u,sp.psfMagErr_g,sp.psfMagErr_r,sp.psfMagErr_i, sp.z,sp.zErr, z.p_el, z.p_cw,z.p_acw,z.p_edge,p_mg FROM specPhoto AS sp  JOIN ZooNoSpec AS z ON sp.specObjID = z.specobjid WHERE   (sp.zErr <#) AND (sp.class = &&&)"
+2019-10-18 13:10:00,1

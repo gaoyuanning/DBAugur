@@ -1,0 +1,2 @@
+1,"select TwoMassXSC.objID, TwoMassXSC.tmassxsc_ra, TwoMassXSC.tmassxsc_dec, TwoMassXSC.J_M_K2#FE, TwoMassXSC.J_MSIG_K2#FE, TwoMassXSC.J_FLG_K2#FE, TwoMassXSC.J_BA, TwoMassXSC.J_PHI, TwoMassXSC.K_M_K2#FE, TwoMassXSC.K_MSIG_#FE, TwoMassXSC.K_FLG_K2#FE, TwoMassXSC.K_BA, K_PHI, TwoMassXSC.E_SCORE, TwoMassXSC.G_SCORE, TwoMassXSC.CC_FLAG, TwoMassXSC.SYS_FLG, TwoMassXSC.CONTAM_FLG into mydb.MyTable_# from TwoMassXSC"
+2019-10-22 10:44:00,1

@@ -1,0 +1,3 @@
+2,"select field, count (*) from PhotoObjAll group by field;"
+2019-12-30 14:16:00,1
+2019-12-30 14:36:00,1

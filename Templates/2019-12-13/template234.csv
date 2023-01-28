@@ -1,0 +1,2 @@
+2,"SELECT   m.ra1,m.dec1,m.objid,o.velDisp into MyDB.DispQuery FROM MyDB.MyTable_# AS m   join SpecObjAll as o on o.bestobjid=m.objid   order by m.id"
+2019-12-13 15:41:00,2

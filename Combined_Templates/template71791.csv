@@ -1,0 +1,2 @@
+1,"select county from optw.tamass.TRACTS where state = # and geom.STDistance (#, #) < #"
+2019-10-26 16:39:00,1

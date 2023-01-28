@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID s.psfMag_r, s.ra, s.dec FROM Star AS s WHERE s.psfMag_r < #"
+2019-09-18 21:46:00,1

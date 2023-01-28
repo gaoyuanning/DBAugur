@@ -1,0 +1,2 @@
+2,"select dec, ra, z, modelMag_g, modelMag_r, modelMag_i, modelMag_z into mydb.MyTable_# from SpecPhoto   where dec between # and # and z < #"
+2019-10-03 13:31:00,2

@@ -1,0 +1,2 @@
+1,"select TOP # (m.RA-w.ra), w.dec, w.w1mpro from mydb.MaNGA_dap_mpl8 m, WISE_allsky w order by (m.RA-w.ra)"
+2019-04-03 06:48:00,1

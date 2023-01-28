@@ -1,0 +1,2 @@
+1,"SELECT p.*, galspec.* from PhotoObjAll as p JOIN galSpecExtra AS galspec ON p.specobjid = galspec.specobjid WHERE p.objid = #"
+2019-04-09 13:19:00,1

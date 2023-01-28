@@ -1,0 +1,2 @@
+1,"SELECT gal.objid, gal.type, gal.ra, gal.raErr, gal.dec, gal.decErr, gal.r, gal.i, gal.g, gal.dered_r, gal.dered_i, gal.dered_g, gal.psfMag_g, gal.petroMag_r, gal.extinction_r, gal.petroR5#_r, pz.objID, pz.z as photoz, pz.absMagG INTO mydb.GALAXY_RED2 FROM Galaxy as gal JOIN photoz as pz on pz.objid = gal.objid WHERE (primtarget & dbo.fPrimTarget (#) > #)"
+2019-12-11 00:31:00,1

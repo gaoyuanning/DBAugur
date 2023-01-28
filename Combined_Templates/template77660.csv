@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.phioffset_r FROM PhotoObjAll AS p WHERE p.run AND p.camcol = # AND p.field = # AND p.obj = # AND g BETWEEN # AND #"
+2019-11-20 21:44:00,1

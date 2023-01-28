@@ -1,0 +1,2 @@
+1,"select specobjid, ra, dec, plate, mjd, fiberid from specobj where class =  galaxy  and zwarning = #"
+2019-01-01 11:58:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.apogee_id, s.ra, s.dec FROM apogeeStar s WHERE s.ra < = # AND s.ra > = # AND s.dec < = # AND s.dec > = #"
+2019-03-07 11:55:00,1

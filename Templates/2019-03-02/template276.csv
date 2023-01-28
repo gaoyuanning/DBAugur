@@ -1,0 +1,2 @@
+1,"select bestObjID , survey ,z from SpecObj where class = &&& and survey = &&& and zWarning = # and z > # and z < # ) select * from cte1 tablesample (#)"
+2019-03-02 16:09:00,1

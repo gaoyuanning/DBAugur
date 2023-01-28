@@ -1,0 +1,2 @@
+1,"SELECT s.specobjid, s.ra AS ra1, s.dec AS dec1, g.ra AS ra2, g.dec AS dec2 into mydb.MyTable5 from XMATCH (MUST EXIST IN MyDB.gz2_# AS s WITH (POINT (s.ra, s.dec) , ERROR (#, #, #) ), MUST EXIST IN DR1#.SpecObj AS g WITH (POINT (g.ra, g.dec) , ERROR (#, #, #) ), LIMIT BAYESFACTOR TO #e3) AS m JOIN DR1#.SpecObj AS o ON m.specobjid = o.specobjid"
+2019-10-31 08:58:00,1

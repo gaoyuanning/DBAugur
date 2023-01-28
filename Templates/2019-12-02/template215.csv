@@ -1,0 +1,4 @@
+3,"SELECT s.specobjid, s.ra, s.dec, s.plate, s.mjd, s.fiberid, e.sigmaStars, e.sigmaStarsErr FROM #upload u  JOIN SpecObjAll s ON (s.plate=u.up_plate AND s.mjd=u.up_mjd AND s.fiberID=u.up_fiber)  JOIN emissionLinesPort AS e ON e.specObjID = s.specobjid  &&&#', @log=#, @filter=#"
+2019-12-02 14:40:00,1
+2019-12-02 14:42:00,1
+2019-12-02 14:43:00,1

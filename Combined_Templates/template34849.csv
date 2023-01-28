@@ -1,0 +1,2 @@
+2,"select top # ra, dec from specObj where ra between # and # and dec > = # and dec < #"
+2019-04-26 17:13:00,2

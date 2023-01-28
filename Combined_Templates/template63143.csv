@@ -1,0 +1,2 @@
+1,"select top # count (*) , from specphoto where type = # and class< >#"
+2019-09-14 02:53:00,1

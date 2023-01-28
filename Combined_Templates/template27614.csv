@@ -1,0 +1,2 @@
+1,"select TOP # SQRT (POWER (( (w.ra-m.objra) *cos ((m.objdec) * (#/#) )) , #) + (POWER ((w.dec-m.objdec) , #) )) *#, w.w1mpro from mydb.MaNGA_dap_mpl8 m, WISE_allsky w"
+2019-04-03 06:22:00,1

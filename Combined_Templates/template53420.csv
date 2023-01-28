@@ -1,0 +1,4 @@
+3,"SELECT specObjID, ra, dec, class, subclass, z, zErr into mydb.spectrain from SpecPhotoAll WHERE class = # AND zWarning = # AND htmid*# & # < (# * #)"
+2019-07-23 09:43:00,1
+2019-07-23 09:45:00,1
+2019-07-23 09:46:00,1

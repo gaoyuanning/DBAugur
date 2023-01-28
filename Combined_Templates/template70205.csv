@@ -1,0 +1,4 @@
+3,"select distinct p.run, p.rerun, p.camcol, p.field, g.aa_u, g.kk_u, g.airmass_u from dbo.fGetObjFromRect (#, #, #, #) p, field g where g.run = p.run and g.rerun = p.rerun and g.field = p.field and g.camcol = p.camcol"
+2019-10-17 04:42:00,1
+2019-10-17 04:44:00,1
+2019-11-04 07:24:00,1

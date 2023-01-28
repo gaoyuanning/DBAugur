@@ -1,0 +1,5 @@
+9,"select count(*) from mangaDRPall as m,specObjAll as s where ROUND(m.objdec,#)= ROUND(s.dec,#) and ROUND(m.objra,#)=ROUND(s.ra,#)"
+2019-10-21 02:53:00,2
+2019-10-21 02:54:00,3
+2019-10-21 02:55:00,1
+2019-10-21 02:59:00,3

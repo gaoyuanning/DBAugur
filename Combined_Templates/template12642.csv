@@ -1,0 +1,2 @@
+1,"SELECT TOP # e.plate, e.mjd, e.fiberID, e.sigmaStars, e.sigmaStarsErr FROM emissionLinesPort AS e JOIN MyDB.MyTable as b ON e.plate = b.plate and e.mjd = b.mjd and e.fiberID = b.fiberID"
+2019-02-20 08:50:00,1

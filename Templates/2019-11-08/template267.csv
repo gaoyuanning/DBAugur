@@ -1,0 +1,2 @@
+2,"select  giantIDs.objID, giantIDs.ra, giantIDs.dec, into mydb.XiangXiang_giantIDs from mydb.giantIDs, mydb.XiangXiang_giants where giantIDs.ra = XiangXiang_giants.RAJ2# and giantIDs.dec = XiangXiang_giants.DEJ2#"
+2019-11-08 13:49:00,2

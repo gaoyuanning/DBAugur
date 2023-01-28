@@ -1,0 +1,2 @@
+1,"select a.SystemStudentID as student_id, a.gradelevel as enrollment_grade, a.SchoolYear4Digit as schoolyear, b.period as period, # as assessment_subject, # as metricsource, # as metricname, sum (b.score) as score from enrollment a join EmotionalScreener b on a.SystemStudentID = b.StudentID group by a.SystemStudentID, a.gradelevel, a.SchoolYear4Digit, b.period"
+2019-04-30 00:50:00,1

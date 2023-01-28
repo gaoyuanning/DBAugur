@@ -1,0 +1,2 @@
+2,"SELECT COUNT(objID), * FROM SDSS_DR8_match_Galaxy_SpecPhoto GROUP BY objID   HAVING COUNT(objID) > #"
+2019-03-06 14:17:00,2

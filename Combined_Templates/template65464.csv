@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.run, p.rerun, p.camCol, p.field, p.obj, # as filter FROM dbo.fGetNearbyObjEq (#, #, #) as b, BESTDR6..Star as p WHERE b.objID = p.objID"
+2019-09-25 08:15:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, ra, dec, u, g, r, z, i into mydb.rxj0# from Galaxy WHERE ra > # and ra < # and dec > # and dec < #"
+2019-07-15 16:50:00,1

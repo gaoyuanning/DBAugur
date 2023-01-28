@@ -1,0 +1,2 @@
+2,"SELECT m.visit_id, m.plate, m.mjd, m.fiberid, m.ra, m.dec, o.psfMag_u, o.psfMag_g, o.psfMag_r, o.psfMag_i, o.psfMag_z, o.plate, o.mjd, o.fiberID, o.class, o.subClass into mydb.SDSSDR1#apogee_CrossSDSSDR1#spec from apogeeVisit AS m CROSS APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n JOIN SpecPhotoAll AS o ON n.objID = o.objID"
+2019-07-08 02:09:00,2

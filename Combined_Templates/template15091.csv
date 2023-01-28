@@ -1,0 +1,2 @@
+1,"select top # s.objID, s.psfMag_u - s.extinction_u as u, s.psfMag_g - s.extinction_g as g, s.psfMag_r - s.extinction_R as r, s.psfMag_i - s.extinction_i as i, s.psfMag_z - s.extinction_z as z, s.psfMagErr_u as u_err, s.psfMagErr_g as g_err, s.psfMagErr_r as r_err, s.psfMagErr_i as i_err, s.psfMagErr_z as z_err, s.ra, s.dec, s.raErr as ra_err, s.decErr as dec_err into mydb.MyTable_# from star as s where s.CLEAN = # AND s.ra BETWEEN # AND # AND s.dec BETWEEN # AND # AND s.psfMag_r < # AND s.psfMag_g < #"
+2019-02-27 14:33:00,1

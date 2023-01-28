@@ -1,0 +1,2 @@
+1,"select s.z, g.specobjid from sdss_ml.galaxyzoo_ml g, dr1#.specobjall s where s.specobjid = g.specobjid"
+2019-05-07 13:36:00,1

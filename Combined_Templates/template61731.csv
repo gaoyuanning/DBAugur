@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra, dec, z, fiberMag_g, fiberMag_r, fiberMag_i, psfMag_g, psfMag_r, psfMag_i FROM SpecPhoto WHERE (class = #)"
+2019-09-08 14:57:00,1

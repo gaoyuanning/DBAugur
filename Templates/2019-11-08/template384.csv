@@ -1,0 +1,2 @@
+1,"SELECT g.source_id, g.ra, g.dec FROM GaiaDR2.gaia_sources as g WHERE     g.ra > #-#/# AND     g.ra < #+#/# AND     g.dec > #-#/# AND     g.dec < #+#/# ORDER BY g.ra"
+2019-11-08 09:02:00,1

@@ -1,0 +1,13 @@
+21,"select top # p.objID, s.z as redshift, p.psfMag_u as u, p.psfMag_g as g, p.psfMag_r as r, p.psfMag_i as i, p.psfMag_z as z from photoObj p, specObj s where p.objID = s.bestObjID and s.class = # and s.z BETWEEN # and #"
+2019-02-28 20:51:00,1
+2019-02-28 21:12:00,1
+2019-02-28 21:58:00,1
+2019-02-28 22:03:00,1
+2019-02-28 22:04:00,3
+2019-02-28 22:05:00,2
+2019-02-28 22:06:00,3
+2019-02-28 22:07:00,4
+2019-02-28 22:08:00,1
+2019-03-01 18:23:00,2
+2019-03-01 18:32:00,1
+2019-03-10 17:49:00,1

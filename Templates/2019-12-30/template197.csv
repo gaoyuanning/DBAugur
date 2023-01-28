@@ -1,0 +1,2 @@
+1,select count(*) from ( select distinct specObjID from SpecPhotoAll ) as tmp;
+2019-12-30 09:46:00,1

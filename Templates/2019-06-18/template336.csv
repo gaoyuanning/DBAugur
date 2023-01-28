@@ -1,0 +1,2 @@
+1,"SELECT   m.ra_#, m.dec_#, m.specObjID, S.ra, S.dec, S.specObjID,   S.mjd, S.plate, S.fiberID, S.class,   S.z, S.zErr, S.rChi2, S.velDisp, S.velDispErr, dbo.fgeturlfitsspectrum(S.specobjid)                                                 INTO MyDB.chandra_matched_sdss_details4# FROM MyDB.chandra_matched_sdss_# AS m   OUTER APPLY dbo.fGetNearestObjEQ(m.ra_#, m.dec_#, #) AS n     LEFT JOIN SpecObj AS S ON n.ObjID=S.bestObjID"
+2019-06-18 11:55:00,1

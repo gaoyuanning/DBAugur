@@ -1,0 +1,2 @@
+1,"SELECT id, vintage, convert(char(#), censusid), convert(varchar(#), label), convert(varchar(#), concept),              convert(char(#), race), convert(char(#), sex), convert(char(#), unit),             binmin, binmax FROM tmpVARIABLES"
+2019-10-30 12:21:00,1

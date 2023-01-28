@@ -1,0 +1,3 @@
+6,"select x = round (x, #) , n = count (ID) from data group by round (x, #) order by #"
+2019-04-24 12:49:00,2
+2019-04-24 12:50:00,4

@@ -1,0 +1,2 @@
+1,"SELECT   specObjID, ra, dec, z, zErr FROM SpecObj WHERE sourceType =! &&&"
+2019-12-13 11:20:00,1

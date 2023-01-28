@@ -1,0 +1,2 @@
+1,"select mjd, plate, fiberID, fiberMag_u, fiberMag_g, fiberMag_r, fiberMag_i, fiberMag_z, mag_#, mag_#, mag_#, objType, objTypeName into mydb.MyTable_# from dbo.SpecObjAll where plate = #"
+2019-11-07 01:37:00,1

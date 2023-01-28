@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra,dec,objID,skyVersion,run,rerun,camcol,field,obj,mode FROM PhotoObj  where type=# and mode=#"
+2019-06-22 17:24:00,1

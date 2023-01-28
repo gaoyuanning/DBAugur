@@ -1,0 +1,2 @@
+1,"select dbo.fCosmoAbsMag (#, #, #, #, #e-#, #, #) --select dbo.fCosmoAbsMag (#, #, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT) --SELECT TOP # cModelMag_r into MyDB.magr --FROM PhotoObjAll ---select dbo.fCosmoAbsMag (MyDB.magr[#], #, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT) --select dbo.fCosmoAbsMag (MyDB.magr[#], #, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT) delimiter $$ create procedure _repeat () begin declare a int default #; repeatset a = a-#; until a< # end repeat;select a; end $$ delimiter ;"
+2019-04-18 07:23:00,1

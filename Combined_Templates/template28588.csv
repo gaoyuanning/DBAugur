@@ -1,0 +1,2 @@
+1,"CREATE TABLE ISOLATED_ZOOSPECDR1#_OUT6 (ra_iso float not #, dec_iso float not #, objID bigint not #, ra float not #, dec float not #, spiral int not #, elliptical int not #, uncertain int not #) ;"
+2019-04-08 06:13:00,1

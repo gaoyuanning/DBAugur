@@ -1,0 +1,2 @@
+1,"SELECT TOP # a.apogee_id,str(a.glon,#,#) glon,str(a.glat,#,#) glat,a.snr,a.vhelio_avg,a.vscatter,q.teff,q.logg,q.metals,q.alphafe FROM apogeeStar as a 	JOIN apogeeObject as o ON a.apogee_id=o.apogee_id  	JOIN aspcapStar as q ON a.apstar_id=q.apstar_id"
+2019-05-04 19:46:00,1

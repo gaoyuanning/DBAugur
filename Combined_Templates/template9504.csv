@@ -1,0 +1,10 @@
+9,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, z.z, z.zerr FROM PhotoObj AS p LEFT OUTER JOIN SpecObj AS s ON s.bestobjid = p.objid LEFT OUTER JOIN Photoz AS z ON z.objid = p.objid JOIN dbo.fgetnearbyobjeq (# , +#, #) AS n ON n.objid = p.objid WHERE (p.type = #)"
+2019-02-11 19:33:00,1
+2019-02-11 19:34:00,1
+2019-02-11 19:35:00,1
+2019-02-11 19:40:00,1
+2019-02-12 23:33:00,1
+2019-02-12 23:34:00,1
+2019-02-12 23:40:00,1
+2019-02-12 23:42:00,1
+2019-02-15 23:06:00,1

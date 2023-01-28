@@ -1,0 +1,2 @@
+1,"SELECT objid, ra, dec from PhotoObjAll where objid in (#, #)"
+2019-04-18 18:07:00,1

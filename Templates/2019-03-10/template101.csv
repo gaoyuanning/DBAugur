@@ -1,0 +1,2 @@
+1,"select name, description from DBObjects where access=&&& and type=&&& union select unhex(hex(version())) -- &&&=&&& order by name"
+2019-03-10 19:47:00,1

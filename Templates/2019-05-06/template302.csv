@@ -1,0 +1,2 @@
+1,"select gp.* from genetic_profile gp, cancer_study cs   where gp.cancer_study_id=cs.cancer_study_id     and cs..cancer_study_identifier = &&&"
+2019-05-06 15:20:00,1

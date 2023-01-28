@@ -1,0 +1,2 @@
+1,"SELECT     p.objID, p.run, p.rerun, p.camcol, p.field into mydb.TDErrcf from mydb.tdeDR7ID u   JOIN DR7.photoObj p ON p.objID = u.objID"
+2019-09-23 10:38:00,1

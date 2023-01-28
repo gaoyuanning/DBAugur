@@ -1,0 +1,2 @@
+1,"select top # ra, dec from PhotoTag where order by modelMag_g desc"
+2019-03-29 17:01:00,1

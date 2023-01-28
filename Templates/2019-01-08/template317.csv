@@ -1,0 +1,3 @@
+2,"SELECT s.objID, t.ra, t.dec, t.j, t.h, t.k from MyDB.JR_Table_SDSS_coords AS s JOIN DR1#.TwoMass AS t ON s.objID = t.objID INTO MyDB.JR_Table_S2byServer"
+2019-01-08 10:03:00,1
+2019-01-08 10:04:00,1

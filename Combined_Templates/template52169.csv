@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.ra, p.dec, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, p.modelMagErr_u, p.modelMagErr_g, p.modelMagErr_r, p.modelMagErr_i, p.modelMagErr_z FROM #upload u JOIN #x x ON x.up_id = u.up_id JOIN PhotoObjAll p ON p.objID = x.objID JOIN Photoz e ON e.objID = p.objID ORDER by x.up_id##', @log = #, @filter = #"
+2019-07-16 08:50:00,1

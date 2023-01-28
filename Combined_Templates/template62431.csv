@@ -1,0 +1,2 @@
+2,"select me.*, p.objID, p.psfMag_g, p.psfMag_r into mydb.segue_apogee_info2 FROM PhotoObjall as p JOIN mydb.segue_apogee_info1 as me on p.objid = me.bestobjid"
+2019-09-11 13:33:00,2

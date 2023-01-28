@@ -1,0 +1,2 @@
+1,"SELECT sub.plate, sub.mjd, sub.fiberID, sub.ra, sub.dec,   sub.plateSN2, sub.deredSN2, sub._RAJ2#, sub._DEJ2#, sub.SeqNum,   sub.RArad, sub.DErad, sub.Bjsel, sub.z, sub.q_z, sub.Bjmag, sub.GRSdate,   sub.eta, sub.e, sub.jon, sub.area, sub._RA_icrs, sub._DE_icrs, sub.recno,   sub.Separation, p.objID, p.specObjID into mydb.sub_specobjID from SpecPhotoAll AS p      JOIN mydb.subset as sub    ON sub.mjd = p.mjd   AND sub.plate = p.plate   AND sub.fiberID = p.fiberID"
+2019-09-05 04:41:00,1

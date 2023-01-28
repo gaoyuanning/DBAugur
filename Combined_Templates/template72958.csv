@@ -1,0 +1,3 @@
+2,"SELECT TOP # sp.bestobjID, sp.ra, sp.dec, sp.mjd, sp.plate, sp.fiberID, sp.z FROM specobj AS sp WHERE (sp.class = #) AND sp.z > #"
+2019-10-31 08:42:00,1
+2019-10-31 08:43:00,1

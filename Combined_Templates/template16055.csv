@@ -1,0 +1,2 @@
+1,"SELECT bestObjID, z, survey FROM SpecObj WHERE class = # AND zWarning = #"
+2019-03-02 19:20:00,1

@@ -1,0 +1,3 @@
+2,"SELECT   p.ra,p.dec,z,  p1.p_el,p1.p_cw, p1.p_acw, p1.p_edge,p1.p_dk, p1.p_mg,  p2.spiral,p2.elliptical,p2.uncertain FROM   SpecObj p JOIN zooNoSpec p1 on p1.specobjid=p.SpecObjID JOIN zooSpec p2 on p2.specobjid=p2.SpecObjID WHERE   (p.ra ># and p.ra <#) AND (p.dec># and   p.dec<#) And p.class=&&&   order by p.ra"
+2019-08-22 08:07:00,1
+2019-08-22 08:08:00,1

@@ -1,0 +1,2 @@
+2,"SELECT m.id, m.ra2, m.dec2, s.plate, s.mjd, s.fiberID, s.modelMag_u, s.modelMag_g, s.modelMag_r, s.modelMag_i, s.modelMag_z, s.Class, s.z, s.zWarning from mydb.SPLUS_cross5 m, SpecPhoto s into mydb.SPLUS_cross_spec5 WHERE s.run = m.run AND s.rerun = m.rerun AND s.field = m.field AND s.obj = m.obj AND m.mode = #"
+2019-01-09 13:25:00,2

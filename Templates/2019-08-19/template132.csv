@@ -1,0 +1,2 @@
+1,"SELECT TOP #   objID AS sdssid,   z AS zph,    zErr AS e_zph     where    z >= #    and zErr <> #"
+2019-08-19 16:52:00,1

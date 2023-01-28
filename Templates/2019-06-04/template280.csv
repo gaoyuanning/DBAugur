@@ -1,0 +1,2 @@
+1,"SELECT      p.objid, s.specobjid, s.bestobjid, s.mjd, s.plate, s.fiberID,  p.ra, p.dec, s.z, s.scienceprimary, s.primtarget,    p.petromag_u, p.petromag_g, p.petromag_r, p.petromag_i, p.petromag_z,    p.fibermag_u, p.fibermag_g, p.fibermag_r, p.fibermag_i, p.fibermag_z    FROM photoobjall as p      JOIN specobjall  as s   ON p.objid = s.bestobjid      INTO mydb.dr1#_all"
+2019-06-04 12:38:00,1

@@ -1,0 +1,2 @@
+1,"select ra,dec,objID,modelMag_u,modelMag_r,modelMag_g,modelMag_z,modelMag_i from photoObj where (ra between # and #) and (modelMag_u-modelMag_g>#) and class=GALAXY&&&"
+2019-03-22 19:50:00,1

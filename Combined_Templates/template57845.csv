@@ -1,0 +1,2 @@
+1,"select top # z.*, p.ra, p.dec, s.z, dbo.fPhotoFlagsN (p.flags) , p.flags from zoo2MainSpecz z join specobjall s on s.specobjid = z.specobjid join photoobjall p on s.bestobjid = p.objid where (p.flags & dbo.fPhotoFlags (#) ) = # and z.t0#_odd_feature_a2#_disturbed_debiased < z.t0#_odd_feature_a2#_irregular_debiased and z.t0#_odd_feature_a2#_irregular_debiased > # and z.t0#_odd_feature_a2#_irregular_flag < > #"
+2019-08-15 10:49:00,1

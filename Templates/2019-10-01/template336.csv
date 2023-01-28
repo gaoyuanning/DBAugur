@@ -1,0 +1,2 @@
+1,"SELECT top # *   FROM   r2#.summary_information_diagnoses_ a           CROSS APPLY        OPENJSON (a.json, $.Diagnoses_main_ICD1#_#')"
+2019-10-01 10:34:00,1

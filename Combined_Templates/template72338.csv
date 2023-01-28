@@ -1,0 +1,4 @@
+3,"SELECT DISTINCT #, #, ra, dec, z , zErr, velDisp, velDispErr FROM SpecObj AS p JOIN SpecPhotoAll AS s ON s.bestobjid = p.objid WHERE (ra between # and #) and (dec between # and #) and (petroMag_r + extinction_r< #) and (# = # and # ! =#)"
+2019-10-29 15:27:00,1
+2019-10-29 15:28:00,1
+2019-10-29 15:29:00,1

@@ -1,0 +1,9 @@
+8,"SELECT TOP # p.ra, p.dec, p.run, p.rerun, p.camCol, p.field, p.obj FROM STRIPE8#..PhotoObj AS p JOIN #x AS x ON x.objID = p.objID JOIN #upload AS u ON u.up_id = x.up_id WHERE (p.type = # OR p.type = #) ORDER BY x.up_id"
+2019-01-31 12:53:00,1
+2019-01-31 12:54:00,1
+2019-01-31 12:55:00,1
+2019-01-31 12:59:00,1
+2019-01-31 13:08:00,1
+2019-01-31 13:15:00,1
+2019-01-31 13:24:00,1
+2019-09-15 13:20:00,1

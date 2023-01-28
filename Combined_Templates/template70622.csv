@@ -1,0 +1,2 @@
+1,"select p.objid, p.ra, p.dec, p.b, p.l, p.u, p.g, p.r, p.i, p.z, p.type_u, p.type_g, p.type_r, p.type_i, p.type_z, p.u-p.g, p.g-p.r, p.r-p.i, p.i-p.z, s.z as redshift, s.specobjid from star p, specobj s where p.objid = s.bestobjid and (p.htmid*# & # < (# * #) )"
+2019-10-20 07:53:00,1

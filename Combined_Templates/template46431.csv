@@ -1,0 +1,4 @@
+3,"SELECT m.id, o.ra AS ra2, o.dec AS dec2, o.z AS redshift, o.veldisp AS velocity into Group_#kpc_w_redshift FROM MyDB.og_redmapper_sample AS m CROSS APPLY dbo.fGetNearbyObjEq (m.ra, m.dec, m.dist) AS n JOIN SpecObj AS o ON n.objid = o.bestobjid Join PhotoObj as p on p.objID = o.bestobjid WHERE p.petroMag_i < m.imag AND p.type = # order by m.id"
+2019-06-18 15:26:00,1
+2019-06-18 15:28:00,1
+2019-06-18 15:43:00,1

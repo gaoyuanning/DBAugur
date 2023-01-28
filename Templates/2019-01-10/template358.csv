@@ -1,0 +1,2 @@
+1,"select count(distinct(photo.objID)) from MyDB.DR1#_MGS_HETDEX_Data as data, DR1#.SpecObj as sp, DR1#.specPhoto as photo where sp.z > # and sp.z < #   and sp.specObjID = data.specObjID and sp.specObjID = photo.specObjID   and sp.zWarning = #"
+2019-01-10 08:27:00,1

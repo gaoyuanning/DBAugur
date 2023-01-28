@@ -1,0 +1,14 @@
+331,"SELECT DISTINCT p.ra, p.dec, p.objid, p.run, p.rerun, p.camcol, p.field, s.z, s.plate, s.mjd, s.fiberID, s.specobjid, s.run2d, s.instrument FROM PhotoObjAll AS p JOIN SpecObjAll s ON p.objID = s.bestObjID WHERE ((p.ra between # and #) and (p.dec between # and #))"
+2019-03-11 19:40:00,9
+2019-03-11 19:41:00,16
+2019-03-11 19:42:00,15
+2019-03-11 19:43:00,28
+2019-03-11 19:44:00,36
+2019-03-11 19:45:00,30
+2019-03-11 19:46:00,36
+2019-03-11 19:47:00,37
+2019-03-11 19:48:00,30
+2019-03-11 19:49:00,34
+2019-03-11 19:50:00,28
+2019-03-11 19:51:00,30
+2019-03-11 19:52:00,2

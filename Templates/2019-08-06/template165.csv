@@ -1,0 +1,2 @@
+1,"SELECT   m.*, p.ra, p.dec, p.run, p.rerun, p.camcol, p.field, p.petroRad_r    INTO   myDB.compact_manga_out    FROM   myDB.compact_manga as m, PhotoObj as p    WHERE   m.objID = p.objID"
+2019-08-06 15:23:00,1

@@ -1,0 +1,2 @@
+1,"SELECT objid, petroRad_u, petroRad_g, petroRad_r, petroRad_i, petroRad_z   FROM    PhotoObjAll AS p     JOIN SpecObjAll AS s      JOIN subset as sub   ON sub.mjd = s.mjd AND sub.plate = s.plate AND sub.fiberID = s.fiberID AND s.objID = p.OBJID"
+2019-09-04 18:18:00,1

@@ -1,0 +1,2 @@
+1,"SELECT m.id, m.ra AS ra1, m.dec AS dec1, m.dist AS dist1, m.imag AS imag1, n.objid, n.distance, o.ra AS ra2, o.dec AS dec2, o.petroMag_i as imag2 into mydb.MyTable_# from MyDB.Table1 AS m CROSS APPLY dbo.fGetNearbyObjEq (m.ra, m.dec, m.dist) AS n JOIN PhotoObj AS o ON n.objid = o.objid WHERE o.petroMag_i < m.imag AND COUNT (n.objid) > #"
+2019-06-01 19:00:00,1

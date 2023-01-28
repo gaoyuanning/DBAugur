@@ -1,0 +1,2 @@
+2,"SELECT count(*), MIN(credits), MAX(credits), AVG(credits)   FROM courses  WHERE credits > #"
+2019-02-18 15:59:00,2

@@ -1,0 +1,3 @@
+2,"select top # a.bestObjID, E_bv = extinction_r/# from MyDB.andre as a join PhotoObjAll as p on p.objid = a.bestObjID"
+2019-02-20 00:14:00,1
+2019-02-20 00:15:00,1

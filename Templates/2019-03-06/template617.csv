@@ -1,0 +1,2 @@
+1,"SELECT top # php.b, php.l     FROM PhotoPrimary as php          JOIN SpecObj as s WHERE (b between # and #)"
+2019-03-06 10:07:00,1

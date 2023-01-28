@@ -1,0 +1,2 @@
+1,"select top # class, s.z, s.modelmag_g, p.z, p.modelmag_g from SpecObj s inner join PhotoObj p on s.z = p.z, s.modelmag_g = p.modelmag_g where s.z> #"
+2019-09-04 16:37:00,1

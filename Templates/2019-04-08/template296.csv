@@ -1,0 +1,2 @@
+1,"select count(*) from specobj where zwarning = # and class=&&& and survey in (&&&, &&&)  and bestobjid > #"
+2019-04-08 14:48:00,1

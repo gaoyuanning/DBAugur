@@ -1,0 +1,19 @@
+24,"SELECT TOP #  specobj.plate as specobj_plate, specobj.mjd as specobj_mjd,  specobj.fiberid as specobj_fiberid,   specobj.ra as specobj_ra, specobj.dec as specobj_dec,   star.apstar_id, star.ra as star_ra, star.dec as star_dec FROM apogeeStar AS star   CROSS APPLY dbo.fGetNearestSpecObjEq( star.ra, star.dec, #) AS near   JOIN specobj ON near.specobjid=specobj.specobjid"
+2019-12-22 06:57:00,1
+2019-12-22 06:58:00,3
+2019-12-22 06:59:00,1
+2019-12-22 07:00:00,1
+2019-12-22 07:01:00,2
+2019-12-22 07:02:00,1
+2019-12-22 07:03:00,2
+2019-12-22 07:04:00,1
+2019-12-22 07:05:00,1
+2019-12-22 07:06:00,1
+2019-12-22 07:07:00,1
+2019-12-22 07:08:00,2
+2019-12-22 07:09:00,1
+2019-12-22 07:10:00,1
+2019-12-22 07:11:00,1
+2019-12-22 07:12:00,2
+2019-12-22 14:10:00,1
+2019-12-22 15:26:00,1

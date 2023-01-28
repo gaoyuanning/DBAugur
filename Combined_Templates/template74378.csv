@@ -1,0 +1,3 @@
+2,"SELECT p.objid, p.u, p.g, p.r, p.i , p.z FROM #upload u JOIN #x x ON x.up_id = u.up_id JOIN PhotoObjAll p ON p.objID = x.objID"
+2019-11-07 09:01:00,1
+2019-11-07 09:06:00,1

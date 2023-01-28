@@ -1,0 +1,3 @@
+2,"select c.dr7objid, l.ssfr, z.uncertain, z.elliptical, z.spiral, z.p_mg, z.p_dk, s.velDisp into mydb.MyTable from PhotoObjDR7 as c, PhotoObj as p, SpecObjAll as s, stellarMassFSPSGranEarlyDust as l, zooSpec as z where c.dr7objid = # AND c.dr7objid = n.ObjID AND p.objID = c.dr8objid AND s.bestObjID = p.objID AND l.specObjID = s.specObjID AND s.specObjID = z.specobjid"
+2019-07-22 02:57:00,1
+2019-07-23 15:20:00,1

@@ -1,0 +1,2 @@
+1,"select --top # specObjID, objid from specPhotoAll where z between # and # and modelMag_r < #"
+2019-06-01 20:06:00,1

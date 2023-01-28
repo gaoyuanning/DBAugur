@@ -1,0 +1,2 @@
+1,"select top # objid, ra, dec, psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_zfrom  PhotoObjAll where  type = #  AND RA between # and #  AND Dec > #  AND (psfMag_g-psfMag_r) between # and #  AND psfMag_u-psfMag_g between -(#*(psfMag_g-psfMag_r)#) and -(#*(psfMag_g-psfMag_r)#)"
+2019-10-04 10:58:00,1

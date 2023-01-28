@@ -1,0 +1,2 @@
+1,"select top # objid, ra, dec, u, g, r, i, z from PhotoObj where (u-g) between # and (# - #* (g-r) ) and (g-r) between # and # and u > # and Abs (z) < # or (g-r) between # and # and Abs ((r-i) - #* (g-r) ) > # and u > # and Abs (z) < # and (u-g) < # or (u-g) < (#* (g-r) #)"
+2019-01-11 17:56:00,1

@@ -1,0 +1,17 @@
+24,"select sp.z, se.sfr_tot_p5#, se.sfr_fib_p5#, 	se.specsfr_tot_p5#, se.specsfr_fib_p5#, 	p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, 	p.fiberMag_u, p.fiberMag_g, p.fiberMag_r, p.fiberMag_i, p.fiberMag_z, 	p.petroMag_u, p.petroMag_g, p.petroMag_r, p.petroMag_i, p.petroMag_z, 	p.deVMag_u, p.deVMag_g, p.deVMag_r, p.deVMag_i, p.deVMag_z, 	p.expMag_u, p.expMag_g, p.expMag_r, p.expMag_i, p.expMag_z, 	p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z from DR9.SpecPhoto as sp left join DR9.galSpecExtra as se on (sp.specObjID = se.specObjID) right join DR9.PhotoObjAll as p on (sp.objID = p.objID) where  sp.zErr >= # and sp.zWarning = # and se.sfr_tot_p5# != # and se.sfr_fib_p5# != # and se.specsfr_tot_p5# != # and  se.specsfr_fib_p5# != # and sp.z between # and # and sp.z != #"
+2019-07-30 08:52:00,1
+2019-07-30 09:15:00,1
+2019-07-30 09:16:00,1
+2019-07-30 09:27:00,1
+2019-07-30 09:28:00,1
+2019-07-30 09:29:00,2
+2019-07-30 09:30:00,2
+2019-07-30 09:31:00,1
+2019-07-30 09:32:00,2
+2019-07-30 09:33:00,3
+2019-07-30 09:35:00,2
+2019-07-30 09:36:00,2
+2019-07-30 09:37:00,1
+2019-07-30 09:49:00,2
+2019-07-30 10:59:00,1
+2019-07-30 11:00:00,1

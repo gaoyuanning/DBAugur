@@ -1,0 +1,2 @@
+1,"SELECT t.MediaTypeID, t.GenreID, COUNT(t.MediaTypeID) as freq FROM chinook.Track t JOIN chinook.MediaType m ON m.MediaTypeID = t.MediaTypeID ORDER BY MediaTypeID Asc;"
+2019-04-24 17:52:00,1

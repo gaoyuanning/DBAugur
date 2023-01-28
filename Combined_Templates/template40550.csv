@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, FROM PhotoObj AS p WHERE abs (p.ra-#) +abs (p.dec-#) < #"
+2019-05-20 14:37:00,1

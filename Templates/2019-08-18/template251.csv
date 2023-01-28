@@ -1,0 +1,2 @@
+1,"select z.*, p.ra as photoRA, p.dec as photoDec, s.z, dbo.fPhotoFlagsN(p.flags), p.flags into mydb.helpdesk_merg_# from zoo2MainSpecz z   join   specobjall s on s.specobjid=z.specobjid join   photoobjall p on s.bestobjid=p.objid where   (p.flags & dbo.fPhotoFlags(&&&)) = #   and   z.t0#_odd_feature_a2#_merger_flag = #"
+2019-08-18 04:49:00,1

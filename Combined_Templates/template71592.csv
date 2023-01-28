@@ -1,0 +1,6 @@
+6,"select top # specobjid as name, ra, dec from SpecObj where ra between # and # order by ra desc"
+2019-10-25 12:12:00,1
+2019-10-25 12:15:00,1
+2019-10-31 08:47:00,1
+2019-10-31 08:48:00,1
+2019-10-31 08:49:00,2

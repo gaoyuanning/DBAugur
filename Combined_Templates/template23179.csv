@@ -1,0 +1,3 @@
+2,"SELECT ra, dec, z, zErr, zWarning into mydb.MyTable from SpecObjAll where z < #"
+2019-03-25 02:45:00,1
+2019-03-25 02:48:00,1

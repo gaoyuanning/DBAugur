@@ -1,0 +1,2 @@
+1,"SELECT p.run, p.rerun, p.camcol, p.field, p.kk_g, p.airrmass_g, p.aa_g into mydb.TDEfield from mydb.TDEids u JOIN DR1#.field p ON p.objID = u.objID"
+2019-07-30 10:45:00,1

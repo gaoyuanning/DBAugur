@@ -1,0 +1,2 @@
+1,"select top # p.objid, p.u, p.g, p.r, p.i, p.z, s.z as redshift from photoobj p, specobj s where p.objid = s.bestobjid"
+2019-12-04 04:05:00,1

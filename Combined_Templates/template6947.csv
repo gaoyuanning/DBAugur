@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.modelMag_r, p.modelMagErr_r, # as filter FROM BESTDR1..PhotoObj as p WHERE p.r > # AND (p.type = # OR p.type = #)"
+2019-01-30 14:47:00,1

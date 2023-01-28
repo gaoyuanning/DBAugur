@@ -1,0 +1,2 @@
+1,"SELECT z.ra,z.dec,z.nvote_tot,z.nvote_std,z.p_el,a.objId FROM zooVotes AS z,   mydb.test_# AS a --into mydb.testzoo WHERE  a.objId=z.objid"
+2019-07-17 03:32:00,1

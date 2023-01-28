@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.ra,p.dec,p.colc_g,p.colc_i,p.colc_r,p.colc_u,p.dec,p.obj,p.objID,str(p.ra,#,#) as ra, &&& as filter FROM  #x x, #upload u,  BESTDR2..PhotoObj as p WHERE  ( p.type = # OR p.type = #) AND u.up_id = x.up_id AND x.objID=p.objID ORDER BY x.up_id"
+2019-05-01 14:14:00,1

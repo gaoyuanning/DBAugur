@@ -1,0 +1,2 @@
+1,"SELECT TOP # objid, ra, dec, r     FROM galaxy     WHERE clean = #     AND galaxy.ra < #     )=#"
+2019-04-16 02:47:00,1

@@ -1,0 +1,2 @@
+1,"SELECT n.nsaid,n.fiberid,n.aid,n.pid,n.xcen,n.ycen,a.ra,a.dec FROM nsatlas as n,   mydb.t1_radectest1 as a   into mydb.test"
+2019-04-07 15:44:00,1

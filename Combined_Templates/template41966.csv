@@ -1,0 +1,2 @@
+3,"SELECT ra, dec, psfmag_i-extinction_i AS mag_i, psfmag_r-extinction_r AS mag_r, z FROM SpecPhoto WHERE zconf > # AND (specclass = dbo.fspecclass (#) OR specclass = dbo.fspecclass (#) ) AND ra between # AND # AND dec between # AND # -- Getting TARGET photometry for spectra SELECT sp.ra, sp.dec, sp.z, sp.psfmag_i-sp.extinction_i AS best_i, p.psfmag_i-p.extinction_i AS target_i FROM specphoto AS sp INNER JOIN TARGDR2..photoprimary AS p ON sp.targetobjid = p.objid WHERE sp.zconf > # AND (specclass = dbo.fspecclass (#) OR specclass = dbo.fspecclass (#)"
+2019-05-27 01:13:00,3

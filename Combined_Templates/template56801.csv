@@ -1,0 +1,2 @@
+1,"SELECT top # objID, ra, dec, u, psfMag_u, g, psfMag_g, r, psfMag_r, i, psfMag_i, z, psfMag_z, clean, nChild, type FROM Star WHERE CLEAN = # AND (ra between # and #) and (dec between # and #)"
+2019-08-11 00:35:00,1

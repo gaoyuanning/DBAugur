@@ -1,0 +1,2 @@
+1,"SELECT w.ra as wise_ra, w.dec as wise_dec, s.z as sdss_s_z into mydb.MyTable from wise_xmatch as xm left join wise_allsky as w on w.cntr = xm.wise_cntr left join specObjAll as s on xm.sdss_objid = s.bestObjID WHERE (w.w1mpro-w.w2mpro) > =# and s.z< #"
+2019-02-22 06:10:00,1

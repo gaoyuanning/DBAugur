@@ -1,0 +1,2 @@
+1,"SELECT objID, modelMag_r, petroRad_r, ra, dec  FROM Obj  WHERE (ra between # and #) and (dec between # and #)"
+2019-02-12 14:27:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # dbo.fIAUFromEq(p.ra,p.dec),p.ra,p.dec,p.modelmag_g,p.modelmag_r,p.modelmag_i FROM Galaxy as p WHERE p.modelmag_r<# and p.ra<# and p.ra># and p.dec> and p.dec< order by p.modelmag_r"
+2019-04-30 16:33:00,1

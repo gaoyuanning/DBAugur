@@ -1,0 +1,2 @@
+2,"select   m.bestobjid as objid, s.ra, s.dec, g.*   into mydb.Pratik6#grgc_SDSS_specz_line_DR1#    from   galspecline g, specobj s, mydb.Pratik6#grgc_SDSS_specz m    where   m.objid = s.bestobjid   and s.specobjid = g.specobjid    order by   s.ra"
+2019-11-22 08:19:00,2

@@ -1,0 +1,11 @@
+13,"SELECT TOP # p.run, p.rerun, p.camCol, p.field, p.obj, cast (str (p.ra, #, #) as float) as ra, cast (str (p.[dec], #, #) as float) as dec, p.u, p.g, p.r, p.i, p.z, p.modelMagErr_u, p.modelMagErr_g, p.modelMagErr_r, p.modelMagErr_i, p.modelMagErr_z, p.TAI_g, p.TAI_i, p.TAI_r, p.TAI_u, p.TAI_z FROM ..PhotoObj AS p JOIN dbo.fGetObjFromRect (#, #, #, #) AS b ON p.objID = b.objID WHERE (p.type = # OR p.type = #)"
+2019-01-31 06:32:00,1
+2019-01-31 10:30:00,2
+2019-01-31 10:31:00,1
+2019-01-31 10:32:00,1
+2019-01-31 10:33:00,1
+2019-01-31 10:34:00,1
+2019-01-31 10:35:00,1
+2019-01-31 10:36:00,3
+2019-01-31 10:41:00,1
+2019-01-31 10:42:00,1

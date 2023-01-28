@@ -1,0 +1,2 @@
+1,"SELECT name, DR1#_PLUG_RA AS RA, DR1#_PLUG_DEC AS DEC, MJD, redshift,  CLASS_BEST, CONF_BEST FROM spiders_quasar  WHERE ( redshift > # AND redshift < #  AND CLASS_BEST=&&& AND DR1#_ZWARNING=# )"
+2019-07-25 16:55:00,1

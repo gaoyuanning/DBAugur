@@ -1,0 +1,3 @@
+2,"select top #    g.ra,    g.dec,   g.modelMag_u,g.modelMag_g,g.modelMag_r, g.modelMag_i, g.modelMag_z,   g.petroR9#_r,   s.z,  g.modelMag_r-g.modelMag_u,   zp.elliptical,   zp.spiral,   zp.uncertain    into mydb.diplo_a from galaxy g, SpecObjAll s, zoospec zp   where g.objID = s.bestObjID and   g.objID=zp.objid and    # < s.z and s.z < # and   g.specObjID<>#"
+2019-04-03 18:51:00,1
+2019-04-03 18:52:00,1

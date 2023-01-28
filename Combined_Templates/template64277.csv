@@ -1,0 +1,2 @@
+1,"SELECT clientIP, seq, statement, elapsed into mydb.TopQueries from SQLlog WHERE yy = # AND error = # AND dbname = # ORDER BY elapsed DESC"
+2019-09-20 10:25:00,1

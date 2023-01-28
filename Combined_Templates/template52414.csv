@@ -1,0 +1,2 @@
+1,"SELECT sm.m2l_median_z AS m_to_l, sm.specObjID, sm.z, sm.ra, sm.dec, sm.age FROM stellarMassFSPSGranEarlyDust AS sm WHERE m_to_l between # and #"
+2019-07-17 06:57:00,1

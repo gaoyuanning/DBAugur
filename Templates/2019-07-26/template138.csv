@@ -1,0 +1,4 @@
+3,"SELECT specobjid, bestobjid, fluxobjid,             ra, dec, class, subclass, z, class_noqso, z_noqso,              spectroflux_u, spectroflux_g, spectroflux_r,             spectroflux_i, spectroflux_z     INTO mydb.specobj     FROM specobj     WHERE zwarning = #;"
+2019-07-26 15:44:00,1
+2019-07-26 18:17:00,1
+2019-07-26 18:33:00,1

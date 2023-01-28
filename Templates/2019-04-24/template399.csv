@@ -1,0 +1,2 @@
+1,"SELECT DISTINCT AlbumId, COUNT(*) AS Num FROM chinook.Track Having Num = # GROUP BY AlbumID"
+2019-04-24 16:36:00,1

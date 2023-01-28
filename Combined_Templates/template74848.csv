@@ -1,0 +1,3 @@
+2,"select into res_gal_index avg (petroMag_u) , avg (petroMag_g) , avg (petroMag_r) , avg (petroMag_i) , avg (petroMag_z) , count (petroMag_z) from MyDB.manual_good_ccw, specObjAll, galSpecIndx, PhotoObjAll where manual_good_ccw.ID = specObjAll.bestObjID and specObjAll.specObjID = galSpecIndex.specObjID and PhotoObjAll.objid = manual_good_ccw.ID and petroMag_u> # and petroMag_g> # and petroMag_r> # and petroMag_i> # and petroMag_z> # and lick_fe4#< # and lick_fe4#> #"
+2019-11-10 15:06:00,1
+2019-11-10 15:07:00,1

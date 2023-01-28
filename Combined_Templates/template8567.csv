@@ -1,0 +1,2 @@
+1,"SELECT count (*) FROM SpecObj WHERE class = # and zWarning< ># and zWarning< ># Your query output (max #, # rows) :"
+2019-02-06 14:56:00,1

@@ -1,0 +1,2 @@
+1,"SELECT MIN (tmp1#.up_id) AS up_id, tmp1#.objid AS objid FROM MyDB.tmp1# tmp1# INTO MyDB.tmp1# GROUP BY tmp1#.objid ORDER BY up_id, objid"
+2019-03-05 06:28:00,1

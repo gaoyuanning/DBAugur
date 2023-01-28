@@ -1,0 +1,2 @@
+1,"SELECT p.ra AS RA, p.dec AS DEC, p.modelMag_u, p.modelMagErr_u, p.modelMag_g, p.modelMagErr_g, p.modelMag_r, p.modelMagErr_r, p.modelMag_i, p.modelMagErr_i, p.modelMag_z, p.modelMagErr_z, p.flags AS flags into mydb.MyTable_shela from dbo.PhotoObj AS p WHERE p.ra > # and p.ra < # and p.dec > # and p.dec < #"
+2019-01-23 17:43:00,1

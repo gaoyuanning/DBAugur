@@ -1,0 +1,2 @@
+1,"select sp.plate,sp.mjd,sp.fiberid,sp.g0,sp.gmr0, sl.hbeta, sl.hbetaerr, sl.halpha, sl.halphaerr, sp.feha,sp.fehaerr,sp.fehan,sp.logga,sp.loggaerr,sp.loggan from sppLines as sl, sppParams as sp where sl.hbeta > # and sl.hbetaerr > #"
+2019-12-12 12:03:00,1

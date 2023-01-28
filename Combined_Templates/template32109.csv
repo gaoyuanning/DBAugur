@@ -1,0 +1,2 @@
+1,"SELECT SUBSTRING (name, #, #) AS firstLetter as num FROM chinook.artist"
+2019-04-20 14:30:00,1

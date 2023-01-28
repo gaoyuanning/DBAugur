@@ -1,0 +1,2 @@
+1,SELECT TOP # FROM zoo2MainSpecz AS z JOIN PhotoObjAll AS p ON p.specObjID = z.specobjid
+2019-05-19 09:02:00,1

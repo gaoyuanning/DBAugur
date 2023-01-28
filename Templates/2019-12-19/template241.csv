@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID, ra, dec, u, g, r, i, z, rerun, camcol, field, class, redshift, plate, mjd into mydb.MyTable_# from SpecObj WHERE class = &&& OR class = &&& OR class = &&& AND zWarning = #"
+2019-12-19 12:58:00,1

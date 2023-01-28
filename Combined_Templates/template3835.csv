@@ -1,0 +1,12 @@
+15,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.run, p.rerun, p.camcol, p.field, s.specobjid, s.class, s.z as redshift, s.plate, s.mjd, s.fiberid FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE s.class = #"
+2019-01-16 02:49:00,1
+2019-04-02 15:45:00,1
+2019-04-02 15:51:00,2
+2019-06-11 13:51:00,2
+2019-06-11 13:58:00,1
+2019-06-11 13:59:00,2
+2019-06-22 12:14:00,1
+2019-10-18 10:10:00,1
+2019-10-18 10:14:00,2
+2019-10-18 10:15:00,1
+2019-11-06 08:29:00,1

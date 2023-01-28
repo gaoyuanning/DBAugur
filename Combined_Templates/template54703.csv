@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid AS p.ra, p.dec FROM PhotoObj AS p WHERE p.score > # AND p.u BETWEEN # AND # AND g BETWEEN # AND # ORDER BY p.field"
+2019-07-31 17:41:00,1

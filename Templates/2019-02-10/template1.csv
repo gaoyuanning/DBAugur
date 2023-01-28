@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.ObjID, p.modelMag_r, p.petroRad_r, s.z FROM PhotoObjAll as p inner join SpecObjAll as s on p.SpecObjID = s.SpecObjID WHERE (p.ra between # and #) and (p.dec between # and #) and (p.type = #) and (p.modelMag_r between # and #) and  (p.petroRad_r <#) and (p.specObjID != #) and (s.z <#) and (s.class =&&&)"
+2019-02-10 23:59:00,1

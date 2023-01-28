@@ -1,0 +1,2 @@
+1,"select top # objID,specObjID,ra,dec ,run,rerun,camcol,field into mydb.MyTable from PhotoObjAll"
+2019-11-14 12:48:00,1

@@ -1,0 +1,2 @@
+1,"SELECT Top #  g.ObjId, g.ra, g.dec, g.type, g.insideMask from PhotoObjAll as g  where g.cmodelMag_r < &&& and g.type = #  and g.ra between &&& and &&& and g.insideMask = #"
+2019-11-19 14:13:00,1

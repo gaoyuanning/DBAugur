@@ -1,0 +1,2 @@
+2,"SELECT TOP # specObjID, modelMag_r, petroRad_r FROM PhotoPrimary WHERE ra BETWEEN # AND # AND dec BETWEEN-# AND #"
+2019-02-10 01:36:00,2

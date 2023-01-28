@@ -1,0 +1,2 @@
+1,"select top # z,ra,dec from specObj where class = &&& and z > #"
+2019-05-02 16:29:00,1

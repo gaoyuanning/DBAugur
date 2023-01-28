@@ -1,0 +1,2 @@
+1,"SELECT TOP #   SOA.ra,   SOA.dec,   SOA.TARGETOBJID,   sp.TARGETOBJID,   sp.ELODIERVFINAL,   sp.ELODIERVFINALERR,   sp.FEHADOP,   sp.FEHADOPN,   sp.LOGGADOP,   sp.LOGGADOPN,   sp.TEFFADOP,   sp.TEFFADOPN,   sp.SNR   into mydb.CMD_SEGUE_TARGETOBJID from sppParams as sp join SpecObjAll as SOA on sp.TARGETOBJID =SOA.TARGETOBJID WHERE	    SOA.ra between # and # and SOA.dec between # and # and sp.SNR>#"
+2019-05-23 03:29:00,1

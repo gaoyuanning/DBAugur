@@ -1,0 +1,3 @@
+3,"select objid, ra, dec, u, g, r, i, z from galaxy where ra between # and # and modelmag_g > # and modelmag_u - modelmag_g > #"
+2019-12-11 08:44:00,2
+2019-12-11 08:46:00,1

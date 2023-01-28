@@ -1,0 +1,2 @@
+1,"SELECT top # f.ra, f.dec from myDB.all_flares as f CROSS APPLY dbo.fGetNearestSpecObjEq (f.ra, f.dec, #) AS near JOIN specobjall as sp ON near.specobjid = sp.specobjid"
+2019-03-29 10:56:00,1

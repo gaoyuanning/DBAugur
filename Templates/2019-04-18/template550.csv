@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.type, p.ra, p.dec, n.distance AS offset ,p.specobjid, p.run, p.rerun, p.camcol, p.field, s.z FROM fGetNearbyObjEq(#,#,#) n JOIN Galaxy p ON n.objID=p.objID JOIN SpecPhoto s p.specobjid=s.specobjid ORDER BY offset"
+2019-04-18 06:13:00,1

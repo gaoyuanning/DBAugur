@@ -1,0 +1,2 @@
+1,"SELECT      s.specObjID, s.ObjID,    m.ObjID,   p.kcorrU, p.kcorrG, p.kcorrR, p.kcorrI, p.kcorrZ,   p.absMagU, p.absMagG, p.absMagR, p.absMagI, p.absMagZ,   p.z, p.zErr, p.distMod, p.lumDist    into mydb.Tab0#   from SpecPhotoAll as s   JOIN PhotoObjAll as m ON m.objid = s.objid   JOIN Photoz      as p ON m.objid = p.objid   where class= &&&"
+2019-12-05 07:15:00,1

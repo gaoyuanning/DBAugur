@@ -1,0 +1,3 @@
+3,"SELECT u.up_name as [name], # + cast (x.objId as varchar (#) ) + #+ cast (x.objId as varchar (#) ) + # as objID, p.ra, p.dec, p.run, p.rerun, p.camcol, p.field, dbo.fPhotoTypeN (p.type) as type, JOIN #x x ON x.up_id = u.up_id JOIN PhotoTag p ON p.objID = x.objID ORDER BY x.up_id"
+2019-02-28 16:16:00,2
+2019-02-28 16:17:00,1

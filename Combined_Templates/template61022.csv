@@ -1,0 +1,2 @@
+1,"SELECT HS.RA_DEG_J2#, HS.DEC_DEG_J2# into mydb.MyTable from myDB.Hammond_Short HS"
+2019-09-04 05:54:00,1

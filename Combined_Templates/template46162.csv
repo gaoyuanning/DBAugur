@@ -1,0 +1,13 @@
+12,"SELECT u.up_run as run, u.up_rerun as rerun, u.up_camcol as camcol, u.up_field as field, u.up_obj as obj, x.objID, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, p.modelMagErr_u, p.modelMagErr_g, p.modelMagErr_r, p.modelMagErr_i, p.modelMagErr_z FROM #upload u JOIN #x x ON x.up_id = u.up_id JOIN PhotoTag p ON p.objID = x.objID ORDER by x.up_id"
+2019-06-17 15:17:00,1
+2019-06-17 15:22:00,1
+2019-06-17 15:23:00,1
+2019-06-17 15:25:00,1
+2019-06-17 15:28:00,1
+2019-06-17 15:38:00,1
+2019-06-17 15:39:00,1
+2019-06-17 15:46:00,1
+2019-06-17 15:47:00,1
+2019-06-17 15:49:00,1
+2019-06-17 15:52:00,1
+2019-06-17 15:54:00,1

@@ -1,0 +1,2 @@
+1,"select ra, dec into mydb.MyTable_# from dbo.zoo2Mainspecz where   t0#_bar_a0#_bar_count >= # and   t0#_bar_a0#_bar_fraction > # and    t0#_bar_a0#_bar_weighted_fraction > # and    t0#_bar_a0#_bar_debiased > #"
+2019-03-04 04:48:00,1

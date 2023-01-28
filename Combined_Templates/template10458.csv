@@ -1,0 +1,2 @@
+1,"SELECT petroRad_r, objID, modelMag_r FROM Galaxies WHERE (ra between # and #) and (dec between # and #)"
+2019-02-12 03:50:00,1

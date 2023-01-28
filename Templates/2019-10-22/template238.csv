@@ -1,0 +1,2 @@
+1,"SELECT e.plate, e.fiberID, e.mjd, e.ra, e.dec, e.z, e.sigmaStars, e.Flux_Hb_#, e.Flux_OIII_#, e.Flux_NII_#, e.Flux_Ha_#, e.bpt FROM emissionLinesPort as e WHERE (e.ra = #) AND (e.dec = #)"
+2019-10-22 17:19:00,1

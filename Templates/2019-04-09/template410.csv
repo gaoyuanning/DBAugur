@@ -1,0 +1,2 @@
+1,"select s.ra ra, s.dec dec, dbo.fHMSbase(s.ra,default,default),  dbo.fDMSbase(s.dec,default,default) into mydb.listofcandidates_aftervisual_coord from t.listofcandidates_aftervisual s"
+2019-04-09 13:29:00,1

@@ -1,0 +1,2 @@
+1,"select  (select count(*) from PhotoObj where ra BETWEEN # and # AND  dec BETWEEN # and # AND  i BETWEEN # and #, select count(*) from PhotoObj where ra BETWEEN # and # AND  dec BETWEEN # and # AND  i BETWEEN # and #)"
+2019-02-03 07:45:00,1

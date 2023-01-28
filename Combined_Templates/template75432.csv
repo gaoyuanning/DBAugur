@@ -1,0 +1,4 @@
+4,"SELECT TOP # G.objID, p.z, G.ra, G.dec FROM Galaxy as G JOIN photoz AS p ON G.objID = p.objID WHERE G.ra BETWEEN # and # AND G.dec BETWEEN # and # AND p.z BETWEEN # and #"
+2019-11-12 03:24:00,1
+2019-11-12 03:25:00,2
+2019-11-12 03:39:00,1

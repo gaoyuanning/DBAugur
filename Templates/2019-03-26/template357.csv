@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.plate,s.mjd,s.fiberid  FROM ..SpecObj as s  JOIN dbo.fGetNearbySpecObjEq(#,#,#) AS b ON b.SpecobjID = S.SpecobjID  JOIN PhotoObj AS p ON s.bestobjid=p.objid  WHERE s.z > # AND s.zWarning = # AND (s.class = &&&) AND s.z < # AND p.g > # AND p.g < # AND (s.boss_target1 & (dbo.fBossTarget1(&&&)) != #)"
+2019-03-26 19:04:00,1

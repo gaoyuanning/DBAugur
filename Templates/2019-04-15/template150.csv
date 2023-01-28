@@ -1,0 +1,3 @@
+2,"SELECT TOP # p.dmod, s.z, s.zErr FROM Photoz p JOIN SpecObjAll s  ON p.specObjID = s.specObjID where s.ObjType = #"
+2019-04-15 19:36:00,1
+2019-04-15 19:46:00,1

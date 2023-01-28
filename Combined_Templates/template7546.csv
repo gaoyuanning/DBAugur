@@ -1,0 +1,2 @@
+1,"SELECT TOP # dbo.fIAUFromEq (p.ra, p.[dec]) as SDSSname FROM BESTDR7..Galaxy AS p JOIN dbo.fGetNearbyObjEq (#, #, #) AS b ON b.objID = p.objID"
+2019-02-01 12:44:00,1

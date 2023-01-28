@@ -1,0 +1,2 @@
+1,"SELECT   n.objID, n.distance, n.type,   p.ra AS pra, p.dec AS pdec, p.modelmag_r,   pz.z as photoz FROM Galaxy AS G   OUTER APPLY dbo.fGetNearbyObjEq(#,#, #) AS n   LEFT JOIN PhotoObj AS p ON n.objid=p.objid   LEFT JOIN Photoz as pz ON n.objid=pz.objid --  OUTER APPLY dbo.fCosmoComovDist2ObjectsRADEC(#,#,#,photoz,pra,pdec,DEFAULT,DEFAULT,DEFAULT,DEFAULT,DEFAULT) AS n1    WHERE G.objID = n.objID   LEFT JOIN dbo.fCosmoComovDist2ObjectsRADEC(#,#,#,photoz,pra,pdec,DEFAULT,DEFAULT,DEFAULT,DEFAULT,DEFAULT) AS n1 ON n1.objid=pz.objid INTO MyDB.NearbyObjEq5"
+2019-02-08 15:47:00,1

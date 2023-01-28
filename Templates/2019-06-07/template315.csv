@@ -1,0 +1,2 @@
+1,"select top # BlockLot,  Neighborhood   , GeogCenter.PointX from RealPropertiesExtra where IsVacant = #"
+2019-06-07 12:22:00,1

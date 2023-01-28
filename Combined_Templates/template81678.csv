@@ -1,0 +1,2 @@
+2,"select top # p.petroR5#_r, p.petroR5#_g from galaxy p join specobj s on s.bestobjid = p.objid where s.z > # and (p.petroMag_g + p.extinction_g - p.petroMag_r - p.extinction_r) between (#) and # and (p.petroR9#_r / p.petroR5#_r) between # and # and (p.petroR9#_g / p.petroR5#_g) between # and # and (p.petroMag_g + p.extinction_g - #*log1# (# * s.z) ) between (#) and (#) order by p.petroR5#_g desc"
+2019-12-09 00:57:00,2

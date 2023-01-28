@@ -1,0 +1,2 @@
+1,"SELECT up_id, dbo.fGetNearestSpecObjIdEq (up_ra, up_dec, #) as SpecobjId FROM #upload WHERE dbo.fGetNearestSpecObjIdEq (up_ra, up_dec, #) IS NOT # EXEC spExecuteSQL ' SELECT u.up_name as [name], s.specobjid, s.ra, s.dec, s.z, s.plate, s.mjd, s.fiberid, e.bpt, e.Flux_Hb_#, e.Flux_OIII_#, e.Flux_OI_#, e.Flux_Ha_#, e.Flux_NII_#, e.Flux_SII_#, e.Flux_SII_# FROM #upload u JOIN #x x ON x.up_id = u.up_id JOIN emissionLinesPort AS e ON e.specObjID = x.specObjID WHERE s.zWarning = # AND s.class = GALAXY"
+2019-04-11 11:33:00,1

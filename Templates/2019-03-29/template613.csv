@@ -1,0 +1,2 @@
+1,"SELECT   f.ra, f.dec,   f.plate, f.mjd, f.fiberid,   star.apstar_id into mydb.MyTable_# from myDB.flaretable_crosscheck_sdss_specobj as f     CROSS APPLY  dbo.fGetNearbyApogeeStarEq( f.ra, f.dec, #) AS near     JOIN apogeeStar AS star ON near.apstar_id=star.apstar_id"
+2019-03-29 11:56:00,1

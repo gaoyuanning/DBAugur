@@ -1,0 +1,7 @@
+80,"SELECT s.specObjID as spec_id, dbo.fGetUrlFitsSpectrum(s.specObjId) as spec_url FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.ra BETWEEN # AND # AND p.dec BETWEEN # AND # AND p.type=# AND s.snMedian>#"
+2019-07-07 05:12:00,2
+2019-07-07 22:49:00,16
+2019-07-07 22:50:00,16
+2019-07-07 22:51:00,18
+2019-07-07 22:52:00,16
+2019-07-07 22:53:00,12

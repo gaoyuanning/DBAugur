@@ -1,0 +1,4 @@
+3,select count(*) specObjID into mydb.INFSCI_Size_Test from dbo.galSpecInfo where z between # and #
+2019-03-31 19:40:00,1
+2019-03-31 19:43:00,1
+2019-03-31 19:50:00,1

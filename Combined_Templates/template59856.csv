@@ -1,0 +1,2 @@
+1,"select top # * sp.plate, sp.mjd, sp.fiberid from sppLines as sl, sppParams as sp where sp.fehspectype = # and sl.specobjid = sp.specobjid"
+2019-08-30 11:00:00,1

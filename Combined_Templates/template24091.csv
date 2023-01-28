@@ -1,0 +1,2 @@
+1,"select s.objid, s.ra, s.dec, s.g, s.r, s.g - s.r from star s, dbo.fGetNearbyObjEq (% (RA) , % (DEC) , % (radius) ) n where s.objid = n.objid"
+2019-03-26 23:09:00,1

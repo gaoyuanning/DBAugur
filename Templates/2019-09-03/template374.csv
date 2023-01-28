@@ -1,0 +1,2 @@
+1,"select snapid,count(*) as num from junctions group by snapid"
+2019-09-03 11:21:00,1

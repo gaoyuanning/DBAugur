@@ -1,0 +1,6 @@
+5,"SELECT dbo.fIAUFromEq (s.ra, s.dec) , s.specobjId, s.ra, s.dec, p.z, p.zErr, s.class, j.g, s.plate, s.mjd, s.fiberid FROM Photoz p JOIN specobj s ON s.bestObjId = p.objId JOIN PhotoObj j ON j.ObjId = p.objId WHERE (s.ra BETWEEN # AND # OR s.ra BETWEEN # AND #) AND s.z < = # AND photoErrorClass = #"
+2019-05-03 00:45:00,1
+2019-05-03 01:24:00,1
+2019-05-05 03:33:00,1
+2019-05-05 03:34:00,1
+2019-05-07 22:07:00,1

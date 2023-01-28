@@ -1,0 +1,2 @@
+1,"select o.mcp_num_Jun1#, o.distance into mydb.MyTable from MyDB.MaserDistances as o cross join MyDB.Masers_WISEfinalresults as n where o.mcp_num_Jun1# = n.mcpnum_#"
+2019-08-13 11:22:00,1

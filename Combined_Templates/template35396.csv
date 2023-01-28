@@ -1,0 +1,4 @@
+4,"SELECT G.specObjID, G.ra, G.dec into mydb.spec_obj from SpecObj G"
+2019-04-29 13:46:00,2
+2019-04-29 13:51:00,1
+2019-04-29 13:57:00,1

@@ -1,0 +1,3 @@
+2,"SELECT TOP # s.apogee_id, s.ra, s.dec, s.glon, s.glat, a.aspcap_class, s.field, s.survey, a.param_c_m, a.param_n_m, s.vhelio_avg, s.vscatter, s.extratarg, s.snr, params.*, paramerrs.*, elems.*, elemerrs.*, dbo.fApogeeAspcapFlagN (a.aspcapflag) , dbo.fApogeeStarFlagN (s.starflag) FROM apogeeStar s JOIN aspcapStar a on a.apstar_id = s.apstar_id CROSS APPLY dbo.fAspcapParams (a.aspcap_id) params CROSS APPLY dbo.fAspcapParamErrs (a.aspcap_id) paramerrs CROSS APPLY dbo.fAspcapElems (a.aspcap_id) elems CROSS APPLY dbo.fAspcapElemErrs (a.aspcap_id) elemerrs WHERE (a.aspcapflag & dbo.fApogeeAspcapFlag (#) ) = # and s.extratarg = #"
+2019-11-20 16:12:00,1
+2019-11-20 16:13:00,1

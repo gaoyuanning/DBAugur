@@ -1,0 +1,2 @@
+2,"SELECT    s.specObjID, s.ra, s.dec, s.z, s.class, s.zWarning, s.snMedian, el.ra1, el.dec1, e.bpt, e.Flux_Hb_#,e.Flux_OIII_#, e.Flux_Ha_#, e.Flux_NII_# into mydb. MyTable_# from mydb.radec2 as el   CROSS APPLY dbo.fGetNearestSpecObjEq( el.ra1, el.dec1, #) AS near    JOIN SpecObjAll as s ON near.specObjID=s.specObjID   JOIN emissionLinesPort as e ON near.specObjID=e.specObjID WHERE  s.snMedian >= # AND  s.class = &&& AND   s.zWarning=#"
+2019-04-11 05:36:00,2

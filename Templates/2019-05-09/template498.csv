@@ -1,0 +1,2 @@
+1,"SELECT TOP #         p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, d.w1mpro, d.w2mpro, d.w3mpro, d.w4mpro into mydb.MyTable from PhotoObjAll AS p          LEFT JOIN WISE_xmatch as c on p.ObjID=c.sdss_objid         LEFT JOIN WISE_allsky as d on c.wise_cntr=d.cntr"
+2019-05-09 02:29:00,1

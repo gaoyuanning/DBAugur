@@ -1,0 +1,2 @@
+1,"SELECT top # p.ObjID, s.fiberID, p.ra, p.dec, s.z, FROM photoObj p JOIN specObj s ON s.bestObjID = p.objID WHERE p.RA > # and p.RA < # and p.DEC > # and p.RA < #"
+2019-10-01 23:40:00,1

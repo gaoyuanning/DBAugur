@@ -1,0 +1,2 @@
+1,SELECT TOP (@n) X         FROM MyData         WHERE y > @ymin     RETURN; END GO
+2019-03-29 13:30:00,1

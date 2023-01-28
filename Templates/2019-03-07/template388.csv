@@ -1,0 +1,11 @@
+24,"SELECT TOP # p.ra, p.dec, p.r, p.petroRad_r, s.z as redshift, p.objid FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE s.class = &&& AND p.ra BETWEEN # AND # AND p.dec BETWEEN # AND # AND p.r BETWEEN # AND # order by sqrt (square(p.ra-#)+square(p.dec-#))"
+2019-03-07 16:50:00,9
+2019-03-07 17:02:00,2
+2019-03-07 17:03:00,1
+2019-03-07 17:04:00,2
+2019-03-07 17:05:00,3
+2019-03-07 17:06:00,3
+2019-03-07 17:07:00,1
+2019-03-07 17:09:00,1
+2019-03-07 17:10:00,1
+2019-03-07 17:11:00,1

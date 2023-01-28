@@ -1,0 +1,3 @@
+2,"SELECT spec.ra, spec.dec, spec.plate, spec.mjd, spec.fiberID, spec.z, spec.zErr, spec.zWarning, spec.class, spec.subClass, spec.type, spec.sourceType, spec.mode, spec.flags, spec.modelMag_u, spec.modelMag_g, spec.modelMag_r, spec.modelMag_i, spec.modelMag_z INTO MyDB.SDSS_full_S8# FROM SpecPhotoAll as spec WHERE spec.dec <= # AND spec.dec >= # AND (spec.ra > #. OR spec.ra < #.) AND spec.modelMag_r < #."
+2019-03-21 13:05:00,1
+2019-03-21 13:06:00,1

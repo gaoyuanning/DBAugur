@@ -1,0 +1,2 @@
+1,"select RunID, N = count(ID), Nr = count(distinct RunID), AVG(Y) as AvgY from data where X > # or X < # group by RunID    having AVG(Y) > #            -- this is how to make a comment"
+2019-04-24 12:46:00,1

@@ -1,0 +1,2 @@
+1,"select dbo.fGetUrlSpecImg (s.specObjId) , c.fitsname, c.plate, c.mjd, s.fiberid, into mydb.cc from SpecObjAll as s, mydb.c as c where s.plate = c.plate and s.mjd = c.mjd and s.fiberID = c.fiberid select dbo.fGetUrlFitsField (s.fieldId) , s.fieldId, s.skyVersion, s.run, s.rerun, s.camcol, s.field, s.nTotal, s.nObjects, s.nChild, s.nGalaxy, s.nStars, s.ra, s.dec, s.raMin, s.raMax, s.decMin, s.decMax, s.pixScale into mydb.UrlFitsField_SDSSDR1# from Field as s"
+2019-04-17 06:16:00,1

@@ -1,0 +1,3 @@
+4,"select top # spa.ra, spa.dec, spa.dered_r as magnitude, spa.class, spa.fiberid, spa.plate, spa.z, soa.xfocal as x, soa.yfocal as y from specphotoAll as spa join specObjAll as soa on soa.specObjID = spa.specObjID where spa.plate = # and spa.class = QSO"
+2019-10-18 15:54:00,2
+2019-10-18 15:55:00,2

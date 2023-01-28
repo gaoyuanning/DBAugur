@@ -1,0 +1,24 @@
+23,"SELECT TOP # p.u, p.g, p.r, p.i, p.z, s.class, s.subclass, s.z as redshift, s.zerr as redshift_error, s.zwarning as redshift_warning FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.u BETWEEN # AND # AND p.g BETWEEN # AND # AND p.r BETWEEN # AND # AND p.i BETWEEN # AND # AND p.z BETWEEN # AND # AND s.zwarning = # AND (s.class = # OR s.class = # OR s.class = #)"
+2019-09-25 11:23:00,1
+2019-09-25 11:31:00,1
+2019-09-28 10:44:00,1
+2019-09-30 09:48:00,1
+2019-10-25 19:44:00,1
+2019-11-02 11:01:00,1
+2019-11-02 11:12:00,1
+2019-11-02 11:25:00,1
+2019-11-02 11:29:00,1
+2019-11-02 11:34:00,1
+2019-11-03 05:08:00,1
+2019-11-03 05:15:00,1
+2019-11-03 05:16:00,1
+2019-11-05 06:37:00,1
+2019-11-05 06:41:00,1
+2019-11-05 06:42:00,1
+2019-11-05 06:57:00,1
+2019-11-05 10:01:00,1
+2019-11-05 10:23:00,1
+2019-11-15 07:09:00,1
+2019-11-15 07:22:00,1
+2019-11-15 07:29:00,1
+2019-11-15 07:32:00,1

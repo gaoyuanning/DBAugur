@@ -1,0 +1,9 @@
+22,"SELECT p.objId,p.ra,p.dec,p.petror9#_r, p.expAB_r,         p.dered_u as u, p.dered_g as g, p.dered_r as r, p.dered_i as i,          s.z, s.plate, s.mjd, s.fiberid, n.sersic_n, pz.absMagR, pz.absMagI, pz.absMagU, pz.absMagG, pz.absMagZ     FROM galaxy AS p        JOIN SpecObj AS s ON s.bestobjid = p.objid        JOIN nsatlas AS n ON n.mjd = s.mjd and n.fiberID = s.fiberID and n.plate = s.plate        JOIN Photoz as pz ON pz.objID = p.objID     WHERE p.petror9#_r > #       and p.ra between # and #       and s.z between # and #"
+2019-12-03 12:22:00,1
+2019-12-03 12:48:00,1
+2019-12-03 13:00:00,5
+2019-12-03 13:01:00,1
+2019-12-03 13:55:00,1
+2019-12-03 13:56:00,6
+2019-12-03 14:13:00,1
+2019-12-03 14:14:00,6

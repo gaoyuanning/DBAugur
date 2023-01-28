@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.plate, s.mjd, s.fiberid, s.z, s.zErr, s.zWarning, s.class FROM BESTDR9..SpecObj as s WHERE s.z > # AND s.zWarning = # AND (s.class = #) AND s.z < #"
+2019-03-06 03:14:00,1

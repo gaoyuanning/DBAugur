@@ -1,0 +1,3 @@
+2,"SELECT sm.specObjId,sm.ra,sm.dec,sm.z, sm.logMass as log_mass FROM stellarMassFSPSGranEarlyDust AS sm"
+2019-07-16 11:14:00,1
+2019-07-16 11:15:00,1

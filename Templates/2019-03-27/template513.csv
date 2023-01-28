@@ -1,0 +1,2 @@
+1,"SELECT specobjid, z from specobj WHERE class = &&& AND zWarning = # AND z BETWEEN # and # order by rand() limit #"
+2019-03-27 10:16:00,1

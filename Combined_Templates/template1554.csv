@@ -1,0 +1,2 @@
+1,"SELECT TOP # cast (str (p.ra, #, #) as float) as ra, cast (str (p.[dec], #, #) as float) as dec, p.u, p.g, p.r, p.i, p.z, IS# (s.plate, #) as plate, IS# (s.mjd, #) as mjd, IS# (s.fiberid, #) as fiberid FROM ..PhotoObj AS p LEFT OUTER JOIN ..SpecObj s ON p.objID = s.bestObjID JOIN dbo.fGetNearbyObjEq (#, #, #) AS b ON b.objID = P.objID WHERE (p.type = # OR p.type = #)"
+2019-01-08 10:27:00,1

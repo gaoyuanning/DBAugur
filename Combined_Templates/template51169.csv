@@ -1,0 +1,2 @@
+1,"select top # p.ra, p.dec from star p where (p.g BETWEEN # AND #) and (p.g-p.r BETWEEN # AND #)"
+2019-07-10 01:21:00,1

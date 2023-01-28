@@ -1,0 +1,2 @@
+1,"select fiberid,plateid,mjd into MyDB.newHii_test1 from SpecObjAll where plate = # and mjd = #"
+2019-01-09 02:07:00,1

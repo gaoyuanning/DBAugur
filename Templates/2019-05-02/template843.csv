@@ -1,0 +1,4 @@
+3,"SELECT TOP # specObjID, ra, dec, z, logm_tot_p5# FROM galSpecExtra as se   JOIN SpecObj as so ON se.ObjID = so.bestObjID WHERE (ra between # and #) and (dec between # and #)   and z=#   and logm_tot_p5#>#   and class=&&&"
+2019-05-02 04:51:00,1
+2019-05-02 04:52:00,1
+2019-05-02 04:53:00,1

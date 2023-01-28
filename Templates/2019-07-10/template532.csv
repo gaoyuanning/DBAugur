@@ -1,0 +1,2 @@
+1,"select row_number() over (ORDER BY (SELECT NULL))  as mpaid,* from galSpecIndx )  select top # * form galSpecIndx_#"
+2019-07-10 05:30:00,1

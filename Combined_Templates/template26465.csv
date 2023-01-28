@@ -1,0 +1,2 @@
+1,"SELECT Top # sp.ra, sp.dec, sp.bestObjID, sp.sciencePrimary, sp.z, ph.objID, ph.ra, ph.dec, ph.u, ph.g, ph.r, ph.i, ph.z, ph.extinction_u, ph.extinction_g, ph.extinction_r, ph.extinction_i, ph.extinction_z FROM Specobj AS sp JOIN PhotoObj AS ph ON sp.bestObjID = ph.objID WHERE class = # and sciencePrimary = #"
+2019-04-01 11:32:00,1

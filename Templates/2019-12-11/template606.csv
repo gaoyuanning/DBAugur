@@ -1,0 +1,9 @@
+12,"select ra, dec, objID, run, rerun, camcol, field, obj, rowc, colc, petroMag_u, petroMag_g, petroMag_r, petroMag_i, petroMag_z, petroMagErr_u, petroMagErr_g, petroMagErr_r, petroMagErr_i,petroMagErr_z, petroRad_r, petroRadErr_r,petroR5#_r,petroR5#Err_r,cModelMag_u,cModelMag_g,cModelMag_r,cModelMag_i,cModelMag_z,cModelMagErr_u,cModelMagErr_g,cModelMagErr_r,cModelMagErr_i,cModelMagErr_z,extinction_u,extinction_g,extinction_r,extinction_i,extinction_z from PhotoObjAll where objID=#"
+2019-12-11 03:12:00,2
+2019-12-11 03:13:00,1
+2019-12-11 03:22:00,1
+2019-12-11 03:23:00,2
+2019-12-11 03:24:00,1
+2019-12-11 03:25:00,1
+2019-12-11 03:26:00,2
+2019-12-11 03:27:00,2

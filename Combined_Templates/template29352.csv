@@ -1,0 +1,2 @@
+1,"SELECT COUNT (*) FROM FROM chinook.Artist GROUP BY SUBSTRING (Name, #, #)"
+2019-04-11 14:38:00,1

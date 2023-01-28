@@ -1,0 +1,2 @@
+1,"SELECT  poa.ra, poa.dec FROM PhotoObjAll poa, Photoz p, dbo.fGetNearbyObjEq(#, #, #) n WHERE p.z BETWEEN # and # AND poa.type=# AND poa.objID = n.objID AND n.objID = p.objID"
+2019-01-16 15:13:00,1

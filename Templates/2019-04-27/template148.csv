@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, petroMag_r, modelMag_g, modelMag_r, dered_g, dered_r, extinction_g, extinction_r, petroR5#_r, specObjID into mydb.FinalProblem1 from Galaxy   WHERE ra > # and ra < # AND dec > # and dec < # AND petroMag_r < # AND clean=# AND CModelmag_r-psfMag_r > #"
+2019-04-27 14:34:00,1

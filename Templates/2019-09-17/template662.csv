@@ -1,0 +1,2 @@
+1,"SELECT   S.plateid, S.mjd, S.fiberid, S.z,    BC.mstellar_median, M.mstellar_median, BC.vdisp_median, M.vdisp_median    INTO   exg_#  FROM   galSpecInfo as S,   stellarMassPCAWiscBC0# as BC,   stellarMassPCAWiscM1# as M  WHERE    S.z_warning=# and S.plateid>=# and S.targettype=&&& and S.spectrotype=&&& and   S.specObjID=BC.specObjID and S.specObjID=M.specObjID"
+2019-09-17 01:36:00,1

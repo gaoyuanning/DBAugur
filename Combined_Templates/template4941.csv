@@ -1,0 +1,3 @@
+3,"SELECT TOP # s.ra, s.dec, g.d4#_sub, gSL.h_delta_eqw FROM ..galSpecIndx as g JOIN dbo.fGetNearbySpecObjEq (#, #, #) AS b ON b.SpecobjID = g.SpecobjID JOIN SpecObj AS s ON g.SpecobjID = s.SpecobjID JOIN galSpecLine as gSL ON gSL.SpecobjID = s.SpecobjID"
+2019-01-21 07:49:00,2
+2019-01-21 11:08:00,1

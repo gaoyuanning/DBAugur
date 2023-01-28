@@ -1,0 +1,2 @@
+1,"select substring (Name, #, #) from chinook.Artist AS ExtractString group by Column1 from ExtractString"
+2019-04-20 10:24:00,1

@@ -1,0 +1,2 @@
+2,select top # objID from dbo.Galaxy where mode = # and type = # and probPSF = #
+2019-10-13 09:58:00,2

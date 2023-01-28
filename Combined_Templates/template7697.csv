@@ -1,0 +1,2 @@
+1,"SELECT distinct s.z, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i, p.extinction_z FROM SpecObjAll AS s JOIN sppParams AS spp ON spp.SpecObjID = s.SpecObjID JOIN PhotoObj AS p ON p.SpecObjID = s.SpecObjID WHERE s.z > # and s.SourceType = # and p.u > # and p.g > # and p.r > # and p.i > # and p.z > # and p.ra between # and #"
+2019-02-02 13:25:00,1

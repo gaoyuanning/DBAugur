@@ -1,0 +1,5 @@
+5,"select top # p.objid as name, p.ra, p.dec from photoobj p, specobj s where p.objid=s.bestobjid and p.u < #"
+2019-03-26 08:05:00,1
+2019-03-26 08:06:00,1
+2019-03-26 08:07:00,2
+2019-03-26 08:11:00,1

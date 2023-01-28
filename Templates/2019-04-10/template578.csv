@@ -1,0 +1,2 @@
+1,"select class, count (Z) as num_galaxies, z, ra, dec from specObj where z BETWEEN # and # AND ra BETWEEN # and # AND dec BETWEEN # and # AND zwarning = # group by   class"
+2019-04-10 00:13:00,1

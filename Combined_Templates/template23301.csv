@@ -1,0 +1,4 @@
+3,"SELECT TOP # bestObjID, z FROM specobj WHERE class = # SET @cnt = @cnt + # END GO"
+2019-03-25 17:42:00,1
+2019-03-25 17:49:00,1
+2019-03-25 17:50:00,1

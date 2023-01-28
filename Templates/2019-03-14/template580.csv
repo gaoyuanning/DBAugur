@@ -1,0 +1,2 @@
+1,"select top # starname,TWOMASS_NAME,HIP_Name,ra_final,dec_final,sp1,sp2,RPM_LOG_g,hip_sptype from marvelsStar Where hip_sptype!=&&&"
+2019-03-14 09:51:00,1

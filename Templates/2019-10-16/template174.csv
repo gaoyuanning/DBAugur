@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID,  	      field, ra, dec, specsfr_tot_p5# into mydb.MyTable_# from galSpecExtra 	 WHERE     ra > #. and ra < # and dec > #. and dec < #"
+2019-10-16 17:30:00,1

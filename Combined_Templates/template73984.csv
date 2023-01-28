@@ -1,0 +1,2 @@
+1,SELECT * into mydb.M dwarfs from dbo.PhotoObjAll AS db
+2019-11-05 10:04:00,1

@@ -1,0 +1,2 @@
+1,"select A.specObjID, A.plateid, A.mjd, A.fiberid, B.oiii_#_eqw, B.oiii_#_eqw_err, B.nii_#_eqw, B.nii_#_eqw_err, B.nii_#_eqw, B.nii_#_eqw_err, B.h_alpha_eqw, B.h_alpha_eqw_err, B.h_beta_eqw, B.h_beta_eqw_err, B.oiii_#_eqw, B.oiii_#_eqw_err, B.sii_#_eqw, B.sii_#_eqw_err, B.oi_#_eqw, B.oi_#_eqw_err, B.sii_#_eqw, B.sii_#_eqw_err INTO MYDB.Rosi_tfm_agn_eqw FROM MYDB.ROSII_AGN as A JOIN galSpecLine as B on A.specObjID = B.specObjID"
+2019-06-22 05:48:00,1

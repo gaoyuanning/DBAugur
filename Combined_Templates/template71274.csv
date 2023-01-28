@@ -1,0 +1,4 @@
+4,"select s.class, p.objid, p.psfMag_r, p.psfMag_g from PhotoObj as p join SpecObj as s on s.bestobjid = p.objid where (p.ra between # and #) and (p.dec between # and #) order by p.psfMag_r"
+2019-10-23 16:00:00,1
+2019-10-23 18:24:00,2
+2019-10-23 18:27:00,1

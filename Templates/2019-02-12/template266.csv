@@ -1,0 +1,3 @@
+3,"SELECT objID, modelMag_r, petroMag_r FROM SpecPhoto WHERE (class = &&&)"
+2019-02-12 15:30:00,1
+2019-02-12 15:31:00,2

@@ -1,0 +1,2 @@
+1,"SELECT   objID,   ra,   dec, INTO MyFirstTable FROM dr1#.photoObj p   JOIN dr1#.specObj s ON s.bestObjID = p.objID where type = #"
+2019-10-08 10:52:00,1

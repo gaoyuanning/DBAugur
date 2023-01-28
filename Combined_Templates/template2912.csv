@@ -1,0 +1,2 @@
+1,"SELECT TOP # objId, z, absMagU, absMagG, absMagR, absMagI, absMagz FROM Photoz, dbo.fGetNearbyObjEq (#, #, #) WHERE z BETWEEN # and #"
+2019-01-14 08:48:00,1

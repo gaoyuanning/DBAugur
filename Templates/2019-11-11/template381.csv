@@ -1,0 +1,2 @@
+1,select count(*) from PhotoObjAll where ra > # and ra < # and dec > # and dec < #
+2019-11-11 05:39:00,1

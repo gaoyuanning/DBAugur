@@ -1,0 +1,2 @@
+1,"SELECT top # xFocal, plate, mjd, fiberid, z FROM SpecObj WHERE (class = #) and (z < #) order by xFocal SELECT top # * FROM SpecObj"
+2019-07-26 11:52:00,1

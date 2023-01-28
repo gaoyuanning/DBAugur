@@ -1,0 +1,2 @@
+1,"select table_name, column_name, encoding_id from metadata.columns      where column_name like &&&"
+2019-07-19 10:53:00,1

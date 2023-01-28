@@ -1,0 +1,2 @@
+1,"select ra,dec,mjd,plate,fiberID,cModelMag_g,cModelMag_r,cModelMag_i,cModelMagErr_g,cModelMagErr_r,cModelMagErr_i,extinction_g,extinction_r,extinction_i from SpecPhoto where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-01-19 13:13:00,1

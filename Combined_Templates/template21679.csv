@@ -1,0 +1,2 @@
+1,"select p.objid, p.ra, p.dec, p.g, p.r from specObj s where p.specobjid = s.specobjid and p.g-p.r < # and p.g < # and s.specClass = #"
+2019-03-19 00:57:00,1

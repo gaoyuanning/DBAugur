@@ -1,0 +1,2 @@
+1,"SELECT TOP s.ra, s.dec, g.d4#_sub, gSL.h_delta_eqw FROM galSpecIndx as g JOIN SpecObj AS s ON g.SpecobjID = s.SpecobjID JOIN galSpecLine as gSL ON gSL.SpecobjID = s.SpecobjID WHERE (ra between # and #) and (dec between # and #)"
+2019-01-21 13:00:00,1

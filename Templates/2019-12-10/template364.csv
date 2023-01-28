@@ -1,0 +1,4 @@
+3,select count(*) into mydb.MyTable_# from photoprimary p
+2019-12-10 10:12:00,1
+2019-12-10 10:13:00,1
+2019-12-10 10:15:00,1

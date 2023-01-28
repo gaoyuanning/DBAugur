@@ -1,0 +1,2 @@
+1,"SELECT t.Name,p.objID,p.ra,p.dec INTO mydb.temp FROM mydb.wiyn_targetids as t, dbo.PhotoObjAll as p where p.objID=t.objID"
+2019-04-13 11:54:00,1

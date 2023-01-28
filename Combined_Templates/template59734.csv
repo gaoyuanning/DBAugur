@@ -1,0 +1,2 @@
+1,"select all m.catalog_ra, m.catalog_dec, m.object_ra, m.object_dec, m.tilera, m.tiledec, m.ifu_ra, m.ifu_dec, m.nsa_nsaid, m.mangaID from mangatarget m where m.nsa_nsaid = #"
+2019-08-29 10:57:00,1

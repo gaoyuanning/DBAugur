@@ -1,0 +1,2 @@
+1,"SELECT COUNT (*) /*into mydb.sdss_for_lola*/ sdss.specObjID, sdss.ra, sdss.dec, sdss.class, sdss.subClass, sdss.cModelMag_u, sdss.cModelMagErr_u, sdss.cModelMag_g, sdss.cModelMagErr_g, sdss.cModelMag_r, sdss.cModelMagErr_r, sdss.cModelMag_i, sdss.cModelMagErr_i, sdss.cModelMag_z, sdss.cModelMagErr_z FROM SpecPhoto sdss WHERE sdss.zWarning = #"
+2019-05-22 15:43:00,1

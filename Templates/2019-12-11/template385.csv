@@ -1,0 +1,5 @@
+7,"SELECT TOP # specObjID,class,subclass  FROM SpecObj  WHERE class = &&&"
+2019-12-11 07:59:00,1
+2019-12-11 08:26:00,2
+2019-12-11 08:27:00,2
+2019-12-11 09:09:00,2

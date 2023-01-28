@@ -1,0 +1,2 @@
+1,"select min (p.petroMag_r) from photoz2 pz, photoObj p where p.objID = pz.objID AND pz.flag = #"
+2019-09-13 14:39:00,1

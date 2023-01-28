@@ -1,0 +1,2 @@
+1,"SELECT p.objId, p.z, p.zErr, s.objID, s.ra, s.dec into mydb.Photoz_DR0 from Photoz as p JOIN GalaxyTag as s ON p.objID = s.objID WHERE p.z between # and # and s.dec BETWEEN #. and #."
+2019-03-27 07:03:00,1

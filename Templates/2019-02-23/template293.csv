@@ -1,0 +1,2 @@
+1,"SELECT s.z, s.ra, s.dec, s.petromag_u, s.petromag_r, s.extinction_u, s.extinction_r,   p.kcorrR,  sm.logMass, sm.ssfr, sm.metallicity_mean FROM specphotoall AS s,stellarMassFSPSGranWideNoDust AS sm,photoz AS p INTO mydb.table3# WHERE class=&&&and s.SpecobjID=sm.SpecobjID and s.ObjID=p.ObjID and s.zwarning=# and s.z between # and #"
+2019-02-23 02:04:00,1

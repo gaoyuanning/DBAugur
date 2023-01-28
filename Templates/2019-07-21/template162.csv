@@ -1,0 +1,2 @@
+2,"select s.specobjid,photoDR7.objid,pDR7.dr7objid     into mydb.GR5_AIS_SDSS_D1#_INFO_catalog_errmagFUVandNUV_menor_#_#mag FROM  specobjall as s  JOIN dr7.PhotoObjall as photoDR7 ON photoDR7.objid = #  JOIN photoobjdr7 as pDR7 ON   photoDR7.objid = pDR7.dr7objid"
+2019-07-21 13:20:00,2

@@ -1,0 +1,8 @@
+9,"select rs.sampleid, bl.* from MyDB.BW_samples_# as rs join BW cross apply dbo.fGetBlocksWigTable (bw.block, @lo, @hi) as bl on bw.sampleid = rs.sampleid and bw.chr = @chr and bw.lo< =@hi and bw.hi > =@lo order by rs.sampleid, bl.lo"
+2019-01-07 06:23:00,1
+2019-01-07 08:42:00,1
+2019-01-07 09:05:00,1
+2019-01-07 09:06:00,1
+2019-01-07 09:27:00,2
+2019-01-07 10:07:00,2
+2019-01-07 11:15:00,1

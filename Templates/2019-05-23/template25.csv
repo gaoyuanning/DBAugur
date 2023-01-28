@@ -1,0 +1,2 @@
+1,"select ra, dec from star where (ra between # and #) and (dec between # and #)  and modelMag_g< #"
+2019-05-23 23:51:00,1

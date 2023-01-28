@@ -1,0 +1,2 @@
+1,"select TOP # * from [rc3] where rc3.name1 IN (&&&, &&&NGC #')"
+2019-06-06 11:47:00,1

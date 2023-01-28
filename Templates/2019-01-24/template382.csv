@@ -1,0 +1,2 @@
+1,"SELECT     m.IGAL, m.RA AS ra1, m.DEC AS dec1,     n.objid, n.distance,     o.ra AS ra2, o.dec AS dec2  FROM MyDB.SDSS7# AS m     CROSS APPLY dbo.fGetNearestObjEq( m.ra, m.dec, #) AS n     JOIN PhotoObj AS o ON n.objid=o.objid"
+2019-01-24 13:45:00,1

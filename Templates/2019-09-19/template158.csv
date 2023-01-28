@@ -1,0 +1,5 @@
+4,"SELECT   TOP # mangaid, input_teff, input_logg, input_fe_h, input_alpha_m  FROM MaStar_goodstars  WHERE input_teff BETWEEN # AND #"
+2019-09-19 00:38:00,1
+2019-09-19 03:30:00,1
+2019-09-19 18:27:00,1
+2019-09-19 19:21:00,1

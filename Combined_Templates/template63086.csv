@@ -1,0 +1,2 @@
+1,"select top p.# *, max (p.Extinction_r) from Photoz1#_# p"
+2019-09-14 18:49:00,1

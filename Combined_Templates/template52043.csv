@@ -1,0 +1,2 @@
+1,"select dr7objid, l.logMass from PhotoObjDR7 as c, stellarMassFSPSGranEarlyDust as l, PhotoObj as p, SpecObjAll as s where p.objID = c.dr8objid AND s.bestObjID = p.objID AND l.specObjID = s.specObjID AND dr7objid = (# OR # OR # OR # OR #)"
+2019-07-15 20:05:00,1

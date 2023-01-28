@@ -1,0 +1,5 @@
+16,"SELECT s.objID, s.ra, s.dec, s.g, s.r, sp.SPECTYPEHAMMER FROM Star as s LEFT OUTER JOIN SpecObj so ON so.bestObjID = s.objID JOIN sppParams AS sp ON sp.specObjID = so.specObjID WHERE (s.ra between # and #) AND (s.dec between # and #) AND sp.SPECTYPEHAMMER = #"
+2019-02-22 11:46:00,4
+2019-02-22 11:52:00,3
+2019-02-22 11:53:00,8
+2019-02-22 11:56:00,1

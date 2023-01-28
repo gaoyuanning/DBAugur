@@ -1,0 +1,2 @@
+1,"SELECT ra, dec From Star s, duo.fGetNearySpecObjEq(#,#,#) AS N where s.rmag < #"
+2019-08-31 22:57:00,1

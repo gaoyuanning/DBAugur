@@ -1,0 +1,2 @@
+1,"SELECT 	    j.objid,info.specObjID,s.plate,s.mjd,s.fiberid ,i.d4#_n,   e.lgm_tot_p5#, e.sfr_tot_p5#,   l.h_beta_flux,l.oiii_#_flux,l.h_alpha_flux,l.nii_#_flux into mydb.jtab_index from specObjAll s   JOIN MyDB.jtab j ON j.objid=s.bestObjID    JOIN galSpecInfo info ON info.plateid = s.plate and info.mjd = s.mjd and info.fiberid = s.fiberID   JOIN galSpecLine l ON l.specObjID = info.specObjID   JOIN galSpecExtra e ON e.specObjID = info.specObjID   JOIN galSpecIndx i ON i.specObjID = info.specObjID"
+2019-05-07 08:46:00,1

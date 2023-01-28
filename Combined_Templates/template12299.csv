@@ -1,0 +1,2 @@
+1,"select task_name, count (*) from SciServerLog.Messages group by task_name"
+2019-02-19 13:44:00,1

@@ -1,0 +1,3 @@
+2,"SELECT deVMag_u, deVMag_g, deVMag_r, deVMag_i, deVMagErr_u, deVMagErr_g, deVMagErr_r, deVMagErr_i, extinction_u, extinction_g, extinction_r, extinction_i FROM PhotoObjAll WHERE objID IN ()"
+2019-03-20 16:52:00,1
+2019-03-20 16:53:00,1

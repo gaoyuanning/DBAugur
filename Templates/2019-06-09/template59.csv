@@ -1,0 +1,2 @@
+1,"SELECT up_id, dbo.fGetNearestObjIdEq(up_ra,up_dec,#) as"
+2019-06-09 22:13:00,1

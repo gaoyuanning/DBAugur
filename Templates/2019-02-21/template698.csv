@@ -1,0 +1,3 @@
+2,select * from session_eeg where session_ID = # order by timestamp
+2019-02-21 11:44:00,1
+2019-02-21 11:45:00,1

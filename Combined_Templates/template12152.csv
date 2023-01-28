@@ -1,0 +1,8 @@
+11,"select s.oiii_#_flux, s.h_beta_flux, s.nii_#_flux, s.h_alpha_flux, s.h_alpha_eqw from galSpecLine as s where s.specobjid = #"
+2019-02-18 00:59:00,1
+2019-02-18 01:01:00,1
+2019-02-18 01:02:00,1
+2019-02-18 01:03:00,1
+2019-02-18 01:07:00,2
+2019-02-18 01:14:00,1
+2019-02-18 01:15:00,4

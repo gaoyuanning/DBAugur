@@ -1,0 +1,2 @@
+1,"select top # * from samples order by newid() ), r as ( select rs.sampleid,dbo.blockAgg(block,@lo,@hi) as stats,count(*) as numblocks from rs join BW     on bw.sampleid = rs.sampleid   and bw.chr=@chr   and bw.lo<=@hi   and bw.hi >=@lo   group by rs.sampleid ) select sampleid,numblocks ,      stats.count as length, stats.sum as [sum], stats.avg as [avg],stats.min as [min],stats.max as [max] from r"
+2019-01-07 11:18:00,1

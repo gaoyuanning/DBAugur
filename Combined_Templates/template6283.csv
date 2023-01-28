@@ -1,0 +1,2 @@
+1,"SELECT ALL ROW_NUMBER () OVER (ORDER BY ra ASC) as RowNumber, COUNT (u) FROM Galaxy WHERE ra BETWEEN # and #"
+2019-01-25 01:00:00,1

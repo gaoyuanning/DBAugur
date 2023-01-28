@@ -1,0 +1,2 @@
+1,"SELECT   n.objID, n.distance, n.type,   p.ra AS pra, p.dec AS pdec, p.modelmag_r,   s.bestobjid FROM Galaxy AS G    OUTER APPLY dbo.fGetNearbyObjEq(#,#, #) AS n     WHERE G.objID = n.objID LEFT JOIN PhotoObj AS p ON n.objid=p.objid LEFT JOIN SpecObj As s ON n.objid=s.bestobjid INTO MyDB.NearbyObjEq"
+2019-02-06 13:35:00,1

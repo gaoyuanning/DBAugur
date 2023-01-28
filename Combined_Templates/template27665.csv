@@ -1,0 +1,2 @@
+1,"select p.ra, p.dec, s.z into mydb.MyTable_dr1# from PhotoObj as p join SpecObj as s on p.specObjID = s.specObjID where objID = #"
+2019-04-03 04:46:00,1

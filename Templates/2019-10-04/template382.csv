@@ -1,0 +1,4 @@
+4,"select top # plate,MJD,fiberID,class from SpecObj"
+2019-10-04 05:09:00,1
+2019-10-04 05:10:00,2
+2019-10-04 06:05:00,1

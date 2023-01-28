@@ -1,0 +1,2 @@
+1,"SELECT specsfr_tot_p5#, specObjID FROM galSpecExtra, DR1# WHERE specObjID = #"
+2019-10-17 17:26:00,1

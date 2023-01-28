@@ -1,0 +1,2 @@
+1,"select ra,dec, objID, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z from photoObj where  phototype = GALAXY AND ra BETWEEN # and # AND g > # AND u-g > #"
+2019-07-27 23:20:00,1

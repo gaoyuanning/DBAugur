@@ -1,0 +1,2 @@
+1,"select Z.z, Z.zErr, O.objID, O.ra, O.dec, O.psfMag_r into mydb.DR1#_NW_all from PhotoObjAll as O, Photoz as Z where O.ra BETWEEN # AND # AND O.dec BETWEEN # AND # AND O.type = # AND z > #"
+2019-01-18 06:45:00,1

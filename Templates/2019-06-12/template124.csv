@@ -1,0 +1,2 @@
+1,"SELECT specObjID, dr7ObjID FROM SpecDR7 WHERE specobjid in (#, #, #, #, #, #, #, #, #, #)"
+2019-06-12 17:24:00,1

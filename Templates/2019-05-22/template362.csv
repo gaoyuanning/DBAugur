@@ -1,0 +1,2 @@
+1,"select top #  p.run, p.camcol, p.field, avg(s.z)as avg_redshift, count (s.z)  from  photoObj p  JOIN specObj s ON s.bestObjID = p.ObjID where  s.class = &&&  AND p.run = #  AND camcol = # order by  avg(s.z) desc"
+2019-05-22 12:26:00,1

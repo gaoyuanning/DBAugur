@@ -1,0 +1,2 @@
+1,"select ra,dec from specObj where redshift BETWEEN # and # AND ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-04-06 01:27:00,1

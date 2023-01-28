@@ -1,0 +1,2 @@
+2,SELECT count (*) into mydb.el_counto FROM Photoz as pz WHERE pz.z BETWEEN # AND #
+2019-04-25 18:13:00,2

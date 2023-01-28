@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.plate, s.mjd, s.fiberid, cast (str (p.g - p.r, #, #) as float) as grModelColor FROM ..SpecObj as s JOIN ..PhotoObj AS p ON s.bestObjID = p.objID JOIN dbo.fGetNearbySpecObjEq (#, #, #) AS b ON b.SpecobjID = S.SpecobjID WHERE (s.class = #) AND s.zWarning = # AND (p.type = #) AND (s.primTarget & (dbo.fPrimTarget (#) ) > #)"
+2019-11-01 06:07:00,1

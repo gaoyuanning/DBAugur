@@ -1,0 +1,3 @@
+2,"SELECT TOP # dr7objid, dr8objid FROM PhotoObjDR7 p JOIN SpecDR7 f ON f.dr7objid = p.dr7objid WHERE type < # -- r IS NOT deredenned and type > # -- extinction more than #"
+2019-06-23 16:02:00,1
+2019-06-23 16:03:00,1

@@ -1,0 +1,2 @@
+1,"SELECT class, count (*) AS Num FROM Galaxy AS G JOIN Photoz AS P ON P.objid = G.objid JOIN SpecObj as S ON S.specobjid = G.objid WHERE G.ra BETWEEN # and # AND G.dec BETWEEN # and # AND G.modelMag_r < # AND G.petroRad_r > # AND P.z < # GROUP by class"
+2019-02-12 14:18:00,1

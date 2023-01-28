@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z, extinction_u, extinction_g, extinction_r, extinction_i, extinction_z, into mydb.qso_z2 from SpecPhoto WHERE class = # AND z between # and # AND psfMagErr_r< #"
+2019-04-18 16:40:00,1

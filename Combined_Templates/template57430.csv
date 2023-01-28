@@ -1,0 +1,3 @@
+2,"SELECT g.objID, g.ra, g.dec, sp.specobjid, g.fracDeV_g, g.fracDeV_r, g.modelmag_u, g.modelmagerr_u, g.modelmag_g, g.modelmagerr_g, g.modelmag_r, g.modelmagerr_r, g.modelmag_i, g.modelmagerr_i, g.modelmag_z, g.modelmagerr_z, g.cmodelmag_u, g.cmodelmagerr_u, g.cmodelmag_g, g.cmodelmagerr_g, g.cmodelmag_r, g.cmodelmagerr_r, g.cmodelmag_i, g.cmodelmagerr_i, g.cmodelmag_z, g.cmodelmagerr_z, g.dered_u, g.dered_g, g.dered_r, g.dered_i, g.dered_z, g.deVRad_g, g.deVRad_r, g.deVAB_g, g.specObjID FROM Galaxy AS g JOIN specObj AS sp ON g.specObjID = sp.specObjID WHERE (g.objid = #)"
+2019-08-13 03:49:00,1
+2019-08-13 03:52:00,1

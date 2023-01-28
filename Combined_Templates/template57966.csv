@@ -1,0 +1,4 @@
+4,"SELECT TOP # p.ra, p.dec, PetroRad_r FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.ra BETWEEN # and # AND p.dec BETWEEN # and # AND s.class = #"
+2019-08-16 04:16:00,1
+2019-08-16 05:42:00,2
+2019-08-16 05:57:00,1

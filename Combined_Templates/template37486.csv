@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.dered_u, p.dered_r, s.z FROM Galaxy JOIN PhotoObj AS p JOIN SpaceObj AS s ON s.bestObjid = p.objid WHERE zwarning = # AND #< s.z< #"
+2019-05-07 14:13:00,1

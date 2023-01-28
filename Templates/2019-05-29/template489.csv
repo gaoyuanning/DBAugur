@@ -1,0 +1,3 @@
+2,"select * into mydb.Remaining_final_may3#_false from mydb.Remaining_final_may3# t,   mydb.listofcandidates_aftervisual_coord2 m      where       t.dec = m.column2     AND      t.Comment=&&&"
+2019-05-29 12:59:00,1
+2019-05-29 13:00:00,1

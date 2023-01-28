@@ -1,0 +1,2 @@
+1,"select top # ra, dec from SpecPhoto where z> # order by z ASC"
+2019-03-22 20:43:00,1

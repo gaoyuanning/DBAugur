@@ -1,0 +1,2 @@
+1,"SELECT objID, s.plate, s.fiberid FROM PhotoObj JOIN SpecObj AS s WHERE u - g < # AND g - r < # AND r - i > # AND i - z > #"
+2019-11-24 23:10:00,1

@@ -1,0 +1,4 @@
+3,"SELECT s.specObjID, s.ra, s.dec, s.z, s.class, s.subclass, s.plate, s.mjd, s.fiberid, s.run2d, e.lgm_tot_p5# FROM specObjAll AS s JOIN galSpecExtra AS e ON s.specObjID = e.specObjID JOIN zooSpec AS z ON s.specObjID = z.specObjID WHERE e.bptclass = # AND e.lgm_tot_p5# > = # AND z.p_mg > = # AND s.z < = # AND (s.class = # AND s.subclass = # OR s.class = # AND s.subclass = #)"
+2019-07-26 18:40:00,1
+2019-07-26 18:41:00,1
+2019-07-26 18:42:00,1

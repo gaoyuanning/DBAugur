@@ -1,0 +1,2 @@
+1,"SELECT      a, b FROM      chinook.Genre.Name AS a    CROSS JOIN      chinook.MediaType.Name AS b;"
+2019-04-24 01:42:00,1

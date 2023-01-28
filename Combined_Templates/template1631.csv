@@ -1,0 +1,2 @@
+1,"select #, # psfMag_u, psfMagErr_u, psfMag_g, psfMagErr_g, psfMag_r, psfMagErr_r, psfMag_i, psfMagErr_i, psfMag_z, psfMagErr_z from PhotoObj where (type = #)"
+2019-01-08 00:58:00,1

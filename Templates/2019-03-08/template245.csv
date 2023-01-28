@@ -1,0 +1,2 @@
+1,"SELECT   ((p.g+.#*(p.g-p.r) +.#) - #*(LOG(# * # * (s.z/#),#)#)) as   AbsMagnitude,  (p.g+.#*(p.g-p.r) +.#) + #*LOG1#(#*PI()*POWER((#*p.petroR5#_g-.#*p.petroR5#_r),#)) as SBe FROM   PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   s.class = &&&  AND (# * (s.z/#))<# AND (# * (s.z/#))>#"
+2019-03-08 18:09:00,1

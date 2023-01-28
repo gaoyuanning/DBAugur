@@ -1,0 +1,2 @@
+1,"SELECT   A.RAJ2#,A.DEJ2#,C.ra,C.dec,C.err_maj,C.err_min,C.err_ang,C.j_m,C.j_cmsig,C.j_msigcom,C.j_snr,C.h_m,C.h_cmsig,C.h_msigcom,C.h_snr,C.k_m,C.k_cmsig,C.k_msigcom,C.k_snr,B.distance FROM    MyDB.WISE_AGN_R9#_ptsrc_VIZIER AS A    OUTER APPLY dbo.fGetNearestObjEq( A.RAJ2#, A.DEJ2#, #/#.) AS B    LEFT OUTER JOIN PhotoObjAll AS C ON B.objID=C.objID WHERE    INDX BETWEEN # AND # INTO    MyDB.WISE_AGN_R9#_ptsrc_VIZIER7_SDSSTwomass_#as"
+2019-07-09 10:57:00,1

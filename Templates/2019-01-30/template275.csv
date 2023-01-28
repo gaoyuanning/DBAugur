@@ -1,0 +1,2 @@
+1,"SELECT plate, mjd, fiberid, snMedian_r FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid  JOIN stellarMassPassivePort AS stM ON s.specObjID = stM.specObjID WHERE survey = &&& AND z BETWEEN # and #  AND class = &&&"
+2019-01-30 14:51:00,1

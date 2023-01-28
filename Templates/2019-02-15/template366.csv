@@ -1,0 +1,2 @@
+1,"select or (#,#)=(select*from(select name_const(CHAR(#,#,#,#,#,#,#,#,#),#),name_const(CHAR(#,#,#,#,#,#,#,#,#),#))a) -- and #=#"
+2019-02-15 02:39:00,1

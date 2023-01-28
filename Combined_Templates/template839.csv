@@ -1,0 +1,3 @@
+3,select * from MyDB.JR_Table_#MASS_nearby where distance> #
+2019-01-04 16:28:00,2
+2019-01-04 16:36:00,1

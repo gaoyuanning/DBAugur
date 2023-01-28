@@ -1,0 +1,2 @@
+1,"SELECT sl.plate, sl.mjd, sl.fiber,  sl.caIIKside, sl.caIIKerr, sl.caIIKmask,  sp.fehadop, sp.fehadopunc,sp. fehadopn,  sp.loggadopn,sp.loggadopun and #>#"
+2019-02-13 23:35:00,1

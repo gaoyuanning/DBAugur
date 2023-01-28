@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, j, h, k FROM TwoMass Where SQRT(SQUARE(ra-#) + SQUARE(dec - #)) < #/#"
+2019-09-17 17:30:00,1

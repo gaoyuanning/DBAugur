@@ -1,0 +1,2 @@
+1,"select ra,dec from CLASS_OBJECT_# where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-06-19 14:15:00,1

@@ -1,0 +1,2 @@
+1,"SELECT t.thingid, t.ndetect, d.objid, t.ra, t.dec, p.mjd, p.u, p.g, p.r, p.i, p.z, p.err_u, p.err_g, p.err_r, p.err_i, p.err_z , p.psfFlux_u, p.psfFluxIvar_u , p.psfFlux_g, p.psfFluxIvar_g , p.psfFlux_r, p.psfFluxIvar_r , p.psfFlux_i, p.psfFluxIvar_i , p.psfFlux_z, p.psfFluxIvar_z , s.z, s.zerr, s.zconf into mydb.MyTable_# from thingIndex AS t JOIN detectionindex AS d ON t.thingid = d.thingid JOIN specobj AS s ON t.objid = s.bestobjid JOIN photoobjall AS p ON p.objid = d.objid where (s.class = #) and t.ndetect > # ORDER BY t.thingid ASC"
+2019-03-11 16:43:00,1

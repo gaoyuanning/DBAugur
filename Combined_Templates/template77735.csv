@@ -1,0 +1,2 @@
+1,"select top # ra, dec, psfmag_u, psfmag_g, psfmag_r, psfmag_i, psfmag_z, psfmagerr_u, psfmagerr_g, psfmagerr_r, psfmagerr_i, psfmagerr_z from star"
+2019-11-21 17:14:00,1

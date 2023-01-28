@@ -1,0 +1,2 @@
+1,"select top # ra, dec, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z, objID from SpecPhoto WHERE (class = #)"
+2019-03-14 14:49:00,1

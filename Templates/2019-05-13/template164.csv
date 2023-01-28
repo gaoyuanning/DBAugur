@@ -1,0 +1,7 @@
+6,"SELECT TOP # sp.objid, sp.ra, sp.dec, px.objid, px.p_el, px.p_cw, px.p_acw, px.spiral, px.elliptical   FROM Galaxy AS sp JOIN zooSpec AS px  ON sp.objid = px.objid"
+2019-05-13 15:13:00,1
+2019-05-13 15:18:00,1
+2019-05-13 15:24:00,1
+2019-05-13 15:35:00,1
+2019-05-13 16:04:00,1
+2019-05-13 17:25:00,1

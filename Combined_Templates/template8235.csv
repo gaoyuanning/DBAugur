@@ -1,0 +1,7 @@
+6,"SELECT ph.objID, ph.ra, ph.dec, ph.mjd, ph.u, ph.g, ph.r, ph.i, ph.z Into MYDB.result_around0# From dbo.fGetNearbyObjEq (#, #, #) as x JOIN PhotoObjAll AS ph ON x.objid = ph.objid WHERE ph.type = # AND ph.clean = # AND ph.psfMag_u < # AND ph.psfMag_g < # AND ph.psfMag_r < # AND ph.psfMag_i < # AND ph.psfMag_z < #"
+2019-02-05 15:57:00,1
+2019-02-05 16:00:00,1
+2019-02-05 18:15:00,1
+2019-02-05 18:17:00,1
+2019-02-05 18:19:00,1
+2019-02-05 18:21:00,1

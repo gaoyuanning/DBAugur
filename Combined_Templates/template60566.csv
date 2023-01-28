@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, type into [myscratch:default].Large_galaxy_sample_Bright_Stars_extrabright from Star WHERE dec BETWEEN # AND # AND modelMag_i< #"
+2019-09-03 10:29:00,1

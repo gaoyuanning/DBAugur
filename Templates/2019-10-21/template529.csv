@@ -1,0 +1,2 @@
+1,"select m.objdec,s.dec,m.objra,s.ra,s.elodieTEff,m.nsa_elpetro_amivar_g from mangaDRPall as m,specObjAll as s where ROUND(m.objdec,#)= ROUND(s.dec,#) and ROUND(m.objra,#)=ROUND(s.ra,#) and s.elodieTEff!=# and m.nsa_elpetro_amivar_g!=#"
+2019-10-21 03:06:00,1

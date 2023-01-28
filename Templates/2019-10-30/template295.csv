@@ -1,0 +1,2 @@
+1,"select top # m.mangaid, m.objra, m.objdec, f.objID, f.ra, f.dec into mydb.mangafirst from mangaDRPall as m, first.PhotoObjAll as f"
+2019-10-30 14:14:00,1

@@ -1,0 +1,2 @@
+1,"select objid,ra,dec,sky_u,sky_g,sky_r,sky_i,sky_z,tai_u,tai_g,tai_r,tai_i,tai_z from galaxy where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-02-19 21:38:00,1

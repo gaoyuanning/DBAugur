@@ -1,0 +1,2 @@
+1,"SELECT s.specObjID, s.bestObjID as dr7ObjID INTO mydb.dr7objid_specobjid_match FROM SpecObjAll as s   WHERE s.bestObjID!=# AND s.z>#"
+2019-09-02 07:35:00,1

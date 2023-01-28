@@ -1,0 +1,2 @@
+1,"select top # specObjID,mjd,plate,fiberID,z,zErr,class,subClass,zWarning,ra,dec,survey,programname,sourceType,flags,psfMag_u,psfMagErr_u,psfMag_g,psfMagErr_g,psfMag_r,psfMagErr_r,psfMag_i,psfMagErr_i,psfMag_z,psfMagErr_z,fiberMag_u,fiberMagErr_u,fiberMag_g,fiberMagErr_g,fiberMag_r,fiberMagErr_r,fiberMag_i,fiberMagErr_i,fiberMag_z,fiberMagErr_z,dered_u,dered_g,dered_r,dered_i,dered_z into mydb.SpecPhot1#tableSampleTrim1k from SpecPhoto where dec<# or (dec<# and (ra between # and #))"
+2019-08-07 06:14:00,1

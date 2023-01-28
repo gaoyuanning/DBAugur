@@ -1,0 +1,3 @@
+40,"select top # spa.ra, spa.dec, spa.dered_r as magnitude, spa.class, spa.z, soa.xfocals as x, soa.yfocal as y from specphotoAll as spa join specObjAll as soa on soa.specObjID = spa.specObjID where spa.plate = XXXX and spa.dered_r > # order by spa.dered_r asc and t"
+2019-09-17 12:13:00,29
+2019-09-17 12:14:00,11

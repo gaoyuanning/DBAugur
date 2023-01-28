@@ -1,0 +1,2 @@
+1,"SELECT e.bpt, count(*) FROM emissionLinesPort AS e JOIN SpecObj AS s ON e.specObjID = s.specObjID GROUP BY bpt"
+2019-05-17 12:44:00,1

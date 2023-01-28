@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.plate,s.mjd,s.fiberid  FROM ..SpecObj as s  JOIN Star AS p ON s.bestobjid=p.objid  WHERE (p.i - p.z) > # AND (p.i - p.z) < # AND p.u > #"
+2019-12-20 09:17:00,1

@@ -1,0 +1,2 @@
+1,"SELECT dr7objid, dr8objid, ra, dec, specobjid INTO mydb.GALAXY_RED2# FROM photoobjdr7 WHERE (primtarget & dbo.fPrimTarget (#) > #)"
+2019-12-11 01:47:00,1

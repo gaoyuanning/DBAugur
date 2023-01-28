@@ -1,0 +1,2 @@
+1,"SELECT objID, plate, mjd, fiberID, ra, dec, plateSN2, deredSN2, _RAJ2#, _DEJ2#, SeqNum, z, q_z, Separation, petroRad_u, petroRad_g, petroRad_r petroRad_i, petroRad_z, sci_sn FROM sub_petrorad_sn"
+2019-09-05 06:01:00,1

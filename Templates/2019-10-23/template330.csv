@@ -1,0 +1,3 @@
+2,"SELECT TOP # ra,dec,z,zErr  FROM SpecObj WHERE class = &&& ORDER BY z DESC"
+2019-10-23 11:27:00,1
+2019-10-23 11:28:00,1

@@ -1,0 +1,3 @@
+2,"SELECT TOP # s1.z, count(*) INTO mydb.MyTable FROM SpecObjAll s1, SpecObjAll s2 WHERE s2.class=&&&    AND s1.class=&&& AND   s1.z > s2.z AND   (s1.ra BETWEEN # AND # ) AND   (s1.dec BETWEEN # AND #)  GROUP BY s1.z HAVING COUNT(*) > #"
+2019-02-28 11:30:00,1
+2019-02-28 11:31:00,1

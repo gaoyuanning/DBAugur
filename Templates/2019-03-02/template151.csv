@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, z, zErr, nChild,   dered_u, dered_g, dered_r, dered_i, dered_z,   modelMagErr_u, modelMagErr_g, modelMagErr_r,   modelMagErr_i, modelMagErr_z,  fiberMag_u, fiberMag_g, fiberMag_r, fiberMag_i, fiberMag_z from SpecPhoto WHERE  class = &&&"
+2019-03-02 21:45:00,1

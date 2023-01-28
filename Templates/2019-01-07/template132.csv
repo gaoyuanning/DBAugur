@@ -1,0 +1,2 @@
+1,"SELECT TOP #  str(p.petroRad_r,#,#) as rp_r, str(p.petroRadErr_r,#,#) as e_rp_r,  str(p.expAB_r,#,#) as ba_r, str(p.expABErr_r,#,#) as e_ba_r,  str(p.expPhi_r,#,#) as PA_r,  p.obj, p.objID, p.specObjID FROM  PhotoObj p"
+2019-01-07 21:29:00,1

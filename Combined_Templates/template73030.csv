@@ -1,0 +1,2 @@
+1,"select t.objid, s.dr7ObjID, s.specObjID into myDB.spobjID from myDB.MyTable as t JOIN SpecDR7 AS s ON t.objid = s.dr7ObjID"
+2019-11-01 18:38:00,1

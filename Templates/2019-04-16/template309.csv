@@ -1,0 +1,2 @@
+1,"select stim_ID, stim_desc from image_stims, stim_timestamps where image_stims.stim_ID = stim_timestamps.stim_ID and stim_timestamps.session_ID = #"
+2019-04-16 13:38:00,1

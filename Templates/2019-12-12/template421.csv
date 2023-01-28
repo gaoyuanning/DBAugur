@@ -1,0 +1,2 @@
+1,"select top #      s.specobjid as spec_id,   s.bestobjid as best_id,   s.specClass as class      into mydb.test from specobj as s"
+2019-12-12 10:01:00,1

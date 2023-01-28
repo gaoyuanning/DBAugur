@@ -1,0 +1,2 @@
+1,"SELECT * into mydb.J1#_sdss_all CROSS APPLY dbo.fGetNearbyObjAllEq (#, #, #/#) AS f JOIN PhotoObjall AS p ON f.objid = p.objid"
+2019-06-19 16:48:00,1

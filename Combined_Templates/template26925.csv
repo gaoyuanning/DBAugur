@@ -1,0 +1,2 @@
+1,"select TOP # m.objra as ra, m.objdec as dec, m.ifudsgn as ifudsgn, # from mangaDRPall m, WISE_allsky w where m.objra = w.ra AND m.objdec = w.dec AND (w.w1mpro-w.w2mpro) > #"
+2019-04-02 06:40:00,1

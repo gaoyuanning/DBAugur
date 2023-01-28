@@ -1,0 +1,2 @@
+1,"select top # yy, mm, dd, hh, mi, ss, seq, logID, clientIP, op, command, error, browser, isvisible, referer, bytesOut, bytesIn, elapsed from weblogall where yy=# and thetime >= &&&"
+2019-05-08 12:18:00,1

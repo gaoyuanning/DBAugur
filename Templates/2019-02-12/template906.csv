@@ -1,0 +1,3 @@
+2,"SELECT   S.objid,S.ra,S.dec,  S.modelmag_u,S.modelmag_g,S.modelmag_r,S.modelmag_i,S.modelmag_z,  S.type,  S.run, S.rerun, S.camcol, S.field,  S.specobjid, S.class, S.z,  S.plate, S.mjd, S.fiberid from specPhoto S, dbo.fGetNearbyObjEq(#,#,#) as N where S.objID = N.objID"
+2019-02-12 02:37:00,1
+2019-02-12 02:38:00,1

@@ -1,0 +1,2 @@
+1,"select #+ column_name + # + data_type, * from information_schema.columns where table_name like #"
+2019-02-17 14:33:00,1

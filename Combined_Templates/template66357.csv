@@ -1,0 +1,2 @@
+1,"SELECT p.objID FROM photoObj p JOIN dbo.fGetNearbyObjEq (#, #, #) n ON n.objID = p.objID where p.type = # and s.z between # and # and s.zWarning = #"
+2019-09-28 13:41:00,1

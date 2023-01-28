@@ -1,0 +1,4 @@
+3,"SELECT TOP #  p.dered_u,p.dered_g,p.dered_r,p.dered_i,p.dered_z,  p.fiberMag_u, p.fiberMag_g,p.fiberMag_r,p.fiberMag_i,p.fiberMag_z,  p.u-p.psfMag_u AS diff_u, p.g-p.psfMag_g AS diff_g, p.r-p.psfMag_r AS diff_r, p.i-p.psfMag_i AS diff_i, p.z-p.psfMag_z AS diff_z,  p.petroRad_u, p.petroRad_g, p.petroRad_r, p.petroRad_i, p.petroRad_z,  s.z as redshift FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   p.dered_r > #  AND p.dered_g - p.dered_r<#  AND p.dered_g - p.dered_r>#  AND (class = &&&)"
+2019-11-19 09:30:00,1
+2019-11-19 09:32:00,1
+2019-11-19 09:33:00,1

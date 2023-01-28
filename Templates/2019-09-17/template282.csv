@@ -1,0 +1,2 @@
+1,"SELECT tm.j, tm.h, tm.k FROM TwoMass as tm   INNER JOIN PhotoObjAll as p on p.ObjID = tm.ObjID   WHERE p.specObjID = #"
+2019-09-17 17:17:00,1

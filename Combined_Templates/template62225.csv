@@ -1,0 +1,2 @@
+1,"select PhotoObjAll.ra, PhotoObjAll.dec, SpecObjAll.z, PhotoObjAll.ObjID into mydb.MyTable from SpecObjAll, PhotoObjAll where SpecObjAll.bestObjid = PhotoObjAll.ObjID and (SpecObjAll.class = # or SpecObjAll.class = #) and SpecObjAll.zWarning = # and SpecObjAll.z> #"
+2019-09-10 06:01:00,1

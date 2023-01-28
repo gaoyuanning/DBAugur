@@ -1,0 +1,4 @@
+4,"select top # p.objid, p.l, p.b from star p where (p.u-p.g > #) and (p.g-p.r > #) and (p.r-p.i > #) and (p.i-p.z > #)"
+2019-10-04 12:22:00,2
+2019-10-04 12:23:00,1
+2019-10-04 12:28:00,1

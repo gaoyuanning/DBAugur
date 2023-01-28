@@ -1,0 +1,2 @@
+1,"select imag, Modelmag_z from PhotoObjDR7 as x where x.dr7objid = #"
+2019-03-07 18:16:00,1

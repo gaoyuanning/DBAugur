@@ -1,0 +1,2 @@
+1,"select top # z, ra, dec from SpecObj where abs (z-#) < #"
+2019-05-07 08:22:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # G.objID, G.ra, G.dec, G.petrorad_i FROM Galaxy AS G JOIN zoo2MainPhotoz AS zoo ON G.objID = zoo.dr8objid INTO MyDB.barred_table WHERE zoo.total_votes > # AND (G.flags & (dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) )) = # AND zoo.t0#_odd_feature_a2#_irregular_flag < # AND zoo.t0#_odd_feature_a2#_merger_flag < # AND zoo.t0#_odd_feature_a1#_ring_flag < # AND zoo.t0#_odd_feature_a2#_lens_or_arc_flag < # AND zoo.t0#_odd_feature_a2#_disturbed_flag < # AND zoo.t0#_bar_a0#_bar_flag > #"
+2019-08-16 00:51:00,1

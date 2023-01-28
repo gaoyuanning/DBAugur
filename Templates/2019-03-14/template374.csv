@@ -1,0 +1,2 @@
+2,"SELECT * INTO MyDB.test1 FROM MyDB.sdss1#_pmas_model_# AS s WHERE s.objID IN (#, #)"
+2019-03-14 15:01:00,2

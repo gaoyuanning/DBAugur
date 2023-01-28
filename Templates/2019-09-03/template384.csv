@@ -1,0 +1,4 @@
+3,"SELECT TOP # p.ra,p.dec,p.petroMag_u,p.petroMag_g,p.petroMag_r,p.petroMag_i,p.petroMag_z,p.petroMagErr_u,p.petroMagErr_g,p.petroMagErr_r,p.petroMagErr_i,p.petroMagErr_z FROM BESTDR9..Galaxy AS p 	JOIN #x AS x ON x.objID=p.objID JOIN #upload AS u ON u.up_id = x.up_id   ORDER BY x.up_id"
+2019-09-03 10:48:00,1
+2019-09-03 10:50:00,1
+2019-09-03 10:52:00,1

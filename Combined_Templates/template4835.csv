@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.z as zz, p.dered_u, p.dered_g, p.dered_r, p.dered_i, p.dered_z FROM SpecPhotoAll AS p WHERE p.modelMagErr_u BETWEEN # AND # AND p.modelMagErr_g BETWEEN # AND # AND p.modelMagErr_r BETWEEN # AND # AND p.modelMagErr_i BETWEEN # AND # AND p.modelMagErr_z BETWEEN # AND # AND (p.specClass = # OR p.specClass = #) AND p.z BETWEEN # AND #"
+2019-01-21 19:19:00,1

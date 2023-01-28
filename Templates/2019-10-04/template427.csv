@@ -1,0 +1,2 @@
+1,"SELECT g,ra,dec from photoObj where photoObj.parentID=#"
+2019-10-04 00:00:00,1

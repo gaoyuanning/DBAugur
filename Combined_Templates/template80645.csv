@@ -1,0 +1,2 @@
+1,"SELECT p.objId, p.ra, p.dec, p.u, p.g, p.r , p.i, s.z, modelMag_u, modelMag_g, modelMag_r, modelMag_i, cmodelMag_u, cmodelMag_g, cmodelMag_r, cmodelMag_i FROM galaxy AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE #< s.z< #"
+2019-12-04 10:26:00,1

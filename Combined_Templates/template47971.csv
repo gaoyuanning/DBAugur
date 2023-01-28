@@ -1,0 +1,3 @@
+2,"SELECT p.objID, s.class, s.elodieSpType, p.b AS galactic_latitude INTO MyDB.sdssallobjects FROM PhotoObjAll AS p INNER JOIN SpecObjAll AS s on p.objID = s.bestObjID"
+2019-06-24 02:09:00,1
+2019-06-24 02:28:00,1

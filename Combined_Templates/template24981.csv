@@ -1,0 +1,3 @@
+2,"SELECT TOP # o.objID, s.specObjID, s.ra, s.dec, o.psfMag_u, o.psfMag_g, o.psfMag_r, o.psfMag_i, o.psfMag_z, s.z, s.zwarning FROM PhotoTag o JOIN SpecObj as s ON o.ObjId = s.bestObjID"
+2019-03-28 16:59:00,1
+2019-03-28 17:01:00,1

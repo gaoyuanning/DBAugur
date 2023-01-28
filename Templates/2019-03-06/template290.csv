@@ -1,0 +1,2 @@
+1,"select objra,objdec,nsa_z,mangaid, plateifu  FROM mangaDAPall where objdec >=# AND sfr_#re >= #"
+2019-03-06 17:35:00,1

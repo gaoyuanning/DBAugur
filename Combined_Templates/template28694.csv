@@ -1,0 +1,2 @@
+1,"select top # snapnum, x, y, z, phkey, np , halfmassradius, subhalofileid, haloid from MR h where h.snapnum = # and h.np between # and # and h.haloid = h.firsthaloinfofgroupid order by newid ()"
+2019-04-09 18:11:00,1

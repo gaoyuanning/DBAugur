@@ -1,0 +1,5 @@
+4,"SELECT TOP # p.objId,p.ra,p.dec,p.petror9#_r, p.u,p.g,p.r,p.i,p.z   FROM galaxy AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE s.z BETWEEN # and #"
+2019-02-03 18:37:00,1
+2019-02-03 18:41:00,1
+2019-02-03 18:45:00,1
+2019-02-03 18:55:00,1

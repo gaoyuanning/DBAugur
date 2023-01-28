@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid, p.ra, p.dec, p.mpe, p.mp2#, s.cModelMag_g, s.cModelMag_r, s.deVRad_g, s.deVRad_r FROM RC3 AS p  JOIN PhotoObjAll AS s ON p.objid = s.objid WHERE   p.mpe>#  and p.mp2#>#"
+2019-02-21 14:06:00,1

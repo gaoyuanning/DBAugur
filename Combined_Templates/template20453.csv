@@ -1,0 +1,4 @@
+3,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, s.specobjid, s.class, s.z, ga.bptclass, ga.oh_p5#, ga.lgm_tot_p5#, ga.lgm_fib_p5#, ga.sfr_tot_p5#, sfr_fib_p5#, specsfr_tot_p5# FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN galSpecExtra AS ga ON ga.specObjID = p.objid WHERE s.z BETWEEN # AND # AND s.class = #"
+2019-03-14 14:25:00,1
+2019-03-14 14:26:00,1
+2019-03-14 14:30:00,1

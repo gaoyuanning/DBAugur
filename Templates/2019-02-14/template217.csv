@@ -1,0 +1,2 @@
+1,"SELECT top1#  p.objid,p.ra,p.dec,p.r,p.z,  p.petroR5#_r, p.petroR5#_z,  r.LOGD_#, r.LOGD_#Q FROM PhotoObj AS p  JOIN RC3 AS r ON r.objid = p.objid"
+2019-02-14 15:44:00,1

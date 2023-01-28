@@ -1,0 +1,12 @@
+50,"SELECT TOP # G.objID,G.ra,G.dec,GN.distance, PZ.z as photoz, S.z as specz FROM Galaxy as G JOIN dbo.fGetNearbyObjEq(#, #, #) AS GN ON G.objID = GN.objID JOIN Photoz AS PZ ON PZ.objID = GN.objID LEFT JOIN Specobj AS S ON PZ.objID = S.bestObjID ORDER BY distance"
+2019-12-04 15:57:00,2
+2019-12-04 16:14:00,4
+2019-12-04 16:16:00,1
+2019-12-04 16:17:00,13
+2019-12-04 16:18:00,7
+2019-12-04 16:19:00,2
+2019-12-04 16:20:00,6
+2019-12-04 16:21:00,8
+2019-12-04 16:22:00,4
+2019-12-04 16:41:00,2
+2019-12-04 22:03:00,1

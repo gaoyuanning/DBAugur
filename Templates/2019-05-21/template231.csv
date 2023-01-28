@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid, p.ra, p.dec, p.flags_r, s.z as redshift FROM PhotoObj as p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE  type = #  AND ((flags_r & #) != #)   AND ((flags_r & #) = #)   AND (((flags_r & #) = #) or (psfmagerr_r <= #))   AND (((flags_r & #) = #) or (flags_r & #) = #)   AND redshift between # AND #"
+2019-05-21 14:52:00,1

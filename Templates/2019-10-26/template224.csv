@@ -1,0 +1,2 @@
+1,SELECT UPPER(XMLType(CHR(#)||CHR(#)||CHR(#)||CHR(#)||CHR(#)||CHR(#)||CHR(#)||(SELECT (CASE WHEN (#=#) THEN # ELSE # END) FROM DUAL)||CHR(#)||CHR(#)||CHR(#)||CHR(#)||CHR(#)||CHR(#))) FROM DUAL)-- bxKn
+2019-10-26 17:32:00,1

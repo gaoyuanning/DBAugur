@@ -1,0 +1,2 @@
+1,"select --top # id, SpecObjID, s.objID from MyDB.temp as t join SpecObjAll as s on s.ObjID = t.objid order by id"
+2019-05-29 00:31:00,1

@@ -1,0 +1,2 @@
+1,"SELECT       p.ObjID,    pz.z, pz.zErr    INTO mydb.GalazyZoo1_PhotoRedshifts_ObjID_z_zErr FROM PhotoObjAll AS p        JOIN Photoz AS pz ON pz.ObjID = p.ObjID      WHERE     p.dered_u + p.dered_g + p.dered_r + p.dered_i + p.dered_z > #     AND p.clean = #     AND pz.photoErrorClass = #"
+2019-07-16 10:58:00,1

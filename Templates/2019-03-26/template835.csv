@@ -1,0 +1,2 @@
+1,"select top # p.u, p.g, p.r, p.i, p.z from star p where p.u < #  and p.g < #  and p.r < #  and p.i < #  and p.z < #"
+2019-03-26 07:55:00,1

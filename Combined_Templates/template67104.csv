@@ -1,0 +1,2 @@
+1,"SELECT top # g.objid as name, g.ra, g.dec into mydb.MyTable from galaxy g WHERE g.devmag_r < # and g.devmag_r > #"
+2019-10-02 15:04:00,1

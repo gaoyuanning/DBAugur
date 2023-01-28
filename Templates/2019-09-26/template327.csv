@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.run,p.rerun, p.camcol, p.field, s.z as red , s.specClass,p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, p.psfMAg_zErr, p.psfMAg_gErr, p.psfMAg_iErr, p.psfMAg_rErr FROM PhotoObjAll as p   join specObjAll as s on s.bestobjid=p.objID WHERE p.ra BETWEEN # AND #    AND p.dec <= # and s.specClass=# and s.z<= #"
+2019-09-26 14:13:00,1

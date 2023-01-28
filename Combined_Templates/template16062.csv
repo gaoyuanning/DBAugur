@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.g, p.r, p.i, (p.r-p.i) as #, (p.g-p.r) as #, p.type as obj_ph_type, s.tile, s.boss_target1, p.flags, s.specobjid, s.class, s.subclass, s.z as redshift into mydb.lowz_web_def1#tt from PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE (boss_target1 & #) > # AND zwarning_noqso = #"
+2019-03-02 18:59:00,1

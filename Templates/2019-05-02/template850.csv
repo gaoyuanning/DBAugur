@@ -1,0 +1,2 @@
+2,"SELECT TOP # specObjID, ra, dec, z, logm_tot_p5# FROM galSpecExtra   WHERE (ra between # and #) and (dec between # and #)   and petroMag_r>#   and cModelmag_r-psfMag_r>#   and clean=#"
+2019-05-02 04:43:00,2

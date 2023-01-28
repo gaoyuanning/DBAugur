@@ -1,0 +1,2 @@
+1,"SELECT z, class, subClass, ra, dec, objID from specPhoto WHERE z < # and class = # and i' < #"
+2019-08-02 01:41:00,1

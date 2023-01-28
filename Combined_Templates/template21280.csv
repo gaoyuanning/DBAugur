@@ -1,0 +1,2 @@
+1,"select s.mjd, s.plate, s.fiberID, s.specObjID, m.myobjid as ObjID from SpecObj as s, MyDB.norasid as m where m.myspecobid = s.specObjID into MyDB.Tabla_noras"
+2019-03-18 15:16:00,1

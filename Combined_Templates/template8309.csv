@@ -1,0 +1,2 @@
+1,"SELECT g.specobjid, g.ra, g.dec, g.u, g.g, g.r, s.dr7objid, g.z, s.type FROM Specobjall AS g JOIN SpecDR7 AS s ON s.dr7objid = g.specobjid WHERE g.ra BETWEEN # AND # AND g.dec BETWEEN # AND # AND g.z between # AND # AND s.type = #"
+2019-02-05 14:42:00,1

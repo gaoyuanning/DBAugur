@@ -1,0 +1,2 @@
+1,"SELECT     s.plate, s.fiberid, s.mjd, s.z, s.subclass,     g.h_alpha_flux, g.h_alpha_flux_err,     g.oiii_#_flux, g.oiii_#_flux_err,     g.oiii_#_flux, g.oiii_#_flux_err,     g.nii_#_flux, g.nii_#_flux_err,     g.h_beta_flux, g.h_beta_flux_err,     g.nii_#_flux, g.nii_#_flux_err into mydb.new_non_thermal_candidates_definitive_definitive from GalSpecLine AS g    JOIN SpecObj AS s ON s.specobjid = g.specobjid WHERE     h_alpha_flux!=#     AND nii_#_flux/h_alpha_flux>#     AND s.z<#"
+2019-04-01 16:12:00,1

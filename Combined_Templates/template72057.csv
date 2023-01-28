@@ -1,0 +1,2 @@
+1,"SELECT id.dr8objid, p.u, p.g, p.r, p.i, p.z, p.ModelMag_z from mydb.s0_ids AS id, PhotoObj AS p WHERE id.dr8objid = p.objid"
+2019-10-28 12:55:00,1

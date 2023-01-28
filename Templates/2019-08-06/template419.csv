@@ -1,0 +1,2 @@
+1,"SELECT    m.id, m.ra AS ra1, m.dec AS dec1,    n.objid, n.distance,    o.ra AS ra2, o.dec AS dec2, str(obj.psfMag_r,#,#) as u,str(obj.psfMagErr_r,#,#) as err_u,      str(obj.psfMag_g,#,#) as g,str(obj.psfMagErr_g,#,#) as err_g,      str(obj.psfMag_r,#,#) as r,str(obj.psfMagErr_r,#,#) as err_r,      str(obj.psfMag_i,#,#) as i,str(obj.psfMagErr_i,#,#) as err_i  into [myscratch:default].out_tdi_cal from MyDB.input_tdi_cal AS m    OUTER APPLY dbo.fGetNearestObjEq( m.ra, m.dec, #) AS n    LEFT JOIN PhotoObj AS o ON n.objid=o.objid"
+2019-08-06 04:05:00,1

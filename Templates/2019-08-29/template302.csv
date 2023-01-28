@@ -1,0 +1,2 @@
+1,"select top # m.ifu_ra, m.ifu_dec, m.manga_tileids, m.manga_tileid, m.nsa_pid, m.nsa_nsaid, m.mangaID from mangatarget m"
+2019-08-29 10:07:00,1

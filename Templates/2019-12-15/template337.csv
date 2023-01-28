@@ -1,0 +1,5 @@
+4,"select * from information_schema.tables where table_name=&&&)  create table edu_BmoreSchoolZones (   OBJECTID integer , the_geom geography , NAME varchar(#) , ADDRESS varchar(#) , CLASS varchar(#) , CATEGORY varchar(#) , lon float , lat real , ZIPCODE varchar(#) , TYPE varchar(#) )"
+2019-12-15 08:04:00,1
+2019-12-15 08:05:00,1
+2019-12-15 08:08:00,1
+2019-12-15 08:14:00,1

@@ -1,0 +1,2 @@
+1,"select * from metadata.columns c, metadata.encodeinfo e where c.column_name = # and e.encoding_id = c.encoding_id"
+2019-07-12 12:02:00,1

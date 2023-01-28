@@ -1,0 +1,2 @@
+1,"select p.objid, p.ra, p.dec from photoobj p where (p.g BETWEEN # AND #)"
+2019-09-26 17:17:00,1

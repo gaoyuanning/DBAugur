@@ -1,0 +1,2 @@
+1,SELECT field FROM Field Where quality = # and ra> # and ra< # and dec< # and dec> #
+2019-05-19 12:45:00,1

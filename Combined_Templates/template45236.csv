@@ -1,0 +1,3 @@
+2,"SELECT ra, dec, g, r from PhotoObjAll WHERE type = # and clean = # and r> =# and r< #"
+2019-06-11 11:44:00,1
+2019-06-11 11:47:00,1

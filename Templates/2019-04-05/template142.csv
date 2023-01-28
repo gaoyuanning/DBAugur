@@ -1,0 +1,2 @@
+1,"select s.specobjid, s.ra, s.dec, s.spectrotype, s.subclass, s.z, s.z_err, s.v_disp, s.v_disp_err, s.sn_median,    g.petroRad_r, g.deVRad_r, g.expRad_r  from mydb.specinfo s   inner join galaxy g on s.specobjid=g.specobjid"
+2019-04-05 19:13:00,1

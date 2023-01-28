@@ -1,0 +1,7 @@
+8,"SELECT count(SpecObjALL.ra) FROM SpecObjALL, PhotoObjALL WHERE SpecObjALL.bestObjid = PhotoObjALL.objID AND SpecObjALL.class = &&& AND SpecObjALL.ra > # AND SpecObjALL.ra < # AND SpecObjALL.dec > # AND SpecObjALL.dec < #"
+2019-04-09 23:02:00,1
+2019-04-09 23:03:00,3
+2019-04-09 23:04:00,1
+2019-04-09 23:06:00,1
+2019-04-09 23:41:00,1
+2019-04-09 23:42:00,1

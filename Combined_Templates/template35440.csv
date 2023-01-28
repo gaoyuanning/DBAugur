@@ -1,0 +1,2 @@
+1,"SELECT TOP # plate, mjd, fiberID INTO mydb.pcadata FROM dbo.SpecObj WHERE z BETWEEN # AND # AND instrument = #"
+2019-04-29 10:46:00,1

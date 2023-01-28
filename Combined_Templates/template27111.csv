@@ -1,0 +1,2 @@
+2,"SELECT TOP # s.class, s.spectroFlux_g, s.spectroFlux_i, s.spectroFlux_r, s.spectroFlux_u, s.spectroFlux_z, s.z, p.run, p.rerun, p.camCol, p.field, p.obj FROM ..SpecObj as s JOIN ..PhotoObj AS p ON s.bestObjID = p.objID WHERE s.z > # AND (s.class = # OR s.class = #) AND s.z < # AND s.zWarning = # AND (p.type = # OR p.type = #) AND (s.primTarget & (dbo.fPrimTarget (#) + dbo.fPrimTarget (#) + dbo.fPrimTarget (#) + dbo.fPrimTarget (#) + dbo.fPrimTarget (#) ) > #)"
+2019-04-03 21:29:00,2

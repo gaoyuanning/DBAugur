@@ -1,0 +1,2 @@
+1,select distinct subclass into mydb.MyTable_# from specobj;
+2019-03-13 02:48:00,1

@@ -1,0 +1,2 @@
+1,"SELECT specObjID, ra, dec, plate, mjd, fiberID, psfMag_u, psfMagErr_u, psfMag_g, psfMagErr_g, psfMag_r, psfMagErr_r, psfMag_i, psfMagErr_i, psfMag_z, psfMagErr_z into mydb.MyTable_# from SpecPhoto WHERE plate = # and boss_target1 = #"
+2019-11-11 12:34:00,1

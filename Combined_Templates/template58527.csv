@@ -1,0 +1,2 @@
+1,"SELECT p.objID into MyDB.J1#_objID from fGetObjFromRect (#, #, #, #) as p"
+2019-08-20 00:24:00,1

@@ -1,0 +1,4 @@
+4,"SELECT into mydb.A2#_# s.objID, s.ra, s.dec, s.z, s.zErr, s.class, s.petroMag_u, s.petroMag_r, z.kcorr_u, z.kcorr_r FROM SpecPhotoAll s, Photoz z WHERE s.objID = z.objID AND (specclass = # OR specclass = #) AND s.ra BETWEEN # AND # AND s.dec BETWEEN # AND # AND s.class = #"
+2019-04-16 03:20:00,1
+2019-04-16 03:21:00,1
+2019-04-16 03:24:00,2

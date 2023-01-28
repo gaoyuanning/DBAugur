@@ -1,0 +1,3 @@
+2,"SELECT g.objID as id, g.dered_g as g, g.dered_r as r, g.dered_i as i, g.dered_z as z, s.z as redshift FROM Galaxy g INNER JOIN SpecObj s ON s.bestObjID = g.objID WHERE s.z BETWEEN # AND #"
+2019-04-08 10:28:00,1
+2019-04-08 10:30:00,1

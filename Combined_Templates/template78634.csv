@@ -1,0 +1,2 @@
+1,"SELECT top # sp.objid, sp.ra, sp.dec, sp.z, sp.class INTO MyDB.spec_S8#_tile_# FROM SpecPhoto AS sp"
+2019-11-24 06:14:00,1

@@ -1,0 +1,2 @@
+1,"SELECT s.objid, s.ra, s.dec, s.u, s.g, s.r, s.i, s.z, f.peak FROM Star as s, First as f WHERE s.objid=f.objid and s.r<#and s.r># and (s.g - s.r) >= # and (s.g - s.r) < # and (s.r - s.i) >= # and (s.r - s.i) < # and f.peak > #"
+2019-01-31 03:59:00,1

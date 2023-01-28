@@ -1,0 +1,2 @@
+1,"select m.plateifu, t.AngSep, m.ra_MaNGA, m.dec_MaNGA, m.i1_f_ap1 as i1, m.i2_f_ap1 as i2, m.i3_f_ap1 as i3, m.i4_f_ap1 as i4, m.m1_f_ap as m1 into mydb.Spitzer_MaNGA_mpl7_nodup from mydb.Spitzer_MaNGA_mpl7 m, mydb.temp_manga_minsep t where m.plateifu = t.plateifu and t.angSep = m.dist_x"
+2019-04-04 11:01:00,1

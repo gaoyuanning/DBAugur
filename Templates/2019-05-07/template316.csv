@@ -1,0 +1,2 @@
+1,"SELECT  COUNT(*) specobjid,ra,dec,psfmag_u, psfmag _g, psfmag _r, psfmag _i, psfmag _z,z, morphology FROM DR1#Q"
+2019-05-07 16:10:00,1

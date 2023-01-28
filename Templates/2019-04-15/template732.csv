@@ -1,0 +1,2 @@
+1,SELECT count(*) into mydb.tmp3 from Galaxy as g
+2019-04-15 09:49:00,1

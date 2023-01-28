@@ -1,0 +1,4 @@
+61,select top # seq from weblog2#a where seq > # order by seq
+2019-05-08 16:48:00,16
+2019-05-08 16:49:00,26
+2019-05-08 16:50:00,19

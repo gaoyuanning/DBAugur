@@ -1,0 +1,3 @@
+2,"select m.mangaid, m.ra as ra1, m.dec as dec1, n.objid, z.nvote, z.p_el as elliptical, z.p_cw as spiralclock, z.p_acw as spiralanticlock, z.p_edge as edgeon, z.p_dk as dontknow, z.p_mg as merger into mydb.table_AGN_MPL7_galaxyzoo from MyDB.MyTable as m cross apply dbo.fGetNearestObjEq (m.ra, m.dec, #) as n join ZooSpec as z on n.objid = z.objid"
+2019-01-09 06:18:00,1
+2019-01-09 06:23:00,1

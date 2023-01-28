@@ -1,0 +1,2 @@
+1,"select ra, dec, objid from photoobjall    where ra = # and dec = #"
+2019-09-26 07:25:00,1

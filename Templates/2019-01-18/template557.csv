@@ -1,0 +1,5 @@
+6,"SELECT RAJ2#, DEJ2# FROM MYDB.DiazGimenez  OPEN my_cursor   WHILE(#=#)  BEGIN    FETCH NEXT from my_cursor into @RAJ2#, @DEJ2#    IF (@@fetch_status < #) break    INSERT MYDB.DiazGimenez_DR7    SELECT s.bestObjID, s.specObjID, s.ra, s.dec, n.distance    FROM SpecObj as s    CROSS APPLY dbo.fGetNearestSpecObjEq(@RAJ2#, @DEJ2#, #) as n    WHERE    n.specObjID = s.specObjID    END  CLOSE my_cursor  DEALLOCATE my_cursor"
+2019-01-18 05:34:00,2
+2019-01-18 05:49:00,1
+2019-01-18 06:09:00,2
+2019-01-18 06:26:00,1

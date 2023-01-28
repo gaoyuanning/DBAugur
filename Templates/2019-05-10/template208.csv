@@ -1,0 +1,2 @@
+1,SELECT * INTO target_galaxies2 FROM target_galaxies1 ORDER BY idx_num GO
+2019-05-10 16:00:00,1

@@ -1,0 +1,2 @@
+1,SELECT COUNT(*) FROM Source WHERE flux_sinc BETWEEN # AND #
+2019-04-25 12:13:00,1

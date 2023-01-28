@@ -1,0 +1,2 @@
+1,SELECT TOP # ALL FROM PhotoObj AS p JOIN ZooSpec AS zs ON zs.objid =
+2019-05-07 15:11:00,1

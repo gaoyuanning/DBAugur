@@ -1,0 +1,2 @@
+1,"SELECT STR (s.z, #, #) s.z, p.ra, p.dec FROM galaxy p, specObj s WHERE p.objid = s.bestobjid and p.dec BETWEEN # AND # AND p.ra BETWEEN # AND # AND s.z BETWEEN # AND #"
+2019-12-08 22:43:00,1

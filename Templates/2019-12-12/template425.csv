@@ -1,0 +1,2 @@
+1,"select top #      p.objid as sdss_id,      p.ra as ra,   p.dec as dec,      p.psfMag_u, p.psfMagErr_u,   p.psfMag_g, p.psfMagErr_g,   p.psfMag_r, p.psfMagErr_r,   p.psfMag_i, p.psfMagErr_i,   p.psfMag_z, p.psfMagErr_z      into mydb.s8#qsos from photoobj as p"
+2019-12-12 09:59:00,1

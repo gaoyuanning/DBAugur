@@ -1,0 +1,2 @@
+1,"CREATE TABLE [Recruitment] ( 	eid BIGINT NOT NULL ,	[Invitation_to_assessment_centre_acceptance_#] INTEGER -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Invitation_to_assessment_centre_date_sent_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=# ,PRIMARY KEY (eid)) GO"
+2019-05-09 10:26:00,1

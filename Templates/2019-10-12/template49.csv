@@ -1,0 +1,6 @@
+7,"SELECT TOP #  s.plate,s.mjd,s.fiberid  FROM ..SpecObj as s  JOIN dbo.fGetNearbySpecObjEq(#,#,#) AS b ON b.SpecobjID = S.SpecobjID  WHERE s.zWarning = #"
+2019-10-12 20:38:00,1
+2019-10-12 20:40:00,1
+2019-10-12 20:41:00,3
+2019-10-12 20:42:00,1
+2019-10-12 20:43:00,1

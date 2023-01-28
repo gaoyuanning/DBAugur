@@ -1,0 +1,2 @@
+1,"SELECT t.ra, t.dec, t.plate, t.mjd, t.fiberid, t.petromag_u, t.petromag_g, t.petromag_r, t.petromag_i, t.petromag_z, g.oiii_#_eqw, g.h_alpha_eqw, g.oiii_#_flux, g.h_alpha_flux, t.z, t.objid as objid_#, t.specobjid as specobjid_#, m.z, g.oiii_#_eqw, g.oiii_#_flux, g.h_beta_eqw, g.h_beta_flux into mydb.SDSS_gal_# FROM specphotoall as t JOIN dbo.galSpecLine AS g ON g.specobjid = t.specobjid JOIN dbo.photoz AS m ON m.objid = t.objid where (t.Class = # or t.Class = #) and t.sciencePrimary> # and t.ZWARNING = # and g.oiii_#_eqw< #"
+2019-03-06 12:59:00,1

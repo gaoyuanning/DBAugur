@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec, s.z, s.zErr, s.dered_r into mydb.Pers from SpecPhoto s, dbo.fGetNearbyObjEq(#,#,#) as n  WHERE class=&&& AND n.objID=s.objID AND ABS(#-s.z)<= #*(#+s.z)"
+2019-04-15 02:03:00,1

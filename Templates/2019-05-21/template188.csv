@@ -1,0 +1,3 @@
+2,"SELECT TOP #  p.objid, p.flags_r, s.z as redshift, s.zErr as z_error, s.photoErrorClass FROM PhotoObj as p  JOIN Photoz AS s ON s.objid = p.objid WHERE  type = #  AND ((flags_r & #) != #)   AND ((flags_r & #) = #)   AND (((flags_r & #) = #) or (psfmagerr_r <= #))   AND (((flags_r & #) = #) or (flags_r & #) = #)   AND s.z between # AND #  AND s.photoErrorClass = #"
+2019-05-21 16:06:00,1
+2019-05-21 16:07:00,1

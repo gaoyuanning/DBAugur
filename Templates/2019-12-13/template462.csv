@@ -1,0 +1,2 @@
+1,"select id,shortname, @loc.STDistance(route) as distances,route.ToString() as route    from routes   where @loc.STDistance(route)<#"
+2019-12-13 07:14:00,1

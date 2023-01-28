@@ -1,0 +1,2 @@
+1,"select cat1=run1, cat2=run2, arcsec, cts from astrometry.budavari.Neighbors2Star2#eq order by #,#,#"
+2019-03-16 14:22:00,1

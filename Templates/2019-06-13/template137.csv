@@ -1,0 +1,6 @@
+5,"SELECT TOP #  p.run, p.rerun, p.camcol, p.field  FROM PhotoObjDR7 AS p  WHERE p.dr7objid=#"
+2019-06-13 01:04:00,1
+2019-06-13 06:54:00,1
+2019-06-13 08:02:00,1
+2019-06-13 13:49:00,1
+2019-06-13 17:52:00,1

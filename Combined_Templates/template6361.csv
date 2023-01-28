@@ -1,0 +1,2 @@
+1,select count (*) from GalaxyTag as g join Photoz as p on g.objID = p.objID
+2019-01-26 21:25:00,1

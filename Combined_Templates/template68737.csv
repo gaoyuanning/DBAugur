@@ -1,0 +1,2 @@
+2,"SELECT PhotoObjAll.objID, PhotoObjAll.ra, PhotoObjAll.dec into mydb.IDs from PhotoObjAll AS IDs JOIN mydb.kGiants AS targets ON IDs.ra = targets.ra and IDs.dec = targets.dec"
+2019-10-09 17:38:00,2

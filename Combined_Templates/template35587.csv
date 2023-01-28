@@ -1,0 +1,2 @@
+1,"select PhotoObj.ObjID, PhotoObj.ra, PhotoObj.dec, PhotoObj.petroR9#_g, PhotoObj.petroR9#_i, PhotoObj.petroR9#_z, specObj.z, specObj.class into mydb.MyTable_# from PhotoObj, specObj where specObj.bestObjid = PhotoObj.ObjID AND specObj.class = #"
+2019-04-29 05:04:00,1

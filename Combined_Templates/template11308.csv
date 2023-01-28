@@ -1,0 +1,2 @@
+1,"select specobjid, bestObjID, plate, mjd, fiberid, run2d, ra, dec, class, subclass, z, zerr, zwarning into mydb.DR1#_ID_class from specobjall order by specobjid"
+2019-02-14 03:16:00,1

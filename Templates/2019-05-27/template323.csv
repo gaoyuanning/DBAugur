@@ -1,0 +1,2 @@
+2,"SELECT     Aex.Name, Aex.RAdeg_HI, Aex.DECdeg_HI, Aex.RAdeg_OC, Aex.DECdeg_OC, Aex.Delta_RA_arcsec, Aex.Delta_DEC_arcsec, Aex.Vhelio, Aex.redshift,     Aex.W5#, Aex.sigW, Aex.W2#, Aex.HIflux, Aex.sigflux, Aex.SNR, Aex.RMS, Aex.Dist, Aex.sigDist, Aex.logMH, Aex.siglogMH, Aex.HIcode,     replace( dbo.fGetUrlExpEq(Aex.RAdeg_HI,Aex.DECdeg_HI),&&&,&&&) as linkHI,     replace( dbo.fGetUrlExpEq(Aex.RAdeg_OC,Aex.DECdeg_OC),&&&,&&&) as linkmanycOC FROM MyDB.alfalfa_source_with_deltara_deltadec_redshift  Aex"
+2019-05-27 11:32:00,2

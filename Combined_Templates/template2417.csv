@@ -1,0 +1,2 @@
+1,select count (#) as C from PhotoObj p where p.PrimTarget IN ()
+2019-01-12 06:19:00,1

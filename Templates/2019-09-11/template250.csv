@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec, s.dered_g as g, s.dered_r as r, s.err_g, s.err_r, s.flags FROM dbo.fGetNearbyObjEq(#, #, #) AS n JOIN Star AS s ON n.objID = s.objID WHERE g - r BETWEEN # AND # AND g BETWEEN # and #"
+2019-09-11 17:38:00,1

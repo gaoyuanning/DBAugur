@@ -1,0 +1,4 @@
+4,"SELECT TOP # g2.petroR5#_g, g2.objID, g2.z FROM Galaxy as g2 WHERE g2.petroR5#_r > #"
+2019-04-18 19:30:00,1
+2019-04-18 19:32:00,2
+2019-04-18 19:42:00,1

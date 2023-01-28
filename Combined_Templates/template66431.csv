@@ -1,0 +1,3 @@
+2,"SELECT TOP # specObjId, ancillary_target1, ra, dec, class, z, zErr FROM SpecPhotoAll WHERE ancillary_target1 = #"
+2019-09-29 22:12:00,1
+2019-09-29 22:15:00,1

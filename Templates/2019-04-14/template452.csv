@@ -1,0 +1,2 @@
+2,"SELECT     m.*, o.*,spec.*,f.gain_u,f.gain_g,f.gain_r,f.gain_i,f.gain_z,f.saturationLevel_u        ,f.saturationLevel_g,f.saturationLevel_r,f.saturationLevel_i,f.saturationLevel_z into mydb.cUVLGs_Roderik_PhotoInfo_DR1# from MyDB.All_cUVLGs_Roderik AS m     OUTER APPLY dbo.fGetNearestObjEq( m.RA_deg, m.DEC_deg, #) AS n    LEFT JOIN PhotoObjAll AS o ON n.ObjID=o.ObjID   JOIN SpecObjall as spec ON o.specobjid = spec.specobjid   JOIN Field as f ON f.fieldid = o.fieldid"
+2019-04-14 03:40:00,2

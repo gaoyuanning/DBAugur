@@ -1,0 +1,2 @@
+1,"SELECT specObjID, z, SpectroFlux_u, SpectroFlux_g, SpectroFlux_r, SpectroFlux_i, SpectralFlux_z FROM SpecObj WHERE class = &&& and zWarning = #"
+2019-03-12 03:33:00,1

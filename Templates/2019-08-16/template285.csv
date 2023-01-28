@@ -1,0 +1,2 @@
+1,"select ra,dec into mydb.MyTable from Photoz where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-08-16 11:59:00,1

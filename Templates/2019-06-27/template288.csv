@@ -1,0 +1,3 @@
+2,"select p.ra, p.dec, p.modelMag_i, p.deVPhi_i, p.deVRad_i from photoobjall p, dbo.fgetNearByObjEq(#,#,#) n where p.objid=n.objid"
+2019-06-27 17:03:00,1
+2019-06-27 17:04:00,1

@@ -1,0 +1,2 @@
+1,"SELECT top # bestObjID, plate, mjd, fiberid, z FROM SpecObj WHERE (class = #) and (z < #) order by bestObjID"
+2019-07-26 11:50:00,1

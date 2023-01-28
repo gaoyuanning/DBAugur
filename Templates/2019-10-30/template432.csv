@@ -1,0 +1,5 @@
+5,"SELECT top # p.objid, s.specClass, s.objTypeName FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid =p.objid WHERE p.modelMag_r BETWEEN # AND #"
+2019-10-30 04:25:00,2
+2019-10-30 04:26:00,1
+2019-10-30 05:09:00,1
+2019-10-30 05:10:00,1

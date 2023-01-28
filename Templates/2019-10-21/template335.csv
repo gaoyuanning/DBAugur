@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.ra, p.dec, s.z AS RedShift, p.deVRad_r, p.cmodelMag_u-extinction_u AS mag_u,  p.cmodelMag_g-extinction_g AS mag_g, p.cmodelMag_r-extinction_r AS mag_r, p.cmodelMag_i-extinction_i AS mag_i, p.cmodelMag_z-extinction_z AS mag_z, p.modelMagErr_r FROM galaxy AS p, dbo.fgetNearByObjEq(#, #,#) AS n, galSpecInfo AS s WHERE p.objid=n.objid AND p.specObjID=s.specObjID AND p.specObjID<># AND s.z BETWEEN # AND # ORDER BY s.z"
+2019-10-21 12:23:00,1

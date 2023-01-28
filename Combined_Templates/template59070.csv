@@ -1,0 +1,2 @@
+1,"select p.objid, p.ra, p.dec, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z into mydb.MyTable from phototag p where ra > = # and ra < = # and dec > = # and dec < = # and p.psfMag_g < # AND p.secTarget&# > #"
+2019-08-24 17:28:00,1

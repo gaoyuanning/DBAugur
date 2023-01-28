@@ -1,0 +1,3 @@
+2,"SELECT ra, dec, objid INTO mydb.galaxy_PhotoObj_all FROM dbo.PhotoObjAll WHERE type = #"
+2019-03-29 15:05:00,1
+2019-03-29 15:06:00,1

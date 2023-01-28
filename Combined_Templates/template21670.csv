@@ -1,0 +1,2 @@
+1,"SELECT s.plate, s.mjd, s.fiberid, s.z, s.zErr, s.zWarning, s.specClass, # as filter FROM BESTDR2..SpecObj as s, dbo.fGetNearbyObjEq (#, #, #) as b, BESTDR2..PhotoObj as p WHERE b.objID = p.objID AND (p.type = # OR p.type = #) AND s.bestObjID = p.objID"
+2019-03-19 02:04:00,1

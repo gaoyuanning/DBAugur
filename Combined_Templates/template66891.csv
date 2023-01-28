@@ -1,0 +1,2 @@
+1,"select distinct eid, Eye_problems_disorders_# from dbo.Eyesight a cross apply openjson (Eye_problems_disorders_#) j cross apply openjson (j.value) v where v.value = #"
+2019-10-01 13:08:00,1

@@ -1,0 +1,2 @@
+1,"select ss.ra, ss.dec, ss.z, ss.ssfr, ss.logMass, ss.logMass_err, ss.logMass_max, from stellarMassFSPSGranEarlyDust as ss where ss.z between # and #"
+2019-04-16 07:13:00,1

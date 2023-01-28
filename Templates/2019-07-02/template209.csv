@@ -1,0 +1,7 @@
+6,"SELECT TOP #   g,   run,   rerun,   camcol,   field,   objID   FROM Galaxy   WHERE ( (g <= #)   and (u - g >= #)   and (u - g < #)   and (g - r >= #)   and (g - r < #)   and (r - i >= #)   and (r - i < #)   and (i - z >= #)   and (i - z < #) )"
+2019-07-02 01:26:00,1
+2019-07-02 08:38:00,1
+2019-07-02 15:13:00,1
+2019-07-02 15:16:00,1
+2019-07-02 18:44:00,1
+2019-07-02 19:40:00,1

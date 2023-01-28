@@ -1,0 +1,3 @@
+2,"select gmr as xcol, psfmag_r as ycol from starsformattd where  psfmag_r between # and # AND gmr between # and #"
+2019-07-25 02:23:00,1
+2019-07-25 02:24:00,1

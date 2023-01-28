@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.specObjID, s.ra, s.dec, p.ssfr FROM SpecPhotoAll AS s   JOIN stellarMassFSPSGranEarlyDustAS p ON s.specObjID = p.specObjID WHERE s.ra > # and s.ra < # AND s.dec > # and s.dec < #"
+2019-04-29 01:10:00,1

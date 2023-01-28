@@ -1,0 +1,4 @@
+3,"select ra, Dec, modelMag_g from PhotoTag where STAR"
+2019-03-22 20:43:00,1
+2019-03-22 20:45:00,1
+2019-03-26 21:32:00,1

@@ -1,0 +1,2 @@
+1,"select top # s.specObjID, s.z, s.type, s.mode,         psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z,         modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z,        extinction_u, extinction_g, extinction_r, extinction_i, extinction_z,        w.w1mpro, w1snr, w.w2mpro, w2snr, w.w3mpro, w3snr, w.w4mpro, w4snr        from specphotoall s           join (WISE_xmatch wx              join WISE_allsky w on wx.wise_cntr = w.cntr) on s.objid = wx.sdss_objid        where mode != #"
+2019-03-21 17:03:00,1

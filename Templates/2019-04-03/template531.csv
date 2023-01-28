@@ -1,0 +1,2 @@
+2,"SELECT TOP #    p.objID, p.ra, p.dec, p.type,    p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z FROM PhotoTag p"
+2019-04-03 10:45:00,2

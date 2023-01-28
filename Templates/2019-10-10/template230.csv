@@ -1,0 +1,2 @@
+1,"select   zoo.objID, zoo.ra, zoo.dec, zoo.p_cw, zoo.p_acw, po.expAB_r from   zooSpec zoo, photoObjAll po where   zoo.objID = po.objID"
+2019-10-10 14:12:00,1

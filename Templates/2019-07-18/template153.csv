@@ -1,0 +1,3 @@
+2,"SELECT TOP #  ra, dec, g FROM stars WHERE ra between # and # and dec between # and #"
+2019-07-18 20:49:00,1
+2019-07-18 20:50:00,1

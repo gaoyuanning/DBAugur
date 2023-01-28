@@ -1,0 +1,2 @@
+1,"SELECT SpecObjID, s FROM SpecObj WHERE SpecObjID = g.ObjID"
+2019-03-08 16:03:00,1

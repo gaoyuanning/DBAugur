@@ -1,0 +1,13 @@
+12,"SELECT p.objID, r.stripe, p.ra, p.dec, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, p.psffwhm_u, p.psffwhm_g, p.psffwhm_r, p.psffwhm_i, p.psffwhm_z, p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i, p.extinction_z, z.z, z.zErr, z.chiSq into mydb.MyTable2# from PhotoPrimary AS p JOIN Field AS f ON f.fieldid = p.fieldid JOIN Run AS r ON f.run = r.run LEFT OUTER JOIN photoz AS z ON p.objID = z.objID WHERE ( (p.dered_g < #) OR (p.dered_r < #) OR (p.dered_i < #) ) and (p.type = #) and (p.modelMag_r> #) and (p.modelMag_r< =#)"
+2019-04-16 14:38:00,1
+2019-04-16 14:48:00,1
+2019-04-16 14:54:00,1
+2019-04-16 14:59:00,1
+2019-04-16 15:07:00,1
+2019-04-16 15:12:00,1
+2019-04-16 16:32:00,1
+2019-04-16 16:43:00,1
+2019-04-16 16:51:00,1
+2019-04-16 16:58:00,1
+2019-04-16 17:03:00,1
+2019-04-16 17:13:00,1

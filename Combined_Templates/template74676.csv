@@ -1,0 +1,2 @@
+1,"select top # ra, dec, ObjID, mjd from PhotoObj where dec < # AND dec > # AND (ra > # OR ra < #) AND RN BETWEEN # AND #"
+2019-11-08 07:38:00,1

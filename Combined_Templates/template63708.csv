@@ -1,0 +1,2 @@
+2,"SELECT S.specObjID, BC.mstellar_median, M.mstellar_median, ED.logMass, ED.age, WD.logMass, WD.age, Sd.d4#, Sd.d4#_model, Sd.d4#_sub, Sd.d4#_n INTO test1# FROM galSpecInfo as S, galSpecIndx as Sd, stellarMassPCAWiscBC0# as BC, stellarMassPCAWiscM1# as M, stellarMassFSPSGranEarlyDust as ED, stellarMassFSPSGranWideDust as WD WHERE S.specObjID = # and BC.specObjID = # and M.specObjID = # and ED.specObjID = # and WD.specObjID = # and Sd.specObjID = #"
+2019-09-17 06:21:00,2

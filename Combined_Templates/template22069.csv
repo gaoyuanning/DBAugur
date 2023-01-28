@@ -1,0 +1,2 @@
+2,"SELECT TOP # ROW_NUMBER () OVER (ORDER BY s.ra ASC) as RowNumber, g.objID, g.ra, g.dec, g.j, g.jIvar, g.h, g.hIvar, g.k, g.kIvar FROM TwoMass AS g JOIN PhotoObj AS s ON s.objid = g.objid WHERE s.type = # AND s.ra BETWEEN # AND #"
+2019-03-21 17:25:00,2

@@ -1,0 +1,2 @@
+1,"select Top1#  ra, dec, u, g, r, i, z, type,   isoA_u, isoA_g, isoA_r, isoA_i, isoA_z,  isoB_u, isoB_g, isoB_r, isoB_i, isoB_z,  isoPhi_u, isoPhi_g, isoPhi_r, isoPhi_i, isoPhi_z from PhotoObj where  ra BETWEEN # AND #  AND dec BETWEEN # AND #  AND type = #  ORDER by r"
+2019-08-23 15:35:00,1

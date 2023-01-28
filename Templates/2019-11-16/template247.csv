@@ -1,0 +1,2 @@
+1,"SELECT ID, ADDRESS, wkt=COORDS.ToString()     , dist=COORDS.STDistance(@price_center_Portland)  FROM optw.tamass.ASSETS"
+2019-11-16 06:36:00,1

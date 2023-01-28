@@ -1,0 +1,2 @@
+2,"select m.specObjID, m.objID, v_disp into mydb.kruk_Huertas_v_disp from galspecinfo i, mydb.kruk_Huertas_specObjID m where i.specobjid = m.specObjID;"
+2019-09-15 06:37:00,2

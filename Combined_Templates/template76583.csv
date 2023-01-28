@@ -1,0 +1,2 @@
+1,"SELECT ALL Gp.objid, Gp.ra, Gp.dec, Gp.nuv_mag, Gp.nuv_magerr, Gp.fuv_mag, Gp.fuv_magerr into mydb.Galex from photoobjall AS Gp WHERE Gp.dec > # AND Gp.fuv_mag between # and # AND Gp.nuv_mag between # and #"
+2019-11-17 13:20:00,1

@@ -1,0 +1,2 @@
+1,"select avg(PhotoObjAll.z-#*log1#(#E+#*ring_galaxies_z.z)+#), stdev(PhotoObjAll.z-#*log1#(#E+#*ring_galaxies_z.z)+#) from MyDB.ring_galaxies_z,PhotoObjAll where ObjID=ID and PhotoObjAll.z># and PhotoObjAll.z<# and ring_galaxies_z.z>#"
+2019-01-03 14:37:00,1

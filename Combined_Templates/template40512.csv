@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.r BETWEEN # AND #"
+2019-05-20 18:35:00,1

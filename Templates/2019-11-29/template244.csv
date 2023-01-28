@@ -1,0 +1,2 @@
+1,"SELECT top # ra, dec,  psfMag_g as g,  psfMag_g - psfMag_r as g_r FROM galaxy"
+2019-11-29 10:31:00,1

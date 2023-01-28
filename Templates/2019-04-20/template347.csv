@@ -1,0 +1,2 @@
+1,"select substring(Name, #, #) from chinook.Artistorder by Name asc"
+2019-04-20 15:20:00,1

@@ -1,0 +1,2 @@
+2,"SELECT m.objID, m.*, R.extent, R.delta INTO Xmatch FROM Rosat as R, lrgs as m WHERE   (R.ra-m.ra)*(R.ra-m.ra)<# AND   (R.dec-m.dec)*(R.dec-m.dec)<# AND   R.ext > # ORDER BY m.objID"
+2019-03-17 17:09:00,2

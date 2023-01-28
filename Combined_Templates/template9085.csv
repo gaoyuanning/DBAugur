@@ -1,0 +1,2 @@
+1,"SELECT top # ra, dec, psfMag_g, psfMag_r, psfMag_i, type FROM dbo.photoObjall type = dbo.fPhotoType (#)"
+2019-02-08 11:59:00,1

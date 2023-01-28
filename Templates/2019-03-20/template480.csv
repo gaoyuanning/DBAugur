@@ -1,0 +1,2 @@
+1,"SELECT   m.cent_gal_ID as id,   m.ra AS ra,    m.dec AS dec,   o.deVRad_r AS Re,   o.nprof_r AS nprof,   p.band as band,   p.bin as bin,   p.profMean as mean into mydb.MyTable from MyDB.Camilla_catalogue AS m   CROSS APPLY dbo.fGetNearestObjEq(m.ra, m.dec, #) AS n   JOIN photoObjAll AS o ON n.objid=o.objid   JOIN PhotoProfile AS p ON n.objid=p.objid"
+2019-03-20 08:54:00,1

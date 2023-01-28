@@ -1,0 +1,2 @@
+1,"SELECT e.bpt, COUNT(*) FROM SpecObjAll AS s JOIN galSpecLine AS g ON s.specObjID = g.specObjID JOIN emissionLinesPort AS e ON s.specObjID = e.specObjID WHERE g.h_alpha_flux > # AND g.h_beta_flux > # AND g.oiii_#_flux > # AND g.nii_#_flux > # AND s.snMedian > # AND s.class = &&& AND e.bpt <> &&& AND e.bpt <> &&& GROUP BY e.bpt"
+2019-05-20 13:21:00,1

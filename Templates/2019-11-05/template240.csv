@@ -1,0 +1,2 @@
+1,"select run1, run2, cts=sum(cts)     from astrometry.budavari.S8#r2#     where type1=# and type2=# and arcsec<#         and (run1=# or run2=#)     group by run1, run2     having sum(cts)>#     order by cts desc"
+2019-11-05 13:24:00,1

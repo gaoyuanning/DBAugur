@@ -1,0 +1,3 @@
+2,"SELECT top # p.objID, p.u, p.g, p.r, p.i, p.z into mydb.MyFirstTable FROM PhotoObj AS p LEFT OUTER JOIN SpecObj s ON p. objID = s. bestObjID WHERE (p. type = # OR p. type = #) AND s. class is #"
+2019-06-05 11:51:00,1
+2019-06-05 12:55:00,1

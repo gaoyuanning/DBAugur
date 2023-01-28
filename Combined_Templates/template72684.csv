@@ -1,0 +1,2 @@
+1,"SELECT TOP # P.ObjID, P.g, P.r FROM PhotoPrimary AS P JOIN Neighbors AS N ON P.ObjID = N.ObjID JOIN PhotoPrimary AS L ON L.ObjID = N.NeighborObjID WHERE P.ObjID < L. ObjID and abs (P.g-P.r) > # and P.g< #"
+2019-10-30 03:01:00,1

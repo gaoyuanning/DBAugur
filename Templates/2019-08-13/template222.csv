@@ -1,0 +1,2 @@
+1,"SELECT up_id, dbo.fGetNearestObjIdEq(up_ra,up_dec,#) as objId   FROM #slacs WHERE dbo.fGetNearestObjIdEq(up_ra,up_dec,#) IS NOT NULL  SELECT u.up_name as [name],   p.objID, p.ra, p.dec, p.specobjid,  p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z FROM #slacs u  JOIN #x x ON x.up_id = u.up_id  JOIN PhotoTag p ON p.objID = x.objID ORDER by x.up_id"
+2019-08-13 18:33:00,1

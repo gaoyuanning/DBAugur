@@ -1,0 +1,2 @@
+1,"SELECT s.specObjID, s.ra, s.dec, s.z, s.zErr, s.class into mydb.Aliy_#_A2#_xviii    FROM SpecPhotoAll s    WHERE s.ra BETWEEN # AND #   AND s.dec BETWEEN # AND #   AND s.z BETWEEN # AND #   AND s.class = &&&"
+2019-04-22 00:27:00,1

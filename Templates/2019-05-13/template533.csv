@@ -1,0 +1,2 @@
+1,"select p.specObjID, p.ra, p.dec, f.Chabrier_MILES_age_lightW, f.Chabrier_MILES_age_lightW_up, f.Chabrier_MILES_age_lightW_low  into mydb.SDSS_firefly from emissionLinesPort as p    join sdssEbossFirefly as f on p.specObjID = f.specObjID where p.dec < # and p.z < #"
+2019-05-13 00:56:00,1

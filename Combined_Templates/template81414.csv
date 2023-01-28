@@ -1,0 +1,2 @@
+3,"SELECT p.ra, p.dec, p.psfmag_r FROM PhotoPrimary p WHERE p.ra BETWEEN #and2# and p.dec BETWEEN1#and1# and p.psfmag_r < #. and p.type = #"
+2019-12-08 04:13:00,3

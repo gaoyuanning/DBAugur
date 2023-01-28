@@ -1,0 +1,4 @@
+3,"select ra, dec, fiber2Mag_g from PhotoObjAll where ra=# AND dec= #"
+2019-10-03 16:31:00,1
+2019-10-03 16:36:00,1
+2019-10-03 16:37:00,1

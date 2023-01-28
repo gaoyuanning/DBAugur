@@ -1,0 +1,2 @@
+2,"SELECT TOP # objID, modelMag_r, petroMag_r FROM star WHERE ra > # and ra < # AND dec > # and dec < #"
+2019-02-12 14:55:00,2

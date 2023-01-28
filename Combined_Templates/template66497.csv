@@ -1,0 +1,5 @@
+7,"select top # objid, ra, dec, z, modelMag_r, modelMag_i, modelMag_u, modelMag_z, modelMag_g from PhotoObjAll where dec BETWEEN # AND # and ra between # and # and z between # and #"
+2019-09-29 14:57:00,3
+2019-09-29 14:58:00,2
+2019-09-29 15:03:00,1
+2019-09-29 15:06:00,1

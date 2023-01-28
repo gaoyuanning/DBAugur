@@ -1,0 +1,2 @@
+1,select top # dbo.fSpecDescription (specObjID) from SpecObjAll
+2019-01-15 10:19:00,1

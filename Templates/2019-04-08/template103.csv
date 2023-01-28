@@ -1,0 +1,2 @@
+1,"SELECT P.ra, P.dec, P.g, L.g,distance*# as sep FROM Star as P,  Neighbors as N,  PhotoPrimary as L WHERE P.ra between # and #  and P.dec between # and #  and P.g between # and #  and P.g-P.r between # and #  and P.ObjID = N.ObjId  and L.ObjId = N.NeighborObjId  and (distance < #./#.) and ((L.g - P.g) < #)"
+2019-04-08 21:02:00,1

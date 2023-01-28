@@ -1,0 +1,2 @@
+1,"SELECT MAX (z) FROM SpecObj, Legacy WHERE class = # AND zWarning = #"
+2019-03-22 18:11:00,1

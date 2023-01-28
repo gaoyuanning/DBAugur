@@ -1,0 +1,2 @@
+1,select count (*) from mr where snapnum = # and np between # and #
+2019-04-03 09:12:00,1

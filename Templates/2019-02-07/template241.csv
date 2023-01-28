@@ -1,0 +1,2 @@
+3,"select top # specobjid, z, modelmag_u, modelmag_g, modelmag_r, modelmag_i, modelmag_z from specphoto where class=&&& and z betweeen # and # and zwarning=#"
+2019-02-07 17:04:00,3

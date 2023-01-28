@@ -1,0 +1,2 @@
+1,"select count(pz.objID), min(p.petroMag_r)  from photoz2 pz, photoTag p  where p.objID=pz.objID AND pz.flag=# AND p.petroMag_r-p.extinction_r <#"
+2019-09-13 16:48:00,1

@@ -1,0 +1,2 @@
+1,"SELECT s.objid, s.ra, s.dec, g.objid, g.ra, g.dec, x.ra, x.dec  INTO twowayxmatch  FROM XMATCH(      MUST EXIST IN SDSSDR1#:PhotoObjAll AS s            WITH(POINT(s.ra, s.dec)),       MUST EXIST IN MyTable_#:PhotoObjAll AS g            WITH(POINT(g.ra, g.dec),       ) AS x"
+2019-12-28 02:44:00,1

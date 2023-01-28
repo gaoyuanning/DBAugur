@@ -1,0 +1,2 @@
+1,"SELECT m.*, s.z INTO myDB.blabla FROM myDB.PosterCoord as m, SpecObj as s WHERE s.bestObjID = m.objID"
+2019-07-23 17:09:00,1

@@ -1,0 +1,2 @@
+2,"SELECT   TOP # mangaid, objra, objdec, daptype, z, sfr_#re  FROM mangaDAPall  WHERE sfr_#re > # and daptype = &&&"
+2019-01-30 19:27:00,2

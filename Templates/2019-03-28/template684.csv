@@ -1,0 +1,5 @@
+5,"SELECT s.specobjid, s.ra, s.dec, s.plate, s.mjd, s.fiberid, m.mangaID, m.objra, m.objdec FROM #upload u  JOIN SpecObjAll s ON (s.plate=u.up_plate AND s.mjd=u.up_mjd AND s.fiberID=u.up_fiber)  JOIN mangaPipe3D m ON (m.objra - s.ra < # AND m.objra - s.ra > #) &&&#', @log=#, @filter=#"
+2019-03-28 06:00:00,1
+2019-03-28 06:01:00,2
+2019-03-28 06:02:00,1
+2019-03-28 06:03:00,1

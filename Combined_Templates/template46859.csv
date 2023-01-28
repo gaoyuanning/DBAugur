@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, Dec WHERE (ra between # and #) and (Dec between # and #) into mydb.MyTable"
+2019-06-19 04:44:00,1

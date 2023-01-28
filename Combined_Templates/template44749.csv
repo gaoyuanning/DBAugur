@@ -1,0 +1,2 @@
+1,"SELECT specObj.specobjID, specObj.plate FROM specObj, emissionLinesPort, galSpecLine WHERE specObj.specobjID = emissionLinesPort.specobjID AND specObj.specobjID = galSpecLine.specobjID"
+2019-06-07 04:32:00,1

@@ -1,0 +1,2 @@
+2,"SELECT imag, zmag, (gmag-rmag) FROM PhotoObjDR7 AS x WHERE x.dr7objid = # or x.dr7objid = # or x.dr7objid = #"
+2019-03-07 18:22:00,2

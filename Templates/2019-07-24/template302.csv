@@ -1,0 +1,9 @@
+17,"select top # p.objID,p.ra,p.dec,s.z as redshift,w.plate,s.fiberID from SpecObj s join photoObj p ON p.objID = s.bestObjID join plateX w on w.plateID = s.plateID where s.z > # and s.zWarning = # and s.class = &&&"
+2019-07-24 09:46:00,1
+2019-07-24 09:50:00,3
+2019-07-24 09:51:00,2
+2019-07-24 09:52:00,2
+2019-07-24 09:53:00,3
+2019-07-24 09:54:00,1
+2019-07-24 09:55:00,3
+2019-07-24 09:56:00,2

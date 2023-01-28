@@ -1,0 +1,2 @@
+1,"select bestObjID, ra, dec, type, class, subclass from SpecPhoto where abs (ra) < # and abs (dec) < #"
+2019-02-15 21:05:00,1

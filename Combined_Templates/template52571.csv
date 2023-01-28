@@ -1,0 +1,2 @@
+1,"select p.objid, p.ra, p.dec from galaxy p, specobj s, dbo.fgetNearByObjEq (#, #, #) n where p.objid = s.bestobjid and p.objid = n.objid and s.bestobjid = n.objid"
+2019-07-18 13:05:00,1

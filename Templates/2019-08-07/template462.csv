@@ -1,0 +1,2 @@
+1,SELECT count(*) into mydb.qsocount from SpecObj
+2019-08-07 07:55:00,1

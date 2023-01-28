@@ -1,0 +1,10 @@
+9,"select p.u, p.g, p.r, p.i, p.z from star p, dbo.fgetNearByObjEq (#, #, #) n where p.objid = n.objid and (p.u BETWEEN # AND #) and (p.g BETWEEN # AND #) and (p.r BETWEEN # AND #) and (p.i BETWEEN # AND #) and (p.z BETWEEN # AND #) and (p.u-p.g BETWEEN # AND #) and (p.g-p.r BETWEEN # AND #) and (p.r-p.i BETWEEN # AND #) and (p.i-p.z BETWEEN # AND #) and (p.u-p.r BETWEEN # AND #)"
+2019-06-24 21:16:00,1
+2019-06-24 21:18:00,1
+2019-06-24 21:23:00,1
+2019-06-25 14:53:00,1
+2019-06-25 15:02:00,1
+2019-06-25 15:06:00,1
+2019-06-25 15:26:00,1
+2019-06-25 17:49:00,1
+2019-06-25 23:58:00,1

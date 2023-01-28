@@ -1,0 +1,4 @@
+4,SELECT TOP # * FROM PhotoObj AS p JOIN ZooSpec AS zs ON zs.objid = p.objid ORDER BY p.objid
+2019-05-07 15:19:00,2
+2019-05-07 15:29:00,1
+2019-05-07 15:34:00,1

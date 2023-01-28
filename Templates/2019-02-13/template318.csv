@@ -1,0 +1,2 @@
+1,"select objid, ra, dec, u, r, i ,g, z from galaxy where  ra between # and # and g < # and u-g> #"
+2019-02-13 16:13:00,1

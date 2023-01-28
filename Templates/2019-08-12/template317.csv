@@ -1,0 +1,4 @@
+3,"SELECT     p.objID, p.ra, p.dec, dbo.fPhotoFlagsN(p.flags) into mydb.test1 from photoObj p JOIN dbo.fGetNearbyObjEq(#,#,#) n ON n.objID = p.objID WHERE     (p.flags & dbo.fPhotoFlags(&&&)) = #"
+2019-08-12 10:52:00,1
+2019-08-12 11:03:00,1
+2019-08-12 11:04:00,1

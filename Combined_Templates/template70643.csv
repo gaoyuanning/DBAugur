@@ -1,0 +1,2 @@
+1,"select top # s.bestObjID, p.u, p.g, p.r, p.i, p.z, s.velDisp from PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN zooSpec AS z ON s.bestobjid = z.specobjid where class = # and s.velDisp > # and p.u< # and z.elliptical = #"
+2019-10-20 23:24:00,1

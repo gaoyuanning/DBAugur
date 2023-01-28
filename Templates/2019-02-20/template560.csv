@@ -1,0 +1,10 @@
+1443,"SELECT p.ra,p.dec,   p.psfmag_g,p.psfMagErr_g,   p.psfmag_r,p.psfMagErr_r,   p.psfmag_i,p.psfMagErr_i,   p.psfmag_z,p.psfMagErr_z,   f.mjd_r,f.mjd_g,f.mjd_i,f.mjd_z   FROM PhotoObjAll p   JOIN field as f on p.fieldid = f.fieldid   WHERE ra between # and #   and dec between # and #   and p.parentID = #   order by f.mjd_r"
+2019-02-20 03:23:00,59
+2019-02-20 03:24:00,164
+2019-02-20 03:25:00,166
+2019-02-20 03:26:00,154
+2019-02-20 03:27:00,169
+2019-02-20 03:28:00,176
+2019-02-20 03:29:00,183
+2019-02-20 03:30:00,158
+2019-02-20 03:31:00,214

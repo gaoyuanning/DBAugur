@@ -1,0 +1,2 @@
+2,"select W.ra as wise_ra, W.dec as wise_dec, W.w1mpro, W.sdss_objID into mydb.b from DR1#.wise_xmatch as X join DR1#.wise_allsky as W on X.wise_cntr = W.cntr join aa on X.sdss_objid = aa.objID where aa.dec between # and #"
+2019-12-17 17:16:00,2

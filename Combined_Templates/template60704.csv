@@ -1,0 +1,2 @@
+1,"select ra, dec, z from SpecPhoto where subclass = # and modelmag_g< #"
+2019-09-04 19:48:00,1

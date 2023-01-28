@@ -1,0 +1,2 @@
+1,"SELECT plate, mjd, fiberid, snMedian_r, velDisp FROM specObj WHERE survey = &&& AND z BETWEEN # and #  AND class = &&&"
+2019-01-30 14:52:00,1

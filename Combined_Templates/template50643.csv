@@ -1,0 +1,2 @@
+3,"SELECT top # p.fiberFlux_u, p.fiberFlux_g, p.fiberFlux_r, p.fiberFlux_i, p.fiberFlux_z, s.spectroFlux_u, s.spectroFlux_g, s.spectroFlux_r, s.spectroFlux_i, s.spectroFlux_z FROM photoObj p JOIN specObj s ON s.bestObjID = p.objID JOIN plateX x ON x.plateID = s.plateID WHERE s.plate = #"
+2019-07-09 14:38:00,3

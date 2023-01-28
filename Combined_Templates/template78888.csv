@@ -1,0 +1,4 @@
+3,"select specObjID, lgm_tot_p5# into mydb.dr1#_mass from galSpecExtra"
+2019-11-25 06:17:00,1
+2019-11-25 07:05:00,1
+2019-11-25 07:09:00,1

@@ -1,0 +1,2 @@
+1,"SELECT s.SpecObjID, s.z, s.zErr, p.psfMag_r, p.psfMagErr_r, L.ew, L.sigma, L.sigmaErr, K.ew, K.sigma, K.sigmaErr from SpecObj as s, SpecLine as L, SpecLine as K, SpecPhotoAll as p WHERE (L.LineID = #) and (K.LineID = #) and s.SpecObjID = L.specObjID and L.specObjID = K.specObjID and s.SpecObjID = p.specObjID and s.z> # and s.zErr/s.z< # and s.zErr> # and s.zStatus> # and s.zWarning = # and p.psfMag_r> # and p.psfMagErr_r/p.psfMag_r< # and p.psfMagErr_r> # and L.ew/#if (L.ewErr, #) > # and K.ew/#if (K.ewErr, #) > # and s.objType = # and p.type = #"
+2019-06-10 06:08:00,1

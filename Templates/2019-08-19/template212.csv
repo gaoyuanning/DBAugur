@@ -1,0 +1,2 @@
+2,"select s.bestobjid bestobjid, s.ra ra, s.dec dec, s.z z into mydb.zzz4 from SpecObj S    where   S.z > # and S.zconf<#"
+2019-08-19 12:32:00,2

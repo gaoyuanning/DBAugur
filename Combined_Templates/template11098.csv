@@ -1,0 +1,2 @@
+1,"select top # z, ra, dec, bestObjID from specObj where class = # and z > # and zWarning = # select top # ra, dec, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z, objID where type = # and modelMag_u - modelMag_g < #"
+2019-02-14 14:36:00,1

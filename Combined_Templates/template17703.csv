@@ -1,0 +1,2 @@
+1,"SELECT TOP # bestobjid, z FROM SPECOBJ WHERE class = # AND z< # AND zWarning = #"
+2019-03-06 21:06:00,1

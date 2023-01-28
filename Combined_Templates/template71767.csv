@@ -1,0 +1,2 @@
+1,select distinct county from optw.tamass.TRACTS where centroid.STDistance (@center) < # -- meters -- and county IN () -- within #km --order by # asc
+2019-10-26 17:09:00,1

@@ -1,0 +1,2 @@
+1,"select top # photozcc2 from Photoz2 p, dbo.fGetNearbyObjEq(#,#, #) n where p.objID = n.objID"
+2019-06-04 17:55:00,1

@@ -1,0 +1,2 @@
+1,"SELECT     p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,    p.run, p.rerun, p.camcol, p.field, p.mode FROM PhotoObjAll AS p, specobjall as s  WHERE s.targetobjID IN  (#,   #) and s.targetobjid=p.objid"
+2019-02-15 15:09:00,1

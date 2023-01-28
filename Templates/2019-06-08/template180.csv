@@ -1,0 +1,2 @@
+1,"select p.*, s.* from spectOjbAll as s join PhotoObj as p  on p.objID = s.bestObjID  where    p.objID=#   p.mode = #                               p.clean = #"
+2019-06-08 18:06:00,1

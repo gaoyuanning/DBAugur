@@ -1,0 +1,3 @@
+2,"SELECT   count(p.objID) into mydb.lixo4 from SpecObj as s, PhotoObj as p      WHERE     s.bestobjid = p.objid AND     s.Class = &&& AND     s.zWarning = # AND     (p.petroMag_r - p.extinction_r) < # AND     s.programname = &&&"
+2019-01-09 12:21:00,1
+2019-01-09 12:22:00,1

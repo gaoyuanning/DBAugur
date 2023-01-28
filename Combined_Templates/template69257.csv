@@ -1,0 +1,2 @@
+2,"select A.specObjID, A.plateid, A.mjd, A.fiberid, A.z, A.spectrotype, A.subclass into ROSI_STARBURST_DR1# from galspecInfo as A where A.z< # and A.subclass = #"
+2019-10-11 19:31:00,2

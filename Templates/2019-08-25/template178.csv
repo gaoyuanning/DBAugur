@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec, type into mydb.s8#coord from PhotoPrimary 	 WHERE     ra > #. and ra < #. and dec > # and dec < #"
+2019-08-25 07:48:00,1

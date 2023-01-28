@@ -1,0 +1,2 @@
+1,"select ra, dec, modelMag_u, modelMag_g, modelMag_r from PhotoObj where ra BETWEEN # and # AND modelMag_g < = # AND modelMag_u-modelMag_g > #"
+2019-09-12 22:47:00,1

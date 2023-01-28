@@ -1,0 +1,2 @@
+1,"select firstName, lastName, dateOfBirth, deathYear, birthCountry from baseball.players"
+2019-02-17 16:35:00,1

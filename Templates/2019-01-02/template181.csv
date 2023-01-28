@@ -1,0 +1,2 @@
+1,"SELECT CT.objID, CT.trainID, W.cntr AS wise_cntr, SQRT(SQUARE((W.ra-CT.raMean)*COS(CT.decMean*PI()/#))+SQUARE(W.dec-CT.decMean))*# AS match_dist INTO MyDB.Tmp_ClassTraining_NonSDSS_WISE FROM MyDB.Tmp_ClassTraining_NonSDSS_Objects AS CT INNER JOIN WISE_allsky AS W   ON SQRT(SQUARE((W.ra-CT.raMean)*COS(CT.decMean*PI()/#))+SQUARE(W.dec-CT.decMean))*#<#"
+2019-01-02 09:27:00,1

@@ -1,0 +1,2 @@
+1,"select s.ra, s.dec, s.z, s.mstellar_median into mydb.ttBC0# from stellarMassPCAWiscBC0# as s, mydb.tt as t where t.plate = s.plate and t.mjd = s.mjd and t.fiberid = s.fiberid"
+2019-11-05 09:39:00,1

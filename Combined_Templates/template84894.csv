@@ -1,0 +1,3 @@
+2,"select P.ra, P.dec, P.petroMag_u, P.petroMagErr_u, P.petroMag_g, P.petroMagErr_g, P.petroMag_r, P.petroMagErr_r, P.petroMag_i, P.petroMagErr_i, P.petroMag_z, P.petroMagErr_z into mydb.MyTable from PhotoObj as P where P.ra > # and P.ra < = # and P.type = # and P.petroMagErr_u < # and P.petroMagErr_g < # and P.petroMagErr_r < # and P.petroMagErr_i < # and P.petroMagErr_z < #"
+2019-12-31 07:01:00,1
+2019-12-31 07:31:00,1

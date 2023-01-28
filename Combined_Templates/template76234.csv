@@ -1,0 +1,2 @@
+1,"SELECT top # g.objid, g.ra, g.dec, g.modelMag_r, g.modelMagErr_r, g.run, g.camcol, g.field, g.type, s.z, s.zErr FROM Galaxy AS g JOIN Photoz as s on s.ObjId = g.ObjId WHERE g.modelMag_r < # AND g.ra between # and #"
+2019-11-14 09:55:00,1

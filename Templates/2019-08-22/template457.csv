@@ -1,0 +1,2 @@
+1,"SELECT SpecObj.ra,SpecObj.dec,z,p_el,p_cw, p_acw, p_edge,p_dk, p_mg,zooSpec.spiral  FROM SpecObj,zooSpec  WHERE (SpecObj.ra ># and SpecObj.ra <#) AND (SpecObj.dec># and SpecObj.dec<#) And SpecObj.class=&&& And zooSpec.specobjid=SpecObj.SpecObjID"
+2019-08-22 07:20:00,1

@@ -1,0 +1,2 @@
+1,"select p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z from photoobj p, specobj s where p.objid=s.bestobjid and p.r < #  and (s.class = &&&)"
+2019-03-06 22:43:00,1

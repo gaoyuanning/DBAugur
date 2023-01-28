@@ -1,0 +1,2 @@
+1,"SELECT TOP # a.title, a.albumId, SUM (t.unitprice) as totalPrice FROM chinook.album a LEFT JOIN chinook.track t ON t.albumId = a.albumId GROUP BY a.albumId ORDER BY totalPrice DESC"
+2019-04-20 17:23:00,1

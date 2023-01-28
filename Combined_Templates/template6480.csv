@@ -1,0 +1,2 @@
+1,"SELECT s.z, s.zErr, g.h_alpha_reqw, g.h_alpha_reqw_err, g.h_alpha_flux, g.h_alpha_flux_err, p.ra, p.dec FROM SpecObjAll as s, galSpecLine as g, photobjall as p WHERE (s.dec between # and #) and (s.z between # and #) and s.specobjid = g.specobjid and p.specobjid = g.specobjid"
+2019-01-28 17:54:00,1

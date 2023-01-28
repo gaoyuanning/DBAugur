@@ -1,0 +1,2 @@
+1,"select top plate, mjd, fiberid, z, z_noqso, survey, instrument from specobj where targetType = # and class = #"
+2019-02-13 03:31:00,1

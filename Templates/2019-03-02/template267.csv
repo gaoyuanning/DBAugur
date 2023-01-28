@@ -1,0 +1,2 @@
+1,"SELECT Top #   g.ra,g.dec,g.AGCNr,   n.objid, n.distance,    o.ra AS ra_SDSS, o.dec AS dec_SDSS, o.u, o.g, o.r, o.i, o.z, o.err_u, o.err_g, o.err_r, o.err_i, o.err_z, o.expRad_r, o.expRadErr_r, o.deVRad_r, o.deVRadErr_r, o.petroRad_r, o.petroRadErr_r. o.mode -- INTO MyDB.CGM_ALF_SDSS_UNIQ FROM MyDB.CGM_ALF_OC AS g  CROSS APPLY dbo.fGetNearbyObjAllEq(g.ra, g.dec, #) AS n  JOIN PhotoPrimary AS o ON n.objid=o.objid WHERE o.mode = #"
+2019-03-02 16:27:00,1

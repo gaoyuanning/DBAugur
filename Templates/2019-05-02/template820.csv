@@ -1,0 +1,2 @@
+1,"SELECT SPA.ra, SPA.dec, SPA.z, POA.petroMag_g, POA.petroMag_r, SOA.velDisp  into GU2#_hw5          Where   SPA.class = &&& and SPA.z > # and SPA.z < #"
+2019-05-02 06:17:00,1

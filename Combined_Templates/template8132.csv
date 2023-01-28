@@ -1,0 +1,2 @@
+2,"select s.ra, s.dec, s.z, s.zErr, p.deVAB_r , p.objID , p.deVRad_r, p. deVRadErr_r, s.velDisp, s.velDisp*power ((#/ (p.deVAB_r) /#) , #) from SpecObjAll as s, PhotoObjAll as p into MyDB.rRELAXEDtest_vel_effective_radius_full_sample where s.bestObjID = p.objID and s.sciencePrimary = # and s.z between # and #"
+2019-02-04 08:52:00,2

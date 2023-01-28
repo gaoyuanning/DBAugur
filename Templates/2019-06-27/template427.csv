@@ -1,0 +1,2 @@
+1,"select top #  subClass, elodieObject, logMass_max, elodieTEff from   specObj, mangatarget where   subClass = WD AND"
+2019-06-27 11:38:00,1

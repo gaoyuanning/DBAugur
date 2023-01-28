@@ -1,0 +1,4 @@
+4,"select objID, clean, ra, dec, psfMag_r, psfMagErr_r, extinction_r from star where clean = # AND ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-09-20 15:13:00,2
+2019-09-20 15:16:00,1
+2019-09-20 15:22:00,1

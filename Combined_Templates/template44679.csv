@@ -1,0 +1,2 @@
+1,"SELECT e.specobjid, e.flux_oiii_#, e.flux_oiii_#_err INTO mydb.ports FROM emissionlinesport as e, specobj as s WHERE e.flux_oiii_# > e.flux_oiii_#_err*# AND s.class = # AND s.specobjid = e.specobjid AND e.flux_oiii_#_err > #"
+2019-06-07 07:18:00,1

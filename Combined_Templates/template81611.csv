@@ -1,0 +1,2 @@
+1,"select * from apogeeStar where q3c_radial_query (ra, dec, #, #, #) ;"
+2019-12-09 08:45:00,1

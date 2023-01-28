@@ -1,0 +1,2 @@
+1,"SELECT s.objid, s.expAB_r, INTO twowayxmatch FROM XMATCH      (MUST EXIST IN SDSSDR7:PhotoObjAll AS s WITH(POINT(s.ra, s.dec),       MUST EXIST IN MyDB:OBJid AS g WITH(POINT(g.objID),       LIMIT BAYESFACTOR TO #e3)"
+2019-11-16 19:06:00,1

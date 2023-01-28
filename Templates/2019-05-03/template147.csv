@@ -1,0 +1,2 @@
+1,"SELECT TOP #  objID, ra, dec FROM PhotoObj as obj WHERE   obj.type = #"
+2019-05-03 17:00:00,1

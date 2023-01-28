@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, s.z a redshifth, w.plate, s.fiberID FROM SpecObj s, photoObj p, plate w WHERE p.ObjID = s.ObjID and w.plateID = s.plateId and s.z> # and s.zConf> # and s.specClass = #"
+2019-01-31 16:17:00,1

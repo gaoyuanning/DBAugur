@@ -1,0 +1,2 @@
+1,"select top # ra, dec, objID, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z from photoObj where type = # AND modelMag_u - modelMag_g < #"
+2019-02-07 14:00:00,1

@@ -1,0 +1,2 @@
+2,"SELECT TOP #  s.bestObjid,  s.plate,s.mjd,s.fiberID,  e.sigmaStars,e.sigmaStarsErr  FROM SpecObjAll AS s  JOIN emissionLinesPort as e ON e.specObjid = s.specObjid  JOIN MyDB.MyTable as b ON s.plate = b.plate and s.mjd = b.mjd and s.fiberID = b.fiberID"
+2019-02-20 08:49:00,2

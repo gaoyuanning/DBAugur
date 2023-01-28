@@ -1,0 +1,2 @@
+1,"SELECT specobjid, bestobjid, fluxobjid,             ra, dec, class, z, class_noqso, z_noqso,              spectroflux_u, spectroflux_g, spectroflux_r,             spectroflux_i, spectroflux_z     INTO mydb.specobj     FROM specobj;"
+2019-07-26 00:06:00,1

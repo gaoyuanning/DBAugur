@@ -1,0 +1,5 @@
+4,"SELECT TOP # s.plate, s.mjd, s.fiberid FROM ..SpecObj as s JOIN Galaxy AS p ON s.bestobjid = p.objid WHERE (p.i - p.z) > # AND (p.i - p.z) < # AND p.u > # AND s.zWarning = #"
+2019-04-04 05:21:00,1
+2019-04-04 05:23:00,1
+2019-04-13 19:42:00,1
+2019-11-22 18:47:00,1

@@ -1,0 +1,2 @@
+1,"select top1# p.ObjID, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, z from photoObj p, dbo.fGetNearbyObjEq (#, #, #) n where p.objID = n.objID AND p.type = #"
+2019-01-13 16:28:00,1

@@ -1,0 +1,2 @@
+1,SELECT count (*) as count into mydb.count_test7 from PhotoObjAll AS p
+2019-05-07 04:58:00,1

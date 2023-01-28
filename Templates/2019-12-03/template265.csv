@@ -1,0 +1,2 @@
+1,"SELECT specObjID, ra ,dec ,petroMag_u ,petroMagErr_u ,petroMag_g ,petroMagErr_g ,petroMag_r ,petroMagErr_r ,petroMag_i ,petroMagErr_i ,petroMag_z ,petroMagErr_z ,class  FROM  SpecPhoto  WHERE  ra > # and ra < #  AND dec > # and dec < #  AND class = GALAXY"
+2019-12-03 16:14:00,1

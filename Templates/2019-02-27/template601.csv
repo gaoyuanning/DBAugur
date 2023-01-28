@@ -1,0 +1,3 @@
+2,"select top # s.objID, s.psfMag_u - s.extinction_u as u, s.psfMag_g - s.extinction_g as g, s.psfMag_r - s.extinction_R as r, s.psfMag_i - s.extinction_i as i, s.psfMag_z - s.extinction_z as z, s.psfMagErr_u as u_err, s.psfMagErr_g as g_err, s.psfMagErr_r as r_err, s.psfMagErr_i as i_err, s.psfMagErr_z as z_err, s.ra, s.dec, s.raErr as ra_err, s.decErr as dec_err into mydb.MyTable_# from photoobj as s  where s.CLEAN = # AND s.ra > # AND s.ra < # AND s.dec > # AND s.dec < # AND s.psfMag_r < # AND s.psfMag_r > # AND s.psfMag_g < # AND s.psfMag_g > #"
+2019-02-27 13:57:00,1
+2019-02-27 14:00:00,1

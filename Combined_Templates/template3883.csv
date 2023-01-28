@@ -1,0 +1,2 @@
+1,"SELECT s.bestObjID, z.objid, s.specObjID, z.specobjid, z.ra, z.dec, s.z, z.nvote, g.dered_u, g.dered_g, g.dered_r, g.dered_i, g.dered_z, z.p_el, z.p_cw, z.p_acw, z.p_edge, z.p_dk, z.p_mg, z.p_cs, z.p_el_debiased, z.p_cs_debiased, z.spiral, z.elliptical, z.uncertain FROM zooSpec as z JOIN specObj AS s ON s.bestObjID = z.objid JOIN Galaxy AS g ON g.objID = z.objID WHERE s.class = # AND z.p_mg BETWEEN # and # AND (s.legacy_target1 & (# | # | #) ) > # AND s.z BETWEEN # and # ORDER BY z.ra"
+2019-01-16 01:41:00,1

@@ -1,0 +1,2 @@
+1,"select s.specObjID , s.ra , s.dec , f.fPhotoFlags from  specPhotoAll s , flags f , run where  run.run = #  group by f.name"
+2019-02-17 13:03:00,1

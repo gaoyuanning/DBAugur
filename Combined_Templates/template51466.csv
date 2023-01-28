@@ -1,0 +1,3 @@
+2,"select o.objID, d.ra, d.dec, o.raMean, o.decMean, o.raMeanErr, o.decMeanErr, o.qualityFlag, o.nDetections, soa.primaryDetection, soa.bestDetection, soa.gstackDetectID, s.gSerRadius, s.gSerMag, s.gSerAb, s.gSerNu, s.gSerPhi, s.gSerRa, s.gSerDec INTO mydb.texas0# ----WHERE o.nDetections> # ----AND soa.primaryDetection> # ----AND (o.rmeanpsfmag - o.rmeankronmag > #)"
+2019-07-11 00:01:00,1
+2019-07-11 00:02:00,1

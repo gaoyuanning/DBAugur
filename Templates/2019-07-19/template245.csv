@@ -1,0 +1,2 @@
+1,"select   PhotoObjAll.ra, PhotoObjAll.dec,   PhotoZ.z, PhotoZ.zErr, PhotoZ.objID into mydb.MyTable from PhotoZ, PhotoObjAll where   PhotoZ.objID = PhotoObjAll.objID   and PhotoObjAll.type = #"
+2019-07-19 14:09:00,1

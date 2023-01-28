@@ -1,0 +1,2 @@
+1,"SELECT  s.specObjID, s.z,  p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i,            p.modelMagErr_u, p.modelMagErr_g, p.modelMagErr_r, p.modelMagErr_i,            s.class, s.subclass, p.type         into  mydb.paris1#         from SpecObj as s, PhotoObj as p         WHERE (s.class_noqso=&&& AND s.bestObjID = p.objID )"
+2019-03-21 04:33:00,1

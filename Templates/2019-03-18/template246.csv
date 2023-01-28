@@ -1,0 +1,4 @@
+6,"SELECT TOP #  p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  p.run, p.rerun, p.camcol, p.field FROM PhotoObj AS p  JOIN dbo.fGetNearbyObjEq(#.,#, #) AS GN  ON p.objID = GN.objID  JOIN dbo.fGetNearbyObjEq(#.,#, #)  ON p.objID = GN.objID"
+2019-03-18 15:31:00,1
+2019-03-18 15:32:00,2
+2019-03-18 15:33:00,3

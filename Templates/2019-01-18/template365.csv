@@ -1,0 +1,2 @@
+2,"SELECT top #  --COUNT(*) ra,dec,z into mydb.MyTable from PhotoObj  WHERE  z># AND type=&&& AND ra># AND ra<# ORDER by z"
+2019-01-18 10:37:00,2

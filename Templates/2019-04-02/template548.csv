@@ -1,0 +1,2 @@
+1,"select top # p.objid as name, p.ra, p.dec from star p"
+2019-04-02 07:54:00,1

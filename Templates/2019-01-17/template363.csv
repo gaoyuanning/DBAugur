@@ -1,0 +1,2 @@
+1,"SELECT     dbo.fPhotoType(&&&),     dbo.fPhotoMode(&&&),     (dbo.fPhotoFlags(&&&) +      dbo.fPhotoFlags(&&&) +      dbo.fPhotoFlags(&&&) +      dbo.fPhotoFlags(&&&)     ) into mydb.MyTable"
+2019-01-17 07:27:00,1

@@ -1,0 +1,2 @@
+1,"SELECT m.specobjid, m.ra AS ra1, m.dec AS dec1, o.ra AS ra2, o.dec AS dec2, o.specObjID FROM MyDB.gz2_# AS m LEFT JOIN SpecObj AS o ON m.specObjID = o.specObjID"
+2019-10-31 09:39:00,1

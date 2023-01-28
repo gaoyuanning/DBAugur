@@ -1,0 +1,3 @@
+2,"SELECT u.up_col0 as [col0], x.objID, s.objID, s.extinction_u, s.extinction_g, s.extinction_r, s.extinction_i, s.extinction_z, s.plate, s.fiberID FROM #x x, #upload u, SpecPhoto s WHERE u.up_id = x.up_id and x.objID = s.objID ORDER BY s.objID"
+2019-07-10 12:10:00,1
+2019-07-10 12:20:00,1

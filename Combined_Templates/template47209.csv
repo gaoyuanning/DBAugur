@@ -1,0 +1,2 @@
+1,"SELECT objID, Ra, Dec, modelMag_u, modelMagErr_u, modelMag_g, modelMagErr_g, modelMag_r, modelMagErr_r, modelMag_i, modelMagErr_i, modelMag_z, modelMagErr_z into mydb.vcc1 from PhotoObj WHERE (ra between # and #) and (dec between # and #)"
+2019-06-21 12:29:00,1

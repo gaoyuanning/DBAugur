@@ -1,0 +1,2 @@
+1,"CREATE TABLE FramePathProcessing(   Id int NOT NULL IDENTITY PRIMARY KEY,   Name varchar(#),   Path varchar(#),   Processed int NOT NULL,   goodMeltScore float,   fastBottomScore float,   fastTopScore float,   processedPath varchar(#),   cropPath varchar(#) )"
+2019-06-06 13:08:00,1

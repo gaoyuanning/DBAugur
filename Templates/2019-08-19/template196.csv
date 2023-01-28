@@ -1,0 +1,2 @@
+2,select count(*) from PhotoObjAll where i<# and type=#
+2019-08-19 12:59:00,2

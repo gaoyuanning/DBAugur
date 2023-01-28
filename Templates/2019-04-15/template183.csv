@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.run,p.rerun,p.camCol,p.field,p.obj,ISNULL(s.plate,#) as plate,ISNULL(s.mjd,#) as mjd,ISNULL(s.fiberid,#) as fiberid  FROM ..PhotoObj AS p  LEFT OUTER JOIN ..SpecObj s ON p.objID = s.bestObjID  WHERE ( p.type = # OR p.type = #)"
+2019-04-15 19:02:00,1

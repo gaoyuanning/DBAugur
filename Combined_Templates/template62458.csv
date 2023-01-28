@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.class, s.subclass, count (z.p_el_debiased) , count (z.p_cs_debiased) , count (zn.p_el) , count (zn.p_cs) FROM SpecPhotoAll AS s JOIN zooSpec AS z ON S.objID = z.objid JOIN zooNoSpec AS zn ON s.objID = zn.objid WHERE class < > # GROUP BY s.class. s.subclass"
+2019-09-11 10:16:00,1

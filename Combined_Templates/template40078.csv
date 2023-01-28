@@ -1,0 +1,2 @@
+2,"SELECT m.ra AS ra, m.dec AS dec, s.mangaid as mangaid, s.plate as plate, s.ifudsgn as ifudesign, s.ebvgal as ebvgal, s.nsa_z as nsa_z, s.nsa_zdist as nsa_zdist into mydb.manga_tbohn from MyDB.tbohn_ra_dec AS m OUTER APPLY dbo. fGetNearestMangaObjEq (m.ra, m.dec, #) AS n LEFT JOIN mangaDRPall AS s ON n.mangaid = s.mangaid"
+2019-05-17 17:17:00,2

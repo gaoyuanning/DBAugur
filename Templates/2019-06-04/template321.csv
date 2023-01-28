@@ -1,0 +1,2 @@
+1,"SELECT s.SpecObjID, s.z, s.fiberMag_r, s.sn_#, L.ew, L.sigma, L.sigmaErr, K.ew, K.sigma, K.sigmaErr FROM SpecObj as s, SpecLine as L, SpecLine as K WHERE    (L.LineID = #)    and (K.LineID = #)    and s.SpecObjID = L.specObjID    and L.specObjID = K.specObjID   and L.ew/nullif(L.ewErr,#)>#   and s.z >#   and s.sn_# > #   and s.objType = # ORDER BY s.mag_#"
+2019-06-04 10:30:00,1

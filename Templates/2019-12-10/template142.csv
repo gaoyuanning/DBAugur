@@ -1,0 +1,2 @@
+1,"SELECT  p.ra,p.dec,   s.z as redshift FROM PhotoPrimary AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE  p.type = #  AND p.ra BETWEEN # AND #  AND p.dec BETWEEN # AND #"
+2019-12-10 17:34:00,1

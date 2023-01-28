@@ -1,0 +1,2 @@
+1,"select p.specObjID, p.ra, p.dec, p.petroMag_r-p.extinction_r as petroMag_r, p.run, p.rerun, p.camcol, p.field, p.obj as id, f.aterm_r, f.kterm_r, f.airmass_r, p.psffwhm_r as fwhm_r into mydb.dr1#_all_fields from GalaxyTag as p  join field as f on p.fieldID = f.fieldID where p.dec < # and p.petroMag_r-p.extinction_r < #"
+2019-05-08 01:33:00,1

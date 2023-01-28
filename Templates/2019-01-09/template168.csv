@@ -1,0 +1,2 @@
+1,"SELECT p.OBJID, p.ra, p.dec,  FROM TwoMass AS p WHERE p.ra < # AND p.ra > # AND p.dec < # and p.DEC > #"
+2019-01-09 17:08:00,1

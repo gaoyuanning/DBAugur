@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid,     p.ra,p.dec,     p.petror9#_r,     p.dered_g,     p.dered_r,     s.z as z_spec,     s.zErr,     zns.nvote,     zns.t0#_smooth_or_features_a0#_smooth_weighted_fraction as elliptical,     zns.t0#_spiral_a0#_spiral_weighted_fraction as spiral,     zns.t0#_bar_a0#_bar_weighted_fraction as bar   FROM Galaxy as p    JOIN zoo2MainSpecz AS zns ON p.objid = zns.dr7objid    JOIN SpecObj AS s ON s.bestobjid = p.objid"
+2019-02-21 17:16:00,1

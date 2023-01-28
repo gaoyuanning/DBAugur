@@ -1,0 +1,2 @@
+1,"SELECT   T.ID, T.SN_RA, T.SN_Dec, T.Host_RA, T.Host_Dec, dbo.fGetNearestObjIdEq(T.Host_RA, T.Host_Dec, #) as ObjID INTO    mydb.sn_host_radec_ObjID FROM    mydb.sn_host_radec as T WHERE dbo.fGetNearestObjIdEq(T.Host_RA, T.Host_Dec, #) IS NOT NULL"
+2019-06-11 16:33:00,1

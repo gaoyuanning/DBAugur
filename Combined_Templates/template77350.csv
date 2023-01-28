@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.g, s.z into mydb.MyTable_# from Photoz as s JOIN PhotoObj AS p ON s.objID = p.objID WHERE ( ((p.ra BETWEEN # AND #) AND (p.dec BETWEEN # AND #) )) AND s.z< # AND s.z> #"
+2019-11-19 04:40:00,1

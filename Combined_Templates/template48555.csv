@@ -1,0 +1,2 @@
+1,"select top # distinct (objType) , objTypeName from BESTDR1..SpecObj"
+2019-06-27 18:33:00,1

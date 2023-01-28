@@ -1,0 +1,3 @@
+2,"select  p.objid,p.mode,p.nchild,p.type,p.clean,p.probpsf,p.insidemask,p.flags,  p.ra,p.dec,  p.dered_u,p.dered_g,p.dered_r,p.dered_i,p.dered_z,  z.objid as objid_photz, z.z as photz, z.zerr as zphoterr, z.nncount, z.nnvol, z.photoerrorclass,  s.z as zspec, s.zerr as zspecerr, s.zwarning as zspecwarning, s.class as specclass, s.subclass as specsubclass   from photoobjall as p      left outer join photoz as z on p.objid = z.objid      left outer join specobjall as s on p.objid = s.specobjid     left outer join sdssbesttarget2sector as t on p.objid = t.objid     left outer join photoobjdr7 as r7 on p.objid = r7.dr8objid where p.mode = # and s.zwarning = #  into mydb.sdss_all_small_dr1#"
+2019-12-09 12:49:00,1
+2019-12-09 12:59:00,1

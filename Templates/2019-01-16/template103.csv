@@ -1,0 +1,2 @@
+2,"SELECT TOP # specobjID, s.ra, s.dec, s.z FROM SpecObj s WHERE s.z BETWEEN # and # AND s.ra BETWEEN # AND # AND s.dec BETWEEN # AND # AND class = &&&"
+2019-01-16 17:53:00,2

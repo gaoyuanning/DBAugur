@@ -1,0 +1,2 @@
+1,"SELECT specObjID, z, plateID, fiberID, mjd into mydb.MyTable from SpecObj WHERE class = &&& AND zWarning = #"
+2019-07-18 09:34:00,1

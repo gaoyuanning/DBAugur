@@ -1,0 +1,5 @@
+4,"SELECT p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z FROM Star AS p WHERE   p.ra BETWEEN # AND #  AND p.dec BETWEEN # AND #  and p.r < #"
+2019-01-14 01:19:00,1
+2019-01-14 01:20:00,1
+2019-01-14 01:26:00,1
+2019-01-14 01:59:00,1

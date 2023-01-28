@@ -1,0 +1,3 @@
+3,"SELECT top # sp.plate, sp.mjd, sp.fiberid, p.run, p.rerun, p.camcol, p.field, p.obj, s.teffadop, p.psfmag_g-p.psfmag_r as gmr FROM DR1#.sppParams as s JOIN DR1#.SpecObjAll as sp ON s.specobjid = sp.specobjid JOIN DR1#.PhotoObjAll as p ON sp.bestobjid = p.objid WHERE sp.ra > # AND sp.ra < # AND sp.dec > # AND sp.dec < # AND sp.seguePrimary = # AND s.elodiervfinalerr > # INTO stars"
+2019-09-19 09:50:00,1
+2019-09-19 09:51:00,2

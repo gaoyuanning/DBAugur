@@ -1,0 +1,2 @@
+1,"select ese.gID, ese.nyu, ese.ra, ese.dec, ese.z, ese.r, ese.rlim, ese.comp, ese.Mr, ese.gr, ese.MrModel, ese.grModel, ese.zsource, ese.groupID, ese.igal, ese.mjd, ese.plate, ese.fiber, ese.run, ese.rerun, ese.camcol, ese.field, ese.id, G.specObjID, G.sfr_fib_p5#, G.sfr_fib_p2p5, G.sfr_fib_p1#, G.sfr_fib_p8#, G.sfr_fib_p9#p5 into mydb.galToDWSFR from MyDB.galToD ese, galSpecExtra G, galSpecInfo gi where G.specObjID = gi.specObjID and gi.plateid = ese.plate and gi.fiberid = ese.fiber and gi.mjd = ese.mjd"
+2019-04-01 18:53:00,1

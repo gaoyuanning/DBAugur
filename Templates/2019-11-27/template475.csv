@@ -1,0 +1,3 @@
+4,"select dbo.fGetUrlSpecImg(b.specObjId), b.plate, b.mjd, b.fiberID   into UrlSpecImg_dr1#all   from SpecObjAll as b"
+2019-11-27 02:45:00,2
+2019-11-27 02:49:00,2

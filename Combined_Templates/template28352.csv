@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, s.class, s.z as redshift, petroR5#_r, st.logmass FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN stellarMassFSPSGranEarlyNoDust AS st ON s.bestobjid = st.specObjID WHERE p.u BETWEEN # AND # AND g BETWEEN # AND # AND s.class = GALAXY"
+2019-04-07 04:00:00,1

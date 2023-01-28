@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.plate, s.mjd, s.fiberid, s.z, s.zErr, s.zWarning, s.specClass, q.fieldQall as quality FROM BESTDR7..SpecObj as s JOIN BESTDR7..Star AS p ON s.bestObjID = p.objID JOIN RunQA AS q ON q.fieldid = p.fieldid WHERE (s.specClass = dbo.fSpecClass (#) )"
+2019-02-05 00:52:00,1

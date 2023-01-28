@@ -1,0 +1,2 @@
+1,"select bw.sampleId,bw.chr,bl.*  from (select top # * from genes order by gene_id) g     cross join (select top # * from samples order by newid()) s    inner join bw   on bw.sampleid=s.sampleid and bw.chr=g.chr and bw.lo <= g.endLoc and bw.hi >= g.startLoc  cross apply dbo.fGetBlocksWigTable(block,g.startLoc,g.endLoc) bl  order by bw.sampleid,bw.chr,bl.loselect count( *) from samples"
+2019-06-06 16:41:00,1

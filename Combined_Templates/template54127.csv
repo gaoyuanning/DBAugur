@@ -1,0 +1,2 @@
+1,select * from SpecPhoto where zWarning = # and zErr> =# and flags = #
+2019-07-27 08:31:00,1

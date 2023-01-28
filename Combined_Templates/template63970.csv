@@ -1,0 +1,2 @@
+1,"SELECT TOP # d.objid, d.ra, d.dec, d.dered_g, s.z as z_spec, s.plate, s.fiberid FROM DR1#Q_v4_#.fits as d JOIN ZooNoSpec AS zns ON p.objid = zns.objid JOIN SpecObj AS s ON s.bestobjid = p.objid"
+2019-09-18 11:23:00,1

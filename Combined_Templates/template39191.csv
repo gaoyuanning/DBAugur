@@ -1,0 +1,5 @@
+5,"select d.objid, s.ra-s.dec, s.z from dbo.PhotoObj as d, SpecObjAll as s, PhotoObjAll as p into MyDB.sdss_galex where d.objid = s.bestObjID and s.bestObjID = p.objID and s.sciencePrimary = # and p.mode = # and p.type = # and s.z between # and # and s.zerr BETWEEN # AND # AND p.petroMag_r BETWEEN # AND # and s.ra between # and # and s.dec between # and #"
+2019-05-13 05:00:00,1
+2019-05-13 05:01:00,1
+2019-05-13 05:03:00,1
+2019-05-13 05:45:00,2

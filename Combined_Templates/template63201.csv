@@ -1,0 +1,2 @@
+2,"SELECT TOP # t1.nvote_tot, count (t1.p_el) as cnt, (SELECT count (t2.p_el) FROM zooVotes t2 WHERE t2.nvote_tot > = t1.nvote_tot) into mydb.test_cnt2 from zooVotes t1 group by t1.nvote_tot order by t1.nvote_tot desc"
+2019-09-15 12:54:00,2

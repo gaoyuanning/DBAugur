@@ -1,0 +1,2 @@
+1,"select f.specobjid, f.plate, f.mjd, f.fiberid, f.ra, f.dec, f.z_noqso as redshift from sdssEbossFirefly f where redshift > #"
+2019-12-17 11:52:00,1

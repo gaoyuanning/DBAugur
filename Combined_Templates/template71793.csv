@@ -1,0 +1,2 @@
+1,"select ID, wkt = geom.MakeValid () .ToString () , good = case when geom.MakeValid () .STContains (centroid) = # then # else # end from optw.tamass.TRACTS where state = # -- Oregon"
+2019-10-26 16:27:00,1

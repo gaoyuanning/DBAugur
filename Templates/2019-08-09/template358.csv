@@ -1,0 +1,2 @@
+2,"SELECT pr.specObjID, pr.bestObjID, pr.mjd, pr.spectypehammer, pr.spectypesubclass, pr.elodiervfinal, pr.elodiervfinalerr, al.ra, al.dec, al.elodieFeH, al.elodieTEff, al.elodieLogG, ph.dered_u, ph.dered_g, ph.dered_r, ph.dered_i, ph.dered_z into mydb.MyTable from sppParams AS pr   LEFT JOIN SpecObjAll as al on pr.specObjID = al.specObjID   LEFT JOIN PhotoObjAll as ph on pr.bestObjID = ph.ObjID WHERE al.sciencePrimary = #"
+2019-08-09 10:30:00,2

@@ -1,0 +1,2 @@
+1,"SELECT TOP #  za.bestObjID, po.objID,   po.petroMag_r - po.extinction_r as dered_petro_r FROM SpecObjAll za  JOIN PhotoObjAll po ON (po.objID = za.bestObjID) WHERE  dered_petro_r <= #"
+2019-03-01 21:36:00,1

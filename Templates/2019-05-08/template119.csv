@@ -1,0 +1,2 @@
+1,"SELECT TOP #   s.ra,   s.dec,   s.z,   s.zErr,   q =    CASE     WHEN p.lnLExp_r < p.lnLDeV_r THEN p.DeVAB_r     WHEN p.lnLExp_r > p.lnLDeV_r THEN p.expAB_r   END,   phi =    CASE     WHEN p.lnLExp_r < p.lnLDeV_r THEN p.DeVPhi_r     WHEN p.lnLExp_r > p.lnLDeV_r THEN p.expPhi_r   END,   p.petroMag_r,   p.petroMag_u,   p.fracDeV_r into mydb.#_targets from PhotoObj p   JOIN SpecObj s ON s.bestObjID = p.objID  WHERE   s.class = &&& AND   s.z < abs(#) AND   s.z <> #"
+2019-05-08 19:50:00,1

@@ -1,0 +1,2 @@
+1,select * into mydb.sdss_dr1#_#p0# from photoobjall where ra> =# and ra< =# and dec> =# and dec< =#
+2019-04-16 14:55:00,1

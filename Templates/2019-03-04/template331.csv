@@ -1,0 +1,7 @@
+9,"SELECT  TOP #     b, l  FROM PhotoPrimary -- for each object WHERE (l between # and #) and (b between # and #)"
+2019-03-04 15:11:00,1
+2019-03-04 15:12:00,2
+2019-03-04 15:14:00,3
+2019-03-04 15:15:00,1
+2019-03-04 15:27:00,1
+2019-03-04 15:29:00,1

@@ -1,0 +1,2 @@
+1,"SELECT Galaxy.objID, Galaxy.ra, Galaxy.dec, Photoz.z, Photoz.Zerr, Galaxy.dered_u, Galaxy.err_u, Galaxy.dered_g, Galaxy.err_g, Galaxy.dered_r, Galaxy.err_r, Galaxy.dered_i, Galaxy.err_i, Galaxy.dered_z, Galaxy.err_z INTO mydb.GRB_proba2 FROM Galaxy INNER JOIN Photoz ON Galaxy.OBJID = Photoz.objID WHERE Galaxy.objID = #"
+2019-01-28 17:41:00,1

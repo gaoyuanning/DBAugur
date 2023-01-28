@@ -1,0 +1,5 @@
+4,"SELECT EID,[Medication_for_cholesterol_blood_pressure_or_diabetes_#],[Medication_for_cholesterol_blood_pressure_diabetes_or_take_exogenous_hormones_#],[Taking_other_prescription_medications_#],[Medication_for_pain_relief_constipation_heartburn_#],[Medication_for_pain_relief_constipation_heartburn_pilot__#],[Medication_for_smoking_cessation_constipation_heartburn_allergies_pilot__#],[Vitamin_and_mineral_supplements_#],[Vitamin_and_mineral_supplements_pilot__#],[Mineral_and_other_dietary_supplements_#],[Vitamin_supplements_pilot__#],[Other_dietary_supplements_pilot__#] FROM [r2#]Medication GO"
+2019-04-15 14:28:00,1
+2019-04-15 14:31:00,1
+2019-04-15 14:32:00,1
+2019-04-15 14:34:00,1

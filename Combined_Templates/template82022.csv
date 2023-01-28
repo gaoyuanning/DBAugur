@@ -1,0 +1,2 @@
+1,"select top # ra, dec, z from specphoto where z< # and class = # and ra between # and # and dec between # and #"
+2019-12-11 16:45:00,1

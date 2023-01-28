@@ -1,0 +1,2 @@
+1,"select p.j,p.j_err,p.h,p.h_err,p.k,p.k_err, p.irac_#_#, p.irac_#_#_err, p.src_#_# from apogeeObject p where p.apogee_id=#M1#+#&&&"
+2019-04-04 16:53:00,1

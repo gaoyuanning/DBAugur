@@ -1,0 +1,2 @@
+2,"select starname, rv_teff, wash_ddo5#_giant_flag from specObj, apogeeStar, marvelsstar where class = # AND rv_teff BETWEEN # AND #"
+2019-06-12 04:43:00,2

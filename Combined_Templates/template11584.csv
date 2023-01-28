@@ -1,0 +1,3 @@
+3,select top # * into mydb.MyTable_# from SpecObjAll
+2019-02-16 08:40:00,1
+2019-02-16 08:41:00,2

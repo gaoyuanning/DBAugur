@@ -1,0 +1,2 @@
+1,create index ix_crimes_norm_crime on crimes_norm (crime)
+2019-03-03 09:59:00,1

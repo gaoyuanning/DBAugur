@@ -1,0 +1,2 @@
+1,"SELECT SPA.SpecObjID, SPA.z, SPA.ra, SPA.dec, GSX.d4#_n, GSX.lick_hd_a, GSL.oiii_#_flux, GSL.h_beta_flux, GSL.nii_#_flux, GSL.h_alpha_flux, GSL.sii_#_flux, GSL.sii_#_flux, GSL.oii_#_flux, GSL.oii_#_flux into mydb.spectra3 from SpecPhotoAll as SPA, galSpecInfo as GSI, galSpecLine as GSL, galSpecIndx as GSX WHERE SPA.z >= # and SPA.z <= # and SPA.petroMag_r <= # and SPA.SpecObjID = GSI.SpecObjID and SPA.SpecObjID = GSL.SpecObjID and SPA.SpecObjID = GSX.SpecObjID"
+2019-05-28 09:17:00,1

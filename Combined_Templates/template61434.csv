@@ -1,0 +1,2 @@
+2,"select dbo.fGetNearbyObjIdallEq (#, #, #/#) as objID, s.run, s.psfmag_u, s.psfmag_g, s.psfmag_r, s.psfmag_i, s.psfmag_z from star as s where s.objid = objID -- where (s.run = # or s.run = #)"
+2019-09-06 15:38:00,2

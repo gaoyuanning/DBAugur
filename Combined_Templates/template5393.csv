@@ -1,0 +1,2 @@
+2,"SELECT FLOOR (sppParams.feha/#) *#, COUNT (*) FROM sppParams WHERE feha > # GROUP BY FLOOR (sppParams.feha/#) *# ORDER BY FLOOR (sppParams.feha/#) *#"
+2019-01-23 14:30:00,2

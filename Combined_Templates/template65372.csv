@@ -1,0 +1,2 @@
+2,"SELECT ObjID, subclass, flags, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z FROM SpecPhoto WHERE zWarning = # AND class = # AND type = # AND subclass like # AND subclass not like # AND subclass not like #"
+2019-09-25 11:22:00,2

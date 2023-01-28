@@ -1,0 +1,2 @@
+1,"SELECT TOP #  bestObjID,  z FROM  specObj UNION SELECT TOP #  bestObjID,  z FROM  specObj;"
+2019-03-25 17:56:00,1

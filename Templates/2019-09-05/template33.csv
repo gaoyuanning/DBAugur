@@ -1,0 +1,2 @@
+1,"select rm.* from (select r.objid, r.sourcename, r.ra, r.dec, r.cps, r.hr1, r.hr2, cModelMag_u, cModelMag_g, cModelMag_r, cModelMag_i, cModelMag_z from photoobjall p join rosat r on p.objid = r.objid where (cModelFlux_u + cModelFlux_g + cModelFlux_r + cModelFlux_i + cModelFlux_z > #) and p.type = #) as rm left join specobjall p on rm.objid = p.bestobjid where p.bestobjid is null"
+2019-09-05 23:34:00,1

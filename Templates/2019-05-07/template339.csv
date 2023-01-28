@@ -1,0 +1,3 @@
+2,"SELECT  TOP # specobjid,ra,dec,psfmag_u, psfmag _g, psfmag _r, psfmag _i, psfmag _z,z, morphology FROM DR5QuasarCatalog"
+2019-05-07 15:43:00,1
+2019-05-07 15:49:00,1

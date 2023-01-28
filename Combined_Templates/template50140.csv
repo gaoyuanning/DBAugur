@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, plate, mjd, fiberid, z, zerr FROM Specobjall WHERE z < #, class = GALAXY,"
+2019-07-06 10:11:00,1

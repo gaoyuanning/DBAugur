@@ -1,0 +1,2 @@
+1,"SELECT s.plate, MIN(s.ra), MAX(s.ra), MIN(s.dec), MAX(s.dec), MIN(elodieFeH) , MAX(z) FROM SpecObj  AS s WHERE s.plate IN (#, #, #, #, # , #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #) GROUP BY s.plate ORDER BY s.plate"
+2019-05-31 17:13:00,1

@@ -1,0 +1,2 @@
+1,"SELECT ALL sp.ra, sp.dec, sp.z FROM specPhoto AS sp JOIN dbo.fGetNearbyObjEq (#, #, #) n ON n.objID = sp.bestobjid WHERE (sp.class = #)"
+2019-09-07 08:48:00,1

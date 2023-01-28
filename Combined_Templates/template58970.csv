@@ -1,0 +1,2 @@
+1,"SELECT s.specObjID, s.z, s.warning into mydb.MyTable from stellarMassPCAWiscBC0# as s WHERE s.z > # AND s.z < #"
+2019-08-23 10:07:00,1

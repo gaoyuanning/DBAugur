@@ -1,0 +1,2 @@
+1,"SELECT TOP #    p.ra,    p.dec,    f.Modelmag_i into mydb.MyTable_# from zooSpec p    JOIN SpecObjDR7 f ON f.objID = p.objID"
+2019-11-07 18:26:00,1

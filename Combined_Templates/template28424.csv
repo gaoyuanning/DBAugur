@@ -1,0 +1,2 @@
+1,"select count (s.specObjID) from stellarMassPCAWisc s, SpecObj g where g.specObjID = s.specObjID and g.class = # and g.subclass = #"
+2019-04-08 16:58:00,1

@@ -1,0 +1,2 @@
+1,"SELECT COUNT(*) s.z, s.zErr, s.survey, s.run1d, s.targetType, s.velDisp, g.*, e.bpt, p.psfMag_u, p.psfMag_g, , p.psfMag_i, , p.psfMag_r, , p.psfMag_z FROM SpecObj AS s  JOIN galSpecLine AS g ON s.specObjID = g.specObjID  JOIN photoObj AS p ON s.bestObjID = p.objID  LEFT JOIN emissionLinesPort AS e ON g.specObjID = e.specObjID WHERE  s.class = &&& AND  s.snMedian > #"
+2019-05-16 12:58:00,1

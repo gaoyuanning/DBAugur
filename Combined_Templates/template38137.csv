@@ -1,0 +1,2 @@
+1,"select p.objid, p.ra, p.dec, s.z as redshift into mydb.test2 from galaxy p, specobj s, dbo.fgetNearByObjEq (#, #, #) n where p.objid = s.bestobjid and p.objid = n.objid and s.bestobjid = n.objid and s.z BETWEEN # AND #"
+2019-05-09 15:32:00,1

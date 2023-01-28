@@ -1,0 +1,2 @@
+1,"SELECT TOP #  mjd, plate fiberid FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   g BETWEEN # AND #"
+2019-10-08 02:58:00,1

@@ -1,0 +1,2 @@
+1,"select max (deVPhi_r) , min (devPhi_r) into mydb.MyTable from PhotoObjAll"
+2019-09-10 15:02:00,1

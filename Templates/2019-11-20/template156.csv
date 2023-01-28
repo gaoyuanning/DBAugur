@@ -1,0 +1,2 @@
+1,"select DISTINCT TOP # G.objid, G.ra, G.dec, G.u, G.g, G.r, G.i, G.z, G.fieldID, G.specobjid, S.z, S.veldisp, s.elodieFeH, Z.spiral, Z.elliptical  from zooSpec Z  join Galaxy G on Z.specObjID = G.specObjID   join Frame F on F.fieldID = G.fieldID  join SpecObj S on S.specObjID = G.specObjID  where Z.spiral=#"
+2019-11-20 19:08:00,1

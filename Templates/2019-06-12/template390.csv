@@ -1,0 +1,2 @@
+2,"SELECT u.up_name as [name], x.objID, top # p.g, p.r from photoObj as p  where p.g between # and # and p.r between # and #"
+2019-06-12 08:51:00,2

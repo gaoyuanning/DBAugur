@@ -1,0 +1,2 @@
+1,"SELECT TOP # ObjID, z , RA, DEC, mag_i FROM SpecPhoto WHERE class = # AND zWarning = # AND z< # AND mag_i< #"
+2019-05-06 18:02:00,1

@@ -1,0 +1,2 @@
+2,select * into mydb.photoObjall from dbo.PhotoObjAll where
+2019-05-30 01:38:00,2

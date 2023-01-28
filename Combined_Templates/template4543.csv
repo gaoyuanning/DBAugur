@@ -1,0 +1,2 @@
+1,"select Z.z, Z.zErr, O.objID, O.ra, O.dec, O.psfMag_r, O.insideMask, O.type into mydb.Data_without_Z_only_galaxies from PhotoObjAll as O, PhotoZ as Z where O.ra BETWEEN # AND # AND O.dec BETWEEN # AND # AND O.type = # AND z > #"
+2019-01-18 06:43:00,1

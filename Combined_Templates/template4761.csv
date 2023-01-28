@@ -1,0 +1,3 @@
+2,select * from cycles_sd1 where area> # and circumference> # order by snapnum desc
+2019-01-20 10:03:00,1
+2019-01-21 14:30:00,1

@@ -1,0 +1,2 @@
+1,select count (*) into mydb.MyTable from assets where propertytype = #
+2019-11-30 13:58:00,1

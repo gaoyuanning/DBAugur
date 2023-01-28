@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.plate,s.mjd,s.fiberid FROM BESTDR7..SpecObj as s 	JOIN BESTDR7..Star AS p ON s.bestObjID = p.objID WHERE  p.g < #"
+2019-06-23 08:11:00,1

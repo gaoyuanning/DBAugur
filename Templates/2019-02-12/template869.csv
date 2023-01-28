@@ -1,0 +1,3 @@
+2,"SELECT Top # ObjID, modelMag_r, petroRad_r FROM PhotoObjAll WHERE (ra between # and # ) and (dec between # and #) and type = # and modelMag_r > # and petroRad_r > #"
+2019-02-12 03:32:00,1
+2019-02-12 03:34:00,1

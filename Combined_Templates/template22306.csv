@@ -1,0 +1,4 @@
+5,"SELECT specObjID, bestObjID, z FROM SpecObj WHERE class = # AND zWarning = # AND z BETWEEN # AND # AND (survey = # or survey = #) AND bestObjID < > # order by z asc"
+2019-03-21 20:03:00,3
+2019-03-21 20:13:00,1
+2019-03-21 20:18:00,1

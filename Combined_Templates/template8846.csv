@@ -1,0 +1,3 @@
+2,"SELECT g.objID, ss.z, ss.plate, ss.mjd, ss.fiberid, ss.programname, s.bptclass INTO mydb.gxs_spec_SCGDR1#_BPTclass FROM mydb.objid_gxs_spec_SCGDR1# as g, galSpecExtra as s, specObjAll as ss where ss.z> # and ss.z< # and g.objid = ss.bestObjID and ss.specobjid = s.specObjID"
+2019-02-07 16:08:00,1
+2019-02-07 16:09:00,1

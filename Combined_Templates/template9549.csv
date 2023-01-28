@@ -1,0 +1,3 @@
+3,"SELECT TOP # spp.mjd, spp.plate, spp.fiberid, spp.SPECTYPEHAMMER, spp.SPECTYPESUBCLASS, spp.TEFFADOP, spp.LOGGADOP, spp.FEHADOP, spp.SNR, spp.SPECOBJID, p.survey, p.programName, p.instrument FROM sppParams AS spp JOIN PlateX as p on p.plateID = spp.PLATEID WHERE spp.TEFFADOP > # AND spp.LOGGADOP > # AND spp.FEHADOP > # AND spp.SNR > #"
+2019-02-11 16:18:00,1
+2019-02-11 16:41:00,2

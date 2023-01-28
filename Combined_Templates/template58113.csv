@@ -1,0 +1,2 @@
+1,"SELECT ObjID, id int IDENTITY (#, #) , r, g, i, u, redness into mydb.Red_E_Galaxies FROM mydb.E_Galaxies as e WHERE redness < # ORDER BY redness ASC"
+2019-08-18 10:37:00,1

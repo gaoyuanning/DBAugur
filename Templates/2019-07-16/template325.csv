@@ -1,0 +1,3 @@
+2,"SELECT sm.logMass, sm.specObjID, sm.ra, sm.dec, sm.z FROM stellarMassFSPSGranEarlyDust AS sm WHERE sm.logMass between # and #"
+2019-07-16 11:20:00,1
+2019-07-16 11:38:00,1

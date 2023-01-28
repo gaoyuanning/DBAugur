@@ -1,0 +1,2 @@
+2,"select a.MJD,a.Plate,a.fiberID,b.ra,b.dec into ge_radec from mydb.Ge_id  as a, DR1#.specObjAll as b    where  a.Plate=b.plate and a.MJD=b.mjd and a.fiberID=b.fiberID"
+2019-02-28 02:18:00,2

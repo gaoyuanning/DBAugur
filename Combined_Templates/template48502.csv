@@ -1,0 +1,2 @@
+1,select * from photoObj where specObjID = # dec BETWEEN # and #
+2019-06-26 22:10:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # soa.ra, soa.dec, soa.z, soa.class FROM SpecObjAll soa WHERE soa.ra BETWEEN # AND # AND soa.dec BETWEEN # AND # AND soa.z BETWEEN # and # AND soa.class = &&& AND specObjID = bestObjID"
+2019-01-17 07:19:00,1

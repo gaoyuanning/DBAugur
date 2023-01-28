@@ -1,0 +1,2 @@
+1,"SELECT    p.ra,p.dec,p.g,p.r,p.extinction_g,    s.z,  s.snMedian_r,    s.velDisp,    s.plate, s.mjd, s.fiberid INTO FullSetSNR1# FROM PhotoObj AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   s.z BETWEEN # AND #   AND   s.survey = &&&   AND   s.class = &&&   AND   s.snMedian_r > #   AND   s.zWARNING = #"
+2019-01-10 05:18:00,1

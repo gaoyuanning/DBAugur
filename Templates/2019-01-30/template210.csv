@@ -1,0 +1,2 @@
+1,"SELECT s.specobjid, p.ra, p.dec, s.z, p.r, g.h_alpha_flux, g.h_beta_flux, g.oiii_#_flux, g.oii_#_flux, g.oii_#_flux, g.nii_#_flux, g.h_al"
+2019-01-30 17:38:00,1

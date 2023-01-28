@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.RA, p.Dec, s.BestObjID, s.SpecObjID, s.RA, s.Dec INTO xtest FROM SDSSDR7:PhotoObjAll AS p CROSS JOIN SDSSDR7:SpecObjAll AS s WHERE p.RA BETWEEN # AND # AND p.Dec > # AND s.Dec > # AND s.RA > #"
+2019-09-16 03:14:00,1

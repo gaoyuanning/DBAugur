@@ -1,0 +1,3 @@
+3,"SELECT TOP # objID, modelFlux_g, modelFlux_r, modelFluxIvar_g, modelFluxIvar_r FROM Galaxy WHERE r < # -- r IS NOT deredenned"
+2019-11-29 09:48:00,1
+2019-11-29 09:49:00,2

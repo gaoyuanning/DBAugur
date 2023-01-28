@@ -1,0 +1,2 @@
+1,"SELECT    p.ra,p.dec, p.u,p.g,p.r,p.i,p.z,p.modelMagErr_u,p.modelMagErr_g,p.modelMagErr_r,p.modelMagErr_i,p.modelMagErr_z  from PhotoObj as p, mydb.wise_nojiang_coords as u where   dbo.fGetNearestObjIdEq( u.ra,u.dec,# ) IS NOT NULL"
+2019-02-03 10:48:00,1

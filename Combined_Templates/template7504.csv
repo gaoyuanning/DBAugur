@@ -1,0 +1,2 @@
+1,"SELECT spec.bestobjid, spec.ra, spec.dec, spec.z, spec.zWarning, spec.sourceType, spec.survey INTO MyDB.DR1#_Stephane FROM SpecObj as spec"
+2019-02-01 13:55:00,1

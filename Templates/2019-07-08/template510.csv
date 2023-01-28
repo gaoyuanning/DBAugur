@@ -1,0 +1,2 @@
+1,"select s.nii_#_flux, s.h_alpha_flux, s.h_alpha_eqw from galSpecLine as s where s.specobjid= #"
+2019-07-08 06:59:00,1

@@ -1,0 +1,2 @@
+1,"select specobjid, ra, dec, spectrotype, subclass, z, z_err, v_disp, v_disp_err, sn_median into mydb.specinfo from galspecinfo where spectrotype = #"
+2019-04-05 17:55:00,1

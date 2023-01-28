@@ -1,0 +1,2 @@
+1,"SELECT  m.ra AS ra1, m.dec AS dec1, #/((dbo.fCosmoDa(m.z ,#,#,#,#,#)/(#)*#)*#) AS Search_radius,   n.objid, n.distance, m.z,   o.ra AS ra2, o.dec AS dec2, o.petroMag_i as imag      From MyDB.og_NED_cluster_sample AS m   CROSS APPLY dbo.fGetNearbyObjEq( m.ra, m.dec, #/((dbo.fCosmoDa(m.z ,#,#,#,#,#)/(#)*#)*#)) AS n      JOIN PhotoObj AS o ON n.objid=o.objid  WHERE     o.type = # and   dbo.fCosmoAbsMag(o.petroMag_i,m.z,#,#,#,#,#) < # and   m.z>#   order by m.ra"
+2019-07-17 15:45:00,1

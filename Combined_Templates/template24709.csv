@@ -1,0 +1,4 @@
+6,select * into mydb.test3# from mydb.OpenSN_withcontaminants t
+2019-03-27 07:52:00,2
+2019-03-27 07:56:00,2
+2019-03-27 07:58:00,2

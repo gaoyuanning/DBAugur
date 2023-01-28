@@ -1,0 +1,2 @@
+2,"SELECT s.plate, s.mjd, s.fiberid, t.ra, t.dec, s.z, p.fiberMag_z, p.modelMag_z INTO myDB.cgs_spec FROM myDB.cgs as t, PhotoObj as p, SpecObj as s WHERE t.objid_dr1# = p.objid AND s.bestObjID = p.objID"
+2019-11-06 07:33:00,2

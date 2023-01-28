@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.plate,s.mjd,s.fiberid,s.fiberID  FROM ..SpecObj as s  JOIN Star AS p ON s.bestobjid=p.objid  WHERE s.zWarning = # AND (s.class = &&&) AND (p.u - p.g) > # AND (p.g - p.r) > # AND (p.r - p.i) > # AND (p.g - p.r) < # AND (p.r - p.i) < # AND (s.secTarget & (dbo.fSecTarget(&&&)) > #)"
+2019-07-26 01:12:00,1

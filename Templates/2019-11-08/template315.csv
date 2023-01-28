@@ -1,0 +1,2 @@
+1,"SELECT     p.objID, z.absmagU, z.absmagG, z.absmagR, p.err_u, p.err_g, p.err_r into mydb.tdephot1# from mydb.tdeDR1#ID u      JOIN DR1#.PhotoObjAll p ON p.objID = u.objID      JOIN DR1#.PhotoZ z ON z.objID = u.objID"
+2019-11-08 11:55:00,1

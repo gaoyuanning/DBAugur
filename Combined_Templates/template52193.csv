@@ -1,0 +1,2 @@
+1,"SELECT fieldID, run, rerun, camcol, field, mjd_u, mjd_g, mjd_r, mjd_i, mjd_z, airmass_u, airmass_g, airmass_r, airmass_i, airmass_z, , ra, dec, raMin, raMax, decMin, decMax, sky_u, sky_g, sky_r, sky_i, sky_z into mydb.MyTable_# from field"
+2019-07-16 06:00:00,1

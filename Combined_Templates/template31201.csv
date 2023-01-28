@@ -1,0 +1,2 @@
+1,"SELECT TOP # g.ra, g.dec into mydb.zlt0#_ext from Galaxy as g JOIN SpecObjAll as s ON g.specObjID = s.specObjID WHERE g.ra between # and # AND g.dec between # and # AND g.petroMag_r-g.extinction_r < # AND g.clean = # AND g.psfMag_r-g.cmodelMag_r> =# AND s.z< =#"
+2019-04-17 13:12:00,1

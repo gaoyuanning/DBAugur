@@ -1,0 +1,3 @@
+2,"SELECT nw.objid, m.name, nw.ra, nw.dec, nw.run, nw.camcol, nw.field, nw.gain_g, nw.gain_i, nw.gain_r, nw.gain_u, nw.gain_z, nw.kk_g, nw.kk_i, nw.kk_r, nw.kk_u, nw.kk_z, nw.airmass_g, nw.airmass_i, nw.airmass_r, nw.airmass_u, nw.airmass_z, nw.aa_g, nw.aa_i, nw.aa_r, nw.aa_u, nw.aa_z, nw.seeing_g, nw.seeing_i, nw.seeing_r, nw.seeing_u, nw.seeing_z into MyDB.new_#_corr FROM MyDB.new_#_id_coord AS m CROSS APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n JOIN MyDB.new_# AS nw ON nw.objid = n.objid"
+2019-06-23 13:26:00,1
+2019-06-23 13:32:00,1

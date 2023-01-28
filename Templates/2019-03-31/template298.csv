@@ -1,0 +1,2 @@
+1,"select a.artistid, a.name as artist, count(t.trackid) as numClassical   from chinook.artist a      inner join chinook.album b         on b.artistid=a.artistid      left outer join chinook.track t         on t.albumid=b.albumid      left outer join chinook.Genre g         on g.genreid=t.genreid        and g.name=&&&   group by a.artistid,a.name   order by a.name"
+2019-03-31 16:20:00,1

@@ -1,0 +1,2 @@
+1,"SELECT  TOP # p.apstar_id,     p.apogee_id,p.ra, p.dec, p.glon, p.glat,    p.vhelio_avg,p.vscatter,    a.teff,a.logg,a.metals    FROM apogeeStar p    JOIN aspcapStar a on a.apstar_id = p.apstar_id    WHERE ra BETWEEN # AND #    AND dec BETWEEN # AND #"
+2019-07-03 13:13:00,1

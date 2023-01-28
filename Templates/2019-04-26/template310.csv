@@ -1,0 +1,2 @@
+1,select * from galaxy as g where g.ra > # and g.ra < # and g.dec > # and g.dec < # and g.z < #
+2019-04-26 16:09:00,1

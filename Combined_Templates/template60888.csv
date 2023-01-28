@@ -1,0 +1,2 @@
+2,select count (*) from specobj where ( (zwarning = #) or (zwarning = #) ) and (z > #)
+2019-09-04 15:41:00,2

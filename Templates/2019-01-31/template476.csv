@@ -1,0 +1,3 @@
+2,"SELECT FLOOR(Feha*#)/#, COUNT(*) FROM SpecObj s  INNER JOIN sppParams ON s.specObjID=sppParams.specObjID WHERE (#) < Feha and Feha < # GROUP BY FLOOR(Feha*#)  ORDER BY #"
+2019-01-31 06:10:00,1
+2019-01-31 06:24:00,1

@@ -1,0 +1,2 @@
+1,"SELECT #< a target = INFO href = http://skyserver.sdss.org/DR1#/en/tools/explore/obj.aspx? id = # + cast (x.objId as varchar (#) ) + #> #+ cast (x.objId as varchar (#) ) + #< /a> # as objID, p.ra, p.dec, dbo.fPhotoTypeN (p.type) as type, p.flags & dbo.fPhotoFlags (BINNED)"
+2019-11-22 13:14:00,1

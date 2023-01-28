@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, specObjID, ra, dec, ugriz mags,redshift  FROM   spectra"
+2019-03-26 21:42:00,1

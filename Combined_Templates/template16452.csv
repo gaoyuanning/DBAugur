@@ -1,0 +1,3 @@
+2,"SELECT TOP # po.isoPhi_r, po.isoPhiErr_r FROM SpecPhoto sp, PhotoObj po WHERE sp.objID = po.objID and po.isoPhiErr_r > #"
+2019-03-03 11:26:00,1
+2019-03-03 12:36:00,1

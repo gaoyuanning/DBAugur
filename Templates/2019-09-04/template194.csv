@@ -1,0 +1,2 @@
+1,"SELECT s.subclass, s.run1d from photoObjAll as p, specObjAll as s WHERE   p.specObjID = s.specObjID and p.psfMag_g < #   and p.psfMag_r < # and p.psfMag_g - p.psfMag_r < #   and s.subclass = &&&"
+2019-09-04 17:58:00,1

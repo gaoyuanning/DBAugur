@@ -1,0 +1,2 @@
+1,"SELECT p.objId, s.img FROM galaxy as p JOIN SpecObj As s on s.bestobjid = p.objid JOIN ZooNoSpec as zns on p.objid = zns.objid WHERE objId = #"
+2019-11-28 17:58:00,1

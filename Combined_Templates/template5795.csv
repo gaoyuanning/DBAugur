@@ -1,0 +1,2 @@
+2,"select psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z, cmodelMag_u, cmodelMag_g, cmodelMag_r, cmodelMag_i, cmodelMag_z from Star where objid = #;"
+2019-01-24 13:18:00,2

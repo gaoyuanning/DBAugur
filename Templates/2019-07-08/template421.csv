@@ -1,0 +1,2 @@
+2,select count(*) into mydb.test from DR9.PhotoObjAll p where
+2019-07-08 10:04:00,2

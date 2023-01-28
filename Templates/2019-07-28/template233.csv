@@ -1,0 +1,2 @@
+1,"select count(   sp.plate, sp.mjd, sp.fiberID, sp.z,    sp.psfMag_u, sp.psfMag_g, sp.psfMag_r, sp.psfMag_i, sp.psfMag_z,   sp.fiberMag_u, sp.fiberMag_g, sp.fiberMag_r, sp.fiberMag_i, sp.fiberMag_z,   sp.petroMag_u, sp.petroMag_g, sp.petroMag_r, sp.petroMag_i, sp.petroMag_z,   p.deVMag_u, p.deVMag_g, p.deVMag_r, p.deVMag_i, p.deVMag_z,   p.expMag_u, p.expMag_g, p.expMag_r, p.expMag_i, p.expMag_z) from DR7.SpecPhoto as sp join DR7.PhotoObjAll as p on (sp.objID = p.objID) where sp.zErr >= # and sp.zWarning = # and sp.z between # and # order by sp.z"
+2019-07-28 10:14:00,1

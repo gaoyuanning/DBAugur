@@ -1,0 +1,3 @@
+2,"select top # SpecObjID, ra, dec, z, logMass, reducedChi2, SFR, metallicity from stellarMassStarformingPort where reducedChi2 BETWEEN # and # and SFR BETWEEN # and #"
+2019-01-08 16:19:00,1
+2019-01-08 16:21:00,1

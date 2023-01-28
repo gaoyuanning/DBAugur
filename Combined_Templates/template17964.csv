@@ -1,0 +1,2 @@
+1,"SELECT mjd, plate, fiberid, subclass from specobjall where bestObjID = #"
+2019-03-06 12:11:00,1

@@ -1,0 +1,2 @@
+1,"select count(*) into mydb.galaxy_reproducible1_count1 from Galaxy as p, SpecObj as s where   p.mode = # AND s.zWarning = # AND p.specObjId = s.specObjId AND   p.ra > # AND p.ra < # AND p.dec > # AND p.dec < # AND"
+2019-06-26 05:03:00,1

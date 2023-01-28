@@ -1,0 +1,2 @@
+3,"SELECT top # z,ra,dec FROM specObj WHERE class = &&& and z > #"
+2019-05-02 16:31:00,3

@@ -1,0 +1,2 @@
+1,"select r.objid, r.ra, r.dec from RC3 r where r.PGC = PGC1#"
+2019-12-27 05:39:00,1

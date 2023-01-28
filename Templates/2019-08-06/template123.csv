@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.objTypeName,dbo.fIAUFromEq(p.ra,p.[dec]) as SDSSname, &&& as filter FROM BESTDR3..SpecObj as s, dbo.fGetNearbyObjEq(#,#,#) as b,  BESTDR3..PhotoObj as p WHERE b.objID = p.objID AND ( p.type = # OR p.type = #) AND s.bestObjID = p.objID"
+2019-08-06 17:25:00,1

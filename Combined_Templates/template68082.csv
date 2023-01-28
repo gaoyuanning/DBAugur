@@ -1,0 +1,2 @@
+1,"select top # s.plate, s.mjd, s.fiberid, spp.snr, spp.subclass FROM SpecObjAll as s, SpecPhotoAll as ph, sppParams as spp where s.SPECOBJID = spp.SPECOBJID and spp.SPECOBJID = ph.specObjID and s.class = # and spp.snr> =# and spp.snr< =#"
+2019-10-06 01:48:00,1

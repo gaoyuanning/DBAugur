@@ -1,0 +1,2 @@
+2,"select top # p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.type from photoObj where flags & dbo.fPhotoFlags (#) > #"
+2019-08-30 09:02:00,2

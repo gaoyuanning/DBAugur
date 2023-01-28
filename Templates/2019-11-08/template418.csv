@@ -1,0 +1,2 @@
+1,"select ra, dec, ObjID, mjd from PhotoPrimary where dec < # AND dec > # AND (ra > # AND ra < # )"
+2019-11-08 07:21:00,1

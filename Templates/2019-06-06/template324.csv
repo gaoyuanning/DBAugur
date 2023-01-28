@@ -1,0 +1,2 @@
+1,"SELECT  TOP # p.objid,    p.type, p.ra, p.dec, p.psfMag_u,p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z,    p.psfMag_Erru, p.psfMagErr_g, p.psfMagErr_r, p.psfMagErr_i, p.psfMagErr_z    INTO SA9#    FROM fGetObjFromRect(#,#,#,#) n,PhotoPrimary p    WHERE n.objID=p.objID"
+2019-06-06 08:57:00,1

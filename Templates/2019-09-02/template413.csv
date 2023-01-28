@@ -1,0 +1,2 @@
+2,"SELECT top # o.objID, s.specObjID, s.ra, s.dec, o.psfMag_u, o.psfMagErr_u, o.psfMag_g, o.psfMagErr_g, o.psfMag_r, o.psfMagErr_r, o.psfMag_i, o.psfMagErr_i, o.psfMag_z, o.psfMagErr_z into mydb.SDSS_gal_t1 from PhotoObjAll o  JOIN SpecObjAll as s ON o.ObjId = s.bestObjID WHERE s.class = &&& and  s.zwarning=# and (psfMag_g-psfMag_i)<# and (psfMag_g-psfMag_i)># and (psfMag_g-psfMag_r)<# and (psfMag_g-psfMag_r)># and psfMag_r># and psfMag_r < # and psfMag_g># and psfMag_i>#"
+2019-09-02 09:52:00,2

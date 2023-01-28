@@ -1,0 +1,2 @@
+1,"select rightascension,declination from specObj where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-06-20 15:04:00,1

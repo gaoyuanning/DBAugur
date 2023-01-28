@@ -1,0 +1,2 @@
+1,"SELECT m.RA_deg_# as input_ra, m.DEC_deg_# AS input_dec, n.objid as sdssm_objid, n.distance as sdssm_distance, s.z as sdss_s_z, s.class as sdss_s_class, s.subClass as sdss_s_subClass, gz.p_mg as galzoo_mg, dbo.fPhotoTypeN (p.type) as sdss_p_type into mydb.MyTable from MyDB.ESO_prop_radec AS m OUTER APPLY dbo.fGetNearestObjEq (m.RA_deg_#, m.DEC_deg_#, #) AS n LEFT JOIN PhotoObj AS p ON n.objid = p.objid LEFT JOIN SpecObjAll AS s ON p.objID = s.bestObjID LEFT JOIN ZooNoSpec AS gz on gz.specobjid = s.specobjid"
+2019-03-20 12:55:00,1

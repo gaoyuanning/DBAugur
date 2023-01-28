@@ -1,0 +1,2 @@
+1,"SELECT b.name, b.ra, b.dec, a.fiberMag_g as fiber_g, a.fiberMag_r as fiber_r, a.fiberMag_i as fiber_i into mydb.lamost_cross_dr1#_fiberMag from mydb.radecfitsname as b CROSS APPLY dbo.fGetNearestObjEq (ra, dec, #) as c join DR1#.photoObjAll as a on a.ObjID = c.objid"
+2019-10-29 01:39:00,1

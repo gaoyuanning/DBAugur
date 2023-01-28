@@ -1,0 +1,2 @@
+1,"select   m.ra, m.dec, m.objid, p.z as Photo_z, p.zerr as Photo_z_err  from MyDB.Gal_OBJIDS_RA_indexed m    JOIN Photoz p on p.objid = m.objid WHERE m.ra in (select q.ra from MyDB.Gal_OBJIDS_RA_indexed q)"
+2019-01-09 16:22:00,1

@@ -1,0 +1,2 @@
+1,"select top # z, ra, dec, bestObjID from dbo.fGetNearbyObjEq(#, #, #) AS n JOIN Star AS s ON n.objID = s.objID where z > # and zWarning = #"
+2019-03-04 19:57:00,1

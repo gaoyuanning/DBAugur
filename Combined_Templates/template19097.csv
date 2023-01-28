@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID, z, psfmag_u - extinction_u AS mag_u FROM SpecObj WHERE class = # AND zWarning = # AND z > # AND z < = #"
+2019-03-09 20:09:00,1

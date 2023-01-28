@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.dered_u, p.dered_g, p.dered_r, p.dered_i, p.dered_z, s.specobjid, s.class, s.z as redshift, g.h_beta_flux, g.oiii_#_flux, g.h_alpha_flux, g.nii_#_flux into mydb.MyTable from PhotoObjAll AS p JOIN SpecObj AS s ON s.bestobjid = p.objOD JOIN galSpecLine AS g ON p.objOD = g.specObjID WHERE redshift BETWEEN # AND # AND s.class = GALAXY#"
+2019-02-16 18:53:00,1

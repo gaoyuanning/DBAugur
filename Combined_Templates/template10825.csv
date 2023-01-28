@@ -1,0 +1,2 @@
+1,"select ra, dec, u, g, r, i, z from photoobj where class = # and ra between # and # and g> # and modelmag_u - modelmag_g > #"
+2019-02-13 15:40:00,1

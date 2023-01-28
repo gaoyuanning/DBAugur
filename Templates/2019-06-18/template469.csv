@@ -1,0 +1,2 @@
+1,"SELECT a.objID, a.sky_u, a.sky_g, a.sky_r, a.sky_i, a.sky_z, a.expMag_u, a.expMag_g, a.expMag_r, a.expMag_i, a.expMag_z b.psfFlux_u, b.psfFlux_g, b.psfFlux_r, b.psfFlux_i, b.psfFlux_z, b.psfMag_u, b.psfMag_g, b.psfMag_r, b.psfMag_i, b.psfMag_z INTO MyDB.sdssdata1 FROM sdssbasic3 AS a INNER JOIN sdssbasic4 as b ON a.objID = b.objID"
+2019-06-18 08:10:00,1

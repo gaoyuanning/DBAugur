@@ -1,0 +1,2 @@
+1,"SELECT BOTTOM # bestObjID, z  FROM SpecObj  WHERE class = &&&  AND zWarning = #  AND z BETWEEN # and #"
+2019-03-09 14:26:00,1

@@ -1,0 +1,2 @@
+2,"select p.ra, p.dec, s.z into mydb.highzcube from dr1#.photoobj as p, dr1#.specobj as s where p.ra > # and p.ra < # and p.dec > # and p.dec < # and s.z > # and s.z < # and p.specobjid = s.specobjid and p.specobjid ! = # and p.modelmag_g-p.modelmag_r < #. and p.modelmag_g < = #."
+2019-04-10 10:35:00,2

@@ -1,0 +1,3 @@
+2,"select milliseconds as time , bytes as size from chinook.Track"
+2019-04-21 15:38:00,1
+2019-04-21 15:39:00,1

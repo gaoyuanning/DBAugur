@@ -1,0 +1,3 @@
+2,select count(*) from photoprimary where type=#
+2019-09-13 11:05:00,1
+2019-09-13 11:06:00,1

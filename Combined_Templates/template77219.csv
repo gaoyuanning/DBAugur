@@ -1,0 +1,2 @@
+1,"SELECT mjd, plate, fiberID, ra, dec, targetType, sourceType, z, zErr, zWarning into mydb.TYPE_EBOSS from SpecObjAll WHERE plate> #"
+2019-11-19 11:53:00,1

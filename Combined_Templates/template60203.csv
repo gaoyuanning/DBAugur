@@ -1,0 +1,4 @@
+4,"SELECT TOP # * into mydb.MyTable from mydb.#_sdss AS my, dr1#.PhotoObjAll AS cs WHERE my.ra - my.cs < # AND my.cs - my.ra < # AND my.ra - my.cs < # AND my.cs - my.ra < #"
+2019-09-02 10:05:00,2
+2019-09-02 10:11:00,1
+2019-09-02 10:13:00,1

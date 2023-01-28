@@ -1,0 +1,2 @@
+1,"SELECT top # apogee_id,teff,teff_err,logg,logg_err,fparam_teff,fparam_logg,   fparam_m_h,fparam_c_m,fparam_n_m,fparam_alpha_m,param_c_m,param_n_m into mydb.proba3  from aspcapStar"
+2019-03-07 12:59:00,1

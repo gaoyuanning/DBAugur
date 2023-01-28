@@ -1,0 +1,2 @@
+1,"SELECT p.objID,p.mode,p.type,p.probPSF,p.ra,p.dec  FROM PhotoObjAll as p WHERE   ((p.ra># and p.ra<# and p.dec># and p.dec<#) or      (p.ra># and p.ra<# and p.dec># and p.dec<#) or      (p.ra># and p.ra<# and p.dec># and p.dec<#) or      (p.ra># and p.ra<# and p.dec># and p.dec<#) or      (p.ra># and p.ra<# and p.dec># and p.dec<#)) and   p.mode = #    INTO mydb.newSDSSinGAMAmatchPhoto2"
+2019-02-20 15:00:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.psffwhm_r FROM ..PhotoObj AS p JOIN dbo.fGetObjFromRect (#, #, #, #) AS b ON p.objID = b.objID WHERE (p.type = #) AND (p.flags & (dbo.fPhotoFlags (#) ) = #)"
+2019-07-17 19:28:00,1

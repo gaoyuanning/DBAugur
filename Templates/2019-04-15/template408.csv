@@ -1,0 +1,5 @@
+4,"CREATE TABLE [r2#][Cancer_screening] ( 	eid BIGINT NOT NULL ,	[Ever_had_bowel_cancer_screening_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Most_recent_bowel_cancer_screening_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Ever_had_prostate_specific_antigen_PSA_test_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Time_since_last_prostate_specific_antigen_PSA_test_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=# ,PRIMARY KEY (eid)) GO"
+2019-04-15 14:28:00,1
+2019-04-15 14:31:00,1
+2019-04-15 14:32:00,1
+2019-04-15 14:34:00,1

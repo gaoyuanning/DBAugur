@@ -1,0 +1,2 @@
+1,"select objID,ra,dec,r,z from galaxy where ra BETWEEN # and #  AND dec BETWEEN # and # AND class = &&& AND r <#"
+2019-04-12 13:44:00,1

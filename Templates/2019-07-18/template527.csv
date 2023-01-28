@@ -1,0 +1,2 @@
+2,"SELECT     T.ID, T.PhotoObjID, P.petroMag_r, P.petroFlux_u, P.petroFlux_g, P.petroFlux_r, P.petroFlux_i, P.petroFlux_z, P.petroFluxIvar_u, P.petroFluxIvar_g, P.petroFluxIvar_r, P.petroFluxIvar_i, P.petroFluxIvar_z INTO     mydb.kcorr_fields FROM     DR1#.PhotoObj as P, mydb.NEW_kCorr_SQL as T WHERE     P.objID = T.PhotoObjID"
+2019-07-18 00:50:00,2

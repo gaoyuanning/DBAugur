@@ -1,0 +1,3 @@
+2,"select top # TRACTID, WORKERS = FEMALE_#_#_TO_#_# + FEMALE_#_#_TO_#_# + FEMALE_#_#_TO_#_#+MALE_#_#_TO_#_# + MALE_#_#_TO_#_# + MALE_#_#_TO_#_# + MALE_#_#_TO_#_# + MALE_#_#_TO_#_# + MALE_#_#_TO_#_# + MALE_#_#_TO_#_# + MALE_#_#_TO_#_# + MALE_#_#_TO_#_#, CUSTOMERS = MALE_#_#_TO_#_# + MALE_#_#_TO_#_# + MALE_#_#_TO_#_# + MALE_#_#_TO_#_# + MALE_#_#_TO_#_# + MALE_#_#_TO_#_# + MALE_#_#_TO_#_# + MALE_#_#_TO_#_# + MALE_#_#_TO_#_# + FEMALE_#_#_TO_#_# + FEMALE_#_#_TO_#_# + FEMALE_#_#_TO_#_# + FEMALE_#_#_TO_#_# + FEMALE_#_#_TO_#_# + FEMALE_#_#_TO_#_# + FEMALE_#_#_TO_#_# + FEMALE_#_#_TO_#_# + FEMALE_#_#_TO_#_# from optw.tamass.EARNINGS order by #"
+2019-10-26 18:49:00,1
+2019-10-27 13:38:00,1

@@ -1,0 +1,6 @@
+5,"SELECT p.objid, p.ra, p.dec, p.r FROM galaxy AS p WHERE p.ra BETWEEN # AND # AND p.dec BETWEEN # AND # AND p.r < #"
+2019-09-09 02:26:00,1
+2019-09-09 02:27:00,1
+2019-09-09 02:29:00,1
+2019-09-09 02:30:00,1
+2019-09-09 02:35:00,1

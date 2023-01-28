@@ -1,0 +1,4 @@
+4,"SELECT my.tmid, my.mkc, my.ra, my.dec, p.ra, p.dec, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z into mydb.MyTable1 FROM mydb.MyTable as my, PhotoObj as p WHERE my.bestobjid = p.objid"
+2019-12-17 04:09:00,2
+2019-12-17 04:24:00,1
+2019-12-17 04:25:00,1

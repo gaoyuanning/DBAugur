@@ -1,0 +1,2 @@
+1,"SELECT ra AS up_ra, dec AS up_dec, search_id AS up_id  FROM MyDB.AKARImain_SDSSspecsel_WISE4#selrev_rev_pos   INSERT INTO MYDB.test EXEC spGetSpecNeighborsPrim #"
+2019-01-10 04:57:00,1

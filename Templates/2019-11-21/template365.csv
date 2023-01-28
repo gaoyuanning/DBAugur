@@ -1,0 +1,2 @@
+1,"SELECT   m.bestObjID_DR1#,    s.petroMag_u, s. petroMag_g, s.petroMag_r, s.petroMag_i, s.petroMag_z   from mydb.MC0#_DR1#_SpecPhoto_v4 as m, PhotoObjAll as s"
+2019-11-21 13:40:00,1

@@ -1,0 +1,3 @@
+2,"SELECT specObjID, lick_hd_a, lick_hd_a_err, lick_hd_a_sub, lick_hd_a_sub_err, d4#_n, d4#_n_err, d4#_n_sub, d4#_n_sub_err, lick_hb, lick_hb_err, lick_hb_sub, lick_hb_sub_err, lick_mgb, lick_mgb_err, lick_mgb_sub, lick_mgb_sub_err, lick_fe5#, lick_fe5#_err, lick_fe5#_sub, lick_mgb_fe5#_err into mydb.spec_index from galSpecIndx"
+2019-05-17 13:56:00,1
+2019-05-17 13:57:00,1

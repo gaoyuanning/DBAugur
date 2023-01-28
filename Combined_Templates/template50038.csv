@@ -1,0 +1,10 @@
+11,"SELECT TOP # cast (str (p.ra, #, #) as float) as ra, cast (str (p.[dec], #, #) as float) as dec, dbo.fIAUFromEq (p.ra, p.[dec]) as SDSSname, p.dered_g, p.dered_i, p.dered_r, p.extinction_g, p.extinction_i, p.extinction_r, p.objID FROM ..PhotoObj AS p JOIN dbo.fGetNearbyObjEq (#, #, #) AS b ON b.objID = P.objID WHERE (p.type = # OR p.type = #)"
+2019-07-05 07:58:00,1
+2019-07-05 08:04:00,1
+2019-07-05 08:08:00,1
+2019-07-05 08:12:00,1
+2019-07-05 08:18:00,2
+2019-07-05 08:25:00,2
+2019-07-05 08:31:00,1
+2019-07-05 09:39:00,1
+2019-07-05 09:40:00,1

@@ -1,0 +1,4 @@
+3,"SELECT    p.u, p.g, p.r, p.i, p.z, s.class, s.zwarning as redshift_warning FROM PhotoObj AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE  s.zwarning = #    AND (s.class = &&& OR s.class = &&& OR s.class = &&&)"
+2019-11-05 08:01:00,1
+2019-11-05 08:26:00,1
+2019-11-05 09:35:00,1

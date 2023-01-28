@@ -1,0 +1,2 @@
+2,"select a.gal_id, a.nyu_id, a.group_id, b.gal_id as cent_id, c.n_member from mydb.ipetroA_# as a join mydb.ipetroA_#_central as b on b.group_id = a.group_id join mydb.ipetroA_#_member as c on c.group_id = a.group_id into mydb.ipetroA_link"
+2019-10-23 20:06:00,2

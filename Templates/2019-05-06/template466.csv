@@ -1,0 +1,2 @@
+1,"select BlockLot, FullAddress, IsMCC, IsDemolished, IsVacant   , GeogCenter.ToString() from RealPropertiesExtra where neighborhood like &&& and isMCC=# or isVacant=#   /* select neighborhood, count(ID) from RealPropertiesExtra where IsMCC=# and IsVacant=# group by neighborhood order by # desc */"
+2019-05-06 09:42:00,1

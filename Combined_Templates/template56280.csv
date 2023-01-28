@@ -1,0 +1,2 @@
+2,"SELECT specObjID, psfMag_g, z INTO mydb.sdss1#gal_extras FROM PhotoObj WHERE class = # AND subClass! =# AND subClass! =# AND zWarning = #"
+2019-08-08 05:58:00,2

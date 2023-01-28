@@ -1,0 +1,3 @@
+2,"select top # A.Title, sum(T.UnitPrice) as AlbumPrice, count(T.AlbumId) as TrackCount  from chinook.Track as T, chinook.Album as A where T.AlbumId = A.AlbumId group by A.Title  order by sum(T.UnitPrice) desc"
+2019-04-17 11:46:00,1
+2019-04-17 11:47:00,1

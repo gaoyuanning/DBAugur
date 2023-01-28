@@ -1,0 +1,2 @@
+3,"SELECT TOP #  p.objid,p.modelMag_u,p.modelMag_g,p.modelMag_r,p.modelMag_i,p.modelMag_z,   s.class, s.z as redshift FROM photoObj AS p  JOIN specObj s ON s.bestobjid = p.objid WHERE   s.class = &&&  AND s.z < #  AND s.z > #"
+2019-03-11 10:42:00,3

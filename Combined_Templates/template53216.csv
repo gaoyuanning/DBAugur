@@ -1,0 +1,2 @@
+1,select count (*) into mydb.gal_cnt_dr8 from SpecObjAll
+2019-07-22 07:13:00,1

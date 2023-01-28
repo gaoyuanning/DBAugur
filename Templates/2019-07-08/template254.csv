@@ -1,0 +1,2 @@
+1,"SELECT     m.ra AS ra1, m.dec AS dec1,     dbo.fGetNearestSpecObjIdEq( m.ra, m.dec, #) AS specObjId  FROM MyDB.m1#PhotoSample AS m  INTO MyDB.m1#MatchedSpecObj"
+2019-07-08 16:30:00,1

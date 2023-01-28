@@ -1,0 +1,2 @@
+1,"SELECT sp.bestobjID,   sp.ra,   sp.dec,   sp.mjd,   sp.plate,  sp.fiberID,  sp.z   FROM specobj AS sp   WHERE   sp.class=&&&   AND sp.ra between # and # AND sp.dec between # and #"
+2019-11-05 13:07:00,1

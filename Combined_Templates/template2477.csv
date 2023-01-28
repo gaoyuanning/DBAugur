@@ -1,0 +1,2 @@
+1,"select ra, dec from specObj where (count ((ra BETWEEN # and #) AND (dec BETWEEN # and #) ))"
+2019-01-12 18:43:00,1

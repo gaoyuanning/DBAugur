@@ -1,0 +1,2 @@
+2,"SELECT TOP # p.objID, p.ra, p.dec, p.type, p.qu, p.uu, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, s.specObjID, s.z, s.zErr, s.sourcetype, s.class, s.subClass, s.velDisp, s.velDispErr FROM PhotoTag p, SpecObjAll s WHERE p.modelMag_u> # and p.modelMag_u< # and p.modelMag_g> # and p.modelMag_g< # and p.modelMag_r> # and p.modelMag_r< # and p.modelMag_z> # and p.modelMag_z< #"
+2019-04-06 06:02:00,2

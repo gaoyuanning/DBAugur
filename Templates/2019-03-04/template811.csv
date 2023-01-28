@@ -1,0 +1,2 @@
+1,"SELECT specObjID,z,bpt,Flux_OIII_#,Flux_OIII_#_Err,Flux_NII_#,Flux_NII_#_Err,Flux_Ha_#,Flux_Ha_#_Err,Flux_Hb_#,Flux_Hb_#_Err,Flux_SII_#,Flux_SII_#_Err,Flux_OI_#,Flux_OI_#_Err into mydb.firsttable FROM DR1#.emissionLinesPort"
+2019-03-04 08:48:00,1

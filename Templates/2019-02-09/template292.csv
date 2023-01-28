@@ -1,0 +1,2 @@
+2,"SELECT    MjD,   plate,   fiberID,   class,   subClass,   ra,   dec,   z  into mydb.coreDR1#all from SpecObjAll         WHERE             class = &&& or      class = &&& or     class = &&& or      class = &&& or     class = &&&"
+2019-02-09 09:12:00,2

@@ -1,0 +1,2 @@
+1,"select a.NumberOfTracks from (select count (*) as NumberOfTracks, AlbumId from chinook.Track group by AlbumId) a"
+2019-04-21 12:06:00,1

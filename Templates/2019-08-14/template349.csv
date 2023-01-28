@@ -1,0 +1,4 @@
+3,"SELECT   p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  p.run, p.rerun, p.camcol, p.field FROM Galaxy AS p WHERE   p.r BETWEEN # AND #"
+2019-08-14 13:02:00,1
+2019-08-14 13:07:00,1
+2019-08-14 13:08:00,1

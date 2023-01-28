@@ -1,0 +1,2 @@
+1,select count(ObjID)  from photoz2  where Flag=#
+2019-09-13 14:35:00,1

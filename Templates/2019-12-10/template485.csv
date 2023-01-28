@@ -1,0 +1,2 @@
+1,"select top # so.bossprimary, so.sdssprimary,so.scienceprimary, sp.specObjID, sp.objid, so.specObjID, so.mjd, so.plate, so.fiberID, so.run2d, sp.ra,sp.dec,sp.z, sp.class,so.zwarning, so.programname,so.instrument,so.survey, so.boss_target1, so.eboss_target1, xm.match_dist AS match_dist, FROM SpecPhoto AS sp JOIN wise_xmatch AS xm ON sp.objid = xm.sdss_objid JOIN wise_allsky AS w ON xm.wise_cntr = w.cntr"
+2019-12-10 04:23:00,1

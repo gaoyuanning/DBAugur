@@ -1,0 +1,2 @@
+1,"select top # p.objid, p.ra, p.dec from photoobj p, specobj s where p.objid=s.bestobjid"
+2019-09-10 16:06:00,1

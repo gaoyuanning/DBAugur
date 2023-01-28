@@ -1,0 +1,2 @@
+1,"SELECT objid,modelMag_r,petroRad_r FROM Photoz WHERE  ra BETWEEN # and # AND dec BETWEEN # and #  AND modelMag_r < # AND petroRad_r > # AND z < #"
+2019-02-12 06:43:00,1

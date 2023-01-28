@@ -1,0 +1,3 @@
+2,"SELECT TOP # s.SpecObjID, s.z, L.sigma, L.height, dbo.fCosmoDl (s.z) , wave, restWave FROM SpecPhoto as s JOIN SpecLine as L ON s.specObjID = L.specObjID WHERE s.specClass = # AND L.lineID = #"
+2019-09-29 06:24:00,1
+2019-09-29 06:29:00,1

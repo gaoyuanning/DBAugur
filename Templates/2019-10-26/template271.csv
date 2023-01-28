@@ -1,0 +1,2 @@
+1,"select county, dist=centroid.STDistance(&&&)     from optw.tamass.TRACTS     where state=#"
+2019-10-26 16:41:00,1

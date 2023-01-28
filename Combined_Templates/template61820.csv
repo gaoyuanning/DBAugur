@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, s.specobjid, s.survey, s.instrument, s.zWarning_noqso, s.chunk, s.boss_target1, s.bossPrimary, s.class, s.z as redshift FROM PhotoObjAll AS p JOIN SpecObjAll AS s ON s.bestobjid = p.objid WHERE s.class = #"
+2019-09-09 16:13:00,1

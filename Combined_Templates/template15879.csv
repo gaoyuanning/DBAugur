@@ -1,0 +1,2 @@
+1,"select specObjID, ra, dec, z, logMass, ssfr, cModelAbsMag_g, chi2 from stellarMassFSPSGranEarlyDust where cModelAbsMag_g < # AND z < # AND chi2 BETWEEN # and # AND ssfr < > #"
+2019-03-01 14:04:00,1

@@ -1,0 +1,2 @@
+1,"SELECT top # my_db.plate, my_db.mjd, my_db.fiberid, photo.objid from mydb.m_sigma_final_table as my_db JOIN specobj as spec ON ( (spec.plate = my_db.plate) AND (spec.mjd = my_db.mjd) AND (spec.fiberid = my_db.fiberid) ) JOIn photoobj as photo ON (spec.specobjid = photo.specobjid)"
+2019-03-17 06:59:00,1

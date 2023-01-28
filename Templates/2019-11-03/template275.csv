@@ -1,0 +1,2 @@
+1,"SELECT s.bestObjID, s.ra, s.dec, s.z, s.zErr, s.velDisp, s.velDispErr FROM SpecObj AS s JOIN SpecPhotoAll AS p ON s.bestObjID = p.specObjID WHERE s.ra BETWEEN # AND #  AND s.dec BETWEEN # AND #  AND s.Class = &&&   AND p.petroMag_r < #   AND s.subClass = NULL   AND s.zWarning = #"
+2019-11-03 13:01:00,1

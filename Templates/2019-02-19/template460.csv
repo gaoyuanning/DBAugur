@@ -1,0 +1,2 @@
+1,"select top # a.ra, a.dec, a.z, a.specclass into mydb.QSO_for_magnification_dr7 from specobj a"
+2019-02-19 07:05:00,1

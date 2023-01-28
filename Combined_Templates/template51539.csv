@@ -1,0 +1,2 @@
+1,"select distinct eid from r2#.Eye_surgery_complications a cross apply openjson (Ever_had_eye_surgery_#) j where j.value IN () ) select top # e.* from eids i, r2#.Eye_surgery_complications e where e.eid = i.eid"
+2019-07-12 15:16:00,1

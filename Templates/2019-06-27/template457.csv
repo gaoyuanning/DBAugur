@@ -1,0 +1,7 @@
+12,"select s.specObjID, s.ra, s.dec, s.z, s.zErr, s.bestObjID, p.petroMag_u as umag, p.petroMag_g as gmag, p.petroMag_r as rmag,  p.petroMag_i as imag FROM SpecObj as s JOIN PhotoObj AS p ON s.bestobjid = p.objid WHERE (s.ra between # and #) and (s.dec between # and #) and (s.z between # and #) and (s.zWarning = #)"
+2019-06-27 09:38:00,2
+2019-06-27 09:39:00,1
+2019-06-27 09:40:00,2
+2019-06-27 09:46:00,2
+2019-06-27 09:47:00,3
+2019-06-27 09:48:00,2

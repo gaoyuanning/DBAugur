@@ -1,0 +1,2 @@
+1,"select top # p.objid, p.ra, p.dec, s.z, p.modelMag_r, p.modelMag_i, p.modelMag_u, p.modelMag_z, p.modelMag_g from PhotoObj as p SpecObj as s where p.dec BETWEEN # AND # and p.ra between # and # and s.z between # and #"
+2019-09-29 15:08:00,1

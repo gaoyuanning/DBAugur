@@ -1,0 +1,6 @@
+5,"select   psfMag_r, psfMagErr_r,  petroR5#_r, petroR5#Err_r, petroR9#_r, petroR9#Err_r,   deVRad_r, deVRadErr_r, deVAB_r, deVABErr_r,   expRad_r, expRadErr_r, expAB_r, expABErr_r,  gx.spiral, gx.elliptical  from PhotoObjAll as phot  join dbo.zooSpec as gx on phot.objID=gx.objid  where gx.uncertain = #"
+2019-02-28 00:02:00,1
+2019-02-28 16:17:00,1
+2019-02-28 19:47:00,1
+2019-02-28 20:41:00,1
+2019-02-28 21:00:00,1

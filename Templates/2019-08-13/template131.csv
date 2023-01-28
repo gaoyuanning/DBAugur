@@ -1,0 +1,5 @@
+4,"SELECT plate, mjd FROM apogeePlate WHERE location_id=# SELECT plate, mjd FROM apogeePlate WHERE name = &&&"
+2019-08-13 02:20:00,1
+2019-08-13 13:54:00,1
+2019-08-13 17:07:00,1
+2019-08-13 19:15:00,1

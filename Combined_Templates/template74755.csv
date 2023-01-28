@@ -1,0 +1,2 @@
+1,"SELECT top # p.objid, p.u, p.g, p.r, p.i , p.z, p.psfMag_z FROM #upload u JOIN #x x ON x.up_id = u.up_id JOIN PhotoObjAll p ON p.objID = x.objID ORDER BY x.up_id AND g BETWEEN # AND #"
+2019-11-09 09:46:00,1

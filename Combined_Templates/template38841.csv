@@ -1,0 +1,4 @@
+5,"SELECT ALL objra, objdec, nsa_elpetro_absmag_f, plate, nsa_nsaid, nsa_field FROM mangaDRPall WHERE nsa_field = #"
+2019-05-12 18:06:00,1
+2019-05-12 18:07:00,3
+2019-05-12 18:09:00,1

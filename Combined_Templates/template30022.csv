@@ -1,0 +1,2 @@
+1,"select * from OPENQUERY ([#.#], #' #) as case_ids from cancer_study cs inner join sample_list sl on sl.CANCER_STUDY_ID = cs.CANCER_STUDY_ID join sample_list_list sll on sl.list_id = sll.list_id join sample s on s.internal_id = sll.sample_id where cs.cancer_study_identifier = #paac_jhu_##) a order by #, #"
+2019-04-14 16:35:00,1

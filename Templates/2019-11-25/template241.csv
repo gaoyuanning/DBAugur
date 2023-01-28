@@ -1,0 +1,2 @@
+1,SELECT COUNT(*) into mydb.test from PhotoObj AS p
+2019-11-25 13:45:00,1

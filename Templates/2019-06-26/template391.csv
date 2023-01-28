@@ -1,0 +1,2 @@
+1,"select alt_id, rv_tef from apogeeobject where alt_id BETWEEN # and # AND rv_tef BETWEEN # and #"
+2019-06-26 11:23:00,1

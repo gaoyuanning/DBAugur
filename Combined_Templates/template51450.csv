@@ -1,0 +1,2 @@
+1,select count (*) from star p where p.g < #
+2019-07-11 02:06:00,1

@@ -1,0 +1,2 @@
+1,"SELECT into mydb.A2#_Dhila_#_a s.objID, s.specObjID, s.ra, s.dec, s.z, s, zErr, s.class FROM SpecPhotoAll s WHERE s.ra BETWEEN # and # AND s.dec BETWEEN # and # AND s.z BETWEEN # and # AND s.class = #"
+2019-05-10 06:08:00,1

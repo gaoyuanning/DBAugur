@@ -1,0 +1,2 @@
+1,"SELECT p.objId, p.ra, p.dec, p.petror9#_r, p.expAB_r, p.dered_u, p.dered_g, p.dered_r, p.dered_i, extinction_g, extinction_r, exinction_i, extinction_u, extinction_z FROM galaxy AS p WHERE g < # and b between # and #"
+2019-03-07 12:53:00,1

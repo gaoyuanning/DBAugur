@@ -1,0 +1,2 @@
+1,"select psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z, z from specObj where (class = #) glat > # and z > #"
+2019-12-10 00:49:00,1

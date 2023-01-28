@@ -1,0 +1,3 @@
+3,"SELECT TOP # mangaid, input_teff, psfmag_#, psfmag_# FROM MaStar_goodstars WHERE (psfmag_#-psfmag_#< #) AND psfmag_#> # AND psfmag_#> #"
+2019-01-09 17:21:00,1
+2019-01-09 17:22:00,2

@@ -1,0 +1,2 @@
+1,"SELECT p.specObjID, M.h_alpha_flux, M.h_alpha_flux_err, M.h_beta_flux, M.h_beta_flux_err, M.oiii_#_flux, M.oiii_#_flux_err, M.nii_#_flux, M.nii_#_flux_err, M.oii_#_flux, M.oii_#_flux_err, M.oii_#_flux, M.oii_#_flux_err, M.oiii_#_flux, M.oiii_#_flux_err, M.sii_#_flux, M.sii_#_flux_err, M.sii_#_flux, M.sii_#_flux_err, M.oi_#_flux, M.oi_#_flux_err, M.hei_#_flux, M.hei_#_flux_err INTO mydb.kehrig_mpa_#_b FROM mydb.MyTable as p, galSpecLine as M WHERE p.specObjID = M.specObjID"
+2019-03-20 12:28:00,1

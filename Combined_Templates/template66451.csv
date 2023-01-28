@@ -1,0 +1,3 @@
+2,"SELECT TOP # specObjId, z, zErr, class, subclass, survey, programname, ra, dec, fiberMag_g, fiberMagErr_g FROM SpecPhotoAll WHERE z BETWEEN # and # and zErr BETWEEN # and #"
+2019-09-29 20:29:00,1
+2019-09-29 20:32:00,1

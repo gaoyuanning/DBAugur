@@ -1,0 +1,2 @@
+1,"SELECT top # G.ObjID, G.u, G.g, G.r, G.i, G.z into mydb.MyTable from Galaxy G JOIN Star S ON G.parentID = S.parentID WHERE G.parentID > #"
+2019-07-11 11:18:00,1

@@ -1,0 +1,2 @@
+2,"select apogee_id, teff, teff_err, logg, logg_err, aspcap_chi2, aspcap_class from aspcapStar into MyDB.aspcapStar"
+2019-08-03 10:18:00,2

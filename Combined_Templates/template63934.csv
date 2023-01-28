@@ -1,0 +1,3 @@
+2,"select p.ID , po.objId as x_id, p.ra, p.dec, o.distance*# as d_arcsec, # as pos_err into Nway_input_scs_GalexGR6 from MyDB.Nway_input p cross apply dbo.fGetNearbyObjEq (p.ra, p.dec, #) o join photoobj po on po.objid = o.objid order by distance"
+2019-09-18 15:06:00,1
+2019-09-23 17:48:00,1

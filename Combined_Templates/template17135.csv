@@ -1,0 +1,2 @@
+1,"SELECT TOP # sp.modelMag_u, sp.modelMag_g, sp.modelMag_r, sp.modelMag_i, sp.modelMag_z, sp.z, s.velDisp, s.velDispErr FROM SpecPhotoAll sp JOIN SpecObj s ON sp.specObjId = s.specObjId WHERE s.velDisp BETWEEN # AND # AND s.velDispErr < #"
+2019-03-04 09:02:00,1

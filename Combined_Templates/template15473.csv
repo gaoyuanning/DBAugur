@@ -1,0 +1,2 @@
+1,"select _id, the_geom.STArea () as area, the_geom.ToString () as wkt from # where _year = # order by area desc"
+2019-02-28 16:51:00,1

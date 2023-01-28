@@ -1,0 +1,7 @@
+500,"SELECT sp.objid,sp.ra,sp.dec, sp.class, sp.z as redshift, ISNULL(m.k,#) as k , sp.dered_r, sp.camcol, sp.field, sp.run, sp.rerun FROM SpecPhoto AS sp JOIN apogeeOBJECT AS m ON sp.dec = m.dec WHERE sp.z ># AND sp.z < # AND sp.class = GALAXY&&&"
+2019-12-04 23:39:00,27
+2019-12-04 23:40:00,84
+2019-12-04 23:41:00,86
+2019-12-04 23:42:00,109
+2019-12-04 23:43:00,112
+2019-12-04 23:44:00,82

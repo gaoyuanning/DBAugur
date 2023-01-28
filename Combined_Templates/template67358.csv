@@ -1,0 +1,2 @@
+2,"SELECT s.ra, s.dec FROM #upload u, SpecObj s WHERE u.ConcentrationIndex = u.petroR9#_r/u.petroR5#_r > # and class < # and fracdev_g = #"
+2019-10-02 20:04:00,2

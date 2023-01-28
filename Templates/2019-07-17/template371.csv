@@ -1,0 +1,2 @@
+1,"SELECT avg(x)# as dx, stdev(x) as sx, # as sig, count(*) as num FROM mr tablesample(.#) repeatable(#)"
+2019-07-17 10:07:00,1

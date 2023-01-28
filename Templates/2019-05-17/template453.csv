@@ -1,0 +1,2 @@
+1,"SELECT     ph.objID, ph.petroR5#_u, ph.petroR5#_r, ph.petroR5#_i, ph.petroR5#_z, ph.petroR9#_u, ph.petroR9#_r, ph.petroR9#_i, ph.petroR9#_z   into myDB.Sabater_SDSS_radius FROM MyDB.Sabater_SDSS_inform sa      JOIN PhotoObjAll ph ON sa.objID = ph.objID"
+2019-05-17 08:32:00,1

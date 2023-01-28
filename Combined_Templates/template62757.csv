@@ -1,0 +1,2 @@
+1,"SELECT encoding_id, value, meaning FROM metadata.esimpint JOIN metadata.esimpreal JOIN metadata.esimpstring JOIN metadata.esimpdate;"
+2019-09-12 09:38:00,1

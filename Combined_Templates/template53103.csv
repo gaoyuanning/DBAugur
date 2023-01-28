@@ -1,0 +1,2 @@
+1,"select top # o.dr8objid, o.dr7objid, data.* into mydb.Maldicao2 from MyDB.GALEX_GR5_AIS_SDSS_DR7_Matched_catalog_errmagFUVandNUV_menor_#_# as data JOIN PhotoPrimaryDR7 AS o ON o.dr7objid = data.objid_sdss"
+2019-07-22 16:07:00,1

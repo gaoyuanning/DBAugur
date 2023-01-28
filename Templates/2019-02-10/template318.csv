@@ -1,0 +1,2 @@
+1,select all * from SppParams where plate=&&& and mjd=&&& and fiberid=&&&
+2019-02-10 09:55:00,1

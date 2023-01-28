@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.specObjID, s.specObjID, s.subclass into mydb.MyTable_# from photoObjAll as p, specObjAll as s WHERE p.specObjID = s.specObjID"
+2019-09-04 15:43:00,1

@@ -1,0 +1,2 @@
+1,"SELECT COUNT(*) FROM (SELECT AlbumId, COUNT(*) AS Num       FROM chinook.Track       GROUP BY AlbumID) GROUP BY Num"
+2019-04-24 13:45:00,1

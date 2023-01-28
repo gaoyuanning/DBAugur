@@ -1,0 +1,3 @@
+2,"select task_name, count(*) as nTasks from SciServerLog.Messages group by task_name order by count(*) desc"
+2019-09-30 12:46:00,1
+2019-09-30 14:30:00,1

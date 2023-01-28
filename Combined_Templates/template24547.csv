@@ -1,0 +1,6 @@
+5,"SELECT TOP # p.run, p.rerun, p.camCol, p.field, p.obj, p.extinction_g, p.extinction_i, p.extinction_r, p.petroMag_g, p.petroMag_i, p.petroMag_r, p.petroMagErr_g, p.petroMagErr_i, p.petroMagErr_r, p.petroR5#_r, p.petroR9#_r, IS# (s.z, #) as redshift, IS# (s.zErr, #) as redshiftErr FROM ..PhotoObj AS p LEFT OUTER JOIN ..SpecObj s ON p.objID = s.bestObjID JOIN dbo.fGetObjFromRect (#, #, #, #) AS b ON p.objID = b.objID WHERE p.petroMag_r > # AND p.petroMag_r < # AND (p.score > = #) AND (p.type = #)"
+2019-03-27 17:00:00,1
+2019-03-27 17:07:00,1
+2019-03-27 17:08:00,1
+2019-03-27 17:20:00,1
+2019-03-27 17:38:00,1

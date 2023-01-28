@@ -1,0 +1,2 @@
+1,"SELECT TOP # e.SystemStudentID as StudentID, e.GradeLevel as EnrollmentGrade, e.SchoolYear4Digit as SchoolYear4Digit, t.TestPeriod as Period, t.TestSubjectGroup as AssessmentSubject, t.TestType as MetricSource, e.SystemStudentID as MetricName, e.SystemStudentID as Score, e.SystemStudentID as IsMostRecent FROM Enrollment as e JOIN TestScores as t ON e.SystemStudentID = t.SystemStudentID"
+2019-04-12 17:16:00,1

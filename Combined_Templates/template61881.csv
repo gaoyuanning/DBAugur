@@ -1,0 +1,2 @@
+1,SELECT count (*) from galaxy WHERE ra BETWEEN # AND #
+2019-09-09 12:50:00,1

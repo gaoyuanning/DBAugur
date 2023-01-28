@@ -1,0 +1,2 @@
+1,"select top # p.objid, p.ra, p.dec, p.g, p.r into mydb.MyTable from photoObj p join specObj s on s.bestobjid = p.objid where p.g-p.r < # and p.g < # and p.r < # and s.class = #"
+2019-03-24 12:07:00,1

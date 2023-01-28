@@ -1,0 +1,2 @@
+1,"SELECT top # p.objID, p.ra, p.dec, s.z as redshift, s.class, s.subclass, s.plate, s.mjd, s.fiberid, p.u, p.g, p.r, p.i, p.z FROM photoObj p, specObj s WHERE p.clean=# and s.bestObjID = p.ObjID and (p.g <= #) and (p.u - p.g BETWEEN # AND #) and (p.g - p.r BETWEEN # AND #) and (p.r - p.i BETWEEN # AND #) and (p.i - p.z BETWEEN # AND #)"
+2019-11-14 18:12:00,1

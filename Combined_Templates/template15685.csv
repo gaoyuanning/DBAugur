@@ -1,0 +1,2 @@
+1,"select top # objID, psfMag_u as u, psfMag_g as g, psfMag_r as r, psfMag_i as i, psfMag_z as z, ra, dec from star where magnitude less than # ra BETWEEN # and # and dec BETWEEN # and #"
+2019-02-28 22:38:00,1

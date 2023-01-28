@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.ra, p.dec FROM PhotoObj p JOIN dbo.fGetObjFromRectEq (#, #, #, #) r ON p.objID = r.objID r.objID"
+2019-02-12 04:52:00,1

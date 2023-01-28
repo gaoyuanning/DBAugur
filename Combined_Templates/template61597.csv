@@ -1,0 +1,2 @@
+1,"SELECT s.plate, s.mjd, s.fiberID, s.z, s.modelMag_r, s.modelMagErr_r, m.r, m.rerr, m.z from SpecPhotoAll s, mydb.pmf_matched_qsos m into mydb.PF_matched_qsos WHERE s.plate = m.plate and s.mjd = m.mjd and s.fiberID = m.fiberid"
+2019-09-06 04:30:00,1

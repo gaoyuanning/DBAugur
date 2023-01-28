@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.plate,s.mjd,s.fiberid,dbo.fIAUFromEq(p.ra,p.[dec]) as SDSSname  FROM ..SpecObj as s  JOIN ..Galaxy AS p ON s.bestObjID = p.objID  JOIN dbo.fGetNearbySpecObjEq(#,#,#) AS b ON b.SpecobjID = S.SpecobjID  WHERE s.zWarning = #"
+2019-04-30 05:18:00,1

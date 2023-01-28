@@ -1,0 +1,6 @@
+5,"SELECT EID,[Date_first_recorded_at_location_#],[Home_location_east_co_ordinate_rounded__#],[Home_location_north_co_ordinate_rounded__#] FROM Home_locations GO"
+2019-04-16 08:58:00,1
+2019-04-16 09:00:00,1
+2019-04-16 10:13:00,1
+2019-04-16 10:15:00,1
+2019-04-16 10:18:00,1

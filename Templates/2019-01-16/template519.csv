@@ -1,0 +1,2 @@
+1,"select top # G.objID, G.ra, G.dec, zns.nvote, zns.p_el, zns.p_cw, zns.p_acw, zns.p_edge, zns.p_mg into MyDB.big_query from Galaxy as G join zooNoSpec as zns on G.objID = zns.objid where clean = # and zns.nvote > # and G.psffwhm_z between # and # and zns.p_el > # or zns.p_cw > # or zns.p_acw > # or zns.p_edge > # or zns.p_mg > #"
+2019-01-16 02:28:00,1

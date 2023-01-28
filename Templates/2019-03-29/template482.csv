@@ -1,0 +1,2 @@
+1,"SELECT all o.objID, s.specObjID, s.ra, s.dec, o.psfMag_u, o.psfMagErr_u, o.psfMag_g, o.psfMagErr_g, o.psfMag_r, o.psfMagErr_r, o.psfMag_i, o.psfMagErr_i, o.psfMag_z, o.psfMagErr_z, s.z, s.velDisp, s.velDispErr, s.class  FROM PhotoObjAll o  JOIN SpecObj as s ON o.ObjId = s.bestObjID WHERE s.class = &&& and  s.zwarning=#"
+2019-03-29 14:28:00,1

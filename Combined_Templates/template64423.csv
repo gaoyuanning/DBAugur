@@ -1,0 +1,2 @@
+1,"select ra, dec, z, class from specobjall s join dbo.fgetnearbyobjeq (#, #, #) d on d.objid = s.bestobjid where s.class = galaxy"
+2019-09-21 03:34:00,1

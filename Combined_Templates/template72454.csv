@@ -1,0 +1,2 @@
+1,"SELECT b.obsid, b.specpath, b.objra, b.objdec, a.fiberMag_g as fiber_g, a.fiberMag_r as fiber_r, a.fiberMag_i as fiber_i into mydb.dr6_cross_dr1#_fiberMag from mydb.stellar_wmx as b CROSS APPLY dbo.fGetNearestObjEq (objra, objdec, #) as c join DR1#.photoObjAll as a on a.ObjID = c.objid"
+2019-10-29 04:29:00,1

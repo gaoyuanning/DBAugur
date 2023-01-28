@@ -1,0 +1,5 @@
+4,"SELECT TOP # p.objID, p.ra, p.dec, p.petroMag_u, p.petroMag_g, p.petroMag_r, p.petroMag_i, p.petroMag_z, p.expAB_r, s.z, s.zErr FROM PhotoObjAll AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE SUBCLASS = STARFORMING"
+2019-07-22 22:47:00,1
+2019-07-22 22:51:00,1
+2019-07-22 22:53:00,1
+2019-07-22 22:54:00,1

@@ -1,0 +1,2 @@
+1,"SELECT SpecObjID, fluxObjID, z FROM SpecObj WHERE class = # AND zWarning = #"
+2019-02-01 13:11:00,1

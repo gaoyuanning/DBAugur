@@ -1,0 +1,2 @@
+1,"select ra, dec, z, zErr from SpecObjAll WHERE (ra between # and #) and (dec between # and #) and (z between # and #)"
+2019-06-27 07:25:00,1

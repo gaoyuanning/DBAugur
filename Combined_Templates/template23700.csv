@@ -1,0 +1,2 @@
+1,"SELECT p.objID, s.z FROM PhotoObjAll AS p JOIN SpecPhotoAll AS s ON p.objID = s.objID WHERE p.objID IN ()"
+2019-03-25 15:09:00,1

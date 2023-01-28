@@ -1,0 +1,2 @@
+2,"SELECT all p.objid, p.ra, p.dec into mydb.AntiPodes from PhotoObj as p where (p.type = # or p.type = # or p.type = #) and p.modelFlux_r > #e5 and p.mode = #"
+2019-09-09 06:28:00,2

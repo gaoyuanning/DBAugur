@@ -1,0 +1,2 @@
+1,"SELECT TOP # f.specobjid AS id, f.plate, f.mjd, f.fiberid AS fiber, f.ra, f.dec, f.z_noqso AS redshift, f.Z_ERR_NOQSO AS redshifterr, f.CLASS_NOQSO AS class, f.Chabrier_MILES_metallicity_lightW AS MetMilesW, f.Chabrier_MILES_age_massW AS MetMilesM, f.Chabrier_ELODIE_metallicity_lightW AS MetEloW FROM sdssEbossFirefly f WHERE f.z_noqso > # AND f.Z_ERR_NOQSO < # AND f.CLASS_NOQSO = #"
+2019-12-17 12:29:00,1

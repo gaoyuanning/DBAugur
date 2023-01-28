@@ -1,0 +1,3 @@
+3,"select top # p.objid, p.ra, p.dec, p.g, p.r, s.z from photoObj p join specObj s on s.bestobjid = p.objid where p.ra between # and # and p.dec between # and #"
+2019-02-14 13:20:00,2
+2019-02-14 14:18:00,1

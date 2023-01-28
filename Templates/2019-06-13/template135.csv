@@ -1,0 +1,2 @@
+1,"SELECT TOP # mstellar_median, mstellar_err, specObjID  from stellarMassPCAWiscBC0#  where RA = # AND DEC = #"
+2019-06-13 17:54:00,1

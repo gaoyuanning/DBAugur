@@ -1,0 +1,2 @@
+1,"select p.stable_id ,      cp.*   from cancer_study cs    inner join patient p      on p.cancer_study_id=cs.cancer_study_id    inner join clinical_patient cp      on cp.internal_id=p.internal_id  where cs.cancer_study_identifier=&&&"
+2019-04-21 07:29:00,1

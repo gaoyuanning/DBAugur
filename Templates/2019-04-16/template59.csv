@@ -1,0 +1,5 @@
+4,"SELECT TOP # s.ra, s.dec, s.psfmag_g, (s.psfmag_g - s.psfmag_r) as gmr,  pm.pmra, pm.pmdec, pm.pmraerr, pm.pmdecerr, pm.pml, pm.pmb FROM star s  JOIN propermotions pm ON s.objid = pm.objid WHERE  s.ra between #-# and #+#  and s.dec between #-# and #+#"
+2019-04-16 00:23:00,1
+2019-04-16 05:14:00,1
+2019-04-16 07:02:00,1
+2019-04-16 22:33:00,1

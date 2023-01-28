@@ -1,0 +1,4 @@
+4,"SELECT   mangaid, objra, objdec, nsa_z, nsa_sersic_mass 	 FROM dbo.mangaDrpAll	 where nsa_z># and nsa_z < # and objra > # and objra < # and objdec > # and objdec< #"
+2019-06-03 06:54:00,1
+2019-06-03 07:00:00,2
+2019-06-03 07:01:00,1

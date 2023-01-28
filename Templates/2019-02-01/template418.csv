@@ -1,0 +1,4 @@
+14,select top # p.hash from Portfolios r join Parameters p on p.hash=r.hash where p.hash=# and progress=#
+2019-02-01 10:01:00,4
+2019-02-01 10:02:00,2
+2019-02-01 10:06:00,8

@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.ra, p.dec, p.psffwhm_r into mydb.MyTable1# from PhotoPrimary AS p LEFT OUTER JOIN photoz AS z ON p.objID = z.objID WHERE ( (p.dered_g < #) OR (p.dered_r < #) OR (p.dered_i < #) ) and (p.type = #) and (p.psfMag_r> #) and (p.psfMag_r< =#)"
+2019-04-12 00:17:00,1

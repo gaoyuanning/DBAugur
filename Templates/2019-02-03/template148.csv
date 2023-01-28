@@ -1,0 +1,2 @@
+1,"SELECT DISTINCT plate, mjd FROM SpecPhoto WHERE class=&&& AND survey = &&& ORDER BY plate, mid"
+2019-02-03 16:42:00,1

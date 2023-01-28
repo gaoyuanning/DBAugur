@@ -1,0 +1,3 @@
+2,"select s.plate,s.mjd,s.fiberid,s.mstellar_median from stellarMassPCAWiscBC0# as s where (s.plate=# and s.mjd=# and s.fiberid=#) or (s.plate=# and s.mjd=# and s.fiberid=#)"
+2019-11-08 18:34:00,1
+2019-11-08 18:39:00,1

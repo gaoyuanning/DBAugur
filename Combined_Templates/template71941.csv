@@ -1,0 +1,2 @@
+1,"SELECT spatial_reference_id, unit_of_measure FROM sys.spatial_reference_systems --WHERE spatial_reference_id < = #"
+2019-10-27 17:26:00,1

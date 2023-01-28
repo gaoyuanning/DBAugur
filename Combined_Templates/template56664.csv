@@ -1,0 +1,2 @@
+1,"SELECT m.PGC_name o.objID, o.petroMag_u, o.petroMag_r FROM PhotoObjAll AS o INNER JOIN MyDB.PGC AS m ON o.objID = m.objID"
+2019-08-10 13:50:00,1

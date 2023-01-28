@@ -1,0 +1,2 @@
+1,"SELECT top # objid  AS name, ra, dec  FROM PhotoObj WHERE   score > #  AND u BETWEEN # AND #"
+2019-07-31 17:43:00,1

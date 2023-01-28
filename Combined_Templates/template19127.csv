@@ -1,0 +1,3 @@
+3,"select c.search_id, c.ra2 as ra, c.dec2 as dec, j, jIvar, h, hIvar, k, kIvar, phQual into cc2psc from mydb.cc2ph as c join TwoMass as x on c.objid = x.objID"
+2019-03-10 15:30:00,2
+2019-03-10 15:33:00,1

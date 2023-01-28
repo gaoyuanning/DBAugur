@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, parallax, pmra, pmdec, phot_g_mean_, bp_rp into mydb.MyTable from query_# AS query   JOIN targets_# AS targets ON query.source_id = targets.source_id"
+2019-07-26 13:48:00,1

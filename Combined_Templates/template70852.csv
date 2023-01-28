@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID , lgm_tot_p9#p5, sfr_tot_entropy FROM galSpecExtra with (nolock) WHERE lgm_tot_p9#p5 AND sfr_tot_entropy ! =#;"
+2019-10-21 07:14:00,1

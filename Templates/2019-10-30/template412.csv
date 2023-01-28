@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.plate, s.mjd, s.fiberid FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   CLASS = &&& AND SNMEDIAN > #"
+2019-10-30 06:41:00,1

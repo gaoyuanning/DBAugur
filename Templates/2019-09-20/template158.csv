@@ -1,0 +1,2 @@
+1,"SELECT sum(np) as sumnp, count(*) as cnt from mr where treeRootId=# and descendantId=#"
+2019-09-20 18:02:00,1

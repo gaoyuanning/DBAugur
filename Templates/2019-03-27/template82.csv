@@ -1,0 +1,12 @@
+16,"SELECT s.specObjID, g.class, g.subClass, g.z, g.ra, g.dec, g.plate, g.fiberID, g.MJD, s.oii_#_flux as OII3#, s.oiii_#_flux as OIII4#,s.oiii_#_flux as OIII5#, s.h_beta_flux as HBeta,s.h_alpha_flux as HAlpha,s.nii_#_flux as NII6# FROM galSpecLine s JOIN specObj g ON g.specObjID = s.specObjID WHERE g.plate = # AND g.fiberID = #"
+2019-03-27 16:14:00,1
+2019-03-27 16:27:00,1
+2019-03-27 16:39:00,1
+2019-03-27 16:40:00,4
+2019-03-27 16:42:00,1
+2019-03-27 16:48:00,1
+2019-03-27 19:43:00,3
+2019-03-27 19:57:00,1
+2019-03-27 19:58:00,1
+2019-03-27 20:01:00,1
+2019-03-27 20:58:00,1

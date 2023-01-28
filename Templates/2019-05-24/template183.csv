@@ -1,0 +1,4 @@
+3,"select survey, run2d, plate,mjd, fiberID, specObjID from SpecObj where class = &&& and ra between # and # and dec between # and #"
+2019-05-24 20:24:00,1
+2019-05-24 20:28:00,1
+2019-05-24 20:30:00,1

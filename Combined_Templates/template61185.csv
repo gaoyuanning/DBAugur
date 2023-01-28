@@ -1,0 +1,2 @@
+1,"SELECT p.SpecObj, p.specClass as specClass, WHERE p.SpecObj > #,"
+2019-09-05 11:35:00,1

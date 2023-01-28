@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.specObjID, s.ra, s.dec, s.ugriz, s.mags, s.z FROM SpecObjAll AS s JOIN PlateX AS p WHERE (s.class = #) AND s.z > #"
+2019-03-26 21:43:00,1

@@ -1,0 +1,2 @@
+1,"SELECT objID, type, probPSF, modelMag_r, ra, dec INTO [myscratch:default].SDSS_fullS8#_photoall_# FROM PhotoObj as spec WHERE spec.dec <= # AND spec.dec >= # AND   (spec.ra > #. OR spec.ra < #.) AND   spec.modelmag_r < #."
+2019-11-20 15:29:00,1

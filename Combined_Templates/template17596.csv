@@ -1,0 +1,2 @@
+1,"select Run1, Run2, Dist = round (distance/@bin) *@bin, count_big (Run1) into MyDB.S8#MatchStarsPrimary0# from Match m join PhotoTag1 t1 on t1.ObjID = m.ObjID1 join PhotoTag2 t2 on t2.ObjID = m.ObjID2 and t2.psfMag_r between t1.psfMag_r-# and t1.psfMag_r+# where type1 = # and type2 = # and mode1 = # and mode2 = # group by Run1, Run2, round (distance/@bin) *@bin order by #, #, #"
+2019-03-05 08:50:00,1

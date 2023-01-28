@@ -1,0 +1,2 @@
+1,"SELECT top # G.objid, b.distance,    from Galaxy as G   CROSS APPLY dbo.fGetNearbyObjEq(#,#, .#) b   order by distance      --   SELECT TOP # G.objID, GN.distance -- FROM Galaxy as G -- JOIN dbo.fGetNearbyObjEq(#,#, .#) AS GN -- ON G.objID = GN.objID -- ORDER BY distance"
+2019-01-22 16:45:00,1

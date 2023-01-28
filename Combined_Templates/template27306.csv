@@ -1,0 +1,3 @@
+3,"SELECT SPA.ra, SPA.dec, SPA.z, SPA.petroMag_u, SPA.petroMag_g, SPA.petroMag_r, PA.fracDeV_r, FSPSG.ssfr, FSPSG.logMass, Specline.h_delta_flux into GU2#_hw3_w3 From SpecPhotoAll as SPA, PhotoObjAll as PA, stellarMassFSPSGranEarlyDust as FSPSG, galSpecline as Specline Where SPA.class = # and SPA.z < # and SPA.specObjID = PA.specObjID and SPA.specObjID = FSPSG.specobjID and SPA.specObjID = Specline.specObjID"
+2019-04-03 15:03:00,2
+2019-04-03 15:05:00,1

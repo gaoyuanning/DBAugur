@@ -1,0 +1,2 @@
+2,"SELECT s.specobjid, p.ra, p.dec, p.dered_u, p.dered_g, p.dered_r, p.dered_i, p.dered_z, s.z as redshift into rash from dr1#.PhotoObjAll AS p JOIN DR1#.SpecObj AS s ON s.bestobjid = p.objid JOIN MyDB.SPRC_New_candidates AS m ON m.Objid = p.objid WHERE p.objid = #"
+2019-07-24 11:25:00,2

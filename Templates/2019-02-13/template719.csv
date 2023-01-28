@@ -1,0 +1,2 @@
+1,"SELECT n.objid, z.ra, z.dec, z.specobjid, z.objid, z.dr7objid, z.p_cs, z.p_el, z.p_dk, z.p_mg FROM fGetNearbyObjEq(#,#,#) as n INNER JOIN zooNoSpec z ON n.objID=z.objID"
+2019-02-13 04:56:00,1

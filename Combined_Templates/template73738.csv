@@ -1,0 +1,2 @@
+1,"SELECT TOP p.ra, p.dec, p.psfMag_u as u, p.psfMag_g as g, p.psfMag_r as r, p.psfMag_i as i, p.z FROM PhotoObj AS p WHERE p.ra BETWEEN # AND # AND p.dec BETWEEN # AND #"
+2019-11-04 09:20:00,1

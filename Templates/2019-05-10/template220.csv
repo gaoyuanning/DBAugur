@@ -1,0 +1,2 @@
+1,"select ra as xcol, dec as ycol from target_galaxies where  ra between # and # AND dec between # and #"
+2019-05-10 15:48:00,1

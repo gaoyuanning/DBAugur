@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z FROM BESTDR7..PhotoObj AS p JOIN #x AS x ON x.objID = p.objID JOIN #upload AS u ON u.up_id = x.up_id WHERE (p.type = # OR p.type = #) ORDER BY x.up_id"
+2019-06-10 21:13:00,1

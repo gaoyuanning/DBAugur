@@ -1,0 +1,4 @@
+3,"select top # h.x,h.y,h.z,h.phkey,h.halfmassradius,sh.* ,      floor(sh.subhaloid/#) as derived_snapnum ,      floor((sh.subhaloid-sh.snapnum*#)/#) as derived_filenr ,      sh.subhaloid-cast(sh.snapnum as bigint)*#-#*floor((sh.subhaloid-cast(sh.snapnum as bigint)*#)/#) as derived_rank   from MR h   ,    MField..fofsubhalo sh  where h.snapnum=#      and sh.subhaloid=h.subhalofileid     and h.np between # and #     and h.haloid=h.firsthaloinfofgroupid  order by newid()"
+2019-04-09 15:16:00,1
+2019-04-09 15:23:00,1
+2019-04-09 17:53:00,1

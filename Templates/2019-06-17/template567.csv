@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec, s.z,s.bestObjID FROM PhotoObjAll AS p JOIN specObj AS s ON s.bestObjID = p.objID WHERE s.ra BETWEEN # and #  AND s.dec BETWEEN # and #  AND s.class = &&&  AND (legacy_target1 & (# | # | #)) > #  AND s.z BETWEEN # and #  AND s.zWarning = # ORDER BY s.ra"
+2019-06-17 00:31:00,1

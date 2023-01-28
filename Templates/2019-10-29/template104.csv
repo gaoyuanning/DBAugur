@@ -1,0 +1,4 @@
+3,"select distinct c.field, o.description  	from DataConstants c, DBObjects o 	where o.type=&&& and o.name = c.field"
+2019-10-29 11:26:00,1
+2019-10-29 12:11:00,1
+2019-10-29 20:47:00,1

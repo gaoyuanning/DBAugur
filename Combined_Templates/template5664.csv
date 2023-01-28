@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.g, p.r, p.i, (p.r-p.i) as #, (p.g-p.r) as #, p.type as obj_ph_type, s.tile, s.boss_target1, s.specobjid, s.class, s.subclass, s.z as spec_redshift, p.z as photo_redshift into mydb.lowz_flags from PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE (BOSS_TARGET1 & #) ! = # AND SPECPRIMARY = = # AND ZWARNING_NOQSO = = # AND TILEID > = #"
+2019-01-24 18:05:00,1

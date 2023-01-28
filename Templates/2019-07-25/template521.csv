@@ -1,0 +1,2 @@
+1,"select sp.plate, sp.mjd, sp.fiberid, so.snMedian, sp.psfmag_g, sp.psfmag_r,psfmag_g-psfmag_r as gmr ---select count(*) into mydb.starsformattd from specphotoall sp    join specobjall so on sp.specobjid = so.specobjid where sp.psfmag_r < #   and sp.psfmag_r > #   and sp.psfmag_g-sp.psfmag_r < #   and sp.sciencePrimary = #   and so.snMedian > #   and sp.zwarning = #"
+2019-07-25 02:21:00,1

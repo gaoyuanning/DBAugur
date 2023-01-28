@@ -1,0 +1,3 @@
+2,"SELECT S.plate, S.MJD, S.fiberID, S.teffa, S.feha, S.logga from sppParams as S WHERE (S.ra BETWEEN # AND #) AND (S.feha BETWEEN # AND #) AND (S.logga BETWEEN # AND #)"
+2019-03-03 11:28:00,1
+2019-03-03 12:37:00,1

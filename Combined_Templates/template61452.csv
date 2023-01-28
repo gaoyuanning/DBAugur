@@ -1,0 +1,2 @@
+1,"select top # ObjID, r, g, i, u, u-r as redness, ra, dec FROM Galaxy as G"
+2019-09-06 14:37:00,1

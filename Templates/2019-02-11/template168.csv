@@ -1,0 +1,2 @@
+1,"select  modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z from photoObj where class = &&& or class = &&&"
+2019-02-11 22:09:00,1

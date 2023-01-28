@@ -1,0 +1,5 @@
+4,"SELECT TOP # s.class, g.b, g.l, s.z as redshift, s.subClass, g.petroRad_u, g.petroRad_g, g.petroRad_r, g.petroRad_i, g.petroRad_z, g.petroR5#_u, g.petroR5#_g, g.petroR5#_r, g.petroR5#_i, g.petroR5#_z, g.petroR9#_u, g.petroR9#_g, g.petroR9#_r, g.petroR9#_i, g.petroR9#_z, g.q_u, g.q_g, g.q_r, g.q_i, g.q_z, g.u_u, g.u_g, g.u_r, g.u_i, g.u_z, g.mE1_u, g.mE1_g, g.mE1_r, g.mE1_i, g.mE1_z, g.mE2_u, g.mE2_g, g.mE2_r, g.mE2_i, g.mE2_z, g.deVMag_u, g.deVMag_g, g.deVMag_r, g.deVMag_i, g.deVMag_z, g.expRad_u, g.expRad_g, g.expRad_r, g.expRad_i, g.expRad_z FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN Galaxy as g ON p.objid = g.objid WHERE s.subClass ! = #"
+2019-05-10 08:39:00,1
+2019-05-10 08:44:00,1
+2019-05-10 08:45:00,1
+2019-05-10 08:46:00,1

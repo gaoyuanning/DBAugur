@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.dered_g, s.z as z_spec, so.ID_CATALOG   FROM Galaxy as p    JOIN SpecObj AS s ON s.bestobjid = p.objid    JOIN SpecObjALL AS so ON so.specObjID = so.specobj WHERE p.clean=# and zns.nvote >= # and zns.p_cw > #"
+2019-09-11 08:49:00,1

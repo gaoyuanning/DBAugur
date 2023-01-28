@@ -1,0 +1,2 @@
+2,"SELECT so.specObjID, s.ra, s.dec, s.g, s.r, so.specObjID FROM Star as s   LEFT OUTER JOIN SpecObj AS so ON so.bestObjID = s.objID WHERE (s.ra between # and #) AND (s.dec between # and #) AND (s.g > #) and (s.g < #) AND so.specObjID"
+2019-02-23 16:37:00,2

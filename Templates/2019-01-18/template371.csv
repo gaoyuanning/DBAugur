@@ -1,0 +1,3 @@
+2,"SELECT COUNT(*) ra,dec,z into mydb.MyTable from PhotoObj  WHERE  zWarning=# AND z># AND class=&&& AND ra># AND ra<# ORDER by z"
+2019-01-18 10:32:00,1
+2019-01-18 10:33:00,1

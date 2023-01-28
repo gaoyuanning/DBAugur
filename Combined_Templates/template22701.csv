@@ -1,0 +1,2 @@
+2,"SELECT ra, dec FROM Galaxy as G, dbo.fGetNearbyObjEq (#, #, #) as N WHERE G.objID = N.objID into mydb.Cercaincerchio"
+2019-03-22 10:21:00,2

@@ -1,0 +1,2 @@
+1,"SELECT  sp.mRrCc_r, sp.mRrCcErr_r, sp.score, sp.resolveStatus, sp.calibStatus_u, sp.calibStatus_g, sp.calibStatus_r, sp.calibStatus_i, sp.calibStatus_z, sp.photoRa, sp.photoDec into mydb.DR1#_# from SpecPhoto AS sp WHERE z BETWEEN # AND #   AND class=&&&"
+2019-01-31 12:44:00,1

@@ -1,0 +1,6 @@
+7,"select initial, count(initial) as count from (select substring(name,#,#) as initial from chinook.artist) as temp group by initial"
+2019-04-19 16:25:00,1
+2019-04-19 16:26:00,1
+2019-04-19 16:27:00,3
+2019-04-19 16:30:00,1
+2019-04-19 16:31:00,1

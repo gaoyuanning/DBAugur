@@ -1,0 +1,2 @@
+1,"select top # * from SpecObjAll as s, mangaDRPall as m where s.plateID = m.plate"
+2019-10-21 01:47:00,1

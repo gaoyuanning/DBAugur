@@ -1,0 +1,6 @@
+5,"select top # z, ra, dec, bestObjID, plate , class, zErr from specObj where # >z and z ># and zWarning = #"
+2019-06-04 09:43:00,1
+2019-06-04 11:42:00,1
+2019-06-04 12:36:00,1
+2019-06-04 14:56:00,1
+2019-06-04 16:12:00,1

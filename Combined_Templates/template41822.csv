@@ -1,0 +1,2 @@
+3,"SELECT top # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.field, p.type FROM PhotoObj AS p where p.type = # ORDER BY RAND ()"
+2019-05-27 14:45:00,3

@@ -1,0 +1,2 @@
+1,"SELECT TOP # zs.objid, zs.ra, zs.dec, zs.nvote, zs.p_el,zs.p_cw, zs.p_acw, zs.p_edge, zs.p_dk, zs.p_mg, zs.p_cs, p.objid, p.petroR9#_g, p.ra,p.dec, p.run, p.rerun, p.camcol, p.field FROM ZooSpec AS zs JOIN PhotoObj AS p ON p.objid = zs.objid WHERE zs.p_cw+zs.p_acw > # OR zs.p_el > # AND p.petroR9#_g > # AND p.petroR9#_g < #"
+2019-06-19 05:35:00,1

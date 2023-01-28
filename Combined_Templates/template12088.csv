@@ -1,0 +1,2 @@
+1,SELECT * FROM PhotoObjAll WITH (NOLOCK) WHERE mode = #
+2019-02-18 09:00:00,1

@@ -1,0 +1,4 @@
+3,"SELECT s.specObjID, s.ra, s.dec, s.z, s.class, s.zWarning, s.snMedian, el.ra1, el.dec1, e.bpt, e.Flux_Hb_#, e.Flux_OIII_#, e.Flux_OI_#, e.Flux_Ha_#, e.Flux_NII_#, e.Flux_SII_#, e.Flux_SII_# into mydb.bcg_zspec_emissionlinedr1# from mydb.BCG2 as el CROSS APPLY dbo.fGetNearestSpecObjEq (el.ra1, el.dec1, #) AS near JOIN SpecObjAll as s ON near.specObjID = s.specObjID JOIN emissionLinesPort AS e ON e.specObjID = near.specObjID WHERE s.class = # AND s.zWarning = #"
+2019-04-19 10:41:00,1
+2019-04-19 10:43:00,1
+2019-04-19 10:48:00,1

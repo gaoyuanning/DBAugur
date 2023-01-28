@@ -1,0 +1,2 @@
+2,"select   mg.specObjID,  gse.oh_p5#, gse.lgm_tot_p5#, gse.sfr_tot_p5#, gse.sfr_fib_p5#, gse.sfr_fib_p5#, gse.specsfr_fib_p5# from   MyDB.galBA mg, galSpecExtra gse where   mg.specObjID = gse.specObjID"
+2019-07-05 14:12:00,2

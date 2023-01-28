@@ -1,0 +1,2 @@
+1,"select top # s.z, g.petroRad_r From Galaxy as g Join SpecObj as s ON g.ObjID = s.bestObjID Where modelMag_g-modelMag_r > #"
+2019-02-07 17:22:00,1

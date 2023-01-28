@@ -1,0 +1,5 @@
+4,"CREATE TABLE [r2#][Urine_processing] (eid BIGINT NOT # , [Creatinine_enzymatic_in_urine_acquisition_time_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Creatinine_enzymatic_in_urine_device_ID_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Microalbumin_in_urine_acquisition_time_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Microalbumin_in_urine_device_ID_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Potassium_in_urine_acquisition_time_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Potassium_in_urine_device_ID_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Sodium_in_urine_acquisition_time_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Sodium_in_urine_device_ID_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , PRIMARY KEY (eid) ) GO"
+2019-04-15 14:29:00,1
+2019-04-15 14:32:00,1
+2019-04-15 14:33:00,1
+2019-04-15 14:35:00,1

@@ -1,0 +1,2 @@
+1,"CREATE TABLE [Other_sociodemographic_factors] ( 	eid BIGINT NOT NULL ,	[Attendance_disability_mobility_allowance_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Private_healthcare_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=# ,PRIMARY KEY (eid)) GO"
+2019-05-01 09:25:00,1

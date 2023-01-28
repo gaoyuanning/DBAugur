@@ -1,0 +1,2 @@
+1,"SELECT ra,dec,z from SpecObj   where class=&&& and zWarning=#"
+2019-05-13 08:41:00,1

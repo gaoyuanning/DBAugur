@@ -1,0 +1,2 @@
+1,"select *, Dsec = distance*# from Match where type1 = # and type2 = # -- stars and mode1 = # and mode2 = # -- primary) select top # * from p"
+2019-03-05 08:41:00,1

@@ -1,0 +1,2 @@
+2,"select ra, dec, objid, run, rerun, camcol, field from PhotoObj where (run = #) and (camcol = #) and (field = #)"
+2019-04-07 02:34:00,2

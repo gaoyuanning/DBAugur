@@ -1,0 +1,2 @@
+1,"SELECT TOP #    p.u, p.g, p.r, p.i, p.z, s.class, s.subclass, s.z as redshift, s.zerr as redshift_error, s.zwarning as redshift_warning FROM PhotoObj AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE     p.u BETWEEN # AND #    AND p.g BETWEEN # AND #    AND p.r BETWEEN # AND #    AND p.i BETWEEN # AND #    AND p.z BETWEEN # AND #    AND s.zwarning = #    AND (s.class = &&& OR s.class = &&& OR s.class = &&&)"
+2019-09-28 10:44:00,1

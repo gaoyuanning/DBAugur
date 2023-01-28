@@ -1,0 +1,3 @@
+2,"select    absmjd.OBSID_forfit,absmjd.SpObjID,absmjd.mjd,dr.MJD,   dr.elpetro_absmag_u,dr.elpetro_absmag_g,dr.elpetro_absmag_r,dr.elpetro_absmag_i,dr.elpetro_absmag_z  into mydb.absmag_abs_forfit from DR1#.nsatlas AS dr    join mjd_abs_forfit AS absmjd    ON dr.MJD=absmjd.mjd;"
+2019-04-19 06:39:00,1
+2019-04-19 06:40:00,1

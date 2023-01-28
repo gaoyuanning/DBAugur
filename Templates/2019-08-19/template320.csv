@@ -1,0 +1,2 @@
+1,"select P.ra, P.dec from   PhotoPrimary P    where   P.dec>#    AND P.dec<#"
+2019-08-19 06:47:00,1

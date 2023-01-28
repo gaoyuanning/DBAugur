@@ -1,0 +1,2 @@
+1,"SELECT ALL ROW_NUMBER() OVER (ORDER BY s.z ASC) as RowNumber, count(s.specobjid) FROM RC3 AS g JOIN SpecObj AS s ON s.specobjid = g.objid"
+2019-03-13 07:43:00,1

@@ -1,0 +1,4 @@
+3,select e.* from genes g join exons e on e.gene_id=g.gene_id where g.symbol=&&&
+2019-01-07 09:43:00,1
+2019-01-07 09:44:00,1
+2019-01-07 09:49:00,1

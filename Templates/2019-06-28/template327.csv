@@ -1,0 +1,2 @@
+1,"select objTypeName,z as redshift,g from SpecObj WHERE g># and g<# and objType=# and ra BETWEEN # AND # AND dec BETWEEN # AND #"
+2019-06-28 13:48:00,1

@@ -1,0 +1,9 @@
+8,"SELECT G.source_id, G.radial_velocity, G.radial_velocity_error, G.ra, G.ra_error, G.dec, G.dec_error, G.parallax, G.parallax_error, G.pmra, G.pmra_error, G.pmdec, G.pmdec_error, G.ra_dec_corr, G.ra_parallax_corr, G.ra_pmra_corr, G.ra_pmdec_corr, G.dec_parallax_corr, G.dec_pmra_corr, G.dec_pmdec_corr, G.parallax_pmra_corr, G.parallax_pmdec_corr, G.pmra_pmdec_corr into mydb.MyTable_# from gaiadr2.gaia_source G WHERE G.radial_velocity IS NOT Null AND G.parallax_over_error>#. AND G.parallax > #"
+2019-06-10 03:19:00,1
+2019-06-10 03:25:00,1
+2019-06-10 03:44:00,1
+2019-06-10 03:55:00,1
+2019-06-10 04:03:00,1
+2019-06-10 04:04:00,1
+2019-06-10 04:17:00,1
+2019-06-10 04:44:00,1

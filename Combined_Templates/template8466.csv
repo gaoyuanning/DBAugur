@@ -1,0 +1,2 @@
+1,"SELECT n.objid, m.rmapid, m.ra as ra, m.dec as dec, s.z as z_spec, m.z_lambda as zlambda, o.deVRad_r, o.deVAB_r, o.deVPhi_r, n.distance, m.lambda as lambda, m.mstar as mstar, m.p_cen0 as p_cen, m.Dn4#, m.MtoLz, m.logAge, m.Metal into mydb.MyTable_radius from myDB.redmapper_mstar as m cross apply dbo.fGetNearestObjEq (m.ra, m.dec, #) as n join Galaxy as o on n.objid = o.objID join SpecObj as s on n.objid = s.bestobjID"
+2019-02-05 03:03:00,1

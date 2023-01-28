@@ -1,0 +1,2 @@
+1,"select specObjID, ra, dec, psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z,   psfMagErr_u, psfMagErr_g, psfMagErr_r, psfMagErr_i, psfMagErr_z, subClass, z, zWarning into mydb.strip8# from SpecPhotoAll"
+2019-04-24 05:20:00,1

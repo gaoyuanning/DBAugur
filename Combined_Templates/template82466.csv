@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.psfMag_g, s.run, s.camCol, s.rerun, s.field into mydb.MyTable from Star s JOIN Field f ON s.fieldID = f.fieldID WHERE s.psfMag_g < # and f.pspStatus = #"
+2019-12-12 10:44:00,1

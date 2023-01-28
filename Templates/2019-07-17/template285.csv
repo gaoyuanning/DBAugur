@@ -1,0 +1,4 @@
+6,"SELECT ObjID, ra, dec, petroMag_u, petroMag_g, petroMag_r, petroMag_z, petroMag_i,         petroMagErr_u, petroMagErr_g, petroMagErr_r, petroMagErr_z, petroMagErr_i into mydb.rxj1# from Galaxy 	 WHERE   ra > # and ra < # and dec > # and dec < #"
+2019-07-17 13:52:00,2
+2019-07-17 13:53:00,3
+2019-07-17 13:54:00,1

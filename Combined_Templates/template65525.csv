@@ -1,0 +1,2 @@
+1,"SELECT spe.ra, spe.dec, spe.z, spe.subclass, zo.spiral, zo.elliptical FROM SpecObj spe JOIN zooSpec zo ON spe.specObjID = zo.specobjid WHERE spe.ra > # and spe.ra < # AND spe.dec > # and spe.dec < # And spe.class = #"
+2019-09-25 04:48:00,1

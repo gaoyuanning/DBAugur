@@ -1,0 +1,3 @@
+2,"select ra,dec,objID,run,rerun,type,u, g, r, i, z,SpecObjID from PhotoPrimary where ra># AND ra<# AND dec># AND dec<# AND type=#"
+2019-03-03 11:34:00,1
+2019-03-03 12:42:00,1

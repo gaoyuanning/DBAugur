@@ -1,0 +1,2 @@
+1,select top(#) * from VALS where varid = #
+2019-12-15 11:35:00,1

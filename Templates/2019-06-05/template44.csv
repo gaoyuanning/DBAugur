@@ -1,0 +1,16 @@
+16,"select s.modelMag_u, s.modelMag_g, s.modelMag_r, s.modelMag_i, s.modelMag_z, s.ra, s.dec, s.z, s.ObjID, s.mjd, s.plate, s.fiberID from SpecPhotoAll as s, dbo.fGetNearbyObjEq(#,#,#) n where s.objID = n.objID and s.class = &&& and s.z between # and #"
+2019-06-05 09:42:00,1
+2019-06-05 09:45:00,1
+2019-06-05 09:49:00,1
+2019-06-05 17:12:00,1
+2019-06-05 17:19:00,1
+2019-06-05 17:22:00,1
+2019-06-05 17:25:00,1
+2019-06-05 18:01:00,1
+2019-06-05 18:05:00,2
+2019-06-05 18:09:00,1
+2019-06-05 18:19:00,1
+2019-06-05 23:10:00,1
+2019-06-05 23:14:00,1
+2019-06-05 23:18:00,1
+2019-06-05 23:27:00,1

@@ -1,0 +1,3 @@
+2,"SELECT TOP # g.objid, g.ra, g.dec,g.deVRad_g, g.petroFlux_g,g.specObjID, s.z FROM Galaxy as g JOIN SpecObjAll as s ON g.specObjID = s.specObjID INTO MyDB.galaxies WHERE s.z < # AND (g.petroFlux_g BETWEEN # AND #) AND g.type=# AND clean=# AND (g.lnLDeV_g < #);"
+2019-02-06 01:26:00,1
+2019-02-06 01:27:00,1

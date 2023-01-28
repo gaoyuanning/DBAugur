@@ -1,0 +1,3 @@
+2,"SELECT T.ID, T.hostra, T.hostdec, S.SpecObjID INTO mydb.compareSpec_ObjID FROM mydb.SQL_Table as T CROSS APPLY dbo.fGetNearestSpecObjAllEq (T.hostra, T.hostdec, #) as S WHERE S.SpecObjID IS NOT #"
+2019-07-08 13:56:00,1
+2019-07-08 13:57:00,1

@@ -1,0 +1,2 @@
+1,"select S.specObjID from PhotoObj p, PlateX X, SpecObj S, where p.objid = x.plateid = s.specobjid"
+2019-02-13 15:58:00,1

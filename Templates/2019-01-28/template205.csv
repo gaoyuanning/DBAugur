@@ -1,0 +1,2 @@
+1,"SELECT objID,specobjid, p.ra, p.dec, p.petroMag_g, p.petroMag_r, p.clean, p.type, g.h_alpha_reqw, g.h_alpha_reqw_err, g.h_alpha_flux, g.h_alpha_flux_err, s.z, s.zErr FROM PhotoObjAll as p, SpecObjAll as s, galSpecLine as g WHERE (p.ra between # and #) and (p.dec between # and #) and (p.petroMag_g <= #) and (s.z < #)"
+2019-01-28 17:42:00,1

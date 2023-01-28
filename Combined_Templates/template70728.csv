@@ -1,0 +1,3 @@
+2,"SELECT top # p.objid, p.ra, p.dec, p.deVRad_u, p.deVRad_g, p.deVRad_r, p.deVRad_i, p.deVRad_z, p.expRad_u, p.expRad_g, p.expRad_r, p.expRad_i, p.expRad_z, p.u, p.g, p.r, p.i, p.z FROM galaxy p WHERE (htmid*# & # < (# * #) ) AND (p.u BETWEEN # AND #) AND (p.g BETWEEN # AND #) AND (p.r BETWEEN # AND #) AND (p.i BETWEEN # AND #) AND (p.z BETWEEN # AND #) and clean = #"
+2019-10-21 15:08:00,1
+2019-10-21 15:09:00,1

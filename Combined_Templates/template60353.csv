@@ -1,0 +1,2 @@
+2,select logmass from stellarMassStarformingPort where ra> # and ra< # and dec> # and dec< #
+2019-09-02 01:48:00,2

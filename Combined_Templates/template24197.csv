@@ -1,0 +1,2 @@
+1,"SELECT id.specObjID, gsp.oiii_#_flux, gsp.oiii_#_flux_err, gsp.h_beta_flux, gsp.h_beta_flux_err, gsp.nii_#_flux, gsp.nii_#_flux_err, gsp.h_alpha_flux, gsp.h_alpha_flux_err, gsp.oi_#_flux, gsp.oi_#_flux_err, gsp.sii_#_flux, gsp.sii_#_flux_err, gsp.sii_#_flux, gsp.sii_#_flux_err, gsp.h_alpha_eqw, gsp.h_alpha_eqw_err into mydb.nsa_bpt from MyDB.nsa_ID AS id, galSpecLine AS gsp WHERE id.specObjID = gsp.specObjID"
+2019-03-26 14:18:00,1

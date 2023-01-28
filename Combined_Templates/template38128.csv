@@ -1,0 +1,3 @@
+2,"SELECT p.ra, p.dec, z.z, z.zErr, q = CASE WHEN p.lnLExp_r < p.lnLDeV_r THEN p.DeVAB_r WHEN p.lnLExp_r > p.lnLDeV_r THEN p.expAB_r END, phi = CASE WHEN p.lnLExp_r < p.lnLDeV_r THEN p.DeVPhi_r WHEN p.lnLExp_r > p.lnLDeV_r THEN p.expPhi_r END, p.petroMag_r, p.petroMag_u, p.fracDeV_r FROM PhotoObj p -- galaxies nearby ra = # and dec = #. This target galaxy has a redshift of z = #, so # Mpc corresponds to # arcmin at this distance JOIN dbo.fGetNearbyObjEq (#, #, #) n ON n.objID = p.objID JOIN Photoz z ON z.objID = n.objID WHERE p.type = # AND z.z < # + #*z.zErr AND z.z > # - #*z.zErr"
+2019-05-09 16:29:00,1
+2019-05-09 16:30:00,1

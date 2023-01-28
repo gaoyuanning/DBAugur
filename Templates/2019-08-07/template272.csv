@@ -1,0 +1,2 @@
+1,"SELECT TOP1# objid, ra, dec, Redshift, petroRad_r FROM  GALAXY WHERE ra BETWEEN #-# and #+#  AND dec BETWEEN #-# and #+#"
+2019-08-07 14:35:00,1

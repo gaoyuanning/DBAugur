@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.fiberMag_g, p.mjd, n.distance*# FROM fGetNearbyObjEq (#, #, #/#) n, SpecObj p, Field f WHERE n.objID = p.specObjID and objType = STAR_CATY_VAR"
+2019-12-03 11:14:00,1

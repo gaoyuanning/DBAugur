@@ -1,0 +1,2 @@
+1,"select specobjid, z, survey from specobj where CLASS = # AND ZWARNING = # AND Z BETWEEN # AND # and z between # and # and survey = # or survey = #"
+2019-03-28 11:50:00,1

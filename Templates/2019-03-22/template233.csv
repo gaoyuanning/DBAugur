@@ -1,0 +1,2 @@
+1,"select top # max(modelMag_g), ra, dec from PhotoTag where class = STARS&&&"
+2019-03-22 19:24:00,1

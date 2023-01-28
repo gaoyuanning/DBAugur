@@ -1,0 +1,2 @@
+1,"select top # ra, dec from PhotoTag where type = &&& AND g < # order by modelMag_g desc"
+2019-03-29 17:07:00,1

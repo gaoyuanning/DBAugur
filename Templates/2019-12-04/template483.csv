@@ -1,0 +1,2 @@
+1,"SELECT stripe, datestring FROM Run WHERE run = #"
+2019-12-04 08:01:00,1

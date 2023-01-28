@@ -1,0 +1,5 @@
+7,"select s.plate,s.fiberid from SpecObj as s JOIN PhotoObj as p ON s.bestobjid = p.objid where p.objId =#"
+2019-05-25 18:57:00,2
+2019-05-25 18:58:00,3
+2019-05-25 19:59:00,1
+2019-05-25 20:03:00,1

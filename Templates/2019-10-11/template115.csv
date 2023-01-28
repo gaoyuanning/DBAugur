@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.ra, s.dec, g.modelmag_g, modelmag_r, g.devmag_g, g.devmag_r, g.expmag_g, g.expmag_r, g.devrad_g, g.devrad_r, g.exprad_g, g.exprad_r, devab_g, g.devab_r, g.expab_g, g.expab_r, extinction_g, extinction_r, s.z, g.petroR9#_r/g.petroR5#_r as Concentration_Index FROM galaxy g, specObj s     WHERE s.eclass > #     and g. fracdev_g >= #     and g.fracdev_g < #     and g.petroR9#_r/g.petroR5#_r < #"
+2019-10-11 18:28:00,1

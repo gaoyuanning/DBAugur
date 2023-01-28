@@ -1,0 +1,2 @@
+1,"select a.specobjid,petroMag_u,petroMag_g,petroMag_r,petroMag_i,petroMag_z,petroMagErr_u,petroMagErr_g,petroMagErr_r,petroMagErr_i,petroMagErr_z,dered_u,dered_g,dered_r,dered_i,dered_z into mydb.DR1#_petromag from specobjall as a,specphotoall as b where a.specobjid = b.specobjid order by a.specobjid"
+2019-02-14 04:28:00,1

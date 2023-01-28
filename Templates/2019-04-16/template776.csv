@@ -1,0 +1,3 @@
+3,"SELECT up_id, dbo.fGetNearestSpecObjIdAllEq(up_ra,up_dec,#) as SpecobjId   FROM #upload WHERE dbo.fGetNearestSpecObjIdAllEq(up_ra,up_dec,#) IS NOT NULL  EXEC spExecuteSQL &&&,&&&, @log=#, @filter=#"
+2019-04-16 01:53:00,2
+2019-04-16 01:55:00,1

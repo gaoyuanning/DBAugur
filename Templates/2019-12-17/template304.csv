@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.run,p.rerun,p.camCol,p.field,p.obj,p.ra,p.[dec],p.r,ISNULL(s.plate,#) as plate,ISNULL(s.mjd,#) as mjd,ISNULL(s.fiberid,#) as fiberid,ISNULL(s.z,#) as z,ISNULL(s.zErr,#) as zErr,ISNULL(s.zWarning,#) as zWarning,ISNULL(s.specClass,#) as specClass, &&& as filter FROM  TARGDR1..PhotoObj as p LEFT OUTER JOIN BESTDR1..SpecObj s ON p.objID = s.bestObjID WHERE  ( p.type = # OR p.type = #)"
+2019-12-17 10:10:00,1

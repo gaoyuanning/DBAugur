@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, z into mydb.Star_#_#_#_# from dr1#.SpecObj WHERE class = &&& AND ra between # and # AND dec between # and #"
+2019-04-12 00:09:00,1

@@ -1,0 +1,4 @@
+5,"SELECT s.specObjID, s.plate, s.mjd, s.fiberID, s.ra, s.dec, s.z FROM DR1#.SpecObj AS s WHERE s.z < # AND s.Class = &&& OR (s.Class = &&& AND s.subClass = &&&) OR (s.Class = &&& AND s.subClass = &&&)"
+2019-01-22 22:34:00,1
+2019-01-22 22:35:00,3
+2019-01-22 22:38:00,1

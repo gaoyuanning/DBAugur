@@ -1,0 +1,4 @@
+4,"select top # specObjID, psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z, cModelMag_u, cModelMag_g, cModelMag_r, cModelMag_i, cModelMag_z, z from SpecPhotoAll where psfMag_g > # and class = # and z< # order by newid ()"
+2019-10-06 12:11:00,2
+2019-10-07 00:08:00,1
+2019-10-14 11:00:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid,p.petroMag_r,p.extinction_r,p.petroR5#_r,  s.z as redshift,s.velDisp FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   p.petroR9#_r/p.petroR5#_r > #  AND p.petroMag_r BETWEEN # AND #  AND p.petroMagErr_r < #  AND s.z < #  AND s.zErr < .#  AND s.velDisp > #  AND s.velDispErr/s.velDisp < #"
+2019-04-09 02:40:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.class, s.z as redshift,s.subClass, s.elodieSpType as spectraltype, s.elodieBV as color, s.elodieTEff as temperature, s.elodieLogG as gravity, s.elodieFeH as metallicity FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   s.subClass != &&&"
+2019-05-10 09:08:00,1

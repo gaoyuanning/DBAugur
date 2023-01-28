@@ -1,0 +1,2 @@
+2,"SELECT m.*, o.psfMag_u, o.psfMag_g, o.psfMag_r, o.psfMag_i, o.psfMag_z into mydb.sdss2#_mag  from mydb.ss AS m, dr1#.SpecPhotoAll   where m.mjd=o.mjd and m.plate=o.plate and m.fiberid=o.fiberid"
+2019-05-06 08:43:00,2

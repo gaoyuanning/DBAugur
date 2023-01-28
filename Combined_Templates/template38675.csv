@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.class, s.z as redshift, s.subClass FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN Galaxy as g ON p.objid = g.objid WHERE p.u BETWEEN # AND # AND g BETWEEN # AND # AND s.subClass ! = #"
+2019-05-10 08:28:00,1

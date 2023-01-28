@@ -1,0 +1,2 @@
+1,"select top # haloid,x,y,z,np,halfMassRadius from mr where snapnum=# and np > #   and firstHaloInFOFGroupId=haloid"
+2019-09-18 17:35:00,1

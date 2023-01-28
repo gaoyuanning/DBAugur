@@ -1,0 +1,2 @@
+1,"select run1, run2, num=count(*) into Stripe8#RunOverlapStar1#m2# from Match m   join PhotoTag a on a.ObjID=m.ObjID1   join PhotoTag b on b.ObjID=m.ObjID2 where type1=# and type2=#   and a.psfMag_r between # and #   and b.psfMag_r between # and # group by run1, run2 order by #, #"
+2019-05-30 14:48:00,1

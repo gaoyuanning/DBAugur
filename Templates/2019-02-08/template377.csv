@@ -1,0 +1,2 @@
+2,"SELECT ALL CAST(specobjid AS varchar(#)), ra, dec, z,bestObjID, sciencePrimary, survey, class, programname INTO COSMOS FROM DR1#.SpecObjAll WHERE ra BETWEEN # AND # AND dec BETWEEN # AND # AND sciencePrimary =# AND z > # AND bestObjID >#"
+2019-02-08 06:31:00,2

@@ -1,0 +1,2 @@
+1,"SELECT ALL ROW_NUMBER() OVER (ORDER BY s.ra ASC) as RowNumber, s.objid, s.ra, s.dec,  g.objID,g.ra,g.dec,g.j,g.jIvar,g.h,g.hIvar,g.k,g.kIvar FROM TwoMass AS g JOIN zooSpec AS s ON s.dec = g.dec"
+2019-03-21 14:33:00,1

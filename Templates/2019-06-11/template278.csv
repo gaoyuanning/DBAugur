@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  p.run, p.rerun, p.camcol, p.field, g.* FROM PhotoObj AS p  JOIN zooSpec AS g ON g.objid = p.objid"
+2019-06-11 12:27:00,1

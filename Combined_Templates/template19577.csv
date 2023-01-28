@@ -1,0 +1,3 @@
+2,"SELECT p.objid, p.deVAB_r, p.deVRad_r s.specObjID, d.SFR, d.logMass FROM PhotoObjAll AS p JOIN SpecObjAll AS s ON s.bestobjid = p.objid JOIN stellarMassStarformingPort AS d ON d.specObjID = s.specObjID"
+2019-03-11 02:46:00,1
+2019-03-11 02:47:00,1

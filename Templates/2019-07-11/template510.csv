@@ -1,0 +1,2 @@
+1,"SELECT count(*) FROM   fGetNearbyObjEq(#.,#.,#.* #) n   JOIN photoprimary as P on n.objID = p.objID    JOIN SpecObj as S on P.objid = S. bestObjID WHERE    s.z < #   AND velDisp > #. INTO rho_#_#"
+2019-07-11 03:39:00,1

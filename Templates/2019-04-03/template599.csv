@@ -1,0 +1,2 @@
+1,"SELECT G.objID, G.ra, G.dec into mydb.coordenadas from Galaxy G, mydb.MyTable t where G.objID = t.objID"
+2019-04-03 09:23:00,1

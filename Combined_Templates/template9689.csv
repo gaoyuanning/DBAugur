@@ -1,0 +1,2 @@
+1,"SELECT Zipcode, Permit_ZipCode, sum (case SFParklets.Permit_Number when # then # else # END) , sum (case SFViolations.[Complaint Number] when # then # else # END) FROM SFViolations JOIN SFParklets ON Zipcode = Permit_ZipCode GROUP BY Zipcode, Permit_ZipCode"
+2019-02-11 13:23:00,1

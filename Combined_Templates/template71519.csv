@@ -1,0 +1,3 @@
+3,"select top # p.*, s.z as zspec, s.zErr as zspec_err, s.zWarning, s.class, s.subclass, s.primTarget, s.spectroFlux_u, s.spectroFlux_g, s.spectroFlux_r, s.spectroFlux_i, s.spectroFlux_z, s.spectroFluxIvar_u, s.spectroFluxIvar_g, s.spectroFluxIvar_r, s.spectroFluxIvar_i, s.spectroFluxIvar_z, s.snMedian_u, s.snMedian_g, s.snMedian_r, s.snMedian_i, s.snMedian_z into mydb.test2# from Galaxy as p, SpecObj as s where p.mode = # AND s.zWarning = # AND p.specObjId = s.specObjId AND p.clean = #"
+2019-10-24 07:13:00,2
+2019-10-29 09:50:00,1

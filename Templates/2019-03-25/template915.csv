@@ -1,0 +1,3 @@
+2,"SELECT TOP # objId,z,zErr into mydb.MyTable_# from Photoz WHERE    z between # and #   and zErr BETWEEN # and #"
+2019-03-25 12:02:00,1
+2019-03-25 12:06:00,1

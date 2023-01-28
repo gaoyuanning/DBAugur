@@ -1,0 +1,2 @@
+1,"SELECT TOP # --* plate, mjd, fiberid, instrument, survey FROM SpecObj WHERE instrument = #"
+2019-04-29 10:43:00,1

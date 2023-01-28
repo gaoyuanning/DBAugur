@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra, dec, u, err_u, g, err_g, r, err_r, i, err_i, z, err_z, object from STAR where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-07-21 00:59:00,1

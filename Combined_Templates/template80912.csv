@@ -1,0 +1,2 @@
+1,"select ra, dec, z from dbo.fGetNearestSpecObjAllEq (#, #, #)"
+2019-12-05 11:42:00,1

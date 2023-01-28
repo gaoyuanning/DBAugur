@@ -1,0 +1,2 @@
+1,"SELECT raMin, raMax, decMin, decMax FROM Field Where run = #, rerun = #, field = #, camcol = #"
+2019-05-21 07:07:00,1

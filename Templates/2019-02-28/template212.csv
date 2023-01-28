@@ -1,0 +1,2 @@
+1,"SELECT   s.z,s.velDisp,  s.plate, s.mjd, s.fiberid, INTO GVal_z0#z1# FROM SpecObj AS s  JOIN galSpecIndx AS gi ON s.specObjID = gi.specObjID  JOIN galSpecExtra AS ge ON s.specObjID = ge.specObjID  JOIN SpecPhotoAll AS sph ON s.specObjID = sph.specObjID WHERE   s.z BETWEEN # AND #  AND  s.survey = &&&  AND  s.class = &&&  AND  s.snMedian_r > #  AND  s.zWARNING = #"
+2019-02-28 17:21:00,1

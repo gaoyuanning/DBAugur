@@ -1,0 +1,2 @@
+1,"SELECT objID, extinction_u, extinction_g, extinction_r, extinction_i, extinction_z into mydb.extinction from DR1#.PhotoObjAll"
+2019-07-12 10:04:00,1

@@ -1,0 +1,2 @@
+1,"SELECT Galaxy.objID, Galaxy.ra, Galaxy.dec into [MyScratch:default].Large_galaxy_sample_with_errors_nocuts FROM Galaxy JOIN wiseForcedTarget on Galaxy.objID= wiseForcedTarget.objID"
+2019-07-04 06:44:00,1

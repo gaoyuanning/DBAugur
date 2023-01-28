@@ -1,0 +1,2 @@
+1,"select * from dbo.fgetnearbyobjalleq(#, #, #/#) where (run=# or run=#) order by distance"
+2019-08-01 14:09:00,1

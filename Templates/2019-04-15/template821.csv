@@ -1,0 +1,4 @@
+3,"SELECT    m.name as name, m.ra AS ra1, m.dec AS dec1,     m.objid AS HSC_objid, m.imag_psf AS HSC_imag_psf,    m.imag_psf_err AS HSC_imag_psf_err,       n.objID, n.distance,    p.ra AS ra2, p.dec AS dec2,         p.psfMag_g, p.psfMagErr_g,     p.psfMag_r, p.psfMagErr_r,     p.psfMag_i, p.psfMagErr_i,     p.psfMag_z, p.psfMagErr_z,        p.extinction_g, p.extinction_r,     p.extinction_i, p.extinction_z    into HSC_star_DR1#    FROM MyDB.HSC_sql_query_star_ra_dec  AS m    CROSS APPLY dbo.fGetNearestObjEq(m.ra, m.dec, #) AS n JOIN PhotoObjAll AS p ON n.objID = p.objID        WHERE         p.clean = #"
+2019-04-15 02:18:00,1
+2019-04-15 02:20:00,1
+2019-04-15 02:23:00,1

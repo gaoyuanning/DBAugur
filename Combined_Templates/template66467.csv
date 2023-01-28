@@ -1,0 +1,2 @@
+1,"SELECT p.objId, p.ra, p.dec, p.g, p.r, p.i, z, zErr FROM Photoz JOIN Photoz AS s ON s.objID = p.objID WHERE p.ra BETWEEN # and # AND p.dec BETWEEN # and # AND z BETWEEN # and # AND p.r < = # and nnIsInside = # and nnCount> # and zErr BETWEEN # and #"
+2019-09-29 18:36:00,1

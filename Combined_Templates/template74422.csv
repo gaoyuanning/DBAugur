@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID.name1, lgm_tot_p9#p5.name1, specObjID.name2, logMass_median.name2 FROM galSpecExtra, stellarMassFSPSGranEarlyDust, WHERE lgm_tot_p9#p5.name1! =# AND logMass_median.name2! =#"
+2019-11-07 06:50:00,1

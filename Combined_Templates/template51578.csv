@@ -1,0 +1,2 @@
+1,"select top # Ever_had_eye_surgery_#, q.* from r2#.Eye_surgery_complications a cross apply JSON_QUERY (Ever_had_eye_surgery_#, #) q where Ever_had_eye_surgery_# is not #"
+2019-07-12 12:13:00,1

@@ -1,0 +1,5 @@
+4,"CREATE TABLE [r2#][Vegetarian_alternatives_yesterday] ( 	eid BIGINT NOT NULL ,	[Vegetarian_alternatives_intake_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Vegetarian_sausages_burgers_intake_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Tofu_intake_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Quorn_intake_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Other_vegetarian_alternative_intake_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=# ,PRIMARY KEY (eid)) GO"
+2019-04-15 14:29:00,1
+2019-04-15 14:32:00,1
+2019-04-15 14:34:00,1
+2019-04-15 14:35:00,1

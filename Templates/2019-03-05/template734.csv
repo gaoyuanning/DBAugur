@@ -1,0 +1,2 @@
+1,"SELECT DR7.objID,DR7.ra,DR7.dec, DR7.psfMag_u, DR7.psfMag_g, DR7.psfMag_r, DR7.psfMag_i, DR7.psfMag_z, DR7.dered_u, DR7.dered_g, DR7.dered_r, DR7.dered_i, DR7.dered_z,   DR7.extinction_u, DR7.extinction_g, DR7.extinction_r, DR7.extinction_i, DR7.extinction_z into mybd.MyTable_success FROM PhotoObjAll as DR7 INNER JOIN MyTable_daniela AS dani   ON DR7.ra = dani.ra   AND DR7.dec = dani.dec"
+2019-03-05 08:22:00,1

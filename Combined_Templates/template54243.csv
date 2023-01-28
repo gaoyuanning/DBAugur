@@ -1,0 +1,2 @@
+1,"select spRun, plate, mjd, quality, programName, isprimary, dateobs, exptime, sn1_#, sn2_# from plateX"
+2019-07-28 03:23:00,1

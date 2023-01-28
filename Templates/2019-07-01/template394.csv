@@ -1,0 +1,3 @@
+4,"SELECT P.ObjID, P.ra, P.dec, S.z, P.petroRad_r, P.petroRadErr_r, P.petromag_r, P.petromagerr_r, P.isoA_r, P.isoB_r, p.petroR9#_r, p.petroR5#_r           into mydb.ML_whatever_v2  From SpecObj S, galaxy G, PhotoObjAll P, mydb.ML_whatever x  WHERE x.id = P.Objid   and P.ObjID = S.bestObjID   and S.bestObjID = G.ObjID"
+2019-07-01 04:35:00,2
+2019-07-01 04:36:00,2

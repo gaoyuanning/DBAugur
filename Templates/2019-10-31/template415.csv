@@ -1,0 +1,4 @@
+3,select distinct brickname from [myscratch:default].decals_test3
+2019-10-31 08:21:00,1
+2019-10-31 09:46:00,1
+2019-10-31 09:48:00,1

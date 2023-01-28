@@ -1,0 +1,2 @@
+1,"SELECT sp.ra, sp.dec, sp.z, sp.plate, sp.fiberid, sp.mjd, sp.modelMag_i AS mag_i , sp.modelMag_g AS mag_g, sp.modelMag_r AS mag_r, sp.fiberMag_i, sp.CModelMag_i AS cmag_i , sp.CMODELMag_g AS cmag_g, sp.CMODELMag_r AS cmag_r FROM SpecPhotoAll AS sp into mydb.CLQ_gal WHERE (sp.class = # and sp.MJD > #)"
+2019-01-13 04:58:00,1

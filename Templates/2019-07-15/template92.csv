@@ -1,0 +1,12 @@
+14,"SELECT u.up_col0 as col0,   &&&<a target=INFO href=http://skyserver.sdss.org/DR1#/en/tools/explore/obj.aspx?id=&&& + cast(x.objId as varchar(#)) + &&&>&&&+ cast(x.objId as varchar(#)) + &&&</a>&&& as objID, p.ra, p.dec, dbo.fPhotoTypeN(p.type) as type,  p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z FROM #upload u  JOIN #x x ON x.up_id = u.up_id  JOIN PhotoTag p ON p.objID = x.objID ORDER by x.up_id &&&#', @log=#, @filter=#"
+2019-07-15 18:40:00,2
+2019-07-15 19:08:00,1
+2019-07-15 19:09:00,1
+2019-07-15 19:10:00,1
+2019-07-15 19:11:00,1
+2019-07-15 19:12:00,1
+2019-07-15 19:16:00,1
+2019-07-15 19:17:00,1
+2019-07-15 19:18:00,2
+2019-07-15 19:19:00,1
+2019-07-15 19:20:00,2

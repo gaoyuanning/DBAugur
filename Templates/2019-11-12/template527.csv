@@ -1,0 +1,2 @@
+2,"select mjd, ra, dec, skyVersion, rerun, run, camcol, field, Objid from PhotoObj where dec < # AND dec > # AND (ra > # OR ra < # )"
+2019-11-12 02:10:00,2

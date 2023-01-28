@@ -1,0 +1,2 @@
+2,"SELECT s.specObjID, a.ra, a.dec, s.TEFFADOP, s.TEFFADOPUNC, s.LOGGADOP, s.LOGGADOPUNC FROM sppParams AS s JOIN SpecObjAll AS a ON s.specObjID = a.specObjID INTO MyDB.SSPP WHERE s.LOGGADOP > # ORDER BY s.specObjID"
+2019-06-28 08:07:00,2

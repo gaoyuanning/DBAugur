@@ -1,0 +1,2 @@
+1,"SELECT COUNT(p.ra),  p.objid, p.ra, p.dec FROM PhotoObj AS p"
+2019-03-07 12:12:00,1

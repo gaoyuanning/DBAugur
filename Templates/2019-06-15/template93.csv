@@ -1,0 +1,2 @@
+1,"SELECT   p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  s.specobjid, s.class, s.subclass,  s.plate, s.mjd, s.fiberid FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   (flags_r & #) != #   AND (flags_r & #) = #   AND (flags_r & #) = #   AND s.class=&&&  AND s.subclass=&&&  AND p.u < #  AND p.g < #  AND p.r < #  AND p.i < #  AND p.z < #"
+2019-06-15 19:21:00,1

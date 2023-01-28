@@ -1,0 +1,2 @@
+1,"SELECT a.ObjType, p.type, a.ObjID, p.ObjID, a.dec, a.ra, p.dec, p.ra From SpecPhotoAll a, PhotoObj p where p.type = # and a.ObjType = # and a.ObjID = p.ObjID"
+2019-11-20 15:38:00,1

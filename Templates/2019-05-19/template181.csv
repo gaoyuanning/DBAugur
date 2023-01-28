@@ -1,0 +1,2 @@
+1,"select  objid, ra, dec, modelmag_u, modelmag_g, modelmag_r, modelmag_i, modelmag_z,z,class  from SpecPhoto  where class=&&&"
+2019-05-19 12:39:00,1

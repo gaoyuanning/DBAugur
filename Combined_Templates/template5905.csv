@@ -1,0 +1,3 @@
+2,"SELECT top # p.objID, p.ra, p.dec, dbo.fPrimTargetN (primtarget) FROM photoObj p, specObj s, FIRST f WHERE p.ObjID = f.ObjID and s.bestObjID = p.objID and f.integr > # and p.type = # and p.psfMag_i BETWEEN # and #"
+2019-01-24 08:35:00,1
+2019-01-24 08:36:00,1

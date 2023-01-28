@@ -1,0 +1,2 @@
+1,"SELECT TOP # plate, fiberid, mjd into mydb.Sky fibers from SpecObjAll WHERE targetType = #"
+2019-11-15 12:40:00,1

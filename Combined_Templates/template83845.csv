@@ -1,0 +1,2 @@
+1,"SELECT top # p.objID, x.SDSSObjid, p.ra, p.dec, p.fuv_mag-p.nuv_mag as fmn, p.fuv_mag, p.nuv_mag FROM photoobjall as p, xSDSSDR7 as x WHERE p.objid = x.objid AND x.distanceRank = # AND x.reverseDistanceRank = # AND x.reverseMultipleMatchCount = # AND p.fuv_mag > # AND p.nuv_mag > # AND abs (p.fuv_magerr/p.fuv_mag) < # AND abs (p.nuv_magerr/p.nuv_mag) < # and p.s2n_nuv > #"
+2019-12-19 10:17:00,1

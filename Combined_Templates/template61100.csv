@@ -1,0 +1,2 @@
+1,"select class, subclass, count (*) from SpecObj group by class, subclass"
+2019-09-04 20:38:00,1

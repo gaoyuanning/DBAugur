@@ -1,0 +1,3 @@
+2,"select distinct eid, Ever_had_surgery_for_glaucoma_or_high_eye_pressure_# from dbo.Eye_surgery_complications a cross apply openjson (Ever_had_surgery_for_glaucoma_or_high_eye_pressure_#) j where j.value IN ()"
+2019-08-30 13:59:00,1
+2019-09-04 09:29:00,1

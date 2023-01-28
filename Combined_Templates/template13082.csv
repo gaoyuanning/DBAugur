@@ -1,0 +1,2 @@
+1,select spa.z into mydb.test2 from dr7.SpecObjAll spa where spa.specObjID = #
+2019-02-21 15:22:00,1

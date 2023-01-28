@@ -1,0 +1,2 @@
+1,"select s.ra, s.dec, s.z, expRad_g, modelmag_g, modelmag_i from specobj as s, photoobj as p where s.specobjid = p.objid and (ra between # and #) and (dec between # and #) and s.class = # and modelmag_g < #"
+2019-11-21 23:49:00,1

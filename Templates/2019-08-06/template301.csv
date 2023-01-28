@@ -1,0 +1,2 @@
+1,"select redshift as xcol, distance as ycol from MyTable1 where  redshift between # and # AND distance between # and #"
+2019-08-06 11:25:00,1

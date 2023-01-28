@@ -1,0 +1,2 @@
+1,"SELECT distinct objID, modelMag_r, petroRad_r FROM GALAXY WHERE (ra between # and #) and (dec between # and #) AND (PhotoPrimary = PhotoObjAll)"
+2019-02-12 03:51:00,1

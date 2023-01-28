@@ -1,0 +1,4 @@
+3,"SELECT TOP #   objID,   ra,   dec,   psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z,   dbo.fPhotoFlagsN(flags)   FROM Galaxy   WHERE   (flags"
+2019-04-01 06:22:00,1
+2019-04-01 18:23:00,1
+2019-04-01 22:16:00,1

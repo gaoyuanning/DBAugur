@@ -1,0 +1,2 @@
+3,"SELECT DISTINCT  	po.objid AS phot_id,  	tm.ra AS tmass_ra, tm.dec AS tmass_dec,  	tm.j AS tmass_mag_j, tm.jIvar AS tmass_ivar_j, 	tm.h AS tmass_mag_h, tm.hIvar AS tmass_ivar_h, 	tm.k AS tmass_mag_k, tm.kIvar AS tmass_ivar_k, 	tm.phQual AS tmass_quality INTO MyDB.XMC_full_#MASS FROM MyDB.XMC_full_pos tmp 	     INNER JOIN PhotoPrimary po ON po.objid      = tmp.objid 		 INNER JOIN TwoMass      tm ON tm.objid      = po.objid ORDER BY phot_id"
+2019-05-02 16:31:00,3

@@ -1,0 +1,2 @@
+1,"SELECT top # objID, ra, dec, (CASE WHEN q.type IS NULL THEN &&& ELSE &&& END) AS found  FROM MyDB.GAIADR2test as Gdr2 OUTER APPLY dbo.fInFootprintEq(ra,dec,#) AS q"
+2019-07-16 11:52:00,1

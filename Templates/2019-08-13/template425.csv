@@ -1,0 +1,3 @@
+2,"SELECT ra, dec FROM PhotoObjAll WHERE objID in ([#, #])"
+2019-08-13 12:59:00,1
+2019-08-13 13:02:00,1

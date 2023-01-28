@@ -1,0 +1,5 @@
+4,"SELECT spe.ra,spe.dec,spe.z,spe.subclass FROM SpecObj As spe WHERE spe.ra ># and spe.ra <# AND spe.dec >#and spe.dec <#And spe.class=&&&"
+2019-09-26 13:16:00,1
+2019-09-26 13:18:00,1
+2019-09-26 13:24:00,1
+2019-09-26 13:36:00,1

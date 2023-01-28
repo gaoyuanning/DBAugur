@@ -1,0 +1,2 @@
+1,"SELECT TOP #  objid, ra, dec, petroR5#_r, petromag_r, BrightestObjin1#R5# FROM  (  SELECT  objid, ra, dec, petroR5#_r, petromag_r,   (  SELECT  max(p.petromag_r)  FROM  dbo.fGetNearbyObjEq(photoprimary.ra,photoprimary.dec,#*photoprimary.petroR5#_r) n  JOIN  photoprimary p  ON  p.objid = n.objid  ) as BrightestObjin1#R5#  FROM  photoprimary  ) f WHERE  petromag_r > (BrightestObjin1#R5# - #)"
+2019-12-24 11:51:00,1

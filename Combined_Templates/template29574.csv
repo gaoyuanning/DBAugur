@@ -1,0 +1,2 @@
+2,"select g.Name, p.objID, p.z, p.zErr into mydb.photoz_wiyn_neighbors_specz from mydb.groupfriends as g, dbo.SpecPhotoAll as p where p.objID = g.NeighborObjID"
+2019-04-12 14:21:00,2

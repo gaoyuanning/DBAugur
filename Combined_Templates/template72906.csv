@@ -1,0 +1,2 @@
+1,select distinct concept from optw.tamass.VARIABLES where vintage = #
+2019-10-31 09:46:00,1

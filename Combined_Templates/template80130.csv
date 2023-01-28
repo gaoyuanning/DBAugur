@@ -1,0 +1,3 @@
+2,"select p.objid, p.ra, p.dec, p.u, p.err_u, p.g, p.err_g, p.r, p.err_r, p.i, p.err_i, p.z, p.err_z, dbo.fPhotoTypeN (p.type) as type from photoobj p WHERE p.u BETWEEN # AND # AND g BETWEEN # AND #"
+2019-12-02 01:37:00,1
+2019-12-02 01:39:00,1

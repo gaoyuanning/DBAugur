@@ -1,0 +1,2 @@
+1,"SELECT top # objID, ra, dec, u, g, r, i, z FROM Star  WHERE   CLEAN=# AND (ra between # and #) and (dec between # and #)"
+2019-08-11 00:30:00,1

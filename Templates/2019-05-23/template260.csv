@@ -1,0 +1,2 @@
+3,"SELECT    S.specObjID,   a.plate,   a.mjd,   a.fiberid,   S.objID        INTO MYDB.SIII_M1_ID FROM  MYDB.m1 as a      JOIN  SpecPhotoAll as S ON S.plate = a.plate and S.mjd = a.mjd and S.fiberID = a.fiberid     ORDER BY A.plate"
+2019-05-23 14:38:00,3

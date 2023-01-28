@@ -1,0 +1,2 @@
+1,"SELECT count(*) into mydb.MyTable3 from MyDB.radec_mc_short as my   CROSS APPLY dbo.fGetNearestObjAllEq(my.ra,my.dec,#)"
+2019-04-12 10:33:00,1

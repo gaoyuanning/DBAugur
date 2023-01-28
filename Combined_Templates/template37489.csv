@@ -1,0 +1,2 @@
+1,"select p.dered_u, p.dered_r, p.ra, p.dec, s.z from PhotoObj AS p JOIN specObj AS s ON s.bestObjID = p.ObjID where s.class = # AND s.zWarning = # AND s.z BETWEEN # AND #"
+2019-05-07 14:11:00,1

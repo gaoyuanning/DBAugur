@@ -1,0 +1,2 @@
+1,"select specobjid, fluxObjID, snmedian_u, snmedian_g, snmedian_r, snmedian_i, snmedian_z, sn_median, run1d, survey, instrument, primTarget, secTarget, sourceType, targetType into mydb.DR1#_snr from specobjall order by specobjid"
+2019-02-14 03:53:00,1

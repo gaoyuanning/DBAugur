@@ -1,0 +1,3 @@
+230,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.Err_u, p.Err_g, p.Err_r, p.Err_i, p.Err_z  FROM fGetNearbyObjEq(#, #, #) n, PhotoPrimary p  WHERE n.objID=p.objID AND p.type=# AND p.u between # AND #"
+2019-11-14 17:37:00,173
+2019-11-14 17:38:00,57

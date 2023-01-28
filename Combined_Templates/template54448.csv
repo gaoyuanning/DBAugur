@@ -1,0 +1,2 @@
+1,"SELECT pz.objId, poa.ra, poa.raErr, poa.dec, poa.decErr, pz.z, pz.zErr into mydb.MyTable from Photoz as pz JOIN PhotoObjAll as poa ON poa.objId = pz.objId WHERE pz.z BETWEEN # and # and pz.photoErrorClass = # and pz.nnCount> #"
+2019-07-29 00:05:00,1

@@ -1,0 +1,2 @@
+2,"SELECT TOP # sp.objID, sp.ra, sp.dec, sp.mjd, px.logMass, sp.fiberID, sp.z FROM specPhoto AS sp JOIN stellarMassStarformingPort AS px ON sp.fiberID = px.fiberID WHERE (sp.class = #) AND sp.z > #"
+2019-10-11 15:55:00,2

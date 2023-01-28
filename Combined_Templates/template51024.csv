@@ -1,0 +1,2 @@
+2,"SELECT T.ID, T.SpecObjID, A.objID as photoObjID, T.hostra, T.hostdec, A.ra as SDSSra, A.dec as SDSSdec, A.z as SDSSredshift, A.petroMag_u, A.petroMag_g, A.petroMag_r, A.petroMag_i, A.petroMag_z, A.petroMagErr_u, A.petroMagErr_g, A.petroMagErr_r, A.petroMagErr_i, A.petroMagErr_z, A.extinction_u, A.extinction_g, A.extinction_r, A.extinction_i, A.extinction_z INTO mydb.SpecObj_petroMags_compare FROM DR1#.SpecPhotoAll as A, mydb.compareSpec_ObjID as T WHERE A.specObjID = T.SpecObjID"
+2019-07-10 12:24:00,2

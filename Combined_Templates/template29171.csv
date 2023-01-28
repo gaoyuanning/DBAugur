@@ -1,0 +1,2 @@
+1,"SELECT Top # m.ID, m.RAdeg AS ra1, m.DEdeg AS dec1, n.specObjID, n.distance, s.plate, s.mjd, s.fiberid, s.z, s.zErr, s.zWarning, s.class, s.subclass, s.ra AS ra2, s.dec AS dec2 FROM MyDB.nepwise AS m OUTER APPLY dbo.fGetNearbySpecObjAllEq (m.RAdeg, m.DEdeg, #) AS n LEFT JOIN SpecPhotoAll AS s ON n.specObjID = s.specObjID where s.z > #"
+2019-04-10 01:50:00,1

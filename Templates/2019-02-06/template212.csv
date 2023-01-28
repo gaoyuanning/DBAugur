@@ -1,0 +1,2 @@
+1,"SELECT ra,dec,psfMag_z from PhotoObj where type=# AND psfMag_z># AND psfMag_z<#"
+2019-02-06 14:42:00,1

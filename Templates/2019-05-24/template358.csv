@@ -1,0 +1,2 @@
+1,"SELECT m.*, dbo.fDateTimeToMJD(s.fobs_dat) as Mjd_f,dbo.fDateTimeToMJD(s.nobs_dat) as Mjd_n into mydb.gaia_neigh_galex_mjd from  MyDB.neigh_galex_tmp as m, PHOTOEXTRACT as s WHERE m.phID=s.photoExtractID"
+2019-05-24 05:41:00,1

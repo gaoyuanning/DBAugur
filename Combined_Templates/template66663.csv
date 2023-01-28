@@ -1,0 +1,2 @@
+1,"select (cast (datepart (yy, timesubmit) as varchar (#) ) + # + cast (datepart (mm, timesubmit) as varchar (#) )) as mth, count (*) as queries from batch.jobs where datepart (yy, timesubmit) > # group by datepart (yy, timesubmit) , datepart (mm, timesubmit) order by datepart (yy, timesubmit) , datepart (mm, timesubmit)"
+2019-09-30 14:24:00,1

@@ -1,0 +1,3 @@
+2,"SELECT u.up_name as name, p.objID, p.mjd, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z , p.modelMagerr_u, p.modelMagerr_g, p.modelMagerr_r, p.modelMagerr_i, p.modelMagerr_z , p.psfmag_u, p.psfmag_g, p.psfmag_r, p.psfmag_i, p.psfmag_z , p.psfmagerr_u, p.psfmagerr_g, p.psfmagerr_r, p.psfmagerr_i, p.psfmagerr_z FROM #upload u JOIN #x x ON x.up_id = u.up_id JOIN PhotoObjall p ON p.objID = x.objID ORDER by x.up_id ##', @log = #, @filter = #"
+2019-12-04 12:14:00,1
+2019-12-04 12:29:00,1

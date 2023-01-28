@@ -1,0 +1,6 @@
+10,"SELECT p.objId as objid, pz.z, pz.distMod, pz.lumDist FROM galaxy AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN Photoz AS pz ON pz.objID = p.objid WHERE pz.z > #"
+2019-07-16 14:19:00,1
+2019-07-16 14:45:00,1
+2019-07-16 14:47:00,1
+2019-07-16 15:19:00,1
+2019-07-16 15:21:00,6

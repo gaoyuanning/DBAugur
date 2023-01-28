@@ -1,0 +1,2 @@
+1,"SELECT TOP #   objID, specObjID , ra ,dec, cModelMag_u, cModelMag_g, cModelMag_r, cModelMag_i, cModelMag_z, fdsafasd  FROM   PhotoObjAll"
+2019-03-26 21:42:00,1

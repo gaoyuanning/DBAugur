@@ -1,0 +1,2 @@
+1,"select descendantId, galaxyID, Sfr, Stellarmass into MyDB.MyTable9 from GAEA.MR where galaxyId = #"
+2019-10-22 10:43:00,1

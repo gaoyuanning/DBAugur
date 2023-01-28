@@ -1,0 +1,2 @@
+1,"select specObjID,ra,dec,z,petroMag_r from SpecPhotoAll where z>=# and z<=# and petroMag_r># and petroMag_r<# and class=&&&"
+2019-05-31 04:38:00,1

@@ -1,0 +1,4 @@
+3,"select top # s.plate, s.mjd, s.fiberid,spp.TEFFADOP,spp.LOGGADOP,spp.FEHADOP FROM SpecObjAll as s, sppParams as spp where s.SPECOBJID=spp.SPECOBJID  and ra in (select ra from SpecObjAll where class=&&& and subclass like &&& group by ra having count(ra)>#) order by ra"
+2019-02-27 02:46:00,1
+2019-02-27 03:45:00,1
+2019-02-27 10:15:00,1

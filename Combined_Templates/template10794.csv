@@ -1,0 +1,3 @@
+2,"select ra, spectroFlux_g, spectroFlux_u, from specObj where ra BETWEEN # and # AND spectroFlux_g > # AND spectroFlux_u - spectroFlux_g > #"
+2019-02-13 15:45:00,1
+2019-02-13 15:46:00,1

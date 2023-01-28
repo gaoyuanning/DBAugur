@@ -1,0 +1,2 @@
+1,"select top # * sp.plate, sp.mjd, sp.fiberid from sppLines as sl, sppParams as sp"
+2019-08-30 11:01:00,1

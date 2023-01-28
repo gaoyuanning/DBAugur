@@ -1,0 +1,2 @@
+1,"SELECT TOP # z as redshift, zErr, ra, dec, dered_u as u, dered_g as g, dered_r as r, dered_i as i, dered_z as z FROM dbo.SpecPhoto WHERE class = &&& AND ra BETWEEN # AND # AND dec BETWEEN # AND # AND z<#"
+2019-09-30 16:38:00,1

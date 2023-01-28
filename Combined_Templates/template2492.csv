@@ -1,0 +1,8 @@
+10,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.run, p.rerun, p.camcol, p.field, s.specobjid, s.class, s.z as redshift, s.plate, s.mjd, s.fiberid FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE s.class = GALAXY"
+2019-01-12 18:06:00,2
+2019-01-27 15:11:00,1
+2019-01-27 15:12:00,2
+2019-01-27 15:13:00,2
+2019-01-27 15:15:00,1
+2019-02-16 20:10:00,1
+2019-02-16 20:12:00,1

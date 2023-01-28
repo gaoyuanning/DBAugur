@@ -1,0 +1,2 @@
+1,"select redshift as xcol, objectID as ycol from MyTable"
+2019-04-28 06:06:00,1

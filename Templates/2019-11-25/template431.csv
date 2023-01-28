@@ -1,0 +1,2 @@
+1,"SELECT    m.dr7objid, n.objid, m.ra AS ra1, m.dec AS dec1,   p.ra AS RA, p.dec AS DEC, o.z as REDSHIFT, o.zerr AS REDSHIFTERR into mydb.GZ2_photoz_new_redshifts from MyDB.GZ2_photoz_to_get_spectro AS m    OUTER APPLY dbo.fGetNearestObjEq(m.ra, m.dec, #) AS n   JOIN SpecObj AS o ON o.bestObjID=n.ObjID     JOIN PhotoObj AS p ON p.objid=n.objid"
+2019-11-25 06:32:00,1

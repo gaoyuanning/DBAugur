@@ -1,0 +1,4 @@
+5,SELECT objID from GALAXY into [myscratch:default].table1
+2019-07-04 06:36:00,1
+2019-07-04 06:38:00,2
+2019-07-04 06:39:00,2

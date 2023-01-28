@@ -1,0 +1,2 @@
+1,"SELECT       ga.specobjid   s.zwarning     FROM GalSpecLine as ga, specobj as s          WHERE ga.oiii_#_flux > ga.oiii_#_flux_err*#      AND zwarning = #"
+2019-06-07 06:29:00,1

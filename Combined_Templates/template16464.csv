@@ -1,0 +1,4 @@
+3,"SELECT top # field, run, rerun, gain_u, gain_g, gain_r, gain_i, gain_z FROM Field WHERE (field = # or field = #) and (rerun = #)"
+2019-03-03 09:37:00,1
+2019-03-03 11:23:00,1
+2019-03-03 12:32:00,1

@@ -1,0 +1,2 @@
+1,"select plate, mjd from platex where ra> # and ra< # and dec> # and dec< #"
+2019-03-13 12:12:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, s.specobjid, p.ra, p.dec, p.u, ,p.err_u, p.g, p.r, p.i, p.z, p.run, p.rerun, p.camcol, p.field, p.mag, s.class, s.z as redshift, FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.u BETWEEN # AND # AND g BETWEEN # AND #"
+2019-03-26 21:54:00,1

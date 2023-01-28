@@ -1,0 +1,2 @@
+1,"SELECT top # objid, flags FROM PhotoTag WHERE   ( flags & (dbo.fPhotoFlags(&&&)  + dbo.fPhotoFlags(&&&)  + dbo.fPhotoFlags(&&&)) )   = ( dbo.fPhotoFlags(&&&)  + dbo.fPhotoFlags(&&&)  + dbo.fPhotoFlags(&&&) )"
+2019-03-21 18:24:00,1

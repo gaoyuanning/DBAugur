@@ -1,0 +1,2 @@
+1,"select specObjID,mjd,plate,fiberID,mag_#,mag_#,mag_# from dbo.SpecObjAll where plate=#"
+2019-11-07 01:28:00,1

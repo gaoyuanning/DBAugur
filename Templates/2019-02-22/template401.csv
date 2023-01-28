@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.modelMag_i, p.extinction_i FROM TARGDR1..PhotoObjAll p WHERE (p.ra > # ) and (p.dec < #) and (p.dec > #.) and (p.dec < #)"
+2019-02-22 05:53:00,1

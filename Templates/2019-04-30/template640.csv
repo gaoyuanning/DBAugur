@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.plate,s.mjd,s.fiberid,cast(str(p.u - p.g,#,#) as float) as ugModelColor,cast(str(p.g - p.r,#,#) as float) as grModelColor,cast(str(p.r - p.i,#,#) as float) as riModelColor,cast(str(p.i - p.z,#,#) as float) as izModelColor, p.score as score  FROM ..SpecObj as s  JOIN ..Galaxy AS p ON s.bestObjID = p.objID  JOIN dbo.fGetNearbySpecObjEq(#,#,#) AS b ON b.SpecobjID = S.SpecobjID  JOIN Galaxy AS p ON s.bestobjid=p.objid  WHERE s.zWarning = # AND (p.u - p.g) > # AND (p.u - p.g) < # AND (p.flags & (dbo.fPhotoFlags(&&&)) > #)"
+2019-04-30 05:22:00,1

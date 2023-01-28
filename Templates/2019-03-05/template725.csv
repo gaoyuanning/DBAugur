@@ -1,0 +1,2 @@
+1,"select top # p.*,      Dist=dbo.fDistanceXYZ(t1.cx,t1.cy,t1.cz, t2.cx,t2.cy,t2.cz)   from Pairs p     join PhotoTag t1 on t1.ObjID=p.ObjID1     join PhotoTag t2 on t2.ObjID=p.ObjID2        and t1.type=t2.type        and t1.psfMag_r between t2.psfMag_r - # and t2.psfMag_r + #   where t1.type=# -- stars ) select Dist from p"
+2019-03-05 08:34:00,1

@@ -1,0 +1,2 @@
+1,"SELECT     p.objID, p.z, p.zErr, p.rest_ug, p.rest_gr, p.kcorr_u, p.kcorr_g, p.kcorr_r, p.absMag_u, p.absMag_g, p.absMag_r into mydb.DR7RefCatZ from mydb.DR7RefCatNames u   JOIN DR7.photoZ p ON p.objID = u.objID"
+2019-07-19 11:52:00,1

@@ -1,0 +1,2 @@
+1,"SELECT SpecObj.bestobjid, SpecObj.ra, SpecObj.dec, SpecObj.z, SpecObj.zErr, SpecObj.class, SpecObj.subclass, PhotoObj.objID, PhotoObj.dered_u, PhotoObj.dered_g, PhotoObj.dered_r, PhotoObj.dered_i, PhotoObj.dered_z INTO MyDB.MyTable_# FROM SpecObj , PhotoObj WHERE SpecObj.bestobjid = PhotoObj.objID AND (spec.zWarning = # OR spec.zWarning = #) AND spec.ra BETWEEN # and # AND spec.dec BETWEEN # and # OR SpecObj.bestobjid = PhotoObj.objID AND (spec.zWarning = # OR spec.zWarning = #) AND spec.ra BETWEEN # and # AND spec.dec BETWEEN # and #"
+2019-10-25 13:37:00,1

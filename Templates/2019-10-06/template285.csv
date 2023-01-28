@@ -1,0 +1,2 @@
+2,"SELECT za.SpecObjID, zi.e_bv_sfd FROM SpecObjAll AS za JOIN galSpecInfo AS zi ON za.SpecObjID = zi.SpecObjID WHERE za.z > # AND za.Warning = # AND za.targetType = &&& AND za.survey = &&& AND za.class = &&& AND zi.primtarget >= # AND PhotoObjAll.clean = # AND   PhotoObjAll.insideMask = # AND (PhotoObjAll.petroMag_r - PhotoObjAll.extinction_r) <= #;"
+2019-10-06 06:04:00,2

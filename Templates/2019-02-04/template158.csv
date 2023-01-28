@@ -1,0 +1,2 @@
+1,"select z, class from specObj where z Between # and # AND class = &&& and select z from PhotoObj where z Between # and #"
+2019-02-04 18:14:00,1

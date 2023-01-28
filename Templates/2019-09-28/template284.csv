@@ -1,0 +1,2 @@
+2,"select [indexMapID],[code],[type],[tableName],[fieldList],[foreignKey] from IndexMap  where tableName=&&& order by [indexMapId]  "
+2019-09-28 09:32:00,2

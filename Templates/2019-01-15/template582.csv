@@ -1,0 +1,2 @@
+1,"CREATE TABLE VYG_neighbours (   i_gal bigint,   objID bigint,   ra float,   dec float,   magPetro_g float,     magPetro_r float,     magPetro_i float,   distance float,  );"
+2019-01-15 06:24:00,1

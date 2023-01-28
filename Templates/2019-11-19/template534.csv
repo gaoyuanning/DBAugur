@@ -1,0 +1,11 @@
+10,"select top # G.objID, G.ra, G.dec, p.z, p.zerr from Galaxy as G, photoz as p where G.objID = p.objID And p.z between # and # AND p.zErr BETWEEN # and # AND ((g.flags_r & #) != #) AND ((g.flags_r & #) = #) AND (((g.flags_r & #) = #) or (g.psfmagerr_r <= #)) AND (((g.flags_r & #) = #) or (g.flags_r & #) = #) order by p.z"
+2019-11-19 00:16:00,1
+2019-11-19 00:30:00,1
+2019-11-19 00:41:00,1
+2019-11-19 00:52:00,1
+2019-11-19 00:59:00,1
+2019-11-19 01:01:00,1
+2019-11-19 01:02:00,1
+2019-11-19 01:03:00,1
+2019-11-19 01:04:00,1
+2019-11-19 01:05:00,1

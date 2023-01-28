@@ -1,0 +1,2 @@
+1,"select top # * group by ra,dec having count(*)># from SpecObjAll"
+2019-07-01 01:44:00,1

@@ -1,0 +1,3 @@
+2,"CREATE TABLE [Symbol_digit_substitution] ( 	eid BIGINT NOT NULL ,	[Number_of_symbol_digit_matches_attempted_#] INTEGER -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Number_of_symbol_digit_matches_made_correctly_#] INTEGER -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[First_code_array_presented_#] INTEGER -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Values_wanted_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Values_entered_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=# ,PRIMARY KEY (eid)) GO"
+2019-04-30 11:44:00,1
+2019-04-30 15:38:00,1

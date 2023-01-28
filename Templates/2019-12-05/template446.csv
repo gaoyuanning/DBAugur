@@ -1,0 +1,2 @@
+1,"SELECT    p.dr7objid,    p.dr8objid,   m.ra,   m.dec      into mydb.DR7_IDs from MyDB.Sample5#_coord_ID AS m      LEFT JOIN PhotoObjDR7 AS p ON m.objID=p.dr8objid"
+2019-12-05 02:19:00,1

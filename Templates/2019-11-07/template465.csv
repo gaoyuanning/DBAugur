@@ -1,0 +1,2 @@
+1,select into [myscratch:default].SDSS1#_eFEDS * from PhotoObjAll where ra > # and ra < # and dec > # and dec < #
+2019-11-07 05:00:00,1

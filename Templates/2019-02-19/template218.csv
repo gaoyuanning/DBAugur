@@ -1,0 +1,2 @@
+1,"SELECT x.objid, x.ra, x.dec, x.ext, t.* FROM PhotoPrimary x, lrgs_# t WHERE xmatch(x, t) < # AND x.ext > #"
+2019-02-19 15:33:00,1

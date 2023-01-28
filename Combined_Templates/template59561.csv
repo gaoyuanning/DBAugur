@@ -1,0 +1,2 @@
+1,select top # * from dbo.Eye_surgery_complications a cross apply openjson (Ever_had_eye_surgery_#) j where j.value IN ()
+2019-08-28 13:39:00,1

@@ -1,0 +1,2 @@
+3,"SELECT s.plate,s.mjd,s.fiberid, p.ra,p.dec,p.modelMag_u,p.modelMagErr_u,p.flags, p.psfmag_u,p.psfmagerr_u,p.extinction_u,p.flags_u, p.psfmag_g,p.psfmagerr_g,p.extinction_g,p.flags_g, p.psfmag_r,p.psfmagerr_r,p.extinction_r,p.flags_r, p.psfmag_i,p.psfmagerr_i,p.extinction_i,p.flags_i, p.psfmag_z,p.psfmagerr_z,p.extinction_z,p.flags_z, s.TEFFADOP,s.TEFFADOPUNC,s.LOGGADOP,s.LOGGADOPUNC, s.FEHADOP,s.FEHADOPUNC,s.snr FROM PhotoObj as p JOIN sppParams s ON p.objID = s.bestObjID INTO mydb.p2#b WHERE s.plate = #"
+2019-09-02 06:21:00,3

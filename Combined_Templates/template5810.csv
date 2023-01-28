@@ -1,0 +1,2 @@
+2,"SELECT m.*, dbo.fSpecidFromSDSS (m.PLATE, m.MJD, m.FIBER) as specObjID FROM mydb.SDSS7_ID0# as m"
+2019-01-24 12:53:00,2

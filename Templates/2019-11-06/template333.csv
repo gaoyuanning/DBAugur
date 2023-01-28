@@ -1,0 +1,2 @@
+1,"select count(*) from DR7.PhotoObj as photo, MyDB.Sabater_AGN as agn where photo.ra = agn.ra   and photo.dec = agn.dec"
+2019-11-06 05:49:00,1

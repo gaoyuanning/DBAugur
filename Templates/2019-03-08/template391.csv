@@ -1,0 +1,2 @@
+1,"select top # ra, dec, psfmag_u, psfmag_g, psfmag_r, psfmag_i, psfmag_z from star where ObjID = #"
+2019-03-08 12:21:00,1

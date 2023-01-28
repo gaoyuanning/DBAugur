@@ -1,0 +1,4 @@
+3,"select psfMag_r, psfMagErr_r, extinction_r from PhotoObj where ra BETWEEN # and # AND dec BETWEEN # and # OR ra BETWEEN # and # AND dec between # and #"
+2019-09-22 14:00:00,1
+2019-09-22 14:04:00,1
+2019-09-22 15:34:00,1

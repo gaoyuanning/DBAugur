@@ -1,0 +1,2 @@
+1,"SELECT TOP # class, subclass, psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z, petroMag_u, petroMag_g, petroMag_r, petroMag_i, petroMag_z FROM SpecPhotoAll WHERE class < > # AND psfMag_u < > #"
+2019-09-11 10:30:00,1

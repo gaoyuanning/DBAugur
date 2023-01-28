@@ -1,0 +1,2 @@
+2,"SELECT specobjid, ra, dec, p_el, p_cw, p_acw, p_mg FROM zooSpec WHERE ra between # and #"
+2019-11-23 12:41:00,2

@@ -1,0 +1,4 @@
+3,"select ra,dec,g from   photoObj  where   sqrt(power((ra-#),#)+power((dec+#),#)) <= #/#"
+2019-10-08 14:43:00,1
+2019-10-08 14:47:00,1
+2019-10-08 14:48:00,1

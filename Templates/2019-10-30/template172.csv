@@ -1,0 +1,2 @@
+1,"SELECT objId,z,zErr,absMagR, absMagG FROM Photoz AS pz JOIN Galaxy AS gy ON pz.objID = gy.objID WHERE  pz.z BETWEEN # and #  and pz.photoErrorClass=#   and pz.nnCount>#   and pz.zErr BETWEEN # and # and pz.l>#"
+2019-10-30 20:10:00,1

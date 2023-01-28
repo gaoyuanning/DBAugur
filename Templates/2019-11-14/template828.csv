@@ -1,0 +1,2 @@
+1,"SELECT    m.recno, m.ra AS ra1, m.dec AS dec1,    n.objid, n.distance,    sp.ra AS ra_sdss, sp.dec AS dec_sdss,    sp.mode,   sp.fiberMag_u, sp.fiberMagErr_u,   sp.fiberMag_g, sp.fiberMagErr_g,   sp.fiberMag_r, sp.fiberMagErr_r,     sp.fiberMag_i, sp.fiberMagErr_i,    sp.fiberMag_z, sp.fiberMagErr_z,   sp.z         , sp.zErr , sp.zWarning,   sp.class     , sp.subClass into mydb.MyTable_# from MyDB.SyCATv1# AS m    CROSS APPLY dbo.fGetNearestObjEq( m.ra, m.dec, #) AS n    JOIN SpecPhotoAll AS sp ON n.objid=sp.objid"
+2019-11-14 08:47:00,1

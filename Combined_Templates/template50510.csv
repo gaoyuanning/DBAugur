@@ -1,0 +1,2 @@
+2,"select p.objID, p.ra, p.dec into mydb.DR7_PhotoPrimary_simard2#_ojbID_ra_dec from PhotoPrimary p where p.flags & (p.dbo.fPhotoFlags (SATURATED#DEBLENDED_AS_PSF#"
+2019-07-08 04:57:00,2

@@ -1,0 +1,2 @@
+1,"select ROUND (x, #) as x, cts = count (ID) from Data group by round (x, #) order by # # histogram"
+2019-11-18 12:38:00,1

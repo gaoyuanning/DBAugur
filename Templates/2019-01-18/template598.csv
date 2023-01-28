@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid,p.ra,p.dec,  s.specobjid, s.z as redshift,  POWER(#,#) * s.z/# as distance FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   s.class = &&&  AND POWER(#,#) * s.z/#<#"
+2019-01-18 01:58:00,1

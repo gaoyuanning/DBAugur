@@ -1,0 +1,7 @@
+6,"SELECT TOP #  cast(str(p.ra,#,#) as float) as ra,cast(str(p.[dec],#,#) as float) as dec,p.u,p.g,p.r,p.i,p.z,p.modelMagErr_u,p.modelMagErr_g,p.modelMagErr_r,p.modelMagErr_i,p.modelMagErr_z,p.psfMag_u,p.psfMag_g,p.psfMag_r,p.psfMag_i,p.psfMag_z,p.psfMagErr_u,p.psfMagErr_g,p.psfMagErr_r,p.psfMagErr_i,p.psfMagErr_z,p.type  FROM ..Star AS p  JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = P.objID  WHERE p.r < #"
+2019-09-03 06:08:00,1
+2019-09-03 06:30:00,1
+2019-09-03 06:43:00,1
+2019-09-03 06:51:00,1
+2019-09-03 06:58:00,1
+2019-09-03 06:59:00,1

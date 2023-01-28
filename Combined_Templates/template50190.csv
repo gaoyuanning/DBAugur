@@ -1,0 +1,5 @@
+4,select count (*) from SpecObj where z> # and z< =# and class = # and ra> # and ra< =# and dec> # and dec> =#
+2019-07-06 23:36:00,1
+2019-07-06 23:44:00,1
+2019-07-06 23:45:00,1
+2019-07-06 23:46:00,1

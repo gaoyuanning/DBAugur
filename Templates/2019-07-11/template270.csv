@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.r, p.r-#*log1#(#E+#*p.z)+# as abs_r FROM SpecPhoto p WHERE p.r-#*log1#(#E+#*p.z)+# < # AND z>#"
+2019-07-11 14:39:00,1

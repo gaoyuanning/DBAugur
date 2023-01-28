@@ -1,0 +1,2 @@
+1,"SELECT TOP #  distinct flags,Mjd FROM PhotoPrimary WHERE  flags in (&&&,&&&)"
+2019-03-04 14:08:00,1

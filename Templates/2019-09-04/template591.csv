@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.ra,p.dec,p.petroMag_u,p.petroMag_g,p.petroMag_r,p.petroMag_i,p.petroMag_z,p.petroMagErr_u,p.petroMagErr_g,p.petroMagErr_r,p.petroMagErr_i,p.petroMagErr_z FROM BESTDR9..PhotoObj AS p 	JOIN #x AS x ON x.objID=p.objID JOIN #upload AS u ON u.up_id = x.up_id  WHERE  ( p.type = # OR p.type = #) ORDER BY x.up_id"
+2019-09-04 03:33:00,1

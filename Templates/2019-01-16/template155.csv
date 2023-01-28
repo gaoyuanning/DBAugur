@@ -1,0 +1,2 @@
+1,"select top #   case     when q.spectro = &&& then dbo.fSpecidFromSDSS(q.plate, q.mjd, q.fiberid, &&&)     when q.spectro = &&& then dbo.fSpecidFromSDSS(q.plate, q.mjd, q.fiberid, #)     else null       end as SpecObjID, q.spectro from mydb.dr1#q as q"
+2019-01-16 15:39:00,1

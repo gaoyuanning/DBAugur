@@ -1,0 +1,2 @@
+3,"select a.*   from (select top # _id,ATS_SYSTEM_CODE,location.ToString() as location      from schoollocation sl where fiscal_year=#) l      join schoolattendance a       on a.school=l.ATS_SYSTEM_CODE        and a.date between &&& and &&&        order by date"
+2019-03-03 16:46:00,3

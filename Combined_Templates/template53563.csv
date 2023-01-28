@@ -1,0 +1,2 @@
+1,"SELECT s.bestObjID, m.* INTO myDB.TESTE FROM myDB.allsample as m, SpecObjAll as s WHERE m.ra = s.ra and m.dec = s.dec"
+2019-07-24 09:26:00,1

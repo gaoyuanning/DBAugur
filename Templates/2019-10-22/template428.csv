@@ -1,0 +1,2 @@
+1,"select galaxyID, redshift, fofCentralId, centralMvir, stellarMass, haloID, x, y, z, type, velx, vely, velz, iDust, sdssi    into MyDB.MyTable_orig   from GAEA.MR  where snapnum = #    and Stellarmass > #    and x between # and #    and y between # and #    and z between # and #"
+2019-10-22 11:08:00,1

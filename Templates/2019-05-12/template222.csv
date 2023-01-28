@@ -1,0 +1,2 @@
+1,"CREATE TABLE Argudo_OUT(   ra_iso   float  not null,   dec_iso   float  not null,   objID     bigint not null,    ra       float  not null,   dec       float  not null,   spiral  int  not null,   elliptical  int  not null,   uncertain  int  not null,   lumDist  real   not null       );"
+2019-05-12 09:28:00,1

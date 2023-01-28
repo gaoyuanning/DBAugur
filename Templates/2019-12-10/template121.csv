@@ -1,0 +1,2 @@
+1,"SELECT  p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z, p.run, p.rerun, p.camcol, p.field, p.type into mydb.MyTable_# from DR1#.PhotoObj p, MyDB.t1 a  	 WHERE p.objid=a.objid"
+2019-12-10 18:19:00,1

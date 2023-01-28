@@ -1,0 +1,2 @@
+2,select t.z_SN into mydb.openSN_redshiftplot1B from mydb.OpenSN t
+2019-03-22 11:21:00,2

@@ -1,0 +1,2 @@
+1,"select CANCER_STUDY_IDENTIFIER as cancer_study_id,name,description  --into MyDB.MyCancerStudies from cancer_study  order by name"
+2019-11-08 15:45:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # d.* FROM dbo.fgetnearbyobjeq(#,-#,#) as d"
+2019-07-08 11:16:00,1

@@ -1,0 +1,4 @@
+3,"SELECT dbo.fcosmoDL(s.z) AS tavolsag, objTypeName, PhotoObj.petroMag_r , PhotoObj.extinction_r , s.z         , PhotoObj.petroMag_r - # * log1# ( dbo.fcosmoDL(s.z) ) - # - PhotoObj.extinction_r AS AbsMag_r           , ROW_NUMBER() OVER (ORDER BY s.z) AS count, NTILE(#) OVER (ORDER BY s.z) AS csoport  FROM SpecObj s   INNER JOIN PhotoObj ON s.bestobjID=PhotoObj.objID   WHERE s.objTypeName=&&& AND s.z<# AND s.z># AND PhotoObj.petroMag_r>#         AND PhotoObj.petroMag_r - # * log1# ( dbo.fcosmoDL(s.z) ) - # - PhotoObj.extinction_r<# ), a AS ( SELECT tavolsag, petroMag_r, AbsMag_r , z, ROW_NUMBER() OVER (PARTITION BY csoport ORDER BY petroMag_r) as pos FROM q ) SELECT tavolsag, petroMag_r, AbsMag_r , z, pos FROM a WHERE pos = #"
+2019-01-25 08:24:00,1
+2019-01-25 08:31:00,1
+2019-01-25 11:18:00,1

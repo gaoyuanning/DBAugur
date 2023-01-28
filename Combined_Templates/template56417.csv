@@ -1,0 +1,2 @@
+2,"SELECT TOP # gsi.specObjID, sp.z, gsl.nii_#_flux AS NII_#_FLUX from galSpecInfo as gsi, SpecObjAll as sp, galSpecLine as gsl where gsi.specObjID = sp.specObjID and gsi.specObjID = gsl.specObjID"
+2019-08-09 10:02:00,2

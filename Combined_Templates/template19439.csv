@@ -1,0 +1,2 @@
+2,"SELECT p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, s.z as redshift FROM PhotoObj AS p JOIN PhotoObj AS s ON s.objID = p.objid fGetNearbyObjEq (#, #, #) n ON n.objID = p.objid WHERE s.z BETWEEN # AND #"
+2019-03-11 11:49:00,2

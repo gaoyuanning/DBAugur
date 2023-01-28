@@ -1,0 +1,2 @@
+1,"SELECT    m.specobjid, n.objid, m.ra AS ra1, m.dec AS dec1,    o.ra AS RA, o.dec AS DEC, o.z, o.zerr, p.PETROR5#_R, p.PETROR9#_R, p.PETROMAG_U, p.PETROMAG_G, p.PETROMAG_R, p.PETROMAG_I, p.PETROMAG_Z FROM MyDB.gz2_# AS m    OUTER APPLY dbo.fGetNearestObjEq(m.ra, m.dec, #) AS n   JOIN SpecObj AS o ON o.bestObjID=n.ObjID   JOIN PhotoObj AS p ON p.objid=n.objid"
+2019-10-31 10:34:00,1

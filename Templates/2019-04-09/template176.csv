@@ -1,0 +1,2 @@
+1,"SELECT top # p.ObjID, p.ra, p.dec, s.plate, s.MJD, s.fiberID, p.dered_u, p.dered_g, p.dered_r, p.petroR5#_r, s.z as redshift, g.lgm_tot_p5# as logMass, g.sfr_tot_p5# as logSFR, z.p_el_debiased, z.p_cs_debiased FROM Photoz WHERE z BETWEEN # and #  and nnIsInside=# and nnCount>#  and zErr BETWEEN #"
+2019-04-09 20:08:00,1

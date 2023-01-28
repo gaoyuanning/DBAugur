@@ -1,0 +1,2 @@
+1,"SELECT TOP # h.ObjID, ObjID1, ObjID2, Arcsec=#*Distance, psfMag_r  FROM MatchHead h   JOIN PhotoTag t on t.ObjID=h.ObjID   JOIN Match m on m.MatchHead=h.ObjID  where type1=# AND type2=#   AND psfMag_r BETWEEN # AND #"
+2019-07-05 09:54:00,1

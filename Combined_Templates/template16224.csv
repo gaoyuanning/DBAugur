@@ -1,0 +1,4 @@
+3,"select top # p.objid, p.g, p.r, g.h_alpha_flux, g.nii_#_flux from GalSpecLine as g join galSpecInfo as i on g.specobjid = i.specobjid join photoObj as p ON p.specobjid = g.specobjid join dbo.fGetNearbyObjEq (#, #, #) n on p.objid = n.objid join specObj s on p.objid = s.bestobjid and s.Class = # and g.h_alpha_flux > # and g.nii_#_flux > # and g.h_alpha_flux_err < g.h_alpha_flux and g.nii_#_flux_err < g.nii_#_flux and i.subclass ! = #"
+2019-03-02 02:24:00,1
+2019-03-02 02:32:00,1
+2019-03-03 06:55:00,1

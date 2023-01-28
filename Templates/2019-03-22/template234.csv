@@ -1,0 +1,2 @@
+1,"SELECT   count(*),  p.objid, p.ra, p.dec, p.r, p.err_r, p.extinction_r,  s.z, s.zErr FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   p.ra BETWEEN # and #  AND p.dec BETWEEN # and #  AND s.z BETWEEN # and #  AND class=&&&"
+2019-03-22 19:24:00,1

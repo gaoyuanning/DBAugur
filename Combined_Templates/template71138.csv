@@ -1,0 +1,2 @@
+1,"SELECT objID, tmassxsc_ra, tmassxsc_dec, J_M_K2#FE, J_MSIG_K2#FE, J_FLG_K2#FE, J_BA, J_PHI, K_M_K2#FE, K_MSIG_#FE, K_FLG_K2#FE, K_BA, K_PHI into mydb.MyTable from TwoMassXSC"
+2019-10-22 10:31:00,1

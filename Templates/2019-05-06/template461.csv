@@ -1,0 +1,2 @@
+2,SELECT TOP # p.objID from Galaxy as G where # <= p.ra and p.ra <= # and # <= p.dec and p.dec <= #
+2019-05-06 09:45:00,2

@@ -1,0 +1,2 @@
+1,"SELECT   p.objID, p.z, p.zErr, s.ra, s.dec into [myscratch:default].allErrorClass1galaxies from Photoz AS p     JOIN photoObj AS s ON s.objID = p.objID   WHERE     p.photoErrorClass = #"
+2019-12-06 01:06:00,1

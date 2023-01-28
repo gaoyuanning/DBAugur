@@ -1,0 +1,4 @@
+6,"SELECT p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.camcol, p.field, s.specobjid, s.class, s.z as redshift FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = # or p.objid = #"
+2019-05-13 02:21:00,2
+2019-05-13 02:22:00,3
+2019-05-13 03:41:00,1

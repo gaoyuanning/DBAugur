@@ -1,0 +1,2 @@
+1,"SELECT TOP #   p.ra, p.dec INTO mydb.ra_dec_only FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   class != &&&    AND    -- not QSOs only stars and galaxy   zWarning = #      AND    -- no  warning flags (z for first)   p.expRad_r < #   AND    -- half-ligt radius in r band less than # arc/sec   p.deVRad_r < #   AND    -- de Vaucouleurs tha same   s.zErr < #      AND    -- error on spectroscopic redshift measurement is less than #   s.z < #                  -- spectroscipt redshift less than #   ;"
+2019-05-09 11:40:00,1

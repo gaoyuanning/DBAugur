@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.run,p.rerun,p.camCol,p.field,p.obj,dbo.fIAUFromEq(p.ra,p.[dec]) as SDSSname,p.cModelMag_r,p.cModelMagErr_r  FROM ..PhotoObj AS p  WHERE p.r > # AND ( p.type = # OR p.type = #)"
+2019-01-30 14:05:00,1

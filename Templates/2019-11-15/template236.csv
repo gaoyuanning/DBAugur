@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID,  	      plate, fiberid, mjd into mydb.MyTableSpectroQueryTest from SpecObjAll 	 WHERE     targetType = &&&"
+2019-11-15 12:35:00,1

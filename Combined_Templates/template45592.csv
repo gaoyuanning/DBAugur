@@ -1,0 +1,2 @@
+4,"SELECT TOP # G.* FROM specobjall as G JOIN dbo.fGetNearbyObjEq (#, #, #) AS GN ON G.ObjId = GN.bestObjId"
+2019-06-13 13:31:00,4

@@ -1,0 +1,2 @@
+2,"select a.objID,a.ra,a.dec,c.logMass,d.z  from PhotoObj as a, Photoz as b, stellarMassFSPSGranWideDust as c, SpecPhotoAll as d where a.type = # and a.objID = b.objID and c.specObjID=a.specObjID and d.specObjID = a.specObjID   and c.fiberID = d.fiberID and c.plate = d.plate and c.MJD = d.mjd   and abs(c.z*#-#)<# and c.logMass># and    ((a.ra-#)*(a.ra-#)+(a.dec-#)*(a.dec-#))<#   -#,#"
+2019-01-19 03:28:00,2

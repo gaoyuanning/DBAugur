@@ -1,0 +1,2 @@
+1,"select number, min (angSep) as angSep into mydb.MyTable from MyDB.NonMasers group by number order by number"
+2019-07-18 12:06:00,1

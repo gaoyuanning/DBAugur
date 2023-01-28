@@ -1,0 +1,2 @@
+1,"SELECT TOP # zmb.objid, zmb.ra, zmb.dec, zmb.petror9#_r, zmb.dered_g, zmb.dered_r, s.z as z_spec, s.zErr, zmb.nvote_mon, zmb.p_el as elliptical, zmb.p_cw as spiralclock, zmb.p_acw as spiralanticlock, zmb.p_edge as edgeon, zmb.p_dk as dontknow, zmb.p_mg as merger FROM zooMonochromeBias as zmb JOIN SpecObj AS s ON s.bestobjid = zmb.objid WHERE p.clean = # and zmb.nvote > = # and zmb.p_mg > #"
+2019-04-03 17:10:00,1

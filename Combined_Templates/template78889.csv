@@ -1,0 +1,4 @@
+3,"select specObjID, ObjID into mydb.dr1#_phototag from SpecPhotoAll"
+2019-11-25 07:01:00,1
+2019-11-25 07:04:00,1
+2019-11-25 07:08:00,1

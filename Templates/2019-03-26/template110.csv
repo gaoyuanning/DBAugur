@@ -1,0 +1,2 @@
+1,"select top # objID, specObjID, ra, dec, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z, modelMagErr_u, modelMagErr_g, modelMagErr_r, modelMagErr_i, modelMagErr_z from SpecPhotoAll"
+2019-03-26 21:54:00,1

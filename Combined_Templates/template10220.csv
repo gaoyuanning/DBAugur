@@ -1,0 +1,2 @@
+1,"SELECT g.objID, s.ra, s.dec, s.class, g.type into mydb.MyTable from PhotoObj AS g JOIN SpecObj AS s ON s.fluxObjID = g.objID where s.zWarning< #"
+2019-02-12 09:53:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID, z, survey FROM SpecObj WHERE class = &&& AND zWarning = # Selects top # id, redshift, and survey it is from. from spectral survey where class is QSO and there are no warning flags"
+2019-02-24 19:12:00,1

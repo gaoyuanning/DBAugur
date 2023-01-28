@@ -1,0 +1,2 @@
+1,"select ws.name as station, [date], datediff (day, #, [date]) as days , is# (prcp, #) as prcp, is# (snow, #) as snow from weather2 w, weatherstation ws where ws.STATION IN () and w.weatherstationid = ws.id order by #, #"
+2019-03-04 07:00:00,1

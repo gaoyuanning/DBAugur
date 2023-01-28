@@ -1,0 +1,2 @@
+3,"SELECT objid, ra, dec, psfMag_u, psfMagErr_u, fiberMag_u, fiberMagErr_u, fiber2Mag_u, fiber2MagErr_u, petroMag_u, petroMagErr_u FROM PhotoObj WHERE ra BETWEEN # AND # AND dec BETWEEN # AND #"
+2019-11-22 06:28:00,3

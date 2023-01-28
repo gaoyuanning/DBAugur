@@ -1,0 +1,7 @@
+12,"SELECT p.objID, p.ra, p.dec, p.run, p.rerun, p.camcol, p.field,    dbo.fPhotoTypeN(p.type) as type,   p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z into mydb.MyTable_#_# from DR1#.photoobj as p   WHERE p.ra between # and # and p.dec between # and #"
+2019-03-18 07:08:00,2
+2019-03-18 07:33:00,2
+2019-03-18 07:35:00,2
+2019-03-18 07:48:00,2
+2019-03-18 07:50:00,2
+2019-03-18 07:55:00,2

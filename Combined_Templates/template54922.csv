@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.type, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, pz.z FROM Photoz AS pz RIGHT JOIN PhotoObj AS p ON pz.objid = p.objid WHERE p.mode = # AND p.ra < # deg and p.ra > # deg AND p.dec < # deg and p.dec > # deg"
+2019-08-01 15:53:00,1

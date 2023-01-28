@@ -1,0 +1,2 @@
+1,"SELECT top # --- basic info G.objID, GSI.specObjID, G.ra, G.dec, --- specline GSX.d4#, GSX.d4#_err, GSE.bptclass, GSE.oh_p1#, GSE.oh_p5#, GSE.oh_p8#, GSE.lgm_tot_p1#, GSE.lgm_tot_p5#, GSE.lgm_tot_p8#, GSE.sfr_tot_p5#,"
+2019-08-07 08:52:00,1

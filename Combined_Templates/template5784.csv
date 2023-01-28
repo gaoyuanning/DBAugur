@@ -1,0 +1,2 @@
+2,"SELECT TOP # p.objID, p.ra, p.dec, p.run, p.rerun, p.camcol, p.field, dbo.fPhotoTypeN (p.type) as type, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, s.specObjID, s.plate, s.mjd, s.fiberID, s.z FROM mydb.SDSS7# JOIN #x x ON x.up_id = u.up_id JOIN PhotoTag p ON p.objID = x.objID JOIN SpecObjAll s ON p.objID = s.bestObjID ORDER by x.up_id"
+2019-01-24 13:35:00,2

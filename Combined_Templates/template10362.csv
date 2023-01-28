@@ -1,0 +1,2 @@
+2,"SELECT TOP # s.objid, s.modelMag_r, s.petroRad_r FROM STAR AS s WHERE ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-02-12 05:19:00,2

@@ -1,0 +1,2 @@
+1,"SELECT  u.up_id, s.plate, s.mjd, s.fiberid, s.bestobjID, s.ra, s.dec, s.specobjid FROM #upload u       JOIN SpecObjAll s ON (s.plate=u.up_plate AND s.mjd=u.up_mjd AND s.fiberID=u.up_fiber) ORDER by u.up_id"
+2019-04-08 15:44:00,1

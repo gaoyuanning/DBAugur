@@ -1,0 +1,2 @@
+2,"select TOP # specObjID, mstellar_median, mstellar_err from stellarMassPCAWisc where   mstellar_median <= # and warning = #"
+2019-04-08 16:24:00,2

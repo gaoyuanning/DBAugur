@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID,  	      field, ra, dec, v, petroMag_u, petroMag_g, petroMag_r, petroMag_i, petroMag_z, petroRad_u, petroRad_g, petroRad_r, petroRad_i, petroRad_z into mydb.MyTable from Galaxy, dbo.fGetNearbyObjEq(#, #, #) n WHERE      p.objID = n.objID AND p.type = #"
+2019-01-14 02:39:00,1

@@ -1,0 +1,2 @@
+2,"select ar.name as artist, ab.title as album   from Chinook.Album ab   join chinook.Artist ar on ar.artistid=ab.artistid   order by ar.name"
+2019-02-20 09:30:00,2

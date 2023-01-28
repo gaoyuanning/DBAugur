@@ -1,0 +1,2 @@
+1,"SELECT sfh.snapnum, sfh.bin, sfh.lookbackTime, sfh.dt, sfh.t_from, sfh.t_to INTO MyDB..lgal_sfh_bin_limits_all_snapshots FROM Henriques2#a..SFH_Times_MR sfh"
+2019-05-15 10:59:00,1

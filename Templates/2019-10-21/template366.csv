@@ -1,0 +1,3 @@
+2,"select OBJID, psfMag_u into mydb.MyTable from PhotoObjAll where psfMag_u between # and # and mode = #"
+2019-10-21 11:16:00,1
+2019-10-21 11:17:00,1

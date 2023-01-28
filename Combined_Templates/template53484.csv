@@ -1,0 +1,2 @@
+1,"select s.specObjID, s.ra, s.dec, s.z, s.plate, s.mjd, s.fiberid, s.run2d from specObjAll s JOIN galSpecExtra e ON e.specObjID = s.specObjID JOIN zooSpec z ON z.specObjID = s.specObjID JOIN zooVotes v ON v.specObjID = s.specObjID JOIN zoo2MainSpecz t ON t.specObjID = s.specObjID where s.ra = # AND s.dec = #"
+2019-07-24 17:58:00,1

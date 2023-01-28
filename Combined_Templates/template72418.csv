@@ -1,0 +1,4 @@
+3,select count (*) from [myscratch:default].efeds where brickname = #
+2019-10-29 08:14:00,1
+2019-10-29 08:16:00,1
+2019-10-29 08:21:00,1

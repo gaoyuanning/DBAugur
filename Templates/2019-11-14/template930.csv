@@ -1,0 +1,2 @@
+2,"select top # objID,ra,dec into MyDB.Table2 from dr1#.photoObj where ra between # and # and dec between # and #"
+2019-11-14 04:03:00,2

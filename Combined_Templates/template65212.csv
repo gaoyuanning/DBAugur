@@ -1,0 +1,2 @@
+1,"SELECT TOP # n.objID, sp.objID, sp.class, sp.ra, sp.dec, sp.z sp.zErr FROM specPhoto AS sp JOIN fGetNearbyObjEq (#, #, #) AS n ON n.objID = sp.objID WHERE (sp.class = #)"
+2019-09-25 21:29:00,1

@@ -1,0 +1,2 @@
+1,"select * from OPENQUERY ([CBIO], #) a"
+2019-11-08 17:07:00,1

@@ -1,0 +1,2 @@
+1,"select --top # t.objID, petroMag_r, extinction_r from MyDB.test_table as t join PhotoObjAll as p on p.objID = t.objID"
+2019-02-12 14:06:00,1

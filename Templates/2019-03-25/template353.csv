@@ -1,0 +1,4 @@
+3,"select a.specObjID, a.img, a.fiberID, a.mjd, a.plate, a.survey, a.programname, a.instrument,a.sourceType,a.z, a.zErr, a.class, a.velDisp, a.velDispErr from SpecObjAll a where bestObjID=#"
+2019-03-25 16:32:00,1
+2019-03-25 16:34:00,1
+2019-03-25 16:37:00,1

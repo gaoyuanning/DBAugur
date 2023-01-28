@@ -1,0 +1,3 @@
+2,"CREATE TABLE MyTable_# (  ra float,  dec float,  rad float,  cluster int,  objid bigint, );"
+2019-05-23 16:14:00,1
+2019-05-23 16:17:00,1

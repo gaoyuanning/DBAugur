@@ -1,0 +1,2 @@
+1,"SELECT   p.ra,p.dec,p.u,p.g,p.r,p.i,p.z, u-r, g-r  from PhotoObj as p WHERE p.ObjId = # or p.ObjId = #  or p.ObjId = #  or p.ObjId = #  or p.ObjId = #  or p.ObjId = #  or p.ObjId = #  or p.ObjId = #  or p.ObjId = #  or p.ObjId = #  or p.ObjId = #  or p.ObjId = #"
+2019-05-21 10:40:00,1

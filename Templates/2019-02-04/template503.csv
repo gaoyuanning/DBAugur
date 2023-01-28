@@ -1,0 +1,2 @@
+1,select top # * from dbo.specPhotoAll --where specObjID=#
+2019-02-04 03:34:00,1

@@ -1,0 +1,2 @@
+1,"SELECT u, b, r, i, z FROM Galaxy WHERE r< # AND r> #"
+2019-10-08 04:42:00,1

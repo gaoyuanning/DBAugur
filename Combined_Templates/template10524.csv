@@ -1,0 +1,2 @@
+1,"select p.objid, p.modelMag_r, p.petroRad_r from PhotoObj as p;"
+2019-02-12 01:23:00,1

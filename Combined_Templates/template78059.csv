@@ -1,0 +1,2 @@
+1,"SELECT p7.dr7objid, p7.dr8objid, p8.ra, p8.dec, p8.phioffset_u, p8.phioffset_g, p8.phioffset_r, p8.phioffset_i, p8.phioffset_z into mydb.dr8phioffset from PhotoObjAll p8 JOIN PhotoObjDR7 p7 ON p8.objID = p7.dr8objID JOIN mydb.Simard1#_ObjID s ON p7.dr7ObjID = s.dr7objID"
+2019-11-22 15:10:00,1

@@ -1,0 +1,5 @@
+5,"select top # p.objid, p.ra, p.dec, p.g, p.r from photoObj p join specObj s on s.bestobjid = p.objid where p.g-p.r < # and p.g < # and p.r < # and s.class = #"
+2019-09-23 10:15:00,2
+2019-12-08 08:00:00,1
+2019-12-08 08:01:00,1
+2019-12-08 08:04:00,1

@@ -1,0 +1,4 @@
+3,"SELECT ra, dec, petroRad_r, modelMag_g, modelMag_r, dered_g, dered_r, petroR5#_r, specObjID FROM Galaxy WHERE ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-05-02 04:18:00,1
+2019-05-02 04:20:00,1
+2019-05-02 04:25:00,1

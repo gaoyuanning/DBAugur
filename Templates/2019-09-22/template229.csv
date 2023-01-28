@@ -1,0 +1,2 @@
+1,"SELECT objID,  	    ra, dec, 	   cmodelMag_g,   cmodelMagErr_g,   cmodelMag_r,   cmodelMagErr_r,   cmodelMag_i,   cmodelMagErr_i,   cmodelMag_z,   cmodelMagErr_z,   type into mydb.hectomap_dr1# from PhotoPrimary 	 WHERE   ra > # and ra < # and dec > # and dec < # and cmodelMag_r < #"
+2019-09-22 10:20:00,1

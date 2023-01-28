@@ -1,0 +1,2 @@
+4,"SELECT sqrt(abs(avg(x)/#-#)) as dx, stdev(x) as sx, #/sqrt(count(*)) as sig_exp, count(*) as num FROM mr tablesample(.#)"
+2019-07-17 10:09:00,4

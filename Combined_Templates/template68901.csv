@@ -1,0 +1,4 @@
+3,"SELECT S.specObjID, S.ra, S.dec, S.z, G.lgm_tot_p5#, G.lgm_fib_p5# into mydb.galSpec from SpecObjAll as S, galSpecExtra as G where S.z < =# and S.specObjID = G.specObjID and S.ra> # and S.ra< # and S.dec> # and S.dec< #"
+2019-10-09 02:45:00,1
+2019-10-09 02:46:00,1
+2019-10-09 02:48:00,1

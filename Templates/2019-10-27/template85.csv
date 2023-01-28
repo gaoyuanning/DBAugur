@@ -1,0 +1,11 @@
+10,"select ID, Vintage, Tract, m2=geom.STArea(), lon=centroid.Long, lat=centroid.Lat, dist2center=geom.STDistance(@center) from optw.tamass.TRACTS  where vintage = #     and geom.STArea() < #e9 -- m^# -- excluding only one huge tract     and geom.STDistance(@center) < # / # * # -- meters"
+2019-10-27 16:38:00,1
+2019-10-27 16:46:00,1
+2019-10-27 16:52:00,1
+2019-10-27 16:55:00,1
+2019-10-27 16:56:00,1
+2019-10-27 16:57:00,1
+2019-10-27 17:02:00,1
+2019-10-27 17:04:00,1
+2019-10-27 17:05:00,1
+2019-10-27 17:06:00,1

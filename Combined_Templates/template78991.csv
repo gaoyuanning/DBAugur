@@ -1,0 +1,2 @@
+1,"SELECT sp.specObjID, sp.mjd, sp.plate, sp.fiberID, sp.z, sp.zErr, sp.subClass, sp.ra, sp.dec, sp.psfMag_g - sp.extinction_g as gmag, sp.psfMagErr_r as gerr, sp.psfMag_r - sp.extinction_r as rmag, sp.psfMagErr_r as rerr, sp.psfMag_i - sp.extinction_i as imag, sp.psfMagErr_i as ierr, sp.psfMag_z - sp.extinction_z as zmag, sp.psfMagErr_z as zerr FROM dr1#.SpecPhotoAll AS sp WHERE sp.class = # AND sp.type = # AND sp.mode = # INTO mydb.Allgals1"
+2019-11-25 01:16:00,1

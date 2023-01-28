@@ -1,0 +1,2 @@
+1,"SELECT Count(petroMag_r, objID) FROM Galaxy   WHERE petroMag_r > #"
+2019-04-27 11:16:00,1

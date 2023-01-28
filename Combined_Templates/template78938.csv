@@ -1,0 +1,2 @@
+1,"select SpecObjAll.z from PhotoObjAll, SpecObjAll where JOIN SpecObjAll as sp ON sp.bestObjID = PhotoObjAll.objID"
+2019-11-25 03:33:00,1

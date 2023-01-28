@@ -1,0 +1,2 @@
+1,"select count (distinct (ring_galaxies_z.ID) ) from buta, ring_galaxies_z where sqrt (pow (buta.ra-ring_galaxies_z.ra, #) + pow (buta.dec-ring_galaxies_z.dec, #) )< #"
+2019-09-14 01:46:00,1

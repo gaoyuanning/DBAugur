@@ -1,0 +1,5 @@
+111,"select p.ra, p.dec, p.type,p.insidemask,p.flags_g,p.flags_i,p.flags_r,p.cModelMag_u, p.cModelMagErr_u,p.cModelMag_g, p.cModelMagErr_g,p.cModelMag_r, p.cModelMagErr_r,p.cModelMag_i, p.cModelMagErr_i,p.cModelMag_z, p.cModelMagErr_z from Galaxy p join dbo.fGetNearbyObjEq(#,#,#) r on p.ObjID = r.ObjID"
+2019-01-15 00:00:00,29
+2019-01-15 00:01:00,42
+2019-01-15 00:02:00,38
+2019-01-15 00:03:00,2

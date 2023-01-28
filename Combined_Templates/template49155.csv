@@ -1,0 +1,4 @@
+4,"select top # ra, dec from SpecObjAll group by ra, dec having count (*) > # order by ra"
+2019-06-30 13:29:00,2
+2019-06-30 13:30:00,1
+2019-07-01 00:40:00,1

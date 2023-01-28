@@ -1,0 +1,2 @@
+1,"select  ra,dec,specObjID,bestObjID,z,velDisp,velDispErr from SpecObjAll where velDisp># and z<# and z># and velDispErr<# and velDispErr># and ra<#*# order by RA"
+2019-02-25 08:34:00,1

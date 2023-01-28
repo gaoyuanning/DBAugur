@@ -1,0 +1,2 @@
+1,"SELECT s.bestobjid, s.specObjID, s.ra as specra, s.dec as specdec, sciencePrimary , s.z as redshift, s.zErr as redshiftErr FROM specObjAll s, dbo.fgetNearByObjEq(#,#,#) n WHERE s.bestobjid = n.objid"
+2019-03-18 19:02:00,1

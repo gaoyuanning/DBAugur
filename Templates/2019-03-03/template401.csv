@@ -1,0 +1,3 @@
+2,"SELECT p.ObjID,p.petroRad_r,p.fracDev_r,p.deVAB_r,(p.petroR9#_r) / (p.petroR5#_r) as C ,p.modelmag_r-#*log1#(#E+#*S.z) as abs_mag_r,p.u,p.g, p.r,p.fiberMag_u,p.fiberMag_g,p.fiberMag_r,p.petroMag_u,p.petroMag_g,p.petroMag_r,S.z, S.ra,S.dec,S.eclass,p.run, p.rerun, p.camcol,p.field,S.plate, S.mjd,S.fiberID into mydb.MyTable_# from PhotoObj AS p JOIN SpecObj AS S ON S.bestobjid = p.objid WHERE p.petroRad_r > # and p.g < # and p.r < # and p.petroMag_g - p.petroMag_r > # and deVAB_r > # and p.fiberMag_g - p.fiberMag_r < # and p.fracDev_r between # and # and ((p.petroR9#_r) / (p.petroR5#_r)) between # and # and S.specClass=# and S.z between # and #"
+2019-03-03 11:37:00,1
+2019-03-03 12:44:00,1

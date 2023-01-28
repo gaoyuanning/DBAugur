@@ -1,0 +1,8 @@
+7,"SELECT str(p.ra,#,#) as ra,str(p.[dec],#,#) as dec,p.psfMag_u,p.psfMag_g,p.psfMag_r,p.psfMag_i,p.psfMag_z,p.psfMagErr_u,p.psfMagErr_g,p.psfMagErr_r,p.psfMagErr_i,p.psfMagErr_z FROM BESTDR7..Star AS p WHERE p.psfMag_u > # AND p.psfMag_i > # AND p.psfMag_u < # AND p.psfMag_i < # AND (p.psfMag_g - p.psfMag_r) > # AND (p.psfMag_r - p.psfMag_i) > # AND (p.psfMag_i - p.psfMag_z) > # AND (p.psfMag_u - p.psfMag_g) < # AND (p.psfMag_g - p.psfMag_r) < # AND (p.psfMag_r - p.psfMag_i) < # AND (p.psfMag_i - p.psfMag_z) < #"
+2019-03-03 09:08:00,1
+2019-03-03 09:19:00,1
+2019-03-03 09:30:00,1
+2019-03-03 10:50:00,1
+2019-03-03 11:12:00,1
+2019-03-03 11:54:00,1
+2019-03-03 12:22:00,1

@@ -1,0 +1,2 @@
+1,"SELECT * FROM (SELECT *, ROW_NUMBER(#) OVER (ORDER BY specObjID) AS RowNum FROM [specphoto]) AS MyNewTable WHERE MyNewTable.RowNum BETWEEN # AND #"
+2019-12-19 21:34:00,1

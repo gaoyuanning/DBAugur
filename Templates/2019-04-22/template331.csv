@@ -1,0 +1,2 @@
+1,"SELECT t.Milliseconds as DURATION, t.Bytes as SIZE, mt.Name as TYPE   FROM chinook.Track AS track      INNER JOIN chinook.MediaType AS mt      ON track.MediaTypeId = mt.MediaTypeId"
+2019-04-22 15:53:00,1

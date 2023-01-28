@@ -1,0 +1,2 @@
+2,"SELECT FLOOR(sppParams.l/#)*#, AVG(s.z*#e5/cos(radians(sppParams.b))) v_doppler,     STDEV(s.z*#e5/cos(radians(sppParams.b)))/SQRT(COUNT(*)) error, FROM SpecObj AS s INNER JOIN sppParams ON s.specobjID = sppParams.specObjID WHERE s.z<# and s.z># and sppParams.feha># and sppParams.feha<# and sppParams.b<# GROUP BY FLOOR(sppParams.l*#)/# ORDER BY #"
+2019-01-31 05:52:00,2

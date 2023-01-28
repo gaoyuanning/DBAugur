@@ -1,0 +1,6 @@
+6,"SELECT DISTINCT po.objid AS phot_id, po.ra AS phot_ra, po.dec AS phot_dec, po.modelmag_i AS modmag_i FROM PhotoPrimary po WHERE ( po.clean = # OR ( ((po.flags & #) != #) AND ((po.flags & #) = #)  AND (((po.flags & #) = #) OR (po.psfmagerr_i <= #)) AND (((po.flags & #) = #) OR (po.flags & #) = #) ) ) AND (po.calibStatus_i & #) != # AND po.modelmagerr_i <= # AND po.modelmagerr_i > # AND po.modelmag_i > # AND po.extinction_i  <= # ORDER BY po.objid OFFSET (#-#) * # ROWS FETCH NEXT # ROWS ONLY"
+2019-07-30 18:27:00,1
+2019-07-30 18:40:00,1
+2019-07-30 19:12:00,2
+2019-07-30 19:49:00,1
+2019-07-30 19:50:00,1

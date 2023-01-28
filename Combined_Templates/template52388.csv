@@ -1,0 +1,2 @@
+1,"SELECT avg (x) /#-# as dx, stdev (x) as sx, #/sqrt (count (*) ) as sig_exp, count (*) as num FROM mr tablesample (.#) repeatable (#)"
+2019-07-17 10:08:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # ROW_NUMBER () OVER (ORDER BY bestObjID) , specObjID, bestObjID, z FROM SpecObj WHERE class = # AND zWarning = # AND z BETWEEN # AND # AND (survey = # or survey = #) AND bestObjID < > # order by newid ()"
+2019-03-22 08:00:00,1

@@ -1,0 +1,5 @@
+4,"SELECT spec.ra, spec.dec, spec.z  FROM SpecObj AS spec WHERE spec.class = &&& AND spec.zWarning = #"
+2019-07-01 21:58:00,1
+2019-07-01 22:04:00,1
+2019-07-01 22:06:00,1
+2019-07-01 22:08:00,1

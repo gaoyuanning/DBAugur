@@ -1,0 +1,2 @@
+1,"SELECT m.nsa_sersic_n,   s.ra,s.dec   FROM SpecObjAll AS s,   mangaDRPall AS m WHERE s.ra=# and s.dec=#"
+2019-07-06 02:19:00,1

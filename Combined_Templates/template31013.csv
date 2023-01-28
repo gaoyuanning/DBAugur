@@ -1,0 +1,2 @@
+1,"SELECT TOP # n.*, asp.* into mydb.MyTable from mydb.nlirich as n CROSS APPLY dbo.fGetNearbyApogeeStarEq (n.ra, n.dec, #) AS near JOIN apogeeStar s ON s.apstar_id = near.apstar_id JOIN aspcapStar asp ON asp.apstar_id = s.apstar_id"
+2019-04-16 05:20:00,1

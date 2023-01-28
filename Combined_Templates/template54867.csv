@@ -1,0 +1,2 @@
+1,"select s.*, m.mbol, m.u, m.v, m.b, m.r, m.i, m.k, m.rprime, m.iprime, m.metallicity, m.age, m.mass into hcat from hstat s inner join hmags m on s.hid = m.grp and s.z = m.redshift alter table hcat add phkey int update hcatset phkey = dbo.fPHkey (#, convert (int, (xc/#) *#) , convert (int, (yc/#) *#) , convert (int, (zc/#) *#) ) go create index idx_hcat_phkey on hcat (phkey, xc, yc, zc)"
+2019-07-31 05:24:00,1

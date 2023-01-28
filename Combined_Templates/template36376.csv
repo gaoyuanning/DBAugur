@@ -1,0 +1,2 @@
+1,"select ID_CAT, density, jDate, tmassxsc_ra, tmassxsc_dec, DIST_EDGE_NS, DIST_EDGE_EW, DATE from TwoMassXSC where ID_CAT ! = ##"
+2019-05-02 14:28:00,1

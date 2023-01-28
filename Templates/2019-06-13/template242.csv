@@ -1,0 +1,2 @@
+1,"SELECT p.subclass, p.ra, p.dec FROM specphotoall p  JOIN dbo.fGetObjFromRectEq(#,#, #)"
+2019-06-13 13:16:00,1

@@ -1,0 +1,3 @@
+28,"SELECT TOP # p.objid, psfMag_u,psfMag_g,psfMag_r,cModelMag_u,cModelMag_g,cModelMag_r,ModelMag_u,ModelMag_g,ModelMag_r,p.type, n.distance*# as distance, s.specobjid, CASE WHEN g.subclass<>&&& THEN g.subclass ELSE s.class END as spec_class FROM photoObj AS p JOIN dbo.fGetNearestObjEq(#, #,#) as n ON n.objID = p.objID left JOIN SpecObj AS s ON s.bestobjid = p.objid left JOIN galSpecInfo as g on s.specobjid=g.specobjid"
+2019-09-17 18:48:00,1
+2019-09-17 18:49:00,27

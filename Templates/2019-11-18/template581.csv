@@ -1,0 +1,2 @@
+1,"select sum(x * y - #) as derived from Data where x > # and x + y between # and # order by RunID, x * y desc"
+2019-11-18 12:34:00,1

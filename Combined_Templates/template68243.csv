@@ -1,0 +1,2 @@
+1,"SELECT px.objID, px.ra, px.dec, px.modelMag_r, px.modelMagErr_r, px.extinction_r, px.petroRad_r, px.petroRadErr_r, px.petroR5#_r, px.petroR5#Err_r, px.petroR9#_r, px.petroR9#Err_r, p.z, p.zErr INTO mydb.pares FROM PhotoObj phot, PhotoZ p, MyDB.MyTable tab, PhotoPrimary px fGetNearbyObjEq (tab.ra, tab.dec, tab.radius) WHERE px.ObjID = p.ObjID and n.objID = px.objID and p.nnIsInside = # AND p.nnCount> # AND p.zErr > # and px.nchild = # AND (px.Flags & (# + # + #) ) = # ORDER BY tab.num asc"
+2019-10-07 12:03:00,1

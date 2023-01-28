@@ -1,0 +1,2 @@
+2,"select top # ra, dec, modelMag_i, modelMag_r from PhotoObjAll where dec between # and #"
+2019-09-24 14:20:00,2

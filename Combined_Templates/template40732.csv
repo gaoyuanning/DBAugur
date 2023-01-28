@@ -1,0 +1,2 @@
+1,"SELECT ALL p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.run, p.rerun, p.camcol, p.field FROM PhotoObj AS p WHERE p.type = # AND p.r BETWEEN # AND #"
+2019-05-21 13:50:00,1

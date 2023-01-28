@@ -1,0 +1,2 @@
+1,"update BB_appearances set the_geom = geography::Point (#, #)"
+2019-11-24 13:29:00,1

@@ -1,0 +1,2 @@
+1,"select   m.objId, p.fracDeV_u, p.fracDeV_g, p.fracDeV_r, p.fracDeV_i, p.fracDeV_z from   MyDB.oids m, PhotoObjAll p where   m.objID = p.objID"
+2019-06-21 14:39:00,1

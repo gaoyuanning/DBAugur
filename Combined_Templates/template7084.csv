@@ -1,0 +1,2 @@
+1,"SELECT TOP # distinct g.run, g.camcol, g.field FROM Galaxy as G JOIN ZooSpec AS zs ON G.objid = zs.objid JOIN SpecPhoto as sp ON sp.objID = zs.objid"
+2019-01-30 07:45:00,1

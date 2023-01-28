@@ -1,0 +1,4 @@
+3,"SELECT TOP # p.ra,p.dec,p.run,p.rerun,p.camCol,p.field,p.obj FROM  #x x, #upload u,  BESTDR6..PhotoObj as p WHERE  ( p.type = # OR p.type = #) AND u.up_id = x.up_id AND x.objID=p.objID ORDER BY x.up_id"
+2019-02-01 04:21:00,1
+2019-02-01 04:22:00,1
+2019-02-01 04:27:00,1

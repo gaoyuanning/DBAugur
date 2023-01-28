@@ -1,0 +1,2 @@
+1,"select m.Name,m.objID,p.u,p.g,p.r,p.i,p.z,p.err_u,p.err_g,p.err_r,p.err_i,p.err_z into mydb.wiyn_targetmag from dbo.PhotoPrimary as p and mydb.wiyn_targetid as m where p.objID = m.objID"
+2019-04-14 14:48:00,1

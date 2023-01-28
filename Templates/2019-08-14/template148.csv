@@ -1,0 +1,2 @@
+1,"select   count(z) as num_redshift, min(z) as min_z, max(z) as max_z, avg(z) as   avg_z  from specObj where z BETWEEN # and #"
+2019-08-14 20:31:00,1

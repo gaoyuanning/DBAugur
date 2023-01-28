@@ -1,0 +1,2 @@
+1,"select top # p.objid, p.ra, p.dec, p.stellarmasspassiveport, p.stellarMassStarformingPort from galaxy p, specobj s, dbo.fgetNearByObjEq(#,#,#) n where p.objid=s.bestobjid and p.objid=n.objid and s.bestobjid=n.objid"
+2019-03-13 16:19:00,1

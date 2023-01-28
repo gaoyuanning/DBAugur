@@ -1,0 +1,2 @@
+2,"SELECT s.z, s.ra, s.dec, s.petromag_r, s.extinction_r, p.kcorrR, zu.spiral FROM specphotoall AS s, zooSpec AS zu, photoz AS p INTO mydb.DR1#_morph WHERE class = #and s.SpecobjID = zu.SpecobjID and zu.uncertain = # and s.ObjID = p.ObjID and s.zwarning = # and s.z between # and #"
+2019-12-17 01:31:00,2

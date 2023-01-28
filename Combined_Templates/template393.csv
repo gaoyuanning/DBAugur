@@ -1,0 +1,2 @@
+1,"SELECT s.specobjid, s.ra, s.dec, s.plate, s.mjd, s.fiberid into mydb.res_xshaped_lineinfo_best7 from MyDB.sdss_in_finalbestXRGs_lineinfo AS m JOIN #x x ON x.up_id = u.up_id JOIN SpecObjAll s ON s.specObjID = x.specObjID"
+2019-01-02 03:44:00,1

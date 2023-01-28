@@ -1,0 +1,2 @@
+1,"select distinct county from optw.tamass.TRACTS      where centroid.STDistance(@center) < # -- meters ) select ID, wkt=geom.MakeValid().ToString()     , dist=centroid.MakeValid().STDistance(@center) from optw.tamass.TRACTS  where county in (select county from counties)"
+2019-10-26 17:19:00,1

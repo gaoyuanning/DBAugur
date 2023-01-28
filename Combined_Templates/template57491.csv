@@ -1,0 +1,2 @@
+1,"SELECT sp.objID, gl.ra, gl.dec, ph.z FROM GALAXY as gl JOIN PhotoObj AS ph ON ph.objID = gl.objID WHERE gl.ra BETWEEN # AND # AND gl.dec BETWEEN # AND #"
+2019-08-14 20:21:00,1

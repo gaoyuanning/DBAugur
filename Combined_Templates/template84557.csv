@@ -1,0 +1,2 @@
+1,"SELECT t.objid, t.thingId, a.ra, a.dec, a.cModelMag_i , a.cModelMagErr_i FROM detectionIndex AS t JOIN PhotoObjAll AS a ON a.thingId = t.thingId WHERE t.thingId = # OR t.thingId = # OR t.thingId = # OR t.thingId = # OR t.thingId = # OR t.thingId = # OR t.thingId = #"
+2019-12-27 03:55:00,1

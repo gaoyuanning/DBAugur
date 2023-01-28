@@ -1,0 +1,2 @@
+1,"select application, count(*) as nRows from SciServerLog.Messages group by application order by count(*) desc"
+2019-02-25 13:10:00,1

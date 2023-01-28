@@ -1,0 +1,2 @@
+1,"SELECT objid, ra, dec, u, g, r, i, z, b, l FROM Star WHERE r < # and ra BETWEEN # and # and dec BETWEEN # and # and type = star"
+2019-03-09 18:54:00,1

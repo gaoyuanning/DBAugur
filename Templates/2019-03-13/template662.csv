@@ -1,0 +1,2 @@
+1,select top # s.subclass from specobj as s where s.subclass is null;
+2019-03-13 02:47:00,1

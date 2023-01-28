@@ -1,0 +1,2 @@
+1,"SELECT top # m.objid, m.dec, m.ra, m.distance  from MyDB.NN1 m"
+2019-01-07 14:27:00,1

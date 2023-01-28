@@ -1,0 +1,2 @@
+1,"select A.specObjID, A.plateid, A.mjd, A.fiberID, A.z, A.spectrotype, A.subclass into mydb.ROSII_STARBURST from galspecInfo as A where   A.z<# and    A.subclass=&&&"
+2019-02-20 14:05:00,1

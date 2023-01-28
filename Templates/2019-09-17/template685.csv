@@ -1,0 +1,2 @@
+1,"SELECT   S.bestobjID,   G.ra, G.dec, G.petroMag_r, G.deVAB_r, G.deVPhi_r, G.expAB_r, G.expPhi_r,   G.modelMag_g, G.extinction_g, G.modelMag_r, G.extinction_r, G.deVMag_r, G.expMag_r, G.petroRad_r  INTO   exg_#  FROM   galSpecInfo as S,   stellarMassPCAWiscBC0# as BC,   stellarMassPCAWiscM1# as M  WHERE    G.objID=S.bestobjID and S.z>=# and S.z<=#"
+2019-09-17 00:02:00,1

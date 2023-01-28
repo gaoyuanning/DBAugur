@@ -1,0 +1,2 @@
+1,"SELECT TOP # photobjid, ra, dec, z, zErr from specobj where class = #"
+2019-02-20 08:30:00,1

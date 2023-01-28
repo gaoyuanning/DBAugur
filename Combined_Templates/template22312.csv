@@ -1,0 +1,2 @@
+2,"SELECT top # modelMag_g, ra, dec FROM PhotoTag WHERE probPSF = # AND modelmag_g< #"
+2019-03-22 20:38:00,2

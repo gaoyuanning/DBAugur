@@ -1,0 +1,2 @@
+1,"select top # * from galaxy, GalSpecLine where galaxy.objID = GalSpecLine.specobjid;"
+2019-09-18 19:14:00,1

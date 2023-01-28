@@ -1,0 +1,2 @@
+1,"SELECT objid, ra, dec, modelmag_u, modelmag_u-#*log1# (#E+#*z) +# as abs_mag_u, z ---from Galaxy ---where ObjID = # SELECT top # objid, photoz FROM PhotoObjAll WHERE ObjID = # ---modelmag_r-#*log1# (#E+#*z) +# < #AND z> #"
+2019-02-26 09:16:00,1

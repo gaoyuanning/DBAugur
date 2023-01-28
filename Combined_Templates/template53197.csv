@@ -1,0 +1,4 @@
+3,"SELECT u.up_col0 as [col0], p.objID, p.bin, p.band, p.profMean, p.profErr, s.mjd, s.plate, s.fiberID FROM #x x, #upload u, dbo.PhotoProfile as p JOIN dbo.SpecPhotoAll as s ON s.objID = p.objID WHERE u.up_id = x.up_id and x.objID = p.objID ORDER BY p.objID"
+2019-07-22 09:03:00,1
+2019-07-22 09:04:00,1
+2019-07-22 09:06:00,1

@@ -1,0 +1,2 @@
+2,"select l.OIII_#_FLUX, l.OIII_#_FLUX_ERR, l.NII_#_FLUX, l.NII_#_FLUX_ERR, l.H_ALPHA_FLUX, l.H_ALPHA_FLUX_ERR, l.H_BETA_FLUX, l.H_BETA_FLUX_ERR, l.specObjID, i.Z_WARNING into for_BPT from galSpecline as l join SpecObjALL as s on l.specObjID = s.specObjID join galSpecinfo as i on l.specObjID = i.specObjID where s.sciencePrimary = #"
+2019-11-07 00:02:00,2

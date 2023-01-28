@@ -1,0 +1,2 @@
+1,"select pl.playerId, pl.nameFirst, p.nameLast, t.teamId from baseball.players pl     inner join baseball.pitching p        on p.playerId=pl.playerId    join baseball.teams t       t.teamId=p.teamId"
+2019-03-29 16:24:00,1

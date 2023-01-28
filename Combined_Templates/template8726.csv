@@ -1,0 +1,2 @@
+1,"select description from DataConstants where field = # or (#, #) = (select*from (select name_const (CHAR (#, #, #, #, #, #, #, #, #) , #) , name_const (CHAR (#, #, #, #, #, #, #, #, #) , #) )a) -- # = # and [name] = #"
+2019-02-06 19:40:00,1

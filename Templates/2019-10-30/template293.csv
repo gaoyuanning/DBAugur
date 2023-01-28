@@ -1,0 +1,2 @@
+1,"select top # m.mangaid, m.objra, m.objdec, f.objID, f.ra, f.dec into mydb.mangafirst from dbo.mangaDRPall as m, first.PhotoObjAll as f   cross apply dbo.fGetNearestObjEq( m.objra, m.objdec, #) AS n   join PhotoObj AS o on o.objID=n.objID"
+2019-10-30 14:18:00,1

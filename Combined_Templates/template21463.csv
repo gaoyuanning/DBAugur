@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec, s.plate, s.mjd, s.fiberid, s.run2d, s.z, s.class, s.subClass, s.velDisp, s.velDispErr into mydb.MyTable_# from SpecObj AS s WHERE ( (s.zwarning = #) AND (s.z < #) AND (s.class = #) AND (s.subClass = #) AND (s.velDisp > #*s.velDispErr) )"
+2019-03-19 17:18:00,1

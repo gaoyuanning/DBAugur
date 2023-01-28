@@ -1,0 +1,2 @@
+1,"select s.origObjId, s.ra, s.dec from DR8.specObj  into mydb.test    where   s.origObjId = #"
+2019-04-05 16:41:00,1

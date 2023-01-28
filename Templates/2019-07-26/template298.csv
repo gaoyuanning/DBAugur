@@ -1,0 +1,4 @@
+7,"select a.visit_id, a.plate, a.mjd, a.fiberid, dbo.fMjdToGMT(a.mjd) as string, a.vrel, b.apogee_id from apogeeVisit a, dbo.fGetNearestApogeeStarEq(#,#,#) b where a.apogee_id=b.apogee_id order by mjd"
+2019-07-26 11:49:00,1
+2019-07-26 11:50:00,5
+2019-07-26 11:51:00,1

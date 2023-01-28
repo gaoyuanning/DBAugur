@@ -1,0 +1,2 @@
+1,"SELECT objID, count (*) FROM Galaxy WHERE (r - extinction_r) < #"
+2019-02-25 16:23:00,1

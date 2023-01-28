@@ -1,0 +1,6 @@
+5,"SELECT TOP # dbo.fCosmoDl(s.z) AS Dl,      p.petroMag_r AS petroMag,     p.extinction_r AS extinction,     s.z AS z,      p.modelMag_r as r,     p.modelMag_r # # * log1#(dbo.fCosmoDl(s.z)-p.extinction_r) AS Mr,     p.petroMag_r-#*log1#(dbo.fCosmoDl(s.z))#-p.extinction_r AS AbsMag,     ROW_NUMBER() OVER(ORDER BY s.z) AS RN,     NTILE(#) OVER(ORDER BY s.z) AS GN FROM  SpecObj AS s   INNER JOIN PhotoObj AS p   ON s.bestObjID=p.objID WHERE SpecClass=# AND s.z># AND s.z<# AND p.petroMag_r># AND p.petroMag_r<# AND p.petroMag_r-#*log1#(dbo.fCosmoDl(s.z))#-extinction_r<# AND s.z<# ) , r AS (SELECT GN,     petroMag,     z,     Mr,     r-Mr AS DM,     ROW_NUMBER() OVER(PARTITION BY GN ORDER BY petroMag) AS RN2 FROM q )  SELECT petroMag,     Dm,     z,     GN FROM r WHERE RN2=#"
+2019-01-31 10:16:00,1
+2019-01-31 10:23:00,1
+2019-01-31 10:42:00,1
+2019-01-31 10:51:00,1
+2019-01-31 11:07:00,1

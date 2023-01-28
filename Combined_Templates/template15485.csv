@@ -1,0 +1,5 @@
+4,"select _id, DBN, the_geom.EnvelopeCenter () .ToString () as c, the_geom.STArea () as area , the_geom.ToString () as the_geom from MSchoolZOnes where _year = #"
+2019-02-28 16:40:00,1
+2019-03-03 12:31:00,1
+2019-03-03 13:39:00,1
+2019-03-03 13:51:00,1

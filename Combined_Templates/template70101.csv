@@ -1,0 +1,2 @@
+1,"select top # s.objid, p.petroRad_r from specphoto s join galSpecExtra g on g.specobjid = s.specobjid join photoobjall p on p.objid = s.objid join zooSpec z on z.objid = s.objid where p.clean = # and (p.calibStatus_r & p.calibStatus_g & p.calibStatus_i & p.calibStatus_u & p.calibStatus_z & #) ! = # and (p.flags & dbo.fPhotoFlags (#) ) > #"
+2019-10-17 14:45:00,1

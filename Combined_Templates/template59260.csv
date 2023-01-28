@@ -1,0 +1,2 @@
+1,"SELECT top # PZ.objID AS objID, GT.ra AS ra, GT.dec AS dec, PZ.z AS z, PZ.zErr AS zErr INTO myDB.My_PhotoZ_Test FROM DR1#.PhotoZ PZ JOIN DR1#.GalaxyTag GT ON PZ.objID = GT.objID WHERE z ! = # and zErr ! = #"
+2019-08-26 10:24:00,1

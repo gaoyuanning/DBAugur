@@ -1,0 +1,2 @@
+1,"SELECT [x].[MatchID], [x].[RA], [x].[Dec], [a].[objID], [s].[specObjID] INTO MYDB:xmatchtable FROM XMATCH (     MUST EXIST IN AKARI:[dbo].[FIS] AS [a] WITH(ERROR(#)),     MUST EXIST IN SDSSDR1#:[dbo].[SpecPhotoAll] AS [s] WITH(ERROR(#)),     LIMIT BAYESFACTOR TO #) AS x REGION &&&"
+2019-05-17 10:15:00,1

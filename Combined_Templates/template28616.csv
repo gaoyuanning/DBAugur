@@ -1,0 +1,2 @@
+1,"SELECT s.bestobjid, s.ra, s.dec, s.plate, s.mjd, s.fiberid, p.RAJ2#, p.DECJ2# INTO twowayxmatch0 FRO1e3M XMATCH (MUST EXIST IN SpecObj AS s WITH (POINT (s.ra, s.dec) , ERROR (#, #) ), MUST EXIST IN MyDB.geier AS p WITH (POINT (p.RAJ2#, p.DECJ2#) , ERROR (#, #) ), LIMIT BAYESFACTOR TO #e3) WHERE (s.class = #) AND s.z < #"
+2019-04-08 02:45:00,1

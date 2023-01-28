@@ -1,0 +1,2 @@
+1,"select p.objid, p.ra, p.dec, p.l, p.b, p.u, p.g, p.r, s.z, s.modelmag_g from fGetObjFromRect(#,#,#,#) n, photoobj p, specPhoto s where ((s.modelmag_g-#*log1#(#E+#*s.z)) BETWEEN # AND #)   and (p.u-p.g > #)   and (p.g-p.r BETWEEN # and #)   and n.objid = p.objid   and p.objid = s.objid"
+2019-07-24 14:22:00,1

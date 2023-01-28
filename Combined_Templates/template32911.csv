@@ -1,0 +1,3 @@
+2,"SELECT t.plate, t.mjd, t.fiberid, s.specObjID, s.ra, s.dec, s.velDisp, s.z into mydb.spiderx_vdisp_redshift from MYDB.spiderx_vdisp t JOIN specobj s ON s.plate = t.plate and s.mjd = t.mjd and s.fiberID = t.fiberid"
+2019-04-22 16:02:00,1
+2019-04-22 16:03:00,1

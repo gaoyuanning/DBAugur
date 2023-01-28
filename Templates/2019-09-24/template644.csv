@@ -1,0 +1,5 @@
+4,"select p.ra, p.dec, p.i, p.Err_i from STAR as p inner join dbo.fGetNearbyObjEq(#,#,#) as N on p.objid = N.objid where ((p.flags & #) != #) AND ((p.flags & #) = #) AND (((p.flags & #) = #) AND (p.psfmagerr_i <= #)) AND (((p.flags & #) = #) or (p.flags & #) = #)"
+2019-09-24 03:54:00,1
+2019-09-24 04:01:00,1
+2019-09-24 04:10:00,1
+2019-09-24 04:17:00,1

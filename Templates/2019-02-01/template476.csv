@@ -1,0 +1,3 @@
+4,"SELECT ph.objid, ph.ra, ph.dec, ph.psfmag_u-ph.extinction_u as u0, ph.psfmag_g-ph.extinction_g as g0, ph.psfmag_r-ph.extinction_r as r0, ph.psfmag_i-ph.extinction_i as i0, ph.psfmag_z-ph.extinction_z as z0, ph.psfmagerr_u, ph.psfmagerr_g, ph.psfmagerr_r, ph.psfmagerr_i, ph.psfmagerr_z, ph.extinction_u, ph.extinction_g, ph.extinction_r, ph.extinction_i, ph.extinction_z, ph.specobjid FROM fGetNearbyObjEq(#, #,#) plmatch, photoobjall ph INTO mydb.photomatch_# WHERE plmatch.type=# AND ph.objid = plmatch.objid"
+2019-02-01 03:16:00,2
+2019-02-01 03:54:00,2

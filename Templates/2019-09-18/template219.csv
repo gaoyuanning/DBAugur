@@ -1,0 +1,5 @@
+4,"SELECT TOP #  s.apogee_id,s.ra, s.dec, s.glon, s.glat,  s.vhelio_avg,s.vscatter,  a.teff,a.logg, a.metals, a.alphafe,  dbo.fApogeeAspcapFlagN(a.aspxcapflag),  dbo.fApogeeStarFlagN(s.starflag) FROM apogeeStar s  JOIN aspcapStar a on a.apstar_id = s.apstar_id WHERE (a.aspxcapflag & dbo.fApogeeAspcapFlag(&&&)) = #   and a.teff > # and a.metals < #"
+2019-09-18 06:29:00,1
+2019-09-18 14:21:00,1
+2019-09-18 18:01:00,1
+2019-09-18 19:28:00,1

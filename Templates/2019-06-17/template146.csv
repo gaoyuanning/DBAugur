@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.plate,s.mjd,s.fiberid,s.z,s.zErr,s.zWarning,s.class,cast(str(p.ra,#,#) as float) as ra,cast(str(p.[dec],#,#) as float) as dec,p.u,p.g,p.r,p.i,p.z,dbo.fIAUFromEq(p.ra,p.[dec]) as SDSSname into mydb.MyTable from ..SpecObj as s  JOIN ..Galaxy AS p ON s.bestObjID = p.objID  JOIN dbo.fGetObjFromRect(#,#,#,#) AS b ON s.bestobjid = b.objID  WHERE  s.z > # AND s.zWarning = # AND (s.class = &&&) AND s.z < #"
+2019-06-17 17:47:00,1

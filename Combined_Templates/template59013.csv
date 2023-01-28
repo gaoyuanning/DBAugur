@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.ra, p.dec, p.run, p.rerun, p.camcol, p.field, dbo.fPhotoTypeN (p.type) as type, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, p.deVAB_i, p.isoB_i, p.isoA_i, p.petroR5#_i, p.petroR9#_i into mydb.MyTable_# from PhotoObjAll p inner join mytable_# m WHERE m.raj2# - p.ra between # and # OrDER BY mytable_#.raj2#"
+2019-08-23 01:01:00,1

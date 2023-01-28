@@ -1,0 +1,2 @@
+1,"SELECT sp.ra,sp.dec,sp.z,sp.class,sp.mode into mydb.MyTable_# from SpecPhoto AS sp where sp.mode = #"
+2019-04-04 13:56:00,1

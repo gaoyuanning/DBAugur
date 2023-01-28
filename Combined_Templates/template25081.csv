@@ -1,0 +1,7 @@
+17,"SELECT TOP # s.ra, s.dec, s.z, v_disp FROM galSpecInfo AS g JOIN SpecObj AS s ON s.specobjid = g.specobjid WHERE s.class = # AND s.zwarning = #"
+2019-03-28 12:56:00,1
+2019-04-11 11:46:00,10
+2019-04-11 11:47:00,2
+2019-07-14 12:29:00,1
+2019-07-14 12:30:00,2
+2019-07-14 12:31:00,1

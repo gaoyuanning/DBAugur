@@ -1,0 +1,3 @@
+3,"SELECT m.search_id, m.ra AS ra1, m.dec AS dec1, n.objid, n.distance, o.ra AS ra2, o.dec AS dec2, o.u, o.g, o.r, o.i, o.z, o.type, o.err_u, o.err_g, o.err_r, o.err_i, o.err_z, z.z as redshift, z.zerr as redshift_err into mydb.cc2ph from MyDB.cc2 AS m CROSS APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n JOIN PhotoObj AS o ON n.objid = o.objid JOIN photoz as z ON n.objid = z.objid"
+2019-03-10 09:58:00,2
+2019-03-10 10:02:00,1

@@ -1,0 +1,6 @@
+5,"SELECT TOP #objid, ra, dec, u, g, r, i, zFROM StarWHEREr BETWEEN # AND #AND ra between # and #AND dec between # and #"
+2019-04-15 18:41:00,1
+2019-04-15 18:52:00,1
+2019-04-15 19:01:00,1
+2019-04-22 03:05:00,1
+2019-04-22 03:06:00,1

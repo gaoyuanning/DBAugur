@@ -1,0 +1,2 @@
+1,"select g.gid, g.name as groupname, gt.tablename, u.userid, u.webservicesid from grouptables gt join groups g on g.gid = gt.gid join batch.users u on u.webservicesid = gt.webservicesid"
+2019-01-14 11:58:00,1

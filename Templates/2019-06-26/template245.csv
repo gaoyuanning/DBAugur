@@ -1,0 +1,2 @@
+1,"select * from dbo.fContainSmp(&&&) c, Samples s                 where c.sample = s.intropolis_sample_id"
+2019-06-26 15:07:00,1

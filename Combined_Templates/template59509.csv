@@ -1,0 +1,2 @@
+1,"select top # cellid, hpfid, geom.ToString () as wkt, geom.STArea () as area from CellGeom order by hpfid"
+2019-08-28 15:58:00,1

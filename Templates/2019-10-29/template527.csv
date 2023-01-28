@@ -1,0 +1,2 @@
+1,"SELECT b.AGCNr, b.PhotoObjID, p.run, p.rerun, p.camcol, p.field, p.rowc, p.colc, p.ra, p.dec INTO all_information FROM MyDB.alfa4#_SDSS_all_objID AS b   JOIN PhotoPrimary AS p ON p.objID = b.PhotoObjID"
+2019-10-29 03:51:00,1

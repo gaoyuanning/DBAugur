@@ -1,0 +1,2 @@
+2,"select p.objid,	p.z, p.zerr, p.nnCount,	p.nnVol, p.photoErrorClass into mydb.cprojPhotoz from dr1#.Photoz as p join mydb.cprojSample as s on p.objID = s.ObjID"
+2019-08-28 11:49:00,2

@@ -1,0 +1,2 @@
+1,"select z as xcol, sigma_forbidden as ycol from Table_dr1#_all_AGN_# where z between # and # AND sigma_forbidden between # and #"
+2019-10-24 01:46:00,1

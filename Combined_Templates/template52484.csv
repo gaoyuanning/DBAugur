@@ -1,0 +1,2 @@
+1,"select objid, run, rerun, camcol, field, rowc, colc, petrorad_r from Galaxy where objid IN () order by objid asc"
+2019-07-18 20:06:00,1

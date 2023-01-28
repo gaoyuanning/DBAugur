@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.ra, p.dec FROM PhotoObjAll AS p JOIN stellarMassFSPSGranEarlyDust AS s ON s.ra = p.ra JOIN galSpecInfo AS g ON g.ra = p.ra JOIN mangaDAPall AS m ON m.plateid = g.plate WHERE b BETWEEN # AND # AND logMASS < # AND m.nsa_zdist < .#"
+2019-03-31 22:35:00,1

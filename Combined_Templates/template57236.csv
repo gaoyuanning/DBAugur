@@ -1,0 +1,2 @@
+1,"SELECT top # p.specObjID, p.ra, p.dec, p.psfFlux_r, p.cModelFlux_r, p.modelFlux_r, p.psfFlux_g, p.cModelFlux_g, p.modelFlux_g, p.modelMag_r, p.modelMag_g, p.extinction_r, p.extinction_g, p.flags, p.flags_r, p.psfMagErr_r, p.cModelMagErr_r, p.modelMagErr_r, p.psfFlux_i, p.cModelFlux_i, p.modelFlux_i, p.modelMag_i, p.extinction_i, s.plate, s.mjd, s.fiberID into mydb.MyTable1# from dbo.PhotoObjAll AS p, dbo.SpecObjAll AS s where p.specObjID ! = #"
+2019-08-13 11:42:00,1

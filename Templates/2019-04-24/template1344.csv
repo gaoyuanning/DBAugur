@@ -1,0 +1,2 @@
+4,"SELECT ra , decl , u_psfFlux , g_psfFlux , r_psfFlux FROM Object WHERE y_shapeIxx BETWEEN # AND #"
+2019-04-24 07:56:00,4

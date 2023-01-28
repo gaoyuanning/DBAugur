@@ -1,0 +1,11 @@
+15,"SELECT TOP # a.apogee_id, cast (str (a.glon, #, #) as float) glon, cast (str (a.glat, #, #) as float) glat, a.snr, a.vhelio_avg, a.vscatter, a.verr, a.verr_med, #, # FROM apogeeStar as a JOIN dbo.fGetNearbyApogeeStarEq (#, #, #/#) AS b ON b.apstar_id = a.apstar_id JOIN apogeeObject as o ON a.apogee_id = o.apogee_id JOIN aspcapStar as q ON a.apstar_id = q.apstar_id"
+2019-03-20 14:36:00,1
+2019-03-20 14:37:00,2
+2019-03-20 14:38:00,1
+2019-03-20 14:49:00,2
+2019-03-20 14:50:00,1
+2019-03-20 14:51:00,1
+2019-03-20 14:53:00,1
+2019-03-20 14:54:00,2
+2019-03-20 14:55:00,2
+2019-03-20 14:56:00,2

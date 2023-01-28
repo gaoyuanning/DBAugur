@@ -1,0 +1,6 @@
+15,"select s.logMass,s.logMass_err,s.cModelAbsMag_r,s.m2l_r from stellarMassFSPSGranWideDust as s where s.specObjID= #"
+2019-03-05 04:17:00,3
+2019-03-05 04:33:00,4
+2019-03-05 04:41:00,4
+2019-03-05 05:27:00,3
+2019-03-05 05:38:00,1

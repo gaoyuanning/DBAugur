@@ -1,0 +1,3 @@
+3,"SELECT AlbumID, COUNT(AlbumID) count FROM chinook.Track GROUP BY AlbumID ) SELECT st.count, COUNT(st.count) AS freq FROM st GROUP BY st.count"
+2019-04-24 18:15:00,1
+2019-04-24 18:20:00,2

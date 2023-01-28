@@ -1,0 +1,2 @@
+1,SELECT COUNT(objID) FROM dbo.PhotoObjPrimary WHERE type=# AND specObjID <> #
+2019-01-23 10:23:00,1

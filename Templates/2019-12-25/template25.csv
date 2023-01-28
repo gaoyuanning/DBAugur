@@ -1,0 +1,5 @@
+4,select * from stellarMassFSPSGranEarlyNoDust where specObjId=#
+2019-12-25 14:20:00,1
+2019-12-25 16:23:00,1
+2019-12-25 19:18:00,1
+2019-12-25 23:48:00,1

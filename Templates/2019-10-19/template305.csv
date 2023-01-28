@@ -1,0 +1,2 @@
+1,"SELECT p.type FROM PhotoObjAll as p, WHERE ra between # and #"
+2019-10-19 07:08:00,1

@@ -1,0 +1,6 @@
+23,"select ra, dec, u,err_u,g,err_g,r,err_r,i,err_i,z,err_z from star where (type=#) and (ra between # and #) and (dec between # and #)"
+2019-04-01 09:53:00,2
+2019-04-01 09:54:00,1
+2019-04-01 10:09:00,10
+2019-04-01 10:24:00,3
+2019-04-01 10:25:00,7

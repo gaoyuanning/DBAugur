@@ -1,0 +1,14 @@
+14,"SELECT TOP # &&& + cast(p.objId as varchar(#)) +&&& + cast(p.objId as varchar(#)) + &&& as objID,  p.run, p.rerun, p.camcol, p.field, p.obj,  p.type, p.ra, p.dec, p.u,p.g,p.r,p.i,p.z,  p.Err_u, p.Err_g, p.Err_r,p.Err_i,p.Err_z  FROM fGetNearbyObjEq(#,#,#) n, PhotoPrimary p  WHERE n.objID=p.objID"
+2019-06-10 00:44:00,1
+2019-06-10 01:27:00,1
+2019-06-10 06:16:00,1
+2019-06-10 08:32:00,1
+2019-06-10 15:58:00,1
+2019-06-10 15:59:00,1
+2019-06-10 16:03:00,1
+2019-06-10 17:03:00,1
+2019-06-10 17:23:00,2
+2019-06-10 17:46:00,1
+2019-06-10 17:47:00,1
+2019-06-10 22:41:00,1
+2019-06-10 22:49:00,1

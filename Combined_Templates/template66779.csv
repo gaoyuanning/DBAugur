@@ -1,0 +1,2 @@
+1,"SELECT clientIP, seq, statement, elapsed WHERE yy = # AND mm> =# AND error = # AND dbname LIKE # ORDER BY busy DESC"
+2019-09-30 03:19:00,1

@@ -1,0 +1,2 @@
+2,"SELECT TOP # objID, ra, dec, z FROM Galaxy WHERE u-r BETWEEN # AND #"
+2019-04-30 01:44:00,2

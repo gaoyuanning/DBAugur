@@ -1,0 +1,2 @@
+1,"SELECT p.objID, SQRT(POWER(((p.ra-t.ra)*cos((t.dec)*(#/#))),#)+(POWER((p.dec-t.dec),#)))*# as AngSep INTO mydb.temp FROM mydb.wiyn_targetids as t, dbo.PhotoObjAll as p where p.objID=t.objID"
+2019-04-12 16:57:00,1

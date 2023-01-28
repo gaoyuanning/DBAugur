@@ -1,0 +1,2 @@
+1,"SELECT TOP # * from matchhead h join phototag p on h.objid=p.objid where p.run not in (#,#)"
+2019-11-12 19:04:00,1

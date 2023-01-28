@@ -1,0 +1,2 @@
+1,"SELECT SpecObj.plate, SpecObj.mjd, SpecObj.fiberID, SpecObj.z FROM SpecObj JOIN GalSpecLine ON SpecObj.specobjid = GalSpecLine.specobjid WHERE h_alpha_flux > #* h_beta_flux AND SpecObj.class = #"
+2019-05-17 08:57:00,1

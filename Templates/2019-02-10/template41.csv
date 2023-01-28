@@ -1,0 +1,4 @@
+3,"SELECT TOP # ObjID, modelMag_r, petroRad_r FROM PhotoObjAll WHERE (ra between # and #) and (dec between # and #)"
+2019-02-10 22:34:00,1
+2019-02-10 23:29:00,1
+2019-02-10 23:37:00,1

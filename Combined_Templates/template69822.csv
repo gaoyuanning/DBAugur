@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.plate, s.mjd, s.fiberid, s.specObjID FROM ..SpecObj as s JOIN Star AS p ON s.bestobjid = p.objid WHERE s.zWarning = # AND (s.class = #) AND p.g > # AND p.g < # AND (p.g - p.r) > # AND (p.g - p.r) < #"
+2019-10-15 23:07:00,1

@@ -1,0 +1,2 @@
+1,"select objID, ra, dec into mydb.IDs from PhotoObjAll as IDs AND ra, dec from mydb.kGiants as kGiants join IDS on mydb.kGiants where ra = mydb.kGiants.ra AND dec = mydb.kGiants.dec"
+2019-10-09 15:56:00,1

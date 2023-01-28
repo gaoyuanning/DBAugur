@@ -1,0 +1,2 @@
+1,"select ra,dec from specObj where ra BETWEEN # and # AND dec BETWEEN # and # AND class = &&&<a target=INFO href=http://skyserver.sdss.org/dr5/en/tools/explore/obj.asp?id=&&&>&&&</a>' as objID"
+2019-06-12 01:15:00,1

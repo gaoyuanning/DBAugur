@@ -1,0 +1,2 @@
+2,"select p.kcorrU, p.kcorrG, p.kcorrR, p.absmagU, p.absmagG, p.absmagR from PhotoZ as p where p.objId = #"
+2019-04-14 19:06:00,2

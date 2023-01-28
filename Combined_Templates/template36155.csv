@@ -1,0 +1,3 @@
+2,"select specObjID, format (ra, #) , format (dec, #) , plate, fiber, mjd, redshift, sigmaStars, sigmaStarsErr into mydb.dr1#_portsmouth_sigma from emissionLinesPort where dec < # and z < #"
+2019-05-01 01:28:00,1
+2019-05-01 01:29:00,1

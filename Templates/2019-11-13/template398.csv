@@ -1,0 +1,5 @@
+4,"select n.objID, b.RAJ2# as ra, b.DEJ2# as dec, b.SNVSS, b.SFIRST, b.A, b.M, b.L, b.H into mydb.bestheck2 from mydb.bestheck as b   CROSS APPLY dbo.fGetNearestObjEq( b.RAJ2#, b.DEJ2#, #) AS n   join dbo.PhotoObjAll as o on o.objID=n.objID"
+2019-11-13 12:00:00,1
+2019-11-13 12:02:00,1
+2019-11-13 12:06:00,1
+2019-11-13 12:12:00,1

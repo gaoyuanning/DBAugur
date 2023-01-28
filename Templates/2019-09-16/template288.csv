@@ -1,0 +1,3 @@
+2,"SELECT s.RA, s.dec, s.plate, s.mjd, s.fiberid, s.modelMag_u, s.modelMag_g, s.modelMag_r, s.modelMag_i, s.modelMag_z, s.z, s.Class FROM SpecPhotoAll as s INTO myDB.DR1#_aegis   WHERE s.RA > # AND s.RA < # AND s.dec > # AND s.dec < # AND s.modelMag_u > # AND s.modelMag_u < # AND s.modelMag_g > # AND s.modelMag_g < # AND s.modelMag_r > # AND s.modelMag_r < # AND s.modelMag_i > # AND s.modelMag_i < # AND s.modelMag_z > # AND s.modelMag_z < # AND zWarning = # AND s.Class = &&& or s.Class = &&&"
+2019-09-16 12:06:00,1
+2019-09-16 12:07:00,1

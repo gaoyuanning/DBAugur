@@ -1,0 +1,4 @@
+3,"SELECT TOP # cast (str (s.ra, #, #) as float) as ra, cast (str (s.[dec], #, #) as float) as dec FROM ..SpecObj as s JOIN dbo.fGetObjFromRect (#, #, #, #) AS b ON s.bestobjid = b.objID WHERE s.zWarning = # AND (s.primTarget & (dbo.fPrimTarget (#) ) > #)"
+2019-05-01 17:46:00,1
+2019-08-19 13:19:00,1
+2019-08-19 13:35:00,1

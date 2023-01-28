@@ -1,0 +1,3 @@
+78,"SELECT p.objid, p.petroR5#_g, s.z as redshift  FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid  WHERE objid = # OR objid = # OR objid = # OR objid = # OR objid = #"
+2019-03-13 17:46:00,1
+2019-03-13 17:57:00,77

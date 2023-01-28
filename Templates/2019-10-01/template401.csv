@@ -1,0 +1,2 @@
+1,"SELECT ra_BCG, dec_BCG FROM MyDB.BCGs_SF_IN  OPEN my_cursor  WHILE(#=#) BEGIN   FETCH NEXT from my_cursor into  @ra_BCG, @dec_BCG     IF (@@fetch_status < #) break     INSERT MYDB.BCGs_SF_OUT1             SELECT  @ra_BCG, @dec_BCG,                 p.ra, p.dec, p.specObjID as objID,        p.z as zs,        p.bpt            FROM   dbo.fGetNearestObjEq(@ra_BCG,@dec_BCG,#/#) n, emissionLinesPort p    WHERE n.objID=p.specObjID         END  CLOSE my_cursor DEALLOCATE my_cursor"
+2019-10-01 06:39:00,1

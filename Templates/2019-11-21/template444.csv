@@ -1,0 +1,2 @@
+1,"select q.z, s.z from specObj as q, SpecObj as s where dec < # AND dec > # AND (ra > # AND ra < # )"
+2019-11-21 11:28:00,1

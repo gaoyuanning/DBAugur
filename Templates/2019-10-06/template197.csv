@@ -1,0 +1,8 @@
+13,"SELECT TOP # p.ra,p.dec,s.plate,s.mjd,s.fiberid FROM BESTDR7..SpecObj as s 	JOIN BESTDR7..PhotoObj AS p ON s.bestObjID = p.objID 	JOIN #x AS x ON x.objID=p.objID JOIN #upload AS u ON u.up_id = x.up_id  WHERE  ( p.type = # OR p.type = #) ORDER BY x.up_id"
+2019-10-06 12:20:00,1
+2019-10-06 12:22:00,2
+2019-10-06 12:23:00,2
+2019-10-06 12:24:00,2
+2019-10-06 12:25:00,3
+2019-10-06 12:26:00,2
+2019-10-06 12:27:00,1

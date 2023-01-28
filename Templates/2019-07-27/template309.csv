@@ -1,0 +1,6 @@
+5,"SELECT f.aa_r,f.kk_r,f.airmass_r,f.gain_r,f.sky_r,f.skysig_r FROM PhotoObjAll as p JOIN Field as f ON (f.run=p.run AND f.rerun=p.rerun AND f.camcol=p.camcol AND f.field=p.field) WHERE p.objID=#"
+2019-07-27 01:47:00,1
+2019-07-27 01:49:00,1
+2019-07-27 02:03:00,1
+2019-07-27 02:19:00,1
+2019-07-27 02:21:00,1

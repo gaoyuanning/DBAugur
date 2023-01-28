@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.TAI_g,p.TAI_i,p.TAI_r,p.TAI_u,p.TAI_z,ISNULL(s.z,#) as redshift  FROM ..PhotoObj AS p  LEFT OUTER JOIN ..SpecObj s ON p.objID = s.bestObjID  WHERE ( p.type = # OR p.type = #)"
+2019-01-29 09:55:00,1

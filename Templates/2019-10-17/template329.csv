@@ -1,0 +1,4 @@
+3,"SELECT p.objId,p.ra,p.dec,p.petror9#_r, p.expAB_r,     p.dered_u as u, p.dered_g as g, p.dered_r as r, p.dered_i as i,      s.z, s.plate, s.mjd, s.fiberid, p.g as mag, n.sersic_n, e.Amplitude_Ha_# as ampHA, e.Flux_Ha_# as fluxHA, e.Amplitude_Hb_# as ampHB, e.Flux_Hb_# as fluxHB FROM galaxy AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid    JOIN nsatlas AS n ON n.mjd = s.mjd and n.fiberID = s.fiberID and n.plate = s.plate    JOIN emissionLinesPort as e ON  e.plate = n.plate and e.fiberID = n.fiberID   WHERE p.petror9#_r > #   and p.ra between # and #   and s.z between # and .#   and p.g < #"
+2019-10-17 01:06:00,1
+2019-10-17 01:08:00,1
+2019-10-17 12:05:00,1

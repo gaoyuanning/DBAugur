@@ -1,0 +1,2 @@
+1,"SELECT specObjID, ra, dec, z, zErr FROM SpecObjAll   into SDSSquery_nearby_z WHERE ra between # and #    and dec between # and # SELECT * FROM SDSSquery_nearby"
+2019-01-06 00:19:00,1

@@ -1,0 +1,5 @@
+4,select apstar_id from apogeestar where apogeestar.dec between .# and # and apogeestar.ra between # and #
+2019-02-28 03:58:00,1
+2019-02-28 04:14:00,1
+2019-02-28 06:57:00,1
+2019-02-28 07:17:00,1

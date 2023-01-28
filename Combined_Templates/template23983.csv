@@ -1,0 +1,2 @@
+1,"SELECT class, COUNT (*) FROM SpecObj WHERE z BETWEEN # AND # GROUP BY class"
+2019-03-26 21:12:00,1

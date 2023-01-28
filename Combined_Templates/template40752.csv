@@ -1,0 +1,2 @@
+1,"select top # objid, ra, dec, run, camcol, rerun, petromag_u, petromag_g, petromag_r, petromag_i, petromag_z, extinction_u, extinction_g, extinction_r, extinction_i, extinction_z from PhotoPrimary where flags & (dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) ) = # and (petroMag_r- extinction_r) between # and # and Type = #"
+2019-05-21 12:47:00,1

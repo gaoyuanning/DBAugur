@@ -1,0 +1,2 @@
+1,"select m.sdss, m.specobjid, d4#_n, d4#_n_err into mydb.nair_dn4#_DR1# from galspecindx i, mydb.nair_SpecObjID_DR1# m where i.specobjid = m.specobjid;"
+2019-07-06 03:05:00,1

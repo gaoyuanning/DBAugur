@@ -1,0 +1,4 @@
+3,"select top #  p.specObjID, p.z, p.zErr, p.SFR, p.minSFR, p.maxSFR, p.logMass, p.minLogMass, p.maxLogMass, p.Metallicity, t.Flux_Ha_#, t.Flux_Ha_#_Err, t.Flux_Hb_#, t.Flux_Hb_#_Err, t.Flux_OII_#, t.Flux_OII_#_Err, t.Flux_OIII_#, t.Flux_OIII_#_Err, t.Flux_OIII_#, t.Flux_OIII_#_Err, t.Flux_NII_#, t.Flux_NII_#_Err, t.Flux_SII_#, t.Flux_SII_#_Err, t.Flux_SII_#, t.Flux_SII_#_Err from  stellarMassPassivePort p  JOIN emissionLinesPort t ON t.specObjID = p.specObjID  WHERE  p.z BETWEEN # AND # AND (htmid*# & #)  < (# * #) ORDER BY newid()"
+2019-09-04 03:38:00,1
+2019-09-04 03:44:00,1
+2019-09-04 03:45:00,1

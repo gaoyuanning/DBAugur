@@ -1,0 +1,2 @@
+1,"SELECT TOP # photoobj.obj, photoobj.psfmag_u, photoobj.psfmag_g, photoobj.psfmag_r, photoobj.psfmag_i, photoobj.psfmag_z, photoobj.ra as photoobj_ra, photoobj.dec as photoobj_dec, star.apstar_id, star.ra as star_ra, star.dec as star_dec, aspcap.teff, aspcap.m_h, aspcap.logg into mydb.Test from apogeeStar AS star CROSS APPLY dbo.fGetNearestObjEq( star.ra, star.dec, #) AS near JOIN photoobj ON near.objid=photoobj.objid JOIN aspcapStar as aspcap ON star.apstar_id = aspcap.apstar_id WHERE star.glat > #. and aspcap.teff > #"
+2019-02-11 14:49:00,1

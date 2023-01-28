@@ -1,0 +1,2 @@
+2,"SELECT TOP # --P.SpecObjID as objid_P, S.SpecObjID as objid_S, -- P.subclass as class_P, S.subclass as class_S, P.z as z_P, S.z as z_S, N.distance FROM SpecPhotoAll P -- P is the primary object JOIN Neighbors N ON P.ObjID = N.ObjID -- N is the neighbor link JOIN SpecPhotoAll S ON S.ObjID = N.NeighborObjID -- S is a secondary galaxy nearby P WHERE P.ObjID < S.ObjID -- avoid duplicates and P.class = # and (P.subclass = STARFORMING#STARBURST) -- Make sure the primary is starforming/bursting"
+2019-07-18 06:22:00,2

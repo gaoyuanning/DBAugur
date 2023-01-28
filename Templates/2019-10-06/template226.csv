@@ -1,0 +1,2 @@
+1,"select objID, run,camcol,field,colc_i,rowc_i,ra,dec,petroMag_i,petroMagErr_i,petroR5#_i,petroR5#Err_i,petroRad_i,petroRadErr_i,type, flags,mode, modelMag_i,modelMagErr_i,fracDeV_i FROM PhotoObj WHERE run=# and field=# and camcol=# and type=# and i < # and i != #,#,error: must be a select statement: ,# #,#,#,#,#,#,#,#/#/# #:#:# AM,#,#.#,skyserver.sdss.org,SDSS3S,BestDR4,public,#,#,#,SELECT  top # &&& + cast(p.objId as varchar(#)) + &&& + cast(p.objId as varchar(#)) + &&& as objID"
+2019-10-06 09:38:00,1

@@ -1,0 +1,3 @@
+2,"select   s.bestobjid, s.ra, s.dec, if(strcmp(instrument,&&&)=#,z,z_noqso) as z, if(strcmp(instrument,&&&)=#,zerr,zerr_noqso) as zerr,   g.*   into mydb.galspecline_all_DR1#    from    galSpecLine g, specobj s    where   g.specobjid = s.specobjid   and if(strcmp(instrument,&&&)=#,class,class_noqso) = &&&"
+2019-04-03 12:32:00,1
+2019-04-03 13:10:00,1

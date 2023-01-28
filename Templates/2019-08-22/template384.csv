@@ -1,0 +1,2 @@
+2,"SELECT   p.ra,p.dec,z,p.class,p.subclass, FROM   SpecObjAll as p WHERE   (p.ra ># and p.ra <#) AND (p.dec># and   p.dec<#) And p.class=&&&   order by p.ra"
+2019-08-22 08:53:00,2

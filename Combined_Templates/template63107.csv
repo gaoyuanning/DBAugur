@@ -1,0 +1,4 @@
+3,"select top # p.ObjID from PhotoTag p, Photoz2 pz where p.ObjID = pz.ObjID AND pz.flag = # into myDB.hey2"
+2019-09-14 17:48:00,1
+2019-09-14 17:59:00,1
+2019-09-14 18:03:00,1

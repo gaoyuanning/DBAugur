@@ -1,0 +1,2 @@
+1,"SELECT TOP # z, ra, dec, gflux, rflux FROM SpecPhoto WHERE class = # AND zWarning = # AND ra > # and ra < # AND dec > # and dec < # AND z > # and z < #"
+2019-12-09 18:12:00,1

@@ -1,0 +1,5 @@
+39,select fieldid from field where cccol_u between # and -.# and skyframes_r between .# and #
+2019-01-24 23:35:00,36
+2019-01-24 23:36:00,1
+2019-01-24 23:41:00,1
+2019-01-24 23:42:00,1

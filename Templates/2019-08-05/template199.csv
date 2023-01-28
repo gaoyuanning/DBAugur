@@ -1,0 +1,2 @@
+1,"SELECT P.ObjID, P.ra, P.dec, P.g, P.r, P.i, P.z INTO mydb.MyTable2 FROM Galaxy P  WHERE ( P.g - P.r > # ) AND ( P.g - P.r < # ) AND ( P.r - P.i < # ) AND ( P.r - P.i > # ) AND ( P.i - P.z < # ) AND ( P.i - P.z > #- #*P.err_z ) AND ( P.r < #) AND (( P.b < #) or ( P.b > #)) AND (P.fiberMag_g < P.fiberMag_z)"
+2019-08-05 15:36:00,1

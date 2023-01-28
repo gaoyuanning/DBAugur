@@ -1,0 +1,2 @@
+1,"select top # pz.z, g..ra, g.dec, g.petroMag_u, g.petroMag_g, g.petroMag_r, g.petroMag_i, g.petroMag_z, g.petroMagErr_u, g.petroMagErr_g, g.petroMagErr_r, g.petroMagErr_i, g.petroMagErr_z from Galaxy as g join Photz as pz on pz.objID = g.objID where g.ra between # and # and g.dec between # and # and pz.z < #"
+2019-10-29 14:57:00,1

@@ -1,0 +1,3 @@
+2,"SELECT raMin,raMax,decMin,decMax FROM Field Where raMin<# and raMax># and decMin<# and decMax>#"
+2019-05-21 13:54:00,1
+2019-05-21 13:56:00,1

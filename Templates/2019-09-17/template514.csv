@@ -1,0 +1,2 @@
+1,"select column_name,encoding_id from dbo.Ethnicity  where column_name =&&&"
+2019-09-17 10:15:00,1

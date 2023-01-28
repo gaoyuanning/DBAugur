@@ -1,0 +1,3 @@
+2,"SELECT top # s.specObjID, s.objID, s.z, pp.logMass as passive_mass, sf.logMass as sf_mass, p.cModelMag_g - p.extinction_g as app_g, p.cModelMag_r - p.extinction_r as app_r, pz.kcorrG as kcorrG, pz.kcorrR as kcorrR, p.petroRad_r as half_light into mydb.ForLaura from dbo.SpecPhotoAll AS s JOIN dbo.PhotoObjAll AS p ON s.objID = p.objID JOIN dbo.Photoz as pz ON p.objID = pz.objID JOIN dbo.stellarMassPassivePort AS pp ON s.specObjID = pp.specObjID JOIN dbo.stellarMassStarformingPort AS sf ON s.specObjID = sf.specObjID WHERE s.z < # and s.class = #"
+2019-07-07 17:51:00,1
+2019-07-07 17:54:00,1

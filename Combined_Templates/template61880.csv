@@ -1,0 +1,2 @@
+1,SELECT p.* FROM galaxy as p WHERE ra BETWEEN # AND #
+2019-09-09 12:50:00,1

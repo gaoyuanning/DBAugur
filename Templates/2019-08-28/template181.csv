@@ -1,0 +1,3 @@
+2,"SELECT top # p.ra, p.dec, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, p.psfMagErr_u, p.psfMagErr_g, p.psfMagErr_r, p.psfMagErr_i, p.psfMagErr_z, p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i, p.extinction_z, p.plate, p.mjd, p.fiberid, p.specobjid FROM SpecPhotoAll p WHERE p.psfmag_r - psfmag_i > # AND p.psfmag_i - psfmag_z > # AND (psfmag_r BETWEEN # AND #) AND (psfmag_i BETWEEN # AND #) AND (psfmag_z BETWEEN # AND #) AND p.class = &&&"
+2019-08-28 14:27:00,1
+2019-08-28 14:31:00,1

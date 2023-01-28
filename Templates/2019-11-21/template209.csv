@@ -1,0 +1,2 @@
+1,select nome from carro where ra BETWEEN # and # AND dec BETWEEN # and #
+2019-11-21 18:11:00,1

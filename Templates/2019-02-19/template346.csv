@@ -1,0 +1,2 @@
+1,select count(*) from SciServerLog.Messages where year(time)=# and month(time)=#
+2019-02-19 12:42:00,1

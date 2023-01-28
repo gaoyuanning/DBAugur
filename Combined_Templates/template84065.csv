@@ -1,0 +1,10 @@
+9,"SELECT Top # spPhoto.specObjID, spObj.bestObjID, spPhoto.mjd, spPhoto.plate, spPhoto.fiberID, spPhoto.subClass, spPhoto.ra, spPhoto.dec, spPhoto.psfMag_u, spPhoto.psfMag_g, spPhoto.psfMag_r, spPhoto.psfMag_i, spPhoto.psfMag_z, spObj.elodieObject, spObj.elodieSpType, spObj.elodieBV, spObj.elodieTEff, spObj.elodieLogG, spObj.elodieFeH FROM SpecPhoto as spPhoto join SpecObj as spObj On spPhoto.SPECOBJID = spObj.SPECOBJID where spObj.class = # and spObj.survey = #"
+2019-12-20 20:26:00,1
+2019-12-20 20:28:00,1
+2019-12-21 16:30:00,1
+2019-12-21 16:31:00,1
+2019-12-21 16:33:00,1
+2019-12-21 16:40:00,1
+2019-12-21 16:41:00,1
+2019-12-21 16:51:00,1
+2019-12-21 16:55:00,1

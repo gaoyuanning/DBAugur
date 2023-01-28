@@ -1,0 +1,3 @@
+2,"select top #  objID, ra, dec,z, psfMag_u  from  SpecPhoto  where  class = galaxy&&&"
+2019-12-14 02:06:00,1
+2019-12-14 02:07:00,1

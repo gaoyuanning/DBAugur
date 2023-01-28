@@ -1,0 +1,5 @@
+4,"SELECT sp.ra, sp.dec, sp.psfMag_u, sp.psfMagErr_u, sp.extinction_u, sp.psfMag_g, sp.psfMagErr_g, sp.extinction_g, sp.psfMag_r, sp.psfMagErr_r, sp.extinction_r, sp.psfMag_i, sp.psfMagErr_i, sp.extinction_i, sp.psfMag_z, sp.psfMagErr_z, sp.extinction_z, p.teffadop, p.teffadopunc, p.fehadop, p.fehadopunc, p.loggadop, p.loggadopunc, p.elodiervfinal, p.elodiervfinalerr, p.snr FROM SpecPhotoAll AS sp JOIN sppParams AS p ON sp.specobjid = p.specobjid and sp.sciencePrimary=# WHERE sp.psfMag_g > # AND sp.psfMag_r > # AND sp.psfMag_i > # AND sp.psfMag_z > # AND p.teffadop > # AND p.fehadop > # AND p.loggadop > # AND p.elodiervfinal > # AND p.snr > # AND sp.class = &&&"
+2019-12-07 05:45:00,1
+2019-12-07 05:57:00,1
+2019-12-07 06:01:00,1
+2019-12-07 06:04:00,1

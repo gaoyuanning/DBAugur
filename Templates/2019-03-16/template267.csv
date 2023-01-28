@@ -1,0 +1,4 @@
+4,"select    s.ra, s.dec, s.z,p.objID , p.u_r , p.petroR5#_r, p.petroR9#_r, c=(p.petroR9#_r/p.petroR5#_r)    from    SpecObjAll as s,     PhotoObjAll as p      into MyDB.alakiof6#      where      s.bestObjID=p.objID       and s.sciencePrimary = #      and s.z between # and #"
+2019-03-16 05:59:00,1
+2019-03-16 06:00:00,1
+2019-03-16 06:01:00,2

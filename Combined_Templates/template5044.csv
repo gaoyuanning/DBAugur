@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID, mjd, plate, fiberID, z, ra, dec, objID FROM dr7.SpecPhoto WHERE zWarning = # AND z < =# AND z > =# AND OBJTYPE = #"
+2019-01-21 01:24:00,1

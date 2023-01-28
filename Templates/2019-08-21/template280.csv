@@ -1,0 +1,2 @@
+1,"SELECT g.objid, g.ra, g.dec, g.petroRad_r, g.petroMag_r, pz.z, pz.zErr, dbo.fPhotoTypeN(g.type) FROM Galaxy AS g JOIN PhotoZ AS pz ON pz.objid = g.objid, fGetNearbyObjEq(#,#,#) AS n WHERE g.objID = n.objID AND pz.z < #"
+2019-08-21 07:08:00,1

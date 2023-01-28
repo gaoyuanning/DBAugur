@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra, dec, nvote_tot, nvote_std, nvote_mr1, nvote_mr2, nvote_mon where p_cs > #   FROM zoovotes"
+2019-05-28 19:27:00,1

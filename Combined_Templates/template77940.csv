@@ -1,0 +1,2 @@
+1,"select g.ObjID, g.ra, g.dec, g.expAB_r, g.expABErr_r from Galaxy g where g.specObjID < ># and log (g.expAB_r) < # and g.expAB_r> #"
+2019-11-21 02:25:00,1

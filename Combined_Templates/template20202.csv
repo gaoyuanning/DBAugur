@@ -1,0 +1,2 @@
+1,"SELECT objID, field, ra, dec, modelmag_u, modelmag_g, modelmag_r, modelmag_i, modelmag_z into mydb.G0# from PhotoPrimary WHERE ra > # and ra < # and dec > # and dec < +#"
+2019-03-13 04:53:00,1

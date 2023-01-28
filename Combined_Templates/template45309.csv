@@ -1,0 +1,2 @@
+1,"SELECT ra, dec into mydb.MyTable from PhotoObjAll WHERE type = # and clean = # and r> =# and r< #;"
+2019-06-11 18:36:00,1

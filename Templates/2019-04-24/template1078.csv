@@ -1,0 +1,2 @@
+1,"select top # x, y, c=sin(y+x) into mydb.MyTable from data where y < #   and cos(x)-y*y < # order by x desc"
+2019-04-24 12:39:00,1

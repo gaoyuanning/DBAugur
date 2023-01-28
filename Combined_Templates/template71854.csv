@@ -1,0 +1,3 @@
+2,"select ID, Vintage, Tract, lon = centroid.Long, lat = centroid.Lat, wkt = geom.ToString () , dist2center = geom.STDistance (@center) from optw.tamass.TRACTS where vintage = # and geom.STDistance (@center) < # / # * # -- meters"
+2019-10-27 16:14:00,1
+2019-10-27 16:15:00,1

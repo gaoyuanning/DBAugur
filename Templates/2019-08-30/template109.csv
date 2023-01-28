@@ -1,0 +1,2 @@
+1,"select distinct eid,Spherical_power_left__# from dbo.Eye_surgery_complications       cross apply openjson(Spherical_power_left__#) j"
+2019-08-30 16:38:00,1

@@ -1,0 +1,2 @@
+1,select count specObjID from dbo.specObj where type=#
+2019-02-18 05:52:00,1

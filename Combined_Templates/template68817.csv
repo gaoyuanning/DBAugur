@@ -1,0 +1,2 @@
+1,"create function dbo.topointstring (@ra float, @dec float) returns varchar (max) as begin declare @g geography = geography::Point (@ra, @dec, #) return @g.ToString () end"
+2019-10-09 14:13:00,1

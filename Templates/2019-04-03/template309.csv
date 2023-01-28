@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec, PhotoObj.modelMag_g , u,g,r,i,z  FROM Star  WHERE (ra between # and #) and (dec between # and #)  AND PhotoObj.modelMag_g between # and #"
+2019-04-03 15:54:00,1

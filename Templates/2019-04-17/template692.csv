@@ -1,0 +1,2 @@
+1,"SELECT top #   m.ra AS ra1, m.dec AS dec1,    wise_all.w1mag AS w1mag,   wise_all.w1sigmag   AS w1sigmag,    wise_all.w2mag AS w2mag,   wise_all.w2sigmag AS w2sigmag,    wise_all.w3mag AS w3mag,   wise_all.w3sigmag   AS w4sigmag1,   wise_all.w4mag_# AS w4mag, wise_all.w4sigmag_# AS w4sigmag2 FROM MyDB.wise_clean AS m     OUTER APPLY dbo.fGetNearestObjEq( m.ra, m.dec, #) AS n     LEFT JOIN WISE_xmatch AS wise_x ON n.objid=wise_x.sdss_objid     LEFT JOIN WISE_allsky AS wise_all ON wise_all.cntr=wise_x.wise_cntr"
+2019-04-17 00:07:00,1

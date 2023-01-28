@@ -1,0 +1,2 @@
+1,"SELECT TOP # G.DR7ObjID, G.DR8ObjID into mydb.MyTable_# from PhotoObjDR7 AS G"
+2019-08-07 09:23:00,1

@@ -1,0 +1,3 @@
+2,"UPDATE FramePathProcessing                         SET processed = #,                         goodMeltScore = #,                         fastBottomScore = #,                         fastTopScore = #,                         processedPath = &&&                         WHERE Path = &&&"
+2019-05-17 14:54:00,1
+2019-05-17 14:55:00,1

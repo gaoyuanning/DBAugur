@@ -1,0 +1,4 @@
+3,"INSERT INTO [ASSETS] VALUES(#, &&&, NULL, &&&, NULL, NULL, NULL, NULL, NULL, NULL, NULL, &&&, NULL, &&&, &&&, NULL, NULL, &&&, &&&, &&&, &&&, &&&, &&&, &&&, &&&, &&&, #, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, &&&, NULL, NULL, NULL, NULL, &&&, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, &&&, &&&, NULL, &&&, &&&, &&&, &&&, &&&, #, &&&, geography::STPointFromText(&&&, #) )"
+2019-11-30 12:07:00,1
+2019-11-30 15:01:00,1
+2019-11-30 15:03:00,1

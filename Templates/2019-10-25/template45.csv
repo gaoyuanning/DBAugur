@@ -1,0 +1,2 @@
+1,"select top # p.objid, p.ra, p.dec, redshift from photoobj p"
+2019-10-25 22:37:00,1

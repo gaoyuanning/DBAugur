@@ -1,0 +1,2 @@
+1,"SELECT top # objID, ra, dec, g, r, clean FROM SpecPhoto WHERE class=galaxy"
+2019-05-29 15:11:00,1

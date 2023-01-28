@@ -1,0 +1,2 @@
+2,"SELECT m.id, m.ra AS ra1, m.dec AS dec1, n.objid, n.distance, q.TargetQsoTargeted, q.SpecQsoConfirmed, q.SpecQsoUnknown, q.SpecQsoLargeZ, q.SpecQsoTargeted, q.BestQsoTargeted into mydb.GreenPeas_QSO from mydb.GreenPeas AS m CROSS APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n JOIN QsoCatalogAll AS q ON n.objid = q.targetobjid"
+2019-09-17 17:13:00,2

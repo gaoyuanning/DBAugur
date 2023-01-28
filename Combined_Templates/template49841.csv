@@ -1,0 +1,2 @@
+1,"select ci.* from information_schema.columns c join metadata.columninfo ci on ci.table_name = c.table_name and ci.column_name = c.column_name order by ci.table_name, ci.column_name"
+2019-07-04 12:14:00,1

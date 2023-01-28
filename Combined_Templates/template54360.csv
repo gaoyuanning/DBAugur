@@ -1,0 +1,2 @@
+1,"select TOP # p.objid, p.ra, pj.dec, p.u, p.g, p.r, p.i, p.z, specObj.z from photoobj AS p JOIN Specobj AS s ON s.bestobjid = p.objid where specObj.z < # and specObj.z > # and specObj.class = # and specObj.zWarning = #"
+2019-07-29 07:56:00,1

@@ -1,0 +1,2 @@
+1,"select objID, ra, dec, type from PhotoObj where ra># and ra<=# and dec># and dec<=#"
+2019-02-18 20:07:00,1

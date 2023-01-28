@@ -1,0 +1,2 @@
+1,"select s.ra, s.dec, s.z, s.u, s.g, s.r, s.i, s.z, s.bestobjid, g.bestobjid from specobj as s join galaxy as g on g.bestobjid = s.bestobjid where s.ra between # and # and s.dec between # and # and s.z between # and #"
+2019-01-06 07:31:00,1

@@ -1,0 +1,9 @@
+14,"select count (abs_u) , avg (abs_u) , stdev (abs_u) , avg (abs_g) , stdev (abs_g) , avg (abs_r) , stdev (abs_r) , avg (abs_i) , stdev (abs_i) , avg (abs_z) , stdev (abs_z) FROM DR1#_ccw_mag where apr_g< # and (ra> # and ra< #) select count (abs_u) , avg (abs_u) , stdev (abs_u) , avg (abs_g) , stdev (abs_g) , avg (abs_r) , stdev (abs_r) , avg (abs_i) , stdev (abs_i) , avg (abs_z) , stdev (abs_z) FROM DR1#_cw_mag where apr_g< # and (ra> # and ra< #)"
+2019-11-27 00:59:00,1
+2019-11-27 01:00:00,1
+2019-11-27 01:03:00,2
+2019-11-27 01:09:00,2
+2019-11-27 01:10:00,1
+2019-11-27 01:11:00,2
+2019-11-27 01:12:00,3
+2019-11-27 01:13:00,2

@@ -1,0 +1,2 @@
+1,"select ra, dec, g from photoObj as p join dbo.fGetNearbyObjEq (#., #, #/#) AS GN ON p.objID = GN.objID"
+2019-10-08 14:57:00,1

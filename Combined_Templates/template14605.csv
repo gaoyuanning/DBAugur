@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.run, p.rerun, p.camcol, p.field, p.type, S.class FROM PhotoObj AS p LEFT JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE s.bestobjid IS # AND p.u BETWEEN # AND # AND g BETWEEN # AND #"
+2019-02-26 11:21:00,1

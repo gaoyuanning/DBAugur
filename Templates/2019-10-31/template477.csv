@@ -1,0 +1,2 @@
+1,"SELECT    m.specobjid, m.ra AS ra1, m.dec AS dec1,    o.ra AS ra2, o.dec AS dec2 into mydb.MyTable2 from MyDB.gz2_# AS m    JOIN DR1#.SpecObj AS o ON m.specobjid=o.specobjid"
+2019-10-31 08:48:00,1

@@ -1,0 +1,3 @@
+2,"CREATE TABLE [VALS] ([TRACTID] [bigint] NOT #, [VARID] [bigint] NOT #, CONSTRAINT AK_Unique_Values UNIQUE (TRACTID, VARID) , [VAL] [int] #)"
+2019-10-30 04:33:00,1
+2019-10-31 02:58:00,1

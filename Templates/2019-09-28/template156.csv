@@ -1,0 +1,2 @@
+1,"SELECT   specObjID,   ra,   dec,   z,   zErr,   velDisp,   velDispErr,   logMass,   logMass_min,   logMass_max,   ssfr    FROM   dbo.SpecObj JOIN   dbo.stellarMassFSPSGranWideDust USING (specObjID)    WHERE   sciencePrimary = # AND   zWarning = # AND   z BETWEEN # and # AND   class = &&&    TOP #"
+2019-09-28 17:48:00,1

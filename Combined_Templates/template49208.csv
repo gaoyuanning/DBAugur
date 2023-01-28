@@ -1,0 +1,2 @@
+1,SELECT count (#) into mydb.MyTable_# from PhotoObj;
+2019-06-30 04:16:00,1

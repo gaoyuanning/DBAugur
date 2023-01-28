@@ -1,0 +1,3 @@
+3,"select count (ID) from MyDB.DR1#_ccw , PhotoObjAll where DR1#_ccw.ID = PhotoObjAll.objID and ra> # and ra< # select count (ID) from MyDB.DR1#_cw , PhotoObjAll where DR1#_cw.ID = PhotoObjAll.objID and ra> # and ra< #"
+2019-11-14 00:10:00,1
+2019-11-14 00:12:00,2

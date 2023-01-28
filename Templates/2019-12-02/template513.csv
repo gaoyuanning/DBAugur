@@ -1,0 +1,2 @@
+1,"select  s.specobjid, s.bestobjid, s.firstrelease, s.survey, s.sourcetype, s.class,  p.ra, p.raErr, p.dec, p.decErr, s.z, s.zErr,  p.modelMag_g, p.modelMag_r, p.modelMag_i, p.psfMag_g, p.psfMag_r, p.psfMag_i,  p.petroMag_r, petroR5#_r  INTO mydb.LRG_CUT1  from Specobj as s  join Photoobj as p on p.objid=s.bestobjid where  s.class = &&&  and p.petroMag_r < #  and p.psfMag_r-p.modelMag_r > #  and ABS((p.r-p.i)+(p.g-p.r)/#+#) < #"
+2019-12-02 00:44:00,1

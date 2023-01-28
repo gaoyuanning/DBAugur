@@ -1,0 +1,2 @@
+1,"select top # ci.*, c.display_position, c.column_name as realname from metadata.columninfo ci join information_schema.columns c on c.column_name = ci.column_name+#+cast (ci.id as varchar (#) ) and ci.table_name = c.table_name order by table_name, c.display_position"
+2019-09-10 16:14:00,1

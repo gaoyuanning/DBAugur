@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.ra, p.dec, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, p.psffwhm_u, p.psffwhm_g, p.psffwhm_r, p.psffwhm_i, p.psffwhm_z, p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i, p.extinction_z, z.z, z.zErr, z.chiSq into mydb.MyTable1# from PhotoPrimary AS p LEFT OUTER JOIN photoz AS z ON p.objID = z.objID WHERE ( (p.dered_g < #) OR (p.dered_r < #) OR (p.dered_i < #) ) and (p.type = #) and (p.modelMag_r> #) and (p.modelMag_r< =#)"
+2019-04-16 13:26:00,1

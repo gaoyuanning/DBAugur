@@ -1,0 +1,3 @@
+4,"SELECT   ph.ra,   ph.dec,   sp.plate,   sp.mjd,   sp.fiberid,   sp.psfMag_u,   sp.psfMag_g,   sp.psfMag_r,   sp.psfMag_i,   sp.psfMag_z,   sp.z,   sp.zwarning into mydb.qsos_DR1# from SpecPhotoAll sp, Photoprimary ph   WHERE   sp.class = &&&   and zwarning = #   and ph.clean = #"
+2019-11-14 08:25:00,2
+2019-11-14 08:26:00,2

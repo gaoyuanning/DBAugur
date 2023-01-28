@@ -1,0 +1,5 @@
+4,"SELECT z.petromag_u, z.petromag_g, z.petromag_r, z.petromag_i, z.petromag_z, g.lgm_tot_p5# FROM myDB.MyTableZ as m JOIN specObj as s ON m.objID_DR1# = s.bestobjID JOIN PhotoPrimary as z ON s.specObjID = z.specObjID JOIN galSpecExtra as g ON s.specObjID = g.specObjID"
+2019-10-31 17:18:00,1
+2019-10-31 17:32:00,1
+2019-10-31 17:33:00,1
+2019-10-31 18:52:00,1

@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.run, p.rerun, p.camcol, p.field, p.obj, p.rowc, p.rowcErr, p.colc, p.colcErr, p.extinction_r, p.ra, p.dec into mydb.ttttt from PhotoObjAll as p where (p.run = # and p.camcol = # and p.rerun = # and p.field = # and abs (p.ra - #) < # and abs (p.dec - #) < #)"
+2019-01-15 08:56:00,1

@@ -1,0 +1,2 @@
+1,"SELECT dered_u, dered_g, dered_r, dered_i, dered_z, err_u, err_g, err_r, err_i, err_z, extinction_u, extinction_g, extinction_r, extinction_i, extinction_z FROM PhotoObj WHERE objID = # or # or # or # or # or # or # or # or # or #"
+2019-06-19 13:52:00,1

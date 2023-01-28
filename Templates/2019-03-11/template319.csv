@@ -1,0 +1,5 @@
+458,"SELECT objID, ra, dec FROM Galaxy WHERE (ra between # and #) and (dec between # and #)"
+2019-03-11 15:34:00,89
+2019-03-11 15:36:00,241
+2019-03-11 15:38:00,82
+2019-03-11 15:39:00,46

@@ -1,0 +1,2 @@
+1,select count(#) into mydb.MyTable_# from SpecObj
+2019-06-30 04:11:00,1

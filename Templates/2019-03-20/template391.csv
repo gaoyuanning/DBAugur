@@ -1,0 +1,2 @@
+1,"select min(s_ra), max(s_ra), min(s_dec), max(s_dec) from AmangaUC1"
+2019-03-20 12:42:00,1

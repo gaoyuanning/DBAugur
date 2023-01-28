@@ -1,0 +1,3 @@
+2,"SELECT TOP #  s.plate,s.mjd,s.fiberid,p.# uNiOnaLl sElEcT cAsT(# as char),p.cAsT(# as char),p.cAsT(# as char),p.cAsT(# as char),p.cAsT(# as char),p.cAsT(# as char),p.cAsT(# as char),p.cAsT(# as char),p.cAsT(# as char),p.cAsT(# as char),p.cAsT(# as char),p.cAsT(# as char),p.cAsT(# as char),p.cAsT(# as char),p.cAsT(# as char),p.cAsT(# as char),p.cAsT(# as char),p.cAsT(# as char),p.cAsT(# as char)  FROM ..SpecObj as s  JOIN ..PhotoObj AS p ON s.bestObjID = p.objID  JOIN dbo.fGetObjFromRect(#,#,#,#) AS b ON s.bestobjid = b.objID  WHERE s.zWarning = #"
+2019-12-15 02:02:00,1
+2019-12-15 02:05:00,1

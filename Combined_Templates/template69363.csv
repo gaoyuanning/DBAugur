@@ -1,0 +1,4 @@
+3,"SELECT TOP # specobjid, class, z as redshift, plate, mjd, fiberid FROM SpecObj Where z between # and # and class = QSO##"
+2019-10-13 11:03:00,1
+2019-10-13 11:05:00,1
+2019-10-13 11:06:00,1

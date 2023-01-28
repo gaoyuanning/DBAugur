@@ -1,0 +1,8 @@
+9,"SELECT DISTINCT p.modelMag_g, p.modelMag_r FROM PhotoObjAll AS p WHERE ( (p.ra between # and #) and (p.dec between # and #) )"
+2019-10-02 16:36:00,1
+2019-10-02 16:45:00,3
+2019-10-02 16:46:00,1
+2019-10-02 17:11:00,1
+2019-10-02 17:18:00,1
+2019-10-02 17:20:00,1
+2019-10-02 17:32:00,1

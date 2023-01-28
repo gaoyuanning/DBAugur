@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec, s.z, b.lgm_tot_p5#, b.sfr_tot_p5# into mydb.MyTable_# from galSpecExtra as b OUTER APPLY dbo.fGetNearbyObjEq (#, #, #) as n LEFT JOIN SpecPhotoAll as s on s.objID = n.objID AND b.specObjID = s.specObjID"
+2019-04-28 04:13:00,1

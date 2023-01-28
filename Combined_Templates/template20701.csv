@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.modelMag_g-p.modelMag_r as color, p.petroMag_r as mag FROM PhotoObjAll as p, mydb.test_# as a, SpecObjAll as s --into mydb.test_radectest WHERE a.id = s.bestObjID and p.objID = s.bestObjID"
+2019-03-15 15:37:00,1

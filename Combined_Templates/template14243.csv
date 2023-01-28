@@ -1,0 +1,2 @@
+1,"select * from baseball.batting where yearid = # and teamid = # order by playerid, g"
+2019-02-25 09:50:00,1

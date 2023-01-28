@@ -1,0 +1,3 @@
+2,"SELECT objID, run, camcol, field, colc, rowc, ra, dec, i, err_i, petroR5#_i, petroR5#Err_i, type, flags FROM PhotoObj WHERE run=# and field =# and camcol=# and type=# and i < # and i != #"
+2019-10-06 11:00:00,1
+2019-10-06 11:20:00,1

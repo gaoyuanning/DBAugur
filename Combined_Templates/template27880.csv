@@ -1,0 +1,4 @@
+3,"select TOP # objID, ra, dec, u, g, r, i, z from galaxy where r < # order by z desc"
+2019-04-04 01:52:00,1
+2019-04-04 01:54:00,1
+2019-04-04 01:56:00,1

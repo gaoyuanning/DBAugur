@@ -1,0 +1,2 @@
+1,"SELECT s.plate, s.mjd, s.ra, s.dec, s.fiberid, #+ cast (s.ra as varchar (#) )+ #+cast (s.dec as varchar (#) ) + #+ #"
+2019-10-04 17:58:00,1

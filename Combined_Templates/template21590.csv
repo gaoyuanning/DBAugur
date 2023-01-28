@@ -1,0 +1,7 @@
+6,"SELECT p.objid, p.ra, p.dec, p.petroMag_u, p.petroMagerr_u, p.petroMag_g, p.petroMagerr_g, p.petroMag_r, p.petroMagerr_r, p.petroMag_i, p.petroMagerr_i, p.petroMag_z, p.petroMagerr_z, p.modelMag_u, p.modelMagerr_u, p.modelMag_g, p.modelMagerr_g, p.modelMag_r, p.modelMagerr_r, p.modelMag_i, p.modelMagerr_i, p.modelMag_z, p.modelMagerr_z, p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i, p.extinction_z, p.petroRad_r, p.petroRadErr_r, p.run, p.rerun, p.camCol, p.field, p.petroMag_r-p.fiberMag_r into mydb.add2# FROM dbo.fGetNearbyObjEq (#, #, #) as b, PhotoObj as p WHERE b.objID = p.objID"
+2019-03-19 03:23:00,1
+2019-03-19 03:24:00,1
+2019-03-19 03:26:00,1
+2019-03-19 03:30:00,1
+2019-03-19 03:31:00,1
+2019-03-19 09:25:00,1

@@ -1,0 +1,8 @@
+7,"select top # objid, modelmag_u, modelmag_g, modelmag_r, modelmag_i, modelmag_z,z from SpecPhoto where class=&&& and z BETWEEN # and # and zErr BETWEEN # and #"
+2019-02-26 01:51:00,1
+2019-02-26 01:52:00,1
+2019-02-26 01:53:00,1
+2019-02-26 01:55:00,1
+2019-02-26 01:56:00,1
+2019-02-26 01:57:00,1
+2019-02-26 01:58:00,1

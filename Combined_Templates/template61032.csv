@@ -1,0 +1,2 @@
+1,"SELECT mjd, plate, fiberID, ra, dec, plateSN2, deredSN2 FROM MyTable"
+2019-09-04 05:19:00,1

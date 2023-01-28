@@ -1,0 +1,2 @@
+1,"SELECT       pz.objID, pz.z, pz.zErr    INTO mydb.TWOMASS_GalaxyZoo1_PhotoZ_ONLY FROM TwoMassXSC AS tm   JOIN zooVotes AS zoo ON tm.objID = zoo.objid   JOIN Photoz as pz on tm.objID = pz.objID WHERE tm.SYS_FLG = #   and tm.CONTAM_FLG = #   and pz.photoErrorClass=#"
+2019-07-23 09:47:00,1

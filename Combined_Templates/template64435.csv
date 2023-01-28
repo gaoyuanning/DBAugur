@@ -1,0 +1,2 @@
+1,"SELECT top # sp.*, p.* into mydb.MyTable from sppParams as sp JOIN PhotoObjAll as p ON sp.bestobjid = p.objid WHERE sp.teffadop between # and # AND sp.fehadop < # AND sp.fehadop > # AND sp.loggadop < # AND sp.loggadop > # AND sp.seguePrimary = # AND (sp.zwarning = # OR sp.zwarning = #) AND sp.elodiervfinalerr ! = # and sp.snr > #"
+2019-09-21 02:30:00,1

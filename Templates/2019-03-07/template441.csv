@@ -1,0 +1,4 @@
+47,select objid from photoprimary where photoprimary.dec between # and # and photoprimary.ra between # and # and photoprimary.r between -.# and #
+2019-03-07 16:01:00,41
+2019-03-07 16:02:00,1
+2019-03-07 16:03:00,5

@@ -1,0 +1,3 @@
+2,"SELECT objID, ra, dec into blueberry from PhotoObj WHERE cModelMag-g> # and cModelMag-g< # and psfMag-g< # and cModelMagErr-g< # and cModelMagErr-r< # and cModelMag-u - cModelMag_g > # and psfMag-u - psfMag_g > # and cModelMag-r - cModelMag-g > # and psfMag-r - psfMag-g > # and cModelMag-r - cModelMag-i < # and psfMag-r - psfMag_i < # and (cModelMag-r - cModelMag-g > # or cModelMag-i - cModelMag_g > #)"
+2019-02-17 01:19:00,1
+2019-02-17 01:21:00,1

@@ -1,0 +1,2 @@
+2,"SELECT TOP # z, zErr, ra, dec, logMass, logMass_median, logMass_err, t_age --INTO MyDB.tmp_#_# FROM stellarMassFSPSGranWideDust WHERE z > # AND z < # AND ( (flags & #) ! = #) AND ( (flags & #) = #) AND ( ((flags & #) = #) or (psfmagerr_r < = #) ) AND ( ((flags & #) = #) or (flags & #) = #)"
+2019-08-29 12:58:00,2

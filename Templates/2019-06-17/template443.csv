@@ -1,0 +1,2 @@
+1,"SELECT   S.ra, S.dec, S.mjd, S.plate, S.fiberID, S.class,    S.z, S.zErr, S.rChi2, S.velDisp, S.velDispErr, S.specObjID, S.bestObjID INTO mydb.SDSSspecgalsDR1#_specObj_all FROM SpecObj S  WHERE S.rChi2 < #   AND (S.zErr > # AND S.zErr < #)   AND S.class = &&&    AND S.zWarning = #"
+2019-06-17 09:41:00,1

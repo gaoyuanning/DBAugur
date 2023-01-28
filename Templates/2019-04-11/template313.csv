@@ -1,0 +1,4 @@
+5,"SELECT SUBSTRING(Name, #, #) as firstLetter FROM chinook.Artist"
+2019-04-11 14:21:00,2
+2019-04-11 14:36:00,1
+2019-04-11 14:37:00,2

@@ -1,0 +1,2 @@
+1,"SELECT  Q.OBJID, S.specObjID FROM PhotoPrimary AS Q  left outer join SpecPhoto AS S on Q.OBJID=S.OBJID  WHERE S.OBJID IN (#,#,#)"
+2019-01-07 08:03:00,1

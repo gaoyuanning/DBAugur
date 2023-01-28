@@ -1,0 +1,5 @@
+4,"SELECT TOP # s.elodieSpType as spectraltype, s.z as redshift, s.elodieBV as color, s.elodieTEff as temperature, s.elodieLogG as gravity, s.elodieFeH as metallicity FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.u BETWEEN # AND # AND g BETWEEN # AND # AND s.elodieSpType ! = unknown"
+2019-05-10 16:34:00,1
+2019-05-10 16:35:00,1
+2019-05-11 11:00:00,1
+2019-05-11 14:42:00,1

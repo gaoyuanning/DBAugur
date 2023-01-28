@@ -1,0 +1,2 @@
+2,"select logMass, ra, dec from stellarMassStarformingPort where ra> # and ra< # and dec> # and dec< #"
+2019-09-02 01:49:00,2

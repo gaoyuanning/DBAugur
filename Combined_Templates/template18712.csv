@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec into mydb.MyTable from dbo.DBObjects"
+2019-03-08 17:33:00,1

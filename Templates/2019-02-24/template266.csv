@@ -1,0 +1,2 @@
+1,"SELECT ra,dec, dbo.fGetNearestObjIdEq(ra,dec,#) as objId FROM mydb.test_radec   into mydb.test_# WHERE dbo.fGetNearestObjIdEq(ra,dec,#) IS NOT NULL  SELECT TOP #   p.ra,p.dec, p.run,p.rerun,p.camCol,p.field,p.obj,ISNULL(s.plate,#) as plate,ISNULL(s.mjd,#) as mjd,ISNULL(s.fiberid,#) as fiberid  FROM ..PhotoObj AS p,   ..mydb.test_# as a,   ..SpecObj as s   join p.objID = a.objId   join p.objID = s.bestObjID       WHERE  ( p.type = # OR p.type = #) and p.objID = a.objId and p.objID = s.bestObjID"
+2019-02-24 13:15:00,1

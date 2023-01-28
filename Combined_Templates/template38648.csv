@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.class, s.subClass, m.z as redshift, m.logMass as mass, m.age, m.SFR, m.metallicity FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN stellarMassStarformingPort as m ON m.specObjID = s.specObjID WHERE s.subClass ! = #"
+2019-05-10 09:01:00,1

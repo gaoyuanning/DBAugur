@@ -1,0 +1,3 @@
+3,SELECT count (*) as # into mydb.bhb_all from segueTargetAll as s
+2019-08-15 17:38:00,2
+2019-08-16 15:06:00,1

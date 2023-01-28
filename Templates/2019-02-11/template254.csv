@@ -1,0 +1,2 @@
+2,"SELECT  ObjID, modelMag_r, petroRad_r FROM  PhotoPrimary WHERE  ra >= # and ra <= # AND DEC >= # and DEC <= #"
+2019-02-11 18:52:00,2

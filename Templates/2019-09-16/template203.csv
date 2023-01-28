@@ -1,0 +1,2 @@
+2,"select distinct a.eid,b.encoding_id from dbo.Eyesight a inner join metadata.columninfo b on a.column_name=&&&"
+2019-09-16 15:08:00,2

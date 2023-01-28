@@ -1,0 +1,2 @@
+1,"SELECT   ast.teff, ast.logg, ap.snr, ast.m_h, ast.fe_h,  into myDB.apogeeparam FROM dbo.aspcapStar as ast   JOIN dbo.apogeestar as ap ON (ap.apogee_id = ast.apogee_id)"
+2019-01-22 05:53:00,1

@@ -1,0 +1,2 @@
+1,"select z, nnAvgZ, ra, dec, Photoz.objID from Photoz, GalaxyTag where Photoz.objID = GalaxyTag.objID"
+2019-10-06 07:40:00,1

@@ -1,0 +1,2 @@
+1,"select ra, dec, radius, type from Mask where dec<#"
+2019-02-22 05:55:00,1

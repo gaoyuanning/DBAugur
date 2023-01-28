@@ -1,0 +1,9 @@
+11,"SELECT p.Name, p.ra, p.dec, dbo.fGetNearestObjIdEq(p.ra, p.dec, #) as objID INTO mydb.MyTable_jpas_# FROM mydb.MyTable_jpas as p WHERE dbo.fGetNearestObjIdEq(p.ra, p.dec, #) is NOT NULL"
+2019-12-19 05:36:00,1
+2019-12-19 05:37:00,3
+2019-12-19 05:43:00,1
+2019-12-19 06:02:00,1
+2019-12-19 06:03:00,1
+2019-12-19 06:13:00,2
+2019-12-19 07:17:00,1
+2019-12-19 07:18:00,1

@@ -1,0 +1,2 @@
+10,"SELECT ra,dec FROM photoObj WHERE ra between # and # and"
+2019-11-24 16:51:00,10

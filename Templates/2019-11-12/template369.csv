@@ -1,0 +1,2 @@
+1,"SELECT specObjID, ra,dec, plate, mjd, fiberID, 	        from specObjAll	 WHERE plate=# and boss_target1 = #"
+2019-11-12 12:51:00,1

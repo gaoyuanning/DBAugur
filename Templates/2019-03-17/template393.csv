@@ -1,0 +1,2 @@
+1,"SELECT s.bestObjID, p.ra, p.dec, s.z, s.class, s.subClass, pm.pmRa, pm.pmRaErr, pm.pmDec, pm.pmDecErr , s.survey, s.z_noqso into mydb.MyTable_# from PhotoObj as p   JOIN SpecObj as s ON s.bestObjID = p.objID   JOIN ProperMotions as pm ON pm.objid = p.objID  WHERE s.class=&&& and s.zwarning=#"
+2019-03-17 04:50:00,1

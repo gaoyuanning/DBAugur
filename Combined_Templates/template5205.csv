@@ -1,0 +1,2 @@
+2,"select Z.z, Z.zErr, O.objID, O.ra, O.dec, O.cModelMag_r into mydb.DR8_Spec_NW from PhotoObjAll as O, SpecPhotoAll as Z where Z.targetObjID = O.objID AND O.ra BETWEEN # AND # AND O.dec BETWEEN # AND # AND O.type = # AND Z.z > # AND O.insideMask = #"
+2019-01-22 12:36:00,2

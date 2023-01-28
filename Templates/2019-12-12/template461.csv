@@ -1,0 +1,2 @@
+1,"SELECT    ra,dec,fiberMag_g,fiberMag_r,fiberMag_i,fiberMagErr_g,fiberMagErr_r,fiberMagErr_i,objID into mydb.MyTable from star WHERE    ra > # and ra < # and    dec > # and dec < #"
+2019-12-12 07:02:00,1

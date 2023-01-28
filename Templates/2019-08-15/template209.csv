@@ -1,0 +1,2 @@
+1,"SELECT    objID, z, zErr, kcorrU, kcorrG, kcorrR, kcorrI, kcorrZ, kcorrU0#, kcorrG0#, kcorrR0#, kcorrI0#, kcorrZ0# into mydb.MyTable from Photoz  WHERE     photoErrorClass=#"
+2019-08-15 12:47:00,1

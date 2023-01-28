@@ -1,0 +1,2 @@
+1,"SELECT   TOP #   count(*)     mydb.galaxies_return_rows3 into mydb.MyTable_# from Galaxy as p, SpecObj as s  WHERE      s.zWarning = # AND      p.mode = # AND p.SpecObjID = s.SpecObjID AND      (p.flags & CAST(# AS BIGINT)) = # AND    (p.flags & CAST(# AS BIGINT)) = CAST(# AS BIGINT) AND     p.dec >= # AND p.dec < #"
+2019-05-22 11:46:00,1

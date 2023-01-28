@@ -1,0 +1,2 @@
+1,"SELECT   m.specobjid, m.bestObjID into mydb.ASpList from mydb.z2s_Sp_#s AS m"
+2019-01-15 00:09:00,1

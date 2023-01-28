@@ -1,0 +1,3 @@
+3,"SELECT P.objID, P.ra, P.dec, S.SpecObjId, S.ra, S.dec FROM PhotoObj AS P LEFT OUTER JOIN SpecObjAll AS S ON P.objID = s.BestObjID"
+2019-09-25 01:15:00,2
+2019-09-25 01:19:00,1

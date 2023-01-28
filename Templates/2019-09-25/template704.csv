@@ -1,0 +1,2 @@
+2,"SELECT g.ra, g.dec, g.objID INTO MyDB.indices_o_coord FROM Galaxy g, (SELECT objID FROM MyDB.indices_o) AS a WHERE g.objID = a.objID"
+2019-09-25 03:29:00,2

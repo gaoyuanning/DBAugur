@@ -1,0 +1,2 @@
+2,"select RunID, sum (x*y - #) as derived, stdev (y) from Data where x > # and x+y between # and # group by RunID order by RunID asc select ROUND (x, #) as crap, countsLOL = count (ID) from Data group by round (x, #) order by # declare @b float = # select memes = round (x/@b, #) * @b, cts = count (ID) from Data group by round (x/@b, #) * @b order by #"
+2019-11-18 12:41:00,2

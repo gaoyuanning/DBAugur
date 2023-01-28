@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.cModelMag_g, p.cModelMag_r, p.cModelMag_i, s.specobjid, s.class, s.z as redshift, x.wise_cntr, x.sdss_objid, x.match_dist, w.ra, w.dec, w.w1mpro, w.w1sigmpro, w.w1snr, w.w2mpro, w.w2sigmpro, w.w2snr, w.w3mpro, w.w3sigmpro, w.w3snr, w.w4mpro, w.w4sigmpro, w.w4snr FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN WISE_xmatch AS x ON x.sdss_objid = s.bestObjID JOIN WISE_allsky AS w ON w.cntr = x.wise_cntr WHERE s.class = # AND p.fracDev_r < # AND p.cModelMag_r < #"
+2019-01-16 08:44:00,1

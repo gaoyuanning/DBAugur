@@ -1,0 +1,2 @@
+1,"select top # id, s.specObjID as specobjid, z as zspec, zErr, zWarning as zW, sciencePrimary as prim, snMedian as SN, bptclass as bpt, lgm_tot_p5# as smass, sfr_tot_p5# as sfr, specsfr_tot_p5# as ssfr, oh_p5# as oh, d4#_n as d4#n, lick_hb as hb, lick_hd_a as hd, lick_hg_a as hg from MyDB.temp as t left join galSpecExtra as x on s.specObjID = t.specObjID left join galSpecIndx as i on t.specObjID = i.specObjID order by id"
+2019-07-19 01:04:00,1

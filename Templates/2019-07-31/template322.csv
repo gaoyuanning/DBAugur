@@ -1,0 +1,3 @@
+2,"SELECT z.ra,z.dec,z.p_el,a.id FROM zooVotes AS z,   mydb.matchid AS a --into mydb.testzoo WHERE  a.id=z.objid   and z.p_el between # and #"
+2019-07-31 09:11:00,1
+2019-07-31 09:12:00,1

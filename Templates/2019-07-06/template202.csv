@@ -1,0 +1,2 @@
+1,"SELECT    ife.ra, ife.dec, mass.* into mydb.ife_stellarMassStarformingPort from mydb.for_bpt as ife      CROSS APPLY dbo.fGetNearestSpecObjEq(ife.ra,ife.dec, #) AS near      JOIN stellarMassStarformingPort AS mass ON mass.specObjID = near.specObjID"
+2019-07-06 09:19:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # phot.ra, phot.dec FROM PhotoObjAll AS phot WHERE probPSF = #"
+2019-05-06 11:56:00,1

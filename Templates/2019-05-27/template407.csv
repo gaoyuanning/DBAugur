@@ -1,0 +1,2 @@
+1,"SELECT top # g.objID,g.ra, g.dec FROM Galaxy AS g JOIN Spplines AS s ON s.bestobjID=g.objID  WHERE g.ra BETWEEN # AND # AND g.u-g.z between # and # AND g.z BETWEEN # AND # AND g.g-g.r<# AND s.Halpha2#cont>#"
+2019-05-27 06:21:00,1

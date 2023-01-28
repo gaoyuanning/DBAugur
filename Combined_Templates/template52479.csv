@@ -1,0 +1,2 @@
+1,"select top # ra, dec, g From Stars Where ra between # and # and dec between # and #"
+2019-07-18 20:50:00,1

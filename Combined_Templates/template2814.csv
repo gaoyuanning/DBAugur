@@ -1,0 +1,2 @@
+1,"SELECT mangaid, objra, objdec, nsa_z, nsa_sersic_mass FROM dbo.mangaDrpAll where nsa_z > # and nsa_sersic_mass < #e1#"
+2019-01-14 10:03:00,1

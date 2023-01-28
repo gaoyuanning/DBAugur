@@ -1,0 +1,2 @@
+1,"select a.specobjid,fiberMag_u,fiberMag_g,fiberMag_r,fiberMag_i,fiberMag_z,fiberMagErr_u,fiberMagErr_g,fiberMagErr_r,fiberMagErr_i,fiberMagErr_z,extinction_u,extinction_g,extinction_r,extinction_i,extinction_z  into mydb.DR1#_fibermag from specobjall as a,specphotoall as b where a.specobjid = b.specobjid order by a.specobjid"
+2019-02-14 04:20:00,1

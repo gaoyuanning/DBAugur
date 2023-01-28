@@ -1,0 +1,2 @@
+1,"select d.petroMag_g, s.primtarget into mydb.rosatDm from dbo.Photoobjall as d join specobjall as s on d.objid = s.bestobjid where dbo.fprimtargetN (s.primtarget) like # and s.z between # and #"
+2019-12-11 08:12:00,1

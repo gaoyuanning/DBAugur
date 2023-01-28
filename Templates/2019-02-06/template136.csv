@@ -1,0 +1,2 @@
+1,"SELECT p.specobjid, p.objid, p.ra, p.dec, p.run, p.rerun, p.camcol, p.field, s.z, p.psffwhm_i, p.psffwhm_r, p.psffwhm_g, p.expRad_i, p.expRad_r, p.expRad_g, p.expAB_i, p.expAB_r, p.expAB_g, p.expPhi_i, p.expPhi_r, p.expPhi_g FROM PhotoPrimary AS p JOIN SpecPhoto AS s ON s.specobjid=p.specobjid WHERE p.specobjid = #"
+2019-02-06 17:59:00,1

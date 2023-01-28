@@ -1,0 +1,2 @@
+1,select unhex(hex(version())) 
+2019-07-21 17:28:00,1

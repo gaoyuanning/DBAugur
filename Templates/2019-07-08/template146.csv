@@ -1,0 +1,2 @@
+1,"SELECT m.ID, m.ra, m.dec, dbo.fGetNearestSpecObjIdEq( m.ra, m.dec, #) as specObjID FROM MyDB.m1#PhotoSampleSmall AS m WHERE dbo.fGetNearestSpecObjIdEq(m.ra,m.dec, #) IS NOT NULL  INTO #m1#S"
+2019-07-08 18:45:00,1

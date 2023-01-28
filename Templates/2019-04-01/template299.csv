@@ -1,0 +1,2 @@
+1,"SELECT Composer, count(*), min(milliseconds) as minDuration ,      max(milliseconds) as maxDuration FROM chinook.Track GROUP BY Composer"
+2019-04-01 15:41:00,1

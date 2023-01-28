@@ -1,0 +1,4 @@
+5,select objid from photoobjall where photoobjall.dec between -.# and .# and photoobjall.ra between # and #
+2019-03-12 20:41:00,2
+2019-03-12 20:42:00,2
+2019-03-12 20:58:00,1

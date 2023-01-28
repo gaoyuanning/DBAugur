@@ -1,0 +1,5 @@
+4,"select top # * from Parameters where progress=# and qmin=# and day=# -- order by algo, qmin desc, qmax desc, day"
+2019-02-08 08:17:00,1
+2019-02-08 08:35:00,1
+2019-02-08 08:39:00,1
+2019-02-08 08:43:00,1

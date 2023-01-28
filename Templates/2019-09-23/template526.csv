@@ -1,0 +1,2 @@
+1,"select objid, ra, dec, r as mags, raErr as error from galaxy where clean = #and ra > # and ra < #and dec > # and dec < #"
+2019-09-23 05:18:00,1

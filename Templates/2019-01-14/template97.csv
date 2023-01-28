@@ -1,0 +1,6 @@
+6,"select top # objid,ra,dec,u,g,r,i,z from PhotoObj where   u between # and #   and g between # and #"
+2019-01-14 07:49:00,1
+2019-01-14 16:36:00,1
+2019-01-14 16:37:00,2
+2019-01-14 16:38:00,1
+2019-01-14 19:51:00,1

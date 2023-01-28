@@ -1,0 +1,2 @@
+1,"select top # ra,dec,htmid , dbo.fHtmEq(ra,dec) as ch  from dr1#.photoobjall"
+2019-09-25 09:48:00,1

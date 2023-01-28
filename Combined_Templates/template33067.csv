@@ -1,0 +1,2 @@
+1,"SELECT zoo.objid, photo.run, photo.camcol, photo.field INTO mydb.gz_cw0#_run FROM dbo.zooVotes zoo JOIN dbo.PhotoObjAll photo On photo.objid = zoo.objid WHERE zoo.p_cw > #"
+2019-04-23 16:50:00,1

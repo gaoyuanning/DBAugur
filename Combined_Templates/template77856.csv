@@ -1,0 +1,2 @@
+1,"select p.ra, p.dec from PhotoObj as p, specObj as s where dec < # AND dec > # AND (ra > # AND ra < #)"
+2019-11-21 11:35:00,1

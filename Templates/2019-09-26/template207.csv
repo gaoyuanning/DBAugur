@@ -1,0 +1,4 @@
+3,"select p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  p.run, p.rerun, p.camcol, p.field,  s.specobjid, s.specClass, s.z,  s.plate, s.mjd, s.fiberid FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid"
+2019-09-26 17:13:00,1
+2019-09-26 17:17:00,1
+2019-09-26 17:40:00,1

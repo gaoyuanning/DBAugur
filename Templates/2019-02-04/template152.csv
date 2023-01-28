@@ -1,0 +1,2 @@
+1,"select z, class from specObj where z Between # and # AND class =&&& select z from galaxy where z = &&&"
+2019-02-04 18:27:00,1

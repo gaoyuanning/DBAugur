@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID, ra, dec, z FROM SpecObj WHERE class = # AND ra< =# AND ra> =# AND dec < =# AND dec > =# ORDER BY z desc"
+2019-05-21 11:44:00,1

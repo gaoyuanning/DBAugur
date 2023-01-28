@@ -1,0 +1,2 @@
+1,"SELECT TOP # PZ1.ra, PZ1.dec, PZ2.ra, PZ2.dec FROM Photoz as PZ1,  Photoz as PZ2,  Neighbors as NG,  PhotoObj AS P1,  PhotoObj AS P2 Where PZ1.ObjID = NG.ObjID   and PZ2.ObjID = NG.NeighborObjID   and NG.distance < #/#"
+2019-03-04 12:04:00,1

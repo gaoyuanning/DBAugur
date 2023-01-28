@@ -1,0 +1,2 @@
+1,"SELECT TOP # ObjID, modelMag_r, petroRad_r, z FROM Galaxy WHERE (ra between # and #) and (dec between # and #) and modelMag_r < # and expRad_r > # and z < #"
+2019-02-09 22:30:00,1

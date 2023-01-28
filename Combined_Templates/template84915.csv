@@ -1,0 +1,2 @@
+2,"select m.*, p.objid as p_objid, p.ra, p.dec, p.clean, p.type, p.dered_u as u, p.dered_g as g, p.dered_r as r, p.dered_i as i, p.dered_z as z, p.err_u, p.err_g, p.err_r, p.err_i, p.err_z into mydb.SAGAN2#_photometry_DR1# from photoobj p, mydb.SAGAN2#_objid m where m.objid = p.objid order by m.srno"
+2019-12-31 05:22:00,2

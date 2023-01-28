@@ -1,0 +1,2 @@
+1,"select  p.dec, p.ra       into mydb.z7 from photoObj p       join photoz z ON z.objID = p.objID        Join photoObjAll a ON a.objID = p.objID       where (z.photoErrorClass =# or z.photoErrorClass =#        or z.photoErrorClass = #  or z.photoErrorClass =#)        AND p.modelMag_r < #       AND p.modelMag_r > #       AND p.type = #         AND a.extinction_r < #      AND z.z >= # AND z.z < #"
+2019-04-24 12:26:00,1

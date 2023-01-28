@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.cModelMag_g, p.cModelMag_r, p.cModelMag_i, s.specobjid, s.class, s.z as redshift, g.h_alpha_flux, FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN galSpecIndex AS i ON i.specobjid = s.specobjid JOIN galSpecLine AS g ON g.specobjid = s.specobjid WHERE s.class = # AND p.cModelMag_r > # AND s.z< #"
+2019-01-16 08:37:00,1

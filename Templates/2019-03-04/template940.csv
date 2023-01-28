@@ -1,0 +1,14 @@
+43,select photoprimary.objid from photoprimary inner join galaxy on galaxy.objid = photoprimary.objid inner join specobj on specobj.specobjid = photoprimary.objid where photoprimary.dec between # and # and photoprimary.ra between # and # and galaxy.g between # and # and specobj.z between .# and .#
+2019-03-04 00:50:00,3
+2019-03-04 00:53:00,1
+2019-03-04 01:04:00,3
+2019-03-04 01:05:00,3
+2019-03-04 01:07:00,3
+2019-03-04 01:10:00,8
+2019-03-04 01:31:00,1
+2019-03-04 01:33:00,1
+2019-03-04 01:34:00,3
+2019-03-04 01:36:00,6
+2019-03-04 01:37:00,4
+2019-03-04 02:02:00,6
+2019-03-04 02:04:00,1

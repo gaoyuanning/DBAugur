@@ -1,0 +1,4 @@
+5,"SELECT to upload -- the results to the DAS (Data Archive Server) for FITS file retrieval. SELECT TOP #    p.objid,p.ra,p.dec,p.u,p.Err_u,p.g, p.Err_g,p.r, p.Err_r,p.i, p.Err_i,p.z, p.Err_z, p.type, s.z as Redshift, s.zErr  FROM PhotoObjAll AS p    JOIN SpecObjAll AS s ON s.bestobjid = p.objid WHERE     p.i BETWEEN # AND #    AND p.z BETWEEN # AND #    AND s.z BETWEEN # AND #    AND p.ra BETWEEN # AND #    AND p.dec BETWEEN # AND #    AND p.type = #"
+2019-09-26 13:34:00,1
+2019-09-26 13:44:00,2
+2019-09-26 13:45:00,2

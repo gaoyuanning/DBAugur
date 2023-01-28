@@ -1,0 +1,2 @@
+1,"select a.encoding_id, a.column_name, b.meaning, b.value from metadata.columninfo a INNER join metadata.encoding b on a.encoding_id = #"
+2019-09-16 15:06:00,1

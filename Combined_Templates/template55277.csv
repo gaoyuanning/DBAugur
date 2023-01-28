@@ -1,0 +1,2 @@
+1,"SELECT count (*) as #, FROM PhotoPrimary WHERE psfMag_g < # and abs (b) > # and type = =#"
+2019-08-05 19:31:00,1

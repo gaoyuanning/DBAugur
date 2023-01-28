@@ -1,0 +1,2 @@
+1,"SELECT TOP # specobjid, ra, dec, redshift, class FROM SpecObj WHERE dec > = # AND dec < = # AND redshift < #"
+2019-08-19 04:40:00,1

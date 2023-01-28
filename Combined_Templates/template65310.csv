@@ -1,0 +1,2 @@
+2,"SELECT top # objid, subclass, flags, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z FROM SpecPhoto WHERE zwarning = # AND class = # AND type = # AND subclass like # AND subclass not like # AND subclass < > #"
+2019-09-25 13:22:00,2

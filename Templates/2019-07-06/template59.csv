@@ -1,0 +1,2 @@
+1,select count(*) from SpecObj where z># and z<=# and class=&&& and ra># and ra<=# and dec># and dec>=# group by int(z*#)
+2019-07-06 23:37:00,1

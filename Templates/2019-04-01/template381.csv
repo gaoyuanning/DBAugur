@@ -1,0 +1,2 @@
+3,"select    t.Name_SN Name_SN,    t.Host_name Host_name,    t.Type_SN Type_SN,    t.SN_type_simple SN_type_simple,   t.morph_type_gal morph_type_gal,    t.Final_morphology Final_morphology into mydb.openSN_info_cont from mydb.OpenSN_withcontaminants t      where t.z_SN > # AND t.Host_name !=&&& AND t.AGN1=&&&"
+2019-04-01 12:27:00,3

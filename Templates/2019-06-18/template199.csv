@@ -1,0 +1,4 @@
+4,"CREATE TABLE MyTable_# (  objid bigint,  ra float,  dec float,  search_id int,  matched_id bigint,  z real );"
+2019-06-18 11:55:00,1
+2019-06-18 11:56:00,1
+2019-06-18 15:44:00,2

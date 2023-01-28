@@ -1,0 +1,4 @@
+4,"select top # ra, dec, psfmag_u, psfmag_g, psfmag_r, psfmag_i, psfmag_z, psfmagerr_u, psfmagerr_g, psfmagerr_r, psfmagerr_i, psfmagerr_z from PhotoObjAll where objID = #"
+2019-11-21 17:12:00,2
+2019-11-21 17:15:00,1
+2019-11-21 17:16:00,1

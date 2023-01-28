@@ -1,0 +1,2 @@
+1,"SELECT top # p. petroMag_u, p. petroMag_g, p. petroMag_r, p. petroMag_i, p. petroMag_z, p.objID, s.z, s.specObjID,  s.plateID, s.fiberID FROM PhotoObj p JOIN specObj s ON s.bestObjID=p.objID JOIN plateX x ON x.plateID=s.plateID WHERE s.class = &&&  AND p.petroMag_g between # and # AND s.z < #"
+2019-12-04 08:39:00,1

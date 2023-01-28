@@ -1,0 +1,2 @@
+1,"SELECT TOP # zns.p_cw, zns.p_acw FROM Galaxy as p JOIN ZooNoSpec AS zns ON p.objid = zns.objid JOIN SpecObj AS s ON s.bestobjid = p.objid where zns.p_cw> # or zns.p_acw> #"
+2019-02-24 12:36:00,1

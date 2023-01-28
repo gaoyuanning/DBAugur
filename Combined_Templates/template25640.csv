@@ -1,0 +1,2 @@
+1,"SELECT top # f.ra, f.dec, sp.ra, sp.dec, sp.plate, sp.mjd, sp.fiberid into mydb.MyTable_# from myDB.all_flares as f JOIN specobjall as sp ON sp.ra = f.ra"
+2019-03-29 11:06:00,1

@@ -1,0 +1,2 @@
+1,"select top # p1.CANCER_STUDY_ID, p1.INTERNAL_ID  from patient p1  union all  select top # p2.cancer_study_id, p2.internal_id  from patient p2"
+2019-04-24 13:01:00,1

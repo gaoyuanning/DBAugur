@@ -1,0 +1,5 @@
+5,"SELECT TOP # p.ra,p.dec,p.run,p.rerun,p.camCol,p.field,p.obj FROM BESTDR7..PhotoObj AS p 	JOIN #x AS x ON x.objID=p.objID JOIN #upload AS u ON u.up_id = x.up_id  WHERE  ( p.type = # OR p.type = #) ORDER BY x.up_id"
+2019-07-09 03:15:00,1
+2019-07-09 03:18:00,2
+2019-07-09 03:19:00,1
+2019-07-09 03:24:00,1

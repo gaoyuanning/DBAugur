@@ -1,0 +1,2 @@
+1,"SELECT p.specObjId, p.u, p.g, p.r, p.i, p.z, g.spectrotype FROM PhotoObjAll as p JOIN galSpecInfo as g ON g.specObjId = p.specObjId WHERE p.z between # and #"
+2019-11-02 10:29:00,1

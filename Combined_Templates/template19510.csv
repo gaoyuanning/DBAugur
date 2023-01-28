@@ -1,0 +1,2 @@
+1,"select l.*, g.* into mydb.LoTSS_GRGs_#_emissionline from mydb.LoTSS_GRGs_#_ID l, emissionLinesPort el where l.specobjid = el.specobjid"
+2019-03-11 06:07:00,1

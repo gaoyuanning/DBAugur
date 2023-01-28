@@ -1,0 +1,2 @@
+1,"SELECT SpecObj.ra, SpecObj.dec, z, p1.p_el, p1.p_cw, p1.p_acw, p1.p_edge, p1.p_dk, p1.p_mg FROM SpecObj p JOIN zooNoSpec p1 on p1.specobjid = p.SpecObjID WHERE (SpecObj.ra > # and SpecObj.ra < #) AND (SpecObj.dec> # and SpecObj.dec< #) And SpecObj.class = # order by SpecObj.ra"
+2019-08-22 08:02:00,1

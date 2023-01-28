@@ -1,0 +1,5 @@
+6,"select s.specObjID, s.ra, s.dec, s.z, s.class, l.logMass, l.cModelAbsMag_r from SpecObj as s, PhotoObj as p, stellarMassFSPSGranEarlyDust as l where s.specObjID = l.specObjID AND s.specObjID = p.specObjID AND s.z BETWEEN # and # AND s.ra BETWEEN # and # AND s.dec BETWEEN # and # AND l.cModelAbsMag_r < = #"
+2019-07-04 19:54:00,1
+2019-07-04 19:55:00,1
+2019-07-04 19:56:00,2
+2019-07-04 19:57:00,2

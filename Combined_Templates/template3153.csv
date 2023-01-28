@@ -1,0 +1,19 @@
+18,"select s.plate, s.mjd, s.fiberid, spp.TEFFADOP, spp.LOGGADOP, spp.FEHADOP FROM SpecObjAll as s, SpecPhotoAll as ph, sppParams as spp where s.SPECOBJID = spp.SPECOBJID and spp.SPECOBJID = ph.specObjID and s.class = # and s.subclass = # and spp.snr> # and spp.snr< =#"
+2019-01-15 13:14:00,1
+2019-01-15 13:18:00,1
+2019-01-15 13:19:00,1
+2019-01-15 13:21:00,1
+2019-01-15 13:23:00,1
+2019-01-15 13:25:00,1
+2019-01-15 13:27:00,1
+2019-01-15 13:29:00,1
+2019-01-15 13:30:00,1
+2019-01-15 13:32:00,1
+2019-01-15 13:34:00,1
+2019-01-15 13:36:00,1
+2019-01-15 13:38:00,1
+2019-01-15 13:40:00,1
+2019-01-15 13:41:00,1
+2019-01-15 13:45:00,1
+2019-01-15 13:47:00,1
+2019-01-15 13:49:00,1

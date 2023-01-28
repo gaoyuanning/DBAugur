@@ -1,0 +1,2 @@
+1,"SELECT p.*, g.* from PhotoObjAll AS p JOIN zooSpec AS g ON g.objid = p.objID"
+2019-06-11 13:08:00,1

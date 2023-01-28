@@ -1,0 +1,2 @@
+2,"SELECT   ROW_NUMBER() OVER(ORDER BY g) #, p.objID, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z,   dbo.fGetUrlNavId(p.objID) as link,   R.M2#, R.V2# as radialvelocityHI FROM photoObj p   JOIN RC3 R ON R.objID = p.objID WHERE     p.type = #    AND p.r <= #"
+2019-02-11 17:16:00,2

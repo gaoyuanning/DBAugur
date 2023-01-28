@@ -1,0 +1,2 @@
+1,"select run1,run2 counts=Column1 from S8#MatchRunPairs where Column1>#) select run1 as run, counts from p union  select run2 as run, counts from p order by #"
+2019-03-04 09:20:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # pz.objid, pz.z, g.ra, g.dec into mydb.pz1 from photoObj AS G join Photoz as pz on pz.objid = g.objid WHERE g.ra BETWEEN # AND # AND g.dec BETWEEN # AND #"
+2019-01-24 03:27:00,1

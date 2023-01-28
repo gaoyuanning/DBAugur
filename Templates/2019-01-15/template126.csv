@@ -1,0 +1,2 @@
+1,"SELECT TOP # into mydb.testquery    p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z, p.probPSF into mydb.MyTable_# from PhotoObj AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE     p.ra BETWEEN # AND #    AND p.dec BETWEEN # AND #"
+2019-01-15 18:46:00,1

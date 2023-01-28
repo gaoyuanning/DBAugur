@@ -1,0 +1,3 @@
+3,"SELECT TOP # s.ossy_id,   s.id,   g.run,            g.camCol,            g.rerun,            g.field,            g.objID,          FROM galaxy AS g   JOIN spogs AS s ON spogs.sdss_id = galaxy.objid"
+2019-07-08 16:43:00,1
+2019-07-08 16:44:00,2

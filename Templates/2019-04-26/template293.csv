@@ -1,0 +1,3 @@
+2,"select top # objra,objdec,dbo.fGetNearestObjIdAllEq(objra,objdec,#) as objID from mangaDAPall where mangaid=&&&"
+2019-04-26 16:24:00,1
+2019-04-26 16:42:00,1

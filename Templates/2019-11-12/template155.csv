@@ -1,0 +1,2 @@
+1,"SELECT TOP # passive.fiberid as fiberID, agem FROM stellarMassPassivePort AS passive  JOIN stellarMassStarformingPort AS starforming ON passive.specobjid =  starforming.specobjid  JOIN stellarMassPCAWisc AS pca ON passive.specobjid = pca.specobjid  WHERE passive.plate = # AND passive.mjd = # AND pca.warning=#"
+2019-11-12 19:05:00,1

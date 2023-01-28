@@ -1,0 +1,4 @@
+9,"select s.logMass, s.logMass_err from stellarMassFSPSGranWideDust as s where s.specObjID = #"
+2019-02-25 07:34:00,1
+2019-02-25 07:37:00,1
+2019-02-25 07:38:00,7

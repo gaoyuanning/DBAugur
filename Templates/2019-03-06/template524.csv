@@ -1,0 +1,3 @@
+2,"SELECT m.*, R.ra as RA_X, R.dec as Dec_X, R.ext INTO Xmatch FROM Rosat as R, lrgs as m WHERE   (R.ra-m.ra)*(R.ra-m.ra)<# AND   (R.dec-m.dec)*(R.dec-m.dec)<# AND   R.ext > # ORDER BY m.objID"
+2019-03-06 12:41:00,1
+2019-03-06 12:44:00,1

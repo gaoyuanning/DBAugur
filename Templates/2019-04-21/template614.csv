@@ -1,0 +1,2 @@
+1,"SELECT into mydb.abell1#_petromagu   objID, ra, dec, z, zErr, class,   petroMag_u, petroMag_r    FROM SpecPhotoAll      WHERE    ra > # and ra < # and dec > # and dec < #    AND class=&&&"
+2019-04-21 07:24:00,1

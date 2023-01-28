@@ -1,0 +1,2 @@
+2,"SELECT  m.*,e.bptclass,s.z as sdss_z_line, s.ra as sdss_ra_line,s.dec as sdss_dec_line,g.h_beta_flux, g.h_beta_flux_err,g.oiii_#_flux, g.oiii_#_flux_err,g.h_alpha_flux, g.h_alpha_flux_err,g.nii_#_flux, g.nii_#_flux_err  into mydb.galpair_A1#_sdss_all_Av_line  from DR1#.galSpecLine AS g       JOIN DR1#.GalSpecInfo AS s ON s.specobjid = g.specobjid       JOIN DR1#.galSpecExtra AS e ON e.specobjid = g.specobjid       join mydb.galpair_A1#_sdss_all_Av as m on s.plateid=m.sdss_plate and s.mjd=m.sdss_mjd and s.fiberid=m.sdss_fiberid"
+2019-07-22 08:28:00,2

@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.ra, p.dec INTO mydb.temp FROM mydb.wiyn_targetids as t, dbo.PhotoObjAll as p where p.objID = t.objID #SELECT p.objID #INTO temp2 #where SQRT (POWER (( (p.ra-ra) *cos ((dec) * (#/#) )) , #) + (POWER ((p.dec-dec) , #) )) *# < #/#"
+2019-04-12 16:41:00,1

@@ -1,0 +1,3 @@
+2,"select specObj.ra, specObj.dec, zoom from specObj JOIN Frame as fr on fr.ra = specObj.ra where specObj.ra BETWEEN # and # AND specObj.dec BETWEEN # and #"
+2019-07-02 14:50:00,1
+2019-07-02 14:51:00,1

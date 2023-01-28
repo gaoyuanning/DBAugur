@@ -1,0 +1,3 @@
+2,"SELECT into DR1#.A3#_Shinta_#_# s.objID, s.SourceType, s.ra, s.dec, s.z, s.zErr, z.z, z.zErr, s.petroMag_u, s.petroMag_g, s.petroMag_r, s.petroMag_i, s.petroMag_z, s.extinction_u, s.extinction_g, s.extinction_r, s.extinction_i, s.extinction_z FROM SpecPhotoAll s, Photoz z WHERE s.objID = z.objID AND (SourceType = #) AND s.ra BETWEEN # AND # AND s.dec BETWEEN # AND #"
+2019-04-14 10:30:00,1
+2019-04-14 10:31:00,1

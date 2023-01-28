@@ -1,0 +1,2 @@
+1,"select top #   p.petroMag_r,   p.petroMag_u,   s.ra,   s.dec,   p.lnLExp_r,   p.lnLDeV_r,   p.expAB_r,   p.expPhi_r,   p.deVAB_r,   p.deVPhi_r,   p.fracDeV_r,   s.SpecClass,   s.z,   s.zErr,   s.bptclass into mydb.exp_model from PhotoObj p, SpecObj s where   s.class = &&& AND   s.z < # AND   p.lnLExp_r > lnLDeV_r"
+2019-05-08 16:03:00,1

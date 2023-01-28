@@ -1,0 +1,2 @@
+1,"select column_name ,   e.*   from metadata.COLUMNS c      left outer join metadata.encodeinfo e        on e.encoding_id=c.encoding_id  where c.table_name=&&& and c.encoding_id is not null order by column_name,value"
+2019-07-16 10:41:00,1

@@ -1,0 +1,2 @@
+1,"SELECT top # specobjid, z from specobj WHERE class = # AND zWarning = # AND z BETWEEN # and # order by newid () UNION SELECT top # specobjid, z from specobj WHERE class = # AND zWarning = # AND z BETWEEN # and # order by newid ()"
+2019-03-27 10:20:00,1

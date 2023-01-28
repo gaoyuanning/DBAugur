@@ -1,0 +1,2 @@
+1,"select z, specobjid, ra from SpecObj s where specClass=# AND zconf>.# ordered by ra"
+2019-06-14 17:59:00,1

@@ -1,0 +1,2 @@
+1,"select s.specobjid,s.ra, s.dec, s.modelMag_u, s.modelMag_g, s.modelMag_i, s.modelMag_r, s.modelMag_z, s.z as redshift,s.class from specphotoall s where s.z># and s.class=&&&"
+2019-06-29 12:48:00,1

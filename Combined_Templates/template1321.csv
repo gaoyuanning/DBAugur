@@ -1,0 +1,4 @@
+3,"SELECT plate, mjd, fiberID into zzz from SpecObjAll"
+2019-01-07 14:43:00,1
+2019-01-07 14:44:00,1
+2019-01-07 14:45:00,1

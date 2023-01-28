@@ -1,0 +1,2 @@
+1,"select ra,dec,u,g,r,i,z from star where r < # and   # < ra and ra < # and  # < dec and dec < # and   clean = #"
+2019-03-09 05:16:00,1

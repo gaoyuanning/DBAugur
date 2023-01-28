@@ -1,0 +1,2 @@
+2,SELECT COUNT Galaxy.psffwhm_r into mydb.SDSSdefLRGs_count from Galaxy JOIN wiseForcedTarget ON Galaxy.objID = wiseForcedTarget.objID
+2019-09-17 14:42:00,2

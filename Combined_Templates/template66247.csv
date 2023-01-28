@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, bestObjID as ObjID, plate, mjd, fiberID from SpecObj where z< # and class = # and bestObjID! =#"
+2019-09-27 07:44:00,1

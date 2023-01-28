@@ -1,0 +1,2 @@
+1,"SELECT survey, CAST (snMedian AS INT) % # AS bin, count (*) as count FROM specObjAll GROUP BY survey, CAST (snMedian AS INT) % #"
+2019-03-20 17:51:00,1

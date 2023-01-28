@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID, z, primTarget FROM SpecObj WHERE primTarget = QSO_HIZ"
+2019-06-05 13:35:00,1

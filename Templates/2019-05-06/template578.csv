@@ -1,0 +1,3 @@
+2,"select ROUND(x,#) as X, COUNT(*) as N from Data group by ROUND(x,#) order by #"
+2019-05-06 01:33:00,1
+2019-05-06 01:34:00,1

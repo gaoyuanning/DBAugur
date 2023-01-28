@@ -1,0 +1,2 @@
+1,"SELECT TOP #  z,zErr,ra,dec,type,dered_u,dered_g,dered_r,dered_i,dered_z FROM SpecPhotoAll WHERE   z BETWEEN # AND # AND  ra BETWEEN # AND # AND"
+2019-01-05 16:44:00,1

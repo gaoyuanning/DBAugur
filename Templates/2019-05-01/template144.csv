@@ -1,0 +1,4 @@
+4,"SELECT BulkColumn                  FROM Openrowset( Bulk &&&, Single_Blob) as img"
+2019-05-01 16:35:00,1
+2019-05-01 16:37:00,1
+2019-05-01 16:40:00,2

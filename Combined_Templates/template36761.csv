@@ -1,0 +1,9 @@
+8,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.run, p.rerun, p.camcol, p.field, p.mCr4_u, p.mCr4_g, p.mCr4_r, p.mCr4_i, p.mCr4_z, p.mCr4PSF_u, p.mCr4PSF_g, p.mCr4PSF_r, p.mCr4PSF_i, p.mCr4PSF_z, p.petroR5#_u, p.petroR5#_g, p.petroR5#_r, p.petroR5#_i, p.petroR5#_z, p.petroR9#_u, p.petroR9#_g, p.petroR9#_r, p.petroR9#_i, p.petroR9#_z, p.type, s.specobjid, s.class, s.subClass, s.z as redshift, s.plate, s.mjd, s.fiberid, s.sourceType, z.nvote, z.p_el, z.p_cw, z.p_acw, z.p_edge, z.p_dk, z.p_mg FROM PhotoObjAll AS p JOIN SpecObjAll AS s ON s.bestObjID = p.objID JOIN zooNoSpec as z on p.objID = z.objID"
+2019-05-04 13:26:00,1
+2019-05-04 13:30:00,1
+2019-05-04 13:31:00,1
+2019-05-04 13:35:00,1
+2019-05-04 13:38:00,1
+2019-05-04 17:36:00,1
+2019-05-04 17:37:00,1
+2019-05-16 15:46:00,1

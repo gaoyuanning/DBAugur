@@ -1,0 +1,2 @@
+1,"SELECT TOP # g.Objid, g.dec, zns.p_el as elliptical, zns.p_cw as spiralclock, zns.p_acw as sprialanticlock, zns.p_edge as edgeon FROM Galaxy as g JOIN ZooNoSpec as zns ON g.Objid = zns.objid;"
+2019-02-06 03:09:00,1

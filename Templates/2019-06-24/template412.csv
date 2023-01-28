@@ -1,0 +1,4 @@
+3,"select objid,p_el,p_cw,p_acw,p_edge,p_dk,p_mg,p_cs from zooSpec where p_el < # and objid>#"
+2019-06-24 04:10:00,1
+2019-06-24 09:06:00,1
+2019-06-24 12:42:00,1

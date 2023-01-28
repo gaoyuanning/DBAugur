@@ -1,0 +1,2 @@
+2,"SELECT t.thingid, t.ndetect, d.objid, r.Sdssdr9SourceId, p.dec, r.GaiaDEC_#, p.ra, r.GaiaRA_#, r.feh, r.efeh, r.GaiaSourceId, r.per, r.GaiaParallax, r.GaiaParallaxError into mydb.RRcAllThingIds    FROM thingIndex AS t JOIN detectionindex AS d ON t.thingid = d.thingid JOIN PhotoObjAll p ON d.objid=p.objid WHERE d.objid=# order by t.ndetect"
+2019-07-01 16:32:00,2

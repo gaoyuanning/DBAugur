@@ -1,0 +1,3 @@
+2,"SELECT count(*) as &&&, FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   p.g BETWEEN # AND #  AND r BETWEEN # AND #  AND i BETWEEN # AND #  AND g-r BETWEEN # AND #  AND r-i BETWEEN # AND #  AND s.z BETWEEN # AND #  AND s.class = &&&  AND programname = &&&"
+2019-02-01 13:10:00,1
+2019-02-01 13:13:00,1

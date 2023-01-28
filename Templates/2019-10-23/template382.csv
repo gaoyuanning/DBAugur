@@ -1,0 +1,3 @@
+2,"SELECT 	TwoMassXSC.objID, TwoMassXSC.tmassxsc_ra, TwoMassXSC.tmassxsc_dec, TwoMassXSC.J_M_K2#FE, TwoMassXSC.J_MSIG_K2#FE, TwoMassXSC.J_FLG_K2#FE, TwoMassXSC.J_BA, TwoMassXSC.J_PHI, TwoMassXSC.K_M_K2#FE, TwoMassXSC.K_MSIG_#FE, TwoMassXSC.K_FLG_K2#FE, TwoMassXSC.K_BA, TwoMassXSC.K_PHI  into mydb.MyTable_# from TwoMassXSC, PhotoObj where   TwoMassXSC.objID = PhotoObj.objID AND   PhotoObj.type = &&&"
+2019-10-23 07:03:00,1
+2019-10-23 07:04:00,1

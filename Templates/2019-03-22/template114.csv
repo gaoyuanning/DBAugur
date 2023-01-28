@@ -1,0 +1,2 @@
+1,"select (modelMag_u-modelMag_g), (ModelMag_g - modelMag_r) from StarTag where modelMag_g BETWEEN # and #  and ra BETWEEN # and # and dec BETWEEN # and #"
+2019-03-22 20:29:00,1

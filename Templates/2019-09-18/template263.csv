@@ -1,0 +1,2 @@
+2,"SELECT q.*, p.extinction_u as Au, p.extinction_g as Ag,     p.extinction_r as Ar, p.extinction_i as Ai, p.extinction_z as Az   From MyDB.dr1#qCoord as q, photoobjall as p   INTO MyDB.dr1#qExtinct   ORDER BY q.qsoIdx"
+2019-09-18 18:04:00,2

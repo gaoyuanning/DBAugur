@@ -1,0 +1,2 @@
+1,"SELECT TOP # S.BestObjID, S.u, S.g, S.ra, S.dec, S.z, G.ObjID, G.ra, G.dec, P.z, G.u, G.g, G.r, G.i, G.z, N.distance into mydb.test2 from Galaxy as G, Neighbors as N, SpecObj as S, Photoz as P WHERE S.z > # and S.z < # and u < # and g < # and G.g> # and G.ObjID = P.ObjID and P.z BETWEEN # and # and photoErrorClass = # and S.z> P.z and S.class IN () and G.ObjID = N.ObjID and S.BestObjID = N.NeighborObjID and N.distance < #/#"
+2019-02-25 07:23:00,1

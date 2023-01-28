@@ -1,0 +1,5 @@
+4,"SELECT EID,[Number_of_symbol_digit_matches_made_correctly_#],[Number_of_symbol_digit_matches_attempted_#],[Values_wanted_#],[Values_entered_#],[Duration_to_entering_value_#],[Symbol_digit_completion_status_#],[When_symbol_digit_substitution_test_completed_#] FROM [r2#]Symbol_digit_substitution_# GO"
+2019-04-15 14:29:00,1
+2019-04-15 14:32:00,1
+2019-04-15 14:34:00,1
+2019-04-15 14:35:00,1

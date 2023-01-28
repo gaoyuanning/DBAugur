@@ -1,0 +1,3 @@
+5,"select ra,dec from specObj where ra=# AND dec=#"
+2019-10-24 08:49:00,1
+2019-10-24 08:50:00,4

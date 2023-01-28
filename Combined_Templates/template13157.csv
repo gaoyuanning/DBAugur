@@ -1,0 +1,2 @@
+1,"SELECT a.NYU_num, a.sdss_spectro_position, c.objID as dr7ObjId, c.plate, c.fiberID, c.mjd, c.specObjID, d.specObjID as dr8specObjId, d.z as dr8z, d.objID as dr8ObjId FROM MyDB.VAGC_spectro_position a, MyDB.VAGC_spectro_PFM b, SpecPhotoAll c, SpecDR7 d WHERE a.sdss_spectro_position = b.SDSS_SPECTRO_POSITION and c.plate = b.PLATE and c.fiberID = b.FIBER and c.mjd = b.MJD and d.dr7ObjID = c.objID INTO VAGC_DR8_photo"
+2019-02-21 13:28:00,1

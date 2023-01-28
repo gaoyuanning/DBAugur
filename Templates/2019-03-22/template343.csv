@@ -1,0 +1,2 @@
+2,"SELECT    m.ra, m.dec, m.plate, m.mjd, m.fiber, m.zspec, m.u, m.g, m.r, m.i, m.z, s.type from mydb.DR1#Q_pmf m, SpecPhotoAll s into mydb.DR1#Q_full   WHERE s.plate = m.plate AND s.mjd = m.mjd AND s.fiberID = m.fiber"
+2019-03-22 17:25:00,2

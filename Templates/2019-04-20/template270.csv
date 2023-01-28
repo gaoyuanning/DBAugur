@@ -1,0 +1,3 @@
+2,"select TrackId, Name, Bytes, Milliseconds from chinook.Track"
+2019-04-20 16:02:00,1
+2019-04-20 17:03:00,1

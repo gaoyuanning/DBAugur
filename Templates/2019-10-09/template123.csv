@@ -1,0 +1,2 @@
+1,"SELECT TOP # G.objID, GN.distance,G.u,G.g,G.r,G.i,G.z,a.*  FROM Galaxy as G  JOIN dbo.fGetNearbyObjEq(#.,#, #) AS GN  ON G.objID = GN.objID  join GalSpecLine as a on G.SpecobjID = a.SpecObjID  join stellarMassPCAWiscBC0# AS pca  ON G.specobjid = pca.specobjid join emissionLinesPort as emline  on pca.specobjid = emline.specobjid JOIN specObj as sp  ON emline.specobjid = sp.specobjid"
+2019-10-09 18:19:00,1

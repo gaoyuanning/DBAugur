@@ -1,0 +1,5 @@
+4,"select cModelAbsMag_r, logMass from stellarMassFSPSGranWideDust where z < # AND logMass > #"
+2019-11-11 15:57:00,1
+2019-11-11 15:58:00,1
+2019-11-11 16:38:00,1
+2019-11-11 16:39:00,1

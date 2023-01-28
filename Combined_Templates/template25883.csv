@@ -1,0 +1,4 @@
+5,"select bytes, milliseconds, m.mediatypeid , m.name from chinook.track t join chinook.mediatype m on m.mediatypeid = t.mediatypeid"
+2019-03-30 11:47:00,2
+2019-03-30 11:48:00,2
+2019-03-30 11:49:00,1

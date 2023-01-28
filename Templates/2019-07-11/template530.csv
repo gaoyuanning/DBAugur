@@ -1,0 +1,2 @@
+2,"select p.objid, p.l, p.b, p.u, p.g, p.r, p.i, p.z,p.class from star p where   p.b BETWEEN # AND #  AND p.l BETWEEN # AND #"
+2019-07-11 02:49:00,2

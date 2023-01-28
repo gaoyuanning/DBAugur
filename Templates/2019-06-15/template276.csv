@@ -1,0 +1,2 @@
+1,"select top # specObjID, z, class, subClass    from SpecObjAll    where class =&&&   AND subClass is null"
+2019-06-15 03:52:00,1

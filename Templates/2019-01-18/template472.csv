@@ -1,0 +1,2 @@
+1,"SELECT TOP # count(s.plate), count(s.fiberid), count(s.mjd), count(s.ra), count(s.dec), count(s.z), count(s.zwarning), count(g.h_beta_flux), count(g.h_beta_flux_err),count(g.oiii_#_flux),count(g.oiii_#_flux_err),count(g.nii_#_flux),count(g.nii_#_flux_err),count(g.h_alpha_flux), count(g.h_alpha_flux_err),  FROM GalSpecLine AS g JOIN SpecObj AS s ON s.specobjid = g.specobjid WHERE s.class = &&& AND s.zwarning = #"
+2019-01-18 09:08:00,1

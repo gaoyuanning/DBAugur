@@ -1,0 +1,2 @@
+1,"select ROUND (x, #) as x, cts = count (ID) from Data where x > # and x + y between # and # group by round (x, #) order by #"
+2019-11-18 12:38:00,1

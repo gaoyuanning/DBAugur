@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.ra, p.dec, p.u, p.g, p.r, p.i, p.z FROM  photoObj as p WHERE   p.u-p.g > # AND p.g - p.r < #"
+2019-03-20 07:16:00,1

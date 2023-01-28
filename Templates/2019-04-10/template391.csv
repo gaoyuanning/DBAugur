@@ -1,0 +1,2 @@
+1,"SELECT    zoo.objid,zoo.ra,zoo.dec,spec.z,spec.zErr,photo.mE1_r,photo.mE2_r into mydb.gz_cw0#_orientation   FROM     dbo.zooVotes zoo     JOIN dbo.SpecPhotoAll spec ON spec.objid=zoo.objid     JOIN dbo.PhotoObjAll photo On photo.objid=zoo.objid   WHERE   zoo.p_cw >#"
+2019-04-10 12:35:00,1

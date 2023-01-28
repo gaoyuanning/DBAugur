@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, ra, dec, psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z, dbo.fPhotoFlagsN (flags) FROM Galaxy WHERE (flags & (dbo.fPhotoFlags (#) )) ! = # and cOnVeRt (int, (char (#) +char (#) +char (#) + (char (#) +char (#) +char (#) +char (#) +char (#) +char (#) +char (#) +char (#) +char (#) +char (#) +char (#) +char (#) +char (#) +char (#) +char (#) +char (#) +char (#) +char (#) +char (#) +char (#) +char (#) +char (#) )+char (#) +char (#) +char (#) ) COLLATE SQL_Latin1_General_Cp1#_CS_AS) and # = #"
+2019-01-05 23:50:00,1

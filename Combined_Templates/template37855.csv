@@ -1,0 +1,2 @@
+1,"SELECT a.ra, a.dec, a.cModelAbsMag_u, a.cModelAbsMag_g, a.cModelAbsMag_r, a.cModelAbsMag_i, a.cModelAbsMag_z, a.ke_u, a.ke_g, a.ke_r, a.ke_i, a.ke_z into mydb.MyTable from stellarMassFSPSGranWideDust as a"
+2019-05-08 17:34:00,1

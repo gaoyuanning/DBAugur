@@ -1,0 +1,2 @@
+1,"SELECT specObjID, ra, dec, z into mydb.MyTable_# from SpecObjAll  WHERE (ra between +# and +#) and (dec between # and +#) AND zWarning = #"
+2019-06-06 19:46:00,1

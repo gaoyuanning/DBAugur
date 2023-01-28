@@ -1,0 +1,2 @@
+2,"SELECT TOP # FROM SpecObj WHERE # >= CAST(CHECKSUM(NEWID(), z) & # AS float) / CAST (# AS int)"
+2019-03-22 12:06:00,2

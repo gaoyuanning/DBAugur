@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.run, p.rerun, p.camcol, p.field, p.petroMag_u, p.extinction_u, p.petroMag_g, p.extinction_g, p.petroMag_r, p.extinction_r, p.petroMag_i, p.extinction_i, p.petroMag_z, p.extinction_z, s.specobjid, s.z, s.velDisp, s.velDispErr, s.plate, s.mjd, s.fiberid INTO mydb.AGNControl_KidsNorth FROM PhotoPrimary AS p JOIN SpecObjAll AS s ON s.bestobjid = p.objid WHERE (p.ra> #. and p.ra< #.) and (p.dec< #. and p.dec> #.) and p.mode = # and s.sciencePrimary = # and s.class = # and p.petroMag_r-p.extinction_r< =#."
+2019-05-13 12:34:00,1

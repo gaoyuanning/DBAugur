@@ -1,0 +1,2 @@
+1,"select ra, dec, petromag_r, petroRad_g, petroRad_r, petroRad_i from Galaxy where petromag_r< #."
+2019-07-13 03:59:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.class, s.z as redshift , ra, dec FROM SpecObjAll AS s  where z < # and z.class = &&&"
+2019-02-28 01:35:00,1

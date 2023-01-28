@@ -1,0 +1,2 @@
+1,"SELECT s.subClass, count(*) into mydb.MyTable_# from PhotoObjAll as p, SpecObjAll as s WHERE p.objID=s.specObjID and p.sky_g<#   and p.sky_r <# and p.sky_g - p-sky_r<#   and s.class = &&& GROUP BY s.subClass;"
+2019-09-05 00:31:00,1

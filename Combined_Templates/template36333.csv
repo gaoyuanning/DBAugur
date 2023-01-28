@@ -1,0 +1,7 @@
+9,"SELECT TOP # s.plate, s.mjd, s.fiberid FROM ..SpecObj as s JOIN PhotoObj AS p ON s.bestobjid = p.objid WHERE s.zWarning = # AND (p.psfMag_u - p.psfMag_g) > # AND (p.psfMag_g - p.psfMag_r) > # AND (p.psfMag_r - p.psfMag_i) > # AND (p.psfMag_i - p.psfMag_z) > # AND (p.psfMag_u - p.psfMag_g) < # AND (p.psfMag_g - p.psfMag_r) < # AND (p.psfMag_r - p.psfMag_i) < # AND (p.psfMag_i - p.psfMag_z) < #"
+2019-05-02 16:05:00,2
+2019-05-02 16:06:00,2
+2019-05-02 16:07:00,2
+2019-05-02 16:10:00,1
+2019-05-02 16:11:00,1
+2019-05-02 16:13:00,1

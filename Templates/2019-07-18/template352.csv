@@ -1,0 +1,2 @@
+1,"select    number, min(dist_x) as dist_x into mydb.MyTable from MyDB.NonMasers group by number order by number"
+2019-07-18 12:08:00,1

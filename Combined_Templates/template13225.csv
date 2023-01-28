@@ -1,0 +1,2 @@
+1,"select count (*) , stim_timestamps.timestamp from public.ncarey.session_eeg e, public.ncarey.stim_timestamps t where e.session_ID = # and t.session_ID = # and t.timestamp < stim_timestamps.timestamp group by stim_timestamps.timestamp) select i.index_value, t.stim_ID from stim_timestamps_index as i, public.ncarey.stim_timestamps as t where t.session_ID = # and t.timestamp = i.timestamp order by i.index_value"
+2019-02-21 11:56:00,1

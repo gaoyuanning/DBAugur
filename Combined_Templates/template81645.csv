@@ -1,0 +1,2 @@
+1,"SELECT top # #'#'# as objID, f.mjd_u, p.ra, p.dec, p.psfmag_u, psfmag_g, p.psfmag_r, p.psfmag_i, p.psfmag_z FROM fGetNearbyObjEq (#, #, #) n, PhotoObjAll p, Field f WHERE n.objID = p.objID and f.fieldID = p.fieldID"
+2019-12-09 05:39:00,1

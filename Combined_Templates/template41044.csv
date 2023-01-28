@@ -1,0 +1,2 @@
+1,"select top # p.fieldId, count (p.objId) into mydb.galaxy_sort8 from Galaxy as p where p.dec > = # AND p.dec < # group by fieldId having count (p.objId) > # --SELECT COUNT (CustomerID) , Country --FROM Customers --GROUP BY Country --HAVING COUNT (CustomerID) > #;"
+2019-05-22 12:56:00,1

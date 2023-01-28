@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec, s.secTarget FROM ..SpecObj as s JOIN dbo.fGetNearbyObjEq (#, #, #) AS N on N.specobjID = s.specobjID WHERE (s.secTarget&#) > #"
+2019-09-01 15:30:00,1

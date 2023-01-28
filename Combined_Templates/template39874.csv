@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.ra, p.dec, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, p.psfMagErr_u, p.psfMagErr_g, p.psfMagErr_r, p.psfMagErr_i, p.psfMagErr_z, # as filter FROM #x x, #upload u, BESTDR4..PhotoObj as p WHERE (p.type = # OR p.type = #) AND u.up_id = x.up_id AND x.objID = p.objID ORDER BY x.up_id"
+2019-05-16 14:45:00,1

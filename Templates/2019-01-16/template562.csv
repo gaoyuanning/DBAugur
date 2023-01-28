@@ -1,0 +1,2 @@
+1,"select top # ra, dec from Galaxy UNION   select ra,dec from zoo2MainPhotoz"
+2019-01-16 01:46:00,1

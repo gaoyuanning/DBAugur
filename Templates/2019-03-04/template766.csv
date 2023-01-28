@@ -1,0 +1,2 @@
+1,"SELECT   count(xm.wise_cntr) as wise_xmatch_count,count(xm.sdss_objid) as sdss_xmatch_count, avg(w.w1mpro) as w1_mean into mydb.MyTable_# from wise_xmatch as xm     left join photoObjAll as p on xm.sdss_objid = p.objid   left join wise_allsky as w on xm.wise_cntr = w.cntr   where isnumeric(w.w1sigmpro)"
+2019-03-04 09:42:00,1

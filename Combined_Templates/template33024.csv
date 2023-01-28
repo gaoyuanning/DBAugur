@@ -1,0 +1,2 @@
+1,"SELECT TOP # bestObjID, ra, dec, class, survey from SpecObj --where survey = #"
+2019-04-22 04:09:00,1

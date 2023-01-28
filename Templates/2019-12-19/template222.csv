@@ -1,0 +1,2 @@
+1,"SELECT TOP # sp.objID, sp.ra, sp.dec, sp.mjd, px.u, px.g, px.r, px.i, px.z, px.taiEnd, sp.fiberID, sp.z into mydb.MyTable_# from specPhoto AS sp JOIN PhotoPrimary AS px ON sp.objID = px.objID WHERE (sp.class=&&&)"
+2019-12-19 13:35:00,1

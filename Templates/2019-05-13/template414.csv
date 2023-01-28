@@ -1,0 +1,2 @@
+1,"SELECT a.specobjID,b.ObjID,c.wise_cntr,d.cntr,p.objID into mydb.MyTable from stellarMassFSPSGranWideDust as a LEFT JOIN SpecPhotoAll as b on a.specObjID=b.specObjID LEFT JOIN WISE_xmatch as c on b.ObjID=c.sdss_objid LEFT JOIN WISE_allsky as d on c.wise_cntr=d.cntr LEFT JOIN PhotoObjAll as p on b.objID=p.objID   ORDER BY b.objID ASC"
+2019-05-13 08:43:00,1

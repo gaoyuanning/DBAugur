@@ -1,0 +1,3 @@
+2,"SELECT top # specobjid, ra, dec, z, zerr, class, subclass, dbo.fDistanceArcMinEq(#,#,ra,dec) as distance FROM specobj WHERE zwarning = # and z > # and class = QSO&&&"
+2019-11-25 02:21:00,1
+2019-11-25 02:23:00,1

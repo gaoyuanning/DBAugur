@@ -1,0 +1,2 @@
+2,"SELECT E.StudentID AS StudentID, E.GradeLevel AS EnrollmentGrade, E.SchoolYear4Digit AS SchoolYear4Digit,      T.TestPeriod AS Period, T.TestSubjectGroup AS AssessmentSubject, &&& AS MetricSource, T.TestType AS MetricName,      CONVERT(int, T.TestScore) AS Score, # AS IsMostRecent       FROM Enrollment AS E INNER JOIN TestScores as T     ON E.StudentID = T.StudentID     WHERE E.EnrollmentStatus = &&&        AND E.IsActiveEnrollment = TRUE;"
+2019-04-17 14:34:00,2

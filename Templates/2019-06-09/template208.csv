@@ -1,0 +1,2 @@
+1,select * from public.ncarey.framePathProcessingModel0#OldData where processed = # and Id < #
+2019-06-09 12:52:00,1

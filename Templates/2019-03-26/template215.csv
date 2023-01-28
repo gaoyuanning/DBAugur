@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.specObjID,   s.ra,   s.dec,   s.mjd,   p.taiBegin,   p.taiEnd,   s.fiberID,   s.z   FROM SpecObjAll AS s   JOIN PlateX AS p   ON s.plateID = p.plateID   WHERE   (s.class=&&&)   AND s.z > #"
+2019-03-26 21:09:00,1

@@ -1,0 +1,2 @@
+2,"SELECT ra, dec, z, zErr, velDisp, velDispErr FROM SpecObj into MyDB.ASTR3#_Project_VelDisp WHERE ra BETWEEN # AND # AND dec BETWEEN # AND # AND class = GALAXY AND subclas = # and zWarning = #"
+2019-10-27 13:45:00,2

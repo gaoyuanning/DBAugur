@@ -1,0 +1,2 @@
+1,"select top # q.train_id, b.objid, p.* from mydb.s8#qso as q   cross apply fgetnearbyobjalleq(q.ra, q.dec, #/#) b join photoobjall as p on p.objid = b.objid where p.mode < #   AND ((flags & #) != #)    AND ((flags & #) = #) AND (((flags & #) = #) or (psfmagerr_r <= # and psfmagerr_i<= # and psfmagerr_g<=#))   AND (((flags & #) = #) or (flags & #) = #)"
+2019-08-01 16:25:00,1

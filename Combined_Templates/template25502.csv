@@ -1,0 +1,2 @@
+1,"SELECT TOP # G.objID, G.modelMag_u, G.modelMag_g, G.cx, G.cy, G.cz, p.u, p.g, p.r, p.i, p.z, pz. kcorr_i FROM Galaxy AS G JOIN ZooNoSpec AS zns ON G.objid = zns.objid JOIN SpecObj AS s ON s.bestobjid = zns.objid JOIN PhotoObj AS p ON s.bestobjid = p.objid JOIN Photoz AS pz ON p. objID = pz.objID WHERE (G.Flags & (dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) )) = # and ( (G.modelMag_u - G.modelMag_g) - (G.psfMag_u - G.psfMag_g) ) < #"
+2019-03-29 14:51:00,1

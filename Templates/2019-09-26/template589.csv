@@ -1,0 +1,2 @@
+1,"SELECT   specLineID, lineID, restWave, height, heightErr into mydb.EmTable from SpecLine"
+2019-09-26 05:24:00,1

@@ -1,0 +1,3 @@
+2,"select m.nameFirst, m.nameLast, sum(hr)  from lahman_master m    join lahman_batting b on b.playerID = m.playerID  group by m.nameFirst, m.nameLast  order by sum(hr) desc"
+2019-02-15 14:35:00,1
+2019-02-15 14:49:00,1

@@ -1,0 +1,2 @@
+1,"SELECT ra, dec into mydb.pho_galaxy_#_# from dr1#.Galaxy WHERE ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-03-28 00:01:00,1

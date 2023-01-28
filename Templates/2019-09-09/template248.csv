@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.*, s.z as zspec FROM galaxy as p, specObj as s WHERE p.specObjId = s.specObjId AND ra > # and ra<#"
+2019-09-09 12:54:00,1

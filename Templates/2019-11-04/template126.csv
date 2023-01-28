@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.sky_g  FROM ..PhotoObj AS p  JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = P.objID  WHERE ( p.type = # OR p.type = #)"
+2019-11-04 17:45:00,1

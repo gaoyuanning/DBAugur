@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec into mydb,stars FROM star WHERE dec >= # and clean = #"
+2019-06-06 15:55:00,1

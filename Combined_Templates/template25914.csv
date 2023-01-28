@@ -1,0 +1,2 @@
+1,"select top # a.title, ar.name, sum (t.unitprice) as cost from chinook.Album a inner join chinook.artist ar on ar.artistid = a.artistid inner join chinook.Track t on t.albumid = a.albumid group by a.albumid, ar.artistid order by cost desc"
+2019-03-30 10:45:00,1

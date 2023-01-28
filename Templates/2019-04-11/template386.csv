@@ -1,0 +1,2 @@
+1,"SELECT q.specobjid, q.oiii_#_flux, q.h_beta_flux, q.nii_#_flux, q.h_alpha_flux, q.oi_#_flux, s.z into mydb.Green_Spectra_V4 from GalSpecLine AS q JOIN SpecObj AS s ON s.specobjid = q.specobjid JOIN PhotoObj AS p ON s.bestobjid = p.objid JOIN Galaxy AS g ON s.bestobjid = G.objid WHERE (G.Flags & (dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&)) ) = # and s.class = &&& and s.zwarning = # and p.petroRad_r < # and (p.u - p.r) > =  # - #*(p.g) and (p.u - p.r) < = # + #*(p.g) and s.class = &&& and s.z > # and s.z <=#"
+2019-04-11 11:04:00,1

@@ -1,0 +1,2 @@
+1,"SELECT    p.specObjID,p.ObjID,p.class,p.subClass,p.objType,p.type,p.ra,p.dec,p.z,p.zErr,p.modelMag_u,p.modelMagErr_u,p.modelMag_g,p.modelMagErr_g,p.modelMag_r,p.modelMagErr_r,p.modelMag_i,p.modelMagErr_i,p.modelMag_z,p.modelMagErr_z into mydb.SpecPhotoDR8_All from SpecPhotoAll AS p"
+2019-01-11 09:20:00,1

@@ -1,0 +1,2 @@
+1,"SELECT specObjID, bestObjID, mjd, plate, fiberID, ra, dec, spectroFlux_u, spectroFlux_g, spectroFlux_r,        spectroFlux_i, spectroFlux_z, spectroSynFlux_u, spectroSynFlux_g, spectroSynFlux_r, spectroSynFlux_i,        spectroSynFlux_z, spectroSkyFlux_u, spectroSkyFlux_g, spectroSkyFlux_r, spectroSkyFlux_i, spectroSkyFlux_z into mydb.ALL_DR1# from SpecObjAll"
+2019-08-23 07:46:00,1

@@ -1,0 +1,2 @@
+2,"select m.SDSS_dr8objid, m.ra, m.dec into mydb.kruk_dr8objid_radec from PhotoObjAll i, mydb.kruk_dr8objid m where m.SDSS_dr8objid = i.objid;"
+2019-09-11 02:30:00,2

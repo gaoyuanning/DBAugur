@@ -1,0 +1,2 @@
+1,"SELECT top # 	    dr7objid,dr8objid,ra,dec,type,distance into mydb.MyTable_# from PhotoObjDR7	 WHERE type = # and distance = #"
+2019-09-12 11:54:00,1

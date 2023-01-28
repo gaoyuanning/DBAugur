@@ -1,0 +1,3 @@
+3,"SELECT Z.objID, Z.z, Z.zErr, G.ra, G.dec, G.petromag_u, G.petromag_g, G.petromag_r, G.petromag_i, G.petromag_z, G.petromagerr_u, G.petromagerr_g, G.petromagerr_r, G.petromagerr_i, G.petromagerr_z, G.extinction_u, G.extinction_g, G.extinction_r, G.extinction_i, G.extinction_z into mydb.photoz from DR7.Photoz as Z, DR7.PhotoObjAll as G WHERE Z.objID = G.Objid and G.type = # and Z.z < #"
+2019-01-25 03:39:00,2
+2019-01-25 03:40:00,1

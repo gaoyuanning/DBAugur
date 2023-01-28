@@ -1,0 +1,2 @@
+1,"select alpha.phoobjid, alpha.name, g.objid, g.fracDeV_r, g.expAB_r, g.deVAB_r, g.isoA_r, g.isoB_r, g.petroMag_r, g.petroMag_g into mydb.alpha4#_sdss_match7 from mydb.alpha4#_sdss as alpha left join dr7.photoobjall as g on alpha.phoobjid = g.objid"
+2019-01-28 05:22:00,1

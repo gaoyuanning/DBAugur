@@ -1,0 +1,3 @@
+2,"SELECT m.ra, m.dec, o.psfmag_g, o.psfmag_r, o.psfmag_i, o.psfmagerr_g, o.psfmagerr_r, o.psfmagerr_i into mydb.DLA_phot from MyDB.DLA_coords AS m OUTER APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n JOIN PhotoObjAll AS o ON n.objid = o.objid"
+2019-09-17 14:28:00,1
+2019-09-17 14:29:00,1

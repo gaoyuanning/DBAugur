@@ -1,0 +1,13 @@
+808,"SELECT DISTINCT p.ra, p.dec, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, s.Z, s.class FROM PhotoObjAll AS p JOIN SpecObjAll s ON p.objID = s.bestObjID WHERE ((p.ra between # and #) and (p.dec between # and #))"
+2019-02-28 17:50:00,54
+2019-02-28 17:51:00,183
+2019-02-28 17:52:00,160
+2019-02-28 17:59:00,72
+2019-02-28 18:00:00,28
+2019-02-28 18:07:00,1
+2019-02-28 18:13:00,57
+2019-02-28 18:14:00,87
+2019-02-28 18:15:00,13
+2019-02-28 18:19:00,50
+2019-02-28 18:20:00,35
+2019-02-28 18:21:00,68

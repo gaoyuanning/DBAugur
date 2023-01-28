@@ -1,0 +1,2 @@
+1,"select BlockLot, Neighborhood.rstrip () , Lat = GeogCenter.Lat, Long = GeogCenter.Long, Str = GeogCenter.ToString () , IsVacant, IsDemolished, IsMCC from RealPropertiesExtra"
+2019-06-10 18:49:00,1

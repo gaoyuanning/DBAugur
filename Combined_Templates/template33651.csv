@@ -1,0 +1,2 @@
+1,"SELECT top # Q.BestObjID as Quasar_candidate_ID , G.ObjID as Galaxy_ID, N.distance FROM SpecObj as Q JOIN Neighbors as N ON Q.BestObjID = N.ObjID JOIN Galaxy as G ON G.ObjID = N.NeighborObjID JOIN SpecClass as SC ON Q.SpecClass = SC.value JOIN SpecLine as L ON Q.SpecObjID = L.SpecObjID JOIN SpecLineNames as LN ON L.LineID = LN.value WHERE SC.name IN () and LN.Name ! = # and L.ew < # and N.distance < #/#"
+2019-04-24 06:36:00,1

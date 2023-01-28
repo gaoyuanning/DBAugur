@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.ra,p.dec,s.z as redshift,  ln1.ew, ln2.ew  FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid  JOIN SpecLine as L1 ON s.bestobjid = L1.SpecObjID   JOIN SpecLine as L2 ON s.bestobjid = L1.SpecObjID  JOIN specLineNames as LN1   JOIN specLineNames as LN2  WHERE   p.ra BETWEEN # AND #  AND p.dec BETWEEN # AND #  AND L1.LineId = LN1. value  AND LN1.name = &&&  AND L2.LineId = LN2.value  AND LN2.name = &&&"
+2019-05-10 04:36:00,1

@@ -1,0 +1,2 @@
+1,"SELECT s.class, s.subclass, s.z as redshift, s.zerr as redshift_error, s.zwarning as redshift_warning FROM SpecObj AS s WHERE s.zwarning = # AND (s.class = # OR s.class = # OR s.class = #)"
+2019-11-05 07:37:00,1

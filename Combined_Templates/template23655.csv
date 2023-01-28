@@ -1,0 +1,2 @@
+1,"SELECT objID, dered_u, dered_g, dered_r, dered_i, err_u, err_g, err_r, err_i, deVRad_r, deVRadErr_r, expRad_r, expRadErr_r FROM photObjAll WHERE objID IN ()"
+2019-03-25 15:36:00,1

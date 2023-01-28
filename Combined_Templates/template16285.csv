@@ -1,0 +1,2 @@
+1,"select school, floor (schoolyear/#) as fyear, avg (absent) as absent, avg (enrolled) as enrolled , avg (cast (absent as real) )/avg (cast (enrolled as real) ) as frAbsent from schoolattendance group by school, floor (schoolyear/#) ) , r as (select sl.location as location , a.* from a join schoollocation sl on sl.fiscal_year = a.fyear and sl.ATS_SYSTEM_CODE = a.school and sl.LOCATION_CATEGORY_DESCRIPTION like #) select * from r"
+2019-03-03 17:21:00,1

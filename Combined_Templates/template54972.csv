@@ -1,0 +1,2 @@
+1,"select top # q.ra, q.dec from mydb.s8#qsoMin as q"
+2019-08-01 13:39:00,1

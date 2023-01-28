@@ -1,0 +1,2 @@
+1,"select avg(petroMag_u),stdev(petroMag_u),avg(petroMag_g),stdev(petroMag_g),avg(petroMag_r),stdev(petroMag_r),avg(petroMag_i),stdev(petroMag_i),avg(petroMag_z),stdev(petroMag_z),count(petroMag_z) from MyDB.manual_good_cw,specObjAll,galSpecIndx,PhotoObjAll where ID=specObjAll.bestObjID and specObjAll.specObjID=galSpecIndx.specObjID and PhotoObjAll.objid=ID and petroMag_u># and petroMag_g># and petroMag_r># and petroMag_i># and petroMag_z># and lick_cn1<# and lick_cn1<>#"
+2019-11-10 18:20:00,1

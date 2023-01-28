@@ -1,0 +1,2 @@
+1,"select top # max (ra) , dec from SpecObj WHERE objType = #"
+2019-06-28 03:41:00,1

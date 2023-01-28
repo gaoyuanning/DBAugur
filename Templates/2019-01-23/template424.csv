@@ -1,0 +1,2 @@
+1,SELECT COUNT(specObjID) FROM dbo.SpecObjAll WHERE class=GALAXY
+2019-01-23 09:28:00,1

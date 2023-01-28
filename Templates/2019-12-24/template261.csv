@@ -1,0 +1,2 @@
+1,"select ra,dec  from phototag where objID= #  into outfile zj_jupter_test.dat&&&"
+2019-12-24 02:36:00,1

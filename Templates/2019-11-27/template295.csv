@@ -1,0 +1,19 @@
+18,"select v.*             from optw.tamass.VARIABLES v              where concept like &&&                 and binmin > #                  and race is not NULL             ), -- needs query tracts as (     select TractID = ID, vintage, lon=centroid.Long, lat=centroid.Lat, wkt=geom.ToString()         , dist2geom = geom.STDistance(@center)         , dist2cent = centroid.STDistance(@center)         , m2 = geom.STArea()         , deg = geom.EnvelopeAngle()     from optw.tamass.TRACTS      where centroid.STDistance(@center) < # / # * # -- meters --         and geom.STArea() < #e9 -- m^#  ) select t.*, count_var = count(distinct c.VarID), total = sum(c.val), density = sum(c.val) / m2 * # from vars v join optw.tamass.VALS as c on c.VarID = v.ID          join tracts t on t.TractID = c.TractID and t.vintage = v.vintage where v.vintage = # -- need year       and c.VAL is not NULL group by t.TractID, t.vintage, lon, lat, wkt, dist2geom, dist2cent, m2, deg"
+2019-11-27 10:01:00,1
+2019-11-27 10:05:00,1
+2019-11-27 10:06:00,1
+2019-11-27 10:12:00,1
+2019-11-27 10:14:00,1
+2019-11-27 10:23:00,1
+2019-11-27 10:35:00,1
+2019-11-27 10:53:00,1
+2019-11-27 10:57:00,1
+2019-11-27 11:18:00,1
+2019-11-27 11:19:00,1
+2019-11-27 11:21:00,1
+2019-11-27 11:22:00,1
+2019-11-27 11:24:00,1
+2019-11-27 12:00:00,1
+2019-11-27 12:01:00,1
+2019-11-27 12:05:00,1
+2019-11-27 12:08:00,1

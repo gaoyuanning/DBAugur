@@ -1,0 +1,2 @@
+1,"SELECT m.ra2 AS ra1, m.dec2 AS dec1, m.Search_radius/# AS Search_radius, n.objid, n.distance, m.z, o.ra AS ra2, o.dec AS dec2, o.petroMag_i as imag From MyDB.MyTable AS m CROSS APPLY dbo.fGetNearbyObjEq (m.ra2, m.dec2, m.Search_radius/#) AS n JOIN PhotoObj AS o ON n.objid = o.objid JOIN SpecObj s ON o.objID = s.bestobjID WHERE o.type = # and dbo.fCosmoAbsMag (o.petroMag_i, s.z, #, #, #, #, #) < # s.z> # order by m.ra2"
+2019-07-23 14:45:00,1

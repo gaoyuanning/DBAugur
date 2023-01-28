@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra,p.dec,p.b,p.l   FROM PhotoPrimary as p"
+2019-03-04 17:53:00,1

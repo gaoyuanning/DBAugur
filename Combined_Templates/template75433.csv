@@ -1,0 +1,2 @@
+1,"select p.cModelMag_g-p.extinction_g as cModelMag_g, p.cModelMag_r-p.extinction_r as cModelMag_r, p.cModelMag_i-p.extinction_i as cModelMag_i, p.cModelMag_z-p.extinction_z as cModelMag_z into cModelMag from PhotoObjALL as p join SpecObjALL as s on p.specObjID = s.specObjID join galSpecExtra as e on i.specObjID = e.specObjID where s.scienceprimary = #"
+2019-11-12 03:37:00,1

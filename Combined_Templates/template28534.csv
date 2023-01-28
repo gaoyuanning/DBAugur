@@ -1,0 +1,2 @@
+1,"select s.z, s.dec, s.ra into mydb.W3_number_LOWZ from specObj as s where (boss_Target1& (dbo.fBossTarget1 (#) )) > # and s.ra between # and # and s.dec between # and # and s.z_noqso > # and s.zWarning = # and s.class = #"
+2019-04-08 10:30:00,1

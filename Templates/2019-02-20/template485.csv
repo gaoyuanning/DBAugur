@@ -1,0 +1,2 @@
+1,"SELECT top #  p.bestObjID, p.ra, p.dec FROM specObjAll p"
+2019-02-20 05:16:00,1

@@ -1,0 +1,10 @@
+11,"SELECT objID, ra, dec, modelMag_g, modelMagErr_g, modelMag_r, modelMagErr_r, modelMag_i, modelMagErr_i into mydb.MyTable from PhotoObj  WHERE (ra between # and #) and (dec between # and #)"
+2019-06-19 03:25:00,1
+2019-06-19 03:31:00,1
+2019-06-19 03:32:00,1
+2019-06-19 03:42:00,1
+2019-06-19 03:55:00,1
+2019-06-19 04:15:00,1
+2019-06-19 04:16:00,2
+2019-06-19 04:17:00,2
+2019-06-19 04:24:00,1

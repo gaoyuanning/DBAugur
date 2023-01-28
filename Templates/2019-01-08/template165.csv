@@ -1,0 +1,3 @@
+2,"select min(specobjID),max(specobjID) into mydb.MyTabledr1# from photoprimary"
+2019-01-08 16:55:00,1
+2019-01-08 16:56:00,1

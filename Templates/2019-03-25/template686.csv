@@ -1,0 +1,2 @@
+1,"SELECT TOP # SpecObjAll.z, Photoz.absMagU FROM SpecObjAll JOIN Photoz ON SpecObjAll.specObjID = Photoz.objID"
+2019-03-25 15:33:00,1

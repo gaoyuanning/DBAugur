@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.cModelMag_g,p.cModelMag_i,p.cModelMag_r,p.cModelMag_u,p.cModelMag_z,p.cModelMagErr_g,p.cModelMagErr_i,p.cModelMagErr_r,p.cModelMagErr_u,p.cModelMagErr_z  FROM ..PhotoObj AS p  JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = P.objID  WHERE ( p.type = # OR p.type = #)"
+2019-12-06 23:59:00,1

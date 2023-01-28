@@ -1,0 +1,2 @@
+1,select * from optw.tamass.VARIABLES where unit = # and binmin> =# and binmax< # and concept like # and label like # and label not like #
+2019-12-15 18:01:00,1

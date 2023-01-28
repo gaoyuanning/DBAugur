@@ -1,0 +1,2 @@
+2,"select targetObjID, ra, dec, z from specObj where class = # and z> # and zWarning = #"
+2019-02-13 15:50:00,2

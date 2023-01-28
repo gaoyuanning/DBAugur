@@ -1,0 +1,2 @@
+1,"SELECT sp.plate, sp.mjd, sp.fiberid, sp.z as redshift, sp.zErr as redshift_err, sp.z_noqso, sp.zErr_noqso, sp.veldisp as sp_vdisp, sp.veldisperr as sp_vdisp_err FROM SpecObj WHERE (sp.mjd = #)"
+2019-08-13 04:12:00,1

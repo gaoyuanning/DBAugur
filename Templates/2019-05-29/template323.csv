@@ -1,0 +1,2 @@
+1,"SELECT MJD, plate, fiberID, ra, dec, modelMag_g, modelMag_r into mydb.sdss_legacy from SpecPhotoAll WHERE class = &&& AND zWarning = # AND modelMag_g - modelMag_r BETWEEN # and #    AND modelMag_r > # and programname=&&&"
+2019-05-29 15:52:00,1

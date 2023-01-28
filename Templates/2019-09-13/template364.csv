@@ -1,0 +1,2 @@
+1,"SELECT   m.ObjID, m.maskID, m.masktype into mydb.MyTable_# from MaskedObject as m   join Galaxy as g on m.objid = g.objid"
+2019-09-13 07:57:00,1

@@ -1,0 +1,2 @@
+1,"select p.raerrr, p.decerr into mydb.co_err_m from PhotoObjAll p where p.specObjId = # or p.specObjId = #"
+2019-08-13 07:44:00,1

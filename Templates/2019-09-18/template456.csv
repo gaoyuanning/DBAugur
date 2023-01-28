@@ -1,0 +1,2 @@
+1,SELECT  z into mydb.redshift_table from SpecObj
+2019-09-18 08:11:00,1

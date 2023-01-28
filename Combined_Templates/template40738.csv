@@ -1,0 +1,2 @@
+1,"select g.ra, g.dec, g.z, g.u, g.g, g.r, g.i, g.z, N.specobjid, g.specobjid from dbo.fGetNearbySpecObjEq (#, #, #) as N join galaxy as g on g.specobjid = N.specobjid where class = #"
+2019-05-21 13:36:00,1

@@ -1,0 +1,2 @@
+1,"select top # an.ID, Worker = sum (#) from optw.ptheta.Portland1#Assets an join optw.ptheta.Portland1#Drive d on d.DestNodeID = an.NodeID join optw.ptheta.Portland1#Tracts tn on d.OrigNodeID = tn.NodeID where Minutes < # order by an.ID"
+2019-12-15 13:29:00,1

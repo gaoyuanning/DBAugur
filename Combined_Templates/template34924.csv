@@ -1,0 +1,2 @@
+1,"SELECT top # g.clean into MyDB.temp from MyDB.lowz1#_v5_short AS m OUTER APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n LEFT OUTER join dr1#.Galaxy as g On g.objid = n.objid"
+2019-04-26 14:10:00,1

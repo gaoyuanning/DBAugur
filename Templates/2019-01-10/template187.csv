@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec FROM #upload u, SpecObj s     WHERE u.up_plate=s.plate       and u.up_mjd=s.mjd       and u.up_fiber=s.fiberid"
+2019-01-10 16:44:00,1

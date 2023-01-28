@@ -1,0 +1,9 @@
+80,"select p.objID, p.u, p.r, p.petroMag_u, p.petroMag_r, t.K_M_K2#FE, t.K_M_FE, t.K_M_C from Galaxy as p left outer join TwoMassXSC as t on p.objID = t.objID where"
+2019-11-22 23:11:00,2
+2019-11-22 23:14:00,2
+2019-11-22 23:15:00,3
+2019-11-22 23:16:00,24
+2019-11-22 23:17:00,46
+2019-11-22 23:23:00,1
+2019-11-23 03:00:00,1
+2019-12-12 21:43:00,1

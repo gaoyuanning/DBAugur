@@ -1,0 +1,2 @@
+1,"select dbo.fGetNearestObjIdEq (#, #, #/#) as objID -- from star as s -- where (s.run = # or s.run = #)"
+2019-09-06 15:34:00,1

@@ -1,0 +1,4 @@
+3,"select p.absmagU,p.absmagG,p.absmagR from PhotoZ as p where p.objId =#e #"
+2019-04-14 19:15:00,1
+2019-04-14 19:16:00,1
+2019-04-14 19:18:00,1

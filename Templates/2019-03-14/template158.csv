@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID,sky_u,sky_g,sky_r,specObjID FROM Star WHERE (type=# OR type=#) AND clean=# AND specObjID!=#"
+2019-03-14 19:52:00,1

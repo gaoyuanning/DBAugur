@@ -1,0 +1,4 @@
+3,select top # objID from PhotoObj where ra=# and dec = #
+2019-04-12 17:35:00,1
+2019-04-12 17:37:00,1
+2019-04-12 17:39:00,1

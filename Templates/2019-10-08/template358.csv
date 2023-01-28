@@ -1,0 +1,4 @@
+4,"SELECT TOP #  G.objID, G.ra, G.dec, GN.distance, G.Type, G.mode, P.objID, P.ra, P.dec, P.specObjID, P.petroMag_u, P.petroMag_g, P.petroMag_r, P.petroMag_i, P.petroMag_z, P.cModelMag_u, P.cModelMag_g, P.cModelMag_r, P.cModelMag_i, P.cModelMag_z, Pz.objid, Pz.z, Pz.zErr, Pz.photoErrorClass, Pz.absMagU, Pz.absMagG, Pz.absMagR, Pz.absMagI, Pz.absMagZ"
+2019-10-08 12:15:00,1
+2019-10-08 12:16:00,2
+2019-10-08 12:17:00,1

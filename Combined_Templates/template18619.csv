@@ -1,0 +1,5 @@
+4,"SELECT TOP # sp.ra, sp.dec, sp.z, sp.modelMag_u, sp.modelMag_g, sp.modelMag_r, sp.modelMag_i, sp.modelMag_z, PZ.objId, PZ.z, PZ.zErr, P.ra, P.dec, N.distance, P.u, P.g, P.r, P.i, P.z, PZ.synthU, PZ.synthG, PZ.synthR, PZ.synthI, PZ.synthZ, PZ.absMagU, PZ.absMagG, PZ.absMagR, PZ.absMagI, PZ.absMagZ FROM SpecPhoto AS sp, Photoz as PZ, Neighbors as N, PhotoObj AS P WHERE sp.class = # AND sp.zWarning = # and sp.z > # and sp.z < # and sp.modelMag_u< # and PZ.z BETWEEN # and # and PZ.nnCount> # and PZ.zErr BETWEEN # and # and PZ.ObjID = N.ObjID and sp.ObjID = N.NeighborObjID and N.distance < #/# and PZ.ObjID = P.ObjID and P.r> # and P.r< #"
+2019-03-07 03:15:00,1
+2019-03-07 03:20:00,1
+2019-03-07 03:54:00,1
+2019-04-02 09:35:00,1

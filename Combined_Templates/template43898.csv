@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, FROM galaxy as p WHERE p.u BETWEEN # AND # AND g BETWEEN # AND #"
+2019-06-04 09:38:00,1

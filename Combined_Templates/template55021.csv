@@ -1,0 +1,2 @@
+2,"SELECT TOP # p.run, p.rerun, p.camCol, p.field, p.obj, IS# (s.plate, #) as plate, IS# (s.mjd, #) as mjd, IS# (s.fiberid, #) as fiberid, IS# (s.z, #) as redshift, IS# (s.zErr, #) as redshiftErr, IS# (s.zWarning, #) as zWarning, IS# (s.class, #) as class FROM ..PhotoObj AS p LEFT OUTER JOIN ..SpecObj s ON p.objID = s.bestObjID JOIN dbo.fGetObjFromRect (#, #, #, #) AS b ON p.objID = b.objID WHERE (p.type = #)"
+2019-08-01 09:37:00,2

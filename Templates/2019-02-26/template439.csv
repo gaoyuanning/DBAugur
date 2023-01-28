@@ -1,0 +1,2 @@
+28,select fieldid from field where cccol_u between # and # and skyframes_r between # and # and neffpsf_z between .# and # and skyframes_i between # and # and expapcorrectionerr_r between # and # and expapcorrectionerr_z between .# and # and neffpsf_i between # and #
+2019-02-26 11:48:00,28

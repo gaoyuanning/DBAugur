@@ -1,0 +1,2 @@
+2,"SELECT   objID,ra,dec into mydb.Mag1#_#photo FROM PhotoObj WHERE   mode=#   AND type=#   AND petroRad_u># and petroRad_g># and petroRad_r># and petroRad_i># and petroRad_z># and petroRadErr_g>#   AND petroMag_g BETWEEN # and #   AND ((ra BETWEEN # and # AND dec BETWEEN # and #)   OR (ra BETWEEN # and # AND dec BETWEEN # and #)   OR (ra BETWEEN # and # AND dec BETWEEN # and #)   OR (ra BETWEEN # and # AND dec BETWEEN # and #)) ORDER BY objID"
+2019-12-13 04:48:00,2

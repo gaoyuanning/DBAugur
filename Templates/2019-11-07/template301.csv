@@ -1,0 +1,2 @@
+1,"select s.ra,s.dec,s.fiberid,x.plate,x.mjd,s.z from specobj s join platex x on x.plateid=s.plateid where s.class=&&& and s.z between #. and #. and s.zwarning=#"
+2019-11-07 09:32:00,1

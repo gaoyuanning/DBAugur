@@ -1,0 +1,2 @@
+1,"select * from metadata.COLUMNS   order by table_name,ordinal_position"
+2019-07-04 12:40:00,1

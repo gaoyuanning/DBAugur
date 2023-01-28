@@ -1,0 +1,2 @@
+1,"SELECT      z.ra, z.dec into mydb.ETG from zooSpec as z    WHERE         z.elliptical = #"
+2019-08-13 06:39:00,1

@@ -1,0 +1,2 @@
+1,select count(SpecObjID) as count from SpecObjAll where bestObjID=#
+2019-04-29 14:39:00,1

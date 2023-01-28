@@ -1,0 +1,2 @@
+1,"SELECT p.SpecObjID, p.photoRa, p.photoDec, p.z, p.zerr, max(p.sigma*#/p.wave) as veldisp FROM SpecObj AS s JOIN SpecPhotoAll AS p ON s.specObjID=p.SpecObjID WHERE ra BETWEEN # AND # AND dec BETWEEN # AND # AND CLASS=&&& AND (CLEAN=#) AND p.psfmag_r-extinction_r < #"
+2019-10-31 17:10:00,1

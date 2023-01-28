@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  p.run, p.rerun, p.camcol, p.field,  f.z as photoz, f.zErr as photoZerr, GN.distance,  s.specobjid, s.class, s.z as redshift, s.zErr as errredshift, s.plate, s.mjd, s.fiberid  FROM PhotoObj AS p  JOIN dbo.fGetNearbyObjEq({#}.,{#}, {#}) AS GN on p.objid = GN.objid   join Photoz as f ON f.objid = GN.objid   LEFT OUTER JOIN SpecObj AS s ON s.bestobjid = GN.objid"
+2019-10-24 16:16:00,1

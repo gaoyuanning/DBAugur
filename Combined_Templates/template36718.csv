@@ -1,0 +1,2 @@
+1,"select s.objID, s.ra, s.dec, s.psfMag_r, s.fiberMag_r, s.fiber2Mag_r, s.fiberMag_g, s.fiber2Mag_g, s.petroMag_r, s.r, s.g from PhotoObjAll as s OUTER APPLY dbo.fGetNearbyObjEq (#, #, #) as n WHERE s.objID = n.objID AND s.mode = # and s.type = # and s.specObjID = #"
+2019-05-03 05:09:00,1

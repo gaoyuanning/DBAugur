@@ -1,0 +1,3 @@
+2,"SELECT R.objiD, R.ra, R.dec, R.ext, m.* INTO Xmatch FROM Rosat as R, lrgs as m WHERE   R.objiD=m.objID AND   (R.ra-m.ra)*(R.ra-m.ra)<# AND   (R.dec-m.dec)*(R.dec-m.dec)<# AND   R.ext > # ORDER BY m.objID"
+2019-03-06 12:09:00,1
+2019-03-06 12:10:00,1

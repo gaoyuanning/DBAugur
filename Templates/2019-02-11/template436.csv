@@ -1,0 +1,2 @@
+1,SELECT * FROM SFViolations INNER JOIN SFParklets ON SFViolations.Zipcode = SFViolations.Permit_ZipCode
+2019-02-11 13:48:00,1

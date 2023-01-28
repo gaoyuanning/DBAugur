@@ -1,0 +1,2 @@
+1,"SELECT SpecObj.specObjID, SpecObj.z as redshift, SpecObj.ra, SpecObj.dec, galaxy.u, galaxy.g, galaxy.r, galaxy.i, galaxy .z, zooSpec.spiral, zooSpec.elliptical FROM SpecObj, zooSpec, galaxy WHERE zooSpec.specObjID = SpecObj.specObjID AND SpecObj.class = # AND SpecObj.sourceType = # AND (zooSpec.p_el > # OR zooSpec.p_cw > # OR zooSpec.p_acw > # OR zooSpec.p_mg > #) AND zooSpec.uncertain = # ORDER BY SpecObj.z DESC"
+2019-06-16 02:32:00,1

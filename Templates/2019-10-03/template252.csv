@@ -1,0 +1,2 @@
+1,"select ra, dec, a_g from specObj, fGetNearbyObjEq(#,#,#)"
+2019-10-03 16:50:00,1

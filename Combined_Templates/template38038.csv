@@ -1,0 +1,2 @@
+1,"SELECT TOP # --* plate, mjd, fiberid, z, sourceType, subClass FROM SpecObj WHERE z BETWEEN # AND # AND snMedian_r > # AND sourceType = # AND subClass = #"
+2019-05-08 08:10:00,1

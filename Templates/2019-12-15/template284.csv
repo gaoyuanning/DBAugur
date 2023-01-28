@@ -1,0 +1,2 @@
+1,select * from VARIABLES where CENSUSID like &&&
+2019-12-15 09:53:00,1

@@ -1,0 +1,2 @@
+1,"select top # plate, MJD, fiberID from SpecObj where waveMax> # and waveMin< #"
+2019-09-24 04:34:00,1

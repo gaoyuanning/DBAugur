@@ -1,0 +1,2 @@
+2,"select top # an.ID, Worker = sum (c.VAL) from optw.ptheta.Portland1#Assets an join optw.ptheta.Portland1#Drive d on d.DestNodeID = an.NodeID join optw.ptheta.Portland1#Tracts tn on d.OrigNodeID = tn.NodeID join optw.tamass.VALS c on c.TRACTID = tn.ID join optw.tamass.VARIABLES v on v.ID = c.VARID where tn.VINTAGE = # and Minutes < # and unit = # and binmin> =# and binmax< # and concept like # and label like # and label not like # group by an.ID"
+2019-12-15 14:48:00,2

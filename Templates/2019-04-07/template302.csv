@@ -1,0 +1,3 @@
+2,"SELECT   ra_iso, dec_iso FROM MyDB.ISOLATED_ZOOSPECDR1#_IN  OPEN my_cursor  WHILE(#=#) BEGIN   FETCH NEXT from my_cursor into    @ra_iso, @dec_iso     IF (@@fetch_status < #) break      INSERT MYDB.ISOLATED_ZOOSPECDR1#_OUT      SELECT   @ra_iso, @dec_iso,               p.objID, p.ra, p.dec,                  gz.spiral, gz.elliptical, gz.uncertain               FROM   dbo.fGetNearestObjEq(@ra_iso,@dec_iso,#/#) n, Galaxy p     JOIN Photoz  As z ON z.objid = p.objid   JOIN SpecObj AS s ON s.bestobjid = p.objid   JOIN zooSpec AS gz ON gz.objid = p.objid   WHERE n.objid=p.objid         END  CLOSE my_cursor DEALLOCATE my_cursor"
+2019-04-07 06:10:00,1
+2019-04-07 08:12:00,1

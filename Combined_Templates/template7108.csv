@@ -1,0 +1,2 @@
+1,"select bestObjID, class, z, velDisp, ra, dec, cx, cy, cz from specObj where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-01-30 02:38:00,1

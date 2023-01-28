@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec, s.z, s.zErr, s.velDispErr, s.velDispErr, p.ra, p.dec, p.z,   p.zErr FROM SpecObj AS s  JOIN SpecPhotoAll AS p ON s.specObjID = p.specObjID WHERE  s.ra BETWEEN # AND #  AND s.dec BETWEEN # AND #  AND p.ra BETWEEN # AND #  AND p.dec BETWEEN # AND #  AND (p.petroMag_r - p.extinction_r) < #  AND p.programname = LEGACY"
+2019-11-03 17:59:00,1

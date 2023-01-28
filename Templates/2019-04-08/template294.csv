@@ -1,0 +1,2 @@
+4,"select count(*), min(z) as min, max(z) as max from specobj where zwarning = # and class=&&& and survey in (&&&, &&&)   and bestobjid > #  and snmedian > #"
+2019-04-08 14:50:00,4

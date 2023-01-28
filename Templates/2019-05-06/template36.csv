@@ -1,0 +1,2 @@
+5,"SELECT ra,dec,psfMag_u,psfMag_g,psfMag_r,psfMag_i,psfMag_z,psfMagErr_u,psfMagErr_g,psfMagErr_r,psfMagErr_i,psfMagErr_z,flags_g,flags_r FROM Star WHERE ra BETWEEN # and # AND dec BETWEEN # and # AND psfMag_g BETWEEN # and # AND ((flags_r & #) != #) AND ((flags_r & #) = #) AND (((flags_r & #) = #) or (psfMagErr_g <= #)) AND (((flags_r & #) = #) or (flags_r & #) = #) AND ((flags_g & #) != #) AND ((flags_g & #) = #) AND (((flags_g & #) = #) or (psfMagErr_r <= #)) AND (((flags_g & #) = #) or (flags_g & #) = #)"
+2019-05-06 22:40:00,5

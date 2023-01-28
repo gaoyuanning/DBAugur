@@ -1,0 +1,2 @@
+1,"select class, subclass, count (*) from specobjall where specobjid not IN () group by class, subclass order by class, subclass"
+2019-09-08 11:10:00,1

@@ -1,0 +1,2 @@
+1,SELECT distinct class into mydb.MyTable_# from SpecObj ;
+2019-06-30 04:23:00,1

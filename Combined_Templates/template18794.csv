@@ -1,0 +1,6 @@
+6,"select objra, objdec, nsa_z, mangaid, plate, plateifu, ifudesign, nsa_sersic_ba, nsa_sersic_th5#, nsa_sersic_n, sfr_tot FROM mangaDAPall WHERE ( (mngtarg1 ! = # or mngtarg3 ! = #) and (drp3qual < #) and (objdec > =#) and sfr_tot > = # and (nsa_sersic_ba > = #) )"
+2019-03-08 10:59:00,1
+2019-03-08 11:12:00,1
+2019-03-08 11:14:00,1
+2019-03-08 11:17:00,2
+2019-03-08 11:19:00,1

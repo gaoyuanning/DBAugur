@@ -1,0 +1,3 @@
+2,"select p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z FROM PhotoPrimary AS p WHERE type=# AND ((flags_r & #) != #)AND ((flags_r & #) = #)AND (((flags_r & #) = #) or (psfmagerr_g <= #))AND (((flags_r & #) = #) or (flags_r & #) = #)AND p.ra BETWEEN (#-#) AND (#+#) AND p.dec BETWEEN (#-#) AND (#+#) ORDER BY p.objid"
+2019-05-24 16:35:00,1
+2019-05-24 17:25:00,1

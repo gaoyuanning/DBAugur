@@ -1,0 +1,2 @@
+1,"SELECT AlbumID, COUNT (AlbumID) count FROM chinook.Track GROUP BY AlbumID)"
+2019-04-24 18:13:00,1

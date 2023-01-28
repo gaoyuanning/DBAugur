@@ -1,0 +1,2 @@
+3,"select specObjID,ra,dec, z from SpecPhotoAll where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-04-12 21:09:00,3

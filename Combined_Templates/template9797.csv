@@ -1,0 +1,2 @@
+1,select * into mydb.MyTable from dbo.SpecObjAll where class = GALAXY
+2019-02-11 06:55:00,1

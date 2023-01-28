@@ -1,0 +1,2 @@
+2,"SELECT TOP # SpecObjAll.z ,Photoz.objID FROM SpecObjAll  JOIN Photoz ON SpecObjAll.specObjID=Photoz.objID WHERE SpecObjAll.z<#"
+2019-03-27 19:25:00,2

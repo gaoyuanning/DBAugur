@@ -1,0 +1,2 @@
+1,"select   ra, dec, SpecObjID, class from  specObj where  class = &&&  and zWarning = # order by  RAND() limit   #"
+2019-11-30 17:21:00,1

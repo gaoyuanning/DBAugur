@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.run, p.rerun, p.camcol, p.field, dbo.fPhotoTypeN (p.type) as type, p.u, p.g, p.r, p.i, p.z, s.specClass FROM PhotoObj as p JOIN SpecObj as s ON s.specobjid = p.objid WHERE (p.ra BETWEEN # AND #) AND (p.dec BETWEEN # AND #) AND ( (p.g BETWEEN # AND #) OR (p.r BETWEEN # AND #) ) AND (type = #) AND (class = #)"
+2019-06-03 22:55:00,1

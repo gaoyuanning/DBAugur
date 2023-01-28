@@ -1,0 +1,2 @@
+1,"SELECT max(p.ra)-min(p.ra), max(p.dec)-min(p.dec), min(airmass_r), max(airmass_r) /*TOP # t.thingid, t.ndetect, d.objid, p.psfMag_r, p.ra, p.dec, p.airmass_r*/ FROM thingIndex AS t JOIN detectionindex AS d ON t.thingid = d.thingid JOIN photoobjall AS p ON d.objid = p.objid JOIN run r on p.run=r.run and p.rerun=r.rerun  WHERE t.ndetect > # AND p.ra between # and #  and p.dec between # and #"
+2019-01-10 03:31:00,1

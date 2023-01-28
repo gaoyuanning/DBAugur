@@ -1,0 +1,2 @@
+1,"SELECT up_id, (SELECT apstar_id FROM fGetNearestApogeeStarEq(up_ra,up_dec,#)) as apstar_id   FROM #upload WHERE (SELECT apstar_id FROM fGetNearestApogeeStarEq(up_ra,up_dec,#)) IS NOT NULL  EXEC spExecuteSQL &&&,&&&, @log=#, @filter=#"
+2019-04-25 03:00:00,1

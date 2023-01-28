@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec FROM #upload u, SpecObj s WHERE eclass < #"
+2019-10-02 20:04:00,1

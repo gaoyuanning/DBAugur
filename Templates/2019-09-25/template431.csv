@@ -1,0 +1,2 @@
+1,"SELECT ALL   p.ra,p.dec,p.u as u_mag, p.Err_u,p.g as g_mag, p.Err_g,p.r as r_mag, p.Err_r,p.i as i_mag,    p.Err_i,p.z as z_mag, p.Err_z, s.z as redshift, s.zErr into mydb.MyTable from PhotoObj AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE    s.z< #"
+2019-09-25 11:16:00,1

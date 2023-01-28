@@ -1,0 +1,2 @@
+6,"select S.ra, S.dec from SpecObjALl as S where S.z < #"
+2019-01-29 09:34:00,6

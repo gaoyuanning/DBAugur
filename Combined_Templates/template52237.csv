@@ -1,0 +1,5 @@
+5,"select dr7objid, l.logMass into mydb.MyTable_# from PhotoObjDR7 as c, stellarMassFSPSGranEarlyDust as l, PhotoObj as p, SpecObjAll as s where p.objID = c.dr8objid AND s.bestObjID = p.objID AND l.specObjID = s.specObjID AND (dr7objid = # OR dr7objid = # OR dr7objid = # OR dr7objid = # OR dr7objid = #)"
+2019-07-16 00:53:00,1
+2019-07-16 00:54:00,1
+2019-07-16 01:38:00,2
+2019-07-16 02:16:00,1

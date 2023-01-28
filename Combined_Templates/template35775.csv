@@ -1,0 +1,5 @@
+8,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.run, p.rerun, p.camcol, p.field FROM PhotoObj AS p where objid = #"
+2019-04-30 08:51:00,2
+2019-04-30 08:52:00,1
+2019-04-30 08:53:00,4
+2019-04-30 08:55:00,1

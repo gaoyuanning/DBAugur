@@ -1,0 +1,2 @@
+1,"select count(z) as num_redshift,ra from specObj where z BETWEEN # and #"
+2019-05-20 19:10:00,1

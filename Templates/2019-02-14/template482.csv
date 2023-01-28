@@ -1,0 +1,2 @@
+1,"SELECT   p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  p.run, p.rerun, p.camcol, p.field,  s.z, s.zErr, s.photoErrorClass, s.absMagU, s.absMagG, s.absMagR, s.absMagI, s.absMagZ,s.absMagG-s.absMagR FROM PhotoObj AS p  JOIN Photoz AS s ON s.objID = p.objid  JOIN dbo.fGetNearbyObjEq(#, #, #) AS GN ON s.objID = GN.objID WHERE  s.photoErrorClass = #"
+2019-02-14 07:36:00,1

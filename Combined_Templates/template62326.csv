@@ -1,0 +1,2 @@
+1,"SELECT TOP # A.ID_#, A.Name, A.RAdeg, A.DECdeg, D.t1#_arms_winding_a2#_tight_debiased, D.t1#_arms_winding_a2#_medium_debiased FROM MyDB.Liu2# as A APPLY dbo.fGetNearestObjEq (A.RAdeg, A.DECdeg, #/#.) AS B INNER JOIN SpecPhotoAll as C on B.objID = C.objID INNER JOIN zoo2MainSpecz as D on C.specobjID = D.specobjID WHERE D.t0#_spiral_a0#_spiral_debiased> =# AND D.t1#_arms_winding_a2#_tight_flag = # AND D.t1#_arms_winding_a2#_medium_flag = # INTO Liu2#_zoo2MainSpeczSpiral"
+2019-09-11 17:56:00,1

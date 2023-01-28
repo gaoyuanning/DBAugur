@@ -1,0 +1,2 @@
+1,"select * into mydb.MyTable_# from dbo.fGetNearestMangaObjEq (#, #, #)"
+2019-09-26 18:02:00,1

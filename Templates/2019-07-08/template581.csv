@@ -1,0 +1,3 @@
+2,"select visit_id, plate, mjd, fiberid into SDSSDR1#_apogee_visitid   from apogeeVisit"
+2019-07-08 01:49:00,1
+2019-07-08 01:50:00,1

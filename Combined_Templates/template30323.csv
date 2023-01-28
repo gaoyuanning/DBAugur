@@ -1,0 +1,5 @@
+4,"CREATE TABLE [r2#][Interim_genotype_release] (eid BIGINT NOT # , [UKBiLEVE_Affymetrix_quality_control_for_samples_#] INTEGER -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [UKBiLEVE_genotype_quality_control_for_samples_#] INTEGER -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Genetic_relatedness_pairing_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Genetic_relatedness_exclusions_#] INTEGER -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Genetic_relatedness_factor_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Genetic_relatedness_IBS0_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Recommended_genomic_analysis_exclusions_#] INTEGER -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [UKBiLEVE_unrelatedness_indicator_#] INTEGER -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , PRIMARY KEY (eid) ) GO"
+2019-04-15 14:29:00,1
+2019-04-15 14:32:00,1
+2019-04-15 14:33:00,1
+2019-04-15 14:35:00,1

@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.ra, p.dec, p.g, p.r FROM PhotoPrimary p WHERE p.type = #"
+2019-12-17 11:49:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objID, p.run, f.run, p.ra, p.dec, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, f.mjd_u, f.mjd_g, f.mjd_r, f.mjd_i, f.mjd_z into mydb.MyTable from Field f JOIN PhotoObj AS p ON f.segmentID = p.objID WHERE p.run = #"
+2019-09-08 10:06:00,1

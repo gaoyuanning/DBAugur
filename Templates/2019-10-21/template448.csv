@@ -1,0 +1,2 @@
+1,"SELECT TOP #   colc_u, colc_g,  objID   FROM  galSpecExtra WHERE    ( Flags & (dbo.fPhotoFlags(&&&) +                  dbo.fPhotoFlags(&&&) +                   dbo.fPhotoFlags(&&&)) ) = #    and petrorad_r < #   and ((colc_u - colc_g) - (psfMag_u - psfMag_g)) < #"
+2019-10-21 07:07:00,1

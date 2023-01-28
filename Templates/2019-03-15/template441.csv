@@ -1,0 +1,2 @@
+1,"select petroRad_z, ra, dec from photoObj  where ra BETWEEN # AND # and dec BETWEEN # AND # and type = galaxy"
+2019-03-15 09:16:00,1

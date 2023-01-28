@@ -1,0 +1,2 @@
+1,"SELECT t.Name, g.Name, m.Name FROM chinook.track t LEFT OUTER JOIN chinook.MediaType m ON m.MediaTypeId = t.MediaTypeId LEFT OUTER JOIN chinook.Genre g ON g.GenreId = t.GenreId"
+2019-04-20 15:20:00,1

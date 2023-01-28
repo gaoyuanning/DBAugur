@@ -1,0 +1,3 @@
+2,"SELECT objID, count (*) into mydb.MyTable_# from Photoobjall WHERE ra > # and ra < # AND dec > # and dec < # and mode = # GROUP BY objID"
+2019-10-07 08:10:00,1
+2019-10-07 08:11:00,1

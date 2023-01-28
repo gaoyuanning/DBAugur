@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.specObjID,p.run,p.rerun,p.camCol,p.field,p.obj  FROM ..SpecObj as s  JOIN ..PhotoObj AS p ON s.bestObjID = p.objID  WHERE s.zWarning = # AND (s.class = &&&) AND ( p.type = # OR p.type = #)"
+2019-11-19 03:03:00,1

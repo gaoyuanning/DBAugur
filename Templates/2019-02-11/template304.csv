@@ -1,0 +1,2 @@
+1,"SELECT TOP #   p.objID, p.dbo.fGetUrlNavId(objid),   s.z as redshift from photoObj p JOIN specObj s ON s.bestObjID = p.objID"
+2019-02-11 16:53:00,1

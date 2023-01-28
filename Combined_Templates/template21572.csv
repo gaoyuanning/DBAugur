@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.objid into mydb.MyTable_# from photoobjall p , dbo.fgetNearByObjEq (#-#, #) n where p.objid = n.objid"
+2019-03-19 10:27:00,1

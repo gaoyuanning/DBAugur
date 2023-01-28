@@ -1,0 +1,11 @@
+10,"SELECT ObjID,r,g,i,u,redness,s.specObjID,s.z,s.ra,s.dec into mydb.Red_E_Galaxies_Spec FROM mydb.Red_E_Galaxies as e   JOIN DR1#.SpecObj as s   ON e.ObjID = s.bestObjid ALTER TABLE Red_E_Galaxies_Spec   ADD searchID INT IDENTITY(#,#) NOT NULL"
+2019-08-18 11:02:00,1
+2019-08-18 11:04:00,1
+2019-08-18 11:11:00,1
+2019-08-18 11:15:00,1
+2019-08-18 11:17:00,1
+2019-08-18 11:20:00,1
+2019-08-18 11:22:00,1
+2019-08-18 11:24:00,1
+2019-08-18 11:28:00,1
+2019-08-18 11:31:00,1

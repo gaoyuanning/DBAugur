@@ -1,0 +1,8 @@
+9,"SELECT top # bestObjId, z, ra, dec, plate, mjd, fiberId FROM specObjAll WHERE survey = # AND class = # and zWarning = # AND bestObjId > # AND (z > # AND z < #) AND (htmid*# & #) < (# * #)"
+2019-03-17 14:54:00,1
+2019-03-17 16:05:00,1
+2019-03-17 16:27:00,1
+2019-03-17 16:28:00,1
+2019-03-17 16:34:00,2
+2019-03-17 16:35:00,2
+2019-03-18 20:37:00,1

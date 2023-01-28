@@ -1,0 +1,2 @@
+1,"select ID , City, [County Name], [Energy Star] , [For Sale Price], [For Sale Status], [LEED Certified], [Land Area (AC)], [Market Name] , [Property Address], [Property Name], [PropertyType], [Rent/SF/Mo], [Sale Company Contact], [Sale Company Name] , [State], [Submarket Cluster], [Submarket Name], [Zip], rent, rent_is_est , lat=COORDS.Lat, lon=COORDS.Long from optw.tamass.ASSETS"
+2019-11-24 10:51:00,1

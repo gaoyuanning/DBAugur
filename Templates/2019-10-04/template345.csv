@@ -1,0 +1,2 @@
+1,"select top # plate,MJD,fiberID,class,subClass from SpecObj where class = &&&"
+2019-10-04 09:21:00,1

@@ -1,0 +1,2 @@
+2,"select D.objid, D.mjd, D.filter, D.m, D.dm into mydb.Eclipsing  from object as O, detection as D  where (O.CLASS=&&& or O.CLASS=&&& or O.CLASS=&&& or O.CLASS=&&&) and O.objid = D.objid"
+2019-02-01 06:57:00,2

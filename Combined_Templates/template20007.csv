@@ -1,0 +1,3 @@
+2,"select z.z, z.zErr, p.ra, p.dec from DR1#.photoz z join DR1#.photoObj p ON p.objID = z.objID into mydb.photoz0#err0# where z.z< # and z.z> =# and z.zErr< #"
+2019-03-13 16:29:00,1
+2019-03-13 17:03:00,1

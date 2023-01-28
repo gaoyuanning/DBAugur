@@ -1,0 +1,2 @@
+1,"SELECT COUNT (*) AS Total, COUNT (IF (z < #) ) AS Redshift1, COUNT (IF (z > #) ) AS Redshift2 FROM SpecObj WHERE class = # AND zWarning = #"
+2019-03-16 20:16:00,1

@@ -1,0 +1,4 @@
+3,"SELECT ALL ROW_NUMBER() OVER (ORDER BY s.z ASC) as RowNumber, s.plate, s.fiberid, s.mjd, s.ra, s.dec, s.z, s.zwarning, s.subclass, g.spiral, g.p_cw, g.p_acw, g.p_edge, g.p_cs, g.p_cs_debiased FROM zooSpec AS g JOIN SpecObj AS s ON s.specobjid = g.specobjid WHERE s.class = &&& AND s.zwarning = # AND g.spiral > #"
+2019-03-13 06:42:00,1
+2019-03-13 19:46:00,1
+2019-03-13 19:59:00,1

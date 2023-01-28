@@ -1,0 +1,7 @@
+6,"SELECT a.specObjID, a.ra, a.dec, a.z, a.logMass, a.ssfr, a.cModelAbsMag_r, a.cModelAbsMag_g, a.cModelAbsMag_u, a.chi2, a.cModelAbsMag_z, a.cModelAbsMag_i, b.specObjID, b.ra, b.dec, b.logMass, b.absMagK FROM stellarMassFSPSGranEarlyDust a  JOIN stellarMassStarformingPort b on a.specObjID = b.specObjID WHERE a.z < # AND a.ssfr <> # AND a.cModelAbsMag_r < # AND b.absMagK < #"
+2019-03-01 15:36:00,1
+2019-03-01 16:39:00,1
+2019-03-01 16:40:00,1
+2019-03-01 16:48:00,1
+2019-03-01 17:03:00,1
+2019-03-01 17:29:00,1

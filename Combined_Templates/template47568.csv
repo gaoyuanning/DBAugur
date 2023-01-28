@@ -1,0 +1,4 @@
+3,"SELECT s.ra, s.dec, s.ObjID, s.psfMag_r, s.psfMag_g, s.psfMag_i, s.psfMag_z, s.psfMag_u, p.class, p.subclass, s.clean, p.sourcetype, s.psfMagErr_u, s.psfMagErr_i, s.psfMagErr_g, s.psfMagErr_r, s.psfMagErr_z From specObj p JOIN photoObj AS s ON s.ObjID = p.bestObjID ORDER BY s.bestObjID"
+2019-06-23 18:27:00,1
+2019-06-23 19:02:00,1
+2019-06-23 19:06:00,1

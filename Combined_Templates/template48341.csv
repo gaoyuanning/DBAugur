@@ -1,0 +1,2 @@
+1,"select alt_id, teff from apogeestar where alt_id BETWEEN # and # AND teff BETWEEN # and #"
+2019-06-26 11:26:00,1

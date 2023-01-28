@@ -1,0 +1,10 @@
+9,"SELECT TOP # objID, ra, dec, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z, clean FROM StarTag WHERE ra BETWEEN # AND # AND dec BETWEEN # AND # AND modelMag_r BETWEEN # AND # AND clean = #"
+2019-06-27 22:28:00,1
+2019-06-27 22:35:00,1
+2019-06-27 22:46:00,1
+2019-06-27 22:57:00,1
+2019-06-27 23:12:00,1
+2019-06-27 23:23:00,1
+2019-06-27 23:34:00,1
+2019-06-27 23:46:00,1
+2019-06-27 23:57:00,1

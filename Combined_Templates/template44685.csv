@@ -1,0 +1,2 @@
+1,"SELECT e.specobjid INTO mydb.ports FROM emisionportlines as e, specobj as s WHERE e.oiii_#_flux > e.oiii_#_flux_err*# AND s.class = # AND s.specobjid = e.specobjid"
+2019-06-07 07:15:00,1

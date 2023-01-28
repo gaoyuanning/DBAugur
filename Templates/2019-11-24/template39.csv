@@ -1,0 +1,2 @@
+1,"select plate,fiberid,mjd,z,ra,dec,dbo.fPriTargetN(primTarget) as priTarget from Specobj where z between # and # and zwarning=# and class=&&& order by z"
+2019-11-24 23:14:00,1

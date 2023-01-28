@@ -1,0 +1,2 @@
+1,"SELECT spe.ra,spe.dec,spe.z,spe.subclass,zo.spiral,zo.elliptical FROM SpecObj As spe  WHERE spe.ra ># and spe.ra <# AND spe.dec ># and spe.dec <# And spe.class=&&& UNION SELECT zo.spiral,zo.elliptical FROM zo As zoospe WHERE spe.specObjID=zo.specobjid"
+2019-09-25 04:45:00,1

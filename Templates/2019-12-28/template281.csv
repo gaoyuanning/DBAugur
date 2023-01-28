@@ -1,0 +1,5 @@
+4,"SELECT *                 INTO #snlist                 FROM MyDB.sncoor                  GO                  SELECT a.oid,G.objID,G.ra,G.dec,GN.distance, PZ.z as photoz, PZ.zErr as photoz_err, S.z as specz                 into mydb.xmatchres                 FROM #snlist a                 CROSS APPLY dbo.fGetNearbyObjEq(a.meanra, a.meandec, #) GN                 JOIN Galaxy as G                 ON G.objID = GN.objID                 JOIN Photoz AS PZ                 ON PZ.objID = GN.objID                 LEFT JOIN Specobj AS S                 ON PZ.objID = S.bestObjID                 ORDER BY oid"
+2019-12-28 00:08:00,1
+2019-12-28 00:12:00,1
+2019-12-28 00:21:00,1
+2019-12-28 00:26:00,1

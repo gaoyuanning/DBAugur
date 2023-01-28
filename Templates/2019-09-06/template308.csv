@@ -1,0 +1,3 @@
+2,"SELECT p.objID, p.clean, p.flags, p.calibStatus_r into mydb.DR7_flags FROM PhotoObjAll as p WHERE p.clean = # and (p.calibStatus_r & #) != # and p.specObjID != #"
+2019-09-06 10:08:00,1
+2019-09-06 10:10:00,1

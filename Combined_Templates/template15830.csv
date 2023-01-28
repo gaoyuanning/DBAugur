@@ -1,0 +1,3 @@
+2,"select s.ra, s.dec, x.ids, s.bestobjid into mydb.MyTable_# from specobjall as s join mydb.xrayagn_ids as x on x.ids = s.bestobjid"
+2019-03-01 17:11:00,1
+2019-03-01 17:13:00,1

@@ -1,0 +1,2 @@
+1,"SELECT   so.specobjid,   so.ra,   so.dec,   so.plate,   so.mjd,   so.fiberid,   u.galaxy_id,    u.galaxy_id_NYU_VAGC,    u.flag_cen_sat_L,    u.flag_cen_sat_Ms,    u.MJD,    u.PLATE,    u.FIBERID    FROM SpecObjAll AS so   JOIN mydb.Yang_et_al_DR7 AS u ON (so.plate=u.PLATE AND so.mjd=u.MJD AND so.fiberid=u.FIBERID)"
+2019-10-19 14:54:00,1

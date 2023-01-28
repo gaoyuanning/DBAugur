@@ -1,0 +1,2 @@
+1,"select * from openquery ([#.#], #'paac_jhu_##) a"
+2019-04-20 17:32:00,1

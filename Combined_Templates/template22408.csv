@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, u, g, r, i, type, petroMag_u, petroMag_g, petroMag_r, petroMag_i into mydb.Probe from Galaxy WHERE r < #"
+2019-03-22 19:35:00,1

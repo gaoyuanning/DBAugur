@@ -1,0 +1,2 @@
+1,"SELECT count(z),min(z),max(z) FROM specObj  WHERE   class = &&& and zWarning = # and snMedian > # GROUP by subclass"
+2019-08-08 07:47:00,1

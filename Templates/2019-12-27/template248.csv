@@ -1,0 +1,2 @@
+2,"SELECT r.objid, r.ra, r.dec, r.PGC from RC3 r where r.PGC like %#"
+2019-12-27 05:48:00,2

@@ -1,0 +1,2 @@
+2,"SELECT s.ossy_id,   s.id,   p.run,            p.camCol,            p.rerun,            p.field,            p.objID     INTO mydb.sdss_matches FROM dbo.PhotoObj AS p RIGHT JOIN myDB.spogs AS s  ON spogs.sdss_id = p.objID;"
+2019-07-08 16:51:00,2

@@ -1,0 +1,14 @@
+14,"SELECT TOP #  cast(str(p.ra,#,#) as float) as ra,cast(str(p.[dec],#,#) as float) as dec,p.u,p.g,p.r,p.i,p.z,dbo.fIAUFromEq(p.ra,p.[dec]) as SDSSname  FROM ..PhotoObj AS p  JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = P.objID  WHERE p.r > # AND p.r < #"
+2019-01-16 00:11:00,1
+2019-01-16 03:00:00,1
+2019-01-16 21:16:00,2
+2019-01-16 21:20:00,1
+2019-01-16 21:21:00,1
+2019-01-16 21:58:00,1
+2019-01-16 22:03:00,1
+2019-01-16 22:43:00,1
+2019-01-16 22:53:00,1
+2019-01-16 23:02:00,1
+2019-01-16 23:03:00,1
+2019-01-16 23:21:00,1
+2019-01-16 23:58:00,1

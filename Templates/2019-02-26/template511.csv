@@ -1,0 +1,2 @@
+1,"SELECT TOP # sp.ra,sp.dec,sp.z, f.modelMag_u, f.modelMag_g,f.modelMag_r,f.modelMag_i,.fmodelMag_z  FROM SpecPhoto AS sp  INNER JOIN FIRST AS f ON sp.objid = f.objid  WHERE sp.class = &&& AND zWarning = #  and sp.z > #  and sp.z < #  and f.modelMag_u<#"
+2019-02-26 11:01:00,1

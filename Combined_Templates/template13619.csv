@@ -1,0 +1,13 @@
+12,"SELECT abs (x.zabs-y.zabs) as dzabs, x.name as name1, y.name as name2 INTO MYDB.PAIR_out FROM MYDB.PAIR_check1 x, MYDB.PAIR_check2 y WHERE abs (x.zabs-y.zabs) < # AND (x.name LIKE y.name) AND NOT ((x.zabs LIKE y.zabs) AND (x.rew2# LIKE y.rew2#) AND (x.err2# LIKE y.err2#) AND (x.fwhm2# LIKE y.fwhm2#) AND (x.rew2# LIKE y.rew2#) AND (x.err2# LIKE y.err2#) AND (x.fwhm2# LIKE y.fwhm2#) AND (x.limrew2# LIKE y.limrew2#) )"
+2019-02-22 05:54:00,1
+2019-03-03 08:08:00,1
+2019-03-03 08:25:00,1
+2019-03-03 08:41:00,1
+2019-03-03 08:50:00,1
+2019-03-03 09:03:00,1
+2019-03-03 09:14:00,1
+2019-03-03 09:24:00,1
+2019-03-03 10:43:00,1
+2019-03-03 11:05:00,1
+2019-03-03 11:46:00,1
+2019-03-03 12:15:00,1

@@ -1,0 +1,2 @@
+1,"select top # cellid, hpfid, geom.ToString () as wkt from CellGeom"
+2019-08-28 15:54:00,1

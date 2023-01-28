@@ -1,0 +1,2 @@
+1,select count(*) into mydb.MyTable from photoprimary where type=#
+2019-09-13 11:05:00,1

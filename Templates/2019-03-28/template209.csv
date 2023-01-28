@@ -1,0 +1,2 @@
+1,SELECT all specObjID FROM SpecObj WHERE class= &&& and zwarning=#
+2019-03-28 19:35:00,1

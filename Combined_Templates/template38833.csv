@@ -1,0 +1,7 @@
+6,"SELECT # + cast (p.objId as varchar (#) ) + # + cast (p.objId as varchar (#) ) + # as objID, p.run, p.rerun, p.camcol, p.field, p.obj, p.type, dbo.fPhotoTypeN (p.type) as type, p.ra, p.dec, pz.z, pz.zerr, pz2.photozcc2, pz2.photozerrcc2, p.u, p.g, p.r, p.i, p.z, p.Err_u, p.Err_g, p.Err_r, p.Err_i, p.Err_z FROM fGetNearbyObjEq (#, # , #) n INNER JOIN PhotoPrimary as p on n.objid = p.objid LEFT OUTER JOIN Photoz as pz on p.objid = pz.objid LEFT OUTER JOIN Photoz2 as pz2 on p. objid = pz2.objID"
+2019-05-11 18:44:00,1
+2019-08-07 14:11:00,1
+2019-08-07 14:12:00,1
+2019-08-15 20:33:00,1
+2019-09-11 16:42:00,1
+2019-12-02 18:40:00,1

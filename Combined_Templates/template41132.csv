@@ -1,0 +1,2 @@
+1,SELECT * FROM PhotoObjAll as p WHERE ObjID = #
+2019-05-22 11:20:00,1

@@ -1,0 +1,3 @@
+2,"SELECT s.plate, s.fiberid, s.mjd, sph.modelmag_u, sph.modelmag_g, sph.modelmag_r, sph.modelmag_i, sph.modelmag_z, sph.subClass, g.petroRad_g, g.petroRad_u, g.petroRad_r, g.petroRad_i, g.petroRad_z, sph.z, sph.extinction_g, sph.extinction_u, sph.extinction_r, sph.extinction_z, sph.extinction_i INTO mydb.sdss FROM specobj as s, Galaxy as g, SpecPhoto as sph WHERE s.class = # AND s.specobjid = g.specobjid AND sph.specobjid = g.specobjid AND g.specobjid > # AND sph.z > #"
+2019-07-15 10:02:00,1
+2019-07-15 10:04:00,1

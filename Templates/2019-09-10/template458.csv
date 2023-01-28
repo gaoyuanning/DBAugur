@@ -1,0 +1,3 @@
+2,"select objID,ra,dec,z into mydb.MyTable_# from specObj where z BETWEEN # and # AND class=&&&"
+2019-09-10 05:53:00,1
+2019-09-10 05:58:00,1

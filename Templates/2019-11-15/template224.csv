@@ -1,0 +1,2 @@
+2,"SELECT s.ra, s.dec, s.plate, s.mjd, s.fiberid, s.psfMag_u, s.psfMag_g, s.psfMag_r, s.psfMag_i, s.psfMag_z, s.zWarning FROM SpecPhotoAll as s, MyDB.coord_star_xmatch as m INTO MyDB.pmf_star_xmatch   WHERE s.ra = m.ra AND s.dec = m.dec AND s.Class = &&&"
+2019-11-15 13:29:00,2

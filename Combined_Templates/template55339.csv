@@ -1,0 +1,2 @@
+1,"select objID, u, g, r, i, z from photoObj where objID = #"
+2019-08-05 13:05:00,1

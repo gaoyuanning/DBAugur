@@ -1,0 +1,2 @@
+1,"SELECT TOP # d.objid, d.ra, d.dec, d.nuv_mag FROM dbo.PhotoObj as d WHERE d.type = #"
+2019-05-13 07:35:00,1

@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, specClass, z, bestObjId FROM SpecObj WHERE  (specClass=#) AND z># AND z<#"
+2019-11-22 15:28:00,1

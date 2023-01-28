@@ -1,0 +1,3 @@
+2,"SELECT TOP # m.mangaid, m.objra, m.objdec, m.daptype, m.z, m.sfr_#re, m.stellar_sigma_#re, p.ra, p.dec FROM mangaDAPall as m WHERE m.stellar_sigma_#re > # JOIN PhotoObj AS p WHERE (p.ra < m.objra - #) AND (p.ra > m.objra + #)"
+2019-01-31 21:26:00,1
+2019-01-31 21:27:00,1

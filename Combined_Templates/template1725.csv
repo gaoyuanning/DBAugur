@@ -1,0 +1,2 @@
+1,"SELECT * FROM (SELECT ra, dec, objid, ROW_NUMBER () OVER (PARTITION BY dec ORDER BY ra ASC) rn FROM NN1) a WHERE rn = #"
+2019-01-09 15:39:00,1

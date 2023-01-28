@@ -1,0 +1,2 @@
+1,"SELECT sp.ancillary_target2, sp.thing_id_targeting, sp.thing_id, sp.primTarget, sp.secTarget, sp.spectrographID, sp.sourceType, sp.targetType, sp.ra, sp.dec, sp.cx, sp.cy, sp.cz, sp.xFocal, sp.yFocal, sp.lambdaEff, sp.blueFiber, sp.zOffset, sp.z, sp.zErr into mydb.DR1#_sp_# from SpecObj AS sp WHERE z BETWEEN #. AND #. AND class = #"
+2019-02-05 11:48:00,1

@@ -1,0 +1,3 @@
+2,"select Modelmag_i, Modelmag_z, Modelmag_g, Modelmag_r from PhotoObjDR7 as x where x.dr7objid = #"
+2019-03-07 18:17:00,1
+2019-03-07 18:18:00,1

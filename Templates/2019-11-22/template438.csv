@@ -1,0 +1,20 @@
+59,"SELECT TOP # p.ra,p.dec,p.type,p.modelmag_g,p.modelmag_r,p.modelmag_i,p.run,p.rerun,p.camcol,p.field,p.obj,p.objid,dbo.fIAUFromEq(p.ra,p.dec),r.z,r.Zerr FROM Galaxy as p, photoz as r WHERE p.ObjID=r.ObjID and p.modelmag_r<# and p.ra<# and p.ra># and p.dec># and p.dec<# order by p.modelmag_r"
+2019-11-22 02:03:00,3
+2019-11-22 02:04:00,3
+2019-11-22 02:05:00,2
+2019-11-22 02:09:00,3
+2019-11-22 04:09:00,4
+2019-11-22 04:10:00,1
+2019-11-22 04:11:00,1
+2019-11-22 04:14:00,4
+2019-11-22 04:16:00,4
+2019-11-22 04:17:00,6
+2019-11-22 04:18:00,8
+2019-11-22 04:19:00,4
+2019-11-22 04:20:00,1
+2019-11-22 05:40:00,1
+2019-11-22 05:41:00,6
+2019-11-22 05:42:00,1
+2019-11-22 12:15:00,3
+2019-11-22 12:17:00,3
+2019-11-22 12:18:00,1

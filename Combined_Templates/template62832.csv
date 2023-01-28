@@ -1,0 +1,2 @@
+1,"select count (p.objID) from photoz2 pz, photoTag p where p.objID = pz.objID AND pz.flag = # into MyDB.cnt2"
+2019-09-13 18:02:00,1

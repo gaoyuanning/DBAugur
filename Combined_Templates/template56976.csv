@@ -1,0 +1,2 @@
+1,"SELECT ObjID, ra, dec, lnlDev_r, lnlExp_r FROM Galaxy as G WHERE dec> # and ra> # and ra< # and G.lnlDev_r > G.lnlExp_r -- the likelihood of the deVaucouleours profile fit is #% greater than the likelihood of the exponential fit and G.lnlExp_r > # -- and the likelihoods are actually meaningful and (G.flags & (dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) )) > # --and it is detected from at least one of the binned images ? ?? and G.petroMag_z < # and G.petroMag_z > #"
+2019-08-12 01:56:00,1

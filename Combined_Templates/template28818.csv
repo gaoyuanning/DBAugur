@@ -1,0 +1,2 @@
+1,"SELECT n.*, galspec.* from dbo.fGetNearestSpecObjIdEq (#, #, #) AS n LEFT JOIN galSpecExtra AS galspec ON n.specobjid = galspec.specobjid"
+2019-04-09 12:41:00,1

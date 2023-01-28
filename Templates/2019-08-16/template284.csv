@@ -1,0 +1,2 @@
+1,"SELECT SpecObjID, z, zErr, psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z into mydb.MyTable from DR1#.SpecPhotoAll where z < #"
+2019-08-16 12:06:00,1

@@ -1,0 +1,2 @@
+1,"SELECT u.objid, s.specObjID, s.bestobjid , p.objid, s.ra, s.dec, p.ra, p.dec into mydb.galaxies_sim_# From MyDB.MyTable_# as u   JOIN SpecObj s ON s.specObjID = u.objid   JOIN PhotoObj AS p ON s.bestobjid = p.objid"
+2019-11-27 17:14:00,1

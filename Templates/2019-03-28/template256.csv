@@ -1,0 +1,2 @@
+1,SELECT specObjID FROM SpecObj WHERE class= &&&
+2019-03-28 18:39:00,1

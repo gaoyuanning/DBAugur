@@ -1,0 +1,2 @@
+1,"select p.objid, p.l, p.b, p.u, p.g, p.r, p.i, p.z from photoobj p WHERE   p.l BETWEEN # AND #  AND p.b BETWEEN # AND #"
+2019-10-24 12:05:00,1

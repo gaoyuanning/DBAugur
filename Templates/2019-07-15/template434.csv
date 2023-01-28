@@ -1,0 +1,2 @@
+1,select distinct objTypeName from specobjall group by objTypeName
+2019-07-15 06:56:00,1

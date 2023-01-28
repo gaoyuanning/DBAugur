@@ -1,0 +1,2 @@
+1,"select t.MANGAID, t.angSep, m.RA, m.DEC, m.w1, m.w2, m.w3, m.w4 into mydb.MaNGA_dap_mpl8_nodup from mydb.temp_manga m, mydb.temp_manga_minsep t where m.MANGAID = t.MANGAID and t.angSep = m.angSep"
+2019-04-03 09:32:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # q.specObjID, q.z, q.ra, q.dec, g.specObjID, g.z, g.zErr, g.ra, g.dec FROM SpecObj as Q, Galaxy as G, Photoz WHERE g.z BETWEEN # and # and photoErrorClass = # and nnCount> #"
+2019-02-21 03:03:00,1

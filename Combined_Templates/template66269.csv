@@ -1,0 +1,2 @@
+1,"select specObjID, MJD, ELODIERVFINAL from DR1#.sppParams where SNR > # and TEFFADOP between # to # and LOGGADOP between # to # and FEHADOP between # and #"
+2019-09-27 05:11:00,1

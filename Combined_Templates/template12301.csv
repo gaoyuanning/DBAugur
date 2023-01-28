@@ -1,0 +1,2 @@
+1,"SELECT objID, run, rerun, camcol, field, obj, specObjID, plate, mjd, fiberID FROM SpecPhotoAll WHERE plate = # WHERE mjd = # WHERE fiberID = #"
+2019-02-19 13:43:00,1

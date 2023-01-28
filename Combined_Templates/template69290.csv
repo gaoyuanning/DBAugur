@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.ra, p.dec, p.petroMag_u, p.petroMag_g, p.petroMag_r, p.petroMag_i, p.petroMag_z, s.z as redshift INTO Test FROM dr1#.photoObj p LEFT OUTER JOIN dr1#.specObj s ON s.bestObjID = p.objID WHERE type = # AND s.z BETWEEN # AND #"
+2019-10-12 11:15:00,1

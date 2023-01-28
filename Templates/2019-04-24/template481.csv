@@ -1,0 +1,2 @@
+2,"SELECT P.ra, S.mjd, ssp.LOGGADOP into mydb.MyTable_# from PhotoObj AS P   JOIN SpecObj AS S ON P.objid = S.bestObjID   JOIN sspParams As ssp ON P.objid = ssp.bestObjID"
+2019-04-24 15:10:00,2

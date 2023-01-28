@@ -1,0 +1,2 @@
+1,"select mr.x, mr, y, mr.z, mr.velx, mr.vely, mr.velz, mr.halfmassradius from dbo.fCover (#, #, #, #, @qry.ToString () ) cov , mpahalotrees.mr mr where mr.snapnum = # and mr.phkey between cov.keymin and mr.keymax -- and @qry.Contains (dbo.Point::New (mr.x+cov.ShiftX, mr.y+cov.ShiftY, mr.Z+cov.ShiftZ) ) = #"
+2019-05-05 16:32:00,1

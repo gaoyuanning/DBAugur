@@ -1,0 +1,2 @@
+2,"select top # SpecObjID, plate, mjf, fiberid, class_person from SpecObjAll where instrument = # and class_person = #"
+2019-01-30 08:38:00,2

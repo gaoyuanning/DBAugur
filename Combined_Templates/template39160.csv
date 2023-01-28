@@ -1,0 +1,2 @@
+1,"select db.*, d1#.dered_r, d1#.dered_g, d1#.dered_i, d1#.dered_z, d1#.petroR9#_r, d1#.deVAB_r into mydb.MyTable_# from MyDB.coma_det as db OUTER APPLY dbo.fGetNearestObjEq (db.ra, db.dec, #) as n INNER JOIN PhotoObjAll as d1# on d1#.objID = n.objID"
+2019-05-13 07:11:00,1

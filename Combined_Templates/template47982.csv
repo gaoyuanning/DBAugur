@@ -1,0 +1,5 @@
+9,"select top # p.u, p.g, p.r, p.i, p.z from photoobj p where p.u < # and p.g < # and p.r < # and p.i < # and p.z < #"
+2019-06-24 21:26:00,3
+2019-06-24 21:28:00,2
+2019-06-24 21:29:00,3
+2019-06-24 21:31:00,1

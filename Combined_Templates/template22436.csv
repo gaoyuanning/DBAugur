@@ -1,0 +1,2 @@
+1,"SELECT min (z) as min_z, max (z) as max_z FROM (SELECT bestObjID FROM SpecObj WHERE class = # AND zWarning = # AND z BETWEEN # and #) ;"
+2019-03-22 19:17:00,1

@@ -1,0 +1,2 @@
+1,"SELECT  g.ObjID, g.ra, g.dec 	into  mydb.galCoord1 	from dbo.Galaxy as g, mydb.MyTable as o 	WHERE g.ObjID = o.objID"
+2019-11-19 04:21:00,1

@@ -1,0 +1,3 @@
+2,"SELECT TOP # g.objid as objid, g.ra, g.dec, zns.nvote, zns.p_el as elliptical, zns.p_dk as dontknow, zns.p_mg as merger, g.petror9#_r as petror9#_r, S.fiberMag_g as fiberMag_g FROM Galaxy as G JOIN ZooNoSpec AS zns ON G.objid = zns.objid join SpecObj as S on G.objid = S. bestObjID WHERE g.clean = # and zns.nvote > = # and zns.p_el > # AND g.ra > # AND g.ra < # AND g.dec > # AND g.dec < # AND s.z < #"
+2019-07-02 07:48:00,1
+2019-07-02 11:49:00,1

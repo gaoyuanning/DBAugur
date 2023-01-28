@@ -1,0 +1,2 @@
+1,"SELECT specObjID, ra, dec, release, mjd, plateid, fiberid into allgals_dr1#_moreinfo_rerun    from GalSpecInfo"
+2019-10-27 08:44:00,1

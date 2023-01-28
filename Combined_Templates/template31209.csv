@@ -1,0 +1,2 @@
+1,"SELECT rerun, run, camcol, field FROM Run WHERE stripe = #"
+2019-04-17 11:51:00,1

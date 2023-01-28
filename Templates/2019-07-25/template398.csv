@@ -1,0 +1,2 @@
+1,"SELECT lcgID,ra,dec FROM MYDB.TESTE1  OPEN my_cursor   WHILE(#=#)  BEGIN    FETCH NEXT from my_cursor into @lcgID, @ra, @dec    IF (@@fetch_status < #) break    INSERT MYDB.gals_specObjIDs    SELECT @lcgID, s.specObjID, @ra as ra_#, @dec as dec_#, s.ra, s.dec, n.distance     FROM dbo.fGetNearbySpecObjEq(@ra,@dec, #) as n, SpecObjAll as s    WHERE    n.specObjID = s.specObjID    END         CLOSE my_cursor  DEALLOCATE my_cursor"
+2019-07-25 10:13:00,1

@@ -1,0 +1,2 @@
+1,"SELECT p.objId,p.b,p.l,p.dec,p.ra,     p.dered_u as u, p.dered_g as g, p.dered_r as r, p.dered_i as i  FROM Galaxy AS p"
+2019-03-05 14:50:00,1

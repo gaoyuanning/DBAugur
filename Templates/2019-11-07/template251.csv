@@ -1,0 +1,2 @@
+1,"SELECT objID, z, zErr, zWarning, ra, dec, cModelMag_u, cModelMagErr_u into mydb.MyTable_# from SpecPhoto WHERE (class=&&&) AND (z > #) AND (z < #)"
+2019-11-07 12:12:00,1

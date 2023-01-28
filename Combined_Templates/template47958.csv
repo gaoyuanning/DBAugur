@@ -1,0 +1,2 @@
+1,"select specobjid, ra, dec, int (cModelMag_u) , cModelMag_g, cModelMag_r, cModelMag_i, cModelMag_z, z into mydb.MyTable_# from SpecPhotoAll where type = #"
+2019-06-24 05:17:00,1

@@ -1,0 +1,2 @@
+1,"SELECT p.cModelMag_g, p.cModelMag_r, p.cModelMag_i, p.cModelMag_z, p.cModelMagErr_g, p.cModelMagErr_r, p.cModelMagErr_i, p.cModelMagErr_z, p.objID, p.ra, p.dec, s.z, s.zErr, s.ra, s.dec, pz.z, pz.zErr into mydb.SDSS5 from Galaxy as p LEFT JOIN SpecPhotoAll as s ON p.objID = s.objID LEFT JOIN photoz as pz ON p.objID = pz.objID WHERE pz.z < = #"
+2019-10-04 11:05:00,1

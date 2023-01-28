@@ -1,0 +1,2 @@
+2,"SELECT p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.rdev, p.rrExp, p.devmag, p.expmag FROM PhotoObjAll AS p"
+2019-05-21 08:17:00,2

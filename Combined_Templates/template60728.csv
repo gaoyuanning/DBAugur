@@ -1,0 +1,2 @@
+1,"SELECT s.specobjID, sub.* into mydb.sub_specobjID from All_DR1# AS s JOIN subset as sub ON sub.mjd = s.mjd AND sub.plate = s.plate AND sub.fiberID = s.fiberID"
+2019-09-04 18:45:00,1

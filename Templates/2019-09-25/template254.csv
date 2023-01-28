@@ -1,0 +1,2 @@
+1,"SELECT  objid,ra,dec,u,g,i,r,z FROM galaxy AS g WHERE   p.r < #.  AND ra BETWEEN # AND #  and dec between # and #"
+2019-09-25 15:19:00,1

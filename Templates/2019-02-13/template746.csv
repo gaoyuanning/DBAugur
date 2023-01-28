@@ -1,0 +1,2 @@
+1,"select top # spec.plate, spec.mjd, spec.fiberid, spec.z, spec,z_noqso, photo.extinction_g, spec.survey, spec.instrument from specobj as spec   join photoobj as photo on spec.specobjid = photo.specobjid where spec.targetType = &&& and spec.class = &&&"
+2019-02-13 03:35:00,1

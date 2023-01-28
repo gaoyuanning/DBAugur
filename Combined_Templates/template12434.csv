@@ -1,0 +1,2 @@
+1,"select objID, ra, dec, type, probPSF, flags, petroRad_u, petroRad_g, petroRad_r, petroRad_i, petroRad_z, petroRadErr_u, petroRadErr_g, petroRadErr_r, petroRadErr_i, petroRadErr_z from PhotoObj where abs (ra) < # and abs (dec) < # and objID> # order by objID"
+2019-02-19 21:49:00,1

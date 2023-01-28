@@ -1,0 +1,2 @@
+1,"select n.ObjID, l.ssfr, z.uncertain, z.elliptical, z.spiral, z.p_mg, z.p_el, z.p_cw, z.p_acw, z.p_edge, z.p_dk, s.velDisp into mydb.MyTable from mydb.Mr1#_group_#_Objid as n JOIN PhotoObjDR7 as c ON c.dr7objid = n.ObjID JOIN PhotoObj as p ON p.objID = c.dr8objid JOIN SpecObjAll as s ON s.bestObjID = p.objID JOIN stellarMassFSPSGranEarlyDust as l ON l.specObjID = s.specObjID JOIN zooSpec as z ON s.specObjID = z.specobjid"
+2019-07-23 16:57:00,1

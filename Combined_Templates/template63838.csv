@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.bestObjID as objid, g.* FROM GalSpecLine as g, SpecObj as s where g.specobjID = s.specObjID and g.specObjID > =# order by g.specObjID asc"
+2019-09-18 20:23:00,1

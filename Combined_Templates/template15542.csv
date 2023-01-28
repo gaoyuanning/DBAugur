@@ -1,0 +1,2 @@
+1,"select specobjid, ra, dec, dr7objid, nvote, p_el_debiased, p_cs_debiased from zooSpec where elliptical = #"
+2019-02-28 13:40:00,1

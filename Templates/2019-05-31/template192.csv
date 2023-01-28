@@ -1,0 +1,2 @@
+1,"select A.XX, count(*)  from ( select top # STR(Zone.dec,#,#) + &&& +STR(Zone.dec,#,#) as XX FROM Zone ) as A group by A.XX"
+2019-05-31 18:36:00,1

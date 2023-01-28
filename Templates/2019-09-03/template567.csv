@@ -1,0 +1,2 @@
+1,"select  SMSF.specObjID, SMSF.ra, SMSF.dec, SMSF.z, 	SMSF.logMass, SMSF.minLogMass, SMSF.maxLogMass, 	SMSF.age, SMSF.minAge, SMSF.maxAge, 	SMSF.SFR, SMSF.minSFR, SMSF.maxSFR  into mydb.StellarMassStarForming from stellarMassStarformingPort as SMSF  WHERE (SMSF.ra between # and #)  and (SMSF.dec between # and #)"
+2019-09-03 01:16:00,1

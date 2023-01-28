@@ -1,0 +1,2 @@
+1,"SELECT ra, dec into mydb.MyTable_# from Star WHERE htmid*# & # < (# * #) and rmag< #"
+2019-04-26 00:00:00,1

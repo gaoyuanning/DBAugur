@@ -1,0 +1,2 @@
+1,"select top # objid,z,snMedian from SpecPhoto where (specclass=# or specclass=#) and zconf > .# and z < #"
+2019-04-15 21:42:00,1

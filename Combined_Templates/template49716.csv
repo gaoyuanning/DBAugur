@@ -1,0 +1,3 @@
+4,"select top # a.objid, b.specobjid, a.ra, a.dec, c.logmass, c.sfr, a.petroflux_r into mydb.MyTable_# from specobjall as b, photoobjall as a, stellarmasspassiveport as c where a.objid = b.bestobjid and b.spectroid = c.spectroid and a.type = # and b.z< # and c.logmass> # and c.logmass< # and a.petromag_g-a.petromag_r> # and a.petro9#_r/a.petro5#_r< # and a.fracdev_r< #"
+2019-07-03 04:41:00,1
+2019-07-03 04:43:00,3

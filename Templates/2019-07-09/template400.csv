@@ -1,0 +1,3 @@
+2,"SELECT TOP # PERCENT objID,type,dec,ra,u,g,r,i,z,flags_r into mydb.MyTable from Galaxy"
+2019-07-09 11:02:00,1
+2019-07-09 11:11:00,1

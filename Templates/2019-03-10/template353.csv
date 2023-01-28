@@ -1,0 +1,2 @@
+1,"SELECT m.ifudsgn, m.objra,m.objdec,p.objID,p.ra,p.dec into mydb.manga_check_list from mangaDRPall as m ,PhotoObjAll as p where((abs(m.objra - p.ra)< #) and (abs(m.objdec -p.dec)<#)"
+2019-03-10 04:40:00,1

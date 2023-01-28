@@ -1,0 +1,2 @@
+1,"SELECT s.specobjid, s.bestobjid, s.firstrelease, s.survey, s.sourcetype, s.class, s.z, s.zErr, s.zwarning, INTO mydb.GALAXY_RED2# FROM specobj as s WHERE (primtarget & dbo.fPrimTarget (#) > #)"
+2019-12-11 01:39:00,1

@@ -1,0 +1,5 @@
+5,"SELECT TOP # objID, -- Get the unique object ID, field, ra, dec -- the field number, and coordinates FROM PhotoPrimary -- From the photometric data WHERE ra > #. and ra < # and dec > #. and dec < #"
+2019-01-24 10:50:00,1
+2019-05-27 03:42:00,2
+2019-07-08 00:34:00,1
+2019-07-08 01:15:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # LTRIM (STR (mjd_r, #, #) ) AS MJD, dbo.fSDSS (p.objId) AS ID, modelMag_g, modelMagErr_g, modelMag_r, modelMagErr_r, modelMag_i, modelMagErr_i, p.ra, p.dec FROM detectionindex d JOIN PhotoObjAll p ON d.objid = p.objid JOIN Field f ON p.fieldid = f.fieldid WHERE p.ndetect > #"
+2019-07-26 18:14:00,1

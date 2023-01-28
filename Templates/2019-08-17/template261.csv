@@ -1,0 +1,2 @@
+1,"SELECT (*COUNT) as COUNT  p.ra,p.dec,p.modelMag_r FROM galaxy AS p WHERE   p.ra BETWEEN # AND #  AND p.dec BETWEEN # AND #  AND p.modelMag_r<#"
+2019-08-17 03:28:00,1

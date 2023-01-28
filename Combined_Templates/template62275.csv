@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, flags, type, rowc, rowcErr, colc, colcErr, rowv, rowvErr, colv, colvErr, rowc_u, rowc_g, rowc_r, rowcErr_u, rowcErr_g, rowcErr_r, colc_u, colc_g, colc_r, colcErr_u, colcErr_g, colcErr_r into mydb.test from PhotoPrimary WHERE ( (flags & #) ! = #) AND ( (flags & #) = #) AND ( ((flags & #) = #) or (psfmagerr_r < = # and psfmagerr_i< = # and psfmagerr_g< =#) ) AND ( ((flags & #) = #) or (flags & #) = #) AND (run = # or run = #) AND ( (ra BETWEEN # and #) ) AND (psfMag_i BETWEEN # and #)"
+2019-09-10 02:03:00,1

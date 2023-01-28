@@ -1,0 +1,2 @@
+2,"SELECT    p.ra, p.dec, p.objID, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMagErr_u, p.psfMagErr_g, p.psfMagErr_r   into mydb.SDSS_wisp3#_ugr   from PhotoObjAll p   where p.type = # AND p.ra >= #-# AND p.ra <= #+# AND p.dec >= #-# AND p.dec <= #+#"
+2019-12-29 17:48:00,2

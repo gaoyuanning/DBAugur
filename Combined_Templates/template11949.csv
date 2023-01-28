@@ -1,0 +1,2 @@
+2,"SELECT number, name AS courseName, description, credits FROM courses WHERE credits IN ()"
+2019-02-18 15:49:00,2

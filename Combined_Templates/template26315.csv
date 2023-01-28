@@ -1,0 +1,2 @@
+2,"SELECT p.objid, p.ra AS ra, p.dec AS dec, p.psfMag_g AS mag_g, p.psfMag_r AS mag_r, p.psfMag_i AS mag_i, p.petroR5#_r AS r_e, p.expAB_r AS b_a, s.z AS z, (# + #* (p.psfMag_g - p.psfMag_i) - #* (p.psfMag_i - #* (log1# (s.z*#/#/#) + #) )) as m_star FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE ( (p.type = #) AND (p.b > # OR p.b < #) AND (p.dec < #) AND (s.z > #) )"
+2019-04-01 19:57:00,2

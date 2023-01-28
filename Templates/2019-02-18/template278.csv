@@ -1,0 +1,2 @@
+2,"SELECT number, name AS courseName, description, credits   FROM courses   WHERE name LIKE %web%"
+2019-02-18 15:47:00,2

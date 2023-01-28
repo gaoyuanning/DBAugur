@@ -1,0 +1,19 @@
+18,"CREATE TABLE [Work_environment] (eid BIGINT NOT # , [When_occupational_data_entered_#] DATETIME -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Year_ended_full_time_education_#] INTEGER -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Invitation_to_complete_online_occupational_questionnaire_date_sent_#] DATETIME -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Device_used_to_enter_occupational_data_#] INTEGER -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , PRIMARY KEY (eid) ) GO"
+2019-04-15 13:26:00,1
+2019-04-15 13:36:00,1
+2019-04-16 08:57:00,1
+2019-04-16 08:59:00,1
+2019-04-16 10:13:00,1
+2019-04-16 10:15:00,1
+2019-04-16 10:18:00,1
+2019-04-17 11:28:00,1
+2019-04-23 09:45:00,1
+2019-04-23 10:53:00,1
+2019-04-24 09:56:00,1
+2019-04-24 13:21:00,1
+2019-04-29 11:40:00,1
+2019-04-30 11:45:00,1
+2019-04-30 15:40:00,1
+2019-05-01 09:28:00,1
+2019-05-02 09:35:00,1
+2019-05-02 10:37:00,1

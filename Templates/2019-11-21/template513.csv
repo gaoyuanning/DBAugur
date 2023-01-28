@@ -1,0 +1,2 @@
+2,"SELECT   p.objID, p.ra, p.dec, s.SpecObjID, s.class into Galaxies from dr1#.PhotoObjAll AS p JOIN dr1#.SpecObjAll as s ON bestObjID = p.objID   WHERE       s.class = &&&"
+2019-11-21 06:28:00,2

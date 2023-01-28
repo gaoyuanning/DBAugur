@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.targetObjID,s.ra,s.dec,s.z,s.zErr,s.plate,s.fiberID,e.Flux_Hb_#,e.Flux_OIII_#,e.Flux_Ha_#,e.Flux_NII_# FROM SpecObj AS s  JOIN emissionLinesPort AS e ON s.specObjID = e.specObjID WHERE   s.ra BETWEEN # AND #  AND s.dec BETWEEN # AND #  AND s.z BETWEEN # AND #"
+2019-12-18 08:49:00,1

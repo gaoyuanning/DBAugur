@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.specobjid,p.ra,p.dec, s.primTarget, s.z, s.zerr FROM Obj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE  s.primTarget & # != #   AND s.ra BETWEEN # AND #  AND s.dec BETWEEN # AND #"
+2019-02-11 16:08:00,1

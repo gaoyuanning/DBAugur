@@ -1,0 +1,2 @@
+1,select max (snapnum) from mydb.cycleedges_s1#
+2019-01-21 18:37:00,1

@@ -1,0 +1,12 @@
+17,"SELECT ph.plate, ph.mjd, ph.fiberid, ph.psfmag_u-ph.extinction_u as u0, ph.psfmag_g-ph.extinction_g as g0, ph.psfmag_r-ph.extinction_r as r0, ph.psfmag_i-ph.extinction_i as i0, ph.psfmag_z-ph.extinction_z as z0, ph.psfmagerr_u, ph.psfmagerr_g, ph.psfmagerr_r, ph.psfmagerr_i, ph.psfmagerr_z, pm.pmra, pm.pmdec, pm.pml, pm.pmb, pm.pmraerr, pm.pmdecerr, pm.sigra, pm.sigdec, pm.dist2#, pm.dist2#, pm.nfit, pm.match, pm.delta, ph.extinction_u, ph.extinction_g, ph.extinction_r, ph.extinction_i, ph.extinction_z, ph.ra, ph.dec, ph.specobjid, ph.objid INTO mydb.pm_#_# FROM specphotoall ph, propermotions pm WHERE ph.plate = # AND ph.mjd = # AND ph.objid = pm.objid"
+2019-02-01 00:16:00,2
+2019-02-01 00:17:00,1
+2019-02-01 00:19:00,2
+2019-02-01 00:20:00,1
+2019-02-01 00:21:00,3
+2019-02-01 00:23:00,1
+2019-02-01 00:24:00,2
+2019-02-01 00:25:00,1
+2019-02-01 00:26:00,2
+2019-02-01 02:49:00,1
+2019-02-01 02:50:00,1

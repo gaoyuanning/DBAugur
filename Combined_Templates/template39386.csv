@@ -1,0 +1,2 @@
+2,select count_big (*) from field as f where not exists (select # from dr1#.field as ff where ff.field = f.field) ;
+2019-05-14 10:41:00,2

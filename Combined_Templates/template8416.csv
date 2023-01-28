@@ -1,0 +1,17 @@
+18,"SELECT TOP # p.ra, p.dec, p.run, p.rerun, p.camCol, p.field, p.obj, IS# (s.plate, #) as plate, IS# (s.mjd, #) as mjd, IS# (s.fiberid, #) as fiberid FROM BESTDR7..Galaxy AS p LEFT OUTER JOIN BESTDR7..SpecObj s ON p.objID = s.bestObjID JOIN #x AS x ON x.objID = p.objID JOIN #upload AS u ON u.up_id = x.up_id ORDER BY x.up_id"
+2019-02-05 09:00:00,1
+2019-02-24 05:31:00,1
+2019-02-24 13:54:00,1
+2019-02-24 13:55:00,1
+2019-02-24 13:56:00,2
+2019-02-24 14:29:00,2
+2019-02-24 18:02:00,1
+2019-03-04 07:56:00,1
+2019-03-04 08:01:00,1
+2019-03-04 08:07:00,1
+2019-03-04 08:10:00,1
+2019-03-05 15:11:00,1
+2019-03-05 16:07:00,1
+2019-03-06 06:20:00,1
+2019-10-09 12:22:00,1
+2019-10-15 09:57:00,1

@@ -1,0 +1,4 @@
+4,"SELECT s.specObjID into mydb.sourType from SpecObj as s, PhotoObj as p WHERE (s.class_noqso = # AND s.bestObjID = p.objID AND fsourceType = #)"
+2019-05-07 16:22:00,1
+2019-05-07 16:23:00,1
+2019-05-07 16:24:00,2

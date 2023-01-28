@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID, survey, bestobjid, z FROM SpecObj WHERE class = # and zwarning = # and # and survey = # OR survey = # order by newid ()"
+2019-03-30 14:18:00,1

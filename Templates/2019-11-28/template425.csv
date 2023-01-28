@@ -1,0 +1,2 @@
+1,"select  * from speobj --select  plate, mjd, fiberID from specobj where subClass=&&& and snMedian > # and"
+2019-11-28 00:07:00,1

@@ -1,0 +1,2 @@
+2,"SELECT p.ra, p.dec, p.u, p.err_u, p.g.p.err_g, p.r.p.err_r, p.i, p.err_i, p.z, p.err_z into mydb.test_output from PhotoPrimary as p, mydb.test_sql as b where (abs (p.ra-b.sdss_ra) ) < # AND (abs (p.dec-b.sdss_dec) ) < #"
+2019-02-03 12:40:00,2

@@ -1,0 +1,2 @@
+1,"SELECT phot.ra, phot.dec into mydb.MyTable_# from dbo.PhotoObjAll AS phot WHERE phot.b > # AND phot.b < # AND phot.l > # AND phot.l < # AND phot.type&&&"
+2019-07-22 06:13:00,1

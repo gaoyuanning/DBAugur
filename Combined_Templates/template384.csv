@@ -1,0 +1,2 @@
+1,"SELECT s.specobjid, s.ra, s.dec, s.plate, s.mjd, s.fiberid into mydb.res_xshaped_lineinfo_best9 from MyDB.sdss_in_finalbestXRGs_lineinfo AS m OUTER APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n JOIN SpecObjAll s ON s.specObjID = n.ObjID LEFT OUTER JOIN emissionLinesPort as g ON g.specobjID = s.specobjID ORDER by m.id"
+2019-01-02 03:51:00,1

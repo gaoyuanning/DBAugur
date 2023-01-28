@@ -1,0 +1,2 @@
+1,"select top # survey, z, snMedian, bestObjectID from specobjall where zwarning = # and class=&&& and bestObjId > #"
+2019-03-20 22:01:00,1

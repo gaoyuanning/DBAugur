@@ -1,0 +1,2 @@
+1,"select ALL sa.OBJID, sa.RA, sa.DEC ra, dec into output2# from MyDB.akari1# AS sa CROSS APPLY dbo.fGetNearestObjEq (sa.RA, sa.DEC, #) AS n"
+2019-08-06 13:00:00,1

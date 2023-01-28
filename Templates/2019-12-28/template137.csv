@@ -1,0 +1,2 @@
+1,"SELECT p.objID,p.ra,p.dec,p.r,t.z as photoz,t.zErr as photozErr,s.z as specz,s.zErr as speczErr,SQRT(POWER(((#-p.ra)*cos((p.dec)*(#/#))),#)+(POWER((#-p.dec),#))) as angsep INTO mydb.A1#_neighbors1_zall FROM dbo.Photoz as t,mydb.A1#_neighbors1 as p,dbo.SpecObj as s where   t.objID=p.objID and   s.targetObjID=p.objID"
+2019-12-28 17:15:00,1

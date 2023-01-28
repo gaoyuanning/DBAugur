@@ -1,0 +1,2 @@
+1,"SELECT  objid, ra, dec, z, petroRad_r FROM  GALAXY WHERE ra = # AND dec = #"
+2019-08-07 14:27:00,1

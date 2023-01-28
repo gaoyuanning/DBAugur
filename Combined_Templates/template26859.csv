@@ -1,0 +1,2 @@
+1,"select p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, s.z as redshift, s.specobjid, s.plate, s.mjd, s.fiberid from galaxy p, specobj s where p.objid = s.bestobjid, s.plate> =#"
+2019-04-02 09:48:00,1

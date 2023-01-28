@@ -1,0 +1,2 @@
+1,"select count (*) as count from star p, dbo.fgetNearByObjEq (#, #, #) n where p.objid = n.objid select count (*) as count2 from galaxy pp, dbo.fgetNearByObjEq (#, #, #) nn where pp.objid = nn.objid"
+2019-03-07 20:09:00,1

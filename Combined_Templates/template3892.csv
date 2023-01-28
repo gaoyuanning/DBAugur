@@ -1,0 +1,2 @@
+1,"select top # zmp.ra, PO.dec from PhotoPrimaryDR7 as PO join zoo2MainPhotoz as zmp on PO.dr8objid = zmp.dr8objid"
+2019-01-16 01:36:00,1

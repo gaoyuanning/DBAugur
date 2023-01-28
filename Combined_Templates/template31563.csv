@@ -1,0 +1,2 @@
+1,"SELECT j.objid, p.run, p.rerun, p.camcol, p.field into mydb.jtab_run from PhotoObjAll p JOIN MyDB.jtab j on p.objid = j.objid"
+2019-04-18 09:40:00,1

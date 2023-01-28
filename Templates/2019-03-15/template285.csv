@@ -1,0 +1,2 @@
+2,"select    s.specObjID, s.bestObjID, s.targetObjID, s.sciencePrimary, s.z, s.zErr, s.zWarning, s.class, s.subClass from       SpecObjAll s   where        s.ra >= # and s.ra<=# and s.dec >=# and s.dec <=#    into specXXL3"
+2019-03-15 15:19:00,2

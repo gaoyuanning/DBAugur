@@ -1,0 +1,6 @@
+6,"SELECT top # sp.TEFFADOP,sp.LOGGADOP,sp.FEHADOP,p.ra,p.dec into mydb.MyTable from sppParams as sp JOIN PhotoObjAll as p    ON sp.bestobjid = p.objid WHERE sp.teffadop between # and # AND sp.fehadop < #  AND sp.fehadop > # AND sp.loggadop < #  AND sp.loggadop > # AND sp.seguePrimary = #  AND (sp.zwarning = # OR sp.zwarning = #) AND sp.elodiervfinalerr != # and sp.snr > #"
+2019-09-21 02:40:00,1
+2019-09-21 02:41:00,1
+2019-09-21 02:48:00,2
+2019-09-21 03:10:00,1
+2019-09-21 03:11:00,1

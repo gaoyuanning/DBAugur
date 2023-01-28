@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec, type into mydb.objID from PhotoPrimary WHERE ( (flags & #) ! = #) AND ( (flags & #) = #) AND ( ((flags & #) = #) or (psfmagerr_r < = # and psfmagerr_i< = # and psfmagerr_g< =#) ) AND ( ((flags & #) = #) or (flags & #) = #) AND (run = # or run = #) AND ( (ra BETWEEN # and #) and (ra BETWEEN # and #) AND (psfMag_i BETWEEN # and #)"
+2019-08-22 05:10:00,1

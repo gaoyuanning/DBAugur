@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, raErr, decErr, extinction_r, psfMag_r, psfMagErr_r FROM PhotoObj WHERE ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-09-27 18:53:00,1

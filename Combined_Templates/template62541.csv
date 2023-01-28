@@ -1,0 +1,2 @@
+1,"select top # p.specObjID, p.z, s.zErr, T.SFR, p.minSFR, p.maxSFR, p.logMass, p.minLogMass, from stellarMassPassivePort p JOIN emissionLinesPort t ON t.specObjID = p.specObjID JOIN stellarMassFSPSGranWideNoDust s ON s.specObjID = t.specObjID WHERE p.z BETWEEN # AND # AND p.SFR > #"
+2019-09-11 22:44:00,1

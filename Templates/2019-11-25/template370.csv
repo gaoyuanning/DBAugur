@@ -1,0 +1,2 @@
+1,"SELECT p.objid,p.fiber2Mag_u,p.fiber2Magerr_u,p.fiber2Mag_g,p.fiber2Magerr_g,p.fiber2Mag_r,p.fiber2Magerr_r,p.fiber2Mag_i,p.fiber2Magerr_i,p.fiber2Mag_z,p.fiber2Magerr_z into mydb.E2FGNRADsdssdr9phot2gal1#_#p1#_#_symin FROM Galaxy as p WHERE p.petroMag_r-p.extinction_r <= #"
+2019-11-25 09:01:00,1

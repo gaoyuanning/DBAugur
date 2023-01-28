@@ -1,0 +1,2 @@
+1,"SELECT top #   c.ID_T,   c.ID,   c.RA,   c.DEC,   p.objID,   p.specObjID,   p.ra,   p.dec,   p.z,   p.petroR5#_r,   p.petroR5#Err_r,   p.petroR9#_r,   p.petroR9#Err_r,   p.modelMag_u,   p.modelMag_g,   p.modelMag_r,   p.modelMag_i,   p.modelMag_z,   p.modelMagErr_u,   p.modelMagErr_g,   p.modelMagErr_r,   p.modelMagErr_i,   p.modelMagErr_z,   p.extintion_u,   p.extintion_g,   p.extintion_r,   p.extintion_i,   p.extintion_z   FROM   PhotoObjAll as p,   MYDB.TODOS as c   INTO mydb.salida   WHERE   abs(p.ra-c.RA)<#   AND   abs(p.dec-c.DEC)<#"
+2019-03-21 16:16:00,1

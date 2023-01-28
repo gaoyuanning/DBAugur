@@ -1,0 +1,2 @@
+2,"SELECT p.ra,p.dec, p.z  FROM SpecObj as p WHERE p.class = &&& AND p.zWarning = #"
+2019-01-16 16:33:00,2

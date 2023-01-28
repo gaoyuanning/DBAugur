@@ -1,0 +1,2 @@
+1,delete from image_stims where stim_ID > #; delete from sessions where session_ID = # or session_ID = #
+2019-05-21 14:04:00,1

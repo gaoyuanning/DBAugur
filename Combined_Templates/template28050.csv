@@ -1,0 +1,2 @@
+1,"SELECT t.ra, t.dec, t.plate, t.mjd, t.fiberid, t.petromag_u, t.petromag_g, t.petromag_r, t.petromag_i, t.petromag_z, g.oiii_#_eqw, g.h_alpha_eqw, g.oiii_#_flux, g.h_alpha_flux, t.z, t.objid as objid, t.specobjid as specobjid into mydb.clu_objects FROM MyDB.clu AS m CROSS APPLY dbo.fGetNearestObjEq (m.sdss_ra, m.sdss_dec, #) AS n JOIN specphotoall AS t ON n.objid = o.objid JOIN galspecline AS g ON o.specobjid = g.specobjid"
+2019-04-05 12:06:00,1

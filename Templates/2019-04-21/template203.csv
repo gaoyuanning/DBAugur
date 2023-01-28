@@ -1,0 +1,2 @@
+1,"SELECT a.Album AS album,         count(a.AlbumId) as num         FROM chinook.Track AS t         INNER JOIN chinook.Album AS a         ON a.AlbumId = t.AlbumId         ORDER BY a.Album"
+2019-04-21 16:41:00,1

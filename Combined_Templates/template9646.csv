@@ -1,0 +1,2 @@
+1,SELECT TOP # spec.snMedian_i from specobjall as spec inner join sppLines as spp on spec.bestObjID = spp.specObjID where spec.survey = # and spec.class = # and spec.class_noqso = # and spec.snMedian> #
+2019-02-11 13:54:00,1

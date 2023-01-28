@@ -1,0 +1,2 @@
+2,select top # * from specobjall where class = &&& and subClass=&&& and waveMin <= # and waveMax >= #
+2019-09-16 03:15:00,2

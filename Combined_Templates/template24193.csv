@@ -1,0 +1,2 @@
+1,select count (pk) from dbo.mssql_redcorr
+2019-03-26 14:25:00,1

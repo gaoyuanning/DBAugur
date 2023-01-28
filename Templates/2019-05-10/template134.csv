@@ -1,0 +1,3 @@
+2,"SELECT TOP #   s.specObjID, s.bestObjID, p.ra, p.dec, s.class INTO mydb.ra_dec_class_many FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   class != &&&    AND       zWarning = #      AND       p.expRad_r < #   AND       p.deVRad_r < #   AND       s.zErr < #      AND       s.z < #           AND       p.clean = #   ;"
+2019-05-10 16:48:00,1
+2019-05-10 16:50:00,1

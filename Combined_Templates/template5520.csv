@@ -1,0 +1,6 @@
+5,"SELECT FLOOR (feha*#) /# AS FeH, count (*) AS N FROM SpecObj S INNER JOIN sppParams ON s.SpecObjID = sppParams.SpecObjID WHERE FEHA > # GROUP BY FLOOR (feha*#) /# ORDER BY #"
+2019-01-23 08:46:00,1
+2019-01-23 09:10:00,1
+2019-01-23 09:11:00,1
+2019-01-26 12:35:00,1
+2019-01-26 13:07:00,1

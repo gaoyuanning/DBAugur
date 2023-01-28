@@ -1,0 +1,2 @@
+1,"select TOP # s.specObjID, s.class as spec_class, q.objid, q.cModelMag_u, q.cModelMag_g, q.cModelMag_r, q.cModelMag_i, q.cModelMag_z, q.psfMag_u, q.psfMag_g, q.psfMag_r, q.psfMag_i, q.psfMag_z, q.expRad_u, q.expRad_g, q.expRad_r, q.expRad_i, q.expRad_z, q.clean, q.objc_type s.zWarning from SpecObjAll as s join photoObjAll as q on s.bestobjid = q.objid left outer join Photoz as p on s.bestobjid = p.objid"
+2019-03-07 16:27:00,1

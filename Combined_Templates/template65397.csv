@@ -1,0 +1,3 @@
+2,"select q.id as id1 p.objid as id2, round (q.ra, #) as ra1, round (p.dec, #) as dec1, round (q.psfMag_u, #) as upsf1, round (q.psfMag_g, #) as gpsf1, round (q.psfMag_r, #) as rpsf1, round (q.psfMag_i, #) as ipsf1, round (q.psfMag_z, #) as zpsf1, round (p.ra, #) as ra2, round (p.dec, #) as dec2, round (p.psfMag_u, #) as upsf2, round (p.psfMag_g, #) as gpsf2, round (p.psfMag_r, #) as rpsf2, round (p.psfMag_i, #) as ipsf2, round (p.psfMag_z, #) as zpsf2 into mydb.qso_with_secondary from mydb.mytable_# q cross apply dbo.fGetNearbyObjAllEq (q.ra, q.dec, #) N, photoobj p where p.objID = N.objID and p.type = #"
+2019-09-25 10:55:00,1
+2019-09-25 10:56:00,1

@@ -1,0 +1,2 @@
+1,"SELECT RAJ2#, DEJ2# FROM MYDB.DiazGimenez  OPEN my_cursor           CLOSE my_cursor  DEALLOCATE my_cursor"
+2019-01-18 05:02:00,1

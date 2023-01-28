@@ -1,0 +1,2 @@
+1,"SELECT s.objid, s.ra, s.dec, g.objid, g.ra, g.dec, x.ra, x.dec  INTO twowayxmatch  FROM XMATCH(      MUST EXIST IN SDSSDR1#:PhotoObjAll AS s       MUST EXIST IN GALEXGR6:PhotoObjAll AS g       LIMIT BAYESFACTOR TO #e3 ) AS x"
+2019-12-28 02:46:00,1

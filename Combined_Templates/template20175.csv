@@ -1,0 +1,6 @@
+5,"SELECT TOP # p.dec, p.dered_r, p.modelMag_g, p.modelMag_i, p.modelMag_r, p.modelMag_u, p.modelMag_z, p.petroR5#_g, p.petroR5#_i, p.petroR5#_r, p.petroR5#_u, p.petroR5#_z, p.petroR9#_g, p.petroR9#_i, p.petroR9#_r, p.petroR9#_u, p.petroR9#_z, cast (str (p.ra, #, #) as float) as ra, p.z, IS# (s.plate, #) as plate, IS# (s.mjd, #) as mjd, IS# (s.fiberid, #) as fiberid, IS# (s.z, #) as redshift, IS# (s.zErr, #) as redshiftErr, IS# (s.zWarning, #) as zWarning, IS# (s.class, #) as class, IS# (cast (str (s.ra, #, #) as float) , #) as ra, IS# (cast (str (s.[dec], #, #) as float) , #) as dec, IS# (s.dec, #) as dec, IS# (s.z_person, #) as z_person FROM ..PhotoObj AS p LEFT OUTER JOIN ..SpecObj s ON p.objID = s.bestObjID WHERE (p.type = # OR p.type = #)"
+2019-03-13 05:23:00,1
+2019-03-13 05:33:00,1
+2019-03-13 06:25:00,1
+2019-03-13 06:27:00,1
+2019-03-13 06:28:00,1

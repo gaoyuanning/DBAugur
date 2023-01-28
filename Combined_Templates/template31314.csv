@@ -1,0 +1,2 @@
+2,"select dbo.fGetUrlFitsField (s.fieldId) , s.fieldId, s.skyVersion, s.run, s.rerun, s.camcol, s.field, s.nTotal, s.nObjects, s.nChild, s.nGalaxy, s.nStars, s.ra, s.dec, s.raMin, s.raMax, s.decMin, s.decMax, s.pixScale into mydb.UrlFitsField_SDSSDR1# from Field as s"
+2019-04-17 06:16:00,2

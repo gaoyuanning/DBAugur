@@ -1,0 +1,2 @@
+1,"SELECT TOP #   a.OBJID AS ID,   a.RA AS RA,   a.DEC AS DEC,	 	      gsl.specObjID AS sdssid,   gsl.z AS redshift,      n.distance AS angDist   from    MyDB.akari AS a       OUTER APPLY dbo.fGetNearestObjAllEq( a.RA, a.DEC, #) AS n    LEFT JOIN galSpecInfo AS gsl ON  gsl.specObjID = n.specObjID    where    a.OBJID < #"
+2019-08-13 19:33:00,1

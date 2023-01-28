@@ -1,0 +1,2 @@
+1,"select top # ra, dec, u, g, r, i, z from photoObj where class = galaxy AND modelmag_u-modelmag_r < .# AND ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-03-14 07:08:00,1

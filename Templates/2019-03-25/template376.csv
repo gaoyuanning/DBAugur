@@ -1,0 +1,2 @@
+1,"select top # objid, u, g, r, i, z, class from photoobjall as p left join specobjall as s on p.objid = s.bestobjid"
+2019-03-25 16:05:00,1

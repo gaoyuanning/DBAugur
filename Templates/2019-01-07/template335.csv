@@ -1,0 +1,2 @@
+1,"SELECT    p.objID,p.ra,p.dec,p.u,err_u,p.g,err_g,p.r,err_r,p.i,err_i,p.z,err_z into mydb.PhotoDR8 from PhotoObjAll AS p      WHERE      p.type=#"
+2019-01-07 11:51:00,1

@@ -1,0 +1,2 @@
+2,"SELECT SpecObjID, plate, fiberID, z, class, ra, dec, psfMag_u, psfMag_g, psfMag_r, psfMag_i FROM SpecPhoto WHERE SpecPhoto.class = #"
+2019-02-18 20:10:00,2

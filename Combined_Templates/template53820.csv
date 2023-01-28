@@ -1,0 +1,2 @@
+1,select count (*) into mydb.gal_cnt_prim from Galaxy
+2019-07-25 04:15:00,1

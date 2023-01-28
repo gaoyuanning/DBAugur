@@ -1,0 +1,2 @@
+1,"select run,camcol,field,nobjects from field where run=# order by nobjects desc"
+2019-11-20 20:29:00,1

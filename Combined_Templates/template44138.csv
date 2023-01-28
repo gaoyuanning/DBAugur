@@ -1,0 +1,2 @@
+1,"SELECT class, survey, instrument, programname, highz_N, dbo.fEBOSSTARGET0N (EBOSS_TARGET0) as EBOSS_TARGET0N FROM (SELECT class, survey, instrument, programname, EBOSS_TARGET0, count (z) as highz_N FROM SpecObj WHERE class = # AND zWarning = # AND z> # AND (survey = # OR survey = #) AND (programname = # OR programname = # OR programname = #) GROUP BY class, survey, instrument, programname, EBOSS_TARGET0) AS inner_list WHERE EBOSS_TARGET0 & (dbo.fEBOSSTARGET0 (#) | dbo.fEBOSSTARGET0 (#) ) = # ORDER BY programname, highz_N DESC, EBOSS_TARGET0N"
+2019-06-05 07:59:00,1

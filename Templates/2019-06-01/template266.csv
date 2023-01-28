@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.*, s.elodieSpType, s.subClass into mydb.MyTable_hw6 from PhotoObjAll AS p JOIN SpecObjAll AS s ON p.objID = s.bestObjID WHERE p.b > #  AND s.class = &&& AND zWarning = # And s.subClass = &&&"
+2019-06-01 00:00:00,1

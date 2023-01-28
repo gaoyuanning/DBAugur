@@ -1,0 +1,2 @@
+1,"SELECT dbo.fPhotoFlagsN (g.flags) , g.ra, g.dec, g.cModelMag_r into mydb.MyTable from MyDB.sdss_photo_abnormal_galaxy AS s CROSS APPLY dbo.fGetNearestObjEq (s.ra, s.dec, #) AS n JOIN GalaxyTag AS g ON n.ra = g.ra where g.clean = # and g.type = #"
+2019-01-17 10:31:00,1

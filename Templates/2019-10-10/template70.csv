@@ -1,0 +1,2 @@
+2,"SELECT count(*) AS total, SUM( CASE WHEN (Type=#) THEN # ELSE # END) AS Galaxies, SUM( CASE WHEN (Type=#) THEN # ELSE # END) AS Stars, SUM( CASE WHEN (Type NOT IN (#,#)) THEN # ELSE # END) AS Other FROM PhotoPrimary WHERE (( u - g > #) OR (u > #) )  AND ( i BETWEEN # AND # ) AND ( g - r > # ) AND ( (r - i < # + # * (g - r - #)) OR (g - r > # ) ) AND ( i - z < # )"
+2019-10-10 20:53:00,2

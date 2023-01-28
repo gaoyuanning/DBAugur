@@ -1,0 +1,5 @@
+6,"select count(*) as count from galaxy p, specobj s where p.objid=s.bestobjid and s.z BETWEEN # AND #"
+2019-01-26 20:20:00,1
+2019-01-26 20:26:00,1
+2019-01-26 20:27:00,3
+2019-01-26 20:28:00,1

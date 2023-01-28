@@ -1,0 +1,3 @@
+3,"SELECT s.objid, s.ra, s.dec, g.objid, g.ra, g.dec INTO twowayxmatch FROM XMATCH (PhotoObjAll, MUSE_NVSS)"
+2019-03-25 11:43:00,1
+2019-03-25 11:44:00,2

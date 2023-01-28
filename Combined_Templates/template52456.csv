@@ -1,0 +1,2 @@
+1,"SELECT top # ra, dec, type, dered_u as u, dered_g as g, dered_r as r, dered_i as i, petroR5#_i AS size FROM PhotoObjAll WHERE ( (type = # OR type = #) AND ra > # AND ra < # AND dec > # AND dec < #)"
+2019-07-17 20:57:00,1

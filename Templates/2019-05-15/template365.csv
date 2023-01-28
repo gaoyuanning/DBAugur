@@ -1,0 +1,2 @@
+1,"SELECT t.SDSS_ID, s.ra, t.ra, s.dec, t.dec, s.bestobjid as dr1#objid INTO convite6 FROM MyDB.new t, SpecObj s WHERE t.plate=s.plate and t.mjd=s.mjd and t.fiberID=s.fiberID"
+2019-05-15 12:35:00,1

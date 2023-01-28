@@ -1,0 +1,3 @@
+3,"select A.specObjID, A.plateid, A.mjd, A.fiberid, A.z, A.spectrotype, A.subclass into mydb.AGN from galspecInfo as A where A.z< # and A.subclass = #"
+2019-01-30 15:11:00,1
+2019-09-14 13:24:00,2

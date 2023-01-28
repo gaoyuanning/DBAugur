@@ -1,0 +1,2 @@
+1,"SELECT top #  p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,q.z,q.zerr,q.class,q.zWarning  FROM PhotObjAll as p JOIN SpecObj as q ON p.objid=q.bestobjid WHERE ( (q.class=&&&) and (q.zWarning=#)  and (p.g <= #)  and (p.u - p.g >= #)   and (p.u - p.g < #)   and (p.g - p.r >= #)   and (p.g - p.r < #)   and (p.r - p.i >= #)   and (p.r - p.i < #)   and (p.i - p.z >= #)   and (p.i - p.z < #) )"
+2019-02-02 09:10:00,1

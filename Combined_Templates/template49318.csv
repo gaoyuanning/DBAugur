@@ -1,0 +1,2 @@
+1,"select s.nsaid, s.ra, s.z, s.dec, s.elpetro_mass, s.elpetro_absmag_u as umag, s.elpetro_absmag_g as gmag, s.elpetro_absmag_r as rmag, s.elpetro_absmag_i as imag, s.elpetro_absmag_z as zmag FROM nsatlas as s WHERE (s.ra between # and #) and (s.dec between # and #) and (s.z between # and #)"
+2019-07-01 09:51:00,1

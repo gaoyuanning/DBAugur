@@ -1,0 +1,2 @@
+1,"SELECT top # z, ra, dec WHERE  class = &&& AND ra > # AND ra < #  AND dec > # AND z<# AND zWarning=#"
+2019-05-28 14:17:00,1

@@ -1,0 +1,5 @@
+6,"SELECT s.specObjID as specObjID_DR7, s.objID as ObjID_DR7, m.ra AS ra, m.dec AS dec into mydb.DR7_IDs from MyDB.Sample5#_coord_ID AS m OUTER APPLY dbo.fGetNearestSpecObjAllEq (m.ra, m.dec, #) AS n LEFT JOIN SpecPhotoAll AS s ON n.specObjID = s.specObjID"
+2019-12-05 01:44:00,2
+2019-12-05 01:45:00,1
+2019-12-05 01:47:00,1
+2019-12-05 01:48:00,2

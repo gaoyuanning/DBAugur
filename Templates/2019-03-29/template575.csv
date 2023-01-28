@@ -1,0 +1,3 @@
+2,"SELECT top # sp.plate, sp.mjd, sp.fiberid, sp.specobjid, sp.bestobjid, sp.class, sp.subclass, sp.ra, sp.dec  FROM sppParams as s JOIN SpecObjAll as sp ON s.specobjid = sp.specobjid WHERE sp.class = &&& AND sp.subclass like &&& AND sp.ra > # and sp.ra < # AND  sp.dec > # and sp.dec < #"
+2019-03-29 12:36:00,1
+2019-03-29 12:37:00,1

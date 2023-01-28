@@ -1,0 +1,2 @@
+2,"SELECT ra, dec, elodieSpType, elodieZ, elodieZErr into mydb.sdss1#spectra from specObjAll where class = # and elodieSpType < > # and elodieSpType< ># order by ra"
+2019-12-16 14:38:00,2

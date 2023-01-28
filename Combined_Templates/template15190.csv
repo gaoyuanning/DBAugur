@@ -1,0 +1,4 @@
+3,"SELECT TOP # s1.z, count (*) into mydb.MyTable1# FROM SpecObjAll s1, SpecObjAll s2 where s2.class = # and s1.class = # and s1.z > s2.z GROUP BY s1.z HAVING COUNT (*) > #"
+2019-02-27 13:13:00,1
+2019-02-27 13:16:00,1
+2019-02-27 13:18:00,1

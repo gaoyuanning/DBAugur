@@ -1,0 +1,2 @@
+1,"SELECT   (.#*(p.g - p.r) +.#) as Color, FROM   PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   s.class = &&&  AND (# * (s.z/#))<# AND (# * (s.z/#))>#"
+2019-01-31 22:06:00,1

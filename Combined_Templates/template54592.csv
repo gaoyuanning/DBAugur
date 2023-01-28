@@ -1,0 +1,2 @@
+1,"select top # a.objID, a.ra, a.dec, a.psfMag_u, a.psfMagErr_u, a.psfMag_g, a.psfMagErr_g, a.psfMag_r, a.psfMagErr_r, a.psfMag_i, a.psfMagErr_i, a.psfMag_z, a.psfMagErr_z from SpecPhotoAll"
+2019-07-30 11:54:00,1

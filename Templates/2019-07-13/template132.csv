@@ -1,0 +1,2 @@
+1,"SELECT po.ra, po.dec FROM photoObjAll AS po JOIN segueTargetAll AS sd ON sd.objid=po.objID WHERE po.ra > # AND po.ra < # AND po.dec > # AND po.dec < #"
+2019-07-13 13:39:00,1

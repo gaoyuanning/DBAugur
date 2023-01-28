@@ -1,0 +1,2 @@
+1,"SELECT m.id, n.objid, n.distance, o.petroMag_u-o.extinction_u as u_pmag,        o.petroMag_g-o.extinction_g as g_pmag, o.petroMag_r-o.extinction_r as r_pmag,        o.petroMag_i-o.extinction_i as i_pmag, o.petroMag_z-o.extinction_z as z_pmag,        E_bv=extinction_r/# FROM MyDB.tempoo AS m OUTER APPLY dbo.fGetNearestObjEq(m.ra, m.dec, #) AS n        LEFT JOIN PhotoObj AS o ON n.objid=o.objid"
+2019-03-17 05:58:00,1

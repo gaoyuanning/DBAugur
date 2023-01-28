@@ -1,0 +1,3 @@
+3,"select distinct    pho.objID,pho.ra,pho.dec,pho.petroMag_r,pho.petroR5#_r,pho.petroR9#_r,pho.expAB_r,pho.type,pho.clean,pho.probPSF,pho.flags into mydb.edgeon3    from PhotoObjAll as pho where pho.petroMag_r<# and pho.fiberMag_r<# and pho.petroMag_r># and pho.expAB_r<# and    pho.expAB_r># and pho.dec<# and pho.petroR5#_r># and pho.petroR5#_r># and pho.type=# order by pho.ra"
+2019-09-15 10:32:00,2
+2019-09-15 10:38:00,1

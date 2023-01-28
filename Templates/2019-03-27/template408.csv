@@ -1,0 +1,2 @@
+1,"select spec.*, pz.z as SDSS_photoz, pz.zErr as SDSS_photozErr from (select one.*, sp.specObjID as SDSS_specObjID, sp.z as SDSS_specz, sp.zErr as SDSS_speczErr, sp.velDisp as SPEC_velDisp, sp.velDispErr as SPEC_velDispErr from MyDB.StageOne one left join dr1#.specObj sp   on one.SDSS_ID = sp.bestObjID) as spec   left join dr1#.Photoz pz   on spec.SDSS_ID = pz.objid into MyDB.StageTwo"
+2019-03-27 13:35:00,1

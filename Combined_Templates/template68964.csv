@@ -1,0 +1,2 @@
+1,select * from PhotoPrimary where ra > # and ra < # and dec > # and dec < #
+2019-10-10 14:02:00,1

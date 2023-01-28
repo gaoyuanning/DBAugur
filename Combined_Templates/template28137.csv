@@ -1,0 +1,2 @@
+1,"SELECT TOP # zns.nvote, G.z, zns.ra, zns.dec, zns.p_el as elliptical, zns.p_cw as spiralclock, zns.p_acw as spiralanticlock, zns.p_edge as edgeon, zns.p_dk as dontknow, zns.p_mg as merger FROM SpecObjAll as G JOIN ZooNoSpec AS zns ON G.bestObjID = zns.objid WHERE zns.nvote > = # and zns.p_cw > # and zns.p_mg > # and g.z< #"
+2019-04-05 20:28:00,1

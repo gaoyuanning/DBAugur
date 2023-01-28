@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, z, lgm_tot_p5# into mydb.MyTable from galSpecExtra JOIN SpecPhotoAll ON galSpecExtra.specObjID = SpecPhotoAll.specObjID WHERE (ra between # and #) and (dec between # and #)    and z>#    and lgm_tot_p5#>#   and class=&&&"
+2019-05-02 09:28:00,1

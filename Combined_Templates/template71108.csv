@@ -1,0 +1,2 @@
+1,"SELECT TOP # emline.specobjid, emline.plate as plate, emline.fiber as fiberID, emline.mjd as mjd, emline.ra, emline.dec, emline.z as z_noqso, emline.zerr as z_noqso_err, emline.sigmaStars as emline_vdisp, emline.sigmaStarsErr as emline_vdisp_err FROM emissionLinesPort AS emline JOIN specObj as sp ON emline.specobjid = sp.specobjid WHERE emline.plate = # AND emline.mjd = #"
+2019-10-22 11:57:00,1

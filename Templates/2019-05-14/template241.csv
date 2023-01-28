@@ -1,0 +1,2 @@
+1,"select   cat.*, ws.* from wise_xmatch as ws, mydb.sf_sdss_galex_ids as cat where ws.sdss_objid=cat.objid"
+2019-05-14 16:07:00,1

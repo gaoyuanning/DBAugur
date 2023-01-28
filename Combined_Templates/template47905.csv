@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, o.objid as objid1, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.run, p.rerun, p.camcol, p.field, FROM PhotoPrimary as p LEFT OUTER JOIN dbo.fGetNearbyObjEq (#, #, #/#) as nb ON nb.objid = p.objid WHERE p.type = #"
+2019-06-24 08:41:00,1

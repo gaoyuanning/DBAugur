@@ -1,0 +1,10 @@
+9,"SELECT specObjID, ra, dec, z, dered_u, dered_g, dered_r, dered_i, dered_z, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z FROM dbo.fHtmCoverCircleEq (#, #, #) htm INNER LOOP JOIN SpecPhoto ON SpecPhoto.htmid BETWEEN htm.HtmIDStart AND htm.HtmIDEnd WHERE class = # AND z BETWEEN # AND #"
+2019-05-16 11:59:00,1
+2019-05-16 12:54:00,1
+2019-05-16 13:19:00,1
+2019-05-16 16:05:00,1
+2019-05-21 07:04:00,1
+2019-05-21 07:26:00,1
+2019-05-21 11:11:00,1
+2019-05-22 11:36:00,1
+2019-10-21 19:09:00,1

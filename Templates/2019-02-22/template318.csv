@@ -1,0 +1,10 @@
+10,"SELECT u.up_col0 as [col0],     &&& + cast(x.objId as varchar(#)) + &&&+ cast(x.objId as varchar(#)) + &&& as objID, p.ra, p.dec, p.run, p.rerun, p.camcol, p.field,    dbo.fPhotoTypeN(p.type) as type,    p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z  FROM #upload u       JOIN #x x ON x.up_id = u.up_id       JOIN PhotoTag p ON p.objID = x.objID  ORDER BY x.up_id"
+2019-02-22 06:18:00,2
+2019-02-22 06:23:00,1
+2019-02-22 06:24:00,1
+2019-02-22 06:25:00,1
+2019-02-22 06:29:00,1
+2019-02-22 07:20:00,1
+2019-02-22 07:32:00,1
+2019-02-22 07:35:00,1
+2019-02-22 07:50:00,1

@@ -1,0 +1,3 @@
+3,"SELECT top # ap2.ra, ap2.dec, ap.teff FROM aspcapStar AS ap JOIN apogeeStar AS ap2 ON ap2.apstar_id = ap.apstar_id WHERE ap.teff > #"
+2019-06-02 10:28:00,2
+2019-06-02 10:29:00,1

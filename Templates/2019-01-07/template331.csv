@@ -1,0 +1,2 @@
+1,"SELECT p.u, p.modelMag_u, p.g, p.modelMag_g, p.r, p.modelMag_r, p.i, p.modelMag_i, p.z, p.modelMag_z FROM PhotoObjAll p WHERE (p.ra BETWEEN # AND #) AND (p.dec BETWEEN # AND #) AND p.type=# AND p.run = # AND p.rerun = # AND p.camcol = # AND p.field = #"
+2019-01-07 11:57:00,1

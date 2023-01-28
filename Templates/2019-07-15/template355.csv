@@ -1,0 +1,2 @@
+1,"SELECT sm.logMass, p.objId,p.ra,p.dec,p.petror9#_r, p.expAB_r,     p.dered_u as u, p.dered_g as g, p.dered_r as r, p.dered_i as i  FROM galaxy AS p    JOIN stellarMassFSPSGranEarlyDust"
+2019-07-15 11:23:00,1

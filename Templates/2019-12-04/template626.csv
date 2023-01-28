@@ -1,0 +1,2 @@
+1,"SELECT P.ObjID,P.ra,P.dec,P.type,P.cModelMag_g,P.cModelMag_r into mydb.CIRs_# From  PhotoObjAll P, mydb.CIRs x  -- this function outputs a table, so we have to do a join  WHERE     (P.flags & dbo.fPhotoFlags(&&&)) = # -- and the object is not saturated. f.PhotoFlags is a function that interprets the flag bits.   and x.name= P.ObjID   and p.type=#"
+2019-12-04 03:31:00,1

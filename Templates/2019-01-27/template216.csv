@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid,    p.petroMag_g, p.petroMag_r, p.petroMag_v, p.petroMag_i,    p.petroMagErr_g, p.petroMagErr_r, p.petroMagErr_v, p.petroMagErr_i,    p.petroR5#_g, p.petroR5#_r, p.petroR5#_v, p.petroR5#_i,    p.petroR5#Err_g, p.petroR5#Err_r, p.petroR5#Err_v, p.petroR5#Err_i,    ISNULL(p.type, #),    ISNULL(s.z, #), ISNULL(s.zErr, #) into mydb.hw1 from Galaxy AS p LEFT OUTER JOIN SpecObj s ON s.bestObjID = p.objID  WHERE   s.z BETWEEN # AND #   AND p.petroR5#Err_r < #   AND s.zConf > #"
+2019-01-27 15:33:00,1

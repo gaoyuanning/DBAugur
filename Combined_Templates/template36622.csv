@@ -1,0 +1,5 @@
+6,"SELECT TOP # G.objID, ra , dec, GN.cx, GN.cy, GN.distance FROM Star as G JOIN fGetNearbyObjXYZ (#, #, #, #) AS GN ON G.objID = GN.objID ORDER BY distance"
+2019-05-03 14:43:00,3
+2019-05-03 14:44:00,1
+2019-05-03 14:46:00,1
+2019-05-03 14:47:00,1

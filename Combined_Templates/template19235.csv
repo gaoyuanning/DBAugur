@@ -1,0 +1,2 @@
+1,"SELECT m.ifudsgn, m.objra, m.objdec into mydb.manga_data from mangaDRPall as m"
+2019-03-10 04:35:00,1

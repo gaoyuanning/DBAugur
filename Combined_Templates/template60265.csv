@@ -1,0 +1,2 @@
+1,"SELECT TOP # plate, MJD, fiberID FROM (SELECT ROW_NUMBER () OVER (ORDER BY MJD) AS RowNumber, * FROM DR1#) t WHERE RowNumber > = #"
+2019-09-02 07:24:00,1

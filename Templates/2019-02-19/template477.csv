@@ -1,0 +1,2 @@
+1,"select a.ra, a.dec, a.z into mydb.QSO_for_magnification from specobj a where a.class=&&&   and a.z>#   and a.z<#"
+2019-02-19 05:19:00,1

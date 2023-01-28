@@ -1,0 +1,2 @@
+1,"SELECT up_id, dbo.fGetNearestSpecObjIdEq(up_ra,up_dec,#) as SpecobjId   FROM #upload WHERE dbo.fGetNearestSpecObjIdEq(up_ra,up_dec,#) IS NOT NULL  EXEC spExecuteSQL 'SELECT   s.ra, s.dec, s.z, s.zErr, s.velDisp, s.velDispErr, s.class,  s.subclass FROM #upload u  JOIN #x x ON x.up_id = u.up_id  JOIN SpecObjAll s ON s.specObjID = x.specObjID WHERE  AND s.class = GALAXY"
+2019-04-05 13:28:00,1

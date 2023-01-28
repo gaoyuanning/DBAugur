@@ -1,0 +1,4 @@
+3,"SELECT * FROM PhotoObj AS p WHERE p.z=search.redshift;"
+2019-11-24 17:45:00,1
+2019-11-24 17:51:00,1
+2019-11-24 18:08:00,1

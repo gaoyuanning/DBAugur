@@ -1,0 +1,2 @@
+2,"SELECT --TOP #      m.mangaid,   m.plateifu,   m.objra,   m.objdec,   m.z,   m.emline_sflux_cen_hb_#,   m.emline_sflux_cen_oiii_#,   m.emline_sflux_cen_ha_#,   m.emline_sflux_cen_nii_#           FROM mangaDAPall AS m --JOIN emissionLinesPort AS e ON s.specobjid = e.specobjid    --WHERE"
+2019-09-20 18:57:00,2

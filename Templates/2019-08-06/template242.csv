@@ -1,0 +1,2 @@
+3,"select top #   sa.RA,   sa.DEC,   n.objid      into output0#      from MyDB.akari_subset AS sa     CROSS APPLY dbo.fGetNearestObjEq( sa.RA, sa.DEC, #) AS n     JOIN DR1#.SpecPhotoAll AS o ON n.objid = o.specObjID"
+2019-08-06 12:28:00,3

@@ -1,0 +1,2 @@
+1,"select m.*,s.*,p.*   into mydb.GR5_AIS_SDSS_D1#_INFO_catalog_errmagFUVandNUV_menor_#_#mag from MyDB.GALEX_GR5_AIS_SDSS_DR7_Matched_catalog_errmagFUVandNUV_menor_#_#mag  AS m      JOIN photoobjall as p     JOIN specobjall as s     JOIN PhotoObjDR7 as pDR7 ON pDR7.dr7objid = m.sdssid"
+2019-07-19 19:11:00,1

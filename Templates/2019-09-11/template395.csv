@@ -1,0 +1,2 @@
+2,"select     s.specObjID     ,s.ra     ,s.dec     ,s.z     ,s.zErr     ,s.class     ,p.cModelMag_i into mydb.BOSSDR1#_SpeczObject from SpecObjAll as s left join PhotoObj as p on s.bestObjID = p.objID where   s.zWarning = #   AND s.z > #   AND s.zErr/(#+s.z) < #   AND s.z < #"
+2019-09-11 12:23:00,2

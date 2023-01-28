@@ -1,0 +1,3 @@
+2,"select e.* from emissionlinesport e, specphoto p where e.specobjid = p.specobjid and p.objid = #"
+2019-01-30 11:02:00,1
+2019-01-30 11:03:00,1

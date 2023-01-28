@@ -1,0 +1,2 @@
+1,select max(p.deVPhi_r) min(p.devPhi_r) from PhotoObjAll p
+2019-09-10 12:46:00,1

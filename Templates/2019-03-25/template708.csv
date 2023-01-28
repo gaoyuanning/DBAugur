@@ -1,0 +1,2 @@
+1,"SELECT m.name, m.ra AS ra1, m.dec AS dec1,   p.objid AS sdssid, p.ra AS ra2, p.dec AS dec2,    n.distance,    p.g, p.r, p.PetroRad_g AS radiusg, p.PetroRad_r as radiusr into mydb.output_table3 from MyDB.Void_Dwarfs AS m   CROSS APPLY dbo.fGetNearestObjEq(m.RA, m.DEC, #) AS n   JOIN photoObj AS p ON p.objid = n.objid   JOIN specObj AS s ON s.bestobjid = p.objid    AND s.Class = &&&"
+2019-03-25 15:25:00,1

@@ -1,0 +1,2 @@
+2,"SELECT TOP # run,            camCol,   rerun,   field,   objID,   u-g, g-r, r-i,   ra, dec into mydb.CVn_# from PhotoPrimary	 WHERE  class=star&&&"
+2019-05-22 05:23:00,2

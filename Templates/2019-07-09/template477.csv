@@ -1,0 +1,2 @@
+2,"select ra,dec from dbo.apogeeStar where # < ra and ra < # and # < dec and dec < #"
+2019-07-09 08:42:00,2

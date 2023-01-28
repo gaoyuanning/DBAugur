@@ -1,0 +1,4 @@
+4,"SELECT SpecObj.plate, SpecObj.fiberid, SpecObj.mjd, SpecObj.z, SpecObj.zwarning, emissionLinesPort.Flux_OIII_#, emissionLinesPort.Flux_OIII_#_Err into mydb.portsmuth from SpecObj, emissionLinesPort WHERE emissionLinesPort.Flux_OIII_# > emissionLinesPort.Flux_OIII_#_Err*# AND SpecObj.specobjid = emissionLinesPort.specobjid AND SpecObj.class = # AND SpecObj.zwarning = # AND emissionLinesPort.Flux_OIII_#_Err > #"
+2019-06-06 09:55:00,1
+2019-06-06 09:56:00,2
+2019-06-06 09:57:00,1

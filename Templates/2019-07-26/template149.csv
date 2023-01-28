@@ -1,0 +1,2 @@
+1,"select LTRIM(STR(mjd_r,#,#)) AS MJD, dbo.fSDSS(p.objId) AS ID, modelMag_g, modelMagErr_g, modelMag_r, modelMagErr_r, modelMag_i, modelMagErr_i, p.ra, p.dec INTO #list FROM detectionindex d JOIN PhotoObjAll p ON d.objid=p.objid JOIN Field f ON p.fieldid=f.fieldid WHERE d.thingid=# ORDER BY # SELECT a.*, b.* FROM #list a CROSS APPLY dbo.fGetNearbyObjEq(a.ra, a.dec, #) b"
+2019-07-26 18:25:00,1

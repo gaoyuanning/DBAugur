@@ -1,0 +1,2 @@
+1,"select objid, u, g, r, i, z, type from PhotoObj where mode = =# and clean = =# and (type = =# or type = =#) order by rand () limit #"
+2019-12-02 11:42:00,1

@@ -1,0 +1,2 @@
+1,"SELECT a.Title, COUNT(t.*) FROM chinook.Album AS a JOIN chinook.Track AS t ON a.AlbumId = t.AlbumId"
+2019-04-11 14:54:00,1

@@ -1,0 +1,2 @@
+1,"select f.plateifu, f.photometric_mass into mydb.mga_Tttttt from mangaFirefly f where f.plateifu = #"
+2019-07-14 08:33:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # L.z, G.ObjID, G.psfMag_r, L.sigma, L.height, L.restWave into mydb.MyTable_# from Galaxy as G, SpecObj as S, SpecLine as L WHERE G.ObjID = S.bestObjID and S.SpecObjID = L.SpecObjID and L.LineId = #"
+2019-05-31 08:51:00,1

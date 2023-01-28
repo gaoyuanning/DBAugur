@@ -1,0 +1,2 @@
+1,"select objid, ra, dec, psf_u, psf_g, psf_r, psf_i, psf_z, z, class into mydb.MyTable_# from SpecPhotoAll where class = #"
+2019-08-08 08:58:00,1

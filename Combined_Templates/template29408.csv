@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, u, g, r, i, z into mydb.MyTable from dr1#.PhotoObjAll"
+2019-04-11 09:44:00,1

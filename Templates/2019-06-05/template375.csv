@@ -1,0 +1,2 @@
+1,"SELECT * FROM  ( SELECT  class,instrument, survey, programname,lambdaeff, targetType,count(z) as N FROM specobj WHERE class = &&& AND zWArning=# AND instrument = &&& AND targetType=&&& GROUP BY class, survey, instrument, programname,lambdaeff, targetType ) as inner_table ORDER BY instrument,survey"
+2019-06-05 08:02:00,1

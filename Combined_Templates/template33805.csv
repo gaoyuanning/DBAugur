@@ -1,0 +1,2 @@
+1,"SELECT Album.AlbumId as AlbumId, COUNT (*) as Count FROM chinook.Album"
+2019-04-24 02:01:00,1

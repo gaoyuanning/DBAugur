@@ -1,0 +1,4 @@
+4,"select   A.plateid,   A.mjd,   A.fiberid,   A.ra,   A.dec       INTO MyDB.muestra4_coord FROM   galSpecInfo as A      JOIN MYDB.muestra4_lista as B on    A.plateid = B.plateid and   A.mjd = B.mjd and   A.fiberid = B.fiberid"
+2019-04-24 04:33:00,2
+2019-04-24 04:36:00,1
+2019-04-24 04:37:00,1

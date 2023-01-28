@@ -1,0 +1,2 @@
+1,"select type, psfMag_r, psfMagErr_r, extinction_r FROM PhotoObj WHERE ra BETWEEN # AND # AND dec BETWEEN # AND # class = #"
+2019-09-17 00:21:00,1

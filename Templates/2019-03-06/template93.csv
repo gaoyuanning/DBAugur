@@ -1,0 +1,2 @@
+3,"SELECT x.ra, x.dec, s.specObjID, s.oii_#_flux as OII3#, s.oiii_#_flux as OIII4#, s.oiii_#_flux as OIII5#,s.h_beta_flux as HBeta,s.nii_#_flux as NII6#,x.logMass as logM FROM fGetNearbySpecObjEq(#,#,#) n JOIN galSpecLine s ON n.specObjID=s.specObjID JOIN stellarMassFSPSGranEarlyDust x ON x.specObjID = s.specObjID"
+2019-03-06 22:08:00,3

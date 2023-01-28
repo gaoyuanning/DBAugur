@@ -1,0 +1,2 @@
+1,"SELECT g.objid, g.deVRad_u, g.abDeV, g.abExp, s.specobjid, s.class, s.z as redshift, s.plate, s.mjd, s.fiberid FROM Galaxy as g WHERE g.objid = #"
+2019-02-13 16:28:00,1

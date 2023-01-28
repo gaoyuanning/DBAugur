@@ -1,0 +1,2 @@
+1,"SELECT  emiid.OBSID_forfit,dr.Sigma_Ha_#,dr.Sigma_Ha_#_Err into mydb.emilinedisp	     	 FROM DR9.emissionLinesPort as dr join emiID_forfit AS emiid  ON dr.specObjID=emiid.SpObjID;"
+2019-06-21 08:06:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid,p.ra,p.dec,p.i,p.z,s.z as redshift FROM Galaxy as G  JOIN dbo.fGetNearbyObjEq(#,#,#) WHERE   s.z BETWEEN # and #  AND  s.class =GALAXY"
+2019-03-05 22:29:00,1

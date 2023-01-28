@@ -1,0 +1,2 @@
+1,"SELECT distinct objID, modelMag_r, petroRad_r FROM star WHERE (ra between # and #) and (dec between # and #)"
+2019-02-12 04:38:00,1

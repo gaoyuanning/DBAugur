@@ -1,0 +1,4 @@
+3,"select top #  s.bestObjID, s.ra, s.dec, s.z from  specObj s join dbo.fGetNearbyObjEq(#,#,#) n on n.objID = s.bestObjID where  s.class = &&&  AND zWarning = # group by  s.class order by  s.z"
+2019-02-26 19:24:00,1
+2019-02-26 19:25:00,1
+2019-02-26 19:28:00,1

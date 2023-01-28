@@ -1,0 +1,2 @@
+1,"SELECT    dbo.fIAUFromEq(s.ra,s.[dec]) as SDSSname, s.ra, s.dec FROM mydb.xave as s"
+2019-11-05 11:57:00,1

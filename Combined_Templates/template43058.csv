@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.run, p.rerun, p.camCol, p.field, p.obj, cast (str (p.ra, #, #) as float) as ra, cast (str (p.[dec], #, #) as float) as dec, p.r, IS# (s.spectroFlux_g, #) as spectroFlux_g, IS# (s.spectroFlux_i, #) as spectroFlux_i, IS# (s.spectroFlux_r, #) as spectroFlux_r, IS# (s.spectroFlux_u, #) as spectroFlux_u, IS# (s.spectroFlux_z, #) as spectroFlux_z FROM ..PhotoObj AS p LEFT OUTER JOIN ..SpecObj s ON p.objID = s.bestObjID WHERE (p.type = # OR p.type = #)"
+2019-05-31 21:00:00,1

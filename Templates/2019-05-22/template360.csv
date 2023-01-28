@@ -1,0 +1,3 @@
+3,"select top #   p.fieldID, p.objID into mydb.galaxy_sort1 from Galaxy as p where p.dec >= # AND p.dec < # AND       exists (select g.fieldID, g.objID               from Galaxy as g               where p.fieldID = g.fieldID               group by fieldID, objID               having count(objID) > #)"
+2019-05-22 12:26:00,2
+2019-05-22 12:27:00,1

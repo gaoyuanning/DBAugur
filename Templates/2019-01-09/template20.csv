@@ -1,0 +1,2 @@
+2,"SELECT specObjID, ra, dec, z, zErr FROM SpecPhoto  WHERE (ra between # and #) and (dec between # and #) and (z between # and #)"
+2019-01-09 23:46:00,2

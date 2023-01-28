@@ -1,0 +1,2 @@
+2,"SELECT ALL objID, z FROM Galaxy WHERE z< # and z> # -- extinction more than #"
+2019-02-21 09:11:00,2

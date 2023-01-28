@@ -1,0 +1,2 @@
+2,"SELECT TOP # manu.specObjID, manu.z, pz.z as photoz FROM PhotoObjAll AS p, Photoz AS pz, MyDB.manu_DR1#_matched AS manu WHERE p.ObjID = manu.ObjID AND pz.ObjID = manu.ObjID AND manu.z < # ORDER BY manu.SpecObjID"
+2019-03-07 01:28:00,2

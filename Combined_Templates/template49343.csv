@@ -1,0 +1,2 @@
+1,"select s.ra, s.dec from SpecObjAll as s where s.class = # and s.subclass like # group by s.ra, s.dec having count (*) > #) order by s.ra"
+2019-07-01 02:03:00,1

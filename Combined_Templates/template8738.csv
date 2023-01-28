@@ -1,0 +1,4 @@
+4,"SELECT r.objID, r.TYPE, gal.petroMag_r into mydb.MyTableClass from RC3 as r JOIN Galaxy gal ON gal.objID = r.objID WHERE gal.petroMag_r < # and gal.z between # and # and gal.petroMagErr_r < #"
+2019-02-07 18:23:00,2
+2019-02-07 18:25:00,1
+2019-02-07 18:26:00,1

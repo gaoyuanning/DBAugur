@@ -1,0 +1,4 @@
+3,"SELECT u.up_name as [name], p.objID, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z FROM #x x, #upload u, PhotoTag p WHERE u.up_id = x.up_id and x.objID = p.objID ORDER BY x.up_id"
+2019-03-04 02:38:00,1
+2019-03-04 22:00:00,1
+2019-03-04 22:02:00,1

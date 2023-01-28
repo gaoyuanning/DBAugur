@@ -1,0 +1,2 @@
+1,"select top #  ra, dec, r, g from  photoObj where  type = #   and abs(ra-#) < #  and abs(dec-#) < #  and r < #"
+2019-10-06 21:54:00,1

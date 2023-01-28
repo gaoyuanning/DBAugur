@@ -1,0 +1,2 @@
+1,select * from batch.servers where privs like &&&
+2019-02-18 13:10:00,1

@@ -1,0 +1,2 @@
+1,"SELECT FLOOR (SpecObj.z/#) *#, COUNT (*) FROM Star INNER JOIN SpecObjALL ON SpecObj.bestObjID = Star.objID GROUP BY FLOOR (SpecObj.z/#) *#"
+2019-01-23 12:48:00,1

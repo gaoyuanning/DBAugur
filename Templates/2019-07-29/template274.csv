@@ -1,0 +1,2 @@
+1,"SELECT u.up_col0 as [col0], x.objID, p.ra, p.dec, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z  FROM #x x, #upload u, SpecPhotoAll s,PhotoObjAll p WHERE u.up_id = x.up_id and x.objID=p.objID and p.objID=s.objID  ORDER BY x.up_id"
+2019-07-29 12:48:00,1

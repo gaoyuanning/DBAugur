@@ -1,0 +1,3 @@
+7,"select u.*, r.RunID from Users u left join Runs r on r.UserID = u.UserID"
+2019-11-18 13:00:00,6
+2019-11-18 13:01:00,1

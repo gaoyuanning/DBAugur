@@ -1,0 +1,10 @@
+9,"SELECT TOP # u,g,r,i,z,ra,dec, flags_r  FROM Galaxy  WHERE  ra BETWEEN # and # AND dec BETWEEN # and #  AND ((flags_r & #) != #)  AND ((flags_r & #) = #)   AND (((flags_r & #) = #) or (psfmagerr_r <= #))  AND (((flags_r & #) = #) or (flags_r & #) = #)"
+2019-12-06 09:09:00,1
+2019-12-06 10:44:00,1
+2019-12-06 14:07:00,1
+2019-12-06 18:27:00,1
+2019-12-06 19:47:00,1
+2019-12-06 20:16:00,1
+2019-12-06 20:31:00,1
+2019-12-06 22:10:00,1
+2019-12-06 23:45:00,1

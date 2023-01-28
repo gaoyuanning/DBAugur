@@ -1,0 +1,2 @@
+1,"SELECT p.dr7objid, p.dr8objid, s.specObjID, s.z, plate, mjd, fiberID into mydb.MyTable_dr1# from PhotoObjDR7 p JOIN SpecDR7 f ON f.dr7objid = p.dr7objid JOIN SpecObjAll s ON s.specObjID = f.specObjID WHERE s.z> # and s.z< #"
+2019-06-23 16:36:00,1

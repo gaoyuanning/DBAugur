@@ -1,0 +1,2 @@
+1,"SELECT TOP # l,b into mydb.MyTable_# from gaiadr2.gaia_source ORDER BY RANDOM_INDEX"
+2019-06-13 12:49:00,1

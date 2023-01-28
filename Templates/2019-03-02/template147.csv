@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, SpecPhoto.z as specz, SpecPhoto.zErr as speczerr,  Photoz.z as photoz, Photoz.zErr as photozerr, absMagR,  dered_u, dered_g, dered_r, dered_i, dered_z,   modelMagErr_u, modelMagErr_g, modelMagErr_r,   modelMagErr_i, modelMagErr_z,  fiberMag_u, fiberMag_g, fiberMag_r, fiberMag_i, fiberMag_z from SpecPhoto JOIN Photoz on Photoz.objid = SpecPhoto.objid WHERE  class = &&& and  specz > # and  speczerr < #"
+2019-03-02 21:49:00,1

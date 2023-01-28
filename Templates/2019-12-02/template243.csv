@@ -1,0 +1,13 @@
+315,"SELECT p.objID,p.ra,p.dec,p.run,p.rerun,p.camcol,p.field,p.type,p.z,p.zErr,p.zWarning,p.class,p.subClass,p.survey,p.programname FROM dbo.fGetNearbyObjEq(#,#,#) as b, BESTDR1#..SpecPhotoAll as p WHERE b.objID = p.objID"
+2019-12-02 13:16:00,12
+2019-12-02 13:17:00,31
+2019-12-02 13:18:00,35
+2019-12-02 13:19:00,35
+2019-12-02 13:20:00,3
+2019-12-02 13:57:00,16
+2019-12-02 13:58:00,34
+2019-12-02 13:59:00,34
+2019-12-02 14:00:00,33
+2019-12-02 14:01:00,33
+2019-12-02 14:02:00,34
+2019-12-02 14:03:00,15

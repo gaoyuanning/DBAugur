@@ -1,0 +1,2 @@
+1,"select   S.bestobjID objectID, S.z redshift into mydb.Query1 from SpecObj S    where   S.z > # AND s.z<# AND (SpecClass=# OR SpecClass=#)"
+2019-06-01 14:19:00,1

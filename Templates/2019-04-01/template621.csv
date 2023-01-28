@@ -1,0 +1,5 @@
+6,"SELECT ALL p.specObjID, p.b, gal.z, g.lgm_tot_p5#, p.ra, p.dec FROM galSpecExtra AS g JOIN PhotoObjALL AS p ON p.specObjID = g.specObjID JOIN galSpecInfo AS gal ON gal.specobjID = p.specObjID JOIN SpecPhotoAll AS photo ON photo.specobjID = p.specobjID WHERE g.lgm_tot_p5# < # AND g.lgm_tot_p5# <> # AND p.b between # and # and gal.z < .# and  photo. type = #"
+2019-04-01 00:12:00,1
+2019-04-01 00:13:00,2
+2019-04-01 00:15:00,1
+2019-04-01 00:17:00,2

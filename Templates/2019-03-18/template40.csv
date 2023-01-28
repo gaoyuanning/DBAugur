@@ -1,0 +1,8 @@
+7,"select top # p.ra, p.dec, p.deVRad_r, q.z from galaxy p, dbo.fgetNearByObjEq(#,#,#) n, galSpecInfo q where p.objid=n.objid and p.specObjID=q.specObjID and p.specObjID<># and q.z># and abs(#*(#-q.z))<#"
+2019-03-18 08:46:00,1
+2019-03-18 09:50:00,1
+2019-03-18 09:51:00,1
+2019-03-18 10:11:00,1
+2019-03-18 23:20:00,1
+2019-03-18 23:27:00,1
+2019-03-18 23:32:00,1

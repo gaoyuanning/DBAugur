@@ -1,0 +1,2 @@
+1,"SELECT top # s.ra, s.dec, s.z, s.zErr, s.class, s.velDisp, s.velDispErr, s.velDispZ, s.targetType, # * s.z/# as distance, p.petroMag_r - p.extinction_r - # * log1# (# * s.z * #/#) + # as petroAbsMag_dered FROM SpecObjAll as s JOIN PhotoObj p ON s.bestObjID = p.objID WHERE abs (s.zErr/s.z) < # AND s.zWarning = # AND s.z > # AND s.z < # AND velDisp BETWEEN # AND # AND s.velDispErr > # AND s.velDispErr/s.velDisp < #"
+2019-09-06 05:54:00,1

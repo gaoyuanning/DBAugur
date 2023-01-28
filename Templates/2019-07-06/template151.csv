@@ -1,0 +1,5 @@
+4,"select e.snapnum, e.elementid ,      e.x1 ,e.y1  ,      e.x2 ,e.y2  ,      e.x3 ,e.y3  ,      e.s0,e.s1,e.s2,e.s3 ,      #*(e.s0+e.s3) as t, e.s0*e.s3-e.s1*e.s2 as d   from elemstress_SD1 e  where e.snapnum=#"
+2019-07-06 13:58:00,1
+2019-07-06 14:01:00,1
+2019-07-06 14:36:00,1
+2019-07-06 14:38:00,1

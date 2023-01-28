@@ -1,0 +1,2 @@
+1,select count(*) from emissionLinesPort where dec < #
+2019-05-01 01:23:00,1

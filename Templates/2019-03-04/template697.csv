@@ -1,0 +1,2 @@
+42,select psfmag_i-extinction_i AS mag_i from PhotoPrimary where objID=#
+2019-03-04 11:33:00,42

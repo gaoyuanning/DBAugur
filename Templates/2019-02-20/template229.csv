@@ -1,0 +1,2 @@
+1,"select yearId as year, playerId, sum(b.hr) as numHR   from baseball.batting   group by yearId, playerId ), hrs_ranked as ( select yearId, playerId, numHr ,      rank() over (partition by yearId, playerId order by numHR desc) as rank ) select hr.yearId,, hr.numHr,p.nameFIrst, p.nameLast    from hrs_ranked hr   join baseball.players p on p.playerid=b.playerid  where rank <=#  order by #,# desc"
+2019-02-20 18:35:00,1

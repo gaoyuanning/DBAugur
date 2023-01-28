@@ -1,0 +1,2 @@
+1,"select objID, p.psfMag_u as u, p.psfMag_g as g, p.psfMag_r as r, p.psfMag_i as i, p.psfMag_z as z from star where clean = # and psfmag_r < # and ra BETWEEN # and # and dec BETWEEN # and #"
+2019-03-03 01:16:00,1

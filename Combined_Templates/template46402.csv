@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.l, p.b, p.u, p.g, p.r, p.i, p.z, spp.ELODIERVFINAL, spp.ELODIERVFINALERR FROM PhotoObj AS p JOIN sppParams AS spp ON spp.bestobjid = p.objid WHERE p.l BETWEEN # AND # AND p.b BETWEEN # AND # AND spp.ELODIERVFINAL > #"
+2019-06-18 19:36:00,1

@@ -1,0 +1,2 @@
+1,select top # * FROM [cbioportal_mysql].[dbo].[cancer_study]
+2019-10-31 17:24:00,1

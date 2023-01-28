@@ -1,0 +1,2 @@
+1,"select top #  s.bestObjID, p.u, p.g, p.r, p.i, p.z,s.velDisp from PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid where  class = &&&   and z > #  and zWarning = #"
+2019-10-20 11:53:00,1

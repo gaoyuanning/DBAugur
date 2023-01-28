@@ -1,0 +1,4 @@
+4,"SELECT top # objid, ra, dec, plate, mjd, fiberID, z, class FROM SpecPhoto WHERE (class = #) AND zWarning = #"
+2019-09-20 09:28:00,1
+2019-09-20 09:29:00,2
+2019-09-20 09:30:00,1

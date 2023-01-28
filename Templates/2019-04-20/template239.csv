@@ -1,0 +1,2 @@
+1,"select cp1.attr_value as ETHNICITY ,      cp2.attr_value as IMMUNOHISTOCHEMISTRY   from cancer_study cs    inner join clinical_attribute_meta cam      on cam.cancer_study_id=cs.cancer_study_id  where cs.cancer_study_identifier=&&&"
+2019-04-20 17:23:00,1

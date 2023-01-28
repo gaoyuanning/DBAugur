@@ -1,0 +1,3 @@
+2,"SELECT dbo.fGetNearbyObjEq (#, #, #) AS n WHERE g.objid = n.objid"
+2019-04-16 14:59:00,1
+2019-04-16 15:00:00,1

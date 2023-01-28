@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID, ra, dec, z FROM galSpecExtra 	 WHERE     z > #. and z <= #"
+2019-10-31 17:46:00,1

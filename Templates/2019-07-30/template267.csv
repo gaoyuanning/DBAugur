@@ -1,0 +1,2 @@
+1,"SELECT TOP #  objid, ra, dec from galaxy  where dec < #"
+2019-07-30 15:48:00,1

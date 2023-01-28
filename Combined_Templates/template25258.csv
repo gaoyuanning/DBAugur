@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.specobjid, S.ra, s.dec, s.class, s.z, S.velDisp From SpecObj AS s WHERE s.sciencePrimary > # AND s.bossPrimary > # AND s.class = Galaxy AND"
+2019-03-29 20:06:00,1

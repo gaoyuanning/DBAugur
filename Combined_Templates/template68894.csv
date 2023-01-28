@@ -1,0 +1,5 @@
+4,"SELECT f1.specObjID, f1.mjd, f1.plate, f1.fiberID, f1.class, f1.ra, f1.dec, f1.z, f1.zErr, (f1.petroMag_u) - (f1.extinction_u) AS petro_u, (f1.petroMag_g) - (f1.extinction_g) AS petro_g, (f1.petroMag_r) - (f1.extinction_r) AS petro_r, (f1.petroMag_i) - (f1.extinction_i) AS petro_i, (f1.petroMag_z) - (f1.extinction_z) AS petro_z, f1.petroMagErr_u AS petro_uerr, f1.petroMagErr_g AS petro_gerr, f1.petroMagErr_r AS petro_rerr, f1.petroMagErr_i AS petro_ierr, f1.petroMagErr_z AS petro_zerr, f2.h_beta_flux, f2.h_beta_flux_err, f2.oiii_#_flux, f2.oiii_#_flux_err, f2.nii_#_flux, f2.nii_#_flux_err, f2.h_alpha_flux, f2.h_alpha_flux_err, f3.logMass, f3.logMass_median, f3.logMass_err, f3.logMass_min, f3.logMass_max, f3.chi2, f3.ssfr, f3.ssfr_mean, f3.ssfr_min, f3.ssfr_max into mydb.MyTable_# from SpecPhoto AS f1 JOIN GalSpecLine AS f2 ON f2.specObjID = f1.specObjID JOIN stellarMassFSPSGranWideDust AS f3 ON f1.specObjID = f3.specObjID WHERE f1.z BETWEEN # and # AND f1.sciencePrimary = # AND f1.zWarning = # AND f1.class = # AND f1.dec BETWEEN # and # AND f1.ra BETWEEN # and #"
+2019-10-09 05:59:00,1
+2019-10-09 06:00:00,1
+2019-10-09 06:02:00,1
+2019-10-09 06:03:00,1

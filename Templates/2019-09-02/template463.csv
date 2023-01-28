@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.z,p.objID  FROM ..SpecObj as s  JOIN ..PhotoObj AS p ON s.bestObjID = p.objID  WHERE s.z > # AND s.zWarning = # AND s.z < # AND ( p.type = # OR p.type = #) AND (s.primTarget & (dbo.fPrimTarget(&&&)) > #)"
+2019-09-02 07:29:00,1

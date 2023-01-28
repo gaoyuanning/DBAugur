@@ -1,0 +1,2 @@
+2,"SELECT ra, dec, zspec FROM galaxy WHERE ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-04-30 23:48:00,2

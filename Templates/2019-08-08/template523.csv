@@ -1,0 +1,2 @@
+2,"SELECT specObjID, psfMag_g, z INTO mydb.sdss1#gal_extras2 FROM SpecObj AS s   JOIN PhotObj AS p ON s.bestObjID = p.objID   WHERE class=&&& AND subClass!=&&& AND subClass!=&&& AND zWarning=#"
+2019-08-08 06:18:00,2

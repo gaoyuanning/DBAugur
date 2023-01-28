@@ -1,0 +1,2 @@
+1,"SELECT COUNT(*), Z BETWEEN # AND # FROM specobj WHERE class = &&& AND survey = &&& AND zWarning = #"
+2019-03-11 18:35:00,1

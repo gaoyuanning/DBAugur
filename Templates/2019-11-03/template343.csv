@@ -1,0 +1,2 @@
+1,"CREATE TABLE [TRACTS](         [ID] [bigint] NOT NULL IDENTITY(#,#) PRIMARY KEY,         [VINTAGE] [int] NOT NULL,         [STATE] [char](#) NOT NULL,         [COUNTY] [char](#) NOT NULL,         [TRACT] [char](#) NOT NULL,         CONSTRAINT AK_Unique_Tract UNIQUE (VINTAGE, STATE, COUNTY, TRACT),         [GEOM] [geography] NULL,         [CENTROID] [geography] NULL     )"
+2019-11-03 06:04:00,1

@@ -1,0 +1,13 @@
+13,"SELECT p.objid, p.run, p.rerun, p.camcol, p.field, p.obj, p.type, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.Err_u, p.Err_g, p.Err_r, p.Err_i, p.Err_z FROM fGetNearbyObjEq (#, #, #) n JOIN PhotoPrimary p ON n.objID = p.objID AND p.r BETWEEN # AND #"
+2019-04-15 13:36:00,1
+2019-04-19 11:19:00,1
+2019-04-19 11:28:00,1
+2019-04-21 01:33:00,1
+2019-04-21 04:47:00,1
+2019-04-23 19:48:00,1
+2019-04-23 19:49:00,2
+2019-04-23 19:52:00,1
+2019-04-24 02:00:00,1
+2019-05-02 13:38:00,1
+2019-05-02 13:58:00,1
+2019-07-01 20:34:00,1

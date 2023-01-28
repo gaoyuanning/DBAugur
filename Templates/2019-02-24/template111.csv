@@ -1,0 +1,7 @@
+9,"SELECT s.ra, s.dec,  s.psfmag_g-s.extinction_g as g,  s.psfmag_i-s.extinction_i as i,  s.psfmag_r-s.extinction_r as r,  s.psfmag_u-s.extinction_u as u,  s.psfmag_z-s.extinction_z as z FROM star as s JOIN propermotions as pm ON s.objid = pm.objid WHERE  s.ra BETWEEN # AND # and s.dec BETWEEN # and #  AND CLEAN=# AND s.psfmag_r < #"
+2019-02-24 20:19:00,3
+2019-02-24 20:20:00,1
+2019-02-24 20:31:00,2
+2019-02-24 21:16:00,1
+2019-02-24 21:17:00,1
+2019-02-24 21:22:00,1

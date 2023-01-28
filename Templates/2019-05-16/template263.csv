@@ -1,0 +1,4 @@
+5,"SELECT DISTINCT s.instrument, s.run2d, s.plate, s.mjd, s.fiberID FROM PhotoObjAll AS p JOIN SpecObjAll s ON p.objID = s.bestObjID WHERE (s.plate=# AND s.fiberid=#)"
+2019-05-16 08:46:00,2
+2019-05-16 09:56:00,2
+2019-05-16 14:05:00,1

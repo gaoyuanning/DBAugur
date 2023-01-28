@@ -1,0 +1,2 @@
+1,"SELECT Top # s.specObjID, s.ra, s.dec, p.objID FROM SpecObjAll as s INNER JOIN PhotoObjAll as p ON s.specObjID = p.specObjID WHERE s.SpecClass = # and s.z < #"
+2019-09-12 12:26:00,1

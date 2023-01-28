@@ -1,0 +1,2 @@
+1,"SELECT objId, z, zErr, O2EW, O2EWerr, HAEW, HAEWerr, HAEW2, sigma_balmer, sigma_balmer_err, sigma_forbidden, sigma_forbidden_err, absmagU - absmagR as URcolour, fracDeV_r, petroR5#_r, petroR5#Err_r, absMagR, modelMagErr_r FROM MyDB.lowzgalspec8"
+2019-01-22 08:38:00,1

@@ -1,0 +1,2 @@
+1,"SELECT   p.objid, p.ra, p.dec,  , p.fiberMag_u as u, p.fiberMag_g as g, p.fiberMag_r as r, p.fiberMag_i as i, p.fiberMag_z as z,  p.fiberMagErr_u as u_err, p.fiberMagErr_g as g_err, p.fiberMagErr_r as r_err, p.fiberMagErr_i as i_err, p.fiberMagErr_z as z_err   , s.class, s.z, s.zerr, p.clean  FROM PhotoObjAll AS p   JOIN SpecObj AS s ON s.bestobjid = p.objid  WHERE   p.objid = #"
+2019-05-08 08:44:00,1

@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec, u, g, r, i, z, err_u, err_g, err_r, err_i, err_z into mydb.dr7_#_#_#_#_galaxy FROM dbo.Galaxy WHERE ra between # and # AND dec between # and # AND u > #"
+2019-03-18 05:44:00,1

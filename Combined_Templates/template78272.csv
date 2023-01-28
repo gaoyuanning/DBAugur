@@ -1,0 +1,3 @@
+2,select top1 p.objID from Galaxy AS p where p.objid = #
+2019-11-22 01:59:00,1
+2019-11-22 02:01:00,1

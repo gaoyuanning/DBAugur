@@ -1,0 +1,2 @@
+1,"SELECT class, count (*) FROM SpecObj WHERE specObjID NOT IN () GROUP BY class"
+2019-05-17 12:59:00,1

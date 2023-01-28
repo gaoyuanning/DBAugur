@@ -1,0 +1,2 @@
+1,"select top # dred_u, dred_r, dered_i, ra, dec, bestObjID from specObj where class = # AND dred_u = # AND ra = # AND dec = #"
+2019-04-25 19:10:00,1

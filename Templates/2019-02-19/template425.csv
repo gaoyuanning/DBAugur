@@ -1,0 +1,6 @@
+6,"SELECT TOP #   p.objid ,p.ra ,p.dec,  p.u,p.g,p.r,p.i,p.z,  p.psfMag_u, p.psfMag_g,  p.psfMag_r, p.psfMag_i,  p.psfMag_z, p.modelMag_u,  p.modelMag_g, p.modelMag_r,  p.modelMag_i, p.modelMag_z,  s.specobjid, s.class,  s.z AS redshift  INTO mydb.DR9_galaxies_with_modMag  FROM PhotoObj AS p  JOIN SpecObj AS s ON  s.bestobjid = p.objid  WHERE s.z BETWEEN # AND #  AND s.class = &&&  ORDER BY NEWID()"
+2019-02-19 08:36:00,1
+2019-02-19 08:37:00,2
+2019-02-19 08:38:00,1
+2019-02-19 08:39:00,1
+2019-02-19 08:41:00,1

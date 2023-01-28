@@ -1,0 +1,2 @@
+3,"SELECT TOP #  specObjID,subclass,z,snMedian,dbo.fGetUrlFitsSpectrum(specObjID) as spectrumURL FROM specObj WHERE   subclass = &&& and zWarning = # and z>#"
+2019-08-08 06:39:00,3

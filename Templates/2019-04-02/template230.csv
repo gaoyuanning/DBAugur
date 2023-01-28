@@ -1,0 +1,2 @@
+1,"select     X.sdss_objid, S.objid, W.w1mpro, W.w2mpro, W.w3mpro, W.w4mpro,    W.w1sigmpro,W.w2sigmpro,W.w3sigmpro,W.w4sigmpro into mydb.MyTable_# from wise_xmatch as X     join wise_allsky as W on X.wise_cntr = W.cntr     join photoTag as S on X.sdss_objid = S.objid where S.nchild = #"
+2019-04-02 15:28:00,1

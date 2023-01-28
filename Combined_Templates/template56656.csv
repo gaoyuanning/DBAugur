@@ -1,0 +1,2 @@
+1,"SELECT FIRST # o.objID, o.petroMag_u, m.PGC_name FROM PhotoObjAll as o LEFT JOIN myDB.PGC as m ON o.objID = m.objID"
+2019-08-10 13:59:00,1

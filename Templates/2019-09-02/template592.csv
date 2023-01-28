@@ -1,0 +1,2 @@
+2,"SELECT st.ra, st.dec, dbo.fIAUFromEq(st.ra, st.dec) as name, n.distance, st.petroMag_r, dbo.fPhotoTypeN(st.type) as type FROM Star AS st, fGetNearbyObjEq(#,#,#) AS n WHERE st.objID = n.objID"
+2019-09-02 01:48:00,2

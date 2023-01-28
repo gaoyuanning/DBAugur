@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, IS# (s.specobjid, #) AS specobjid, IS# (s.z, #) AS zs , IS# (s.class, #) AS class , IS# (s.subclass, #) AS subclass wi.w1mag AS w1 and wi.w2mag AS w2 FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN WISE_allsky AS wi ON wi.coadd_id = p.objid"
+2019-08-13 11:12:00,1

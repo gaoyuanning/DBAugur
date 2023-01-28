@@ -1,0 +1,2 @@
+1,"SELECT     m.*, o.*  into mydb.cUVLGs_PhotoInfo_DR1# from MyDB.cUVLGs_coordinates AS m     OUTER APPLY dbo.fGetNearestObjEq( m.RA_deg, m.DEC_deg, #) AS n       LEFT JOIN PhotoObjAll AS o ON n.ObjID=o.ObjID"
+2019-03-19 14:20:00,1

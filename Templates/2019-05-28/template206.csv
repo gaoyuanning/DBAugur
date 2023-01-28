@@ -1,0 +1,2 @@
+1,"select run1, run2, Column1 from Stripe8#RunOverlap   where Column1 > #   order by Column1 desc"
+2019-05-28 16:35:00,1

@@ -1,0 +1,2 @@
+1,"select distinct eid, spherical_power_left_# from dbo.Autorefraction a cross apply openjson (spherical_power_left_#) j"
+2019-08-30 15:16:00,1

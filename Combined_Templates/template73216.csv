@@ -1,0 +1,2 @@
+1,"SELECT top # ew.Halpha2#err, s.targetType, s.subclass FROM spplines ew JOIN SpecObj s on s.specObjID = ew.specObjID JOIN sppParams par on par.specObjID = ew.specObjID WHERE Halpha2#cont> # and s.class = #"
+2019-11-02 14:01:00,1

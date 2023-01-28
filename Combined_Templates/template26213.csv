@@ -1,0 +1,3 @@
+3,"SELECT top # Name, Composer, milliseconds/# as seconds , bytes/# as MB FROM chinook.Track WHERE Composer = #"
+2019-03-31 11:54:00,1
+2019-04-01 15:36:00,2

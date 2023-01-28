@@ -1,0 +1,4 @@
+3,"SELECT ra, dec, petroMag_r, modelMag_g, modelMag_r, extinction_g, extinction_r, petroR5#_r, specObjID into mydb.MyTable from Galaxy WHERE (ra between # and #) and (dec between # and #) and petroMag_r> # and cModelmag_r-psfMag_r> # and clean = #"
+2019-05-01 16:37:00,1
+2019-05-01 16:41:00,1
+2019-05-01 16:58:00,1

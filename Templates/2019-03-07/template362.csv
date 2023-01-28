@@ -1,0 +1,2 @@
+1,"SELECT  modelMag_g, modelMag_r FROM PhotoPrimary  WHERE (ra between # and #) and (dec between # and #)and Type = #"
+2019-03-07 17:48:00,1

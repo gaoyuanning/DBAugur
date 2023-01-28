@@ -1,0 +1,2 @@
+1,"SELECT g.galid, g.ra, g.dec, g.u, g.g, g.r, s.dr7objid, s.z, s.type FROM Galaxy AS g JOIN SpecDR7 AS s ON s.dr7objid = g.galid WHERE g.ra BETWEEN # AND # AND g.dec BETWEEN # AND # AND s.z between # AND # AND s.type = #"
+2019-02-05 14:40:00,1

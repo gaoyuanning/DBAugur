@@ -1,0 +1,3 @@
+2,"select apo.*, asp.*, apostar.* into mydb.ApoDR1#P2 from aspcapStar as asp join apogeeObject as apo on asp.target_id = apo.target_id join apogeeStar as apostar on apostar.target_id = apo.target_id where (asp.aspcapflag & dbo.fApogeeAspcapFlag (#) ) = # and apostar.glon < #"
+2019-12-24 04:23:00,1
+2019-12-24 04:27:00,1

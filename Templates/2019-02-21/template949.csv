@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, ra, dec, modelMag_g, z, type WHERE z > # AND type = #"
+2019-02-21 00:34:00,1

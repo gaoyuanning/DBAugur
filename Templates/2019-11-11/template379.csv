@@ -1,0 +1,2 @@
+1,"SELECT ID, ADDRESS, wkt=COORDS.ToString() FROM optw.tamass.ASSETS"
+2019-11-11 05:51:00,1

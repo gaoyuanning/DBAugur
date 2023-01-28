@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.g, p.i, p.clean, p.type, p.psfMag_g, p.petroMag_g, p.psfMag_i, p.petroMag_i FROM PhotoObj AS p"
+2019-03-12 16:12:00,1

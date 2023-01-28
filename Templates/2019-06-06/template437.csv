@@ -1,0 +1,2 @@
+2,"SELECT      sp.specObjID,      sp.modelMag_r,     sl.lineID,     sl.specobjID,     sl.z,     sl.height,     sl.heightErr,     sl.wave,     sl.sigma into mydb.mz_tab7 from Galaxy AS sp, specLine as sl   WHERE sp.specObjID = sl.specobjID   AND (sl.lineID = # OR sl.lineID = #)   AND sl.height > #"
+2019-06-06 06:24:00,2

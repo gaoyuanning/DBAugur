@@ -1,0 +1,10 @@
+9,"SELECT a.l, a.b, f.profMean into mydb.MyTable_# from PhotoObjAll as a JOIN PhotoProfile as f ON a.objID = f.objID JOIN SpecObjAll as s ON a.objID = s.bestObjID WHERE a.b > # AND a.b < # AND a.l > # AND a.l < # AND f.profMean < # AND f.bin = # AND f.band = #"
+2019-12-02 17:27:00,1
+2019-12-02 17:36:00,1
+2019-12-02 17:42:00,1
+2019-12-02 17:51:00,1
+2019-12-02 18:00:00,1
+2019-12-03 12:30:00,1
+2019-12-03 12:31:00,1
+2019-12-03 12:39:00,1
+2019-12-03 12:40:00,1

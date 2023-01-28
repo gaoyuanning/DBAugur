@@ -1,0 +1,2 @@
+1,"SELECT TOP # g.dr7objid, g.ra, g.dec, g.SpecObjID into mydb.MyTable_# from PhotoObjDR7 g JOIN SpecObjAll s ON g.SpecObjID = s.specObjID WHERE g.ra BETWEEN # AND # AND g.dec BETWEEN # AND # AND g.primTarget & dbo.fPrimTarget (#) > # AND g.SpecObjID > #"
+2019-05-14 11:17:00,1

@@ -1,0 +1,3 @@
+4,"SELECT TOP # CONVERT (DECIMAL (#, #) , IS# (pz.distMod, #) ), CONVERT (DECIMAL (#, #) , IS# (s.z, #) ) FROM MyDB.FIRST_Reduced_#p0#deg AS f OUTER APPLY dbo.fGetNearestObjEq (f.ra, f.dec, #) AS x JOIN PhotoZ pz ON pz.objID = x.objID LEFT JOIN SpecObjAll s ON s.bestObjID = pz.objID"
+2019-07-05 04:55:00,2
+2019-07-05 04:56:00,2

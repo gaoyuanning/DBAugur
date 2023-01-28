@@ -1,0 +1,2 @@
+1,"select round (x, #) , x from data group by round (x, #) count by #"
+2019-04-24 12:49:00,1

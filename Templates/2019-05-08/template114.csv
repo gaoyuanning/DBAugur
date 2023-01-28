@@ -1,0 +1,7 @@
+7,"SELECT str(s.ra,#,#) as ra,str(s.[dec],#,#) as dec,s.targetID,s.z,s.zErr,s.zWarning FROM BESTDR7..SpecObj as s 	JOIN BESTDR7..PhotoObj AS p ON s.bestObjID = p.objID 	JOIN dbo.fGetObjFromRect(#,#,#,#) AS b ON p.objID = b.objID  WHERE  s.z > # AND (s.specClass = dbo.fSpecClass(&&&)) AND s.z < # AND ( p.type = # OR p.type = #)"
+2019-05-08 19:46:00,1
+2019-05-08 19:48:00,1
+2019-05-08 19:50:00,1
+2019-05-08 19:51:00,1
+2019-05-08 19:52:00,1
+2019-05-08 19:55:00,2

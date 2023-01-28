@@ -1,0 +1,7 @@
+6,"SELECT TOP # sp.objID,   sp.ra,   sp.dec,   sp.mjd,   px.taiBegin,   px.taiEnd,   sp.fiberID,   sp.z   FROM specPhoto AS sp   JOIN plateX AS px ON sp.plateID = px.plateID   WHERE   (sp.class=&&&)   AND sp.z > #"
+2019-05-19 10:09:00,1
+2019-05-19 10:22:00,1
+2019-05-19 13:03:00,1
+2019-05-19 13:18:00,1
+2019-05-19 20:15:00,1
+2019-05-19 21:22:00,1

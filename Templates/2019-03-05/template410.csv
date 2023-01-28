@@ -1,0 +1,6 @@
+5,"select objID, ra, dec, psfmag_r from star where (ra between ( # ) and ( # ) or ra between ( # ) and ( # ) or ra between ( # ) and ( # )) and dec between ( # ) and ( # ) and psfmag_r < #"
+2019-03-05 13:37:00,1
+2019-03-05 13:47:00,1
+2019-03-05 14:19:00,1
+2019-03-05 14:22:00,1
+2019-03-05 14:26:00,1

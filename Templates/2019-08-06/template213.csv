@@ -1,0 +1,4 @@
+4,"SELECT    regionid, convexid, patch, type, radius, ra, dec, x, y, z, c, htmid, convexString into mydb.MyTable from RegionConvex"
+2019-08-06 12:55:00,1
+2019-08-06 13:02:00,1
+2019-08-06 13:04:00,2

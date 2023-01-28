@@ -1,0 +1,2 @@
+1,"SELECT m.ra, m.dec, s.plate, s.mjd, s.fiberid, dbo.fGetNearestSpecObjIdEq(m.ra, m.dec, #) as SpecobjID into mydb.WD1Match from MyDB.WD1Coords as m WHERE dbo.fGetNearestSpecObjIdEq(m.ra, m.dec, #) IS NOT NULL JOIN dbo.specObjAll as s ON s.specobjID = dbo.fGetNearestSpecObjIdEq(m.ra, m.dec, #)"
+2019-03-29 13:02:00,1

@@ -1,0 +1,2 @@
+1,"select sum(t.unitprice) album_price, a.albumid from chinook.track t left join chinook.album a on a.albumid = t.albumid group by t.albumid order by album_price asc"
+2019-05-17 09:46:00,1

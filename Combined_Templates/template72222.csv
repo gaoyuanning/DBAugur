@@ -1,0 +1,4 @@
+4,"SELECT sp.objid, sp.ra, sp.dec, sp.class, sp.z FROM SpecPhoto AS sp JOIN apogeeOBJECT as a ON sp.dec = a.dec WHERE z > # AND z < # AND class = GALAXY#"
+2019-10-28 20:44:00,2
+2019-10-28 20:52:00,1
+2019-10-28 20:57:00,1

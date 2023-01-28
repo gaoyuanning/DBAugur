@@ -1,0 +1,3 @@
+2,"SELECT p.objid, p.g, p.u, p.i - p.z FROM PhotoObj as p WHERE p.objid = # or p.objid = # or p.objid = #"
+2019-02-26 18:43:00,1
+2019-02-26 18:45:00,1

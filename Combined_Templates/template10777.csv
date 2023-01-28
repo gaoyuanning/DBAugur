@@ -1,0 +1,4 @@
+3,"select sp.bestObjID, sp.ra, sp.dec, sp.z, sp.velDisp, ( (po.petroR5#_u + po.petroR5#_g + po.petroR5#_r + po.petroR5#_i + po.petroR5#_z) /#) as petro5#av, ( (po.petroR9#_u + po.petroR9#_g + po.petroR9#_r + po.petroR9#_i + po.petroR9#_z) /#) as petro9#av, ( (po.mE1_u + po.mE1_g + po.mE1_r + po.mE1_i + po.mE1_z) /#) as E1av, ( (po.mE2_u + po.mE2_g + po.mE2_r + po.mE2_i + po.mE2_z) /#) as E2av into MyTable_# from specObj as sp JOIN photoObj po ON sp.bestObjID = po.objID where sp.ra BETWEEN # and # AND sp.class = # AND sp.dec BETWEEN # and # and sp.z BETWEEN # and #"
+2019-02-13 15:24:00,1
+2019-02-13 15:25:00,1
+2019-02-13 15:50:00,1

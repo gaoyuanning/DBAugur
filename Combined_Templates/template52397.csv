@@ -1,0 +1,2 @@
+1,"SELECT avg (x) - # as dx , avg (y) - # as dy, avg (z) # as dz FROM mr TABLESAMPLE (# PERCENT)"
+2019-07-17 09:36:00,1

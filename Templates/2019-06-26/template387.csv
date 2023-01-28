@@ -1,0 +1,2 @@
+1,"select alt_id,rv_teff from Tables where alt_id BETWEEN # and # AND rv_teff BETWEEN # and #"
+2019-06-26 11:25:00,1

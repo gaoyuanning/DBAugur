@@ -1,0 +1,2 @@
+1,"SELECT top # bestObjId, class, count (z) as num_redshift FROM specObj and ra > # and ra < # and dec > # and dec < # and z > # and z_Warning = # group by class"
+2019-07-19 11:07:00,1

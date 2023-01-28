@@ -1,0 +1,8 @@
+8,"SELECT ALL ROW_NUMBER() OVER (ORDER BY s.ra ASC) as RowNumber, s.ra, s.dec, s.z, sfr_tot_p9#p5, specsfr_tot_p9#p5 FROM GalSpecExtra AS g JOIN SpecObj AS s ON s.specobjid = g.specobjid WHERE s.class = &&& AND s.zwarning = # AND s.ra BETWEEN # and #"
+2019-01-24 15:36:00,1
+2019-01-24 15:38:00,2
+2019-01-24 15:40:00,1
+2019-01-24 15:42:00,1
+2019-01-24 15:44:00,1
+2019-01-24 15:46:00,1
+2019-01-24 15:47:00,1

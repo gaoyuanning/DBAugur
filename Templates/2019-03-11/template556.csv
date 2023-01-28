@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid,p.ra,p.dec,p.deVAB_r,  s.specobjid, s.class, d.logMass FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid  JOIN stellarMassStarformingPort AS d ON s.specobjid = d.specobjid"
+2019-03-11 03:43:00,1

@@ -1,0 +1,2 @@
+1,"SELECT u.up_name as [name], s.specobjid, s.ra, s.dec, s.plate, s.mjd, s.fiberid, sp.fehadop,sp.fehadopunc,sp.elodiervfinal,sp.elodiervfinalerr,sp.fehspec,sp.fehspecunc,p.psfMag_g FROM #upload u       JOIN #x x ON x.up_id = u.up_id       JOIN SpecObjAll s ON s.specObjID = x.specObjID       JOIN sppParams AS sp ON sp.specobjid = s.specobjid       JOIN PhotoTag p ON p.objID = s.bestObjID"
+2019-05-24 22:08:00,1

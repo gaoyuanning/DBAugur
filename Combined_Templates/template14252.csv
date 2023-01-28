@@ -1,0 +1,2 @@
+1,"select top # * --yearid, count (*) , min (g) , max (g) , from baseball.batting --"
+2019-02-25 09:42:00,1

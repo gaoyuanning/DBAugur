@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.ra, s.dec, s.z, s.zErr, log1# (s.velDisp) as logsigstar, log1# (e) * s.velDispErr / s.velDisp as logsigstarErr, s.snMedian, l.Sigma_Ha_#, l.Sigma_Ha_#_Err, log1# (l.Sigma_Hb_#) as logsigB, l.Sigma_Hb_#_Err/l.Sigma_Hb_# as logsigBErr, mpa.lgm_tot_p5# as lgm, (mpa.lgm_tot_p8#-mpa.lgm_tot_p1#) /#. as lgm_Err, mpa.sfr_tot_p5# as lsfr, (mpa.sfr_tot_p8#-mpa.sfr_tot_p1#) /#. as lsfr_Err INTO mydb.methclass FROM SpecObj AS s JOIN emissionLinesPort as l ON s.specobjid = l.specobjid JOIN galSpecExtra as mpa on s.specobjid = mpa.specobjid"
+2019-05-29 03:27:00,1

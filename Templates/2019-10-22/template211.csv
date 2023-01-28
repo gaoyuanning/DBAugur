@@ -1,0 +1,2 @@
+1,"SELECT    m.CATID, m.RA AS ra1, m.DEC AS dec1,    n.objid, n.distance,   o.ra AS ra2, o.dec AS dec2,   o.fiberMag_u, o.fiberMag_g, o.fiberMag_r, o.fiberMag_i, o.fiberMag_z,    o.psfMag_u, o.psfMag_g, o.psfMag_r, o.psfMag_i, o.psfMag_z,   o.fiberMagErr_u, o.fiberMagErr_g, o.fiberMagErr_r, o.fiberMagErr_i, o.fiberMagErr_z,    o.psfMagErr_u, o.psfMagErr_g, o.psfMagErr_r, o.psfMagErr_i, o.psfMagErr_z into mydb.MyTable from MyDB.sami_gama_coords AS m    CROSS APPLY dbo.fGetNearestObjEq( m.ra, m.dec, #) AS n    JOIN PhotoObj AS o ON n.objid=o.objid"
+2019-10-22 19:19:00,1

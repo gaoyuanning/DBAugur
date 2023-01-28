@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.specObjID, s.z, dbo.fCosmoAbsMag (g.modelMag_r-g.extinction_r, s.z) M_r, dbo.fCosmoDl (s.z) D_l , g.modelMag_r-g.extinction_r m_r FROM Galaxy as g INNER JOIN SpecObjAll s ON s.bestObjID = g.objID WHERE s.z > # AND s.z< # AND dbo.fCosmoAbsMag (g.modelMag_r-g.extinction_r, s.z) < # and (s.primTarget & #) ! = # and (s.primTarget & #) = #"
+2019-01-25 05:08:00,1

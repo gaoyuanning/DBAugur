@@ -1,0 +1,2 @@
+1,"SELECT  s.objid, s.ra, s.dec, s.u, s.g, s.r, s.i, s.z FROM star s JOIN bro.fGetNearbyObjEq(#, #, #) n on n .objid= s.objid"
+2019-11-25 01:05:00,1

@@ -1,0 +1,2 @@
+1,"SELECT s.specobjid,s.bestObjID, s.ra, s.dec, s.plate, s.mjd, s.fiberid,   m.oiii_#_cont, m.h_beta_cont, m.nii_#_cont, m.h_alpha_cont,  m.oiii_#_flux, m.h_beta_flux, m.nii_#_flux, m.h_alpha_flux FROM #upload u  JOIN SpecObjAll s ON (s.plate=u.up_plate AND s.mjd=u.up_mjd AND s.fiberID=u.up_fiber)  JOIN galSpecLine m ON m.specObjID = s.specobjid  JOIN PhotoObj k ON k.objID = s.bestObjID&&&#', @log=#, @filter=#"
+2019-03-31 23:14:00,1

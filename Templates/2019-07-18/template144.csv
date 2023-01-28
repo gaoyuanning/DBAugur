@@ -1,0 +1,3 @@
+3,"SELECT ra, dec, modelmag_g From star Where ra between # and # and dec between # and #"
+2019-07-18 20:54:00,2
+2019-07-18 20:56:00,1

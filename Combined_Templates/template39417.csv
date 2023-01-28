@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.ra, p.dec, s.z, s.zErr, s.zWarning into mydb.MyTable_# from PhotoObjAll p JOIN SpecObjALL s ON p.objID = s.bestObjID WHERE p.ra BETWEEN # AND # AND p.dec BETWEEN # AND # AND s.z BETWEEN # AND # AND s.zWarning = #"
+2019-05-14 09:03:00,1

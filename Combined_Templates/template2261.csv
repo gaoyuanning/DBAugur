@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.z, s.specobjid, s.z, s.plate, s.mjd, s.fiberid, rest_ug FROM Galaxy WHERE r < #"
+2019-01-11 15:53:00,1

@@ -1,0 +1,2 @@
+1,"select s.specObjID, s.bestObjID, s.ra, s.dec, s.z, s.class, p.r, p.u from SpecObj as s,PhotoObj as p, dbo.fGetNearbyObjEq(#, #, #) as n where s.bestObjID = n.objID AND s.z BETWEEN # and # AND s.specObjID = p.specObjID AND  p.objID = n.objID AND s.specObjID = l.specObjID AND s.z BETWEEN # and #"
+2019-03-30 23:49:00,1

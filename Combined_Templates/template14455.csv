@@ -1,0 +1,4 @@
+3,"SELECT ALL into mydb.S1#_formatted_hosts inp.*, db.dr7objid as objID FROM PhotoPrimaryDR7 db, mydb.formatted_T1 inp WHERE inp.objIDHost = db.dr8objid"
+2019-02-26 17:54:00,1
+2019-02-26 17:58:00,1
+2019-02-26 17:59:00,1

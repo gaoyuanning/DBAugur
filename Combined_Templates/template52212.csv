@@ -1,0 +1,2 @@
+1,"SELECT top # s.specObjID, lgm_tot_p9#p5 as M, u.D4#_MODEL, u.D4#_SUB, u.D4#_N, u.D4#_N_MODEL, u.D4#_N_SUB, sst.t_age as tage, sst.age as aage, sst.logmass as lgmass, sst.cModelAbsMag_r as absR, sst.m2l_r as m2l1, sst.z as rdshift, sp.z as redshift1, sp.class From galSpecExtra as s join galSpecIndx as u on u.specObjID = s.specObjID join stellarMassFSPSGranWideDust as sst on sst.specObjID = s.specObjID join specphoto as sp on sp.specObjID = s.specObjID Where sst.z < # sp.class = = GLALXY#"
+2019-07-16 05:26:00,1

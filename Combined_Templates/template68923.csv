@@ -1,0 +1,4 @@
+4,"SELECT COUNT (*) FROM (SELECT objID, ra, dec, type FROM PhotoObjAll WHERE ra BETWEEN # AND # AND dec BETWEEN # AND # AND type = # AND psfMag_r < #) contagem_galaxias_r1#"
+2019-10-10 19:22:00,1
+2019-10-10 19:23:00,2
+2019-10-10 19:24:00,1

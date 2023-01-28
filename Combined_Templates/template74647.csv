@@ -1,0 +1,2 @@
+1,"select top # haloid , lastprogenitorid, mainleafid, m_crit2#, d.np from MR d where snapnum = # -- reshift = # and firsthaloinfofgroupid = d.haloid -- centers of FOF groups and m_crit2# between # and # order by newid () -- random sub sample"
+2019-11-08 10:00:00,1

@@ -1,0 +1,3 @@
+2,"SELECT t.ra, t.dec, t.plate, t.mjd, t.fiberid, t.petromag_r, g.oiii_#_eqw, t.z into mydb.SDSS_gal_# FROM specphotoall as t JOIN dbo.galSpecLine AS g ON g.specobjid = t.specobjid where (t.Class = # or t.Class = #) and t.sciencePrimary> # and t.ZWARNING = # and t.petromag_r> # and g.oiii_#_eqw< #"
+2019-01-23 14:09:00,1
+2019-01-24 15:54:00,1

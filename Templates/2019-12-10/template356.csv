@@ -1,0 +1,2 @@
+1,select * into mydb.MyTable from MyDB.t1 ;
+2019-12-10 10:34:00,1

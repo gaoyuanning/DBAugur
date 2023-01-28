@@ -1,0 +1,2 @@
+1,"SELECT G.ra,G.dec,G.type,G.cModelMag_g,G.cModelMag_r into mydb.CIRs_# From  galaxy G, mydb.CIRs x    WHERE     (G.flags & dbo.fPhotoFlags(&&&)) = #     and x.name= G.ObjID"
+2019-12-04 03:16:00,1

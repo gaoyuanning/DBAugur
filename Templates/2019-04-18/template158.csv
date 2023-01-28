@@ -1,0 +1,4 @@
+5,"select count(*) from specobj where zwarning = #  and bestobjid > #  and class = &&&  and survey in (&&&, &&&)  and snmedian > #  and (z >= # and z < #)"
+2019-04-18 21:08:00,1
+2019-04-18 21:12:00,2
+2019-04-18 21:13:00,2

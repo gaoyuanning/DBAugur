@@ -1,0 +1,5 @@
+4,"SELECT TOP #   objID,   ra,   dec,   psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z,   dbo.fPhotoFlagsN(flags)   FROM Galaxy   WHERE   (flags & (dbo.fPhotoFlags(&&&))) != #"
+2019-06-23 03:47:00,1
+2019-06-23 08:56:00,1
+2019-06-23 15:52:00,1
+2019-06-23 17:08:00,1

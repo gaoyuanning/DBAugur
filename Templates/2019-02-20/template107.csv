@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.mjd, s.plate, s.fiberid FROM sppParams AS s WHERE   s.TEFFADOP BETWEEN # AND #"
+2019-02-20 21:13:00,1

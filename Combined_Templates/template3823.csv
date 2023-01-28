@@ -1,0 +1,2 @@
+2,"SELECT poall.objID, poall.ra, poall.dec, poall.u, poall.g, poall.r, poall.i, poall.z, ph.z, ph.zErr into mydb.S8#_DR1#_photoz from PhotoObjAll as poall join Photoz as ph on poall.objID = ph.objID WHERE ra between # and # and dec between # and #"
+2019-01-16 03:28:00,2

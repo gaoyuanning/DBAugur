@@ -1,0 +1,2 @@
+1,"SELECT es.StudentID, ts.SchoolYear4digit, es.Period FROM Enrollment e INNER JOIN TestScores ts ON e.SystemStudentID = ts.SystemStudentID INNER JOIN ParentEngagement pe ON pe.SystemStudentID = ts.SystemStudentID INNER JOIN EmotionalScreener es ON es.StudentID = pe.SystemStudentID"
+2019-04-19 18:15:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # survey, plate, mjd, fiberid, z  FROM specObj  WHERE   Class = &&& AND zWarning=# AND SNRmedian >#  AND z>= # AND z <=#  Order by z, NewID()"
+2019-11-13 22:19:00,1

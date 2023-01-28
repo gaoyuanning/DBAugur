@@ -1,0 +1,2 @@
+1,"CREATE TABLE [Physical_activity_yesterday] ( 	eid BIGINT NOT NULL ,	[Time_spent_doing_vigorous_physical_activity_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Time_spent_doing_moderate_physical_activity_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Time_spent_doing_light_physical_activity_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=# ,PRIMARY KEY (eid)) GO"
+2019-05-01 09:28:00,1

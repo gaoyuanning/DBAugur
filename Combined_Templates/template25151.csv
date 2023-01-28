@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID, survey, bestobjid, z /*Table of top # objects with redshift*/ FROM SpecObj /*Objects with spectra*/ WHERE class = # /* The objects shown will all be QSO#sdss' AND z BETWEEN # and # /*Specifying the range of z used to obtain the data */ AND htmid*# & # < (# * #) /* This is the randomisation algorithm*/"
+2019-03-28 09:36:00,1

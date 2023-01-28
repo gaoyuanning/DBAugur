@@ -1,0 +1,4 @@
+4,"SELECT TOP # specObjID,  objID,  ra,   dec,   psfMag_u, Err_u, psfMag_g, Err_g, psfMag_r,Err_r, psfMag_i, Err_i, psfMag_z, Err_z  FROM PhotoObjAll"
+2019-03-26 21:55:00,2
+2019-03-26 21:56:00,1
+2019-03-26 21:57:00,1

@@ -1,0 +1,4 @@
+3,"SELECT G.objID, GN.distance, P.z, G.ra, G.dec, G.u_r, G.q_r, G.petroR5#_r, G.deVMag_r into mydb.SDSS_HOSTLIB_# from PhotoPrimary AS G JOIN dbo.fGetNearbyObjEq (#, #, #) AS GN ON G.objID = GN.objID JOIN Photoz AS P ON P.objID = G.objid WHERE (G.flags & dbo.fPhotoFlags (#) ) = # AND G.type = # ORDER BY distance"
+2019-03-04 16:27:00,1
+2019-03-04 17:14:00,1
+2019-03-04 18:41:00,1

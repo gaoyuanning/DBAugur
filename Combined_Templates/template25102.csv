@@ -1,0 +1,2 @@
+1,"SELECT top # sp.plate, sp.mjd, sp.fiberid, sp.specobjid, sp.bestobjid, sp.elodiervfinal, sp.teffadop, sp.fehadop, sp.loggadop, objID, ra , dec FROM sppParams as sp WHERE sp.teffadop between # and # AND ra > # and ra < # AND dec > # and dec < #"
+2019-03-28 23:48:00,1

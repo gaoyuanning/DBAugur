@@ -1,0 +1,5 @@
+4,"select s.plate, s.mjd, s.fiberID into mydb.sdssdr1#_spec from dr1#.SpecObjAll as s"
+2019-02-11 13:55:00,1
+2019-02-11 13:56:00,1
+2019-02-11 13:59:00,1
+2019-02-11 14:00:00,1

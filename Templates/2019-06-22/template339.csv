@@ -1,0 +1,2 @@
+1,"SELECT round(absMagR,#) as absMagR, COUNT(*) as cnt FROM Photoz WHERE  z BETWEEN # and #  and photoErrorClass=# and nnCount>#  and zErr BETWEEN # and # group by round(absMagR,#) order by round(absMagR,#)"
+2019-06-22 01:43:00,1

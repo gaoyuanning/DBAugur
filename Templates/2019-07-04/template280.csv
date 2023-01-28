@@ -1,0 +1,2 @@
+1,"select &&&+c.table_name as table_name, c.column_name,ci.datatype,ci.encoding_id ,c.ordinal_position   from information_schema.columns c         inner join metadata.columninfo ci     on ci.table_name=c.table_name and c.column_name like ci.column_name+&&&     order by #,"
+2019-07-04 12:25:00,1

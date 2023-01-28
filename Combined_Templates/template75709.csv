@@ -1,0 +1,2 @@
+1,"SELECT id.dr8objid, p.r, p.extinction_r into mydb.ids_modelmags from mydb.DR1#_ids AS id, PhotoObj AS p WHERE id.dr8objid = p.objID"
+2019-11-13 04:49:00,1

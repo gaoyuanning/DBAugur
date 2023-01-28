@@ -1,0 +1,4 @@
+7,select count (*) from sppParams where TEFFADOP > #. and TEFFADOP< =# and LOGGADOP< # and FEHADOP> #
+2019-05-07 00:29:00,3
+2019-05-07 00:30:00,2
+2019-05-07 00:40:00,2

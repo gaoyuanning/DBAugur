@@ -1,0 +1,2 @@
+1,"SELECT psfFlux_r, psfFlux_g, psfFlux_z, psfFluxIvar_r,  psfFluxIvar_g, psfFluxIvar_z, ra, dec FROM PhotoPrimary WHERE ra > # AND ra < # AND dec > # AND dec < #"
+2019-06-17 14:47:00,1

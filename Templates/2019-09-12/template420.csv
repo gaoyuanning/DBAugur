@@ -1,0 +1,2 @@
+1,"SELECT TOP #   p7.objID ,p.VAGC FROM MyDB.Cluster_Yang p   JOIN PhotoObjAll p7 ON p.mjd = p7.mjd and p.plate = p7.plate and p.fiberid = p7.fiberid"
+2019-09-12 09:09:00,1

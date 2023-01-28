@@ -1,0 +1,2 @@
+1,select top # * from galaxy where objId = #) a join matchhead b on a.objid = b.objid -- join with matchhead join photoobj p on a.objid = p.objid -- get matchhead photoobj join match c on c.objid1 = b.objid -- join with all the matches join photoobjall d on c.objid2 = d.objid -- get match photoobj order by a.objid -- order by matchhead objid
+2019-09-02 14:45:00,1

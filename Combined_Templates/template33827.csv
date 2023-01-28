@@ -1,0 +1,2 @@
+1,"SELECT chinook.Genre.Name, chinook.MediaType.Name FROM chinook.Genre CROSS JOIN chinook.MediaType;"
+2019-04-24 01:43:00,1

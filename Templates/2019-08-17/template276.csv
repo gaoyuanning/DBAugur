@@ -1,0 +1,2 @@
+1,"select   m.objid as objid_Pratik, s.clean, g.*   into mydb.SAGAN7#_LINE_DR1#    from   galspecline g, specobj s, mydb.sagan7# m    where   m.objid = s.bestobjid   and s.specobjid = g.specobjid"
+2019-08-17 00:29:00,1

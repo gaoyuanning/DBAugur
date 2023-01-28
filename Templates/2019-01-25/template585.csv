@@ -1,0 +1,2 @@
+2,"SELECT ALL ROW_NUMBER() OVER (ORDER BY s.ra ASC) as RowNumber, s.ra, s.dec, s.z, SFR, absMagK, SFH, Metallicity, logMass, age, minAge, maxAge FROM stellarMassStarformingPort AS g JOIN SpecObj AS s ON s.specobjid = g.specobjid WHERE s.class = &&& AND s.zwarning = # AND s.ra BETWEEN # and #"
+2019-01-25 00:00:00,2

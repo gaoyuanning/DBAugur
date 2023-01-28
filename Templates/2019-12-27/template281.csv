@@ -1,0 +1,2 @@
+1,"SELECT s.z, s.ra, s.dec, s.petromag_u, s.petromag_r, s.extinction_u,   s.extinction_r, p.kcorrR, z.spiral, z.elliptical, z.uncertain FROM specphoto AS s, photoz AS p,zoospec as z INTO mydb.colldz WHERE class=&&&and s.ObjID=p.ObjID and s.ObjID=z.ObjID and s.zwarning=# and s.z between # and # and"
+2019-12-27 01:44:00,1

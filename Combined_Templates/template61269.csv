@@ -1,0 +1,2 @@
+1,SELECT count (*) from PhotoObjAll into mydb.sdssdr1#_PhotoObjAll_nobj
+2019-09-05 08:51:00,1

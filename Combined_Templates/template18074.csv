@@ -1,0 +1,4 @@
+5,"SELECT ra, dec, dbo.fGetNearestObjIdEq (ra, dec, #) as objId --FROM mydb.test_radec --into mydb.test_# --WHERE dbo.fGetNearestObjIdEq (ra, dec, #) IS NOT # SELECT TOP # p.ra, p.dec, p.run, p.rerun, p.camCol, p.field, p.obj FROM PhotoObjAll as p, mydb.test_# as a, SpecObjAll as s into mydb.test_photo WHERE (p.type = # OR p.type = #) and a.objId = s.bestObjID and p.objID = s.bestObjID"
+2019-03-06 05:23:00,2
+2019-03-06 05:35:00,1
+2019-03-09 02:59:00,2

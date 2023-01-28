@@ -1,0 +1,2 @@
+1,"select s.SpecObjID from thingIndex, SpecObjAll s where thingIndex.thingID=s.thing_id and thingIndex.fieldID=#"
+2019-03-25 20:12:00,1

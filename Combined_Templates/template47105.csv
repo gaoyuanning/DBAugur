@@ -1,0 +1,2 @@
+1,"select pa.dered_u, pa.dered_g, pa.petroR5#_r, pa.dered_r, pa.dered_i, pa.dered_z, pa.specobjid into mydb.S8#PhotoObj from PhotoObj as pa WHERE pa.dec between # and # and pa.ra between # and # and pa.specobjid > #"
+2019-06-20 06:17:00,1

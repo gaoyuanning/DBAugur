@@ -1,0 +1,2 @@
+2,"SELECT ra, dec, u, err_u, g, err_g, r, err_r, i, err_i, z, err_z, objID into mydb.MyTable1 from dbo.PhotoObjAll WHERE objID = # or objID = # or objID = # or objID = # or objID = # or objID = # or objID = # or objID = # or objID = # or objID = # or objID = # or objID = # or objID = #"
+2019-09-26 19:00:00,2

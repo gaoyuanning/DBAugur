@@ -1,0 +1,2 @@
+1,"select p.objid as name, p.ra, p.dec from galaxy p, specobj s where p.objid=s.bestobjid"
+2019-07-05 13:26:00,1

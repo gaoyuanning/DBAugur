@@ -1,0 +1,2 @@
+1,"select g.objID, g.ra, g.dec, g.type, g.clean, g.petromag_u, g.petromagerr_u, g.petromag_g, g.petromagerr_g, g.petromag_r, g.petromagerr_r, g.petromag_i, g.petromagerr_i, g.petromag_z, g.petromagerr_z, g.extinction_r from dr1#.Galaxy as g where g.dec < # and g.petromag_i < # into mydb.Galaxy_i1#_DR1#"
+2019-11-14 05:06:00,1

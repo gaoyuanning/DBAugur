@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec, s.secTarget FROM PhotoObj s JOIN dbo.fGetNearbySpecObjEq(#,#,#) AS N on N.objID=s.objID  WHERE r># AND r<#"
+2019-09-02 16:46:00,1

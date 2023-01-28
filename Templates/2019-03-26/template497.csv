@@ -1,0 +1,2 @@
+1,"SELECT objId,z,zErr,absMagI,absMagG-absMagI as GminusI FROM Photoz WHERE  photoErrorClass=#   and z between # and #  and zErr BETWEEN # and #"
+2019-03-26 16:48:00,1

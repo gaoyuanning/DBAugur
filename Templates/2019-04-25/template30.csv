@@ -1,0 +1,2 @@
+1,"select top # specobjid as name, ra, dec from SpecObj WHERE class = QSO"
+2019-04-25 23:40:00,1

@@ -1,0 +1,2 @@
+1,"SELECT g.ra, p.zErr, p.kcorrR into mydb.R1_galaxy_photo from GalaxyTag as g Join Photoz p on p.objID = g.objID WHERE g.CLEAN = # and g.type = # and g.ra between # and # and g.dec between # and # and p.bestFitTemplateID > # and p.z> #"
+2019-02-18 15:45:00,1

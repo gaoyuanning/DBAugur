@@ -1,0 +1,2 @@
+1,"select s.specObjID , s.ra , s.dec , run from  SpecObjAll s , run r where r.run=#"
+2019-02-17 13:16:00,1

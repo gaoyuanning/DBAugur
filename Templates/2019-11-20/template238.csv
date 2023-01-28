@@ -1,0 +1,3 @@
+2,"SELECT objID, type, probPSF, modelMag_r, ra, dec INTO MyDB.SDSS_fullS8#_photoall_# FROM PhotoObj as spec WHERE spec.dec <= # AND spec.dec >= # AND   (spec.ra > #. OR spec.ra < #.) AND   spec.modelmag_r < #."
+2019-11-20 15:14:00,1
+2019-11-20 15:15:00,1

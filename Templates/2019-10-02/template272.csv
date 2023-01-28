@@ -1,0 +1,8 @@
+23,"SELECT     p.ObjID, p.ra, p.dec, n.distance, p.modelMag_u, p.modelMagErr_u, p.modelMag_g, p.modelMagErr_g, p.modelMag_r, p.modelMagErr_r,     p.modelMag_i, p.modelMagErr_i, p.modelMag_z, p.modelMagErr_z, p.psfMag_g, p.psfMagErr_g, p.psfMag_r, p.psfMagErr_r,      p.psfMag_i, p.psfMagErr_i, p.psfMag_z, p.psfMagErr_z, p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i,     p.extinction_z, p.type, z.z, z.zErr, dbo.fPhotoFlagsN(flags) as flags     INTO MyDB.MyTable0     FROM PhotoObj p       JOIN dbo.fGetNearbyObjEq(#,#,#) n ON n.objID = p.objID,        PhotoZ z     WHERE     p.type = #       and p.objID = z.objID       and ((flags & #) != #)       and ((flags & #) = #)       and (((flags & #) = #) or (p.psfMagErr_g <= #))       and (((flags & #) = #) or (flags & #) = #)"
+2019-10-02 14:12:00,1
+2019-10-02 14:19:00,4
+2019-10-02 14:20:00,5
+2019-10-02 14:21:00,4
+2019-10-02 14:22:00,3
+2019-10-02 14:23:00,3
+2019-10-02 14:24:00,3

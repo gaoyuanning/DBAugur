@@ -1,0 +1,2 @@
+1,"SELECT y.ra, y.dec into mydb.XXL_coords from galaxyTag g join specobj y ON y.specobjID = g.specobjID left outer join photoz p ON p.objID = g.objID WHERE g.ra> # and g.ra< # and g.dec> # and g.dec< #"
+2019-11-25 06:05:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # z, newid () FROM SpecObj WHERE z BETWEEN # AND # ORDER BY newid ()"
+2019-03-23 20:20:00,1

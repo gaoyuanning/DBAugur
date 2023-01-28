@@ -1,0 +1,2 @@
+1,"SELECT TOP # soa.ra, soa.dec, soa.z, soa.class FROM SpecObjAll soa, dbo.fGetNearbyObjEq(#, #, #) n WHERE  soa.class = &&& AND n.objID = bestObjID"
+2019-01-17 07:03:00,1

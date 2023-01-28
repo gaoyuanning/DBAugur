@@ -1,0 +1,3 @@
+2,"SELECT SO.specObjID, SO.plate, SO.mjd, SO.fiberID, gSE.lgm_tot_p2p5, gSE.lgm_tot_p1#, gSE.lgm_tot_p5#, gSE.lgm_tot_p8#, gSE.lgm_tot_p9#p5 INTO mydb.D4#_table4 FROM dr1#.SpecObj AS SO JOIN dr1#.galSpecExtra AS gSE ON gSE.specObjID = SO.specObjID"
+2019-03-30 00:19:00,1
+2019-03-30 00:22:00,1

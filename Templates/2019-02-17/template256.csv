@@ -1,0 +1,2 @@
+1,select &&& union select &&&+ column_name + &&& + data_type from information_schema.columnes where table_name like &&&
+2019-02-17 14:32:00,1

@@ -1,0 +1,3 @@
+3,"SELECT    p.objID, p.type,    p.modelmag_u, p.modelmag_g, p.modelmag_r, p.modelmag_i, p.modelmag_z,    p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i, p.extinction_z,    p.dered_u, p.dered_g, p.dered_r, p.dered_i, p.dered_z,    pz.kcorru, pz.kcorrg, pz.kcorrr, pz.kcorri, pz.kcorrz,    pz.z as photoz, pz.photoErrorClass as Class	 FROM   PhotoPrimary AS p    LEFT JOIN Photoz AS pz ON p.objID=pz.objID WHERE pz.z > # and p.type=#   GO  SELECT tt.* FROM #tt as tt WHERE   #<tt.Class   and tt.Class<# ORDER BY tt.objID INTO MyDB.MainSample"
+2019-08-08 15:05:00,2
+2019-08-08 15:06:00,1

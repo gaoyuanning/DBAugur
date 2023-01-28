@@ -1,0 +1,2 @@
+1,"select   objID, ra, dec,z,    modelMag_u-modelMag_r, modelMag_r-modelMag_z, modelMag_g, modelMag_i into mydb.MyTable from Galaxy where modelMag_u-modelMag_r < # AND   modelMag_r-modelMag_z < # AND   modelMag_u-modelMag_r > # + # * modelMag_r-modelMag_z"
+2019-05-01 01:17:00,1

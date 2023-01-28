@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra, dec, z, mag FROM NSAtlas WHERE ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-03-01 03:24:00,1

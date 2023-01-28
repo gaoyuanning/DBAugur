@@ -1,0 +1,2 @@
+1,"SELECT TOP # str (s.ra, #, #) as ra, str (s.[dec], #, #) as dec, p.isoA_r, # as filter FROM BESTDR6..SpecObj as s, TARGDR6..Galaxy as p WHERE (s.specClass = dbo.fSpecClass (#) ) AND s.targetObjID = p.objID"
+2019-04-24 00:34:00,1

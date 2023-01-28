@@ -1,0 +1,2 @@
+1,"select top # objid, u, g, r, i, z, s.class from PhotoObjAll join specObjAll on bestobjid"
+2019-03-25 15:58:00,1

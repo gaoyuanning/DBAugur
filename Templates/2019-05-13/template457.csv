@@ -1,0 +1,2 @@
+1,"SELECT a.ra, a.dec, p.psfFluxIvar_u, p.psfFluxIvar_g, p.psfFluxIvar_r, p.psfFluxIvar_i, p.psfFluxIvar_z,  d.w1sigflux, d.w2sigflux, d.w3sigflux, d.w4sigflux INTO mydb.SFR_WISE_ERR FROM stellarMassFSPSGranWideDust as a LEFT JOIN SpecObjAll as b on a.specObjID=b.specObjID LEFT JOIN WISE_xmatch as c on b.fluxObjID=c.sdss_objid LEFT JOIN WISE_allsky as d on c.wise_cntr=cntr LEFT JOIN PhotoObjAll as p on b.fluxObjID=p.ObjID"
+2019-05-13 07:17:00,1

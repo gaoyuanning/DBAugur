@@ -1,0 +1,2 @@
+1,"SELECT TOP # u,g,r,i,z,ra,dec, flags_r  FROM Galaxy AS g, dbo.fGetNearbyObjEq(#,#,#) AS n  WHERE g.objID = n.objID AND ((g.flags_r & #) != #) AND ((g.flags_r & #) = #) AND (((g.flags_r & #) = #) or (g.psfmagerr_r <= #)) AND (((g.flags_r & #) = #) or (g.flags_r & #) = #)"
+2019-07-23 23:08:00,1

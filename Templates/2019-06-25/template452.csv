@@ -1,0 +1,2 @@
+1,"select   A.specObjID,   S.bestObjID,   A.z  INTO MYDB.Galaxias_Pablo_# FROM   MYDB.Galaxias_Pablo as A JOIN    SpecObjAll as S ON A.specObjID = S.specObjID"
+2019-06-25 06:59:00,1

@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.l, p.b, p.type, p.psfmag_u, p.psfmag_g, p.psfmag_r, p.psfmag_i, p.psfmag_z, p.psfmagerr_u, p.psfmagerr_g, p.psfmagerr_r, p.psfmagerr_i, p.psfmagerr_z   into mydb.stars_NGC from PhotoPrimary AS p WHERE       p.b > #   AND p.type = #   AND p.psfmag_g < #"
+2019-04-18 08:06:00,1

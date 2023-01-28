@@ -1,0 +1,3 @@
+3,"SELECT sph.ra, sph.dec, s.z, s.snMedian_r, s.velDisp, s.plate, s.mjd, s.fiberid, sph.fiberMag_g, sph.fiberMagErr_g, sph.extinction_g, sph.fiberMag_r, sph.fiberMagerr_r, sph.extinction_r, ge.bptclass, ge.lgm_tot_p5#, gi.lick_hb, gi.lick_hb_err, gi.lick_mgb, gi.lick_mgb_err, gi.lick_fe5#, gi.lick_fe5#_err, gi.lick_fe5#, gi.lick_fe5#_err, gi.lick_hd_a, gi.lick_hd_a_err, gi.d4#_n, gi.d4#_n_err INTO SDSS_SN5_full FROM SpecObj AS s JOIN galSpecIndx AS gi ON s.specObjID = gi.specObjID JOIN galSpecExtra AS ge ON s.specObjID = ge.specObjID JOIN SpecPhotoAll AS sph ON s.specObjID = sph.specObjID WHERE s.z BETWEEN # AND # AND s.survey = # AND s.class = # AND s.snMedian_r > # AND s.zWARNING = #"
+2019-12-10 01:33:00,1
+2019-12-10 01:34:00,2

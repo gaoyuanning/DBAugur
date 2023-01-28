@@ -1,0 +1,2 @@
+1,"SELECT p.run, p.rerun, p.field, p.camcol, p.rowc, p.colc, p.psfMag_r, p.psfMagErr_r, p.modelMag_r, p.modelMagErr_r, p.r, p.err_r, p.type into mydb.cc1_all_crd from photoObjAll p WHERE p.camcol = # and (p.field = # or p.field = # or p.field = # or p.field = # or p.field = # or p.field = #) and p.mode = # and p.run = #"
+2019-12-13 01:49:00,1

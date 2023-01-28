@@ -1,0 +1,2 @@
+1,"SELECT TOP # G.objID, ra , dec, GN.cx, GN.cy, GN.distance FROM Galaxy as G JOIN Galaxy.fGetNearbyObjEq (#., #, #) AS GN ON G.objID = GN.objID ORDER BY distance"
+2019-05-02 22:01:00,1

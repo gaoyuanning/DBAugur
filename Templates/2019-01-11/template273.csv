@@ -1,0 +1,2 @@
+2,"SELECT m.dr9objid, m.photoz, s.objID, s.z into mydb.First_New from mydb.Second as m, SpecPhotoAll as s   WHERE m.dr9objid = s.objID"
+2019-01-11 05:10:00,2

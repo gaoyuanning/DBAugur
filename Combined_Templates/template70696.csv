@@ -1,0 +1,4 @@
+4,"SELECT bin, band, profMean, profErr, objID From PhotoProfile WHERE objID = # and band = #"
+2019-10-21 17:05:00,2
+2019-10-21 17:12:00,1
+2019-10-21 17:15:00,1

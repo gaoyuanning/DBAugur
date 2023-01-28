@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.petror9#_r, p.dered_g, s.z as z_spec, s.zErr FROM Galaxy as p JOIN zoo2MainSpecz AS z2ms ON p.objid = z2ms.objid JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.clean = # and z2ms.nvote > = #"
+2019-02-27 09:47:00,1

@@ -1,0 +1,4 @@
+3,"SELECT G.cx, G.cy, G.cz, p.u, p.g, p.r, p.i, p.z, s.z as redshift, G.objID, G.modelMag_u, G.modelMag_r, G.modelMag_g, p.petroR5#_g, p.petroR5#_u, p.petroR5#_r, p.petroR5#_i, p.petroR5#_z, G.ra, G.dec into mydb.Yes_Cut from GALAXY as G JOIN SpecObj AS s ON s.bestobjid = G.objid JOIN PhotoObj AS p ON s.bestobjid = p.objid WHERE (G.Flags & (dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) )) = # and p.petroRad_r < #"
+2019-04-15 19:44:00,1
+2019-04-15 19:48:00,1
+2019-04-15 20:02:00,1

@@ -1,0 +1,2 @@
+1,"select a.ra, a.dec, a.z, a.specclass into mydb.MyTable from specobj a where a.specclass=#    or a.specclass=#   and a.z>#   and a.z<#"
+2019-02-19 07:07:00,1

@@ -1,0 +1,4 @@
+3,"SELECT top # objID, ra, dec,  (CASE WHEN q.type IS NULL THEN &&& ELSE &&& END) AS found FROM PhotoObj AS p OUTER APPLY dbo.fFootprintEq(ra,dec,#) AS q WHERE (ra BETWEEN # AND #) AND (dec BETWEEN # AND #)"
+2019-12-06 11:53:00,1
+2019-12-06 20:30:00,1
+2019-12-06 21:44:00,1

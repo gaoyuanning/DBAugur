@@ -1,0 +1,2 @@
+2,"SELECT ra, dec, dered_u, dered_g, dered_r, dered_i, dered_z into mydb.Area1Phys3# from PhotoObjAll Where ra> # and ra< # and dec> # and dec< # And dered_u< # and dered_u> # SELECT TOP # s.plate, s.mjd, s.fiberid FROM ..SpecObj as s JOIN dbo.fGetNearbySpecObjEq (#, #, #) AS b ON b.SpecobjID = S.SpecobjID JOIN Star AS p ON s.bestobjid = p.objid WHERE s.zWarning = # AND (p.u - p.g) > # AND (p.g - p.r) > # AND (p.r - p.i) > # AND (p.i - p.z) > # AND (p.u - p.g) < # AND (p.g - p.r) < # AND (p.r - p.i) < # AND (p.i - p.z) < #"
+2019-05-10 17:43:00,2

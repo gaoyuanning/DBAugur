@@ -1,0 +1,2 @@
+2,"SELECT TOP # s.targetObjID, s.ra, s.dec, s.z, s.zErr, s.plate, s.fiberID FROM SpecObj AS s WHERE s.dec between # and # and s.z between # and #"
+2019-12-19 12:52:00,2

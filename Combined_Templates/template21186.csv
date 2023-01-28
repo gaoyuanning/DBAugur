@@ -1,0 +1,5 @@
+4,SELECT TOP # * FROM aspcapStar AS asp JOIN apogeeStar ON asp.apstar_id = apogeeStar.apstar_id WHERE apogeeStar.andflag = # AND asp.aspcapflag = # AND asp.teff_flag = # AND asp.logg_flag = # AND asp.m_h_flag = # AND asp.alpha_m_flag = # AND alpha_m> # AND asp.param_c_m> # AND asp.param_n_m> # AND asp.c_fe> # AND asp.n_fe> # AND asp.o_fe> # AND asp.na_fe> # AND asp.mg_fe> # AND asp.al_fe> # AND asp.si_fe> # AND asp.s_fe> # AND asp.k_fe> # AND asp.ca_fe> # AND ti_fe> # AND asp.v_fe> # AND asp.mn_fe> # AND asp.fe_h> # AND asp.ni_fe> # AND asp.param_c_m_flag = # AND asp.param_n_m_flag = # AND asp.c_fe_flag = # AND asp.n_fe_flag = # AND asp.o_fe_flag = # AND asp.na_fe_flag = # AND asp.mg_fe_flag = # AND asp.al_fe_flag = # AND asp.si_fe_flag = # AND asp.s_fe_flag = # AND asp.k_fe_flag = # AND asp.ca_fe_flag = # AND ti_fe_flag = # AND asp.v_fe_flag = # AND asp.mn_fe_flag = # AND asp.fe_h_flag = # AND asp.ni_fe_flag = #
+2019-03-17 04:42:00,1
+2019-03-17 04:43:00,1
+2019-03-17 04:50:00,1
+2019-03-31 06:18:00,1

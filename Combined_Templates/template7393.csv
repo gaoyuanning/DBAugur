@@ -1,0 +1,2 @@
+1,"select ra, dec, ObjID, Mag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z from PhotoObj where modelMag_g> # modelMag_u-modelMag_g > #"
+2019-01-31 03:19:00,1

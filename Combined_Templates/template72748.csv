@@ -1,0 +1,2 @@
+1,"SELECT DISTINCT sdss, legacy, p.photoRa, p.photoDec, p.z, p.zErr, s.velDisp, s.velDispErr, p.petroMag_r FROM SpecPhotoAll AS p JOIN SpecObj AS s ON s.specObjID = p.specObjID WHERE p.photoRa BETWEEN # AND # AND p.photoDec BETWEEN # AND # AND (clean = #) AND (class = #) AND (subclass = #) AND p.petroMag_r < #"
+2019-10-31 17:26:00,1

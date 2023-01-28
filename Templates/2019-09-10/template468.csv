@@ -1,0 +1,2 @@
+1,"select top # * from specobjall select top # plate,MJD,fiberid,objTypeName from Star , specobjall --SELECT * FROM INFORMATION_SCHEMA.TABLES"
+2019-09-10 05:42:00,1

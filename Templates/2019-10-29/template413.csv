@@ -1,0 +1,2 @@
+1,select distinct wise_cntr into mydb.MyTable from WISE_xmatch
+2019-10-29 11:07:00,1

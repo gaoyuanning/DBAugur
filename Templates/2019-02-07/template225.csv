@@ -1,0 +1,2 @@
+1,"SELECT TOP # petroRad_r, modelmag_g, modelmag_r FROM Galaxy WHERE modelMag_g - modelMag_r > #"
+2019-02-07 17:11:00,1

@@ -1,0 +1,2 @@
+1,"SELECT sa.Plate, sa.MJD, sa.Fiber, sp.z, sa.A, sa.M, sa.L, sa.H, sa.SNVSS, sa.SFIRST, sp.v_disp into mydb.Best_RL from galSpecInfo sp JOIN MyDB.Best sa ON sa.Plate = sp.plateid AND sa.MJD = sp.mjd AND sa.Fiber = sp.fiberid"
+2019-08-29 05:27:00,1

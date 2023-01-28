@@ -1,0 +1,2 @@
+1,"select distinct Track.AlbumId as &&&, InvoiceLine.TrackId, InvoiceLine.UnitPrice  From chinook.Track Inner Join chinook.InvoiceLine"
+2019-04-21 12:31:00,1

@@ -1,0 +1,2 @@
+1,"select x, y into mydb.MyTable from data where x > #"
+2019-11-18 12:30:00,1

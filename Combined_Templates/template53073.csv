@@ -1,0 +1,2 @@
+1,"SELECT * FROM apogeeStar star JOIN fGetNearbyApogeeStarEq (#, #, #) near on star.apstar_id = near.apstar_id JOIN aspcapStar aspcap on aspcap.apstar_id = star.apstar_id where field = N2##"
+2019-07-21 00:06:00,1

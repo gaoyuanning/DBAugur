@@ -1,0 +1,2 @@
+1,"CREATE TABLE [ASSETS] ([ID] [bigint] NOT # IDENTITY (#, #) PRIMARY KEY, [ADDRESS] [varchar] (#) #, [SOURCE] [varchar] (#) #, [COORDS] [geography] #)"
+2019-11-04 06:04:00,1

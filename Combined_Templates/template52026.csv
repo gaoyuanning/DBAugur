@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, z FROM SpecObj WHERE z> #"
+2019-07-15 05:06:00,1

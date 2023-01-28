@@ -1,0 +1,2 @@
+1,"select ObjID, ra, dec, dered_u, dered_g, dered_r, dered_i, dered_z from Galaxy where (r< #) and (ra between # and #) and (dec between # and #) GO"
+2019-11-15 14:13:00,1

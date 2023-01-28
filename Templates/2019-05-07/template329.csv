@@ -1,0 +1,2 @@
+2,"SELECT  COUNT(*) specobjid,ra,dec,psfmag_u, psfmag _g, psfmag _r, psfmag _i, psfmag _z,z, morphology FROM DR3QuasarCatalog"
+2019-05-07 16:00:00,2

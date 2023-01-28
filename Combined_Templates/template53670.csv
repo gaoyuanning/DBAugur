@@ -1,0 +1,2 @@
+1,"select specObjID, elodieFeH, z, class from SpecObjAll where z< # and (class = # OR class = #) Order By z"
+2019-07-25 15:53:00,1

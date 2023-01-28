@@ -1,0 +1,2 @@
+1,"select top # b.objid, b.ra ,b.dec from ( select distinct(ra),Min(dec) dec from NN1 group by ra )as  a inner join NN1 b on a.ra=b.ra and a.dec=b.dec"
+2019-01-09 15:37:00,1

@@ -1,0 +1,5 @@
+4,"CREATE TABLE [r2#][Scout_images_and_configuration_for_brain_MRI] ( 	eid BIGINT NOT NULL ,	[Scout_images_for_brain_scans_DICOM_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Phoenix_DICOM_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=# ,PRIMARY KEY (eid)) GO"
+2019-04-15 14:29:00,1
+2019-04-15 14:31:00,1
+2019-04-15 14:33:00,1
+2019-04-15 14:35:00,1

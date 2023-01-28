@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z FROM PhotoObjAll WHERE ra BETWEEN # - #/# AND # + #/# AND dec BETWEEN # - #/# AND # + #/#"
+2019-10-08 11:24:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID, objID, ra, dec, z, psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z FROM SpecPhotoAll"
+2019-03-26 21:58:00,1

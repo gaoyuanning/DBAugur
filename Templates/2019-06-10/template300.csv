@@ -1,0 +1,2 @@
+2,"SELECT G.ObjID into mydb.MyTable from Galaxy as G,      SpecObj   as S,      SpecLine  as L,       SpecLineNames as LN    WHERE G.ObjID = S.bestObjID	      and S.SpecObjID = L.SpecObjID         and L.LineId = LN.value		      and LN.name =  &&&         and L.ew > #"
+2019-06-10 12:23:00,2

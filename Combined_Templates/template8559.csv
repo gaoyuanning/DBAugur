@@ -1,0 +1,4 @@
+3,"SELECT TOP # s.z, s.zErr, s.zWarning, p.modelMag_g, p.modelMag_i, p.modelMag_r, p.modelMag_u, p.modelMag_z, p.modelMagErr_g, p.modelMagErr_i, p.modelMagErr_r, p.modelMagErr_u, p.modelMagErr_z FROM ..SpecObj as s JOIN ..PhotoObj AS p ON s.bestObjID = p.objID JOIN dbo.fGetObjFromRect (#, #, #, #) AS b ON s.bestobjid = b.objID WHERE s.zWarning = # AND (s.class = #) AND (p.type = # OR p.type = #)"
+2019-02-06 14:58:00,1
+2019-02-06 15:42:00,1
+2019-02-06 15:43:00,1

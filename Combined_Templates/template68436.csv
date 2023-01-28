@@ -1,0 +1,2 @@
+1,"SELECT TOP # psfmag_g, psfmag_r, psfmag_i, psfmag_z, ra, dec, flags_r , -extinction_g, extinction_r, extinction_i, extinction_z FROM Star WHERE ra BETWEEN # and #. AND dec BETWEEN #. and #. AND ( (flags_r & #) ! = #) AND ( (flags_r & #) = #) AND ( ((flags_r & #) = #) or (psfmagerr_r < = #) ) AND ( ((flags_r & #) = #) or (flags_r & #) = #)"
+2019-10-08 19:48:00,1

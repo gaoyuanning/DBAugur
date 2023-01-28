@@ -1,0 +1,3 @@
+2,"SELECT starname,rv,BARYCENTRICVEL,mjd FROM marvelsVelocityCurveUF1D WHERE fcjd BETWEEN # AND #"
+2019-07-12 02:03:00,1
+2019-07-12 02:09:00,1

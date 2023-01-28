@@ -1,0 +1,2 @@
+1,"SELECT top # plmatch.*, ph.objid as poa_objid, ph.psfmag_g, ph.psfmag_r FROM fGetNearbyObjEq(#, #,#) plmatch JOIN PhotoObjAll ph on ph.objid = plmatch.objid --Ensure the targets are stars and spectroscopically accessible with statement below-- WHERE plmatch.type = # AND (ph.psfmag_g < # or ph.psfmag_z < #) If you would like to look at the parameters for only a particular target type, alter the query as follows:"
+2019-10-21 11:02:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # run, camCol, rerun, field, objID, ra, dec petroR5#_i FROM Galaxy WHERE  ( flags & # ) > #  and ( flags & # ) != #  and ( (flags & # = #)  and petroR5#_i > #)"
+2019-10-01 13:59:00,1

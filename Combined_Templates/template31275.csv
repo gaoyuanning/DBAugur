@@ -1,0 +1,4 @@
+5,"SELECT ra, dec, g, r, modelmag_g, modelmag_g-#*log1# (#E+#*z) +# as abs_mag_g FROM Galaxy WHERE modelmag_g-#*log1# (#E+#*z) +# < # AND z> # AND z< # AND (g - r < #)"
+2019-04-17 09:13:00,1
+2019-04-17 09:16:00,3
+2019-04-17 09:17:00,1

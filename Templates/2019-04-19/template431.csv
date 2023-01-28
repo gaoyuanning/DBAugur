@@ -1,0 +1,2 @@
+1,"SELECT     m.ra, m.dec,     n.objid, n.distance,     s.ra, s.dec into mydb.MyTable_# from MyDB.BCG AS m     CROSS APPLY dbo.fGetNearestObjAllEq( m.ra, m.dec, #) AS n      JOIN DR1#.SpecObjAll AS s ON n.objid=s.bestObjID"
+2019-04-19 10:12:00,1

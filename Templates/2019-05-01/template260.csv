@@ -1,0 +1,2 @@
+1,"UPDATE CASCADE );CREATE TABLE furnaceStateTrainingImages (  	trainingImageId int NOT NULL IDENTITY(#,#), 	trainingImageIdFk int NOT NULL, 	growthName varchar(#) NOT NULL, 	CONSTRAINT furnace_state_image_fk 		FOREIGN KEY 	(trainingImageIdFk) REFERENCES furnaceStateImages(imageId) 		ON DELETE CASCADE 		ON UPDATE CASCADE );"
+2019-05-01 14:18:00,1

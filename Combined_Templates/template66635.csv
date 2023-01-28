@@ -1,0 +1,2 @@
+1,"SELECT TOP # z, zErr, ra, dec, dered_u, dered_g, dered_r WHERE class = # AND ra BETWEEN # AND # AND dec BETWEEN # AND # AND z< =#"
+2019-09-30 16:29:00,1

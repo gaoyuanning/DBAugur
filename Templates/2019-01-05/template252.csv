@@ -1,0 +1,2 @@
+1,"SELECT top #   plate, fiberid, mjd, z, snmedian, h_beta_flux, h_beta_flux_err,  h_alpha_flux, h_alpha_flux_err, oiii_#_flux, oiii_#_flux_err,  nii_#_flux, nii_#_flux_err, subclass FROM GalSpecLine as G JOIN SpecObjall as S  ON S.specobjid = G.specobjid WHERE S.class = &&& and S.SNmedian > # and  S.z < # and S.zwarning = #"
+2019-01-05 06:56:00,1

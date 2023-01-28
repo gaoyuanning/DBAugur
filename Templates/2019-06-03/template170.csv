@@ -1,0 +1,2 @@
+2,"SELECT ALL ra, dec, j,h,k  from apogeeObject WHERE  ra > # and ra < # and dec > # and dec < #"
+2019-06-03 17:08:00,2

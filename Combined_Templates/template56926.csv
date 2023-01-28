@@ -1,0 +1,2 @@
+1,"select z.specobjid, dbo.fPhotoFlagsN (p.flags) , p.ra, p.dec, p.flags, s.z into mydb.irreg_test from zoo2MainSpecz z join photoobjall p on p.specobjid = z.specobjid join specobjall s on s.specobjid = z.specobjid where z.t0#_odd_feature_a2#_disturbed_debiased < z.t0#_odd_feature_a2#_irregular_debiased and z.t0#_odd_feature_a2#_irregular_debiased > # and z.t0#_odd_feature_a2#_irregular_flag < > # and (p.flags & dbo.fPhotoFlags (#) ) = #"
+2019-08-12 10:23:00,1

@@ -1,0 +1,5 @@
+6,"SELECT objid, ra, dec, u, g, r, i, z, run, rerun, camcol, field FROM PhotoObj WHERE u BETWEEN # AND # AND g BETWEEN # AND # AND run IN ()"
+2019-06-16 00:55:00,1
+2019-06-16 00:57:00,2
+2019-06-16 00:58:00,2
+2019-06-16 00:59:00,1

@@ -1,0 +1,4 @@
+3,"SELECT objID, ra, dec, modelMag_g, modelMagErr_g, modelMag_r, modelMagErr_r, modelMag_i, modelMagErr_i FROM PhotoObj WHERE (ra between # and #) and (dec between # and #)"
+2019-06-19 08:31:00,1
+2019-06-19 08:32:00,1
+2019-06-19 08:36:00,1

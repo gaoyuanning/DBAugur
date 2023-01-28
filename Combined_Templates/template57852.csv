@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID, ra, dec, z, z_person, class, subClass INTO mydb.sdss1#galqso FROM SpecObj WHERE ( (class = # AND subClass! =# AND subClass! =#) OR (class = #) ) AND zWarning = #"
+2019-08-15 10:41:00,1

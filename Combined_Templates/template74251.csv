@@ -1,0 +1,7 @@
+8,"select top # specObjID, z, zErr, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z, modelMagErr_u, modelMagErr_g, modelMagErr_r, modelMagErr_i, modelMagErr_z from SpecPhotoAll where z BETWEEN # and # AND class = #"
+2019-11-06 23:04:00,1
+2019-11-06 23:05:00,2
+2019-11-06 23:06:00,2
+2019-11-07 18:31:00,1
+2019-11-07 18:32:00,1
+2019-11-07 18:33:00,1

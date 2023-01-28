@@ -1,0 +1,9 @@
+9,"SELECT G.ra as ra, G.dec as dec, G.cModelMag_i as mag, G.cModelMagErr_i as magerr, G.petroRad_i as rad, GN.distance as distance, # as priority, G.objID, G.flags FROM PhotoObj AS G JOIN dbo.fGetNearbyObjEq(#, #, #) AS GN ON G.objID = GN.objID ORDER BY GN.distance"
+2019-09-11 16:41:00,1
+2019-09-11 16:42:00,2
+2019-09-11 16:49:00,1
+2019-09-11 18:06:00,1
+2019-09-11 20:27:00,1
+2019-09-11 20:28:00,1
+2019-09-11 20:33:00,1
+2019-09-11 23:33:00,1

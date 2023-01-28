@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID, z, u, g, r, i, z FROM PhotoObj WHERE class = &&& AND z BETWEEN # and #"
+2019-03-10 00:15:00,1

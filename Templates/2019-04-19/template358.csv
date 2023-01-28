@@ -1,0 +1,4 @@
+3,"SELECT COUNT(*) FROM GalSpecLine AS gs   JOIN SpecPhoto AS sp ON sp.specobjid = gs.specobjid   JOIN dbo.fGetNearbySpecObjEq(#,#,#) AS GN  ON GN.specobjID = gs.specobjid  JOIN Galaxy as gal ON gal.specobjId = gs.specobjid  JOIN PhotoObjAll as p ON p.specObjId = gs.specobjID WHERE   h_alpha_eqw between # and #  and oii_#_eqw between # and #  and sp.z between #-# and #+#"
+2019-04-19 14:19:00,1
+2019-04-19 14:23:00,1
+2019-04-19 14:25:00,1

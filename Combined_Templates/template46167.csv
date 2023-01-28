@@ -1,0 +1,2 @@
+1,"SELECT S.ra, S.dec, S.mjd, S.plate, S.fiberID, S.class, S.specObjID, S.z, S.zErr, S.rChi2, S.velDisp, S.velDispErr, dbo.fgeturlfitsspectrum (S.specobjid) INTO MyDB.chandra_matched_sdss_details1# FROM MyDB.chandra_matched_sdss AS m LEFT JOIN SpecObj AS S ON m.bestObjID = S.bestObjID"
+2019-06-17 15:25:00,1

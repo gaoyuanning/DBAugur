@@ -1,0 +1,2 @@
+1,"select count(distinct(ring_galaxies.ID)) from ring_galaxies,ring_galaxies_z where ring_galaxies.ID=ring_galaxies_z.ID"
+2019-09-14 01:43:00,1

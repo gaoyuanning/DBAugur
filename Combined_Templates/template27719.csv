@@ -1,0 +1,6 @@
+5,"select m.apstar_id, p.j, p.j_err, p.h, p.h_err, p.k, p.k_err, p.irac_#_#, p.irac_#_#_err, p.src_#_# from apogeeObject p, apogeeStar m where p.apogee_id = #M1#+###M1#+##"
+2019-04-04 13:02:00,1
+2019-04-04 13:06:00,1
+2019-04-04 16:56:00,1
+2019-04-04 17:04:00,1
+2019-04-04 17:07:00,1

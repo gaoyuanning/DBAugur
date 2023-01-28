@@ -1,0 +1,2 @@
+1,"select bestobjid, dbo.fRUN (bestobjID) as run from specobj where plate = # and mad = # and fiberid = # -- specobjid = dbo.fSpecidFromSDSS (#, #, #)"
+2019-07-31 16:39:00,1

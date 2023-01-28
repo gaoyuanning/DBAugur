@@ -1,0 +1,2 @@
+1,"SELECT TOP # b.ObjID, a.z, b.z into mydb.MyTable_# from stellarMassFSPSGranWideDust as a LEFT JOIN SpecPhotoAll as b on a.specObjID=b.specObjID ORDER BY b.objID ASC"
+2019-05-13 08:48:00,1

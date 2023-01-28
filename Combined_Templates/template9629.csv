@@ -1,0 +1,2 @@
+1,"select top # s.ra, s.dec, class, m.objra, m.objdec, m.plate, m.ifudesign from specobj as s, mangaDAPall as m where s.class = #"
+2019-02-11 14:38:00,1

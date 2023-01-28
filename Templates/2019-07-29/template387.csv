@@ -1,0 +1,2 @@
+1,"SELECT TOP #   gz.dr8objid, p.objID, gz.ra as &&&, gz.dec as &&&, p.ra, p.dec, p.expRad_r, p.expAB_r,   gz.t0#_spiral_a0#_spiral_flag, gz.t1#_arms_number_a3#_#_flag, gz.t1#_arms_number_a3#_#_flag,   gz.t1#_arms_number_a3#_#_flag, gz.t1#_arms_number_a3#_#_flag, gz.t0#_edgeon_a0#_yes_flag, p.clean FROM dbo.zoo2MainSpecz AS gz   JOIN dbo.PhotoObjAll AS p    ON gz.dr8objid = p.objID WHERE   p.type = #   AND gz.t0#_spiral_a0#_spiral_flag = #   AND p.expRad_r>#   AND p.expAB_r>#"
+2019-07-29 02:27:00,1

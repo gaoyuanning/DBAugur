@@ -1,0 +1,2 @@
+1,"SELECT   p.objid,p.petroMag_u,p.petroMag_g,p.petroMag_r  s.specobjid, s.z as redshift,  s.plate, s.mjd, s.fiberid FROM galaxy p, specobj s  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   and s.class= GALAXY  and p.g < #  and p.r < #  and s.z BETWEEN # AND #  and s.zWarning = #"
+2019-04-13 15:35:00,1

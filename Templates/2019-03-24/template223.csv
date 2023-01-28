@@ -1,0 +1,3 @@
+5,"SELECT specObjID, bestObjID, z FROM SpecObj WHERE bestObjID = &&&"
+2019-03-24 16:57:00,1
+2019-03-24 16:58:00,4

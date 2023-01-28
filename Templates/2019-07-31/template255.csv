@@ -1,0 +1,2 @@
+1,"SELECT z, class, subClass, ra, dec, objID into mydb.lothlorien from specPhoto WHERE z < # and class = &&&"
+2019-07-31 14:17:00,1

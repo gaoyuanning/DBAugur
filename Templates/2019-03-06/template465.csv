@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.airmass_u, p.airmass_g, p.airmass_r, p.airmass_i, p.airmass_z FROM Star AS p ORDER BY RAND()"
+2019-03-06 14:47:00,1

@@ -1,0 +1,2 @@
+1,"SELECT dr7objid, ra, dec, p_el, (p_acw + p_cw) AS p_sp FROM zooSpec WHERE (p_el > #) OR (p_acw + p_cw) > #"
+2019-03-13 16:29:00,1

@@ -1,0 +1,2 @@
+1,SELECT specObjID into mydb.MyTable_# from SpecObjAll WHERE class= &&&
+2019-03-29 14:12:00,1

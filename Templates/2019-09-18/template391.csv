@@ -1,0 +1,2 @@
+1,"SELECT Top # t.objID, t.j, t.h, t.k, p.u, p.g, p.r, p.i, p.z FROM TwoMass as t   INNER JOIN PhotoObjAll as p ON p.objID = t.objID"
+2019-09-18 12:43:00,1

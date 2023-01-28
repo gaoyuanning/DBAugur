@@ -1,0 +1,2 @@
+1,"select soa.plateid,soa.mjd,soa.fiberid,ph.segue2_target1,ph.segue2_target2,ph.segue1_target1,ph.segue1_target2  from SpecObjAll as soa   JOIN seguetargetAll as ph on ph.objID=soa.bestobjid  WHERE (ph.segue2_target1 & #) != #  and soa.segue2primary># and ph.segue2_target2 = # and ph.segue1_target1 = #"
+2019-08-26 13:00:00,1

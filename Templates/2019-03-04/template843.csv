@@ -1,0 +1,2 @@
+1,"select _id,lat,lng, LOCATION_CATEGORY_DESCRIPTION, location_name ,      location_code ,      location.ToString() as location    from SchoolLocation   where FISCAL_YEAR=# and location IS NOT NULL"
+2019-03-04 07:31:00,1

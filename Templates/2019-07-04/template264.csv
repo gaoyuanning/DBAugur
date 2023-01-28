@@ -1,0 +1,3 @@
+3,"SELECT TOP #   plate, mjd, fiberid  FROM specObj  WHERE ((PrimTarget & #) > #)   AND (z > #)   AND (z <= #)"
+2019-07-04 12:42:00,2
+2019-07-04 12:47:00,1

@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec, psfMag_g, psfMag_i into mydb.MyTable_# from PhotoObjAll WHERE psfMag_g-psfMag_i > #  AND psfMag_g-psfMag_i < # AND psfMag_i > # AND psfMag_i < #"
+2019-05-11 11:18:00,1

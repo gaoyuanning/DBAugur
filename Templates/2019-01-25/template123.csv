@@ -1,0 +1,2 @@
+1,"SELECT * g.ra, g.dec, g.petroMag_u as mag_u, g.petroMag_g as mag_g, g.petroMag_r as mag_r, g.petroMag_i as mag_i, g.petroMag_z as mag_z, p.z, p.zErr  from PhotoObjAll as g JOIN Photoz as p ON p.objID = g.objID WHERE g.ra BETWEEN # AND #"
+2019-01-25 19:09:00,1

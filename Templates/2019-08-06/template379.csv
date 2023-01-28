@@ -1,0 +1,2 @@
+2,"SELECT ra, dec, z, zErr, velDisp into mydb.MyTable from SpecObjAll WHERE sourceType = GALAXY"
+2019-08-06 06:36:00,2

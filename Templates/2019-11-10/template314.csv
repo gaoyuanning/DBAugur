@@ -1,0 +1,8 @@
+12,"SELECT objID,u,g,r,i,z,petroR5#_r,petroR9#_r,Err_u,Err_g,Err_r,Err_i,Err_z,petroR5#Err_r,petroR9#Err_r into mydb.MyTable_# from Galaxy WHERE clean = # and r >= # and r < #"
+2019-11-10 11:31:00,2
+2019-11-10 11:42:00,2
+2019-11-10 11:56:00,1
+2019-11-10 11:57:00,1
+2019-11-10 12:19:00,2
+2019-11-10 12:31:00,2
+2019-11-10 12:38:00,2

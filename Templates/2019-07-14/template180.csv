@@ -1,0 +1,2 @@
+1,"SELECT ra,dec, parallax into mydb.MyTable_# from gaia_source WHERE parallax>#"
+2019-07-14 17:47:00,1

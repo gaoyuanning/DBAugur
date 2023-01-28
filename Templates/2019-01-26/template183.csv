@@ -1,0 +1,2 @@
+1,"select top # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z from star p, dbo.fgetNearByObjEq(#h #m #,#? #' #?,#) n where p.objid=n.objid"
+2019-01-26 16:51:00,1

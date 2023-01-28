@@ -1,0 +1,2 @@
+1,"select ra,dec psfMag_i from PhotoObj and (ra between #-# and #+#) and (dec between #-# and #+#)"
+2019-04-01 09:08:00,1

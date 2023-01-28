@@ -1,0 +1,2 @@
+1,"SELECT top # so.ra, so.dec, so.specobjid, sp.teffadop, sp.teffadopunc, sp.fehadop, sp.fehadopunc, sp.loggadop, sp.loggadop, sp.FEHANNSR, sp.FEHANNRR, sp.FEHCAIIK1, sp.ELODIERVFINAL, sp.ELODIERVFINALERR, sp.snr, sp.flag FROM dbo.fGetNearbySpecObjAllEq (#, #, #.) b, specobjall as so LEFT OUTER JOIN sppparams sp ON so.specobjid = sp.specobjid and so.sciencePrimary = # WHERE b.specobjID = so.specobjID"
+2019-07-04 16:10:00,1

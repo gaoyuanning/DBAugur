@@ -1,0 +1,3 @@
+4,"select SpecPhotoAll.plate, SpecPhotoAll.mjd, SpecPhotoAll.fiberID, SpecPhotoAll.ra, SpecPhotoAll.dec, kGiants.plate, kGiants.mjd, kGiants.fiberid from DR9.SpecPhotoAll, mydb.kGiants where SpecPhotoAll.plate = kGiants.plate and SpecPhotoAll.mjd = kGiants.mjd and SpecPhotoAll.fiberID = kGiants.fiberid"
+2019-10-09 18:30:00,2
+2019-10-09 18:31:00,2

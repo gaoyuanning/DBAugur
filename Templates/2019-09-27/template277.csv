@@ -1,0 +1,2 @@
+1,"SELECT TOP #     g.source_id, g.ra, g.ra_error, g.dec, g.dec_error, g.parallax, g.parallax_error,    g.phot_g_mean_mag, g.bp_rp, g.radial_velocity, g.radial_velocity_error, g.phot_variable_flag,    g.teff_val, g.a_g_val FROM gaiadr2.gaia_source g   JOIN dbo.fGetNearbyObjEq(#, #, #) n on g.source_id = n.source_id"
+2019-09-27 12:01:00,1

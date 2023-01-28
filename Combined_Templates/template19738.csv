@@ -1,0 +1,2 @@
+2,"select v.*, g.* into mydb.VAC_clean_GRGs_galspecline from mydb.VAC_clean_GRGs_ID v, galSpecLine g where v.specobjid = g.specobjid"
+2019-03-12 12:00:00,2

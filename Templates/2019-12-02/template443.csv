@@ -1,0 +1,2 @@
+1,"select   specobjID, bestobjID, firstrelease, survey, sourcetype, class,   ra, raErr, dec, decErr, z, zErr,   modelMag_r, modelMag_i, modelMag_g, psfMag_r, psfMag_i, psfMag_g,   petroMag_r, petroR5#_r into mydb.galaxy_red1# from mydb.galaxy_red where   petroMag_r < #   and psfMag_r-modelMag_r > #   and ABS((psfMag_r-psfMag_i)-(psfMag_g-psfMag_r)/#-#) < #   and petroMag_r < #+(#*(psfMag_g-psfMag_r)+#*((psfMag_r-psfMag_i)#))/#   and petroMag_r+#*log(petroR5#_r*petroR5#_r*#*#) < #"
+2019-12-02 04:03:00,1

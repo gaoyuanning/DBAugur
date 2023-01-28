@@ -1,0 +1,2 @@
+1,"SELECT z.specobjid, s.specObjID, s.ra, s.dec, z.ra as zra, z.dec as zdec FROM zoo2MainSpecz AS z JOIN SpecDR7 AS s ON z.dr7objid = s.dr7ObjID WHERE z.specobjid = #"
+2019-06-07 20:01:00,1

@@ -1,0 +1,2 @@
+1,"SELECT cModelMag_g, cModelMag_r, cModelMag_i, cModelMag_z, cModelMagErr_g, cModelMagErr_r, cModelMagErr_i, cModelMagErr_z FROM PhotoPrimary as p INNER JOIN z ON p.objID = s.specobjID"
+2019-09-27 09:21:00,1

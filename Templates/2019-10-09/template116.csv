@@ -1,0 +1,2 @@
+2,"select objID, plate, mjd, fiberID, ra, dec from DR9.SpecPhotoAll where plate = kGiants.plate and mjd = kGiants.njd and fiberID = kGiants.fiberid"
+2019-10-09 18:23:00,2

@@ -1,0 +1,2 @@
+1,"SELECT top # survey, programname, legacy_target1, ra, dec, z, zErr, u, g from PhotoObj WHERE z> # AND class = # AND ra> # AND ra< # AND z< # AND z< #"
+2019-01-28 07:12:00,1

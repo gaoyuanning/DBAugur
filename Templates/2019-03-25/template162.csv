@@ -1,0 +1,2 @@
+1,"SELECT mangaID, nsa_sersic_absmag_g, nsa_sersic_absmag_r, nsa_extinction_g, nsa_extinction_r, nsa_sersic_th5#, nsa_elpetro_ba, nsa_z, nsa_zdist FROM mangatarget WHERE nsa_zdist != #"
+2019-03-25 20:01:00,1

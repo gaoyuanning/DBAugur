@@ -1,0 +1,3 @@
+2,"select p.objid, p.ra, p.dec, ph.deVPhi_r as PA into mydb.PAs from Galaxy p, PhotoObjAll ph where p.objid=ph.bestobjid"
+2019-09-10 09:41:00,1
+2019-09-10 09:43:00,1

@@ -1,0 +1,6 @@
+5,"SELECT s.subClass, count (*) into mydb.MyTable_# from PhotoObjAll as p, SpecObjAll as s WHERE p.objID = s.bestObjID and p.psfMag_g< # and p.psfMag_r < # and p.psfMag_g - p.psfMag_r< # and s.class = # GROUP BY s.subClass;"
+2019-09-04 16:19:00,1
+2019-09-04 16:20:00,1
+2019-09-04 16:22:00,1
+2019-09-04 16:30:00,1
+2019-09-04 16:31:00,1

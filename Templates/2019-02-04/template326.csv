@@ -1,0 +1,2 @@
+1,"SELECT info.plateID,info.mjd,info.fiberid,line.sigma_balmer,line.sigma_forbidden from galSpecLine as line join galspecinfo as info on line.specobjid = info.specobjid   where info.p;lateid gt #"
+2019-02-04 12:00:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # g.g, g.r, s.ra, s.dec FROM Galaxy g, SpecObj s WHERE s.eclass < # and g.fracdev_g = #"
+2019-10-03 01:11:00,1

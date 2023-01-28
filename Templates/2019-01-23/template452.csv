@@ -1,0 +1,2 @@
+1,"select top # s.plate, s.mjd, s.fiberId, s.Class from SpecObj as s where s.Class = &&& and s.subClass like &&&"
+2019-01-23 08:20:00,1

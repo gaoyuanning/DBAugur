@@ -1,0 +1,2 @@
+1,"SELECT ALL objid,ra,dec,u,g,r,i,z,  run,rerun,camcol,field FROM PhotoObj WHERE   u BETWEEN # AND #   AND g BETWEEN # AND #"
+2019-06-16 00:19:00,1

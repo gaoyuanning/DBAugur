@@ -1,0 +1,2 @@
+2,"select psfMag_u, psfMag_g, psfMag_u-psfMag_g as color, count (psfMag_u-psfMag_g) from galaxy where psfMag_u-psfMag_g between # and # order by color desc"
+2019-09-03 09:21:00,2

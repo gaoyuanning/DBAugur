@@ -1,0 +1,3 @@
+2,"SELECT top # sp.z AS z, sp.ra AS ra1, sp.DEC AS dec1, sp.class AS class, sp.mode as mode FROM SpecPhotoAll as sp WHERE class = # and mode = # and zWarning = #"
+2019-05-27 01:46:00,1
+2019-05-27 01:51:00,1

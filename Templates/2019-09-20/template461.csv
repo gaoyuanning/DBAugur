@@ -1,0 +1,2 @@
+1,"select z,specobjid,class from specphoto where z <# order by z"
+2019-09-20 03:42:00,1

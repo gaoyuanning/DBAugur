@@ -1,0 +1,2 @@
+1,"select * from openquery([CBIO], &&&)"
+2019-11-11 11:50:00,1

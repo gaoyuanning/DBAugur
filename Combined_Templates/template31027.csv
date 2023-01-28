@@ -1,0 +1,5 @@
+4,"select ra, dec, #*LOG1# (psfFlux_u) + # - extinction_u + # as psfPogCorr_u, #*LOG1# (psfFlux_r) + # - extinction_r + # as psfPogCorr_r, #/SQRT (psfFluxIvar_u) /psfFlux_u as psfPogErr_u, #/SQRT (psfFluxIvar_r) /psfFlux_r as psfPogErr_r from star as s where ra between # and # and dec between # and #e-# and s.clean = # and psfFlux_u > # and psfFlux_r > # and psfMagErr_u < # and psfMagErr_r < #"
+2019-04-16 03:25:00,1
+2019-04-16 03:26:00,1
+2019-04-16 03:35:00,1
+2019-04-16 03:44:00,1

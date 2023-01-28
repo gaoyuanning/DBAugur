@@ -1,0 +1,2 @@
+2,SELECT DISTINCT p.r FROM PhotoObjAll AS p WHERE ((p.ra between # and #) and (p.dec between # and #))
+2019-07-14 03:29:00,2

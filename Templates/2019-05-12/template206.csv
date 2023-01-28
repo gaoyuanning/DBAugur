@@ -1,0 +1,3 @@
+2,select * from SpecLine where specObjId=#
+2019-05-12 04:23:00,1
+2019-05-12 10:41:00,1

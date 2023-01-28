@@ -1,0 +1,23 @@
+22,"select v.* from optw.tamass.VARIABLES v where ID = # --, #, B1#_#E, Median household income in the past # months (in # inflation-adjusted dollars) , MEDIAN HOUSEHOLD INCOME IN THE PAST # MONTHS) , -- needs query tracts as (select TractID = ID, vintage, lon = centroid.Long, lat = centroid.Lat, wkt = geom.ToString () , dist2geom = geom.STDistance (@center) , dist2cent = centroid.STDistance (@center) , m2 = geom.STArea () , deg = geom.EnvelopeAngle () from optw.tamass.TRACTS where centroid.STDistance (@center) < # / # * # -- meters -- and geom.STArea () < #e9 -- m^#) select t.*, count_var = count (distinct c.VarID) , total = sum (c.val) , density = sum (c.val) / m2 * # from vars v join optw.tamass.VALS as c on c.VarID = v.ID join tracts t on t.TractID = c.TractID and t.vintage = v.vintage where v.vintage = # -- need year and c.VAL is not # group by t.TractID, t.vintage, lon, lat, wkt, dist2geom, dist2cent, m2, deg"
+2019-11-11 05:58:00,1
+2019-11-11 05:59:00,1
+2019-11-11 06:22:00,1
+2019-11-11 06:23:00,1
+2019-11-11 06:25:00,1
+2019-11-11 06:28:00,1
+2019-11-11 06:30:00,1
+2019-11-11 06:32:00,1
+2019-11-11 06:33:00,1
+2019-11-11 06:38:00,1
+2019-11-11 06:40:00,1
+2019-11-11 06:42:00,1
+2019-11-11 06:45:00,1
+2019-11-11 06:48:00,1
+2019-11-11 07:03:00,1
+2019-11-11 07:04:00,1
+2019-11-11 07:08:00,1
+2019-11-11 07:09:00,1
+2019-11-11 07:14:00,1
+2019-11-11 07:15:00,1
+2019-11-11 07:22:00,1
+2019-11-11 07:23:00,1

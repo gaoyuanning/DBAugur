@@ -1,0 +1,2 @@
+2,"SELECT p.psffwhm_i, p.ra, p.dec, S.mjd, S.plate, S.fiberID, S.z, S.zErr, S.rChi2, S.velDisp, S.velDispErr INTO mydb.SDSSspecgalsDR1#_# FROM SpecObjAll S CROSS APPLY PhotoObjAll p WHERE p.ObjID = S.targetObjID AND (p.petroMag_r > # AND p.petroMag_r < #) AND (p.modelMag_u-p.modelMag_r) < # AND (p.modelMag_u > # AND p.modelMag_u < #) AND (p.modelMag_g > # AND p.modelMag_g < #) AND (p.modelMag_r > # AND p.modelMag_r < #) AND (p.modelMag_i > # AND p.modelMag_i < #) AND (p.modelMag_z > # AND p.modelMag_z < #) AND S.rChi2 < # AND S.z > #"
+2019-08-12 14:38:00,2

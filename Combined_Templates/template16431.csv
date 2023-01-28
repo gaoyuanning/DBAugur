@@ -1,0 +1,12 @@
+11,"SELECT ra, dec, run, rerun, camcol, field, obj, type, primTarget, flags, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z, modelMagErr_u, modelMagErr_g, modelMagErr_r, modelMagErr_i, modelMagErr_z FROM PhotoPrimary WHERE (ra between # and #) and (dec between # and #) and modelMag_r< # and type = #"
+2019-03-03 09:07:00,1
+2019-03-03 09:18:00,1
+2019-03-03 09:29:00,1
+2019-03-03 10:49:00,1
+2019-03-03 11:11:00,1
+2019-03-03 11:29:00,1
+2019-03-03 11:31:00,1
+2019-03-03 11:53:00,1
+2019-03-03 12:22:00,1
+2019-03-03 12:38:00,1
+2019-03-03 12:40:00,1

@@ -1,0 +1,2 @@
+1,"select a.ra, a.dec into mydb.MyTable from bars a"
+2019-06-25 05:41:00,1

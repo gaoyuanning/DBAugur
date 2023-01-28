@@ -1,0 +1,2 @@
+2,"select dbo.fCosmoAbsMag(#,#,#,#,#e-#,#,#) --select dbo.fCosmoAbsMag(#,#,DEFAULT,DEFAULT,DEFAULT,DEFAULT,DEFAULT) --SELECT TOP # cModelMag_r into MyDB.magr --FROM PhotoObjAll     select dbo.fCosmoAbsMag(MyDB.magr[#],#,DEFAULT,DEFAULT,DEFAULT,DEFAULT,DEFAULT)"
+2019-04-18 07:10:00,2

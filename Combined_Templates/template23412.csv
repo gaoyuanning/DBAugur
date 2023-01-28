@@ -1,0 +1,2 @@
+1,"SELECT top # objID, cModelMag_u FROM PhotoObjAll p JOIN specObjAll s ON p.objID = s.bestobjid"
+2019-03-25 16:01:00,1

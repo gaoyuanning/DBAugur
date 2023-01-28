@@ -1,0 +1,3 @@
+2,"SELECT objId, ra, dec, petroMag_i, petroMagErr_i, petroR5#_i, petroR9#_i, modelMag_i, modelMagErr_i, deVRad_i, deVAB_i, deVPhi_i, fracDeV_i, sky_i, skyIvar_i, field, extinction_i FROM PhotoObj WHERE run = # and field = # and camcol = # and i < # and i ! = #"
+2019-10-06 11:13:00,1
+2019-10-06 11:21:00,1

@@ -1,0 +1,13 @@
+12,"SELECT u.up_up_id as up_id, dbo.fDistanceEq(u.up_ra,u.up_dec,p.ra,p.dec) as distance,p.ra,p.dec,p.raErr,p.decErr,p.objId,p.run,p.rerun,p.camcol,p.field,dbo.fPhotoModeN(mode) as mode,nChild,dbo.fPhotoTypeN(p.type) as type,clean,flags,psfMag_u,psfMag_g,psfMag_r,psfMag_i,psfMag_z,psfMagErr_u,psfMagErr_g,psfMagErr_r,psfMagErr_i,psfMagErr_z,modelMag_u,modelMag_g,modelMag_r,modelMag_i,modelMag_z,modelMagErr_u,modelMagErr_g,modelMagErr_r,modelMagErr_i,modelMagErr_z,extinction_u,extinction_g,extinction_r,extinction_i,extinction_z,mjd FROM #upload u JOIN #x x ON x.up_id = u.up_id JOIN PhotoObj p ON p.objID = x.objID ORDER BY u.up_id,distance"
+2019-08-01 10:46:00,1
+2019-08-01 17:49:00,1
+2019-08-01 17:50:00,1
+2019-08-01 18:04:00,1
+2019-08-01 18:09:00,1
+2019-08-01 18:21:00,1
+2019-08-01 19:44:00,1
+2019-08-01 20:57:00,1
+2019-08-01 20:58:00,1
+2019-08-01 21:11:00,1
+2019-08-01 21:14:00,1
+2019-08-01 21:39:00,1

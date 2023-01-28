@@ -1,0 +1,2 @@
+1,"SELECT sp.extinction_u, sp.extinction_g, sp.extinction_r, sp.extinction_i, sp.extinction_z, sp.fieldID, sp.dered_u, sp.dered_g, sp.dered_r, sp.dered_i, sp.dered_z into mydb.DR1#_# from SpecPhoto AS sp WHERE z BETWEEN # AND # AND class = #"
+2019-01-31 12:47:00,1

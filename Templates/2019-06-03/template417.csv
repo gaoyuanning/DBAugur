@@ -1,0 +1,4 @@
+5,"select    s.ra, s.dec, s.z,p.objID ,s.SpecObjID,s.bestObjID, p.u_r , g.specObjID, g.h_beta_flux, g.h_alpha_flux,g.oiii_#_flux,g.nii_#_flux, g.sii_#_flux, g.oi_#_flux    from    SpecObjAll as s,     PhotoObjAll as p,   galSpecLine as g     into MyDB.Kaffmann_emission_line    where      g.specObjID=s.SpecObjID     and     s.bestObjID=p.objID       and s.sciencePrimary = #      and s.z between # and #"
+2019-06-03 07:41:00,1
+2019-06-03 07:42:00,2
+2019-06-03 07:44:00,2

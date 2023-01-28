@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid,p.ra,p.dec,p.u,s.RA, s.DEC, s.MPE FROM PhotoObj AS p  JOIN RC3 AS s ON s.objID= p.objid WHERE   p.u BETWEEN # AND #  AND g BETWEEN # AND #"
+2019-02-12 21:44:00,1

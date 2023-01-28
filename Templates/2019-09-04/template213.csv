@@ -1,0 +1,2 @@
+1,"select   mt.objID_#, po.petroR9#_r into mydb.r9#_test from myDB.oid_test mt, photoObjAll po where   mt.objID_# = po.objID"
+2019-09-04 17:29:00,1

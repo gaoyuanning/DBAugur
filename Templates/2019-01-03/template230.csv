@@ -1,0 +1,2 @@
+1,"SELECT * into mydb.MyTable from fGetNearbyObjEq(#,#,#)    SELECT * FROM fGetNearestObjEq(#,#,#)       SELECT     m.objID, m.ra AS ra1, m.dec AS dec1,     n.objid, n.distance,     o.ra AS ra2, o.dec AS dec2  FROM MyDB.test AS m     CROSS APPLY dbo.fGetNearbyObjEq( m.ra, m.dec, #) AS n     JOIN PhotoObj AS o ON n.objid=o.objid"
+2019-01-03 15:24:00,1

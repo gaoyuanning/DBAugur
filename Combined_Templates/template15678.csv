@@ -1,0 +1,4 @@
+3,"select ra, dec into mydb.MyTable_# from dbo.zoo2MainPhotoz where t0#_bar_a0#_bar_fraction > # and t0#_bar_a0#_bar_weighted_fraction > # and t0#_bar_a0#_bar_debiased > #"
+2019-02-28 09:48:00,1
+2019-02-28 09:49:00,1
+2019-03-04 01:52:00,1

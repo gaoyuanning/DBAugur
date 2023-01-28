@@ -1,0 +1,2 @@
+1,select * from optw.tamass.VARIABLES where vintage=# and label=&&& and binmax is NULL
+2019-10-31 14:17:00,1

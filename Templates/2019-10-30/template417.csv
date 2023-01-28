@@ -1,0 +1,2 @@
+1,"SELECT count(*) from SELECT p.objID,s.SpecClass,s.objTypeName FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid =p.objid WHERE p.modelMag_r BETWEEN # AND #     AND s.objTypeName =&&&"
+2019-10-30 05:45:00,1

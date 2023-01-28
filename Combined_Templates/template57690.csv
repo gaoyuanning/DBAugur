@@ -1,0 +1,2 @@
+1,"SELECT ObjID, r, g, i, u (u-r) into mydb.Red_E_Galaxies FROM mydb.E_Galaxies as e"
+2019-08-14 08:41:00,1

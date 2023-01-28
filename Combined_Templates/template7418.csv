@@ -1,0 +1,2 @@
+1,"SELECT TOP # m.plate, m.mangaid, m.objra, m.objdec, m.daptype, m.z, m.sfr_#re, m.stellar_sigma_#re, p.ra, p.dec, p.plateid FROM mangaDAPall as m WHERE m.stellar_sigma_#re > # JOIN PhotoObj as p ON m.plate = p.plateid"
+2019-01-31 21:47:00,1

@@ -1,0 +1,6 @@
+5,"SELECT TOP # s.ra, s.dec, s.plate, s.mjd, s.fiberid, s.z, s.zErr, s.zWarning, s.class, dbo.fIAUFromEq (p.ra, p.[dec]) as SDSSname FROM BESTDR1#..SpecObj as s JOIN BESTDR1#..PhotoObj AS p ON s.bestObjID = p.objID JOIN #x AS x ON x.SpecobjID = s.SpecobjID JOIN #upload AS u ON u.up_id = x.up_id WHERE s.zWarning = # AND (p.type = # OR p.type = #) ORDER BY x.up_id"
+2019-04-03 13:42:00,1
+2019-04-03 13:54:00,1
+2019-04-03 14:39:00,1
+2019-04-03 15:15:00,1
+2019-04-03 15:17:00,1

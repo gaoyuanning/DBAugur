@@ -1,0 +1,5 @@
+5,"select    s.ra, s.dec, s.z,p.objID , p.petroMag_u,p.petroMag_g, p.petroMag_r,p.petroMag_i,p.petroMag_z    from    SpecObjAll as s,     PhotoObjAll as p        into MyDB.Kauffmann_photobJALL_#      where       s.bestObjID=p.objID"
+2019-06-08 04:38:00,1
+2019-06-08 04:39:00,2
+2019-06-08 04:48:00,1
+2019-06-08 04:49:00,1

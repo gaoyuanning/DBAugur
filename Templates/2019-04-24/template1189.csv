@@ -1,0 +1,3 @@
+2,"SELECT DISTINCT TOP #     COUNT(Track.AlbumId) AS Num_tracks,     SUM(Track.UnitPrice) As Price FROM chinook.Album album INNER JOIN chinook.Track track ON album.AlbumId = track.AlbumId GROUP BY album.AlbumId ORDER BY SUM(Track.UnitPrice) DESC"
+2019-04-24 12:13:00,1
+2019-04-24 12:14:00,1

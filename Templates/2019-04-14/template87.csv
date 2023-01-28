@@ -1,0 +1,2 @@
+1,"select p.objId,p.absmagU,p.absmagG,p.absmagR from PhotoZ as p"
+2019-04-14 20:09:00,1

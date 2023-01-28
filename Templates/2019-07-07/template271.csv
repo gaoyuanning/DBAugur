@@ -1,0 +1,2 @@
+1,"SELECT    p.objid,p.field,p.ra,p.dec,p.flags,p.dered_r,p.PSFMag_r, p.PSFMagErr_r,p.cModelMag_r,p.cModelMagErr_r,   p.specobjid,p.z as redshift_spec, p.zErr as redshift_specErr, p.class, p.subclass,    p.zWarning into mydb.sdss_new1    FROM SpecPhotoAll AS p WHERE p.class = &&&"
+2019-07-07 03:41:00,1

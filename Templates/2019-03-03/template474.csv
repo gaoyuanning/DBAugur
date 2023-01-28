@@ -1,0 +1,4 @@
+3,"select S.plate as plate, S.mjd as mjd, S.fiberID as fiberID from SpecObj as S, PhotoObj as P where S.SpecObjID = P.SpecObjID and S.objType = # and S.z <=#"
+2019-03-03 09:38:00,1
+2019-03-03 11:23:00,1
+2019-03-03 12:33:00,1

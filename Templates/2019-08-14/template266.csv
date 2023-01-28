@@ -1,0 +1,5 @@
+8,"SELECT TOP # s.plate, s.mjd, s.fiberid, s.specobjid, p.objid, p.ra, p.dec, p.r FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid"
+2019-08-14 14:35:00,1
+2019-08-14 14:54:00,1
+2019-08-14 16:43:00,2
+2019-08-14 16:44:00,4

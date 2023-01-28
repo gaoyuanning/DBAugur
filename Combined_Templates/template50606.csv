@@ -1,0 +1,2 @@
+1,"SELECT u.up_col0 as [col0], # + cast (x.objId as varchar (#) ) + #+ cast (x.objId as varchar (#) ) + # as objID, p.bin, p.band, p.profMean, p.profErr, s.mjd, s.plate, s.fiberID FROM #x x, #upload u, PhotoProfile p, SpecPhotoAll s WHERE u.up_id = x.up_id and x.objID = p.objID ORDER BY x.up_id"
+2019-07-09 16:52:00,1

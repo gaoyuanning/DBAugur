@@ -1,0 +1,3 @@
+2,"CREATE TABLE [Hospital_in_patient] ( 	eid BIGINT NOT NULL ,	[Inpatient_record_origin_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Episodes_containing_Inpatient_record_origin__#] INTEGER -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Inpatient_record_format_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Episodes_containing_Inpatient_record_format_data_#] INTEGER -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=# ,PRIMARY KEY (eid)) GO"
+2019-04-23 09:46:00,1
+2019-04-23 10:53:00,1

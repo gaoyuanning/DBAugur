@@ -1,0 +1,4 @@
+4,"SELECT TOP # p.objid, p.ra, p.dec, p.cModelMag_g, p.cModelMag_r, p.cModelMag_i, s.specobjid, s.class, s.z as redshift, i.d4#_n, i.d4#_n_err, g.h_alpha_flux, g.h_alpha_flux_err FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN galSpecIndx AS i ON i.specobjid = s.specobjid JOIN galSpecLine AS g ON g.specobjid = s.specobjid WHERE s.class = # AND p.cModelMag_r < #"
+2019-01-15 10:22:00,1
+2019-01-16 08:23:00,1
+2019-01-16 08:42:00,2

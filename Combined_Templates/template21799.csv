@@ -1,0 +1,2 @@
+1,"SELECT l.*, R.extent INTO DR5_LRGs_X FROM DR5.Rosat as R, DR5_lrgs as l WHERE R.objID = l.objID R.extent > # ORDER BY l.objID"
+2019-03-20 14:59:00,1

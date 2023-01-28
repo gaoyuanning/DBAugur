@@ -1,0 +1,3 @@
+2,"SELECT TOP # specObjID, ra, dec, z into mydb.QSOs_rSDSS< # from SpecObj WHERE class = # AND zWarning = # From Photoprimary Where ra > # and ra < # and dec > # and dec < #"
+2019-07-01 18:57:00,1
+2019-07-01 18:58:00,1

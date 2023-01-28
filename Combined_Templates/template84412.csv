@@ -1,0 +1,2 @@
+1,"SELECT ph.specObjID, ph.ra, ph.dec, ph.type, phz.z, phz.zerr, phz.psfMag_u, phz.psfMag_g, phz.psfMag_r, phz.psfMag_i, phi.psfMag_z into mydb.zph5_withmag from PhotoObjAll as ph JOIN PhotoZ as phz ON ph.objID = phz.objID WHERE ph.type = # AND ph.specObjID> # AND phz.z> # AND ph.ra > #. and ph.ra < #. and ph.dec > #. and ph. dec < #."
+2019-12-25 08:01:00,1

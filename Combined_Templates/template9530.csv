@@ -1,0 +1,2 @@
+2,"SELECT ROW_NUMBER () OVER (ORDER BY g) #, p.objID, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, R.M2#, R.M2#Q, R.M2#ERR, R.V2# as radialvelocityHI, R.V2#Q, R.V2#ERR FROM photoObj p JOIN RC3 R ON R.objID = p.objID WHERE p.type = # AND p.r < = #"
+2019-02-11 17:14:00,2

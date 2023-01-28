@@ -1,0 +1,3 @@
+2,"SELECT Top # A.ra, A.dec, A.objID, A.specObjID, A.z, A.specClass, B.petroRad_r FROM SpecPhoto as A JOIN PhotoObj as B ON A.objID = B.objID WHERE A.specClass = # INTO MyDB.DR0#SpecPhotoGalaxyJOINPhotoObjTOP1#"
+2019-12-18 14:34:00,1
+2019-12-18 14:35:00,1

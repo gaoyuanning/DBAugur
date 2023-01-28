@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.g, p.r, (p.g - p.r) as color, s.class FROM PhotoObj p JOIN SpecObj s ON s.bestobjid = p.objid WHERE s.class = #"
+2019-06-12 09:53:00,1

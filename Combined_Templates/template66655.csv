@@ -1,0 +1,2 @@
+1,"select top yy, mm, dd, sum (elapsed) , sum (rows) into mydb.sql-history-time-rows from sqllogall group by yy, mm, dd order by yy, mm, dd"
+2019-09-30 15:40:00,1

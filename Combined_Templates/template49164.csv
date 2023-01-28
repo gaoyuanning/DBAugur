@@ -1,0 +1,2 @@
+1,select top # ra where ra in (select ra from SpecObjAll group by ra having count (*) > #)
+2019-06-30 13:21:00,1

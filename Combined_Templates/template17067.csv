@@ -1,0 +1,2 @@
+1,"SELECT TOP # GDR2.source_id, nobjID, ra, dec psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z, psfMagErr_u, psfMagErr_g, psfMagErr_r, psfMagErr_i, psfMagErr_z, cModelMag_u, cModelMag_g, cModelMag_r, cModelMag_i, cModelMag_z, cModelMagErr_u, cModelMagErr_g, cModelMagErr_r, cModelMagErr_i, cModelMagErr_z --INTO [myscratch:default].All_SDSSDR1#_# FROM PhotoPrimary P JOIN GaiaDR2.sdssdr9_best_neighbour AS GDR2 ON GDR2.original_ext_source_id = P.objID --WHERE -- type = dbo.fPhotoType (#) AND g < # AND clean = #"
+2019-03-04 11:05:00,1

@@ -1,0 +1,2 @@
+1,"select c.*,z.the_geom.ToString() as the_geom ,    cast(c.numTotal as float)/c.area as dens from mcrimes c, mschoolzones z where c._year=#    and c.area>#   and z._id=c._id    and z._year=c._year"
+2019-09-02 16:12:00,1

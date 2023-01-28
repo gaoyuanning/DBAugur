@@ -1,0 +1,2 @@
+1,"SELECT * FROM   (SELECT ts.TestScore, es.Score       FROM Enrollment e    INNER JOIN TestScores ts    ON e.SystemStudentID = ts.SystemStudentID    INNER JOIN ParentEngagement pe     ON pe.StudentID = ts.SystemStudentID     INNER JOIN EmotionalScreener es     ON es.StudentID = pe.StudentID)"
+2019-04-19 18:29:00,1

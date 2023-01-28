@@ -1,0 +1,2 @@
+1,"select SpecObjAll.z PhotoObj.ra, PhotoObj.dec, from SpecObjAll, PhotoObj"
+2019-11-25 03:35:00,1

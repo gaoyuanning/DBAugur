@@ -1,0 +1,2 @@
+1,"SELECT sp.elodieFileName, sp.elodieObject, sp.elodieSpType, sp.elodieBV, sp.elodieTEff, sp.elodieLogG, sp.elodieFeH, sp.elodieZ, sp.elodieZErr, sp.elodieZModelErr, sp.elodieRChi2, sp.elodieDOF, sp.htmID, sp.loadVersion, sp.img into mydb.DR1#_sp_# from SpecObj AS sp WHERE z BETWEEN #. AND #. AND class=&&&"
+2019-02-05 13:42:00,1

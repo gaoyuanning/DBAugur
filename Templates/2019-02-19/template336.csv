@@ -1,0 +1,2 @@
+1,select top # * from SciServerLog.Messages where year(time)=# and month(time)=# and day(time)=# and user_id is not null
+2019-02-19 13:13:00,1

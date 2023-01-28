@@ -1,0 +1,2 @@
+1,"select COUNT(id), SUM(x), AVG(y), STDEV(x-y)  from Data  where Y>#"
+2019-04-29 13:03:00,1

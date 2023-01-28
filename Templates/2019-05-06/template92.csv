@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.specObjID, zs.nvote, zs.p_el as elliptical, zs.p_cw as spiralclock, zs.p_acw as spiralanticlock, zs.p_edge as edgeon, zs.p_dk as dontknow, zs.p_mg as merger         FROM galSpecLine as p    JOIN ZooSpec AS zs ON p.specObjID = zs.specobjid    JOIN Galaxy as y ON p.specObjID = y.specObjID    WHERE zs.nvote >= # and zs.p_cw >#"
+2019-05-06 19:33:00,1

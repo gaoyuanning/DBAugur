@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.ra, s.dec, s.z, s.zErr, p.expAB_r, p.expPhi_r, p.petroMag_r, p.petroMag_u, p.fracDeV_r FROM photoObj p JOIN specObj s ON s.bestObjID = p.objID WHERE s.class = # AND s.z < # AND p.lnLExp_r > lnLDeV_r ORDER BY s.z"
+2019-05-08 20:27:00,1

@@ -1,0 +1,2 @@
+1,"SELECT s.SDSSname, s.specObjID, s.objID, s.ra, s.dec, s.petroMag_u, s.petroMagErr_u, s.petroMag_g, s.petroMagErr_g, s.petroMag_r, s.petroMagErr_r, s.petroMag_i, s.petroMagErr_i, s.petroMag_z, s.petroMagErr_z, s.specobjid, s.class, s.subclass, s.z, g.* from xSDSSDR7 as g JOIN mydb.SF_sdss as s ON s.ObjID = g.SDSSObjid"
+2019-05-14 13:51:00,1

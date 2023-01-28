@@ -1,0 +1,4 @@
+4,"SELECT TOP #  p.run,p.rerun,p.camCol,p.field,p.obj  FROM ..PhotoObj AS p  WHERE p.u > # AND p.g > # AND p.r > # AND p.i > # AND p.z > # AND p.u < # AND p.g < # AND p.r < # AND p.i < # AND p.z < # AND ( p.type = # OR p.type = #)"
+2019-04-25 09:49:00,1
+2019-04-25 09:50:00,2
+2019-04-25 09:51:00,1

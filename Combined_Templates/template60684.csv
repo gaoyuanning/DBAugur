@@ -1,0 +1,2 @@
+1,"SELECT TOP # r.rerun, r.run FROM Run AS r WHERE r.stripe = #"
+2019-09-03 02:04:00,1

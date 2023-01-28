@@ -1,0 +1,2 @@
+1,"SELECT id.dr8objid, gsp.best_model_z into mydb.id_Z from MyDB.S0_IDs AS id, galSpecIndx AS gsp WHERE id.specObjID = gsp.specObjID"
+2019-02-07 09:54:00,1

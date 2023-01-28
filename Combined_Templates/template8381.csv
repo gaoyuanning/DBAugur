@@ -1,0 +1,2 @@
+1,"SELECT objid, class, Flux_Hb_#, Flux_Hb_#_Err, Flux_OIII_#, Flux_OIII_#_Err, Flux_Ha_#, Flux_Ha_#_Err, Flux_NII_#, Flux_NII_#_err from SpecPhoto as s JOIN emissionLinesPort as g ON s.specObjID = g.specObjID WHERE petroMag_r < #. and z > # and z < #"
+2019-02-05 10:49:00,1

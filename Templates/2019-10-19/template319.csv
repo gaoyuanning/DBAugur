@@ -1,0 +1,2 @@
+1,"SELECT p.type FROM PhotoObjAll as p, WHERE p.type = star"
+2019-10-19 07:00:00,1

@@ -1,0 +1,2 @@
+1,"SELECT p.objid,p.ra,p.dec,dbo.fdistancearcmineq(p.ra,p.dec,#,#)*# as darcsec,   p.dered_r,   p.psfmag_u,p.psfMagErr_u,p.dered_u,p.u,p.err_u,   p.psfmag_g,p.psfMagErr_g,p.dered_g,p.g,p.err_g,   p.psfmag_r,p.psfMagErr_r,p.dered_r,p.r,p.err_r,   p.psfmag_i,p.psfMagErr_i,p.dered_i,p.i,p.err_i,   p.psfmag_z,p.psfMagErr_z,p.dered_z,p.z,p.err_z,   p.petroR9#_r,p.petroR9#Err_r,   case   when p.parentID != # then True"
+2019-09-26 01:26:00,1

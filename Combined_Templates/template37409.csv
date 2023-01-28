@@ -1,0 +1,2 @@
+1,"SELECT sp.objid, elp.specobjid, elp.ra, elp.dec, elp.z, elp.chisq, elp.Error_Warning, elp.Flux_Ha_#, elp.Flux_Ha_#_err, elp.AoN_Ha_#, elp.Flux_Cont_Ha_#, elp.Flux_Cont_Ha_#_Err, elp.Fit_Warning_Ha_#, elp.Amplitude_Ha_#, elp.Amplitude_Ha_#_Err, elp.EW_Ha_#, elp.EW_Ha_#_Err, elp.bpt, elp.ebmv, sp.modelMag_r, sp.fiberMag_r, sp.extinction_r, sp.class, sp.zwarning, sp.plate into mydb.elp_dr1# from emissionLinesPort as elp join SpecPhotoAll as sp on elp.specobjid = sp.specobjid where elp.z between # and #"
+2019-05-07 16:12:00,1

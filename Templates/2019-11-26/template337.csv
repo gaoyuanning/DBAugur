@@ -1,0 +1,2 @@
+1,"SELECT  objID,  	    a.l, a.b, a.nprof_g,   a.nprof_r, a.nprof_u, f.profMean into mydb.MyTable from PhotoObjAll as a       JOIN photoProfile as f ON a.objID=f.objID WHERE b > #   AND b < #   AND l > #    AND l < #   AND psfMAG_g < #   AND psfMAg_u < #   AND psfMAg_r < #"
+2019-11-26 09:48:00,1

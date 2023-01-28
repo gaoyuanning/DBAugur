@@ -1,0 +1,2 @@
+1,"SELECT count(*) into mydb.MyTable from MyDB.radec_mc_short as my   CROSS APPLY dbo.fFootprintEq(my.ra,my.dec,#)"
+2019-04-11 17:20:00,1

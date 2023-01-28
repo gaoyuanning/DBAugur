@@ -1,0 +1,2 @@
+1,"select  S.objid, X.sdss_objid, W.w1mpro, W.w2mpro, W.w3mpro, W.w4mpro,    W.w1sigmpro,W.w2sigmpro,W.w3sigmpro,W.w4sigmpro, W.cntr into mydb.wise_match_# from wise_xmatch as X       join mydb.MyTable_# as S on X.sdss_objid = S.objid   join wise_allsky as W on X.wise_cntr = W.cntr"
+2019-04-02 16:25:00,1

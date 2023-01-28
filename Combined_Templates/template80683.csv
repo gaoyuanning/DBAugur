@@ -1,0 +1,2 @@
+1,"SELECT P.ObjID, P.ra, P.dec, P.type, P.cModelMag_g, P.cModelMag_r into mydb.HeCS_# From PhotoObjAll P, mydb.HeCS x WHERE x.name = P.ObjID"
+2019-12-04 07:48:00,1

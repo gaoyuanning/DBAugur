@@ -1,0 +1,2 @@
+1,SELECT count(*) into mydb.MyTable6 from Galaxy as g
+2019-04-25 19:26:00,1

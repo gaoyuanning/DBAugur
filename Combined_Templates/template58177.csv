@@ -1,0 +1,2 @@
+1,"SELECT ALL a.OBJID AS OBJID, a.RA AS RA, a.DEC AS DEC, dbo.fGetNearestObjIdEq (a.RA, a.DEC, #) AS sdssid FROM MyDB.akari AS a INTO mydb.AKARIandSDSS"
+2019-08-18 19:58:00,1

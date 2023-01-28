@@ -1,0 +1,2 @@
+2,"SELECT g.ra, g.dec into mydb.DR1#_gals from PhotoObjAll as g where g.cmodelMag_r < # and g.type = # and g.insideMask = #"
+2019-12-17 07:33:00,2

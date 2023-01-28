@@ -1,0 +1,2 @@
+1,"SELECT pl.plate, pl.mjd, sp.fiberID, ph.modelMag_u, ph.modelMag_g,   ph.modelMag_r, ph.modelMag_i, ph.modelMag_z, ph.ra, ph.dec, sp.z, ph.ObjID FROM photoObj ph, specObj sp, plateX pl WHERE sp.bestObjid = ph.ObjID  AND pl.plateID = sp.plateID  AND ph.class = qso  AND sp.zWarning = #  AND sp.z BETWEEN # AND #"
+2019-11-07 14:40:00,1

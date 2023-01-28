@@ -1,0 +1,2 @@
+1,"select Ever_had_refractive_laser_eye_surgery_#, a.encoding_id, c.value, c.meaning from dbo.Eye_surgery_complications b cross apply openjson ([Ever_had_refractive_laser_eye_surgery_#]) join metadata.columninfo a on a.column_name = # join metadata.encoding c on c.encoding_id = a.encoding_id"
+2019-09-17 10:34:00,1

@@ -1,0 +1,2 @@
+1,"SELECT   m.objID,   s.class, s.subClass from mydb.FieldDR1#_Second_Sample_PSM as m, SpecObj as s   WHERE m.objID = s.bestObjID"
+2019-08-14 11:53:00,1

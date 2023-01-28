@@ -1,0 +1,3 @@
+3,"select top # x, y x*y - # as derived from Data where x > # and x+y between # and #    order by y desc"
+2019-11-18 12:31:00,1
+2019-11-18 12:32:00,2

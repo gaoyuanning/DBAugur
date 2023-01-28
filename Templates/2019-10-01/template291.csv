@@ -1,0 +1,2 @@
+2,"SELECT TOP #    p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,    s.specobjid, s.specClass, s.z,    s.plate, s.mjd, s.fiberid FROM PhotoObj AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE     p.ra BETWEEN # AND #   p.dec BETWEEN # AND #   AND s.z < #"
+2019-10-01 11:35:00,2

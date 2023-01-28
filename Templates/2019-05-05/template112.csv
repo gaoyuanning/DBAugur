@@ -1,0 +1,3 @@
+2,"select cov.* -- mr.x,mr,y,mr.z,mr.velx,mr.vely,mr.velz,mr.halfmassradius  from dbo.fCover(&&&,#,&&&,#,@qry.ToString()) cov --  ,    mpahalotrees.mr mr -- where mr.snapnum=# and mr.phkey between cov.keymin and mr.keymax"
+2019-05-05 16:19:00,1
+2019-05-05 16:22:00,1

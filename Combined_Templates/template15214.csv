@@ -1,0 +1,2 @@
+1,"SELECT TOP # z, count (*) into mydb.MyTable3 FROM SpecObjAll GROUP BY z HAVING COUNT (*) > #"
+2019-02-27 13:00:00,1

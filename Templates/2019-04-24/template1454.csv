@@ -1,0 +1,2 @@
+1,"SELECT SUM(Name), Composer FROM chinook.Track GROUP BY Name;"
+2019-04-24 04:45:00,1

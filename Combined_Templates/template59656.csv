@@ -1,0 +1,3 @@
+2,"SELECT m.id, m.ra AS ra1, m.dec AS dec1, o.specobjid, o.ra AS ra2, o.dec AS dec2, o.z into mydb.XXL_NORTH2 from MyDB.XXL AS m OUTER APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n LEFT JOIN specObj AS o ON n.objid = o.bestobjid"
+2019-08-28 04:22:00,1
+2019-08-28 04:23:00,1

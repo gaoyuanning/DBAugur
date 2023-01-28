@@ -1,0 +1,2 @@
+1,"SELECT j.objid, s.specObjID, s.plateID, s.mjd, s.fiberid into mydb.MyTable_# from SpecObjAll s JOIN MyDB.jtab j ON j.objid = s.bestObjID"
+2019-05-07 08:33:00,1

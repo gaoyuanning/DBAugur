@@ -1,0 +1,4 @@
+3,"SELECT TOP #  s.plate,s.mjd,s.fiberid,s.z,s.zErr,s.zWarning,s.class,p.run,p.rerun,p.camCol,p.field,p.obj,cast(str(p.ra,#,#) as float) as ra,cast(str(p.[dec],#,#) as float) as dec,p.r,cast(str(p.u - p.g,#,#) as float) as ugModelColor,cast(str(p.g - p.r,#,#) as float) as grModelColor,cast(str(p.r - p.i,#,#) as float) as riModelColor,cast(str(p.i - p.z,#,#) as float) as izModelColor  FROM ..SpecObj as s  JOIN ..PhotoObj AS p ON s.bestObjID = p.objID  JOIN dbo.fGetNearbySpecObjEq(#,#,#) AS b ON b.SpecobjID = S.SpecobjID  WHERE s.zWarning = # AND (s.class = &&&) AND ( p.type = #)"
+2019-11-04 10:50:00,1
+2019-11-04 10:51:00,1
+2019-11-04 11:09:00,1

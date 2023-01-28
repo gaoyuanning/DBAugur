@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.run, p.rerun, p.camcol, p.field, p.obj, p.type, p.ra, p.dec, p.u,p.g,p.r,p.i,p.z, p.Err_u, p.Err_g, p.Err_r,p.Err_i,p.Err_z,Pz.z  FROM   SpecPhoto AS sp,  fGetNearbyObjEq(sp.ra,sp.dec,#) as n,   PhotoPrimary as p,   Photoz as PZ  WHERE sp.class = &&&  AND sp.zWarning = #  and sp.z > #  and sp.z < #  and n.objID=p.objID  and p.objID=PZ.objID   AND p.r between # AND # AND   PZ.z BETWEEN # and # and PZ.nnCount>#   and PZ.zErr BETWEEN # and #"
+2019-03-07 03:00:00,1

@@ -1,0 +1,2 @@
+1,"select s.z, p.petroRad_z  from specObj s JOIN specObj s ON s.bestObjID = p.objID where s.z BETWEEN # AND # and s.ra BETWEEN # AND # and s.dec BETWEEN # AND #"
+2019-03-15 09:12:00,1

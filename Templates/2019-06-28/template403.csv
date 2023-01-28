@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, extinction_g, extinction_r, psfmag_u, psfmagerr_u, psfmag_g, psfmag_r, psfmagerr_g, psfmagerr_r, psfmag_i, psfmagerr_i, psfmag_z, psfmagerr_z into NGC_#_LBT from Star WHERE   clean=#   AND mode=#   AND RA between #-#. and #+#.   AND dec between #-#. and #+#."
+2019-06-28 11:03:00,1

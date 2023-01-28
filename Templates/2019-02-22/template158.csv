@@ -1,0 +1,2 @@
+1,"SELECT TOP # cast(str(p.ra,#,#) as float) as ra,cast(str(p.[dec],#,#) as float) as dec,p.psfMag_u,p.psfMag_g,p.psfMag_r,p.psfMag_i,p.psfMag_z,p.psfMagErr_u,p.psfMagErr_g,p.psfMagErr_r,p.psfMagErr_i,p.psfMagErr_z FROM ..PhotoObj AS p  JOIN dbo.fGetObjFromRect(#,#,#,#) AS b ON p.objID = b.objID  WHERE p.r < # AND ( p.type = #) AND (p.flags & (dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&)) > #)"
+2019-02-22 15:06:00,1

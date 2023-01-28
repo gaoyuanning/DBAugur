@@ -1,0 +1,2 @@
+1,"SELECT a.ra, a.dec, a.id , n.elpetro_kcorrect_r FROM mydb.t1_radectest1 as a, nsatlas as n --into mydb.t_radect1_# WHERE n.nsaid = a.id"
+2019-03-25 17:15:00,1

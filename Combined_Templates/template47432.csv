@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.petroFlux_u, petroFlux_g, petroFlux_r, petroFlux_i, p.petroFlux_z, p.petroMag_u, p.petroMag_g, p.petroMag_r, p.petroMag_i, p.petroMag_z p.psfFlux_u, p.psfFlux_g, p.psfFlux_r, p.psfFlux_i, p.psfFlux_z, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, INTO MyDB.sdssbasicdata2 FROM PhotoObjAll AS p INNER JOIN SpecObjAll AS s on p.objID = s.bestObjID"
+2019-06-22 05:52:00,1

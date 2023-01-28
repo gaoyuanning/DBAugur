@@ -1,0 +1,2 @@
+1,"select top # objId, dbo.fPriTargetN (GALAXY_BIG) as priTarget from photoObj"
+2019-12-09 17:17:00,1

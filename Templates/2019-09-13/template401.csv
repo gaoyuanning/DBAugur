@@ -1,0 +1,2 @@
+1,"select p.objid, p.ra, p.dec, ph.ra,ph.dec,ph.deVPhi_u,ph.deVPhi_g,ph.deVPhi_r,ph.deVPhi_i,ph.deVPhi_z as PA into mydb.PAsFinal2 from mydb.forPAs p, PhotoObjAll ph where p.objid=ph.objid and (ph.deVPhi_r between # and #)"
+2019-09-13 05:13:00,1

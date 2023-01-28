@@ -1,0 +1,7 @@
+6,"SELECT TOP # s.Plate, s.MJD, s.FiberID FROM ..specObj s WHERE s.class=&&& AND s.z < # AND s.zWarning = # AND s.subClass=&&& AND s.sciencePrimary > # AND dbo.fFieldQuality(&&&)>#"
+2019-08-01 00:43:00,1
+2019-08-01 00:44:00,1
+2019-08-01 01:04:00,1
+2019-08-01 01:15:00,1
+2019-08-01 01:18:00,1
+2019-08-01 01:19:00,1

@@ -1,0 +1,2 @@
+1,"CREATE TABLE [Asthma_outcomes] ( 	eid BIGINT NOT NULL ,	[Date_of_asthma_report_#] DATETIME -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Source_of_asthma_report_#] INTEGER -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=# ,PRIMARY KEY (eid)) GO"
+2019-05-01 09:29:00,1

@@ -1,0 +1,2 @@
+1,SELECT * INTO my_Track FROM IPDSDB.chinook.Track;
+2019-04-17 11:07:00,1

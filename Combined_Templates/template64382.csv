@@ -1,0 +1,2 @@
+1,"SELECT TOP # objId, z, zErr, absMagR into mydb.MyTable from Photoz WHERE z BETWEEN # and # and photoErrorClass = # and nnCount> # and zErr BETWEEN # and # SELECT round (absMagR, #) as absMagR, COUNT (*) as cnt FROM Photoz WHERE z BETWEEN # and # and photoErrorClass = # and nnCount> # and zErr BETWEEN # and # group by round (absMagR, #) order by round (absMagR, #)"
+2019-09-21 13:55:00,1

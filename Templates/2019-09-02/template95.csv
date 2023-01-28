@@ -1,0 +1,4 @@
+3,"SELECT p.objid, p.ra, p.dec, p.psfmag_r, s.secTarget From Star p  JOIN SpecObj AS s ON p.objid=s.bestobjid  JOIN dbo.fGetNearbyObjEq(#,#,#) As n ON n.objid=s.bestobjid WHERE (s.secTarget & #)>#"
+2019-09-02 19:10:00,1
+2019-09-02 19:18:00,1
+2019-09-02 21:29:00,1

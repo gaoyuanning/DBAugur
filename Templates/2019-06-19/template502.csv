@@ -1,0 +1,2 @@
+1,"SELECT TOP # G.objID, GN.distance, ra, Dec, modelMag_g, modelMagErr_g, modelMag_r, modelMagErr_r, modelMag_i, modelMagErr_i JOIN dbo.fGetNearbyObjEq(#, #, #) AS GN ON G.objID = GN.objID ORDER BY distance into mydb.MyTable_#"
+2019-06-19 03:02:00,1

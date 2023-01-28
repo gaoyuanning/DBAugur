@@ -1,0 +1,7 @@
+71,"select P.objid,P.ra,P.dec,P.petroMag_r,P.petroMagErr_r,P.deVRad_r,P.petroRad_r,P.deVPhi_r,P.deVAB_r,P.rowc_r,P.colc_r,P.run,P.rerun,P.camcol,P.field from PhotoObjAll P where P.objid = #"
+2019-07-30 23:10:00,8
+2019-07-30 23:11:00,17
+2019-07-30 23:12:00,8
+2019-07-30 23:39:00,12
+2019-07-30 23:48:00,14
+2019-07-30 23:52:00,12

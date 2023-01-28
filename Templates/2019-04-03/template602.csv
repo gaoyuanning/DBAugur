@@ -1,0 +1,2 @@
+1,"select d.&&&,d.Id,d.objid,p.ra,p.dec,s.z  from MyDB.DiazGimenez as d   join PhotoObj AS p on p.objid = d.objid   join SpecObj AS s ON s.bestobjid = d.objid"
+2019-04-03 09:22:00,1

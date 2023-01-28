@@ -1,0 +1,2 @@
+1,"select mjd, seeing5# from platex where seeing5# between # and # order by mjd"
+2019-05-08 01:29:00,1

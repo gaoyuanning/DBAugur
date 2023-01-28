@@ -1,0 +1,2 @@
+1,"select top # spa.ra, spa.dec, from apogeestar as astar join apogeeplate as ap on sp.location_id=astar.locationid where ap.plate = #"
+2019-10-02 11:45:00,1

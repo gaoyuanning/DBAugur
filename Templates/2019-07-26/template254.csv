@@ -1,0 +1,2 @@
+1,select * from SpecPhoto where zErr>=# and zWarning=#
+2019-07-26 14:15:00,1

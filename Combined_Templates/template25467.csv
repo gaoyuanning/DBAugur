@@ -1,0 +1,2 @@
+1,"SELECT s.objid, sz.ra as ra, sz.dec as dec, pz.z as photoz, pz.zerr as photozerr FROM ..Photoz as pz JOIN PhotoObjAll as s JOIN dbo.fGetNearbyObjEq (#, #, #) AS b ON b.objID = S.objID JOIN Photoz as pz ON pz.objid = s.objid JOIN specObjAll as sz ON sz.bestobjid = s.objid WHERE (sz.z > # and sz.z < #) or (pz.z > # and pz.z < #)"
+2019-03-29 15:10:00,1

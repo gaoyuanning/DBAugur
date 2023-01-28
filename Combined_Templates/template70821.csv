@@ -1,0 +1,2 @@
+2,"select s.correct_ra ra, s.correct_dec dec, dbo.fHMSbase (s.correct_ra, default, default) , dbo.fDMSbase (s.correct_dec, default, default) into mydb.MyTable_#_transformed2 from mydb.MyTable_# s"
+2019-10-21 10:41:00,2

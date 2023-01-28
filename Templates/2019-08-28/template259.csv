@@ -1,0 +1,2 @@
+1,"SELECT     p.ObjID, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z,p.psfmag_u,p.psfmag_g,p.psfmag_r,p.psfmag_i,p.psfmag_z FROM photoObj p JOIN dbo.fGetNearbyObjEq(#,#,#) n ON n.objID = p.objID WHERE     p.psfmag_r < #"
+2019-08-28 10:41:00,1

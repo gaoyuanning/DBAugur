@@ -1,0 +1,2 @@
+1,"select top # x, y, x*y - # as derived from DR1 where x > # and x+y between # and # order by x*y desc"
+2019-11-18 12:33:00,1

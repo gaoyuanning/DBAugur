@@ -1,0 +1,2 @@
+1,SELECT DISTINCT(mode) FROM dbo.PhotoPrimary WHERE type=#
+2019-01-23 10:27:00,1

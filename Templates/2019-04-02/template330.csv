@@ -1,0 +1,2 @@
+1,"SELECT pz.objID, gal.ra, gal.dec, pz.z, pz.zErr, pz.photoErrorClass into mydb.MyTable from Galaxy gal JOIN Photoz pz on pz.objID = gal.objID WHERE pz.z BETWEEN # AND #"
+2019-04-02 12:57:00,1

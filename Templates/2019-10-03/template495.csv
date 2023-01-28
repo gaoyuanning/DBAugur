@@ -1,0 +1,3 @@
+2,"SELECT TOP # s.ra, s.dec FROM Galaxy g, SpecObj s     WHERE s.eclass > #     and g. fracdev_g >= #     and g.fracdev_g < #     and g.petroR9#_r/g.petroR5#_r < #"
+2019-10-03 01:42:00,1
+2019-10-03 01:48:00,1

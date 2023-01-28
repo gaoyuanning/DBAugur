@@ -1,0 +1,2 @@
+1,"SELECT sp.objid, sp.ra, sp.dec, sp.class, sp.z as redshift, sp.dered_r FROM SpecPhoto AS sp WHERE sp.z > # AND sp.z < # AND sp.class = GALAXY AND sp.ra > # AND sp.ra < # AND sp.dec > # AND sp.dec < #"
+2019-11-11 01:32:00,1

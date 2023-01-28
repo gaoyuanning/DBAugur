@@ -1,0 +1,2 @@
+1,"select plate, spectroFlux_z from specObj select fiberFlux_z from photoObj where plate BETWEEN # and #"
+2019-07-09 14:21:00,1

@@ -1,0 +1,5 @@
+6,"select s.bestObjID, s.ra, s.dec, s.z, s.class from SpecObjAll as s into MyDB.Kauffmann_spec_test_final"
+2019-06-03 17:27:00,1
+2019-06-03 17:28:00,1
+2019-06-03 17:32:00,2
+2019-06-03 17:33:00,2

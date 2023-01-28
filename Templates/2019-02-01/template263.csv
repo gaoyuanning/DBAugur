@@ -1,0 +1,2 @@
+1,"SELECT TOP #   ra, dec z, zErr into mydb.MyTable_# from SpecPhotoAll  WHERE class = &&&"
+2019-02-01 14:12:00,1

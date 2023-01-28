@@ -1,0 +1,2 @@
+1,"select p.l,p.b from star p where p.dec=# AND p.ra=#"
+2019-11-26 05:25:00,1

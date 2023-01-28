@@ -1,0 +1,2 @@
+1,"SELECT S.specObjID, S.ra, S.dec, S.z, S.zErr into mydb.DR1#_spec FROM SpecObj as S JOIN PlateX as P on S.plateID = P.plateID WHERE S.class = # AND (S.zWarning = # or S.zWarning = #)"
+2019-12-20 02:23:00,1

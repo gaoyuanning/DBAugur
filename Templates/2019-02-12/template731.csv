@@ -1,0 +1,2 @@
+1,"SELECT petroRad_r, objID, modelMag_r, count(*) FROM PhotoPrimary as p JOIN SpecObj as s ON s.specobjid = p.specobjid  WHERE (p.ra between # and #) AND (p.dec between # and #) AND p.type=# AND p.modelMag_r># AND p.petroRad_r>#"
+2019-02-12 05:40:00,1

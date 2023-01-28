@@ -1,0 +1,2 @@
+1,"select top # m.mangaid, m.objID, m.objra, m.objdec, m.integr as first_integ, m.rms as first_rms, m.skyrms as first_skyrms, t.Total_flux as TGSS_flux, t.E_Total_flux into mydb.mangatgssfirst from mydb.mangafirst as m, mydb.TGSS as t   CROSS APPLY dbo.fGetNearestObjEq( t.ra, t.dec, #) AS n   join dbo.PhotoObjAll as o on o.objID=n.objID   where n.objID=m.objID"
+2019-11-04 12:20:00,1

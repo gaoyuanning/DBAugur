@@ -1,0 +1,4 @@
+5,"SELECT ALL s.SpecObjID, s.z, L.sigma, L.height, s.mag_#, dbo.fCosmoDl (s.z) into mydb.MyTable_# from SpecObjAll as s JOIN SpecLine as L ON s.SpecObjID = L.specObjID WHERE s.specClass = # AND L.LineID = # AND s.z > # AND L.height > # AND (s.z - #) < #"
+2019-10-16 08:40:00,1
+2019-10-17 04:16:00,3
+2019-10-17 04:17:00,1

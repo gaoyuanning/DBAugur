@@ -1,0 +1,6 @@
+5,"SELECT p.deVRad_g, p.deVRad_r, p.deVAB_g, p.deVAB_r, p.deVMag_g, p.deVMag_r, z.z FROM PhotoObj AS p JOIN Photoz AS z ON p.objID = z.objID WHERE p.objID = #"
+2019-03-06 19:11:00,1
+2019-03-06 19:31:00,1
+2019-03-06 19:32:00,1
+2019-03-06 19:33:00,1
+2019-03-06 19:35:00,1

@@ -1,0 +1,2 @@
+1,"select from #UPLOAD AS U U.up_ra) , (select from #UPLOAD AS U U.up_dec) , #) as N WHERE p.objID = N.objID"
+2019-11-24 10:35:00,1

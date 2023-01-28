@@ -1,0 +1,3 @@
+3,"select p.ra, p.dec, p.plate, p.mjd, p.fiberID, p.z, p.zErr, p.PsfMag_u, p.PsfMag_g, p.PsfMag_r, p.PsfMag_i, p.PsfMag_z, p.PsfMagErr_u, p.PsfMagErr_g, p.PsfMagErr_r, p.PsfMagErr_i, p.PsfMagErr_z, p.PetroMag_u, p.PetroMag_g, p.PetroMag_r, p.PetroMag_i, p.PetroMag_z, p.PetroMagErr_u, p.PetroMagErr_g, p.PetroMagErr_r, p.PetroMagErr_i, p.PetroMagErr_z, p.Modelmag_u, p.Modelmag_g, p.Modelmag_r, p.Modelmag_i, p.Modelmag_z, p.ModelmagErr_u, p.ModelmagErr_g, p.ModelmagErr_r, p.ModelmagErr_i, p.ModelmagErr_z, p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i, p.extinction_z into mydb.SpecPhotoAll_dr1# from dr1#.SpecPhotoAll p where p.z < =#"
+2019-02-18 03:31:00,2
+2019-02-18 03:32:00,1

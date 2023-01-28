@@ -1,0 +1,4 @@
+3,"select bag.gid, bag.name, k.keystoneid as ownerId, bag.description, bag.privs from groups bag inner join keystone k on k.wsid =bag.owner order by bag.gid"
+2019-04-19 13:24:00,1
+2019-04-19 17:02:00,1
+2019-04-19 17:06:00,1

@@ -1,0 +1,6 @@
+6,"SELECT TOP # s.ra, s.dec, s.plate, s.mjd, s.fiberid FROM BESTDR8..SpecObj as s JOIN #x AS x ON x.SpecobjID = s.SpecobjID JOIN #upload AS u ON u.up_id = x.up_id WHERE s.zWarning = # ORDER BY x.up_id"
+2019-03-11 15:37:00,1
+2019-05-20 17:07:00,2
+2019-05-28 12:57:00,1
+2019-07-09 12:36:00,1
+2019-11-25 05:34:00,1

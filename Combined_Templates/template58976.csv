@@ -1,0 +1,2 @@
+1,"SELECT bestObjID, mjd, plate, fiberID, ra, dec, spectroFlux_u, spectroFlux_g, spectroFlux_r, spectroFlux_i, spectroFlux_z FROM ALL_DR1#"
+2019-08-23 08:01:00,1

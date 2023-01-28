@@ -1,0 +1,2 @@
+1,"SELECT top #      z.ra, z.dec     from zooSpec as z    WHERE         AND z.elliptical = #"
+2019-08-13 06:36:00,1

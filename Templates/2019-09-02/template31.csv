@@ -1,0 +1,2 @@
+1,"SELECT t.objID, s.ra, s.dec, psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z, extinction_r, secTarget FROM SpecObj s JOIN dbo.fGetNearbySpecObjEq(#,#,#) AS b ON b.SpecobjID = S.SpecobjID  JOIN Star as t on s.bestobjid = t.objid WHERE s.zWarning = # AND ((dbo.fSourceType(&&&)) != #) AND t.psfMAG_r<#"
+2019-09-02 23:26:00,1

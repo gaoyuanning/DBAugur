@@ -1,0 +1,3 @@
+2,"SELECT m.objID, m.*, R.extent, R.delta INTO Xmatch_DR5 FROM Rosat_DR5 as R, lrgs_DR5 as m WHERE   (R.ra-m.ra)*(R.ra-m.ra)<# AND   (R.dec-m.dec)*(R.dec-m.dec)<# AND   R.ext > # ORDER BY m.objID"
+2019-03-17 17:10:00,1
+2019-03-17 17:11:00,1

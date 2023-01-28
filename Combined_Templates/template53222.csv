@@ -1,0 +1,2 @@
+1,"SELECT phot.ra, phot.dec FROM dbo.PhotoObjAll AS phot JOIN dbo.segueTargetAll AS seg ON seg.objid = phot.objID WHERE phot.b > # AND phot.b < # AND phot.l > # AND phot.l < #"
+2019-07-22 06:04:00,1

@@ -1,0 +1,2 @@
+1,"select bestObjId ,z from specobj where z># and survey=&&& and zwarning=# and class=&&&"
+2019-03-07 19:27:00,1

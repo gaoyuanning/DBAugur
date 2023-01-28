@@ -1,0 +1,2 @@
+1,"SELECT all s.SpecObjID, s.objTypeName, s.z, s.mag_#, s.mag_#, s.mag_#, L.sigma, L.height, L.nSigma, P.specClass, P.type, P.objtype, P.dered_u, P.dered_g, P.dered_r, P.dered_i, dered_z into mydb.HaInclMorph FROM SpecObjAll as s JOIN SpecLine as L ON s.SpecObjID = L.specObjID JOIN SpecPhotoAll as P ON P.SpecObjID = L.specObjID WHERE L.LineId = # and s.zwarning = # and s.specClass = #"
+2019-06-10 13:51:00,1

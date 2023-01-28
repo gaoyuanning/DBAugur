@@ -1,0 +1,2 @@
+1,"CREATE TABLE RM_BCG_Lndev_OUT (ra_BCG float not #, dec_BCG float not #, ra float not #, dec float not #, objID bigint not #, lnLDeV_u real not #, lnLDeV_g real not #, lnLDeV_r real not #, lnLDeV_i real not #, lnLDeV_z real not #, lnLExp_u real not #, lnLExp_g real not #, lnLExp_r real not #, lnLExp_i real not #, lnLExp_z real not #) ;"
+2019-04-20 05:18:00,1

@@ -1,0 +1,2 @@
+1,"select s.specObjID from stellarMassPCAWisc s, galSpecLine g where   s.specObjID = g.specObjID"
+2019-04-08 16:35:00,1

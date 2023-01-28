@@ -1,0 +1,3 @@
+2,"select top # cg.geom.ToString() as wkt,cg.geom.STArea() as area, cg.cellid , cx,cy,px,py from cellall ca   join cellgeom cg on cg.cellid=ca.cellid   where ca.sampleid =#   order by newid()"
+2019-08-28 16:14:00,1
+2019-08-28 16:15:00,1

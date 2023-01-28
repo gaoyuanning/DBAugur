@@ -1,0 +1,3 @@
+3,"SELECT p.objID as id, p.ra as ra, p.dec as dec, p.dered_u as u, p.dered_g as g, p.dered_r as r, p.dered_i as i, p.dered_z as i, s.z as z_spec, s.zErr as z_err into mydb.gal_tbl2 from PhotoPrimary AS p     JOIN SpecObj AS s ON s.bestobjid = p.objID     WHERE p.type=#"
+2019-05-06 13:13:00,1
+2019-05-06 13:49:00,2

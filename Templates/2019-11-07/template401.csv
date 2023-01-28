@@ -1,0 +1,2 @@
+1,"SELECT   m.*, p.ra, p.dec    INTO   myDB.CGs_Tati_out    FROM   myDB.CGs_Tati as m, PhotoObj as p    WHERE   p.objid = m.objid_dr1#"
+2019-11-07 06:41:00,1

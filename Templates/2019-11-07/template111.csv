@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID,  	      field, ra, dec ,imag into mydb.MyTable_# from DR1#.zoo2MainSpecz	 WHERE     ra > #. and ra < # and dec > #. and dec < #"
+2019-11-07 18:12:00,1

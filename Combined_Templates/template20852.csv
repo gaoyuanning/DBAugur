@@ -1,0 +1,2 @@
+1,"SELECT ra AS UP_RA, dec AS UP_DEC, # as UP_RAD, field AS UP_ID FROM MYDB.test CREATE TABLE #tmp (up_id int, objid bigint) INSERT INTO #tmp EXEC spGetNeighborsRadius INSERT INTO MYDB.MyTable_# SELECT a.*, t.objid FROM #tmp t JOIN MYDB.test a ON t.up_id = a.field"
+2019-03-15 06:36:00,1

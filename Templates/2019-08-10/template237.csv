@@ -1,0 +1,2 @@
+1,SELECT TOP # objID  FROM Galaxy  WHERE    r < #			-- r IS NOT deredenned   and extinction_r > #	-- extinction more than #
+2019-08-10 13:48:00,1

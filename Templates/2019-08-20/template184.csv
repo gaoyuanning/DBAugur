@@ -1,0 +1,2 @@
+1,"select    objid, ra, dec, modelmag_i, z select count(*)  from specobjall s  join photoobjall p on s.bestobjid=p.objid where   type = #   petroR9#_i < #   modelmag_i < #   modelmag_i > # (edited)    clean = #   mode = #   photoobjall From specobjall   z>#   calss == GALAXY   zwarning = #"
+2019-08-20 17:12:00,1

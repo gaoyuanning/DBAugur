@@ -1,0 +1,2 @@
+2,"SELECT  count(*) FROM Galaxy AS g, PhotoZ AS p WHERE g.objID = p.objID AND g.specobjID > # AND htmid*# & # < (# * #)"
+2019-09-23 12:55:00,2

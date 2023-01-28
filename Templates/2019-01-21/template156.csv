@@ -1,0 +1,17 @@
+17,"SELECT *                           FROM INFORMATION_SCHEMA.TABLES                           WHERE TABLE_NAME = &&&))         BEGIN         drop table Cycles_S0#         END                  create table Cycles_S0# (       cycleRootId bigint , snapnum smallint         ,   rotationAngle float         ,  area float         ,  circumference float         ,  xmin float,  ymin float         ,  xmax float, ymax float         , numEdges integer)"
+2019-01-21 14:27:00,1
+2019-01-21 14:28:00,1
+2019-01-21 14:37:00,1
+2019-01-21 14:38:00,1
+2019-01-21 14:39:00,1
+2019-01-21 14:40:00,2
+2019-01-21 14:47:00,1
+2019-01-21 14:53:00,1
+2019-01-21 15:03:00,1
+2019-01-21 15:13:00,1
+2019-01-21 17:36:00,1
+2019-01-21 17:40:00,1
+2019-01-21 17:48:00,1
+2019-01-21 17:56:00,1
+2019-01-21 18:00:00,1
+2019-01-21 18:03:00,1

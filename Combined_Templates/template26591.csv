@@ -1,0 +1,2 @@
+1,"select t1#_arms_number_a3#_more_than_#_debiased as xcol, t1#_arms_number_a3#_#_debiased as ycol from official_data where t1#_arms_number_a3#_#_debiased between # and # AND t1#_arms_number_a3#_more_than_#_debiased between # and #"
+2019-04-01 01:55:00,1

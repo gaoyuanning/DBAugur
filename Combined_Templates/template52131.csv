@@ -1,0 +1,2 @@
+1,"SELECT dbo.fInFootprintEq (Gdr2.ra, Gdr2.dec, #) into mydb.MyTable from MyDB.GAIADR2test as Gdr2"
+2019-07-16 11:55:00,1

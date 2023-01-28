@@ -1,0 +1,2 @@
+1,"select ra,dec  from phototag where objID=$pairid"
+2019-12-24 01:13:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # run,            camCol,   rerun,   field,   objID,   u, g, r, i, z,   class,   ra, dec,    class,    redshift into mydb.MyTable_# from SpecObjAll"
+2019-12-19 13:16:00,1

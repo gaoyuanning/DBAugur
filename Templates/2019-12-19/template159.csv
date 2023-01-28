@@ -1,0 +1,6 @@
+20,"select s.targetObjID,s.ra,s.dec,s.z,s.zErr,s.plate,s.fiberID,sm.logMass,sm.Metallicity FROM SpecObj AS s JOIN stellarMassStarformingPort AS sm ON s.specObjID=sm.specObjID where s.ra between # and # and s.dec between # and # and s.z between # and # order by s.ra"
+2019-12-19 07:49:00,1
+2019-12-19 07:50:00,4
+2019-12-19 07:52:00,6
+2019-12-19 07:53:00,4
+2019-12-19 17:21:00,5

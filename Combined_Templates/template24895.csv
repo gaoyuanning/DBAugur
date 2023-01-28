@@ -1,0 +1,3 @@
+2,"select h.ifura, h.ifudec, h.mangaid, h.mngtarg1, h.mngtarg2, h.mngtarg3, h.objdec, h.objra, h.plateifu, h.mjdmax, h.redsn2. h.drp3qual, h.bluesn2 from mangaDRPall h where h.mangaid = #"
+2019-03-28 18:08:00,1
+2019-03-28 18:10:00,1

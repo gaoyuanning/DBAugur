@@ -1,0 +1,2 @@
+1,"SELECT a.SpecObjID, a.ObjID, a.PrimTarget, a.z, a.ModelMag_U, a.modelMag_G, a.modelMag_R, a.modelMag_I, a.modelMag_Z FROM SpecPhoto AS a JOIN UberCal AS b ON b.ObjID = a.ObjID WHERE a.SpecClass = # - Galaxies"
+2019-11-27 13:08:00,1

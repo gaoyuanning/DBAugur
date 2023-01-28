@@ -1,0 +1,4 @@
+3,"SELECT TOP #  p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z,  p.run, p.rerun, p.camcol, p.field, p.score,  p.petroRad_u, p.petroR5#_u, p.expRad_u FROM PhotoObj AS p WHERE   p.score > #  AND p.u BETWEEN # AND #  AND g BETWEEN # AND # ORDER BY p.field"
+2019-07-31 07:25:00,1
+2019-07-31 17:29:00,1
+2019-07-31 17:31:00,1

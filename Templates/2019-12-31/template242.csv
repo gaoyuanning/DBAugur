@@ -1,0 +1,3 @@
+60,"select objID, psfFluxIvar_u, psfFluxIvar_g, psfFluxIvar_r, psfFluxIvar_i from PhotoObjAll where field=#;"
+2019-12-31 04:29:00,30
+2019-12-31 04:30:00,30

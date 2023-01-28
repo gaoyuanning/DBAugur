@@ -1,0 +1,4 @@
+6,"select top # p.objid as name, p.ra, p.dec from star p where (p.u BETWEEN # AND #) and (p.g BETWEEN # AND #)"
+2019-03-30 13:47:00,1
+2019-03-30 13:48:00,1
+2019-03-30 13:51:00,4

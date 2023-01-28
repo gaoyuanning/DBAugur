@@ -1,0 +1,2 @@
+18,"SELECT g.ra, g.dec, g.petroMag_u as mag_u, g.petroMag_g as mag_g, g.petroMag_r as mag_r, g.petroMag_i as mag_i, g.petroMag_z as mag_z from GalaxyTag as g WHERE g.ra BETWEEN # AND # AND g.type = #"
+2019-01-25 20:14:00,18

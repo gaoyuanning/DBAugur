@@ -1,0 +1,5 @@
+4,"select ra, dec from galaxy where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-06-12 04:08:00,1
+2019-08-19 23:52:00,1
+2019-10-14 14:34:00,1
+2019-11-14 16:59:00,1

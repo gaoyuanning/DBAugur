@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid as objid, p.ra, p.dec, p.psfMag_r, p.psfMag_r, p.psfMag_i, p.psfMag_z FROM PhotoObj as p WHERE   p.type = # AND s.z < # AND velDisp > #."
+2019-07-02 19:10:00,1

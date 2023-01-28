@@ -1,0 +1,2 @@
+1,"select p.objid, p.ra, p.dec from galaxy p, dbo.fgetNearByObjEq(#,#,#) n where p.objid=n.objid and p.g > #  and (p.g-p.r BETWEEN # AND #)"
+2019-11-04 20:35:00,1

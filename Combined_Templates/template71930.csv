@@ -1,0 +1,3 @@
+2,"SELECT s.ra, s.dec, s.z, s.zErr, s.velDisp, s.velDispErr FROM SpecObj as s join SpecPhotoAll as p on s.specObjID = p.specObjID join galSpecIndx as i on s.specObjID = i.specObjID into MyDB.ASTR3#_Project_VelDisp_# WHERE s.ra BETWEEN # AND # AND s.dec BETWEEN # AND # AND s.class = # and s.subclass = # and s.zWarning = # and s.velDisp > # and s.programname = # and p.petroMag_r-p.extinction_r< # and i.d4#_n_sub> #"
+2019-10-27 19:47:00,1
+2019-10-27 19:48:00,1

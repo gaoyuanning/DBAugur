@@ -1,0 +1,2 @@
+1,"SELECT top # p.objid, s.ra, s.dec, s.z, s.class, p.g, p.r, p.i, p.u, p.z, s.plate, s.fiberid FROM PhotoObj AS p, SpecObj AS s, GalSpecExtra as g WHERE s.bestobjid = p.objid AND g.specobjid = s.specobjid AND s.z BETWEEN # AND # AND class = #"
+2019-06-23 20:14:00,1

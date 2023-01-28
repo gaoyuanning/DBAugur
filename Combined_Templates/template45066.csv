@@ -1,0 +1,2 @@
+2,"select g.GalaxyID, g.redshift, g.stellarmass, g.sfr, g.type, c.Z, c.Y, c.J, c.H, c.Ks, c.i1, c.i2, c.i3, c.i4, c.snapnum from Henriques2#a.cones.MRscPlanck1_M0#_# c , Henriques2#a..MRscPlanck1 g where g.galaxyId = c.galaxyId and g.stellarmass > #"
+2019-06-10 11:18:00,2

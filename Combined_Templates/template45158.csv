@@ -1,0 +1,3 @@
+2,"SELECT s.SpecObjID, s.z, s.zErr, s.zConf, s.zStatus, s.zWarning, s. p.dered_r, p.dered_g, p.dered_u, L.ew, L.sigma, L.sigmaErr, K.ew, K.sigma, K.sigmaErr into mydb.MyTable_# from SpecObj as s, SpecLine as L, SpecLine as K, SpecPhotoAll as p WHERE (L.LineID = #) and (K.LineID = #) and s.SpecObjID = L.specObjID and L.specObjID = K.specObjID and s.SpecObjID = p.specObjID and p.psfMag_r/p.psfMagErr_r> # and L.ew/#if (L.ewErr, #) > # and K.ew/#if (K.ewErr, #) > # and s.z> # and s.objType = # and p.type = # order by s.z"
+2019-06-10 05:17:00,1
+2019-06-10 05:18:00,1

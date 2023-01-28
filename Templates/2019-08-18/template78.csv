@@ -1,0 +1,2 @@
+1,"SELECT TOP #   a.OBJID AS OBJID,   dbo.fGetNearestObjIdEq( a.RA, a.DEC, #) AS n       FROM MyDB.akari AS a"
+2019-08-18 19:56:00,1

@@ -1,0 +1,2 @@
+3,"SELECT s.plate, s.mjd, s.fiberid, s.z, s.zErr, s.zWarning, s.class, p.run, p.rerun, p.camCol, p.field, p.obj, cast (str (p.ra, #, #) as float) as ra, cast (str (p.[dec], #, #) as float) as dec, p.r, p.u, p.g, p.i, p.z, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, p.petroMag_u, p.petroMag_g, p.petroMag_r, p.petroMag_i, p.petroMag_z, dbo.fIAUFromEq (p.ra, p.[dec]) as SDSSname FROM ..SpecObj AS s JOIN ..PhotoObj AS p ON s.bestObjID = p.objID JOIN RUN AS r ON p.run = r.run WHERE r.stripe = # and s.class = QSO#"
+2019-12-12 17:01:00,3

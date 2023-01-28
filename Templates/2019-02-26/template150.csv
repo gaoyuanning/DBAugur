@@ -1,0 +1,2 @@
+1,"SELECT survey ,count(bestObjID as varchar) FROM SpecObj  WHERE class = &&&  and zWarning = # group by survey, bestObjID"
+2019-02-26 19:50:00,1

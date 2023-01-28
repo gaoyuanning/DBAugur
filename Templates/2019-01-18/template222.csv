@@ -1,0 +1,2 @@
+1,"SELECT up_id, dbo.fGetNearestSpecObjIdEq(up_ra,up_dec,#) FROM mydb.posMPL6 AS SpecobjId       WHERE dbo.fGetNearestSpecObjIdEq(up_ra,up_dec,#) IS NOT NULL  SELECT u.up_col0 FROM mydb.posMPL6 u AS [col0], s.specobjid, s.ra, s.dec, s.plate, s.mjd, s.fiberid    --JOIN mydb.specDR1# x ON x.up_id = u.up_id JOIN SpecObjAll s ON s.specObjID = u.specObjID   --JOIN SpecObjAll s ON s.specObjID = x.specObjID"
+2019-01-18 15:59:00,1

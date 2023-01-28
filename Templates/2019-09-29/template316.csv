@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.SpecObjID, s.z, L.sigma, L.height, dbo.fCosmoDl(s.z), wave, restWave, ew into mydb.SFR vs L from SpecObj as s   JOIN SpecLine as L    ON s.specObjID = L.specObjID  WHERE s.specClass = # AND L.lineID = # AND s.z <#"
+2019-09-29 10:38:00,1

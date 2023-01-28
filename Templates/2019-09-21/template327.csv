@@ -1,0 +1,4 @@
+5,"select top # specobjid as name, ra, dec from SpecObj"
+2019-09-21 01:25:00,1
+2019-09-21 01:29:00,3
+2019-09-21 01:30:00,1

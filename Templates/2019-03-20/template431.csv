@@ -1,0 +1,4 @@
+3,"SELECT specObjID,ra,dec,z,zErr,class,subclass  FROM SPECPHOTO WHERE ra BETWEEN #. and #. AND dec BETWEEN # and # AND (class=&&& OR class=&&& )AND zwarning = dbo.fSpecZWarning(&&&)"
+2019-03-20 11:59:00,1
+2019-03-20 12:01:00,1
+2019-03-20 12:02:00,1

@@ -1,0 +1,4 @@
+3,"SELECT TOP # objID, ra, dec, modelMag_u, modelMag_gFROM PhotoPrimaryWHERE ra BETWEEN # and #AND dec BETWEEN # and #AND type = #AND clean = #AND modelMag_u - modelMag_g < #"
+2019-12-26 21:45:00,1
+2019-12-26 21:46:00,1
+2019-12-26 21:50:00,1

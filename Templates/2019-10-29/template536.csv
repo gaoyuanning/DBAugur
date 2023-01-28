@@ -1,0 +1,2 @@
+1,"SELECT      m.id, m.ra AS ra1, m.dec AS dec1,      n.objid, n.distance,      o.ra AS ra2, o.dec AS dec2, o.petror5#_u as r5#_u, o.petror5#_g as r5#_g, o.petror5#_r as r5#_r, o.petror5#_i as r5#_i, o.petror5#_z as r5#_z, o.petror9#_u as r9#_u, o.petror9#_g as r9#_g, o.petror9#_r as r9#_r, o.petror9#_i as r9#_i, o.petror9#_z as r9#_z into mydb.sample_lt1_r from MyDB.sample_lt1 AS m      OUTER APPLY dbo.fGetNearestObjEq( m.ra, m.dec, #) AS n      LEFT JOIN PhotoObjAll AS o ON n.objid=o.objid"
+2019-10-29 02:56:00,1

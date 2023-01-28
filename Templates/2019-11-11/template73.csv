@@ -1,0 +1,2 @@
+1,"SELECT G.objID,G.ra,G.dec,s.specObjID, G.u, G.err_u, G.g, G.err_g, G.r, G.err_r, G.i, G.err_i, G.z, G.err_z, p.z,p.zErr FROM Galaxy as G JOIN GalSpecLine AS s ON G.specObjID = s.specObjID JOIN PhotoZ AS p ON p.objID = G.objID JOIN PhotoZ AS p ON p.objID = G.objID WHERE ((p.z < #) and (p.z > #)  and (G.u - G.r <= #) and (G.r - G.i <= #) and (G.r - G.z <= #) and (G.g - G.r >= G.r - G.i + #) and (G.u - G.r >= #*(G.r - G.z)) )"
+2019-11-11 21:23:00,1

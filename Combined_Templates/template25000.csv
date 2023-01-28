@@ -1,0 +1,2 @@
+1,"SELECT z, survey, count (*) FROM SpecObj WHERE class = # AND zWarning = # AND z BETWEEN # and # and survey = # AND htmid*# & # < (# * #)"
+2019-03-28 16:32:00,1

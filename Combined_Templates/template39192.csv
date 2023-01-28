@@ -1,0 +1,2 @@
+1,SELECT TOP # objID FROM Galaxy into MyDB.test WHERE r < # -- r IS NOT deredenned and extinction_r > # -- extinction more than #
+2019-05-13 05:44:00,1

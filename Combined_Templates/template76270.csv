@@ -1,0 +1,2 @@
+1,"select count (ID) from MyDB.DR1#_ccw , PhotoObjAll where DR1#_ccw.ID = PhotoObjAll.objID and (ra> # or ra< #)"
+2019-11-14 08:27:00,1

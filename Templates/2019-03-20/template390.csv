@@ -1,0 +1,2 @@
+1,"select (min(s_ra) + max(s_ra))/# as racen, (min(s_dec) + max(s_dec))/# as deccen from AmangaUC1"
+2019-03-20 12:44:00,1

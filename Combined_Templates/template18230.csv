@@ -1,0 +1,4 @@
+14,"SELECT avg (extinction_u) as ux_avg, avg (extinction_g) as gx_avg, avg (extinction_r) as rx_avg, avg (extinction_i) as ix_avg, avg (extinction_z) as zx_avg FROM PhotoPrimary WHERE (ra between # and #) and (dec between # and #) and Type = #"
+2019-03-07 18:45:00,5
+2019-03-07 18:46:00,2
+2019-03-07 18:48:00,7

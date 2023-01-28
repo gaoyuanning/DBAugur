@@ -1,0 +1,2 @@
+1,"SELECT top # mjd, plate, fiberid, SUBCLASS FROM SpecObjAll WHERE class = #"
+2019-09-29 06:05:00,1

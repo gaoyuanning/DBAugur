@@ -1,0 +1,2 @@
+2,"SELECT specObjID, bestObjID, mjd, plate, fiberID, eboss_target_id, ra, dec into MyTable_# from SpecObjAll WHERE z># and z<#"
+2019-08-13 05:52:00,2

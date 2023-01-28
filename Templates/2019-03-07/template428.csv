@@ -1,0 +1,4 @@
+3,SELECT COUNT(*) FROM SpecObj WHERE class = &&& AND zWarning = #
+2019-03-07 09:40:00,1
+2019-03-07 09:44:00,1
+2019-03-07 16:20:00,1

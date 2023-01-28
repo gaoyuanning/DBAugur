@@ -1,0 +1,2 @@
+1,SELECT COUNT(*) into mydb.MyTable from Galaxy AS p
+2019-12-05 13:51:00,1

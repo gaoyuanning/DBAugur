@@ -1,0 +1,5 @@
+10,"select p.objID,p.ra,p.dec,p.run,p.rerun,p.camcol,p.field,p.obj,dbo.fGetUrlFitsCFrame(fieldid,&&&),gn.distance FROM PhotoObjAll AS p JOIN dbo.fGetNearbyObjEq( # , # ,#) AS GN ON p.objID = GN.objID ORDER BY distance"
+2019-05-14 21:15:00,3
+2019-05-14 22:56:00,1
+2019-05-14 23:02:00,3
+2019-05-14 23:18:00,3

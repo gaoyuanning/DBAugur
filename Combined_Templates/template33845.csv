@@ -1,0 +1,2 @@
+1,"select substring (Name, #, #) as ff from chinook.Artist groupby substring (Name, #, #)"
+2019-04-24 01:06:00,1

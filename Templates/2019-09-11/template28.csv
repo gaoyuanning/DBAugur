@@ -1,0 +1,5 @@
+5,"SELECT G.ra as ra, G.dec as dec, G.cModelMag_i as mag, G.cModelMagErr_i as magerr, GN.distance as distance, # as priority, G.objID, G.flags FROM Galaxy AS G JOIN dbo.fGetNearbyObjEq(#, #, #) AS GN ON G.objID = GN.objID WHERE G.cModelMag_i < # ORDER BY GN.distance"
+2019-09-11 20:27:00,2
+2019-09-11 20:30:00,1
+2019-09-11 20:34:00,1
+2019-09-11 23:33:00,1

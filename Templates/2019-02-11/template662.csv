@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.run,p.rerun,p.camCol,p.field,p.obj,ISNULL(s.z,#) as redshift,ISNULL(s.z_noqso,#) as z_noqso,ISNULL(s.z_person,#) as z_person  FROM ..Star AS p  LEFT OUTER JOIN ..SpecObj s ON p.objID = s.bestObjID  JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = P.objID  WHERE p.petroMag_r < #"
+2019-02-11 02:57:00,1

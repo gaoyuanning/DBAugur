@@ -1,0 +1,2 @@
+1,"SELECT SPA.ra, SPA.dec, SPA.z, SPA.petroMag_u, SPA.petroMag_g, SPA.petromag_r, PA.fracDeV_r, FSP5G.logMass, Extra.sfr_tot_p5# into GU2#_hw2 from SpecPhotoAll as SPA, PhotoObjAll as PA, stellarMassFSPSGranEarlyDust as FSP5G, galSpecExtra as Extra Where SPA.class = # and SPA.z < # and SPA.specObjID = PA.specObjID and SPA.specObjID = FSP5G.specobjID and SPA.specObjID = Extra.specObjID"
+2019-04-06 10:48:00,1

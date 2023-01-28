@@ -1,0 +1,2 @@
+1,"SELECT objid,u, g, r, i, z FROM PhotoObj WHERE htmid*# & # < (# * #)"
+2019-09-03 18:11:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP #  ROW_NUMBER() OVER(ORDER BY s.specobjid ASC) AS Row#,  s.specobjid, s.ra, s.dec, g.h_beta_flux, g.h_alpha_flux, g.oiii_flux, g.nii_#_flux, g.nii_#_flux, g.oiii_#_flux, g.oiii_#_flux, g.oiii_#_flux FROM SpecObjAll AS s  JOIN galSpecLine AS g ON g.specObjID = s.specObjID ORDER BY s.specobjid ASC"
+2019-11-12 22:45:00,1

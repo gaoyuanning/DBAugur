@@ -1,0 +1,2 @@
+1,"select LEFT (Name, #) from chinook.Artist group by Column1"
+2019-04-10 18:16:00,1

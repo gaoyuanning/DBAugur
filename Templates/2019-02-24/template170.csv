@@ -1,0 +1,2 @@
+1,SELECT pp.expRad_u into mydb.MyTable_# from PhotoObjAll as pp
+2019-02-24 19:11:00,1

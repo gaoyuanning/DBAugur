@@ -1,0 +1,9 @@
+12,"SELECT TOP # # + cast (p.objId as varchar (#) ) +# + cast (p.objId as varchar (#) ) + # as objID, p.run, p.rerun, p.camcol, p.field, p.obj, p.type, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.Err_u, p.Err_g, p.Err_r, p.Err_i, p.Err_z FROM fGetObjFromRect (#, #, #, #) n, PhotoPrimary p WHERE n.objID = p.objID AND p.g between # AND # AND p.i between # AND # AND p.r between # AND #"
+2019-03-30 02:54:00,1
+2019-03-30 02:55:00,1
+2019-07-02 14:38:00,3
+2019-07-02 14:39:00,1
+2019-07-02 14:40:00,3
+2019-07-02 14:41:00,1
+2019-09-16 22:06:00,1
+2019-09-16 22:34:00,1

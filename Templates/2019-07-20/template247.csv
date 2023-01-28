@@ -1,0 +1,6 @@
+7,"SELECT s.plate, s.fiberid, s.mjd, ga.Flux_OIII_#, ga.Flux_OIII_#_err,         (sph.dred_g-sph.dred_r) as col_g_r,         sph.dred_g-#*log1#(#E+#*sph.z)+# as M_g  FROM  emissionlinesport as ga, specobj as s, Galaxy as g, SpecPhoto as sph  WHERE ga.Flux_OIII_# >#*ga.Flux_OIII_#_Err   AND ga.Flux_OIII_# <#*ga.Flux_OIII_#_Err   AND s.class = &&&   AND s.specobjid = ga.specobjid   AND s.specobjid = g.specobjid    AND sph.specobjid = g.specobjid   AND sph.specobjid = ga.specobjid   AND ga.Flux_OIII_#_err > #   AND g.specobjid > #   AND sph.z > #  into MyDB.dataml"
+2019-07-20 05:06:00,1
+2019-07-20 05:10:00,1
+2019-07-20 05:33:00,2
+2019-07-20 05:38:00,1
+2019-07-20 05:39:00,2

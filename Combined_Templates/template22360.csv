@@ -1,0 +1,2 @@
+1,"SELECT ALL targetRa, targetDec, targetPsfMag_u, targetPsfMag_g, targetPsfMag_r, targetPsfMag_i, targetPsfMag_z, targetInsideMask, targetPrimTarget, targetFieldID, targetFieldQuality, targetSectorID, TargetQsoTargeted into mydb.MyTable_# from DR5.QsoTarget"
+2019-03-22 20:03:00,1

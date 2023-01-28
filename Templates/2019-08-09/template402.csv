@@ -1,0 +1,2 @@
+1,"SELECT TOP #   gsi.z AS lines_redshift,   spa.z AS spec_redshift into mydb.group_test   join galSpecInfo as gsi   join SpecPhotoAll as spa    where gsi.specObjId = spa.specObjId"
+2019-08-09 09:28:00,1

@@ -1,0 +1,6 @@
+5,select * from wise_xmatch x join wise_allsky a on x.wise_cntr=a.cntr where x.sdss_objid=#
+2019-11-13 04:35:00,1
+2019-11-13 04:36:00,1
+2019-11-13 10:53:00,1
+2019-11-13 12:33:00,1
+2019-11-13 21:44:00,1

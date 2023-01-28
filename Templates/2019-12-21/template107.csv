@@ -1,0 +1,2 @@
+1,"SELECT ra as RA, dec as DEC, z as ZLRG, mjd as MJD, plate as PLATE, fiberID as FIBER_ID FROM SpecObj WHERE class = &&& AND z > # AND ra >= #"
+2019-12-21 16:47:00,1

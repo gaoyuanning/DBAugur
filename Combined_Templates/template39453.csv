@@ -1,0 +1,2 @@
+1,"select s.id, s.ra, s.dec, p.run, p.rerun, p.camcol, p.field, p.obj, p.ra, p.dec, p.rowc, p.colc into mydb.test_check_mga from mydb.smga s left outer join dr1#.photoobjall p on ((abs (p.ra - s.ra) < #e-#) and (abs (p.dec - s.dec) < #e-#) ) order by s.id"
+2019-05-14 05:17:00,1

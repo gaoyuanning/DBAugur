@@ -1,0 +1,2 @@
+3,"SELECT sq.plate, sq.mjd, sq.fiberid, sq.fwhm3_mgII FROM #upload u JOIN spiders_quasar as sq ON (sq.plate = u.up_plate AND sq.mjd = u.up_mjd AND sq.fiberID = u.up_fiber) ##', @log = #, @filter = #"
+2019-10-20 13:23:00,3

@@ -1,0 +1,2 @@
+1,"SELECT DISTINCT SUBCLASS AS Spectral_Type, survey FROM SpecPhoto WHERE class = # ORDER BY Spectral_Type"
+2019-02-03 16:30:00,1

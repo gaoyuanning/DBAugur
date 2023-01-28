@@ -1,0 +1,2 @@
+1,"select u,g,r,i,z,l,b from star where ra between # and # AND dec between # and #"
+2019-06-16 02:57:00,1

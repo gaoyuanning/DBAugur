@@ -1,0 +1,2 @@
+2,"select s.psfmag_u, s.psfmag_g, psfmag_r, s.extinction_r, s.psfmagerr_r, s.psfmag_i, s.r, s.objID, s.run, s.rerun, s.ra, s.dec, dbo.fphotoflagsN (flags) as flags2 from photoprimary as s join dbo.fgetnearbyobjideq (#, #. #/#) b on s.objid = b.objid where ( (flags & #) ! = #) --and (type = #) -- and (run ! =# and run! =#) AND ( (flags & #) = #) AND ( ((flags & #) = #) or (psfmagerr_r < = # and psfmagerr_i< = # and psfmagerr_g< =#) ) AND ( ((flags & #) = #) or (flags & #) = #)"
+2019-09-12 16:17:00,2

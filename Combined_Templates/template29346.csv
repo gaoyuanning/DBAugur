@@ -1,0 +1,2 @@
+1,"SELECT TOP # al.*, ar.Name FROM chinook.Album AS al JOIN chinook.Artist AS ar ON chinook.Artist.ArtistId = chinook.Album.ArtistId ORDER BY al.Name DESC"
+2019-04-11 14:43:00,1

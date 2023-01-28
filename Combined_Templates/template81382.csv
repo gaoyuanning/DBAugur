@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.psfmag_r, p.extinction_r FROM PhotoPrimary p WHERE p.dec BETWEEN # AND # AND p.ra BETWEEN # AND # AND p.psfmag_r-p.extinction_r < # AND p.type = galaxy"
+2019-12-08 11:10:00,1

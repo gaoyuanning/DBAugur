@@ -1,0 +1,2 @@
+1,"select s.plate, s.mjd, s.fiberid, s.specObjID, dr.segueobjid into mydb.segue_pmf from specObjAll as s   JOIN mydb.segue_dr1#_mch as dr on   dr.segueobjid=s.specObjID"
+2019-05-02 15:53:00,1

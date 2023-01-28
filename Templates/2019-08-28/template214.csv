@@ -1,0 +1,2 @@
+1,"select top #  a.eid,j.[key],j.value from dbo.Autorefraction a    cross apply openjson([#mm_cylindrical_power_left__#]) j"
+2019-08-28 13:43:00,1

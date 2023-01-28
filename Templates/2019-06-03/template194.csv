@@ -1,0 +1,3 @@
+2,"select   specObjID, ra, dec, z, zErr from   SpecObjAll into   spec_prop where   z between # and #"
+2019-06-03 16:03:00,1
+2019-06-03 16:17:00,1

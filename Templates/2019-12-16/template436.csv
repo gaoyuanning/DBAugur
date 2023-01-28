@@ -1,0 +1,2 @@
+1,"SELECT    m.iauname AS iauname, m.ra AS ra_gz, m.dec AS dec_gz,    o.objid AS dr7objid_sdss, o.ra AS ra_sdss, o.dec AS dec_sdss, o.petroMag_g,o.petroMag_r, o.z AS z_sdss, p.fracDeV_r, p.deVAB_r, p.petroRad_r, s.velDisp from MyDB.GZ_DECALS_#_coor AS m     CROSS APPLY dbo.fGetNearestObjEq(m.ra, m.dec, #) AS n    JOIN SpecPhotoAll AS o ON n.objid=o.objID     JOIN PhotoObjAll AS p on n.objid=p.objID     JOIN SpecObjAll AS s on n.objid = s.bestObjID"
+2019-12-16 04:56:00,1

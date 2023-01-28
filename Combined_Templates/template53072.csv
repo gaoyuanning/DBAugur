@@ -1,0 +1,2 @@
+1,"SELECT apogee_id, ra, dec, glon, glat, vhelio_avg, vscatter, teff, logg, vmicro, vmacro, vsini, m_h, alpha_m, teff_err, logg_err, m_h_err, alpha_m_err , c_fe, ci_fe, n_fe , o_fe, na_fe, mg_fe, al_fe, si_fe, p_fe, s_fe, k_fe, ca_fe, ti_fe, tiii_fe, v_fe, cr_fe, mn_fe, fe_h, co_fe, ni_fe, cu_fe FROM apogeeStar star JOIN fGetNearbyApogeeStarEq (#, #, #) near on star.apstar_id = near.apstar_id JOIN aspcapStar aspcap on aspcap.apstar_id = star.apstar_id where field = N2##"
+2019-07-21 00:24:00,1

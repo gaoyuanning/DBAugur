@@ -1,0 +1,4 @@
+4,"SELECT bestObjID, z FROM SpecObj WHERE RAND () < (SELECT ( (#/COUNT (*) )*#) FROM SpecObj) AND class = QSO AND zWarning = #"
+2019-03-25 20:47:00,2
+2019-03-25 20:48:00,1
+2019-03-25 20:51:00,1

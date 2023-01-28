@@ -1,0 +1,4 @@
+4,"select mjd, ra, dec, u, g, r, i, z from PhotoObj where dec < # OR dec > # AND (ra > # AND ra < # )"
+2019-11-17 14:20:00,1
+2019-11-17 14:22:00,2
+2019-11-17 14:23:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.run,p.rerun,p.camCol,p.field,p.obj, &&& as filter FROM dbo.fGetObjFromRect(#,#,#,#) b,  BESTDR1..PhotoObj as p WHERE  ( p.type = # OR p.type = #) AND p.objID=b.objID"
+2019-10-22 12:17:00,1

@@ -1,0 +1,3 @@
+2,"SELECT a.z, a.logMass, a.t_age_mean, a.metallicity_mean, a.dust1_mean, a.tau_mean, a.age_mean, a.ssfr_mean,d.w1flux, d.w1sigflux, d.w2flux, d.w2sigflux, d.w3flux, d.w3sigflux, d.w4flux, d.w4sigflux,p.modelFlux_u, p.modelfluxIvar_u, p.modelFlux_g, p.modelFluxIvar_g, p.modelFlux_r, p.modelFluxIvar_r, p.modelFlux_i, p.modelFluxIvar_i, p.modelFlux_z, p.modelFluxIvar_z from stellarMassFSPSGranWideDust as a INNER JOIN SpecPhotoAll as b on a.specObjID=b.specObjID LEFT JOIN WISE_xmatch as c on b.ObjID=c.sdss_objid LEFT JOIN WISE_allsky as d on c.wise_cntr=d.cntr LEFT JOIN PhotoObjAll as p on b.objID=p.objID ORDER BY b.objID ASC"
+2019-05-13 11:26:00,1
+2019-05-13 11:29:00,1

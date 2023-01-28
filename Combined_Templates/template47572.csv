@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.ra, s.dec, g.lgm_tot_p1#, s.z FROM specObj AS s, galspecextra as g"
+2019-06-23 18:58:00,1

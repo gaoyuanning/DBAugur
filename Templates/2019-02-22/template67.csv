@@ -1,0 +1,2 @@
+1,"SELECT TOP #  n.nsaid, n.mjd, n.fiberid, n.plate, m.mangaid FROM nsatlas n  JOIN mangatarget m ON m.nsa_nsaid = n.nsaid"
+2019-02-22 20:57:00,1

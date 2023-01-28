@@ -1,0 +1,4 @@
+3,"select a.*, t.objid as matched_id, s.z from #tmp t JOIN MYDB.MyTable_# a ON t.up_id = a.search_id JOIN specobj s ON s.bestobjid = t.objid"
+2019-06-18 11:56:00,1
+2019-07-10 00:00:00,1
+2019-08-24 09:03:00,1

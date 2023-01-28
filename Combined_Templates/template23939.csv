@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objID, p.specObjID , p.cModelMag_u, p.cModelMag_g, p.cModelMag_r, cModelMag_i, p.cModelMag, s.z FROM PhotoObjAll AS p JOIN SpecObjAll AS s ON p.objID = s.objID WHERE (PhotoObjAll.specObjID > #)"
+2019-03-26 21:51:00,1

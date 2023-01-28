@@ -1,0 +1,2 @@
+1,"select top # ra, dec, erosita.htmid.FromEq (ra, dec) as chtmid, htmid from dr1#.photobjall"
+2019-09-25 08:39:00,1

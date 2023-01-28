@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.type, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.Err_u, p.Err_g, p.Err_r, p.Err_i, p.Err_z, p.petroR9#_r, p.petroR9#_i into mydb.vvdsb_Sdr1#_Hdr3 from fGetObjFromRect (#., #, #, #) n, PhotoPrimary p WHERE n.objID = p.objID AND p.u between # AND # AND p.g between # AND # AND p.i between # AND # AND p.r between # AND # AND p.z between # AND #"
+2019-01-29 14:33:00,1

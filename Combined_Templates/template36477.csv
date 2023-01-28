@@ -1,0 +1,2 @@
+1,select * from specObjAll where targetObjID IN ()
+2019-05-02 10:22:00,1

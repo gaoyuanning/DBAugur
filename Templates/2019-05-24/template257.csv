@@ -1,0 +1,2 @@
+1,"SELECT p.ra,p.dec,f.mjd_u,p.u,p.g,p.r,p.i,p.z,p.objID FROM photoObj p JOIN field f ON p.fieldid=f.fieldid WHERE type=# AND p.ra BETWEEN # AND # AND p.dec BETWEEN # AND #"
+2019-05-24 15:52:00,1

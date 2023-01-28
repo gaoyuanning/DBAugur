@@ -1,0 +1,2 @@
+1,"select ID, Geog.ToString() from Census"
+2019-10-05 18:20:00,1

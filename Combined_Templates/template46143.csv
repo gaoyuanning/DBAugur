@@ -1,0 +1,3 @@
+2,"SELECT TOP # g.u, g.g, g.r, g.i, g.z, g.ra, g.dec, g.flags_r, g.specobjid from GALAXY as g WHERE g.ra BETWEEN # and # AND g.dec BETWEEN # and # AND ( (g.flags_r & #) ! = #) AND ( (g.flags_r & #) = #) AND ( ((g.flags_r & #) = #) or (psfmagerr_r < = #) ) AND ( ((g.flags_r & #) = #) or (g.flags_r & #) = #)"
+2019-06-17 16:37:00,1
+2019-09-24 11:04:00,1

@@ -1,0 +1,2 @@
+1,"select SpecObjID,SpecRa,SpecDec,SpecZ,SpecZerr from QsoSpec where SpecRa BETWEEN # and # AND SpecZ BETWEEN .# and #"
+2019-04-04 15:41:00,1

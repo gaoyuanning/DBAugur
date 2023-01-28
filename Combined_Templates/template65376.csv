@@ -1,0 +1,4 @@
+3,"SELECT objid, flags, subclass, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z FROM SpecPhoto WHERE zwarning = # AND class = # AND type = # AND subclass like # AND subclass not like # AND subclass < > #"
+2019-09-25 09:48:00,1
+2019-09-25 09:52:00,1
+2019-09-25 11:18:00,1

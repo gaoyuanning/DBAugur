@@ -1,0 +1,2 @@
+1,"SELECT plate, mjd FROM apogeePlate WHERE location_id = #;"
+2019-08-06 10:27:00,1

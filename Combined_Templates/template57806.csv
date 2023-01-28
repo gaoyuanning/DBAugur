@@ -1,0 +1,2 @@
+1,"SELECT g.specObjID, g.class, g.subClass, g.ra, g.raErr, g.dec, g.decErr, g.z, g.zErr into mydb.MyTable3 from SpecPhotoAll as g WHERE g.ra> # and g.ra< # and g.dec> # and g.dec< #"
+2019-08-15 12:50:00,1

@@ -1,0 +1,2 @@
+1,"select top # p.objid, p.petroMag_r, p.extinction_r, p.petroR5#_r, s.velDisp, s.z as redshift from PhotoObj AS p join SpecObj AS s ON s.bestobjid = p.objid where (p.petroR9#_r / p.petroR5#_r) > # (p.petroMag_g - p.extinction_g - p.petroMag_r + p.extinction_r) > #. p.petroMag_r between # and # s.z < # s.zErr < power (#, #) s.velDisp > # (s.velDispErr / s.velDisp) < # p.petroMagErr_r < #"
+2019-04-09 14:53:00,1

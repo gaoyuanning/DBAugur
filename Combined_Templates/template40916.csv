@@ -1,0 +1,6 @@
+10,"select cat1 = run1, cat2 = run2, arcsec, cts = sum (cts) from astrometry.budavari.Neighbors0#Star2#PixEqMag where run1 IN () and run2 IN () and row1 IN () and row2 IN () and col1 IN () and col2 IN () and mag IN () group by run1, run2, arcsec order by #, #, #"
+2019-05-22 17:14:00,2
+2019-05-22 17:17:00,2
+2019-05-22 18:40:00,2
+2019-05-23 12:16:00,2
+2019-05-23 12:37:00,2

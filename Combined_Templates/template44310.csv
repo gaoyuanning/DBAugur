@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra, dec, psfMag_u, psfMagErr_u, psfMag_g, psfMagErr_g, psfMag_r, psfMagErr_r, psfMag_i, psfMagErr_i, psfMag_z, psfMagErr_z into mydb.MyTable from PhotoObjAll WHERE ra BETWEEN # and # AND dec BETWEEN #. and #. AND ( (flags_r & #) ! = #) AND ( (flags_r & #) = #) AND ( ((flags_r & #) = #) or (psfmagerr_r < = #) ) AND ( ((flags_r & #) = #) or (flags_r & #) = #)"
+2019-06-06 08:48:00,1

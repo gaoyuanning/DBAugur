@@ -1,0 +1,4 @@
+3,"SELECT TOP # P.bin, P.cell, P.sinc, P.rInner, P.rOuter, P.aAnn, P.aDisk FROM ProfileDefs as P"
+2019-07-09 17:20:00,1
+2019-07-09 17:21:00,1
+2019-07-09 17:28:00,1

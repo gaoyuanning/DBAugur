@@ -1,0 +1,5 @@
+5,"SELECT top #   s.specObjId, modelmag_g, devmag_g, expmag_g, devrad_g, exprad_g, devab_g, expab_g,   extinction_g,modelmag_r, devmag_r, expmag_r, devrad_r, exprad_r, devab_r, expab_r,   extinction_r, s.z into mydb.MyTable_# from specObjAll AS s   JOIN Galaxy AS g ON s.specObjID=g.specObjID    WHERE   petroR5#_r <> #   AND (petroR9#_r/petroR5#_r) > #   AND eClass < #   AND fracdev_g = #"
+2019-10-10 14:06:00,2
+2019-10-10 14:07:00,1
+2019-10-10 14:09:00,1
+2019-10-10 14:10:00,1

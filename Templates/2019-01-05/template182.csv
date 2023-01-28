@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid,p.ra,p.dec,  s.class, s.z as redshift"
+2019-01-05 14:25:00,1

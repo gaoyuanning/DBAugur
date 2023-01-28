@@ -1,0 +1,2 @@
+1,"SELECT ObjectThin.objID, nDetections, raMean, decMean,  gMeanPSFMag, gMeanPSFMagErr, rMeanPSFMag, rMeanPSFMagErr,  iMeanPSFMag, iMeanPSFMagErr, zMeanPSFMag, zMeanPSFMagErr,  yMeanPSFMag, yMeanPSFMagErr  FROM ObjectThin  INNER JOIN MeanObject ON ObjectThin.objID = MeanObject.objID  WHERE  raMean > #  AND raMean < #  AND decMean > #  AND decMean < #"
+2019-06-05 14:33:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.dered_g, s.z as z_spec, s.plate, s.fiberid   FROM BI_CIV as B"
+2019-09-14 11:16:00,1

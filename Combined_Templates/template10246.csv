@@ -1,0 +1,2 @@
+1,"SELECT TOP # ObjID, modelMag_r, Class FROM Galaxy as g JOIN SpecObjas s ON g.ObjID = s.bestObjID"
+2019-02-12 08:04:00,1

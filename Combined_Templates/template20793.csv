@@ -1,0 +1,2 @@
+1,"SELECT DISTINCT p.PetroRad_g, p.RA, p.dec FROM PhotoObjAll AS p WHERE"
+2019-03-15 10:49:00,1

@@ -1,0 +1,4 @@
+3,"SELECT TOP # s.plate,s.mjd,s.fiberid,s.z,s.zErr,s.zWarning,s.class,cast(str(s.ra,#,#) as float) as ra,cast(str(s.[dec],#,#) as float) as dec,s.bestObjID  FROM ..SpecObj as s  JOIN dbo.fGetObjFromRect(#,#,#,#) AS b ON s.bestobjid = b.objID"
+2019-06-19 15:51:00,1
+2019-06-19 16:09:00,1
+2019-06-19 16:23:00,1

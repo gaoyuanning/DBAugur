@@ -1,0 +1,5 @@
+6,"select objID, ra, dec, subClass, psfMag_r into mydb.MyTable_# from SpecPhotoAll where class = # and sciencePrimary = # and Mode = # and zWarning = # and (flags & (dbo.fPhotoFlags (#) )) = # and (flags & (dbo.fPhotoFlags (#) )) = # and (flags & (dbo.fPhotoFlags (#) )) = # and (flags & (dbo.fPhotoFlags (#) )) = #"
+2019-01-29 08:40:00,1
+2019-01-29 08:41:00,2
+2019-02-01 03:55:00,2
+2019-02-01 04:52:00,1

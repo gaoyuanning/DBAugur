@@ -1,0 +1,10 @@
+11,"select top #   specObjID as id, z as redshift, zErr as redErr, ra, dec, modelMag_u as u, modelMag_g as g,   modelMag_r as r, modelMag_i as i, modelMag_z as z, modelMagErr_u as uErr,    modelMagErr_g as gErr, modelMagErr_r as rErr, modelMagErr_i as iErr, modelMagErr_z as zErr, type into mydb.MyTable from SpecPhoto where z < # and type = # and ra between # and # and dec between # and #"
+2019-09-26 13:19:00,1
+2019-09-26 13:20:00,2
+2019-09-26 13:21:00,1
+2019-09-26 17:56:00,1
+2019-09-26 19:04:00,1
+2019-09-26 19:05:00,1
+2019-09-26 19:06:00,1
+2019-09-26 19:07:00,2
+2019-09-26 19:08:00,1

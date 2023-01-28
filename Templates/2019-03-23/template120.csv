@@ -1,0 +1,2 @@
+2,"select top # ra, dec, z from SpecPhoto where zwarning = # and z># order by z ASC"
+2019-03-23 17:25:00,2

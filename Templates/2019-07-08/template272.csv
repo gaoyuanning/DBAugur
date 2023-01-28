@@ -1,0 +1,2 @@
+1,"SELECT TOP # SP.objID, SP.ra, SP.dec, SP.type, SP.psfMag_r, SP.psfMagErr_r, SP.petroMag_r, SP.petroMagErr_r, SP.modelMag_r, SP.modelMagErr_r FROM SpecPhotoAll as P JOIN dbo.fGetNearbyObjEq(#,#, #) AS PN ON SP.objID = PN.objID ORDER BY distance"
+2019-07-08 15:49:00,1

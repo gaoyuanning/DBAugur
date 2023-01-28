@@ -1,0 +1,2 @@
+1,"SELECT TOP # z, zErr, ra, dec, dered_u, dered_g, dered_r, dered_i, dered_z into mydb.DataTable from dbo.SpecPhoto WHERE class = &&& AND ra BETWEEN # AND # AND dec BETWEEN # AND #"
+2019-09-30 16:37:00,1

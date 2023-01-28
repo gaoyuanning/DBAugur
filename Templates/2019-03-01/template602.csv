@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra, dec,z,mag FROM NSA WHERE  ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-03-01 03:25:00,1

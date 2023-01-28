@@ -1,0 +1,12 @@
+200,"select                                                                                   G.objID, G.ra, G.dec,                                                                      G.petroMag_u, G.petroMag_g, G.petroMag_r, G.petroMag_i, G.petroMag_z,                      G.petroR5#_u, G.petroR5#_g, G.petroR5#_r, G.petroR5#_i, G.petroR5#_z,                      G.petroR9#_u, G.petroR9#_g, G.petroR9#_r, G.petroR9#_i, G.petroR9#_z,                      G.petroMagErr_u, G.petroMagErr_g, G.petroMagErr_r, G.petroMagErr_i, G.petroMagErr_z,       G.deVPhi_u, G.deVPhi_g, G.deVPhi_r, G.deVPhi_i, G.deVPhi_z,                                G.expPhi_u, G.expPhi_g, G.expPhi_r, G.expPhi_i, G.expPhi_z,                                G.deVAB_u, G.deVAB_g, G.deVAB_r, G.deVAB_i, G.deVAB_z,                                     G.expAB_u, G.expAB_g, G.expAB_r, G.expAB_i, G.expAB_z,                                     G.fracDeV_u, G.fracDeV_g, G.fracDeV_r, G.fracDeV_i, G.fracDeV_z,                    	   spo.z, spo.specObjID                                                                from                                                                                              Galaxy as G, dbo.fGetNearestObjEq(#,#, #/#.) as N, SpecPhotoAll as spo           where                                                                                             G.objID = N.objID and                                                                      G.objiD = spo.specObjID"
+2019-08-15 17:20:00,11
+2019-08-15 17:21:00,34
+2019-08-15 17:22:00,15
+2019-08-15 17:24:00,20
+2019-08-15 17:26:00,20
+2019-08-15 17:27:00,20
+2019-08-15 17:28:00,19
+2019-08-15 17:29:00,13
+2019-08-15 17:30:00,28
+2019-08-15 17:31:00,1
+2019-08-15 17:32:00,19

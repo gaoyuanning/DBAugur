@@ -1,0 +1,2 @@
+1,"select top # id, ra, dec, mpe, mp2# from RC3 where mpe > # and mp2# > #"
+2019-03-01 18:49:00,1

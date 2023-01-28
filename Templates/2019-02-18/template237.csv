@@ -1,0 +1,2 @@
+1,"SELECT count(*) as num, MIN(credits) as minCr , MAX(credits) as maxCr, AVG(cast(credits as real)) as avgCr   FROM courses  WHERE credits > #"
+2019-02-18 16:01:00,1

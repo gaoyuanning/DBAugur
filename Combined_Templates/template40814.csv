@@ -1,0 +1,2 @@
+2,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.deVRad_r, p.deVAB_r, p.expRad_r, p.expAB_r, p.deVMag_r, p.expMag_r FROM PhotoObjAll AS p"
+2019-05-21 08:21:00,2

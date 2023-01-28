@@ -1,0 +1,2 @@
+21,"SELECT TOP # ra, dec, type, objID from Photoz WHERE ra BETWEEN # AND #"
+2019-01-21 15:56:00,21

@@ -1,0 +1,3 @@
+2,"SELECT m.maskID, m.field, m.mask, m.filter, m.ra, m.dec, m.radius, m.area, m.type, m.seeing, m.cx, m.cy, m.cz, m.htmID from Mask as m join GalaxyTag as g on g.ObjId = m.maskID"
+2019-08-01 08:54:00,1
+2019-09-13 07:43:00,1

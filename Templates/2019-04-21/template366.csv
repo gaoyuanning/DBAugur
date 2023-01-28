@@ -1,0 +1,2 @@
+1,"select b.AlbumId, b.Album Price, b.Number of Tracks from  (select a.AlbumId, Sum (a.UnitPrice) as &&&, count(*) as &&& from   (select Track.AlbumId, Track.TrackId, InvoiceLine.UnitPrice, InvoiceLine.TrackId as &&& From chinook.Track Inner Join chinook.InvoiceLine on Track.TrackId = InvoiceLine.TrackId) a   group by AlbumId) b"
+2019-04-21 13:01:00,1

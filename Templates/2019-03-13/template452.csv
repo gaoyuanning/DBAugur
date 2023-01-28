@@ -1,0 +1,2 @@
+2,"select objID, dered_u, dered_g, dered_r, dered_i, dered_z, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z, z, zErr, class, subClass into mydb.MyTable from SpecPhotoAll where survey = sdss and programname = legacy"
+2019-03-13 11:26:00,2

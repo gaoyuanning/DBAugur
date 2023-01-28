@@ -1,0 +1,3 @@
+2,"SELECT ra, dec, class, subClass, z into mydb.ALLSHELAdr1#_STAR from SpecObj WHERE class = # AND zWarning = # and RA between # and # and DEC between # and #"
+2019-03-06 01:35:00,1
+2019-03-06 01:36:00,1

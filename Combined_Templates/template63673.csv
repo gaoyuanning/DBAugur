@@ -1,0 +1,2 @@
+2,"SELECT m.specObjID, m.t_age, m.t_age_err, m.metallicity, m.metallicity_err, m.age INTO mydb.sdss_m FROM stellarMassFSPSGranWideDust as m"
+2019-09-17 08:29:00,2

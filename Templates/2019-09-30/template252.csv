@@ -1,0 +1,2 @@
+1,"SELECT   p.modelMag_u as MODELU, p.modelMag_g as MODELG, p.modelMag_r as MODELR, p.modelMag_i as MODELI, p.modelMag_z as MODELZ,   s.z as Z, p.extinction_u as REDDU, p.extinction_g as REDDG, p.extinction_r as REDDR, p.extinction_i, as REDDI, p.extinction_z as REDDZ,  from photoObj as p, specObj as s WHERE p.objID = s.bestObjID and p.mode=# and s.z between # and # and p.petroMag_r between # and #"
+2019-09-30 15:55:00,1

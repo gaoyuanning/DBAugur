@@ -1,0 +1,2 @@
+2,"SELECT id.plate_eu, so.plate, so.specObjID, so.ra, so.dec from mydb.eu_ids AS id, SpecObjAll AS so WHERE id.plate_eu = so.plate"
+2019-08-26 10:52:00,2

@@ -1,0 +1,2 @@
+1,select top # * from batch.jobs order by timesubmitted desc
+2019-11-11 18:27:00,1

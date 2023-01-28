@@ -1,0 +1,2 @@
+1,"SELECT m.iauname AS iauname, m.ra AS ra_gz, m.dec AS dec_gz, o.objid AS dr7objid_sdss, o.ra AS ra_sdss, o.dec AS dec_sdss, o.petroMag_g, o.petroMag_r, o.z_sdss, p.fracDeV_r, p.deVAB_r into mydb.GZ_DECALS from MyDB.GZ_DECALS_coor AS m OUTER APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n LEFT JOIN SpecPhotoAll AS o ON n.objid = o.objID LEFT JOIN PhotoObjAll AS p on n.objid = p.objID"
+2019-11-26 07:53:00,1

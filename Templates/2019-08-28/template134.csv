@@ -1,0 +1,2 @@
+1,"select top # * from cellall   where sampleid =#     and cx between # and #    and cy between # and #   order by newid() ) select cg.geom.ToString() as wkt,cg.geom.STArea() as area, cg.cellid , cx,cy,px,py from s    join cellgeom cg on cg.cellid=ca.cellid"
+2019-08-28 16:29:00,1

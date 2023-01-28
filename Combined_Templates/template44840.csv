@@ -1,0 +1,2 @@
+1,"select p.*, s.* from spectOjbAll as s join PhotoObj as p on p.objID = s.bestObjID where p.mode = # p.clean = # s.programname IN () s.zWarning < > # AND s.zWarning_noqso < > # s.zErr > = # AND s.zErr_noqso > = #, ABS (s.zErr/s.z) < = # AND ABS (s.zErr_noqso/s.z_noqso) < = #, p.fiberMag_g < > # AND p.fiberMag_g < > # AND p.fiberMag_r < > # AND p.fiberMag_i < > # AND p.fiberMag_z < > #"
+2019-06-08 17:53:00,1

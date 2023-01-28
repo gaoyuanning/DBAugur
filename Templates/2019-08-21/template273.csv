@@ -1,0 +1,2 @@
+2,"select objID, ra, dec, has_wise_phot, treated_as_pointsource, w1_mag, w1_mag_err, w2_mag, w2_mag_err from wiseForcedTarget where dec<=#"
+2019-08-21 08:02:00,2

@@ -1,0 +1,2 @@
+1,"SELECT p.dered.u, p.dered.g, p.dered.r, p.dered.i, p.dered.z, s.dered.z FROM SpecObj AS s INNER JOIN PhotoObj AS p ON s.bestObjId = p.objID WHERE p.class = # AND sz BETWEEN # AND #"
+2019-03-25 12:00:00,1

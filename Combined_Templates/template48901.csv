@@ -1,0 +1,4 @@
+3,"SELECT INTO MyDB.photo_vdl_# L.cID, SPO.specObjID, SPO.ra, SPO.dec, SPO.z, SPO.modelMag_u, SPO.modelMag_g, SPO.modelMag_r, SPO.modelMag_i, SPO.modelMag_z FROM MyDB.vdL_# as L OUTER APPLY dbo.fGetNearbySpecObjEq (L.RAJ2#, L.DEJ2#, L.aperture) as SO INNER JOIN SpecPhotoAll as SPO on SPO.SpecObjID = SO.SpecObjID WHERE SPO.class = # and abs (SPO.z - L.z) < # * sqrt (#) * L.sigma"
+2019-06-28 03:43:00,1
+2019-06-28 12:03:00,1
+2019-06-29 04:43:00,1

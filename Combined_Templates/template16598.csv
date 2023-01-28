@@ -1,0 +1,2 @@
+1,"select top # objID, ra, dec from star where mag_r < #"
+2019-03-03 01:08:00,1

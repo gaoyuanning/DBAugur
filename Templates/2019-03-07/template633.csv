@@ -1,0 +1,2 @@
+1,"SELECT p.objId,p.ra,p.dec,p.petror9#_r, p.expAB_r,     p.dered_u, p.dered_g, p.dered_r, p.dered_i,      s.extinction_g, s.extinction_r, s.extinction_i, s.extinction_u, s.extinction_z FROM galaxy AS p     JOIN PhotoPrimary AS s ON s.extinction WHERE g < # and b between # and #"
+2019-03-07 13:08:00,1

@@ -1,0 +1,2 @@
+1,"SELECT   sp.objID,   into mydb.MyTable from CM AS sp     JOIN RCsample AS r ON r.objID = sp.objID      ORDER BY sp.objID"
+2019-02-01 12:43:00,1

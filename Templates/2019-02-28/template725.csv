@@ -1,0 +1,2 @@
+1,"SELECT specObjID, class, subclass, z AS redshift, zErr AS redshift_err, velDisp, velDispErr FROM SpecObj WHERE specobjid=#"
+2019-02-28 02:19:00,1

@@ -1,0 +1,2 @@
+1,"SELECT top # sp.plate, sp.fiberid, sp.mjd, phot.u, phot.g, phot.r, phot.i, phot.z FROM SpecObj AS sp JOIN PhotoObj AS phot ON phot.objID = sp.targetObjID WHERE err_u > #"
+2019-03-06 02:00:00,1

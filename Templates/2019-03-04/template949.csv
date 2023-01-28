@@ -1,0 +1,2 @@
+1,"SELECT    SO.specObjID,   SO.plate,   SO.mjd,   SO.fiberID      I.d4#,	       I.d4#_err,           I.d4#_model,         I.d4#_sub,	       I.d4#_sub_err,       I.d4#_n,             I.d4#_n_err,	       I.d4#_n_model,       I.d4#_n_sub,	       I.d4#_n_sub_err,     I.d4#_red,	       I.d4#_blue,	       I.d4#_n_red,	       I.d4#_n_blue,	       I.d4#_sub_red,       I.d4#_sub_blue,      I.d4#_n_sub_red,     I.d4#_n_sub_blue INTO mydb.D4#_table   FROM dr1#.galSpecIndx as I    JOIN dr1#.SpecObj AS SO on SO.specObjID = I.specObjID"
+2019-03-04 01:32:00,1

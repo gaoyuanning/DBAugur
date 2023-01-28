@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, type into mydb.MyTable from Photoobj WHERE ra> # and ra< # and dec> # and dec< #"
+2019-05-02 04:36:00,1

@@ -1,0 +1,2 @@
+1,"SELECT sp.ra, sp.dec, sp.z, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z into mydb.MyTable_# from SpecPhoto AS sp INNER JOIN FIRST AS f ON sp.objid = f.objid WHERE class = # AND zWarning = # and sp.z > # and sp.z < # and modelMag_u< #"
+2019-02-26 05:17:00,1

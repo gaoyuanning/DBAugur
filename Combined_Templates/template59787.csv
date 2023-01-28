@@ -1,0 +1,2 @@
+1,"select s.bestObjId, s.ra, s.dec, s.z, z.p_cw, z.p_acw from DR1#.zooSpec z join DR1#.specObj s ON s.specObjID = z.specObjID into mydb.zoo_spec_full_# where s.origObjId = s.bestObjId"
+2019-08-30 15:48:00,1

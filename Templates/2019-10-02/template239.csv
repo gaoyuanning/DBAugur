@@ -1,0 +1,2 @@
+2,"select enrollment.SystemStudentID   ,enrollment.GradeLevel as EnrollmentGrade   ,enrollment.SchoolYear4Digit   ,enrollment.isActiveEnrollment   ,emotion.score as Emotion_Score   from Enrollment enrollment   left join EmotionalScreener emotion   on enrollment.SystemStudentID = emotion.StudentID   and enrollment.SchoolYear4Digit = emotion.SchoolYear4Digit group by enrollment.SystemStudentID   ,enrollment.GradeLevel   ,enrollment.SchoolYear4Digit   ,enrollment.isActiveEnrollment"
+2019-10-02 14:57:00,2

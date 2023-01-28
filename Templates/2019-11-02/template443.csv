@@ -1,0 +1,3 @@
+2,"select top #  ew.Halpha2#err, s.targetType, s.class from  spplines ew join SpecObj s on s.specObjID = ew.specObjID where  Halpha2#cont># and  s.class = &&&"
+2019-11-02 09:47:00,1
+2019-11-02 09:51:00,1

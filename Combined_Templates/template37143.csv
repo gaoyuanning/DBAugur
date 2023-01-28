@@ -1,0 +1,2 @@
+2,"SELECT u.AGCNr, u.ra, u.dec, n.objid, n.distance, n.type, n.mode, o.ra as ra_near, o.dec as dec_near, o.u, o.g, o.r, o.i, o.z, o.specObjID into mydb.environment_# FROM mydb.udg1# as u outer apply dbo.fGetNearbyObjAllEq (u.ra, u.dec, #) as n left join GALAXY as o on n.objid = o.objid where u.ra = # and u.dec = #"
+2019-05-06 10:37:00,2

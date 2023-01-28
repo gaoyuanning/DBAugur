@@ -1,0 +1,2 @@
+1,"select aaa.id, s.ra, s.dec from (select max (ll.ew) as maxew, ss.specobjid as id from speclineall ll, specobj ss where ll.ew< ># and ss.specobjid = ll.specobjid group by ss.specobjid) aaa, specobj s where maxew< # and s.specobjid = aaa.id and (sn_#> # or sn_#> # or sn_#> #) and (zstatus = # or zstatus = #) and zconf< #"
+2019-02-08 08:41:00,1

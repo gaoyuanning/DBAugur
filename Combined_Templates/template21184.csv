@@ -1,0 +1,2 @@
+1,"SELECT m.id, n.objid, n.distance FROM MyDB.temp3 AS m OUTER APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n LEFT JOIN PhotoObj AS o ON n.objid = o.objid"
+2019-03-17 04:52:00,1

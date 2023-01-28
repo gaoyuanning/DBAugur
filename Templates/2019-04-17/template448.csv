@@ -1,0 +1,2 @@
+1,"SELECT EID,[Cancer_code_self_reported_#],[Cancer_year_age_first_occurred_#],[Interpolated_Age_of_participant_when_non_cancer_illness_first_diagnosed_#],[Interpolated_Year_when_non_cancer_illness_first_diagnosed_#],[Method_of_recording_time_when_cancer_first_diagnosed_#],[Method_of_recording_time_when_non_cancer_illness_first_diagnosed_#],[Non_cancer_illness_code_self_reported_#],[Non_cancer_illness_year_age_first_occurred_#],[Number_of_self_reported_non_cancer_illnesses_#],[Pregnant_#] FROM Medical_conditions_# GO"
+2019-04-17 11:27:00,1

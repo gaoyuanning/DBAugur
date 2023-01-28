@@ -1,0 +1,3 @@
+4,"select top # p.ra, p.dec,p.u, p.g, p.r, p.i,p.z as survey into mydb.MyTable_# from PhotoObjAll as p"
+2019-10-23 14:24:00,3
+2019-10-23 14:25:00,1

@@ -1,0 +1,2 @@
+1,"SELECT objId, z, zErr, O2EW, O2EWerr, HAEW, HAEWerr,     sigma_balmer, sigma_balmer_err, sigma_forbidden, sigma_forbidden_err,     absMagR, modelMagErr_r,     -- insert expressions for the U-R colour (as URcolour) and your colour (give it some name) here     fracDeV_r, petroR5#_r, petroR5#Err_r FROM MyDB.yourgalaxyparams"
+2019-01-22 00:26:00,1

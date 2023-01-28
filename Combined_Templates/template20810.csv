@@ -1,0 +1,3 @@
+2,"SELECT gcs.ra, gcs.dec, gcs.zaperMag3, gcs.zaperMag3Err, gcs.yaperMag3, gcs.yaperMag3Err, gcs.japerMag3, gcs.jAperMag3err, gcs.haperMag3, gcs.haperMag3Err, gcs.k_#aperMag3, gcs.k_#aperMag3Err, gcs.k_#aperMag3, gcs.k_#aperMag3Err, gcs.muRa, gcs.muDec, gcs.sigMuRa, gcs.sigMuDec, gcs.mergedClass, mj.mjdObs FROM gcsSource AS gcs, gcsMergeLog AS l, Multiframe AS mj WHERE (l.k_#mfID = mj.multiframeID) AND (gcs.frameSetID = l.frameSetID) AND (k_#mfID > #) /* Good quality point sources */ AND k_#ppErrBits < = # /* Retain only point-like sources */ AND ( (k_#Class BETWEEN # AND #) OR (k_#ClassStat BETWEEN # AND +#) ) AND gcs.ra BETWEEN # AND # AND gcs.dec BETWEEN # AND # AND gcs.k_#aperMag3 BETWEEN # AND #"
+2019-03-15 09:25:00,1
+2019-03-15 09:26:00,1

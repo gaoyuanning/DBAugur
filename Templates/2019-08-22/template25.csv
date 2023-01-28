@@ -1,0 +1,5 @@
+4,"SELECT TOP # plateifu,   mangaid, objra, objdec, mngtarg1, drp3qual  FROM mangadrpall  WHERE  mngtarg1 != # or mngtarg3 != #"
+2019-08-22 07:10:00,1
+2019-08-22 17:36:00,1
+2019-08-22 20:33:00,1
+2019-08-22 23:51:00,1

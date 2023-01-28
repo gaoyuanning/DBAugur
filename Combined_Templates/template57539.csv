@@ -1,0 +1,2 @@
+1,select o.d_L into mydb.MyTable_# from MyDB.NonMasersRipchick as o
+2019-08-14 14:32:00,1

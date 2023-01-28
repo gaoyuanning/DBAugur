@@ -1,0 +1,3 @@
+4,"select @ixmin=floor((@xmin-xmin)/dx) ,      @ixmax=floor((@xmax-xmin)/dx) ,      @iymin=floor((@ymin-ymin)/dy) ,      @iymax=floor((@ymax-ymin)/dy)   from Simulations  where suffix=&&& ; select e.snapnum, e.elementid ,    e.x1 ,e.y1  ,    e.x2 ,e.y2  ,    e.x3 ,e.y3  ,    e.s0,e.s1,e.s2,e.s3 ,    #*(e.s0+e.s3) as t, e.s0*e.s3-e.s1*e.s2 as d   from cells_SD1 c   ,    elemstress_SD1 e  where c.snapnum=#    and c.ixmax between @ixmin and @ixmax    and c.iymax between @iymin and @iymax    and e.snapnum=c.snapnum    and e.elementId=c.elementId"
+2019-01-17 08:34:00,1
+2019-01-17 08:35:00,3

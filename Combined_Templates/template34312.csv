@@ -1,0 +1,2 @@
+1,"select top # x, y, c = sin (y+x) from data where y< # -- negative and cos (x) -y*y< # order by x desc */ /* select RunID, N = count (ID) , Nr = count (distinct RUNID) , AVG (Y) as AvgY from data where X> # or X< # group by RunID having AVG (Y) > # order by RunID desc */ select round (x, #) , x -- when rounding, need to say how many digits want to keep from data where Y> #"
+2019-04-24 12:48:00,1

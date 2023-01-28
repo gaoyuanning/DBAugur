@@ -1,0 +1,3 @@
+2,select * from MyDB.JR_Table_#MASS_nearby where objID = #
+2019-01-04 16:06:00,1
+2019-01-04 16:37:00,1

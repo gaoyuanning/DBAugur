@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, s.class FROM PhotoObjAll AS p JOIN dbo.fGetNearbyObjEq(#.,#, #) AS GN ON G.objID = GN.objID"
+2019-05-08 22:50:00,1

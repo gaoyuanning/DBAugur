@@ -1,0 +1,2 @@
+1,"SELECT specObjID, ra, dec, plate, mjd, fiberid, z, zErr, zWarning, class, subClass into mydb.SDSS_DR1#_spectroscopy_catalog from SpecObj WHERE class = #"
+2019-05-28 05:54:00,1

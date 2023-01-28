@@ -1,0 +1,3 @@
+2,"SELECT fieldID, skyVersion, run, rerun, camcol, field, nObjects, mjd_u, mjd_g, mjd_r, mjd_i, mjd_z into mydb.field from Field"
+2019-10-10 04:08:00,1
+2019-10-10 04:09:00,1

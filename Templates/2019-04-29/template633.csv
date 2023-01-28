@@ -1,0 +1,2 @@
+1,SELECT TOP # objID  FROM Galaxy  WHERE NUV_A_WORLD > #	-- extinction more than #
+2019-04-29 07:02:00,1

@@ -1,0 +1,3 @@
+3,"SELECT -- clause comes from. Finally, the last line in the query is the join between -- the two tables, which is achieved by requiring that a quantity present in -- both tables be equal.  -- NOTE: This query times out (takes too long) without the TOP #."
+2019-05-12 12:44:00,1
+2019-05-12 12:45:00,2

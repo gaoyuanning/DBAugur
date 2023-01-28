@@ -1,0 +1,2 @@
+1,"select top RunID, sum (x*y-#) as derived, cts = count (ID) from Data"
+2019-11-18 12:36:00,1

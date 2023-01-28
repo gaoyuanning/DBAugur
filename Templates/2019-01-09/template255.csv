@@ -1,0 +1,2 @@
+1,"SELECT   m.HOSTGAL_OBJID,p.z as Photo_z, p.zerr as Photo_z_err into mydb.Testin from Photoz as p   JOIN MyDB.Host_Galaxy_OBJIDs AS m ON m.HOSTGAL_OBJID = p.ObjID WHERE m.HOSTGAL_OBJID IN   (     SELECT p.ObJID     FROM Photoz p   )"
+2019-01-09 15:01:00,1

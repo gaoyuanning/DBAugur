@@ -1,0 +1,3 @@
+3,"SELECT s.plate, s.mjd, s.fiberid, p.ra, p.dec, p.l, p.b, s.TEFFADOP, s.TEFFADOPUNC, s.LOGGADOP, s.LOGGADOPUNC, s.FEHADOP, s.FEHADOPUNC, s.snr FROM PhotoObj as p JOIN sppParams s ON p.objID = s.bestObjID INTO mydb.sspp"
+2019-09-02 06:37:00,2
+2019-09-02 06:38:00,1

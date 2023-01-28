@@ -1,0 +1,2 @@
+1,"SELECT objId, SDSSobjid into MyDB.crossedGalexSdss FROM xSDSSDR1# WHERE distanceRank = # and reverseDistanceRank = #"
+2019-06-16 07:18:00,1

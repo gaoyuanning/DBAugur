@@ -1,0 +1,2 @@
+1,"SELECT S.bestObjID, S.z, S.ra, S.dec, P.modelMag_g, P.modelMag_i, P.modelMagErr_g, P.modelMagErr_i, P.extinction_g, P.extinction_i, P.petroMag_g, P.petroMag_i, P.petroMagErr_g, P.petroMagErr_i into mydb.proj2 from SpecObjAll as S, PhotoObjAll as P where P.ObjID=S.bestObjID and S.z <=#"
+2019-07-16 05:15:00,1

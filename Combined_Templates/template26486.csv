@@ -1,0 +1,2 @@
+2,"select A.specObjID, A.subclass, A.plateid, A.mjd, A.fiberid, A.subclass, A.spectrotype, B.h_beta_flux, B.h_alpha_flux, B.nii_#_flux, B.h_beta_flux_err, B.h_alpha_flux_err, B.nii_#_flux_err INTO MYDB.Rosi_muestra2 FROM galSpecInfo as A JOIN galSpecLine as B on A.specObjID = B.specObjID where # > A.z and B.nii_#_flux/h_alpha_flux > #"
+2019-04-01 11:11:00,2

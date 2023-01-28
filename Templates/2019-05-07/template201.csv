@@ -1,0 +1,2 @@
+1,"SELECT s.specobjid, s.z FROM SpecPhotoAll AS s WHERE s.specobjid = #"
+2019-05-07 18:02:00,1

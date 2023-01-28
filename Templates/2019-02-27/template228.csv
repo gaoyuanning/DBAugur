@@ -1,0 +1,2 @@
+1,"SELECT ALL g.u,dered_u, g.g,g.dered_g, g.r,g.dered_r, g.i,g.dered_i, g.z,g.dered_z, g.ra,g.dec, g.deVRad_u, g.deVRad_g, g.deVRad_r,g.deVRad_i, g.deVRad_z, g.flags_r, g.petroR9#_r, g.petroR5#_r FROM PhotoObjAll AS g JOIN SpecObj AS s ON s.specobjid = g.specobjid Where s.ra BETWEEN # and #  AND s.type=#"
+2019-02-27 19:36:00,1

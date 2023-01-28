@@ -1,0 +1,2 @@
+1,"SELECT TOP #  specObjID, ra, dec, expRad_u, expRad_g, expRad_r, expRad_i, expRad_z, expRadErr_u, expRadErr_g, expRadErr_r, expRadErr_i, expRadErr_z FROM PhotoObjAll WHERE   ra BETWEEN # AND #"
+2019-08-02 14:07:00,1

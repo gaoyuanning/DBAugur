@@ -1,0 +1,2 @@
+1,"SELECT s.specObjID, s.ra, s.dec, s.EW_OII_#, s.EW_OII_#, s.EW_NeIII_#, s.EW_Hd_#, s.EW_Hg_#, s.EW_OIII_#, s.EW_Hb_#, s.EW_OIII_#, s.EW_OIII_#, s.EW_HeI_#, s.EW_OI_#, s.EW_NII_#, s.EW_Ha_#, s.EW_NII_#, s.EW_SII_#, s.EW_SII_# into mydb.MyTable9# from dbo.emissionLinesPort AS s"
+2019-03-01 07:48:00,1

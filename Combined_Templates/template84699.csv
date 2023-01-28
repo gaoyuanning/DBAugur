@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.fiberID, s.mjd, s.plate, cast (str (s.ra, #, #) as float) as ra, s.z FROM ..SpecObj as s JOIN dbo.fGetNearbySpecObjEq (#, #, #) AS b ON b.SpecobjID = S.SpecobjID WHERE s.zWarning = #"
+2019-12-29 22:01:00,1

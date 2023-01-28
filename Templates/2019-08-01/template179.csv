@@ -1,0 +1,2 @@
+2,"SELECT TOP # bestObjID, class, z, zErr FROM SpecObjAll WHERE class = &&& AND z>#"
+2019-08-01 15:43:00,2

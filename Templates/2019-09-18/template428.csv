@@ -1,0 +1,4 @@
+3,"SELECT TOP #  redshift, log_Mass, log_SFR_Ha, OH_Re_fit_t2  FROM mangaPipe3D where  OH_Re_fit_t2 != #"
+2019-09-18 02:24:00,1
+2019-09-18 10:56:00,1
+2019-09-18 10:57:00,1

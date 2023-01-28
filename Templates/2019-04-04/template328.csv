@@ -1,0 +1,3 @@
+27,"SELECT Top # p.objId,p.b,p.extinction_r, p.extinction_g, p.extinction_u, p.extinction_i, p.extinction_z   FROM galaxy AS p WHERE (b between # and #)"
+2019-04-04 13:20:00,18
+2019-04-04 13:21:00,9

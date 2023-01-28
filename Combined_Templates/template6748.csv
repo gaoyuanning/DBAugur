@@ -1,0 +1,3 @@
+2,"select ra, dec, z from dbo.PhotoObjAll where type = # and field = # and run = # and camcol = # and z < #"
+2019-01-29 07:03:00,1
+2019-01-29 07:04:00,1

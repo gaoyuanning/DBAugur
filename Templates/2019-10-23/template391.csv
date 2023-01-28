@@ -1,0 +1,2 @@
+2,"select a.group_id, count(*) as n_member from mydb.ipetroA_# as a group by a.group_id into mydb.ipetroA_#_member"
+2019-10-23 05:12:00,2

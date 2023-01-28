@@ -1,0 +1,2 @@
+1,"SELECT TOP # PZ.z,PZ.zErr,P.ra, P.dec, P.u,P.g,P.r,P.i,P.z,PZ.absMagU,PZ.absMagG,PZ.absMagR,PZ.absMagI,PZ.absMagZ into mydb.qsoxmatchphoto  from Photoz as PZ,      PhotoObj  AS P  WHERE PZ.z BETWEEN # and #    and PZ.nnCount># 	   and PZ.zErr BETWEEN # and #    and PZ.ObjID =P.ObjID     and P.r>#"
+2019-03-10 04:37:00,1

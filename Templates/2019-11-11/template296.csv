@@ -1,0 +1,4 @@
+3,select * from information_schema.columns where table_name=&&&
+2019-11-11 11:41:00,1
+2019-11-11 11:47:00,1
+2019-11-11 11:54:00,1

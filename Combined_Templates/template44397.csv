@@ -1,0 +1,2 @@
+2,"SELECT G.objID, G.modelMag_r, into mydb.MyTable_# from Galaxy AS G JOIN SpecLine AS sl ON G.objID = sl.specobjID WHERE (sl.lineID = #)"
+2019-06-06 05:40:00,2

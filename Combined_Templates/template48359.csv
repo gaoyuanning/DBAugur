@@ -1,0 +1,2 @@
+1,"select specObjID, ra, dec, g, r, i from photoObj where mjd = # and plate = # and fiberID = #"
+2019-06-26 22:51:00,1

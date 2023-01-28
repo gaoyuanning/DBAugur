@@ -1,0 +1,2 @@
+1,"select spa.z,spa.specObjID into mydb.test from dr5.SpecObjAll spa where spa.targetID=#"
+2019-02-21 15:09:00,1

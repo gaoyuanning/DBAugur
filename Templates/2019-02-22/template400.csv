@@ -1,0 +1,2 @@
+1,"SELECT u.up_col0 as [col0], x.objID, count(*)"
+2019-02-22 05:53:00,1

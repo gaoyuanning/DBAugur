@@ -1,0 +1,2 @@
+2,"select A.specObjID, A.z INTO MYDB.Galaxias_Pablo FROM galSpecInfo as A where # < A.z and # > A.z"
+2019-06-25 06:58:00,2

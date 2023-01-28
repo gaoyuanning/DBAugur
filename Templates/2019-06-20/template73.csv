@@ -1,0 +1,11 @@
+10,"SELECT p.objID, p.ra, p.dec, p.probPSF, p.psfMag_u, p.psfMagErr_u, p.psfMag_g, p.psfMagErr_g, p.psfMag_r, p.psfMagErr_r, p.psfMag_i, p.psfMagErr_i, p.psfMag_z, p.psfMagErr_z, p.modelMag_u, p.modelMagErr_u, p.modelMag_g, p.modelMagErr_g, p.modelMag_r, p.modelMagErr_r, p.modelMag_i, p.modelMagErr_i, p.modelMag_z, p.modelMagErr_z FROM photoObjAll p, dbo.fgetNearByObjEq(#,#,#) n WHERE p.objid = n.objid"
+2019-06-20 14:42:00,1
+2019-06-20 16:05:00,1
+2019-06-20 18:20:00,1
+2019-06-20 18:43:00,1
+2019-06-20 19:21:00,1
+2019-06-20 19:22:00,1
+2019-06-20 20:08:00,1
+2019-06-20 20:27:00,1
+2019-06-20 20:47:00,1
+2019-06-20 21:25:00,1

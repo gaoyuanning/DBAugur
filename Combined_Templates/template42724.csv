@@ -1,0 +1,17 @@
+21,"select id, s.bestobjID as objid, s.specObjID as specobjid, bptclass as bpt, lgm_tot_p5# as smass, sfr_tot_p5# as sfr, specsfr_tot_p5# as ssfr from MyDB.temp as t join SpecObjAll as s on s.bestObjID = t.objid join galSpecExtra as x on s.specObjID = x.specObjID order by id"
+2019-05-29 00:05:00,1
+2019-05-29 00:21:00,1
+2019-05-29 00:27:00,1
+2019-05-29 00:38:00,1
+2019-05-29 00:39:00,1
+2019-06-06 13:43:00,1
+2019-06-14 16:48:00,2
+2019-06-14 16:49:00,4
+2019-06-14 16:51:00,1
+2019-06-14 16:57:00,1
+2019-06-14 16:59:00,1
+2019-06-14 17:00:00,1
+2019-06-14 17:12:00,2
+2019-06-14 17:13:00,1
+2019-06-14 17:14:00,1
+2019-06-14 17:15:00,1

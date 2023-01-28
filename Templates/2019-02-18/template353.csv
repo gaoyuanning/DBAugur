@@ -1,0 +1,2 @@
+1,select * from groups where privs like &&&
+2019-02-18 12:26:00,1

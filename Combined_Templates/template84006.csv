@@ -1,0 +1,2 @@
+1,SELECT p.ra FROM PhotoObj AS p WHERE p.ra < # and p.ra > # AND p.dec < # and p.dec > #
+2019-12-20 05:47:00,1

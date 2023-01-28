@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.petroMag_u as mu, p.petroMag_g as mg, p.petroMag_r as mr, p.petroMag_mi as i, p.petroMag_z as mz, p.petroMagErr_u as eu, p.petroMagErr_g as eg, p.petroMagErr_r as er, p.petroMagErr_i as ei, p.petroMagErr_z as ez, w.w1mpro as w1, w.w2mpro as w2, s.z as redshift, s.class, s.subclass, s.specobjid FROM WISE_xmatch as xm JOIN PhotoObjAll AS p on xm.sdss_objid = p.objid JOIN SpecObjAll AS s ON s.bestobjid = p.objid JOIN WISE_allsky AS w on xm.wise_cntr = w.cntr WHERE s.class = #"
+2019-09-02 03:27:00,1

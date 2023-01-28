@@ -1,0 +1,7 @@
+6,"CREATE TABLE [Diffusion_brain_MRI] ( 	eid BIGINT NOT NULL ,	[Multiband_diffusion_brain_images_NIFTI_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Multiband_diffusion_brain_images_DICOM_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Discrepancy_between_dMRI_brain_image_and_T1_brain_image_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Number_of_dMRI_outlier_slices_detected_and_corrected_#] INTEGER -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=# ,PRIMARY KEY (eid)) GO"
+2019-04-16 08:57:00,1
+2019-04-16 08:59:00,1
+2019-04-16 10:13:00,1
+2019-04-16 10:15:00,1
+2019-04-16 10:18:00,1
+2019-04-16 10:36:00,1

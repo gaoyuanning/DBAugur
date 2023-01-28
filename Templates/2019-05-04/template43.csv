@@ -1,0 +1,2 @@
+1,"SELECT objid, ra, dec, dered_r  FROM PhotoPrimary  WHERE type = # and dered_r >= # and dered_r <= #"
+2019-05-04 22:20:00,1

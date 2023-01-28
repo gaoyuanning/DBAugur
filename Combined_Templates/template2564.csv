@@ -1,0 +1,3 @@
+2,"SELECT S.z, S.ra, S.dec, S.plate, S.mjd, S.fiberid, S.mag_#, S.mag_#, S.mag_#, S.zConf, L.continuum, L.height, L.sigma, L.ew FROM specobj as S, specline as L WHERE L.specobjid = S.specobjid and (S.z between # and #) and L.lineID = # and L.category = # and L.height > # and L.sigma > # and S.sn_# > #"
+2019-01-13 18:45:00,1
+2019-01-13 18:46:00,1

@@ -1,0 +1,3 @@
+3,"SELECT PhotoObjAll.objid, PhotoObjAll.ra, PhotoObjAll.dec, PhotoObjAll.probPSF, PhotoObjAll.deVRad_r, PhotoObjAll.deVRad_i, PhotoObjAll.deVRad_z, PhotoObjAll.fracDeV_g, PhotoObjAll.fracDeV_r, PhotoObjAll.fracDeV_i, PhotoObjAll.fracDeV_z, SpecPhotoAll.z, zooVotes.nvote_tot, zooVotes.p_el, zooVotes.p_cw, zooVotes.p_acw, zooVotes.p_edge, zooVotes.p_dk, zooVotes.p_mg, zooVotes.p_cs into test_# from PhotoObjAll join zooVotes on PhotoObjAll.objid = zooVotes.objid join SpecPhotoAll on PhotoObjAll.specObjID = SpecPhotoAll.specObjID"
+2019-09-15 16:38:00,1
+2019-09-15 16:39:00,2

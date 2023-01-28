@@ -1,0 +1,2 @@
+1,"select distinct plate, mjd, fiberid into mydb.MyTable from specobj"
+2019-07-31 16:53:00,1

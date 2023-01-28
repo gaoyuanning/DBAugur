@@ -1,0 +1,2 @@
+1,"SELECT g.specObjID, g.bestObjID, g.fluxObjID, g.targetObjID, plateID, g.mjd, g.ra, g.dec, g.class, g.subClass, g.z, g.zErr, g.zWarning, g.class_noqso, g.subClass_noqso, g.z_noqso, g.zErr_noqso, g.zWarning_noqso into mydb.MyTable3 from SpecObj AS g WHERE g.ra = # and g.dec = # and g.zWarning = # and g.zWarning_noqso = #"
+2019-09-04 14:19:00,1

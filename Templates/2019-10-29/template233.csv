@@ -1,0 +1,2 @@
+1,"select top # specobjid as name, ra, dec from SpecObj FROM fGetObjFromRect(#,#,#,#) n, PhotoPrimary p WHERE n.objID=p.objID"
+2019-10-29 17:31:00,1

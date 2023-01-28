@@ -1,0 +1,2 @@
+1,"SELECT TOP #  objid,ra, dec,u,g, r,i, z,  run, rerun, camcol, field,  specobjid, class, z as redshift,  plate, mjd, fiberid FROM PhotoObj"
+2019-07-05 21:03:00,1

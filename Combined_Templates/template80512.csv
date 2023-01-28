@@ -1,0 +1,6 @@
+5,"SELECT objid, ra, dec, psfMag_r FROM PhotoPrimary WHERE type = # AND psfMag_r < # AND ra BETWEEN # AND # AND dec BETWEEN # and #"
+2019-12-04 19:23:00,1
+2019-12-04 19:25:00,1
+2019-12-04 19:38:00,1
+2019-12-04 19:41:00,1
+2019-12-12 22:49:00,1

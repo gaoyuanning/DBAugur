@@ -1,0 +1,2 @@
+1,"select ra, dec, run, rerun, camcol, field from Field where (ra between # and #) and (dec between # and #)"
+2019-11-20 13:12:00,1

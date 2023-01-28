@@ -1,0 +1,2 @@
+2,select fieldid from field where nprof_g between -.# and .# and psfbeta_g between # and #
+2019-01-25 02:44:00,2

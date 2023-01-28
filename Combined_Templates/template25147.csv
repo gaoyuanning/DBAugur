@@ -1,0 +1,4 @@
+5,"SELECT l.*, n.neighborObjID as neighborID, n.distance INTO DR5_neighbors FROM DR5.neighbors as n, mydb.DR5_lrgs as l, DR5.SpecObj as s WHERE l.objID = n.objID AND n.neigborObjID = s.objID AND abs (l.redshift-s.z) < # ORDER BY l.ra"
+2019-03-28 10:06:00,2
+2019-04-08 14:36:00,2
+2019-04-08 14:37:00,1

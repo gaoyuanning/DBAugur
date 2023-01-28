@@ -1,0 +1,3 @@
+2,"select top # astar.ra, astar.dec, #* (astar.ra - ap.racen) /cos (ap.deccen*PI () /#) as xfocal, #* (astar.dec - ap.deccen) as yfocal, obj.j as mag from apogeestar as astar Join apogeeObject as obj on obj.target_id = astar.target_id and obj.location_id = star.location_id join apogeePlate as ap on ap.location_id = astar.location_id where ap.plate = #"
+2019-10-03 06:36:00,1
+2019-10-03 06:37:00,1

@@ -1,0 +1,2 @@
+1,"select v.ra, v.dec, ivz_id, dbo.fGetNearestObjIdEq(v.ra, v.dec, #/#) as objID into mydb.vstar_temp from mydb.vstarMin as v where dbo.fGetNearestObjIdEq(v.ra, v.dec,#/#) is not null"
+2019-09-11 15:48:00,1

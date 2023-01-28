@@ -1,0 +1,2 @@
+1,"select top # spec.specObjID, spec.mjd, spec.plate, spec.z, spec.zErr from Galaxy as G join SpecObjAll as spec on spec.specObjID = G.specObjID where (spec.z between # and #) and spec.zWarning = # and spec.targetType = # and spec.instrument = # and spec.zErr < #"
+2019-01-18 18:50:00,1

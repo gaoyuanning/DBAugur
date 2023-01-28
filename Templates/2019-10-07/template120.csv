@@ -1,0 +1,2 @@
+1,"SELECT TOP # g.ra, g.dec FROM SpecObj as s JOIN Galaxy as g ON s.specobjid = g.specobjid WHERE petroR9#_r/petroR5#_r > #   AND s.eclass < #   AND fracdev_g = #   AND (# <= s.z) AND (s.z <= #)"
+2019-10-07 18:07:00,1

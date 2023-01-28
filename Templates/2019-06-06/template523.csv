@@ -1,0 +1,2 @@
+1,"select TOP # a.apstar_id, b.* into mydb.MyTable from aspcapStar AS a CROSS APPLY dbo.fAspcapElemsAll( a.aspcap_id ) AS b"
+2019-06-06 04:46:00,1

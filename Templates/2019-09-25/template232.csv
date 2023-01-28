@@ -1,0 +1,2 @@
+1,"SELECT DISTINCT p.objID, p.parentID, p.specObjID, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.err_u, p.err_g, p.err_r, p.err_i, p.err_z, p.cmodelMag_u, p.cmodelMag_g, p.cmodelMag_r, p.cmodelMag_i, p.cmodelMag_z, p.cmodelMagErr_u, p.cmodelMagErr_g, p.cmodelMagErr_r, p.cmodelMagErr_i, p.cmodelMagErr_z, p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i, p.extinction_z FROM PhotoObjAll AS p WHERE ((p.ra between # and #) and (p.dec between # and #))"
+2019-09-25 15:57:00,1

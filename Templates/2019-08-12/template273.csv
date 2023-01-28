@@ -1,0 +1,2 @@
+3,"SELECT top #  visit.*, aspcap.teff, aspcap.logg, aspcap.metals FROM apogeeVisit visit  JOIN apogeeSta"
+2019-08-12 14:45:00,3

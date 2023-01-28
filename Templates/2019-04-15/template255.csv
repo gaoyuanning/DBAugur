@@ -1,0 +1,2 @@
+1,"select q.CPS, q.HR1,q.HR2,q.EXT from ROSAT q where q.OBJID=#"
+2019-04-15 15:01:00,1

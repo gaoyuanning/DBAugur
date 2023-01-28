@@ -1,0 +1,2 @@
+2,"SELECT *   FROM (                 SELECT  ra,                          dec,                    objid,                   distance,                         ROW_NUMBER() OVER(PARTITION BY ra ORDER BY distance DESC) rn                     FROM NN               ) a WHERE rn = #"
+2019-01-09 15:46:00,2

@@ -1,0 +1,2 @@
+1,"select p.objid, p.ra, p.dec, p.r, p.z from photoobj p, dbo.fgetNearByObjEq(#,#,#) n where p.objid=n.objid and (p.r BETWEEN # AND #) or (p.z BETWEEN # AND #)"
+2019-01-08 11:55:00,1

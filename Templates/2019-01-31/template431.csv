@@ -1,0 +1,2 @@
+1,"SELECT TOP #   g.objID, s.ra, s.dec, s.z as redshift, s.class, s.subclass, str(g.rerun), g.run, g.camcol, g.field, g.colc, g.rowc    from PhotoObj AS g   JOIN SpecObj AS s ON s.fluxObjID = g.objID WHERE    g.ObjID!=#"
+2019-01-31 10:15:00,1

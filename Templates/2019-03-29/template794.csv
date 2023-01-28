@@ -1,0 +1,2 @@
+1,"SELECT n.mstellar_median >= #.   n.specObjID, n.ra as ra, n.dec as dec, n.z as z_spec, n.mstellar_median as mstar_med, n.mstellar_err as mstar_err,   n.vdisp_median as vdisp, n.vdisp_err as vdisp_err into mydb.MyTable_allGalaxy_mstar from  stellarMassPCAWiscM1# as n"
+2019-03-29 03:06:00,1

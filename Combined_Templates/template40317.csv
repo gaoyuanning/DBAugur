@@ -1,0 +1,2 @@
+1,"select B.specObjID, A.plateid, A.mjd, A.fiberid INTO MYDB.Rosi_nstb FROM MYDB.Rosi_lista_nstb as A JOIN galSpecInfo as B on A.plateid = B.plateid and A.mjd = B.mjd and A.fiberid = B.fiberid"
+2019-05-17 07:24:00,1

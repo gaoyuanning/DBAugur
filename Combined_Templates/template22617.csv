@@ -1,0 +1,2 @@
+1,"SELECT specObjID, bestObjID FROM (SELECT specObjID, bestObjID, z as rownum FROM SpecObj WHERE class = # AND zWarning = # AND z BETWEEN # AND # AND (survey = # or survey = #) AND bestObjID < > #) as t where t.rownum % # = #"
+2019-03-22 12:16:00,1

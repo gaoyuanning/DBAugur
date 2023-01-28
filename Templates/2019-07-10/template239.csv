@@ -1,0 +1,2 @@
+1,"SELECT   specObjID, sourceType, targetType, psfFlux, fiberFlux, spectroFlux FROM specObj JOIN photoObj WHERE   plateID = #    AND class = &&&"
+2019-07-10 16:10:00,1

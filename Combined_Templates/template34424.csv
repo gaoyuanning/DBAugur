@@ -1,0 +1,2 @@
+1,"SELECT g.ra, g.dec, s.z, g.r, g.i, g.g, g.PetroR5#_r FROM Galaxy AS g, SpecObj AS s WHERE s.z BETWEEN #*#/#e5 AND #e4/#e5 AND g.ra BETWEEN # AND # AND g.dec BETWEEN # AND # AND s.bestObjID = g.objID"
+2019-04-25 19:09:00,1

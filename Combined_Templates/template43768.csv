@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, u, g, r, i, z, err_u, err_g, err_r, err_i, err_z into mydb.MyTable from Star WHERE (i > #) and (i < #) and (type = #) and (ra < #)"
+2019-06-03 03:07:00,1

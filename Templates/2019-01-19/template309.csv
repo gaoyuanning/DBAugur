@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid,p.run, p.rerun, p.camcol, p.field,s.objid,  p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  p.Err_u,p.Err_g,p.Err_r,p.Err_i,p.Err_z FROM PhotoObj AS p  JOIN SpecObj AS s ON s.objid = p.objid WHERE   p.ra BETWEEN # AND #  AND dec BETWEEN # AND #"
+2019-01-19 02:22:00,1

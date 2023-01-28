@@ -1,0 +1,2 @@
+1,"select ra, dec, survey from plateX into mydb.segue2centers where survey = =#"
+2019-09-23 15:58:00,1

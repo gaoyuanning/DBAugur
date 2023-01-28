@@ -1,0 +1,2 @@
+1,"SELECT gse.lgm_tot_p5#, gse.lgm_tot_p8# FROM galSpecExtra AS gse JOIN SpecObjAll AS s ON s.specObjID = gse.specObjID WHERE s.run = # AND s.rerun = # AND s.camcol = # AND s.field = # AND s.obj = #"
+2019-09-30 15:12:00,1

@@ -1,0 +1,2 @@
+1,"select  subclass ,count(subclass) from SpecObjAll where class=&&& group by subclass  order by # desc"
+2019-04-17 12:39:00,1

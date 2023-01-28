@@ -1,0 +1,2 @@
+1,"SELECT 	    G.dr7objid,G.dr8objid,G.ra,G.dec  From PhotoObjDR7 as G   JOIN MYDB.MyTable N on G.dr8objid = N.dr8objid"
+2019-09-12 12:40:00,1

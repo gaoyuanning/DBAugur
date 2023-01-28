@@ -1,0 +1,2 @@
+1,"SELECT Top # f.sigPix_r,f.sky_r,f.skySig_r from Field as f where f.run=#"
+2019-01-21 19:42:00,1

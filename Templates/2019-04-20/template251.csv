@@ -1,0 +1,2 @@
+1,"select cs.*,cp.attr_id, cp.attr_value   from cancer_study cs    inner join patient p      on p.cancer_study_id=cs.cancer_study_id    inner join clinical_patient cp      on cp.internal_id=p.internal_id     and cp.attr_id =&&&  where cs.cancer_study_identifier=&&&"
+2019-04-20 17:21:00,1

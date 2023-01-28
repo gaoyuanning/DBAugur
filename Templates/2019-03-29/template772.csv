@@ -1,0 +1,2 @@
+1,"select count(*) ra, dec, modelMag_g from  PhotoTag where fPhotoType=star"
+2019-03-29 03:46:00,1

@@ -1,0 +1,2 @@
+1,SELECT * into mydb.MyTable from MyDB.spectralTestData2# UNION SELECT * FROM MyDB.spectralTrainData2#
+2019-01-23 15:42:00,1

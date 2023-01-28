@@ -1,0 +1,3 @@
+3,"SELECT specObjID, -- get the spectroscopic object id z, zConf, -- redshift, redshift confidence SpecClass -- and spectral classification FROM SpecObj -- from the spectroscopic objects WHERE -- use a function to translate SpecClass bits to names; want quasars (SpecClass = dbo.fSpecClass (#) or SpecClass = dbo.fSpecClass (#) ) -- and the redshift is # to #. Remember, z is redshift in SpecObj. and z between # and # -- and we have a high confidence redshift estimate. and zConf > #"
+2019-05-27 01:06:00,1
+2019-05-27 01:07:00,2

@@ -1,0 +1,2 @@
+3,"select distinct photo.ra, photo.dec, photo.run, photo.rerun, photo.camcol, photo.field into mydb.my_bAR from MyTable AS my, PhotoObjAll As photo where Photo.objid = my.id"
+2019-09-02 02:33:00,3

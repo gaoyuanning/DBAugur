@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.run,p.rerun,p.camCol,p.field,p.obj,p.ra,p.[dec],p.r, &&& as filter FROM  TARGDR1.dbo.fGetNearbyObjEq(#,#,#) as b,  TARGDR1..PhotoObj as p WHERE b.objID = p.objID AND ( p.type = # OR p.type = #) AND (p.flags & (dbo.fPhotoFlags(&&&)) = #) AND (p.flags & (dbo.fPhotoFlags(&&&)) > #)"
+2019-08-27 03:15:00,1

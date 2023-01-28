@@ -1,0 +1,2 @@
+1,"select survey, min (snMedian) as min, max (snMedian) as max, count (*) from specobjall where zwarning = # and class = # group by survey"
+2019-03-20 21:59:00,1

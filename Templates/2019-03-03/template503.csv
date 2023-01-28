@@ -1,0 +1,6 @@
+5,"SELECT p.ObjID, p.ra, p.dec, q.raErr , q.decErr , q.raDecCorr , p.u , p.g , p.r , p.i , p.z , p.Err_u , p.Err_g , p.Err_r , p.Err_i , p.Err_z INTO tbl_# FROM photoObj p INNER JOIN dbo.fGetNearbyObjEq(#,#,#) n ON p.objID = n.objID INNER JOIN PhotoAuxAll q ON p.objid = q.objid"
+2019-03-03 09:31:00,1
+2019-03-03 10:52:00,1
+2019-03-03 11:15:00,1
+2019-03-03 11:56:00,1
+2019-03-03 12:25:00,1

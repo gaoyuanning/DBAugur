@@ -1,0 +1,2 @@
+1,"SELECT p.objid, sp.specobjid into mydb.dr1#_Ports_rainbowpeas_sample FROM SpecPhoto as sp JOIN PhotoObj as p ON sp.objid = p.objid JOIN emissionLinesPort as em on sp.specobjid = em.specobjid WHERE em.EW_Hb_# > #"
+2019-10-02 16:01:00,1

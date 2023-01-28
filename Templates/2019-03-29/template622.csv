@@ -1,0 +1,2 @@
+1,"SELECT   f.column1, f.column2,   f.plate, f.mjd, f.fiberid,   f.specobjid,f.bestobjid,   s.teffadop, s.fehadop, s.loggadop    from myDB.flaretable_crosscheck_sdss_specobj as f JOIN sppParams as s ON f.specobjid = s.specobjid"
+2019-03-29 11:45:00,1

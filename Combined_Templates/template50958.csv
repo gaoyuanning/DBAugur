@@ -1,0 +1,2 @@
+1,"SELECT s.specObjID, s.sourceType, s.targetType, s.class, p.fiberFlux_u, p.fiberFlux_g, p.fiberFlux_r, p.fiberFlux_i, p.fiberFlux_z, s.spectroFlux_u, s.spectroFlux_g, s.spectroFlux_r, s.spectroFlux_i, s.spectroFlux_z FROM photoObj p JOIN specObj s ON s.bestObjID = p.objID WHERE plateID = # AND class = #"
+2019-07-10 16:23:00,1

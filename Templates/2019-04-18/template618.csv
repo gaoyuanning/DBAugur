@@ -1,0 +1,2 @@
+2,"SELECT  cast(str(s.ra,#,#) as float) as ra,  s.dec, s.z, s.zErr,  p.modelMag_g, p.modelMag_r, p.objID  into mydb.gsp_dr1# FROM ..SpecObj as s  JOIN ..PhotoObj AS p ON s.bestObjID = p.objID  WHERE  s.zWarning = # AND (s.class = &&&) AND ( s.z>#)"
+2019-04-18 03:10:00,2

@@ -1,0 +1,2 @@
+1,"SELECT   p.dr7objid, p.dr8objid, p.type,   p.ra, p.raErr, p.dec, p.decErr,   pz.objID, pz.z as photoz, pz.absMagG INTO mydb.GALAXY_RED3 FROM photoObjRD7 as p   JOIN photoz as pz  WHERE    (primtarget & dbo.fPrimTarget(&&&) > #)"
+2019-12-11 00:55:00,1

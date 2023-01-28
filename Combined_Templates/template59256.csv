@@ -1,0 +1,2 @@
+1,"SELECT z, zErr into mydb.MyTable_# from DR1#.PhotoZ where z ! = # and zErr ! = #"
+2019-08-26 10:38:00,1

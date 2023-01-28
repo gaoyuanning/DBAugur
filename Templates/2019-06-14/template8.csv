@@ -1,0 +1,3 @@
+2,"select top # ObjID, z from SpecPhoto where (ABS(ra #)< # ) and (ABS(dec #)< # ) and (ABS(z #)< #)"
+2019-06-14 23:56:00,1
+2019-06-14 23:57:00,1

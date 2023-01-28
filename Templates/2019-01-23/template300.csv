@@ -1,0 +1,3 @@
+3,"SELECT objID, SpecObj.z FROM Star  INNER JOIN SpecObj ON Star.objID = SpecObj.bestObjID"
+2019-01-23 13:08:00,2
+2019-01-23 13:10:00,1

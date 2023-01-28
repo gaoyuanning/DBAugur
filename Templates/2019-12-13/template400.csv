@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra,dec,BESTOBJID from SpecObj   where specClass=&&& and z<#"
+2019-12-13 10:42:00,1

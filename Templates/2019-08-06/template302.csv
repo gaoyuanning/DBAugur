@@ -1,0 +1,2 @@
+1,"SELECT TOP #   m.OBJID AS akari_ID,      o.z AS redshift,      n.distance into mydb.MyTable1 from MyDB.akari_subset AS m     CROSS APPLY dbo.fGetNearestObjEq( m.RA, m.DEC, #) AS n     JOIN SpecPhoto AS o ON n.objid = o.specObjID"
+2019-08-06 11:24:00,1

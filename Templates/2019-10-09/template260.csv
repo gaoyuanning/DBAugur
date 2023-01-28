@@ -1,0 +1,2 @@
+1,"SELECT TOP #  cast(str(p.ra,#,#) as float) as ra,cast(str(p.[dec],#,#) as float) as dec,p.modelMag_r  FROM ..Star AS p  JOIN dbo.fGetObjFromRect(#,#,#,#) AS b ON p.objID = b.objID"
+2019-10-09 16:13:00,1

@@ -1,0 +1,2 @@
+1,"SELECT p.objid,p.clean,s.survey,s.programname,s.sourceType,s.zWarning,s.instrument,s.BOSS_TARGET1,s.EBOSS_TARGET0,s.EBOSS_TARGET1,s.EBOSS_TARGET2 into mydb.Nsdssdr1#specflags2 FROM SpecObj as s, PhotoObj as p WHERE s.bestObjID = p.objID AND (s.class=&&& or s.class=&&& or s.class=&&&)"
+2019-11-28 08:08:00,1

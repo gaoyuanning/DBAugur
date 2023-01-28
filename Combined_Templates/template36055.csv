@@ -1,0 +1,2 @@
+1,"select p.objid, p.z, p.ra from DR8.photoObj p into mydb.check_yuanbo where p.ObjId = #"
+2019-05-01 10:54:00,1

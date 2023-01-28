@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objID, s.specObjID, p.ra, p.dec, p.ugriz into mydb.MyTable_# from PhotoObjAll AS p JOIN SpecObjAll AS s ON s.bestObjID = p.objID"
+2019-03-26 17:51:00,1

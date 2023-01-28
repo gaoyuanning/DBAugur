@@ -1,0 +1,2 @@
+1,"select c.*, d.CXO as CXO_, d.nh_powlaw, d.nh_powlaw_lolim, d.nh_powlaw_hilim, d.nh_bb, d.nh_bb_lolim, d.nh_bb_hilim from mydb.xmm_chandra_masers_adj2 as c Left Join Chandra_maser_Nh as d on c.num = d.num into mydb.Chandra_XMM_maser_all_Nh order by num"
+2019-07-15 12:25:00,1

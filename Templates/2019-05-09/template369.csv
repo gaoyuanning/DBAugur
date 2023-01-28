@@ -1,0 +1,3 @@
+2,"SELECT   p.ra,p.dec, s.z as redshift, s.zwarning, g.h_alpha_flux, g.oii_#_flux,  g.oii_#_flux, g.oiii_#_flux, g.oiii_#_flux, g.oiii_#_eqw, g.oii_#_eqw FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid  JOIN GalSpecLine AS g ON s.specobjid = g.specobjid  WHERE  p.ra BETWEEN # AND #  AND p.dec BETWEEn # AND #"
+2019-05-09 06:44:00,1
+2019-05-09 10:42:00,1

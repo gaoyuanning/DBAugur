@@ -1,0 +1,2 @@
+1,"select a.gal_id, a.ra, a.dec, a.z, b.group_id, d.gal_id as cent_id from mydb.sdss7 as a join mydb.ipetroA_# as b on b.gal_id = a.gal_id join mydb.petroA_group as c on c.group_id = b.group_id join mydb.index_central as d on d.group_id = b.group_id where b.flag_massive ! = # and c.f_edge > # into mydb.index_satellite order by a.gal_id"
+2019-12-20 02:25:00,1

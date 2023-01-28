@@ -1,0 +1,12 @@
+12,"SELECT # as &&&,     sum( case when (Type=#) then # else # end) as &&&,     sum( case when (Type=#) then # else # end) as &&&,     sum( case when (Type not in (#,#)) then # else # end) as &&& FROM PhotoPrimary  WHERE (ra between # and #) and (dec between # and #)"
+2019-04-04 09:03:00,1
+2019-04-04 09:04:00,1
+2019-04-04 09:11:00,1
+2019-04-04 09:13:00,1
+2019-04-04 09:27:00,1
+2019-04-04 09:50:00,1
+2019-04-04 09:52:00,1
+2019-04-04 10:23:00,1
+2019-04-04 10:43:00,2
+2019-04-04 10:50:00,1
+2019-04-04 15:13:00,1

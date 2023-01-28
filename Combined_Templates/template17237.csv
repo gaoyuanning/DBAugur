@@ -1,0 +1,2 @@
+1,"SELECT COUNT (*) specObjID, objID into mydb.MyTable_# from dr7.SpecPhotoAll"
+2019-03-04 01:17:00,1

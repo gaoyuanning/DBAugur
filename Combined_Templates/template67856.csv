@@ -1,0 +1,2 @@
+1,"CREATE TABLE Census ([ID] [numeric] (#, #) CONSTRAINT [PK_{shape_name}] PRIMARY KEY, [Geog] [geography] NOT #)"
+2019-10-05 18:15:00,1

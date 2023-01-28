@@ -1,0 +1,2 @@
+1,"select sp.specObjID, sp.MJD, sp.TEFFADOP, sp.LOGGADOP, sp.FEHADOP, sp.SNR, sp.ELODIERVFINAL, sp.ELODIERVFINALERR from DR1#.sppParams as sp join (select specObjID from DR1#.SpecObjAll where sourceType like #) as so on sp.specObjID = so.specObjID"
+2019-09-29 02:55:00,1

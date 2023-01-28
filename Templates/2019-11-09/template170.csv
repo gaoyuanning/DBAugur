@@ -1,0 +1,2 @@
+1,"select snMedian_g, snMedian_u, sn_Median from SpecObjAll   where plate=# and mjd=# and fiberid = #"
+2019-11-09 15:42:00,1

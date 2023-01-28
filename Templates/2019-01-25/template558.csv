@@ -1,0 +1,3 @@
+2,"SELECT ALL ROW_NUMBER() OVER (ORDER BY ra ASC) as RowNumber, u,dered_u, g,dered_g, r,dered_r, i,dered_i, z,dered_z, ra,dec, deVRad_u, deVRad_g, deVRad_r, deVRad_i, deVRad_z, flags_r, petroR9#_r, petroR5#_r FROM Galaxy WHERE ra BETWEEN # and #"
+2019-01-25 00:16:00,1
+2019-01-25 01:48:00,1

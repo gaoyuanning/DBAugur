@@ -1,0 +1,3 @@
+2,"SELECT objID, ra, dec, u, g, r, i, z, flags_r, flags_g, flags_i, clean into ralt1# FROM Star WHERE ra BETWEEN # and # AND ( (flags_r & #) ! = #) AND ( (flags_g & #) ! = #) AND ( (flags_i & #) ! = #) AND ( (flags_r & #) = #) AND ( (flags_g & #) = #) AND ( (flags_i & #) = #) AND ( ((flags_r & #) = #) or (psfmagerr_r < = #) ) AND ( ((flags_g & #) = #) or (psfmagerr_g < = #) ) AND ( ((flags_i & #) = #) or (psfmagerr_i < = #) ) AND ( ((flags_r & #) = #) or (flags_r & #) = #) AND ( ((flags_g & #) = #) or (flags_g & #) = #) AND ( ((flags_i & #) = #) or (flags_i & #) = #) AND g-r < # AND g-i between # and # AND i between # and # AND clean = #"
+2019-05-12 05:31:00,1
+2019-05-12 05:32:00,1

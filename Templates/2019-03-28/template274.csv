@@ -1,0 +1,2 @@
+1,"select top # sl.specObjId, sl.lineID, objid,z from SpecPhoto where (specclass=# or specclass=#) and zconf > .# and z < .# FROM SpecLine AS sl JOIN (SELECT specObjID, lineID) from Specline WHERE lineID in #"
+2019-03-28 18:13:00,1

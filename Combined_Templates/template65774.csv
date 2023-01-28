@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.run, p.rerun, p.camcol, p.field, s.specobjid, s.class, s.z as redshift, s.plate, s.mjd, s.fiberid FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.u BETWEEN # AND # AND g BETWEEN # AND # SELECT ra, dec, psfMag_r , extinction_r, psfMagErr_r FROM star WHERE (ra between # and #) and (dec between # and #) AND (CLEAN = #)"
+2019-09-26 16:02:00,1

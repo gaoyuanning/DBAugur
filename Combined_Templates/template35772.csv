@@ -1,0 +1,3 @@
+2,"select p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z FROM PhotoPrimary AS p WHERE type = # AND p.objid = #"
+2019-04-30 09:06:00,1
+2019-04-30 09:07:00,1

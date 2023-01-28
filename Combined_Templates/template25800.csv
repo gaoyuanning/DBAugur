@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.ra, p.dec, p.type, p.flags, p.insideMask, z.z, z.zErr, z.chiSq, z.nnIsInside, z.pztype, z.dmod, z.kcorr u, z.kcorr g, z.kcorr r, z.kcorr i, z.kcorr z, z.absMag u, z.absMag g, z.absMag r, z.absMag i, z.absMag z, FROM PhotoPrimary AS p LEFT OUTER JOIN photoz AS z ON p.objID = z.objID WHERE ( (p.dered g < #) OR (p.dered r < #) OR (p.dered i < #) )"
+2019-03-29 21:52:00,1

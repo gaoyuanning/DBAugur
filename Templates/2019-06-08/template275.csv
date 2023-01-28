@@ -1,0 +1,2 @@
+2,"SELECT s.SpecObjID, s.z, p.dered_r, p.dered_v, p.dered_u, L.ew, L.sigma, L.sigmaErr, K.ew, K.sigma, K.sigmaErr  from SpecObj as s, SpecLine as L, SpecLine as K, SpecPhotoAll as p WHERE    (L.LineID = #)    and (K.LineID = #)    and s.SpecObjID = L.specObjID    and L.specObjID = K.specObjID   and s.SpecObjID = p.specObjID      and p.psfMag_r/p.psfMagErr_r>#   and L.ew/nullif(L.ewErr,#)>#   and K.ew/nullif(K.ewErr,#)>#      and s.z>#   and s.objType = #   and p.type = #    order by s.SpecObjID"
+2019-06-08 06:30:00,2

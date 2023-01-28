@@ -1,0 +1,2 @@
+1,"select top # distinct p.run, p.rerun, p.camcol, p.field from PhotoObj p where (p.ra between # and #) and (p.dec between # and #)"
+2019-06-11 03:34:00,1

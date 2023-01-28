@@ -1,0 +1,2 @@
+2,"SELECT o.objid, s.specobjid, s.plate, s.mjd, s.fiberid, s.ra AS ALPHA_J2#_SDSS, s.dec AS DELTA_J2#_SDSS, n.type, n.distance, o.nchild, j.* FROM MyDB.minijpas AS j INTO MyDB.minisdss_all   CROSS APPLY dbo.fGetNearestObjEq(j.ALPHA_J2#, j.DELTA_J2#, #) AS n    JOIN PhotoObjAll AS o ON (n.objid=o.objid)   JOIN SpecPhotoAll AS s ON (n.objid=s.objid)"
+2019-09-27 07:52:00,2

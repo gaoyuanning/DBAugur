@@ -1,0 +1,2 @@
+1,"SELECT u.up_index as [index],     &&& + cast(x.objId as varchar(#)) + &&&+ cast(x.objId as varchar(#)) + &&& as objID, p.ra, p.dec, p.run, p.rerun, p.camcol, p.field,    dbo.fPhotoTypeN(p.type) as type,    p.isoA_r FROM #upload u       JOIN #x x ON x.up_id = u.up_id       JOIN PhotoTag p ON p.objID = x.objID ORDER by x.up_id"
+2019-09-06 13:23:00,1

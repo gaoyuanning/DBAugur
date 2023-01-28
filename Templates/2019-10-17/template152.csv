@@ -1,0 +1,2 @@
+2,"SELECT specsfr_tot_p5#, specObjID    FROM galSpecExtra, galaxy    WHERE specObjID = #"
+2019-10-17 17:29:00,2

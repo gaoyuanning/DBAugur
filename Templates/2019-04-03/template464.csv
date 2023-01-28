@@ -1,0 +1,2 @@
+2,"SELECT a.name as Artist, b.*   FROM chinook_Album b   JOIN chinook_Artist a     ON a.ArtistId=b.ArtistId"
+2019-04-03 13:25:00,2

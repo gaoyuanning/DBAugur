@@ -1,0 +1,2 @@
+1,"select p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z into mydb.MyTable from fGetObjFromRect (#, #, #, #) n, photoobj p where (p.g BETWEEN # AND #) and p.u-p.g > # and (p.g-p.r BETWEEN # AND #) and n.objid = p.objid"
+2019-06-28 12:55:00,1

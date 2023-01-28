@@ -1,0 +1,2 @@
+1,"SELECT   g.ra,   g.dec,   g.petroMag_r,   g.modelMag_g,   g.modelMag_r,   g.petroR5#_r,   g.extinction_r,   g.extinction_g,   g.specObjID into mydb.MyTable_# from PhotoObjAll as g   WHERE (g.ra > # and g.ra < #) and (g.dec > # and g.dec < #)   AND g.petroMag_r < #   AND g.clean = #"
+2019-04-28 17:32:00,1

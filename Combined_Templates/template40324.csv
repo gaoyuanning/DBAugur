@@ -1,0 +1,2 @@
+1,"SELECT p.objID, sp.plate, sp.mjd, sp.fiberid into mydb.Sabater_SDSS_objID3 from SpecObjAll sp JOIN MyDB.Sabater_SDSS sa ON sa.plate = sp.plate AND sa.mjd = sp.mjd AND sa.fiberid = sp.fiberid JOIN SpecPhotoAll p ON sp.bestObjID = p.objID"
+2019-05-17 05:37:00,1

@@ -1,0 +1,2 @@
+1,"select mjd, plate, fiberid, z, subclass, ra, dec from specobjall where class = # and (subclass = # or subclass = #) and snmedian > #"
+2019-10-07 06:58:00,1

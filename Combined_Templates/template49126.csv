@@ -1,0 +1,3 @@
+2,"SELECT top # ra, dec, l, b, clean, psfmag_u, psfmagerr_u, extinction_u, psfmag_g, psfmagerr_g, extinction_g, psfmag_r, psfmagerr_r, extinction_r, psfmag_i, psfmagerr_i, extinction_i, psfmag_z, psfmagerr_z, extinction_z FROM PhotoPrimary as p INTO mydb.g1#l1# where type = # AND b > # and ra < = # AND psfmagerr_r < # AND psfmag_g > # and psfmag_g < = #"
+2019-06-29 00:00:00,1
+2019-07-08 01:17:00,1

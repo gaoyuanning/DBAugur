@@ -1,0 +1,5 @@
+4,"SELECT TOP #  star.apstar_id, star.ra as star_ra, star.dec as star_dec FROM apogeeStar AS star where star.ra > # and star.ra < # AND  star.dec > # and star.dec < #"
+2019-03-29 13:29:00,1
+2019-03-29 13:31:00,1
+2019-03-29 14:01:00,1
+2019-03-29 14:03:00,1

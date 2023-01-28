@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.plate, s.mjd, s.fiberid, s, s.ra, s.dec, s.u, s.g, s.r, s.i, s.z into mydb.MyTable_# from ..SpecObj as s JOIN dbo.fGetObjFromRect (#, #, #, #) AS b ON s.bestobjid = b.objID WHERE s.zWarning = #"
+2019-12-08 14:28:00,1

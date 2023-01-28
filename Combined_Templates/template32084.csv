@@ -1,0 +1,2 @@
+1,"select Name from chinook.Artist, SUBSTRING (Name, #, #) AS Initial"
+2019-04-20 15:18:00,1

@@ -1,0 +1,2 @@
+1,"select objID, specObjID, ra, dec, run, rerun, field, camcol, z, zErr, sciencePrimary into mydb.spec_dr1#_final from dbo.specPhotoAll where class=&&& and objID is not null"
+2019-02-18 06:04:00,1

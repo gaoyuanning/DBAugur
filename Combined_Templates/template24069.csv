@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, specObjID, ra, dec, redshift FROM specObjAll WHERE SpeczWarning ! = NO_SPEC"
+2019-03-26 18:03:00,1

@@ -1,0 +1,2 @@
+1,"select s.ra, s.dec, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, s.z, xcr.z, xcr.tempNo from PhotoObj p, SpecObj s, XCRedshift xcr where s.bestObjID = p.objID AND s.bestObjID = xcr.specObjID AND s.z> # AND s.SpecClass = #"
+2019-09-13 15:46:00,1

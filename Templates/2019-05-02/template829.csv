@@ -1,0 +1,3 @@
+2,"SELECT top #     p.ra,p.dec,p.type into mydb.MyTable1 from photoobj AS p   JOIN mydb.stripe1 AS s ON        ((s.ra-s.dec)^#+(s.dec-p.dec)^#)^(#/#)<#/#"
+2019-05-02 05:23:00,1
+2019-05-02 05:24:00,1

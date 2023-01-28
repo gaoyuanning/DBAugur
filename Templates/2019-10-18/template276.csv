@@ -1,0 +1,3 @@
+2,select count(*) into MyDB.MyTable4 from GAEA.MR
+2019-10-18 10:27:00,1
+2019-10-18 10:36:00,1

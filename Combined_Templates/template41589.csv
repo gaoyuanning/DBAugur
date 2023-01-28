@@ -1,0 +1,2 @@
+1,"SELECT b.ra, b.dec, sp.teffadop, sp.fehadop, sp.loggadop, sp.snr, sp.flag, so.psfMag_u, so.psfMag_g, so.psfMag_r, so.psfMag_i, so.psfMag_z, so.subclass into mydb.cross_param_pho from mydb.MyTable as b CROSS APPLY dbo.fGetNearestObjEq (b.ra, b.dec, #) as c join DR1#.specphotoall as so on so.ObjID = c.objid JOIN sppparams sp ON so.specobjid = sp.specobjid and so.sciencePrimary = #"
+2019-05-24 05:01:00,1

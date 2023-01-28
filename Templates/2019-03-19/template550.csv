@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.ra,p.dec,p.run,p.rerun,p.camCol,p.field,p.obj, &&& as filter FROM  #x x, #upload u,  TARGDR2..Galaxy as p WHERE  u.up_id = x.up_id AND x.objID=p.objID ORDER BY x.up_id"
+2019-03-19 02:15:00,1

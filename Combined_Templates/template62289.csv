@@ -1,0 +1,4 @@
+3,"SELECT s.apogee_id, a.m_h, a.alpha_m, dbo.fApogeeAspcapFlagN (a.aspcapflag) , dbo.fApogeeStarFlagN (s.starflag) FROM apogeeStar s JOIN aspcapStar a on a.apstar_id = s.apstar_id WHERE (a.aspcapflag & dbo.fApogeeAspcapFlag (#) ) = #"
+2019-09-11 21:12:00,1
+2019-09-11 21:14:00,1
+2019-09-11 21:21:00,1

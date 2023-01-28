@@ -1,0 +1,2 @@
+1,SELECT MAX (PhotoObj.z) AS SmallestPrice
+2019-09-26 21:00:00,1

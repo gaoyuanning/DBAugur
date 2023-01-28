@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec, modelMag_g, modelMagErr_g, modelMag_r, modelMagErr_r, modelMag_i, modelMagErr_i into mydb.MyTable_# from Galaxy WHERE ra BETWEEN # AND # AND dec BETWEEN # AND #"
+2019-06-19 02:45:00,1

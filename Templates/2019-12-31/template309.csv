@@ -1,0 +1,2 @@
+2,"SELECT m.ra, m.dec  into mydb.x   from MyDB.MyTable as m   JOIN dbo.fGetNearestObjEq(m.RA, m.dec, #)"
+2019-12-31 01:26:00,2

@@ -1,0 +1,4 @@
+24,"SELECT ra,dec,u,err_u,g,err_g,r,err_r,i,err_i,z,err_z FROM Star WHERE ra BETWEEN # AND # AND dec BETWEEN # and # AND g<#"
+2019-10-17 07:40:00,3
+2019-10-17 07:41:00,9
+2019-10-17 07:44:00,12

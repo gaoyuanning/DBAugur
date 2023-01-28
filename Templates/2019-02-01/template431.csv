@@ -1,0 +1,5 @@
+4,"create table Parameters  ( hash bigint not null primary key , algo varchar(#) not null , qmin float not null , qmax float not null , day tinyint not null , pmt varchar(max) not null )"
+2019-02-01 08:20:00,1
+2019-02-01 08:23:00,1
+2019-02-01 08:55:00,1
+2019-02-01 09:15:00,1

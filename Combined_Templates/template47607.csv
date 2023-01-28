@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.dr7objid, p.dr8objid, s.specObjID, s.z FROM PhotoObjDR7 p JOIN SpecDR7 f ON f.dr7objid = p.dr7objid JOIN SpecObjAll s ON s.specObjID = f.specObjID WHERE p.type < # -- r IS NOT deredenned and p.type > # and z> # and z< #-- extinction more than #"
+2019-06-23 16:05:00,1

@@ -1,0 +1,4 @@
+3,"SELECT g.specObjID, g.ra, g.dec, g.spectrotype FROM galSpecInfo AS g ORDER BY g.ra"
+2019-11-02 10:14:00,1
+2019-11-02 10:16:00,1
+2019-11-02 10:17:00,1

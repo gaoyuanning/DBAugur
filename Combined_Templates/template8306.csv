@@ -1,0 +1,2 @@
+1,"SELECT ph.objID, ph.ra, ph.dec, ph.mjd, ph.u, ph.err_u, ph.PSFMag_u, ph.PSFMagErr_u, ph.g, ph.err_g, ph.r, ph.err_r, ph.i, ph.err_i, ph.z, ph.err_z Into MYDB.result_#test From PhotoObjAll ph, MYDB.mytable_SDSSobjID db Where db.objID = ph.objID"
+2019-02-05 14:44:00,1

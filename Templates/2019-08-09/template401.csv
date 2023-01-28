@@ -1,0 +1,2 @@
+3,"SELECT TOP #   gsi.z AS lines_redshift,   spa.z AS spec_redshift into mydb.group_test   from galSpecInfo as gsi   and SpecPhotoAll as spa    where gsi.specObjId = spa.specObjId"
+2019-08-09 09:29:00,3

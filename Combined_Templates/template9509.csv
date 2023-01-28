@@ -1,0 +1,2 @@
+1,"SELECT ObjID, modelMag_r, petroRad_r FROM photoprimary + extended object WHERE ra > = # and ra < = # AND DEC > = # and DEC < = #"
+2019-02-11 19:28:00,1

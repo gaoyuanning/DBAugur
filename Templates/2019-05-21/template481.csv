@@ -1,0 +1,2 @@
+1,"select a.plateifu, a.daptype, a.objra, a.objdec, a.ifura, a.ifudec, r.nsa_field, r.nsa_run, r.nsa_camcol, r.nsa_sersic_mass, r.nsa_sersic_th5#, f.photometric_mass   into mydb.mga_cat2 from mangaDAPall a left join mangaDRPall r  mangaFirefly f on (a.plateifu = r.plateifu and a.plateifu =f.plateifu)"
+2019-05-21 05:20:00,1

@@ -1,0 +1,2 @@
+1,"select count(pz.objID)  from photoz2 pz, photoTag p  where p.objID=pz.objID AND pz.flag=# AND p.petroMag_r <#"
+2019-09-13 16:06:00,1

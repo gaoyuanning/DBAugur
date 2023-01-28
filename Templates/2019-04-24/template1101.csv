@@ -1,0 +1,2 @@
+1,"select top # x,y,c=sin(y+x) from data where y<#   and cos(x)-y*y<# order bv x"
+2019-04-24 12:38:00,1

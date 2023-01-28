@@ -1,0 +1,2 @@
+1,"select a.eid,a.Diagnoses_main_ICD1#_#,c.value,c.meaning  from r2#.summary_information_diagnoses_  a     cross apply openjson(Diagnoses_main_ICD1#_#) j join metadata.encoding c on c.encoding_id=a.encoding_id AND c.value=j.value"
+2019-09-24 14:43:00,1

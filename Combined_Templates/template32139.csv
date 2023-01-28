@@ -1,0 +1,2 @@
+1,"CREATE TABLE ISO_Lndev_OUT (ra_iso float not #, dec_iso float not #, objID bigint not #, ra float not #, dec float not #, lnLDeV_u real not #, lnLDeV_g real not #, lnLDeV_r real not #, lnLDeV_i real not #, lnLDeV_z real not #, lnLExp_u real not #, lnLExp_g real not #, lnLExp_r real not #, lnLExp_i real not #, lnLExp_z real not #) ;"
+2019-04-20 12:22:00,1

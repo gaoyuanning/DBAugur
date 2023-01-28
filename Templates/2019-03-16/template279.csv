@@ -1,0 +1,2 @@
+1,"select   ra,dec into mydb.MyTable from Galaxy where   ra between # and #    dec between # and #"
+2019-03-16 04:32:00,1

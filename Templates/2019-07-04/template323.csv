@@ -1,0 +1,3 @@
+3,SELECT COUNT(*) into Large_galaxy_sample_with_errors_nocuts_count FROM Galaxy JOIN wiseForcedTarget on Galaxy.objID= wiseForcedTarget.objID
+2019-07-04 10:51:00,2
+2019-07-04 10:53:00,1

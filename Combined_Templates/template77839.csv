@@ -1,0 +1,2 @@
+1,"select PhotoObj.ra, PhotoObj.dec, PhotoObj.u, PhotoObj.g, PhotoObj.r, PhotoObj.i, PhotoObj.z, PhotoObj.TAI_u, PhotoObj.TAI_g, PhotoObj.TAI_r, PhotoObj.TAI_i, PhotoObj.TAI_z from PhotoObj"
+2019-11-21 11:48:00,1

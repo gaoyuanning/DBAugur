@@ -1,0 +1,2 @@
+1,"select top # e.eid,e.Qualifications_#,c.encoding_id  from dbo.Education e            cross apply openjson(Qualifications_#) j                  join metadata.columns d on d.column_name =&&& join metadata.encoding c on c.encoding_id=d.encoding_id  where j.value is not NULL"
+2019-10-09 09:38:00,1

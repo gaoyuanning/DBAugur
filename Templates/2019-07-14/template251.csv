@@ -1,0 +1,2 @@
+1,"select a.plateifu, a.daptype, a.objra, a.objdec, a.ifura, a.ifudec, r.nsa_field, r.nsa_run, r.nsa_camcol, r.nsa_sersic_mass, r.nsa_sersic_th5#, f.photometric_mass   into mydb.mga_Tttttt from mangaFirefly f  on f.plateifu =&&&"
+2019-07-14 08:32:00,1

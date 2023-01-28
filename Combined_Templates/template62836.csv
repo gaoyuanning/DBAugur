@@ -1,0 +1,2 @@
+1,"select mt.objID, ph.petroMag_u, ph.petroMag_g, ph.petroMag_r, ph.petroMag_i, ph.petroMag_z into mydb.oit_tot_mag from myDB.oid_tot mt, photoObjAll ph where ph.objID = mt.objID"
+2019-09-13 17:58:00,1

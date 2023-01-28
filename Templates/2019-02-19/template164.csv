@@ -1,0 +1,2 @@
+1,"select survey, ra, dec, z, zErr, subclass, z_noqso, zErr_noqso into mydb.MyTable from specobjall where zWarning = #   and class = &&&   and survey in (&&&, &&&)"
+2019-02-19 17:36:00,1

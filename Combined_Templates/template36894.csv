@@ -1,0 +1,2 @@
+2,"SELECT spa.ra, spc.dec, spa.z, spa.petroMag_u, spa.petroMag_g, spa.petroMag_r , soa.velDisp, pa.petroMag_r into GU2#_hw5 From SpecPhotoAll as spa, PhotoObjAll as pa, SpecObjAll as soa Where spa.class = # and spa.z < # and spa.specObjID = pa.specObjID and spa.specObjID = soa.specObjID"
+2019-05-05 08:17:00,2

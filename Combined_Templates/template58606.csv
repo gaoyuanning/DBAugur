@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, z, p_el, p_cw, p_acw, p_edge, p_dk, p_mg FROM SpecObj, zooSpec WHERE ra > # and ra < # AND dec > +# and dec < +# And class = #"
+2019-08-21 10:35:00,1

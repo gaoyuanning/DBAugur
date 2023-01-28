@@ -1,0 +1,2 @@
+1,"SELECT objid, petroRad_u, petroRad_g, petroRad_r, petroRad_i, petroRad_z into mydb.MyTable_# from PhotoObjAll"
+2019-09-04 18:08:00,1

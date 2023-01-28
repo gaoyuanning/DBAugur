@@ -1,0 +1,2 @@
+1,"SELECT #  bestobjID, z as redshift FROM SpecObj ORDER BY RAND() LIMIT #,# WHERE z BETWEEN # AND #"
+2019-03-25 14:32:00,1

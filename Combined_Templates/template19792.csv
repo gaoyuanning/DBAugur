@@ -1,0 +1,4 @@
+3,"SELECT top # gal.u, gal.g, gal.r, gal.i, gal.z, gal.err_u, gal.err_g, gal.err_r, gal.err_i, gal.err_z, s.z as y into mydb.MyTable_# from galaxy gal JOIN specObj s on s.bestObjID = gal.objID WHERE s.class = # AND s.z BETWEEN # and #"
+2019-03-12 06:40:00,1
+2019-03-12 06:42:00,1
+2019-03-12 06:43:00,1

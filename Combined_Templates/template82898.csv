@@ -1,0 +1,2 @@
+1,"select AssetID = an.ID, an.Lat, an.Lon, Workers = SUM (c.VAL) from optw.ptheta.Portland1#Assets an join optw.ptheta.Portland1#Drive d on d.DestNodeID = an.NodeID join optw.ptheta.Portland1#Tracts tn on d.OrigNodeID = tn.NodeID join optw.tamass.VALS c on c.TRACTID = tn.ID join optw.tamass.VARIABLES v on v.ID = c.VARID where v.VINTAGE = # and Minutes < # -- get to work in this time by car and unit = # and binmin> =# and binmax< # and concept like # and label like # and label not like # group by an.ID, an.Lat, an.Lon order by Workers asc"
+2019-12-15 18:08:00,1

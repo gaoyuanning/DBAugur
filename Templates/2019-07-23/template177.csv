@@ -1,0 +1,2 @@
+1,"select top # G.ObjID,GN.distance from star JOIN dbo.fGetNearbyObjEq(#,#,#) AS GN"
+2019-07-23 16:47:00,1

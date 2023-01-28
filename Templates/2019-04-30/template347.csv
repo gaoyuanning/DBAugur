@@ -1,0 +1,3 @@
+2,"SELECT EID,[Prospective_memory_result_#],[Test_completion_status_#],[PM_initial_answer_#],[PM_final_answer_#],[Final_attempt_correct_#],[Number_of_attempts_#],[History_of_attempts_#],[Duration_screen_displayed_#],[Time_when_initial_screen_shown_#],[Time_to_answer_#],[Time_screen_exited_#] FROM Prospective_memory GO"
+2019-04-30 11:44:00,1
+2019-04-30 15:38:00,1

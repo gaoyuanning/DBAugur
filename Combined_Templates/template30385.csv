@@ -1,0 +1,5 @@
+4,"CREATE TABLE [r2#][Operations_#] (eid BIGINT NOT # , [Interpolated_Age_of_participant_when_operation_took_place_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Interpolated_Year_when_operation_took_place_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Method_of_recording_time_when_operation_occurred_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Number_of_operations_self_reported_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Operation_code_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Operation_year_age_first_occurred_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Pace_maker_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , PRIMARY KEY (eid) ) GO"
+2019-04-15 14:28:00,1
+2019-04-15 14:31:00,1
+2019-04-15 14:33:00,1
+2019-04-15 14:34:00,1

@@ -1,0 +1,2 @@
+1,"select p.run, p.camcol, p.field, count (s.z) as count, avg (s.z) as average from photoObj p, SpecObj s where s.bestobjid = p.objid and s.class = # and p.run = # and p.camcol = # and"
+2019-02-13 16:29:00,1

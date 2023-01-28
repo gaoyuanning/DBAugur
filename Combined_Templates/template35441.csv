@@ -1,0 +1,2 @@
+1,"SELECT TOP # plate, mjd, fiberID FROM dbo.SpecObj WHERE z BETWEEN # AND # AND instrument = #"
+2019-04-29 10:45:00,1

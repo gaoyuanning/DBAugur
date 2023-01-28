@@ -1,0 +1,2 @@
+1,"select S.bestObjID,p.u,p.g,p.r,p.i,p.z,s.z,x.plateid, from PhotoObj p, PlateX x, SpecObj s where p.objid=s.bestobjid and s.plateid=x.plateid and p.g between # and # and s.z < #"
+2019-02-13 16:05:00,1

@@ -1,0 +1,2 @@
+1,"select ID, wkt = geom.ToString () , dist = geom.STDistance (@center) from optw.tamass.TRACTS t where geom.MakeValid () .STDistance (@center) < # -- meters"
+2019-10-26 17:49:00,1

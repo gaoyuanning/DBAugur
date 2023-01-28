@@ -1,0 +1,3 @@
+2,select * from boron_carbide_training where json_path = #
+2019-10-14 18:43:00,1
+2019-10-14 18:46:00,1

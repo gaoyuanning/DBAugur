@@ -1,0 +1,10 @@
+9,"SELECT p.ra , p.dec, p.u, p.g, p.r, p.i, p.z, p.nMgyPerCount_u, p.nMgyPerCount_g, nMgyPerCount_r, nMgyPerCount_i, nMgyPerCount_z FROM PhotoObjAll p WHERE (p.ra BETWEEN # AND #) AND (p.dec BETWEEN # AND #) AND p.type=# AND p.run = # AND p.rerun = # AND p.camcol = # AND p.field = #"
+2019-01-02 17:10:00,1
+2019-01-02 17:13:00,1
+2019-01-02 17:21:00,1
+2019-01-02 17:25:00,1
+2019-01-02 17:43:00,1
+2019-01-02 18:24:00,1
+2019-01-02 18:50:00,1
+2019-01-02 18:54:00,1
+2019-01-02 19:03:00,1

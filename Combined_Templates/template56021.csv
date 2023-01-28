@@ -1,0 +1,2 @@
+1,"SELECT g.*, e.*, p.petroR9#_u, p.petroR9#_g, p.petroR9#_r, p.petroR9#_i, p.petroR9#_z, p.petroR9#Err_u, p.petroR9#Err_g, p.petroR9#Err_r, p.petroR9#Err_i, p.petroR9#Err_z, p.petroR5#_u, p.petroR5#_g, p.petroR5#_r, p.petroR5#_i, p.petroR5#_z, p.petroR5#Err_u, p.petroR5#Err_g, p.petroR5#Err_r, p.petroR5#Err_i, p.petroR5#Err_z into mydb.MyTable from GalSpecInfo AS g JOIN GalSpecExtra AS e ON g.specobjid = e.specobjid JOIN SpecPhotoAll AS s ON g.specobjid = s.specobjid JOIN PhotoObjAll AS p ON p.objid = s.objid"
+2019-08-07 02:40:00,1

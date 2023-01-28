@@ -1,0 +1,2 @@
+1,"SELECT m.mangaid , m.plateifu, m.objra, m.objdec, p.objID, p.ra, p.dec into mydb.manga_check_list from mangaDRPall as m , PhotoObjAll as p, SpecObjAll as s where ((abs (m.objra - p.ra) < #) and (abs (m.objdec -p.dec) < #) and (p.objID = s.bestObjID) and (p.mode = #) ) order by m.mangaid"
+2019-03-11 08:38:00,1

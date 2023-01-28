@@ -1,0 +1,2 @@
+1,"select dbo.fCosmoAbsMag (#, #, #, #, #e-#, #, #) --select dbo.fCosmoAbsMag (#, #, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT) --SELECT TOP # cModelMag_r into MyDB.magr --FROM PhotoObjAll ---select dbo.fCosmoAbsMag (MyDB.magr[#], #, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT) DELIMITER $$ CREATE PROCEDURE prg_cursor () BEGIN DECLARE i INT DEFAULT #; DECLARE total INT DEFAULT #; SELECT NOW () ; /**while? ?**/ WHILE (i< total) DO SELECT i; SET i = i+#; END WHILE; SET i = #; END $$"
+2019-04-18 07:14:00,1

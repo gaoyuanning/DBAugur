@@ -1,0 +1,3 @@
+2,select * from XCRedshift where specObjId=#
+2019-10-26 01:42:00,1
+2019-10-26 21:46:00,1

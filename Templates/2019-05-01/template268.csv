@@ -1,0 +1,2 @@
+1,"SELECT   g.ra,  g.dec, g.EW_Ha_#   into mydb.SDSS_dr1#_gal_ew_ha FROM emissionLinesPort as g"
+2019-05-01 14:15:00,1

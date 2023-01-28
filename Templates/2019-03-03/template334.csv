@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.run,p.rerun,p.camCol,p.field,p.obj  FROM ..Star AS p  WHERE (p.u - p.g) > # AND (p.g - p.r) > # AND (p.r - p.i) > # AND (p.i - p.z) > # AND (p.u - p.g) < # AND (p.g - p.r) < # AND (p.r - p.i) < # AND (p.i - p.z) < #"
+2019-03-03 14:57:00,1

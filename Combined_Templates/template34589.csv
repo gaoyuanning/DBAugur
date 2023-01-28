@@ -1,0 +1,2 @@
+1,"SELECT ALL p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.type, p.deVRad_u, p.deVRad_g, p.deVRad_r, p.deVRad_i, p.deVRad_z, p.deVAB_u, p.deVAB_g, p.deVAB_r, p.deVAB_i, p.deVAB_z, p.deVPhi_u, p.deVPhi_g, p.deVPhi_r, p.deVPhi_i, p.deVPhi_z, p.expRad_u, p.expRad_g, p.expRad_r, p.expRad_i, p.expRad_z, p.expAB_u, p.expAB_g, p.expAB_r, p.expAB_i, p.expAB_z, p.expPhi_u, p.expPhi_g, p.expPhi_r, p.expPhi_i, p.expPhi_z FROM PhotoObj AS p WHERE p.ra BETWEEN # AND # AND p.dec BETWEEN # AND # AND p.type = # ORDER by p.r"
+2019-04-25 14:22:00,1

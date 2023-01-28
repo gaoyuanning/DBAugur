@@ -1,0 +1,2 @@
+1,"SELECT   w.specObjID, w.z, w.warning, w.mstellar_median, w.mstellar_err, w.vdisp_median, w.vdisp_err,   p.modelMag_u, p.modelMagErr_u, p.modelMag_g, p.modelMagErr_g, p.modelMag_r, p.modelMagErr_r, p.modelMag_i, p.modelMagErr_i, p.modelMag_z, p.modelMagErr_z, p.ra, p.dec into mydb.Nathan_Run2 from stellarMassPCAWiscBC0# as w, SpecObjAll as s, PhotoObjAll as p WHERE   w.specObjID = s.specObjID AND s.bestObjID = p.objID AND w.z > # AND w.z < #"
+2019-08-23 10:43:00,1

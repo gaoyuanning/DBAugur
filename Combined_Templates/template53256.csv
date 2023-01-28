@@ -1,0 +1,3 @@
+2,"SELECT oiii_#_flux, oii_#_flux, oii_#_flux, nii_#_flux, h_beta_flux, h_alpha_flux INTO mydb.nearGalaxiesFluxes_STARBURST FROM dr1#.galSpecLine WHERE specObjID IN ()"
+2019-07-22 00:32:00,1
+2019-07-28 04:53:00,1

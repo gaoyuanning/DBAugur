@@ -1,0 +1,2 @@
+2,"SELECT    p.objID, p.type,    p.dered_u, p.dered_g, p.dered_r, p.dered_i, p.dered_z,    pz.kcorru0#, pz.kcorrg0#, pz.kcorrr0#, pz.kcorri0#, pz.kcorrz0#,    pz.z as photoz, pz.photoErrorClass as Class	 INTO #tt FROM   PhotoPrimary AS p    LEFT JOIN Photoz AS pz ON p.objID=pz.objID WHERE #<pz.z and pz.z<#        and #<p.dered_r and p.dered_r<#         and p.type=#    GO  SELECT tt.* FROM #tt as tt WHERE   #<tt.Class   and tt.Class<# ORDER BY tt.objID INTO MyDB.MainSample"
+2019-08-09 10:52:00,2

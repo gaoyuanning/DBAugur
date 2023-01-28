@@ -1,0 +1,2 @@
+1,select mjd_r as primary_mjd from Field where dec < # AND dec > # AND (ra > # OR ra < #)
+2019-11-19 07:59:00,1

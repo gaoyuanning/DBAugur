@@ -1,0 +1,2 @@
+2,"SELECT     p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,    p.deVRad_r, p.deVAB_r,p.expRad_r, p.expAB_r,p.deVMag_r, p.expMag_r,p.petror5#_i,p.petroR5#Err_i,p.petror9#_i,p.petror9#Err_i,p.q_r,p.u_r,s.specObjID,s.targetObjID,s.ObjID_#,s.specObjID_#,s.targetObjID_#,s.objID_#   into mydb.MyTable_sdss_spire from PhotoObjAll AS p   JOIN mydb.MyTable_# AS s ON s.ObjID_# = p.objid"
+2019-09-26 12:17:00,2

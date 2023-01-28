@@ -1,0 +1,2 @@
+1,"select specobjid as name, ra, dec from SpecObj where class=GALAXY AND ra between # and #"
+2019-10-31 09:03:00,1

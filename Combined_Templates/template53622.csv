@@ -1,0 +1,2 @@
+1,"select ra, dec, u, g, r, i, z from star where g < # and (ra between # and #) and (dec between # and #) and clean = #"
+2019-07-25 19:29:00,1

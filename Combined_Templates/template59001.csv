@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.mode, p.type, p.clean, p.sky_u, p.psfMag_u, p.fiberMag_u, p.petroFlux_u, p.q_u, p.modelMag_u, p.b, p.l, p.airmass_u, s.specObjID, s.survey, s.instrument, s.z, s.velDisp, s.elodieSpType, s.elodieTEff, s.elodieLogG, s.class, s.subclass into mydb.MyTable_# from photoObjAll p, specObjAll s"
+2019-08-23 02:30:00,1

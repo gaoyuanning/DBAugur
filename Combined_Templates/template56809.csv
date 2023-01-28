@@ -1,0 +1,2 @@
+2,"select source_id, ra, dec, parallax, parallax_error, pmra, pmra_error, pmdec, pmdec_error, phot_g_mean_mag, bp_rp from gaiadr2.gaia_source where abs (parallax) < # and pmra > # and pmra < # and pmdec > # and pmdec< # and b> # and b< # and l< # and l> # into mydb.orphan_gaia2"
+2019-08-11 00:11:00,2

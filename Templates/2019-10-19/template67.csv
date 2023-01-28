@@ -1,0 +1,6 @@
+7,"SELECT top # sq.plate, sq.mjd, sq.fiberID, sq.l_#, sq.fwhm3_hb, sq.redshift FROM spiders_quasar AS sq WHERE l_# > # AND DR1#_SN_MEDIAN_ALL >#"
+2019-10-19 17:19:00,1
+2019-10-19 17:20:00,1
+2019-10-19 21:56:00,1
+2019-10-19 21:58:00,3
+2019-10-19 22:01:00,1

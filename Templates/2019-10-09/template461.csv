@@ -1,0 +1,2 @@
+1,"SELECT top # specObjID, z, class, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z from SpecPhotoAll order by z DESC"
+2019-10-09 07:02:00,1

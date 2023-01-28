@@ -1,0 +1,3 @@
+4,"SELECT TOP # gL.oiii_#_flux, gL.h_alpha_flux, gL.nii_#_flux, gL.h_beta_flux, gL.sii_#_flux, gL.sii_#_flux, gL.oi_#_flux  FROM SpecObj As s  JOIN galSpecLine As gL ON s.specObjID = gL.specObjID JOIN galSpecExtra as gS ON s.specObjID = gS.specObjID WHERE  s.z > # AND s.zWarning = # AND s.z < # AND (s.primTarget & (dbo.fPrimTarget(&&&)) > #) AND gS.bptclass = #"
+2019-05-03 03:27:00,3
+2019-05-03 03:28:00,1

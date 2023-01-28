@@ -1,0 +1,3 @@
+2,"SELECT SpecObjID, targetObjID, objID, class, subclass, bossPrimary, sdssPrimary, sciencePrimary, sourceType, ra, dec, z, zErr, fibermag_r, fibermagErr_r, modelMag_r, modelMagErr_r, dered_r FROM SpecPhotoAll WHERE class = # and sourceType = # and (bossPrimary = # or sdssPrimary = #) and sciencePrimary = # and ( (ra> # and ra< # and dec> # and dec< #) or (ra> # and ra< # and dec> # and dec< #) or (ra> # and ra< # and dec> # and dec< #) or (ra> # and ra< # and dec> # and dec< #) or (ra> # and ra< # and dec> # and dec< #) ) INTO mydb.newSDSSinGAMAmatch"
+2019-01-04 12:00:00,1
+2019-01-04 12:01:00,1

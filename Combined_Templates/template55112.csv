@@ -1,0 +1,2 @@
+1,"SELECT z, ra, dec, objID into mydb.rivendell from specPhoto WHERE z < # and class = # and cModelMag_i < #"
+2019-08-02 14:45:00,1

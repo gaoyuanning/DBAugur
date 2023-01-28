@@ -1,0 +1,2 @@
+1,"select --top #   id, s.specobjid, s.z, zErr, zWarning from MyDB.MyTable as m   join SpecObjAll as s on s.bestObjID=m.dr1#objid   order by id"
+2019-05-29 15:27:00,1

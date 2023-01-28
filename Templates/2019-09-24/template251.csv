@@ -1,0 +1,2 @@
+1,"SELECT sp.specObjID,sp.ra,sp.dec,sp.plate,sp.mjd,sp.fiberid,sp.z,sp.zErr,sp.zWarning,sp.class,sp.subClass, mass.zNum,mstellar_median,mstellar_err,mass.warning into mydb.SDSS_DR1#_galaxy_spectro_mass  from SpecObj sp, stellarMassPCAWiscBC0# mass  WHERE class = &&& and mass.specObjID=sp.specObjID and sp.plate=mass.plate and sp.mjd=mass.mjd and sp.fiberid=mass.fiberID"
+2019-09-24 16:42:00,1

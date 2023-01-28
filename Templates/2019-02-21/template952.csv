@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, ra, dec, modelMag_g, z, type WHERE z > # AND fPhotoType(type) LIKE Galaxy&&&"
+2019-02-21 00:33:00,1

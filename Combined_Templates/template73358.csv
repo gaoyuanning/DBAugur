@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, z, zErr, velDisp, velDispErr FROM Galaxy FROM SpecObj as s WHERE ra BETWEEN # AND # AND dec BETWEEN # AND # AND = #"
+2019-11-02 23:28:00,1

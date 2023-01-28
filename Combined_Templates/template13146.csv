@@ -1,0 +1,5 @@
+5,"select task_name, count (*) as nTasks from SciServerLog.Messages where lower (task_name) like # group by task_name order by count (*) desc"
+2019-02-21 13:36:00,1
+2019-02-21 13:38:00,1
+2019-02-21 13:39:00,1
+2019-02-25 13:12:00,2

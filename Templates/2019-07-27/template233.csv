@@ -1,0 +1,4 @@
+3,"SELECT   a.apstar_id, a.ra, a.dec, b.aspcap_class, b.teff, b.logg, b.m_h, b.alpha_m, b.vsini into mydb.MyTable from aspcapStar as b, apogeeStar as a"
+2019-07-27 10:05:00,1
+2019-07-27 10:15:00,1
+2019-07-27 10:16:00,1

@@ -1,0 +1,2 @@
+2,"SELECT TOP # ra, dec, u, g, r, i, z, s.class, s.z as redshift FROM PhotoObj WHERE ra BETWEEN # AND # AND dec BETWEEN # AND #"
+2019-05-29 23:19:00,2

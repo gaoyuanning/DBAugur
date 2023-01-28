@@ -1,0 +1,2 @@
+1,"SELECT MAX(SpecObj.z) AS Max_Redshift, SpecObj.ra,SpecObj.dec FROM SpecObj"
+2019-09-26 21:30:00,1

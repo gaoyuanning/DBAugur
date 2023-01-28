@@ -1,0 +1,5 @@
+5,"select p.specObjID, p.ra, p.dec, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, p.z, p.zErr, str (p.modelMag_u - p.modelMag_g, #, #) as ugModelColor, str (p.modelMag_g - p.modelMag_r, #, #) as grModelColor, str (p.modelMag_r - p.modelMag_i, #, #) as riModelColor, str (p.modelMag_i - p.modelMag_z, #, #) as izModelColor from SpecPhoto p, dbo.fgetNearByObjEq (#, #, #) n where p.objid = n.objid AND p.modelMag_g < # AND p.modelMag_r < # AND p.modelMag_i < # AND p.modelMag_z < # AND p.z > # AND p.z < # AND (p.score > = #)"
+2019-02-12 18:49:00,1
+2019-02-12 18:50:00,1
+2019-02-12 19:23:00,2
+2019-02-12 19:26:00,1

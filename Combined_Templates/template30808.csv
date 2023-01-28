@@ -1,0 +1,2 @@
+1,"SELECT count (*) , into mydb.apogee from PhotoPrimary WHERE #< ra< # and #< dec< #"
+2019-04-16 17:03:00,1

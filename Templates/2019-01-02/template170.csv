@@ -1,0 +1,2 @@
+1,"SELECT u,g,r,i,z FROM Stars  WHERE ra between # and #    and dec between # and #"
+2019-01-02 11:13:00,1

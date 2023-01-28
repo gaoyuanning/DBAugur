@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, n.ra, n.dec INTO twowayxmatch FROM XMATCH (MUST EXIST IN PhotoObjAll as p WITH (POINT (p.ra, p.dec) , ERROR (#, #, #) ), MUST EXIST IN MUSE_NVSS as n WITH (POINT (n.ra, n.dec) , ERROR (#, #, #) ))"
+2019-03-25 11:54:00,1

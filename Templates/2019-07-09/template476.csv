@@ -1,0 +1,2 @@
+1,"select ra,dec into mydb.MyTable_# from dbo.apogeeStar where # < ra and ra < # and # < dec and dec < #"
+2019-07-09 08:42:00,1

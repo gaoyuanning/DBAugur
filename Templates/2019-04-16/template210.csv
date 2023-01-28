@@ -1,0 +1,3 @@
+3,"SELECT ALL   P.ra,   P.dec,   P.u,   P.err_u,   P.g,   P.err_g,   P.r,   P.err_r,   P.i,   P.err_i,   P.z,   P.err_z,   G.Z,   G.ZERR,   G.class,   G.subClass,   G.sourceType into mydb.sdssdr1#_galaxies from PhotoObjAll AS P, SpecObj AS G WHERE P.dec > # AND P.SpecObjID = G.SPECOBJID AND G.class = &&& AND G.sourceType = &&& AND G.Z <= #"
+2019-04-16 17:19:00,1
+2019-04-16 17:21:00,2

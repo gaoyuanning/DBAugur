@@ -1,0 +1,2 @@
+1,"SELECT objID, dered_u, dered_g, dered_r, dered_i, dered_z, err_u, err_g, err_r, err_i, err_z, extinction_u, extinction_g, extinction_r, extinction_i, extinction_z into mydb.ztfPhot from mydb.ZTFIDS u JOIN DR1#.photoobj p ON p.objID = u.objID"
+2019-06-19 13:58:00,1

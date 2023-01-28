@@ -1,0 +1,3 @@
+2,"SELECT objID, rowc_r, colc_r, petroRad_g, petroRad_r, run, rerun, camcol, petroMag_r FROM photoObj WHERE petroMag_r BETWEEN # AND #"
+2019-09-02 17:53:00,1
+2019-09-02 17:56:00,1

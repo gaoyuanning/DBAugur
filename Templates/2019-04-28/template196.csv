@@ -1,0 +1,2 @@
+1,"SELECT   g.RA,    g.DEC,    g.petroRad_r,    g.modelMag_g,    g.modelMag_r,    g.petroR5#_r,    g.extinction_r,    g.extinction_g,    s.specObjID    FROM Galaxy as g      JOIN SpecObj as s    ON g.ObjID = s.bestObjID       WHERE # < g.RA and g.RA < #   AND # < g.DEC and g.DEC< #   AND g.petroR5#_r < #   AND g.cmodelmag_r - g.psfMag_r > #"
+2019-04-28 16:05:00,1

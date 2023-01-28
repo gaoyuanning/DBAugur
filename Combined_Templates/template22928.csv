@@ -1,0 +1,2 @@
+2,"select top # objid, dered_u, dered_g, dered_r, dered_i, dered_z, z, size, extinction_u, extinction_g, extinction_r, extinction_i, extinction_z from SpecPhoto where (specclass = # or specclass = #) and zconf > .# and z> #"
+2019-03-24 20:33:00,2

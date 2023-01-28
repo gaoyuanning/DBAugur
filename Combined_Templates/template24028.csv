@@ -1,0 +1,4 @@
+3,"SELECT specObjID, z, CASE WHEN # < = z AND z < = # THEN # WHEN # < z AND z < = # THEN # END AS Redshift FROM SpecObj WHERE class = #"
+2019-03-26 19:54:00,1
+2019-03-26 19:58:00,1
+2019-03-26 19:59:00,1

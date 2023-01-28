@@ -1,0 +1,2 @@
+1,"SELECT A.ra, A.dec, A.objID, A.specobjID FROM SpecPhotoAll AS A WHERE A.ra BETWEEN # AND # INTO MyDB.MySpecPhotoAll2"
+2019-08-27 17:49:00,1

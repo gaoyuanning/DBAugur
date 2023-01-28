@@ -1,0 +1,2 @@
+1,select top # * from PhotoObjAll outer join SpecObjAll on SpecObjAll.objID = PhotoObjAll.bestObjID
+2019-03-25 15:54:00,1

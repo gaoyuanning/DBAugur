@@ -1,0 +1,2 @@
+1,"select    s.ra, s.dec, s.z,p.objID ,s.SpecObjID,s.bestObjID,g.oiii_#_flux, g.nii_#_flux,g.h_alpha_flux,g.h_beta_flux,   p.petroMag_u,p.petroMag_g, p.petroMag_r,p.petroMag_i,p.petroMag_z    from    SpecObjAll as s,     PhotoObjAll as p,   galSpecLine as g       into MyDB.Kauffmann_emission_lines      where           g.specObjID=s.SpecObjID and s.bestObjID=p.objID"
+2019-06-08 03:59:00,1

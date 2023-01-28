@@ -1,0 +1,3 @@
+2,"SELECT TOP # p.objId,p.ra,p.dec,p.petroMag_r,p.modelMag_g, p.modelMag_r,p.dered_r,p.dered_g,p.petroR5#_r,p.specObjID  FROM galaxy AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid  WHERE p.ra < # AND p.ra > #   AND # < p.dec AND p.dec < #   AND p.CLEAN = #  AND p.psfMag_r - p.cModelMag_r >= #  AND p.petroMag_r < #"
+2019-04-22 00:26:00,1
+2019-04-22 00:27:00,1

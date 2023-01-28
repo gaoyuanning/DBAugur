@@ -1,0 +1,2 @@
+1,"SELECT TOP # elpetro_absmag_g, sersic_absmag_g FROM nsatlas WHERE ra > # and ra < # and dec > # and dec < #"
+2019-07-01 20:40:00,1

@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.deVPhi_r, p.q_r, p.u_r, s.z FROM PhotoObjAll AS p JOIN SpecObjAll AS s ON p.specobjid = s.specobjid WHERE ( ((p.ra BETWEEN # AND #) AND (p.dec BETWEEN # AND #) )) AND p.r< #"
+2019-04-16 08:12:00,1

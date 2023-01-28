@@ -1,0 +1,5 @@
+4,"SELECT run,  camCol,   rerun,   field,   objID,   u, g, r, i, z,   ra, dec  FROM Star  WHERE RA between # and # and  DEC between # and #"
+2019-08-12 17:45:00,1
+2019-08-12 17:46:00,1
+2019-08-12 18:16:00,1
+2019-08-12 18:17:00,1

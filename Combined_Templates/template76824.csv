@@ -1,0 +1,2 @@
+1,"select runid, x, y, x*y-# as derived from Data where x> # and x+y between # and # order by runid, x*y desc select sum (x*y-#) as derived, stdev (y) from Data where x> # and x+y between # and # group by runid order by runid desc select top # runid from data order by desc -# select userid from runs where runid = # -# select * from users where userid = (select userid from runs where runid = #)"
+2019-11-18 12:48:00,1

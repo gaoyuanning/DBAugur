@@ -1,0 +1,2 @@
+1,"SELECT TOP # g.objid, g.ra, g.dec, g.u, g.g, g.r, g.i, g.z, z.z as redshift, z.photoEooroClass, z.nnCount, z.zErr FROM Galaxy AS g JOIN Photoz AS z ON z.objid = g.objid WHERE g.ra > # and g.ra< # and g.dec > # and g.dec < #"
+2019-12-22 09:49:00,1

@@ -1,0 +1,2 @@
+1,"SELECT objID into mydb.MyTable from dbo.fGetNearbyObjEq (#, #, #)"
+2019-09-04 05:56:00,1

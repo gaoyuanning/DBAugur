@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.ra, p.dec, s.specObjID, p.psfMag_r, p.modelMag_r, p.petroMag_r, p.fiberMag_r, p.petroRad_r, p.petroR5#_r, p.petroR9#_r, p.lnLStar_r,p.lnLExp_r, p.lnLDeV_r, p.mE1_r, p.mE2_r, p.mRrCc_r, p.type_r, p.type, s.specClass INTO MyDB.SDSS_DR7_TRAIN_R2#_# FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid =p.objid WHERE p.modelMag_r BETWEEN # AND #"
+2019-10-30 04:08:00,1

@@ -1,0 +1,6 @@
+5,"select _id, School, Date , cast (substring (cast (Date as varchar (#) ), #, #) as integer) as _year , cast (substring (cast (Date as varchar (#) ), #, #) as integer) as _month , cast (substring (cast (Date as varchar (#) ), #, #) as integer) as _day , Absent, SchoolYear, Released, Enrolled, Present from MyDB.SchoolAttendance) insert into SchoolAttendance select _id, School, DATEFROMPARTS (_year, _month, _day) as _date , Absent, SchoolYear, Released, Enrolled, Present from a"
+2019-03-03 16:04:00,1
+2019-03-03 16:14:00,1
+2019-03-03 16:25:00,1
+2019-03-03 16:26:00,1
+2019-03-03 16:27:00,1

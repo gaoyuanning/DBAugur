@@ -1,0 +1,2 @@
+1,SELECT DISTINCT Top # l.specobjID into mydb.MyTable_# from dbo.SpecLineAll AS l
+2019-09-10 10:25:00,1

@@ -1,0 +1,2 @@
+1,"select top # specObjID ,RPM_LOG_g,cModelMag_u, cModelMag_g, cModelMag_r, cModelMag_i from specPhoto, marvelsStar Where type = # and cModelMagErr_u <# and cModelMagErr_g <# and cModelMagErr_r <# and cModelMagErr_i <# and cModelMag_u >#"
+2019-06-12 03:35:00,1

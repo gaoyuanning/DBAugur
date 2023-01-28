@@ -1,0 +1,4 @@
+3,"SELECT p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.run, p.rerun, p.camcol, p.field, p.type FROM PhotoObj As p WHERE  p.ra > # AND p.ra <= #  AND p.dec > # AND p.dec <= #  AND p.type = #"
+2019-10-22 13:12:00,1
+2019-10-22 13:21:00,1
+2019-10-22 17:25:00,1

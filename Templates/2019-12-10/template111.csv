@@ -1,0 +1,2 @@
+1,"SELECT  count(p.objid) into mydb.MyTable_# from DR1#.PhotoObj  p, MyDB.ta a 	WHERE p.objid=a.objid"
+2019-12-10 18:30:00,1

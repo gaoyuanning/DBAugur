@@ -1,0 +1,3 @@
+2,"SELECT TOP #  g,g-r AS colour  FROM PhotoObj AS p WHERE  p.g BETWEEN # AND #  AND p.r BETWEEN # AND #"
+2019-06-12 08:55:00,1
+2019-06-12 08:56:00,1

@@ -1,0 +1,2 @@
+1,"SELECT SPA.ra, SPA.dec, SPA.z, FSPSG.logmass Into GU2#_hw7_w2 From SpecPhotoAll as SPA, stellarMassFSPSGranEarlyDust as FSPSG Where SPA.class = # and #< SPA.z < # and SPA.specObjID = FSPSG.specobjID"
+2019-05-19 19:10:00,1

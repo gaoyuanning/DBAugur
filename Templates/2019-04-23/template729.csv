@@ -1,0 +1,2 @@
+1,"SELECT *, AlbumId   FROM chinook.Track   GROUP BY AlbumId"
+2019-04-23 00:01:00,1

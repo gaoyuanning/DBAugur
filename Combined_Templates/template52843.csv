@@ -1,0 +1,2 @@
+1,"select distinct eid, Ever_had_refractive_laser_eye_surgery_# from r2#.Eye_surgery_complications a where a.value IN ()"
+2019-07-19 09:39:00,1

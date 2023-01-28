@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.z, dbo.fPhotoTypeN (p.type) as photo_type, str (p.modelMag_u, #, #) as u, str (p.modelMagErr_u, #, #) as err_u, str (p.modelMag_g, #, #) as g, str (p.modelMagErr_g, #, #) as err_g, str (p.modelMag_r, #, #) as r, str (p.modelMagErr_r, #, #) as err_r, str (p.extinction_z, #, #) as zx, pz.absMagR, str (pz.z, #, #) as phot_z , str (pz.zErr, #, #) as phot_zerr FROM PhotoObjAll as p into MyDB.tmpcmassonlyphot_zgt0p3lt0p8 JOIN Photoz AS pz ON pz.objID = p.objID WHERE (pz.z > # and pz.z < =#)"
+2019-07-03 01:55:00,1

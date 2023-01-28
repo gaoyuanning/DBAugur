@@ -1,0 +1,4 @@
+3,"SELECT objid, nvote, p_el as elliptical, p_cw as spiralclock, p_acw as spiralanticlock, p_edge as edgeon, p_dk as dontknow, p_mg as merger FROM ZooNoSpec  WHERE objid = #"
+2019-12-03 08:18:00,1
+2019-12-03 08:19:00,1
+2019-12-03 08:21:00,1

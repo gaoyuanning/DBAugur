@@ -1,0 +1,2 @@
+1,"SELECT    objid,ra,dec,type into mydb.XMMLSSTYPE from PhotoObjAll WHERE     ra BETWEEN # AND #    AND dec BETWEEN # AND #"
+2019-01-03 09:13:00,1

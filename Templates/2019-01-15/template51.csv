@@ -1,0 +1,4 @@
+3,"select ra, dec, g0, gmr0, sna, teffa, feha, logga, sptypea  from sppParams  where (plate = # or plate = #) and teffa>#  and sna > #"
+2019-01-15 22:07:00,1
+2019-01-15 22:08:00,1
+2019-01-15 22:27:00,1

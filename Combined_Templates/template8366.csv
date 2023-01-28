@@ -1,0 +1,2 @@
+1,"SELECT h.objid, h.ra, h.dec into xmatch_obj FROM xmatch_vizier AS x CROSS APPLY dbo.fGetNearestObjEq (x.RA, x.DEC, #) AS n JOIN hw1_sh_# AS h ON n.objid = h.objid"
+2019-02-05 11:39:00,1

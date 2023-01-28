@@ -1,0 +1,2 @@
+1,"SELECT top # h.objid, m.objid2 FROM matchhead h, match m  WHERE h.objid = m.objid1  AND h.matchcount > #  AND m.type1 = #  AND m.type2 = #"
+2019-03-26 14:41:00,1

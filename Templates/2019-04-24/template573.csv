@@ -1,0 +1,2 @@
+1,"SELECT id AS up_id,  ra AS up_ra,  dec AS up_dec FROM MYDB.datazhao  CREATE TABLE #tmp (   up_id varchar(#),   objid bigint ) INSERT INTO #tmp EXEC spGetNeighborsPrim #  INSERT INTO MYDB.out_zhao_# SELECT a.id, a.ra, a.dec, t.objid as matched_id, p.cModelAbsMag_r, p.logMass, p.age, p.metallicity, b.petroR5#_r, b.petroR9#_r FROM #tmp t   JOIN MYDB.datazhao a ON t.up_id = a.id   JOIN SpecObj s on s.bestObjID = a.id   JOIN stellarMassFSPSGranWideDust p on p.specObjID = s.specObjID   JOIN PhotoObj b ON b.objID=a.id"
+2019-04-24 13:28:00,1

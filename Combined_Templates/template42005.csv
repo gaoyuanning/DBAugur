@@ -1,0 +1,20 @@
+451,"SELECT S.objID, S.ra, S.dec, S.u, S.g, S.r, S.i, S.z, S.err_u, S.err_g, S.err_r, S.err_i, S.err_z FROM Star as S JOIN dbo.fGetNearbyObjEq (, , #) as SN on S.objID = SN.objID WHERE ( (S.flags_r & #) ! = #) AND ( (S.flags_r & #) = #) AND ( ((S.flags_r & #) = #) or (S.psfmagerr_r < = #) ) AND ( ((S.flags_r & #) = #) or (S.flags_r & #) = #) AND ( (S.flags_g & #) ! = #) AND ( (S.flags_g & #) = #) AND ( ((S.flags_g & #) = #) or (S.psfmagerr_g < = #) ) AND ( ((S.flags_g & #) = #) or (S.flags_g & #) = #) AND ( (S.flags_i & #) ! = #) AND ( (S.flags_i & #) = #) AND ( ((S.flags_i & #) = #) or (S.psfmagerr_i < = #) ) AND ( ((S.flags_i & #) = #) or (S.flags_i & #) = #)"
+2019-05-28 18:50:00,1
+2019-06-06 19:54:00,40
+2019-06-07 15:39:00,63
+2019-06-12 14:21:00,36
+2019-06-13 02:48:00,68
+2019-06-14 19:39:00,40
+2019-06-14 20:55:00,48
+2019-06-16 22:52:00,1
+2019-06-17 07:10:00,58
+2019-06-17 18:12:00,1
+2019-06-18 12:40:00,46
+2019-06-18 19:39:00,1
+2019-07-23 14:52:00,1
+2019-08-01 16:23:00,42
+2019-12-23 16:01:00,1
+2019-12-23 16:15:00,1
+2019-12-23 16:20:00,1
+2019-12-23 16:27:00,1
+2019-12-23 16:29:00,1

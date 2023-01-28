@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.spaceobjid, s.class, s.z as redshift, p.petroR5#_r, SM.logMass FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN dbo.fGetNearbyObjEq (#, #, #) AS N ON p.oobjid = N.objID WHERE s.Z BETWEEN # AND #"
+2019-03-24 21:37:00,1

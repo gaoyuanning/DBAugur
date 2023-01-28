@@ -1,0 +1,2 @@
+1,"SELECT min(z) as min_z, max(z) as max_z FROM   (SELECT bestObjID,z FROM SpecObj)"
+2019-03-22 19:15:00,1

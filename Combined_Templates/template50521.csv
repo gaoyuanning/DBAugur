@@ -1,0 +1,4 @@
+5,"SELECT specObjID AS #, z AS #, ra, dec, psfMag_u AS #, psfMag_g AS #, psfMag_i AS #, psfMag_r AS #, psfMag_z AS # FROM SpecPhotoAll AS pa WHERE pa.class = # AND pa.z BETWEEN # AND #;"
+2019-07-08 03:59:00,2
+2019-07-08 04:00:00,2
+2019-07-08 04:04:00,1

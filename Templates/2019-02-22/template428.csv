@@ -1,0 +1,2 @@
+2,"SELECT TOP # specObjID, class, photoobj.psfmag_u, photoobj.psfmagerr_u, photoobj.psfmag_g, photoobj.psfmagerr_g,   photoobj.psfmag_r, photoobj.psfmagerr_r, photoobj.psfmag_i, photoobj.psfmagerr_i,   photoobj.psfmag_z, photoobj.psfmagerr_z,   photoobj.extinction_u, photoobj.extinction_g, photoobj.extinction_r, photoobj.extinction_i, photoobj.extinction_z, photoobj.psfmag_z, photoobj.ra as photoobj_ra, photoobj.dec as photoobj_dec into mydb.MyTable_#  from SpecObj WHERE class = &&& OR class = &&&"
+2019-02-22 01:34:00,2

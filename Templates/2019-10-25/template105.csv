@@ -1,0 +1,2 @@
+1,"select p.objid as name, p.ra, p.dec from photoobj p, dbo.fgetNearByObjEq(#,#,#) n where p.objid=n.objid"
+2019-10-25 20:19:00,1

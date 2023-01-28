@@ -1,0 +1,2 @@
+1,"SELECT DISTINCT MediaTypeId, GenreId FROM chinook.Track ORDER BY MediaTypeId"
+2019-04-22 16:52:00,1

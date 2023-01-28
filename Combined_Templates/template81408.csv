@@ -1,0 +1,2 @@
+3,"select count (*) as count from photoobj p, specobj s, dbo.fgetNearByObjEq (#, #, #) n where p.objid = s.bestobjid and p.objid = n.objid and s.bestobjid = n.objid and p.r > # and p.g-p.r < #"
+2019-12-08 07:34:00,3

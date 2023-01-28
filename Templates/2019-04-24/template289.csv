@@ -1,0 +1,2 @@
+1,"SELECT COUNT(SUBSTRING(Name,#,#)) AS initial FROM chinook.Artist"
+2019-04-24 17:25:00,1

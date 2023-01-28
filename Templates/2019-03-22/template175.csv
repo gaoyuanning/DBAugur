@@ -1,0 +1,2 @@
+1,"SELECT   p.objid,p.ra,p.dec,p.q_r, p.u_r, p.type, p.petror5#_r FROM PhotoObj AS p WHERE p.objid = #"
+2019-03-22 19:58:00,1

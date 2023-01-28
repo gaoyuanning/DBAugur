@@ -1,0 +1,3 @@
+2,"SELECT A.IDX, A._RAJ2#_#, A._DEJ2#_#, C.ra, C.dec, C.class, C.subClass, C.z FROM MyDB.PairsWA AS A OUTER APPLY dbo.fGetNearestObjEq (A._RAJ2#_#, A._DEJ2#_#, #./#.) AS B LEFT OUTER JOIN SpecPhotoAll AS C ON B.objID = C.objID ORDER BY A.IDX INTO MyDB.WAPairsSpecPhotoAllQSOComp2"
+2019-10-02 16:14:00,1
+2019-10-02 16:17:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # g.u, g.g, g.r, g.i, g.z, s.z as redshift FROM galaxy as g INNER JOIN SpecObjAll as s on s.specObjID"
+2019-03-03 06:59:00,1

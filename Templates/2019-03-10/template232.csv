@@ -1,0 +1,3 @@
+2,"SELECT objid, aperFlux6_u, aperFlux6Ivar_u, aperFlux6_g, aperFlux6Ivar_g, aperFlux6_r, aperFlux6Ivar_r, aperFlux6_i, aperFlux6Ivar_i, aperFlux6_z, aperFlux6Ivar_z FROM PhotoObj WHERE objid=#"
+2019-03-10 14:17:00,1
+2019-03-10 14:19:00,1

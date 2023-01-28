@@ -1,0 +1,2 @@
+1,"SELECT TOP # /* PhotoObj table parameters*/ p.objid, round (p.ra, #) as ra, round (p.dec, #) as dec, round (p.u, #) as PhotoOb_u, round (p.g, #) as PhotoOb_g, round (p.r, #) as PhotoOb_r, round (p.i, #) as PhotoOb_i, round (p.petroR5#_r, #) as petroR5#_r, round (p.petroR5#Err_r, #) as petroR5#Err_r, round (p.z, #) as PhotoObj_z, p.type FROM PhotoObj AS p"
+2019-09-01 17:34:00,1

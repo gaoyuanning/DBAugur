@@ -1,0 +1,2 @@
+1,"SELECT p.u, p.g, p.r, p.i, p.z FROM PhotoObjAll as p INNER JOIN SPecObjAll as s ON p.specObjID = s.specObjID Where s.specObjID = #"
+2019-09-17 09:49:00,1

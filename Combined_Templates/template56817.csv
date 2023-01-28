@@ -1,0 +1,3 @@
+2,"SELECT TOP # s.bestObjID, s.dec, str (s.ra, #, #) as ra, s.velDisp, s.velDispErr, s.velDispZ, s.velDispZErr, s.z, s.zErr, s.zWarning, p.u, p.g, p.r, p.i, p.z, p.modelMagErr_u, p.modelMagErr_g, p.modelMagErr_r, p.modelMagErr_i, p.modelMagErr_z, p.cModelMag_g, p.cModelMag_i, p.cModelMag_r, p.cModelMag_u, p.cModelMag_z, p.cModelMagErr_g, p.cModelMagErr_i, p.cModelMagErr_r, p.cModelMagErr_u, p.cModelMagErr_z FROM BESTDR9..SpecObj as s JOIN BESTDR9..Galaxy AS p ON s.bestObjID = p.objID JOIN dbo.fGetNearbySpecObjEq (#, #, #) AS b ON b.SpecobjID = S.SpecobjID WHERE s.zWarning = # AND (s.class = #) AND (s.primTarget & (dbo.fPrimTarget (#) ) > #)"
+2019-08-11 23:00:00,1
+2019-08-11 23:12:00,1

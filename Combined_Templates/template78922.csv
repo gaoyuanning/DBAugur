@@ -1,0 +1,3 @@
+2,"select ra, dec, u, g, r, i, z, TAI_u, TAI_g, TAI_r, TAI_i, TAI_z, err_u, err_g, err_r, err_i, err_z, mE1_u, mE1_g, mE1_r, mE1_i, mE1_z, mE2_u, mE2_g, mE2_r, mE2_i, mE2_z, mCr4_u, mCr4_g, mCr4_r, mCr4_i, mCr4_z from PhotoObjAll where dec < # AND dec > # AND (ra > # OR ra < #)"
+2019-11-25 02:33:00,1
+2019-11-25 04:20:00,1

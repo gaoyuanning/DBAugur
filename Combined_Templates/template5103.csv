@@ -1,0 +1,2 @@
+1,"SELECT TOP # g.l, g.b, s.z as redshift, g.u, g.err_u, g.g, g.err_g, g.r, g.err_r, g.i, g.err_i, g.z, g.err_z, g.extinction_g, g.extinction_r FROM Galaxy AS g and SpecLine JOIN SpecObj as s ON s.specObjID = g.specObjID JOIN SpecLine AS L_ha ON g.SpecObjID = L_ha.SpecObjID JOIN SpecLine AS L_OII ON g.SpecObjID = L_OII.SpecObjID WHERE g.l between # and # and g.b between # and # and g.petroR9#_i/g.petroR5#_i > # and ( (flags & #) = #) and s.z between # and #"
+2019-01-22 18:29:00,1

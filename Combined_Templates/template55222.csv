@@ -1,0 +1,2 @@
+1,"CREATE TABLE Proctoroutput (ra_iso float not #, dec_iso float not #, objID bigint not #, ra float not #, dec float not #, spiral int not #, elliptical int not #, uncertain int not #) ;"
+2019-08-03 11:42:00,1

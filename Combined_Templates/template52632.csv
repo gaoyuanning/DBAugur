@@ -1,0 +1,2 @@
+1,"SELECT TOP # cast (str (p.ra, #, #) as float) as ra, cast (str (p.[dec], #, #) as float) as dec, p.camcol, p.field, p.rerun, p.run FROM ..PhotoObj AS p WHERE (p.type = # OR p.type = #)"
+2019-07-18 07:39:00,1

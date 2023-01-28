@@ -1,0 +1,2 @@
+1,"select z as xcol, zErr as ycol from target_galaxies where  zErr < #e-#"
+2019-05-09 11:38:00,1

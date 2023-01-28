@@ -1,0 +1,2 @@
+1,"SELECT p.run, p.rerun, p.field, p.camcol, p.rowc, p.colc, p.psfMag_r, p.psfMagErr_r, p.r, p.modelMagErr_r into mydb.cc1_s_coo_test0# from star p WHERE p.camcol = # and (p.field = #) and p.type = #"
+2019-12-05 01:53:00,1

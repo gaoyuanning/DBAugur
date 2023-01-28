@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.l, p.b, p.z as redshift, p.u, p.err_u, p.g, p.err_g, p.r, p.err_r, p.i, p.err_i, p.z, p.err_z, p.extinction_g, p.extinction_r FROM SpecPhoto AS p JOIN dbo.fGetNearbyObjEq (#, #, #) AS n ON n.objID = p.objID WHERE p.type = # p.petroR9#_i/p.petroR5#_i > # and ( (flags & #) = #) and p.z > #"
+2019-01-22 10:34:00,1

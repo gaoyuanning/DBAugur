@@ -1,0 +1,5 @@
+6,"SELECT ObjID, specObjID, u, g, r, i, z, err_u, err_g, err_r, err_i, err_z, fiber2Mag_r, extinction_r, petroR5#_r, petroR5#Err_r, petroR9#_r, petroR9#Err_r into mydb.galPhot_# from dbo.Galaxy as g, mydb.MyTable as o WHERE g.ObjID = o.SdssObjID"
+2019-11-28 11:35:00,2
+2019-11-28 11:38:00,2
+2019-11-28 11:51:00,1
+2019-11-28 11:58:00,1

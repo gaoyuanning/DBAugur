@@ -1,0 +1,4 @@
+5,"SELECT TOP #  bestObjID, ra, dec, lambdaEff, z FROM  SpecObjAll WHERE  ra># AND ra<# AND  dec># AND dec<# AND  z>#"
+2019-11-19 06:41:00,2
+2019-11-19 06:42:00,1
+2019-11-19 06:43:00,2

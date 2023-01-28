@@ -1,0 +1,2 @@
+1,"select s.objid, s.specobjid, s.z, s.zerr, s.ra, s.dec, g.lgm_tot_p2p5, g.lgm_tot_p1#, g.lgm_tot_p5#, g.lgm_tot_p8#, g.lgm_tot_p9#p5, p.modelMag_g, p.modelMag_i, p.modelMag_r, p.modelMag_u, p.modelMag_z, p.modelMagErr_g, p.modelMagErr_i, p.modelMagErr_r, p.modelMagErr_u, p.modelMagErr_z, p.fracDev_g, p.fracDev_i, p.fracDev_r, p.fracDev_u, p.fracDev_z from specphoto s join galSpecExtra g on g.specobjid = s.specobjid join photoobjall p on p.objid = s.objid where s.type = # and s.sourceType = # and s.class = #"
+2019-09-15 02:19:00,1

@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z into mydb.test from SpecPhotoAll p, MyTable_# m where p.specObjID = m.specObjID"
+2019-08-23 01:47:00,1

@@ -1,0 +1,3 @@
+2,"SELECT TOP # ObjID, FROM Galaxy as G, WHERE, G.lnlDev_r > G.lnlExp_r + # ((# - # < = p.ra and p.ra < = #) or (# < = p.ra and p.ra < = #) ) and # < = p.dec and p.dec < = #"
+2019-05-06 07:29:00,1
+2019-05-06 07:30:00,1

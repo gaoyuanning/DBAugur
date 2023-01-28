@@ -1,0 +1,2 @@
+1,"select s.bestobjid, s.ra, s.dec, s.z, s.zwarning, s.zerr from specobj AS s, dbo.fgetNearByObjEq (#, #, #) n where s.bestobjid = n.objid"
+2019-06-27 06:40:00,1

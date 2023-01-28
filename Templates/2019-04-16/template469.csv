@@ -1,0 +1,8 @@
+7,"CREATE TABLE [Sexual_factors] ( 	eid BIGINT NOT NULL ,	[Answered_sexual_history_questions_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Age_first_had_sexual_intercourse_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Lifetime_number_of_sexual_partners_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Ever_had_same_sex_intercourse_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Lifetime_number_of_same_sex_sexual_partners_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=# ,PRIMARY KEY (eid)) GO"
+2019-04-16 08:56:00,1
+2019-04-16 08:58:00,1
+2019-04-16 10:12:00,1
+2019-04-16 10:14:00,1
+2019-04-16 10:17:00,1
+2019-04-16 10:34:00,1
+2019-04-16 10:35:00,1

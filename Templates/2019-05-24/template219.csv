@@ -1,0 +1,2 @@
+1,"SELECT so.bestobjid, so.specobjid, so.plate, so.mjd, so.fiberid, sp.teffadop, sp.fehadop, sp.loggadop, sp.snr, sp.flag , s.ra, s.dec, s.g, s.specObjID, sp.elodiervfinal, sp.elodiervfinalerr FROM specobjall so JOIN sppparams sp ON so.specobjid = sp.specobjid and so.sciencePrimary=# and FEHADOPN >= # JOIN PhotoObjAll s ON so.specobjid = s.specObjID and s.psfMag_g < # WHERE sp.teffadop > # and sp.teffadop < # and fehadop > # and fehadop < # and sp.flag like &&& and sp.snr > #"
+2019-05-24 19:31:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.objID, s.ra, s.dec, s.dered_u as mag_u, s.dered_g as mag_g, s.dered_r as mag_r, s.dered_i as mag_i, s.dered_z as mag_z, s.z as redshift, p.petroRad_u as size_u, p.petroRad_g as size_g, p.petroRad_r as size_r, p.petroRad_i as size_i, p.petroRad_z as size_z INTO mydb.muestra_musas_# FROM SpecPhoto as s JOIN PhotoObj as p ON s.objID = p.objID WHERE s.zWarning = # and s.zErr < # and s.class = # and s.dered_i < #"
+2019-05-13 19:51:00,1

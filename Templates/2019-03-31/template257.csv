@@ -1,0 +1,5 @@
+6,"SELECT p.objID, c.name, c.ra, c.dec FROM #TEMP AS c                 CROSS APPLY dbo.fGetNearestObjEq(c.ra, c.dec, #) AS near                 INNER JOIN PhotoPrimary AS p ON p.objID=near.objID                 INNER JOIN Galaxy AS g ON g.objID=p.objID"
+2019-03-31 17:07:00,3
+2019-03-31 17:13:00,1
+2019-03-31 17:14:00,1
+2019-03-31 17:15:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra, dec, modelMag_g, modelMag_u, modelMag_r FROM StarTag WHERE (modelMag_g between # and #) and (ra between # and #) and (dec between # and #)"
+2019-03-22 20:14:00,1

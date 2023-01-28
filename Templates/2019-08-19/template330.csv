@@ -1,0 +1,2 @@
+1,"select S.ra ra, S.dec dec, S.z z into mydb.Striping1 from SpecObj S      where S.z > #"
+2019-08-19 06:29:00,1

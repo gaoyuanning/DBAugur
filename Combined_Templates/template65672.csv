@@ -1,0 +1,2 @@
+1,"select name, description from DBObjects where access = # and type = # UNION SELECT CHAR (#, #, #, #, #, #) , CHAR (#, #, #, #, #, #) , CHAR (#, #, #, #, #, #) , CHAR (#, #, #, #, #, #) , CHAR (#, #, #, #, #, #) , CHAR (#, #, #, #, #, #) , CHAR (#, #, #, #, #, #) , CHAR (#, #, #, #, #, #) , CHAR (#, #, #, #, #, #) , CHAR (#, #, #, #, #, #, #) , CHAR (#, #, #, #, #, #, #) , CHAR (#, #, #, #, #, #, #) -- ' order by name"
+2019-09-25 00:28:00,1

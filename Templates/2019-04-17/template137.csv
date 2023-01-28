@@ -1,0 +1,2 @@
+1,"SELECT s.class, s.z, s.zErr, p.modelMag_g, p.modelMagErr_g, p.extinction_g, p.modelMag_r, p.modelMagErr_r, p.extinction_r FROM PhotoTag AS p, JOIN SpecObj AS s ON s.bestobjid = p.objID WHERE s.zWarning=# AND (s.class = &&& OR s.class = &&&) AND (p.htmID*# & #) < (# * #)"
+2019-04-17 19:11:00,1

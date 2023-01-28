@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, objID FROM DR1#:dbo.TwoMass WHERE ra < # AND ra > # AND dec < # AND dec > #"
+2019-01-10 09:10:00,1

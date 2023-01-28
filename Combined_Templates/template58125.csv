@@ -1,0 +1,2 @@
+1,"select w.*, round (p.ra, #) as ra, round (p.dec, #) as dec, round (p.mjd, #) as mjd, p.plate as plate, p.fiberID as fiber, p.z, p.zErr, p.zWarning, p.class, p.subClass, p.z_noqso, p.zErr_noqso, p.zWarning_noqso, p.snMedian, p.sourceType, p.specObjID, p.bestObjID, p.spectroFlux_u, p.spectroFlux_g, p.spectroFlux_r, p.spectroFlux_i, p.spectroFlux_z into mydb.TDSS_PREV_SpecObjAllDR1# from mydb.TDSS_candidates_all_PREV w cross apply dbo.fGetNearbyObjAllEq (w.ra, w.dec, #) N, SpecObjAll p where p.bestObjID = N.objID and p.targetType = #"
+2019-08-18 09:30:00,1

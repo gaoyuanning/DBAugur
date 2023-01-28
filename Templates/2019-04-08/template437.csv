@@ -1,0 +1,3 @@
+2,"select    sp.specObjID,   sp.ra,   sp.dec,   sp.z,   sp.zErr,   sp.psfMag_u,   sp.psfMag_r,   sp.psfMag_z,   po.petroRad_u,   po.petroRad_r,   po.petroRad_z,   po.cx,   po.cy,   po.cz    into MyTable_# from specPhoto as sp   JOIN photoObj po ON sp.specObjID = po.objID    where sp.ra BETWEEN # and # AND   sp.class = &&& AND   sp.dec BETWEEN # and #   and sp.z BETWEEN # and #"
+2019-04-08 08:47:00,1
+2019-04-08 08:49:00,1

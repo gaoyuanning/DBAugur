@@ -1,0 +1,5 @@
+4,"SELECT top #   run, rerun, camcol, field,   mjd_r as primary_mjd  FROM Field WHERE  mjd_r > #"
+2019-07-24 01:43:00,1
+2019-07-24 02:16:00,1
+2019-07-24 07:11:00,1
+2019-07-24 08:20:00,1

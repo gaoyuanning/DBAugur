@@ -1,0 +1,2 @@
+1,"SELECT s.bestobjid, s.ra, s.dec, s.plate, s.mjd, s.fiberID FROM plateX p, specObjAll s WHERE p.plate = s.plate AND p.programtype > # AND p.programname like # AND s.bestObjID > # AND s.specClass = #"
+2019-12-30 01:32:00,1

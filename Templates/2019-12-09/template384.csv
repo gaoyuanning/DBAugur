@@ -1,0 +1,2 @@
+1,"SELECT s.specObjID, s.plate, s.mjd, s.fiberid into mydb.psb_nn_cat from mydb.PSB_nn AS id, SpecObj AS s WHERE (id.plate=s.plate AND id.mjd = s.mjd AND id.fiberid = s.fiberid)"
+2019-12-09 11:20:00,1

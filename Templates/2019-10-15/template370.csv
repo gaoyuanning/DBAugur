@@ -1,0 +1,2 @@
+1,"SELECT  objid,ra,dec FROM PhotoObj ORDER BY RAND()"
+2019-10-15 06:41:00,1

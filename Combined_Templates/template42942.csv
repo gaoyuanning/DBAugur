@@ -1,0 +1,2 @@
+1,"select a.objid, b.specobjid, a.ra, a.dec, c.logmass, c.sfr from specobjall as b, photoobjall as a, stellarmasspassiveport as c where a.objid = b.bestobjid and b.specobjid = c.specobjid and a.type = # and b.z< # and c.logmass> # and c.logmass< # and a.petromag_g-a.petromag_r> # and a.petror9#_r/a.petror5#_r< # and a.fracdev_r< #"
+2019-05-30 08:05:00,1

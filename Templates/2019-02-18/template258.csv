@@ -1,0 +1,2 @@
+2,"SELECT number, name AS courseName, description, credits   FROM courses   WHERE description IS NOT null"
+2019-02-18 15:52:00,2

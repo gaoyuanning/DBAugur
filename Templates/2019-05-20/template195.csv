@@ -1,0 +1,2 @@
+1,"select specobjid as name, ra, dec from SpecObj where specobjid in (#,  #, #, #, #)"
+2019-05-20 17:01:00,1

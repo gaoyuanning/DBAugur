@@ -1,0 +1,2 @@
+1,"SELECT top #  plate, mjd, fiberid,z, class, ra, dec FROM specobjall WHERE   class = &&& and z < # and zwarning = # and snmedian > #"
+2019-10-16 09:01:00,1

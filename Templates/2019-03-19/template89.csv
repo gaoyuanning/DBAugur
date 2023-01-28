@@ -1,0 +1,2 @@
+1,"SELECT TOP # u,g,r,i,z,dec, flags_r, dered_u,modelMag_u WHERE  AND ((flags_r & #) != #)  AND ((flags_r & #) = #)   AND (((flags_r & #) = #) or (psfmagerr_r <= #))  AND (((flags_r & #) = #) or (flags_r & #) = #)"
+2019-03-19 20:47:00,1

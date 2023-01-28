@@ -1,0 +1,2 @@
+2,"select top # a.gal_id, a.ra, a.dec, a.z, b.group_id, c.n_member from mydb.sdss7 as a join mydb.ipetroA as b on b.gal_id = a.gal_id join mydb.group_member as c on c.group_id = b.group_id where b.flag_massive = # --into mydb.central_index order by a.gal_id"
+2019-12-20 01:52:00,2

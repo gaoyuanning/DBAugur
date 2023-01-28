@@ -1,0 +1,2 @@
+1,"SELECT   count(p.objid) FROM   PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   s.class = &&&  AND (#*POWER(#,#) * (s.z/#))<# AND (#*POWER(#,#) * (s.z/#))>#  AND (.#*(p.g - p.r) +.#) <#"
+2019-01-18 21:42:00,1

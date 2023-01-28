@@ -1,0 +1,3 @@
+2,"select * from cellall   where sampleid =#     and px between # and #    and py between # and # ) select cg.geom.ToString() as wkt,cg.geom.STArea() as area, cg.cellid , cx,cy,px,py from ca   join cellgeom cg on cg.cellid=ca.cellid"
+2019-08-28 16:34:00,1
+2019-08-28 16:38:00,1

@@ -1,0 +1,2 @@
+1,"SELECT u.up_name as name, p.objid, p.u, p.g, p.r, p.i , p.z FROM #upload u JOIN #x x ON x.up_id = u.up_id JOIN PhotoObjAll p ON p.objID = x.objID ##', @log = #, @filter = #"
+2019-11-05 12:15:00,1

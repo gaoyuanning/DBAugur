@@ -1,0 +1,2 @@
+2,"select ra, dec into mydb.idsearch from dbo.galSpecInfo where specobjID = #"
+2019-04-04 02:45:00,2

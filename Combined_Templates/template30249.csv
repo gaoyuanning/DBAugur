@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID, ra, dec, i, z FROM GALAXY WHERE class = # AND zWarning = #"
+2019-04-15 16:45:00,1

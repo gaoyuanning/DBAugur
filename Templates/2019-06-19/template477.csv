@@ -1,0 +1,2 @@
+3,"select cModelMag_i,cModelMag_u,cModelMag_g,cModelMag_r from marvelsstar,specPhoto where ra BETWEEN # and #"
+2019-06-19 03:56:00,3

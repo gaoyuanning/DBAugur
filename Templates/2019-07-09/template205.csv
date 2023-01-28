@@ -1,0 +1,2 @@
+1,"select o.*, g.objid,  g.petroMag_r into mydb.sdss_photdr1#X2 from mydb.objID_GSWLCX2 as o, Galaxy as g where g.objID = o.objid"
+2019-07-09 16:00:00,1

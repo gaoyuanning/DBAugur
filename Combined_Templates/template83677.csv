@@ -1,0 +1,3 @@
+10,"select s.targetObjID, s.ra, s.dec, s.z, s.zErr, s.plate, s.fiberID from SpecObj as s where SpecObj.ra between # and # and SpecObj.dec between # and # order by SpecObj.ra"
+2019-12-18 08:02:00,5
+2019-12-18 08:03:00,5

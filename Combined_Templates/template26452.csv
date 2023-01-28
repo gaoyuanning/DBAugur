@@ -1,0 +1,2 @@
+1,"select A.plateid, A.mjd, A.fiberid, A.z, A.spectrotype, A.subclass, into mydb.New_candidates from galspecInfo as A B.nii_#_flux, B.h_alpha_flux, B.h_alpha_flux_err, B.nii_#_flux_err, into mydb.New_candidates from galspecline as B where A.z< # and log (B.nii_#_flux/B.h_alpha_flux) = #"
+2019-04-01 12:02:00,1

@@ -1,0 +1,2 @@
+2,"SELECT   id.allamID,id.ra1,id.dec1,id.ra2,id.dec2,id.allam_redshift1,id.allam_redshift2,   id.objID as objID_dr7,id.run as run_dr7,id.camcol as camcol_dr7,id.field as field_dr7,id.obj as obj_dr7,id.ra as ra_dr7,id.dec as dec_dr7,id.specObjID as specObjID_dr7,    p.objID,p.run,p.camcol,p.field,p.obj,p.ra,p.dec,p.specObjID into mydb.pmetric2 FROM mydb.MP2 as id   JOIN dr1#.PhotoObjAll as p ON p.run=id.run WHERE   p.camcol=id.camcol   AND p.field=id.field   AND p.obj=id.obj ORDER BY   id.allamID"
+2019-12-20 04:00:00,2

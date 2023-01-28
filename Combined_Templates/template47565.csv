@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec, s.z, g.lgm_tot_p5# FROM specObj as s, galSpecExtra as g WHERE (s.z < = # and s.z > = #) AND (g.lgm_tot_p5# < = # and g.lgm_tot_p5# > =#)"
+2019-06-23 19:08:00,1

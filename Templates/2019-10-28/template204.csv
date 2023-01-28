@@ -1,0 +1,2 @@
+1,"SELECT s.objID, s.ra, s.dec, s.type, s.modelMag_u, s.modelMag_g, s.modelMag_r, s.modelMag_i, s.modelMag_z FROM PhotoObj AS s WHERE ( ((s.ra between # and #) and (s.dec between # and #)) OR ((s.ra between # and #) and (s.dec between # and #)) OR ((s.ra between # and #) and (s.dec between # and #)) OR ((s.ra between # and #) and (s.dec between # and #)) OR ((s.ra between # and #) and (s.dec between # and #)) )and s.modelMag_r<#  and s.type=#"
+2019-10-28 15:49:00,1

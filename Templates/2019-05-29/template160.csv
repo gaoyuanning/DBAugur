@@ -1,0 +1,2 @@
+2,"select bestObjID,ra,dec from QsoBest,specObj where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-05-29 19:30:00,2

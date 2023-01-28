@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, l, b, clean, psfmag_u, psfmagerr_u, extinction_u, psfmag_g, psfmagerr_g, extinction_g, psfmag_r, psfmagerr_r, extinction_r, psfmag_i, psfmagerr_i, extinction_i, psfmag_z, psfmagerr_z, extinction_z FROM PhotoPrimary as p INTO mydb.footprint2_# where type = # AND ra > # and ra < = # AND b > = # and b < = # AND psfmagerr_r < # AND ( (flags_r & #) ! = #) AND ( (flags_r & #) = #) AND ( ((flags_r & #) = #) or (psfmagerr_r < = #) ) AND ( ((flags_r & #) = #) or (flags_r & #) = #)"
+2019-01-18 03:03:00,1

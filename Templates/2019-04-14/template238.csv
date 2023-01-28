@@ -1,0 +1,2 @@
+1,"SELECT TOP #    modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z, specClass, z, zErr FROM SpecPhoto WHERE     modelMag_u BETWEEN # AND #    AND modelMag_g BETWEEN # AND #    AND zerr BETWEEN # and #    AND specClass > # -- not UNKNOWN or STAR    AND specClass <> # -- not SKY    AND specClass <> # -- not STAR_LATE"
+2019-04-14 14:20:00,1

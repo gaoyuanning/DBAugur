@@ -1,0 +1,2 @@
+1,"select top # objID, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, s.class from PhotoObjAll as p left join specObjAll as s on p.objID=s.bestobjid"
+2019-03-25 15:43:00,1

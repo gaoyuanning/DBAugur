@@ -1,0 +1,2 @@
+1,"SELECT   r.lcgID, r.ra, r.dec, r.petroR5#_r, r.petroR9#_r, petroRad_r, m.lgm_tot_p5#, m.specsfr_tot_p5#, e.lgm_tot_p5#, e.specsfr_tot_p5#    INTO   myDB.data_gal    FROM   myDB.lista_all_galaxies as l, myDB.ratio_gal  as r, myDB.massa_ssfr_gal  as m, galSpecExtra as e    WHERE   r.ra = m.ra_#   m.specObjID = e.specObjID"
+2019-07-25 13:56:00,1

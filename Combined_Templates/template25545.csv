@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec, flags into mydb.MyTable_# from PhotoPrimaryDR7 WHERE (flags & #) = # AND (flags & #) = #"
+2019-03-29 13:48:00,1

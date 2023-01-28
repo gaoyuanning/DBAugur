@@ -1,0 +1,2 @@
+1,"SELECT TOP # specobjid, ra, dec, p_el_debiased, p_cs_debiased, uncertain     FROM zoospec     WHERE uncertain != #;"
+2019-07-26 18:17:00,1

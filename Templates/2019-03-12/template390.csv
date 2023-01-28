@@ -1,0 +1,2 @@
+1,"SELECT TOP #  cast(str(s.ra,#,#) as float) as ra,cast(str(s.[dec],#,#) as float) as dec  FROM ..SpecObj as s  WHERE s.zWarning = # AND (s.boss_target1 & (dbo.fBossTarget1(&&&)) != #)"
+2019-03-12 11:03:00,1

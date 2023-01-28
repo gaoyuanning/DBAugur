@@ -1,0 +1,2 @@
+2,"select    s.ra, s.dec, s.z,s.SpecObjID,s.bestObjID,g.oiii_#_flux, g.nii_#_flux,g.h_alpha_flux,g.h_beta_flux      from    SpecObjAll as s,     galSpecLine as g       into MyDB.Kauffmann_emission_lines2      where           g.specObjID=s.SpecObjID"
+2019-06-08 04:23:00,2

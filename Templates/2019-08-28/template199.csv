@@ -1,0 +1,2 @@
+1,"select top #  a.eid,j.[key] as jkey, max(j.value) as array   --,jj.*   , avg(cast (jj.value as real)) as ajj from dbo.Autorefraction a    cross apply openjson([Spherical_power_left__#]) j   cross apply openjson(j.value) jj group by eid,j.[key]   order by #,#"
+2019-08-28 13:54:00,1

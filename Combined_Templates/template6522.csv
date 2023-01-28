@@ -1,0 +1,9 @@
+8,"SELECT up_id, dbo.fGetNearestObjIdEq (up_ra, up_dec, up_sep) as objId FROM #upload WHERE dbo.fGetNearestObjIdEq (up_ra, up_dec, up_sep) IS NOT # SELECT TOP # p.ra, p.dec, p.run, p.rerun, p.camCol, p.field, p.obj FROM ..Star AS p JOIN #x AS x ON x.objID = p.objID JOIN #upload AS u ON u.up_id = x.up_id ORDER BY x.up_id"
+2019-01-28 16:54:00,1
+2019-01-30 00:41:00,1
+2019-05-26 11:09:00,1
+2019-05-26 11:39:00,1
+2019-09-10 08:59:00,1
+2019-10-10 02:43:00,1
+2019-10-11 22:42:00,1
+2019-12-20 09:17:00,1

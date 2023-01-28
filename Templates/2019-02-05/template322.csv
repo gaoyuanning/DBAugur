@@ -1,0 +1,2 @@
+1,"SELECT  class, count(*)   FROM SpecPhoto as s   JOIN 	emissionLinesPort as g ON s.specObjID = g.specObjID   WHERE     petroMag_r < #. and s.z > # and s.z < #  GROUP BY class"
+2019-02-05 10:54:00,1

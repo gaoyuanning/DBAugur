@@ -1,0 +1,2 @@
+1,SELECT * FROM sample_list where stable_id like &&&
+2019-04-29 17:43:00,1

@@ -1,0 +1,2 @@
+1,"select top # rv_teff, wash_ddo5#_giant_flag, reduction_id from specObj, apogeeObject, apogeeStar where class = #"
+2019-06-12 04:52:00,1

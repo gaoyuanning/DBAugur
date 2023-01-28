@@ -1,0 +1,2 @@
+2,"select mt.objID, ge.specObjID, ge.bptclass, gi.subclass from MyDB.bjMaxBCG mt, galSpecExtra ge, galSpecInfo gi where mt.specObjID = ge.specObjID and mt.specObjID = gi.specObjID"
+2019-09-02 12:10:00,2

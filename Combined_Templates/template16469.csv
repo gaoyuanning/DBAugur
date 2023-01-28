@@ -1,0 +1,5 @@
+4,"select p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, s.z, s1.veldisp from photoObj p, dbo.fGetNearbyObjEq (#, #, #) n, SpecObj s, SpecObjall s1 where p.objID = n.objID and s.bestObjID = p.objID and s.bestObjID = s1.bestobjID and p.type = # and s.z> # and s.z< #"
+2019-03-03 09:36:00,1
+2019-03-03 11:21:00,1
+2019-03-03 12:02:00,1
+2019-03-03 12:31:00,1

@@ -1,0 +1,8 @@
+13,"select p.objID, p.u, p.r, p.petroMag_u, p.petroMag_r, t.K_M_K2#FE, t.K_M_FE, t.K_M_C from Galaxy as p left outer join TwoMassXSC as t on p.objID = t.objID where p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=# OR p.objid=#"
+2019-11-23 02:58:00,2
+2019-11-23 02:59:00,3
+2019-11-23 03:00:00,1
+2019-11-23 03:01:00,3
+2019-11-23 03:02:00,1
+2019-11-23 03:03:00,2
+2019-11-23 03:04:00,1

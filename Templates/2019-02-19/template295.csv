@@ -1,0 +1,2 @@
+1,"SELECT top # row_id, message_id, message_type, host, application, method, user_id, time, client_IP, task_name, CONVERT(VARCHAR(MAX), session_id) AS session_id FROM Messages"
+2019-02-19 14:02:00,1

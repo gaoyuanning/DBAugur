@@ -1,0 +1,4 @@
+3,SELECT * into mydb.MyTable_# from PhotoObj AS P
+2019-04-24 14:02:00,1
+2019-04-24 14:20:00,1
+2019-04-24 14:21:00,1

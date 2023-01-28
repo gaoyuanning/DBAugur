@@ -1,0 +1,2 @@
+1,"SELECT TOP #    p.ObjID as ObjID,    p.cModelMag_u as Mag_u,    p.cModelMag_g as Mag_g,    p.cModelMag_r as Mag_r,    p.cModelMag_i as Mag_i,    p.cModelMag_z as Mag_z,    q.z as z,    q.zErr as zErr,    q.bestFitTemplateID as TemplateID into mydb.DR1#_#M from DR1#.GalaxyTag p JOIN DR1#.Photoz q on p.ObjID=q.ObjID"
+2019-01-30 00:52:00,1

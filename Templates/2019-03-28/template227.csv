@@ -1,0 +1,4 @@
+3,"select top # S.ObjID, S.z, &&&, L2.ew, L2.ewErr, L2.continuum FROM SpecPhoto AS S JOIN SpecLine AS L2 ON S.SpecObjID = L2.SpecObjID WHERE (specclass=# or specclass=#) and L2.LineId = # and S.zconf > .# and S.z < .#"
+2019-03-28 18:47:00,1
+2019-03-28 19:05:00,1
+2019-03-28 19:10:00,1

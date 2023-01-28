@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.plate, s.mjd, s.fiberid FROM SpecObj AS s WHERE s.z BETWEEN # and # AND instrument = #"
+2019-04-29 10:47:00,1

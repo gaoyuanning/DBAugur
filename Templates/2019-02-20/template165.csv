@@ -1,0 +1,11 @@
+57,"SELECT  p.specobjId,  sp.ra, sp.dec, sp.z as redshift,  sp.modelMag_g as g, sp.modelMagerr_g as err_g,   sp.modelMag_i as i, sp.modelMagerr_i as err_i,  gs.h_alpha_eqw, gs.oii_#_eqw,   p.aperFlux7_g, p.aperFlux7Ivar_g as var_g,  p.aperFlux7_i, p.aperFlux7Ivar_i as var_i    FROM GalSpecLine AS gs   JOIN SpecPhoto AS sp ON sp.specobjid = gs.specobjid   JOIN dbo.fGetNearbySpecObjEq(#,#,#) AS GN  ON GN.specobjID = gs.specobjid  JOIN Galaxy as gal ON gal.specobjId = gs.specobjid  JOIN PhotoObjAll as p ON p.specObjId = gs.specobjID    WHERE   h_alpha_eqw between # and #   and oii_#_eqw between # and #   and sp.modelMag_g-sp.modelMag_i between # and #   and sp.z between # and #   and sp.modelMag_i-#*log1#(#E+#*sp.z) < #"
+2019-02-20 19:16:00,3
+2019-02-20 19:17:00,1
+2019-02-20 19:18:00,3
+2019-02-20 19:19:00,4
+2019-02-20 19:20:00,5
+2019-02-20 19:21:00,6
+2019-02-20 19:22:00,10
+2019-02-20 19:23:00,10
+2019-02-20 19:24:00,10
+2019-02-20 19:25:00,5

@@ -1,0 +1,3 @@
+2,"SELECT TOP # G.modelFlux_z, G.modelFluxIvar_u, G.modelFluxIvar_g, G.modelFluxIvar_r, G.modelFluxIvar_i, G.modelFluxIvar_z, GN.distance FROM dbo.fGetNearbyObjEq (#, #, #) AS GN JOIN Galaxy AS G ON GN.objID = G.objID JOIN PhotoTag AS pt ON pt.objID = G.objID JOIN Photoz AS pz ON GN.objID = pz.objID ORDER by distance"
+2019-04-03 08:26:00,1
+2019-04-03 08:31:00,1

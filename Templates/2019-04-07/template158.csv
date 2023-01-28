@@ -1,0 +1,7 @@
+6,"SELECT TOP #   objID, ra, dec,   sqrt( power(rowv,#) + power(colv, #) ) as velocity   FROM PhotoObj   WHERE   (power(rowv,#) + power(colv, #)) > #   AND rowv != # and colv != #"
+2019-04-07 12:20:00,1
+2019-04-07 14:49:00,1
+2019-04-07 16:48:00,1
+2019-04-07 16:50:00,1
+2019-04-07 16:53:00,1
+2019-04-07 16:58:00,1

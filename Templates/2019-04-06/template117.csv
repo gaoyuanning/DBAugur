@@ -1,0 +1,3 @@
+4,"SELECT top # objid, ra, dec, z, zErr as z_err,  dered_u as mag_u, dered_g as mag_g, dered_r as mag_r, dered_i as mag_i, dered_z as mag_z, modelMagErr_u as magerr_u, modelMagErr_g as magerr_r, modelMagErr_i as magerr_i, modelMagErr_z as magerr_z, flags FROM SpecPhoto  WHERE   ((class = &&&) AND (zWarning = #)) ORDER BY NEWID()"
+2019-04-06 18:32:00,3
+2019-04-06 18:33:00,1

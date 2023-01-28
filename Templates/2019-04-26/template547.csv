@@ -1,0 +1,2 @@
+1,"SELECT TOP #    run,	      camCol,   field,   objID,   type,   rowC, colC, rowV, colV, rowVErr, colVErr,   flags,   psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z,   psfMagErr_u, psfMagErr_g, psfMagErr_r, psfMagErr_i, psfMagErr_z into mydb.MyTable_# from PhotoObjAll WHERE	 ((rowv * rowv) / (rowvErr * rowvErr) +    (colv * colv) / (colvErr * colvErr) > #) And type=#"
+2019-04-26 07:44:00,1

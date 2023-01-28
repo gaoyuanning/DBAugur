@@ -1,0 +1,802 @@
+SELECT TOP # p.objid,  p.run, p.rerun, p.camcol, p.field, p.obj,  p.type, p.ra, p.dec, p.u,p.g,p.r,p.i,p.z,  p.Err_u, p.Err_g, p.Err_r,p.Err_i,p.Err_z  FROM fGetNearbyObjEq(#,#,#) n, PhotoPrimary p  WHERE n.objID=p.objID
+select s.ObjID,s.class,s.subclass,s.z,s.zErr,s.type from SpecPhoto s, dbo.fGetNearbyObjEq(#,#,#) n where s.ObjID = n.ObjID AND s.mode = #
+select s.ObjID, s.ra,s.dec,s.deVRad_r,s.deVAB_r,s.raErr,s.decErr,s.type,s.modelMag_u,s.modelMagErr_u,s.modelMag_g,s.modelMagErr_g,s.modelMag_r,s.modelMagErr_r,s.modelMag_i,s.modelMagErr_i,s.modelMag_z,s.modelMagErr_z from PhotoPrimary s, dbo.fGetNearbyObjEq(#,#,#) n where s.ObjID = n.ObjID AND s.mode = #
+SELECT  top #   p.objID, p.run, p.rerun, p.camcol, p.field, p.obj,    p.type, p.ra, p.dec, p.u,p.g,p.r,p.i,p.z,    p.Err_u, p.Err_g, p.Err_r,p.Err_i,p.Err_z    FROM fGetNearbyObjEq(#,#,#) n, PhotoPrimary p    WHERE n.objID=p.objID
+SELECT  top # &&& + cast(p.objId as varchar(#)) + &&& + cast(p.objId as varchar(#)) + &&& as objID,    p.run, p.rerun, p.camcol, p.field, p.obj,    p.type, p.ra, p.dec, p.u,p.g,p.r,p.i,p.z,    p.Err_u, p.Err_g, p.Err_r,p.Err_i,p.Err_z    FROM fGetNearbyObjEq(#,#,#) n, PhotoPrimary p    WHERE n.objID=p.objID
+SELECT  top # &&& + cast(p.objId as varchar(#)) + &&& + cast(p.objId as varchar(#)) + &&& as objID,    p.run, p.rerun, p.camcol, p.field, p.obj,    p.type, p.ra, p.dec, p.u,p.g,p.r,p.i,p.z,    p.Err_u, p.Err_g, p.Err_r,p.Err_i,p.Err_z    FROM fGetNearbyObjEq(#,#,#) n JOIN PhotoPrimary p ON n.objID=p.objID
+select * from PhotoObjAll where objId=#
+select * from Frame where fieldId=#
+SELECT  &&& + cast(p.objId as varchar(#)) + &&& + cast(p.objId as varchar(#)) + &&& as objID,    p.run, p.rerun, p.camcol, p.field, p.obj,    p.type, p.ra, p.dec, p.u,p.g,p.r,p.i,p.z,    p.Err_u, p.Err_g, p.Err_r,p.Err_i,p.Err_z    FROM fGetNearbyObjEq(#,#,#) n, PhotoPrimary p    WHERE n.objID=p.objID
+SELECT  &&& + cast(p.apstar_id as varchar(#)) + &&& + cast(p.apstar_id as varchar(#)) + &&& as apstar_id,    p.apogee_id,p.ra, p.dec, p.glon, p.glat,    p.vhelio_avg,p.vscatter,    a.teff,a.logg,a.metals    FROM apogeeStar p    JOIN fGetNearbyApogeeStarEq(#,#,#) n on p.apstar_id=n.apstar_id    JOIN aspcapStar a on a.apstar_id = p.apstar_id
+select name, type from DBObjects where type=&&& and name NOT IN (&&&, &&&) order by name
+select name, type from DBObjects where type=&&& and access=&&& and name NOT IN (&&&, &&&) order by name
+select name, type from DBObjects where name like &&& or name like &&& order by name
+select description from DBObjects where name=&&&
+select text from DBObjects where name=&&&
+select * from dbo.fDocColumns(&&&)
+select distinct parent from DBViewCols where viewname=&&&
+select [enum], [name], [type], [length], [unit], [ucd], [description] from dbo.fDocColumns(&&&) ORDER BY [columnID]
+select name, description from DBObjects where access=&&& and type=&&& order by name
+select * from SpecLine where specObjId=#
+select p.run, p.camcol, p.field from STAR as p   inner join dbo.fGetNearbyObjEq(#,#,#) as N on p.objid = N.objid
+select p.ra, p.dec, p.z, p.Err_z from STAR as p inner join dbo.fGetNearbyObjEq(#,#,#) as N on p.objid = N.objid where ((p.flags & #) != #) AND ((p.flags & #) = #) AND (((p.flags & #) = #) AND (p.psfmagerr_z <= #)) AND (((p.flags & #) = #) or (p.flags & #) = #)
+SELECT u.up_up_id as up_id, dbo.fDistanceEq(u.up_ra,u.up_dec,p.ra,p.dec) as distance,p.ra,p.dec,p.raErr,p.decErr,p.objId,p.run,p.rerun,p.camcol,p.field,dbo.fPhotoModeN(mode) as mode,nChild,dbo.fPhotoTypeN(p.type) as type,clean,flags,psfMag_u,psfMag_g,psfMag_r,psfMag_i,psfMag_z,psfMagErr_u,psfMagErr_g,psfMagErr_r,psfMagErr_i,psfMagErr_z,modelMag_u,modelMag_g,modelMag_r,modelMag_i,modelMag_z,modelMagErr_u,modelMagErr_g,modelMagErr_r,modelMagErr_i,modelMagErr_z,extinction_u,extinction_g,extinction_r,extinction_i,extinction_z,mjd FROM #upload u JOIN #x x ON x.up_id = u.up_id JOIN PhotoObj p ON p.objID = x.objID ORDER BY u.up_id,distance
+select p.ra, p.dec, p.i, p.Err_i from STAR as p inner join dbo.fGetNearbyObjEq(#,#,#) as N on p.objid = N.objid where ((p.flags & #) != #) AND ((p.flags & #) = #) AND (((p.flags & #) = #) AND (p.psfmagerr_i <= #)) AND (((p.flags & #) = #) or (p.flags & #) = #)
+select p.ra, p.dec, p.r, p.Err_r from STAR as p inner join dbo.fGetNearbyObjEq(#,#,#) as N on p.objid = N.objid where ((p.flags & #) != #) AND ((p.flags & #) = #) AND (((p.flags & #) = #) AND (p.psfmagerr_r <= #)) AND (((p.flags & #) = #) or (p.flags & #) = #)
+select p.ra, p.dec, p.g, p.Err_g from STAR as p inner join dbo.fGetNearbyObjEq(#,#,#) as N on p.objid = N.objid where ((p.flags & #) != #) AND ((p.flags & #) = #) AND (((p.flags & #) = #) AND (p.psfmagerr_g <= #)) AND (((p.flags & #) = #) or (p.flags & #) = #)
+SELECT TOP #  p.run, p.rerun, p.camcol, p.field  FROM PhotoObjDR7 AS p  WHERE p.dr7objid=#
+select * from PhotoTag where objId=#
+SELECT p.ra,p.dec,p.raErr,p.decErr,p.objId,p.run,p.rerun,p.camcol,p.field,dbo.fPhotoModeN(mode) as mode,nChild,dbo.fPhotoTypeN(p.type) as type,clean,flags,psfMag_u,psfMag_g,psfMag_r,psfMag_i,psfMag_z,psfMagErr_u,psfMagErr_g,psfMagErr_r,psfMagErr_i,psfMagErr_z,modelMag_u,modelMag_g,modelMag_r,modelMag_i,modelMag_z,modelMagErr_u,modelMagErr_g,modelMagErr_r,modelMagErr_i,modelMagErr_z,extinction_u,extinction_g,extinction_r,extinction_i,extinction_z,mjd,distance FROM PhotoObj as p JOIN dbo.fGetNearbyObjEq(#,#,#) AS R ON P.objID=R.objID ORDER BY distance
+select * from fDocFunctionParams(&&&)
+select ra,dec from specObj where  ra BETWEEN # and # AND dec BETWEEN # and # AND specClass #
+select ra,dec from specObj where  ra BETWEEN # and # AND dec BETWEEN # and # AND specClass EQUAL #
+select ra,dec from specObj where  ra BETWEEN # and # AND dec BETWEEN # and #
+select ra,dec from specObj where  ra BETWEEN # and # AND dec BETWEEN # and # AND
+select ra,dec,specClass from specObj where ra BETWEEN # and # AND dec BETWEEN # and # AND SpecClass #
+select ra,dec,specClass from specObj where ra BETWEEN # and # AND dec BETWEEN # and # AND fSpecClass #
+select ra,dec,specClass from specObj where ra BETWEEN # and # AND dec BETWEEN # and # AND fSpecClassN #
+select * from Photoz where objid=#
+select name, type, description from DBObjects where  type in (&&&,&&&) and UPPER(name) like &&&
+select ra,dec,specClass from specObj where ra BETWEEN # and # AND dec BETWEEN # and # AND specClass #
+select ra,dec,specClass from specObj where ra BETWEEN # and # AND dec BETWEEN # and # where specClass #
+select ra,dec,specClass from specObj where ra BETWEEN # and # AND dec BETWEEN # and # specClass #
+select * from PhotoObj where objId=#
+select ra,dec,specClass from specObj where ra BETWEEN # and # AND dec BETWEEN # and #
+select ra,dec,specClass from specObj where ra BETWEEN # and # AND dec BETWEEN # and # specClass GALAXY
+select ra,dec from specObj where ra BETWEEN # and # AND dec BETWEEN # and # from specObj where specClass GALAXY
+select * from Field where fieldId=#
+select ra,dec from specObj where ra BETWEEN # and # AND dec BETWEEN # and # specClass GALAXY
+select * from PhotoZ where objId=#
+select ra,dec from specObj where ra BETWEEN # and # AND dec BETWEEN # and # fSpecClassN GALAXY
+select ra,dec from specObj where ra BETWEEN # and # AND dec BETWEEN # and # fSpecClass GALAXY
+select * from PhotozRF where objid=#
+select ra,dec from specObj where ra BETWEEN # and # AND dec BETWEEN # and #
+select * from SpecLineIndex where specObjId=#
+SELECT TOP #  s.plate,s.mjd,s.fiberid  FROM ..SpecObj as s  JOIN PhotoObj AS p ON s.bestobjid=p.objid  WHERE (p.i - p.z) > # AND (p.i - p.z) < # AND p.u > # AND s.zWarning = #
+SELECT DISTINCT p.petroMag_i FROM PhotoObjAll AS p WHERE ((p.ra between # and #) and (p.dec between # and #))
+SELECT DISTINCT p.petroMag_i FROM PhotoObjAll AS p JOIN SpecObjAll s ON p.objID = s.bestObjID WHERE ((p.ra between # and #) and (p.dec between # and #))
+SELECT ra, dec FROM star WHERE (ra between # and #) and (dec between # and #) and (petroMag_g < #) and (petroMag_g>#)
+SELECT TOP # specObjID, bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& ORDER BY newid()
+SELECT DISTINCT p.ra, p.dec, p.specobjid, p.run2d, p.instrument, p.petroMag_i FROM PhotoObjAll AS p JOIN SpecObjAll s ON p.objID = s.bestObjID WHERE ((p.ra between # and #) and (p.dec between # and #))
+SELECT DISTINCT p.ra, p.dec, p.objid, p.run, p.rerun, p.camcol, p.field, p.z, p.plate, p.mjd, p.fiberID, p.specobjid, p.run2d, p.instrument, p.petroMag_i FROM PhotoObjAll AS p JOIN SpecObjAll s ON p.objID = s.bestObjID WHERE ((p.ra between # and #) and (p.dec between # and #))
+SELECT  top # p.objid,    p.run, p.rerun, p.camcol, p.field, p.obj,    p.type, p.ra, p.dec, p.u,p.g,p.r,p.i,p.z,    p.Err_u, p.Err_g, p.Err_r,p.Err_i,p.Err_z    FROM fGetNearbyObjEq(#,#,#) n, PhotoPrimary p    WHERE n.objID=p.objID  AND p.u BETWEEN # AND #
+SELECT DISTINCT p.ra, p.dec, p.objid, p.run, p.rerun, p.camcol, p.field, s.z, s.plate, s.mjd, s.fiberID, s.specobjid, s.run2d, s.instrument FROM PhotoObjAll AS p JOIN SpecObjAll s ON p.objID = s.bestObjID WHERE ((p.ra between # and #) and (p.dec between # and #))
+SELECT p.ra, p.dec, p.u, p.Err_u, p.g, p.Err_g, p.r, p.Err_r, p.i, p.Err_i, p.z, p.Err_z FROM fGetNearbyObjEq(#,#,#) n, PhotoPrimary p WHERE n.objID = p.objID AND p.type = #
+SELECT objID, ra, dec  FROM PhotoObj  WHERE (ra between # and #) and (dec between # and #)
+SELECT TOP # t.thingid, t.ndetect, d.objid, p.psfMag_r, p.psfMagerr_r  FROM thingIndex AS t JOIN detectionindex AS d ON t.thingid = d.thingid JOIN Star AS p ON d.objid = p.objid WHERE t.ndetect > #
+SELECT TOP #  specobj.plate as specobj_plate, specobj.mjd as specobj_mjd,  specobj.fiberid as specobj_fiberid,   specobj.ra as specobj_ra, specobj.dec as specobj_dec,   star.apstar_id, star.ra as star_ra, star.dec as star_dec FROM apogeeStar AS star   CROSS APPLY dbo.fGetNearestSpecObjEq( star.ra, star.dec, #) AS near   JOIN specobj ON near.specobjid=specobj.specobjid
+SELECT DISTINCT p.ra, p.dec, p.objid, p.run, p.rerun, p.camcol, p.field FROM PhotoObjAll AS p WHERE ((p.ra between # and #) and (p.dec between # and #))
+SELECT DISTINCT p.run, p.rerun, p.camcol, p.field FROM PhotoObjAll AS p WHERE ((p.ra between # and #) and (p.dec between # and #))
+select top # p.ra, p.dec, p.deVRad_r, q.z from galaxy p, dbo.fgetNearByObjEq(#,#,#) n, galSpecInfo q where p.objid=n.objid and p.specObjID=q.specObjID and p.specObjID<># and q.z># and abs(#*(#-q.z))<#
+SELECT p.objid, p.ra, p.dec, p.dered_r, p.clean, s.z, p.petroR9#_r  FROM PhotoPrimary AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid  WHERE p.type=# and s.class=&&& and s.z <=# and s.z >=# and p.dered_r >=# and p.dered_r <=#
+SELECT p.objid, p.ra, p.dec, p.dered_r, p.clean, s.z, p.petroR9#_r  FROM PhotoPrimary AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid  WHERE p.type=# and s.class=galaxy and s.z <=# and s.z >=# and p.dered_r >=# and p.dered_r <=#
+select * from sppLines where specObjId=#
+select [indexMapID],[code],[type],[tableName],[fieldList],[foreignKey] from IndexMap  where tableName=&&& order by [indexMapId]
+SELECT TOP #   objID, ra, dec,   sqrt( power(rowv,#) + power(colv, #) ) as velocity   FROM PhotoObj   WHERE   (power(rowv,#) + power(colv, #)) > #   AND rowv != # and colv != #
+SELECT COUNT(z)
+SELECT  p.objid,    p.run, p.rerun, p.camcol, p.field, p.obj,    p.type, p.ra, p.dec, p.u,p.g,p.r,p.i,p.z,    p.Err_u, p.Err_g, p.Err_r,p.Err_i,p.Err_z    FROM fGetNearbyObjEq(#,#,#) n, PhotoPrimary p    WHERE n.objID=p.objID
+SELECT TOP #  s.plate,s.mjd,s.fiberid  FROM ..SpecObj as s  JOIN dbo.fGetNearbySpecObjEq(#,#,#) AS b ON b.SpecobjID = S.SpecobjID  WHERE s.zWarning = #
+SELECT DISTINCT p.objID, p.ra, p.dec, p.raErr, p.decErr, p.fiberMag_u, p.fiberMagErr_u, p.fiberMag_g, p.fiberMagErr_g, p.fiberMag_r, p.fiberMagErr_r, p.fiberMag_i, p.fiberMagErr_i, p.fiberMag_z, p.fiberMagErr_z, p.mode, p.clean, p.type FROM PhotoObjAll AS p WHERE ((p.ra between # and #) and (p.dec between # and #))
+SELECT TOP # s.ra, s.dec, s.psfmag_g, (s.psfmag_g - s.psfmag_r) as gmr,  pm.pmra, pm.pmdec, pm.pmraerr, pm.pmdecerr, pm.pml, pm.pmb FROM star s  JOIN propermotions pm ON s.objid = pm.objid WHERE  s.ra between #-# and #+#  and s.dec between #-# and #+#
+select description from DataConstants where field=&&&  and [name]=&&&
+select name, type, description from DBObjects where  type in (&&&,&&&) and access=&&& and UPPER(name) like &&&
+select * from emissionLinesPort where specObjId=#
+SELECT TOP # ra,dec FROM PhotoTag WHERE  modelMag_g># AND modelMag_g<# AND type=# order by modelMag_g
+SELECT  top #   p.objID, p.run, p.rerun, p.camcol, p.field, p.obj,    p.type, p.ra, p.dec, p.u,p.g,p.r,p.i,p.z,    p.Err_u, p.Err_g, p.Err_r,p.Err_i,p.Err_z    FROM fGetNearbyObjEq(#,#,#) n, PhotoPrimary p    WHERE n.objID=p.objID  AND p.u BETWEEN # AND #
+SELECT   p.objid, p.ra, p.dec, p.r, p.err_r, p.extinction_r,  s.z, s.zErr FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   p.ra BETWEEN # and #  AND p.dec BETWEEN # and #  AND s.z BETWEEN # and #  AND class=&&&
+SELECT   count(s.z),  p.objid, p.ra, p.dec, p.r, p.err_r, p.extinction_r,  s.z, s.zErr FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   p.ra BETWEEN # and #  AND p.dec BETWEEN # and #  AND s.z BETWEEN # and #  AND class=&&&
+SELECT TOP # fld.run, fld.avg_sky_muJy, fld.runarea AS area, ISNULL(fp.nfirstmatch,#)  FROM (   SELECT run, sum(primaryArea) AS runarea,  #e6*avg(power(cast(#. as float),#*sky_r)) as avg_sky_muJy  FROM Field  GROUP BY run  ) AS fld  LEFT OUTER JOIN (   SELECT p.run, count(*) AS nfirstmatch  FROM FIRST AS fm  INNER JOIN photoprimary as p  ON p.objid=fm.objid  GROUP BY p.run  ) AS fp  ON fld.run=fp.run  ORDER BY fld.run
+select ra, Dec, modelMag_g from PhotoTag where STAR
+SELECT top # modelMag_g, ra, dec FROM PhotoTag type=star
+SELECT TOP # objID, cModelMag_g   FROM Galaxy   WHERE   cModelMag_g between # and #
+select top # ra, dec, z from SpecPhoto where z># order by z ASC
+select ra, Dec, modelMag_g from PhotoTag where = #   and (modelMag_u-modelMag_g<#)  and (Dec between # and #) order by modelMag_g
+SELECT top # modelMag_g, ra, dec FROM PhotoTag type = star
+select ra, Dec, modelMag_g from PhotoTag where =#   and (modelMag_u-modelMag_g<#)  and (Dec between # and #) order by modelMag_g
+select top # ra, dec from SpecPhoto where z># order by z ASC
+select mjd,plate from plateX where plate <= # order by mjd
+select ra, Dec, modelMag_g from PhotoTag where class=STAR
+select class, count(z) as num_redshift from specObj where z BETWEEN # and # group by class
+select top # modelMag_g,ra,dec from PhotoTag where probPSF=# AND modelMag_g<# AND modelMag_g>#
+select ra, Dec, modelMag_g from PhotoTag where class = STAR
+SELECT top # modelMag_g, ra, dec FROM PhotoTag WHERE probPSF=#  AND modelmag_g<#
+select ra, Dec, modelMag_g,  from PhotoTag where class = STAR
+select count(z) as num_redshift
+select ra, Dec, modelMag_g, z as redshift from PhotoTag where Class = STAR
+SELECT top # modelMag_g, ra, dec FROM PhotoTag WHERE probPSF=#  AND model mag g<#
+select top # modelMag_g,ra,dec from PhotoTag where probPSF=# AND modelMag_g<#
+select ra, Dec, modelMag_g from PhotoTag where Class = STAR
+select ra, dec, modelMag_g, modelMag_u, modelMag_r, modelMag_u - modelMag_g as UG, modelMag_g - modelMag_r as GR from StarTag where (ra between # and #) and (dec between # and #) and (modelMag_g between # and #)
+select (modelMag_u-modelMag_g) as ug, (ModelMag_g - modelMag_r) as gr from StarTag where modelMag_g BETWEEN # and #  and ra BETWEEN # and # and dec BETWEEN # and #
+select top # s.specObjID, ph.u, ph.g, ph.r, ph.i, ph.z s.z,  pl.plateID,  s.fiberID from photoObj ph JOIN specObj s ON s.bestObjID = ph.ObjID JOIN plateX pl ON pl.plateID = s.plateID where g BETWEEN # and #  AND r < # AND class = galaxy&&&
+select top # ra, Dec, modelMag_g from PhotoTag where Class = STAR
+SELECT top #, ra dec modelMag_g FROM Phototag
+select ra, dec, modelMag_g, modelMag_u, modelMag_r, modelMag_u - modelMag_g, modelMag_g - modelMag_r from StarTag where (ra between # and #) and (dec between # and #) and (modelMag_g between # and #)
+select (modelMag_u-modelMag_g), (ModelMag_g - modelMag_r) from StarTag where modelMag_g BETWEEN # and #  and ra BETWEEN # and # and dec BETWEEN # and #
+SELECT top # ra dec modelMag_g
+SELECT top #. ra dec modelMag_g
+select top # ra, dec, modelMag_g from PhotoTag where Class = STAR
+SELECT TOP #  ra,dec,modelMag_g FROM PhotoTag WHERE (type=#) AND (modelMag_g between # and #) order by modelMag_g
+select ra, dec, modelMag_g, modelMag_u, modelMag_r from StarTag where (ra between # and #) and (dec between # and #) and (modelMag_g between # and #) order by modelMag_u - modelMag_g, modelMag_g - modelMag_r
+SELECT TOP # objID
+select top # ra, dec, modelMag_g from Phototag where type = # and modelMag_g >#  and modelMag_g <# order by modelMag_g
+select top # modelMag_g,ra,dec from PhotoTag where probPSF=#
+select ra,dec from specObj where ra BETWEEN # and # AND dec BETWEEN # and # AND class=&&&
+SELECT top # x.plate, x.mjd, s.fiberID, p.modelMag_u, p.modelMag_g,  p.modelMag_r, p.modelMag_i, p.modelMag_z, p.ra, p.dec, s.z, p.ObjID FROM PhotoObj p JOIN specObj s ON s.bestObjID=p.objID JOIN plateX x ON x.plateID=s.plateID WHERE s.class = &&& AND  s.zWarning = # and s.z between # and #
+select ra, dec, modelMag_g, modelMag_u, modelMag_r from StarTag where and (ra between # and #) and (dec between # and #) and (modelMag_g between # and #) order by modelMag_u - modelMag_g, modelMag_g - modelMag_r
+select top # modelMag_g,ra,dec from PhotoTag
+select name, description from DBObjects where access=&&& and type=&&& and access=&&& order by name
+select top # ra, dec, modelMag_g from Phototag where type = # order by modelMag_g
+select ra, dec, modelMag_g, modelMag_u, modelMag_r from StarTag where class = star
+select top # ra, dec, modelMag_g from PhotoTag where type = # and modelMag_g > # order by modelMag_g
+SELECT TOP # p.run,p.rerun,p.camCol,p.field,p.obj FROM BESTDR7..Galaxy AS p 	JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = p.objID
+SELECT TOP # p.run,p.rerun,p.camCol,p.field,p.obj FROM BESTDR7..PhotoObj AS p 	JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = p.objID WHERE  ( p.type = # OR p.type = #)
+SELECT TOP # p.run,p.rerun,p.camCol,p.field,p.obj FROM BESTDR7..Star AS p 	JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = p.objID
+select top # modelMag_g, ra, dec, modelMag_u, modelMag_r from StarTag where ra between # and # and dec between # and # and modelmag_g between # and #
+select top # ra, dec, modelMag_g from PhotoTag where class = # and modelMag_g > # order by modelMag_g
+SELECT TOP #  ra,dec,modelMag_g,modelMag_u,modelMag_r FROM StarTag WHERE (modelMag_g between # and #) and (ra between # and #) and (dec between # and #)
+select top # modelMag_g, ra, dec, modelMag_u, modelMag_r from StarTag where ra between # and # and dec between # and #
+select top # modelMag_g,ra,dec from PhotoTag where type=STAR
+select top # modelMag_g, ra, dec from StarTag where ra between # and # and dec between # and #
+select top # ra, dec, modelMag_g from PhotoTag where class = star and modelMag_g > #
+select top # ra, dec, modelMag_g from PhotoTag where modelMag_g > # order by modelMag_g
+select ra, dec, ObjID, u, g, r, i, z from galaxy where ra BETWEEN # and # AND g < # AND u - g > #
+SELECT TOP #  ra,dec,modelMag_g FROM PhotoTag WHERE class=STAR
+select modelMag_g, ra, dec from StarTag where class =star
+select top # ra, dec, modelMag_g from  PhotoTag where class = &&&
+select ra, dec, ObjID, modelmag_u, modelmag_g, modelmag_r modelmag_i, modelmag_z from PhotoObj where ra BETWEEN # and # AND g < # AND u - g > #
+select max(modelMag_g) as max_modelMag_g,ra,dec from PhotoTag where class=STAR AND run=#
+select ra, dec, bestObjID, modelmag_u, modelmag_g, modelmag_r modelmag_i, modelmag_z from PhotoObj where ra BETWEEN # and # AND g < # AND u - g > #
+select top # ra, dec, modelMag_g from SpecPhoto where class = star and modelMag_g > #
+select top # ra, dec, modelMag_g from phototag where class = star and modelMag_g > #
+SELECT TOP #  ra,dec,modelMag_g FROM PhotoTag
+select type as xcol, petroMag_r as ycol from MyTable
+select  	r.run, r.rerun, r.camcol, r.field, f.fieldId, r.stripe, r.strip,  	r.ra, r.dec, r.raMin, r.raMax, r.decMin, r.decMax,  	r.mu, r.nu, r.incl, r.node, 	r.a, r.b, r.c, r.d, r.e, r.f,  	f.quality, 	f.a_u, f.b_u, f.c_u, f.d_u, f.e_u, f.f_u, 	f.a_g, f.b_g, f.c_g, f.d_g, f.e_g, f.f_g, 	f.a_r, f.b_r, f.c_r, f.d_r, f.e_r, f.f_r, 	f.a_i, f.b_i, f.c_i, f.d_i, f.e_i, f.f_i, 	f.a_z, f.b_z, f.c_z, f.d_z, f.e_z, f.f_z,   dbo.fGetUrlFitsCFrame(f.fieldId,&&&) as u_url, 	dbo.fGetUrlFitsCFrame(f.fieldId,&&&) as g_url, 	dbo.fGetUrlFitsCFrame(f.fieldId,&&&) as r_url, 	dbo.fGetUrlFitsCFrame(f.fieldId,&&&) as i_url, 	dbo.fGetUrlFitsCFrame(f.fieldId,&&&) as z_url   from dbo.fGetNearbyFrameEq(#,#,#,#) n, Frame r, Field f   where f.fieldId=r.fieldId and r.fieldId=n.fieldId and r.zoom=#
+select top # ra, dec, modelMag_g from phototag where modelMag_g > # order by modelMag_g
+select top # ra,dec from PhotoTag where class=STAR
+select top # ra, dec, modelMag_g from PhotoTag where class = STAR and modelMag_g > #
+select top # * from [MyTable]
+select top # ra, dec, modelMag_g from  PhotoTag order by modelMag_g
+SELECT ALL targetRa, targetDec,   targetPsfMag_u,   targetPsfMag_g,   targetPsfMag_r,   targetPsfMag_i,   targetPsfMag_z,   targetInsideMask,   targetPrimTarget,   targetFieldID,   targetFieldQuality,   targetSectorID,   TargetQsoTargeted into mydb.MyTable_# from DR5.QsoTarget
+select top # ra,dec,modelMag_u,modelMag_g,modelMag_r, modelMag_i,modelMag_z,objID from photoObj where type = # AND modelmag_u-modelmag_r < .#
+select top # z,ra,dec,bestObjID from specObj where (class = &&& or class = &&&) AND z > # AND zWarning = #
+select top # ra, dec from PhotoTag where class = STAR
+select top # z,ra,dec,bestObjID from specObj where class = &&& AND z > # AND zWarning = #
+SELECT TOP # objID, u,g,r,i,u-g, r-i, g-r, type, petroMag_u, petroMag_g, petroMag_r, petroMag_i, petroMag_z, petroRad_u, petroRad_g, petroRad_i, petroRad_z,s.z, zErr into mydb.MyTable from Galaxy AS p   JOIN SpecObj AS s ON s.bestObjID=p.objID WHERE    r < #	   AND z >#
+SELECT TOP # objID, u,g,r,i,u-g, r-i, g-r, type, petroMag_u, petroMag_g, petroMag_r, petroMag_i, petroMag_z, petroRad_u, petroRad_g, petroRad_i, petroRad_z,s.z, zErr FROM Galaxy AS p   JOIN SpecObj AS s ON s.bestObjID=p.objID WHERE    r < #	   AND z >#
+SELECT BOTTOM #  ra,dec,modelMag_g FROM PhotoTag
+select bottom # ra, dec, modelMag_g from  PhotoTag
+select top # ra, dec from PhotoTag order by modelMag_g ASC
+select top # ra, dec, modelMag_g from  PhotoTag
+SELECT TOP # objID, u,g,r,i,u-g, r-i, g-r, type, petroMag_u, petroMag_g, petroMag_r, petroMag_i, petroMag_z, petroRad_u, petroRad_g, petroRad_i, petroRad_z,z, zErr into mydb.MyTable from Galaxy AS p   JOIN SpecObj AS s ON s.bestObjID=p.objID WHERE    r < #	   AND z >#
+SELECT TOP # objID, u,g,r,i,u-g, r-i, g-r, type, petroMag_u, petroMag_g, petroMag_r, petroMag_i, petroMag_z, petroRad_u, petroRad_g, petroRad_i, petroRad_z,z, zErr FROM Galaxy AS p   JOIN SpecObj AS s ON s.bestObjID=p.objID WHERE    r < #	   AND z >#
+select top # modelMag_g, ra, dec from PhotoTag where modelMag_g<# order by modelMag_g ASC
+select top # ra, dec, modelMAg_g from  PhotoTag order by modelMag_g
+select top # ra, dec, modelMAg_g from  PhotoTag
+SELECT   p.objid,p.ra,p.dec,p.q_r, p.u_r, p.type, p.petror5#_r FROM PhotoObj AS p WHERE p.objid = #
+select name,ucd from dbcolumns where tablename = &&& and ( name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&&)
+select top # p.objid,p.ra,p.dec,dbo.fPhotoTypeN(p.type) as type,u,g,r,i,z,Err_u,Err_g,Err_r,Err_i,Err_z,psfMag_u,psfMagErr_u,psfMag_g,psfMagErr_g,psfMag_r,psfMagErr_r,psfMag_i,psfMagErr_i,psfMag_z,psfMagErr_z  from PhotoPrimary p, dbo.fGetNearbyObjEq(#,#,#) n  where p.objId=n.objId
+select modelMag_g, ra, dec from PhotoTag where modelMag_g<# order by modelMag_g ASC
+SELECT   p.objid,p.ra,p.dec,p.q_r, p.u_r,  p.run, p.rerun, p.camcol, p.field FROM PhotoObj AS p WHERE p.objid = #
+SELECT   p.objid,p.ra,p.dec,p.q_r, p.u_r  p.run, p.rerun, p.camcol, p.field FROM PhotoObj AS p WHERE p.objid = #
+select top # modelMag_g,ra,dec from PhotoTag where class=STAR
+SELECT TOP # objID, u,g,r,i,u-g, r-i, g-r, type, petroMag_u, petroMag_g, petroMag_r, petroMag_i, petroMag_z, petroRad_u, petroRad_g, petroRad_i, petroRad_z,z, zErr FROM Galaxy AS p   JOIN SpecObj AS s ON s.bestObjID=p.objID WHERE    r < #			-- r IS NOT deredenned
+SELECT TOP # targetRa, targetDec into mydb.MyTable_# from DR5.QsoTarget
+SELECT   p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  p.run, p.rerun, p.camcol, p.field FROM PhotoObj AS p WHERE p.objid = #
+SELECT   p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  p.run, p.rerun, p.camcol, p.field FROM PhotoObj AS p p.objid = #
+select top #, modelMag_g, ra, dec from PhotoTag where class= star
+SELECT TOP #  p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  p.run, p.rerun, p.camcol, p.field, FROM PhotoObj AS p WHERE  p.objid = #
+SELECT TOP # targetRa, targetDec FROM QsoTarget
+SELECT TOP # targetRa, targetDec FROM dbo.QsoTarget
+SELECT TOP # targetRa, targetDec FROM BestDr5.dbo.QsoTarget
+select ra, dec from PhotoTag where class= star
+select ra,dec,objID,u,r,g,z,i from galaxy where (ra between # and #) and (u-g>#) and (g<#)
+select top # ra, dec, modelMag_g from PhotoTag order by modelMag_g DESC
+SELECT TOP # objID, u,g,r,i,u-g, r-i, g-r, type, petroMag_u, petroMag_g, petroMag_r, petroMag_i, petroMag_z, petroRad_u, petroRad_g, petroRad_i, petroRad_z FROM Galaxy AS p   JOIN SpecObj AS s ON s.bestObjID=p.objID WHERE    r < #			-- r IS NOT deredenned
+select top #, ra, dec from PhotoTag where class= star
+select ra,dec,objID,modelMag_u,modelMag_r,modelMag_g,modelMag_z,modelMag_i from photoObj where (ra between # and #) and (modelMag_u-modelMag_g>#) and class=GALAXY&&&
+SELECT TOP # targetRa, targetDec into mydb.MyTable_# from BestDr5.dbo.QsoTarget
+SELECT TOP # objID, u,g,r,i,u-g, r-i, g-r, type, petroMag_u, petroMag_g, petroMag_r, petroMag_i, petroMag_z, petroRad_u, petroRad_g, petroRad_i, petroRad_z FROM Galaxy    JOIN SpecObj WHERE    r < #			-- r IS NOT deredenned
+SELECT TOP # objID, u,g,r,i,u-g, r-i, g-r, type, petroMag_u, petroMag_g, petroMag_r, petroMag_i, petroMag_z, petroRad_u, petroRad_g, petroRad_i, petroRad_z FROM Galaxy  WHERE    r < #			-- r IS NOT deredenned
+select ra,dec from specObj where ra BETWEEN # and # AND dec BETWEEN # and # AND class= GALAXY&&&
+select top # ra, dec, modelMag_g from PhotoTag order by modelMag_g DESC LIMIT #
+select ra, dec, modelMag_g from PhotoTag order by modelMag_g DESC LIMIT #
+SELECT TOP # targetRa, targetDec into mydb.MyTable_# from DR5.dbo.QsoTarget
+SELECT TOP # targetRa, targetDec into mydb.MyTable_# from DR5:dbo.QsoTarget
+select r as xcol, petroMag_r as ycol from Probe where  r between # and # AND petroMag_g between # and # AND petroMag_r between # and #
+select r as xcol, petroMag_r as ycol from Probe where  r between # and # AND petroMag_g between # and #
+select top # * from [Probe]
+select r as xcol, petroMag_r as ycol from Probe
+SELECT TOP # targetRa, targetDec into mydb.MyTable_# from DR5.db0.QsoTarget
+select petroMag_g as xcol, petroMag_u as ycol from Probe
+SELECT top # modelMag_g
+SELECT dbo.fInFootprintEq( #, #, # )
+select u as xcol, g as ycol from Probe
+SELECT s.specObjID as spec_id, dbo.fGetUrlFitsSpectrum(s.specObjId) as spec_url FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.ra BETWEEN # AND # AND p.dec BETWEEN # AND # AND p.type=# AND s.snMedian>#
+SELECT TOP # objID, u,g,r,i,type, petroMag_u, petroMag_g, petroMag_r, petroMag_i into mydb.Probe from Galaxy  WHERE    r < #
+SELECT TOP # objID, u,g,r,i,type, petroMag_u, petroMag_g, petroMag_r, petroMag_i  FROM Galaxy  WHERE    r < #			-- r IS NOT deredenned
+select top # ra, dec from PhotoTag
+select top # max(modelMag_g), ra, dec from PhotoTag
+select top # max(modelMag_g) as, ra, dec from PhotoTag
+select top # ra, dec from PhotoTag where max(modelMag_g)
+SELECT TOP # bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND # <= z AND z < = #
+select top # gal.objID, gal.u, gal.g, gal.r, gal.I, gal.z, s.z, x.plate, x.mjd, s.fiberID from galaxy gal JOIN specObj s on s.bestObjID = gal.objID Join plateX x on x.plateID = s.plateID where s.class = &&& and gal.g between # and # and s.z < #
+select top # gal.objID, gal.u, gal.g, gal.r, gal.I, gal.z, s.z, x.plate, x.mjd, s.fiverID from galaxy gal JOIN specObj s on s.bestObjID = gal.objID Join plateX x on x.plateID = s.plateID where s.class = &&& and gal.g between # and # and s.z < #
+select top # gal.objID, gal.u, gal.g, .gal.r, gal.I, gal.z, s.z, x.plate, x.mjd, s.fiverID from galaxy gal JOIN specObj s on s.bestObjID = gal.objID Join plateX x on x.plateID = s.plateID where s.class = &&& and gal.g between # and # and s.z < #
+select top # ra, dec from PhotoTag where class = STARS&&&
+SELECT TOP #  p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  p.run, p.rerun, p.camcol, p.field,  s.specobjid, s.class, s.z as redshift,  s.plate, s.mjd, s.fiberid FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   p.u BETWEEN # AND #  AND g BETWEEN # AND #
+SELECT TOP # objID, into mydb.MyTable_# from Galaxy  WHERE    r < #			   and extinction_r > #
+select ra, dec from specObj where ra BETWEEN # and # AND dec BETWEEN # and #
+SELECT  (TOP # bestObjID, z WHEN # < = z AND z < = # THEN z END) as &&& FROM SpecObj WHERE class = &&& AND zWarning = #
+SELECT  (CASE TOP # bestObjID, z WHEN # < = z AND z < = # THEN z END) as &&& FROM SpecObj WHERE class = &&& AND zWarning = #
+SELECT
+SELECT TOP # bestObjID, z (CASE WHEN # < = z AND z < = # THEN z END) as &&& FROM SpecObj WHERE class = &&& AND zWarning = #
+select top # max(modelMag_g), ra, dec from PhotoTag where class = STARS&&&
+SELECT   count(*),  p.objid, p.ra, p.dec, p.r, p.err_r, p.extinction_r,  s.z, s.zErr FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   p.ra BETWEEN # and #  AND p.dec BETWEEN # and #  AND s.z BETWEEN # and #  AND class=&&&
+select ra,dec from specObj where class= galaxy
+SELECT TOP # bestObjID, z FROM SpecObj (CASE WHEN z BETWEEN # AND # THEN z END) WHERE class = &&& AND zWarning = #
+SELECT top # galobjID, gal.u, gal.g, gal.r, gal.z, s.z, x.plate, x.mjd, s.fiberID FROM galaxy gal JOIN specOBj s on s.bestObjID JOIN plateX x on x.plateID = s.plateID WHERE s.class = &&& AND gal.g BETWEEN # and # AND s.z < #
+SELECT TOP # bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND  (CASE WHEN z BETWEEN # AND # THEN z END)
+SELECT top # galobjID, gal.u, gal.g, gal.r, gal.z, s.z, x.plate, x.mjd, s.fiberID FROM galaxy gal JOIN specOBj s on s.bestObjID = gal.objID JOIN plateX x on x.plateID = s.plateID WHERE s.class = &&& AND gal.g BETWEEN # and # AND s.z < #
+SELECT TOP # bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND  (CASE WHEN # < z AND z < # THEN z END)
+select ra,dec from specObj where ra BETWEEN # and # AND dec BETWEEN # and # AND class=GALAXY
+SELECT TOP # bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND  (CASE WHEN # < = z AND z < = #)
+select ra,dec from specObj where ra BETWEEN # and # AND dec BETWEEN # and # AND class = GALAXY
+SELECT TOP # bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND  (CASE WHEN # < = z AND z< = #)
+SELECT   p.objid, p.ra, p.dec, p.r, p.err_r, p.extinction_r,  s.z, s.zErr FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   p.ra BETWEEN # and #  AND p.dec BETWEEN # and #  AND s.z BETWEEN # and #  AND p.class=&&&
+SELECT TOP # bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # and #
+SELECT   p.objid, p.ra, p.dec, p.r, p.err_r, p.extinction_r,  s.z, s.zErr FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   ra BETWEEN # and #  AND dec BETWEEN # and #  AND z BETWEEN # and #  AND class=&&&
+SELECT min(z) as min_z, max(z) as max_z FROM   (SELECT bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # and # );
+SELECT min(z) as min_z, max(z) as max_z FROM   (SELECT bestObjID FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # and # );
+SELECT min(z) as min_z, max(z) as max_z FROM   (SELECT bestObjID,z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # and # );
+SELECT min(z) as min_z, max(z) as max_z FROM   (SELECT bestObjID,z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # and # ); (SELECT bestObjID,z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # and # );
+SELECT min(z) as min_z, max(z) as max_z FROM   (SELECT bestObjID,z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # and # ); (SELECT bestObjID,z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # and # )
+select ra,dec, bestobjID from specObj where class=GALAXY and
+select ObjID, ra, dec,u, g, r, i, z from galaxy where ra BETWEEN # and # AND g < # and u-g > #
+SELECT min(z) as min_z, max(z) as max_z FROM   (SELECT bestObjID,z FROM SpecObj WHERE class = &&& AND zWarning = # );
+SELECT min(z) as min_z, max(z) as max_z FROM   (SELECT bestObjID,z FROM SpecObj); WHERE class = &&& AND zWarning = #
+select ra,dec from specObj where class=GALAXY and
+SELECT min(z) as min_z, max(z) as max_z FROM   (SELECT bestObjID,z FROM SpecObj)
+SELECT min(z) as min_z, max(z) as max_z FROM   (SELECT bestObjID,z FROM SpecObj);
+SELECT min(z) as min_z, max(z) as max_z FROM   (SELECT bestObjID FROM SpecObj);
+SELECT min(z) as min_z, max(z) as max_z FROM   (SELECT bestObjID FROM SpecObj LIMIT #,#);
+SELECT   p.objid,p.ra,p.dec,p.r,p.err_r,p.extinction_r  s.z as redshift,s.zErr FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   ra BETWEEN # and #  AND dec BETWEEN # and #  AND z BETWEEN # and #  AND class=&&&
+SELECT MIN (z), bestObjID FROM SpecObj WHERE class = &&& AND zWarning = #
+SELECT MIN (z) bestObjID, FROM SpecObj WHERE class = &&& AND zWarning = #
+SELECT MIN (z) bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = #
+select ra,dec from specObj where class = GALAXY and ra BETWEEN # and # AND
+SELECT MIN (#) bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = #
+SELECT TOP # bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = #
+select top # ra, dec from specObj where ra BETWEEN # and # AND dec BETWEEN # and #
+SELECT MIN(z), bestObjID  FROM SpecObj  WHERE class = &&&  AND zWarning = #  AND z BETWEEN # and #
+SELECT MIN(z)
+SELECT bestObjID, MIN(z)  FROM SpecObj  WHERE class = &&&  AND zWarning = #  AND z BETWEEN # and #
+select ra,dec from specObj where class = &&&  AND ra BETWEEN # and #  AND dec BETWEEN # and #
+SELECT TOP # specObjID, z FROM SpecObj WHERE class = &&& AND zWarning = #
+SELECT TOP # p.petroRad_r,p.petroRadErr_r, p.score as score FROM BESTDR8..Galaxy AS p 	JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = P.objID WHERE  p.petroMag_r > #
+SELECT top # objID, ra, dec, g, clean FROM PhotoObj WHERE CLEAN=#
+select * from XCRedshift where specObjId=#
+SELECT TOP # bestObjId, z FROM SpecObj WHERE class = &&& AND zW
+SELECT TOP # bestObjId, z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND #
+select * from wise_xmatch x join wise_allsky a on x.wise_cntr=a.cntr where x.sdss_objid=#
+SELECT p.ra,p.dec,p.raErr,p.decErr,p.objId,p.run,p.rerun,p.camcol,p.field,dbo.fPhotoModeN(mode) as mode,nChild,dbo.fPhotoTypeN(p.type) as type,clean,flags,psfMag_u,psfMag_g,psfMag_r,psfMag_i,psfMag_z,psfMagErr_u,psfMagErr_g,psfMagErr_r,psfMagErr_i,psfMagErr_z,modelMag_u,modelMag_g,modelMag_r,modelMag_i,modelMag_z,modelMagErr_u,modelMagErr_g,modelMagErr_r,modelMagErr_i,modelMagErr_z,extinction_u,extinction_g,extinction_r,extinction_i,extinction_z,mjd from PhotoObj as p JOIN dbo.fGetObjFromRectEq(#,#,#,#) AS R ON P.objID=R.objID
+SELECT MID # bestObjId, z FROM SpecObj WHERE class = &&& AND zWarning = #
+SELECT TOP # bestObjId, z FROM SpecObj WHERE class = &&& AND zWarning = #
+SELECT TOP # &&& + cast(p.objId as varchar(#)) +&&& + cast(p.objId as varchar(#)) + &&& as objID,  p.run, p.rerun, p.camcol, p.field, p.obj,  p.type, p.ra, p.dec, p.u,p.g, p.r, p.i, p.z,  p.Err_u, p.Err_g, p.Err_r, p.Err_i, p.Err_z  FROM fGetObjFromRect(#,#,#,#) n, PhotoPrimary p  WHERE n.objID=p.objID
+SELECT TOP #   g,   run,   rerun,   camcol,   field,   objID   FROM Galaxy   WHERE ( (g <= #)   and (u - g >= #)   and (u - g < #)   and (g - r >= #)   and (g - r < #)   and (r - i >= #)   and (r - i < #)   and (i - z >= #)   and (i - z < #) )
+SELECT TOP # sp.objID,   sp.ra,   sp.dec,   sp.mjd,   px.taiBegin,   px.taiEnd,   sp.fiberID,   sp.z   FROM specPhoto AS sp   JOIN plateX AS px ON sp.plateID = px.plateID   WHERE   (sp.class=&&&)   AND sp.z > #
+SELECT up_id, dbo.fGetNearestObjIdEq(up_ra,up_dec,#) as objId   FROM #upload WHERE dbo.fGetNearestObjIdEq(up_ra,up_dec,#) IS NOT NULL  EXEC spExecuteSQL &&&'<a target=INFO href=http://skyserver.sdss.org/DR1#/en/tools/explore/obj.aspx?id=&&& + cast(x.objId as varchar(#)) + &&&>&&&+ cast(x.objId as varchar(#)) + &&&</a>&&& as objID, p.ra, p.dec, p.run, p.rerun, p.camcol, p.field,  dbo.fPhotoTypeN(p.type) as type,  p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z  FROM #upload u  JOIN #x x ON x.up_id = u.up_id  JOIN PhotoTag p ON p.objID = x.objID  ORDER BY x.up_id  &&&#', @log=#, @filter=#
+select * from Photoz where objid=
+select * from SpecObjAll where specObjId=#
+SELECT COUNT(*)
+SELECT COUNT(*) FROM SpecObj  WHERE (class = &&&, survey = &&&)  AND zWarning = #
+SELECT objID, run, psfMag_u, psfMag_g, psfMag_r, extinction_u, extinction_g, extinction_r, psfMagErr_u, psfMagErr_g, psfMagErr_r, l, b  from Star  WHERE (l > #   AND l < #   AND ((b > # AND b < #)   OR (b < # AND b > #))   AND ((psfMag_g - extinction_g) - (psfMag_r - extinction_r)) > #   AND ((psfMag_g - extinction_g) - (psfMag_r - extinction_r)) < #   AND ((psfMag_u - extinction_u) - (psfMag_g - extinction_g)) > #)
+SELECT   ObjId,ra,dec,u,g,r,i,z FROM  galaxy WHERE   g < # AND  u - g > # AND  ra BETWEEN # AND #
+SELECT objID, ra, dec  FROM SpecObj  WHERE class = &&&  AND zWarning = #  AND survey = &&&
+SELECT MAX(z)
+SELECT TOP #    p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,    p.run, p.rerun, p.camcol, p.field,    s.specobjid, s.class, s.z as redshift,    s.plate, s.mjd, s.fiberid, estvrel, estvrelerr into mydb.MyTable_# from PhotoObj AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE     r < #    AND estvrel > #
+SELECT to upload -- the results to the SAS (Science Archive Server) for FITS file retrieval. SELECT TOP #    p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,    p.run, p.rerun, p.camcol, p.field,    s.specobjid, s.class, s.z as redshift,    s.plate, s.mjd, s.fiberid, estvrel, estvrelerr FROM PhotoObj AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE     r < #    AND estvrel > #
+SELECT max(z) from specobj
+SELECT top # sp.plate, sp.mjd, sp.fiberid, sp.specobjid, sp.bestobjid, sp.elodiervfinal, sp.teffadop, sp.fehadop, sp.loggadop, ph.psfmag_g, ph.psfmag_r, ph.psfmag_i, ph.psfmagErr_g, ph.psfmagErr_r, ph.psfmagErr_i, estvrel, estvrelerr  into mydb.MyTable_# from Galaxy   JOIN PhotoObjAll ph ON sp.bestobjid = ph.objid  WHERE ph.psfmag_r < # AND estvrel > # AND elodiervfinalerr > #
+select top # z,ra,dec,bestObjID,class from specObj where (class = &&& or class = &&&) AND z > # AND zWarning = #
+SELECT MAX(z)  FROM SpecObj, Legacy  WHERE class = &&&  AND zWarning = #
+SELECT TOP # p.run,p.rerun,p.camCol,p.field,p.obj FROM BESTDR8..PhotoObj AS p 	JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = P.objID WHERE  ( p.type = # OR p.type = #)
+SELECT top # sp.plate, sp.mjd, sp.fiberid, sp.specobjid, sp.bestobjid, sp.elodiervfinal, sp.teffadop, sp.fehadop, sp.loggadop, ph.psfmag_g, ph.psfmag_r, ph.psfmag_i, ph.psfmagErr_g, ph.psfmagErr_r, ph.psfmagErr_i into mydb.MyTable_# from Galaxy   JOIN PhotoObjAll ph ON sp.bestobjid = ph.objid  WHERE ph.psfmag_r < # AND elodiervfinal > # AND elodiervfinalerr > #
+SELECT top # sp.plate, sp.mjd, sp.fiberid, sp.specobjid, sp.bestobjid, sp.elodiervfinal, sp.teffadop, sp.fehadop, sp.loggadop, ph.psfmag_g, ph.psfmag_r, ph.psfmag_i, ph.psfmagErr_g, ph.psfmagErr_r, ph.psfmagErr_i FROM Galaxy   JOIN PhotoObjAll ph ON sp.bestobjid = ph.objid  WHERE ph.psfmag_r < # AND elodiervfinal > # AND elodiervfinalerr > #
+SELECT * FROM t_radectest1_#
+select top # * from [t_radectest1_#]
+SELECT p.ra,p.dec,p.modelMag_g-p.modelMag_r as color,p.petroMag_r as mag,a.id  FROM PhotoObjAll as p,   mydb.t1_radectest1  as a   into mydb.t_radectest1_# WHERE  p.type = # and a.id=p.objID
+SELECT TOP #   modelMag_u, modelMag_g, objID   FROM Galaxy   WHERE   ( Flags & (dbo.fPhotoFlags(&&&) +   dbo.fPhotoFlags(&&&) +   dbo.fPhotoFlags(&&&)) ) = #   and petroRad_r < #   and ((modelMag_u - modelMag_g) - (psfMag_u - psfMag_g)) < #
+SELECT p.ra,p.dec,p.modelMag_g-p.modelMag_r as color,p.petroMag_r as mag,a.id  FROM PhotoObjAll as p,   mydb.t1_radectest1  as a,   --into mydb.t_radectest1_# WHERE  p.type = # and a.id=p.objID
+SELECT p.ra,p.dec,p.modelMag_g-p.modelMag_r as color,p.petroMag_r as mag,a.id  FROM PhotoObjAll as p,   mydb.t1_radectest1  as a,   into mydb.t_radectest1_# WHERE  p.type = # and a.id=p.objID
+SELECT top # sp.plate, sp.mjd, sp.fiberid, sp.specobjid, sp.bestobjid, sp.elodiervfinal, sp.teffadop, sp.fehadop, sp.loggadop, ph.psfmag_g, ph.psfmag_r, ph.psfmag_i, ph.psfmagErr_g, ph.psfmagErr_r, ph.psfmagErr_i FROM Galaxy   JOIN sp.bestobjid = ph.objid    ON PhotoObjAll ph WHERE ph.psfmag_r < # AND elodiervfinal > # AND elodiervfinalerr > #
+SELECT TOP # p.petroRad_r,p.petroRadErr_r,ISNULL(s.targetObjID,#) as targetObjID FROM BESTDR8..Galaxy AS p LEFT OUTER JOIN BESTDR8..SpecObj s ON p.objID = s.bestObjID 	JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = P.objID
+SELECT top # sp.plate, sp.mjd, sp.fiberid, sp.specobjid, sp.bestobjid, sp.elodiervfinal, sp.teffadop, sp.fehadop, sp.loggadop, ph.psfmag_g, ph.psfmag_r, ph.psfmag_i, ph.psfmagErr_g, ph.psfmagErr_r, ph.psfmagErr_i FROM Galaxy   JOIN sp.bestobjid = ph.objid ON PhotoObjAll ph WHERE ph.psfmag_r < # AND elodiervfinal > # AND elodiervfinalerr > #
+SELECT top # sp.plate, sp.mjd, sp.fiberid, sp.specobjid, sp.bestobjid, sp.elodiervfinal, sp.teffadop, sp.fehadop, sp.loggadop, ph.psfmag_g, ph.psfmag_r, ph.psfmag_i, ph.psfmagErr_g, ph.psfmagErr_r, ph.psfmagErr_i FROM Galaxy   JOIN sp.bestobjid=ph.objid ON PhotoObjAll ph WHERE ph.psfmag_r < # AND elodiervfinal > # AND elodiervfinalerr > #
+SELECT top # sp.plate, sp.mjd, sp.fiberid, sp.specobjid, sp.bestobjid, sp.elodiervfinal, sp.teffadop, sp.fehadop, sp.loggadop, ph.psfmag_g, ph.psfmag_r, ph.psfmag_i, ph.psfmagErr_g, ph.psfmagErr_r, ph.psfmagErr_i FROM Galaxy   JOIN sppParams sp ON PhotoObjAll ph ON sp.bestobjid = ph.objid WHERE ph.psfmag_r < # AND elodiervfinal > # AND elodiervfinalerr > #
+SELECT p.ra,p.dec,p.modelMag_g-p.modelMag_r as color,p.petroMag_r as mag,a.id  FROM PhotoObjAll as p,   mydb.t1_radectest1  as a,   into mydb.t1_radectest1_# WHERE  p.type = # and a.id=p.objID
+select plate as xcol, elodiervfinal as ycol from MyTable_#
+select elodiervfinal as xcol, elodiervfinal as ycol from MyTable_#
+select top # * from [MyTable_#]
+SELECT top # sp.plate, sp.mjd, sp.fiberid, sp.specobjid, sp.bestobjid, sp.elodiervfinal, sp.teffadop, sp.fehadop, sp.loggadop, ph.psfmag_g, ph.psfmag_r, ph.psfmag_i, ph.psfmagErr_g, ph.psfmagErr_r, ph.psfmagErr_i into mydb.MyTable_# from sppParams sp JOIN PhotoObjAll ph ON sp.bestobjid = ph.objid WHERE sp.seguePrimary = # AND ph.psfmag_g-ph.psfmag_r > # AND ph.psfmag_g-ph.psfmag_r < # AND ph.psfmag_g < # AND sp.snr > # AND elodiervfinalerr > #
+SELECT * FROM NN_#ArcSec_allParams
+SELECT TOP # objID, specObjID, r, sppParams.elodiervfinal, u,b,g into mydb.MyTable_#  from Galaxy JOIN SpecObjAll as sp ON s.specobjid = sp.specobjid JOIN PhotoObjAll as p ON sp.bestobjid = p.objid    WHERE r < #     AND sppParams.elodiervfinal > #
+SELECT ra,dec,u,Err_u,g,Err_g,r,Err_r,i,Err_i,z,Err_z FROM PhotoObj WHERE ra BETWEEN # AND # AND dec BETWEEN # and # AND g<# AND Err_g<#
+SELECT TOP # objID, specObjID, r, elodiervfinalerr, u,b,g into mydb.MyTable_#  from Galaxy WHERE r < #     AND elodiervfinalerr > #
+SELECT TOP # objID, specObjID, r, elodiervfinalerr, u,b,g into mydb.MyTable_#  from Galaxy WHERE r < #     AND sppParams.elodiervfinalerr > #
+SELECT (htmID / power(#,#)) as htm_# ,   avg(ra) as ra,   avg(dec) as [dec],   count(*) as pop   FROM Galaxy   WHERE (#*u - #*g - #*i) < #   and r < #   group by (htmID /power(#,#))
+SELECT TOP # objID, specObjID, r, Velocity, u,v,b,g into mydb.MyTable_#  from Galaxy WHERE r < #     AND Velocity >= #
+SELECT p.ra,p.dec,p.modelMag_g-p.modelMag_r as color,p.petroMag_r as mag,a.id  FROM PhotoObjAll as p,   mydb.t1_radectest1  as a  WHERE  p.type = # and a.id=p.objID
+SELECT TOP # objID, specObjID, r, Velocity, u-v , b-u, g-u into mydb.MyTable_#  from Galaxy WHERE r < #     AND Velocity >= #
+SELECT p.objID, p.deVMag_u, p.deVMag_g, p.deVMag_r, p.deVMag_i, p.deVMagErr_u, p.deVMagErr_g, p.deVMagErr_r, p.deVMagErr_i, p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i, p.deVRad_r, p.deVRadErr_r, p.deVRad_g, p.deVRadErr_g, p.deVAB_g, p.deVAB_r, p.petroR5#_r, p.petroR9#_r, p.petroR5#Err_r, p.petroR9#Err_r FROM PhotoObjAll AS p  WHERE p.objID in (#, #, #, #, #, #, #, #,  #, #, #, #, #, #, #, #, #, #, #, #, # )
+SELECT p.objID, p.deVMag_u, p.deVMag_g, p.deVMag_r, p.deVMag_i, p.deVMagErr_u, p.deVMagErr_g, p.deVMagErr_r, p.deVMagErr_i, p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i, p.deVRad_r, p.deVRadErr_r, p.deVRad_g, p.deVRadErr_g, p.deVAB_g, p.deVAB_r, p.petroR5#_r, p.petroR9#_r, p.petroR5#Err_r, p.petroR9#Err_r FROM PhotoObjAll AS p  WHERE p.objID in (#, #, #, #, #, #, #, #, #, #, #, #, #, #, # )
+SELECT p.objID, p.deVMag_u, p.deVMag_g, p.deVMag_r, p.deVMag_i, p.deVMagErr_u, p.deVMagErr_g, p.deVMagErr_r, p.deVMagErr_i, p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i, p.deVRad_r, p.deVRadErr_r, p.deVRad_g, p.deVRadErr_g, p.deVAB_g, p.deVAB_r, p.petroR5#_r, p.petroR9#_r, p.petroR5#Err_r, p.petroR9#Err_r FROM PhotoObjAll AS p JON p.objID = red.objID WHERE p.objID in (#, #, #, #, #, #, #, #, #, #, #, #, #, #, # )
+SELECT p.objID, p.deVMag_u, p.deVMag_g, p.deVMag_r, p.deVMag_i, p.deVMagErr_u, p.deVMagErr_g, p.deVMagErr_r, p.deVMagErr_i, p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i, p.deVRad_r, p.deVRadErr_r, p.deVRad_g, p.deVRadErr_g, p.deVAB_g, p.deVAB_r, p.petroR5#_r, p.petroR9#_r, p.petroR5#Err_r, p.petroR9#Err_r FROM PhotoObjAll AS p JON p.objID = red.objID WHERE p.objID in (# # # # # # # # # # # # # # # )
+SELECT TOP # objID, specObjID, r, V, u-v , b-u, g-u into mydb.MyTable_#  from Galaxy, specObj WHERE r < #     AND V >= #
+SELECT objID
+SELECT TOP # objID, specObjID, r, v_radial, u-v , b-u, g-u into mydb.MyTable_# from Galaxy, specObj WHERE r < #     AND v_radial >= #
+SELECT TOP # objID, specObjID, r, v_radial, u-v , b-u, g-u    FROM Galaxy, specObj WHERE r < #     AND v_radial >= #
+SELECT p.objID, p.deVMag_u, p.deVMag_g, p.deVMag_r, p.deVMag_i, p.deVMagErr_u, p.deVMagErr_g, p.deVMagErr_r, p.deVMagErr_i, p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i, p.deVRad_r, p.deVRadErr_r, p.deVRad_g, p.deVRadErr_g, p.deVAB_g, p.deVAB_r, red.z, red.nnAvgz, p.petroR5#_r, p.petroR9#_r, p.petroR5#Err_r, p.petroR9#Err_r FROM PhotoObjAll AS p JOIN Photoz as red ON p.objID = red.objID WHERE p.objID in (# )
+SELECT * FROM DR1#Q_full
+SELECT TOP # objID, r, v_radial, u-v , b-u, g-u    FROM Galaxy  WHERE r < #     AND v_radial >= #
+select top # * from [DR1#Q_full]
+SELECT p.objID, p.deVMag_u, p.deVMag_g, p.deVMag_r, p.deVMag_i, p.deVMagErr_u, p.deVMagErr_g, p.deVMagErr_r, p.deVMagErr_i, p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i, p.deVRad_r, p.deVRadErr_r, p.deVRad_g, p.deVRadErr_g, p.deVAB_g, p.deVAB_r, red.z, red.nnAvgz, p.petroR5#_r, p.petroR9#_r, p.petroR5#Err_r, p.petroR9#Err_r FROM PhotoObjAll AS p JOIN Photoz as red ON p.objID = red.objID WHERE p.objID in (#, #, #, #, #, #, #, #, #, #, #, #, #, #, # )
+SELECT    m.ra, m.dec, m.plate, m.mjd, m.fiber, m.zspec, m.u, m.g, m.r, m.i, m.z, s.type from mydb.DR1#Q_pmf m, SpecPhotoAll s into mydb.DR1#Q_full   WHERE s.plate = m.plate AND s.mjd = m.mjd AND s.fiberID = m.fiber
+SELECT p.objID, p.deVMag_ u, p.deVMag_g, p.deVMag_r, p.deVMag_i, p.deVMagErr_u, p.deVMagErr_g, p.deVMagErr_r, p.deVMagErr_i, p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i, p.deVRad_r, p.deVRadErr_r, p.deVRad_g, p.deVRadErr_g, p.deVAB_g, p.deVAB_r, red.z, red.nnAvgz, p.petroR5#_r, p.petroR9#_r, p.petroR5#Err_r, p.petroR9#Err_r FROM PhotoObjAll AS p JOIN Photoz as red ON p.objID = red.objID WHERE p.objID in (#, #, #, #, #, #, #, #, #, #, #, #, #, #, # )
+SELECT TOP # objID, r, v_radial    FROM Galaxy  WHERE ra BETWEEN # AND #    AND dec < #   AND cModelMag_g BETWEEN # AND #
+SELECT TOP # objID, r, v_radial,    FROM Galaxy  WHERE ra BETWEEN # AND #    AND dec < #   AND cModelMag_g BETWEEN # AND #
+SELECT TOP # specObjID, bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& ORDER BY RAND()
+select top # * from [DR1#Q_pmf]
+SELECT &&&
+SELECT TOP # &&& + cast(p.objId as varchar(#)) +&&& + cast(p.objId as varchar(#)) + &&& as objID,  p.run, p.rerun, p.camcol, p.field, p.obj,  p.type, p.ra, p.dec, p.u,p.g,p.r,p.i,p.z,  p.Err_u, p.Err_g, p.Err_r,p.Err_i,p.Err_z  FROM fGetNearbyObjEq(#,#,#) n, PhotoPrimary p  WHERE n.objID=p.objID
+select objID as xcol, objID as ycol from MyTable_#
+SELECT u.up_name as [name],     &&& + cast(x.objId as varchar(#)) + &&&+ cast(x.objId as varchar(#)) + &&& as objID, p.ra, p.dec, p.run, p.rerun, p.camcol, p.field,    dbo.fPhotoTypeN(p.type) as type,    p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z  FROM #upload u       JOIN #x x ON x.up_id = u.up_id       JOIN PhotoTag p ON p.objID = x.objID  ORDER BY x.up_id
+select top #  S.ra as sdss_ra, S.dec as sdss_dec, W.ra as wise_ra, W.dec as wise_dec,  S.psfmag_r as r, W.w1mpro as w1 from wise_xmatch as X  join wise_allsky as W on X.wise_cntr = W.cntr  join photoTag as S on X.sdss_objid = S.objid where S.nchild = #
+SELECT TOP # specObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND survey=&&& AND z BETWEEN # and #
+SELECT COUNT(*) FROM SpecObj WHERE class = &&& AND
+SELECT TOP # objID into mydb.MyTable_# from Galaxy
+SELECT TOP # objID into mydb.MyTable from Galaxy
+SELECT up_id, dbo.fGetNearestSpecObjIdEq(up_ra,up_dec,#) as SpecobjId   FROM #upload WHERE dbo.fGetNearestSpecObjIdEq(up_ra,up_dec,#) IS NOT NULL  EXEC spExecuteSQL &&&,&&&, @log=#, @filter=#
+select @t = type, @id = id from sysobjects where name = @name declare @rst varchar(max); set @rst = &&&; if(@t = &&&) BEGIN    select @rst = &&& + CHAR(#)+ CHAR(#) END ELSE IF (@t = &&&) BEGIN    select @rst = &&& + CHAR(#)+ CHAR(#) END ELSE IF (@t = &&&) BEGIN    select @rst = &&& + CHAR(#)+ CHAR(#) END ELSE IF (@t = &&&) BEGIN    select @rst = &&& + CHAR(#)+ CHAR(#) END ELSE IF (@t = &&&) BEGIN    select @rst = &&& + CHAR(#)+ CHAR(#) END  if(@t = &&& or @t = &&& or @t = &&& or @t = &&& or @t = &&&)BEGIN    select @rst = @rst + cast(&&& as char(#))+cast(&&& as char(#))+cast(&&& as char(#))+ CHAR(#)+CHAR(#);    select 			@rst = @rst+cast(name as char(#)), 			@rst = @rst+cast(type_name(user_type_id) as char(#)), 			@rst = @rst+cast(max_length as varchar(#)) + CHAR(#) 	from sys.all_parameters where object_id = @id 	order by parameter_id END ELSE BEGIN 	select @rst = @rst + sc.text  	from syscomments sc, sysobjects so 	where so.name = @name and sc.id = so.id END select @rst;
+select name from sysobjects where type=&&& and category=# order by name asc
+select name from sysobjects where xtype in (N&&&, N&&&, N&&&, N&&&, N&&&) order by name asc
+select top # * from [FIRST]
+select top # * from [Field]
+select * from ELRedshift where specObjId=#
+SELECT up_id,  dbo.fGetNearestObjIdEq( up_ra,up_dec,up_sep ) as objId   FROM #upload  WHERE  dbo.fGetNearestObjIdEq( up_ra,up_dec,up_sep ) IS NOT NULL  SELECT TOP #   p.ra,p.dec, cast(str(p.ra,#,#) as float) as ra,cast(str(p.[dec],#,#) as float) as dec,p.u,p.g,p.r,p.i,p.z  FROM ..PhotoObj AS p  JOIN #x AS x ON x.objID=p.objID  JOIN #upload AS u ON u.up_id = x.up_id   WHERE  ( p.type = # OR p.type = #)   ORDER BY x.up_id
+select * from galSpecLine where specObjId=#
+SELECT TOP # ObjID into mydb.MyTable from Galaxy as G
+SELECT TOP # objID,  	      field, ra, dec into mydb.MyTable from PhotoPrimary 	 WHERE     ra > #. and ra < # and dec > #. and dec < #
+SELECT p.ra,p.dec,p.modelMag_g-p.modelMag_r as color,p.petroMag_r as mag  FROM PhotoObjAll as p,   mydb.t1_radectest1  as a,   SpecObjAll as s --into mydb.test_radectest1_#  WHERE  p.type = # and a.id=s.bestObjID and p.objID = s.bestObjID
+SELECT TOP # objID  FROM Galaxy  WHERE    r < #			-- r IS NOT deredenned   and v_radial >= #	-- extinction more than #
+SELECT TOP # objID  FROM Galaxy  WHERE    r < #			-- r IS NOT deredenned   and v_radial > #	-- extinction more than #
+SELECT p.ra,p.dec,p.modelMag_g,p.modelMag_r ,p.petroMag_r   FROM PhotoObjAll as p,   mydb.t1_radectest1  as a,   SpecObjAll as s --into mydb.test_radectest1_#  WHERE  p.type = # and a.id=s.bestObjID and p.objID = s.bestObjID
+SELECT p.ra,p.dec,p.modelMag_g-p.modelMag_r as color,p.petroMag_r as mag  FROM PhotoObjAll as p,   mydb.t_radectest1  as a,   SpecObjAll as s --into mydb.test_radectest1_#  WHERE  p.type = # and a.id=s.bestObjID and p.objID = s.bestObjID
+SELECT p.ra,p.dec,p.modelMag_g-p.modelMag_r as color,p.petroMag_r as mag  FROM PhotoObjAll as p,   mydb.t_radectest1  as a,   SpecObjAll as s #into mydb.test_radectest1_#  WHERE  p.type = # and a.id=s.bestObjID and p.objID = s.bestObjID
+select top # * from [SDSS_DR1#_S8#_full]
+select top # * from [SPLUS_cross_spec_new]
+SELECT TOP # p.petroRad_r,p.petroRadErr_r,ISNULL(s.targetObjID,#) as targetObjID FROM BESTDR8..Galaxy AS p LEFT OUTER JOIN BESTDR8..SpecObj s ON p.objID = s.bestObjID  JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = P.objID
+SELECT up_id,  dbo.fGetNearestObjIdEq( up_ra,up_dec,up_sep ) as objId   FROM #upload  WHERE  dbo.fGetNearestObjIdEq( up_ra,up_dec,up_sep ) IS NOT NULL  SELECT TOP #   p.ra,p.dec, p.u,p.g,p.r,p.i,p.z  FROM ..PhotoObj AS p  JOIN #x AS x ON x.objID=p.objID  JOIN #upload AS u ON u.up_id = x.up_id   WHERE  ( p.type = # OR p.type = #)   ORDER BY x.up_id
+SELECT up_id,  dbo.fGetNearestObjIdEq( up_ra,up_dec,up_sep ) as objId   FROM #upload  WHERE  dbo.fGetNearestObjIdEq( up_ra,up_dec,up_sep ) IS NOT NULL  SELECT TOP #   p.ra,p.dec, cast(str(p.ra,#,#) as float) as ra,cast(str(p.[dec],#,#) as float) as dec,p.u,p.g,p.r,p.i,p.z,p.modelMagErr_u,p.modelMagErr_g,p.modelMagErr_r,p.modelMagErr_i,p.modelMagErr_z  FROM ..PhotoObj AS p  JOIN #x AS x ON x.objID=p.objID  JOIN #upload AS u ON u.up_id = x.up_id   WHERE  ( p.type = # OR p.type = #)   ORDER BY x.up_id
+INSERT INTO #upload values ( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#),( #, &&&, #, +#
+select name, description from DBObjects where access=&&& and name like &&& or name like &&& and name not like &&& order by name
+SELECT TOP #   run,   camCol,   rerun,   field,   objID,   ra,   dec   FROM Galaxy   WHERE ( flags & (dbo.fPhotoFlags(&&&)   | dbo.fPhotoFlags(&&&)   | dbo.fPhotoFlags(&&&)) ) > #   and ( flags & (dbo.fPhotoFlags(&&&)   | dbo.fPhotoFlags(&&&)   | dbo.fPhotoFlags(&&&)) ) != dbo.fPhotoFlags(&&&)   and ( (flags & dbo.fPhotoFlags(&&&) = #)   and petroR5#_i > #)
+SELECT    m.splus_field, m.splus_id, m.ra1, m.dec1, m.ra2, m.dec2, s.plate, s.mjd, s.fiberID, s.modelMag_u, s.modelMag_g, s.modelMag_r, s.modelMag_i, s.modelMag_z, s.Class, s.subClass, s.type, s.z, s.zWarning from mydb.SPLUS_cross_new m, SpecPhotoAll s into mydb.SPLUS_cross_spec_new   WHERE s.run = m.run AND s.rerun = m.rerun AND s.field = m.field AND s.obj = m.obj AND m.mode = #
+SELECT    m.id, m.ra2, m.dec2, s.plate, s.mjd, s.fiberID, s.modelMag_u, s.modelMag_g, s.modelMag_r, s.modelMag_i, s.modelMag_z, s.Class, s.subClass, s.type, s.z, s.zWarning from mydb.SPLUS_cross_new m, SpecPhotoAll s into mydb.SPLUS_cross_spec_new   WHERE s.run = m.run AND s.rerun = m.rerun AND s.field = m.field AND s.obj = m.obj AND m.mode = #
+SELECT TOP # objId,z,zErr,absMagR FROM Photoz WHERE  z BETWEEN # and #  and photoErrorClass=#   and nnCount>#   and zErr BETWEEN # and #
+select top # * from [SPLUS_cross_new]
+SELECT TOP # u,g,r,i,z,ra,dec, flags_r  FROM Star  WHERE   ra BETWEEN # and # AND dec BETWEEN # and #  AND ((flags_r & #) != #)  AND ((flags_r & #) = #)   AND (((flags_r & #) = #) or (psfmagerr_r <= #))  AND (((flags_r & #) = #) or (flags_r & #) = #)
+SELECT up_id, dbo.fGetNearestObjIdEq(up_ra,up_dec,#) as objId   FROM #upload WHERE dbo.fGetNearestObjIdEq(up_ra,up_dec,#) IS NOT NULL  EXEC spExecuteSQL &&&,&&&, @log=#, @filter=#
+SELECT u.up_name as name, x.objID, TOP # G.objID, GN.distance FROM Galaxy as G JOIN dbo.fGetNearbyObjEq(#.,#, #) AS GN ON G.objID = GN.objID ORDER BY distance&&&#', @log=#, @filter=#
+SELECT u.up_name as name,   &&&<a target=INFO href=http://skyserver.sdss.org/DR1#/en/tools/explore/obj.aspx?id=&&& + cast(x.objId as varchar(#)) + &&&>&&&+ cast(x.objId as varchar(#)) + &&&</a>&&& as objID, p.ra, p.dec,   dbo.fPhotoTypeN(p.type) as type,  p.modelMag_u, p.modelMagErr_u,  p.modelMag_g, p.modelMagErr_g,  p.modelMag_r, p.modelMagErr_r,  p.modelMag_i, p.modelMagErr_i,  p.modelMag_z, p.modelMagErr_z,  p.fiber2Mag_u, p.fiber2MagErr_u,  p.fiber2Mag_g, p.fiber2MagErr_g,  p.fiber2Mag_r, p.fiber2MagErr_r,  p.fiber2Mag_i, p.fiber2MagErr_i,  p.fiber2Mag_z, p.fiber2MagErr_z  FROM #upload u  JOIN #x x ON x.up_id = u.up_id  JOIN PhotoObjAll p ON p.objID = x.objID  ORDER BY x.distance&&&#', @log=#, @filter=#
+SELECT TOP # G.objID, GN.distance  FROM Galaxy as G  JOIN dbo.fGetNearbyObjEq(#.,#, #) AS GN  ON G.objID = GN.objID  ORDER BY distance
+SELECT * FROM exclu_#_mag
+SELECT    o.ra,o.dec,o.petromag_u, o.petromag_g, o.petromag_r,o.petromag_i, o.petromag_z, o.petromagerr_u, o.petromagerr_g,   o.petromagerr_r,o.petromagerr_i,o.petromagerr_z      into mydb.exclu_#_mag FROM MyDB.MyTable_# AS m    CROSS APPLY dbo.fGetNearestObjEq( m.ra, m.dec, #) AS n    JOIN PhotoObjall AS o ON n.objid=o.objid
+SELECT TOP # bestobjid  p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  p.run, p.rerun, p.camcol, p.field,  s.specobjid, s.class, s.z as redshift,  s.plate, s.mjd, s.fiberid FROM specobj  WHERE  class= &&& and survey=&&& and zwarning=# and z between # and #
+SELECT TOP # bestobjid
+SELECT TOP # bestobjid  p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  p.run, p.rerun, p.camcol, p.field,  s.specobjid, s.class, s.z as redshift,  s.plate, s.mjd, s.fiberid FROM Specobj WHERE   zwarning=# and class= &&& and survey= sdss and z between # and #
+SELECT TOP # bestobjid  p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  p.run, p.rerun, p.camcol, p.field,  s.specobjid, s.class, s.z as redshift,  s.plate, s.mjd, s.fiberid FROM Specobj WHERE   zwarning=# and class = &&& and survey= sdss and z between # and #
+SELECT top #  ROW_NUMBER() OVER(ORDER BY z ASC) AS Row,   (ROW_NUMBER() OVER(ORDER BY z ASC) % #) + # AS Batch,   bestObjId, z, survey, subclass, ra, dec,   &&& + survey + &&& +  cast(run2d as varchar(#)) + &&& + format(plate, &&&) +  &&& + format(plate, &&&) + &&& + cast(mjd as varchar(#)) +   &&& + format(fiberid, &&&) + &&& as url FROM specObj WHERE class = &&& and zWarning = # AND bestObjId > #   AND survey IN (&&&, &&&)  AND snMedian > #  AND (z > # AND z < #)  AND (htmid*# & #) < (# * #)  ORDER BY z
+select * from public.ncarey.session_eeg where session_id=#
+select * from public.ncarey.session_eng where session_id=#
+select * from session_eeg where session_id=#
+select * from session_eeg
+SELECT star.apstar_id,  star.apogee_id, star.ra, star.dec, star.glon, star.glat,  star.apogee_target1, star.apogee_target2,   aspcap.teff,aspcap.logg,aspcap.metals FROM apogeeStar star  JOIN dbo.fGetNearbyApogeeStarEq(#,#,#) near on  star.apstar_id=near.apstar_id  JOIN aspcapStar aspcap on aspcap.apstar_id = star.apstar_id
+SELECT TOP #  p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  p.run, p.rerun, p.camcol, p.field,  s.specobjid, s.class, s.z as redshift,  s.plate, s.mjd, s.fiberid FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   p.u BETWEEN # AND #  AND g BETWEEN # AND #  AND p.ra = #
+SELECT TOP #  a.apogee_id,cast(str(a.glon,#,#) as float) glon,cast(str(a.glat,#,#) as float) glat,a.snr,a.vhelio_avg,a.vscatter,q.teff,q.logg,q.m_h,q.alpha_m  FROM apogeeStar as a  JOIN dbo.fGetNearbyApogeeStarEq(#,#,#) AS b ON b.apstar_id = a.apstar_id  JOIN apogeeObject as o ON a.apogee_id=o.apogee_id  JOIN aspcapStar as q ON a.apstar_id=q.apstar_id
+SELECT TOP #  p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  p.run, p.rerun, p.camcol, p.field,  s.specobjid, s.class, s.z as redshift,  s.plate, s.mjd, s.fiberid FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE  p.u BETWEEN # AND #  AND g BETWEEN # AND #  AND s.z >#
+SELECT TOP # p.petroRad_r,p.petroRadErr_r, p.score as score into mydb.MyTable_# from BESTDR8..Galaxy AS p 	JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = P.objID WHERE  p.petroMag_r > #
+SELECT up_id, dbo.fGetNearestObjIdEq(up_ra,up_dec,#E-#) as objId   FROM #upload WHERE dbo.fGetNearestObjIdEq(up_ra,up_dec,#E-#) IS NOT NULL  EXEC spExecuteSQL &&&,&&&, @log=#, @filter=#
+SELECT * FROM March_TwentyTwo_Check
+select top # * from [March_TwentyTwo_Check]
+SELECT    b.ra as ra, b.dec as dec, p.ra as Gal_ra, p.dec as Gal_dec, p.u_r, p.q_r, p.petror5#_r, b.distance, b.objid into mydb.March_TwentyTwo_Check from MyDb.NN_#ARCSeconds as b     JOIN PhotoObjAll p on p.objid = b.objid     WHERE p.type = #
+SELECT    b.ra as ra, b.dec as dec, p.ra as Gal_ra, p.dec as Gal_dec, p.u_r, p.q_r, p.petror5#_r, b.distance, b.objid into mydb.March_TwentyTwo_Check from MyDb.NN_#ARCSeconds as b     JOIN PhotoObjAll p on p.objid = b.objid     WHERE p.type is #
+SELECT TOP #  s.bossSpecObjID  FROM ..SpecObj as s  JOIN dbo.fGetNearbySpecObjEq(#,#,#) AS b ON b.SpecobjID = S.SpecobjID  WHERE s.zWarning = #
+select top # * from [NN_#ARCSeconds]
+SELECT * FROM MyTable
+select ra,dec,z,bestobjid from specObj where z > # and zconf >#
+select ra,dec,z,objid from specObj where z > # and zconf >#
+select ra,dec,z,id from specObj where z > # and zconf >#
+select ra,dec,z,photoID from specObj where z > # and zconf >#
+SELECT TOP # p.objid, p.ra, p.dec, ISNULL(s.specobjid,#) AS specobjid, ISNULL(s.z, #) AS z  FROM Galaxy AS p LEFT OUTER JOIN SpecObj s ON s.bestObjID = p.objID  WHERE  p.u BETWEEN # AND # AND p.g BETWEEN # AND #
+SELECT  COUNT( CASE WHEN # < = z AND z<=#+# THEN z END ) as &&&, COUNT( CASE WHEN # < = z AND z<=# THEN z END ) as &&&, COUNT( CASE WHEN # < z AND z<=# THEN z END ) as &&& FROM SpecObj WHERE class = &&& AND zWarning = #
+SELECT  COUNT( CASE WHEN # < = z AND z<=#+# THEN z END ) as &&&, COUNT( CASE WHEN # < z AND z<=# THEN z END ) as &&&, COUNT( CASE WHEN # < z AND z<=# THEN z END ) as &&& FROM SpecObj WHERE class = &&& AND zWarning = #
+SELECT count(*) as &&&,   sum( case when (Type=#) then # else # end) as &&&,  sum( case when (Type=#) then # else # end) as &&&,  sum( case when (Type not in (#,#)) then # else # end) as &&&  FROM PhotoPrimary   WHERE (( u - g > #) or (u > #) )   and ( i between # and # )   and ( g - r > # )   and ( (r - i < # + # * (g - r - #)) or (g - r > # ) )  and ( i - z < # )
+select ra,dec,modelMag_u,modelMag_g,modelMag_r, modelMag_i,modelMag_z,objID from photoObj where type = # AND modelmag_u-modelmag_r < .#
+SELECT top # objID, ra, dec,  (CASE WHEN q.type IS NULL THEN &&& ELSE &&& END) AS found FROM PhotoObj AS p OUTER APPLY dbo.fFootprintEq(ra,dec,#) AS q WHERE (ra BETWEEN # AND #) AND (dec BETWEEN # AND #)
+SELECT * FROM zoo_cw
+SELECT * FROM zoo_acw
+select
+SELECT round(dered_r,#) as magR, COUNT(*) as cnt  from SpecPhoto WHERE   z BETWEEN # and #   and zwarning = # group by round(dered_r,#) order by round(dered_r,#)
+select top # * from [zoo_test_specobjid]
+select   z.specobjid, z.p_acw from DR1#.zooSpec z  into mydb.zoo_test_specobjid    where   z.p_acw >= #
+select ra,dec, bestobjID from specObj where ra BETWEEN # and # AND dec BETWEEN # and # AND specClass = #
+SELECT    m.splus_field, m.splus_id, m.ra AS ra1, m.dec AS dec1, o.run, o.rerun, o.field, o.obj,    n.objid, o.mode,    o.ra AS ra2, o.dec AS dec2 into mydb.SPLUS_cross_new from mydb.SPLUS_S8#_full AS m    CROSS APPLY dbo.fGetNearestObjEq( m.ra, m.dec, #) AS n    JOIN PhotoObj AS o ON n.objid=o.objid
+select top # * from [zoo_test]
+select ra,dec from specObj where ra BETWEEN # and # AND dec BETWEEN # and # and specClass eq #
+select ra,dec from specObj where ra BETWEEN # and # AND dec BETWEEN # and # and specClass ed #
+select   z.objid, z.p_acw from DR1#.zooSpec z  into mydb.zoo_test    where   z.p_acw >= #
+select   z.objid, z.ra, z.dec, p._acw from DR1#.zooSpec z  into mydb.zoo_test    where   z.p_acw >= #
+select   z.objid, z.ra, z.dec, p.ra, p.dec from DR1#.zooSpec z  into mydb.zoo_test    where   z.p_acw >= #
+SELECT plate.programname, class,  COUNT(specObjId) AS numObjs  FROM SpecObjAll JOIN PlateX AS plate ON plate.plate = specObjAll.plate GROUP BY plate.programname, class ORDER BY plate.programname, class
+SELECT bestObjID,z From SpecObj WHERE htmid*# & # < (# * #) AND class=QSO AND zWarning=# AND z BETWEEN # AND #
+select top # * from [SPLUS_S8#_full]
+SELECT sl.plate, sl.mjd, sl.fiber,  sl.caIIKside, sl.caIIKerr, sl.caIIKmask,  sp.fehadop, sp.fehadopunc,sp. fehadopn,  sp.loggadopn,sp.loggadopunc,sp.loggadopn  FROM sppLines AS sl  JOIN sppParams AS sp ON sl.specobjid = sp.specobjid WHERE  fehadop < # and fehadopunc between # and #  AND fehadopn > #
+select * from stellarMassFSPSGranEarlyNoDust where specObjId=#
+select top # * from [SPLUS_cross_spec_new2]
+SELECT round(absMagR,#) as absMagR, COUNT(*) as cnt into mydb.MyTable_# from Photoz WHERE      z BETWEEN # and #      and photoErrorClass=# and nnCount>#      and zErr BETWEEN # and # group by round(absMagR,#) order by round(absMagR,#)
+SELECT    m.id, m.field, m.ra2, m.dec2, s.plate, s.mjd, s.fiberID, s.modelMag_u, s.modelMag_g, s.modelMag_r, s.modelMag_i, s.modelMag_z, s.Class, s.z, s.zWarning from mydb.SPLUS_cross_new m, SpecPhoto s into mydb.SPLUS_cross_spec_new2   WHERE s.run = m.run AND s.rerun = m.rerun AND s.field = m.field AND s.obj = m.obj AND m.mode = #
+SELECT    m.id, m.field, m.ra2, m.dec2, s.plate, s.mjd, s.fiberID, s.modelMag_u, s.modelMag_g, s.modelMag_r, s.modelMag_i, s.modelMag_z, s.Class, s.subClass, s.sourceType, s.z, s.zWarning from mydb.SPLUS_cross_new m, SpecPhotoAll s into mydb.SPLUS_cross_spec_new   WHERE s.run = m.run AND s.rerun = m.rerun AND s.field = m.field AND s.obj = m.obj AND m.mode = #
+SELECT DISTINCT p.ra, p.dec, p.clean, p.u, p.g, p.r, p.i, p.z FROM PhotoObjAll AS p WHERE ((p.ra between # and #) and (p.dec between # and #))
+SELECT DISTINCT p.ra, p.dec, p.objid, p.run, p.rerun, p.camcol, p.field FROM PhotoObjAll AS p WHERE (p.run=# AND p.camcol=# AND p.field=# AND p.rerun=#)
+SELECT DISTINCT p.r FROM PhotoObjAll AS p WHERE ((p.ra between # and #) and (p.dec between # and #))
+SELECT DISTINCT p.ra, p.dec, p.r FROM PhotoObjAll AS p WHERE ((p.ra between # and #) and (p.dec between # and #))
+SELECT DISTINCT p.ra, p.dec, p.objid, p.run, p.rerun, p.camcol, p.field, s.z, s.plate, s.mjd, s.fiberID, s.specobjid, s.run2d, s.instrument FROM PhotoObjAll AS p JOIN SpecObjAll s ON p.objID = s.bestObjID WHERE (s.plate=#)
+SELECT DISTINCT p.run, p.rerun, p.camcol, p.field FROM PhotoObjAll AS p WHERE (p.run=# AND p.camcol=# AND p.field=# AND p.rerun=#)
+SELECT DISTINCT s.instrument, s.run2d, s.plate, s.mjd, s.fiberID FROM PhotoObjAll AS p JOIN SpecObjAll s ON p.objID = s.bestObjID WHERE ((p.ra between # and #) and (p.dec between # and #))
+select top # z, ra, dec, bestObjID from specObj where class = &&& and z > # and zWarning = #
+SELECT DISTINCT s.instrument, s.run2d, s.plate, s.mjd, s.fiberID FROM PhotoObjAll AS p JOIN SpecObjAll s ON p.objID = s.bestObjID WHERE (s.plate=# AND s.fiberid=#)
+SELECT * FROM openSN_redshiftplot1C
+SELECT * FROM openSN_phi0_control_F
+select t.phi0 into mydb.openSN_phi0_control_F from mydb.OpenSN t
+SELECT * FROM TODOS_salida_spec1
+SELECT   p.ID_T,   p.ID,   p.RA_#,   p.DEC_#,   p.objID,   p.specObjID,   p.ra_#,   p.dec_#,   p.z,   p.petroR5#_r,   p.petroR5#Err_r,   p.petroR9#_r,   p.petroR9#Err_r,   p.modelMag_u,   p.modelMag_g,   p.modelMag_r,   p.modelMag_i,   p.modelMag_z,   p.modelMagErr_u,   p.modelMagErr_g,   p.modelMagErr_r,   p.modelMagErr_i,   p.modelMagErr_z,   p.extinction_u,   p.extinction_g,   p.extinction_r,   p.extinction_i,   p.extinction_z,   s.elodieBV,   s.z as z_spec,   s.specObjID,   d.d4#_n,   d.d4#_n_blue,   d.d4#_n_err,   e.e_bv_sfd   FROM   galSpecIndx as d,   galSpecInfo as e,   SpecObjAll as s,   MYDB.TODOS_salida as p   INTO mydb.TODOS_salida_spec1   WHERE   p.specObjID=s.specObjID   AND   p.specObjID=d.specObjID   AND   p.specObjID=e.specObjID  ORDER BY p.ID_T
+SELECT   p.ID_T,   p.ID,   p.RA_#,   p.DEC_#,   p.objID,   p.specObjID,   p.ra_#,   p.dec_#,   p.z,   p.petroR5#_r,   p.petroR5#Err_r,   p.petroR9#_r,   p.petroR9#Err_r,   p.modelMag_u,   p.modelMag_g,   p.modelMag_r,   p.modelMag_i,   p.modelMag_z,   p.modelMagErr_u,   p.modelMagErr_g,   p.modelMagErr_r,   p.modelMagErr_i,   p.modelMagErr_z,   p.extinction_u,   p.extinction_g,   p.extinction_r,   p.extinction_i,   p.extinction_z,   s.elodieBV,   s.z as z_spec,   s.specObjID,   d.d4#_n,   d.d4#_n_blue,   d.d4#_n_err   e.e_bv_sfd   FROM   galSpecIndx as d,   galSpecInfo as e,   SpecObjAll as s,   MYDB.TODOS_salida as p   INTO mydb.TODOS_salida_spec1   WHERE   p.specObjID=s.specObjID   AND   p.specObjID=d.specObjID   AND   p.specObjID=e.specObjID  ORDER BY p.ID_T
+select t.z_SN into mydb.openSN_redshiftplot1C from mydb.OpenSN t
+SELECT  top # p.objid,    p.run, p.rerun, p.camcol, p.field, p.obj,    p.type, p.ra, p.dec, p.u,p.g,p.r,p.i,p.z,    p.Err_u, p.Err_g, p.Err_r,p.Err_i,p.Err_z    FROM fGetNearbyObjEq(#,#,#) n JOIN PhotoPrimary p ON n.objID=p.objID  AND p.u BETWEEN # AND # AND p.g BETWEEN # AND # AND p.r BETWEEN # AND # AND p.i BETWEEN # AND # AND p.z BETWEEN # AND #
+SELECT TOP # specObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # and #
+SELECT COUNT(*) FROM SpecObj WHERE class = &&& AND zWarning = #
+SELECT TOP #  a.apogee_id,cast(str(a.glon,#,#) as float) glon,cast(str(a.glat,#,#) as float) glat,a.snr,a.vhelio_avg,a.vscatter,q.teff,q.logg,q.param_m_h,q.param_alpha_m  FROM apogeeStar as a  JOIN apogeeObject as o ON a.apogee_id=o.apogee_id  JOIN aspcapStar as q ON a.apstar_id=q.apstar_id
+SELECT * FROM openSN_phi0_control_E
+select t.phi0 into mydb.openSN_phi0_control_E from mydb.OpenSN t
+SELECT * FROM openSN_phi0_control_D
+select t.phi0 into mydb.openSN_phi0_control_D from mydb.OpenSN t
+SELECT TOP # FROM SpecObj WHERE class = &&& AND zWarning = #
+select top # * from [OpenSN]
+SELECT TOP # P.ObjID
+SELECT p.objid, p.ra, p.dec, f.fieldid, p.field, p.InsideMask, p.u, p.err_u, p.g, p.err_g, p.r, p.err_r, p.i, p.err_i, p.z, p.err_z, p.type, f.quality, p.specObjID FROM PhotoPrimary AS p JOIN Field AS f ON f.fieldid = p.fieldid WHERE (clean = #) AND ((f.quality = #) OR (f.quality = #)) AND (p.type = dbo.fPhotoType(&&&) OR p.type = dbo.fPhotoType(&&&)) AND (p.ra BETWEEN # AND #) AND p.dec BETWEEN # AND # AND ((p.InsideMask = #) OR (p.InsideMask = #) OR (p.InsideMask = #)) AND (#/p.err_u > #) AND (#/p.err_g > #) AND (#/p.err_r > #) AND (#/p.err_i > #) AND (#/p.err_z > #)
+SELECT * FROM DR5_LRGs_X
+SELECT specObjID, bestObjID, z ,REPLACE(CONVERT(FLOAT, z),&&&,&&&),ROW_NUMBER() OVER(ORDER BY z) as rownum2 FROM SpecObj s WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& and REPLACE(CONVERT(FLOAT, z),&&&,&&&) % # = #
+SELECT specObjID, bestObjID, z ,REPLACE(CONVERT(FLOAT, z),&&&,&&&) FROM SpecObj s WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& and REPLACE(CONVERT(FLOAT, z),&&&,&&&) % # = #
+select s.teffadop,s.teffadopunc,s.loggadop,s.loggadopunc,s.fehadop,s.fehadopunc,s.fiberid from sppParams s  where s.plate=# and s.mjd=# and fiberid in (#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#)
+SELECT * FROM openSN_phi0_B
+SELECT * FROM openSN_phi0
+SELECT * FROM openSN_phi0_control_B
+select t.phi0 into mydb.openSN_phi0_control_C from mydb.OpenSN t
+select top # * from [test1]
+select top # * from [openSN_phi0_B]
+select top # * from [DR5_LRGs_X]
+select t.phi0 into mydb.openSN_phi0_control_B from mydb.OpenSN t
+SELECT TOP #   objID, ra ,dec   FROM   PhotoPrimary   WHERE   ra > # and ra < #   AND dec > # and dec < #
+select t.phi0 into mydb.openSN_phi0_B from mydb.OpenSN t
+SELECT specObjID, bestObjID, z ,REPLACE(CONVERT(FLOAT, z),&&&,&&&) FROM SpecObj s WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&&
+SELECT * FROM openSN_phi0_control
+SELECT specObjID, bestObjID, z ,REPLACE(CONVERT(LONG, z),&&&,&&&) FROM SpecObj s WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&&
+select t.phi0 into mydb.openSN_phi0_control from mydb.OpenSN t
+SELECT specObjID, bestObjID, z ,REPLACE(CONVERT(INTEGER, z),&&&,&&&) FROM SpecObj s WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&&
+SELECT specObjID, bestObjID, z  FROM SpecObj s WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& and REPLACE(CONVERT(INTEGER, z),&&&,&&&) % # = #
+SELECT specObjID, bestObjID, z  FROM SpecObj s WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& and REPLACE(CONVERT(varchar, z),&&&,&&&) % # = #
+select t.phi0 into mydb.openSN_phi0 from mydb.OpenSN t
+SELECT specObjID, bestObjID, as s.redshift FROM SpecObj s WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& and REPLACE(CONVERT(varchar, z),&&&,&&&) % # = #
+SELECT specObjID, bestObjID, REPLACE(CONVERT(varchar, z),&&&,&&&) as s.redshift FROM SpecObj s WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& and s.redshift % # = #
+SELECT specObjID, bestObjID, REPLACE(CONVERT(varchar, z),&&&,&&&) as redshift FROM SpecObj s WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& and s.redshift % # = #
+SELECT specObjID, bestObjID, REPLACE(CONVERT(varchar, z),&&&,&&&) as redshift FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& and redshift % # = #
+SELECT specObjID, bestObjID, REPLACE(CONVERT(varchar, z),&&&,&&&) FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&&
+SELECT top # specObjID, bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& ORDER BY newid()
+SELECT specObjID, bestObjID, z  FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& and z % # = #
+SELECT specObjID, bestObjID, z as rownum FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& and z % # = #
+SELECT specObjID, bestObjID, z as rownum FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& and rownum % # = #
+SELECT specObjID, bestObjID, z as rownum FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& where rownum % # = #
+SELECT specObjID, bestObjID, z as rownum FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&&
+SELECT specObjID, bestObjID FROM ( SELECT specObjID, bestObjID, z as rownum FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&&)
+SELECT specObjID, bestObjID FROM ( SELECT specObjID, bestObjID, z as rownum FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&&) as t where t.rownum % #= #
+SELECT specObjID, bestObjID, rownum FROM ( SELECT specObjID, bestObjID, z as rownum FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&&) as t where t.rownum % #= #  order by rownum
+SELECT specObjID, bestObjID, rownum, ROW_NUMBER() OVER(ORDER BY rownum) as rownum2 FROM ( SELECT specObjID, bestObjID, z as rownum FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&&) as t where t.rownum % #= #  order by rownum
+SELECT specObjID, bestObjID, z, ROW_NUMBER() OVER(ORDER BY z) as rownum2 FROM ( SELECT specObjID, bestObjID, z as rownum FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&&) as t where t.rownum % #= #  order by z
+SELECT specObjID, bestObjID, z, ROW_NUMBER() OVER(ORDER BY z) as rownum2 FROM ( SELECT specObjID, bestObjID, z,ROW_NUMBER() OVER(ORDER BY z) as rownum FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&&) as t where t.z % # = #  order by z
+SELECT specObjID, bestObjID, z, ROW_NUMBER() OVER(ORDER BY z) as rownum2 FROM ( SELECT specObjID, bestObjID, z,ROW_NUMBER() OVER(ORDER BY z) as rownum FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&&) as t where z % # = #  order by z
+SELECT top # specObjID, bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&&
+SELECT P.MJD, P.psfMag_g    FROM PhotoObjAll AS P    WHERE P.objID = #   OR P.objID = #
+SELECT specObjID, bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& ORDER BY newid()
+select top # ra, dec from galaxy
+SELECT P.MJD, P.psfMag_g    FROM PhotoObjAll AS P    WHERE P.objID = #   OR P.objID = #   OR P.objID = #   OR P.objID = #   OR P.objID = #   OR P.objID = #
+SELECT TOP # FROM SpecObj WHERE # >= CAST(CHECKSUM(NEWID(), z) & # AS float) / CAST (# AS int)
+SELECT specObjID, bestObjID, z, ROW_NUMBER() OVER(ORDER BY z) as rownum2 FROM ( SELECT specObjID, bestObjID, z,ROW_NUMBER() OVER(ORDER BY z) as rownum FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&&) as t where t.rownum % # = #  order by z
+SELECT count(*)
+SELECT psfMag_g
+SELECT specObjID, bestObjID, z, ROW_NUMBER() OVER(ORDER BY z) as rownum2 FROM ( SELECT specObjID, bestObjID, z,ROW_NUMBER() OVER(ORDER BY z) as rownum FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&&) as t where t.rownum % # = #  order by t.rownum
+SELECT * FROM SpecObjID WHERE # >= CAST(CHECKSUM(NEWID(), z) & # AS float) / CAST (# AS int)
+SELECT specObjID, bestObjID, z FROM ( SELECT specObjID, bestObjID, z,ROW_NUMBER() OVER(ORDER BY z) as rownum FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&&) as t where t.rownum % #= #  order by t.rownum
+SELECT * FROM SpecObjID WHERE # >= CAST(CHECKSUM(NEWID(), SpecObjID) & # AS float) / CAST (# AS int)
+SELECT * FROM SpecObjid WHERE # >= CAST(CHECKSUM(NEWID(), SpecObjid) & # AS float) / CAST (# AS int)
+SELECT TOP #  cast(str(s.ra,#,#) as float) as ra,cast(str(s.[dec],#,#) as float) as dec,s.z,s.zErr,p.dered_g,p.dered_r,p.dered_i,p.dered_z  FROM ..SpecObj as s  JOIN ..PhotoObj AS p ON s.bestObjID = p.objID  JOIN dbo.fGetNearbySpecObjEq(#,#,#) AS b ON b.SpecobjID = S.SpecobjID  WHERE s.zWarning = # AND (s.class = &&&) AND ( p.type = # OR p.type = #)
+SELECT specObjID, bestObjID, z,rownum FROM ( SELECT specObjID, bestObjID, z,ROW_NUMBER() OVER(ORDER BY z) as rownum FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&&) as t where t.rownum % #= #  order by t.rownum
+SELECT specObjID, bestObjID, z,rownum FROM ( SELECT specObjID, bestObjID, z,ROW_NUMBER() OVER(ORDER BY z) as rownum FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&&) as t where t.rownum % # = #  order by t.rownum
+SELECT TOP # z
+SELECT specObjID, bestObjID, z,rownum FROM ( SELECT specObjID, bestObjID, z,ROW_NUMBER() OVER(ORDER BY bestObjID) as rownum FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& order by z asc) as t where t.rownum % # = #  order by t.rownum
+SELECT specObjID, bestObjID, z,rownum FROM ( SELECT specObjID, bestObjID, z,ROW_NUMBER() OVER(ORDER BY bestObjID) as rownum FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& order by by z asc) as t where t.rownum % # = #  order by t.rownum
+SELECT specObjID, bestObjID, z,rownum FROM ( SELECT specObjID, bestObjID, z,ROW_NUMBER() OVER(ORDER BY bestObjID) as rownum FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&&) as t where t.rownum % # = #  order by t.rownum
+SELECT TOP # specObjID, z FROM SpecObj  WHERE class = &&&  AND zWarning = #  AND z BETWEEN # and #
+SELECT specObjID, bestObjID, z,rownum FROM ( SELECT specObjID, bestObjID, z,ROW_NUMBER() OVER(ORDER BY bestObjID) as rownum FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& order by bestObjID) as t where t.rownum % # = #
+SELECT specObjID, bestObjID, z,rownum FROM ( SELECT specObjID, bestObjID, z,ROW_NUMBER() OVER(ORDER BY bestObjID) as rownum FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& order by rownum) as t where t.rownum % # = #
+SELECT specObjID, bestObjID, z FROM ( SELECT specObjID, bestObjID, z,ABS(CHECKSUM(NEWID())) AS Rnd FROM SpecObj ) vw WHERE Rnd < #
+SELECT specObjID, bestObjID, z FROM ( SELECT *,ABS(CHECKSUM(NEWID())) AS Rnd FROM SpecObj ) vw WHERE Rnd < #  AND class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&&
+SELECT specObjID, bestObjID, z,rownum FROM ( SELECT specObjID, bestObjID, z,ROW_NUMBER() OVER(ORDER BY bestObjID) as rownum FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&&) as t where t.rownum % # = #
+SELECT specObjID, bestObjID, z FROM ( SELECT *,ABS(CHECKSUM(NEWID())) AS Rnd FROM SpecObj ) vw WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& WHERE Rnd < #
+SELECT specObjID, bestObjID, z,ROW_NUMBER() OVER(ORDER BY bestObjID) as rownum FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& and rownum % # = #
+SELECT specObjID, bestObjID, z,ROW_NUMBER() OVER(ORDER BY bestObjID) as rownum FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& and ROW_NUMBER() OVER(ORDER BY bestObjID) % # = #
+SELECT specObjID, bestObjID, z,ROW_NUMBER() OVER(ORDER BY bestObjID) as rownum FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&&
+SELECT specObjID, bestObjID, z,ROW_NUMBER() OVER(ORDER BY bestObjID) FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&&
+SELECT TOP # specObjID, bestObjID, z,ROW_NUMBER() OVER(ORDER BY bestObjID) FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&&
+SELECT TOP # emline.fiberid as fiberID, emline.ra, emline.dec,  emline.z as z_noqso, emline.zerr as z_noqso_err,  emline.sigmaStars as emline_vdisp, emline.sigmaStarsErr as emline_vdisp_err,  pca.vdisp_median as pca_vdisp, pca.vdisp_err as pca_vdisp_err,  sp.veldisp as sp_vdisp, sp.veldisperr as sp_vdisp_err  FROM emissionLinesPort AS emline  JOIN stellarMassPCAWisc AS pca ON emline.specobjid = pca.specobjid  JOIN specObj as sp ON emline.specobjid = sp.specobjid  WHERE emline.plate = # AND emline.mjd = # AND pca.warning=#
+SELECT TOP1#  S.ra as ra_sob, S.dec as dec_sob, G.ra as ra_gal, G.dec as dec_gal from SpecObj as O join SpecObj as S on O.ra = S.ra  join Galaxy as G on O.ra = G.ra WHERE class = &&& AND zWarning = #
+SELECT TOP # specObjID, bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& tablesample (# rows)
+SELECT TOP1#  S.ra as ra_sob, S.dec as dec_sob, G.ra as ra_gal, G.dec as dec_gal join SpecObj as S join Galaxy as G WHERE class = &&& AND zWarning = #
+SELECT TOP1#  ra as sob, dec as sob, ra as gal, dec as gal FROM SpecObj as sob from Galaxy as gal WHERE class = &&& AND zWarning = #
+SELECT specObjID, bestObjID, z FROM SpecObj LIMIT #
+SELECT specObjID, bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& ORDER BY newid() LIMIT #
+SELECT TOP1# specObjID, ra, dec, z, spectroFlux_u, spectroFlux_g, spectroFlux_r, spectroFlux_i, spectroFlux_z FROM SpecObj WHERE class = &&& AND zWarning = # JOIN Galaxy psfMag_u
+SELECT * FROM A1#_sdss_#
+SELECT TOP # run,   camCol,   rerun,   field,   objID,   u, g, r, i, z,   ra, dec   FROM Star   WHERE u - g < #   and g - r < #   and r - i > #   and i - z > #
+SELECT TOP # *
+SELECT * FROM openSN_redshiftplot1B
+select t.z_SN into mydb.openSN_redshiftplot1B from mydb.OpenSN t
+SELECT TOP #  p.run,p.rerun,p.camCol,p.field,p.obj  FROM ..PhotoObj AS p  JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = P.objID  WHERE ( p.type = # OR p.type = #)
+SELECT ALL specObjID, ra, dec, z, spectroFlux_u, spectroFlux_g, spectroFlux_r, spectroFlux_i, spectroFlux_z FROM SpecObj SELECT psfMag_u FROM Galaxy WHERE class = &&& AND zWarning = #
+select  	r.run, r.rerun, r.camcol, r.field, f.fieldId, r.stripe, r.strip,  	r.ra, r.dec, r.raMin, r.raMax, r.decMin, r.decMax,  	r.mu, r.nu, r.incl, r.node, 	r.a, r.b, r.c, r.d, r.e, r.f,  	f.quality, 	f.a_u, f.b_u, f.c_u, f.d_u, f.e_u, f.f_u, 	f.a_g, f.b_g, f.c_g, f.d_g, f.e_g, f.f_g, 	f.a_r, f.b_r, f.c_r, f.d_r, f.e_r, f.f_r, 	f.a_i, f.b_i, f.c_i, f.d_i, f.e_i, f.f_i, 	f.a_z, f.b_z, f.c_z, f.d_z, f.e_z, f.f_z,   dbo.fGetUrlFitsCFrame(f.fieldId,&&&) as u_url, 	dbo.fGetUrlFitsCFrame(f.fieldId,&&&) as g_url, 	dbo.fGetUrlFitsCFrame(f.fieldId,&&&) as r_url, 	dbo.fGetUrlFitsCFrame(f.fieldId,&&&) as i_url, 	dbo.fGetUrlFitsCFrame(f.fieldId,&&&) as z_url   from dbo.fGetNearbyFrameEq(#E-#,#E-#,#,#) n, Frame r, Field f   where f.fieldId=r.fieldId and r.fieldId=n.fieldId and r.zoom=#
+select s.teffadop,s.teffadopunc,s.loggadop,s.loggadopunc,s.fehadop,s.fehadopunc,s.fiberid from sppParams s  where s.plate=# and s.mjd=# and fiberid in (#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#)
+select s.teffadop,s.teffadopunc,s.loggadop,s.loggadopunc,s.fehadop,s.fehadopunc,s.fiberid from sppParams s  where s.plate=# and s.mjd=# and fiberid in (#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#)
+select s.teffadop,s.teffadopunc,s.loggadop,s.loggadopunc,s.fehadop,s.fehadopunc,s.fiberid,p.psfmag_r from sppParams s join photoobjall p on s.bestobjid = p.objid where s.plate=# and s.mjd=# and fiberid in (#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#)
+select s.teffadop,s.teffadopunc,s.loggadop,s.loggadopunc,s.fehadop,s.fehadopunc,s.fiberid from sppParams s join photoobjall p on s.bestobjid = p.objid where s.plate=# and s.mjd=# and fiberid in (#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#)
+SELECT  top # p.objid,    p.run, p.rerun, p.camcol, p.field, p.obj,    p.type, p.ra, p.dec, p.u,p.g,p.r,p.i,p.z,    p.Err_u, p.Err_g, p.Err_r,p.Err_i,p.Err_z    FROM fGetNearbyObjEq(#,#,#) n, PhotoPrimary p    WHERE n.objID=p.objID
+select * from Photoz2 where objid=#
+select s.teffadop,s.teffadopunc,s.loggadop,s.loggadopunc,s.fehadop,s.fehadopunc,p.dered_g,p.psfmagerr_g,p.dered_r,p.psfmagerr_r,s.fiberid from sppParams s join photoobjall p on s.bestobjid = p.objid where s.plate=# and s.mjd=# and s.fiberid=#
+select s.teffadop,s.teffadopunc,s.loggadop,s.loggadopunc,s.fehadop,s.fehadopunc from sppParams s  where s.plate=# and s.mjd=# and s.fiberid=#
+SELECT  top # p.objid,    p.run, p.rerun, p.camcol, p.field, p.obj,    p.type, p.ra, p.dec, p.u,p.g,p.r,p.i,p.z,    p.Err_u, p.Err_g, p.Err_r,p.Err_i,p.Err_z    FROM fGetNearbyObjEq(#,#,#) n JOIN PhotoPrimary p ON n.objID=p.objID  AND p.u BETWEEN # AND #
+select s.teffadop,s.teffadopunc,s.loggadop,s.loggadopunc,s.fehadop,s.fehadopunc from sppParams s join photoobjall p on s.bestobjid = p.objid where s.plate=# and s.mjd=# and s.fiberid=#
+SELECT p.obj,  str(p.ra,#,#) as ra,  str(p.[dec],#,#) as dec,  p.r,p.u,p.g,p.i,p.z,  p.petroR5#_g,p.petroR5#_i,p.petroR5#_r,  p.petroR9#_g,p.petroR9#_i,p.petroR9#_r,  str(p.u - p.g,#,#) as ugModelColor,  str(p.g - p.r,#,#) as grModelColor,  str(p.r - p.i,#,#) as riModelColor,  str(p.i - p.z,#,#) as izModelColor,  p.dered_g,p.dered_i,p.dered_r,  ISNULL(s.z,#) as z,ISNULL(s.zErr,#) as zErr,   p.score as score,   c.z,c.zErr into mydb.A1#_sdss_# from Galaxy as p   left outer join SpecObj as s on p.objID = s.bestObjID   join dbo.fGetNearbyObjEq(#,#,#) as b on b.objID = p.objID   join Photoz as c on c.objID = p.objID    WHERE p.g < # AND p.r < # AND p.i < # AND p.z < # AND c.z > # AND c.z < # AND (p.score >= #)
+select s.teffadop,s.teffadopunc,s.loggadop,s.loggadopunc,s.fehadop,s.fehadopunc from sppParams s  where s.plate=# and s.mjd=# and s.fiberid =#select s.teffadop,s.teffadopunc,s.loggadop,s.loggadopunc,s.fehadop,s.fehadopunc,p.dered_g,p.psfmagerr_g,p.dered_r,p.psfmagerr_r,s.fiberid from sppParams s join photoobjall p on s.bestobjid = p.objid where s.plate=# and s.mjd=# and s.fiberid=#
+SELECT specObjID, z  FROM SpecObj WHERE class = &&&  AND zWarning = # AND z BETWEEN # AND #
+SELECT ra,dec,r FROM PhotoObj WHERE ra BETWEEN # AND # AND dec BETWEEN # AND # AND r < # AND r > # AND clean = #
+select s.teffadop,s.teffadopunc,s.loggadop,s.loggadopunc,s.fehadop,s.fehadopunc from sppParams s  where s.plate=# and s.mjd=# and s.fiberid =#
+select s.teffadop,s.teffadopunc,s.loggadop,s.loggadopunc,s.fehadop,s.fehadopunc,p.dered_g,p.psfmagerr_g,p.dered_r,p.psfmagerr_r,s.fiberid from sppParams s join photoobjall p on s.bestobjid = p.objid where s.plate=# and s.mjd=# and s.fiberid < # and s.fiberid > #
+SELECT TOP #   objID,   ra,   dec,   psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z,   dbo.fPhotoFlagsN(flags)   FROM Galaxy   WHERE   (flags & (dbo.fPhotoFlags(&&&))) != #
+SELECT ALL specObjID, ra, dec, z, spectroFlux_u, spectroFlux_g, spectroFlux_r, spectroFlux_i, spectroFlux_z FROM SpecObj WHERE class = &&& AND zWarning = #
+select s.teffadop,s.teffadopunc,s.loggadop,s.loggadopunc,s.fehadop,s.fehadopunc,p.dered_g,p.psfmagerr_g,p.dered_r,p.psfmagerr_r,s.fiberid from sppParams s join photoobjall p on s.bestobjid = p.objid where s.plate=# and s.mjd=#
+SELECT * FROM TODOS_salida_spec
+select top # * from [TODOS_salida_spec]
+SELECT   p.ID_T,   p.ID,   p.RA_#,   p.DEC_#,   p.objID,   p.specObjID,   p.ra_#,   p.dec_#,   p.z,   p.petroR5#_r,   p.petroR5#Err_r,   p.petroR9#_r,   p.petroR9#Err_r,   p.modelMag_u,   p.modelMag_g,   p.modelMag_r,   p.modelMag_i,   p.modelMag_z,   p.modelMagErr_u,   p.modelMagErr_g,   p.modelMagErr_r,   p.modelMagErr_i,   p.modelMagErr_z,   p.extinction_u,   p.extinction_g,   p.extinction_r,   p.extinction_i,   p.extinction_z,   s.elodieBV,   s.z as z_spec,   s.specObjID,   d.d4#_n,   d.d4#_n_blue,   d.d4#_n_err   FROM   galSpecIndx as d,   SpecObjAll as s,   MYDB.TODOS_salida as p   INTO mydb.TODOS_salida_spec   WHERE   p.specObjID=s.specObjID   AND   p.specObjID=d.specObjID  ORDER BY p.ID_T
+select s.teffadop,s.teffadopunc,s.loggadop,s.loggadopunc,s.fehadop,s.fehadopunc,p.dered_g,p.dered_r,s.fiberid from sppParams s join photoobjall p on s.bestobjid = p.objid where s.plate=# and s.mjd=#
+select s.teffadop,s.teffadopunc,s.loggadop,s.loggadopunc,s.fehadop,s.fehadopunc,p.dered_g,dered_r from sppParams s join photoobjall p on s.bestobjid = p.objid where s.plate=# and s.mjd=#
+SELECT   p.ID_T,   p.ID,   p.RA_#,   p.DEC_#,   p.objID,   p.specObjID,   p.ra_#,   p.dec_#,   p.z,   p.petroR5#_r,   p.petroR5#Err_r,   p.petroR9#_r,   p.petroR9#Err_r,   p.modelMag_u,   p.modelMag_g,   p.modelMag_r,   p.modelMag_i,   p.modelMag_z,   p.modelMagErr_u,   p.modelMagErr_g,   p.modelMagErr_r,   p.modelMagErr_i,   p.modelMagErr_z,   p.extinction_u,   p.extinction_g,   p.extinction_r,   p.extinction_i,   p.extinction_z,   s.elodieBV,   s.z,   s.specObjID,   d.d4#_n,   d.d4#_n_blue,   d.d4#_n_err   FROM   galSpecIndx as d,   SpecObjAll as s,   MYDB.TODOS_salida as p   INTO mydb.TODOS_salida_spec   WHERE   p.specObjID=s.specObjID   AND   p.specObjID=d.specObjID  ORDER BY p.ID_T
+SELECT * FROM test3#
+SELECT   p.ID_T,   p.ID,   p.RA,   p.DEC,   p.objID,   p.specObjID,   p.ra,   p.dec,   p.z,   p.petroR5#_r,   p.petroR5#Err_r,   p.petroR9#_r,   p.petroR9#Err_r,   p.modelMag_u,   p.modelMag_g,   p.modelMag_r,   p.modelMag_i,   p.modelMag_z,   p.modelMagErr_u,   p.modelMagErr_g,   p.modelMagErr_r,   p.modelMagErr_i,   p.modelMagErr_z,   p.extinction_u,   p.extinction_g,   p.extinction_r,   p.extinction_i,   p.extinction_z,   s.elodieBV,   s.z,   s.specObjID,   d.d4#_n,   d.d4#_n_blue,   d.d4#_n_err   FROM   SpecObjAll as s,   MYDB.TODOS_salida as p   INTO mydb.TODOS_salida_spec   WHERE   p.specObjID=s.specObjID  ORDER BY p.ID_T
+select * into mydb.test3# from mydb.OpenSN t
+select * into mydb.test2# from mydb.OpenSN t
+SELECT ALL specObjID, ra, dec, spectroFlux_u,spectroFlux_g,spectroFlux_r,spectroFlux_i,spectroFlux_z FROM SpecObj WHERE class = &&& AND zWarning = #
+SELECT star.apstar_id,  star.apogee_id, star.ra, star.dec, star.glon, star.glat,  star.apogee_target1, star.apogee_target2,   aspcap.teff,aspcap.logg,aspcap.param_m_h FROM apogeeStar star  JOIN dbo.fGetNearbyApogeeStarEq(#,#,#) near on  star.apstar_id=near.apstar_id  JOIN aspcapStar aspcap on aspcap.apstar_id = star.apstar_id
+SELECT * FROM openSN_redshiftplot2
+SELECT * FROM openSN_redshiftplot1
+select t.z_SN into mydb.openSN_redshiftplot2 from mydb.OpenSN t
+SELECT TOP # G.ObjID, G.u, G.g, G.r, G.i, G.z   FROM Galaxy AS G   JOIN Star AS S   ON G.parentID = S.parentID   WHERE G.parentID > #
+select t.z_SN into mydb.openSN_redshiftplot1 from mydb.OpenSN t
+SELECT ra, dec, petroMag_r FROM Galaxy as G, dbo.fGetNearbyObjEq(#,#,#) as N WHERE G.objID = N.objID AND petroMag_r <= # into mydb.Cercaincerchio
+select t.z_SN into mydb.test2# from mydb.OpenSN t
+select s.teffadop,s.teffadopunc,s.loggadop,s.loggadopunc,s.fehadop,s.fehadopunc,p.dered_g from sppParams s join photoobjall p on s.bestobjid = p.objid where s.plate=# and s.mjd=#
+select s.teffadop,s.teffadopunc,s.loggadop,s.loggadopunc,s.fehadop,s.fehadopunc,s.bestobjid from sppParams s join photoobjall p on s.bestobjid = p.objid where s.plate=# and s.mjd=#
+select s.teffadop,s.teffadopunc,s.loggadop,s.loggadopunc,s.fehadop,s.fehadopunc,s.bestobjid from sppParams s  where s.plate=# and s.mjd=#
+select s.teffadop,s.teffadopunc,s.loggadop,s.loggadopunc,s.fehadop,s.fehadopunc,s.bestobjid from sppParams s  where s.plate=# and s.mjd=# and s.fiberid=#
+select top # * from [Cercaincerchio]
+select s.teffadop,s.teffadopunc,s.loggadop,s.loggadopunc,s.fehadop,s.fehadopunc from sppParams s join Photoobjall p on s.bestobjid = p.objid where s.plate=# and s.mjd=# and s.fiberid=#
+select s.teffadop,s.teffadopunc,s.loggadop,s.loggadopunc,s.fehadop,s.fehadopunc from sppParams s join Photoobjall p where s.plate=# and s.mjd=# and s.fiberid=#
+select s.teffadop,s.teffadopunc,s.loggadop,s.loggadopunc,s.fehadop,s.fehadopunc from sppParams s where s.plate=# and s.mjd=# and s.fiberid=#
+SELECT ra, dec FROM Galaxy as G, dbo.fGetNearbyObjEq(#, #, #) as N WHERE G.objID = N.objID into mydb.Cercaincerchio
+select s.teffadop,s.teffadopunc,s.loggadop,s.loggadopunc,s.fehadop,s.fehadopunc,p.dered_g from sppParams s where s.plate=# and s.mjd=# and s.fiberid=#
+select s.teffadop,s.teffadopunc,s.loggadop,s.loggadopunc,s.fehadop,s.fehadopunc,p.dered_g from sppParams s join PhotoObjAll p where s.plate=# and s.mjd=# and s.fiberid=#
+select s.teffadop,s.teffadopunc,s.loggadop,s.loggadopunc,s.fehadop,s.fehadopunc,p.dered_g from sppParams s join PhotoObjAll p on s.bestobjID = p.objid where s.plate=# and s.mjd=# and s.fiberid=#
+select s.teffadop,s.teffadopunc,s.loggadop,s.loggadopunc,s.fehadop,s.fehadopunc,p.dered_g from sppParams s join PhotoObjAll p on s.bestobjID=p.objid where s.plate=# and s.mjd=# and s.fiberid=#
+select teffadop,teffadopunc,loggadop,loggadopunc,fehadop,fehadopunc,dered_g from sppParams s join PhotoObjAll p on s.bestobjID=p.objid where s.plate=# and s.mjd=# and s.fiberid=#
+select teffadop,teffadopunc,loggadop,loggadopunc,fehadop,fehadopunc,dered_g from sppParams s join PhotoObjAll p on s.bestobjID=p.objid where plate=# and mjd=# and fiberid=#
+SELECT ALL specObjID, ra,dec, z FROM SpecObj WHERE class = &&& AND zWarning = #
+SELECT ALL specObjID, sp.ra,sp.dec,sp.z, z FROM SpecObj WHERE class = &&& AND zWarning = #
+SELECT first.plate, other.plate,   COUNT(DISTINCT other.mjd) + COUNT(DISTINCT first.mjd) AS nightsObserved,   otherPlate.programname, count(DISTINCT other.bestObjID) AS objects  FROM SpecObjAll first  JOIN SpecObjAll other ON first.bestObjID = other.bestObjID  JOIN PlateX AS firstPlate ON firstPlate.plate = first.plate  JOIN PlateX AS otherPlate ON otherPlate.plate = other.plate  WHERE first.scienceprimary = # AND other.scienceprimary = #   AND other.bestObjID > #  GROUP BY first.plate, other.plate, otherPlate.programname  ORDER BY nightsObserved DESC, otherPlate.programname,   first.plate, other.plate
+SELECT  COUNT( CASE WHEN # < = z AND z<=# THEN z END ) as &&&, COUNT( CASE WHEN # < z AND z<=# THEN z END ) as &&&, COUNT( CASE WHEN # < z AND z<=# THEN z END ) as &&& FROM SpecObj WHERE class = &&& AND zWarning = #
+SELECT  COUNT( CASE WHEN # < = z AND z<=# THEN z END ) as &&&, COUNT( CASE WHEN # < z AND z<=# THEN z END ) as &&& COUNT( CASE WHEN # < z AND z<=# THEN z END ) as &&& FROM SpecObj WHERE class = &&& AND zWarning = #
+select * into mydb.test1# from mydb.OpenSN t
+SELECT specObjID,sp.ra,sp.dec,sp.z,z FROM SpecObj WHERE class = &&& AND zWarning = #
+SELECT sp.ra,sp.dec,sp.z,   sp.psfmag_i-sp.extinction_i AS mag_i,  peak,integr  FROM SpecPhoto AS sp   INNER JOIN FIRST AS f ON sp.objid = f.objid  WHERE   class = &&&
+SELECT specObjID, z FROM SpecObj WHERE class = &&& AND zWarning = #
+select * from galSpecInfo where specObjId=#
+SELECT TOP # specObjID, z  FROM SpecObj  WHERE class = &&& AND zWarning = #
+SELECT TOP #   run,   camCol,   rerun,   field,   objID,   ra,   dec   FROM Galaxy   WHERE ( ( flags & (dbo.fPhotoFlags(&&&)   | dbo.fPhotoFlags(&&&)   | dbo.fPhotoFlags(&&&)) ) > #   and ( flags & (dbo.fPhotoFlags(&&&)   | dbo.fPhotoFlags(&&&)   | dbo.fPhotoFlags(&&&)) ) != dbo.fPhotoFlags(&&&)   and ( flags & (dbo.fPhotoFlags(&&&)   | dbo.fPhotoFlags(&&&)) ) = #   and petroMag_i > #   and (petroMag_r > # or petroR5#_r > #)   and (petroMag_r > # and g > # and r > # and i > #)   and ( (petroMag_r-extinction_r) < #   and (petroMag_r - extinction_r <   (# + (#/#) * (dered_g - dered_r) + # * (dered_r - dered_i)   - # * #) )   and ( (dered_r - dered_i - (dered_g - dered_r)/# - #) < #)   and ( (dered_r - dered_i - (dered_g - dered_r)/# - #) > #)   and ( (petroMag_r - extinction_r +   # * LOG1#(# * # * petroR5#_r * petroR5#_r)) < #) )   or ( (petroMag_r - extinction_r < #)   and ( (dered_r - dered_i - (dered_g - dered_r)/# - #) > (# - # *   (dered_g - dered_r)) )   and ( (dered_g - dered_r) > (# + # * (dered_r - dered_i)) ) )   and ( (petroMag_r - extinction_r +   # * LOG1#(# * # * petroR5#_r * petroR5#_r) ) < # ) )
+select * from stellarMassPCAWiscBC0# where specObjId=#
+select teffadop,teffadopunc,loggadop,loggadopunc,fehadop,fehadopunc from sppParams where plate=# and mjd=# and fiberid=#
+select teffadop
+CREATE TABLE Cercaincerchio (  objid bigint,  ra float,  dec float,  search_id int,  matched_id bigint,  z real );
+SELECT TOP # * from SpecObj where SPECPRIMARY=# and ZWARNING_NOQSO=# and TILEID>=#
+select ra
+select fiberid
+select fibered
+SELECT TOP # u, g, r, i, z FROM Galaxy   WHERE   (htmid*# & #)   < (# * #)
+SELECT TOP # * from SpecObj where SPECPRIMARY=# and
+SELECT TOP # * from SpecObj where SPECPRIMARY == # and
+SELECT DISTINCT p.ra, p.dec, p.u, p.g, p.r, p.i, p.z FROM PhotoObjAll AS p JOIN SpecObjAll s ON p.objID = s.bestObjID WHERE ((p.ra between # and #) and (p.dec between # and #))
+SELECT TOP # * from SpecObj where boss_target1 && #^#
+SELECT DISTINCT p.ra, p.dec, p.objid, p.run, p.rerun, p.camcol, p.field, s.z, s.plate, s.mjd, s.fiberID, s.specobjid, s.run2d, s.instrument FROM PhotoObjAll AS p JOIN SpecObjAll s ON p.objID = s.bestObjID WHERE (s.plate=# AND s.mjd=#)
+SELECT DISTINCT s.fiberID FROM PhotoObjAll AS p JOIN SpecObjAll s ON p.objID = s.bestObjID WHERE (s.plate=# AND s.mjd=#)
+SELECT TOP # * from SpecObj where boss_target1 && #
+SELECT DISTINCT s.ra FROM PhotoObjAll AS p JOIN SpecObjAll s ON p.objID = s.bestObjID WHERE (s.plate=# AND s.mjd=# AND s.fiberid=#)
+SELECT DISTINCT s.ra FROM PhotoObjAll AS p JOIN SpecObjAll s ON p.objID = s.bestObjID WHERE (s.plate=# AND s.mjd=#)
+SELECT DISTINCT s.ra FROM PhotoObjAll AS p JOIN SpecObjAll s ON p.objID = s.bestObjID WHERE (s.plate=#)
+SELECT TOP # * from SpecObj
+SELECT TOP # * from PhotoObj
+SELECT DISTINCT s.specObjID FROM PhotoObjAll AS p JOIN SpecObjAll s ON p.objID = s.bestObjID WHERE (s.plate=# AND s.mjd=# AND s.fiberid=#)
+SELECT DISTINCT p.ra, p.dec, p.objid, p.run, p.rerun, p.camcol, p.field, s.z, s.plate, s.mjd, s.fiberID, s.specobjid, s.run2d, s.instrument FROM PhotoObjAll AS p JOIN SpecObjAll s ON p.objID = s.bestObjID WHERE (s.plate=# AND s.mjd=# AND s.fiberid=#)
+SELECT TOP # ra, dec, specobjid, plate, mjd, fiberid FROM specObj WHERE survey = &&& and programname = &&&
+SELECT  sp.ra, sp.dec, sp.z as redshift,  sp.cModelMag_g as g, sp.cModelMagerr_g as err_g,   sp.cModelMag_i as i, sp.cModelMagerr_i as err_i,  gs.h_alpha_eqw, gs.oii_#_eqw,   p.aperFlux7_g, p.aperFlux7Ivar_g as var_g,  p.aperFlux7_i, p.aperFlux7Ivar_i as var_i    FROM GalSpecLine AS gs   JOIN SpecPhoto AS sp ON sp.specobjid = gs.specobjid   JOIN dbo.fGetNearbySpecObjEq(#,#,#) AS GN  ON GN.specobjID = gs.specobjid  JOIN Galaxy as gal ON gal.specobjId = gs.specobjid  JOIN PhotoObjAll as p ON p.specObjId = gs.specobjID    WHERE   sp.cModelMag_g-sp.cModelMag_i between # and #   and sp.z > #  and sp.cModelMag_i-#*log1#(#E+#*sp.z) < #
+SELECT  sp.ra, sp.dec, sp.z as redshift,  sp.cModelMag_g as g, sp.cModelMagerr_g as err_g,   sp.cModelMag_i as i, sp.cModelMagerr_i as err_i,  gs.h_alpha_eqw, gs.oii_#_eqw,   p.aperFlux7_g, p.aperFlux7Ivar_g as var_g,  p.aperFlux7_i, p.aperFlux7Ivar_i as var_i    FROM GalSpecLine AS gs   JOIN SpecPhoto AS sp ON sp.specobjid = gs.specobjid   JOIN dbo.fGetNearbySpecObjEq(#,#,#) AS GN  ON GN.specobjID = gs.specobjid  JOIN Galaxy as gal ON gal.specobjId = gs.specobjid  JOIN PhotoObjAll as p ON p.specObjId = gs.specobjID    WHERE   h_alpha_eqw between # and #   and oii_#_eqw between # and #   and sp.cModelMag_g-sp.cModelMag_i between # and #   and sp.z between # and #   and sp.cModelMag_i-#*log1#(#E+#*sp.z) < #
+SELECT top # objid, ra, dec, psfmag_i-extinction_i AS mag_i, psfmag_r-extinction_r AS mag_r, z  FROM SpecPhoto  WHERE   (class = &&&)
+SELECT   TOP # RA, DEC, VAR_A, VAR_GAMMA, VAR_CHI2  FROM qsoVarPTF  WHERE qsoVarPTF.VAR_CHI2># AND qsoVarPTF.VAR_A>#
+SELECT Q1_&&&.FITS
+SELECT Q1 + CAST((ROW_NUMBER() OVER(ORDER BY bestObjID)) as varchar)
+SELECT &&& || ROW_NUMBER() OVER(ORDER BY bestObjID) AS FILE
+SELECT D&&&FILE
+SELECT ROW_NUMBER() OVER(ORDER BY bestObjID) AS FILE
+SELECT ROW_NUMBER() OVER(ORDER BY bestObjID) AS FILE, specObjID, bestObjID, z from SpecObj where bestObjID in (SELECT TOP # bestObjID FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& order by newid())
+SELECT &&& || ROW_NUMBER() OVER(ORDER BY bestObjID) AS FILE, specObjID, bestObjID, z from SpecObj where bestObjID in (SELECT TOP # bestObjID FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& order by newid())
+SELECT &&& || ROW_NUMBER() OVER(ORDER BY bestObjID), specObjID, bestObjID, z from SpecObj where bestObjID in (SELECT TOP # bestObjID FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& order by newid())
+SELECT ROW_NUMBER() OVER(ORDER BY bestObjID), specObjID, bestObjID, z from SpecObj where bestObjID in (SELECT TOP # bestObjID FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& order by newid())
+SELECT TOP # ROW_NUMBER() OVER(ORDER BY bestObjID) , specObjID, bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& order by newid()
+SELECT TOP # ROW_NUMBER() OVER(ORDER BY bestObjID) , specObjID, bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&&
+SELECT TOP # @n:=@n+#, specObjID, bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& order by newid()
+SELECT TOP # @n:=@n+#,, specObjID, bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& order by newid()
+SELECT TOP # ROW_NUMBER() OVER (ORDER BY newid()) AS Row_Counter, specObjID, bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& order by newid()
+select top # p.objID,p.ra,p.dec,s.z as redshift,w.plate,s.fiberID from SpecObj s join photoObj p ON p.objID = s.bestObjID join plateX w on w.plateID = s.plateID where s.class = &&&
+SELECT TOP # # AS ID, specObjID, bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& order by newid()
+SELECT * FROM sdssDR1#primary
+SELECT TOP # ROW_NUMBER() OVER (ORDER BY (SELECT #)) AS number, specObjID, bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& order by newid()
+SELECT TOP # count(), specObjID, bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& order by newid()
+SELECT TOP # row_number() OVER (order by newid()), specObjID, bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& order by newid()
+SELECT TOP # row_number() OVER (order by specObjID), specObjID, bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& order by newid()
+SELECT TOP # row_number() OVER specObjID, specObjID, bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& order by newid()
+SELECT TOP # row_number() OVER newid(), specObjID, bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& order by newid()
+SELECT TOP # row_number(), specObjID, bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& order by newid()
+SELECT TOP # row_number, specObjID, bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& order by newid()
+SELECT TOP # rowid, specObjID, bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& order by newid()
+SELECT TOP #  photoobj.run, photoobj.camcol, photoobj.field, photoobj.obj,  photoobj.psfmag_u, photoobj.psfmag_g, photoobj.psfmag_r,  photoobj.psfmag_i, photoobj.psfmag_z,   photoobj.ra as photoobj_ra, photoobj.dec as photoobj_dec,   star.apstar_id, star.ra as star_ra, star.dec as star_dec,   aspcap.teff, aspcap.param_m_h, aspcap.logg FROM apogeeStar AS star   CROSS APPLY dbo.fGetNearestObjEq( star.ra, star.dec, #) AS near   JOIN photoobj ON near.objid=photoobj.objid   JOIN aspcapStar as aspcap ON star.apstar_id = aspcap.apstar_id WHERE star.glat > #. and aspcap.teff > #
+SELECT ra, dec FROM Star WHERE ra BETWEEN # and # AND dec BETWEEN # and #
+SELECT * FROM all_galaxies_and_quasars
+SELECT  s.specObjID, s.plate,s.mjd,s.fiberid, s.run2d, s.z, s.class, p.extinction_g, s.snMedian, s.ra, s.dec into mydb.all_galaxies_and_quasars from ..SpecObj as s  LEFT JOIN PhotoObjAll p on s.bestObjID = p. objID  WHERE (    ((s.class = &&&) OR (s.class = &&&))   AND (s.snMedian > #))
+SELECT  s.specObjID, s.plate,s.mjd,s.fiberid, s.run2d, s.z, s.class, p.extinction_g, s.snMedian, s.ra, s.dec into mydb.MyTable from ..SpecObj as s  LEFT JOIN PhotoObjAll p on s.bestObjID = p. objID  WHERE (    ((s.class = &&&) OR (s.class = &&&))   AND (s.snMedian > #))
+SELECT  s.specObjID, s.plate,s.mjd,s.fiberid, s.run2d, s.z, s.class, p.extinction_g, s.snMedian, s.ra, s.dec, s.z_person, s.comments_person, s.class_person into mydb.all_galaxis_and_quasars from ..SpecObj as s  LEFT JOIN PhotoObjAll p on s.bestObjID = p. objID  WHERE (    ((s.class = &&&) OR (s.class = &&&))   )
+SELECT TOP # s.specObjID, s.plate,s.mjd,s.fiberid, s.run2d, s.z, s.class, p.extinction_g, s.snMedian, s.ra, s.dec, s.z_person, s.comments_person, s.class_person  from ..SpecObj as s  LEFT JOIN PhotoObjAll p on s.bestObjID = p. objID  WHERE (    ((s.class = &&&) OR (s.class = &&&))   )
+SELECT s.specObjID, s.plate,s.mjd,s.fiberid, s.run2d, s.z, s.class, p.extinction_g, s.snMedian, s.ra, s.dec, s.z_person, s.comments_person, s.class_person  from ..SpecObj as s  LEFT JOIN PhotoObjAll p on s.bestObjID = p. objID  WHERE (    ((s.class = &&&) OR (s.class = &&&))   )
+SELECT  COUNT( CASE WHEN # < = z AND z<=# THEN z END ) as &&&, COUNT( CASE WHEN # < z AND z<=# THEN z END ) as &&& FROM SpecObj WHERE class = &&& AND zWarning = #
+SELECT * FROM ztf_sdss_galex_extcor_specz
+SELECT COUNT( CASE WHEN #<=z AND z<=# THEN z END ) as in_range
+SELECT COUNT( CASE WHEN z BETWEEN # AND # )
+SELECT COUNT( CASE WHEN z BETWEEN # AND #)
+SELECT TOP # p.ra,p.dec,p.type,p.modelmag_g,p.modelmag_r,p.modelmag_i,p.run,p.rerun,p.camcol,p.field,p.obj,p.objid,dbo.fIAUFromEq(p.ra,p.dec),r.z,r.Zerr FROM Galaxy as p, photoz as r WHERE p.ObjID=r.ObjID and p.modelmag_r<# and p.ra<# and p.ra># and p.dec> and p.dec< order by p.modelmag_r
+SELECT * FROM MyTable_#
+SELECT P.ObjID, P.ra, P.dec, s.z, P.u, P.g, P.r, P.i, P.z INTO mydb.MyTable_#  FROM  photoObjAll as P   join SpecObjAll AS s on s.bestobjID = P.ObjID  WHERE (P.u-P.g>#) AND (P.u-P.g<#) AND (P.g-P.r>#) AND (P.g-P.r< #) AND ((P.b<#) or (P.b>#))  AND (s.class = &&&) AND (s.subclass = &&&) AND (P.fiberMag_g < P.fiberMag_z)
+select * from galSpecIndx where specObjId=#
+SELECT top #   run, rerun, camcol, field,   mjd_r as primary_mjd  FROM Field WHERE  mjd_r > #
+select  	r.run, r.rerun, r.camcol, r.field, f.fieldId, r.stripe, r.strip,  	r.ra, r.dec, r.raMin, r.raMax, r.decMin, r.decMax,  	r.mu, r.nu, r.incl, r.node, 	r.a, r.b, r.c, r.d, r.e, r.f,  	f.quality, 	f.a_u, f.b_u, f.c_u, f.d_u, f.e_u, f.f_u, 	f.a_g, f.b_g, f.c_g, f.d_g, f.e_g, f.f_g, 	f.a_r, f.b_r, f.c_r, f.d_r, f.e_r, f.f_r, 	f.a_i, f.b_i, f.c_i, f.d_i, f.e_i, f.f_i, 	f.a_z, f.b_z, f.c_z, f.d_z, f.e_z, f.f_z,   dbo.fGetUrlFitsCFrame(f.fieldId,&&&) as u_url, 	dbo.fGetUrlFitsCFrame(f.fieldId,&&&) as g_url, 	dbo.fGetUrlFitsCFrame(f.fieldId,&&&) as r_url, 	dbo.fGetUrlFitsCFrame(f.fieldId,&&&) as i_url, 	dbo.fGetUrlFitsCFrame(f.fieldId,&&&) as z_url   from dbo.fGetNearbyFrameEq(#,#E-#,#,#) n, Frame r, Field f   where f.fieldId=r.fieldId and r.fieldId=n.fieldId and r.zoom=#
+SELECT * FROM Xue_#_ColourCutOnly
+INSERT INTO #upload values ( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, 'J0#+#
+SELECT * FROM spec_qso_#_#
+SELECT * FROM pho_star_#_#
+SELECT s.plate, s.mjd, s.fiberid, p.ObjId, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, p.ra, p.dec, s.z, u.propermotion into mydb.test1 FROM SpecObjAll s INNER JOIN PhotoObjAll p ON s.bestObjId=p.ObjID LEFT OUTER JOIN sppParams t on s.specObjID=t.specObjID LEFT OUTER JOIN USNO u on s.bestObjID=u.ObjID WHERE p.psfMag_u<# AND p.extinction_r<=# AND ((p.psfMag_u-p.psfMag_g between # and #) and (p.psfMag_g-p.psfMag_r between # and #)) OR (( p.flags_u|p.flags_g|p.flags_r|p.flags_i|p.flags_z)& (dbo.fPhotoFlags(&&&)| dbo.fPhotoFlags (&&&)| dbo.fPhotoFlags (&&&)| dbo.fPhotoFlags (&&&))=#) AND ((Abs(s.z)<#) and ((s.zwarning&#)=#)) OR ((Abs(s.z)>#) and (Abs(u.propermotion)>#)) ORDER BY s.plate, s.mjd, s.fiberid
+select top # * from [specObjAllz_cleanphoto]
+SELECT s.plate, s.mjd, s.fiberid, p.ObjId, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, p.ra, p.dec, s.z, u.propermotion, t.bsz, t.zbclass into mydb.test1 FROM SpecObjAll s INNER JOIN PhotoObjAll p ON s.bestObjId=p.ObjID LEFT OUTER JOIN sppParams t on s.specObjID=t.specObjID LEFT OUTER JOIN USNO u on s.bestObjID=u.ObjID WHERE p.psfMag_u<# AND p.extinction_r<=# AND ((p.psfMag_u-p.psfMag_g between # and #) and (p.psfMag_g-p.psfMag_r between # and #)) OR (( p.flags_u|p.flags_g|p.flags_r|p.flags_i|p.flags_z)& (dbo.fPhotoFlags(&&&)| dbo.fPhotoFlags (&&&)| dbo.fPhotoFlags (&&&)| dbo.fPhotoFlags (&&&))=#) AND ((Abs(s.z)<#) and ((s.zwarning&#)=#)) OR ((Abs(s.z)>#) and (Abs(u.propermotion)>#)) ORDER BY s.plate, s.mjd, s.fiberid
+select * from sppParams where specObjId=#
+SELECT * FROM specObjAllz_cleanphoto
+SELECT s.plate, s.mjd, s.fiberid, p.ObjId, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, p.ra, p.dec, s.z, u.propermotion, t.bsz, t.zbclass into mydb.test1 FROM SpecObjAll s INNER JOIN PhotoObjAll p ON s.bestObjId=p.ObjID LEFT OUTER JOIN sppParams t on s.specObjID=t.specObjID LEFT OUTER JOIN USNO u on s.bestObjID=u.ObjID WHERE p.psfMag_u<# AND p.extinction_r<=# AND ((p.psfMag_u-p.psfMag_g between # and #) and (p.psfMag_g-p.psfMag_r between # and #)) AND (t.zbclass<>&&&) OR (( p.flagsu|p.flags_g|p.flags_r|p.flags_i|p.flags_z)& (dbo.fPhotoFlags(&&&)| dbo.fPhotoFlags (&&&)| dbo.fPhotoFlags (&&&)| dbo.fPhotoFlags (&&&))=#) AND ((Abs(s.z)<#) and ((s.zwarning&#)=#)) OR ((Abs(s.z)>#) and (Abs(u.propermotion)>#)) ORDER BY s.plate, s.mjd, s.fiberid
+SELECT s.plate, s.mjd, s.fiberid, p.ObjId, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, p.ra, p.dec, s.z, u.propermotion, t.bsz, t.zbclass into mydb.test1 FROM SpecObjAll s INNER JOIN PhotoObjAll p ON s.bestObjId=p.ObjID LEFT OUTER JOIN sppParams t on s.specObjID=t.specObjID LEFT OUTER JOIN USNO u on s.bestObjID=u.ObjID WHERE p.psfMag_u<# AND p.extinction_r<=# AND   ((p.psfMag_u-p.psfMag_g between # and #) and (p.psfMag_g-p.psfMag_r between # and #)) AND (t.zbclass<>&&&) OR (( p.flagsu|p.flags_g|p.flags_r|p.flags_i|p.flags_z)& (dbo.fPhotoFlags(&&&)| dbo.fPhotoFlags (&&&)| dbo.fPhotoFlags (&&&)| dbo.fPhotoFlags (&&&))=#) AND (((Abs(s.z)<#) and ((s.zwarning&#)=#)) OR ((Abs (s.z)>#) and (Abs(u.propermotion)>#)))) ORDER BY s.plate, s.mjd, s.fiberid
+SELECT s.plate, s.mjd, s.fiberid, p.ObjId, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, p.ra, p.dec, s.z, u.propermotion, t.bsz, t.zbclass into mydb.test1 FROM SpecObjAll s INNER JOIN PhotoObjAll p ON s.bestObjId=p.ObjID LEFT OUTER JOIN sppParams t on s.specObjID=t.specObjID LEFT OUTER JOIN USNO u on s.bestObjID=u.ObjID WHERE p.psfMag_u<# AND p.extinction_r<=# AND   ((p.psfMag_u-p.psfMag_g between # and #) and (p.psfMag_g-p.psfMag_r between # and #)) OR ((p.psfMag_g-p.psfMag_r between # and #) and (Abs(( p.psfMag_r-p.psfMag_i)#*(p.psfMag_g-p.psfMag_r))>#) and (((p.psfMag_u-p.psfMag_g)<#) or (( p.psfMag_u-p.psfMag_g)<#*(p.psfMag_g-p.psfMag_r)#)))) AND (t.zbclass<>&&&) OR (( p.flagsu|p.flags_g|p.flags_r|p.flags_i|p.flags_z)& (dbo.fPhotoFlags(&&&)| dbo.fPhotoFlags (&&&)| dbo.fPhotoFlags (&&&)| dbo.fPhotoFlags (&&&))=#) AND (((Abs(s.z) <#) and ((s.zwarning&#)=#)) OR ((Abs (s.z)>#) and (Abs(u.propermotion)>#)))) ORDER BY s.plate, s.mjd, s.fiberid
+SELECT s.plate, s.mjd, s.fiberid, p.ObjId, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, p.ra, p.dec, s.z, u.propermotion, t.bsz, t.zbclass into mydb.test1 FROM SpecObjAll s INNER JOIN PhotoObjAll p ON s.bestObjId=p.ObjID LEFT OUTER JOIN sppParams t on s.specObjID=t.specObjID LEFT OUTER JOIN USNO u on s.bestObjID=u.ObjID WHERE p.psfMag_u<# AND p.extinction_r<=# AND   (((p.psfMag_u-p.psfMag_g between # and #) and (p.psfMag_g-p.psfMag_r between # and #)) OR ((p.psfMag_g-p.psfMag_r between # and #) and (Abs(( p.psfMag_r-p.psfMag_i)#*(p.psfMag_g-p.psfMag_r))>#) and (((p.psfMag_u-p.psfMag_g)<#) or (( p.psfMag_u-p.psfMag_g)<#*(p.psfMag_g-p.psfMag_r)#)))) AND (t.zbclass<>&&&) OR (( p.flagsu|p.flags_g|p.flags_r|p.flags_i|p.flags_z)& (dbo.fPhotoFlags(&&&)| dbo.fPhotoFlags (&&&)| dbo.fPhotoFlags (&&&)| dbo.fPhotoFlags (&&&))=#) AND (((Abs(s.z) <#) and ((s.zwarning&#)=#)) OR ((Abs (s.z)>#) and (Abs(u.propermotion)>#)))) ORDER BY s.plate, s.mjd, s.fiberid
+SELECT ra, dec into mydb.MyTable from dr1#.Star WHERE ra BETWEEN # and # AND dec BETWEEN # and #
+SELECT ra, dec into mydb.pho_star_#_# from dr1#.Star WHERE ra BETWEEN # and # AND dec BETWEEN # and #
+SELECT ra, dec into mydb.pho_star_#-# from dr1#.Star WHERE ra BETWEEN # and # AND dec BETWEEN # and #
+SELECT ra, dec FROM dr1#.Star WHERE ra BETWEEN # and # AND dec BETWEEN # and # into mydb.photo_star_#-#
+SELECT ra, dec into mydb.MyTable_# from dr1#.Star WHERE ra BETWEEN # and # AND dec BETWEEN # and #
+SELECT ra, dec into mydb.MyTable_# from dr1#.Star WHERE class = &&& AND ra BETWEEN # and # AND dec BETWEEN # and #
+INSERT INTO #upload values ( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, &&&, #, #),( #, 'J1#
+SELECT ra, dec into mydb.MyTable_# from dr1#.PhotoPrimary WHERE class = &&& AND ra BETWEEN # and # AND dec BETWEEN # and #
+SELECT ra, dec into mydb.MyTable_# from dr1#.PhotoObjAll WHERE class = &&& AND ra BETWEEN # and # AND dec BETWEEN # and #
+SELECT ra, dec into mydb.MyTable_# from dr1#.PhotoObjAll WHERE class = &&& AND zWarning = # AND ra BETWEEN # and # AND dec BETWEEN # and #
+SELECT specObjID, dr7ObjID FROM SpecDR7 WHERE specobjid = #
+SELECT p.specobjid, p.objid, p.ra, p.dec, p.run, p.rerun, p.camcol, p.field, s.z, p.psffwhm_z, p.psffwhm_i, p.psffwhm_r, p.psffwhm_g, p.psffwhm_u, p.expAB_z, p.expAB_i, p.expAB_r, p.expAB_g, p.expAB_u, p.expPhi_z, p.expPhi_i, p.expPhi_r, p.expPhi_g, p.expPhi_u, p.expRad_z, p.expRad_i, p.expRad_r, p.expRad_g, p.expRad_u, p.expFlux_z, p.expFlux_i, p.expFlux_r, p.expFlux_g, p.expFlux_u, p.expMag_z, p.expMag_i, p.expMag_r, p.expMag_g, p.expMag_u, p.petroRad_z, p.petroRad_i, p.petroRad_r, p.petroRad_g, p.petroRad_u, p.petroFlux_z, p.petroFlux_i, p.petroFlux_r, p.petroFlux_g, p.petroFlux_u, p.petroMag_z, p.petroMag_i, p.petroMag_r, p.petroMag_g, p.petroMag_u, p.petroR5#_z, p.petroR5#_i, p.petroR5#_r, p.petroR5#_g, p.petroR5#_u, p.rowc_z, p.rowc_i, p.rowc_r, p.rowc_g, p.rowc_u, p.colc_z, p.colc_i, p.colc_r, p.colc_g, p.colc_u, p.rowcErr_z, p.rowcErr_i, p.rowcErr_r, p.rowcErr_g, p.rowcErr_u, p.colcErr_z, p.colcErr_i, p.colcErr_r, p.colcErr_g, p.colcErr_u FROM PhotoPrimary AS p JOIN SpecPhoto AS s ON s.specobjid=p.specobjid WHERE p.specobjid = #
+SELECT ra, dec into mydb.MyTable_# from dr1#.SpecObj WHERE class = &&& AND zWarning = # AND ra BETWEEN # and # AND dec BETWEEN # and #
+SELECT ra, dec into mydb.MyTable_# from SpecObj WHERE class = &&& AND zWarning = # AND ra BETWEEN # and # AND dec BETWEEN # and #
+SELECT ra, dec into mydb.MyTable_# from PhotoPrimary WHERE class = &&& AND zWarning = # AND ra BETWEEN # and # AND dec BETWEEN # and #
+SELECT ra, dec into mydb.MyTable_# from PhotoObj WHERE class = &&& AND zWarning = # AND ra BETWEEN # and # AND dec BETWEEN # and #
+SELECT s.plate, s.mjd, s.fiberid, p.ObjId, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, p.ra, p.dec, s.z, u.propermotion, t.bsz, t.zbclass into mydb.test1 FROM SpecObjAll s INNER JOIN PhotoObjAll p ON s.bestObjId=p.ObjID LEFT OUTER JOIN sppParams t on s.specObjID=t.specObjID LEFT OUTER JOIN USNO u on s.bestObjID=u.ObjID WHERE p.psfMag_u<# AND p.extinction_r<=# AND (((p.psfMag_u-p.psfMag_g between # and (#-#*(p.psfMag_g-p.psfMag_r))) and (p.psfMag_g-p.psfMag_r between # and #)) OR ((p.psfMag_g-p.psfMag_r between # and #) and (Abs(( p.psfMag_r.p.psfMag_i)#*(p.psfMag_g-p.psfMag_r))>#) and (((p.psfMag_u-p.psfMag_g)<#) or (( p.psfMag_u-p.psfMag_g)<#*(p.psfMag_g-p.psfMag_r)#)))) AND (((t.bsz<#) and ( t.zbclass<>&&&)) OR (( p.flagsu|p.flags_g|p.flags_r|p.flags_i|p.flags_z)& (dbo.fPhotoFlags(&&&)| dbo.fPhotoFlags (&&&)| dbo.fPhotoFlags (&&&)| dbo.fPhotoFlags (&&&))=#) AND (((Abs(s.z) <#) and ((s.zwarning&#)=#)) OR ((Abs (s.z)>#) and (Abs(u.propermotion)>#)))) ORDER BY s.plate, s.mjd, s.fiberid
+select * from Field where fieldId=
+SELECT s.plate, s.mjd, s.fiberid, p.ObjId, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, p.ra, p.dec, s.z, u.propermotion, t.bsz, t.zbclass into mydb.test1 FROM SpecObjAll s INNER JOIN PhotoObjAll p ON s.bestObjId=p.ObjID LEFT OUTER JOIN sppParams t on s.specObjID=t.specObjID LEFT OUTER JOIN USNO u on s.bestObjID=u.ObjID WHERE p.psfMag_u<# AND p.extinction_r<=# AND (((p.psfMag_u-p.psfMag_g between # and (#-#*(p.psfMag_g-p.psfMag_r))) and (p.psfMag_g-p.psfMag_r between # and #)) OR ((p.psfMag_g-p.psfMag_r between # and #) and (Abs(( p.psfMag_r.p.psfMag_i)#*(p.psfMag_g-p.psfMag_r))>#) and (((p.psfMag_u-p.psfMag_g)<#) or (( p.psfMag_u-p.psfMag_g)<#*(p.psfMag_g-p.psfMag_r)#)))) AND (((t.bsz <#) and ( t.zbclass <> &&&)) OR (( p.flagsu|p.flags_g|p.flags_r|p.flags_i|p.flags_z)& (dbo.fPhotoFlags(&&&)| dbo.fPhotoFlags (&&&)| dbo.fPhotoFlags (&&&)| dbo.fPhotoFlags (&&&))=#) AND (((Abs(s.z) <#) and ((s.zwarning&#)=#)) OR ((Abs (s.z)>#) and (Abs(u.propermotion)>#)))) ORDER BY s.plate, s.mjd, s.fiberid
+select * from stellarMassFSPSGranWideDust where specObjId=#
+select * from stellarMassPassivePort where specObjId=#
+select p.run, p.camcol, p.field from STAR as p inner join dbo.fGetNearbyObjEq(#,#,#) as N on p.objid = N.objid
+select *
+SELECT ra, dec into mydb.MyTable from Star WHERE ra BETWEEN # and # AND dec BETWEEN # and #
+SELECT TOP # sp.modelMag_u, sp.modelMag_g, sp.modelMag_r, sp.modelMag_i, sp.modelMag_z, sp.z, s.velDisp, s.velDispErr FROM SpecPhotoAll sp JOIN SpecObj s ON sp.specObjId = s.specObjId WHERE (sp.modelMag_u - sp.modelMag_r) >= # AND s.velDispErr BETWEEN # AND # AND sp.class = &&& AND sp.modelMag_g > #
+SELECT class, count(*)  FROM SpecObj  GROUP BY class
+SELECT * FROM Table_#_#_#
+SELECT TOP # sp.modelMag_u, sp.modelMag_g, sp.modelMag_r, sp.modelMag_i, sp.modelMag_z, sp.z, s.velDisp, s.velDispErr FROM SpecPhotoAll sp JOIN SpecObj s ON sp.specObjId = s.specObjId WHERE (sp.modelMag_u - sp.modelMag_r) >= # AND s.velDispErr < # AND sp.class = &&& AND sp.modelMag_g > #
+SELECT top # so.bestobjid, so.specobjid, so.plate, so.mjd, so.fiberid,  sp.teffadop, sp.fehadop, sp.loggadop, sp.snr, sp.flag   FROM specobjall so  JOIN sppparams sp ON so.specobjid = sp.specobjid and so.sciencePrimary=#  WHERE sp.teffadop > # and sp.teffadop < #  and fehadop > # and fehadop < #  and loggadop > # and loggadop < #  and sp.flag like &&&  and sp.snr > #
+SELECT ra, dec FROM PhotoObj WHERE class = &&& AND zWarning = # AND ra BETWEEN # and # AND dec BETWEEN # and #
+SELECT p.ra , p.dec, p.u, p.g, p.r, p.i, p.z, p.err_u, p.err_g, p.err_r, p.err_i, p.err_z, p.nMgyPerCount_u, p.nMgyPerCount_g, p.nMgyPerCount_r, p.nMgyPerCount_i, p.nMgyPerCount_z FROM PhotoObjAll p WHERE (p.ra BETWEEN # AND #) AND (p.dec BETWEEN # AND #) AND p.run = # AND p.rerun = # AND p.camcol = # AND p.field = #
+select psfSigma1_z, psfSigma2_z, psfB_z, psfP0_z, psfBeta_z, psfSigmaP_z, psfSigma1_u, psfSigma2_u, psfB_u, psfP0_u, psfBeta_u, psfSigmaP_u, psfSigma1_g, psfSigma2_g, psfB_g, psfP0_g, psfBeta_g, psfSigmaP_g, psfSigma1_r, psfSigma2_r, psfB_r, psfP0_r, psfBeta_r, psfSigmaP_r, psfSigma1_i, psfSigma2_i, psfB_i, psfP0_i, psfBeta_i, psfSigmaP_i from Field where run = # and rerun = # and camcol = # and field = #
+SELECT p.objid, p.type, p.clean, p.ra, p.dec, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, p.petroR9#_u, p.petroR9#_g, p.petroR9#_r, p.petroR9#_i, p.petroR9#_z, p.psffwhm_u, p.psffwhm_g, p.psffwhm_r, p.psffwhm_i, p.psffwhm_z, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, pz.z, pz.zErr FROM PhotoObj AS p , dbo.fGetNearbyObjEq(#, #, #) AS n LEFT JOIN Photoz AS pz ON pz.objID = n.objID WHERE n.objID = p.objID
+SELECT * FROM dbo.fFootprintEq( #,#,#)
+SELECT STR(z,#,#) z, ra, dec FROM SpecObj&##; WHERE specClass=# AND dec BETWEEN # AND # AND ra BETWEEN # AND # AND z BETWEEN # AND #
+SELECT z, ra, dec FROM SpecObj WHERE specClass=# AND dec BETWEEN # AND # AND ra BETWEEN # AND #
+SELECT STR(z,#,#) z, ra, dec FROM SpecObj&##; WHERE specClass=# AND dec BETWEEN # AND # AND ra BETWEEN # AND # AND z BETWEEN # AND #
+SELECT z, ra, dec WHERE dec BETWEEN # AND # AND ra BETWEEN # AND #
+SELECT  &&& + cast(p.objId as varchar(#)) + &&& + cast(p.objId as varchar(#)) + &&& as objID,    p.run, p.rerun, p.camcol, p.field, p.obj,    p.type, p.ra, p.dec, p.u,p.g, p.r, p.i, p.z,    p.Err_u, p.Err_g, p.Err_r, p.Err_i, p.Err_z    FROM fGetObjFromRect(#,#,#,#) n,   PhotoPrimary p    WHERE n.objID=p.objID
+SELECT  p.objid,    p.run, p.rerun, p.camcol, p.field, p.obj,    p.type, p.ra, p.dec, p.u,p.g, p.r, p.i, p.z,    p.Err_u, p.Err_g, p.Err_r, p.Err_i, p.Err_z    FROM fGetObjFromRect(#,#,#,#) n,   PhotoPrimary p    WHERE n.objID=p.objID
+SELECT  top # &&& + cast(p.objId as varchar(#)) + &&& + cast(p.objId as varchar(#)) + &&& as objID,    p.run, p.rerun, p.camcol, p.field, p.obj,    p.type, p.ra, p.dec, p.u,p.g, p.r, p.i, p.z,    p.Err_u, p.Err_g, p.Err_r, p.Err_i, p.Err_z    FROM fGetObjFromRect(#,#,#,#) n,   PhotoPrimary p    WHERE n.objID=p.objID
+SELECT STR(z, #, #) z, ra, dec WHERE dec BETWEEN # AND # AND ra BETWEEN # AND #
+SELECT STR(z, #, #) z, ra, dec dec BETWEEN # AND # AND ra BETWEEN # AND #
+SELECT ra, dec dec BETWEEN # AND # AND ra BETWEEN # AND #
+select top # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z from galaxy p, specobj s where p.objid=s.bestobjid and (p.u BETWEEN # AND #)
+SELECT dec BETWEEN # AND # AND ra BETWEEN # AND #
+SELECT STR(z,#,#) z, ra, dec FROM SpecObj WHERE specClass=# AND dec BETWEEN # AND # AND ra BETWEEN # AND #  AND z BETWEEN # AND #
+SELECT STR(z,#,#) z, ra, dec FROM SpecObj WHERE specClass=# AND dec BETWEEN # AND # AND ra BETWEEN # AND # AND z BETWEEN # AND #
+select top # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z from galaxy p where (p.u BETWEEN # AND #)
+select p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z from galaxy p where (p.u BETWEEN # AND #)
+SELECT STR(z,#,#) z, ra, dec FROM SpecObject WHERE specClass=# AND dec BETWEEN # AND # AND ra BETWEEN # AND #  AND z BETWEEN # AND #
+select top # p.objid, p.ra, p.dec from galaxy p where (p.u BETWEEN # AND #)
+SELECT STR(z,#,#) z, ra, dec&##;  p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  p.run, p.rerun, p.camcol, p.field,  s.specobjid, s.specClass, s.z,  s.plate, s.mjd, s.fiberid FROM SpecObj&##;  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE specClass=# AND dec BETWEEN # AND # AND ra BETWEEN # AND # AND z BETWEEN # AND #  p.u BETWEEN # AND #  AND g BETWEEN # AND #
+SELECT STR(z,#,#) z, ra, dec FROM Galaxy WHERE specClass=# AND dec BETWEEN # AND # AND ra BETWEEN # AND #  AND z BETWEEN # AND #
+SELECT STR(z,#,#) z, ra, dec FROM stars WHERE specClass=# AND dec BETWEEN # AND # AND ra BETWEEN # AND #  AND z BETWEEN # AND #
+SELECT STR(z,#,#) z, ra, dec FROM galaxies WHERE specClass=# AND dec BETWEEN # AND # AND ra BETWEEN # AND #  AND z BETWEEN # AND #
+SELECT STR(z,#,#) z, ra, dec FROM Stars WHERE specClass=# AND dec BETWEEN # AND # AND ra BETWEEN # AND #  AND z BETWEEN # AND #
+select top # p.objid, p.ra, p.dec from galaxy p, dbo.fgetNearByObjEq(#,#,#) n where p.objid=n.objid
+SELECT mangaID,manga_tileid,ifudesignsize  FROM mangatarget  WHERE (manga_target1 & (power(#,#)) != #) AND manga_tileid > # AND IFUDESIGNSIZE > #
+SELECT STR(z,#,#) z, ra, dec FROM SpecObj WHERE specClass=# AND dec BETWEEN # AND # AND ra BETWEEN # AND # AND z BETWEEN # AND #
+SELECT  sp.ra, sp.dec, sp.z as redshift,  sp.modelMag_g as g, sp.modelMagerr_g as err_g,   sp.modelMag_i as i, sp.modelMagerr_i as err_i,  gs.h_alpha_eqw, gs.oii_#_eqw,  p.aperFlux7_g, p.aperFlux7Ivar_g as var_g,  p.aperFlux7_i, p.aperFlux7Ivar_i as var_i    FROM GalSpecLine AS gs   JOIN SpecPhoto AS sp ON sp.specobjid = gs.specobjid   JOIN dbo.fGetNearbySpecObjEq(#,#,#) AS GN  ON GN.specobjID = gs.specobjid  JOIN Galaxy as gal ON gal.specobjId = gs.specobjid  JOIN PhotoObjAll as p ON p.specObjId = gs.specobjID    WHERE   h_alpha_eqw between # and #  and oii_#_eqw between # and #  and sp.modelMag_g-sp.modelMag_i between # and #   and sp.z between # and #  and sp.modelMag_i-#*log1#(#E+#*sp.z) < #
+select * from A6#_DR1#_within6#
+SELECT [m].[star], [s].[objID], [m].[sdss_id] AS SDSS_ID, [m].[source_id] AS GAIA_ID, [s].[ra], [s].[dec], [s].[psfFlux_u], [s].[psfFlux_g], [s].[psfFlux_r], [s].[psfFlux_i], [s].[psfFlux_z], [s].[psfFluxIvar_u], [s].[psfFluxIvar_g], [s].[psfFluxIvar_r], [s].[psfFluxIvar_i], [s].[psfFluxIvar_z], [s].[extinction_u], [s].[extinction_g], [s].[extinction_r], [s].[extinction_i], [s].[extinction_z]  INTO MYDB.dav_phot2  FROM DR1#.PhotoPrimary AS [s] INNER JOIN [dav_sdssgaiaids2] AS [m] ON [m].[sdss_id] = [s].[objid]
+SELECT [m].[star], [s].[objID], [m].[sdss_id] AS SDSS_ID, [m].[source_id] AS GAIA_ID, [s].[ra], [s].[dec], [s].[psfFlux_u], [s].[psfFlux_g], [s].[psfFlux_r], [s].[psfFlux_i], [s].[psfFlux_z], [s].[psfFluxIvar_u], [s].[psfFluxIvar_g], [s].[psfFluxIvar_r], [s].[psfFluxIvar_i], [s].[psfFluxIvar_z], [s].[extinction_u], [s].[extinction_g], [s].[extinction_r], [s].[extinction_i], [s].[extinction_z]  INTO MYDB.dav_phot  FROM DR1#.PhotoPrimary AS [s] INNER JOIN [dav_sdssgaiaids2] AS [m] ON [m].[sdss_id] = [s].[objid]
+SELECT TOP # rerun, camcol, field FROM PhotoObj WHERE ra BETWEEN # and # AND dec BETWEEN # and #
+SELECT g.objid,g.ra,g.dec,p.z,p.zErr,q.u,q.g,q.r,q.i,q.z FROM GALAXY as g JOIN PhotoZ as p ON p.objID = g.ObjID JOIN PhotoObjAll as q ON q.objID = g.objID WHERE (g.ra between # and #) and (g.dec between # and #)
+SELECT g.objID, g.ra, g.dec, q.z, q.zErr, q.class, q.subclass FROM GALAXY as g, SpecObjAll as q WHERE g.objID = q.bestObjID and (g.ra between # and #) and (g.dec between # and #)
+select * from A2#_DR1#_within6#_spec
+select * from Photoz where objid=undefined
+select ra,dec,class from specObj where ra BETWEEN # and # AND dec BETWEEN # and # AND class=&&&
+select ra,dec,class from specObj where ra BETWEEN # and # AND dec BETWEEN # and #
+select * from Zw8#_DR1#_within6#_spec
+select * from RXJ2#-#_DR1#_within6#_spec
+select * from A9#S_DR1#_within6#_spec
+select * from A9#_DR1#_within6#_spec
+select * from A8#_DR1#_within6#_spec
+select * from A7#_DR1#_within6#_spec
+select * from A7_DR1#_within6#_spec
+select * from A6#_DR1#_within6#_spec
+select * from A5#_DR1#_within6#_spec
+select * from A3#_DR1#_within6#_spec
+SELECT p.objid, p.ra, p.dec, p.dered_r, p.clean, s.z, p.petroR9#_r  FROM Photoobj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid  WHERE p.type=# and s.z <=# and s.z >=# and p.dered_r >=# and p.dered_r <=#
+SELECT p.objid, p.ra, p.dec, p.dered_r, p.clean, s.z, p.petroR9#_r  FROM PhotoPrimary AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid  WHERE p.type=# and s.z <=# and s.z >=# and p.dered_r >=# and p.dered_r <=#
+SELECT p.objid, p.ra, p.dec, p.dered_r, p.clean, s.z, p.petroR9#_r  FROM PhotoPrimary AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid  WHERE p.type=# and s.z <=# and s.z >=# and p.dered_r <=#
+select * from A3#_DR1#_within6#

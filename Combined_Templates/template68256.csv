@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.plate, s.mjd, s.fiberid, dbo.fIAUFromEq (p.ra, p.[dec]) as SDSSname FROM BESTDR7..SpecObj as s JOIN BESTDR7..PhotoObj AS p ON s.bestObjID = p.objID JOIN dbo.fGetNearbyObjEq (#, #, #) AS b ON b.objID = p.objID WHERE (p.type = # OR p.type = #)"
+2019-10-07 23:39:00,1

@@ -1,0 +1,2 @@
+3,"select top # subClass, elodieObject, nsa_sersic_mass, elodieTEff from specObj, mangatarget where elodieTEff > # AND subClass = WD#"
+2019-06-27 11:01:00,3

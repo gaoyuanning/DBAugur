@@ -1,0 +1,8 @@
+861,"SELECT TOP # P.ra, P.dec, P.psfMag_u, P.psfMagErr_u, P.petroMag_u, P.petroMagErr_u, P.modelMag_u, P.modelMagErr_u, P.expMag_u, P.expMagErr_u, P.deVMag_u, P.deVMagErr_u, lnLExp_u, P.lnLDeV_u, P.psfMag_g, P.psfMagErr_g, P.petroMag_g, P.petroMagErr_g, P.modelMag_g, P.modelMagErr_g, P.expMag_g, P.expMagErr_g, P.deVMag_g, P.deVMagErr_g, lnLExp_g, P.lnLDeV_g, P.psfMag_r, P.psfMagErr_r, P.petroMag_r, P.petroMagErr_r, P.modelMag_r, P.modelMagErr_r, P.expMag_r, P.expMagErr_r, P.deVMag_r, P.deVMagErr_r, lnLExp_r, P.lnLDeV_r, P.psfMag_i, P.psfMagErr_i, P.petroMag_i, P.petroMagErr_i, P.modelMag_i, P.modelMagErr_i, P.expMag_i, P.expMagErr_i, P.deVMag_i, P.deVMagErr_i, lnLExp_i, P.lnLDeV_i, P.psfMag_z, P.psfMagErr_z, P.petroMag_z, P.petroMagErr_z, P.modelMag_z, P.modelMagErr_z, P.expMag_z, P.expMagErr_z, P.deVMag_z, P.deVMagErr_z, lnLExp_z, P.lnLDeV_z, P.expAB_r, P.expPhi_r, P.expRad_r, P.deVAB_r, P.deVPhi_r, P.deVRad_r, P.type_r FROM PhotoPrimary as P JOIN dbo.fGetNearbyObjEq(#,#, #) AS PN ON P.objID = PN.objID ORDER BY distance"
+2019-06-03 15:58:00,1
+2019-06-03 15:59:00,81
+2019-06-03 16:00:00,174
+2019-06-03 16:01:00,168
+2019-06-03 16:02:00,165
+2019-06-03 16:03:00,170
+2019-06-03 16:04:00,102

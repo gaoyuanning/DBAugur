@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid,str(p.ra,#,#) as ra,str(p.[dec],#,#) as dec,s.z,s.zErr,s.photoErrorClass,r.z,r.zErr FROM BESTDR1#..PhotoObj AS p LEFT OUTER JOIN BESTDR1#..SpecObj r ON p.objID = r.bestObjID  JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = p.objID  JOIN Photoz AS s ON s.objid = p.objid"
+2019-08-26 14:49:00,1

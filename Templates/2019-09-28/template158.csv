@@ -1,0 +1,2 @@
+1,"SELECT   specObjID,   ra,   dec,   z,   zErr,   velDisp,   velDispErr    FROM   dbo.SpecObj    WHERE   sciencePrimary = # AND   zWarning = # AND   z BETWEEN # and # AND   class = &&&    LIMIT #;"
+2019-09-28 17:45:00,1

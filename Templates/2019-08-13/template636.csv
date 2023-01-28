@@ -1,0 +1,2 @@
+1,"SELECT TOP # absMagU, absMagG, absMagR, absMagI, absMagZ, z, zErr FROM DR1#.Photoz WHERE # < z INTO redshift_data_#"
+2019-08-13 06:15:00,1

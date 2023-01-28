@@ -1,0 +1,3 @@
+3,select count(*) from DR1#.zooSpec where spiral=#
+2019-10-02 11:09:00,1
+2019-10-02 11:10:00,2

@@ -1,0 +1,3 @@
+4,"SELECT    s.specObjID, s.ra, s.dec, s.z, s.class, s.zWarning, s.snMedian, el.ra1, el.dec1, starforming.logMass, passive.logMass, pca.mstellar_median into mydb.MyTable_# from mydb.ell_galaxies2 as el   CROSS APPLY dbo.fGetNearestSpecObjEq( el.ra1, el.dec1, #) AS near    JOIN SpecObjAll as s ON s.specObjID = near.specObjID   JOIN stellarMassPassivePort passive ON passive.specObjID = near.specObjID   JOIN stellarMassStarformingPort starforming ON starforming.specObjID = near.specObjID   JOIN stellarMassPCAWiscM1# pca ON pca.specObjID = near.specObjID WHERE  s.snMedian >= # AND  s.class = &&& AND   s.zWarning=#"
+2019-04-11 06:04:00,3
+2019-04-11 06:08:00,1

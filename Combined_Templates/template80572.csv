@@ -1,0 +1,2 @@
+1,"select meandec, meanra from MyDB.sn_coor WHERE ROWNUM = #"
+2019-12-04 15:45:00,1

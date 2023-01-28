@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, field, ra, dec, w1mpro, w1sigmpro, w2mpro, w2sigmpro, w3mpro, w3sigmpro, w4mpro, w4sigmpro into mydb.MyTable_# from PhotoPrimary WHERE (w1mpro-w2mpro) > # and ( (w2mpro-w3mpro) > # and (w2mpro-w3mpro) < #) and ( (w2mpro-w4mpro) > # and (w2mpro-w4mpro) < #) and dec> # and (glat> # or glat< #)"
+2019-06-04 13:11:00,1

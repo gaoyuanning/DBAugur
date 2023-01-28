@@ -1,0 +1,8 @@
+8,"SELECT TOP # PERCENT p.ra, p.dec FROM PhotoObj AS p Join SpecObj AS s ON s.bestobjid = p.objid AND p.dec > # AND s.class = #"
+2019-10-15 13:56:00,1
+2019-10-15 14:00:00,1
+2019-10-15 14:03:00,1
+2019-10-15 14:40:00,1
+2019-10-15 14:41:00,1
+2019-10-15 14:42:00,2
+2019-10-15 14:43:00,1

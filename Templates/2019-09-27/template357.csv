@@ -1,0 +1,2 @@
+2,"select ra, dec into MyDB.STAR_BHB from DR1#.SpecObjAll where sourceType = STAR_BHB&&&"
+2019-09-27 09:25:00,2

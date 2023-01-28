@@ -1,0 +1,2 @@
+1,"select count(*) from (select substring(name,#,#) as initial from chinook.artist) as initab group by initial"
+2019-04-19 16:23:00,1

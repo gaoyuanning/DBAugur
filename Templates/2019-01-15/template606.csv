@@ -1,0 +1,2 @@
+1,"select  bestObjID,z,ra,dec,modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z from specObj where ra between # and # AND dec between # and # AND  class = &&&"
+2019-01-15 05:51:00,1

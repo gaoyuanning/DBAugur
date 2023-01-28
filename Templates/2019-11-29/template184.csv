@@ -1,0 +1,3 @@
+2,"select min(cx) min_cx ,      max(cx) max_cx ,      min(cy) min_cy ,      max(cy) max_cy ,      min(px) min_px ,      max(px) max_px ,      min(py) min_py ,      max(py) max_py   from cellall where sampleid=#"
+2019-11-29 14:29:00,1
+2019-11-29 14:37:00,1

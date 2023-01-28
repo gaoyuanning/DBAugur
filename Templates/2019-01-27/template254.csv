@@ -1,0 +1,2 @@
+1,"select s.objid, s.ra, s.dec, s.petroMag_r, s.petroRad_r, s.isoA_r, s.isoB_r --into mydb.edgeon_stripe8#_dr7_new  from dr7.galaxy as s  where s.photoobjid = #"
+2019-01-27 12:20:00,1

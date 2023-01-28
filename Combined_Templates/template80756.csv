@@ -1,0 +1,2 @@
+1,"SELECT top # p.objID, p.ra, p.dec, p.petroMag_g, p.petroMag_r, p.petroMag_i, s.z into mydb.MyTable_# from PhotoObjAll p JOIN SpecObjAll_tab s ON s.specObjID = p.objID WHERE s.class = # AND p.ra between (# - #) and (# + #) AND p.dec between (# - #) and (# + #)"
+2019-12-04 04:24:00,1

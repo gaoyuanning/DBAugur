@@ -1,0 +1,3 @@
+3,"SELECT s.plate, s.fiberid, s.mjd, ga.oiii_#_flux, ga.oiii_#_flux_err, (sph.modelmag_g-sph.modelmag_r) as col_g_r, sph.modelmag_g-#*log1# (#E+#*sph.z) +# as M_g, (sph.modelmag_u-sph.modelmag_r) as col_u_r, sph.modelmag_r-#*log1# (#E+#*sph.z) +# as M_r, sph.subClass INTO mydb.tremonti_anomalos FROM GalSpecLine as ga, specobj as s, Galaxy as g, SpecPhoto as sph WHERE ga.oiii_#_flux > #*ga.oiii_#_flux_err AND ga.h_gamma_flux > #*ga.h_gamma_flux_err AND ga.h_gamma_flux < #*ga.oiii_#_flux AND s.class = # AND s.specobjid = g.specobjid AND s.specobjid = ga.specobjid AND sph.specobjid = g.specobjid AND sph.specobjid = ga.specobjid AND ga.oiii_#_flux_err > # AND g.specobjid > # AND sph.z > #"
+2019-06-20 05:35:00,1
+2019-06-20 06:22:00,2

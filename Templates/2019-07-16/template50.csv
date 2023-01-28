@@ -1,0 +1,8 @@
+14,"SELECT * FROM aspcapStar p, apogeeStar s WHERE (p.aspcapflag & dbo.fApogeeAspcapFlag(&&&)) = # and s.apogee_id=p.apogee_id and p.apogee_id = &&&"
+2019-07-16 22:42:00,2
+2019-07-16 22:43:00,2
+2019-07-16 22:44:00,2
+2019-07-16 22:45:00,2
+2019-07-16 22:46:00,2
+2019-07-16 23:03:00,2
+2019-07-16 23:04:00,2

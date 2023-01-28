@@ -1,0 +1,2 @@
+2,"SELECT MAX(TrackId), AlbumId, Composer, UnitPrice FROM chinook.Track GROUP BY AlbumId"
+2019-04-22 19:52:00,2

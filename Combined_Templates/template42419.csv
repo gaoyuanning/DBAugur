@@ -1,0 +1,2 @@
+1,"SELECT specObjID, bestObjID, id, y.cluster into MyDB.GNGb FROM MyDB.GNGa AS y join SpecObjAll as s on y.objid = s.bestobjid"
+2019-05-29 16:21:00,1

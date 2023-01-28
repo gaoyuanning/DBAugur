@@ -1,0 +1,2 @@
+1,"select specObjID , count(*) from photoObj where objID in ( #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, # ) group by specObjID"
+2019-06-28 14:05:00,1

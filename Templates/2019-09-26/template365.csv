@@ -1,0 +1,2 @@
+2,"SELECT spe.ra,spe.dec,spe.z,spe.subclass FROM SpecObj As spe  WHERE ((spe.ra ># and spe.ra <#) or (spe.ra ># and spe.ra <#))  AND spe.dec ># and spe.dec <# And spe.class=&&&"
+2019-09-26 13:38:00,2

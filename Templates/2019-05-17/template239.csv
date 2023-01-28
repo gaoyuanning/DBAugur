@@ -1,0 +1,2 @@
+1,"SELECT s.subclass, COUNT(*) FROM galSpecLine AS g JOIN specObj AS s ON g.specObjID = s.specObjID WHERE g.specObjID NOT IN (  SELECT specObjID  FROM emissionLinesPort ) AND s.class = &&& GROUP BY s.subclass"
+2019-05-17 13:11:00,1

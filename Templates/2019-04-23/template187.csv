@@ -1,0 +1,2 @@
+1,"select COUNT(b.TrackId) from chinook.Album a, chinook.Track b Where b.AlbumId = a.AlbumId"
+2019-04-23 15:47:00,1

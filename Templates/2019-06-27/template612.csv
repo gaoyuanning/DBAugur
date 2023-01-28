@@ -1,0 +1,2 @@
+1,"select # cModelMag_u, cModelMag_g, cModelMag_r, cModelMag_i from specPhoto Wherec ModelMagErr_u < # and cModelMagErr_g <# and cModelMagErr_r <# and cModelMagErr_i <# and RPM_LOG_g = MainSeq and ra BETWEEN # and # and"
+2019-06-27 00:59:00,1

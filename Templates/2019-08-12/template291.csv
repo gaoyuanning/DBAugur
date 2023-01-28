@@ -1,0 +1,4 @@
+4,"SELECT   p.psffwhm_u, p.psffwhm_g, p.psffwhm_r, p.psffwhm_i, p.psffwhm_z,   p.ra, p.dec, S.mjd, S.plate, S.fiberID,    S.z, S.zErr, S.rChi2, S.velDisp, S.velDispErr     INTO mydb.SDSSspecgalsDR1#_# FROM SpecObjAll S CROSS APPLY   PhotoObjAll p WHERE p.ObjID = S.targetObjID   AND (p.petroMag_r > # AND p.petroMag_r < #)   AND (p.modelMag_u-p.modelMag_r) < #   AND (p.modelMag_u > # AND p.modelMag_u < #)   AND (p.modelMag_g > # AND p.modelMag_g < #)   AND (p.modelMag_r > # AND p.modelMag_r < #)   AND (p.modelMag_i > # AND p.modelMag_i < #)   AND (p.modelMag_z > # AND p.modelMag_z < #)   AND S.rChi2 < #   AND (S.zErr > # AND S.zErr < #)   AND S.z > #"
+2019-08-12 12:55:00,2
+2019-08-12 13:10:00,1
+2019-08-12 13:17:00,1

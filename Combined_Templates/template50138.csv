@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, plate, mjd, fiberid, z, zerr into mydb.MyTable_# from Specobjall WHERE z < # and class = GALAXY"
+2019-07-06 10:12:00,1

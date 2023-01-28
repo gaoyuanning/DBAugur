@@ -1,0 +1,4 @@
+3,select * from optw.tamass.VARIABLES where RACE is NULL and SEX is NULL and UNIT=&&&
+2019-12-15 11:12:00,1
+2019-12-15 11:13:00,1
+2019-12-15 11:17:00,1

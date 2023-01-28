@@ -1,0 +1,13 @@
+19,"SELECT t.objid, s.ra, s.dec, t.psfMag_r FROM SpecObj s JOIN dbo.fGetNearbySpecObjEq(#,#,#) AS b ON b.SpecobjID = S.SpecobjID  JOIN Star as t on s.bestobjid = t.objid WHERE s.zWarning = # AND ((dbo.fSourceType(&&&)) != #) AND t.psfMAG_r<#"
+2019-09-03 00:14:00,2
+2019-09-03 00:15:00,1
+2019-09-03 00:16:00,1
+2019-09-03 00:45:00,2
+2019-09-03 15:20:00,2
+2019-09-03 19:01:00,1
+2019-09-03 19:02:00,2
+2019-09-03 19:04:00,3
+2019-09-03 19:07:00,2
+2019-09-03 19:08:00,1
+2019-09-03 19:09:00,1
+2019-09-03 19:42:00,1

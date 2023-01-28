@@ -1,0 +1,2 @@
+3,"SELECT TOP # specobjid, ra, dec, type, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z FROM PhotoPrimary WHERE ra BETWEEN (#-#) *# AND (#+#) *# AND dec BETWEEN #-# AND #+# AND specobjid = # AND modelMag_r < # And modelMag_g-ModelMag_i between # and #"
+2019-06-29 17:20:00,3

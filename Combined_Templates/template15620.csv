@@ -1,0 +1,3 @@
+2,"SELECT TOP # s.z as z_spec, p.objid, p.dered_g, p.dered_r, zns.p_el as elliptical, zns.p_cs as combined_spiral, zns. FROM galaxy AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.dered_g BETWEEN # AND # AND p.dered_r BETWEEN # AND #"
+2019-02-28 11:24:00,1
+2019-02-28 11:25:00,1

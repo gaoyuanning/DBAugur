@@ -1,0 +1,2 @@
+6,"select specObjID, ra, dec, mstellar_median, z into mydb.MyTable_# from stellarmasspcawiscbc0# where z> # and z< # or z = # and z = #"
+2019-07-24 07:14:00,6

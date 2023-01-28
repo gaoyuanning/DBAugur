@@ -1,0 +1,13 @@
+13,"SELECT ph.ra, ph.dec, dbo.fGetNearbyObjEq (p.ra, p.#dec, p.#SearchRadius) as match1 INTO MyDB.redmappermatch1 From PhotoObj ph, MyDB.redmapper1 as p where ph.petroMag_i< p.#i"
+2019-05-29 16:42:00,1
+2019-05-29 17:44:00,2
+2019-05-29 18:08:00,1
+2019-05-30 11:36:00,1
+2019-05-30 11:52:00,1
+2019-05-30 11:53:00,1
+2019-05-30 11:55:00,1
+2019-05-30 11:56:00,1
+2019-05-30 11:57:00,1
+2019-05-30 11:58:00,1
+2019-05-30 11:59:00,1
+2019-05-30 12:10:00,1

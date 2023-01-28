@@ -1,0 +1,2 @@
+1,"SELECT objID, cModelMag_u, cModelMagErr_u, extinction_u, cModelMag_g, cModelMagErr_g, extinction_g, cModelMag_r, cModelMagErr_r, extinction_r, cModelMag_i, cModelMagErr_i, extinction_i FROM PhotoObjAll WHERE objID IN ( #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, # )"
+2019-06-11 18:34:00,1

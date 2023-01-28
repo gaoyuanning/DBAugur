@@ -1,0 +1,2 @@
+1,"select p.objid, p.ra, p.dec, p.u, p.g, p.r, p.g-r as color, p.r from star p, dbo.fgetNearByObjEq (#, #, #) n where p.objid = n.objid"
+2019-06-25 20:36:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.plate, s.mjd, s.fiberid, p.run, p.rerun, p.camCol, p.field, p.obj, # as filter FROM BESTDR4..SpecObj as s, TARGDR4.dbo.fGetNearbyObjEq (#, #, #) as b, TARGDR4..PhotoObj as p WHERE b.objID = p.objID AND (p.type = # OR p.type = #) AND s.targetObjID = p.objID"
+2019-06-06 14:23:00,1

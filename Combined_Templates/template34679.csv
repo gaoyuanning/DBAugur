@@ -1,0 +1,2 @@
+1,"SELECT m.fid, p.objID, p.ra, p.dec, p.g, p.r, p.i, p.err_g, p.err_r, p.err_i, p.fracDev_r, p.lnLDev_r, p.lnLExp_r, p.extinction_g, p.extinction_r, p.extinction_i, p.petroMag_g, p.petroMag_r, p.petroMag_i, p.petroMagErr_g, p.petroMagErr_r, p.petroMagErr_i, p.petroR5#_r, p.petroR9#_r, p.mode, p.type, p.flags FROM mydb.m1# as m INTO mydb.m1#viii JOIN PhotoObjAll p ON dbo.fGetNearbyObjAllEq (m.ra, m.dec, #) = p.objID"
+2019-04-25 07:40:00,1

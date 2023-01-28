@@ -1,0 +1,2 @@
+2,"select *,   (t.k-t.KsApermag3) delta into mydb.VISTA_cm_#nov1_variable_Martinstest from mydb.VISTA_cm_#nov1 t   where     ABS(t.k-t.KsAperMag3)<# AND ABS(t.k-t.KsAperMag3)<# AND ABS(t.k-t.KsAperMag3)># AND ABS(t.k-t.KsAperMag3)>#"
+2019-02-08 13:29:00,2

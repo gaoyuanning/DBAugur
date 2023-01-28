@@ -1,0 +1,4 @@
+3,"SELECT    p.specObjID,p.modelMag_u,p.modelMagErr_u,p.modelMag_g,p.modelMagErr_g,p.modelMag_r,p.modelMagErr_r,p.modelMag_i,p.modelMagErr_i,p.modelMag_z,p.modelMagErr_z into mydb.MyTable_# from SpecPhoto as p   JOIN MyDB.MyTable as t on p.specObjID=t.specObjID"
+2019-04-18 04:45:00,1
+2019-04-18 04:47:00,1
+2019-04-18 04:55:00,1

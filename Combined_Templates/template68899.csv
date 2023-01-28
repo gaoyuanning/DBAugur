@@ -1,0 +1,2 @@
+1,"SELECT S.specObjID, S.ra, S.dec, S.z, G.lgm_tot_p5#, G.lgm_fib_p5#, E.m2l_i, E.m2l_median_i, E.m2l_err_i, E.m2l_min_i, E.m2l_max_i, E.logMass, E.logMass_median, E.logMass_err, E.logMass_min, E.logMass_max into mydb.galSpec_W from SpecObjAll as S, galSpecExtra as G, stellarMassFSPSGranWideDust as W where S.z < =# and S.specObjID = G.specObjID and S.ra> # and S.ra< # and S.dec> # and S.dec< # and S.specObjID = W.specObjID"
+2019-10-09 03:54:00,1

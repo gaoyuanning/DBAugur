@@ -1,0 +1,2 @@
+1,select * from PhotoObjAll where mjd=# and plate=# and tile=# and fiberID=#
+2019-07-27 08:37:00,1

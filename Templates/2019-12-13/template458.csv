@@ -1,0 +1,2 @@
+1,"SELECT CONVERT(int, ra) AS rightA, avg(u-g), avg(g-r), avg(r-i), avg(i-z)  FROM Galaxy  WHERE ra BETWEEN # and # AND dec BETWEEN # and # AND ((flags_r & #) != #) AND ((flags_r & #) = #) AND (((flags_r & #) = #) or (psfmagerr_r <= #)) AND (((flags_r & #) = #) or (flags_r & #) = #) GROUP BY rightA"
+2019-12-13 07:16:00,1

@@ -1,0 +1,2 @@
+1,"SELECT s.specobjid, s.ra, s.dec, s.plate, s.mjd, s.fiberid, e.EW_Hb_#, e.EW_Hb_#_Err, e.Flux_Hb_#,  e.Flux_Hb_#_Err, e.EW_OIII_#, e.EW_OIII_#_Err, e.Flux_OIII_#, e.Flux_OIII_#_Err, e.EW_Ha_#, e.EW_Ha_#_Err, e.Flux_Ha_#,  e.Flux_Ha_#_Err, e.EW_NII_#, e.EW_NII_#_Err, e.Flux_NII_#, e.Flux_NII_#_Err FROM #upload u  JOIN SpecObjAll s ON (s.plate=u.up_plate AND s.mjd=u.up_mjd AND s.fiberID=u.up_fiber)  JOIN emissionlinesport e ON s.specobjid=e.specobjid &&&#', @log=#, @filter=#"
+2019-10-02 18:04:00,1

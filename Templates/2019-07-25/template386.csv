@@ -1,0 +1,2 @@
+2,"CREATE TABLE gal_objIDs (   lcgID smallint,   objID numeric(#,#),   ra float,   dec float,   petroR5#_r,    petroR9#_r,    petroRad_r  );"
+2019-07-25 10:47:00,2

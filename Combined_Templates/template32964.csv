@@ -1,0 +1,2 @@
+1,"select S.bestObjID, S.specObjID, S.ra ra, S.dec dec, S.z into mydb.A0# from specObj S, specLine Hb where S.z> # AND S.z< # AND S.zconf> # AND Ha.specObjID = S.specObjID AND Ha.LineID = # AND Ha.sigma> #"
+2019-04-22 11:50:00,1

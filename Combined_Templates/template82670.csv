@@ -1,0 +1,2 @@
+1,"SELECT specObjID, ra, dec, z, zErr, sourceType FROM SpecObj as S WHERE (S.sourceType (#) ) = #"
+2019-12-13 11:25:00,1

@@ -1,0 +1,2 @@
+18,"select ObjID,ra,dec,dbo.fIAUFromEq(ra,dec) FROM PhotoObj WHERE ObjID=#"
+2019-09-10 20:58:00,18

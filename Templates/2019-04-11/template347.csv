@@ -1,0 +1,2 @@
+1,"SELECT  top1#,specObjID, z, zErr, zConf, dbo.fSpecClassN(specClass) FROM SpecObjAll     JOIN PlateX AS plate ON plate.plate = specObjAll.plate     WHERE plate.programName LIKE &&& AND specClass = # AND z < #"
+2019-04-11 13:04:00,1

@@ -1,0 +1,5 @@
+4,"SELECT e.plate, e.fiberid, e.mjd, e.z, e.Sigma_Hb_#, e.Sigma_Ha_#, e.mjd into mydb.Table_dr1#_# from emissionLinesPort AS e WHERE e.z BETWEEN # AND # AND e.Sigma_Hb_# BETWEEN # AND # AND e.Sigma_Ha_# BETWEEN # AND #"
+2019-10-23 18:27:00,1
+2019-10-23 18:28:00,1
+2019-10-23 18:29:00,1
+2019-10-23 18:30:00,1

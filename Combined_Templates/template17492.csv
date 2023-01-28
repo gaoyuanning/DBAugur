@@ -1,0 +1,2 @@
+1,"SELECT TOP # count (*) as #, sum (case when (Type = #) then # else # end) as #, sum (case when (Type = #) then # else # end) as #, sum (case when (Type not IN () ) then # else # end) as # FROM PhotoPrimary WHERE (b between # and #) and (l between # and #)"
+2019-03-05 11:39:00,1

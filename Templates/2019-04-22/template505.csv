@@ -1,0 +1,2 @@
+1,"select top # m.*  from sample s , genetic_profile gp    , mutation m   where gp.stable_id=&&&    and s.stable_id=&&&      and m.genetic_profile_id=gp.genetic_profile_id   and s.internal_id=m.sample_id"
+2019-04-22 07:48:00,1

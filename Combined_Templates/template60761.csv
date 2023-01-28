@@ -1,0 +1,2 @@
+1,"SELECT TOP # s1.objID as s1, s2.objID as s2, s1.u as u1, s2.u as u2, s1.r as r1, s2.r as r2, s1.err_u as err_u1, s2.err_u as err_u2, s1.err_r as err_r1, s2.err_r as err_r2, N.distance as dist FROM Star AS S1 JOIN Neighbors AS N ON S1.objID = N.objID JOIN Star AS S2 ON S2.objID = N.NeighborObjID WHERE N.NeighborType = dbo.fPhotoType (#) N.Type = dbo.fPhotoType (#) GROUP BY S1.objID"
+2019-09-04 18:12:00,1

@@ -1,0 +1,2 @@
+1,"SELECT top # ra, dec, specObjID into mydb.MyTable_# from PhotoObjAll p order by ra"
+2019-08-22 03:46:00,1

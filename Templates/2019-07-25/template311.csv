@@ -1,0 +1,5 @@
+4,"SELECT top # ra, dec, psfmag_u, psfmag_g, psfmag_r, psfmag_i, psfmag_z FROM star WHERE ObjID = #"
+2019-07-25 13:40:00,1
+2019-07-25 13:42:00,1
+2019-07-25 13:45:00,1
+2019-07-25 13:46:00,1

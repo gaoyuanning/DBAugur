@@ -1,0 +1,2 @@
+1,select TOP # * into mydb.photoz_class from dbo.SpecPhotoAll where sciencePrimary = # and type = #
+2019-04-08 10:27:00,1

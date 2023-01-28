@@ -1,0 +1,21 @@
+20,"CREATE TABLE [Pancreas_MRI] (eid BIGINT NOT # , [Pancreas_Images_ShMoLLI_DICOM_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Pancreas_Images_gradient_echo_DICOM_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Pancreatic_fat_DICOM_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Measurements_of_pancreas_volume_DICOM_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , PRIMARY KEY (eid) ) GO"
+2019-04-15 13:25:00,1
+2019-04-15 13:35:00,1
+2019-04-16 08:57:00,1
+2019-04-16 08:59:00,1
+2019-04-16 10:12:00,1
+2019-04-16 10:14:00,1
+2019-04-16 10:17:00,1
+2019-04-16 10:35:00,1
+2019-04-17 11:27:00,1
+2019-04-23 09:44:00,1
+2019-04-23 10:47:00,1
+2019-04-23 10:52:00,1
+2019-04-24 09:55:00,1
+2019-04-24 13:20:00,1
+2019-04-29 11:39:00,1
+2019-04-30 11:44:00,1
+2019-04-30 15:38:00,1
+2019-05-01 09:27:00,1
+2019-05-02 09:33:00,1
+2019-05-02 10:35:00,1

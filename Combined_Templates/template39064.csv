@@ -1,0 +1,4 @@
+4,"SELECT TOP # sp.objid, sp.ra, sp.dec, px.p_el, px.p_cw, px.p_acw, px.spiral, px.elliptical into mydb.MyTable from Galaxy AS sp JOIN zooSpec AS px ON sp.objid = px.objid"
+2019-05-13 13:38:00,1
+2019-05-13 13:40:00,1
+2019-05-13 13:50:00,2

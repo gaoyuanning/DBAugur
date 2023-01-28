@@ -1,0 +1,2 @@
+1,"select SystemStudentID as student_id, gradelevel as enrollment_grade, SchoolYear4Digit as schoolyear from enrollment group by SystemStudentID, gradelevel, SchoolYear4Digit"
+2019-04-30 00:22:00,1

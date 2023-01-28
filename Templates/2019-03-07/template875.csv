@@ -1,0 +1,2 @@
+1,"select ra,dec from segue2 where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-03-07 04:26:00,1

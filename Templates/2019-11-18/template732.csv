@@ -1,0 +1,2 @@
+1,"SELECT   p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  p.run, p.rerun, p.camcol, p.field,  s.specobjid, s.class, s.z as redshift,  s.plate, s.mjd, s.fiberid, p.expAB_u,   p.expAB_g, p.expAB_r, p.expAB_i, p.expAB_z,  p.expRad_g FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   s.class = &&&  AND s.zWarning = #  AND s.z<#  AND s.z># parameter search http://skyserver.sdss.org/dr1#/en/help/browser/browser.aspx"
+2019-11-18 10:35:00,1

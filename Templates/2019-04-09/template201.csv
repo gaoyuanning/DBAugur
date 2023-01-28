@@ -1,0 +1,2 @@
+1,"select min(z) as Lowest, max(z) as Highest, count(z) as TotalQSO from specobj where  class = &&& and zwarning = #"
+2019-04-09 19:31:00,1

@@ -1,0 +1,3 @@
+2,"SELECT TOP # objid, ra, dec, CAST (flags AS BINARY (#) ) AS flags, CAST (flags & # AS BINARY (#) ) AS flags_lo, CAST ((flags/POWER (CAST (# AS BIGINT) , #) ) & # AS BINARY (#) ) AS flags_hi FROM PhotoObj"
+2019-03-25 17:45:00,1
+2019-12-17 20:49:00,1

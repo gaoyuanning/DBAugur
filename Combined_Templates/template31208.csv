@@ -1,0 +1,2 @@
+1,"SELECT rerun, run, camcol, field, ra, dec, decMin, decMax FROM Field WHERE # < decMin AND decMax< #"
+2019-04-17 12:04:00,1

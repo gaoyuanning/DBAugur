@@ -1,0 +1,2 @@
+1,"SELECT TOP # PhotoObjAll.ra, PhotoObjAll.dec into mydb.MyTable_# from PhotoObjAll, SpecObjAll WHERE SpecObjAll.z < # AND SpecObjAll.z > # AND SpecObjAll.class = # AND SpecObjAll.zWarning = # AND PhotoObjAll.ra = SpecObjAll.ra"
+2019-08-08 14:37:00,1

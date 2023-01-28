@@ -1,0 +1,2 @@
+1,"SELECT P.ObjID, P.ra, P.dec, s.z, P.u, P.g, P.r, P.i, P.z, w.w1mag, w.w2mag, w.w3mag, w.w4mag INTO mydb.MyTable_# from photoObjAll as P on xm.sdss_objid = P.objid join SpecObjAll AS s on s.bestobjID = P.ObjID WHERE (P.u-P.g> #) AND (P.u-P.g< #) AND (P.g-P.r> #) AND (P.g-P.r< #) AND (P.r-P.i< #) AND (P.r-P.i> #) AND (P.i-P.z< #) AND (P.i-P.z> #) AND (P.r< #)"
+2019-03-24 00:43:00,1

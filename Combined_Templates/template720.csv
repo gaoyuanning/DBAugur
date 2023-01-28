@@ -1,0 +1,2 @@
+1,"SELECT to upload -- the results to the SAS (Science Archive Server) for FITS file retrieval. SELECT objid, ra, dec, type FROM PhotoObjAll WHERE ra BETWEEN # AND # --AND dec BETWEEN # AND #"
+2019-01-03 09:06:00,1

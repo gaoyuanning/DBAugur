@@ -1,0 +1,2 @@
+1,"select *          ,      case when ra > #. then ra - #. else ra end as ra_updated            from cones.MRscPlanck1_BC0#_#     ) select count(*)       from g       where ra_updated between # and #            and g.dec between # and #                    order by g.z_geo"
+2019-03-15 15:19:00,1

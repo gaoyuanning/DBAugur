@@ -1,0 +1,2 @@
+2,"SELECT specsfr_tot_p5#, objID_DR1#, ra, dec, z, magPetro_r, absPetro_r, logMass_Vaz1# FROM galSpectExtra WHERE objID_DR1# = #"
+2019-10-17 17:05:00,2

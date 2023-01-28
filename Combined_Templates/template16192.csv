@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.g, p.r, p.i, (p.r-p.i) as #, (p.g-p.r) as #, p.type as obj_ph_type, s.tile, s.boss_target1, s.specobjid, s.class, s.subclass, s.z as redshift into mydb.lowz_web_def1# from PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE boss_target1 > # AND class = # AND ABS ((modelmag_r - modelmag_i) - (modelmag_g - modelmag_r) /# - #) < # AND cmodelmag_r BETWEEN # AND # AND cmodelmag_r < # + (#* (modelmag_g - modelmag_r) + #* ((modelmag_r - modelmag_i) - #) )/# AND (psfmag_r - cmodelmag_r) > #"
+2019-03-02 09:01:00,1

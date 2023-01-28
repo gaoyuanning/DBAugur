@@ -1,0 +1,6 @@
+7,"SELECT   p.objid, p.ra, p.dec, p.probPSF, p.psfMag_u, p.psfMagErr_U, p.psfMag_g FROM photoObjAll p, photoz z, specObjAll s,  dbo.fgetNearByObjEq(#,#,#) n  WHERE   p.objid = n.objid"
+2019-03-08 16:01:00,1
+2019-03-08 16:03:00,3
+2019-03-08 16:04:00,1
+2019-03-08 16:05:00,1
+2019-03-08 16:20:00,1

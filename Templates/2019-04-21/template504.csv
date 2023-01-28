@@ -1,0 +1,2 @@
+1,"select GenreId, MediaTypeId, Count(*) as Count from chinook.Track inner join chinook.Genre on chinook.Track.GenreId=chinook.Genre.GenreId inner join chinook.MediaType on chinook.Track.MediaTypeId=chinook.MediaType.MediaTypeId"
+2019-04-21 12:10:00,1

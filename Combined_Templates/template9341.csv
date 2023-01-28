@@ -1,0 +1,4 @@
+6,"select dbo.fCosmoZfromDc (distmin, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT) as zmin select dbo.fCosmoZfromDc (distmax, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT) as zmax WHERE G.objID = n.objID and pothoz< zmax and zmix< pothoz INTO MyDB.NearbyObjEq5"
+2019-02-10 18:10:00,2
+2019-02-10 18:11:00,2
+2019-02-10 18:13:00,2

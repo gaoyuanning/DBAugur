@@ -1,0 +1,3 @@
+6,"SELECT    sp.specObjID,   gal.obj,   gal.objID,   gal.ra,   gal.dec,   gal.run,   gal.rerun,   gal.camcol,   gal.field,   gal.r,   gal.g,   gal.z,   petroRad_g,   petroRad_r,   petroRad_z,   petroR5#_g   petroR5#_r,   petroR5#_z,   petroR9#_g,   petroR9#_r,   petroR9#_z,   sp.z as redshift into MyDB.DR8datalegacy from galaxy as gal     JOIN SpecObj as sp     ON gal.specObjID=sp.specObjID   WHERE     sp.z < #     and sp.z > #"
+2019-11-18 15:44:00,5
+2019-11-18 15:45:00,1

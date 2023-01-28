@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, u, g, r, i, z, extinction_u, extinction_g, extinction_r, extinction_i, extinction_z, Err_u, Err_g, Err_r, Err_i, Err_z, flag_i, flag_r, flag_g into complete_table_SDSS, distance (POINT (#, MyTable.ra, MyTable.de) , POINT (#, DR1#.ra, DR1#.dec) ) AS dist FROM SDSS.DR1# AS SDSS, MyTable AS Mytable WHERE # = CONTAINS (POINT (#, MyTable.ra, MyTable.de) , CIRCLE (#, DR1#.ra, DR1#.dec, #) )"
+2019-03-24 08:03:00,1

@@ -1,0 +1,2 @@
+2,"select top # p.objID,p.ra,p.dec,p.petroRad_g,p.petroRad_r,p.deVRad_g,p.deVRad_r,p.deVAB_g,p.deVMag_g,p.deVMag_r,   p.expRad_g,p.expRad_r,p.expAB_g,p.expMag_g,p.expMag_r,p.specobjID into mydb.amightee_edrtest1 from dr1#.photoobjall as p where (((p.ra > #. and p.ra < #. and p.dec > # and p.dec < #) or    (p.ra > #. and p.ra < #. and p.dec > # and p.dec < #)) and (p.expRad_g > #.) and  p.expMag_g < #. and p.type = #)"
+2019-03-24 06:06:00,2

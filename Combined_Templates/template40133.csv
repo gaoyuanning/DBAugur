@@ -1,0 +1,2 @@
+1,"SELECT s.class_person, count (*) FROM SpecObjAll AS s JOIN galSpecLine AS g ON s.specObjID = g.specObjID WHERE s.specObjID NOT IN () AND g.h_alpha_flux > # AND g.h_alpha_flux < # AND g.h_beta_flux > # AND g.h_beta_flux < # AND g.oiii_#_flux > # AND g.oiii_#_flux < # AND g.nii_#_flux > # AND g.nii_#_flux < # AND s.snMedian > # GROUP BY s.class_person"
+2019-05-17 13:33:00,1

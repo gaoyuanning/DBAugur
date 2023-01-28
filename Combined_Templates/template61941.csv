@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.run, p.ra, p.dec, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z into mydb.MyTable from PhotoObj p WHERE p.run = # OR p.run = #"
+2019-09-09 06:19:00,1

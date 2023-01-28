@@ -1,0 +1,3 @@
+2,"SELECT DISTINCT p.mode, p.clean, p.type, p.type_g, p.ra, p.dec, p.petroRad_g, p.deVRad_g, p.deVAB_g, p.deVPhi_g, p.expRad_g, p.expPhi_g, p.lnLExp_g, p.lnLDeV_g FROM PhotoObjAll AS p WHERE ((p.ra between # and #) and (p.dec between # and #))"
+2019-04-14 13:35:00,1
+2019-04-14 13:42:00,1

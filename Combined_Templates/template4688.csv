@@ -1,0 +1,2 @@
+1,"SELECT s.plate, s.fiberid, s.mjd, s.z, s.zwarning, into mydb.MyTable from SpecObj AS s WHERE ra BETWEEN # AND # AND dec BETWEEN # AND #"
+2019-01-19 10:13:00,1

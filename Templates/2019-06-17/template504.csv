@@ -1,0 +1,2 @@
+1,select  all * from MRscPlanck1 where stellarMass > # AND # < redshift  AND redshift < # and type = #
+2019-06-17 05:44:00,1

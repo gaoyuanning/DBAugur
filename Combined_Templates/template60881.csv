@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra, dec into mydb.MyTable_# from SpecObjAll WHERE class = #;"
+2019-09-04 15:45:00,1

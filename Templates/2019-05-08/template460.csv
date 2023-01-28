@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.mjd FROM PhotoObjAll as p WHERE p.objID = #"
+2019-05-08 08:19:00,1

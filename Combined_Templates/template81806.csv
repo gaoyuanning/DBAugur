@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.err_u, p.g, p.err_g, p.r, p.err_r, p.i, p.err_i, p.z, p.err_z, W.ra as wise_ra, W.dec as wise_dec, W.w1mpro as w1 into mydb.sdsswise_v1 from wise_xmatch as X JOIN wise_allsky as W on X.wise_cntr = W.cntr JOIN PhotoObj AS p on X.sdss_objid = p.objid WHERE p.ra BETWEEN # AND # AND p.dec BETWEEN # AND #"
+2019-12-10 12:35:00,1

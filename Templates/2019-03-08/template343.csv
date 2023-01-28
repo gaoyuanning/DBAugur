@@ -1,0 +1,2 @@
+1,"SELECT COUNT(specObjID), specObjID FROM VAGC_photoobjid_nonull GROUP BY specObjID   HAVING COUNT(specObjID) > #"
+2019-03-08 15:13:00,1

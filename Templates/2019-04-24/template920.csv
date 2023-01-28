@@ -1,0 +1,2 @@
+1,"select RunID, N= count(ID), Nr=count(distinct(RunID)), AVG(Y) as AvgY from data where X > # or X < # group by RunID having AVG(Y) > # order by RunID desc */       select round(x,#), x from data where Y>#"
+2019-04-24 12:48:00,1

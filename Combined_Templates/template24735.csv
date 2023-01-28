@@ -1,0 +1,2 @@
+1,"SELECT TOP # sp.veldisp as sp_vdisp, sp.veldisperr as sp_vdisp_err FROM emissionLinesPort AS emline JOIN specObj as sp ON emline.specobjid = sp.specobjid WHERE emline.plate = # AND emline.mjd = #"
+2019-03-27 04:49:00,1

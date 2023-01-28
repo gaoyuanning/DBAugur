@@ -1,0 +1,2 @@
+1,"select bestObjID, ra, dec, u, g, r, i, z from PhotoObj where ra between # and #"
+2019-07-02 13:20:00,1

@@ -1,0 +1,2 @@
+1,"SELECT objid, ra, dec FROM PhotoPrimary  WHERE objid = # SELECT objid, ra, dec FROM PhotoPrimary  WHERE objid = #"
+2019-03-27 02:59:00,1

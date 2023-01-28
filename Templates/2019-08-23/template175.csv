@@ -1,0 +1,3 @@
+202,"SELECT d.*, s.class, s.subclass FROM dbo.fGetNearestSpecObjAllEq(#,#,#) as d, SpecObjAll as s WHERE d.specObjID = s.specObjID"
+2019-08-23 15:24:00,101
+2019-08-23 15:26:00,101

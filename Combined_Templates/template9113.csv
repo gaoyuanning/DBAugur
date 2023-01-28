@@ -1,0 +1,3 @@
+2,"select * from (select max (l.ew) as maxew, min (l.ew) as minew, max (l.ewerr/abs (l.ew) ) as ratio, max (i.ew) as maxindex, min (i.ew) as minindex, max (i.ewerr/abs (i.ew) ) as ratioindex, l.specobjid from speclineall l, specobjall s, speclineindex i where s.specobjid = l.specobjid and s.specobjid = i.specobjid and (specclass = # or specclass = # or specclass = #) and l.ew< ># and i.ew< ># and l.ew< ># and i.ew< ># group by l.specobjid) ll where maxew < # and minew > # and maxindex < # and minindex > #"
+2019-02-08 08:25:00,1
+2019-07-30 13:35:00,1

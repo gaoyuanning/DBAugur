@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.ra, p.dec, p.run, f.mjd_r into mydb.pippo from PhotoObj p       JOIN field f ON f.field = p.field    WHERE (p.run = # OR p.run = #)"
+2019-09-05 10:43:00,1

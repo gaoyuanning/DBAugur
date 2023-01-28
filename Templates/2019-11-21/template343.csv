@@ -1,0 +1,2 @@
+1,"select p.bin, p.cell, p.sinc, p.rInner, p.rOuter, p.aAnn, p.aDisk from ProfileDefs AS p"
+2019-11-21 14:37:00,1

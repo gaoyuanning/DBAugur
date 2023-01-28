@@ -1,0 +1,3 @@
+2,"select p.objid as id, p.ra as ra1, p.dec as dec1, round (p.psfMag_u, #) as upsf1, round (p.psfMagErr_u, #) as upsferr1, round (p.psfMag_g, #) as gpsf1, round (p.psfMagErr_g, #) as gpsferr1, round (p.psfMag_r, #) as rpsf1, round (p.psfMagErr_r, #) as rpsferr1, round (p.psfMag_i, #) as ipsf1, round (p.psfMagErr_i, #) as ipsferr1, round (p.psfMag_z, #) as zpsf1, round (p.psfMagErr_z, #) as zpsferr1 into mydb.s8#qso from mydb.stripe8#_coords q cross apply dbo.fGetNearestObjAllEq (q.ra, q.dec, #) N, photoobj p where p.objID = N.objID and p.type = #"
+2019-12-12 10:26:00,1
+2019-12-12 10:29:00,1

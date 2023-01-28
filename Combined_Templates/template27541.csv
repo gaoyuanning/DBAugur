@@ -1,0 +1,3 @@
+2,"SELECT dr7objid, dr8objid, ra, dec into mydb.coordinates FROM PhotoObjDR7 Where probPSF = #"
+2019-04-03 08:17:00,1
+2019-04-03 08:18:00,1

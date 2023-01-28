@@ -1,0 +1,2 @@
+2,"SELECT TOP #  modelMag_u, modelMag_g, objID, cx, cy, cz, u, g, r, i, z WHERE ( Flags & (dbo.fPhotoFlags(&&&) +     dbo.fPhotoFlags(&&&) +     dbo.fPhotoFlags(&&&)) ) = # and petroRad_r < # and ((modelMag_u - modelMag_g) - (psfMag_u - psfMag_g)) < #"
+2019-03-13 17:52:00,2

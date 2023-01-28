@@ -1,0 +1,2 @@
+1,select * from PhotoObjAll where ra between # and # and dec between # and # and type = #
+2019-10-31 18:26:00,1

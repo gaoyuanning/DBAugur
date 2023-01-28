@@ -1,0 +1,2 @@
+1,SELECT count(*) into mydb.MyTable from cannonStar join apogeeStar on apogeeStar.apogee_id=cannonStar.apogee_id
+2019-01-16 16:43:00,1

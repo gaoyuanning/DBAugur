@@ -1,0 +1,2 @@
+1,"SELECT top #   m.ra, m.dec, m.plate, m.mjd, m.fiberid, t.petrorad_r, n.specobjid, n.objid into mydb.sdss_stars from SpecObj as m     join specphotoall as n on n.specobjid=m.specobjid     join photoobjall as t on t.objid=n.objid WHERE class = &&& AND zWarning = #"
+2019-05-21 12:23:00,1

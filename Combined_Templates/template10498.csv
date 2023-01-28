@@ -1,0 +1,4 @@
+3,"select p.objid, p.modelMag_r, p.petroRad_r from fGetObjFromRectEq (#, #, #, #) n, PhotoPrimary p where n.objID = p.objID;"
+2019-02-12 01:59:00,1
+2019-02-12 02:00:00,1
+2019-02-12 02:33:00,1

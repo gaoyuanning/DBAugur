@@ -1,0 +1,8 @@
+206,"SELECT  sp.ra, sp.dec, sp.z as redshift,  sp.cModelMag_g as g, sp.cModelMagerr_g as err_g,   sp.cModelMag_i as i, sp.cModelMagerr_i as err_i,  gs.h_alpha_eqw, gs.oii_#_eqw,   p.aperFlux7_g, p.aperFlux7Ivar_g as var_g,  p.aperFlux7_i, p.aperFlux7Ivar_i as var_i    FROM GalSpecLine AS gs   JOIN SpecPhoto AS sp ON sp.specobjid = gs.specobjid  JOIN Galaxy as gal ON gal.specobjId = gs.specobjid  JOIN PhotoObjAll as p ON p.specObjId = gs.specobjID  JOIN SpecObjAll as so ON so.specObjId = gs.specobjID    WHERE   so.bestobjid = #"
+2019-03-13 12:17:00,2
+2019-03-13 12:29:00,1
+2019-03-13 12:30:00,14
+2019-03-13 12:31:00,53
+2019-03-13 12:32:00,59
+2019-03-13 12:33:00,60
+2019-03-13 12:34:00,17

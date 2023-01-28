@@ -1,0 +1,2 @@
+1,"SELECT m.*, dbo.fGetNearestSpecObjIdEq (m.ra, m.dec, #) as specobjid, s.specobjid, s.ra, s.dec, s.plate, s.mjd, s.fiberid FROM myDB.hasspec as m, SpecObjAll s WHERE dbo.fGetNearestSpecObjIdEq (m.ra, m.dec, #) = s.specObjID"
+2019-07-11 07:11:00,1

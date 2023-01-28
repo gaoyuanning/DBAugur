@@ -1,0 +1,8 @@
+9,"select top # dbo.fCosmoDl (s.z) ld, p.modelMag_r, p.extinction_r, s.z, p.modelMag_r - # - # * log1# (dbo.fCosmoDl (s.z) ) - p.extinction_r M_r from SpecObj s inner join PhotoObj p on s.bestObjID = p.ObjID where s.z > # and s.z < # and s.SpecClass = # and p.modelMag_r-p.extinction_r < # and p.modelMag_r - # - # * log1# (dbo.fCosmoDl (s.z) ) - p.extinction_r > # and p.modelMag_r - # - # * log1# (dbo.fCosmoDl (s.z) ) - p.extinction_r < #"
+2019-01-31 10:11:00,1
+2019-01-31 10:17:00,1
+2019-01-31 10:21:00,1
+2019-01-31 10:33:00,1
+2019-01-31 11:01:00,1
+2019-01-31 11:17:00,2
+2019-01-31 11:18:00,2

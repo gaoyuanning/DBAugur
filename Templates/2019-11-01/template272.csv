@@ -1,0 +1,2 @@
+1,"SELECT TOP # str(p.ra,#,#) as ra,str(p.[dec],#,#) as dec,p.u,p.g,p.r,p.i,p.z,p.modelMagErr_u,p.modelMagErr_g,p.modelMagErr_r,p.modelMagErr_i,p.modelMagErr_z FROM  TARGDR7..Galaxy AS p 	JOIN RunQA AS q ON q.fieldid = p.fieldid WHERE (q.fieldQall >= #)"
+2019-11-01 08:52:00,1

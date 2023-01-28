@@ -1,0 +1,3 @@
+3,"select s.ra, s.dec, s.z, g.u, g.g, g.r, g.i, g.z, s.specobjid, g.specobjid from specobj as s join galaxy as g on g.specobjid = s.specobjid where class = #"
+2019-01-06 07:47:00,1
+2019-01-06 07:53:00,2

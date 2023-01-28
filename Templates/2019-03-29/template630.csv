@@ -1,0 +1,3 @@
+4,"SELECT   f.ra, f.dec,   sp.ra,sp.dec,   sp.plate, sp.mjd, sp.fiberid,   sp.specobjid,sp.bestobjid into mydb.flaretable_crosscheck_sdss_specobj   from myDB.all_flares as f CROSS APPLY dbo.fGetNearestSpecObjEq( f.ra, f.dec, #) AS near JOIN specobjall as sp ON near.specobjid=sp.specobjid"
+2019-03-29 11:19:00,2
+2019-03-29 11:20:00,2

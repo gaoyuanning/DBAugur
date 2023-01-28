@@ -1,0 +1,2 @@
+1,"select top # objid, modelmag_u, modelmag_g, modelmag_r, modelmag_i, modelmag_z, z from SpecPhoto where (specclass = dbo.fspecclass (#) or specclass = dbo.fspecclass (#) and zconf > .#"
+2019-03-18 23:19:00,1

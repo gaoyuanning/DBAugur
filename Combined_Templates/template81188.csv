@@ -1,0 +1,2 @@
+1,"select AssetID = ID, PropertyAddress , lat = coords.Lat, lon = coords.Long , wkt = coords.ToString () from optw.tamass.ASSETS"
+2019-12-07 14:16:00,1

@@ -1,0 +1,2 @@
+1,"select ra, dec, g-band from photoObj where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-10-03 16:25:00,1

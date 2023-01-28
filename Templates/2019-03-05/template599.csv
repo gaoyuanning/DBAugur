@@ -1,0 +1,2 @@
+1,"SELECT ALL into mydb.M1#_data_View   inp.objID, db.specObjID, inp.mjd, inp.plate, inp.fiberID, inp.ra, inp.dec,   inp.redshift, db.z, db.zErr, inp.vespa1, inp.vespa2, inp.vespa3, inp.vespa4,   db.petroMag_u, db.petroMagErr_u, db.extinction_u, db.petroMag_g, db.petroMagErr_g, db.extinction_g,   db.petroMag_r, db.petroMagErr_r, db.extinction_r, db.petroMag_i, db.petroMagErr_i, db.extinction_i,   db.petroMag_z, db.petroMagErr_z, db.extinction_z FROM SpecPhoto db, mydb.M1#_data_Table inp WHERE inp.objID = db.objID"
+2019-03-05 10:54:00,1

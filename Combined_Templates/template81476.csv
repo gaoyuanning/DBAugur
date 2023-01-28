@@ -1,0 +1,2 @@
+1,"select top # objID, dbo.fPrimTargetN (#) , ra, dec, replace (dbo.fGetUrlNavId (objID) , #, #) as link, from photoObj"
+2019-12-09 18:07:00,1

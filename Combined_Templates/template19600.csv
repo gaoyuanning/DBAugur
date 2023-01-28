@@ -1,0 +1,2 @@
+1,"SELECT TOP # u, g, r, i, z, ra, dec FROM Star WHERE ra BETWEEN # and # AND dec BETWEEN # and # AND r < #"
+2019-03-11 22:03:00,1

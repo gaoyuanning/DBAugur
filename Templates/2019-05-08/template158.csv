@@ -1,0 +1,2 @@
+1,"SELECT TOP #   s.ra,   s.dec,   s.z,   s.zErr,   p.DeVAB_r,   p.DeVPhi_r,   p.petroMag_r,   p.petroMag_u,   p.fracDeV_r into mydb.deV_model1 from PhotoObj p   JOIN SpecObj s ON s.bestObjID = p.objID  WHERE   s.class = &&& AND   s.z < # AND   s.z <> # AND   p.lnLExp_r < p.lnLDeV_r"
+2019-05-08 18:57:00,1

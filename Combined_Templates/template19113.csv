@@ -1,0 +1,3 @@
+3,"select # p.objID, s.z as redshift, p.psfMag_u as u, p.psfMag_g as g, p.psfMag_r as r, p.psfMag_i as i, p.psfMag_z as z from photoObj p, specObj s where p.objID = s.bestObjID and s.class = # and s.z BETWEEN # and #"
+2019-03-10 17:48:00,2
+2019-03-10 17:49:00,1

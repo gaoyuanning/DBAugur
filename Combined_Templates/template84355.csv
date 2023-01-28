@@ -1,0 +1,2 @@
+1,"select objid, ra, dec, r from galaxy where clean = # and run = # and camcol = # and field = # and obj = #"
+2019-12-24 00:53:00,1

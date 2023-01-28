@@ -1,0 +1,2 @@
+1,"select distinct top # star.ra, star.dec, #*(star.ra - plate.racen)/cos(plate.deccen*PI()/#) as x, #*(star.dec - plate.deccen) as y, obj.j as mag into mydb.MyTable_# from apogeestar as star, apogeeObject as obj, apogeePlate as plate where obj.target_id=star.target_id and plate.location_id=star.location_id and plate.plate = # order by mag"
+2019-10-22 13:26:00,1

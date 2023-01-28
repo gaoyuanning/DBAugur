@@ -1,0 +1,2 @@
+1,"SELECT specObjID, z, psfMag_u, psfMag_g, psfMag_r, psfMag_r, psfMag_i, psfMag_z into mydb.tarefa1 from DR1#.SpecPhotoAll WHERE z BETWEEN # AND #"
+2019-12-03 13:49:00,1

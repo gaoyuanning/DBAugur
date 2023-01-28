@@ -1,0 +1,2 @@
+1,"SELECT   p.objid,p.ra,p.dec,p.u,p, err_u,p.g.p.err_g,p.r.p.err_r,p.i,p.err_i,p.z,p.err_z from PhotoPrimary as p, mydb.test_sql as b into mydb.test_output     where        (abs(p.ra-b.ra)) < # AND        (abs(p.dec-b.dec)) < #"
+2019-02-03 12:47:00,1

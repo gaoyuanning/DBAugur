@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.ObjID, p.modelMag_r, p.petroRad_r, s.z FROM PhotoObjAll WHERE (ra between # and #) and (dec between # and #) and (type = #) and (modelMag_r between # and #) and (petroRad_r > #) and (specObjID ! = #)"
+2019-02-11 00:29:00,1

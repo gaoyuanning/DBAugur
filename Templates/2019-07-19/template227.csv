@@ -1,0 +1,3 @@
+2,"SELECT TOP # rerun, camcol, field FROM PhotoObj WHERE ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-07-19 07:05:00,1
+2019-07-19 15:05:00,1

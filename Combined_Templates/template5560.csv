@@ -1,0 +1,4 @@
+3,"select top # s.plate, s.mjd, s.fiberid, p.psfMag_u, psfMag_g, psfMag_r, psfMag_z, modelmag_u, modelmag_g, modelmag_r, modelmag_i, modelmag_z, petromag_r, petromag_i, petromag_z from photoobj p, specobj s"
+2019-01-23 02:30:00,1
+2019-04-01 08:35:00,1
+2019-04-01 09:38:00,1

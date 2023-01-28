@@ -1,0 +1,2 @@
+1,"SELECT TOP #    sp.*, p.*, zoo.*    INTO mydb.GalZoo2_SpecPhot_Classes FROM zoo2MainSpecz AS zs      JOIN SpecObjAll AS s ON s.specobjid = zs.specobjid   JOIN PhotoObjAll AS p ON p.ObjID = zs.specobjid    WHERE     sp.class = &&&     AND sp.zwarning = #     AND zoo.nvote_tot > #     AND p.clean = #"
+2019-05-23 16:33:00,1

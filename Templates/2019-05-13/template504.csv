@@ -1,0 +1,2 @@
+1,"select db.objID, db.ra, db.dec, d1#.dered_r, d1#.dered_g, d1#.dered_i, d1#.dered_z, d1#.petroR9#_r, d1#.deVAB_r from MyDB.A2#_targets as db   JOIN PhotoObjAll as d1# on d1#.objID = db.objID"
+2019-05-13 05:17:00,1

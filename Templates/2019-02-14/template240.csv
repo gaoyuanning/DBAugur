@@ -1,0 +1,10 @@
+18,"SELECT e.plate, e.fiberID, e.mjd, e.ra, e.dec, e.z, e.sigmaStars, e.Flux_Hb_#, e.Flux_OIII_#, e.Flux_NII_#, e.Flux_Ha_#, e.bpt FROM emissionLinesPort as e WHERE e.specObjID =#"
+2019-02-14 15:07:00,2
+2019-02-14 15:08:00,2
+2019-02-14 15:09:00,3
+2019-02-14 15:10:00,3
+2019-02-14 15:11:00,3
+2019-02-14 15:12:00,1
+2019-02-14 15:17:00,2
+2019-02-14 15:18:00,1
+2019-02-14 15:19:00,1

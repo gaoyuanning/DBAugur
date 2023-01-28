@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, s.specobjid, s.class, s.z as redshift, s.plate, s.mjd, s.fiberid FROM SpecObj WHERE p.u BETWEEN # AND # AND g BETWEEN # AND # AND s.class = #"
+2019-10-29 18:25:00,1

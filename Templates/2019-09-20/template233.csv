@@ -1,0 +1,2 @@
+1,"select haloid, x, y, z, np, halfMassRadius  from mr where mainLeafId=# and snapnum=#"
+2019-09-20 14:50:00,1

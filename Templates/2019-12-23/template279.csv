@@ -1,0 +1,2 @@
+1,"select objid, ra, dec, r ,run,rerun,camcol,field,obj from galaxy where  abs(ra-#)<# and abs(dec-(#))<#"
+2019-12-23 00:37:00,1

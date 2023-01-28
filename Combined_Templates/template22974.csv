@@ -1,0 +1,4 @@
+18,"select psfMag_g, psfMagErr_g, psfMag_r, psfMagErr_r, psfMag_i, psfMagErr_i, psfMag_z, psfMagErr_z from photoObj where ObjID = #"
+2019-03-24 14:58:00,1
+2019-03-24 15:02:00,16
+2019-03-24 15:12:00,1

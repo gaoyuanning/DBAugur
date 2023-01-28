@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, p.psfMagErr_u, p.psfMagErr_g, p.psfMagErr_r, p.psfMagErr_i, p.psfMagErr_z, p.fieldid, good = - (dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) )+ # FROM PhotoObj as p WHERE p.ra between # and # AND p.dec between # and # AND p.psfMag_r < # AND p.psfMag_i < #"
+2019-03-03 09:38:00,1

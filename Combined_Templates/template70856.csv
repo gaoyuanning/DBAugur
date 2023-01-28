@@ -1,0 +1,2 @@
+2,"SELECT TOP # specObjID , lgm_tot_p9#p5, sfr_tot_entropy FROM galSpecExtra with (nolock) DELETE FROM galSpecExtra WHERE lgm_tot_p9#p5 = #;"
+2019-10-21 07:10:00,2

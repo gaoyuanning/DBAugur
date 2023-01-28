@@ -1,0 +1,2 @@
+2,"select objID, ra, dec,z, modelMag_u-modelMag_r, modelMag_r-modelMag_z, Plate, MJD, FiberID  from Galaxy where modelMag_u-modelMag_r < # AND   modelMag_r-modelMag_z < # AND   modelMag_u-modelMag_r > # + # * modelMag_r-modelMag_z"
+2019-05-01 00:40:00,2

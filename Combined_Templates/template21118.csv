@@ -1,0 +1,2 @@
+1,"select min (rowc) , min (colc) , max (rowc) , max (colc) from dr1#.Star where run = # -- # # # # select top # rowc-floor (rowc) , colc-floor (colc) from dr1#.Star"
+2019-03-17 10:46:00,1

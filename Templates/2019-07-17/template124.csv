@@ -1,0 +1,8 @@
+7,"select O.ra, O.dec, O.psfMag_u, O.psfMagErr_u, O.psfMag_g,  O.psfMagErr_g, O.psfMag_r, O.psfMagErr_r, O.psfMag_i,  O.psfMagErr_i, O.psfMag_z, O.psfMagErr_z, O.probPSF  from  dbo.fGetNearbyObjEq(#,#,#)  as N inner join PhotoObjAll as O on O.objID = N.objID order by N.distance"
+2019-07-17 15:37:00,1
+2019-07-17 16:20:00,1
+2019-07-17 16:27:00,1
+2019-07-17 17:28:00,1
+2019-07-17 19:00:00,1
+2019-07-17 19:08:00,1
+2019-07-17 19:18:00,1

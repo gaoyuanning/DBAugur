@@ -1,0 +1,2 @@
+1,"SELECT top #   specObjID, z, ra, dec, class, subClass, cModelMag_u,cModelMag_g,cModelMag_r,cModelMag_i,cModelMag_z, cModelMagErr_u,cModelMagErr_g,   cModelMagErr_r,cModelMagErr_i,cModelMagErr_z    FROM SpecPhoto WHERE   zWarning=#   AND subClass IS &&&   AND cModelMag_u BETWEEN # and #   AND cModelMag_g BETWEEN # and #   AND cModelMag_r BETWEEN # and #   AND cModelMag_i BETWEEN # and #   AND cModelMag_z BETWEEN # and #"
+2019-05-27 10:50:00,1

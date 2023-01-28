@@ -1,0 +1,2 @@
+1,select * into so0 from specobjall where objid%# = #
+2019-04-02 02:11:00,1

@@ -1,0 +1,2 @@
+1,SELECT max (theta) FROM mydb.target_galaxies
+2019-05-10 14:04:00,1

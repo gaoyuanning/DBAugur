@@ -1,0 +1,2 @@
+1,"SELECT TOP #  g.specObjID, g.bptclass, g.sfr_tot_p9#p5, g.lgm_tot_p9#p5 FROM galSpecExtra AS g"
+2019-10-15 03:58:00,1

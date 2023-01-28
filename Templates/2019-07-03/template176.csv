@@ -1,0 +1,2 @@
+1,"SELECT     p.*,    m.*     into mydb.AllcUVLGs_PhotoFluxData_DR1# from MyDB.AllcUVLGs_FluxData_DR1#_v2_ColunasCorrigidas AS m     FROM PhotoObjAll  p    ON p.specobjid = m.specobjid"
+2019-07-03 15:27:00,1

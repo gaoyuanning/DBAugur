@@ -1,0 +1,2 @@
+1,"select --top # id, t.objid, kcorrR0# as k from MyDB.temp as t join Photoz as p on p.objid = t.objid order by id"
+2019-07-20 02:44:00,1

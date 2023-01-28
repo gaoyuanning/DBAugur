@@ -1,0 +1,2 @@
+1,"select Sp.dr7ObjID as sp_dr7ID, smd.dr7_objID as smd_dr7ID, Sp.SpecObjID, smd.ra, smd.decl into mydb.smd_specID3 from SpecDR7 as Sp   join mydb.Simard_S8# as smd   on smd.dr7_objID=Sp.dr7ObjID"
+2019-06-11 03:12:00,1

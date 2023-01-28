@@ -1,0 +1,2 @@
+1,"SELECT top # objID, ra, dec,class, FROMSpecObj WHERE(class=&&&)"
+2019-12-11 06:56:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP #   ra,dec,z, plate, mjd, fiberID from SpecObj   where class=&&& and zWarning=# and z># and z<#"
+2019-05-17 03:31:00,1

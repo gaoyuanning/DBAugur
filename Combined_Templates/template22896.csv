@@ -1,0 +1,2 @@
+1,"SELECT TOP # modelMag_g as G_Mag, ra as RA, dec as DEC FROM PhotoTag WHERE modelMag_g between # and # AND type = # ORDER BY modelMag_g"
+2019-03-23 23:57:00,1

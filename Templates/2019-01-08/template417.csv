@@ -1,0 +1,2 @@
+1,"SELECT photoStatus, COUNT(*) FROM Field GROUP BY photoStatus"
+2019-01-08 06:41:00,1

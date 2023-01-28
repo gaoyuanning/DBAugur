@@ -1,0 +1,2 @@
+1,"SELECT  COUNT( CASE WHEN # < = z AND z<=#+# THEN z END ) as &&&, COUNT( CASE WHEN # < z AND z<=# THEN z END ) as &&&, COUNT( CASE WHEN # < z AND z<=# THEN z END ) as &&& FROM SpecObj WHERE class = &&& AND zWarning = #"
+2019-03-22 14:35:00,1

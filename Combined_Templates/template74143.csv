@@ -1,0 +1,2 @@
+1,"select count (*) from MyDB.Sabater_AGN as agn, DR7.SpecObjAll as spec where spec.ra = agn.ra and spec.dec = agn.dec"
+2019-11-06 08:54:00,1

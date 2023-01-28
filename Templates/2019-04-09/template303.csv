@@ -1,0 +1,2 @@
+1,"SELECT near.objID, p.ra, p.dec,  p.field, p.run, p.rerun, p.camcol  FROM dbo.fGetNearestObjEq(#, #, #) AS near  INNER JOIN PhotoPrimary AS p ON p.objID=near.objID"
+2019-04-09 16:48:00,1

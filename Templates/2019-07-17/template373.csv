@@ -1,0 +1,3 @@
+4,"SELECT avg(x)# as dx, stdev(x) as sx, # as sig FROM mr tablesample(.#)"
+2019-07-17 10:03:00,2
+2019-07-17 10:04:00,2

@@ -1,0 +1,6 @@
+6,"SELECT m.X_MatchID, m.t_designation, m.s_ra, m.s_dec, o.deVAB_r into mydb.sdss2masxphotobj from [myscratch:default].sdss2masx AS m OUTER APPLY dbo.fGetNearestObjEq (m.s_ra, m.s_dec, #) AS n LEFT JOIN PhotoObjAll AS o ON n.objid = o.objid"
+2019-01-21 16:50:00,1
+2019-01-21 16:51:00,2
+2019-01-21 17:02:00,1
+2019-01-21 17:05:00,1
+2019-01-21 17:06:00,1

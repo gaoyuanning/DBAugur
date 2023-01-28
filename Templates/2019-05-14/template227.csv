@@ -1,0 +1,2 @@
+2,"SELECT   m.ra, m.dec, t.plate, t.mjd, t.fiberid    into mydb.bcds_plot_dawn_sortx FROM MyDB.mytable_# AS m   CROSS APPLY dbo.fGetNearestObjEq( m.ra, m.dec, #) AS n    JOIN specphotoall AS t ON n.objid=t.objid"
+2019-05-14 16:25:00,2

@@ -1,0 +1,6 @@
+7,"SELECT up_id, dbo.fGetNearestSpecObjIdEq(up_ra,up_dec,#) as SpecobjId   FROM #upload WHERE dbo.fGetNearestSpecObjIdEq(up_ra,up_dec,#) IS NOT NULL  EXEC spExecuteSQL ' SELECT u.up_name as [name], s.specobjid, s.ra, s.dec, s.z, s.zerr, s.class, s.subclass, dbo.fDistanceArcMinEq(ra,dec,s.ra,s.dec) as distance FROM #upload u  JOIN #x x ON x.up_id = u.up_id  JOIN SpecObj s ON s.specObjID = x.specObjID WHERE  s.zwarning = # and s.class = QSO"
+2019-11-25 02:28:00,1
+2019-11-25 02:34:00,2
+2019-11-25 02:35:00,2
+2019-11-25 02:48:00,1
+2019-11-25 02:49:00,1

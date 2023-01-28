@@ -1,0 +1,3 @@
+2,"SELECT s.z , ROUND ((petroR5#_g + petroR5#_r + petroR5#_i) / # , #) AS AVGpetroR5#_gri , ROUND ((petroRad_g + petroRad_r + petroRad_i) / # / # , #) AS AVGpetroRad_griDIV2.# , ROUND ((AVG (petroR5#Err_g/petroR5#_g) + AVG (petroR5#Err_r/petroR5#_r) + AVG (petroR5#Err_i/petroR5#_i) ) / # * #, #) AS AVGR5#ErrorPct , ROUND (AVG (s.zErr/s.z * #) , #) AS AVGzErrPct FROM mydb.MyTable AND petroR5#_g BETWEEN # AND # AND petroR5#Err_g > = # AND petroR5#_r BETWEEN # AND # AND petroR5#Err_r > = # AND petroR5#_i BETWEEN # AND # AND petroR5#Err_i > = # AND petroR5#Err_g / petroR5#_g < # AND petroR5#Err_r / petroR5#_r < # AND petroR5#Err_i / petroR5#_i < #"
+2019-06-09 18:16:00,1
+2019-06-09 18:17:00,1

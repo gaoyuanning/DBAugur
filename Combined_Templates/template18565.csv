@@ -1,0 +1,6 @@
+5,"select top # p.objid as name, p.ra, p.dec from star p, specobj s where p.objid = s.bestobjid"
+2019-03-07 08:45:00,1
+2019-03-07 08:53:00,1
+2019-03-26 08:41:00,1
+2019-03-26 08:56:00,1
+2019-07-11 03:24:00,1

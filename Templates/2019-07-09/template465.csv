@@ -1,0 +1,2 @@
+1,"SELECT p.objID, s.class, p.u, p.g, p.r,p.i, p.z FROM SpecObj AS s JOIN PhotoObj AS p ON s. bestObjID = p. objID WHERE (p.type = # OR p. type = #)."
+2019-07-09 09:19:00,1

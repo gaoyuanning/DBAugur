@@ -1,0 +1,2 @@
+2,"SELECT ra, dec into mydb.spec_galaxy_#_# from dr1#.SpecObj WHERE class = &&& AND ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-03-28 09:22:00,2

@@ -1,0 +1,2 @@
+1,"select cast(specObjID as varchar(#)) as specobjid, targetObjID, ra, dec, run2d, survey, mjd, plate, tile, fiberID,    spectroFlux_u, spectroFlux_g, spectroFlux_r, spectroFlux_i, spectroFlux_z, z, class, subclass, zwarning, snMedian into mydb.MyTable_# from SpecObjAll   where subclass = &&&"
+2019-02-28 00:58:00,1

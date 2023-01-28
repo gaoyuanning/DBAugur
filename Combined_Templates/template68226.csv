@@ -1,0 +1,5 @@
+7,"SELECT TOP # poa.objID, poa.ra, poa.dec, poa.modelMag_r, pz.z, pz.rest_ug, pz.rest_gr, pz.rest_ri, pz.rest_iz FROM PhotoObjAll as poa, Photoz as pz WHERE poa.objID = pz.objID"
+2019-10-07 12:31:00,2
+2019-10-07 12:32:00,1
+2019-10-07 12:33:00,2
+2019-10-07 12:36:00,2

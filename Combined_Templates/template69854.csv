@@ -1,0 +1,2 @@
+1,"SELECT s.z, s.ra, s.dec, s.cModelMag_r, s.extinction_r, p.kcorrR FROM SpecPhotoAll AS s, photoz AS p INTO mydb.table5 WHERE class = #and s.ObjID = p.ObjID and s.zwarning = # and s.z between # and # and s.tile > = #"
+2019-10-15 03:18:00,1

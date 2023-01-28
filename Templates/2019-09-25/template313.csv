@@ -1,0 +1,2 @@
+1,"SELECT dbo.fIAUFromEq(s.ra,s.[dec]) as SDSSname, s.specObjID, s.objID,   s.ra, s.dec, s.specobjid, s.class, s.subclass, s.z, s.zwarning, s.sourcetype, s.type into mydb.MyTable_# from SpecPhotoAll as s WHERE s.class = &&& AND s.subclass = &&& AND s.zwarning = # ORDER BY s.ra"
+2019-09-25 13:40:00,1

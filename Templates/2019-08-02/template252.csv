@@ -1,0 +1,4 @@
+4,"SELECT T.ID, S.plate, S.MJD, S.fiberID, T.Z1#logOH, T.Z1#logOH_err, T.R2#, T.e_R2# INTO mydb.Nagao0#_PMJDF FROM mydb.Nagao0# as T   CROSS APPLY dbo.fGetNearestSpecObjAllEq(T.ra,T.dec,#) as S WHERE S.specObjID IS NOT NULL"
+2019-08-02 11:22:00,2
+2019-08-02 11:24:00,1
+2019-08-02 11:25:00,1

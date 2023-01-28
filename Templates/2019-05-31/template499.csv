@@ -1,0 +1,2 @@
+1,"select specObjID,ra,dec,z,petroMag_r into mydb.spec from SpecPhotoAll"
+2019-05-31 05:16:00,1

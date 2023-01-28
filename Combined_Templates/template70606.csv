@@ -1,0 +1,2 @@
+1,"SELECT TOP # sq.fwhm3_mgII, sq.fwhm1_mgII, sq.fwhm2_mgII, sq.fwhm4_mgII, sq.fwhm3_hb, sq.fwhm1_hb, sq.fwhm2_hb, sq.fwhm4_hb FROM spiders_quasar AS sq"
+2019-10-20 12:11:00,1

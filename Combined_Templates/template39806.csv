@@ -1,0 +1,2 @@
+1,"select ra, dec, psfMag_g as mag_g, psfMagErr_g as magerr_g, psfMag_r as mag_r, psfMagErr_r as magerr_r, psfMag_i as mag_i, psfMagErr_i as magerr_i from PhotoObj where (ra between # and #) and (dec between # and #)"
+2019-05-15 01:11:00,1

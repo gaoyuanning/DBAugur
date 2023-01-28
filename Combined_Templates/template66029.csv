@@ -1,0 +1,2 @@
+1,"SELECT MAX (redshift) AS LargestPrice s.specobjid, s.class, s.z as redshift, s.ra, s.dec FROM SpecObj AS s"
+2019-09-26 21:28:00,1

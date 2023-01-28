@@ -1,0 +1,3 @@
+6,"SELECT g.objid, g.petroMag_r, s.z, s.zErr, g.type, s.sourceType FROM Galaxy AS g JOIN SpecObj AS s ON s.bestobjid = g.objid, fGetNearbyObjEq(#,#,#) AS n WHERE g.objID = n.objID"
+2019-08-21 03:39:00,3
+2019-08-21 03:40:00,3

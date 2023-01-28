@@ -1,0 +1,2 @@
+1,"select sp.specObjID, sp.ra, sp.dec, sp.plate, sp.subClass from SpecObjAll sp into mydb.segue_stars WHERE sp.instrument = # and sp.class = #"
+2019-05-02 11:40:00,1

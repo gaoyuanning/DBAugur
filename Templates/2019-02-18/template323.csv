@@ -1,0 +1,4 @@
+6,"SELECT TOP(#)  za.specObjID,za.bestObjID,run, rerun, camcol, field,za.class,za.subClass,za.z,za.zErr,  po.objID,po.type,po.flags, po.ra,po.dec,  po.petroMag_r, po.extinction_r,  zi.e_bv_sfd,zi.primtarget,zi.sectarget,zi.targettype,  zi.spectrotype, zi.subclass  INTO mydb.SDSS_DR1#_#  FROM SpecObjAll za  JOIN PhotoObjAll po ON (po.objID = za.bestObjID)  JOIN Photoz zp ON (zp.objID = za.bestObjID)  JOIN galSpecInfo zi ON (zi.SpecObjID = za.specObjID)  WHERE za.z > # and za.zWarning = #  and za.targetType = &&& and za.survey = &&&  and za.class = &&& and zi.primtarget >= #    and po.clean = # and po.insideMask = #  and (po.petroMag_r - po.extinction_r) <= #"
+2019-02-18 08:49:00,2
+2019-02-18 08:50:00,2
+2019-02-18 14:56:00,2

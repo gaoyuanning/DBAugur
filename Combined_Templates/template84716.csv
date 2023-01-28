@@ -1,0 +1,2 @@
+1,"select min (field) , max (field) from PhotoObjAll group by field;"
+2019-12-30 14:18:00,1

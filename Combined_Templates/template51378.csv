@@ -1,0 +1,2 @@
+1,"SELECT TOP # PERCENT g.objid, g.dec, g.ra, g.u, g.g, g.r, g.i, g.z, pz.z as redshift, pz.absMag_u, pz.absMag_g, pz.absMag_r, pz.absMag_i, pz.absMag_z into mydb.MyTable FROM Galaxy AS G JOIN Photoz AS pz ON G.objid = pz.objid WHERE g.clean = # and redshift between # and # and nnIsInside = # and nnCount> # and zErr BETWEEN # and #"
+2019-07-11 09:59:00,1

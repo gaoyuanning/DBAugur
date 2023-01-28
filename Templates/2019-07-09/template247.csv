@@ -1,0 +1,2 @@
+2,"select plate, spectroFlux_z, fiberFlux_z from specObj, photoObj where plate = #"
+2019-07-09 14:33:00,2

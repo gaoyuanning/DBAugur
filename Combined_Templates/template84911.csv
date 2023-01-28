@@ -1,0 +1,4 @@
+3,"SELECT TOP # p.objid, p.ra, p.dec FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE i BETWEEN # AND # AND z BETWEEN # AND # AND (dbo.fPhotoFlags (#) ) ! = # AND class = #"
+2019-12-31 06:12:00,1
+2019-12-31 06:13:00,1
+2019-12-31 06:16:00,1

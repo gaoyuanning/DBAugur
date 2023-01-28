@@ -1,0 +1,2 @@
+1,"SELECT u, g, r, i, z FROM Galaxy with (nolock) WHERE (objID%#) = # AND (r between # and #)"
+2019-07-03 04:45:00,1

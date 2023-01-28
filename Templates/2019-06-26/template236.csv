@@ -1,0 +1,2 @@
+3,"select column_name,data_type from information_schema.columns where table_name=&&& order by ordinal_position"
+2019-06-26 15:15:00,3

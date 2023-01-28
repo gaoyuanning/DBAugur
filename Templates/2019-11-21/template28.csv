@@ -1,0 +1,4 @@
+4,"select ra, dec, modelmag_g, modelmag_i from star where (ra between # and #) and (dec between # and #) and modelmag_g < #"
+2019-11-21 23:41:00,1
+2019-11-21 23:42:00,1
+2019-11-21 23:43:00,2

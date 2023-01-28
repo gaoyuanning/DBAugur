@@ -1,0 +1,2 @@
+1,"SELECT   p.ra,p.dec, s.z FROM GalSpecLine AS gs  JOIN SpecObj AS s  ON s.specobjid = gs.specobjid  JOIN PhotoObj AS p  ON s.bestobjid = p.objid WHERE  p.i ># and p.i <#   and petroR9#_i <# and petroR9#_i ># and petrorad_r <#   and s.z BETWEEN # AND #  and clean=#  and p.ra BETWEEN # AND #  and P.dec BETWEEN # AND #"
+2019-09-07 09:44:00,1

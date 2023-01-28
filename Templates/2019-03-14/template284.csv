@@ -1,0 +1,2 @@
+1,"select objid,ra,dec,u,g,r,i,z,err_u,err_g,err_r,err_i,err_z, dered_u,dered_g,dered_r,dered_i,dered_z, extinction_i,run,rerun,camcol,field,obj,type,specObjID from PhotoObj where ra between # and # and dec between # and # and i between # and #"
+2019-03-14 16:54:00,1

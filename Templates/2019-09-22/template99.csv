@@ -1,0 +1,2 @@
+2,"SELECT TOP # s.specObjID, s.z, L.ew INTO mydb.Try1 FROM SpecPhoto AS s   JOIN SpecLine AS L ON s.specObjID = L.specObjID WHERE L.LineID = #   AND L.lineID = #   AND L.ew > #"
+2019-09-22 19:25:00,2

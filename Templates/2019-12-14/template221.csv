@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra, dec, count(*) FROM Galaxy WHERE ra between # and #"
+2019-12-14 11:17:00,1

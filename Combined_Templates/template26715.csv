@@ -1,0 +1,2 @@
+1,"SELECT q.oiii_#_flux, q.h_beta_flux, q.nii_#_flux, q.h_alpha_flux, q.oi_#_flux into mydb.MyTable from GalSpecLine AS q JOIN SpecObj AS s ON s.specobjid = q.specobjid WHERE s.class = # AND s.zwarning = #"
+2019-04-02 13:51:00,1

@@ -1,0 +1,3 @@
+2,"select top # z.z, z.zErr, p.dec, p.ra into mydb.z1 from photoObj p join photoz z ON z.objID = p.objID Join photoObjAll a ON a.objID = p.objID where z.photoErrorClass = # AND p.modelMag_r < # AND p.modelMag_r > # AND p.type = # AND z.z > = # AND z.z < #"
+2019-04-16 08:37:00,1
+2019-04-16 08:38:00,1

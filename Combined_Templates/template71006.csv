@@ -1,0 +1,3 @@
+2,"select s.class, count (s.class) from PhotoObj as p join SpecObj as s on s.bestobjid = p.objid where (p.ra between # and #) and (p.dec between # and #) group by s.class"
+2019-10-22 17:46:00,1
+2019-10-22 17:49:00,1

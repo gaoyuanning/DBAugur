@@ -1,0 +1,2 @@
+1,"SELECT TOP1# S.ra as ra_sob, S.dec as dec_sob, G.ra as ra_gal, G.dec as dec_gal join SpecObj as S join Galaxy as G WHERE class = # AND zWarning = #"
+2019-03-22 11:45:00,1

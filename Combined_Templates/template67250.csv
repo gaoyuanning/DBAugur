@@ -1,0 +1,2 @@
+1,SELECT L.specLineID into mydb.MyTable_# from SpecLine as L
+2019-10-02 08:10:00,1

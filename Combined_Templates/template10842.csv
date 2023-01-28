@@ -1,0 +1,2 @@
+1,"select top # ra, dec, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z, bestObjID from photoObj where class = # and modelMag_u- modelMag_g > # and ra between # and #"
+2019-02-13 15:35:00,1

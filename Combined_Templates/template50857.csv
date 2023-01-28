@@ -1,0 +1,5 @@
+5,"SELECT s.plate, s.fiberid, s.mjd, ga.Flux_OIII_#, ga.Flux_OIII_#_err, sph.modelmag_u, sph.modelmag_g, sph.modelmag_r, sph.modelmag_i, sph.modelmag_z, sph.subClass, g.petroRad_g, g.petroRad_u, g.petroRad_r, g.petroRad_i, g.petroRad_z, sph.z, sph.extinction_g, sph.extinction_u, sph.extinction_r, sph.extinction_z, sph.extinction_i INTO mydb.portsmuth_#_ml FROM emissionlinesport as ga, specobj as s, Galaxy as g, SpecPhoto as sph WHERE ga.Flux_OIII_# > #*ga.Flux_OIII_#_Err AND ga.Flux_OIII_# < #*ga.Flux_OIII_#_Err AND s.class = # AND s.specobjid = ga.specobjid AND s.specobjid = g.specobjid AND sph.specobjid = g.specobjid AND sph.specobjid = ga.specobjid AND ga.Flux_OIII_#_err > # AND g.specobjid > # AND sph.z > #"
+2019-07-09 03:39:00,2
+2019-07-09 03:40:00,1
+2019-07-09 03:41:00,1
+2019-07-15 07:40:00,1

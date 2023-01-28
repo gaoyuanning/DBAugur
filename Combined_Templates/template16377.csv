@@ -1,0 +1,3 @@
+2,"select top # _id, date, hour , location.ToString () as location from Crimes where date between # and # and location is not #"
+2019-03-03 14:50:00,1
+2019-03-03 14:51:00,1

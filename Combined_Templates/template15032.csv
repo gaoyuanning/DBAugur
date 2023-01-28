@@ -1,0 +1,4 @@
+3,"SELECT p.objid, p.ra, p.dec, p.petror9#_r, p.dered_u, p.dered_g, p.dered_r, s.z as z_spec, s.zErr, zns.nvote, zns.p_el as elliptical, zns.p_cs as spiral, zns.p_cw as cw, zns.p_acw as acw FROM Galaxy as p JOIN ZooNoSpec AS zns ON p.objid = zns.objid JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.clean = # and zns.nvote > = # AND zns.p_cs > # AND p.petror9#_r > #"
+2019-02-27 15:12:00,1
+2019-02-27 15:13:00,1
+2019-02-27 15:15:00,1

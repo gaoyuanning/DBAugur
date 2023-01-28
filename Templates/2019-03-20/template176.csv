@@ -1,0 +1,3 @@
+3,"SELECT survey, (CAST(snMedian AS INT) % #)# AS bin, count(*) as count FROM specObjAll WHERE survey IN (&&&) and zWarning = # and class=&&& GROUP BY survey, CAST(snMedian AS INT) % # ORDER BY survey, CAST(snMedian AS INT) % #"
+2019-03-20 18:15:00,1
+2019-03-20 18:16:00,2

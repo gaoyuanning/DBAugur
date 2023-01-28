@@ -1,0 +1,2 @@
+1,"select run1, run2, cts=sum(cts)     from astrometry.budavari.S8#r2#     where type1=# and type2=# and arcsec < #"
+2019-11-05 13:20:00,1

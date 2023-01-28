@@ -1,0 +1,2 @@
+1,"SELECT colc_g, colc_r FROM GALAXY WHERE (#*cx+#*cy> =#) and (#*cx-#*cy< #)"
+2019-11-15 21:46:00,1

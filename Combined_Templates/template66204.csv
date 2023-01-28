@@ -1,0 +1,2 @@
+1,SELECT FROM PhotoObjAll as p LEFT OUTER JOIN SpecObjAll as s ON p.objID = s.specobjID
+2019-09-27 09:41:00,1

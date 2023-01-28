@@ -1,0 +1,3 @@
+2,"select ORIG.galaxyId as orig_id, PROG.galaxyId as prog_id, PROG.descendantId as prog_desid, ORIG.sdssi as orig_sdssi, PROG.sdssi as prog_sdssi, ORIG.i_Dust as orig_i_Dust, PROG.i_Dust as prog_i_Dust, ORIG.snapnum as orig_snapnum, PROG.snapnum as prog_snapnum, ORIG.redshift as orig_redshift, PROG.redshift as prog_redshift, ORIG.Sfr as orig_Sfr, PROG.Sfr as prog_Sfr into MyDB.MyTable_prog from GAEA.MR PROG, GAEA.MR ORIG where ORIG.snapnum = # and ORIG.Stellarmass > # and ORIG.x between # and # and ORIG.y between # and # and ORIG.z between # and # and PROG.galaxyId between ORIG.galaxyId and ORIG.mainLeafID and PROG.descendantId = ORIG.galaxyId"
+2019-10-21 11:46:00,1
+2019-10-22 11:41:00,1

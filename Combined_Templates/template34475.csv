@@ -1,0 +1,3 @@
+2,"SELECT spec.bestobjid, spec.ra, spec.dec, spec.z, spec.class, phot.dered_u, phot.dered_g, phot.dered_r, phot.dered_i, phot.dered_z, spec.psffwhm_u, spec.psffwhm_g, spec.psffwhm_r, spec.psffwhm_i, spec.psffwhm_z, prim.rho INTO MyDB.DR1#_S8#_Spec_Test FROM SpecObj as spec, PhotoObj as phot, PhotoPrimary as prim WHERE spec.BestObjID = phot.ObjID AND spec.BestObjID = prim.objID AND (spec.zWarning = # OR spec.zWarning = #) AND spec.ra BETWEEN # and # AND spec.dec BETWEEN # and # OR spec.BestObjID = phot.ObjID AND spec.BestObjID = prim.objID AND (spec.zWarning = # OR spec.zWarning = #) AND spec.ra BETWEEN # and # AND spec.dec BETWEEN # and #"
+2019-04-25 16:27:00,1
+2019-04-25 16:28:00,1

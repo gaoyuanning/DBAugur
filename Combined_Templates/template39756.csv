@@ -1,0 +1,3 @@
+2,"SELECT p.ObjID, p.dered_g, p.dered_r, s.VelDisp INTO KIM_# FROM listaKim m, PhotoObj p, SpecObj s WHERE m.SDSSOBJID = p.ObjID and p.specobjid = s.specobjid"
+2019-05-15 06:36:00,1
+2019-05-15 06:37:00,1

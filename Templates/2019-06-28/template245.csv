@@ -1,0 +1,2 @@
+1,"select specObjID from photoObj where objID in ( #, #, #, #, # )"
+2019-06-28 16:24:00,1

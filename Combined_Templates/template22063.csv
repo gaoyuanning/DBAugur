@@ -1,0 +1,3 @@
+2,SELECT COUNT (*) FROM SpecObj WHERE class = # AND zWarning = # AND survey = #
+2019-03-21 17:22:00,1
+2019-03-21 17:32:00,1

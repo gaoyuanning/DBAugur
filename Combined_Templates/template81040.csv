@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.ra, p.dec, p.type, p.petroMag_r, s.z as redshift, s.zErr, s.zWarning, s.class, s.subclass, p.u, p.g, p.r, p.i, p.z, p.petroRad_r, p.petroRad_i, p.petroRad_z, p.petroRad_g, p.petroRad_u FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid, dbo.fGetNearbyObjEq (# , # , #) as N WHERE p.objid = N.objID"
+2019-12-05 22:43:00,1

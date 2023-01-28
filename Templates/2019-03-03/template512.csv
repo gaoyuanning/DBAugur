@@ -1,0 +1,8 @@
+7,"SELECT G.ObjID, plate, mjd, FiberID, eclass, atan(-eCoeff_#/eCoeff_#) FROM Galaxy as G, SpecObj as S, SpecLine as L1, SpecLine as L2, specLineNames as LN1, specLineNames as LN2 WHERE G.ObjID = S.BestObjID and S.SpecObjID = L1.SpecObjID and S.SpecObjID = L2.SpecObjID and L1.LineId = LN1. value and LN1.name = &&& and L2.LineId = LN2.value and LN2.name = &&& and L1.ew > # and L2.ew > # and zwarning <> #"
+2019-03-03 09:07:00,1
+2019-03-03 09:19:00,1
+2019-03-03 09:29:00,1
+2019-03-03 10:49:00,1
+2019-03-03 11:12:00,1
+2019-03-03 11:53:00,1
+2019-03-03 12:22:00,1

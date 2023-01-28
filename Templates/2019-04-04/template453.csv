@@ -1,0 +1,2 @@
+1,"SELECT   p.objID, p.run, p.rerun, p.camcol, p.field, p.ra, p.dec, p.type,   p.psfMag_r, p.psfMagErr_r, p.petroMag_r, p.petroMagErr_r, p.modelMag_r, p.modelMagErr_r, p.cModelMag_r,  p.cModelMagErr_r, p.fracDeV_r, p.psffwhm_r,   p.petroRad_r, p.petroRadErr_r, p.deVRad_r, p.deVRadErr_r, p.expRad_r, p.expRadErr_r INTO catalog_galaxy_# FROM MyDB.BQ_table_all AS b   JOIN PhotoPrimary AS p ON p.run = b.run and p.rerun = b.rerun and p.camcol = b.camcol and p.field = b.field WHERE      p.type = # and p.petroMag_r >=# and p.petroMag_r <=#"
+2019-04-04 04:41:00,1

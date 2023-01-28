@@ -1,0 +1,2 @@
+2,"select top # p.u, p.g, p.r, p.i, p.z from photoobj p where (p.u-p.g BETWEEN # AND #)  and (p.g-p.r BETWEEN # AND #)"
+2019-12-08 03:09:00,2

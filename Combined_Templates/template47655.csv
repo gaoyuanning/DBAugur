@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.bestObjID, s.objType, s.objTypeName, # as filter FROM BESTDR5..SpecObj as s, dbo.fGetNearbyObjEq (#, #, #) as b, BESTDR5..Star as p WHERE b.objID = p.objID AND (s.specClass = dbo.fSpecClass (#) ) AND p.g < # AND s.bestObjID = p.objID"
+2019-06-23 08:18:00,1

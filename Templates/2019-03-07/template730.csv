@@ -1,0 +1,8 @@
+31,"SELECT TOP # p.objID as ID, p.b, p.l, p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i, p.extinction_z, g.clean, g.dered_g         FROM PhotoPrimary as p             JOIN Galaxy as g ON p.objID = g.objid     WHERE g.clean=#     AND p.b BETWEEN # and #     AND g.dered_g < #"
+2019-03-07 10:30:00,4
+2019-03-07 10:31:00,4
+2019-03-07 10:32:00,2
+2019-03-07 10:33:00,3
+2019-03-07 10:46:00,13
+2019-03-07 10:47:00,4
+2019-03-07 10:48:00,1

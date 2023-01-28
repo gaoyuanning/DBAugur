@@ -1,0 +1,2 @@
+1,"select ra, dec, specobjid,  dr7objid, nvote, p_el_debiased, p_cs_debiased into mydb.zoo_ellips from zooSpec   where elliptical = #"
+2019-02-28 13:41:00,1

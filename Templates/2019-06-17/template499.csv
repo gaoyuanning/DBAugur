@@ -1,0 +1,2 @@
+1,select  all * from MRscPlanck1 where redshift between # AND #
+2019-06-17 06:30:00,1

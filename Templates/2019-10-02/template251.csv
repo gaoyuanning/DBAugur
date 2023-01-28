@@ -1,0 +1,2 @@
+1,"select    enrollment.SystemStudentID   ,enrollment.GradeLevel   ,enrollment.SchoolYear4Digit   ,testscores.TestPeriod   ,testscores.TestSubjectGroup   ,enrollment.isActiveEnrollment from   Enrollment enrollment   left join TestScores testscores   on enrollment.SystemStudentID = testscores.SystemStudentID   and enrollment.SchoolYear4Digit = testscores.SchoolYear4Digit  where enrollment.isActiveEnrollment = #;"
+2019-10-02 14:38:00,1

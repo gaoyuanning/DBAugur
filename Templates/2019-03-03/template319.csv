@@ -1,0 +1,2 @@
+1,"select c.date, c.hour ,      c.location.ToString() as location from mschoolzones z     join crimes c   on c.[date] between&&& and &&&   and c.homicide=#   and z.the_geom.STContains(c.location)=#  where z._year=# and z.Id=#"
+2019-03-03 15:17:00,1

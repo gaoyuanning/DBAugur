@@ -1,0 +1,4 @@
+4,"SELECT TOP #  ra,dec,field FROM PhotoObj WHERE   ra BETWEEN # and # AND  dec BETWEEN # and #"
+2019-08-15 06:26:00,1
+2019-08-15 06:27:00,1
+2019-08-15 06:36:00,2

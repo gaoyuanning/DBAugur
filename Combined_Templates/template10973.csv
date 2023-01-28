@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.ra, s.dec from cannonStar AS g JOIN apogeeStar AS s ON s.apogee_id = g.apogee_id"
+2019-02-13 05:42:00,1

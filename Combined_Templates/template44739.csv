@@ -1,0 +1,2 @@
+2,"SELECT o.objid, m.ra AS ra1, m.dec AS dec1, o.ra AS ra2, o.dec AS dec2, m.apstar_id, m.apogee_id, params.*, paramerrs.*, elemsALL.* into mydb.MyTable_# from apogeeStar AS m OUTER APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n JOIN PhotoObj AS o ON n.objid = o.objid JOIN aspcapStar a on a.apstar_id = m.apstar_id CROSS APPLY dbo.fAspcapParams (a.aspcap_id) params CROSS APPLY dbo.fAspcapParamErrs (a.aspcap_id) paramerrs CROSS APPLY dbo.fAspcapElemsAll (a.aspcap_id) elemsALL"
+2019-06-07 05:18:00,2

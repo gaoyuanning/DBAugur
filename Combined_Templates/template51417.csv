@@ -1,0 +1,2 @@
+2,"SELECT m.ra AS ra1, m.dec AS dec1, n.objid, n.distance, sp.ra AS ra2, sp.dec AS dec2, sp.modelMag_r AS rmag, sp.z AS redshift into MyDB.alfa_specz from MyDB.alfa_galaxies AS m OUTER APPLY dbo.fGetNearestSpecObjEq (m.ra, m.dec, #) AS n LEFT JOIN SpecObjAll AS sp ON n.objID = sp.specObjID WHERE sp.zWarning = #"
+2019-07-11 05:35:00,2

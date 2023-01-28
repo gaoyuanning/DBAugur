@@ -1,0 +1,3 @@
+2,"SELECT  s.objID, s.ra, s.dec, s.z, class FROM SpecObj s WHERE s.z BETWEEN # and # AND s.ra BETWEEN # AND # AND s.dec BETWEEN # AND #"
+2019-01-15 13:08:00,1
+2019-01-15 13:09:00,1

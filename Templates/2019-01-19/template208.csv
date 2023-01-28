@@ -1,0 +1,3 @@
+2,"select ra,dec,mjd,plate,fiberID,z,zErr,class from specObjAll where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-01-19 12:34:00,1
+2019-01-19 12:39:00,1

@@ -1,0 +1,2 @@
+1,"SELECT t.specObjID, t.ra, t.dec, t.z, t.zErr, t.zWarning into mydb.MyTable_# from SpecObjAll as t where t.ra < # and t.ra > # and t.dec > - # and t.dec < #"
+2019-06-06 12:27:00,1

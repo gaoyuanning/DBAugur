@@ -1,0 +1,2 @@
+1,"SELECT TOP # pz.objId, pz.z, pz.zErr, pz.absMagU, pz.absMagG, pz.absMagR, pz.absMagI, pz.absMagZ FROM Photoz AS pz JOIN SpecObj as s ON s.bestobjid = pz.objid WHERE s.z BETWEEN # and # and s.zWarning = # and pz.photoErrorClass = # and pz.nnCount> # and pz.zErr BETWEEN # and #"
+2019-01-30 14:22:00,1

@@ -1,0 +1,3 @@
+4,"SELECT    p.objID, p.ra, p.dec, m.objname, m.ra, m.dec, m.type, m.type_numb, m.quality, s.class into HyperLeda_S0_data from MyDB.HyperLeda_S0 as m, dr1#.SpecObjAll as s   JOIN dr1#.PhotoObjAll AS p ON s.specObjID = p.objID   WHERE     m.ra - p.ra BETWEEN # AND # AND     m.dec - p.dec BETWEEN # AND # AND     s.class = &&&"
+2019-11-21 06:06:00,2
+2019-11-21 06:07:00,2

@@ -1,0 +1,9 @@
+8,"select ra, dec, plate, mjd, fiberid, z, petromag_g, petromag_r, petromag_i, modelmag_g, modelmag_r, modelmag_i, (modelmag_g - (#*log1#(z))) from specphoto where (modelmag_g - (#*log1#(z))) < # and z between # and # and specClass = # and zConf > #"
+2019-03-03 08:52:00,1
+2019-03-03 09:05:00,1
+2019-03-03 09:17:00,1
+2019-03-03 09:27:00,1
+2019-03-03 10:46:00,1
+2019-03-03 11:09:00,1
+2019-03-03 11:50:00,1
+2019-03-03 12:19:00,1

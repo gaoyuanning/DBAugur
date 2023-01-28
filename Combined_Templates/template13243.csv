@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.objid, s.specobjid, s.mjd, s.fiberid, s.plate into mydb.s8#x_mjd_fiber_plate from mydb.sdss_photo_needmjds as p, SpecObjAll as s where p.objid = s.bestobjid"
+2019-02-21 10:51:00,1

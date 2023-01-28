@@ -1,0 +1,2 @@
+1,"SELECT top # ObjId, type, p.ra, p.dec, dered_g, petromag_g FROM PhotoObjAll p WHERE p.ra > # and p.ra < # AND p.dec > # and p.dec < # AND type = #"
+2019-10-07 14:09:00,1

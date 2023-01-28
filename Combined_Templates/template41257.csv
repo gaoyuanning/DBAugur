@@ -1,0 +1,18 @@
+17,"SELECT t.idx_num, t.ra AS ra_t, t.dec AS dec_t, t.q AS q_t, t.phi AS phi_t, n.distance, p.ra AS ra_surr, p.dec AS dec_surr, z.z AS z_surr, z.zErr AS zErr_surr, p.petroMag_r AS petroMag_r_surr from MyDB.target_galaxies6 AS t CROSS APPLY dbo.fGetNearbyObjEq (t.ra, t.dec, t.theta) AS n JOIN PhotoObj AS p ON n.objid = p.objid JOIN Photoz AS z ON z.objid = n.objid WHERE (t.idx_num < #) AND (p.type = #) AND (z.z BETWEEN t.z - #*z.zErr and t.z + #*z.zErr) AND z.zErr < #"
+2019-05-23 17:13:00,1
+2019-05-23 17:22:00,1
+2019-05-23 17:27:00,1
+2019-05-23 17:35:00,1
+2019-05-23 17:42:00,1
+2019-05-23 17:48:00,1
+2019-05-23 17:50:00,1
+2019-05-23 17:51:00,1
+2019-05-23 17:53:00,1
+2019-05-23 17:54:00,1
+2019-05-23 17:55:00,1
+2019-05-23 17:57:00,1
+2019-05-23 17:58:00,1
+2019-05-23 17:59:00,1
+2019-05-23 18:01:00,1
+2019-05-23 18:02:00,1
+2019-05-23 18:03:00,1

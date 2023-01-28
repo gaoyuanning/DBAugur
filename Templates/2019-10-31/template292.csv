@@ -1,0 +1,8 @@
+7,"select v.*     from optw.tamass.VARIABLES v      where unit=&&& and binmin >= # and binmax < #          and concept like &&&         and label like &&& and label not like &&&     ),  tracts as (     select TractID = ID, vintage, lon=centroid.Long, lat=centroid.Lat, wkt=geom.ToString()         , dist2center=geom.STDistance(@center)         , log1#m2=log1#(geom.STArea())     from optw.tamass.TRACTS      where   geom.STArea() < #e9 -- m^# -- excluding only one huge tract         and geom.STDistance(@center) < # / # * # -- meters ) select t.*, count_var=count(distinct c.VarID), total=sum(c.val) from vars v join optw.tamass.VALS as c on c.VarID = v.ID          join tracts t on t.TractID = c.TractID and t.vintage = v.vintage where v.vintage = # group by t.TractID, t.vintage, lon, lat, wkt, dist2center, log1#m2"
+2019-10-31 14:02:00,1
+2019-10-31 14:10:00,1
+2019-10-31 14:11:00,1
+2019-10-31 14:26:00,1
+2019-10-31 14:27:00,1
+2019-10-31 14:29:00,1
+2019-10-31 14:30:00,1

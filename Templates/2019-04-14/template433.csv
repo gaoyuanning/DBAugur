@@ -1,0 +1,2 @@
+2,"select A.plateid, A.mjd, A.fiberid, A.z, A.spectrotype, A.subclass into mydb.QSO from galspecInfo as A where   A.z<# and    A.SpecObj=&&&"
+2019-04-14 07:08:00,2

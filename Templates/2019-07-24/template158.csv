@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec, z, zErr, zWarning, class, subClass, rChi2, DOF, z_noqso, zErr_noqso, zWarning_noqso, class_noqso, subClass_noqso, z_person, class_person, class_person, snMedian_u, snMedian_g, snMedian_r, snMedian_i, snMedian_z, spectroFlux_u, spectroFlux_g, spectroFlux_r, spectroFlux_i, spectroFlux_z FROM PhotoObj WHERE (ra between # and #) and (dec between # and #)"
+2019-07-24 17:55:00,1

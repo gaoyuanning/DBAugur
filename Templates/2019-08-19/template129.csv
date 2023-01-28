@@ -1,0 +1,2 @@
+1,"SELECT   objID AS sdssid,   z AS zph,    zErr AS e_zph    FROM    Photoz    INTO   mydb.Photoz    where    z >= #    and zErr <> #"
+2019-08-19 16:54:00,1

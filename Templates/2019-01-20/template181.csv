@@ -1,0 +1,2 @@
+1,"SELECT top # teff, logg FROM dbo.aspcapStar WHERE teff < # AND teff > #"
+2019-01-20 11:58:00,1

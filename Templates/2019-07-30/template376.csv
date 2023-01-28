@@ -1,0 +1,3 @@
+3,"select top #    a.objID, a.ra, a.dec, a.psfMag_u, a.psfMagErr_u, a.psfMag_g, a.psfMagErr_g, a.psfMag_r, a.psfMagErr_r,   a.psfMag_i, a.psfMagErr_i, a.psfMag_z, a.psfMagErr_z      into myDB.SelectSDSSforMatching        from SpecPhotoAll as a        where a.dec > # and      a.psfMag_u > # and a.psfMagErr_u > # and a.psfMag_g > #     and a.psfMagErr_g > # and a.psfMag_r > # and a.psfMagErr_r > #     and a.psfMag_i > # and a.psfMagErr_i > # and a.psfMag_z > #     and a.psfMagErr_z > #"
+2019-07-30 11:56:00,2
+2019-07-30 11:57:00,1

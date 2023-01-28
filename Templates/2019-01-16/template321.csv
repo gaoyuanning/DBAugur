@@ -1,0 +1,3 @@
+2,"select top #   specObjID,   plate,   mjd,   fiberID,   run2d,   ra,   dec,   z from dbo.SpecObj into mydb.dr1#stars   where class_person is not null     and class_person = &&&     and instrument = &&&"
+2019-01-16 08:58:00,1
+2019-01-16 08:59:00,1

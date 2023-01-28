@@ -1,0 +1,2 @@
+1,"SELECT convert(int, VINTAGE), convert(char(#), substring(STATE, #, #)), convert(char(#), substring(COUNTY, #, #)),                convert(char(#), substring(TRACT, #, #)), geography::STGeomFromWKB(convert(varbinary(max),GEOM,#), #),                 geography::STGeomFromWKB(convert(varbinary(max),CENTROID,#), #)                FROM [tmp2TRACTS]"
+2019-10-27 13:55:00,1

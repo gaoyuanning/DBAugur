@@ -1,0 +1,2 @@
+1,"SELECT min(so.z), max(so.z) FROM zooSpec zs JOIN Galaxy g ON g.objid = zs.objid JOIN SpecObj so ON so.targetObjID = zs.objid"
+2019-01-12 04:21:00,1

@@ -1,0 +1,2 @@
+2,"SELECT ra, dec,fuv_mag,nuv_mag FROM GalexGR6.photoobjall into mydb.LB1_GALEX4 WHERE ra > # and ra < # and dec > # and dec < #"
+2019-12-31 07:16:00,2

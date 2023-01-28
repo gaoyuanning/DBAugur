@@ -1,0 +1,2 @@
+1,"SELECT s.objID, s.ra, s.dec, s.g, s.r, sp.SPECTYPEHAMMER FROM Star AS s JOIN sppParams AS sp ON s.parentID = sp.parentID WHERE  (s.ra between # and #) AND (s.dec between # and #) AND (ABS(s.g-s.r) < #) AND (s.g > #) and (s.g < #)"
+2019-02-22 11:23:00,1

@@ -1,0 +1,7 @@
+10,"select top # ra, dec, modelMag_g from PhotoTag where (modelMag_u-modelMag_g<#)  and (dec between # and #) order by modelMag_g"
+2019-03-27 00:23:00,2
+2019-03-27 00:29:00,1
+2019-03-27 00:33:00,2
+2019-03-27 00:36:00,3
+2019-03-27 00:37:00,1
+2019-03-27 00:39:00,1

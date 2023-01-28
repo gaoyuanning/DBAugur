@@ -1,0 +1,2 @@
+1,"select objid,ra,dec into mydb.MyTable from dr7.PhotoPrimary where flags & (dbo.fPhotoFlags(SATURATED) + dbo.fPhotoFlags(DEBLENDED AS PSF))= # and (petroMag r-extinction r) between # and # and Type=#"
+2019-01-22 16:20:00,1

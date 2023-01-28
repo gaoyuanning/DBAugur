@@ -1,0 +1,2 @@
+1,"SELECT TOP # t.objID, t.ra, t.dec, t.g, t.type INTO mydb.A7#_fobs1 FROM dbo.PhotoObjAll as t where SQRT (POWER (( (#-t.ra) *cos ((t.dec) * (#/#) )) , #) + (POWER ((#-t.dec) , #) )) < # and t.g > # and t.g < # and t.type = = #"
+2019-12-23 00:30:00,1

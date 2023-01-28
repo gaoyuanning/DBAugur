@@ -1,0 +1,2 @@
+1,"SELECT objid,ra,dec,u,g,r,i,z,   run,rerun,camcol,field INTO MyDB.test1# FROM PhotoObj"
+2019-11-08 00:08:00,1

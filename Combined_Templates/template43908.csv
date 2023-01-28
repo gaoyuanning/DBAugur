@@ -1,0 +1,2 @@
+1,"select top # z, ra, dec into mydb.nicegalaxies from SpecObj Where abs (z-#) < #"
+2019-06-04 09:32:00,1

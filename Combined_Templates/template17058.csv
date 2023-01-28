@@ -1,0 +1,2 @@
+1,"SELECT o.ra, o.dec, o.petromag_r into mydb.sdss_mags_#spettri FROM MyDB.ra_dec_# AS m CROSS APPLY dbo.fGetNearestObjEq (m.ra1, m.dec1, #) AS n JOIN PhotoObj AS o ON n.objid = o.objid"
+2019-03-04 11:16:00,1

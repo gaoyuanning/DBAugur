@@ -1,0 +1,2 @@
+2,"SELECT   p.objID,   p.GALname,   p.SN,   p.modelFlux_u AS F_u,   p.modelFlux_g AS F_g,   p.modelFlux_r AS F_r,   p.modelFlux_i AS F_i,   p.modelFlux_z as F_z,   p.modelFluxIvar_u AS E_u,   p.modelFluxIvar_g AS E_g,   p.modelFluxIvar_r AS E_r,   p.modelFluxIvar_i AS E_i,   p.modelFluxIvar_z AS E_z,   p.z AS z_spec INTO MyDB.pmas_sdss1#_model FROM MyDB.pmas_sdss1#_phot AS p"
+2019-01-11 16:59:00,2

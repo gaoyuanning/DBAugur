@@ -1,0 +1,2 @@
+1,"select p.objid, p.ra,p.dec, p.u_r, p.q_r, p.petror5#_r into mydb.DLR_params from PhotoObjAll as p WHERE p.objid in (select m.HOSTGAL_OBJID from MydB.Host_Galaxy_OBJIDs as m)"
+2019-01-22 13:09:00,1

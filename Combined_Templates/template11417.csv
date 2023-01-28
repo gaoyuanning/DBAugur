@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec, s.plate, s.tile, s.fiberid FROM specobjall as s WHERE s.targetobjID IN ()"
+2019-02-15 15:10:00,1

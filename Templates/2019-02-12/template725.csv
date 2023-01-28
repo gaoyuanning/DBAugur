@@ -1,0 +1,2 @@
+1,SELECT COUNT(*) into mydb.star_sdss_count from WISE_xmatch wiseXsdss
+2019-02-12 05:49:00,1

@@ -1,0 +1,2 @@
+1,"select   S.apogee_id, P.aspcap_id, O.pmra, O.pmra_err, O.pmdec, O.pmdec_err into mydb.APGEE_DR1#_PM from apogeeObject as O, apogeeStar as S, aspcapStar as P    where   O.target_id = P.target_id and O.target_id = S.target_id"
+2019-09-24 01:27:00,1

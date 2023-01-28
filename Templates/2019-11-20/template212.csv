@@ -1,0 +1,4 @@
+5,"select P.objID, P.ra, P.dec , P.u, P.g, P.r, P.i, P.z, P.type from PhotoPrimary as P , dbo.fGetNearbyObjEq(#, #, # ) N where P.objID = N.objID"
+2019-11-20 12:43:00,1
+2019-11-20 15:10:00,2
+2019-11-20 16:04:00,2

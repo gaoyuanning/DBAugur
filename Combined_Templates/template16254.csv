@@ -1,0 +1,2 @@
+2,"SELECT s.survey, s.instrument, s.programname INTO myDB.cvs from myDB.gaia_#_pc_objId_survey p, SpecObjAll s WHERE p.ObjID = s.bestObjID"
+2019-03-03 18:36:00,2

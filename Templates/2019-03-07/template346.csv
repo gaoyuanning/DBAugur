@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid, p.u, p.g, p.r, p.i, p.z, p.Z FROM PhotoObj AS p"
+2019-03-07 18:00:00,1

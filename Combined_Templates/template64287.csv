@@ -1,0 +1,2 @@
+1,"SELECT TOP # dbname, statement, busy into mydb.MyTable from SQLlog WHERE yy = # AND error = # AND dbname = # ORDER BY busy DESC"
+2019-09-20 09:55:00,1

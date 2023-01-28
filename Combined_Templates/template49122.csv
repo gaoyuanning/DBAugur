@@ -1,0 +1,2 @@
+1,"SELECT G.ObjlD, S.ra, S.dec, S.z from SpecObj S, galSpecLine gal, Galaxy G Where S.bestObjiD = G.ObjlD and gal.specObjlD = S.specObjlD AND gal.oiii_#_flux> # and S.z< # Order by z"
+2019-06-29 05:06:00,1

@@ -1,0 +1,3 @@
+2,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.petrorad_r, s.specobjid, s.class, s.z as redshift, pz.z as photoz FROM fGetNearbyObjEq (#, #, #) n JOIN PhotoObj AS p on p.objid = n.objid JOIN SpecObj AS s ON s.bestobjid = n.objid JOIN PhotoZ AS pz ON pz.objid = n.objid WHERE s.class = GALAXY#"
+2019-03-04 23:05:00,1
+2019-03-04 23:12:00,1

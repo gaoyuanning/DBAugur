@@ -1,0 +1,4 @@
+4,select count(*) from SciServerLog.Messages where task_name like &&&
+2019-02-19 14:16:00,1
+2019-02-19 14:17:00,2
+2019-02-19 14:27:00,1

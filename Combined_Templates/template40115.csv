@@ -1,0 +1,2 @@
+1,"SELECT up_id, dbo.fGetNearestObjIdEq (up_ra, up_dec, #) as objId FROM #upload WHERE dbo.fGetNearestObjIdEq (up_ra, up_dec, #) IS NOT # EXEC spExecuteSQL ' SELECT u.up_obj_id as [obj_id], x.objID, p.ra, p.dec, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, p.clean, p.objID as obj_id, dbo.fPhotoTypeN (p.type) as type F"
+2019-05-17 14:44:00,1

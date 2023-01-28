@@ -1,0 +1,3 @@
+2,"SELECT up_id,  dbo.fGetNearestObjIdEq( up_ra,up_dec,up_sep ) as objId   FROM #upload  WHERE  dbo.fGetNearestObjIdEq( up_ra,up_dec,up_sep ) IS NOT NULL  SELECT TOP #   p.ra,p.dec, p.run,p.rerun,p.camCol,p.field,p.obj,dbo.fIAUFromEq(p.ra,p.[dec]) as SDSSname,ISNULL(s.fiberID,#) as fiberID,ISNULL(s.mjd,#) as mjd,ISNULL(s.plate,#) as plate  FROM ..PhotoObj AS p  LEFT OUTER JOIN ..SpecObj s ON p.objID = s.bestObjID  JOIN #x AS x ON x.objID=p.objID  JOIN #upload AS u ON u.up_id = x.up_id   WHERE  ( p.type = # OR p.type = #)   ORDER BY x.up_id"
+2019-01-09 15:51:00,1
+2019-01-09 15:54:00,1

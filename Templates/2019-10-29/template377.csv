@@ -1,0 +1,2 @@
+1,"SELECT u.up_name as [name], x.objID, + cast(p.objId as varchar(#)) + as objID"
+2019-10-29 13:13:00,1

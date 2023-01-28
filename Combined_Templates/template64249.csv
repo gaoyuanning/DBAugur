@@ -1,0 +1,2 @@
+1,"SELECT TOP # g.objid, ra, dec FROM Galaxy as G JOIN ZooNoSpec AS zns ON G.objid = zns.objid WHERE g.clean = # and zns.nvote > = # and zns.p_cw > #"
+2019-09-20 14:38:00,1

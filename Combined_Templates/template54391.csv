@@ -1,0 +1,2 @@
+1,"SELECT TOP # pz.objID, g.ra, g.dec, pz.z, pz.zErr FROM Photoz AS pz JOIN Galaxy AS g ON objID = g.objID"
+2019-07-29 03:27:00,1

@@ -1,0 +1,2 @@
+1,"select p.ra,p.dec,p.petroMag_r,s.z from PhotoObj as p   join SpecObj as s on p.specObjID = s.specObjID where objID = #"
+2019-04-03 04:38:00,1

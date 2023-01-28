@@ -1,0 +1,2 @@
+2,"SELECT p.specObjID,         s.eboss_target1,            p.ra, p.dec,         s.plate, s.mjd, s.fiberID,        p.psfMag_u, p.psfMagErr_u,        p.psfMag_g, p.psfMagErr_g,        p.psfMag_r, p.psfMagErr_r,        p.psfMag_i, p.psfMagErr_i,   p.psfMag_z, p.psfMagErr_z into mydb.MyTable_# from SpecPhotoAll as p, specObjAll as s  WHERE p.specObjID = s.specObjID and     s.plate=#"
+2019-11-12 13:04:00,2

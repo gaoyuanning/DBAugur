@@ -1,0 +1,2 @@
+1,"SELECT t.Name, t.objID as targetID, t.photoz as target_photz, t.photozErr as target_photzErr, t.specz as target_specz, t.speczErr as target_speczErr, p.objID, SQRT (POWER (( (p.ra-t.ra) *cos ((t.dec) * (#/#) )) , #) + (POWER ((p.dec-t.dec) , #) )) *# as AngSep INTO mydb.all_angsep FROM mydb.wiyn_targets_zcoord as t, dbo.PhotoObj as p where p.ra between (t.ra-.#) and (t.ra+.#) and p.dec between (t.dec-.#) and (t.dec+.#) and p.type = #"
+2019-04-13 19:06:00,1

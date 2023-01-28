@@ -1,0 +1,2 @@
+1,select distinct subclass from specobjall where class=&&& order by subclass
+2019-07-22 09:18:00,1

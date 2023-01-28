@@ -1,0 +1,3 @@
+3,"SELECT DISTINCT survey, programname FROM platex ORDER BY survey"
+2019-03-19 10:15:00,1
+2019-03-19 16:25:00,2

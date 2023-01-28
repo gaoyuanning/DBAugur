@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.run, p.rerun, p.camcol, p.field, s.specobjid, s.class, s.z as redshift, s.plate, s.mjd, s.fiberid FROM Run AS r JOIN PhotoObj AS p ON p.mjd = r.mjd JOIN SpecObk AS s ON s.mjd = r.mjd WHERE r.stripe = #"
+2019-09-03 02:31:00,1

@@ -1,0 +1,2 @@
+3,"SELECT s.specobjid, s.ra, s.dec, s.plate, s.mjd, s.fiberid into mydb.specDR1# from mydb.posMPL6 u       JOIN #x x ON x.up_id = u.up_id       JOIN SpecObjAll s ON s.specObjID = x.specObjID"
+2019-01-18 15:09:00,3

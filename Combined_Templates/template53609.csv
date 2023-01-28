@@ -1,0 +1,2 @@
+1,"select c.dr7objid, l.ssfr, z.uncertain, z.elliptical, z.spiral, z.p_mg, z.p_el, z.p_cw, z.p_acw, z.p_edge, z.p_dk, z.nvote, s.velDisp into mydb.Mr1#_group_#_ssfr_morphology_vdisp1 from PhotoObjDR7 as c, PhotoObj as p, SpecObjAll as s, stellarMassFSPSGranEarlyDust as l, zooSpec as z where C.dr7objid = # AND p.objID = c.dr8objid AND s.bestObjID = p.objID AND l.specObjID = s.specObjID AND s.specObjID = z.specobjid"
+2019-07-24 03:06:00,1

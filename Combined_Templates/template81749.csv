@@ -1,0 +1,2 @@
+1,"select top # mjd, fiberID, specObjID from specObj where class = # and z> # and zWarning = #"
+2019-12-10 16:55:00,1

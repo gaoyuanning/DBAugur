@@ -1,0 +1,2 @@
+1,select * from optw.tamass.VARIABLES where vintage = # and binmin is not #
+2019-10-31 09:49:00,1

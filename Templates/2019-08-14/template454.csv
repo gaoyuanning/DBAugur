@@ -1,0 +1,2 @@
+1,"SELECT oiii_#_flux, oii_#_flux, oii_#_flux, nii_#_flux, h_beta_flux, h_alpha_flux INTO mydb.nearGalaxiesFluxes_COMPOSITE FROM dr7.galSpecLine WHERE specObjID IN (   SELECT specObjID    FROM dr7.galSpecInfo    WHERE z < # AND specObjID in (     SELECT specObjID     FROM dr7.galSpecExtra     WHERE bptclass = #   ) ) AND oiii_#_flux > #    AND oii_#_flux > #    AND oii_#_flux > #   AND nii_#_flux > #   AND h_beta_flux > #   AND h_alpha_flux > #"
+2019-08-14 10:10:00,1

@@ -1,0 +1,11 @@
+11,"SELECT u.up_Name as [Name],     p.objID, p.ra, p.dec, p.run, p.rerun, p.camcol, p.field,    dbo.fPhotoTypeN(p.type) as type,    p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z  FROM #x x, #upload u, PhotoTag p WHERE u.up_id = x.up_id and x.objID=p.objID  ORDER BY x.up_id"
+2019-03-04 00:18:00,1
+2019-03-04 00:19:00,1
+2019-03-04 00:43:00,1
+2019-03-04 00:46:00,1
+2019-03-04 01:11:00,1
+2019-03-04 01:14:00,1
+2019-03-04 20:09:00,1
+2019-03-04 20:10:00,1
+2019-03-04 20:36:00,1
+2019-03-04 21:25:00,2

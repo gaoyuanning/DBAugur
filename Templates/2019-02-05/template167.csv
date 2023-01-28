@@ -1,0 +1,2 @@
+1,"SELECT    g.objID, g.petroMag_g, g.petroMag_r, g.petroMag_i, g.petroMagErr_g, g.petroMagErr_r, g.petroMagErr_i, g.extinction_g, g.extinction_r, g.extinction_i,     g.petroR5#_g, g.petroR9#_g, sp.z,sp.zerr  FROM Galaxy as g    join specObj sp on sp.objID = g.objID  WHERE z > # and z < # and petroMag_r># and zconf>#"
+2019-02-05 16:29:00,1

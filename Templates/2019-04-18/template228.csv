@@ -1,0 +1,2 @@
+1,"select top # a.apstar_id,a.apogee_id,b.specObjID from apogeeStar a,SpecObjAll b"
+2019-04-18 17:29:00,1

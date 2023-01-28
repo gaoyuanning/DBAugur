@@ -1,0 +1,2 @@
+3,"select TOP #   count(*) into mydb.galaxy_relaxes_share1_# from Galaxy as p, SpecObj as s where   p.mode = # AND s.zWarning = # AND p.specObjId = s.specObjId AND   exists (   select g.fieldId, count(g.objId)    from Galaxy as g, SpecObj as q   where p.fieldId = g.fieldId AND     g.mode = # AND  s.zWarning = # AND g.specObjId = q.specObjId   group by g.fieldId having count(g.objId) > #)"
+2019-06-03 09:39:00,3

@@ -1,0 +1,2 @@
+1,"SELECT   Nik.*, ph.psfMag_u,ph.psfMag_g,ph.psfMag_r,ph.psfMag_i,ph.psfMag_z FROM SpecObjAll AS sp   JOIN PhotoObjAll AS ph ON ph.objID = sp.bestObjID   JOIN MyDB.Nikolay AS Nik ON Nik.mjd = sp.mjd WHERE   Nik.plate = sp.plate   AND Nik.fiberID = sp.fiberID"
+2019-03-13 10:14:00,1

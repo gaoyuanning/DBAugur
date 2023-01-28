@@ -1,0 +1,2 @@
+1,"select   z.nvote, z.p_el, z.p_cs, z.p_dk, z.p_mg from DR8.zooSpec z into mydb.zoo_spec_all_dr8"
+2019-03-10 11:20:00,1

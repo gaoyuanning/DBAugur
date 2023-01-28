@@ -1,0 +1,2 @@
+1,"SELECT p.ObjID, p.ra, p.dec, s.z, s.zErr, s.cx, s.cy, s.cz, p.dered_u, p.dered_g, p.dered_r, ... INTO myDB.galaxies_dr9 FROM SpecObj AS s,PhotoObj AS p WHERE s.SpecObjID = p.SpecObjID"
+2019-06-04 14:31:00,1

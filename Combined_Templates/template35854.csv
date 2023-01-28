@@ -1,0 +1,2 @@
+1,"SELECT n.nsa_sersic_n, n.z from DR1#.mangatarget as n where ( (n.objra-#) * (n.objra-#) + (n.objdec+#) * (n.objdec+#) ) < #"
+2019-04-30 04:08:00,1

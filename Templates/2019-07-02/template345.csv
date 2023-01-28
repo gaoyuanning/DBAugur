@@ -1,0 +1,9 @@
+9,"select ID, BlockLot, FullAddress, NumNeighbors     from RealPropertiesAll g         cross apply (             select NumNeighbors = count(ID)             from RealGoodNeighbors             where MinID=g.ID or ID=g.ID         ) x     where Neighborhood like &&&      order by NumNeighbors desc, ID asc"
+2019-07-02 10:20:00,1
+2019-07-02 10:22:00,1
+2019-07-02 10:33:00,2
+2019-07-02 10:40:00,1
+2019-07-02 10:50:00,1
+2019-07-02 10:51:00,1
+2019-07-02 10:58:00,1
+2019-07-02 14:16:00,1

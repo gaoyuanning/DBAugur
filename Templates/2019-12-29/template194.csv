@@ -1,0 +1,2 @@
+1,"select P.ra,P.dec,P.type,P.petroMag_u,P.petroMagErr_u,P.petroMag_g,P.petroMagErr_g,P.petroMag_r,P.petroMagErr_r,P.petroMag_i,P.petroMagErr_i,P.petroMag_z,P.petroMagErr_z into mydb.MyTable from PhotoObjAll as P, mydb.apogeeradec as A where cos(A.ra-P.ra)*cos(A.dec)*cos(P.dec)+(sin(A.dec)*sin(P.dec)) > cos(#/#)"
+2019-12-29 06:20:00,1

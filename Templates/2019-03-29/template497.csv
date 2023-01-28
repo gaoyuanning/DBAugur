@@ -1,0 +1,2 @@
+1,"SELECT TOP # pz.objID,pz.ra,pz.dec,pz.z,pz.zErr,pz.photoErrorClass  FROM ..Photoz as pz  JOIN dbo.fGetNearbyObjEq( #, #, #) AS b ON b.objID = P.objID WHERE pz.z > # AND pz.photoErrorClass = # AND pz.z < #"
+2019-03-29 14:15:00,1

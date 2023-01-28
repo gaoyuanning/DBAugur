@@ -1,0 +1,2 @@
+1,"SELECT dbo.fInFootprintEq (t.ra, t.dec, #) FROM MyTable_# AS t (CASE WHEN q.type IS # THEN # ELSE # END) AS found FROM PhotoObj AS p OUTER APPLY dbo.fFootprintEq (ra, dec, #) AS q WHERE (ra BETWEEN # AND #) AND (dec BETWEEN # AND #)"
+2019-08-18 21:00:00,1

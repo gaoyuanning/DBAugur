@@ -1,0 +1,2 @@
+1,"select objID, ra, dec, petroMag_r into mydb.MyTable_# from PhotoObjAll where PhotoType = =#, ra> #, ra< #, dec> #, dec< #"
+2019-11-08 09:01:00,1

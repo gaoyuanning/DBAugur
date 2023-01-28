@@ -1,0 +1,2 @@
+1,"SELECT class, count (*) FROM specObjAll WHERE class = galaxy#start#"
+2019-02-07 19:54:00,1

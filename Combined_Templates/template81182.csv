@@ -1,0 +1,14 @@
+15,"select ID, VINTAGE, STATE, COUNTY, TRACT , lat = centroid.Lat , lon = centroid.Long , wkt = geom.ToString () from optw.tamass.TRACTS where vintage = # and geom.STArea () < #e9 -- m^# -- excluding some huge tract and geom.STDistance (@center) < # / SQRT (#) * # -- meters"
+2019-12-07 15:23:00,1
+2019-12-07 15:37:00,1
+2019-12-07 15:38:00,2
+2019-12-07 15:39:00,2
+2019-12-07 15:45:00,1
+2019-12-07 15:46:00,1
+2019-12-07 15:49:00,1
+2019-12-07 15:54:00,1
+2019-12-07 15:55:00,1
+2019-12-07 15:58:00,1
+2019-12-07 16:00:00,1
+2019-12-07 16:07:00,1
+2019-12-09 16:36:00,1

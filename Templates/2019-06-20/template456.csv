@@ -1,0 +1,2 @@
+1,"select g-r as diff, specphoto.z as redshift , photoz.absmag_r as r, photoobj.g as g , photo obj.r  from specphoto,photoz,photoobj where photoobj.photoid=specphoto.specobjid and  photoz.objid=photoobj.photoid and g-r between # and # and  absmag_r between # and # z between # and # and spec class = #"
+2019-06-20 05:54:00,1

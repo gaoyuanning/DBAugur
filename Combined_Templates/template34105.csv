@@ -1,0 +1,2 @@
+1,"SELECT s.plate, s.mjd, s.fiberid, s.specobjid, p.objID, s.ra, s.dec, p.run, p.rerun, p.camcol, p.field FROM #upload u JOIN SpecObjAll s ON (s.plate = u.up_plate AND s.mjd = u.up_mjd AND s.fiberID = u.up_fiber) JOIN PhotoTag p ON p.objID = s.bestObjID ##', @log = #, @filter = #"
+2019-04-24 14:48:00,1

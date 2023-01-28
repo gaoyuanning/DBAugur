@@ -1,0 +1,2 @@
+1,"SELECT sp.segue1_target2, sp.segue2_target1, sp.segue2_target2, sp.boss_target1, sp.ancillary_target1, ancillary_target2, plateID, sourceType, sp.targetObjID, sp.ObjID into mydb.DR1#_# from SpecPhoto AS sp WHERE z BETWEEN # AND # AND class = #"
+2019-02-04 09:26:00,1

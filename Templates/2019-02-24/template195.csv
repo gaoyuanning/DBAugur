@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.plate,s.mjd,s.fiberid, p.score as score  FROM ..SpecObj as s  JOIN PhotoObj AS p ON s.bestobjid=p.objid  WHERE s.zWarning = # AND p.u > # AND p.u < #"
+2019-02-24 17:52:00,1

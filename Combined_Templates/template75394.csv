@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra, dec, fmjd, p.psfMag_ru, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z into mydb.test FROM PhotoObjAll"
+2019-11-12 08:16:00,1

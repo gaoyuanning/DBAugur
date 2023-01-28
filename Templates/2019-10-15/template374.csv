@@ -1,0 +1,2 @@
+1,"SELECT  p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z, s.z as redshift, s.class FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE s.class = &&&"
+2019-10-15 06:35:00,1

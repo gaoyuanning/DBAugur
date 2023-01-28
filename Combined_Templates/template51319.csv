@@ -1,0 +1,2 @@
+1,"SELECT TOP # g.objid, g.dec, g.ra, g.u, g.g, g.r, g.i, g.z, pz.z as redshift, pz.absMag_u, pz.absMag_g, pz.absMag_r, pz.absMag_i, pz.absMag_z into mydb.MyTable1 FROM Galaxy AS G JOIN Photoz AS pz ON G.objid = pz.objid"
+2019-07-11 11:32:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP1# specObjID,  FROM SpecObj /*Objects with spectra*/ WHERE class = &&&  AND zWarning = # /* No warning flag */  AND z = # /*Specifying the range of z used to obtain the data */"
+2019-03-30 11:30:00,1

@@ -1,0 +1,2 @@
+2,"SELECT  mangaID, objra, objdec            into  mydb.emp1#_test         from mangadrpall         WHERE (mngtarg1!=# or mngtarg3!=# )"
+2019-03-03 15:23:00,2

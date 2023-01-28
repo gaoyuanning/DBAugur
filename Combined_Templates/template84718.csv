@@ -1,0 +1,2 @@
+1,select count (*) from PhotoObjAll where field = #;
+2019-12-30 14:14:00,1

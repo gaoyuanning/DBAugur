@@ -1,0 +1,5 @@
+5,"SELECT p.ra, p.dec, p.mjd, p.u, p.g, p.r, p.i, p.z, p.err_u, p.err_g, p.err_r, p.err_i, p.err_z into mydb.MyTable_# from dbo.PhotoObjAll AS p, dbo.fgetNearByObjEq (#, #, #) n where p.objid = n.objid"
+2019-03-06 09:00:00,2
+2019-03-06 09:01:00,1
+2019-03-06 09:02:00,1
+2019-03-06 10:06:00,1

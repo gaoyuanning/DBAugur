@@ -1,0 +1,3 @@
+2,"select count (ID) , count (distinct (RunID) ), avg (y) as AvgY where x> # or x< # FROM DATA"
+2019-04-24 12:44:00,1
+2019-04-24 12:45:00,1

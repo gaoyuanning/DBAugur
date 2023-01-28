@@ -1,0 +1,2 @@
+1,"SELECT TOP # zns.p_cw as spiralclock, zns.p_acw as spiralanticlock, FROM Galaxy as p JOIN ZooNoSpec AS zns ON p.objid = zns.objid JOIN SpecObj AS s ON s.bestobjid = p.objid where zns.p_cw> # or zns.p_acw> #"
+2019-02-24 12:38:00,1

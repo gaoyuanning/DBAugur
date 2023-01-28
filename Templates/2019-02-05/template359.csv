@@ -1,0 +1,2 @@
+1,"SELECT dr7objid, ra, dec into mydb.test WHERE    total_votes > #    and t0#_spiral_a0#_spiral_weight >#    and t0#_spiral_a0#_spiral_fraction > #    and t0#_spiral_a0#_spiral_weighted_fraction >#    and t0#_spiral_a0#_spiral_debiased > #   and t1#_arms_number_a3#_#_fraction >#   and t1#_arms_number_a3#_#_weight >#   and t1#_arms_number_a3#_#_debiased >#   and t1#_arms_number_a3#_#_count >#"
+2019-02-05 10:03:00,1

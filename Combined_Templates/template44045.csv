@@ -1,0 +1,2 @@
+1,"SELECT DISTINCT p.ra, p.dec, p.objid, p.run, p.rerun, p.camcol, p.field, p.mjd FROM PhotoObjAll AS p WHERE (p.run = # AND p.camcol = # AND p.rerun = #)"
+2019-06-05 19:06:00,1

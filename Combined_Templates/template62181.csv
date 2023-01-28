@@ -1,0 +1,2 @@
+2,"select p.source, p.ra, p.dec, ph.deVPhi_r as PA into mydb.PAs from mydb.jets p, PhotoObjAll ph, dbo.fgetNearByObjEq (p.ra, p.dec, #)"
+2019-09-10 10:07:00,2

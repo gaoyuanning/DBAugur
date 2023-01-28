@@ -1,0 +1,2 @@
+1,"select count (*) specobjid, ra, dec, class from SpecObj where class is star"
+2019-05-23 08:36:00,1

@@ -1,0 +1,3 @@
+2,"SELECT count(*), MIN(milliseconds), MAX(milliseconds), AVG(cast(milliseconds as real))   FROM chinook.Track  WHERE Composer = &&&"
+2019-03-31 11:49:00,1
+2019-03-31 11:54:00,1

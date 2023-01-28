@@ -1,0 +1,2 @@
+1,"SELECT nsaid, ra, dec, z, zsrc, elpetroflux_r, elpetro_rnmgy_r FROM nsatlas WHERE z < =#"
+2019-06-04 20:23:00,1

@@ -1,0 +1,2 @@
+1,"SELECT Q.BestObjID as Quasar_candidate_ID , G.ObjID as Galaxy_ID, N.distance into mydb.MyTable from SpecObj as Q, Neighbors as N, Galaxy as G, SpecClass as SC, SpecLine as L, SpecLineNames as LN WHERE Q.SpecClass = SC.value and SC.name IN () and Q.SpecObjID = L.SpecObjID and L.LineID = LN.value and LN.Name ! = # and L.ew < # and Q.BestObjID = N.ObjID and G.ObjID = N.NeighborObjID and N.distance < #/#"
+2019-06-29 09:24:00,1

@@ -1,0 +1,4 @@
+3,"SELECT TOP # s.z as redshift, g.h_beta_flux, sq.virialfwhm_hb, s.subclass FROM GalSpecLine g, spiders_quasar sq, specobj s WHERE (g.specObjID = s.specObjID) AND (sq.plate = s.plate) AND (sq.fiberID = s.fiberID) AND (sq.MJD = s.mjd) AND (s.z < #) AND (sq.virialfwhm_hb > #)"
+2019-01-04 12:48:00,1
+2019-01-04 12:51:00,1
+2019-01-04 12:58:00,1

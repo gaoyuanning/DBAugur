@@ -1,0 +1,2 @@
+1,"select ra,dec,cModelMag_i,cModelMag_u,cModelMag_g,cModelMag_r from specObj,specPhoto where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-06-19 03:54:00,1

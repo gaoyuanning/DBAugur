@@ -1,0 +1,2 @@
+2,"select count (distinct (ring_galaxies_z.ID) ) from buta, ring_galaxies_z where abs (buta.ra-ring_galaxies_z.ra< #) and abs (buta.dec-ring_galaxies_z.dec< #)"
+2019-09-14 01:45:00,2

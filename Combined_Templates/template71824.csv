@@ -1,0 +1,2 @@
+1,"select state, vintage, n = count (*) from optw.tamass.TRACTS group by state, vintage"
+2019-10-26 15:23:00,1

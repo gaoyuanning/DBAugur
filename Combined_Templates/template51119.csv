@@ -1,0 +1,2 @@
+1,"select row_number () over (ORDER BY specObjID) as mpaid, * from galSpecIndx) select top # * from galSpecIndx_#"
+2019-07-10 05:34:00,1

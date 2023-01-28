@@ -1,0 +1,2 @@
+1,"SELECT     m.*, o.*  into mydb.cUVLGs_FieldInfo_DR1# from MyDB.cUVLGs_coordinates AS m     OUTER APPLY dbo.fGetNearestFrameidEq( m.RA_deg, m.DEC_deg, #) AS n       LEFT JOIN Field AS o ON n.FieldID=o.FieldID"
+2019-03-19 16:02:00,1

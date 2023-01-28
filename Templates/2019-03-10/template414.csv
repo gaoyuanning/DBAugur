@@ -1,0 +1,2 @@
+1,select top1# * from DBObjects a and DBViewCols b where a.name = b.name
+2019-03-10 02:38:00,1

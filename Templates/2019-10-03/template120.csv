@@ -1,0 +1,4 @@
+3,"SELECT s.plate,s.mjd,s.fiberid FROM BESTDR7..SpecObj as s  JOIN BESTDR7..Galaxy AS p ON s.bestObjID = p.objID  JOIN dbo.fGetObjFromRect(#,#,#,#) AS b ON p.objID = b.objID"
+2019-10-03 20:51:00,1
+2019-10-03 21:01:00,1
+2019-10-03 21:04:00,1

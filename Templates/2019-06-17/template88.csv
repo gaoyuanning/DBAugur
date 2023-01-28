@@ -1,0 +1,2 @@
+1,"SELECT pz.objid,pz.z,pz.zerr,p.ra,p.dec,GN.distance,p.type FROM PhotoObj as p,photoz as pz JOIN dbo.fGetNearestObjAllEq(#,#,# ) AS GN ON pz.objID = GN.objID WHERE p.objid = GN.objID ORDER by GN.distance"
+2019-06-17 20:14:00,1

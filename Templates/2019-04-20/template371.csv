@@ -1,0 +1,2 @@
+2,select distinct(attr_id) from clinical_attribute_meta
+2019-04-20 14:52:00,2

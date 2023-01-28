@@ -1,0 +1,2 @@
+1,"select top # g.objID, g.ra, g.dec from galaxy as g"
+2019-06-19 19:31:00,1

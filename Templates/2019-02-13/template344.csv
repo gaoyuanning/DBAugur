@@ -1,0 +1,2 @@
+1,"select min(dec) as minimum, max(dec) as maximum from specObj"
+2019-02-13 16:06:00,1

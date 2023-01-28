@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, ra, dec, cModelMag_g into mydb.MyTable from stars WHERE ra BETWEEN # AND # AND dec < # AND cModelMag_g BETWEEN # AND #"
+2019-05-21 05:15:00,1

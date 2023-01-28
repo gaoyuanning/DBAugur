@@ -1,0 +1,2 @@
+1,"SELECT TOP # class into mydb.DB_V from SepcObjAll Select top # s.subclass, count(*)  from PhotoObjAll as p, SpecObjAll as s  Where   p.specObjID = s.specObjID and p.psfMag_u < #   and p.psfMag_r < # and p.psfMag_u - p.psfMag_r < #   and s.class = &&&   GROUP BY s.subClass;"
+2019-09-04 15:50:00,1

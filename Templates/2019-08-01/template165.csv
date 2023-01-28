@@ -1,0 +1,2 @@
+1,"select top # q.train_id, b.* from mydb.s8#qso as q   cross apply fgetnearbyobjalleq(q.ra, q.dec, #/#) b"
+2019-08-01 16:13:00,1

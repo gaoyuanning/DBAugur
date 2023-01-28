@@ -1,0 +1,2 @@
+2,"select   m.ra, m.dec, m.objid, p.z as Spectro_z, p.zerr as Spectro_z_err  from MyDB.Gal_OBJIDS_RA_indexed m    JOIN SpecOBJ p on p.bestobjid = m.objid WHERE m.ra in (select q.ra from MyDB.Gal_OBJIDS_RA_indexed q)"
+2019-01-09 16:24:00,2

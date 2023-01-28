@@ -1,0 +1,2 @@
+1,"SELECT b.*, a.ra as sdss_ra, a.dec as sdss_dec, a.z as sdss_z, a.snMedian_r as sdss_sn_r, a.plate as sdss_plate, a.mjd as sdss_mjd, a.fiberID as sdss_fiberID into mydb.galpair_B1#_sdss_dr1#new3 from mydb.galpair_B1#_sdss as b CROSS APPLY dbo.fGetNearestObjEq (b.ra_B, b.dec_B, #) as c join DR1#.specObjAll as a on a.bestObjID = c.ObjID where b.z_B = a.Z"
+2019-07-15 11:43:00,1

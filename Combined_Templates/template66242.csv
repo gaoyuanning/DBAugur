@@ -1,0 +1,2 @@
+1,"SELECT TOP # SELECT TOP # ra, dec, cModelMag_g, cModelMag_r, cModelMag_i, cModelMag_z, cModelMagErr_g, cModelMagErr_r, cModelMagErr_i, cModelMagErr_z FROM PhotoPrimary as p JOIN SpecObjAll as s on p.objID = s.specobjID"
+2019-09-27 08:15:00,1

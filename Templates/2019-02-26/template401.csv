@@ -1,0 +1,4 @@
+5,select fieldid from field where devmodelapcorrection_i between .# and .# and psfb_u between # and #
+2019-02-26 11:51:00,3
+2019-02-26 12:08:00,1
+2019-02-26 13:08:00,1

@@ -1,0 +1,2 @@
+1,"SELECT count(*),SpecObj.ra,SpecObj.dec,z,zooNoSpec.p_el,zooNoSpec.p_cw, zooNoSpec.p_acw, zooNoSpec.p_edge,zooNoSpec.p_dk, zooNoSpec.p_mg  FROM SpecObj,zooNoSpec GROUP BY SpecObj.class  WHERE (SpecObj.ra ># and SpecObj.ra <#) AND (SpecObj.dec># and SpecObj.dec<#) And SpecObj.class=&&& And zooNoSpec.specobjid=SpecObj.SpecObjID"
+2019-08-22 07:44:00,1

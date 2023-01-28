@@ -1,0 +1,2 @@
+1,"SELECT p.name,q.KODIAQ,q.zem,q.Exp,q.RA,q.DE into mydb.allxqso FROM mydb.qso_all AS p   JOIN mydb.dr2_qso q ON q.KODIAQ = p.name"
+2019-02-11 04:34:00,1

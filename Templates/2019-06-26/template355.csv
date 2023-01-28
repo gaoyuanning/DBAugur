@@ -1,0 +1,2 @@
+1,"select logmass_max,rv_teff,segue2_hhv from apogeestar, stellarMassFSPSGranEarlyDust,Segue2Target1 where rv_teff BETWEEN # and # AND rv_teff BETWEEN # and #"
+2019-06-26 12:08:00,1

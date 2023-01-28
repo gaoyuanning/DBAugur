@@ -1,0 +1,2 @@
+1,"select count(*) into mydb.MyTable from Photoz, PhotoObjAll WHERE Photoz.objID == PhotoObjAll.objID"
+2019-06-04 13:28:00,1

@@ -1,0 +1,4 @@
+5,"select Ethnic_background_#, a.encoding_id, c.value, c.meaning from dbo.Ethnicity b join metadata.columninfo a on a.column_name = # join metadata.encoding c on c.encoding_id = a.encoding_id"
+2019-09-17 10:09:00,1
+2019-09-17 10:10:00,1
+2019-09-17 10:12:00,3

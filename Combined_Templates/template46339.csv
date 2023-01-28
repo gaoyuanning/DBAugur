@@ -1,0 +1,3 @@
+3,"SELECT TOP # p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, IS# (s.z, #) as z FROM BESTDR1#..PhotoObj AS p LEFT OUTER JOIN BESTDR1#..SpecObj s ON p.objID = s.bestObjID JOIN #x AS x ON x.objID = p.objID JOIN #upload AS u ON u.up_id = x.up_id WHERE (p.type = # OR p.type = #) ORDER BY x.up_id"
+2019-06-17 05:05:00,2
+2019-06-17 05:06:00,1

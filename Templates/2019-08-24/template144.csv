@@ -1,0 +1,2 @@
+1,"SELECT TOP # w.ra,w.dec, w.w1mpro, w.w1mag, w.w2mpro, w.w2mag, w.w3mpro, w.w3mag FROM WISE_xmatch AS x JOIN WISE_allsky AS w ON x.wise_cntr = w.cntr JOIN (SELECT * FROM SpecPhotoAll WHERE SpecPhotoAll.nChild = #) AS p ON x.sdss_objid = p.objid JOIN SpecObjAll AS s ON s.specobjid = p.specobjid WHERE s.class = &&&"
+2019-08-24 14:24:00,1

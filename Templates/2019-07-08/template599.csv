@@ -1,0 +1,3 @@
+2,"select z as redshift, ra, dec, bestObjID, survey, designID, plate, FiberID, class into mydb.MyTable1 from specObj where     z > # and z <= #     and zWarning = #"
+2019-07-08 01:16:00,1
+2019-07-08 01:17:00,1

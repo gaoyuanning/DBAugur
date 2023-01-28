@@ -1,0 +1,2 @@
+1,"SELECT E.SystemStudentID AS StudentID, E.GradeLevel AS EnrollmentGrade, E.SchoolYear4Digit AS SchoolYear4Digit, ES.Period AS Period, # AS AssessmentSubject, # AS MetricSource, # AS MetricName, ES.Score AS Score, # AS IsMostRecent FROM Enrollment AS E INNER JOIN EmotionalScreener as ES ON E.SystemStudentID = ES.SystemStudentID WHERE E.EnrollmentStatus = # AND E.IsActiveEnrollment = #;"
+2019-04-17 14:41:00,1

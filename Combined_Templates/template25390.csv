@@ -1,0 +1,2 @@
+1,"SELECT s.specObjID, s.z, g.u, g.g, g.r, g.i, g.z, g.petroR9#_r, g.petroR5#_r, g.extinction_u, g.extinction_g, g.extinction_r, g.extinction_i, g.extinction_z FROM SpecObj as s, Galaxy as g WHERE s.specObjID = g.ObjID AND g.ra > = # AND g.ra < = # AND g.dec > = # AND # AND g.dec < = # AND s.z > = # AND s.z < = #"
+2019-03-29 16:07:00,1

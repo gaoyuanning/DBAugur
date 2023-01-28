@@ -1,0 +1,2 @@
+1,"SELECT u,g,r,i,z,petroR5#_r,petroR9#_r,Err_u,Err_g,Err_r,Err_i,Err_z,petroR5#Err_r,petroR9#Err_r into mydb.MyTable_# from Galaxy WHERE clean = # and r < #"
+2019-11-10 10:56:00,1

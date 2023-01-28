@@ -1,0 +1,2 @@
+1,"select top # m.row_id, m.message_id, m.message_type, smt.name as message_type_text, m.host, m.application, m.method, m.time, m.client_IP, u.user_id from SciServerLog.Messages m join Users u on u.user_id = m.user_id join standardmessagetypes smt on smt.id = m.message_type"
+2019-02-19 14:56:00,1

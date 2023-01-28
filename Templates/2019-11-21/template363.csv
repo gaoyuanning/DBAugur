@@ -1,0 +1,2 @@
+1,"select top # g.ObjID, g.ra, g.dec, g.expAB_r, g.z from Galaxy g where specObjID<># and log1#(g.expAB_r)<# order"
+2019-11-21 13:47:00,1

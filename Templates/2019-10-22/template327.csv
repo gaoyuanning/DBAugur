@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.z as redshift,  s.plate, s.mjd, s.fiberid, s.snMedian FROM specObj as s WHERE   s.z BETWEEN # AND #  AND s.snMedian > #"
+2019-10-22 13:25:00,1

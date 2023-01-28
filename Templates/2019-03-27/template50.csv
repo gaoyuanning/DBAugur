@@ -1,0 +1,7 @@
+6,"SELECT SpecObjAll.z ,Photoz.objID ,Photoz.absMagU ,Photoz.absMagG ,Photoz.absMagR ,Photoz.absMagI ,Photoz.absMagZ ,galSpecIndx.d4# ,galSpecLine.oii_#_reqw ,galSpecLine.oii_#_eqw ,galSpecLine.oii_#_reqw ,galSpecLine.oii_#_eqw ,galSpecLine.h_delta_reqw ,galSpecLine.h_delta_eqw ,galSpecLine.h_gamma_reqw ,galSpecLine.h_gamma_eqw ,galSpecLine.h_beta_reqw ,galSpecLine.h_beta_eqw ,galSpecLine.oiii_#_eqw ,galSpecLine.oiii_#_reqw ,galSpecLine.oiii_#_eqw ,galSpecLine.h_alpha_reqw ,galSpecLine.h_alpha_eqw FROM SpecObjAll JOIN GalaxyTag ON SpecObjAll.bestObjID=GalaxyTag.specObjID JOIN Photoz ON GalaxyTag.objID=Photoz.objID JOIN galSpecIndx ON galSpecIndx.specObjID=SpecObjAll.specObjID JOIN galSpecLine ON galSpecLine.specObjID=SpecObjAll.specObjID WHERE SpecObjAll.z BETWEEN # AND #"
+2019-03-27 20:31:00,1
+2019-03-27 20:36:00,1
+2019-03-27 20:37:00,1
+2019-03-27 20:41:00,1
+2019-03-27 20:47:00,1
+2019-03-27 22:04:00,1

@@ -1,0 +1,2 @@
+1,"SELECT pall.mangaid, pall.nsa_elpetro_absmag_g, pall.nsa_elpetro_absmag_r, pall.nsa_extinction_g, pall.nsa_extinction_r, pall.nsa_sersic_th5#, pall.nsa_sersic_ba, pall.nsa_z, nsa_zdist, pipe.log_Mass, pipe.log_Mass_gas, pipe.e_log_mass, pipe.e_log_Mass_gas FROM mangaDRPall as pall JOIN mangaPipe3D as pipe ON pall.plate = pipe.plate AND pall.ifudsgn = pipe.ifudsgn WHERE pall.nsa_sersic_ba > # AND pipe.log_Mass > # AND pipe.log_Mass_gas > #"
+2019-03-25 20:45:00,1

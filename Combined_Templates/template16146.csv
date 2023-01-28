@@ -1,0 +1,2 @@
+1,"select count (z) select z, zErr, ra, dec, spectroFlux_r, bestObjID from specObj where class = # and z > # and z < # and zWarning = # and bestObjID> # AND dec BETWEEN # and #"
+2019-03-02 15:08:00,1

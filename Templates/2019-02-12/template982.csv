@@ -1,0 +1,2 @@
+1,"SELECT ObjID, modelMag_r, petroRad_r into mydb.MyTable from PhotoPrimary WHERE (ra between # and #) and (dec between # and #)"
+2019-02-12 00:08:00,1

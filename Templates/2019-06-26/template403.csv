@@ -1,0 +1,2 @@
+1,"select alt-id, dec from specObj where alt_id BETWEEN # and # AND dec BETWEEN # and #"
+2019-06-26 11:06:00,1

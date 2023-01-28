@@ -1,0 +1,3 @@
+2,"SELECT TOP # s.SpecObjID, s.z, L1.ew, L1.ewErr, L1.continuum, L2.ew, L2.ewErr, L2.continuum, S.petroMag_r, S.petroMagErr_r, S.petroMag_b, S.petraMagErr_b, S.petroMag_i, S.petraMagErr_i INTO mydb.Try3 FROM SpecPhoto as S, SpecLine as L1, SpecLine as L2 WHERE S.specClass = # AND S.SpecObjID = L1.SpecObjID AND S.SpecObjID = L2.SpecObjID AND L1.LineId = # AND L2.LineId = # AND L1.ew/#if (L1.ewErr, #) > # AND L2.ew/#if (L2.ewErr, #) > #"
+2019-10-02 08:08:00,1
+2019-10-02 08:46:00,1

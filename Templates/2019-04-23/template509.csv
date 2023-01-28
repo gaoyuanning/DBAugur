@@ -1,0 +1,4 @@
+3,"SELECT EID,[Age_at_recruitment_#],[Month_of_birth_#],[Year_of_birth_#],[Sex_#],[Townsend_deprivation_index_at_recruitment_#] FROM Baseline_characteristics GO"
+2019-04-23 09:44:00,1
+2019-04-23 10:46:00,1
+2019-04-23 10:51:00,1

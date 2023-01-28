@@ -1,0 +1,3 @@
+4,"SELECT PhotoObj.objID, PhotoObj.ra, PhotoObj.dec, PhotoObj.u, PhotoObj.g, PhotoObj.r, PhotoObj.i, PhotoObj.z, PhotoObj.run, PhotoObj.rerun, PhotoObj.camcol, PhotoObj.field, SpecObj.specObjID, SpecObj.class, SpecObj.z as redshift, SpecObj.plate, SpecObj.mjd, SpecObj.fiberID into mydb.MyTable from PhotoObj INNER JOIN SpecObj ON PhotoObj.specObjID = SpecObj.specObjID"
+2019-01-04 10:08:00,3
+2019-01-04 10:15:00,1

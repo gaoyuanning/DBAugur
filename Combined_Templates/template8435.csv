@@ -1,0 +1,2 @@
+1,"SELECT g.objID, g.ra, g.dec, g.run, g.rerun, g.camcol, g.field, g.rowc_u, g.colc_u, g.rowc_g, g.colc_g, g.rowc_r, g.colc_r, g.rowc_i, g.colc_i, g.rowc_z, g.colc_z INTO [myscratch:default].sdss_#cutout_allc_rcut2# FROM GALAXY as g WHERE g.r< #"
+2019-02-05 05:18:00,1

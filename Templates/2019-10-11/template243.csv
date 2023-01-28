@@ -1,0 +1,2 @@
+1,"select x.*,   p.*,   w.objID,w.coadd_id,w.w1_mag,w.w1_mag_err,w.w2_mag,w.w2_mag_err into mydb.rs_data_clusters_all_SDSSunWISE FROM   mydb.rs_data_clusters_all as x   join PhotoObj as p on p.objid = x.objID   join wiseForcedTarget as w on p.objid = w.objid"
+2019-10-11 14:06:00,1

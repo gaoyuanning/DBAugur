@@ -1,0 +1,6 @@
+16,"select top # arcsec from astrometry.budavari.Neighbors2Star2#main where run1=# order by run1, run2, arcsec"
+2019-03-06 18:08:00,2
+2019-03-06 18:11:00,3
+2019-03-06 18:12:00,3
+2019-03-06 18:13:00,6
+2019-03-06 18:14:00,2

@@ -1,0 +1,2 @@
+1,"SELECT specObjID, bestObjID, fluxObjID, targetObjID, plateID, survey, instrument, mjd, plate, fiberID, run2d, ra, dec, z, zErr, class FROM SpecObj WHERE abs (z) > # AND class = #"
+2019-11-09 01:19:00,1

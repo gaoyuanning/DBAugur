@@ -1,0 +1,3 @@
+2,"SELECT p.ObjID as dr1#objid, t.SDSS_ID as dr7objid INTO convi2 FROM MyDB.ossy t, Galaxy p WHERE t.RA=p.ra AND t.DEC=p.dec"
+2019-05-15 11:16:00,1
+2019-05-15 11:17:00,1

@@ -1,0 +1,2 @@
+1,"SELECT t.mangaID, t.catalog_ra, catalog_dec, manga_target3 JOIN mangatarget as t WHERE MANGA_TARGET3 = #"
+2019-08-15 10:15:00,1

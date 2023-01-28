@@ -1,0 +1,2 @@
+2,"SELECT ra, dec, petroMag_r FROM Galaxy as G, dbo.fGetNearbyObjEq(#,#,#) as N WHERE G.objID = N.objID AND petroMag_r <= # into mydb.Cercaincerchio"
+2019-03-22 10:24:00,2

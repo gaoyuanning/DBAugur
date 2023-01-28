@@ -1,0 +1,2 @@
+2,"SELECT SUBSTRING (Composer, #, #) AS initial, SUM (SUBSTRING (Composer, #, #) ) as count FROM chinook.Track GROUP BY Composer ORDER BY initial Desc"
+2019-04-24 09:03:00,2

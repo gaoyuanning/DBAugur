@@ -1,0 +1,2 @@
+1,select count(*) from [myscratch:default].decals_test where brickname = &&&
+2019-10-29 08:57:00,1

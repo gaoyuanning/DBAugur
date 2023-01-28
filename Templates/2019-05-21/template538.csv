@@ -1,0 +1,5 @@
+7,"select top # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z from photoobj p, specobj s where p.objid=s.bestobjid and p.r < #  and (p.g-p.r BETWEEN # AND #)  and p.r-p.i < #  and ((flags_g & #) != #)  and ((flags_g & #) = #)  and (((flags_g & #) = #) or (psfmagerr_g <= #))  and (((flags_g & #) = #) or (flags_g & #) = #)  and ((flags_r & #) != #)  and ((flags_r & #) = #)  and (((flags_r & #) = #) or (psfmagerr_r <= #))  and (((flags_r & #) = #) or (flags_r & #) = #)  and ((flags_i & #) != #)  and ((flags_i & #) = #)  and (((flags_i & #) = #) or (psfmagerr_i <= #))  and (((flags_i & #) = #) or (flags_i & #) = #)"
+2019-05-21 01:24:00,1
+2019-05-21 01:27:00,1
+2019-05-21 01:30:00,2
+2019-05-21 01:37:00,3

@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra, dec, psfmag_u-extinction_u, z FROM SpecPhoto WHERE sourceType = #"
+2019-09-27 21:17:00,1

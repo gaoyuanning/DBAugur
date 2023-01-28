@@ -1,0 +1,2 @@
+1,"SELECT MJD, plate, fiberID, ra, dec, petroMag_g, petroMag_r from SpecPhotoAll WHERE class = # AND zWarning = # AND modelMag_g - modelMag_r BETWEEN # and # AND modelMag_r > # and survey = # and programname = #"
+2019-05-29 17:30:00,1

@@ -1,0 +1,2 @@
+1,"SELECT     o.objid,m.ra AS ra1, m.dec AS dec1, n.distance,     o.ra AS ra2, o.dec AS dec2, fAspcapElemsAll,   into mydb.MyTable_# from MyDB.MyRaDecPairs AS m      OUTER APPLY dbo.fGetNearestObjEq( m.ra, m.dec, #) AS n      JOIN apogeeObject AS o ON n.objid=o.apogee_id"
+2019-06-05 10:20:00,1

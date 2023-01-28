@@ -1,0 +1,2 @@
+2,"select mag, mag*#+#, count (*) from mydb.Neighbors0#Star2#PixEqMag group by mag order by mag"
+2019-05-22 16:58:00,2

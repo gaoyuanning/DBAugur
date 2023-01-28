@@ -1,0 +1,2 @@
+1,"SELECT   g.objid, zns.*, g.*, s.* into mydb.GalaxyZoo_v1 from Galaxy as G JOIN ZooNoSpec AS zns ON G.objid = zns.objid JOIN SpecObj AS s ON s.bestObjID = G.objID WHERE    g.clean=# and zns.nvote >= # and s.zWarning = #"
+2019-07-11 13:09:00,1

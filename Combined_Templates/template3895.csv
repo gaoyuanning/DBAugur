@@ -1,0 +1,3 @@
+2,"select top # z, ra, dec, bestObjID, h_beta_flux, oii_#_flux, oii_#_flux, oiii_#_flux, oiii_#_flux from specObj where class = # and z > # and zWarning = #"
+2019-01-16 20:18:00,1
+2019-01-17 08:21:00,1

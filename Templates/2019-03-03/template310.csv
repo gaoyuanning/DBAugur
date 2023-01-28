@@ -1,0 +1,2 @@
+2,"SELECT specObjID,ra,dec,z,zErr,class,subclass  FROM SPECPHOTO  WHERE ra BETWEEN #. and #. AND dec BETWEEN # and # AND class=&&& AND zwarning = &&&"
+2019-03-03 15:53:00,2

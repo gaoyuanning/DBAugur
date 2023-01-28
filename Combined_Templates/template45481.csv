@@ -1,0 +1,2 @@
+2,"select starname, rv_teff from specObj, apogeeStar, marvelsstar where class = # AND k BETWEEN # AND #"
+2019-06-12 04:33:00,2

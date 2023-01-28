@@ -1,0 +1,2 @@
+1,select * from mydb.SDSS_to_Yang where Yang_Id = # and ra is not #
+2019-11-18 06:53:00,1

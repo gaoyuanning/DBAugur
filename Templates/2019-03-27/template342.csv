@@ -1,0 +1,2 @@
+1,"select top # specobjid,z from specobjid where CLASS = &&& AND ZWARNING = # AND Z BETWEEN # AND # order by newid()"
+2019-03-27 16:02:00,1

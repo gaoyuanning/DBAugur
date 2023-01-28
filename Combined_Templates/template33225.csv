@@ -1,0 +1,12 @@
+12,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.run, p.rerun, p.camcol, p.field, s.specobjid, s.class, s.z as redshift, s.plate, s.mjd, s.fiberid, p.u-p.r AS u_r, q.logmass, q.age, b.EW_Hd_#, b.EW_Ha_#, b.EW_OII_#, s.snmedian FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN stellarMassPassivePort AS q ON q.specObjID = p.specObjID JOIN emissionLinesPort AS b on b.specObjId = p.specobjid WHERE s.class = galaxy"
+2019-04-23 01:37:00,1
+2019-04-23 01:41:00,2
+2019-04-23 01:46:00,1
+2019-04-23 01:59:00,1
+2019-04-23 02:01:00,1
+2019-04-23 02:02:00,1
+2019-04-23 02:06:00,1
+2019-04-23 02:07:00,1
+2019-04-23 02:10:00,1
+2019-04-23 02:19:00,1
+2019-04-24 19:45:00,1

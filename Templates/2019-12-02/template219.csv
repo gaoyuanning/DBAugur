@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objID, p.ra, p.dec  FROM Galaxy p WHERE    p.b > #   or p.b<#-- r IS NOT deredenned   and p.dec>#"
+2019-12-02 14:39:00,1

@@ -1,0 +1,2 @@
+2,"SELECT  a.NYU_num, c.objID FROM VAGC_spectro_position a, VAGC_spectro_PFM b, SpecPhotoAll c WHERE a.sdss_spectro_position=b.SDSS_SPECTRO_POSITION and c.plate=b.PLATE and c.fiberID=b.FIBER and c.mjd=b.MJD   INTO VAGC_photoobjid"
+2019-02-19 14:28:00,2

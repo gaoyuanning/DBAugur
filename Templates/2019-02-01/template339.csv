@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.expPhi_g,ISNULL(s.img,#) as img FROM BESTDR7..Galaxy AS p LEFT OUTER JOIN BESTDR7..SpecObj s ON p.objID = s.bestObjID 	JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = p.objID"
+2019-02-01 12:46:00,1

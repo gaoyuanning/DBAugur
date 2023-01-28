@@ -1,0 +1,2 @@
+1,"select SUBSTRING (name, #, #) AS firstLetter , count (*) from chinook.artist group by firstLetter"
+2019-04-20 14:27:00,1

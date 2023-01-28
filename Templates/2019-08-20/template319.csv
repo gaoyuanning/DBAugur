@@ -1,0 +1,4 @@
+8,"SELECT TOP #   sa.objID, gL.oiii_#_flux, gL.oiii_#_flux_err, gL.oiii_#_eqw, gL.oiii_#_eqw_err,    gL.h_beta_flux, gL.h_beta_flux_err, gL.nii_#_flux,gL.nii_#_flux_err,   gL.oi_#_flux,gL.oi_#_flux_err,gL.h_alpha_flux, gL.h_alpha_flux_err,    gL.sii_#_flux, gL.sii_#_flux_err,gL.sii_#_flux,gL.sii_#_flux_err FROM SpecObjAll sp     JOIN MyDB.Sabater_SDSS_inform_new sa ON sa.plate = sp.plate AND sa.mjd = sp.mjd AND sa.fiberid = sp.fiberid     JOIN galSpecLine gL ON sp.specObjID = gL.specObjID"
+2019-08-20 08:57:00,2
+2019-08-20 08:58:00,3
+2019-08-20 08:59:00,3

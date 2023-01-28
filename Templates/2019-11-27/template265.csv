@@ -1,0 +1,2 @@
+1,"SELECT p.objId,p.ra,p.dec,z.p_el,z.p_cs,z.p_cw,z.p_acw,z.p_edge,z.p_mg,        p.petror9#_r,p.u,p.g,p.r,p.i,p.z,p.err_u,p.err_g,p.err_r,p.err_i,p.err_z INTO Mergers  FROM galaxy AS p    JOIN zooVotes AS z ON z.objid = p.objid WHERE (z.p_mg > #) AND (z.nvote_tot >= #)"
+2019-11-27 12:51:00,1

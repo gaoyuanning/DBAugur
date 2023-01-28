@@ -1,0 +1,5 @@
+5,"SELECT P.run, P.rerun, P.field, P.camcol, P.ramin, P.ramax, P.decmin, P.decmax into mydb.MyTable_# from field as P WHERE (P.camcol = #)   and (P.run = #)"
+2019-05-24 04:25:00,1
+2019-05-24 04:26:00,1
+2019-05-24 04:28:00,2
+2019-05-24 04:29:00,1

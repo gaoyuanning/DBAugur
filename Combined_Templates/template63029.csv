@@ -1,0 +1,2 @@
+1,"SELECT specObjID, lick_hd_a, lick_hd_a_err, lick_hd_a_model, lick_hd_a_sub, lick_hd_a_sub_err, d4#_n, d4#_n_err, d4#_n_model, d4#_n_sub, d4#_n_sub_err INTO dr7_spec_indx FROM galSpecIndx"
+2019-09-13 04:30:00,1

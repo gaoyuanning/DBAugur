@@ -1,0 +1,2 @@
+1,"select a.objID, a.ra, a.dec, a.type, b.z into mydb.photoz from PhotoObj as a, SpecPhotoAll as d, Photoz as b where a.type = # and a.objID = d.objID and d.specObjID = a.specObjID and a.objID = b.objID and d.z< #"
+2019-02-25 11:18:00,1

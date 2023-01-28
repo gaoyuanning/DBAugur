@@ -1,0 +1,2 @@
+3,select objid INTO MyDB.indices_o from dr7.PhotoPrimary where flags
+2019-09-24 17:16:00,3

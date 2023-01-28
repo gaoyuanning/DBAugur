@@ -1,0 +1,2 @@
+1,"SELECT   p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  p.run, p.rerun, p.camcol, p.field, p.deVRad_u FROM PhotoObj AS p"
+2019-02-14 09:47:00,1

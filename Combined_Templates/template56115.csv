@@ -1,0 +1,16 @@
+62,"select #, p.specobjid, p.plate, p.mjd, p.fiberID, p.ra, p.dec, p.z, p.zerr, p.class, dbo.fDistanceArcMinEq (#, #, p.ra, p.dec) as distance from dbo.fGetNearbySpecObjEq (#, #, #) s, specobj p where s.specobjid = p.specobjid and p.zwarning = # and p.class = #"
+2019-08-08 13:28:00,4
+2019-08-08 13:29:00,3
+2019-08-08 13:32:00,2
+2019-08-08 13:33:00,5
+2019-08-08 13:34:00,6
+2019-08-08 13:35:00,5
+2019-08-08 13:36:00,4
+2019-08-08 13:37:00,5
+2019-08-08 13:38:00,4
+2019-08-08 13:39:00,5
+2019-08-08 13:40:00,4
+2019-08-08 13:41:00,5
+2019-08-08 13:42:00,3
+2019-08-08 13:43:00,5
+2019-08-08 13:44:00,2

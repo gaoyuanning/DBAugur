@@ -1,0 +1,6 @@
+5,"select h_alpha_flux,h_beta_flux,oiii_#_flux,nii_#_flux from galSpecLine where specObjID=#"
+2019-03-26 15:11:00,1
+2019-03-26 15:18:00,1
+2019-03-26 15:22:00,1
+2019-03-26 15:25:00,1
+2019-03-26 15:26:00,1

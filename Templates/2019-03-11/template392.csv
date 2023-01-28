@@ -1,0 +1,3 @@
+2,"SELECT ALL  p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  q.z as predshift FROM PhotoObj AS p  JOIN Photoz AS q ON q.objID = p.objid WHERE   p.ra BETWEEN # AND #  AND p.dec BETWEEN # AND #  AND q.z BETWEEN # AND #"
+2019-03-11 12:17:00,1
+2019-03-11 12:21:00,1

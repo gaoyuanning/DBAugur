@@ -1,0 +1,6 @@
+5,"select top # p.u, s.z as redshift from galaxy p, specobj s where p.objid=s.bestobjid and (p.u BETWEEN # AND #)"
+2019-09-24 23:13:00,1
+2019-09-24 23:18:00,1
+2019-09-24 23:20:00,1
+2019-09-24 23:25:00,1
+2019-09-24 23:42:00,1

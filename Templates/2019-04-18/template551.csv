@@ -1,0 +1,2 @@
+1,"select mag_r as xcol, magErr_r as ycol from MyTable where  mag_r between # and #"
+2019-04-18 06:13:00,1

@@ -1,0 +1,2 @@
+1,"SELECT dr7objid AS objid, ra, dec FROM zoo2MainSpecz WHERE t0#_smooth_or_features_a0#_features_or_disk_weighted_fraction > = # AND t0#_edgeon_a0#_yes_weighted_fraction < = # AND tt0#_spiral_a0#_no_spiral_weighted_fraction > = # ORDER BY dr7objid ASC"
+2019-04-03 18:31:00,1

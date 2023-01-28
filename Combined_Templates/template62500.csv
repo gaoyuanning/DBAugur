@@ -1,0 +1,2 @@
+1,"select top (#) ph.objid, ph.ra, ph.dec, ph.deVPhi_r as PA into mydb.PAs_# from PhotoObjAll ph, mydb.PAs pa Where pa.objid! =ph.objid"
+2019-09-11 07:10:00,1

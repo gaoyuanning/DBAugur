@@ -1,0 +1,2 @@
+1,"select top # * from information_schema.tables   order by table_schema,table_name"
+2019-11-23 19:02:00,1

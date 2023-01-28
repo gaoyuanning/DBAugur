@@ -1,0 +1,4 @@
+4,"select m.mangaid, m.ra as ra1, m.dec as dec1, n.objid, s.z as spec_z, p.z as phot_z, o.ra as ra2, o.dec as dec2, s.logMass_median, s.cModelAbsMag_r--, z.nvote, z.p_el as elliptical, z.p_cw as spiralclock from MyDB.MyTable_# as m cross apply dbo.fGetNearestObjEq (m.ra, m.dec, #) as n join PhotoObj as o on n.objid = o.objid join PhotoZ as p on n.objid = p.objid join stellarMassFSPSGranWideDust as s on o.specObjID = s.specObjID --join DR8.ZooSpec as z on n.objid = z.objid --where z.nvote> =# and z.p_el> #"
+2019-06-18 10:15:00,2
+2019-06-18 12:41:00,1
+2019-06-18 12:44:00,1

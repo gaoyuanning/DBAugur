@@ -1,0 +1,7 @@
+8,"SELECT p.objid, p.ra, p.dec, p.dered_r FROM fGetNearbyObjEq (#, #, #) n, PhotoPrimary p WHERE n.objID = p.objID and p.type = # and p.dered_r > = # and p.dered_r < = #"
+2019-05-04 22:49:00,1
+2019-05-04 22:59:00,1
+2019-05-12 13:33:00,1
+2019-05-12 13:35:00,1
+2019-05-12 13:37:00,2
+2019-05-12 13:40:00,2

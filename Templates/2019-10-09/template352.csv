@@ -1,0 +1,2 @@
+1,"create function dbo.topoint(@ra float,@dec float)  returns geography as begin declare @g geography = geography::Point(@ra,@dec, #)   return @g end"
+2019-10-09 13:58:00,1

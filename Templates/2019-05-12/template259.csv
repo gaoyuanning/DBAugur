@@ -1,0 +1,2 @@
+1,"SELECT ObjID, FUV_Mag, NUV_Mag FROM PhotoObjAll o JOIN PhotoExtract e ON e.PhotoExtractID = o.PhotoExtractID WHERE e.MpsType = MIS AND o.Mode = # -- i.e., primary AND o.Band = # -- both bands (#:NUV, #:FUV) AND o.FoV_Radius < #"
+2019-05-12 06:24:00,1

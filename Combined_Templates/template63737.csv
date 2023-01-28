@@ -1,0 +1,4 @@
+4,"SELECT s.plate, s.mjd, s.fiber, s.mstellar_median INTO mydb.test_# FROM stellarMassPCAWiscBC0# as s"
+2019-09-17 04:06:00,1
+2019-09-17 04:12:00,1
+2019-09-17 04:13:00,2

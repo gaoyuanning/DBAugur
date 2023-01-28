@@ -1,0 +1,3 @@
+2,"select s.specObjID,  max(l.sigma*#/l.wave) as veldisp,  avg(s.z) as z  into ##results from SpecObj s, specLine l  where s.specObjID=l.specObjID   and ( (s.specClass = @qso) or   (s.specClass = @hiZ_qso))   and s.z between # and #   and l.sigma*#/l.wave >#   and s.zConf > #  group by s.specObjID"
+2019-02-13 21:00:00,1
+2019-02-13 21:29:00,1

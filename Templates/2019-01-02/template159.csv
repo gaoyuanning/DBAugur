@@ -1,0 +1,2 @@
+1,"SELECT s.psfMag_u,s.psfMag_g,s.psfMag_r,s.psfMag_i,s.psfMag_z, s.ra, s.dec FROM Star s WHERE s.ra between # and #    and s.dec between # and #"
+2019-01-02 11:44:00,1

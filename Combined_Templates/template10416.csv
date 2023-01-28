@@ -1,0 +1,5 @@
+6,"SELECT petroRad_r, objID, modelMag_r FROM PhotoObj WHERE (ra between # and #) and (dec between # and #) AND type = #"
+2019-02-12 04:27:00,2
+2019-02-12 04:36:00,1
+2019-02-12 04:38:00,1
+2019-02-12 04:45:00,2

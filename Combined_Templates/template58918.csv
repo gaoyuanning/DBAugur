@@ -1,0 +1,3 @@
+20,"select G.objID, G.ra as ra2, G.dec as dec2, G.petroMag_u, G.petroMag_g, G.petroMag_r, G.petroMag_i, G.petroMag_z, G.petroMagErr_u, G.petroMagErr_g, G.petroMagErr_r, G.petroMagErr_i, G.petroMagErr_z, ph.z as z2 from Galaxy as G, dbo.fGetNearbyObjEq (#, #, #) as N, photoz as ph where G.objID = N.objID and ph.objID = N.objID order by G.petroMag_r"
+2019-08-23 14:31:00,12
+2019-08-23 14:32:00,8

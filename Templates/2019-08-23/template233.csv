@@ -1,0 +1,2 @@
+1,"SELECT specObjID, bestObjID, mjd, plate, fiberID, eboss_target_id, ra, dec   FROM SpecObjAll WHERE z># and z<# and waveMax-waveMin > # and plate>#"
+2019-08-23 14:08:00,1

@@ -1,0 +1,2 @@
+2,"SELECT   p.petroR5#_r, p.petroR9#_r, p.petroRad_r, e.specsfr_tot_p5#, e.lgm_tot_p5#   INTO   myDB.Poster   FROM   galSpecExtra as e, PhotoObjAll as p"
+2019-07-23 15:00:00,2

@@ -1,0 +1,4 @@
+3,"SELECT s.specobjid,s.ra,s.dec ,s.class, s.z as redshift FROM SpecObj AS s WHERE   s.ra BETWEEN # AND #   AND s.dec BETWEEN # AND #"
+2019-12-17 13:20:00,1
+2019-12-17 13:28:00,1
+2019-12-17 13:36:00,1

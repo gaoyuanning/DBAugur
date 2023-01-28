@@ -1,0 +1,3 @@
+3,"SELECT TOP # objra, objdec, nsa_elpetro_absmag_f FROM mangaDRPall WHERE objra > # and objra < # AND objdec > # and objdec < #"
+2019-05-12 18:00:00,2
+2019-05-12 18:01:00,1

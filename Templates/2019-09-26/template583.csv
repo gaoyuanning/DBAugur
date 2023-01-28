@@ -1,0 +1,2 @@
+1,"SELECT   specLineID, lineID, restWave, specobjID, height, heightErr into mydb.MyTable_# from SpecLine    WHERE   lineID = #"
+2019-09-26 05:35:00,1

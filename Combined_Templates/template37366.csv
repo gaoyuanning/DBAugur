@@ -1,0 +1,2 @@
+1,"SELECT p.petroRad_u as Pru, p.petroRad_g as Prg, p.petroRad_r as Prr, p.petroRad_i as Pri, p.petroRad_z as Prz, p.petroR5#_u as r5#u, p.petroR5#_g as r5#g, p.petroR5#_r as r5#r, p.petroR5#_i as r5#i, p.petroR5#_z as r5#z, p.petroR9#_u as r9#u, p.petroR9#_g as r9#g, p.petroR9#_r as r9#r, p.petroR9#_i as r9#i, p.petroR9#_z as r9#z, p.expAB_g as expABg, p.expAB_r as expABr, p.u as um, p.g as gm, p.r as rm, p.i as im, p.z as zm, p.dered_r as drm, p.fracDeV_g as fDg, p.fracDeV_r as fDr, p.fracDeV_i as fDi FROM PhotoObj as p WHERE p.ObjId = #"
+2019-05-07 17:20:00,1

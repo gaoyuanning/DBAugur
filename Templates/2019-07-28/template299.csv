@@ -1,0 +1,2 @@
+2,"select plate,mjd,quality,programName,isprimary,dateobs,exptime,sn1_#,sn2_#   from plateX into mydb.platex"
+2019-07-28 03:24:00,2

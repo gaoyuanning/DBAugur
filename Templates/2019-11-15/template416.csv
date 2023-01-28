@@ -1,0 +1,4 @@
+3,select  all * from MRscPlanck1 where centralMvir > # AND redshift between # AND #
+2019-11-15 01:35:00,1
+2019-11-15 01:36:00,1
+2019-11-15 01:42:00,1

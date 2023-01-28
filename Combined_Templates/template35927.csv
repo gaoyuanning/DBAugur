@@ -1,0 +1,2 @@
+1,"select a.SystemStudentID as student_id, a.gradelevel as enrollment_grade, a.SchoolYear4Digit as schoolyear, b.testperiod as period, iif (testsubjectgroup = #, #, iif (testsubjectgroup = #, #, testsubjectgroup) ) from enrollment a join testscores b on a.SystemStudentID = b.SystemStudentID group by a.SystemStudentID, a.gradelevel, a.SchoolYear4Digit, b.testperiod iif (testsubjectgroup = #, #, iif (testsubjectgroup = #, #, testsubjectgroup) )"
+2019-04-30 00:34:00,1

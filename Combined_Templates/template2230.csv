@@ -1,0 +1,2 @@
+1,"SELECT s.specobjid, s.ra, s.dec, s.z, # + cast (x.objId as varchar (#) ) + #+ cast (x.objId as varchar (#) ) + # as objID, p.ra, p.dec, dbo.fPhotoTypeN (p.type) as type, p.modelMag_u, p.modelMagErr_u, p.modelMag_g, p.modelMagErr_g, p.modelMag_r, modelMagErr_r, p.modelMag_i, modelMagErr_i, p.modelMag_z, modelMagErr_z, modelFlux_u FROM #upload u JOIN #x x ON x.up_id = u.up_id JOIN PhotoTag p ON p.objID = x.objID JOIN SpecObjAll s ON p.objID = s.bestObjID ORDER by x.up_id"
+2019-01-10 00:59:00,1

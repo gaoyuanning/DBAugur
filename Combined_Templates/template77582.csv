@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.specobjid, s.class, s.z as redshift, s.spectroFlux_r, s. FROM specobjid as s WHERE"
+2019-11-20 10:21:00,1

@@ -1,0 +1,2 @@
+1,"select objID, ra, decfrom star where clean = # and dec > = #"
+2019-06-06 15:34:00,1

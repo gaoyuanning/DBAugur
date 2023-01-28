@@ -1,0 +1,2 @@
+2,"select  p.objID, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, phz.z, phz.zErr, dbo.fPhotoFlagsN(p.flags)  from photoObj p, dbo.fGetNearbyObjEq(#,#,#) n, photoz phz  where p.objID = n.objID AND  phz.objID = p.objID AND  p.type = # AND  p.petroRad_r >= # AND  petroRadErr_r = # AND  phz.z BETWEEN # and #"
+2019-05-02 19:10:00,2

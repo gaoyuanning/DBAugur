@@ -1,0 +1,3 @@
+3,"SELECT TOP #  s.plate,s.mjd,s.fiberid,s.z,s.zErr,s.zWarning,s.class,s.dec,cast(str(s.ra,#,#) as float) as ra,s.specObjID,s.spectroFlux_g,s.spectroFlux_i,s.spectroFlux_r,s.spectroFlux_u,s.spectroFlux_z  FROM ..SpecObj as s  JOIN dbo.fGetObjFromRect(#,#,#,#) AS b ON s.bestobjid = b.objID  WHERE s.z > # AND s.zWarning = # AND s.z < #"
+2019-11-04 16:49:00,2
+2019-11-04 17:01:00,1

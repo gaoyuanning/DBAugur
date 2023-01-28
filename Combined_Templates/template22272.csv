@@ -1,0 +1,19 @@
+22,"SELECT b.objra as lam_ra, b.objdec as lam_dec, a.bestobjid as sdss_objid, b.specid, b.teff as lam_teff, b.logg as lam_logg, b.feh as lam_feh, b.rv as lam_rv, a.teffadop as sdss_teff, a.loggadop as sdss_logg, a.fehadop as sdss_feh, a.elodiervfinal as sdss_rv into mydb.cross_dr6_sdss_dr1#_# from mydb.dr6_# as b CROSS APPLY dbo.fGetNearestObjEq (b.objra, b.objdec, #) as c join DR1#.sppParams as a on a.bestobjid = c.objid"
+2019-03-21 02:18:00,2
+2019-03-21 02:21:00,1
+2019-03-21 02:28:00,1
+2019-03-21 02:53:00,2
+2019-03-21 02:56:00,1
+2019-03-21 03:11:00,1
+2019-03-21 03:16:00,1
+2019-03-21 03:32:00,1
+2019-03-21 03:34:00,1
+2019-03-21 03:53:00,1
+2019-03-21 03:55:00,1
+2019-03-21 03:56:00,3
+2019-03-21 03:57:00,1
+2019-03-21 04:14:00,1
+2019-03-21 04:35:00,1
+2019-03-21 04:56:00,1
+2019-03-21 05:17:00,1
+2019-03-21 05:38:00,1

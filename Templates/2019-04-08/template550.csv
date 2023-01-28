@@ -1,0 +1,2 @@
+2,"select top # ra, dec, z from specobj where (ra between #. and #.) and (dec between #. and #) and class = &&&"
+2019-04-08 00:55:00,2

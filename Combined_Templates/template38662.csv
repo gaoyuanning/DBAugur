@@ -1,0 +1,2 @@
+1,"select top # Object ID, ra, dec, modelMag_u, modelMag_g from SpecObj where ra between # and # and g > # and modelMagu - modelMagg > #"
+2019-05-10 08:40:00,1

@@ -1,0 +1,2 @@
+2,"select s.z, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, x.mjd, s.fiberID, p.objID from PhotoObj p, SpecObj s, PlateX x where s.bestObjID = p.objID AND x.plateID = s.plateID AND (# < p.modelMag_g < #) AND s.z< # AND s.specClass = #"
+2019-09-13 15:37:00,2

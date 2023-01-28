@@ -1,0 +1,4 @@
+3,"SELECT starname, fcjd, rv, photonerr, staterror, offseterror, specno, survey into mydb.MyTable from marvelsVelocityCurveUF1D WHERE starname LIKE #"
+2019-05-24 03:55:00,1
+2019-07-11 15:53:00,1
+2019-07-11 15:54:00,1

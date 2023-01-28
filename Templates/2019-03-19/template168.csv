@@ -1,0 +1,2 @@
+1,select specobjid from specobjall where plate = # and mjd = # and fiberid = #;
+2019-03-19 17:40:00,1

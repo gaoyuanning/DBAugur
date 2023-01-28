@@ -1,0 +1,2 @@
+1,"SELECT Top # G.ObjID , S.z, G.u, G., G.ra , G.dec,S.class FROM Galaxy as G,   -- G is the galaxy   SpecObj   as S,   -- S is the spectra of galaxy G   SpecLine  as L,    -- L is a line of S   SpecLineNames as LN  -- the names of the lines  WHERE G.ObjID = S.bestObjID	-- connect the galaxy to the spectrum   And S.z <= # and S.class=#"
+2019-09-26 06:32:00,1

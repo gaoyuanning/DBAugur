@@ -1,0 +1,2 @@
+2,"SELECT   m.SPRC, m.objid, s.specobjid, m.ra, m.dec, p.dered_u,p.dered_g,p.dered_r,p.dered_i,p.dered_z,   s.class,s.subclass, s.z as redshift , g.h_beta_flux,   g.oiii_#_flux, g.h_alpha_flux, g.nii_#_flux, g.oi_#_flux, g.sii_#_flux into SPRG_for_#_BPT from dr1#.PhotoObjAll AS p     JOIN DR1#.SpecObj AS s ON s.bestobjid = p.objid     JOIN MyDB.SPRC AS m ON m.Objid = p.objid     JOIN DR1#.galSpecLine AS g ON s.specobjid = g.specobjid"
+2019-07-11 14:07:00,2

@@ -1,0 +1,4 @@
+3,"select * from (   select     objid, rerun, run, camcol, field, flags,     ra, dec, probpsf,     psfmag_u, psfmag_g, psfmag_r, psfmag_i, psfmag_z,     devmag_u, devmag_g, devmag_r, devmag_i, devmag_z,     expmag_u, expmag_g, expmag_r, expmag_i, expmag_z,     fracdev_r,     devab_r, expab_r,     devphi_r, expphi_r,     devrad_r, exprad_r,     (flags & @SATURATED) as is_saturated   into coadd_field_catalog   from stripe8#.photoobj   where     run in (#, #) and     ra between # and # and     dec between # and # ) as tmp where   ((psfmag_i < # and probpsf = #)     or (probpsf = # and (expmag_i < # or devmag_i < #)))   and (flags & @bad_flags) = #"
+2019-12-05 17:28:00,1
+2019-12-05 17:40:00,1
+2019-12-05 18:32:00,1

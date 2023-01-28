@@ -1,0 +1,15 @@
+14,"SELECT p.objid, p.dered_u AS u, p.psfMagErr_u as u_err, p.dered_g AS g, p.psfMagErr_g as g_err, p.dered_r AS r, p.psfMagErr_r as r_err, p.dered_i AS i, p.psfMagErr_i as i_err, p.dered_z AS z, p.psfMagErr_z as z_err FROM photoObj p JOIN dbo.fGetNearbyObjEq(#, #, #) n ON p.objid = n.objID WHERE p.type = # AND p.psfMag_g BETWEEN # AND # AND p.psfMag_u/p.psfMagerr_u > # AND p.psfMag_g/p.psfMagerr_g > # AND p.psfMag_r/p.psfMagerr_r > # AND p.psfMag_i/p.psfMagerr_i > # AND p.psfMag_z/p.psfMagerr_z > #"
+2019-04-18 15:30:00,1
+2019-04-18 15:38:00,1
+2019-04-18 16:09:00,1
+2019-04-18 16:13:00,1
+2019-04-18 16:19:00,1
+2019-04-18 16:30:00,1
+2019-04-18 16:33:00,1
+2019-04-18 16:45:00,1
+2019-04-18 16:48:00,1
+2019-04-18 16:54:00,1
+2019-04-18 16:55:00,1
+2019-04-18 16:59:00,1
+2019-04-18 17:09:00,1
+2019-04-18 17:14:00,1

@@ -1,0 +1,5 @@
+7,"SELECT    p.ra,p.dec,f.mjd_u,p.u,p.g,p.r,p.i,p.z,p.objID,p.err_i FROM    photoObj p JOIN field f ON p.fieldid=f.fieldid WHERE    type = #   /*AND p.psfMag_i - p.cmodelMag_i > #*/   AND f.mjd_u != #   AND p.ra BETWEEN # AND #   AND p.dec BETWEEN # AND #"
+2019-06-01 12:32:00,2
+2019-06-01 12:34:00,1
+2019-06-01 12:36:00,3
+2019-06-01 12:38:00,1

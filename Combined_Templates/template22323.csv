@@ -1,0 +1,2 @@
+1,"select ra, dec, modelMag_g, modelMag_u, modelMag_r, modelMag_u - modelMag_g, modelMag_g - modelMag_r from StarTag where (ra between # and #) and (dec between # and #) and (modelMag_g between # and #)"
+2019-03-22 20:31:00,1

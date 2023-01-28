@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid,s.subclass,p.z,p.specObjID,snMedian,dbo.fGetUrlFitsSpectrum(p.specObjID) as spectrum FROM PhotoObjAll p join SpecObjAll s on p.specObjID=s.specObjID WHERE   s.subclass = &&& and zWarning = # and snMedian > #"
+2019-04-01 03:07:00,1

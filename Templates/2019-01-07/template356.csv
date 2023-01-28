@@ -1,0 +1,3 @@
+2,"select top # * from samples order by newid() ) select rs.sampleid,bl.* from rs join BW cross apply dbo.fGetBlocksWigTable(bw.block,@lo,@hi) as bl on bw.sampleid=rs.sampleid   and bw.chr=@chr   and bw.lo<=@hi   and bw.hi >=@lo order by rs.sampleid,bl.lo"
+2019-01-07 06:19:00,1
+2019-01-07 11:17:00,1

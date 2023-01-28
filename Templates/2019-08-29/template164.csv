@@ -1,0 +1,2 @@
+1,"SELECT ra, dec FROM Galaxy WHERE  stripe = #  AND gal.petroMag_g < #  AND sp.z < #  AND sp.z > #"
+2019-08-29 16:55:00,1

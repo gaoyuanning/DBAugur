@@ -1,0 +1,2 @@
+1,"select ObjID,ra,dec,flags into mydb.g5_g1# from PhotoObjAll where type=# and petroRad_g># and ExpMag_g<#"
+2019-04-11 09:43:00,1

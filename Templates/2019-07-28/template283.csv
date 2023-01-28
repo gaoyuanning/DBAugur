@@ -1,0 +1,6 @@
+5,"select plate,MJD,fiberID from specobjall where subClass like &&& and snMedian_g>=# and snMedian_g<#"
+2019-07-28 01:37:00,1
+2019-07-28 02:57:00,1
+2019-07-28 04:36:00,1
+2019-07-28 06:11:00,1
+2019-07-28 06:14:00,1

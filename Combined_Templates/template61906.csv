@@ -1,0 +1,2 @@
+2,"SELECT m.AEGISfield, m.RA, m.dec, s.plate, s.mjd, s.fiberID, s.z, m.z, s.modelMag_u, s.modelMag_g, s.modelMag_r, s.modelMag_i, s.modelMag_z, s.modelMagErr_r, m.mag_r, s.Class from SpecPhotoAll s, mydb.pmf_matched_qsos m into mydb.info_matched_qsos WHERE s.plate = m.plate and s.mjd = m.MJD and s.fiberID = m.fiber"
+2019-09-09 12:02:00,2

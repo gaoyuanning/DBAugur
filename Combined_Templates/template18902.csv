@@ -1,0 +1,2 @@
+1,"select s.ra, s.dec, s.z from DR1#.specObj s into mydb.ra_dec_z where s.class = #"
+2019-03-09 17:27:00,1

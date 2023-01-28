@@ -1,0 +1,2 @@
+2,"SELECT STR (z, #, #) z, ra, dec FROM spezObj WHERE specClass = # AND dec BETWEEN # AND # AND ra BETWEEN # AND # AND z BETWEEN # AND #"
+2019-05-02 18:18:00,2

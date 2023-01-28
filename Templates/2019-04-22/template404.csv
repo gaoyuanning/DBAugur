@@ -1,0 +1,2 @@
+1,"SELECT SUM(st.UnitPrice) AS &&&, st.AlbumId FROM st GROUP BY st.AlbumId"
+2019-04-22 14:17:00,1

@@ -1,0 +1,2 @@
+1,"SELECT g.plate, g.mjd, g.fiberid, g.ra, g.dec into mydb.SDSS_gal_# FROM galSpecLine as g"
+2019-04-05 15:39:00,1

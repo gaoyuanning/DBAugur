@@ -1,0 +1,12 @@
+11,"select fehspectype,sptypea,hammersptype,flag,feha,fehaerr, teffa, teffaerr, logga,loggaerr,ra,dec,pmra,pmdec from sppParams where ra between #-cos(#*#/#) and #+cos(#*#/#) and dec between # # and # + # and fehrerr between # and # and rvaerr between # and # and sppParams.fehspectype = SER"
+2019-03-03 08:08:00,1
+2019-03-03 08:24:00,1
+2019-03-03 08:41:00,1
+2019-03-03 08:50:00,1
+2019-03-03 09:03:00,1
+2019-03-03 09:14:00,1
+2019-03-03 09:24:00,1
+2019-03-03 10:42:00,1
+2019-03-03 11:05:00,1
+2019-03-03 11:46:00,1
+2019-03-03 12:15:00,1

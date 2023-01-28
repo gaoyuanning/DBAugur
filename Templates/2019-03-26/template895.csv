@@ -1,0 +1,3 @@
+2,"SELECT TOP #  p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z, s.specobjid, s.class, s.z as redshift, GN.distance, p.petroR5#_r, SM.logMass, s.veldisp FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid  JOIN dbo.fGetNearbyObjEq(#,#, #) AS GN ON p.objID = GN.objID  Join stellarMassFSPSGranEarlyNoDust as SM ON p.specObjID = SM.specObjID WHERE  s.z between # and # ORDER BY distance"
+2019-03-26 03:19:00,1
+2019-03-26 03:20:00,1

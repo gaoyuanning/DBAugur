@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.ra, p.dec, p.devRad_u, p.devRadErr_u, p.fracDev_u, p.deVMag_u, s.z as redshift, p.probPSF FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE s.z BETWEEN # AND # AND p.fracDev_u > = # AND p.probPSF = = #"
+2019-11-26 10:34:00,1

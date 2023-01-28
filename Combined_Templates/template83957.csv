@@ -1,0 +1,2 @@
+2,"SELECT DISTINCT s.plate, s.fiberID, s.mjd FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE s.dec BETWEEN # AND # ORDER by s.plate"
+2019-12-20 23:57:00,2

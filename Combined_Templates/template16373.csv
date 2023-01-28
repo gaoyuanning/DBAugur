@@ -1,0 +1,2 @@
+1,"select id, date, hour , location.ToString () as location , ASSAULT, BURGLARY, LARCENY, ARSON, THEFT, WEAPSCH, KIDNAPPING, HOMICIDE, DRUGS, ROBBERY, RAPE, SEXCRIMES, WEAPONS, VIOLENT, PROPERTY, DRUG, OTHER from Crimes where date between # and # and location is not #"
+2019-03-03 14:55:00,1

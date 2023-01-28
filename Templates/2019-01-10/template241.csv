@@ -1,0 +1,2 @@
+2,"select top #   n.plate,   n.mjd,   n.fiber from mydb.dr1#xmqc_clean as m   cross apply dbo.fSDSSfromSpecID(m.SpecObjId) as n where m.SpecObjId > #"
+2019-01-10 14:29:00,2

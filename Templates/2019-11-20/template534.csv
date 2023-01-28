@@ -1,0 +1,3 @@
+2,"SELECT   g.objID, y.specobjID, g.ra, g.dec, y.ra, y.dec, y.z, y.zerr, y.zwarning, p.z, p.zerr, g.Modelmag_u, g.Modelmagerr_u,    g.Modelmag_g, g.Modelmagerr_g, g.Modelmag_r, g.Modelmagerr_r, g.Modelmag_i, g.Modelmagerr_i, g.Modelmag_z, g.Modelmagerr_z      into mydb.sdss_dr1# from galaxyTag g   join specobj y ON y.specobjID = g.specobjID   left outer join photoz p ON p.objID = g.objID"
+2019-11-20 02:55:00,1
+2019-11-20 02:58:00,1

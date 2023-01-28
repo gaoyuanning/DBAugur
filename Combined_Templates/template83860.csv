@@ -1,0 +1,2 @@
+2,"SELECT top # p.ra, p.dec, x.SDSSObjid FROM photoobjall as p, xSDSSDR7 as x WHERE p.objid = x.objid"
+2019-12-19 09:55:00,2

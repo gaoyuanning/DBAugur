@@ -1,0 +1,3 @@
+2,"SELECT  FLOOR(Star.l/#)*#, AVG(#*SpecObjAll.z/COS(RADIANS(Star.b))), STDEV(#*SpecObjAll.z/COS(RADIANS(Star.b)))/SQRT(COUNT(*)) FROM Star INNER JOIN SpecObjAll ON SpecObjAll.bestObjID = Star.objID INNER JOIN sppParams ON sppParams.specobjid = SpecObjAll.specObjID WHERE SpecObjAll.z >= # AND SpecObjAll.z <= # AND sppParams.feha > # AND sppParams.feha < # GROUP BY FLOOR(Star.l/#)*# ORDER BY FLOOR(Star.l/#)*#"
+2019-01-23 13:27:00,1
+2019-01-23 17:13:00,1

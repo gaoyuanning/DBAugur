@@ -1,0 +1,4 @@
+3,"SELECT       a.name, a.radeg, a.decdeg, p.objID, p.ra, p.dec,       p.cModelMag_u, p.cModelMag_g, p.cModelMag_r, p.cModelMag_i, p.cModelMag_z,       p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z,       p.petroMag_u, p.petroMag_r, p.petroR5#_r, p.petroR9#_r,       p.expRad_u, p.expRad_g, p.expRad_r, p.expRad_i,       p.expAB_u, p.expAB_g, p.expAB_r, p.expAB_i,       p.fracDeV_u, p.fracDeV_g, p.fracDeV_r, p.fracDeV_i,       p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i,       p.lnLDeV_r, p.type,p.specObjID into mydb.New_Table_# from mydb.input_short as a       CROSS APPLY dbo.fGetNearestObjEq( a.radeg, a.decdeg, #) AS n        JOIN PhotoPrimary AS p ON n.objid=p.objid"
+2019-05-21 16:08:00,1
+2019-05-21 16:09:00,1
+2019-05-21 16:11:00,1

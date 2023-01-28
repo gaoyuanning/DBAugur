@@ -1,0 +1,5 @@
+16,"SELECT s.ra, s.dec, s.plate, s.mjd, s.fiberid, s.run2d, s.z, s.class, s.subClass, e.sigmaStars, e.sigmaStarsErr, e.bpt, e.ebmv FROM SpecObj AS s, emissionLinesPort AS e WHERE ( (s.zwarning = #) AND (s.z < #) AND (s.class = #) AND (s.subClass = #) AND (e.sigmaStars > #*e.sigmaStarsErr) AND (e.bpt = #) AND (e.ebmv > #*e.ebmv_err) )"
+2019-03-19 17:08:00,4
+2019-03-19 17:09:00,7
+2019-03-19 17:10:00,1
+2019-03-19 17:11:00,4

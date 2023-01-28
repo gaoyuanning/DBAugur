@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID, z GSL.nii_#_flux, GSL.nii_#_flux_err, GSL.h_alpha_flux, GSL.h_alpha_flux_err, GSL.oiii_#_flux, GSL.oiii_#_ flux_err, GSL.h_beta_flux, GSL.h_beta_flux_err, GSL.h_delta_flux, GSL.h_delta_flux_err, GSX.d4#, GSX.d4#_err, GSE.bptclass, GSE.lgm_tot_p5#, GSE.sfr_tot_p5#, G.objID, GSI.specObjID FROM SpecObj WHERE class = # AND z BETWEEN # and #"
+2019-10-30 16:31:00,1

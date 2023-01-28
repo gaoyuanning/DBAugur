@@ -1,0 +1,2 @@
+2,"select l.AGCNr as AGCNr, l.RAdeg_OC as ra, l.DECdeg_OC as dec, l.Vhelio as Vhelio, l.Dist as Dist, l.z as HI_z, N.objID as objID, N.run, N.camcol, N.field, N.rerun, N.type, N.cx, N.cy, N.cz, N.htmID, N.distance, (N.distance*#*l.Dist*#) /# as distance_kpc, Z.z as photo_Near_z into mydb.lsbg_nearby_dr7 from mydb.edge_lsbg_# l cross apply dbo.fGetNearbyObjEq (l.RAdeg_OC, l.DECdeg_OC, #) N JOIN photoZ as Z on N.objID = Z.objID WHERE Z.z > = (l.z-#* (#+l.z) ) and Z.z < = (l.z+#* (#+l.z) ) and (N.distance*#*l.Dist) /# < = # group by l.AGCNr"
+2019-11-10 16:50:00,2

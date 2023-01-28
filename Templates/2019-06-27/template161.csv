@@ -1,0 +1,2 @@
+1,"select s.objTypeName, s.objType, p.ra, p.dec, p.objID, s.z as redshift, p.g from photoObj p, SpecObj s WHERE p.specObjID=s.specObjID and p.objID = #"
+2019-06-27 20:09:00,1

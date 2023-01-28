@@ -1,0 +1,11 @@
+16,"SELECT TOP # p.objid, p.ra,p.dec,p.petror9#_r, p.dered_g, p.dered_r, s.z as z_spec, s.zErr, zns.dr8objid, zns.total_votes as nvote, t0#_edgeon_a0#_yes_weighted_fraction as edgeon, t0#_bar_a0#_bar_weighted_fraction as barred, t0#_spiral_a0#_spiral_weighted_fraction as spiral, t0#_smooth_or_features_a0#_smooth_weighted_fraction as smooth, t0#_odd_a1#_no_weighted_fraction as not_odd  FROM Galaxy as p    JOIN Zoo2MainSpecz AS zns ON p.objid = zns.dr8objid    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.clean=# and zns.total_votes >= # AND zns.t0#_bar_a0#_bar_weighted_fraction > #"
+2019-02-22 13:36:00,1
+2019-02-22 13:40:00,1
+2019-02-22 13:53:00,1
+2019-02-22 13:54:00,3
+2019-02-22 13:56:00,2
+2019-02-22 13:57:00,2
+2019-02-22 13:58:00,2
+2019-02-22 13:59:00,2
+2019-02-22 14:00:00,1
+2019-02-22 14:07:00,1

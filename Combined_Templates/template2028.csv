@@ -1,0 +1,2 @@
+1,"SELECT s.bestobjid, m.medLDsm as met into mydb.met_dr7objid from MyDB.metallicities AS m, SpecObj AS s WHERE m.plate = s.plate and m.mjd = s.mjd and m.fiberid = s.fiberid"
+2019-01-10 12:21:00,1

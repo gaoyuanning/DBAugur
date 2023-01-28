@@ -1,0 +1,2 @@
+3,"select top # objID, G.ra, G.dec, sample  into MyDB.test2  from Galaxy as G   full outer join zoo2MainPhotoz as zmp    on G.objID = zmp.dr8objid where clean = # and   petror9#_r > #  order by objID"
+2019-01-16 00:47:00,3

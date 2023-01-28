@@ -1,0 +1,5 @@
+9,"select cg.geom.ToString () as wkt, cg.btype, cg.ptype from CellTag ca, CellGeom cg where ca.sampleid = # and ca.px between # and # and ca.py between # and # and cg.cellid = ca.cellid"
+2019-11-26 16:23:00,1
+2019-11-26 16:26:00,5
+2019-11-26 16:27:00,2
+2019-11-26 16:30:00,1

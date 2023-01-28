@@ -1,0 +1,4 @@
+5,"SELECT c.ID_T, c.ID, c.RA as RA_#, c.DEC as DEC_#, n.objID, n.distance, p.objID, p.specObjID, p.ra as ra_#, p.dec as dec_#, p.z, p.petroR5#_r, p.petroR5#Err_r, p.petroR9#_r, p.petroR9#Err_r, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, p.modelMagErr_u, p.modelMagErr_g, p.modelMagErr_r, p.modelMagErr_i, p.modelMagErr_z, p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i, p.extinction_z FROM MYDB.TODOS as c OUTER APPLY dbo.fGetNearestObjEq (c.RA, c.DEC, #) AS n LEFT JOIN PhotoObjAll AS p ON n.objid = p.objid INTO mydb.TODOS_salida ORDER BY c.ID_T"
+2019-03-21 17:33:00,2
+2019-03-21 17:34:00,1
+2019-04-16 14:36:00,2

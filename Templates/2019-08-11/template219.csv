@@ -1,0 +1,2 @@
+1,"SELECT u.up_col0 as [col0], x.objID, TOP # objid, q_r, u_r  from photoObj WHERE type = #"
+2019-08-11 10:49:00,1

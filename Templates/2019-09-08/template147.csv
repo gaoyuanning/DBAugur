@@ -1,0 +1,2 @@
+1,"SELECT  ra, dec, g, r  FROM photobj  WHERE  ra BETWEEN # and # AND dec BETWEEN # AND # AND (g<=#)"
+2019-09-08 16:10:00,1

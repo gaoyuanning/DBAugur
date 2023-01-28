@@ -1,0 +1,2 @@
+1,"select mjd_u, mjd_g, mjd_r, mjd_i, mjd_z, dec, ra from Field where dec < # AND dec > # AND (ra > # #R ra < #)"
+2019-11-19 08:26:00,1

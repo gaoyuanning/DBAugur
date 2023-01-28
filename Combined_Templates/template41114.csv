@@ -1,0 +1,3 @@
+4,"select top # objid, ra, dec, gfrom galaxy where clean = # order by ra asc"
+2019-05-22 11:42:00,2
+2019-05-22 11:43:00,2

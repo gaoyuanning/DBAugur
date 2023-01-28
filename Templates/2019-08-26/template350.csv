@@ -1,0 +1,2 @@
+1,"SELECT u.objid, twom.tmassxsc_ra, twom.tmassxsc_dec, twom.K_M_K2#FE, galSpecInfo.e_bv_sfd into mydb.galaxies_sim_# From MyDB.MyTable_# as u   JOIN SpecObj s ON s.specObjID = u.objid   JOIN PhotoObj AS p ON s.bestobjid = p.objid   JOIN TwoMassXSC as twom ON s.bestobjid = twom.objid   JOIN galSpecInfo ON galSpecInfo.specObjID = s.specObjID"
+2019-08-26 02:28:00,1

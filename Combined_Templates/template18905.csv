@@ -1,0 +1,2 @@
+2,"select s.ra, s.dec, s.z from DR1#.specObj s into mydb.zl0#cont where s.class = # and s.z< #"
+2019-03-09 17:18:00,2

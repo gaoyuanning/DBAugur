@@ -1,0 +1,3 @@
+2,"select p.ra, p.dec, p.dered_g, p.dered_r, p.dered_i, p.dered_z, p.err_g, p.err_r, p.err_i, p.err_z FROM PhotoPrimary p WHERE ( (p.flags & @bad_flags) ) = # AND (p.dered_r< =#) AND (p.ra> =#) AND (p.ra< =#) AND (p.dec> #) AND (p.dec< =#) AND (p.type = #)"
+2019-10-24 09:56:00,1
+2019-10-24 10:03:00,1

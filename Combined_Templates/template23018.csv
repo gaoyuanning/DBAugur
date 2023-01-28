@@ -1,0 +1,2 @@
+2,"select objid, ra, dec, u, g, r, i, z, type, probPSF from photoobj where ra between # and # and dec between # and #"
+2019-03-24 05:54:00,2

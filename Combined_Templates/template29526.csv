@@ -1,0 +1,2 @@
+1,"SELECT u.up_name as [name], # + cast (x.objId as varchar (#) ) + #+ cast (x.objId as varchar (#) ) + # as objID, p.ra, p.dec, a.isoA_r, a.isoB_r, a.isoA_i, a.isoB_i, a.isoA_g, a.isoB_g FROM #upload u JOIN #x x ON x.up_id = u.up_id JOIN PhotoTag p ON p .objID = x.objID JOIN PhotoObjAll a ON a.objID = x.objID ORDER BY x.up_id"
+2019-04-12 17:17:00,1

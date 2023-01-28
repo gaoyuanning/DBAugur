@@ -1,0 +1,2 @@
+1,"SELECT TOP # dbo.fCosmoDl(s.z) AS Dl,      p.petroMag_r,      p.extinction_r,     s.z,      p.petroMag_r-#*log1#(dbo.fCosmoDl(s.z))#-extinction_r AS absmag FROM  SpecObj AS s   INNER JOIN PhotoObj AS p   ON s.bestObjID=p.objID WHERE SpecClass=# AND s.z># AND s.z<# AND p.petroMag_r># ) SELECT absmag, z FROM q WHERE absmag<# AND z<#"
+2019-01-31 04:37:00,1

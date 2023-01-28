@@ -1,0 +1,3 @@
+6,"select g.objid,g.ra,g.dec,g.u,g.Err_u,g.g,g.Err_g,g.r,g.Err_r,g.i,g.Err_i,g.z,g.Err_z,p.z from PhotoObj AS g where g.ra between # and # and g.dec between # and # order by g.objid"
+2019-12-16 11:03:00,5
+2019-12-16 11:04:00,1

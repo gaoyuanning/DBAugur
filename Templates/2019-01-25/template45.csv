@@ -1,0 +1,6 @@
+18,"SELECT objID, ra, dec, psfMag_r, psfMagErr_r,clean,type,mode FROM PhotoObj WHERE (ra between # and #) and (dec between # and #) and type=# and mode=# and (petroMag_r <= #)"
+2019-01-25 22:57:00,1
+2019-01-25 23:19:00,1
+2019-01-25 23:20:00,6
+2019-01-25 23:21:00,5
+2019-01-25 23:22:00,5

@@ -1,0 +1,2 @@
+1,"SELECT count (*) as #, l, b, type FROM PhotoPrimary WHERE (l between # and #) and (b between # and #)"
+2019-03-06 17:13:00,1

@@ -1,0 +1,2 @@
+1,"SELECT top # sp.plate, sp.mjd, sp.fiberid, sp.specobjid, sp.bestobjid, sp.elodiervfinal, sp.teffadop, sp.fehadop, sp.loggadop into mydb.MyTable from sppParams as sp WHERE sp.teffadop between # and # AND sp.fehadop < #  AND sp.fehadop > # AND sp.loggadop < #  AND sp.loggadop > # AND sp.seguePrimary = # AND sp.survey LIKE &&& AND sp.programname LIKE &&&  AND (sp.zwarning = # OR sp.zwarning = #) AND sp.elodiervfinalerr != # and sp.snr > #"
+2019-11-05 12:35:00,1

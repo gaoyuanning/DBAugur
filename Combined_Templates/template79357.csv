@@ -1,0 +1,2 @@
+1,"SELECT p.modelMag_r, p.modelMag_r-#*log1# (#E+#*z) as abs_mag_r FROM SpecPhoto WHERE p.modelMag_r-#*log1# (#E+#*z) < # and p.modelMag < #"
+2019-11-27 09:45:00,1

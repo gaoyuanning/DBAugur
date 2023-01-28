@@ -1,0 +1,16 @@
+35,"SELECT DISTINCT p.objID, p.ra, p.dec, p.raErr, p.decErr, p.fiberMag_u, p.fiberMagErr_u, p.fiberMag_g, p.fiberMagErr_g, p.fiberMag_r, p.fiberMagErr_r, p.fiberMag_i, p.fiberMagErr_i, p.fiberMag_z, p.fiberMagErr_z, p.mode, p.clean, p.type FROM PhotoObjAll AS p WHERE ((p.ra between # and #) and (p.dec between # and #))"
+2019-11-14 01:31:00,3
+2019-11-14 01:32:00,2
+2019-11-14 01:33:00,2
+2019-11-14 01:34:00,3
+2019-11-14 01:35:00,3
+2019-11-14 01:36:00,2
+2019-11-14 01:37:00,2
+2019-11-14 01:40:00,2
+2019-11-14 01:41:00,3
+2019-11-14 01:42:00,2
+2019-11-14 01:43:00,2
+2019-11-14 01:44:00,3
+2019-11-14 01:45:00,2
+2019-11-14 01:46:00,3
+2019-11-14 01:47:00,1

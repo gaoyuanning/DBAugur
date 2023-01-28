@@ -1,0 +1,2 @@
+1,"select top # P.objid, P.ra, P.dec, P.u,P.g, P.r, P.i, P.z, P.err_u, P.err_g, P.err_r, P.err_i, P.err_z, P.petroR5#_r, P.petroR5#Err_r, S.z, S.zerr, S.zWarning,P.type, S.class, S.subClass, S.sourceType from  SpecObj AS S left outer JOIN PhotoObj AS P ON S.bestobjid = P.objid"
+2019-06-20 09:02:00,1

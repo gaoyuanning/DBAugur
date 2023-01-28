@@ -1,0 +1,2 @@
+1,"select enrollment.SystemStudentID   ,enrollment.GradeLevel as EnrollmentGrade   ,enrollment.SchoolYear4Digit   ,enrollment.isActiveEnrollment   ,count(parent.EventDate) as Parent_Score   from Enrollment enrollment   left join ParentEngagement parent   on enrollment.SystemStudentID = parent.StudentID     and enrollment.SchoolYear4Digit = parent.SchoolYear4Digit group by enrollment.SystemStudentID   ,enrollment.GradeLevel as EnrollmentGrade   ,enrollment.SchoolYear4Digit   ,enrollment.isActiveEnrollment"
+2019-10-02 14:50:00,1

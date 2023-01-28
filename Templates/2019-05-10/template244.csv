@@ -1,0 +1,2 @@
+1,"select      Galaxy.modelMag_u, Galaxy.modelMag_g,      Galaxy.modelMag_r, Galaxy.modelMag_i,      Galaxy.modelMag_z,     Galaxy.ra, Galaxy.dec, Galaxy.ObjID from     Galaxy, mydb.radec2#p1# where     mydb.radec2#p1#.ra = Galaxy.ra     and  mydb.radec2#p1#.dec = Galaxy.dec"
+2019-05-10 15:30:00,1

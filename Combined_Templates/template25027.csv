@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, objid into mydb.edge_on FROM dbo.zooVotes WHERE p_edge > #"
+2019-03-28 14:47:00,1

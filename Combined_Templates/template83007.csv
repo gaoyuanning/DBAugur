@@ -1,0 +1,2 @@
+1,"select AssetID = a.ID, AssetNodeDist = an.NodeDist, TractID = t.ID, TractNodeDist = tn.NodeDist, d.* from optw.tamass.ASSETS a left join optw.ptheta.Portland1#Assets an on a.ID = an.ID left join optw.ptheta.Portland1#Drive d on an.NodeID = d.OrigNodeID or an.NodeID = d.DestNodeID left join optw.ptheta.Portland1#Tracts tn on tn.NodeID = d.OrigNodeID or tn.NodeID = d.DestNodeID left join optw.tamass.TRACTS t on tn.ID = t.ID where an.NodeDist < @nodedistmax and tn.NodeDist < @nodedistmax and Minutes > # order by AssetID, TractID"
+2019-12-15 10:01:00,1

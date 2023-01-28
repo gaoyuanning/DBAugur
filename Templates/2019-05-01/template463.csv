@@ -1,0 +1,2 @@
+1,"SELECT EID,[Number_of_incorrect_matches_in_round_#],[Number_of_incorrect_matches_in_round_pilot__#],[Time_to_complete_round_#],[Time_to_complete_round_pilot__#],[Screen_layout_#],[Number_of_columns_displayed_in_round_#],[Number_of_rows_displayed_in_round_#],[Number_of_correct_matches_in_round_#],[Number_of_correct_matches_in_round_pilot__#] FROM Pairs_matching GO"
+2019-05-01 09:27:00,1

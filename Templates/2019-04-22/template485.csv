@@ -1,0 +1,5 @@
+5,"select * from openquery([#.#],&&&'paac_jhu_#_all&&&   and sl.list_id=sll.list_id   and s.internal_id=sll.sample_id   and gp.stable_id=&&&paac_jhu_#_mutations&&&   and g.hugo_gene_symbol in (&&&PTEN&&&,&&&EGFR&&&)   and m.sample_id=s.internal_id   and m.genetic_profile_id=gp.genetic_profile_id   and m.entrez_gene_id = g.entrez_gene_id   and me.mutation_event_id=m.mutation_event_id ') a"
+2019-04-22 08:41:00,1
+2019-04-22 08:42:00,2
+2019-04-22 08:43:00,1
+2019-04-22 08:44:00,1

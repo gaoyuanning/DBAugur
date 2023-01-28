@@ -1,0 +1,2 @@
+1,select count (*) from (select distinct field) as tmp
+2019-12-30 14:13:00,1

@@ -1,0 +1,3 @@
+2,"select into gz2disks_#   m.mangaid,   m.plateifu,   m.objra,   m.objdec,   m.ifura,   m.ifudec,   m.mngtarg1,   m.mngtarg3,   m.nsa_z,   m.nsa_zdist,   m.nsa_elpetro_phi,   m.nsa_elpetro_ba,   m.nsa_elpetro_th5#_r,   m.nsa_sersic_n,   z.specObjID from mangaDrpAll m cross apply dbo.fGetNearbySpecObjEq(m.objra, m.objdec, #) as n join zoo2MainSpecz z on z.specobjid=n.specObjID where   m.mngtarg2=# and   z.t0#_smooth_or_features_a0#_features_or_disk_weighted_fraction > # and   z.t0#_edgeon_a0#_no_weighted_fraction > # and   z.t0#_odd_a1#_no_weighted_fraction > # and   m.nsa_elpetro_ba >= # and   m.nsa_elpetro_ba <= # and   m.mngtarg1 > #"
+2019-01-14 16:03:00,1
+2019-01-14 16:04:00,1

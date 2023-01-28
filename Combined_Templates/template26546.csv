@@ -1,0 +1,2 @@
+1,"select ra, dec psfMag_i from PhotoObj where (ra = #) and (dec = #)"
+2019-04-01 09:00:00,1

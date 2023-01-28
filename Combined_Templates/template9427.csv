@@ -1,0 +1,2 @@
+1,"SELECT TOP # count (*) , ObjID, modelMag_r, petroRad_r FROM PhotoObjAll WHERE (ra between # and #) and (dec between # and #)"
+2019-02-10 23:33:00,1

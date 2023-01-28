@@ -1,0 +1,2 @@
+1,"SELECT TOP # spec.specObjID, gal.dered_u, gal.dered_g, gal.dered_r, gal.dered_i, gal.dered_z, gal.err_u, gal.err_g, gal.err_r, gal.err_i, gal.err_z, spec.z AS zs INTO mydb.DR1#_spec_clean_phot FROM SpecObj AS spec"
+2019-07-01 21:42:00,1

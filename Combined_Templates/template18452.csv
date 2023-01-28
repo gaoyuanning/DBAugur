@@ -1,0 +1,8 @@
+36,"SELECT TOP # p.objId, p.ra, p.dec, p.petror9#_r, p.expAB_r, p.dered_u, p.dered_g, p.dered_r, p.dered_i, p.extinction_g, p.extinction_r, p.extinction_i, p.extinction_u, p.extinction_z FROM galaxy AS p WHERE g < # and b between # and #"
+2019-03-07 13:12:00,2
+2019-03-07 13:13:00,1
+2019-03-07 13:14:00,1
+2019-03-07 13:16:00,2
+2019-03-07 13:17:00,5
+2019-03-07 13:18:00,15
+2019-03-07 13:19:00,10

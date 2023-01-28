@@ -1,0 +1,2 @@
+1,"SELECT   p.ra,p.dec, gs.oiii_#_flux, gs.oii_#_flux, s.z FROM   PhotoObj as p  JOIN SpecObj AS s ON s.bestobjid = p.objid  JOIN galSpecLine AS gs ON s.bestobjid = gs.specObjID WHERE  cModelMag_i ># and cModelMag_i <# and psfMag_i <#  and cModelMagErr_g <# and cModelMagErr_r <#  and petroR9#_i <# and petroR9#_i ># and petrorad_r <#   and gs.oiii_#_flux > #  and clean=#"
+2019-09-07 09:16:00,1

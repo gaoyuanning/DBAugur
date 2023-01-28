@@ -1,0 +1,2 @@
+1,"SELECT m.objra AS ra1, m.objdec AS dec1, o.petromag_u, o.psfmag_u, o.ra AS ra2, o.dec AS dec2 into mydb.ellison_list_photobj from MyDB.ellison_list_drpall AS m CROSS APPLY dbo.fGetNearestObjEq (m.objra, m.objdec, #) AS n JOIN PhotoObj AS o ON n.objid = o.objid"
+2019-09-11 10:32:00,1

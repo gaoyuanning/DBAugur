@@ -1,0 +1,2 @@
+1,"select g.Name,p.objID,p.z,p.zErr into mydb.photoz_wiyn_targets_specz1 from mydb.wiyn_targetid as g, dbo.SpecObj as p where   p.objID = g.objID"
+2019-04-13 13:57:00,1

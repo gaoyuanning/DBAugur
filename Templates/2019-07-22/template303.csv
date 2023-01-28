@@ -1,0 +1,6 @@
+20,"SELECT ra,dec,dered_u,dered_g,dered_r,dered_i,dered_z,Err_u,Err_g,Err_r,Err_i,Err_z,flags_r,run   FROM Galaxy   WHERE   ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-07-22 12:15:00,1
+2019-07-22 12:18:00,4
+2019-07-22 12:19:00,5
+2019-07-22 12:20:00,5
+2019-07-22 12:21:00,5

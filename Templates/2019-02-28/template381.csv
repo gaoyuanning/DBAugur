@@ -1,0 +1,2 @@
+1,"select ra, dec, specobjid,  dr7objid, nvote, p_el_debiased, p_cs_debiased into mydb.zoo_spirals from zooSpec where spiral = #"
+2019-02-28 13:42:00,1

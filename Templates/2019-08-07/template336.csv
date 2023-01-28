@@ -1,0 +1,2 @@
+1,"SELECT               --s.specObjID AS id, s.mjd, s.plate, s.fiberID, s.ra AS ra, s.dec AS dec,              --s.z AS redshift, s.zErr AS redshift_err, s.snMedian AS snr,             c.fe_h AS Fe_H, c.fe_h_err AS Fe_H_err,              c.teff AS T_eff, c.teff_err AS T_eff_err,             c.logg AS log_g, c.logg_err AS log_g_err,             c.alpha_m AS a_H, c.alpha_m_err AS a_H_err         INTO cannon_sample         FROM cannonStar c         WHERE c.teff > #               AND c.logg > #               AND c.fe_h > #"
+2019-08-07 11:45:00,1

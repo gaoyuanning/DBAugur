@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID,  	      field, ra, dec, modelMag_r, modelMag_i, cModelMag_r, cModelMag_i, psfMag_r, psfMag_i,fiberMag_r, fiberMag_i into mydb.MyTable_# from PhotoObj 	 WHERE    ra BETWEEN #-# AND #+#   AND dec BETWEEN #-# AND #+#   AND psfMag_i-cModelMag_i < #"
+2019-04-24 05:30:00,1

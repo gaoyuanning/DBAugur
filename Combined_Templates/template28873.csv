@@ -1,0 +1,2 @@
+1,"SELECT SPA.lgm_tot_p5#, SPA.sfr_tot_p5#, FSPSG.logmass into GU2#_hw3 FROM SpecPhotoAll as SPA, PhotoObjAll as PA, stellarMassFSPSGranEarlyDust as FSPSG"
+2019-04-09 06:02:00,1

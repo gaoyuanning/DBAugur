@@ -1,0 +1,2 @@
+1,"SELECT l.specObjID, l.oiii_#_cont, l.h_alpha_cont, l.h_beta_cont, l.nii_#_cont, l.oi_#_cont INTO mydb.sdss_specline FROM galSpecLine as l"
+2019-09-17 04:59:00,1

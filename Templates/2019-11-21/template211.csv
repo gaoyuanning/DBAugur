@@ -1,0 +1,2 @@
+1,"SELECT    o.objid, o.specobjid,o.ra,o.dec, q.EW_Hb_# into mydb.exclu_#_ew_hb FROM MyDB.exclu_#_info2 AS m    CROSS APPLY dbo.fGetNearestObjEq(m.ra, m.dec, #) AS n    JOIN PhotoObjall AS o ON n.objid=o.objid   JOIN emissionlinesport as q ON o.objid=q.objid"
+2019-11-21 18:10:00,1

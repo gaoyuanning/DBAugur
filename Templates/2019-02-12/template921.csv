@@ -1,0 +1,2 @@
+1,"SELECT Top # ObjID, modelMag_r, petroRad_r FROM SpecPhoto WHERE (ra between # and # ) and (dec between # and #) and type = # and modelMag_r > # and petroRad_r< #"
+2019-02-12 01:47:00,1

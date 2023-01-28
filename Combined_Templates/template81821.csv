@@ -1,0 +1,2 @@
+1,select count (*) into mydb.MyTable_# from DR1#.zooSpec
+2019-12-10 11:37:00,1

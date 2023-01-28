@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, s.specobjid , s.z AS zs, s.class, s.subclass, s.zErr, w.w1mag AS w1, w.w2mag AS w2 into mydb.MyTable from WISE_xmatch AS xm   LEFT OUTER JOIN photoObjAll AS p ON xm.sdss_objid = p.objid   LEFT OUTER JOIN WISE_allsky AS w ON xm.wise_cntr = w.cntr   LEFT OUTER JOIN SpecObjAll AS s ON s.bestobjid = p.objid"
+2019-08-13 11:55:00,1

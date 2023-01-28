@@ -1,0 +1,2 @@
+1,"INSERT INTO #upload values ( #, &&&, #, #) create table #x (up_id int,objID bigint) insert into #x  EXEC dbo.spGetNeighborsAll #  EXEC spExecuteSQL &&&,&&&, @log=#, @filter=#"
+2019-11-06 10:53:00,1

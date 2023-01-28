@@ -1,0 +1,5 @@
+4,"SELECT s.z, s.specObjID, gs.oiii_#_reqw FROM SpecObj as s JOIN galSpecLine as gs ON s.specObjID = gs.specObjID WHERE s.z BETWEEN # AND #"
+2019-03-30 21:52:00,1
+2019-03-30 21:54:00,1
+2019-03-30 21:55:00,1
+2019-03-30 21:56:00,1

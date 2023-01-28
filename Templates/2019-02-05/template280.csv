@@ -1,0 +1,2 @@
+1,"SELECT sp.spectroSynFluxIvar_g, sp.spectroSynFluxIvar_r, sp.spectroSynFluxIvar_i, sp.spectroSynFluxIvar_z, sp.spectroSkyFlux_u, sp.spectroSkyFlux_g, sp.spectroSkyFlux_r, sp.spectroSkyFlux_i, sp.spectroSkyFlux_z, sp.anyAndMask, sp.anyOrMask, sp.plateSN2, sp.deredSN2, sp.snTurnoff, sp.sn1_g, sp.sn1_r, sp.sn1_i, sp.sn2_g, sp.sn2_r, sp.sn2_i into mydb.DR1#_sp_# from SpecObj AS sp WHERE z BETWEEN #. AND #. AND class=&&&"
+2019-02-05 13:36:00,1

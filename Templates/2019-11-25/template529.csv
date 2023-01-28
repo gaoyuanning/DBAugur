@@ -1,0 +1,2 @@
+2,"SELECT top # specobjid, ra, dec, z, zerr, class, subclass FROM specobj WHERE zwarning = # and z > #"
+2019-11-25 02:15:00,2

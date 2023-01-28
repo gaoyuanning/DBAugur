@@ -1,0 +1,2 @@
+20,"SELECT p.rowc_u,p.colc_u, p.rowc_g,p.colc_g, p.rowc_r,p.colc_r, p.rowc_i,p.colc_i, p.rowc_z,p.colc_z, FROM PhotoObjAll as p WHERE p.objID = #"
+2019-01-02 23:47:00,20

@@ -1,0 +1,2 @@
+2,"select top # ObjID, z, cModelMag_r from SpecPhoto where (abs(ra - #)< #) and (abs(dec - #)< #) and (abs(z - #)< #) and (class = &&&)"
+2019-06-18 03:18:00,2

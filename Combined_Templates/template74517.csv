@@ -1,0 +1,2 @@
+1,"SELECT class, count (*) , subclass, count (*) from specobj group by class, subclass"
+2019-11-07 00:27:00,1

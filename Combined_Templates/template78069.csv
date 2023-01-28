@@ -1,0 +1,2 @@
+1,"SELECT TOP # P7.dr7objID, P7.dr8objID into mydb.MyTable from PhotoObjDR7 p7 JOIN mydb.Simard1#_ObjID s ON p7.dr7ObjID = s.dr7objID"
+2019-11-22 14:58:00,1

@@ -1,0 +1,2 @@
+1,"select specObjID,objID,ra,dec into mydb.specphoto2 from SpecPhoto"
+2019-01-28 04:34:00,1

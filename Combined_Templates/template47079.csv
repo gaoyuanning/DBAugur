@@ -1,0 +1,2 @@
+1,"select top # p.objID, p.u, p.g, p.r, p.i, p.z, p.z, p.plate, p.fiber, s.objID, s.u, s.g, s.r, s.i, s.z, s.z, s.plate, s.fiber FROM specObj p JOIN photoObj s ON s.bestphotoObj = p.specObj where class = # AND g > # AND z< # AND"
+2019-06-20 08:27:00,1

@@ -1,0 +1,2 @@
+1,"select top #  objID, ra, dec, u, g, r, i, z, psfmag_u  from  galaxy"
+2019-12-14 01:54:00,1

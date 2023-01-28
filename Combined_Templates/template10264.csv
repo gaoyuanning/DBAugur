@@ -1,0 +1,2 @@
+1,"SELECT ObjID, modelMag_r, z, Class FROM SpecPhoto JOIN Galaxy WHERE (ra between # and #) and (dec between # and #) AND modelMag_r < # AND z < #"
+2019-02-12 07:41:00,1

@@ -1,0 +1,3 @@
+2,"SELECT objid, ra, dec, u, g, r, i, z, b as Latitude, l as Longitude FROM Star WHERE r < # and ra BETWEEN # and # and dec BETWEEN # and # and type = #"
+2019-03-09 18:58:00,1
+2019-03-09 19:12:00,1

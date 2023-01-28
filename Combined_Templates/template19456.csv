@@ -1,0 +1,2 @@
+1,"SELECT top # gal.objID, gal.u, gal.g, gal.r, gal.i, gal.z, s.z, x.plate, x.mjd, s.fiberID into mydb.MyTable from galaxy gal JOIN specObj s on s.bestObjID = gal.objID JOIN plateX x on x.plateID = s.plateID WHERE s.class = # AND s.z = #"
+2019-03-11 10:59:00,1

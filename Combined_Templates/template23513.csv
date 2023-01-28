@@ -1,0 +1,2 @@
+1,"select top # objID, cModelMag_u, cModelMag_g, cModelMag_r, cModelMag_i, cModelMag_z, class from PhotoObjAll inner join SpecObjAll on SpecObjAll.objID = PhotoObjAll.bestObjID"
+2019-03-25 15:53:00,1

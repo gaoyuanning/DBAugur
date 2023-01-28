@@ -1,0 +1,2 @@
+1,"select dbo.fSpecidFromSDSS (q.plate, q.mjd, q.fiberid, #) as specObjID into mydb.MyTable from mydb.dr1#q as q where q.spectro = #"
+2019-01-14 09:20:00,1

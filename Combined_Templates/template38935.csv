@@ -1,0 +1,2 @@
+1,"SELECT dbo.fInFootprintEq (t.ra, t.dec, #) FROM MyTable_# AS t"
+2019-05-12 06:09:00,1

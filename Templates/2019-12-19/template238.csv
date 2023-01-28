@@ -1,0 +1,2 @@
+1,"SELECT TOP # run,            camCol,   rerun,   field,   objID,   u, g, r, i, z,   ra, dec into mydb.MyTable_# from PhotoPrimary"
+2019-12-19 13:02:00,1

@@ -1,0 +1,3 @@
+2,"SELECT top #  m.ra, m.dec, m.plate, m.mjd, m.fiberid into mydb.stars_#ra5_#dec4# from SpecObj as m WHERE m.ra>=# and m.dec<=# and m.dec>=# and m.dec<=# and m.class=&&& AND m.zWarning = #"
+2019-05-23 12:13:00,1
+2019-05-23 12:17:00,1

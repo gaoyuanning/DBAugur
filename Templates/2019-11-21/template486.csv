@@ -1,0 +1,2 @@
+1,"select PhotoObjAll.mjd, PhotoObjAll.ra, PhotoObjAll.dec, PhotoObjAll.u, PhotoObjAll.g, PhotoObjAll.r, PhotoObjAll.i, PhotoObjAll.z, PhotoObjAll.TAI_u, PhotoObjAll.TAI_g, PhotoObjAll.TAI_r, PhotoObjAll.TAI_i, PhotoObjAll.TAI_z from PhotoObjAll, specObj where dec < # AND dec > # AND (ra > # AND ra < # )"
+2019-11-21 09:14:00,1

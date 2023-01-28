@@ -1,0 +1,2 @@
+1,"select top # * from dbo.fgetnearbyobjeq(#, #, #/#) where (run=# or run=#) order by distance"
+2019-08-01 14:08:00,1

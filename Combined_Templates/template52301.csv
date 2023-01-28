@@ -1,0 +1,2 @@
+1,"SELECT a.idc, a.objid, p.modelmag_u, p.modelmag_g, p.modelmag_r, p.modelmag_i, p.modelmag_z, p.modelmagerr_u, p.modelmagerr_g, p.modelmagerr_r, p.modelmagerr_i, p.modelmagerr_z, w.w1mpro, w.w2mpro, w.w3mpro, w.w4mpro, w.w1sigmpro, w.w2sigmpro, w.w3sigmpro, w.w4sigmpro, w.w1snr, w.w2snr, w.w3snr, w.w4snr INTO MyDB.aa FROM MyDB.agnvec AS a LEFT JOIN PhotoObj AS p ON a.objid = p.objid LEFT JOIN wise_xmatch as xm on xm.sdss_objid = p.objid LEFT JOIN wise_allsky as w on xm.wise_cntr = w.cntr ORDER BY a.idc"
+2019-07-17 15:56:00,1

@@ -1,0 +1,3 @@
+2,"SELECT   p.objid,  s.specobjid, s.subclass, s.zwarning FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid"
+2019-07-08 16:30:00,1
+2019-07-08 16:31:00,1

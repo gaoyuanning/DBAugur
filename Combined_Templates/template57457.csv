@@ -1,0 +1,2 @@
+1,"SELECT sp.specObjID, sp.ra, sp.dec, sp.pmRa, sp. pmDec sp.psfMag_i - sp.extinction_i as imag, sp.psfMagErr_i as ierr, FROM SpecDR7 AS sp WHERE sp.class = # AND sp.type = # AND sp.mode = # INTO mydb.dwarf_griz"
+2019-08-13 00:37:00,1

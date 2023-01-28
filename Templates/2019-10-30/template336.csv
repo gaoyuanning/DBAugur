@@ -1,0 +1,3 @@
+2,"select   s.objid, s.ra, s.dec, s.u, s.g, s.err_g, s.r,s.err_r, s.i,s.err_i, s.z, s.g-s.r as g_minus_r, s.type --into mydb.Whiting1   from star s, dbo.fGetNearbyObjEq(#,#,#) n  where   s.objid = n.objid and   s.type=# and   s.err_r<#   and s.r<#"
+2019-10-30 12:10:00,1
+2019-10-30 12:11:00,1

@@ -1,0 +1,2 @@
+1,"SELECT ALL mangaid, objra, objdec FROM mangadrpall  WHERE  mngtarg1 != # or mngtarg3 != #"
+2019-09-24 13:06:00,1

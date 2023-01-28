@@ -1,0 +1,2 @@
+1,"select ra, dec, mode, type from photoObj where ra > # and ra < #"
+2019-06-20 15:29:00,1

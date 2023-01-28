@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.deVAB_g, p.deVAB_i, p.deVAB_r, p.deVAB_u, p.deVAB_z, p.deVABErr_g, p.deVABErr_i, p.deVABErr_r, p.deVABErr_u, p.deVABErr_z FROM PhotoObj AS p"
+2019-02-14 05:33:00,1

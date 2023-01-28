@@ -1,0 +1,2 @@
+2,"SELECT   o.objID, o.petroMag_u, o.petroMag_r,    m.PGC_name --INTO myfirsttable FROM dr5.PhotoObjAll as o LEFT JOIN mydb.PGC AS m ON m.objID = o.objID"
+2019-08-10 14:37:00,2

@@ -1,0 +1,2 @@
+1,"SELECT a.specObjID, a.plateid, a.mjd,     a.targettype, a.z, a.ra, a.dec, a.spectrotype,     b.lick_hd_a, b.lick_hd_a_err, b.lick_hd_a_model,     b.lick_hd_a_sub, b.lick_hd_a_sub_err,     b.d4#_n, b.d4#_n_err, b.d4#_n_model,     b.d4#_n_sub, b.d4#_n_sub_err,     c.lgm_tot_p5#, c.sfr_tot_p5# into mydb.MyTable_# from galSpecInfo AS a    JOIN galSpecIndx AS b              ON a.specObjID = b.specObjID    JOIN galSpecExtra AS c              ON a.specObjID = c.specObjID"
+2019-03-11 13:22:00,1

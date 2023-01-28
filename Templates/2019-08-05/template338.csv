@@ -1,0 +1,2 @@
+1,select * into mydb.MyTable from gaia_source WHERE source_id = #
+2019-08-05 08:43:00,1

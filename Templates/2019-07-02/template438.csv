@@ -1,0 +1,2 @@
+1,"select ID, BlockLot, FullAddress, NumNeighbors     from RealPropertiesAll g         cross apply (             select NumNeighbors = count(ID)             from RealGoodNeighbors             where MinID=g.ID or ID=g.ID         ) x"
+2019-07-02 10:41:00,1

@@ -1,0 +1,2 @@
+1,"select g.ra, g.dec, g.petroMag_r, g.modelMag_g, g.modelMag_r, g.petroR5#_r, g.extinction_r, g.extinction_g, g.specObjID into finalProj from PhotoObjAll as g where (g.ra ># and g.ra < #) and (g.dec> # and g.dec< #) and g.petromag_r < # and g.clean = # and g.psfMag_r - g.cmodelmag_r > #"
+2019-05-01 16:30:00,1

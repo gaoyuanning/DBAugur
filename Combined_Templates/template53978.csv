@@ -1,0 +1,2 @@
+1,"select p.objid, p.ra, p.dec, p.l, p.b, p.dered_u, p.dered_g, p.dered_r into mydb.Orphan_SDSS_Extinction_Part3 from fGetObjFromRect (#, #, #, #) n, photoobj p where (p.dered_g BETWEEN # AND #) and (p.dered_u-p.dered_g > #) and (p.dered_g-p.dered_r BETWEEN # AND #) and (n.objid = p.objid)"
+2019-07-26 11:05:00,1

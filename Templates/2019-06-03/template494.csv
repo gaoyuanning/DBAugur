@@ -1,0 +1,5 @@
+5,"SELECT           objID,    ra, dec,   u, g, r, i, z,   err_u, err_g, err_r,err_i, err_z into mydb.MyTable from Star                              WHERE ( i > # )    and ( i < # )    and ( type = # )"
+2019-06-03 01:14:00,1
+2019-06-03 01:20:00,1
+2019-06-03 01:21:00,2
+2019-06-03 01:23:00,1

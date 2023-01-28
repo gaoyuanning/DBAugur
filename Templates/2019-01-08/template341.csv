@@ -1,0 +1,5 @@
+4,"SELECT TOP # u,g,r,i,z,ra,dec, flags_r  FROM Star  WHERE   ra BETWEEN # and # AND dec BETWEEN # and #  AND ((flags_r"
+2019-01-08 03:29:00,1
+2019-01-08 06:27:00,1
+2019-01-08 07:28:00,1
+2019-01-08 08:42:00,1

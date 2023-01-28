@@ -1,0 +1,2 @@
+2,"SELECT s.specobjid, s.bestobjid, s.firstrelease, s.survey, s.sourcetype, s.class, p.ra, p.raErr, p.dec, p.decErr, s.z, s.zErr, s.zwarning, p.r, p.i, p.g, p.dered_r, p.dered_i, p.dered_g, p.psfMag_g, p.petroMag_r, p.extinction_r, p.petroR5#_r INTO mydb.GALAXY_RED3_detail FROM photoobj as p JOIN specobj as s ON s.bestobjid = p.objid WHERE (primtarget & dbo.fPrimTarget (#) > #)"
+2019-12-16 02:29:00,2

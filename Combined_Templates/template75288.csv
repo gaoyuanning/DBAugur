@@ -1,0 +1,7 @@
+6,"SELECT TOP # run, camCol, rerun, field, objID, ra, dec FROM Galaxy WHERE (flags & (dbo.fPhotoFlags (#) | dbo.fPhotoFlags (#) | dbo.fPhotoFlags (#) )) > # and (flags & (dbo.fPhotoFlags (#) | dbo.fPhotoFlags (#) | dbo.fPhotoFlags (#) )) ! = dbo.fPhotoFlags (#) and ( (flags & dbo.fPhotoFlags (#) = #) and petroR5#_i > #) SELECT (dbo.fPhotoFlags (#) | dbo.fPhotoFlags (#) | dbo.fPhotoFlags (#) ) #) SELECT (dbo.fPhotoFlags (#) | dbo.fPhotoFlags (#) | dbo.fPhotoFlags (#) ) #) SELECT dbo.fPhotoFlags (#) #) SELECT dbo.fPhotoFlags (#) SELECT TOP # run, camCol, rerun, field, objID, ra, dec FROM Galaxy WHERE (flags & #) > # and (flags & #) ! = # and ( (flags & # = #) and petroR5#_i > #)"
+2019-11-12 15:10:00,1
+2019-11-12 15:11:00,1
+2019-11-12 15:12:00,1
+2019-11-14 15:10:00,1
+2019-11-14 15:13:00,1
+2019-11-14 19:45:00,1

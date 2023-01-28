@@ -1,0 +1,3 @@
+2,"SELECT m.objid as gal_id, m.ra AS gal_ra, m.dec AS gal_dec, n.objid as star_id, n.distance, s.ra AS star_ra, s.dec AS star_dec into mydb.micadomatches from MyDB.micadogals AS m CROSS APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n JOIN mydb.micadostars AS s ON n.objid = s.objid"
+2019-07-15 13:32:00,1
+2019-07-15 13:40:00,1

@@ -1,0 +1,3 @@
+2,"SELECT run, rerun, camcol, field, mjd_r as primary_mjd  INTO MyDB.test1# FROM Field  WHERE mjd_r > #"
+2019-11-08 00:00:00,1
+2019-11-08 00:01:00,1

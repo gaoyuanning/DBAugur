@@ -1,0 +1,15 @@
+14,"select pa.objID, pa.ra, pa.dec, pa.type,   pa.dered_u, pa.modelMag_u, pa.modelMagErr_u,     pa.dered_g, pa.modelMag_g, pa.modelMagErr_g,   pa.dered_r, pa.modelMag_r, pa.modelMagErr_r,   pa.dered_i, pa.modelMag_i, pa.modelMagErr_i,   pa.dered_z, pa.modelMag_z, pa.modelMagErr_z  into mydb.S8#PhotoObj_#B from PhotoObjAll as pa  WHERE (pa.dec between # and #.)   and (pa.ra between # and #)   and ((pa.flags & #)=#)   and ((pa.flags & #)=#)   and ((pa.flags & #)=# or pa.psfMagErr_r<=#)   and ((pa.flags & #)=#)   and ((pa.type)=# or (pa.type)=#)"
+2019-07-08 08:05:00,1
+2019-07-08 08:11:00,1
+2019-07-08 08:21:00,1
+2019-07-08 08:36:00,1
+2019-07-08 08:54:00,1
+2019-07-08 09:15:00,1
+2019-07-08 09:34:00,1
+2019-07-08 09:39:00,1
+2019-07-08 09:45:00,1
+2019-07-08 09:49:00,1
+2019-07-08 09:54:00,1
+2019-07-08 10:03:00,1
+2019-07-08 10:09:00,1
+2019-07-08 10:15:00,1

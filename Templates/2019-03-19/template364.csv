@@ -1,0 +1,5 @@
+6,"SELECT TOP # bestobjid, z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # ORDER BY NEWID()"
+2019-03-19 13:11:00,1
+2019-03-19 13:14:00,1
+2019-03-19 13:19:00,2
+2019-03-19 13:20:00,2

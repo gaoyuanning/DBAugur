@@ -1,0 +1,2 @@
+1,"select count(*) as count,dered_r,s.ra,s.dec from SpecPhoto s where  s.ra=# and s.dec=#"
+2019-06-24 11:44:00,1

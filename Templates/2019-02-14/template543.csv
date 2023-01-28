@@ -1,0 +1,2 @@
+1,"SELECT   p.dr7objid,p.dr8objid   into mydb.test_check_id from PhotoObjDR7 as p  where( p.dr8objid = #)"
+2019-02-14 05:33:00,1

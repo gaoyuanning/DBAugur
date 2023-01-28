@@ -1,0 +1,4 @@
+3,"select specOBJID, objID, ra, dec, z, zerr, zwarning, class, subclass, type, sourcetype, petroMag_u, petroMag_g, petroMag_r, petroMag_i, petroMag_z, petroMagErr_u, petroMagErr_g, petroMagErr_r, petroMagErr_i, petroMagErr_z, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z, modelMagErr_u, modelMagErr_g, modelMagErr_r, modelMagErr_i, modelMagErr_z into myDB.SpecPall_gt3# from SpecPhotoAll Where z > = # and z < # AND type = #"
+2019-01-15 17:05:00,1
+2019-01-15 17:06:00,1
+2019-01-15 17:08:00,1

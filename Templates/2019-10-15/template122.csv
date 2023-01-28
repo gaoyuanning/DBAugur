@@ -1,0 +1,2 @@
+1,"SELECT specObjID,ra,dec,mag,spectroFlux_g from specObj where ra BETWEEN # AND #"
+2019-10-15 19:04:00,1

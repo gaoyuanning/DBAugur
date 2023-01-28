@@ -1,0 +1,2 @@
+1,"select mid.*, zooNoSpec.p_cs, zooNoSpec.p_el, zooNoSpec.p_dk, zooNoSpec.p_mg from (select four.*, zoo.spiral, zoo.elliptical, zoo.uncertain from MyDB.StageFour as four   left join dr1#.zooSpec as zoo on four.SDSS_ID = zoo.objID) as mid   left join dr1#.zooNoSpec as zooNoSpec on mid.SDSS_ID = zooNoSpec.objID   into MyDB.StageFive"
+2019-03-27 14:53:00,1

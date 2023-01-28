@@ -1,0 +1,2 @@
+2,"select vc.id as vc_id,vc.name as vc_name,dv.id,dv.name,dv.description,dv.displayname from volumecontainer vc   full outer join  datavolume dv on vc.name=dv.displayname ) select * from foo where vc_id is null or id is null order by #,#"
+2019-12-09 12:14:00,2

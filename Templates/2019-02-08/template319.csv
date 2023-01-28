@@ -1,0 +1,2 @@
+2,"SELECT # * n.distance, o.ra, o.dec, class, o.specObjID, survey, o.plate, o.z from fGetNearbySpecObjAllEq(#, #, # / #.)  n join SpecObjAll o on o.specObjID = n.specObjID order by #"
+2019-02-08 10:22:00,2

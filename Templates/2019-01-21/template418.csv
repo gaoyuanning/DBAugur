@@ -1,0 +1,2 @@
+1,"SELECT    specObjID,   mjd,   plate,   fiberID,   z,   ra,   dec,   objID,   objtype,   type into mydb.MyTable_# from dr7.SpecPhoto WHERE zWarning = #   AND z <=#   AND z >=#"
+2019-01-21 02:19:00,1

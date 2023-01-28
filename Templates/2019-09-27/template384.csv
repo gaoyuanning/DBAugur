@@ -1,0 +1,2 @@
+1,"SELECT s.SpecObjID, s.z  FROM SpecObj as s   JOIN SpecLine as L ON s.specObjID = L.specObjID"
+2019-09-27 08:40:00,1

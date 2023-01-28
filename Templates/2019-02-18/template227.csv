@@ -1,0 +1,2 @@
+1,"SELECT c.number, c.name,c.description, c.credits ,      t.name as teacherName,t.email as teacherEmail, t.office as teacherOffice   FROM course c     JOIN  teacher t       ON t.id=c.teacherid"
+2019-02-18 16:09:00,1

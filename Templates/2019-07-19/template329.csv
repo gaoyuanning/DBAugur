@@ -1,0 +1,2 @@
+1,"select   o.cntr_#,o.dist_x,o.name_#,o.ra_#,o.dec_#,o.ra,o.dec,o.w1mpro,o.w1sigmpro,o.w1snr,o.w2mpro,o.w2sigmpro,o.w2snr,o.w3mpro,o.w3sigmpro,o.w3snr,o.w4mpro,o.w4sigmpro into mydb.MyTable from MyDB.NonMasers_WISEnd as o where   o.w1snr># and o.w2snr># and o.w3snr>#"
+2019-07-19 09:54:00,1

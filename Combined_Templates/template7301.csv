@@ -1,0 +1,2 @@
+1,"SELECT sp.fiberMag_u, sp.fiberMag_g, sp.fiberMag_r, sp.fiberMag_i, sp.fiberMag_z, sp.fiberMagErr_u, sp.fiberMagErr_g, sp.fiberMagErr_r, sp.fiberMagErr_i, sp.fiberMagErr_z into mydb.DR1#_# from SpecPhoto AS sp WHERE z BETWEEN # AND # AND class = #"
+2019-01-31 12:25:00,1

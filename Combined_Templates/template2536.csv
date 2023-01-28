@@ -1,0 +1,2 @@
+1,"CREATE TABLE MaNGA_specObjID1# (mangaID varchar (#) , nsa_z float, bestObjID bigint, plate smallint, mjd int, fiberid smallint, ra float, dec float, z float, distance float) ;"
+2019-01-13 06:07:00,1

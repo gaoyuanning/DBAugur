@@ -1,0 +1,2 @@
+1,"SELECT t.ID, VAL=LOG(v.VAL,#), t.TRACT, Centroid = t.CENTROID.ToString(), wkt=t.GEOM.ToString()   FROM TRACTS t join VALS as v on t.ID = v.TRACTID   WHERE t.centroid.STDistance(@center) < # / # * # -- meters         AND v.VARID = # --,#,B1#_#E,Median household income in the past # months (in # inflation-adjusted dollars),MEDIAN HOUSEHOLD INCOME IN THE PAST # MONTHS          AND v.VAL is not NULL"
+2019-11-03 06:16:00,1

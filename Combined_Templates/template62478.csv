@@ -1,0 +1,3 @@
+2,"SELECT d.sdss_s_specObjId as input_specObjId, s.ra as s_ra, s.dec as s_dec, s.z as s_z, s.specObjID as s_specObjID, s.sciencePrimary, m.* into mydb.MyTable_# from MyDB.CAGN_final_specobjid_radec_vot AS d LEFT JOIN SpecObjAll AS s ON cast (d.sdss_s_specObjId as numeric) = s.specObjID LEFT JOIN stellarMassStarFormingPort AS m ON m.specObjID = s.specObjID"
+2019-09-11 09:13:00,1
+2019-09-11 09:16:00,1

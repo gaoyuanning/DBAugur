@@ -1,0 +1,2 @@
+1,"select top # dbo.fDistanceXYZ(a.cx,a.cy,a.cz, b.cx,b.cy,b.cz), m.Distance from Match m   join PhotoTag a on ObjID1=a.ObjID   join PhotoTag b on ObjID2=b.ObjID"
+2019-05-22 14:16:00,1

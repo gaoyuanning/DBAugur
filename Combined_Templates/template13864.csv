@@ -1,0 +1,2 @@
+1,"SELECT TOP # objid, p_cw_mon as spiralclock, p_acw_mon as spiralanticlock, p_el_mon as elliptical from galaxy as g from zooMonochromeBias"
+2019-02-24 13:06:00,1

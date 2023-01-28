@@ -1,0 +1,2 @@
+1,"SELECT   ra, dec, z, zErr, class, subClass, zWarning  FROM SpecPhotoAll  WHERE   ra BETWEEN # AND #  AND dec BETWEEN # AND #"
+2019-07-03 13:56:00,1

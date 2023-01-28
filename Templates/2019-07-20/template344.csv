@@ -1,0 +1,2 @@
+1,"select top #   id, t.objid, kcorrR0# from MyDB.temp as t   join Photoz as p on p.objid=t.objid"
+2019-07-20 02:43:00,1

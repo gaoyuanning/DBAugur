@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID, z, z_noqso, z_person FROM SpecObj WHERE ra between # and # and dec between # and #"
+2019-01-14 03:38:00,1

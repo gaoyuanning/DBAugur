@@ -1,0 +1,2 @@
+1,"SELECT objid, ra, dec FROM PhotoPrimary WHERE flags & (dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&)) = #"
+2019-03-27 03:13:00,1

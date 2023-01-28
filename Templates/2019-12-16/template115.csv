@@ -1,0 +1,2 @@
+1,"select count(*) as count from galaxy p, specobj s, galspecline as gsl where p.objid=s.bestobjid=gsl.specobjid and s.subclass=starforming&&&"
+2019-12-16 22:24:00,1

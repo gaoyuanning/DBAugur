@@ -1,0 +1,2 @@
+1,"SELECT bestObjID, ra, dec, z WHERE sqrt(square(#-ra) + square(#-dec)) <= .# AND class = &&&"
+2019-02-21 05:25:00,1

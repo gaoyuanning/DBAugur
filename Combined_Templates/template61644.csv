@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, s.z FROM PhotoObj as p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.i > # and p.i < # and petroR9#_r < # and petroR9#_r > # and petrorad_g < # and s.z BETWEEN # AND # and clean = #"
+2019-09-07 09:28:00,1

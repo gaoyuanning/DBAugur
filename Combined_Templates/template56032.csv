@@ -1,0 +1,3 @@
+2,"SELECT up_id, dbo.fGetNearestObjIdEq (up_ra, up_dec, #) as objId FROM #upload WHERE dbo.fGetNearestObjIdEq (up_ra, up_dec, #) IS NOT # EXEC spExecuteSQL #'< a target = INFO href = http://skyserver.sdss.org/DR1#/en/tools/explore/obj.aspx? id = # + cast (x.objId as varchar (#) ) + #> #+ cast (x.objId as varchar (#) ) + #< /a> # as objID, p.ra, p.dec, p.run, p.rerun, p.camcol, p.field, dbo.fPhotoTypeN (p.type) as type, p.modelMag_i, t.K_M_FE, t.K_M_EXT, t.K_MNSURFB_EFF FROM #upload u JOIN #x x ON x.up_id = u.up_id JOIN PhotoTag p ON p.objID = x.objID JOIN TwoMassXSC t ON p.objID = t.objID ORDER BY x.up_id ##', @log = #, @filter = #"
+2019-08-08 19:50:00,1
+2019-08-09 12:47:00,1

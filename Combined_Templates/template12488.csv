@@ -1,0 +1,2 @@
+1,"select yearId, playerId, sum (hr) , dense_rank () over (partition by yearid order by sum (hr) desc) as rank from baseball.batting group by yearId, playerId order by # desc"
+2019-02-20 18:51:00,1

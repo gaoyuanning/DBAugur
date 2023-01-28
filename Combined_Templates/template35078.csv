@@ -1,0 +1,2 @@
+1,"SELECT ALL objID, field, ra, dec, fiberMag_u, fiberMag_g, fiberMag_r, fiberMag_i, fiberMag_z, fiberMagErr_u, fiberMagErr_g, fiberMagErr_r, fiberMagErr_i, fiberMagErr_z, fiberFlux_u, fiberFlux_g, fiberFlux_r, fiberFlux_i, fiberFlux_z, fiberFluxIvar_u, fiberFluxIvar_g, fiberFluxIvar_r, fiberFluxIvar_i, fiberFluxIvar_z into mydb.G1# from PhotoPrimary WHERE ra > # and ra < # and dec > # and dec < #"
+2019-04-26 06:06:00,1

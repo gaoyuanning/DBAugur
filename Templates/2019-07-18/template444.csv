@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.camcol,p.field,p.rerun,p.run  FROM ..PhotoObj AS p  WHERE ( p.type = # OR p.type = #)"
+2019-07-18 07:39:00,1

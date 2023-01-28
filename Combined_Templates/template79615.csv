@@ -1,0 +1,3 @@
+2,"select MJD, fiber plate from speobj select plate, mjd, fiberID from specobj where subClass = # and snMedian > #"
+2019-11-28 00:00:00,1
+2019-11-28 00:04:00,1

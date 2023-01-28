@@ -1,0 +1,3 @@
+2,"SELECT TOP #  s.plate, s.mjd, s.fiberid, s.elodieSpType, spp.SPECTYPEHAMMER, m.HIP_SPTYPE, m.SP1, m.SP2 FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid  JOIN sppParams spp ON spp.bestobjid=p.objid  JOIN marvelsStar m ON m.RA_Final=s.ra AND m.DEC_Final=s.dec WHERE   s.class=&&&"
+2019-03-08 07:32:00,1
+2019-03-08 07:38:00,1

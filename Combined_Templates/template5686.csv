@@ -1,0 +1,8 @@
+9,"SELECT ALL ROW_NUMBER () OVER (ORDER BY ra ASC) as RowNumber, ra, dec, elpetro_absmag_u, zdist, elpetro_mtol_f, elpetro_mtol_n, elpetro_mtol_u, elpetro_mtol_g, elpetro_mtol_r, elpetro_mtol_i, elpetro_mtol_z, sersic_n, sersic_ba, sersic_mass FROM nsatlas WHERE ra BETWEEN # and #"
+2019-01-24 16:21:00,1
+2019-01-24 16:22:00,2
+2019-01-24 16:27:00,1
+2019-01-24 16:30:00,1
+2019-01-24 16:41:00,1
+2019-01-24 16:47:00,1
+2019-01-24 17:00:00,2

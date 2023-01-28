@@ -1,0 +1,2 @@
+1,"select s.objID, s.psfMag_u as u, s.psfMag_g as g, s.psfMag_r as r, s.psfMag_i as i, s.psfMag_z as z, so.elodieSpType from star as s, SpecObj as so where so.specObjID = s.objID clean = # and s.sfmag_r < # and s.ra BETWEEN # and # and s.dec BETWEEN # and #"
+2019-03-03 02:18:00,1

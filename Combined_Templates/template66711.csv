@@ -1,0 +1,2 @@
+1,"select count (*) as count from #x x, #upload u, photoPrimary p where u.up_id = x.up_id and x.objID = p.objID and p.type = #"
+2019-09-30 12:21:00,1

@@ -1,0 +1,2 @@
+1,"SELECT z, dered_u as u_mag, dered_g as g_mag, dered_r as r_mag, dered_i as i_mag, dered_z as z_mag FROM SpecPhoto WHERE zWarning = # AND class = # AND z < # AND mode = # AND type = #"
+2019-04-19 23:57:00,1

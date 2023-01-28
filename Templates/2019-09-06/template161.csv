@@ -1,0 +1,3 @@
+3,"SELECT S.ra as ra, S.dec as dec, S.objID as objID, S.z as redshift, GN.distance as distance FROM SpecPhoto as S JOIN dbo.fGetNearbyObjEq(#, #, #) AS GN ON S.objID = GN.objID ORDER BY S.objID"
+2019-09-06 19:07:00,1
+2019-09-06 19:10:00,2

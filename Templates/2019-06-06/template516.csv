@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.apogee_id, s.ra, s.dec, s.glon, s.glat, params.*, paramerrs.*, elemsALL.*, dbo.fApogeeAspcapFlagN(a.aspcapflag), dbo.fApogeeStarFlagN(s.starflag) into mydb.test3 from apogeeStar s JOIN aspcapStar a on a.apstar_id = s.apstar_id CROSS APPLY dbo.fAspcapParams(a.aspcap_id) params CROSS APPLY dbo.fAspcapParamErrs(a.aspcap_id) paramerrs CROSS APPLY dbo.fAspcapElemsAll( a.aspcap_id ) elemsALL"
+2019-06-06 04:54:00,1

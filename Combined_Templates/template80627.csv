@@ -1,0 +1,3 @@
+2,"SELECT objID, ra, dec, modelMAG_u, FROM galaxy WHERE ra BETWEEN # AND # AND modelMAG_u - modelMAG_g > #"
+2019-12-04 11:18:00,1
+2019-12-04 11:19:00,1

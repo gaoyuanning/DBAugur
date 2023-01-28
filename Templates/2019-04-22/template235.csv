@@ -1,0 +1,3 @@
+2,"select u.SN, u.objid, f.fieldid, f.psfwidth_u, f.psfwidth_g, f.psfwidth_r, f.psfwidth_i, f.psfwidth_z  from mydb.SDSS_all_unique_#_SNe_RESULTS_ALLROWS_J1# u    left join phototag p on p.objid=u.objid    left join field f on p.fieldid=f.fieldid  into mydb.SDSS_all_unique_#_SNe_J1#_PSFWIDTH"
+2019-04-22 19:20:00,1
+2019-04-22 19:23:00,1

@@ -1,0 +1,2 @@
+2,"SELECT SPA.z,SPA.petroMag_r, g.oiii_#_flux, g.oiii_#_flux_err, g.nii_#_flux, g.nii_#_flux_err, g.h_alpha_flux, g.h_alpha_flux_err, g.h_beta_flux, g.h_beta_flux_err into GU2#_hw6_#    From galSpecLine as g, SpecPhotoAll as SPA    Where    SPA.class=&&& and SPA.z < # and SPA.specObjID = g.specObjID"
+2019-05-09 10:48:00,2

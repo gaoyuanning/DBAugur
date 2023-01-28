@@ -1,0 +1,2 @@
+1,"select z, bestObjID, spectroFlux_u, spectroFlux_g, spectroFlux_r, spectroFlux_i, spectroFlux_z, fiberID, plate from specObj where spectroFlux_g BETWEEN # and # AND z < # AND class = GALAXY#"
+2019-02-13 16:08:00,1

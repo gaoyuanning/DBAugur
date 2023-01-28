@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.l, p.b, p.type FROM PhotoPrimary AS p WHERE l> # and l< # and b> # and b< #"
+2019-03-06 17:17:00,1

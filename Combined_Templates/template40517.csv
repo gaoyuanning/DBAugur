@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.u, p.g, p.r, p.i, p.z, s.z, x.plateID FROM galaxy p JOIN specObj s ON s.bestObjID = p.objID JOIN plateX x ON x.plateID = p.plateID WHERE s.class = # AND p.g BETWEEN # AND # AND s.z < #"
+2019-05-20 17:24:00,1

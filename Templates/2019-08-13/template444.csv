@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.bestObjID,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,s.z as redshift,g.d4#,g.d4#_err,g.d4#_n,g.d4#_n_err,g.d4#_n_sub,g.d4#_n_sub_err,g.d4#_sub,g.d4#_sub_err,gSI.v_disp, s.class FROM galSpecIndx as g  JOIN SpecObj AS s  ON g.SpecobjID = s.SpecobjID JOIN galSpecLine as gSL  ON gSL.SpecobjID = s.SpecobjID JOIN galSpecInfo as gSI  ON gSI.SpecobjID = s.SpecobjID JOIN galSpecExtra as gSE  ON gSE.SpecobjID = s.SpecobjID JOIN PhotoObj AS p  ON s.bestobjid = p.objid WHERE  s.CLASS = &&&"
+2019-08-13 12:19:00,1

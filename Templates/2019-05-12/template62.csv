@@ -1,0 +1,4 @@
+3,"SELECT TOP # p.objid, p.ra, p.dec, ISNULL(s.specobjid,#) AS specobjid, ISNULL(s.z, #) AS z  FROM Galaxy AS p LEFT OUTER JOIN SpecObj s ON s.bestObjID = p.objID  WHERE  p.u BETWEEN # AND # AND p.g BETWEEN # AND #"
+2019-05-12 05:51:00,1
+2019-05-12 08:41:00,1
+2019-05-12 20:27:00,1

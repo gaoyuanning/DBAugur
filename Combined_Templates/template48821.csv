@@ -1,0 +1,2 @@
+2,"SELECT TOP # A.RAJ2#, A.DEJ2#, C.ra, C.dec FROM MyDB.WISE_AGN_R9#_ptsrc_VIZIER1_# AS A CROSS APPLY dbo.fGetNearestObjEq (A.RAJ2#, A.DEJ2#, #/#.) AS B JOIN PhotoObjAll AS C ON B.objID = C.objID WHERE k_snr> =# INTO MyDB.WISE_AGN_R9#_ptsrc_VIZIER1_#_Twomass_#as"
+2019-06-28 18:53:00,2

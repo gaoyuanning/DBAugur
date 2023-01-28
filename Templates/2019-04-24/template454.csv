@@ -1,0 +1,3 @@
+2,"SELECT AlbumId, ArtistId FROM chinook.Album WHERE AlbumId <= #"
+2019-04-24 15:20:00,1
+2019-04-24 15:21:00,1

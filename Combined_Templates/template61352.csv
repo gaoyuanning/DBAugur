@@ -1,0 +1,2 @@
+1,"select top # p.objid as name, p.ra, p.dec from photoobj p where p.g > #"
+2019-09-05 03:51:00,1

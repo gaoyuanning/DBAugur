@@ -1,0 +1,2 @@
+1,SELECT count(*) as &&& into mydb.bhb_all from segueTargetAll as s
+2019-08-16 15:06:00,1

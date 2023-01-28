@@ -1,0 +1,2 @@
+1,"SELECT top # p.objID, p.flags, p.flags , dbo.fPhotoFlagsN (p.flags) FROM photoObjall p order by p.flags desc"
+2019-08-25 11:21:00,1

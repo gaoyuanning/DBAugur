@@ -1,0 +1,2 @@
+1,SELECT TOP # FROM PhotoObj AS p JOIN SpecObj AS sp ON sp.bestobjid = po.objid WHERE po.u BETWEEN # AND # AND g BETWEEN # AND #
+2019-07-10 15:43:00,1

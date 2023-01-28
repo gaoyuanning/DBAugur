@@ -1,0 +1,3 @@
+2,"SELECT p.objID, p.ra, p.dec into mydb.MyTable1 from PhotoObj AS p"
+2019-11-27 01:06:00,1
+2019-11-27 09:47:00,1

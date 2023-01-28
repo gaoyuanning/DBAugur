@@ -1,0 +1,2 @@
+1,"SELECT tar.mangaID, tar.nsa_sersic_absmag_g, tar.nsa_sersic_absmag_r, tar.nsa_extinction_g, tar.nsa_extinction_r, tar.nsa_sersic_th5#, tar.nsa_elpetro_ba, tar.nsa_z, tar.nsa_zdist, pipe.log_Mass, pipe.e_log_mass, pipe.log_Mass_gas, pipe.e_log_Mass_gas FROM mangatarget as tar JOIN mangaPipe3D as pipe WHERE tar.mangaID = pipe.mangaID"
+2019-03-25 20:26:00,1

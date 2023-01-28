@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.elodieSpType,s.elodieTEff,p.psfMag_g,p.psfMag_i,p.psfMag_r,p.psfMag_u,p.psfMag_z  FROM ..SpecObj as s  JOIN ..Star AS p ON s.bestObjID = p.objID  WHERE s.zWarning = # AND (s.class = &&&)"
+2019-10-23 16:52:00,1

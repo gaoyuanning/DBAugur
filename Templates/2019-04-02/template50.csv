@@ -1,0 +1,4 @@
+156,"select s.objid, s.r, s.g - s.r from star s, dbo.fGetNearbyObjEq(#,#,#) n where s.objid = n.objid and s.g - s.r > #"
+2019-04-02 23:21:00,39
+2019-04-02 23:22:00,92
+2019-04-02 23:23:00,25

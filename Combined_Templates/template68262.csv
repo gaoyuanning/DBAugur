@@ -1,0 +1,3 @@
+10,"select distinct top # star.ra, star.dec, PLATESCALE* (star.ra - plate.racen) /cos (plate.deccen*PI () /#) as x, PLATESCALE* (star.dec - plate.deccen) as y, obj.j as mag from apogeestar as star, apogeeObject as obj, apogeePlate as plate where obj.target_id = star.target_id and plate.location_id = star.location_id and plate.plate = XXXX order by mag"
+2019-10-07 11:50:00,1
+2019-11-02 15:54:00,9

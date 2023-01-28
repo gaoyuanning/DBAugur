@@ -1,0 +1,3 @@
+2,"SELECT G.objID,mn.ldist_z,G.u,G.g,G.r,G.i,G.z,a.*, emline.z as z_noqso,   emline.sigmaStars as emline_vdisp,   pca.vdisp_median as pca_vdisp,   sp.veldisp as sp_vdisp  FROM Galaxy as G join  GalSpecLine as a on G.SpecobjID = a.SpecObjID  join stellarMassPCAWiscBC0# AS pca  ON G.specobjid = pca.specobjid join emissionLinesPort as emline  on pca.specobjid = emline.specobjid JOIN specObj as sp  ON emline.specobjid = sp.specobjid JOIN mangaDAPall as mn on G.htmID = mn.htmID"
+2019-10-19 18:07:00,1
+2019-10-19 18:09:00,1

@@ -1,0 +1,3 @@
+2,"SELECT     m.*,      n.distance,o.*     into mydb.S4G_catalog_infoSDSS_DR1#_#arcsec from MyDB.S4G_catalog AS m     OUTER APPLY dbo.fGetNearestObjEq( m.ra, m.dec, #*#) AS n     LEFT JOIN PhotoObjall AS o ON n.objid=o.objid"
+2019-06-18 15:18:00,1
+2019-06-18 15:20:00,1

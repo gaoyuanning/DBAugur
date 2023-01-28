@@ -1,0 +1,2 @@
+1,"SELECT   TOP # mangaid, psfmag_#, psfmag_#, psfmag_#, plate, IFUDESIGN  FROM MaStar_goodvisits  WHERE   (mngtarg2 & POWER(#, #)) <> #   AND psfmag_# BETWEEN # AND #   AND (psfmag_# - psfmag_#) BETWEEN # AND #"
+2019-10-23 15:44:00,1

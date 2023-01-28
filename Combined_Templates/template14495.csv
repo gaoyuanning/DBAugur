@@ -1,0 +1,2 @@
+1,"SELECT RANDOM # specobjid, z, survey, bestobjid FROM SpecObj WHERE survey = # and programname = # AND class = # AND zWarning = # AND Z BETWEEN x and y"
+2019-02-26 15:16:00,1

@@ -1,0 +1,2 @@
+1,"select s.ra, s.dec, s.z, m.lgm_tot_p5#, m.lgm_tot_p1#, m.lgm_tot_p8#, m.specsfr_tot_p5#, m.specsfr_tot_p1#, m.specsfr_tot_p8# from Galaxy g join galSpecInfo s on s.specObjID = g.specObjID join galSpecExtra m on m.specobjid = s.specobjid where l.specsfr_tot_p5# > # and s.z < # and s.sn_median > #"
+2019-09-11 18:26:00,1

@@ -1,0 +1,2 @@
+2,"SELECT top # m.objID, m.RAdeg, m.DEdeg, o.ra, o.dec, dbo.fGetNearestObjIdEq (RAdeg, DEdeg, #) as objId into mydb.MyTable_# from mydb.Dani_table_Chiara_new as m JOIN aspcapStar as o ON (m.RAdeg = o.ra and m.DEdeg = o.dec) WHERE dbo.fGetNearestObjIdEq (RAdeg, DEdeg, #) IS NOT #"
+2019-06-07 11:18:00,2

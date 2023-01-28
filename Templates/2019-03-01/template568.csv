@@ -1,0 +1,3 @@
+2,"SELECT top #  a.apogee_id, a.ra, a.dec, a.k, c.specObjID, c.ra, c.dec, c.z, c.logMass, c.ssfr  from apogeeObject a JOIN stellarMassFSPSGranEarlyDust c ON a.ra = c.ra JOIN stellarMassFSPSGranEarlyDust c ON a.dec = c.dec WHERE c.z < # AND a.k < #"
+2019-03-01 05:14:00,1
+2019-03-01 05:27:00,1

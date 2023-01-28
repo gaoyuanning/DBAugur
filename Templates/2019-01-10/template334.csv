@@ -1,0 +1,3 @@
+2,"SELECT ra, dec, objID into mydb.MyTable_# from TwoMass WHERE ra < # AND ra > # AND dec < # AND dec > #"
+2019-01-10 09:10:00,1
+2019-01-10 09:13:00,1

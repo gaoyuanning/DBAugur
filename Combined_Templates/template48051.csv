@@ -1,0 +1,3 @@
+2,"SELECT s.z, s.velDisp, s.plate, s.mjd, s.fiberid, ge.lgm_tot_p8#, ge.bptclass, ge.sfr_tot_p5#, ge.specsfr_fib_p5# gi.d4#_n, gi.d4#_n_err FROM SpecObj AS s JOIN galSpecIndx AS gi ON s.specObjID = gi.specObjID JOIN galSpecExtra AS ge ON s.specObjID = ge.specObjID JOIN SpecPhotoAll AS sph ON s.specObjID = sph.specObjID WHERE s.z BETWEEN # AND # AND s.survey = # AND s.class = # AND s.snMedian_r > # AND s.zWARNING = #"
+2019-06-25 14:29:00,1
+2019-06-25 14:30:00,1

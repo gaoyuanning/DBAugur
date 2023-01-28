@@ -1,0 +1,2 @@
+1,"SELECT G.ra,G.dec,G.type,G.CmodelMag_g,G.CmodelMag_r into mydb.CIRs FROM	Galaxy AS G    CROSS APPLY	dbo.fGetNearbyObjEq(@ra_#,@dec_#,@rad ) AS GN   WHERE     (G.flags & dbo.fPhotoFlags(&&&)) = #  ORDER BY distance"
+2019-12-03 03:20:00,1

@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.deVMag_u, p.deVMag_g, p.deVMag_r, p.deVMag_i, p.deVMagErr_u, p.deVMagErr_g, p.deVMagErr_r, p.deVMagErr_i, p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i, p.deVRad_r, p.deVRadErr_r, p.deVRad_g, p.deVRadErr_g, p.deVAB_g, p.deVAB_r, red.z, red.nnAvgz, p.petroR5#_r, petroR9#_r, petroR5#Err_r, petroR9#Err_r FROM PhotoObjAll AS p JOIN Photoz as red ON p.objID = red.objID WHERE p.objID IN (#,  #,  #,  #,  #,  #,  #,  #,  #,  #,  #,  #,  #,  #,  #,  #,  #,  #,  #,  #,  # )"
+2019-03-21 14:50:00,1

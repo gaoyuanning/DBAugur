@@ -1,0 +1,2 @@
+1,"select ra, dec, bestObjID into mydb.MyTable_# from specObj where ra between # and # AND dec between # and # AND class = #"
+2019-09-16 02:24:00,1

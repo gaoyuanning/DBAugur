@@ -1,0 +1,2 @@
+1,"SELECT specObjID,plateid,mjd,fiberid,targettype,spectrotype,subclass,z,z_err,z_warning,release,reliable FROM galSpecInfo   WHERE z># AND z<#"
+2019-02-28 11:22:00,1

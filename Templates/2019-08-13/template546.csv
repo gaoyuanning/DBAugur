@@ -1,0 +1,2 @@
+2,"select top #  objID, ra, dec, class from  PhotoPrimary where  class = &&&"
+2019-08-13 09:40:00,2

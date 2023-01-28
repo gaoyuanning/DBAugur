@@ -1,0 +1,3 @@
+2,"select top # objid #, L.ew, L.ewErr, #, L2.ew , L2.ewErr from SpecPhoto as S JOIN SpecLine AS L ON S.SpecObjID = L.SpecObjID JOIN SpecLine AS L2 ON S.SpecObjID = L2.SpecObjID WHERE L.LineId = # and L2.LineId = #"
+2019-04-09 19:04:00,1
+2019-04-09 19:05:00,1

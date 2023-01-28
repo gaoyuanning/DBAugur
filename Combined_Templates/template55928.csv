@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.run, p.rerun, p.camcol, p.field, p.score, p.type, s.class, p.petroRad_u, p.petroR5#_u, p.expRad_u FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.score > # AND p.CLEAN = # AND p.u BETWEEN # AND # AND p.g BETWEEN # AND # ORDER BY field"
+2019-08-07 06:26:00,1

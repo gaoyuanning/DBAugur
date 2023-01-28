@@ -1,0 +1,2 @@
+1,"SELECT   &&&<a target=INFO href=http://skyserver.sdss.org/DR1#/en/tools/explore/obj.aspx?id=&&& + cast(x.objId as varchar(#)) + &&&>&&&+ cast(x.objId as varchar(#)) + &&&</a>&&& as objID, p.ra, p.dec, dbo.fPhotoTypeN(p.type) as type, p.psfMag_r FROM #upload u  JOIN #x x ON x.up_id = u.up_id  JOIN PhotoObjAll p ON p.objID = x.objID WHERE (((p.psfMag_r - p.modelMag_r) < # AND p.psfMag_r < #) OR (p.parentID = #)) AND p.probPSF = # ORDER BY x.up_id  &&&#', @log=#, @filter=#"
+2019-12-06 15:51:00,1

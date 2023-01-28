@@ -1,0 +1,2 @@
+1,select count (*) from specphoto where survey = # and programname = #
+2019-03-13 15:06:00,1

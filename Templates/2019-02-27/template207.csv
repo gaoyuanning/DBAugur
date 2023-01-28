@@ -1,0 +1,2 @@
+1,"SELECT ALL ROW_NUMBER() OVER (ORDER BY s.ra ASC) as RowNumber, s.ra, s.dec, s.z,s.zwarning, u,dered_u, g,dered_g, r,dered_r, i,dered_i, dered_z, deVRad_u, -deVRad_g, deVRad_r, deVRad_i, deVRad_z, flags_r, petroR9#_r, petroR5#_r count(&&&) FROM Galaxy AS p JOIN SpecObj AS s ON s.specobjid = p.specobjid Where s.class=&&&  AND s.zwarning=# AND s.z<#"
+2019-02-27 20:25:00,1

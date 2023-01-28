@@ -1,0 +1,2 @@
+1,"SELECT p.ObjID, p.z FROM Galaxy WHERE p.z between # and #"
+2019-01-13 14:39:00,1

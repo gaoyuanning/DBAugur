@@ -1,0 +1,2 @@
+1,"SELECT name, RA, DEC, MJD, redshift, CLASS_BEST, CONF_BEST, DR1#_ZWARNING FROM spiders_quasar WHERE redshift > #"
+2019-05-24 21:01:00,1

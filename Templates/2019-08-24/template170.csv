@@ -1,0 +1,2 @@
+1,"SELECT TOP # P.ObjID as objid1, L.ObjID as objid2, N.distance into mydb.testTable from PhotoPrimary P			      JOIN Neighbors N ON P.ObjID = N.ObjID      JOIN	PhotoPrimary L ON L.ObjID = N.NeighborObjID   WHERE     P.ObjID < L. ObjID                         and abs((P.u-P.g)-(L.u-L.g))<#          and abs((P.g-P.r)-(L.g-L.r))<#    and abs((P.r-P.i)-(L.r-L.i))<#      and abs((P.i-P.z)-(L.i-L.z))<#"
+2019-08-24 10:52:00,1

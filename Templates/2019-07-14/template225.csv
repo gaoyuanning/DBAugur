@@ -1,0 +1,2 @@
+1,"SELECT p.objId,p.ra,p.dec,p.petror9#_r, p.dered_u as u,         p.dered_g as g, p.dered_r as r, p.dered_i as i,         s.z, z.spiral, z.elliptical, z.uncertain FROM galaxy AS p     JOIN SpecObj AS s ON s.bestobjid = p.objid     JOIN zooSpec AS z ON z.objid = p.objid WHERE p.ra between # and #     AND s.z between # and #     AND NOT z.uncertain = #;"
+2019-07-14 13:48:00,1

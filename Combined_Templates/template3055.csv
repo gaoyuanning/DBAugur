@@ -1,0 +1,2 @@
+1,"select specOBJID, ra, dec, z, zerr, class, subclass, sourcetype, targettype into myDB.zall_le_p0# from SpecObj Where z < = #"
+2019-01-15 17:24:00,1

@@ -1,0 +1,2 @@
+1,"select z as [range], count(*) as [number of occurences] from (  select case   when z between # and # then &&&  when z between # and # then &&&  else &&& end as range  from SpecObj WHERE class = &&& AND Warning = # AND z BETWEEN # and # AND (survey = &&& or survey = &&&)) group by range"
+2019-03-05 13:52:00,1

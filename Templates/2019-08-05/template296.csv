@@ -1,0 +1,2 @@
+1,"SELECT objID, redshift, u, g, r, i, z FROM photoObj WHERE objID = #"
+2019-08-05 12:57:00,1

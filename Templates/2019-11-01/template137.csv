@@ -1,0 +1,4 @@
+3,"SELECT DISTINCT &&&,&&& FROM SpecObj AS s JOIN SpecPhotoAll AS p ON s.specObjID = p.specObjID SELECT p.ra,p.dec, s.z ,s.zErr, s.velDisp, s.velDispErr WHERE (ra between # and #) and (dec between # and #) and (p.petroMag_r + p.extinction_r<#) and (p.zWarning=#) and p.class= &&& and p.subclass= &&&"
+2019-11-01 18:04:00,1
+2019-11-01 18:05:00,1
+2019-11-01 18:06:00,1

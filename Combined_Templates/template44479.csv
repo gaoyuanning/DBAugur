@@ -1,0 +1,2 @@
+1,"select top # z_noqso, zErr_noqso, bestObjID, class_noqso from specObj where z> = .# and class = #"
+2019-06-06 00:46:00,1

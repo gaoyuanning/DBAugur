@@ -1,0 +1,2 @@
+1,"SELECT  a.objID, a.l, a.b, f.profMean, s.spectroSynFlux_u into mydb.MyTable from PhotoObjAll as a       JOIN photoProfile as f ON a.objID=f.objID   JOIN SpecObjAll as s ON a.objID=s.bestObjID WHERE a.b > #   AND a.b < #   AND a.l > #    AND a.l < #   ##AND f.profMean < #"
+2019-12-02 11:17:00,1

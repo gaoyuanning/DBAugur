@@ -1,0 +1,2 @@
+1,"SELECT TOP #   p.objid, p.ra, p.dec, pz.z as z_phot, p.dered_r    INTO mydb.grispy FROM PhotoObj AS p   JOIN Photoz AS pz ON p.objid = pz.objid   WHERE p.rerun = # and p.mode = # and p.type = # and p.clean = # and p.dered_r < #"
+2019-01-23 18:33:00,1

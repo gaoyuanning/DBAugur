@@ -1,0 +1,2 @@
+1,"SELECT   p.dr7objid,p.dr8objid   into mydb.NGC4#_id from PhotoObjDR7 as p  where( p.dr8objid =# )"
+2019-03-01 11:17:00,1

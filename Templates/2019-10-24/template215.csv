@@ -1,0 +1,2 @@
+1,"SELECT ALL    p.objid,p.ra,p.dec,    p.run, p.rerun, p.camcol, p.field,    s.z, s.plate, s.mjd, s.fiberid into mydb.DR7ObjIDs from PhotoObj AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE     s.z<# AND s.z>#"
+2019-10-24 16:35:00,1

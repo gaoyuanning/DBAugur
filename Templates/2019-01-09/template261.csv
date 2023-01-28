@@ -1,0 +1,3 @@
+2,"select g.gid,k.keystoneid,gm.status from groups g inner join groupmembers gm    on gm.gid=g.gid   inner join keystone k on k.wsid=webservicesid   order by #,#"
+2019-01-09 14:50:00,1
+2019-01-09 14:52:00,1

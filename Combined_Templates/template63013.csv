@@ -1,0 +1,2 @@
+1,"select deVPhi_z as xcol, deVPhi_z as ycol from PAs_test where deVPhi_u between # and # AND deVPhi_g between # and # AND deVPhi_r between # and # AND deVPhi_i between # and # AND deVPhi_z between # and #"
+2019-09-13 06:42:00,1

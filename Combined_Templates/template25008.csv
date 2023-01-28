@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra, dec, elpetro_absmag_u, zdist, elpetro_mtol_f, elpetro_mtol_n, elpetro_mtol_u, elpetro_mtol_g, elpetro_mtol_r, elpetro_mtol_i, elpetro_mtol_z, sersic_n, sersic_ba, sersic_mass FROM nsatlas SELECT TOP # s.plate, s.fiberid, s.mjd, s.ra, s.dec, s.z, s.zwarning, g.h_beta_flux, g.oiii_#_flux, g.nii_#_flux, g.h_alpha_flux FROM GalSpecLine AS g JOIN SpecObj AS s ON s.specobjid = g.specobjid WHERE s.class = # AND s.zwarning = #"
+2019-03-28 15:50:00,1

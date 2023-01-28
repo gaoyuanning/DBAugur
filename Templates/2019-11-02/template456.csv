@@ -1,0 +1,2 @@
+1,"SELECT p.objId,p.ra,p.dec,p.petror9#_r, p.expAB_r,     p.dered_u as u, p.dered_g as g, p.dered_r as r, p.dered_i as i, g.spectrotype FROM galaxy AS p    JOIN galSpecInfo AS g ON g.specObjID = p.objid WHERE p.ra between # and #"
+2019-11-02 09:33:00,1

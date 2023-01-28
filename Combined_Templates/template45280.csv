@@ -1,0 +1,2 @@
+1,"select top # specObjID, bestObjID, class, ra, dec, spectroFlux_u, spectroFlux_g, spectroFlux_r, spectroFlux_i, spectroFlux_z, spectroSynFlux_u, spectroSynFlux_g, spectroSynFlux_r, spectroSynFlux_i, spectroSynFlux_z from SpecObjAll where bestObjID < > # and (class = # or class = #)"
+2019-06-11 05:05:00,1

@@ -1,0 +1,2 @@
+1,"select min(ra), z, objid from SpecObj where specClass=# AND zconf>.#"
+2019-06-14 17:56:00,1

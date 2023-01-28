@@ -1,0 +1,4 @@
+4,"SELECT p.objId, p.ra, p.dec, p.petror9#_r, p.expAB_r, p.dered_u as u, p.dered_g as g, p.dered_r as r, p.dered_i as i, p.dered_z as z, s.z as redshift, s.plate, s.mjd, s.fiberid, n.sersic_n, sm.logMass, s.class FROM galaxy AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN nsatlas AS n ON n.mjd = s.mjd and n.fiberID = s.fiberID and n.plate = s.plate JOIN stellarMassPassivePort AS sm ON sm.mjd = s.mjd and sm.fiberID = s.fiberID and sm.plate = s.plate WHERE p.petror9#_r > # and s.z between # and # and p.g > # and p.u > # and p.z> # and p.r > #. and p.i> # and s.zWarning = # and s.class = # or s.class = # and p.dered_z > #."
+2019-11-29 06:22:00,1
+2019-11-29 11:46:00,1
+2019-11-29 11:48:00,2

@@ -1,0 +1,2 @@
+1,"select top # smear_sn,z from SpecObj where (specclass=# or specclass=#) and zconf > .# and z < .#"
+2019-04-17 21:38:00,1

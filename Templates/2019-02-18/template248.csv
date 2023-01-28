@@ -1,0 +1,2 @@
+2,"SELECT number, name as courseName, description, credits   FROM courses   where #=#"
+2019-02-18 15:54:00,2

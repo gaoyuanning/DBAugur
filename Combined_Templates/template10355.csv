@@ -1,0 +1,2 @@
+1,"SELECT TOP # ObjID, modelMag_r, petroRad_r FROM PhotoPrimary Star WHERE (ra between # and #) and (dec between # and #) between # and #)"
+2019-02-12 05:30:00,1

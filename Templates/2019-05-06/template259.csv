@@ -1,0 +1,4 @@
+3,"select refererDomain, count(*) as hits from (select substring(referer,#, 		case when charindex(&&&, referer,#) > # then charindex(&&&,referer,#)              else #  	    end) as refererDomain        from WeblogAll 	    ) T group by refererDomain go"
+2019-05-06 15:48:00,1
+2019-05-06 15:57:00,1
+2019-05-06 15:58:00,1

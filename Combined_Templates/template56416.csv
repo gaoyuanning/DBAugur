@@ -1,0 +1,2 @@
+1,select count (distinct (*) ) from field ;
+2019-08-09 10:06:00,1

@@ -1,0 +1,2 @@
+1,"select p.specObjID, p.ra, p.dec, p.z, p.zErr,    p.logMass as logMass_p, p.minLogMass as minLogMass_p, p.maxLogMass as maxLogMass_p,    p.reducedChi2 as reducedChi2_p, p.age as age_p, p.SFR as SFR_p, p.minSFR as minSFR_p, p.maxSFR as maxSFR_p,   sf.logMass as logMass_sf, sf.minLogMass as minLogMass_sf, sf.maxLogMass as maxLogMass_sf,    sf.reducedChi2 as reducedChi2_sf, sf.age as age_sf, sf.SFR as SFR_sf, sf.minSFR as minSFR_sf, sf.maxSFR as maxSFR_sf   from stellarMassPassivePort p on stellarMassStarformingPort sf on sf.specobjid = p.specobjid"
+2019-05-12 15:21:00,1

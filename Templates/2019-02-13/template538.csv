@@ -1,0 +1,2 @@
+1,"SELECT     m.*,     n.objid, n.distance,o.*, pz.*     into mydb.cUVLGs_neighbours_SDSS_#arcmin_DR1# from MyDB.cUVLGs_coordinates AS m     OUTER APPLY dbo.fGetNearestObjEq( m.X_RA_deg, m.DEC_deg, #) AS n       LEFT JOIN PhotoObjAll AS o ON n.objid=o.objid      LEFT JOIN Photoz AS pz ON o.objid=pz.objid    ORDER BY m.ID"
+2019-02-13 15:07:00,1

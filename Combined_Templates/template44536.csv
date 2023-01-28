@@ -1,0 +1,2 @@
+1,"select P.objID, P.ra, P.dec , P.psfMag_u, P.psfMag_g, P.psfMag_r, P.psfMag_i, P.psfMag_z from PhotoTag as P , dbo.fGetNearbyObjEq (# , #, #) N where P.objID = N.objID"
+2019-06-07 23:32:00,1

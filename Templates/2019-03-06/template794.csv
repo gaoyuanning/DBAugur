@@ -1,0 +1,2 @@
+1,"select   S.ra, S.dec, S.petromag_u,S.petromag_g, S.petromag_r, S.petromag_i, S.petromag_z,   W.w1mpro, W.w2mpro, W.w3mpro, W.w4mpro, S.oiii_#_eqw, S.z, S.h_alpha_eqw, S.oiii_#_flux, S.h_alpha_flux, S.z as photoz into mydb.wise_crossmatch_w2# from wise_xmatch as X       join wise_allsky as W on X.wise_cntr = W.cntr       join photoobjall as M on X.sdss_objid=M.objid       join mydb.SDSS_gal_# as S on M.objid = S.objid_#       join photoTag as Q on X.sdss_objid = Q.objid where Q.nchild = #"
+2019-03-06 00:34:00,1

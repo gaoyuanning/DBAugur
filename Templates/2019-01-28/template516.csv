@@ -1,0 +1,2 @@
+1,"select specObjID,bestObjID,ra,dec into mydb.newspec from SpecObj where objType=#"
+2019-01-28 04:18:00,1

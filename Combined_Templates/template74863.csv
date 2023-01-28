@@ -1,0 +1,2 @@
+1,select top (#) * from MyDB.redshift_query
+2019-11-10 14:56:00,1

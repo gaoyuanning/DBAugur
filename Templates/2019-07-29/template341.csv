@@ -1,0 +1,2 @@
+1,"SELECT z, ra, dec, bestObjID, name FROM specObj JOIN FieldQuality WHERE class=&&& AND z < # AND zWarning = #"
+2019-07-29 06:54:00,1

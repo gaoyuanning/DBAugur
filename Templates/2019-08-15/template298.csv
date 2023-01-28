@@ -1,0 +1,2 @@
+1,"SELECT ObjID,r,g,i,u,redness,specObjID,z,ra,dec,ge.oh_p5#,ge.lgm_tot_p5#,ge.sfr_tot_p5#,ge.specsfr_fib_p5# into mydb.Red_E_Galaxies_Envs FROM mydb.Red_E_Galaxies_Spec as gs   JOIN DR1#.galSpecExtra as ge   ON gs.specObjID = ge.specObjid"
+2019-08-15 08:50:00,1

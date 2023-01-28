@@ -1,0 +1,2 @@
+1,"SELECT G.objID, profile.band, profile.bin, profile.profMean FROM Galaxy G,PhotoProfile profile WHERE (G.ra > #) and G.dec between # and # and (G.petroMag_r - G.extinction_r < #) and (G.petroMag_r - G.extinction_r >= #) and (G.flags & dbo.fPhotoFlags(&&&)) > # and (G.flags & ( dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&))) != dbo.fPhotoFlags(&&&) and (G.flags & (dbo.fPhotoFlags(&&&))) = # and (G.objID = profile.objID) and (profile.band != #) and (profile.band != #) and (profile.bin < #)"
+2019-03-03 09:20:00,1

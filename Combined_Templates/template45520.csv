@@ -1,0 +1,2 @@
+1,"select top # specObjID, cModelMag_g, cModelMag_i, cModelMag_r, cModelMag_u from specPhoto Where type = #"
+2019-06-12 01:53:00,1

@@ -1,0 +1,3 @@
+2,"SELECT my.ra, my.dec into mydb.MyTable2 from MyDB.radec_mc_short as my CROSS APPLY dbo.fGetNearbyObjEq (my.ra, my.dec, #)"
+2019-04-12 10:22:00,1
+2019-04-12 10:27:00,1

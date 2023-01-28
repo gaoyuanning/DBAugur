@@ -1,0 +1,2 @@
+1,"select p.u-p.r, p.g-p.r , p.r-p.i , p.r-p.z, p.l, p.b from star p where p.specobjid = #"
+2019-10-26 13:31:00,1

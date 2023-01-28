@@ -1,0 +1,2 @@
+1,"SELECT top # ra, dec, u, g, ObjID FROM photoObj WHERE ra BETWEEN # AND # AND g < # AND u-g > # SELECT ra, dec, PhotoID, z FROM specObj WHERE z > # AND zWarning = #"
+2019-11-24 17:02:00,1

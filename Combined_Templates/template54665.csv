@@ -1,0 +1,2 @@
+3,"SELECT top # p.ra, p.dec, p.modelMag_r, p.modelMagErr_r, p.clean, p.type, p.mode, s.z, s.class, s.subclass FROM galSpecLine AS g JOIN SpecObj AS s ON s.specObjID = g.specObjID JOIN PhotoObj AS p ON p.specObjID = s.specObjID WHERE s.class = # AND clean = # AND s.zWarning = # AND s.z < = # AND s.z > # AND modelMag_r > = # AND modelMag_r < #"
+2019-07-30 22:22:00,3

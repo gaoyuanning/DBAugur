@@ -1,0 +1,3 @@
+2,"SELECT  s.plate, s.mjd, s.fiberid, s.specobjid, p.objid, p.ra, p.dec, p.r FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE s.QUALITY=good"
+2019-08-14 14:45:00,1
+2019-08-14 14:46:00,1

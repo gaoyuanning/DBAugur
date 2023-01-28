@@ -1,0 +1,2 @@
+1,"select ObjID, modelMag_r, petroRad_r, ra, dec from PhotoObj as p JOIN dbo.fGetObjFromRectEq (#, #, #, #) ;"
+2019-02-12 01:39:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # gi.specobjid, gi.ra, gi.dec FROM galSpecInfo AS gi"
+2019-03-05 17:12:00,1

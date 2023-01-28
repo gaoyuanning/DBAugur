@@ -1,0 +1,4 @@
+4,"select s.z, fiber2Mag_z from SpecObj s,PhotoObj p where programname in (&&&, &&&) and class=&&& and (fiber2MagErr_z/fiber2Mag_z) between # and #   and p.SpecObjID=s.specObjID"
+2019-06-08 06:52:00,2
+2019-06-08 06:53:00,1
+2019-06-08 06:55:00,1

@@ -1,0 +1,9 @@
+8,"SELECT EID, [UK_Biobank_assessment_centre_#], [Date_of_attending_assessment_centre_#], [Month_of_attending_assessment_centre_#], [Age_when_attended_assessment_centre_#] FROM Reception GO"
+2019-04-24 13:19:00,1
+2019-04-29 11:38:00,1
+2019-04-30 11:43:00,1
+2019-04-30 15:36:00,1
+2019-05-01 09:25:00,1
+2019-05-02 09:31:00,1
+2019-05-02 10:33:00,1
+2019-05-09 10:26:00,1

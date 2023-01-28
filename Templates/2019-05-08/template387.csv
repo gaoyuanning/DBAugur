@@ -1,0 +1,6 @@
+5,"SELECT p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,p.type FROM PhotoPrimary AS p WHERE (p.type = dbo.fPhotoType(&&&) OR p.type = dbo.fPhotoType(&&&) ) AND p.ra BETWEEN # AND # AND p.dec BETWEEN # AND #"
+2019-05-08 10:38:00,1
+2019-05-08 10:47:00,1
+2019-05-08 11:09:00,1
+2019-05-08 11:13:00,1
+2019-05-08 11:17:00,1

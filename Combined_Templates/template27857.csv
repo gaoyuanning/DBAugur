@@ -1,0 +1,2 @@
+1,"select SpecRa, SpecDec from QsoSpec where ra BETWEEN # and #"
+2019-04-04 03:40:00,1

@@ -1,0 +1,2 @@
+1,"SELECT f.logmass as SF_logM, f.minlogmass as minSF_logM, f.maxlogmass as maxSF_logM, f.SFR, f.maxSFR as max_SFR, f.minSFR as min_SFR, f.age as SF_age into mydb.Port_SF from StellarMassStarformingPort f WHERE f.dec between # and # and (f.ra > # or f.ra < #)"
+2019-03-12 06:20:00,1

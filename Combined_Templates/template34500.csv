@@ -1,0 +1,2 @@
+1,"select top # ra, dec, z, modelmag_g, modelmag_u - modelmag_g as ug, modelmag_g - modelmag_r as gr from specPhoto where z > # and class = GALAXY"
+2019-04-25 16:08:00,1

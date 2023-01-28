@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID, ra, dec, z, logm_tot_p5# FROM galSpecExtra as se JOIN SpecObj as s ON specObjID"
+2019-05-02 04:41:00,1

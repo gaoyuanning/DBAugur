@@ -1,0 +1,2 @@
+1,"SELECT ra,dec, dbo.fGetNearestObjIdEq(ra,dec,#) as objId FROM mydb.test_radec WHERE dbo.fGetNearestObjIdEq(ra,dec,#) IS NOT NULL"
+2019-02-23 03:33:00,1

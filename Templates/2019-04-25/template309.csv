@@ -1,0 +1,2 @@
+1,"SELECT TOP # survey, subclass, plate, mjd, fiberid, elodieFeH  FROM specObj  WHERE class=&&& and subclass LIKE CONCAT(@class,&&&)  SET @i = @i + #  END; SELECT * FROM @table2"
+2019-04-25 15:42:00,1

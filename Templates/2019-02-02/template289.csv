@@ -1,0 +1,2 @@
+1,"select sigma_balmer, sigma_balmer_err, sigma_forbidden, sigma_forbidden_err, cm.ra, cm.dec    into mydb.MyTable_cm_out_lines    from galSpecLine     inner join mydb.mytable_cm_out cm   on galSpecLine.specobjid = cm.specobjid"
+2019-02-02 01:35:00,1

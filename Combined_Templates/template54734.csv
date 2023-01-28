@@ -1,0 +1,2 @@
+1,"select top # specobjid, bestobjid, dbo.fRUN (bestobjID) as run from specobj"
+2019-07-31 16:35:00,1

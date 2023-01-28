@@ -1,0 +1,4 @@
+4,"SELECT TOP # objID,expMag_g,expMag_r,elodieFeH,expMagErr_g,expMagErr_r FROM Star as st JOIN specObj as sObj ON sObj.specObjID=st.specObjID WHERE (st.type=# OR st.type=#) AND st.clean=# AND st.specObjID!=#"
+2019-03-14 20:59:00,1
+2019-03-14 21:00:00,1
+2019-03-14 21:01:00,2

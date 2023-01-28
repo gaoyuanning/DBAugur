@@ -1,0 +1,2 @@
+1,"select * --from specObj --  where dec > # and dec < # and ra > # and ra < # --select dbo.fIAUFromEq(#, #) select top # * from Specobjall --where SpecPhotoAll.specObjID = specobjAll.specObjID --and --  Specobjall.subClass = &&& and Specobjall.snMedian > # and Specobjall.wavemin < # and wavemax > #"
+2019-12-27 09:41:00,1

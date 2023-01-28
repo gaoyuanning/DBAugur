@@ -1,0 +1,2 @@
+1,"SELECT TOP #  i.specObjID,i.ra,i.dec,i.z,i.z_err FROM galSpecInfo AS i  JOIN galSpecLine AS l ON l.specObjID = i.specObjID WHERE   i.dec BETWEEN #. AND +#"
+2019-03-24 20:56:00,1

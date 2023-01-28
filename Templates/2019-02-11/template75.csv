@@ -1,0 +1,2 @@
+1,"SELECT class, count(*)  FROM Galaxy  GROUP BY class"
+2019-02-11 23:06:00,1

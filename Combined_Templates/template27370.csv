@@ -1,0 +1,2 @@
+1,"select s.bestobjid, s.ra, s.dec, if (s.instrument = #, s.z, s.z_noqso) as z, if (s.instrument = #, s.zerr, s.zerr_noqso) as zerr, g.* into mydb.galspecline_all_DR1# from galSpecLine g, specobj s where g.specobjid = s.specobjid and (if (s.instrument = #, s.class, s.class_noqso) = #)"
+2019-04-03 13:20:00,1

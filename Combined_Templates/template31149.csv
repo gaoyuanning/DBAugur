@@ -1,0 +1,3 @@
+2,"SELECT TOP # p.objId, p.absmagU, p.absmagG, p.absmagR, g.u, g.g, g.r FROM photoZ as p JOIN GALAXY AS g ON g.objID = p.objID WHERE (htmid*#"
+2019-04-17 15:11:00,1
+2019-04-17 15:12:00,1

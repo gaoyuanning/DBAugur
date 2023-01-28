@@ -1,0 +1,7 @@
+117,"SELECT gn.objid, ISNULL(s.specobjid,#) AS specobjid, p.ra, p.dec,p.Petromag_u-p.extinction_u AS U_mag,p.Petromag_g-p.extinction_g AS G_mag,p.Petromag_r-p.extinction_r AS R_mag,p.Petromag_i-p.extinction_i AS I_mag,p.Petromag_z-p.extinction_z AS Z_mag, ISNULL(s.z, #) AS z, ISNULL(s.zErr, #) AS z_err, ISNULL(pz.z, #) AS pz FROM (Galaxy AS p JOIN dbo.fGetNearbyObjEq(#,#,#) AS GN ON p.objID = GN.objID LEFT OUTER JOIN SpecObj s ON s.bestObjID = p.objID) LEFT OUTER JOIN Photoz pz on pz.objid = p.objid WHERE p.Petromag_r-p.extinction_r < #"
+2019-03-29 02:52:00,39
+2019-03-29 02:53:00,5
+2019-03-29 02:54:00,9
+2019-03-29 02:55:00,20
+2019-03-29 02:56:00,5
+2019-03-29 03:47:00,39

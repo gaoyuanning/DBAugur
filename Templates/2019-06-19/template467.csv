@@ -1,0 +1,2 @@
+1,"SELECT objID, Ra, Dec, modelMag_g, modelMagErr_g, modelMag_r, modelMagErr_r, modelMag_i, modelMagErr_i  WHERE (ra between # and #) and (dec between # and #) into mydb.MyTable"
+2019-06-19 04:46:00,1

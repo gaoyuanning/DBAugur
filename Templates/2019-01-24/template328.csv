@@ -1,0 +1,8 @@
+10,"SELECT ALL ROW_NUMBER() OVER (ORDER BY s.ra ASC) as RowNumber, s.ra, s.dec, s.z, sigma_balmer, sigma_forbidden, oii_#_reqw, neiii_#_reqw, oiii_#_reqw, hei_#_reqw, oi_#_reqw, h_alpha_reqw, nii_#_reqw, sii_#_reqw, h_delta_eqw, h_gamma_eqw, h_beta_eqw, h_alpha_eqw FROM GalSpecLine AS g JOIN SpecObj AS s ON s.specobjid = g.specobjid WHERE s.class = &&& AND s.zwarning = # AND s.ra BETWEEN # and #"
+2019-01-24 14:45:00,2
+2019-01-24 14:46:00,2
+2019-01-24 14:47:00,1
+2019-01-24 14:48:00,1
+2019-01-24 14:49:00,2
+2019-01-24 14:53:00,1
+2019-01-24 14:56:00,1

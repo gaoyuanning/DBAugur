@@ -1,0 +1,2 @@
+1,"SELECT TOP # sourcetype, count (z) as num_redshift FROM SpecObj WHERE z between # and # group by sourcetype"
+2019-12-13 14:01:00,1

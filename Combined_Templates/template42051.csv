@@ -1,0 +1,2 @@
+1,"SELECT m.row_idx, n.objid, n.distance, o.ra AS ra_sdss, o.dec AS dec_sdss, o.petroRad_u, o.petroRad_g, o.petroRad_r, o.petroRad_i, o.petroRad_z, o.petroR5#_u, o.petroR5#_g, o.petroR5#_r, o.petroR5#_i, o.petroR5#_z, o.petroR9#_u, o.petroR9#_g, o.petroR9#_r, o.petroR9#_i, o.petroR9#_z, o.deVRad_u, o.deVRad_g, o.deVRad_r, o.deVRad_i, o.deVRad_z, o.fracDeV_u, o.fracDeV_g, o.fracDeV_r, o.fracDeV_i, o.fracDeV_z CROSS APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n JOIN PhotoObjAll AS o ON n.objid = o.objid into mydb.MyTable"
+2019-05-28 16:10:00,1

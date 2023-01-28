@@ -1,0 +1,2 @@
+1,"SELECT m.i_gal, m.objiD, m.ra, m.dec, s.z as specZ, s.zErr as specZ_err INTO myDB.VYG_neighbours_zspec FROM myDB.VYG_neighbours as m, SpecObj as s WHERE s.bestObjID = m.objID"
+2019-01-15 06:59:00,1

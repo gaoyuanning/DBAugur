@@ -1,0 +1,2 @@
+1,"select cs.*, cam.* from cancer_study cs join clinical_attribute_meta cam on cam.cancer_study_id = cs.cancer_study_id where cs.cancer_study_identifier = #"
+2019-04-20 15:05:00,1

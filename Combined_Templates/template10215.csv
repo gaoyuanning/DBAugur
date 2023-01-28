@@ -1,0 +1,4 @@
+4,"select s.ra, s.dec, s.objID, s.cModelMag_u, s.cModelMag_g, s.cModelMag_r, s.cModelMag_i, s.cModelMag_z, s.z, n.distance into mydb.MyTable2 from SpecPhoto as s, dbo.fGetNearbyObjEq (#, #, #) as n where (n.objID = s.objID)"
+2019-02-12 10:19:00,2
+2019-02-12 10:21:00,1
+2019-02-12 10:22:00,1

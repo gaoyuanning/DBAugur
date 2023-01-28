@@ -1,0 +1,2 @@
+2,"SELECT m.*, p.mE1_r, p.mE2_r, p.deVAB_r, p.deVMag_r into mydb.NN_#ArcSec_with_zerr_real_elliptic_inc from MyDb.NN_#ArcSec_with_zerr_real as m   join PhotoPrimary as p on m.objid = p.objid"
+2019-03-04 10:01:00,2

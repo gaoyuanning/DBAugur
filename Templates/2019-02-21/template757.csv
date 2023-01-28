@@ -1,0 +1,2 @@
+1,"select dr7objid, dr8objid, ra, dec into mydb.MyTable from dbo.zoo2MainSpecz where    t0#_bulge_prominence_a1#_no_bulge_count > # and   t0#_bulge_prominence_a1#_no_bulge_fraction > # and   t0#_bulge_prominence_a1#_no_bulge_weighted_fraction > # and   t0#_bulge_prominence_a1#_no_bulge_debiased > #"
+2019-02-21 08:35:00,1

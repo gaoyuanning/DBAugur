@@ -1,0 +1,5 @@
+4,"SELECT ID, rent, wkt=COORDS.ToString() FROM optw.tamass.ASSETS WHERE PropertyType <> &&& and year_built > #"
+2019-11-30 13:30:00,1
+2019-11-30 13:31:00,1
+2019-11-30 13:47:00,1
+2019-11-30 13:57:00,1

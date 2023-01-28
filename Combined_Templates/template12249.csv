@@ -1,0 +1,3 @@
+2,"SELECT a.NYU_num, c.objID, c.plate, c.fiberID, c.mjd, c.specObjID FROM MyDB.VAGC_spectro_position a, MyDB.VAGC_spectro_PFM b, SpecPhotoAll c WHERE a.sdss_spectro_position = b.SDSS_SPECTRO_POSITION and c.plate = b.PLATE and c.fiberID = b.FIBER and c.mjd = b.MJD and c.objID IS NOT # INTO VAGC_photoobjid_no#"
+2019-02-19 14:41:00,1
+2019-02-19 14:42:00,1

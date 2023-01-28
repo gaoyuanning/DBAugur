@@ -1,0 +1,2 @@
+1,"select top # SpecObj.bestobjID, PhotoObjAll.modelMag_u, PhotoObjAll.modelMag_g, PhotoObjAll.modelMag_r, PhotoObjAll.modelMag_i, PhotoObjAll.modelMag_z, SpecObj.z, SpecObj.plateID, sppTargets.FIBERID from SpecObj, PhotoObjAll, sppTargets where SpecObj.bestobjID = sppTargets.OBJID AND SpecObj.bestobjID = PhotoObjAll.objID AND SpecObj.z < #"
+2019-02-13 16:11:00,1

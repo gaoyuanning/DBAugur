@@ -1,0 +1,2 @@
+1,"select   S.bestobjID objectID, S.z redshift into mydb.MyTable_# from SpecObj S where   S.z < # AND (S.specclass = #)"
+2019-05-29 06:51:00,1

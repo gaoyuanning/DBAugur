@@ -1,0 +1,2 @@
+1,SELECT count(*) into mydb.tmp9 from Galaxy as g
+2019-04-15 10:23:00,1

@@ -1,0 +1,2 @@
+1,"SELECT phot.objID, phot.probPSF, phot.ra, phot.dec FROM segueTargetAll AS seg JOIN PhotoObjAll AS phot ON phot.objID = seg.objid"
+2019-04-09 09:22:00,1

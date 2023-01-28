@@ -1,0 +1,2 @@
+1,"select ra, dec, modelmag_u - modelmag_g as ug, modelmag_g - modelmag_r as gr, modelmag_g as g from startag where ra between # and # and dec between # and # and modelmag_g between # and # and modelmag_u > # and modelmag_r > # order by modelmag_g"
+2019-04-25 15:46:00,1

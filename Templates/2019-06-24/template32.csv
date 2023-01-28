@@ -1,0 +1,4 @@
+3,"SELECT TOP # objId,z,zErr,absMagR FROM Photoz WHERE  z BETWEEN # and #  and nnIsInside=#   and nnCount>#   and zErr BETWEEN # and #"
+2019-06-24 12:51:00,1
+2019-06-24 20:25:00,1
+2019-06-24 23:40:00,1

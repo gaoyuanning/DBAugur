@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.petroMag_r, p.extinction_r, p.petroR5#_r, s.z, s.velDisp, s.plate, s.mjd, s.fiberid FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE (p.petroR9#_r/p.petroR5#_r) > # AND (p.g-p.extinction_g) - (p.r-p.extinction_r) > # AND p.petroMag_r between # and # AND petroMagErr_r < # AND s.z < #"
+2019-04-03 15:55:00,1

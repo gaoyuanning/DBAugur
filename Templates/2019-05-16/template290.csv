@@ -1,0 +1,2 @@
+1,"SELECT top #   specObjID, bestObjID, id, specsfr_tot_p5#   --into MyDB.Y2c FROM MyDB.Y2b AS y   join galSpecExtra as s on y.specobjid=s.specobjid"
+2019-05-16 13:51:00,1

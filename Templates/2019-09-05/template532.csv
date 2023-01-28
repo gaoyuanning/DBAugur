@@ -1,0 +1,2 @@
+2,"SELECT top # ra, dec, z, zErr, dered_u, dered_g, dered_r, dered_i, dered_z, modelMagErr_u, modelMagErr_g, modelMagErr_r, modelMagErr_i, modelMagErr_z FROM SpecPhoto WHERE  class = &&& AND   z># AND z<# AND  zErr<# AND  modelMagErr_g < #"
+2019-09-05 03:35:00,2

@@ -1,0 +1,8 @@
+11,"SELECT  TOP # p.objid,    p.run, p.rerun, p.camcol, p.field, p.obj,    p.type, p.ra, p.dec, p.u,p.g,p.r,p.i,p.z,    p.Err_u, p.Err_g, p.Err_r,p.Err_i,p.Err_z    FROM fGetNearbyObjEq(#,#,#) n, PhotoPrimary p    WHERE n.objID=p.objID"
+2019-03-06 03:11:00,2
+2019-03-06 03:13:00,1
+2019-03-06 03:15:00,2
+2019-03-06 03:17:00,1
+2019-03-06 03:18:00,3
+2019-03-06 03:22:00,1
+2019-03-06 03:24:00,1

@@ -1,0 +1,6 @@
+5,"SELECT specObjID,targetObjID,bestObjID,ra,dec,z FROM specObj WHERE  class = &&&  AND z BETWEEN #-# AND #+#  AND zWarning = #  AND ra BETWEEN #-#. AND #+#.  AND dec BETWEEN #-#. AND #+#."
+2019-03-12 01:58:00,1
+2019-03-12 02:00:00,1
+2019-03-12 02:15:00,1
+2019-03-12 02:28:00,1
+2019-03-12 02:32:00,1

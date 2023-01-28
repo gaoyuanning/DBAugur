@@ -1,0 +1,3 @@
+2,"SELECT p.objid, p.ra, p.dec, p.dered_r, pz.z into mydb.MyTable_# from PhotoPrimary AS p JOIN Photoz AS pz ON pz.objid = p.objid WHERE p.specobjid = # and p.type=# and p.dered_r BETWEEN # and # and pz.z !=#"
+2019-07-25 09:34:00,1
+2019-07-25 15:20:00,1

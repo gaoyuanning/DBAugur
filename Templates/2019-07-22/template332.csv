@@ -1,0 +1,2 @@
+2,"SELECT  m.*,s.bpt,s.z as sdss_z_line, s.ra as sdss_ra_line,s.dec as sdss_dec_line,s.Flux_Hb_#, s.Flux_Hb_#_err,s.Flux_OIII_#, s.Flux_OIII_#_err,s.Flux_Ha_#, s.Flux_Ha_#_err,s.Flux_NII_#, s.Flux_NII_#_err  into mydb.galpair_A1#_sdss_all_Av_line_dr1#   from DR1#.nocross_galpair_A1#_sdss_all_Av_line as m JOIN DR1#.emissionLinesPort AS s ON s.plate=m.sdss_plate and s.mjd=m.sdss_mjd and s.fiberid=m.sdss_fiberid"
+2019-07-22 09:45:00,2

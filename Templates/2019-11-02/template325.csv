@@ -1,0 +1,2 @@
+1,"SELECT u.up_name as name,  /* PhotoObj table parameters*/  &&&<a target=INFO href=http://skyserver.sdss.org/DR1#/en/tools/explore/obj.aspx?id=&&& + cast(x.objId as varchar(#)) + &&&>&&&+ cast(x.objId as varchar(#)) + &&&</a>&&& as objID, round(p.u,#) as PhotoOb_u,round(p.g,#) as PhotoOb_g,round(p.r,#) as Photo, p.i ,as, p.z FROM #upload u  JOIN #x x ON x.up_id = u.up_id  JOIN PhotoObjAll p ON p.objID = x.objID  ORDER BY x.up_id&&&#', @log=#, @filter=#"
+2019-11-02 14:39:00,1

@@ -1,0 +1,2 @@
+1,"SELECT   sp.obj,  sp.objID,  sp.specObjID,  sp.ra,  sp.dec,  sp.z,  sp.zErr,  sp.zWarning,  sp.class,  sp.subclass,  sp.sourcetype,  sp.petromag_r,  sp.extinction_r FROM SpecPhotoAll as sp  where (sp.class = &&&) and (# <= sp.z)"
+2019-12-13 20:27:00,1

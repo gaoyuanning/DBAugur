@@ -1,0 +1,2 @@
+2,"SELECT objID,z FROM   MyDB.CCOSEDProps as A   INNER APPLY dbo.fGetNearestObjEq( A.RAJ2#WISE_AGN_R9#_ptsrc_VIZIER, A.DEJ2#WISE_AGN_R9#_ptsrc_VIZIER, #/#.) AS B   LEFT INNER JOIN SpecPhotoAll AS C ON B.objID=C.objID INTO MyDB.CCOSEDProps_SpecPhotoAll"
+2019-12-09 16:45:00,2

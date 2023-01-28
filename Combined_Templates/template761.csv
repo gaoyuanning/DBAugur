@@ -1,0 +1,6 @@
+7,"SELECT TOP # specobjid, objid as objid8, ra, dec, spiral, elliptical, uncertain FROM ZooSpec"
+2019-01-03 02:53:00,2
+2019-01-04 00:08:00,1
+2019-01-04 01:52:00,1
+2019-03-11 17:32:00,2
+2019-03-11 17:33:00,1

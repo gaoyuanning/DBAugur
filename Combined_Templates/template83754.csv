@@ -1,0 +1,3 @@
+2,"SELECT top # objid, ra, dec, psfmag_i-extinction_i AS mag_i, psfmag_r-extinction_r AS mag_r, z into mydb.MyTable0 from SpecPhoto WHERE (class = #)"
+2019-12-19 16:40:00,1
+2019-12-19 16:41:00,1

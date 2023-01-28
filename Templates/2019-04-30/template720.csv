@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra, dec, u, g, r, i, z FROM Star WHERE ( (g <= #)  and (r < #) and (u - g >= #)  and (g - r <#)  and (r - i < #)  and (i - z > #) and (dec > #) )"
+2019-04-30 03:31:00,1

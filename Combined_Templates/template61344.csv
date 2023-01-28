@@ -1,0 +1,2 @@
+1,"SELECT p.objid, s.plate, s.mjd, s.fiberid into mydb.sdssdr1#Star_platemjdfiberid FROM SpecObj as s, PhotoObj as p WHERE s.bestObjID = p.objID AND s.class = #"
+2019-09-05 04:09:00,1

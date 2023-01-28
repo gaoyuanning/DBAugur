@@ -1,0 +1,2 @@
+1,"select top # z, zErr, ra, dec, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z from SpectPhotoAll where z< # and z> # and ra> # and ra< # and dec> # and dec< # and modelMag_g is not # and modelMag_u is not # and modelMag_r is not # and modelMag_i is not # and modelMag_z is not # and modelMag_g> # and modelMag_u> # and modelMag_r> # and modelMag_i> # and modelMag_z> #"
+2019-10-01 13:24:00,1

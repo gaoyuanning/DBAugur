@@ -1,0 +1,2 @@
+1,"select survey, count (*) as count from specobj where zwarnings = # and class = #"
+2019-04-30 13:57:00,1

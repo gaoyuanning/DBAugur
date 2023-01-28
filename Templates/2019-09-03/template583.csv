@@ -1,0 +1,4 @@
+3,"select top # p.objid as name, p.ra, p.dec from galaxy p"
+2019-09-03 00:00:00,1
+2019-09-03 00:01:00,1
+2019-09-03 00:02:00,1

@@ -1,0 +1,2 @@
+1,"select top # * plate, mjd, fiberid, ra, dec, SPECOBJID  from SpecObjAll"
+2019-06-30 13:14:00,1

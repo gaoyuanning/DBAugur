@@ -1,0 +1,2 @@
+1,"SELECT m.ra, m.dec, dbo.fGetNearestSpecObjIdEq(m.ra,m.dec,#) as s.plate, s.mjd, s.fiberid, s.Class  FROM mydb.minijpas_ra_dec_remaining AS m, SpecPhotoAll as s  INTO mydb.pmf_minijpas_remaining  WHERE dbo.fGetNearestSpecObjIdEq(m.ra,m.dec,#) IS NOT NULL"
+2019-09-12 08:22:00,1

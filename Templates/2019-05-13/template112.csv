@@ -1,0 +1,2 @@
+1,"SELECT top # SpecObjId, z, ra, dec FROM SpecObjAll WHERE class = &&& AND zWarning = # AND EXISTS (SELECT z, count(*) FROM SpecObjAll WHERE class = &&& AND zWarning = # GROUP BY z HAVING count(*) > #) ORDER BY z"
+2019-05-13 20:44:00,1

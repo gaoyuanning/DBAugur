@@ -1,0 +1,2 @@
+1,"select Spectroscopic class, (GALAXY) , z, ra, dec from specObj where z BETWEEN # and # AND ra BETWEEN # and # AND dec BETWEEN # and # AND zwarning = # group by Spectroscopic class"
+2019-04-10 00:06:00,1

@@ -1,0 +1,2 @@
+1,"select top #  p.objid, ph.flags from PhotoPrimary p join  photoobjall ph on  ph.objid=p.objid where  p.type=# and p.flags = #"
+2019-09-10 08:48:00,1

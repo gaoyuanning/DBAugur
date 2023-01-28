@@ -1,0 +1,2 @@
+1,"SELECT ra,dec,g,r,i,z,flags_r   from Star  WHERE      ra BETWEEN # and # AND dec BETWEEN #. and #     AND ((flags_r & #) != #)          AND ((flags_r & #) = #)               AND (((flags_r & #) = #) or (psfmagerr_r <= #))               AND (((flags_r & #) = #) or (flags_r & #) = #)"
+2019-08-30 15:24:00,1

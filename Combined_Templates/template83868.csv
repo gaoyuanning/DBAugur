@@ -1,0 +1,2 @@
+2,"SELECT top # objid, nuv_mag, nuv_magerr FROM photoobjall where xSDSSDR7.distanceRank = #"
+2019-12-19 09:34:00,2

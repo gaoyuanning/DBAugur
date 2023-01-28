@@ -1,0 +1,2 @@
+2,"SELECT TOP #  P.ObjID,  ra,  dec,  run,  rerun,  camCol,  field  FROM PhotoPrimary AS P   JOIN Neighbors AS N ON P.ObjID = N.ObjID   JOIN PhotoPrimary AS L ON L.ObjID = N.NeighborObjID  WHERE   P.ObjID < L. ObjID"
+2019-03-10 20:40:00,2

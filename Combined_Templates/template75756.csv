@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z into mydb.MyTable from PhotoObj AS p WHERE CLEAN = # AND p.r < # AND p.u - p.g BETWEEN # AND # AND p.g - p.r BETWEEN # AND # AND p.r - p.i BETWEEN # AND # AND p.i - p.z BETWEEN # AND #"
+2019-11-14 00:42:00,1

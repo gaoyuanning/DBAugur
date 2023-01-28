@@ -1,0 +1,2 @@
+1,"select top # s.* as s, c.* as c from MRscPlanck1 as s, cones.MRscPlanck1_BC0#_# as c where s.snapnum = # and s.galaxyID = c.galaxyID"
+2019-05-15 04:00:00,1

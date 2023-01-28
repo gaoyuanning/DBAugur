@@ -1,0 +1,2 @@
+1,"SELECT s.objID, rc3.hubble, rc3.logd_# into mydb.rc3_gswlc from SpecPhoto as s join rc3 on s.objid = rc3.objid WHERE petroMag_r < #. and z > # and z < #"
+2019-02-28 18:57:00,1

@@ -1,0 +1,4 @@
+3,select distinct plate from apogeeplate order by plate
+2019-12-31 11:38:00,1
+2019-12-31 11:40:00,1
+2019-12-31 11:48:00,1

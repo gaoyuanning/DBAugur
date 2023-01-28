@@ -1,0 +1,2 @@
+1,"select top # S.ra as sdss_ra, S.dec as sdss_dec, W.ra as wise_ra, W.dec as wise_dec, S.psfmag_r as r, S.psfmag_z as z, W.w1mpro as w1, W.w2mpro as w2, W.w3mpro as w3, W.w1mpro-W.w2mpro as #, W.w2mpro-W.w3mpro as # from wise_xmatch as X join wise_allsky as W on X.wise_cntr = W.cntr join photoTag as S on X.sdss_objid = S.objid where S.nchild = #"
+2019-03-30 13:07:00,1

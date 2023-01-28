@@ -1,0 +1,4 @@
+4,"select count(*) from galaxy p, specobj s, galspecline gsl, stellarmassstarformingport smsp where p.objid=s.bestobjid and s.specobjid=gsl.specobjid and gsl.specobjid=smsp.specobjid and s.subclass=starforming&&&"
+2019-12-16 22:47:00,1
+2019-12-16 22:48:00,2
+2019-12-16 22:49:00,1

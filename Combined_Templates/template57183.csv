@@ -1,0 +1,2 @@
+1,"SELECT G.objID, GN.distance, s.z, G.ra, G.dec, G.u_r, G.q_r, G.petroR5#_r, G.deVMag_u, G.deVMag_g, G.deVMag_r, G.deVMag_i, G.deVMag_z from PhotoPrimary AS G JOIN dbo.fGetNearbyObjEq (#, #, #) AS GN ON G.objID = GN.objID JOIN SpecObj AS s ON s.bestobjid = G.objid WHERE (G.flags & dbo.fPhotoFlags (#) ) = # AND G.type = # ORDER BY distance"
+2019-08-13 13:48:00,1

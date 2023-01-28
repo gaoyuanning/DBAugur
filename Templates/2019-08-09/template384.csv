@@ -1,0 +1,4 @@
+4,"SELECT TOP # specObjID from galSpecInfo as gsi, SpecObjAll as sp   where gsi.specObjID = sp.specObjID"
+2019-08-09 09:46:00,1
+2019-08-09 09:47:00,1
+2019-08-09 09:48:00,2

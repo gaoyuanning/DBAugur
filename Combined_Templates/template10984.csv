@@ -1,0 +1,2 @@
+1,"SELECT g.d4#_n, g.d4#_n_err, z.p_cs, z.p_el, z.p_dk, z.p_mg FROM zooNoSpec z INNER JOIN galSpecIndx g ON z.specobjid = g.specObjID"
+2019-02-13 05:02:00,1

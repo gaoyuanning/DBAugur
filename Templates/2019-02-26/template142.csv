@@ -1,0 +1,2 @@
+1,"SELECT survey ,count(*) as&&& FROM SpecObj  WHERE class = &&&  and zWarning = # group by survey"
+2019-02-26 19:59:00,1

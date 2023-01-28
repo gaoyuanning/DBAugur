@@ -1,0 +1,2 @@
+1,"SELECT class, z, zerr FROM specObj WHERE (class = # or class = #) and z > # and zWarning = # and (htmid*# & # < (# * #) )"
+2019-03-19 23:28:00,1

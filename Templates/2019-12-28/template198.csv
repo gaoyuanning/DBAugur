@@ -1,0 +1,2 @@
+1,"SELECT min(m.objra), max(m.objra), min(m.objdec), max(m.objdec) FROM mangaDRPall AS m"
+2019-12-28 11:03:00,1

@@ -1,0 +1,4 @@
+4,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.err_u, p.g, p.err_g, p.r, p.err_r, p.i, p.err_i, p.z, p.err_z, z.z, z.zerr into mydb.MyTable1 from PhotoObj AS p LEFT OUTER JOIN Photoz AS z ON z.objid = p.objid JOIN dbo.fgetnearbyobjeq (#, #, #) AS n ON n.objid = p.objid"
+2019-01-10 18:54:00,2
+2019-01-10 18:55:00,1
+2019-01-10 23:53:00,1

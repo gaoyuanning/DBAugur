@@ -1,0 +1,5 @@
+4,"select top # p.objid, p.ra, p.dec, p.glon, p.glat,p.nuv_mag, p.nuv_magerr, p.fuv_mag, p.fuv_magerr, p.e_bv, pe.mpstype as survey into mydb.MyTable_# from photoobjall as p, photoextract as pe where p.photoextractid=pe.photoextractid and p.nuv_mag># and p.band=# and p.nuv_fwhm_world<.# order by p.nuv_mag"
+2019-10-17 11:46:00,1
+2019-10-17 11:53:00,1
+2019-10-17 12:25:00,1
+2019-10-17 13:22:00,1

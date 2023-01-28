@@ -1,0 +1,2 @@
+2,"SELECT    s.specObjID, s.logMass, g.z, g.Flux_NII_#, g.Flux_NII_#_Err, g.Flux_Ha_#,    g.Flux_Ha_#_Err, g.Flux_NII_#, g.Flux_NII_#_Err,    g.Flux_SII_#, g.Flux_SII_#_Err, g.Flux_SII_#, g.Flux_SII_#_Err   s. FROM dbo.emissionLinesPort as g   JOIN dbo.stellarMassStarFormingPort as s on s.specObjID = g.specobjid                                       WHERE ( g.z > #  and  g.z < # )   AND g.Error_Warning = #   AND g.bpt = &&&"
+2019-02-19 07:16:00,2

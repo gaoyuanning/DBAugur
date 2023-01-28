@@ -1,0 +1,2 @@
+1,"SELECT top # ra,dec,z,class,SPECOBJID from SpecObj   where zwarning=#"
+2019-09-25 04:33:00,1

@@ -1,0 +1,2 @@
+1,"create schema chinook  go  CREATE TABLE chinook.Album (   [AlbumId] [int] NOT NULL,   [Title] [nvarchar](#) NOT NULL,   [ArtistId] [int] NOT NULL )"
+2019-04-03 12:01:00,1

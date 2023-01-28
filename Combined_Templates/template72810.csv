@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, sourceType, dered_i, dered_z into mydb.BrownDwarfs from SpecPhotoAll WHERE sourceType = dbo.fSourceTypeN (#)"
+2019-10-31 15:08:00,1

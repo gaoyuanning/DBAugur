@@ -1,0 +1,5 @@
+4,"select p.objid as name, p.ra, p.dec from galaxy p where (p.g BETWEEN # AND #)"
+2019-04-15 22:14:00,1
+2019-04-15 22:25:00,1
+2019-04-15 23:04:00,1
+2019-04-15 23:23:00,1

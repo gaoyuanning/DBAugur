@@ -1,0 +1,2 @@
+1,"SELECT count(*) , z into mydb.MyTable_# from PhotoObjAll  WHERE (ra BETWEEN &&& AND &&&) AND   (PhotoObjAll.dec BETWEEN &&& AND &&&)   and z between # and #   group by z"
+2019-05-23 09:37:00,1

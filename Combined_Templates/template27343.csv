@@ -1,0 +1,3 @@
+2,"SELECT zoo.objid, zoo.ra, zoo.dec spec.z spec.zErr into mydb.gz_acw0#_z FROM dbo.zooVotes zoo JOIN dbo.SpecObjAll spec ON spec.bestobjid = zoo.objid WHERE p_acw > #"
+2019-04-03 13:50:00,1
+2019-04-03 13:52:00,1

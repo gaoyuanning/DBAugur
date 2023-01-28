@@ -1,0 +1,2 @@
+2,"SELECT ALL  z as Redshift,  dered_r as r,  zErr as zErr,  ra as ra,  dec as dec FROM SpecPhotoAll WHERE  type = # AND  ra BETWEEN # - # AND # + # AND  dec BETWEEN # - # AND # + #"
+2019-09-23 15:02:00,2

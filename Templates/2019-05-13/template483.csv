@@ -1,0 +1,2 @@
+2,"select    d.objid,d.type, d.ra, d.dec, s.ra, s.dec, s.mjd, s.plate, s.fiberID, s.z,   d.nuv_mag, d.nuv_magerr, d.fuv_mag, d.fuv_magerr,   p.u, p.g, p.i, p.r, p.z          from dbo.PhotoObj as d,   SpecObjAll as s,     PhotoObjAll as p       into MyDB.sdss_galex      where         d.objid=s.bestObjID and      s.bestObjID=p.objID       and d.nuv_mag-p.r between # and #"
+2019-05-13 06:28:00,2

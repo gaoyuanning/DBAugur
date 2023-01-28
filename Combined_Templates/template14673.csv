@@ -1,0 +1,2 @@
+1,"SELECT TOP # sp.ra, sp.dec, sp.u, sp.g, sp.r, sp.i, sp.z FROM SpecPhoto AS sp INNER JOIN FIRST AS f ON sp.objid = f.objid WHERE class = # and sp.z > # and sp.z < #"
+2019-02-26 09:59:00,1

@@ -1,0 +1,2 @@
+1,"SELECT   s.ra,s.dec, s.ObjID,s.psfMag_r,s.psfMag_g,s.psflMag_i,s.psfMag_z,s.psfMag_u, p.class,p.subclass, s.clean,p.sourcetype, s.psfMagErr_u,s.psfMagErr_i,s.psfMagErr_g,s.psfMagErr_r,s.psfMagErr_z From specObjALL p  JOIN specObjALL p ON s.bestObjID = p.bestObjID  JOIN PhotoTag p ON p.objID = x.objID  ORDER BY s.bestObjID Where   class=STAR"
+2019-06-23 18:08:00,1

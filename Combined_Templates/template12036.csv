@@ -1,0 +1,2 @@
+1,"SELECT TOP # S.specObjID, S.bestObjID, S.plate, S.MJD, S.fiberID, S.firstRelease, S.survey, S.instrument, S.sourceType, S.ra, S.dec, S.z, S.zErr, S.zWarning, S.class, S.subClass into mydb.LRGs from SpecObjAll AS S WHERE S.sciencePrimary = # AND S.zWarning = # AND S.class = # AND S.subClass ! = # AND S.firstRelease = #"
+2019-02-18 11:26:00,1

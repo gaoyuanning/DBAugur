@@ -1,0 +1,4 @@
+3,"SELECT str(P.dered_g,#,#), str(P.dered_r,#,#), str(P.dered_i,#,#), str(P.petroMag_g-P.extinction_g,#,#), str(P.petroMag_r-P.extinction_r,#,#), str(P.petroMag_i-P.extinction_i,#,#), P.objID, P.petroR5#_r, P.petroR9#_r, P.fracDeV_r, P.deVAB_r, P.expAB_r FROM dbo.fGetNearestObjEq(#,#,#) as b, BESTDR7..Galaxy as P WHERE b.objID = P.objID"
+2019-02-22 00:49:00,1
+2019-02-22 00:57:00,1
+2019-02-22 05:53:00,1

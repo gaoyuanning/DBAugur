@@ -1,0 +1,2 @@
+1,"SELECT dis.* FROM MyDB.GALEX_DIS_SDSS_DR7ALL AS dis, photoobjall as p, GALEXGR6.XSDSSDR7 as g INTO GALEX_DIS_SDSSDR7_GAL WHERE (dis.sdssdr7_objid = p.objid AND p.nchild = #, p.type = #, g.multipleMatchCount = #)"
+2019-09-25 15:01:00,1

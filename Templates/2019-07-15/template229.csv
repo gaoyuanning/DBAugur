@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid, p.ra, p.dec, dbo.fIAUFromEq(p.ra, p.dec),  s.specobjid, s.class, s.z as redshift,  s.plate, s.mjd, s.fiberid FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   p.ra BETWEEN # AND #  p.dec BETWEEN # AND #"
+2019-07-15 14:55:00,1

@@ -1,0 +1,2 @@
+1,"select p.objID, s.z from photoObj p, specObj s where p.objID = s.bestObjID and s.specClass = # and p.objID < > # and s.zconf > .# order by s.z"
+2019-06-14 18:32:00,1

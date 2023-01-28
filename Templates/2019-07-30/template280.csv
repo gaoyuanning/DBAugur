@@ -1,0 +1,3 @@
+3,"SELECT     Aex.Name, Aex.RAdeg_HI, Aex.DECdeg_HI, Aex.RAdeg_OC, Aex.DECdeg_OC, Aex.Delta_RA_arcsec, Aex.Delta_DEC_arcsec, Aex.Vhelio, Aex.redshift,     Aex.W5#, Aex.sigW, Aex.W2#, Aex.HIflux, Aex.sigflux, Aex.SNR, Aex.RMS, Aex.Dist, Aex.sigDist, Aex.logMH, Aex.siglogMH, Aex.HIcode,     replace( dbo.fGetUrlExpEq(Aex.RAdeg_HI,Aex.DECdeg_HI),&&&,&&&) as linkHI,     replace( dbo.fGetUrlExpEq(Aex.RAdeg_OC,Aex.DECdeg_OC),&&&,&&&) as linkmanycOC,     zoo.spiral, zoo.elliptical, zoo.nvote, zoo.p_el, zoo.p_cw, zoo.p_acw, zoo.p_edge, zoo.p_dk, zoo.p_mg, zoo.p_cs FROM MyDB.alfalfa_source_with_deltara_deltadec_redshift  Aex     JOIN zooSpec zoo ON zoo.ra = Aex.RAdeg_OC WHERE     zoo.spiral = #"
+2019-07-30 15:23:00,2
+2019-07-30 15:24:00,1

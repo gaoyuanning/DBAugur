@@ -1,0 +1,2 @@
+1,"select top # ID, lat=COORDS.Lat, lon=COORDS.Long from optw.tamass.ASSETS"
+2019-11-24 10:27:00,1

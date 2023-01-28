@@ -1,0 +1,4 @@
+6,"select s.ra,s.dec,s.z,s.mstellar_median from stellarMassPCAWiscM1# as s where s.plate=# and s.mjd=# and s.fiberid=#"
+2019-11-05 19:03:00,1
+2019-11-05 20:39:00,1
+2019-11-05 20:40:00,4

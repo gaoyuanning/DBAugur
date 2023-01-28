@@ -1,0 +1,15 @@
+1198,"select top # p.*,   s.z as zspec,   s.zErr as zspec_err, s.zWarning, s.class,   s.subclass, s.primTarget,   s.spectroFlux_u, s.spectroFlux_g, s.spectroFlux_r, s.spectroFlux_i, s.spectroFlux_z,   s.spectroFluxIvar_u, s.spectroFluxIvar_g, s.spectroFluxIvar_r, s.spectroFluxIvar_i, s.spectroFluxIvar_z,   s.snMedian_u, s.snMedian_g, s.snMedian_r, s.snMedian_i, s.snMedian_z  from Galaxy as p, SpecObj as s  where   p.mode = # AND s.zWarning = # AND p.specObjId = s.specObjId AND p.clean = #   AND p.ra > # AND p.ra < # AND p.dec > # AND p.dec < #"
+2019-10-22 17:25:00,65
+2019-10-22 17:26:00,180
+2019-10-22 17:27:00,21
+2019-10-22 17:28:00,42
+2019-10-22 17:29:00,114
+2019-10-22 17:30:00,25
+2019-10-22 17:31:00,259
+2019-10-22 17:32:00,62
+2019-10-22 17:33:00,87
+2019-10-22 17:34:00,116
+2019-10-22 17:35:00,71
+2019-10-22 17:36:00,94
+2019-10-22 17:37:00,41
+2019-10-22 17:38:00,21

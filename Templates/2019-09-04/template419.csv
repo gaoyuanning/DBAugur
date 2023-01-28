@@ -1,0 +1,2 @@
+1,"select distinct eid,Spherical_power_right__#,Spherical_power_left__#  from dbo.Autorefraction       cross apply openjson(Spherical_power_right__#) j      cross apply openjson(Spherical_power_left__#) h where j.value IS NOT NULL OR       h.value IS NOT NULL"
+2019-09-04 13:53:00,1

@@ -1,0 +1,2 @@
+1,"select top # dbo.fGetUrlSpecImg (#, #) from PhotoObjAll AS p Where ra< # and dec> #"
+2019-04-15 02:39:00,1

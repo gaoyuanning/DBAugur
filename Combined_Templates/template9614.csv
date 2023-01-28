@@ -1,0 +1,2 @@
+1,"SELECT spec.bestobjid, spec.ra, spec.dec, spec.z, spec.zWarning, spec.class, phot.fiberMag_u, phot.fiberMag_g, phot.fiberMag_r, phot.fiberMag_i, phot.fiberMag_z INTO MyDB.DR1#_Stephane FROM SpecObj as spec, PhotoObj as phot WHERE spec.BestObjID = phot.ObjID AND spec.class = # AND (spec.zWarning = # OR spec.zWarning = #) AND spec.ra BETWEEN # and # AND spec.dec BETWEEN # and # OR spec.ra BETWEEN # and # AND spec.dec BETWEEN # and #"
+2019-02-11 14:55:00,1

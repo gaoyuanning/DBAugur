@@ -1,0 +1,2 @@
+1,"SELECT TOP # g.objid, g.dec, g.ra, g.u, g.g, g.r, g.i, g.z, pz.z as redshift, pz.absMag_u, pz.absMag_g, pz.absMag_r, pz.absMag_i, pz.absMag_z, pz. into mydb.MyTable3 FROM Galaxy AS G JOIN SpeczWarning AS sz ON G.objid = sz.objid"
+2019-07-16 11:50:00,1

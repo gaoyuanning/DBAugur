@@ -1,0 +1,4 @@
+3,"select top # objID,type,ra,dec,u,g,r,i,z from PhotoObjAll where  ra># and ra<# and dec between # and # and g-r<# and u!=#"
+2019-02-20 03:45:00,1
+2019-02-20 03:46:00,1
+2019-02-20 03:47:00,1

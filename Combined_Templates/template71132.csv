@@ -1,0 +1,3 @@
+2,"SELECT TwoMassXSC.objID, PhotoObjAll.objID into mydb.MyTable from TwoMassXSC WHERE TwoMassXSC.objID = PhotoObjAll.objID"
+2019-10-22 10:50:00,1
+2019-10-22 10:51:00,1

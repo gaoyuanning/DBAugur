@@ -1,0 +1,5 @@
+5,"select top #  p.ra, p.dec, s.z, bestObjID from  photoObj p join  specObj s ON s.bestObjID = p.objID where  s.class = &&&   and s.z between # and #  and s.zWarning = #"
+2019-11-12 21:02:00,2
+2019-11-12 21:09:00,1
+2019-11-12 21:11:00,1
+2019-11-12 21:14:00,1

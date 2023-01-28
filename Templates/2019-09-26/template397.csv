@@ -1,0 +1,2 @@
+1,"select top #   specObjID, ra, dec, z, zErr, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z,   modelMagErr_u, modelMagErr_g, modelMagErr_r, modelMagErr_i, modelMagErr_z, type from SpecPhoto where z < # and type = # and ra between # and # and dec between # and #"
+2019-09-26 13:17:00,1

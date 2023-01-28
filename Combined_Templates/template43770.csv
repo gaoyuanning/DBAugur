@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.run, p.rerun, p.camcol, p.field, dbo.fObjTypeN (p.objtype) as type, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, dbo.fSpecClassN (p.specclass) as class FROM SpecPhoto as p WHERE (p.ra BETWEEN # AND #) AND (p.dec BETWEEN # AND #) AND ( (p.modelMag_g BETWEEN # AND #) OR (p.modelMag_r BETWEEN # AND #) ) AND (type = #) AND (class = #)"
+2019-06-03 23:03:00,1

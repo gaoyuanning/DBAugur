@@ -1,0 +1,2 @@
+1,"select column_name,encoding_id from metadata.columninfo where column_name=&&&"
+2019-09-17 10:34:00,1

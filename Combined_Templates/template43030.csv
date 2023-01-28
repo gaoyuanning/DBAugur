@@ -1,0 +1,2 @@
+1,"SELECT f.id, f.ra, f.dec, p.objid, p.run, p.rerun, p.camcol, p.field, p.obj, s.plate, s.mjd, s.fiberID into mydb.Image_Spectro_info_xjoin from MyDB.FIRST_RA_Dec_Reduced_#p0#deg AS f CROSS APPLY dbo.fGetNearestObjEq (f.ra, f.dec, #) AS x JOIN PhotoObjAll p ON x.objID = p.objID JOIN SpecObjAll s ON p.objID = s.bestObjID"
+2019-05-30 01:36:00,1

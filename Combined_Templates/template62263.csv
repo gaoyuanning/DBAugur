@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objID, t.thingID, p.run, p.ra, p.dec, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, f.mjd_r into mydb.MyTable from detectionindex d JOIN PhotoObjAll p ON d.objid = p.objid JOIN Field f ON p.fieldid = f.fieldid WHERE d.thingid = #"
+2019-09-10 04:32:00,1

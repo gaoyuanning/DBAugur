@@ -1,0 +1,3 @@
+2,SELECT aspcapStar.* into mydb.MyTable_# from aspcapStar join apogeeStar on apogeeStar.apogee_id = aspcapStar.apogee_id
+2019-01-16 16:34:00,1
+2019-01-16 16:35:00,1

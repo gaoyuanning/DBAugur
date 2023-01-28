@@ -1,0 +1,2 @@
+1,"SELECT TOP # gsl.oiii_#_flux, gsl.oiii_#_flux_err, gsl.nii_#_flux, gsl.nii_#_flux_err, gsl.h_alpha_flux, gsl.h_alpha_flux_err, gsl.h_beta_flux, gsl.h_beta_flux_err, p.objid, p.ra,p.dec,p.petror9#_r, p.dered_z, p.dered_r, p.dered_g   FROM Galaxy as p    JOIN galSpecLine AS gsl ON p.specobjid = gsl.specobjid"
+2019-04-25 15:25:00,1

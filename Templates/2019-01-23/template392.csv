@@ -1,0 +1,2 @@
+1,"SELECT    m.*, p.z, p.NNAvgz into mydb.NN_#ArcSec_with_z from MyDb.NN_#ArcSec_allParams as m   join Photoz as p on m.objid = p.objid"
+2019-01-23 09:51:00,1

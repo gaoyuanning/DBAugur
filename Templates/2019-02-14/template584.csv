@@ -1,0 +1,2 @@
+1,"SELECT TOP p.run,p.rerun,p.camCol,p.field,p.obj into mydb.tab1 FROM PhotoObj AS p, dbo.fGetNearbyObjEq(#,#,#) AS b WHERE b.objID = p.objID AND p.r < # AND ( p.type = #)"
+2019-02-14 02:57:00,1

@@ -1,0 +1,4 @@
+150,"select objID, ra, dec, raErr, decErr from PhotoObjAll where field = #;"
+2019-12-31 04:41:00,30
+2019-12-31 04:43:00,90
+2019-12-31 04:44:00,30

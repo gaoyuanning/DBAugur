@@ -1,0 +1,2 @@
+1,"select top # s.*, b.distance from photoprimary as s   join dbo.fgetnearbyobjeq(#, #, #/#) b on s.objid=b.objid where ((flags & #) != #)   and (s.type=#)   and (s.run !=# and s.run!=#)   AND ((flags & #) = #)   and (psfmagerr_g <= # or psfmagerr_r<= # or psfmagerr_i<=# or psfmagerr_u<= # or psfmagerr_z<= #)   AND (((flags & #) = #) or (psfmagerr_r <= # and psfmagerr_i<= # and psfmagerr_g<=#))     AND (((flags & #) = #) or (flags & #) = #) order by distance"
+2019-09-12 16:50:00,1

@@ -1,0 +1,2 @@
+1,"SELECT objid, ra, dec, modelmag_r, z as RedShift, modelmag_r-#*log1# (#E+#*z) as abs_mag_r FROM SpecPhoto WHERE z between # and #"
+2019-11-19 17:55:00,1

@@ -1,0 +1,2 @@
+1,"SELECT soa.elodieLogG as LogG, soa.elodieBV as B_V, soa.elodieFeH as Fe_H FROM SpecObjAll AS soa, star AS st WHERE   st.elodieLogG BETWEEN # AND #   AND st.elodieLogG BETWEEN # AND #  AND st.elodieBV BETWEEN # AND #"
+2019-11-29 19:47:00,1

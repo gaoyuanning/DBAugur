@@ -1,0 +1,2 @@
+1,"select a.*, t.objid as matched_id, s.z from #tmp t JOIN MYDB.Red_E_Galaxies_Spec a ON t.up_id = a.searchID JOIN specobj s ON s.bestobjid = t.objid"
+2019-08-24 09:20:00,1

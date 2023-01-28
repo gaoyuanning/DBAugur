@@ -1,0 +1,2 @@
+1,"SELECT PA.petroMag_u, PA.petroMag_g, PA.petroMag_r, PA.petroMag_i, PA.petroMag_z, PA.deVRad_r, PA.fracDeV_r  into GU2#_hw2_w2  From SpecObjAll as SOA, PhotoObjAll as PA, stellarMassFSPSGranEarlyDust as FSPSG, galSpecExtra as SE, galSpecLine as SL Where   SOA.z < # and SOA.z > # and SOA.specObjID = PA.specObjID and SOA.specObjID = SE.specObjID and SOA.specObjID = SL.specObjID"
+2019-04-30 07:57:00,1

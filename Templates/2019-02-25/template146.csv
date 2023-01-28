@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.u, p.g     FROM zoo2MainSpecz WHERE p.u BETWEEN # AND # AND p.g BETWEEN # AND #, t0#_spiral_a0#_spiral_fraction = spiral"
+2019-02-25 20:55:00,1

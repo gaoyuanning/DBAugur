@@ -1,0 +1,2 @@
+1,"SELECT    m.*, p.petroR5#_r, p.petroR9#_r, p.petroRad_r      INTO    myDB.gals_specObjIDs_massa     FROM    myDB.gals_specObjIDs  as m, PhotoObj as p, specObjAll as s     WHERE  p.objID = m.objID and p.objID = s.bestObjID"
+2019-07-25 09:52:00,1

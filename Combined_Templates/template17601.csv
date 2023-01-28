@@ -1,0 +1,2 @@
+1,"select ObjID1, ObjID2, Run1, Run2, Dsec = distance*# from Match where type1 = # and type2 = # -- stars and mode1 = # and mode2 = # -- primary) select count (ObjID1) from p"
+2019-03-05 08:42:00,1

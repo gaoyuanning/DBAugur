@@ -1,0 +1,9 @@
+9,"SELECT TOP # p.ra, p.dec, p.run, p.rerun, p.camCol, p.field, p.obj FROM BESTDR8..PhotoObj AS p JOIN #x AS x ON x.objID = p.objID JOIN #upload AS u ON u.up_id = x.up_id WHERE (p.type = # OR p.type = #) ORDER BY x.up_id"
+2019-03-11 15:36:00,1
+2019-04-11 06:56:00,1
+2019-04-11 06:57:00,1
+2019-09-23 21:33:00,1
+2019-09-24 09:06:00,1
+2019-09-24 12:35:00,1
+2019-09-24 12:41:00,1
+2019-09-24 12:46:00,2

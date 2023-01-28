@@ -1,0 +1,2 @@
+1,"SELECT TOP(#) bestObjID, z FROM SpecObj  WHERE class=&&&  UNION SELECT TOP(#) bestObjID, z  FROM specobj  WHERE class=&&&"
+2019-03-25 06:54:00,1

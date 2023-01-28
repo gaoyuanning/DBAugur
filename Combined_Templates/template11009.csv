@@ -1,0 +1,2 @@
+1,"select top # s.plate, s.mjd, s.fiberid, s.z, s.z_noqso, p.extinction_g, s.survey, s.instrument into mydb.MyTable from SpecObj as s join PhotoObj as p on s.specobjid = p.specobjid where s.targetType = # and s.class = #"
+2019-02-13 03:40:00,1

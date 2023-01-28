@@ -1,0 +1,3 @@
+3,select COUNT (z) from dbo.specPhotoAll where class = # and objID is not # and sciencePrimary = # and z< # and dered_r< #
+2019-04-03 08:04:00,1
+2019-04-03 08:07:00,2

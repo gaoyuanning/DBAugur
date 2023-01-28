@@ -1,0 +1,2 @@
+1,"SELECT u,g,r,i,z FROM PhotoObj WHERE ra = # AND dec = #"
+2019-08-20 14:13:00,1

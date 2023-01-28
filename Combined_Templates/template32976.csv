@@ -1,0 +1,3 @@
+2,"select * from openquery ([#.#], #'paac_jhu_#_all# and sl.list_id = sll.list_id and s.internal_id = sll.sample_id and gp.stable_id = #paac_jhu_#_mutations# and m.sample_id = s.internal_id and m.genetic_profile_id = gp.genetic_profile_id ') a"
+2019-04-22 08:20:00,1
+2019-04-22 08:21:00,1

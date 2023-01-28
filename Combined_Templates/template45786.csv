@@ -1,0 +1,2 @@
+2,"select galaxy.objID, SpecObj.fiberID, Galaxy.u, Galaxy.g, Galaxy.r, Galaxy.i, Galaxy.z, SpecObj.z, PlateX.plate, PlateX.mjd from SpecObj, Galaxy, PlateX where galaxy.objID = specObj.bestObjID AND specObj.plateID = plateX.plateID AND specObj.specClass = # AND galaxy.g BETWEEN # and # AND specObj.z< #"
+2019-06-14 14:30:00,2

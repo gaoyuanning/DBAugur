@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.z,  zoo.spiral, zoo.elliptical, zoo.uncertain,  p.petroMag_r, p.dered_r, p.extinction_r, pz.absMagR FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid  JOIN zooSpec AS zoo ON zoo.objid = p.objid  JOIN photoz AS pz ON pz.objid = p.objid WHERE   zoo.ra BETWEEN # AND #  AND zoo.dec BETWEEN # AND #  AND s.z BETWEEN # AND #  AND p.petroMag_r < #  AND p.type = #  AND zoo.spiral = # OR zoo.elliptical = #  AND p.dered_r < #"
+2019-03-18 13:55:00,1

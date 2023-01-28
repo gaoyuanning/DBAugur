@@ -1,0 +1,5 @@
+11,SELECT * into mydb.z_#_# from field_all where redshift between # and #
+2019-08-19 10:58:00,1
+2019-08-19 10:59:00,3
+2019-08-19 11:00:00,6
+2019-08-19 11:01:00,1

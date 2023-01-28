@@ -1,0 +1,2 @@
+1,"SELECT A.ra,A.dec,A.objID,A.z,A.zerr,A.class,A.subClass,A.specobjID,B.specobjID                      FROM                         SpecPhotoAll AS A                         LEFT OUTER JOIN SpecObj as B on A.specobjID=B.specobjID                         WHERE                            A.ra BETWEEN # AND # AND A.class!=&&&                         INTO                            MyDB.CTRL6"
+2019-08-30 10:43:00,1

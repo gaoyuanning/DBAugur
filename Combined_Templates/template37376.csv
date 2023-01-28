@@ -1,0 +1,2 @@
+2,"select ra, dec, fiberId, ObjId, z, class from SpecPhoto where ra BETWEEN # and # AND dec BETWEEN # and # group by class"
+2019-05-07 17:16:00,2

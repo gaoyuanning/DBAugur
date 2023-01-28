@@ -1,0 +1,2 @@
+1,"select top # objid, ra, dec, r from galaxy where clean = #"
+2019-07-08 07:48:00,1

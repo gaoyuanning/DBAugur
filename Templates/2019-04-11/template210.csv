@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objID,       f.kcorrU, f.kcorrG, f.kcorrR,     f.z, f.zErr,s.velDisp, f.kcorrU0#, f.kcorrG0#, f.kcorrR0#,    f.absmagU, f.absmagG, f.absmagR,     a.cModelMag_u, a.cModelMag_g, a.cModelMag_r,     a.extinction_u, a.extinction_g, a.extinction_r, a.cModelMag_u-a.cModelMag_r,      p.u, p.r, p.g, p.u-p.r into mydb.Table1#_abr4 from Photoz AS f, photoObj AS p, SpecObj AS s, PhotoPrimary AS a  WHERE    s.bestObjID=f.objID    AND s.bestObjID=p.objID       AND s.bestObjID=a.objID    AND p.r < #       AND f.z >#"
+2019-04-11 15:53:00,1

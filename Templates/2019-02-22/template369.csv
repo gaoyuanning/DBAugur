@@ -1,0 +1,2 @@
+1,"SELECT p.run,p.rerun,p.camcol,p.field,p.obj,p.ra,p.dec,q.z From dbo.fGetNearbyObjEq(#,#,#) as b,Galaxy as p,PhotoZ as q WHERE (b.objID=p.objID) and (p.objid=q.objid) and (p.r<#) and (q.z<> #)"
+2019-02-22 05:55:00,1

@@ -1,0 +1,2 @@
+1,"select top # ra, dec from star where r between #$i4 and #$ ((i #) )#\"
+2019-11-14 18:17:00,1

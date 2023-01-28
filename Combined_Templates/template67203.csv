@@ -1,0 +1,4 @@
+3,"SELECT TOP # specObjID, ra, dec, z, cx, cy, cz FROM SpecObjAll WHERE #< =ra AND ra< =# AND #< =dec AND dec< =#"
+2019-10-02 09:42:00,1
+2019-10-02 09:43:00,1
+2019-10-02 09:45:00,1

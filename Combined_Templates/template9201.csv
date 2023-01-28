@@ -1,0 +1,2 @@
+1,"select n.colummn1 FROM OUTER APPLY dbo.fCosmoComovDist2ObjectsRADEC (#, #, #, #, #, #, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT) as n INTO MyDB.NearbyObjEq5"
+2019-02-09 16:41:00,1

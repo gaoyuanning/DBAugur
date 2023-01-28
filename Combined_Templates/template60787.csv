@@ -1,0 +1,6 @@
+5,"SELECT s.subClass, count (*) FROM PhotoObjAll as p, SpecObjAll as s WHERE p.objID = s.bestObjID and p.modelMag_g < # and p.modelMag_r < # and p.modelMag_g - p.modelMag_r < # and s.class = # GROUP BY s.subClass;"
+2019-09-04 16:51:00,1
+2019-09-04 16:52:00,1
+2019-09-04 16:54:00,1
+2019-09-04 17:15:00,1
+2019-09-04 17:18:00,1

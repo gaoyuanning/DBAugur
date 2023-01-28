@@ -1,0 +1,2 @@
+1,"SELECT up_id, (SELECT apstar_id FROM fGetNearestApogeeStarEq(up_ra,up_dec,#)) as apstar_id   FROM #upload WHERE (SELECT apstar_id FROM fGetNearestApogeeStarEq(up_ra,up_dec,#)) IS NOT NULL  SELECT u.up_SourceId as [SourceId], s.* FROM #upload u  JOIN #x x ON x.up_id = u.up_id  JOIN apogeestar s ON s.apstar_id = x.apstar_id"
+2019-12-13 15:09:00,1

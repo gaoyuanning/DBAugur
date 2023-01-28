@@ -1,0 +1,2 @@
+1,"create table Players ( playerID varchar , birthYear smallint , birthMonth smallint , birthDay smallint , birthCountry varchar , birthState varchar , birthCity varchar , deathYear smallint , deathMonth smallint , deathDay smallint , deathCountry varchar , deathState varchar , deathCity varchar , nameFirst varchar , nameLast varchar , nameGiven varchar , weight smallint , height smallint , bats varchar , throws varchar , debut datetime , finalGame datetime , retroID varchar , bbrefID varchar )"
+2019-02-17 14:38:00,1

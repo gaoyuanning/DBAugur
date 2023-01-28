@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec, s.z, s.specObjID into mydb.MyTable_# from SpecPhotoAll as s OUTER APPLY dbo.fGetNearbyObjEq (#, #, #) as n WHERE s.objID = n.objID AND s.z BETWEEN # AND #"
+2019-04-28 06:07:00,1

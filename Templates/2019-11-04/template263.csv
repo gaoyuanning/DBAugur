@@ -1,0 +1,6 @@
+7,"SELECT TOP # p.apstar_id,   p.apogee_id,p.ra, p.dec, p.glon, p.glat,  p.vhelio_avg,p.vscatter,  a.teff,a.logg,  a.m_h   FROM apogeeStar p  JOIN aspcapStar a on a.apstar_id = p.apstar_id  JOIN apogeeObject as o ON a.apogee_id=o.apogee_id  WHERE p.ra BETWEEN # AND #  AND p.dec BETWEEN # AND #"
+2019-11-04 14:12:00,1
+2019-11-04 14:15:00,1
+2019-11-04 14:16:00,3
+2019-11-04 14:18:00,1
+2019-11-04 14:21:00,1

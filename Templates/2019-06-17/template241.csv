@@ -1,0 +1,2 @@
+1,"SELECT count(*)  FROM PhotoObj AS p OUTER APPLY dbo.fFootprintEq(ra,dec,#) AS q WHERE (ra BETWEEN # AND #) AND (dec BETWEEN # AND #)"
+2019-06-17 14:56:00,1

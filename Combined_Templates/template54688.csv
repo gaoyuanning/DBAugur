@@ -1,0 +1,2 @@
+1,"select q.*, s.specobjID, dbo.fRun (bestobjID) as run from mydb.dr1#qsoMin as q, specobjall as s into mydb.dr1#inter where q.plate = s.plate and q.mjd = s.mjd and q.fiberid = s.fiberid and dbo.fStripeOfRun (run) = #"
+2019-07-31 17:53:00,1

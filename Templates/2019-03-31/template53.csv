@@ -1,0 +1,2 @@
+2,"SELECT TOP # survey, plate, mjd, fiberid, bestObjID, z FROM specObj WHERE class = &&& AND zWarning = # AND bestObjID > # AND S/N > # AND # <= z AND z <=# ORDER BY NEWID()"
+2019-03-31 23:07:00,2

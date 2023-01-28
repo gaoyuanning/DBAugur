@@ -1,0 +1,4 @@
+4,"SELECT p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.FiberFlux_u, p.FiberFlux_g, p.FiberFlux_r, p.FiberFlux_i, p.FiberFlux_z, p.psfFlux_u, p.psfFlux_g, p.psfFlux_r, p.psfFlux_i, p.psfFlux_z, p.psfFluxIvar_u, p.psfFluxIvar_g, p.psfFluxIvar_r, p.psfFluxIvar_i, p.psfFluxIvar_z, p.petroFlux_u, p.petroFlux_g, p.petroFlux_r, p.petroFlux_i, p.petroFlux_z, p.cmodelFlux_u, p.cmodelFlux_g, p.cmodelFlux_r, p.cmodelFlux_i, p.cmodelFlux_z, p.PetroRad_u, p.PetroRad_g, p.PetroRad_r, p.PetroRad_i, p.PetroRad_z, p.field, p.fracDeV_u, p.fracDeV_g, p.fracDeV_r, p.fracDeV_i, p.fracDeV_z, p.deVRad_u, p.deVRad_g, p.deVRad_r, p.deVRad_i, p.deVRad_z, p.modelFlux_u, p.modelFlux_g, p.modelFlux_r, p.modelFlux_i, p.modelFlux_z, f.major, f.minor, s.specobjid, s.class, s.sourcetype, s.z as redshift into mydb.MyTable from PhotoObj p JOIN SpecObj s ON s.bestobjid = p.objid JOIN First f ON f.objid = p.objid WHERE s.class = #"
+2019-09-18 04:03:00,1
+2019-09-18 04:04:00,1
+2019-09-18 04:54:00,2

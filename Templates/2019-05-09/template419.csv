@@ -1,0 +1,2 @@
+1,"select ra as xcol, dec as ycol from sample_targets where  ra < #"
+2019-05-09 09:37:00,1

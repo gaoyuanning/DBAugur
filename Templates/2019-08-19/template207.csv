@@ -1,0 +1,2 @@
+3,"SELECT   sp.specObjId AS specObjId,   sp.ra AS RA_sdss,   sp.dec AS DEC_sdss,   sp.z AS zsp,   sp.zErr AS e_zsp,   sp.class AS class,   sp.subClass AS subClass,   sp.zWarning AS zWarning       INTO   mydb.SpecPhotoAll1    FROM   SpecPhotoAll as sp"
+2019-08-19 12:39:00,3

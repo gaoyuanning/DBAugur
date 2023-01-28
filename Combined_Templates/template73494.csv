@@ -1,0 +1,2 @@
+1,"SELECT el.ra, el.dec, zp.* into mydb.result_CL1# FROM mydb.CL1# as el CROSS APPLY dbo.fGetNearestSpecObjEq (el.ra, el.dec, #) AS near JOIN Photoz as zp ON near.specObjID = zp.objID"
+2019-11-03 09:51:00,1

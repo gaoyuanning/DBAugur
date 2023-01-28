@@ -1,0 +1,5 @@
+5,"select top # ra, dec, z from SpecPhoto where zwarning = # and z> # order by z ASC"
+2019-03-23 17:25:00,2
+2019-03-26 15:23:00,1
+2019-03-26 15:24:00,1
+2019-03-26 15:26:00,1

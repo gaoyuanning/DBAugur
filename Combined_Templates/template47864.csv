@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.specobjid, s.dered_r FROM SpecObjAll s WHERE s.speobjid = #"
+2019-06-24 12:27:00,1

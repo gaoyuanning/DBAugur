@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.psfmag_g, f.mjd_r FROM PhotoPrimary p, Field f  WHERE n.objID = p.objID and f.fieldID = p.fieldID and p.ra BETWEEN # AND #"
+2019-12-08 03:51:00,1

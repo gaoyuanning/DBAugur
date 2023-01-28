@@ -1,0 +1,4 @@
+4,"SELECT m.name AS id, m.ra, m.dec, n.objid, n.distance, o.z, o.plate, o.mjd, o.fiberid, dbo.fPhotoTypeN (o.type) AS type into mydb.GC_spec from MyDB.gaia_cand AS m OUTER APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n JOIN SpecPhotoAll AS o ON n.objid = o.objid"
+2019-07-09 02:31:00,1
+2019-09-03 04:31:00,2
+2019-09-03 04:36:00,1

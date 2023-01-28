@@ -1,0 +1,2 @@
+1,"SELECT TOP # f.kk_g, f.airmass_g, f.aa_g FROM field as f WHERE f.run = # AND f.rerun = # AND f.camcol = # AND f.field = #"
+2019-07-30 16:06:00,1

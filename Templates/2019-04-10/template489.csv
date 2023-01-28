@@ -1,0 +1,2 @@
+1,"select specobjid,ra, dec into mydb.MyTable_theta from dbo.zoo2Stripe8#Normal where   t0#_bar_a0#_bar_count >= # and   t0#_bar_a0#_bar_fraction > # and    t0#_bar_a0#_bar_weighted_fraction > # and    t0#_bar_a0#_bar_debiased > #"
+2019-04-10 07:59:00,1

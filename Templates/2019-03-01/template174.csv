@@ -1,0 +1,2 @@
+1,"select top # ra, dec, g_mag, r_mag, i_mag, z_mag, bestObjID from photoObj where ra between # and z > # and zWarning = #"
+2019-03-01 21:34:00,1

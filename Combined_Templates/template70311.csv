@@ -1,0 +1,4 @@
+4,"SELECT TOP # s.SpecObjID, s.z, L.ew, L.sigma, L.height, dbo.fCosmoDl (s.z) , ph.modelMag_u, ph.modelMag_g, ph.modelMag_r, so.mag_# from SpecPhoto as s, SpecLine as L, SpecObjAll as so, PhotoObjAll as ph WHERE s.specClass = # AND L.lineID = # AND L.ew > # AND L.height > # AND L.specObjID = s.specObjID AND so.specObjID = s.specObjID AND ph.PhotoObjAll = s.specObjID"
+2019-10-18 13:35:00,1
+2019-10-18 13:36:00,1
+2019-10-18 13:37:00,2

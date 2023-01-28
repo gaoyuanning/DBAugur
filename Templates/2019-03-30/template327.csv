@@ -1,0 +1,2 @@
+1,"select substring(trim(name),#,#) as ch,count(*) as num   from chinook.artist group by substring(trim(name),#,#) order by #"
+2019-03-30 11:11:00,1

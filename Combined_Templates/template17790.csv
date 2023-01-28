@@ -1,0 +1,2 @@
+1,"SELECT m.objid, f.ra, f.dec, f.z, f.zErr, sm.logMass, sm.logMass_err, sm.ssfr + sm.logMass - #. AS logSFR, sm.age from MyDB.s1#a_tmpcat AS m JOIN SpecPhotoAll AS f ON m.objid = f.objid JOIN stellarMassFSPSGranWideDust as sm on f.SpecObjID = sm.SpecObjID"
+2019-03-06 17:38:00,1

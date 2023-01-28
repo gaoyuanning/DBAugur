@@ -1,0 +1,2 @@
+1,"SELECT U.up_id, S.*  FROM #upLoad U CROSS APPLY (SELECT Objid FROM   dbo.fGetNearbyObjEq( U.up_ra ,U.up_dec ,U.up_sep )) S  SELECT TOP #   p.ra,p.dec, p.run,p.rerun,p.camCol,p.field,p.obj,ISNULL(s.plate,#) as plate,ISNULL(s.mjd,#) as mjd,ISNULL(s.fiberid,#) as fiberid  FROM ..PhotoObj AS p  LEFT OUTER JOIN ..SpecObj s ON p.objID = s.bestObjID  JOIN #x AS x ON x.objID=p.objID  JOIN #upload AS u ON u.up_id = x.up_id   WHERE  ( p.type = #)   ORDER BY x.up_id"
+2019-02-09 20:19:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.objID, s.ra, s.dec, s.u, s.g, s.r, s.i, s.z, s.specObjID, o.elodieSpType, o.elodieTEff	 FROM Star s      JOIN SpecObj o ON s.specObjID = o.specObjID WHERE s.b >#    AND o.elodieTEff != #"
+2019-06-24 07:16:00,1

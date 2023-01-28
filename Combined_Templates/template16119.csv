@@ -1,0 +1,2 @@
+1,"select bestObjID , survey , z from SpecObj tablesample (#) where class = # and survey = # and zWarning = # and z > # and z < #"
+2019-03-02 16:11:00,1

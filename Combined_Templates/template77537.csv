@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.run, s.plateid, s.fiberid, s.specObjID FROM SpecObjAll s INNER JOIN Star p ON p.objid = s.bestObjID WHERE p.r BETWEEN # AND #"
+2019-11-20 12:05:00,1

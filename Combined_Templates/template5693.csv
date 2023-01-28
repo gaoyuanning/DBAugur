@@ -1,0 +1,2 @@
+1,"SELECT m.*, p.z, p.zerr, into mydb.NN_#ArcSec_with_zerr_real_spectro from MyDb.NN_#ArcSec_allParams as m join SpecObj as p on m.objid = p.bestobjid"
+2019-01-24 16:37:00,1

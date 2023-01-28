@@ -1,0 +1,2 @@
+1,"select top # j.chromosome, j.start, j.end, j.length, j.strand, j.annotated, j.left_motif, j.right_motif from Junctions j, SnapCounts c where j.snapid = c.snapid"
+2019-06-26 14:58:00,1

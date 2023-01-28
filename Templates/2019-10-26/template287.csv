@@ -1,0 +1,2 @@
+1,"select ID, wkt=geom.MakeValid().ToString()  from optw.tamass.TRACTS  where state=# -- Oregon     and geom.MakeValid().STArea() < #e1#"
+2019-10-26 15:55:00,1

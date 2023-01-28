@@ -1,0 +1,4 @@
+3,"select top # objid, modelmag_u, modelmag_g, modelmag_r, modelmag_i, modelmag_z,z from SpecPhoto where specclass=# and zconf > .#"
+2019-07-09 14:35:00,1
+2019-07-09 19:34:00,1
+2019-07-09 20:03:00,1

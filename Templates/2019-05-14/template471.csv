@@ -1,0 +1,2 @@
+1,select all * into mydb.MyTable from photoobjall where run=# and rerun=# and camcol=#
+2019-05-14 08:31:00,1

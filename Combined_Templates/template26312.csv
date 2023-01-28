@@ -1,0 +1,2 @@
+3,"SELECT TOP # specObjID, z /*Table of top # objects with redshift*/ FROM SpecObj /*Objects with spectra*/ WHERE class = # /* The objects shown will all be QSO#BOSS#SDSS' /*I have added the BOSS survey */ AND htmid*# & # < (# * #) /* This is the randomisation algorithm*/"
+2019-04-01 20:11:00,3

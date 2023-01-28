@@ -1,0 +1,2 @@
+1,"SELECT id.specObjID, s.plate, s.mjd, s.fiberid into mydb.s0_spec_ids from mydb.ids_S0 AS id, SpecObj AS s WHERE id.specObjID=s.specObjID and s.zwarning = #"
+2019-11-14 10:23:00,1

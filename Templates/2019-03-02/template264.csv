@@ -1,0 +1,2 @@
+1,"select top # SO.bestObjID  , SO.survey , SO.z from SpecObj SO  inner join star ST on SO.bestObjID = ST.ObjID where SO.class = &&&  and SO.survey = &&&  and SO.zWarning = #  and SO.z between # and #"
+2019-03-02 16:31:00,1

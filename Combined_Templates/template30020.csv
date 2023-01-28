@@ -1,0 +1,2 @@
+1,"select sl.stable_id as case_list_id , s.stable_id as case_id from cancer_study cs inner join sample_list sl on sl.CANCER_STUDY_ID = cs.CANCER_STUDY_ID join sample_list_list sll on sl.list_id = sll.list_id join sample s on s.internal_id = sll.sample_id into mydb.samples where cs.cancer_study_identifier = # order by #, #"
+2019-04-14 16:41:00,1

@@ -1,0 +1,2 @@
+1,"select top # sn.redshift, f.fofid,f.x,f.y,f.z   from snapshots sn, fof_# f  where sn.snapnum=# and f.snapnum=sn.snapnum  order by f.m_crit2# desc"
+2019-04-16 18:11:00,1

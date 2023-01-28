@@ -1,0 +1,23 @@
+57,"select b.apogee_id, dbo.fApogeeStarFlagN(m.starflag) as starflag,dbo.fApogeeAspcapFlagN(a.aspcapflag) as ascapflag,a.teff,a.teff_err,a.logg,a.logg_err,a.fe_h,a.fe_h_err,a.alpha_m,a.alpha_m_err,m.vhelio_avg,m.vscatter,dbo.fApogeeTarget1N(m.apogee_target1) as target1,dbo.fApogeeTarget2N(m.apogee_target2) as target2,m.commiss,p.ra,p.dec,m.glon,m.glat,p.apogee_id,m.apstar_id,p.j,p.j_err,p.h,p.h_err,p.k,p.k_err, p.irac_#_#, p.irac_#_#_err, p.src_#_# from apogeeObject p, apogeeStar m, aspcapStar a, dbo.fGetNearestApogeeStarEq(#,#,#) b where p.apogee_id=b.apogee_id and a.apogee_id=b.apogee_id and m.apogee_id=b.apogee_id"
+2019-05-02 14:09:00,1
+2019-05-02 14:25:00,1
+2019-05-02 14:49:00,1
+2019-05-02 14:50:00,4
+2019-05-02 14:51:00,4
+2019-05-02 14:52:00,1
+2019-05-02 15:14:00,1
+2019-05-02 15:23:00,1
+2019-05-02 15:24:00,1
+2019-05-02 15:27:00,1
+2019-05-02 17:24:00,3
+2019-05-02 17:27:00,2
+2019-05-02 17:31:00,1
+2019-05-02 17:32:00,4
+2019-05-02 17:36:00,7
+2019-05-02 17:37:00,3
+2019-05-02 17:40:00,2
+2019-05-02 17:41:00,6
+2019-05-02 17:46:00,3
+2019-05-02 17:50:00,1
+2019-05-02 17:52:00,5
+2019-05-02 17:54:00,4

@@ -1,0 +1,2 @@
+1,"SELECT spp.SPECOBJID, spp.FEHADOP, spp.FEHADOPUNC, spp.FEHSPEC, spp.FEHSPECUNC from mydb.eu_id AS id, sppParams AS spp WHERE id.specobjid_eu = spp.SPECOBJID"
+2019-08-09 06:24:00,1

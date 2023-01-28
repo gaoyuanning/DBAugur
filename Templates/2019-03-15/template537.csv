@@ -1,0 +1,2 @@
+1,"SELECT s.class,s.z,p.dec,p.g,p.i,p.r,str(p.ra,#,#) as ra,p.u,p.z FROM BESTDR9..SpecObj as s 	JOIN BESTDR9..PhotoObj AS p ON s.bestObjID = p.objID WHERE  s.zWarning = # AND (s.class = &&&) AND ( p.type = # OR p.type = #)"
+2019-03-15 03:13:00,1

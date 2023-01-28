@@ -1,0 +1,2 @@
+1,"SELECT p.objId,p.ra,p.dec,phioffset_r, deVPhi_r, expPhi_r, deVAB_r, expAB_r, u_r as stokesU_r, q_r as stokesQ_r  into mydb.dr1#gal from galaxy AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.u BETWEEN # AND #  AND s.z between # and #"
+2019-10-20 15:42:00,1

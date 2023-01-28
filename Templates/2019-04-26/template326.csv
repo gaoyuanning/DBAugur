@@ -1,0 +1,2 @@
+1,select * from specObj where class = &&& and ra > # and ra < # and dec > # and dec < # and z < # and zWarning = #
+2019-04-26 15:52:00,1

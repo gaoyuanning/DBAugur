@@ -1,0 +1,2 @@
+1,"SELECT p.objID as objid, p.psfMag_r as psf_rSDSS, p.psfMag_g as psf_gSDSS, p.psfMagErr_r as psf_rSDSS_err, p.psfMagErr_g as psf_gSDSS_err, p.fiberMag_r as fib_rSDSS, p.fiberMag_g as fib_gSDSS, p.fiberMagErr_r as fib_rSDSS_err, p.fiberMagErr_g as fib_gSDSS_err, p.probPSF_g as probPSFstar_g, , p.fiberMagErr_z as z_err INTO mydb.jplusTile FROM dr1#.PhotoObjAll AS p WHERE p.r BETWEEN # AND # AND (ABS (p.ra) - FLOOR (ABS (p.ra) )) > = # AND (ABS (p.ra) - FLOOR (ABS (p.ra) )) < # AND p.clean = # AND (p.calibStatus_r & #) ! = # ORDER BY p.objid"
+2019-12-17 04:00:00,1

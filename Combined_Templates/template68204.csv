@@ -1,0 +1,2 @@
+1,"SELECT p.ObjId, p.type, p.ra, p.dec, p.dered_r, p.dered_g, p.petromag_r, p.petromag_g, n.z FROM PhotoObjAll p JOIN nsatlas m ON p.camcol = n.camcol WHERE type = # AND ra > # and ra < # AND dec > # and dec < #"
+2019-10-07 13:08:00,1

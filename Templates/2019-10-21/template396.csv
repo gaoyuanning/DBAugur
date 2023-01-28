@@ -1,0 +1,2 @@
+1,select * into mydb.MyTable from SDSSDR9:PhotoObjAll where OBJID = gaiadr2:sdssdr9_best_neighbour.original_ext_source_id
+2019-10-21 10:55:00,1

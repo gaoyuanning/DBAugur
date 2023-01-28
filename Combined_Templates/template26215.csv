@@ -1,0 +1,2 @@
+1,"SELECT count (*) , MIN (milliseconds) , MAX (milliseconds) , AVG (milliseconds) FROM chinook.Track WHERE Composer = #"
+2019-03-31 11:48:00,1

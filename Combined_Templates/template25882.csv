@@ -1,0 +1,3 @@
+3,"select top # *, cast (milliseconds as real) /# as durationMin from chinook.track where milliseconds > # order by milliseconds"
+2019-03-30 12:09:00,2
+2019-03-30 12:11:00,1

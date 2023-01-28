@@ -1,0 +1,2 @@
+1,"SELECT TOP # sp.objID,  sp.subclass, p.class, p.g,  FROMSpecObj AS sp  JOINPhotoObj AS p ON sp.ra = p.ra  WHERE   (sp.class=&&&)"
+2019-12-11 09:18:00,1

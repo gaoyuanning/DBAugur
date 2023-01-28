@@ -1,0 +1,2 @@
+3,select specobjid from specobjall where specobjall.dec between # and .# and specobjall.ra between # and #
+2019-03-05 00:10:00,3

@@ -1,0 +1,2 @@
+2,"SELECT TOP #  a.dec,a.field,cast(str(a.ra,#,#) as float) as ra  FROM apogeeStar as a  JOIN dbo.fGetNearbyApogeeStarEq(#,#,#) AS b ON b.apstar_id = a.apstar_id  JOIN apogeeObject as o ON a.apogee_id=o.apogee_id  JOIN aspcapStar as q ON a.apstar_id=q.apstar_id"
+2019-03-28 13:08:00,2

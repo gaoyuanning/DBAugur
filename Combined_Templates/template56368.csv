@@ -1,0 +1,2 @@
+1,"SELECT top # spp.PLATEID, spp.SPECOBJID, spp.TEFFADOP, spp.FEHADOP from sppParams AS spp"
+2019-08-09 11:42:00,1

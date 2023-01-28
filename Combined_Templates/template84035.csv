@@ -1,0 +1,8 @@
+7,"SELECT top # s.specobjid, s.bestobjid, s.firstrelease, s.survey, s.sourcetype, s.class, p.ra, p.raErr, p.dec, p.decErr, s.z, s.zErr, p.r, p.i, p.g, p.dered_r, p.dered_i, p.dered_g, p.psfMag_g, p.petroMag_r, p.extinction_r, p.petroR5#_r FROM specobj s JOIN photoobj p on p.objid = s.bestobjid WHERE boss_target1 & dbo.fbosstarget1 (#) > #"
+2019-12-20 02:37:00,1
+2019-12-20 02:39:00,1
+2019-12-20 02:42:00,1
+2019-12-20 02:43:00,1
+2019-12-20 02:45:00,1
+2019-12-20 02:46:00,1
+2019-12-20 02:54:00,1

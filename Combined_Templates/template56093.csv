@@ -1,0 +1,3 @@
+3,"SELECT TOP # PhotoObjAll.ra, PhotoObjAll.dec, stellarMassStarformingPort.SFR into mydb.MyTable_# from PhotoObjAll, stellarMassStarformingPort, SpecObjAll WHERE SpecObjAll.z < # AND SpecObjAll.z > # AND SpecObjAll.class = # AND SpecObjAll.zWarning = # AND stellarMassStarformingPort.SFR < # AND PhotoObjAll.z = stellarMassStarformingPort.z AND PhotoObjAll.z = SpecObjAll.z"
+2019-08-08 14:14:00,1
+2019-08-08 14:33:00,2

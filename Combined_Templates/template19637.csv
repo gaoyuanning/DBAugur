@@ -1,0 +1,3 @@
+2,"SELECT LIMIT # dr7objid AS objid, ra, dec, p_el, (p_acw + p_cw) AS p_sp, p_edge FROM zoo2MainSpecz"
+2019-03-12 19:39:00,1
+2019-03-12 19:40:00,1

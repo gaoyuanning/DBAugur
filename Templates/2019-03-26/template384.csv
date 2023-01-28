@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objID,  	 -- Get the unique object ID,     s.specObjID, s.ra, s.dec, s.z, p.cModelMag_u, p.cModelMag_g, p.cModelMag_r, p.cModelMag_i, p.cModelMag_z, p.cModelMagErr_u, p.cModelMagErr_g, p.cModelMagErr_r, p.cModelMagErr_i, p.cModelMagErr_z FROM SpecObj s JOIN PhotoObj p ON (s.objID = p.objID) 	-- From the photometric data --WHERE --    ra > #. and ra < # and dec > #. and dec < #"
+2019-03-26 18:05:00,1

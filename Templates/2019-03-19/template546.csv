@@ -1,0 +1,4 @@
+4,"select top # p.objid, p.ra, p.dec from star p, dbo.fgetNearByObjEq(#,#,#) n where p.objid=n.objid and (p.g BETWEEN # AND #)  and (p.r BETWEEN # AND #)  and (p.g-p.r BETWEEN # AND #)"
+2019-03-19 03:20:00,1
+2019-03-19 03:21:00,2
+2019-03-19 03:24:00,1

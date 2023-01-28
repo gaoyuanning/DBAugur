@@ -1,0 +1,3 @@
+4,"SELECT s.z, s.ra, s.dec, s.petromag_r, s.extinction_r, p.kcorrR, zu.spiral, zu.elliptical, zu.uncertain FROM specphotoall AS s, zooSpec AS zu, photoz AS p INTO mydb.table1# WHERE class = #and s.SpecobjID = zu.SpecobjID and s.ObjID = p.ObjID and s.zwarning = # and s.z between # and #"
+2019-04-15 01:46:00,1
+2019-04-15 01:52:00,3

@@ -1,0 +1,2 @@
+1,"select objID, dered_u, dered_g, dered_r, dered_i, dered_z, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z, z, zErr, class, subClass into mydb.MyTable from SpecPhotoAll"
+2019-03-13 11:25:00,1

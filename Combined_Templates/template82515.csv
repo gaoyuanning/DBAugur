@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, psfMag_g, psfMag_r, psfMag_i, psfMagErr_g, psfMagErr_r, psfMagErr_i into mydb.MyTable_# from star WHERE ra > # and ra < # and dec > # and dec < #"
+2019-12-12 08:10:00,1

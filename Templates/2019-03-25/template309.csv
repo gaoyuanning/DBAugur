@@ -1,0 +1,2 @@
+1,"select m.objid, s.z as Spectro_z into mydb.Spectro_values from MyDb.MyTable_# as m   join SpecObj as s on m.objid = s.bestobjid"
+2019-03-25 17:27:00,1

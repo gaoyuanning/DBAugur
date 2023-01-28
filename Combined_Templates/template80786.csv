@@ -1,0 +1,2 @@
+1,"SELECT P.ObjID, P.ra, P.dec, P.type, P.cModelMag_g, P.cModelMag_r into mydb.CIRs_# From PhotoObjAll P, mydb.CIRss x WHERE (P.flags & dbo.fPhotoFlags (#) ) = # and x.col2 = P.ObjID"
+2019-12-04 03:42:00,1

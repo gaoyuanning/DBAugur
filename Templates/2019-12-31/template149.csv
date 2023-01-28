@@ -1,0 +1,2 @@
+1,"select top # ra, dec from apogeestar join apogeeplate on apogeeplate.location_id = apogeestar.location_id"
+2019-12-31 11:35:00,1

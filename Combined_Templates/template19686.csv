@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.modelMag_g, p.modelMag_i, p.modelMag_r, p.modelMag_u, p.modelMag_z FROM ..PhotoObj AS p JOIN dbo.fGetObjFromRect (#, #, #, #) AS b ON p.objID = b.objID WHERE (p.type = #)"
+2019-03-12 16:00:00,1

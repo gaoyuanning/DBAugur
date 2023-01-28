@@ -1,0 +1,2 @@
+2,"SELECT TOP # objid, modelmag_u, modelmag_g, modelmag_r, modelmag_i, modelmag_z, z FROM SpecPhoto WHERE class = #"
+2019-05-24 12:43:00,2

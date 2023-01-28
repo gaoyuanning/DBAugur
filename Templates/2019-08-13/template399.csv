@@ -1,0 +1,2 @@
+1,"SELECT ALL   a.OBJID AS OBJID,   a.RA AS RA,   a.DEC AS DEC,      sp.bestObjID AS sdssid,   sp.ra AS RA_sdss,   sp.dec AS DEC_sdss,   sp.z AS zsp,   sp.zErr AS e_zsp,   sp.class AS class,   sp.subClass AS subClass,   sp.zWarning AS zWarning,      n.distance AS angDist       from   MyDB.akari AS a   CROSS APPLY dbo.fGetNearestObjEq( a.RA, a.DEC, #) AS n   JOIN SpecObjAll AS sp ON n.objid = sp.bestObjID    where    a.OBJID > # and a.OBJID < #"
+2019-08-13 13:33:00,1

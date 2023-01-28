@@ -1,0 +1,4 @@
+3,select * from stellarMassStarformingPort where specObjId=#
+2019-11-16 00:00:00,1
+2019-11-16 00:18:00,1
+2019-11-16 07:57:00,1

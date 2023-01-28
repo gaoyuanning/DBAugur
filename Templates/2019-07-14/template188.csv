@@ -1,0 +1,5 @@
+4,"SELECT TOP # objid,ra,dec,   flags,   flags & # AS flags_lo,   (flags/power(cast(# as bigint),#)) & # AS flags_hi  FROM PhotoObj"
+2019-07-14 01:33:00,1
+2019-07-14 04:57:00,1
+2019-07-14 07:49:00,1
+2019-07-14 17:37:00,1

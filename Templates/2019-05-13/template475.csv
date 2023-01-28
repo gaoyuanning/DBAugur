@@ -1,0 +1,2 @@
+1,"select    d.objid,d.type, d.ra, d.dec, s.ra, s.dec, s.mjd, s.plate, s.fiberID, s.z,   p.u, p.g, p.i, p.r, p.z      from dbo.PhotoObj as d,   SpecObjAll as s,     PhotoObjAll as p       into MyDB.sdss      where         d.objid=s.bestObjID and      s.bestObjID=p.objID"
+2019-05-13 06:38:00,1

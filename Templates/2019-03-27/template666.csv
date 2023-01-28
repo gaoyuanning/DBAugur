@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, fiberMag_g, fiberMagErr_g, fiberMag_r, fiberMagErr_r FROM star WHERE (ra between # and #) and (dec between # and #) and (petroMag_g < #) and (petroMag_g>#)"
+2019-03-27 01:08:00,1

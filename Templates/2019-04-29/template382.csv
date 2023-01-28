@@ -1,0 +1,2 @@
+1,"CREATE TABLE [Procedural_metrics] ( 	eid BIGINT NOT NULL ,	[Aide_memoire_completed_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Number_of_imaging_stages_blocked_at_screening_#] INTEGER -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Willing_to_attempt_cognitive_tests_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=# ,PRIMARY KEY (eid)) GO"
+2019-04-29 11:39:00,1

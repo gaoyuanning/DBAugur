@@ -1,0 +1,2 @@
+1,"SELECT ra,dec, dbo.fCosmoAbsMag(ra,dec) as mag FROM mydb.test_radec WHERE dbo.fCosmoAbsMag(ra,dec) IS NOT NULL"
+2019-03-09 11:45:00,1

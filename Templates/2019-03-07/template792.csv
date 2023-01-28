@@ -1,0 +1,2 @@
+1,"SELECT TOP # apstar_id dbo.fApogeeAspcapFlagN(a.aspcapflag), dbo.fApogeeStarFlagN(s.starflag) into mydb.MyTable from apogeeStar s JOIN aspcapStar a on a.apstar_id = s.apstar_id WHERE (a.aspcapflag & dbo.fApogeeAspcapFlag(&&&)) = # and s.extratarg = #"
+2019-03-07 09:53:00,1

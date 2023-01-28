@@ -1,0 +1,3 @@
+3,"SELECT   l.specObjID,l.sigma_balmer,l.sigma_balmer_err,l.sigma_forbidden,l.sigma_forbidden_err,l.v_off_balmer,l.v_off_balmer_err,l.v_off_forbidden,l.v_off_forbidden_err into mydb.DR1#_line    from galspecinfo AS g   JOIN galspecline AS l ON l.specobjid = g.specobjid   JOIN SpecObjAll AS s ON s.specobjid = g.specobjid  WHERE   s.scienceprimary=#"
+2019-04-12 04:54:00,2
+2019-04-12 04:57:00,1

@@ -1,0 +1,5 @@
+4,"SELECT TOP # objId,z,zErr,absMagR FROM Photoz WHERE  z BETWEEN # and #  and photoErrorClass=#   and nnCount>#   and zErr BETWEEN # and #"
+2019-11-19 08:30:00,1
+2019-11-19 08:53:00,1
+2019-11-19 10:54:00,1
+2019-11-19 12:52:00,1

@@ -1,0 +1,5 @@
+4,"SELECT TOP # p.oii_#_reqw, p.oii_#_reqw_err FROM galsSpecLine AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.oii_#_reqw/ p.oii_#_reqw_err > #"
+2019-04-11 17:27:00,1
+2019-04-15 12:20:00,1
+2019-04-15 12:30:00,1
+2019-04-15 12:32:00,1

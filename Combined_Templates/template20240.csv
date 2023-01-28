@@ -1,0 +1,2 @@
+1,select top # s.subclass into mydb.MyTable from specobj as s where s.subclass is #;
+2019-03-13 02:47:00,1

@@ -1,0 +1,2 @@
+1,"select top # o.*, q.ra, q.dec from mydb.s8#qsoMin q, dbo.fGetNearestObjAllEq (q.ra, q.dec, #/#) where (o.run = # or o.run = #) and mode = #"
+2019-08-01 13:29:00,1

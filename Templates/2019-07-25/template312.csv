@@ -1,0 +1,2 @@
+1,"SELECT   r.*, m.lgm_tot_p5#, m.specsfr_tot_p5#    INTO   myDB.data_gal    FROM   myDB.lista_all_galaxies as l, myDB.ratio_gal  as r, myDB.massa_ssfr_gal  as m    WHERE   r.ra = m.ra_# and   r.dec = m.dec_#"
+2019-07-25 13:46:00,1

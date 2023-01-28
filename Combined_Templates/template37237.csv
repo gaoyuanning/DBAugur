@@ -1,0 +1,2 @@
+1,"select ROUND (x/@bin, #) *@bin as X, COUNT (*) as Cts into yourHistogram -- name of new table from Data group by ROUND (x/@bin, #) *@bin order by ROUND (x/@bin, #) *@bin"
+2019-05-06 01:40:00,1

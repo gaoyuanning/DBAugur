@@ -1,0 +1,2 @@
+1,"SELECT COUNT (*) p.objid, p.ra, p.dec FROM PhotoObj AS p WHERE p.r < #"
+2019-11-25 13:43:00,1

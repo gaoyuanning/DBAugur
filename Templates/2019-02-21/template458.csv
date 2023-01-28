@@ -1,0 +1,2 @@
+1,"select logMass, specObjID  from stellarMassFSPSGranEarlyDust  where ra = # AND dec = #"
+2019-02-21 16:25:00,1

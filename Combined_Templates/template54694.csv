@@ -1,0 +1,2 @@
+2,"select q.*, s.specobjID from mydb.dr1#qsoMin as q, specobjall as s into mydb.dr1#s8#QSO where q.plate = s.plate and q.mjd = s.mjd and q.fiberid = s.fiberid and dbo.fStripeOfRun (s.bestobjid) = #"
+2019-07-31 17:48:00,2

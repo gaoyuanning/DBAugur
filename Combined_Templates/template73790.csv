@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objID, p.z, p.zErr, s.ra, s.dec FROM Photoz AS p JOIN photoObj AS s ON s.objID = p.objID WHERE p.photoErrorClass = #"
+2019-11-04 03:29:00,1

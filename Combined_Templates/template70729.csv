@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.class, s.class_noqso, s.dec, str (s.ra, #, #) as ra, s.specObjID, s.subClass, s.subClass_noqso, s.targetType, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, p.psfMagErr_u, p.psfMagErr_g, p.psfMagErr_r, p.psfMagErr_i, p.psfMagErr_z FROM BESTDR1#..SpecObj as s JOIN BESTDR1#..Star AS p ON s.bestObjID = p.objID JOIN dbo.fGetNearbySpecObjEq (#, #, #) AS b ON b.SpecobjID = S.SpecobjID WHERE s.zWarning = # AND (s.class = #)"
+2019-10-21 15:07:00,1

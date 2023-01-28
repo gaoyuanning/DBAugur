@@ -1,0 +1,3 @@
+3,"SELECT p.objid, p.profmean INTO mydb.nevin FROM fGetObjFromRect (#., #., #, #) n, PhotoProfile p WHERE n.objID = p.objID and p.band = #"
+2019-11-20 12:46:00,2
+2019-11-20 12:51:00,1

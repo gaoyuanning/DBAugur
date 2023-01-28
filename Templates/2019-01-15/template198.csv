@@ -1,0 +1,3 @@
+3,"SELECT za.specObjID, za.bestObjID, za.class, za.subClass, za.z, za.zErr, po.objID, po.type, po.flags, po.ra, po.dec,   (po.petroMag_r - po.extinction_r) AS dered_petro_r, zp.z AS zphot, zp.zErr AS dzphot, zi.e_bv_sfd, zi.primtarget, zi.sectarget, zi.targettype, zi.spectrotype, zi.subclass INTO mydb.SDSS_DR1# FROM SpecObjAll za JOIN PhotoObjAll po ON (po.objID = za.bestObjID) JOIN Photoz zp ON (zp.objID = za.bestObjID) JOIN galSpecInfo zi ON (zi.SpecObjID = za.specObjID) WHERE    za.z > #   AND za.zWarning = #   AND za.targetType = &&&   AND za.survey = &&&   AND za.class = &&&   AND zi.primtarget >= #   AND po.clean = #   AND po.insideMask = #   AND po.petroMag_r - po.extinction_r <= #"
+2019-01-15 15:27:00,2
+2019-01-15 15:31:00,1

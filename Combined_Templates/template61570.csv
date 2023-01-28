@@ -1,0 +1,2 @@
+2,"SELECT top # ra, dec, z, zErr, class, velDisp, velDispErr, velDispZ, targetType, # * z/# as dist FROM SpecObjAll WHERE abs (zErr/z) < # AND z > # AND z< # AND velDisp > # AND velDispErr > # AND velDispErr/velDisp < #"
+2019-09-06 05:21:00,2

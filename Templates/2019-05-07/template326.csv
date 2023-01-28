@@ -1,0 +1,2 @@
+1,"select sl.stable_id as case_list_id, max(sl.name) as case_list_name ,      max(sl.description) as case_list_description ,      sl.cancer_study_id ,   STRING_AGG(s.stable_id,&&&) as case_ids   from cancer_study cs     inner join sample_list sl       on sl.CANCER_STUDY_ID=cs.CANCER_STUDY_ID        join sample_list_list sll      on sl.list_id=sll.list_id   join sample s     on s.internal_id=sll.sample_id where cs.cancer_study_identifier=&&& and sl.stable_id = &&& group by sl.stable_id,sl.cancer_study_id order by #,#"
+2019-05-07 16:01:00,1

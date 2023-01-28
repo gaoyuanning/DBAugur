@@ -1,0 +1,2 @@
+1,"select ObjID, ra, dec, g from fGetNearbyObjEq(#,#,#)"
+2019-10-03 16:22:00,1

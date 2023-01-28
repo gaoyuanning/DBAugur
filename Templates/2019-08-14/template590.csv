@@ -1,0 +1,6 @@
+5,"SELECT sp.objID,sp.ra,sp.dec,sp.z FROM specPhoto AS sp  WHERE   ra BETWEEN # AND #  AND dec BETWEEN # AND #  AND (sp.class=&&&)"
+2019-08-14 01:08:00,1
+2019-08-14 01:18:00,1
+2019-08-14 01:19:00,1
+2019-08-14 01:20:00,1
+2019-08-14 01:21:00,1

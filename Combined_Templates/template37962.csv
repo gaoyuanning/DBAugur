@@ -1,0 +1,2 @@
+1,"SELECT g.ra, g.dec, g.petromag_u, g.petromag_g, g.petromag_r, g.petromag_i, g.petromag_z into mydb.SDSS_gal_dr1#_statsmag FROM emissionLinesPort as g JOIN photoobjall as f on g.specobjid = f.specobjid"
+2019-05-08 12:10:00,1

@@ -1,0 +1,2 @@
+2,"select top # ra, dec, dered_r from specObjAll where plateID = # order by dered_r desc"
+2019-02-22 07:43:00,2

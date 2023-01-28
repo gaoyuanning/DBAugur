@@ -1,0 +1,2 @@
+1,"SELECT TOP #   teffadop,teffadopunc,teffadopn,loggadop,loggadopunc,loggadopn,fehadop,fehadopunc,fehadopn,   elodiervfinal, elodiervfinalerr,sp.BESTOBJID,p.ObjID into mydb.MyTable_test1 FROM sppParams AS sp  INNER JOIN PhotoObjAll AS p  ON sp.BESTOBJID = p.ObjID  WHERE     fehadopunc < #     AND teffadopunc < #. AND loggadopunc < #"
+2019-02-15 00:00:00,1

@@ -1,0 +1,2 @@
+1,"SELECT Composer, UnitPrice, count (*) , min (milliseconds) as minDuration, max (milliseconds) as maxDuration FROM chinook.Tracks GROUP BY Composer, UnitPrice"
+2019-03-31 16:52:00,1

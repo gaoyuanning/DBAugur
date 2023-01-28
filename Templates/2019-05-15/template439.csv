@@ -1,0 +1,2 @@
+1,"select ra,dec from SpecObjAll where ra < # and ra > # and dec > # and dec < #"
+2019-05-15 10:39:00,1

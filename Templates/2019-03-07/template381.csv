@@ -1,0 +1,2 @@
+1,"SELECT count(*) as &&&,     sum( case when (Type=#) then # else # end) as &&&,     sum( case when (Type=#) then # else # end) as &&&,     sum( case when (Type not in (#,#)) then # else # end) as &&& SELECT      avg(modelMag_g) as &&&     avg(modelMag_r) as &&&      FROM PhotoPrimary  WHERE (ra between # and #) and (dec between # and #) and Type=#"
+2019-03-07 17:19:00,1

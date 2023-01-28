@@ -1,0 +1,2 @@
+1,"SELECT Tab.Id, SalesOrderJsonData.Customer, SalesOrderJsonData.Date   FROM   SalesOrderRecord AS Tab             CROSS APPLY        OPENJSON (Tab.json, N&&&)              WITH (                 Number   varchar(#) N&&&,                  Date     datetime     N&&&,                 Customer varchar(#) N&&&,                  Quantity int          N&&&              )     AS SalesOrderJsonData   WHERE JSON_VALUE(Tab.json, &&&) = N&&&   ORDER BY JSON_VALUE(Tab.json, &&&), Tab.DateModified"
+2019-10-01 10:03:00,1

@@ -1,0 +1,2 @@
+1,"SELECT z into mydb.SDSS_specZ_photo_ugriz_cmodel_z from SpecObj, photoObj WHERE  specObj.bestObjid = photoObj.ObjID AND specObj.zWarning=# AND specObj.z># AND specObj.class=&&& AND specObj.ra># AND specObj.ra<# AND specObj.z<# AND specObj.z<# AND clean = # AND (calibStatus_u & #) != # AND (calibStatus_g & #) != # AND (calibStatus_r & #) != # AND (calibStatus_i & #) != # AND (calibStatus_z & #) != #"
+2019-01-30 13:00:00,1

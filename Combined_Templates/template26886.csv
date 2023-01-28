@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec, s.z, p.u, p.g, p.r, p.i, p.z into mydb.radec2 from SDSSDR7:SpecObjAll AS s, SDSSDR7:PhotoObjAll AS p WHERE s.bestobjid = p.objid AND s.class = # AND s.zWarning = #"
+2019-04-02 07:57:00,1

@@ -1,0 +1,2 @@
+1,"SELECT IF (STRCMP (spe.specObjID = zo.objid) , (spe.ra, spe.dec, spe.z, spe.subclass, zo.spiral, zo.elliptical) , (spe.ra, spe.dec, spe.z, spe.subclass) ); FROM SpecObj As spe, zo As zoospe WHERE spe.ra > # and spe.ra < # AND spe.dec > # and spe.dec < # And spe.class = #"
+2019-09-25 04:39:00,1

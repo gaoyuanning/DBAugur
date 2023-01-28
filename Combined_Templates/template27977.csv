@@ -1,0 +1,4 @@
+3,"SELECT BestObjID as bestObjID, s.SpecObjID, s.ra AS ra, s.dec AS dec, s.z AS z, s.class AS class, s.subClass AS subclass into mydb.MyTable from SpecObj as S WHERE (S.z between # and #) and (S.class = #) and (S.ra between # and #)"
+2019-04-05 17:06:00,1
+2019-04-05 17:07:00,1
+2019-04-05 17:23:00,1

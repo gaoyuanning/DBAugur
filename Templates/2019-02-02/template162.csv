@@ -1,0 +1,2 @@
+1,SELECT COUNT(objID) into mydb.MyTable1 from Star
+2019-02-02 15:08:00,1

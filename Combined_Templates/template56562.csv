@@ -1,0 +1,2 @@
+1,"select * from dbo.fGetNearbySpecObjEq (#, #, #) union select * from dbo.fGetNearbySpecObjEq (#, #, #) union select * from dbo.fGetNearbySpecObjEq (#, #, #) union select * from dbo.fGetNearbySpecObjEq (#, #, #) union select * from dbo.fGetNearbySpecObjEq (#, #, #) union select * from dbo.fGetNearbySpecObjEq (#, #, #) union select * from dbo.fGetNearbySpecObjEq (#, #, #) union select * from dbo.fGetNearbySpecObjEq (#, #, #) union select * from dbo.fGetNearbySpecObjEq (#, #, #) union select * from dbo.fGetNearbySpecObjEq (#, #, #)"
+2019-08-09 00:06:00,1

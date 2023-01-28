@@ -1,0 +1,2 @@
+4,"SELECT last # ra, dec, ObjID, modelMag_u, modelMag_g FROM photoObj WHERE ra between # and # and"
+2019-11-24 16:49:00,4

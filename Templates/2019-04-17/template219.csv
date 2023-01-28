@@ -1,0 +1,3 @@
+3,"SELECT E.SystemStudentID AS StudentID, E.GradeLevel AS EnrollmentGrade, E.SchoolYear4Digit AS SchoolYear4Digit,      &&& AS Period, &&& AS AssessmentSubject, &&& AS MetricSource, &&& AS MetricName,      SUM(PE.Hours) AS Score, # AS IsMostRecent       FROM Enrollment AS E INNER JOIN ParentEngagement as PE     ON E.SystemStudentID = PE.StudentID     WHERE E.EnrollmentStatus = &&&        AND E.IsActiveEnrollment = #   GROUP BY E.SystemStudentID, E.GradeLevel, E.SchoolYear4Digit;"
+2019-04-17 14:45:00,2
+2019-04-17 14:46:00,1

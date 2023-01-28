@@ -1,0 +1,2 @@
+1,"SELECT top # ra,dec,j,jIvar,h,hIvar,k,kIvar FROM TwoMass WHERE  ra BETWEEN # AND #"
+2019-03-21 14:15:00,1

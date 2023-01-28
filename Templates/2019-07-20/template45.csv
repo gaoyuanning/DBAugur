@@ -1,0 +1,11 @@
+11,"SELECT star.apstar_id, star.apogee_id, star.ra, star.dec, star.glon, star.glat, star.apogee_target1, star.apogee_target2, aspcap.teff, aspcap.logg, aspcap.m_h FROM apogeeStar star JOIN fGetNearbyApogeeStarEq(#,#,#) near on star.apstar_id=near.apstar_id JOIN aspcapStar aspcap on aspcap.apstar_id=star.apstar_id where aspcap.teff != #"
+2019-07-20 16:43:00,2
+2019-07-20 18:25:00,1
+2019-07-20 18:50:00,1
+2019-07-20 18:51:00,1
+2019-07-20 18:57:00,1
+2019-07-20 18:59:00,1
+2019-07-20 21:36:00,1
+2019-07-20 21:38:00,1
+2019-07-20 21:50:00,1
+2019-07-20 23:30:00,1

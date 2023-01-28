@@ -1,0 +1,2 @@
+1,SELECT DISTINCT p.tile FROM PhotoObjAll AS p WHERE (p.run = # AND p.rerun = #)
+2019-05-30 10:04:00,1

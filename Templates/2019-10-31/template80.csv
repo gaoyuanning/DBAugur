@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.ra,p.dec FROM PhotoObj AS p WHERE   p.ra BETWEEN # AND #  AND p.dec BETWEEN # AND #  AND p.type = #  AND g-i BETWEEN # AND #  AND i BETWEEN # AND #  AND u-z BETWEEN # AND #  AND petroRad_r BETWEEN # AND #"
+2019-10-31 20:17:00,1

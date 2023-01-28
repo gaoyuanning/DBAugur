@@ -1,0 +1,7 @@
+6,"SELECT TOP # p.objid, p.ra,p.dec,p.petror9#_r, p.dered_g, p.dered_r, s.z as z_spec, s.zErr   FROM Galaxy as p    JOIN zooMonochromeBias AS zmb ON p.objid = zmb.objid    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.clean=# AND zmb.nvote_mon >= # AND zmb.p_el_mon > #      AND p.dered_g/p.err_g > # AND p.dered_r/p.err_r > # AND s.z BETWEEN # and #"
+2019-02-24 14:01:00,1
+2019-02-24 14:32:00,1
+2019-02-24 15:03:00,1
+2019-02-24 15:04:00,1
+2019-02-24 15:07:00,1
+2019-02-24 15:33:00,1

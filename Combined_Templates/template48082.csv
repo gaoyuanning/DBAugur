@@ -1,0 +1,2 @@
+1,"SELECT * into MyTable_# FROM specObjAll as s, dbo.fGetNearbySpecObjEq (#, #, #) AS n where s.bestObjID = n.objID"
+2019-06-25 12:40:00,1

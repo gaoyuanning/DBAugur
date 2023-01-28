@@ -1,0 +1,3 @@
+2,select * from ELRedshift where specObjId=#
+2019-08-20 04:23:00,1
+2019-08-20 15:58:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP #   p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,   p.petroR5#_r, p.fracdeV_r, p.deVRad_r, p.expRad_r,  n.distance,   pz.z as photoz  FROM fGetNearbyObjEq(#,+#,#) n  JOIN PhotoObj AS p on p.objid = n.objid  JOIN PhotoZ AS pz ON pz.objid = n.objid  WHERE   p.type = #   AND p.r BETWEEN # AND #"
+2019-04-20 08:40:00,1

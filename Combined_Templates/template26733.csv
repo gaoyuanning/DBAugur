@@ -1,0 +1,3 @@
+2,"SELECT z, metallicity, logmass, age, SFR, SFH, plate, mjd, fiberID FROM stellarMassStarformingPort WHERE SFR = # AND age = # AND logMass = #"
+2019-04-02 13:32:00,1
+2019-04-02 13:34:00,1

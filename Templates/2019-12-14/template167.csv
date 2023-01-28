@@ -1,0 +1,5 @@
+4,"select p.objid as name, p.ra, p.dec from star p where (p.r BETWEEN # AND #) and (p.r-p.i BETWEEN # AND #)"
+2019-12-14 13:40:00,1
+2019-12-14 13:42:00,1
+2019-12-14 13:45:00,1
+2019-12-14 13:49:00,1

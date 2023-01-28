@@ -1,0 +1,2 @@
+1,"select ID, Vintage, Tract, log1#mi=log1#(#*geom.EnvelopeAngle()), lon=centroid.Long, lat=centroid.Lat, wkt=geom.ToString(), dist2center=geom.STDistance(@center) from optw.tamass.TRACTS  where vintage = #     and geom.STArea() < #e9 -- m^# -- excluding only one huge tract     and geom.STDistance(@center) < # / # * # -- meters"
+2019-11-10 13:17:00,1

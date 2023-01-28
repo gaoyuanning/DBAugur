@@ -1,0 +1,2 @@
+2,"select   top #   specobjid, class, subclass, objid, z, type from   specphoto where   class=&&&   and   type<>#"
+2019-09-14 02:45:00,2

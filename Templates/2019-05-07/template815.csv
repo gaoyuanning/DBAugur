@@ -1,0 +1,2 @@
+2,select count(*) from sppParams where  TEFFADOP >#. and TEFFADOP<=# and LOGGADOP<# and FEH>#
+2019-05-07 00:28:00,2

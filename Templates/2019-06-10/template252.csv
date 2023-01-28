@@ -1,0 +1,2 @@
+2,"select ra,dec,bestObjID, u, g, r, i, z from galaxy where ra BETWEEN # and #  and g > # and u-g > #"
+2019-06-10 15:15:00,2

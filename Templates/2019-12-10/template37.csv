@@ -1,0 +1,2 @@
+2,"select p.objid, p.u, p.g, p.r, p.i, p.z from star p, dbo.fgetNearByObjEq(#,#,#) n where p.objid=n.objid and p.g < #"
+2019-12-10 22:55:00,2

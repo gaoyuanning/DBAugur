@@ -1,0 +1,2 @@
+1,"select type, ra, dec, psfMag_r, psfMagErr_r, extinction_r, clean FROM PhotoObjAll WHERE CLEAN = # class = # ra BETWEEN # AND # AND dec BETWEEN # AND #"
+2019-09-24 01:39:00,1

@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, psfMag_g as g, psfMag_g - psfMag_r as g_r FROM star WHERE ra BETWEEN # AND # AND dec BETWEEM # AND # AND psfMag_g - psfMag_r BETWEEN # AND # AND psfMag_u < #"
+2019-11-29 10:44:00,1

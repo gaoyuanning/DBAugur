@@ -1,0 +1,6 @@
+5,"SELECT p.objid, p.ra, p.dec, p.modelMag_u FROM Galaxy as p WHERE p.ra > = # AND p.ra < # and p.dec > = # AND p.dec < # and p.modelMag_u< =#"
+2019-06-04 10:34:00,1
+2019-06-04 11:26:00,1
+2019-06-04 11:29:00,1
+2019-06-04 11:31:00,1
+2019-06-04 11:40:00,1

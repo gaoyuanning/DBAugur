@@ -1,0 +1,2 @@
+1,"SELECT * FROM ZooSpec as zspec, galSpecInfo as gspec WHERE gspec.z BETWEEN # AND # AND zspec.specObjID = gspec.specObjID"
+2019-04-25 23:18:00,1

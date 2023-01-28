@@ -1,0 +1,2 @@
+1,"select run1 = a.run, run2 = b.run, arcsec = distance*# into mydb.Neighbors1Star2#main from Neighbors n join PhotoTag a on a.objid = n.objid join PhotoTag b on b.objid = n.neighborObjid where n.type = # and n.neighbortype = # and n.distance < float (#) / # and a.run < b.run and a.stripe between # and # and b.stripe between # and # and a.stripe ! = # and b.stripe ! = # and a.psfMag_r between # and # and b.psfMag_r between # and # and abs (a.psfMag_r-b.psfMag_r) < #"
+2019-03-05 13:37:00,1

@@ -1,0 +1,2 @@
+1,"select objID, ra, dec, petroMag_r into mydb.photogal_maglim from PhotoObjAll where type = # and ra between # and # and dec between # and # and petroMag_r between # and #"
+2019-11-11 02:36:00,1

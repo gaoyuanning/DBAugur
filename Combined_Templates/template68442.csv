@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, IS# (s.plate, #) as plate, IS# (s.mjd, #) as mjd, IS# (s.fiberid, #) as fiberid FROM TARGDR7..PhotoObj AS p LEFT OUTER JOIN BESTDR7..SpecObj s ON p.objID = s.bestObjID JOIN TARGDR7.dbo.fGetNearbyObjEq (#, #, #) AS b ON b.objID = p.objID WHERE (p.type = # OR p.type = #)"
+2019-10-08 18:11:00,1

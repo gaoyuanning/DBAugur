@@ -1,0 +1,2 @@
+1,"SELECT EVERY # ra, dec, extinction_u, extinction_g, extinction_r, extinction_i, extinction_z into mydb.MyTablecE FROM dr7.PhotoObjAll"
+2019-11-09 14:54:00,1

@@ -1,0 +1,2 @@
+1,"SELECT SE.lgm_tot_p5#, SE.sfr_tot_p5#, SE.bptclass  into GU2#_hw2_w3  From SpecObjAll as SOA, PhotoObjAll as PA, stellarMassFSPSGranEarlyDust as FSPSG, galSpecExtra as SE, galSpecLine as SL Where   SOA.z < # and SOA.z > # and SOA.specObjID = PA.specObjID and SOA.specObjID = SE.specObjID and SOA.specObjID = SL.specObjID"
+2019-04-30 07:57:00,1

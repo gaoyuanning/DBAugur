@@ -1,0 +1,6 @@
+5,"SELECT p.ra, p.dec, p.modelMag_u, p.modelMagErr_u, p.modelMag_g, p.modelMagErr_g, p.modelMag_r, p.modelMagErr_r, p.modelMag_i, p.modelMagErr_i, p.modelMag_z, p.modelMagErr_z, extinction_u, extinction_g, extinction_r, extinction_i, extinction_z FROM fGetNearbyObjEq (#, #, #) n, Galaxy p WHERE n.objID = p.objID"
+2019-04-03 03:46:00,1
+2019-04-03 03:53:00,1
+2019-04-03 03:58:00,1
+2019-04-03 04:01:00,1
+2019-04-03 04:03:00,1

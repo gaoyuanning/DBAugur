@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.type into mydb.MyTable_# from PhotoObj AS p WHERE p.ra BETWEEN # AND # AND p.dec BETWEEN # AND # AND p.type = #"
+2019-01-15 18:51:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # gal.psfMag_u, gal.psfMag_g, gal.psfMag_r, gal.psfMag_i, gal.psfMag_z, gal.petroMag_u, gal.petroMag_g, gal.petroMag_r, igal.petroMag_z, s.spectrotype, s.subclass FROM Galaxy AS gal JOIN galSpecInfo AS s ON s.specObjID = gal.specObjID WHERE s.targettype = galaxy"
+2019-09-09 13:03:00,1

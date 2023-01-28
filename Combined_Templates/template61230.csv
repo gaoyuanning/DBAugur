@@ -1,0 +1,3 @@
+2,"select distinct eid, Intra_ocular_pressure_Goldmann_correlated_right__#, Intra_ocular_pressure_Goldmann_correlated_left__#, Intra_ocular_pressure_corneal_compensated_right__#, Intra_ocular_pressure_corneal_compensated_left__#, from dbo.Intraocular_pressure cross apply openjson (Intra_ocular_pressure_Goldmann_correlated_right__#) j cross apply openjson (Intra_ocular_pressure_Goldmann_correlated_left__#) h cross apply openjson (Intra_ocular_pressure_corneal_compensated_right__#) i cross apply openjson (Intra_ocular_pressure_corneal_compensated_left__#) k where j.value IS NOT # OR h.value IS NOT # OR i.value IS NOT # OR k.value IS NOT #"
+2019-09-05 10:00:00,1
+2019-09-05 10:01:00,1

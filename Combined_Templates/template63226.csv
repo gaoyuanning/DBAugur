@@ -1,0 +1,2 @@
+1,"select top # objID, ra, dec into mydb.MyTable from dbo.PhotoObjAll \"
+2019-09-15 08:24:00,1

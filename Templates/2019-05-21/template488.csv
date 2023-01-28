@@ -1,0 +1,2 @@
+1,"select top # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z from photoobj p, specobj s where p.objid=s.bestobjid and p.r < #  and (p.g-p.r BETWEEN # AND #)  and p.r-p.i < #  and ((flags_r & #) != #)  and ((flags_r & #) = #)  and (((flags_r & #) = #) or (psfmagerr_r <= #))  and (((flags_r & #) = #) or (flags_r & #) = #)"
+2019-05-21 04:53:00,1

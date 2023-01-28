@@ -1,0 +1,2 @@
+1,"SELECT   p.u, p.g, p.r, p.i, p.z, s.z as redshift, s.cx, s.cy, s.cz, q.oiii_#_flux, q.h_beta_flux, q.nii_#_flux, q.h_alpha_flux, q.oi_#_flux, s.r,  into mydb.MyTable_  from GalSpecLine AS q JOIN SpecObj AS s ON s.specobjid = q.specobjid JOIN PhotoObj AS p on p.specobjid = q.specobjid WHERE s.class = &&& AND s.zwarning = #"
+2019-04-02 14:27:00,1

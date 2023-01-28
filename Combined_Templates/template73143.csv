@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.petror9#_r, p.dered_g, s.psfFlux_g, s.psfFlux_u FROM Galaxy as p JOIN PhotoObjAll AS s"
+2019-11-02 17:01:00,1

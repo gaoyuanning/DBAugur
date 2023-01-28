@@ -1,0 +1,2 @@
+1,"SELECT spec.ra, spec.dec, spec.z FROM SpecObj AS spec WHERE spec.class = GALAXY"
+2019-07-01 21:57:00,1

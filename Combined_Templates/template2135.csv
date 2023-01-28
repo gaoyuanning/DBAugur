@@ -1,0 +1,2 @@
+1,"select specClass, count (*) from specobjall group by specClass"
+2019-01-10 06:02:00,1

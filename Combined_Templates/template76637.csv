@@ -1,0 +1,4 @@
+3,"select p.objid, p.ra, p.dec from star p where p.u < # and p.g < # and p.r < # and p.i < # and p.z < # and (p.u-p.g BETWEEN # AND #) and (p.g-p.r BETWEEN # AND #) and (p.r-p.i BETWEEN # AND #) and (p.i-p.z BETWEEN # AND #) and (p.u-p.r BETWEEN # AND #)"
+2019-11-18 17:41:00,1
+2019-11-18 17:42:00,1
+2019-11-18 17:45:00,1

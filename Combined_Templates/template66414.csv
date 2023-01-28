@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.cModelMag_g, p.cModelMag_r, p.cModelMag_i, p.cModelMag_z, p.cModelMagErr_g, p.cModelMagErr_r, p.cModelMagErr_i, p.cModelMagErr_z, p.objID, s.z, s.zErr, s.ra, s.dec, p.ra, p.dec FROM PhotoObjAll as p INNER LEFT JOIN SpecPhotoAll as s ON p.objID = s.objID AND g BETWEEN # AND #"
+2019-09-28 01:28:00,1

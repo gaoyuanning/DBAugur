@@ -1,0 +1,2 @@
+1,"SELECT ra,dec,r FROM PhotoObj WHERE ra BETWEEN # AND # AND dec BETWEEN # AND # AND r < AND r > # AND clean = #"
+2019-03-25 11:03:00,1

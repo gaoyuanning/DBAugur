@@ -1,0 +1,2 @@
+2,"select G.specobjid, objID, ra, dec, z, dered_u, dered_g, dered_r, dered_i, dered_z into A9# from specPhotoAll as G    Where (ra between # and #) and (dec between # and #) and z># and z<#"
+2019-02-15 11:19:00,2

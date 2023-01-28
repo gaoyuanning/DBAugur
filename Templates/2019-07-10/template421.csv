@@ -1,0 +1,3 @@
+3,"SELECT m.*, dbo.fGetNearestSpecObjIdEq(m.ra,m.dec,#) as specobjid    FROM myDB.hasspec as m    WHERE dbo.fGetNearestSpecObjIdEq(m.ra,m.dec,#) IS NOT NULL    INSERT into x SELECT m.*, s.specobjid, s.ra, s.dec, s.plate, s.mjd, s.fiberid FROM myDB.hasspec as m, SpecObjAll s JOIN x ON x.specobjid = s.specObjID"
+2019-07-10 11:24:00,2
+2019-07-10 11:31:00,1

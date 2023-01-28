@@ -1,0 +1,2 @@
+1,"SELECT TOP # o.petroMag_u, o.petroMag_r, o.petroMag_g, o.petroMag_i, o.petroMag_z, o.petroMagErr_u, o.petroMagErr_r, o.petroMagErr_g, o.petroMagErr_i, o.petroMagErr_z, m.PGC_name --INTO myfirsttable FROM dr7.PhotoObjAll as o INNER JOIN mydb.PGC AS m ON m.objID = o.objID"
+2019-08-10 14:45:00,1

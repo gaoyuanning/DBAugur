@@ -1,0 +1,2 @@
+1,"SELECT top # so.ra, so.dec, so.bestobjid, so.specobjid, sp.teffadop, sp.teffadopunc, sp.fehadop, sp.fehadopunc, sp.loggadop, sp.loggadop, sp.FEHANNSR, sp. FEHANNRR, sp.FEHCAIIK1, sp.ELODIERVFINAL, sp.ELODIERVFINALERR, sp.snr, sp.flag  FROM specobjall so JOIN sppparams sp  ON so.specobjid = sp.specobjid and so.sciencePrimary=#"
+2019-07-04 15:49:00,1

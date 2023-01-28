@@ -1,0 +1,2 @@
+1,"SELECT TOP # targetObjID, velDisp, snMedian_u, snMedian_g, snMedian_r, snMedian_i, snMedian_z FROM SpecObjAll AS p WHERE velDisp > # AND dec BETWEEN # AND #"
+2019-10-20 11:35:00,1

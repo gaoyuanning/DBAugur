@@ -1,0 +1,2 @@
+1,"select top # ra ,modelMag_u,modelMag_g from SpecObj where class=&&& and ra BETWEEN # and # and modelMag_u-modelMag_g > #"
+2019-10-24 10:44:00,1

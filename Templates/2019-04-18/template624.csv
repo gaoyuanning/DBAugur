@@ -1,0 +1,2 @@
+1,"select o.objID, o.raMean, o.decMean,  o.nDetections, o.ng, o.nr, o.ni, o.nz, o.ny,  m.gMeanPSFMag, m.rMeanPSFMag, m.iMeanPSFMag, m.zMeanPSFMag, m.yMeanPSFMag from fGetNearbyObjEq(#,#,#/#) nb inner join ObjectThin o on o.objid=nb.objid and o.nDetections># inner join MeanObject m on o.objid=m.objid and o.uniquePspsOBid=m.uniquePspsOBid"
+2019-04-18 02:29:00,1

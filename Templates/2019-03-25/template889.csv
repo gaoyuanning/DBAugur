@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objId, p.z, p.zErr, s.objID, s.ra, s.dec FROM Photoz as p  WHERE    p.z between # and #   and p.zErr BETWEEN # and #"
+2019-03-25 12:14:00,1

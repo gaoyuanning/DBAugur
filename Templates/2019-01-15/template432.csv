@@ -1,0 +1,4 @@
+3,select top # dbo.fSpecClassN(specClass) as specClass
+2019-01-15 10:09:00,1
+2019-01-15 10:48:00,1
+2019-01-15 10:49:00,1

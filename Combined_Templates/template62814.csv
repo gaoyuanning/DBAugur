@@ -1,0 +1,2 @@
+1,"select g.psfMag_u, g.psfMag_g, g.psfMag_u-g.psfMag_g as color, m.logMass, g.ra, g.dec, g.cx, g.cy, g.cz from galaxy g join SpecObj s on s.bestObjID = g.objId join stellarMassFSPSGranEarlyDust m on m.specObjID = s.specObjID where g.psfMag_u-g.psfMag_g between # and # and m.logMass between # and # order by color desc"
+2019-09-12 02:56:00,1

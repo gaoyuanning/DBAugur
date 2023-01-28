@@ -1,0 +1,4 @@
+4,"select count(*) as count from star p, specobj s where p.objid=s.bestobjid and (p.htmid*# & # < (# * #))"
+2019-10-20 02:30:00,1
+2019-10-20 02:33:00,1
+2019-10-20 02:35:00,2

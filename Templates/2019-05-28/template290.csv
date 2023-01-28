@@ -1,0 +1,2 @@
+1,select * from FramePathProcessing where Id = (select max(Id) from FramePathProcessing where Processed = #)
+2019-05-28 14:48:00,1

@@ -1,0 +1,2 @@
+1,"select top # bestObjID, cModelMag_g, cModelMag_i, cModelMag_r, cModelMag_u from photoObj Where type = #"
+2019-06-12 01:51:00,1

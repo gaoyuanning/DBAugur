@@ -1,0 +1,2 @@
+1,"SELECT plateID,mjd,fiberid,sigma_balmer,sigma_forbidden into mydb.balmer1 from galSpecLine,galSpecInfo"
+2019-02-04 10:47:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # phot.objid, phot.ra, phot.dec, spec.specobjid, spec.class, spec.z as spec_z, spec.plate, spec.mjd, spec.fiberid, FROM PhotoObj AS phot JOIN SpecObj AS spec ON spec.bestobjid = phot.objid WHERE phot.CLEAN = # AND spec.zWarning = # AND g BETWEEN # AND #"
+2019-07-10 17:22:00,1

@@ -1,0 +1,4 @@
+3,"SELECT TOP # sp.objid, sp.ra, sp.dec, sp.z, sp.modelMag_u, sp.modelMag_g, sp.modelMag_r, sp.modelMag_i, sp.modelMag_z, sp.modelMagErr_u, sp.modelMagErr_g, sp.modelMagErr_r, sp.modelMagErr_i, sp.modelMagErr_z  FROM SpecPhoto sp  JOIN dbo.fGetNearbyObjEq(#, #, #) n  ON sp.objID=n.objID  WHERE (sp.class=&&&)"
+2019-10-09 17:27:00,1
+2019-10-09 18:26:00,1
+2019-10-09 20:56:00,1

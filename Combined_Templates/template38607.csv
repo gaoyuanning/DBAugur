@@ -1,0 +1,3 @@
+2,"SELECT a.ra, a.dec, a.z, a.z_Err, a.logMass, a.logMass_err, a.t_age_mean, a.t_age_err, a.metallicity_mean, a.metallicity_err, a.dust1_mean, a.dust1_err, a.tau_mean, a.tau_err, a.age_mean, a.age_min, a.age_max, a.ssfr_mean, a.ssfr_min, a.ssfr_max, p.psfflux_u, p.psfflux_g, p.psfflux_r, p.psfflux_i, p.psfflux_z, d.w1flux, d.w2flux, d.w3flux, d.w4flux INTO mydb.SFR_WISE FROM stellarMassFSPSGranWideDust as a LEFT JOIN SpecObjAll as b on a.specObjID = b.specObjID LEFT JOIN WISE_xmatch as c on b.fluxObjID = c.sdss_objid LEFT JOIN WISE_allsky as d on c.wise_cntr = d.cntr LEFT JOIN PhotoObjAll as p on b.fluxObjID = p.ObjID"
+2019-05-10 10:38:00,1
+2019-05-10 10:39:00,1

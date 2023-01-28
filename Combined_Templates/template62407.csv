@@ -1,0 +1,2 @@
+1,"select dbo.fGetNearestObjIdEq (ra, dec, #/#) as objID, ra, dec, ivz_id into [myscratch:default].startemp from mydb.vstarmin where dbo.fGetNearestObjIdEq (ra, dec, #/#) IS NOT # -- select top # objID from [myscratch:default].startemp"
+2019-09-11 15:34:00,1

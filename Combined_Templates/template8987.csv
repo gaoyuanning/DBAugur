@@ -1,0 +1,2 @@
+1,"SELECT TOP # dbo.fIAUFromEq (p.ra, p.[dec]) as SDSSname, IS# (s.plate, #) as plate, IS# (s.mjd, #) as mjd, IS# (s.fiberid, #) as fiberid, IS# (s.z, #) as redshift, IS# (s.zErr, #) as redshiftErr, IS# (s.zWarning, #) as zWarning, IS# (s.class, #) as class FROM ..PhotoObj AS p LEFT OUTER JOIN ..SpecObj s ON p.objID = s.bestObjID WHERE (p.type = # OR p.type = #)"
+2019-02-07 20:52:00,1

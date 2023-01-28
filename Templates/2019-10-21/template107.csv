@@ -1,0 +1,2 @@
+1,"SELECT count(*) FROM Star as P WHERE P.ra between # and #  and P.dec between # and #  and P.g between # and #  and P.g-P.r between # and #  and P.u-P.g between # and # Your query output (max #,# rows): Column1 #"
+2019-10-21 19:50:00,1

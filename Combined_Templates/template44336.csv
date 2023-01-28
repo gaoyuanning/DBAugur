@@ -1,0 +1,2 @@
+1,"SELECT SpecObj.plate, SpecObj.fiberid, SpecObj.mjd, SpecObj.z, SpecObj.zwarning, emissionLinesPort.Flux_OIII_#, emissionLinesPort.Flux_OIII_#_Err FROM emissionLinesPort, SpecObj WHERE emissionLinesPort.Flux_OIII_# > emissionLinesPort.Flux_OIII_#_Err*# AND SpecObj.specobjid = emissionLinesPort.specobjid AND SpecObj.class = # AND SpecObj.zwarning = #"
+2019-06-06 08:09:00,1

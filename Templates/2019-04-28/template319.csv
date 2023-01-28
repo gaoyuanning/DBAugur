@@ -1,0 +1,2 @@
+1,"SELECT s.*, b.lgm_tot_p5#, b.sfr_tot_p5# into mydb.MyTable_# from mydb.MyTable_# as s   JOIN galSpecExtra as b on s.specObjID = b.specObjID"
+2019-04-28 06:08:00,1

@@ -1,0 +1,2 @@
+1,"SELECT u.up_name as [name], p.objID, specphotoall.specobjid, p.ra, p.dec, dbo.fPhotoTypeN(p.type) as type, SpecPhotoall.petrotheta_u FROM #x x, #upload u, PhotoTag p LEFT JOIN SpecPhotoAll ON p.objID=SpecPhotoAll.objID WHERE u.up_id = x.up_id and x.objID=p.objID and p.type=# and specphotoall.specobjid IS NOT NULL ORDER BY x.up_id"
+2019-02-22 05:53:00,1

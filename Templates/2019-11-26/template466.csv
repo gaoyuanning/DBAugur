@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID,  	      field, ra, dec into mydb.MyTable from PhotoObjAll	 WHERE   b > # and b < # and l > # and l < #"
+2019-11-26 01:03:00,1

@@ -1,0 +1,2 @@
+1,"SELECT p.specObjID, p.ra, p.dec, p.psfFlux_r, p.cModelFlux_r, p.modelFlux_r, p.psfFlux_g, p.cModelFlux_g, p.modelFlux_g into mydb.MyTable1# from dbo.PhotoObjAll AS p where p.specObjID != #"
+2019-05-09 10:25:00,1

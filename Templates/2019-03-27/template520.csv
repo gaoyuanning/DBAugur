@@ -1,0 +1,2 @@
+1,"select p.ra,p.dec,p.mjd,p.u,p.err_u,p.g,p.err_g,p.r,p.err_r,p.i,p.err_i,p.z,p.err_z from photoObj p, dbo.fGetNearbyObjEq(#,#,#) n where p.objID = n.objID"
+2019-03-27 10:05:00,1

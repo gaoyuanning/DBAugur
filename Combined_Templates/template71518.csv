@@ -1,0 +1,2 @@
+2,"SELECT TOP # specObjID, lgm_fib_p9#p5, sfr_tot_p9#p5 FROM galSpecExtra with (nolock) WHERE lgm_fib_p9#p5! =# AND sfr_tot_p9#p5! =#"
+2019-10-24 07:17:00,2

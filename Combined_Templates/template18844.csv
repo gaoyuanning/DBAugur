@@ -1,0 +1,5 @@
+4,"SELECT TOP # s.plate, s.mjd, s.fiberid, s.class, str (p.u - p.g, #, #) as ugModelColor, str (p.g - p.r, #, #) as grModelColor, str (p.r - p.i, #, #) as riModelColor, str (p.i - p.z, #, #) as izModelColor FROM BESTDR9..SpecObj as s JOIN BESTDR9..PhotoObj AS p ON s.bestObjID = p.objID WHERE s.z > # AND s.zWarning = # AND (s.class = #) AND s.z < # AND (p.type = # OR p.type = #) AND (s.primTarget & (dbo.fPrimTarget (#) + dbo.fPrimTarget (#) ) > #)"
+2019-03-08 05:01:00,1
+2019-03-08 05:07:00,1
+2019-03-08 05:10:00,1
+2019-03-08 05:20:00,1

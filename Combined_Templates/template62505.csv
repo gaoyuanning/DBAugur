@@ -1,0 +1,2 @@
+1,"select count (g.z) as num From specobj g, photoobj s, galspecextra p, emissionlinesport f, stellarMassStarformingport n Where f.specobjID = g.specobjID and g.specobjID = s.specobjID and s.specobjID = p.specobjID and p.specobjID = n.specobjID and (g.legacy_target1& (#|#|#) )> # and (g.z> =# and g.z< =#)"
+2019-09-11 06:43:00,1

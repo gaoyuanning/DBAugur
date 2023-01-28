@@ -1,0 +1,4 @@
+3,"SELECT TOP # objID,  	      field, ra, dec into mydb.MyTable from PhotoPrimary 	 WHERE     ra > #. and ra < # and dec > #. and dec < #"
+2019-01-23 14:18:00,1
+2019-01-23 14:19:00,1
+2019-01-23 14:21:00,1

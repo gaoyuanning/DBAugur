@@ -1,0 +1,2 @@
+1,"select  apo.*, asp.*, apostar.* into mydb.apogee1# from aspcapStar as asp      join  apogeeObject as apo on asp.target_id=apo.target_id      join apogeeStar as apostar on apostar.target_id=apo.target_id  where (asp.aspcapflag & dbo.fApogeeAspcapFlag(&&&)) = # and asp.teff > #"
+2019-12-24 00:23:00,1

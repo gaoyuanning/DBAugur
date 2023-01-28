@@ -1,0 +1,2 @@
+2,"select top # Ever_had_eye_surgery_# , JSON_VALUE (Ever_had_eye_surgery_#, #) as I0"
+2019-07-12 12:29:00,2

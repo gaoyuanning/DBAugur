@@ -1,0 +1,2 @@
+1,"select visit_id, plate, mjd, fiberid, dbo.fMjdToGMT(mjd) as string, vrel from apogeeVisit where apogee_id=&quot;#M1#+#&quot; order by mjd"
+2019-04-08 20:14:00,1

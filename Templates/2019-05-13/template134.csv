@@ -1,0 +1,3 @@
+2,"SELECT z.objID, z.z as pz, z.zErr as pzErr FROM photoz z, dbo.fgetNearByObjEq(#,#,#) n WHERE z.objid = n.objid AND z.photoErrorClass = #"
+2019-05-13 19:19:00,1
+2019-05-13 19:38:00,1

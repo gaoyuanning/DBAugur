@@ -1,0 +1,2 @@
+2,"select min (dec) as min_dec, max (dec) as max_dec, avg (dec) as avg_dec from photoObj where run = #"
+2019-02-03 20:31:00,2

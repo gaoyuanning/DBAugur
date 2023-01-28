@@ -1,0 +1,3 @@
+3,"SELECT s.specObjID, s.ra, s.dec, s.z, s.class, s.zWarning, s.snMedian, ife.ra, ife.dec, e.bpt, e.Flux_Hb_#, e.Flux_OIII_#, e.Flux_Ha_#, e.Flux_NII_# into mydb.MyTable_# from mydb.for_bpt as ife CROSS APPLY dbo.fGetNearestSpecObjEq (ife.ra, ife.dec, #) AS near JOIN SpecObjAll as s ON near.specObjID = s.specObjID JOIN emissionLinesPort AS e ON near.specObjID = e.specObjID WHERE s.class = # AND s.zWarning = # e.Flux_Ha_# ! = # AND e.Flux_Hb_# ! =# AND e.Flux_OIII_# ! =# AND e.Flux_NII_# ! = # AND s.snMedian > = #"
+2019-07-01 07:43:00,2
+2019-07-01 07:44:00,1

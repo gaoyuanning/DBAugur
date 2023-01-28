@@ -1,0 +1,2 @@
+1,"select objID,ra, dec into mydb.MyTable_new from dbo.PhotoObjAll where   petroMag_r >= # and petroMag_r <= # and   type == # and clean ==# and   deVRad_r >= # and deVRad_r <= #"
+2019-04-08 06:56:00,1

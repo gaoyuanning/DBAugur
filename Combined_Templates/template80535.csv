@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, ra, dec FROM Galaxy UNION SELECT TOP # objID, ra, dec FROM Star"
+2019-12-04 19:05:00,1

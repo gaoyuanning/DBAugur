@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID, mjd, plate, fiberID, ra, dec FROM specObj WHERE sciencePrimary > #"
+2019-08-08 15:52:00,1

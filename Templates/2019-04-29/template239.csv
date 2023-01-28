@@ -1,0 +1,2 @@
+1,"SELECT   g.ra,    g.dec,     g.z,   g.specObjID,   s.lgm_tot_p5# into mydb.NewSh7t from SpecPhoto as g JOIN SpecObj as s ON g.specObjID = s.specObjID     WHERE (g.ra > # and g.ra < #) and (g.dec > # and g.dec < #)   AND g.class = GALAXY   AND (s.z > # and s.z < #)   AND s.lgm_tot_p5# > #"
+2019-04-29 14:15:00,1

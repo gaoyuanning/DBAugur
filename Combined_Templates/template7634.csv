@@ -1,0 +1,2 @@
+1,"SELECT u.SN_name, p.objID, p.ra, p.dec, p.dered_u, p.err_u, p.dered_g, p.err_g, p.dered_r, p.err_r, p.dered_i, p.err_i, p.dered_z, p.err_z, p.petroR5#_r, p.petroR5#Err_r, p.petroR9#_r, p.petroR9#Err_r, p.petroR5#_r/p.petroR9#_r as inv_conc_idx, SQRT ((SQUARE (#./p.petroR9#_r) )* (SQUARE (p.petroR5#Err_r) +SQUARE (inv_conc_idx*p.petroR9#Err_r) )) as inv_conc_idx_err_low, inv_conc_idx_err_low as inv_conc_idx_err_up FROM mydb.Host_Gals_PS1 as u LEFT JOIN PhotoObjAll as p on u.objID = p.objID ORDER BY u.SN_name asc INTO mydb.Host_Gals_SNf_kcorr"
+2019-02-01 05:49:00,1

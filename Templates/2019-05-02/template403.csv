@@ -1,0 +1,2 @@
+1,"SELECT *                  FROM   OPENROWSET(BULK &&&,                         SINGLE_BLOB) AS x)  WHERE  [Name] = &&&  GO"
+2019-05-02 14:20:00,1

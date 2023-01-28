@@ -1,0 +1,2 @@
+1,SELECT TOP # ObjID FROM Galaxy as G WHERE G.lnlDev_r >  G.lnlExp_r + # and  G.lnlExp_r > # and (G.flags & (dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&))) > # and (G.flags & ( dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&))) != dbo.fPhotoFlags(&&&) and (G.flags & (dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&))) = # and G.petroMag_i > #.# <= p.ra and p.ra <= # and # <= p.dec and p.dec <= #
+2019-05-06 07:27:00,1

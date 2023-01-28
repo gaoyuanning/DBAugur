@@ -1,0 +1,2 @@
+1,"SELECT TOP # ObjID,r,g,i,u,u-r as redness,ra,dec from Galaxy as GWHERE G.lnlDev_r > G.lnlExp_r + #"
+2019-09-07 16:21:00,1

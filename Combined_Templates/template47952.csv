@@ -1,0 +1,2 @@
+1,"select top # extinction_g, extinction_r, extinction_i, PetroRad_g, PetroRad_r, PetroRad_i, expAB_i from galaxy where ObjID in [# # # ... # # #]"
+2019-06-24 05:51:00,1

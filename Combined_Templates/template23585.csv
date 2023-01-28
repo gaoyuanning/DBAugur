@@ -1,0 +1,2 @@
+1,"SELECT objid, u, g, r, i, z FROM PhotoObjAll JOIN SELECT class FROM specObjAll"
+2019-03-25 15:47:00,1

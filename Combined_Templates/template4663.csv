@@ -1,0 +1,7 @@
+10,"select ra, dec, mjd, plate, fiberID, z, zErr, class from specObj where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-01-19 12:16:00,1
+2019-01-19 12:18:00,2
+2019-01-19 12:28:00,3
+2019-01-19 12:31:00,2
+2019-01-19 12:36:00,1
+2019-01-19 12:45:00,1

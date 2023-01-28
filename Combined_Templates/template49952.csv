@@ -1,0 +1,2 @@
+1,"SELECT m.objid AS input_objid, p.ra as p_ra, p.dec as p_dec, p.run as p_run, p.rerun as p_rerun, p.camcol as p_camcol, p.field as p_field, p.modelMag_r, p.modelMagErr_r, p.petroRad_r, p.petroRadErr_r into mydb.MyTable_# from MyDB.LASER_ML_objids AS m LEFT JOIN PhotoObj AS p ON m.objid = p.objid"
+2019-07-04 06:14:00,1

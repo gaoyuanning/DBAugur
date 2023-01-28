@@ -1,0 +1,2 @@
+1,"select distinct  eid,Ever_had_refractive_laser_eye_surgery_#   from r2#.Eye_Surgery_complications a where a.Ever_had_refractive_laser_eye_surgery_# in (#,#,#)"
+2019-07-19 09:47:00,1

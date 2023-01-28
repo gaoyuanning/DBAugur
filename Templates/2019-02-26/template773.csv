@@ -1,0 +1,2 @@
+1,"select * objid, rastring, decstring, elliptical, spiral, uncertain, z into mydb.MyTable from zooSpec as Zoo   join SpecObj on SpecObj.specObjID = Zoo.specobjid"
+2019-02-26 00:00:00,1

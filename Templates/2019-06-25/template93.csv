@@ -1,0 +1,7 @@
+71,"SELECT G.objID as sdss_ID, G.ra as RA, G.dec as DEC, P.z as redshift, p.zErr as redshift_err, G.modelMag_u as MODEL_MAG_U, G.modelMag_g as MODEL_MAG_G, G.modelMag_r as MODEL_MAG_R, G.modelMag_i as MODEL_MAG_I, G.modelMag_z as MODEL_MAG_Z, G.modelMagErr_u as MODEL_MAG_U_err, G.modelMagErr_g as MODEL_MAG_G_err, G.modelMagErr_r as MODEL_MAG_R_err, G.modelMagErr_i as MODEL_MAG_I_err, G.modelMagErr_z as MODEL_MAG_Z_err, P.absMagU, P.absMagG, P.absMagR, P.absMagI, P.absMagZ FROM Galaxy as G JOIN dbo.fGetNearbyObjEq(#,#,#) AS GN ON G.objID = GN.objID JOIN Photoz as P ON P.objID = G.objID"
+2019-06-25 19:47:00,25
+2019-06-25 21:43:00,3
+2019-06-25 21:44:00,16
+2019-06-25 21:45:00,13
+2019-06-25 21:46:00,5
+2019-06-25 21:51:00,9

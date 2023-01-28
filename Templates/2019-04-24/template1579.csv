@@ -1,0 +1,2 @@
+1,"SELECT Genre.Name as genre, MediaType.Name as mediatype FROM chinook.Track INNER JOIN chinook.Genre  on chinook.Track.GenreId=chinook.Genre.GenreId INNER JOIN chinook.MediaType on chinook.Track.MediaTypeId=chinook.MediaType.MediaTypeId GROUPBY genre, mediatype"
+2019-04-24 01:56:00,1

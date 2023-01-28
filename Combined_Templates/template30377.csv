@@ -1,0 +1,5 @@
+4,"SELECT EID, [Reason_for_skipping_OCT_left__#], [Reason_for_skipping_OCT_right__#], [OCT_measured_left__#], [OCT_measured_right__#], [Optical_coherence_tomography_device_ID_#] FROM [r2#]Retinal_optical_coherence_tomography GO"
+2019-04-15 14:28:00,1
+2019-04-15 14:31:00,1
+2019-04-15 14:33:00,1
+2019-04-15 14:34:00,1

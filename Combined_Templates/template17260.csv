@@ -1,0 +1,3 @@
+3,"SELECT TOP # p.objid, p.ra, p.dec, s.specobjid, s.class, s.z as redshift, pz.z as photoredshift, GN.distance FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN PhotoZ AS pz ON pz.objid = p.objid JOIN dbo.fGetNearbyObjEq (#, +#, #) AS GN ON p.objID = GN.objID WHERE s.class = GALAXY"
+2019-03-05 22:30:00,2
+2019-03-05 22:33:00,1

@@ -1,0 +1,3 @@
+2,"SELECT TOP # p.extinction_i, p.extinction_r, p.extinction_u, p.petroR5#_r, p.petroR9#_r, IS# (s.z, #) as redshift, IS# (s.zErr, #) as redshiftErr FROM ..PhotoObj AS p LEFT OUTER JOIN ..SpecObj s ON p.objID = s.bestObjID JOIN dbo.fGetNearbyObjEq (#, #, #) AS b ON b.objID = P.objID WHERE p.petroMag_r > # AND p.petroMag_r < # AND (p.type = #)"
+2019-04-08 22:12:00,1
+2019-04-08 22:22:00,1

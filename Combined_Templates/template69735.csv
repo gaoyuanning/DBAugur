@@ -1,0 +1,4 @@
+3,"SELECT TOP # p.dr8objid, p.dr7objid, p.ra, p.dec, p.skyVersion, p.rerun, p.run, p.camcol, p.field, p.obj FROM PhotoObjDR7 AS p WHERE p.dr8objid = #"
+2019-10-15 14:25:00,1
+2019-10-15 14:27:00,1
+2019-10-15 14:36:00,1

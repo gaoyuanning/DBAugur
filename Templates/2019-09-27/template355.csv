@@ -1,0 +1,2 @@
+1,SELECT TOP # FROM PhotoPrimary as p LEFT OUTER JOIN SpecObjAll as s ON p.objID = s.specobjID
+2019-09-27 09:39:00,1

@@ -1,0 +1,2 @@
+1,"SELECT DISTINCT s.twomass_name, s.starname, uf1d.JD, uf1d.rv, uf1d.offseterror FROM marvelsVelocityCurveUF1D AS uf1d JOIN marvelsStar AS s ON s.starname = uf1d.starname WHERE s.starname LIKE #"
+2019-09-30 16:19:00,1

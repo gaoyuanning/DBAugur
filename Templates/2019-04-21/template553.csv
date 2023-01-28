@@ -1,0 +1,3 @@
+3,"SELECT Artist.Name, SUM(Track.UnitPrice) AS Total Price"
+2019-04-21 11:39:00,2
+2019-04-21 11:44:00,1

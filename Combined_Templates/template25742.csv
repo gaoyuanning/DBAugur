@@ -1,0 +1,2 @@
+1,"SELECT n.specObjID, n.ra as ra, n.dec as dec, n.z as z_spec, n.mstellar_median as mstar_med, n.mstellar_err as mstar_err, n.vdisp_median as vdisp, n.vdisp_err as vdisp_err, o.deVRad_r, o.deVAB_r, o.deVPhi_r, o.deVMag_r into mydb.MyTable_allGalaxy_mstar_small2 from stellarMassPCAWiscM1# as n join Galaxy as o on n.specObjID = o.objID where n.mstellar_median > = # and n.z < # and n.z > #"
+2019-03-29 03:38:00,1

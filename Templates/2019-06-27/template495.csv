@@ -1,0 +1,3 @@
+2,"SELECT passive.fiberid as fiberID, passive.mjd, passive.plate,passive.ra, passive.dec, passive.z as z_noqso, passive.zerr as z_noqso_err, passive.logmass as passive_logmass, starforming.logmass as starforming_logmass, pca.mstellar_median as pca_logmass FROM stellarMassPassivePort AS passive JOIN stellarMassStarformingPort AS starforming ON passive.specobjid =  starforming.specobjid JOIN stellarMassPCAWiscM1# AS pca ON passive.specobjid = pca.specobjid  join photoobjall AS pho on pho.specobjid = pca.specobjid WHERE pca.warning=# and passive.logmass > # and passive.z < # and  pho.petroR9#_g < #"
+2019-06-27 07:16:00,1
+2019-06-27 08:14:00,1

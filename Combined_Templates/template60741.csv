@@ -1,0 +1,2 @@
+1,"SELECT s.objID, s.mjd, s.fiberID FROM SpecObjAll AS s JOIN subset as sub WHERE sub.mjd = s.mjd AND sub.plate = s.plate AND sub.fiberID = s.fiberID"
+2019-09-04 18:37:00,1

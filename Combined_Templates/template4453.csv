@@ -1,0 +1,13 @@
+19,"select a.objID, a.ra, a.dec, c.logMass, d.z from PhotoObj as a, Photoz as b, stellarMassFSPSGranWideDust as c, SpecPhotoAll as d where a.type = # and a.objID = b.objID and c.specObjID = a.specObjID and d.specObjID = a.specObjID and c.fiberID = d.fiberID and c.plate = d.plate and c.MJD = d.mjd and abs (c.z*#-#) < # and c.logMass> # and ( (a.ra-#) * (a.ra-#) + (a.dec-#) * (a.dec-#) )< # -# #"
+2019-01-18 09:14:00,1
+2019-01-18 09:16:00,1
+2019-01-18 09:19:00,1
+2019-01-18 09:21:00,2
+2019-01-18 09:22:00,1
+2019-01-18 09:23:00,1
+2019-01-18 09:25:00,2
+2019-01-18 09:30:00,1
+2019-01-18 09:32:00,1
+2019-01-19 03:18:00,1
+2019-01-19 06:44:00,3
+2019-01-19 06:46:00,4

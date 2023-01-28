@@ -1,0 +1,2 @@
+1,"select top # m.myspecobid, s.mjd, s.plate, s.fiberID from SpecObj as s, MyDB.popid as m where m.myspecobid = s.specObjID"
+2019-03-18 15:10:00,1

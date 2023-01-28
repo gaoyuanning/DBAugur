@@ -1,0 +1,2 @@
+1,"SELECT x.objID, p.ra, p.dec, p.field, dbo.fPhotoTypeN (p.type) as type FROM #x x, #upload u, PhotoTag p WHERE u.up_id = x.up_id and x.objID = p.objID ORDER BY x.up_id"
+2019-11-15 14:49:00,1

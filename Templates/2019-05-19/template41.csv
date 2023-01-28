@@ -1,0 +1,6 @@
+5,"SELECT g.objID, g.ra, g.dec, q.z, q.zErr, q.class, q.subclass FROM GALAXY as g, SpecObjAll as q WHERE g.objID = q.bestObjID and (g.ra between # and #) and (g.dec between # and #)"
+2019-05-19 13:00:00,1
+2019-05-19 13:40:00,1
+2019-05-19 14:03:00,1
+2019-05-19 14:39:00,1
+2019-05-19 21:56:00,1

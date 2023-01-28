@@ -1,0 +1,4 @@
+4,"select dbo.blockAgg(block,@lo,@hi) as stats from BW  where bw.sampleid = @sampleid   and bw.chr=@chr   and bw.lo<=@hi   and bw.hi >=@lo ) select stats.count as length, stats.sum as [sum], stats.avg as [avg],stats.min as [min],stats.max as [max] from r"
+2019-01-07 09:58:00,1
+2019-01-07 10:06:00,2
+2019-01-07 11:16:00,1

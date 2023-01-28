@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, u, g, r, i, type, petroMag_u, petroMag_g, petroMag_r, petroMag_i FROM Galaxy WHERE r < # -- r IS NOT deredenned"
+2019-03-22 19:34:00,1

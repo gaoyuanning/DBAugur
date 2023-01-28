@@ -1,0 +1,2 @@
+1,"SELECT t.Name,t.objID,p.objID,p.ra,p.dec,SQRT(POWER(((p.ra-t.ra)*cos((t.dec)*(#/#))),#)+(POWER((p.dec-t.dec),#)))*# as AngSep INTO mydb.temp2 FROM mydb.temp as t, dbo.PhotoObjAll as p where   p.ra between (t.ra-.#) and (t.ra+.#) and   p.dec between (t.dec-.#) and (t.dec+.#)"
+2019-04-13 12:20:00,1

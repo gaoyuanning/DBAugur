@@ -1,0 +1,2 @@
+1,"select distinct state, county from optw.tamass.TRACTS where centroid.STDistance (@center) < # -- meters) select * from counties"
+2019-10-26 17:32:00,1

@@ -1,0 +1,3 @@
+2,"SELECT g.oiii_#_flux, g.h_beta_#_flux, g.h_delta_#_flux, FROM SpecObj AS s JOIN GalSpecLine AS g ON s.specobjid = g.specobjid WHERE g.h_beta_#_fwhm > # (s.class = # or s.class = #)"
+2019-05-22 07:52:00,1
+2019-05-22 07:54:00,1

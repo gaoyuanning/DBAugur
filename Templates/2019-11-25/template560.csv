@@ -1,0 +1,2 @@
+1,"SELECT u.id, u.plate, u.mjd, u.fiberid, u.slope, s.ra, s.dec, s.specObjID, s.z into LBA1_n_spec from LBA1_n AS u       JOIN LBA1_spec s ON (s.plate=u.plate AND s.mjd=u.mjd AND s.fiberID=u.fiberid)"
+2019-11-25 00:52:00,1

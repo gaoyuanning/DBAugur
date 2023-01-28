@@ -1,0 +1,2 @@
+1,"select count (*) from MyDB.DR7_MGS_Spec_HETDEX as main, DR7.SpecObj as spec where main.RA+# > spec.ra and main.RA-# < spec.ra and main.DEC+# > spec.dec and main.DEC-# < spec.dec"
+2019-01-10 07:50:00,1

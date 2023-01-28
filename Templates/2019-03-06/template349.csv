@@ -1,0 +1,2 @@
+2,"SELECT p.g, p.r, p.u, p.i, p.z, p.dered_g, p.dered_r, p.l, p.b, p.extinction_g, p.extinction_r, p.extinction_u, p.extinction_i, p.extinction_z   FROM PhotoPrimary as p WHERE p.clean=#"
+2019-03-06 16:48:00,2

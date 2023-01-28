@@ -1,0 +1,2 @@
+1,"select ra, dec from SpecLineAll, specObj where SpecLineAll.SpecLineID = specObj.bestObjid AND ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-02-21 09:39:00,1

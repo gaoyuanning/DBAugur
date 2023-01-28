@@ -1,0 +1,2 @@
+2,"select top # p.objid, p.ra, p.dec, s.z as redshift, s.specobjidfrom galaxy p, specobj s, dbo.fgetnearbyobjeq (#, -#, #) nwhere p.objid = s.bestobjid and p.objid = n.objid and s.bestobjid = n.objid"
+2019-07-12 13:06:00,2

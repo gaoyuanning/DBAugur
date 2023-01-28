@@ -1,0 +1,2 @@
+1,"SELECT objID, specsfr_tot_p5# into mydb.MyTable_# from galSpecExtra WHERE objID = Mydb"
+2019-10-16 17:37:00,1

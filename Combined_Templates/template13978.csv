@@ -1,0 +1,2 @@
+1,"SELECT t.thingid, t.ndetect, d.objid, r.Sdssdr9SourceId_#, p.dec, r.GaiaDEC_#, p.ra, r.GaiaRA_#, r.feh, r.efeh, r.GaiaSourceId_#, r.per, r.GaiaParallax, r.GaiaParallaxError into mydb.AllThingIdsUpdatedPeriod FROM thingIndex AS t JOIN detectionindex AS d ON t.thingid = d.thingid JOIN PhotoObjAll p ON d.objid = p.objid JOIN mydb.RawDataUpdatedPeriod AS r ON p.objid = r.Sdssdr9SourceId_# order by t.ndetect"
+2019-02-25 21:47:00,1

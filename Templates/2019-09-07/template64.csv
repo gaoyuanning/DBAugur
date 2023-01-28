@@ -1,0 +1,2 @@
+1,"SELECT S.ra as ra, S.dec as dec, S.psfMag_r as mag, S.psfMagErr_r as magerr, GN.distance as distance, S.objID, S.flags FROM Star AS S JOIN dbo.fGetNearbyObjEq(#, #, #) AS GN ON S.objID = GN.objID WHERE S.clean = # AND S.psfMag_r < # AND S.psfMag_r > # ORDER BY S.psfMag_r"
+2019-09-07 21:11:00,1

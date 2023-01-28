@@ -1,0 +1,2 @@
+1,select * from dbo.SpecObjAll where plateID=# limit #
+2019-11-07 01:24:00,1

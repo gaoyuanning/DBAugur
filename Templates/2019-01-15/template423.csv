@@ -1,0 +1,2 @@
+1,"SELECT   objID, ra,dec,u ,v,r,i,z, s.z  FROM specObj s  WHERE  s.class=&&&  AND zWarning = #   AND ra BETWEEN # and # AND  dec between # and #"
+2019-01-15 10:52:00,1

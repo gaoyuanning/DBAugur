@@ -1,0 +1,4 @@
+3,"select dbo.fGetUrlFitsSpectrum(s.specObjId), s.plate, s.mjd, s.fiberID into mydb.SDSSDR1#_UrlFitsSpectrum from SpecObjAll as s"
+2019-02-11 13:16:00,1
+2019-02-11 13:17:00,1
+2019-02-11 13:20:00,1

@@ -1,0 +1,2 @@
+1,"select objid, modelmag_u, modelmag_g, modelmag_r, modelmag_i, modelmag_z, z from SpecPhoto where specclass = #"
+2019-07-04 02:51:00,1

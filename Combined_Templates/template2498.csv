@@ -1,0 +1,2 @@
+1,"SELECT photoObjID, p.z FROM Galaxy WHERE p.z between # and #"
+2019-01-13 14:41:00,1

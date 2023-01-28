@@ -1,0 +1,2 @@
+2,"SELECT gal.objID, gal.z, gal.zErr, gal.pzType, gal.nnObjID, gal.nnSpecz, gal.nnCount into mydb.dr7_photoz2_zpt0#_zpt0# from Photoz2 gal WHERE gal.z BETWEEN # AND #"
+2019-07-14 19:47:00,2

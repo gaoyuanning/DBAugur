@@ -1,0 +1,3 @@
+2,"SELECT p.g, p.r, (p.g - p.r) as color FROM PhotoObj p JOIN SpecObj s ON s.bestobjid = p.objid WHERE s.class = #"
+2019-06-12 09:56:00,1
+2019-06-12 10:10:00,1

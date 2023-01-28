@@ -1,0 +1,2 @@
+1,"select top bestobjid, dbo.fRUN(bestobjID) as run from specobj where specobjid = dbo.fSpecidFromSDSS(#,#,#)"
+2019-07-31 16:37:00,1

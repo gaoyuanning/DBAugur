@@ -1,0 +1,2 @@
+1,"SELECT TOP # g.objID, g.dered_u, g.dered_g, g.dered_r, g.dered_i, g.dered_z, s.z FROM Galaxy g INNER JOIN SpecObj s ON s.bestObjID = g.objID"
+2019-04-01 11:00:00,1

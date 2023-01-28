@@ -1,0 +1,4 @@
+4,"SELECT Z.objID, Z.z, Z.zErr, G.ra, G.dec, Z.absMag_r, Z.rest_gr into mydb.photoz_# from DR7.Photoz as Z, DR7.Galaxy as G WHERE Z.objID = G.Objid and Z.z != # and G.petromag_r-G.extinction_r < # and Z.z - Z.zErr < # and Z.z >= # and Z.z < #"
+2019-01-28 04:22:00,2
+2019-01-28 06:52:00,1
+2019-01-28 06:53:00,1

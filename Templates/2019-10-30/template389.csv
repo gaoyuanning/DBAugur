@@ -1,0 +1,2 @@
+2,"select px,py from Celltag3 c     where c.sampleid=#       and c.ptype=#       and c.pd1=#       and c.tdist<#"
+2019-10-30 09:53:00,2

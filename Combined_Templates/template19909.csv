@@ -1,0 +1,5 @@
+5,"SELECT p.objID, p.ra, p.dec into mydb.MyTable_# FROM PhotoPrimary AS p WHERE ( (p.dered_g < #) OR (p.dered_r < #) OR (p.dered_i < #) and (p.type = #) and (p.psfMag_r> #) and (p.psfMag_r< #) )"
+2019-03-13 19:11:00,2
+2019-03-13 19:18:00,1
+2019-03-13 19:23:00,1
+2019-03-13 19:24:00,1

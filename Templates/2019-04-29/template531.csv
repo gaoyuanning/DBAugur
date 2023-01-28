@@ -1,0 +1,2 @@
+1,"SELECT TOP # z,mjd,fiberID,plate,run1d,run2d from SpecObj   WHERE class = &&& AND z between # and #"
+2019-04-29 10:31:00,1

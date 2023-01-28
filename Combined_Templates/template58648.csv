@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, (p.u-p.r) as #, (p.r-p.i) as #, (p.r-p.z) as #, (p.g-p.r) as #, s.specobjid, s.class, s.subclass, s.z as redshift, p.z as photo_z into mydb.colourcut from PhotoObj AS p JOIN Photoz AS pz ON p.objid = pz.objid JOIN SpecObj AS s ON pz.objid = s.bestobjid s.z BETWEEN # AND # AND (p.u-p.r < = #) AND (p.r-p.i < = #) AND (p.r-p.z < = #) AND (p.g-p.r > = (p.r-p.i) + #) AND (p.u-p.r > = #* (p.r-p.z) )"
+2019-08-21 03:56:00,1

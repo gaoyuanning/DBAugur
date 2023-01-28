@@ -1,0 +1,2 @@
+2,"SELECT TOP # g.objid,    zns.ra,zns.dec, pz.absMagR, n.sersic_n   FROM Galaxy as G JOIN ZooSpec AS zns ON G.objid = zns.objid JOIN SpecObj AS s ON s.bestObjID = G.objID JOIN Photoz AS pz ON pz.objID = G.objID JOIN nsatlas AS n ON n.mjd = s.mjd and n.fiberID = s.fiberID and n.plate = s.plate     WHERE    g.clean=# and zns.nvote >= # and s.zWarning = #"
+2019-12-17 05:17:00,2

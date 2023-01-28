@@ -1,0 +1,3 @@
+4,"SELECT my.ra, my.dec, my.p, my.m, my.f, my.zspec, my.zwarning, my.psfmag_u, my.psfmag_g, my.psfmag_r, my.psfmag_i, my.psfmag_z, ph.clean FROM MyDB.testq as my, PhotoObjAll as ph INTO MyDB.testq2 WHERE ph.clean = # and ph.psfmag_u = my.psfmag_u and ph.psfmag_g = my.psfmag_g and ph.psfmag_r = my.psfmag_r and ph.psfmag_i = my.psfmag_i and ph.psfmag_z = my.psfmag_z and ph.mjd = my.m"
+2019-11-14 09:14:00,2
+2019-11-14 09:15:00,2

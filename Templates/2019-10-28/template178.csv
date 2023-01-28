@@ -1,0 +1,2 @@
+1,"SELECT DISTINCT &&&, &&& FROM Galaxy WHERE (ra between # and #) and (dec between # and #) and (petroMag_r + extinction_r<#) and (# = # and # !=#)"
+2019-10-28 17:12:00,1

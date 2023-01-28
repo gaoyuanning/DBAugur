@@ -1,0 +1,2 @@
+2,"SELECT    SpecObjID, s, z FROM    SpecObj WHERE   SpecObjID = g.ObjID   z >= # AND z <= #"
+2019-03-08 16:03:00,2

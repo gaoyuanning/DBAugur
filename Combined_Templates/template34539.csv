@@ -1,0 +1,2 @@
+1,"select top # ra, dec, modelmag_g from startag where modelmag_g > # order by modelmag_g"
+2019-04-25 15:04:00,1

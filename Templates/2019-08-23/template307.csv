@@ -1,0 +1,2 @@
+1,"SELECT   st.specObjID, st.z, st.warning into mydb.MyTable_# from stellarMassPCAWiscBC0# as st, SpecObjAll as sp, PhotoObjAll as p WHERE   st.z > # AND st.z < #"
+2019-08-23 10:20:00,1

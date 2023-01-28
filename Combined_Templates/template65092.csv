@@ -1,0 +1,2 @@
+1,"SELECT TOP # plateifu, m.mangaid, m.objra, m.objdec, m.mngtarg1, m.drp3qual FROM mangadrpall as m JOIN PhotoObj AS p ON p.ra = m.objra AND p.dec = m.objdec JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE ( ((mngtarg1 & (power (#, #) +power (#, #) )) ! = #) and ( (drp3qual & power (#, #) ) = #) )"
+2019-09-24 08:22:00,1

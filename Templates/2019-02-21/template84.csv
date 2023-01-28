@@ -1,0 +1,2 @@
+1,"SELECT top #  specObjID , ra , dec , z FROM  SpecPhoto WHERE  class = &&& ORDER BY  z desc"
+2019-02-21 22:11:00,1

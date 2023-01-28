@@ -1,0 +1,2 @@
+1,"select s.specObjID FROM SpecDR7 as s WHERE s.run = #, s.rerun = #, s.camcol = #, s.field = #, s.obj = #"
+2019-10-03 17:00:00,1

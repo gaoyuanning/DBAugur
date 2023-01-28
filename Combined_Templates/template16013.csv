@@ -1,0 +1,2 @@
+2,"SELECT top # objid, g.ra, g.dec, z FROM SpecPhoto JOIN Galaxy as g WHERE AND g.ra BETWEEN # and # AND g.dec BETWEEN # and #"
+2019-03-01 03:13:00,2

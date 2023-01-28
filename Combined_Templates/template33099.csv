@@ -1,0 +1,2 @@
+1,"select a.albumId from chinook.Album a, chinook.Track b"
+2019-04-23 15:45:00,1

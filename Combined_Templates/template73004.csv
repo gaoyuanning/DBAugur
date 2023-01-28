@@ -1,0 +1,2 @@
+2,"SELECT objID, ra, dec, raErr, decErr, # AS errpa, psffwhm_r, psffwhm_r, # AS psfpa FROM Star WHERE ra BETWEEN # and # AND dec BETWEEN # and # AND ( (flags_r & #) ! = #) AND ( (flags_r & #) = #) AND ( ((flags_r & #) = #) or (psfmagerr_r % #C = #) ) AND ( ((flags_r & #) = #) or (flags_r & #) = #)"
+2019-10-31 21:06:00,2

@@ -1,0 +1,2 @@
+1,"SELECT s.subClass, count (*) into mydb.pepe2 from PhotoObjAll as p, SpecObjAll as s  WHERE    p.objID=s.bestObjID    and p.modelMag_g < # and p.modelMag_r < #    and p.modelMag_g - p.modelMag_r < #    and s.class=&&& GROUP BY s.subClass;"
+2019-09-04 17:15:00,1

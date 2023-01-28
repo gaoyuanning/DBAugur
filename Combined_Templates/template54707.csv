@@ -1,0 +1,3 @@
+3,"select q.*, s.specobjID, bestobjID from mydb.dr1#qsoMin as q, specobj as s into mydb.dr1#Inter where q.plate = s.plate and q.mjd = s.mjd and q.fiberid = s.fiberid"
+2019-07-31 17:36:00,2
+2019-07-31 17:37:00,1

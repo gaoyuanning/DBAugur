@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid,p.ra,p.dec  ,p.u,p.g,p.r,p.i,p.z,p.err_u,p.err_g,p.err_r  ,p.err_i  ,p.err_z  ,p.camcol, p.field,  ,p.modelFlux_g, p.modelFluxIvar_g,  s.specobjid, s.class, s.z as redshift,  s.plate, s.mjd, s.fiberid, s.z*#/# as rs_dist_MPC , POWER(#,(p.g+#+#)/#)/# as mag_dist_g_MPC FROM PhotoObj AS p  INNER JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   p.u BETWEEN # and #  and s.z BETWEEN # AND #  AND s.class = &&&"
+2019-07-27 06:56:00,1

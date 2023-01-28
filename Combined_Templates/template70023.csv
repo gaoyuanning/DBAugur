@@ -1,0 +1,2 @@
+1,"SELECT ALL s.SpecObjID, s.z, L.ew, L.height, s.mag_# into mydb.MyTable_# from SpecObj as s JOIN SpecLine as L ON s.SpecObjID = L.specObjID WHERE s.specClass = # AND L.LineID = # AND L.ew > # AND L.height > # AND (s.z - #) < #"
+2019-10-16 08:26:00,1

@@ -1,0 +1,2 @@
+1,"select   PhotoID, ra, dec, z from  specObj where   class = &&&  z > #  zWarning = #"
+2019-08-14 18:51:00,1

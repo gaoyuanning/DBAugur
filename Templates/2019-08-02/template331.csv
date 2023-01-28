@@ -1,0 +1,2 @@
+1,"SELECT TOP #  r.objid,r.ra,r.dec,r.u,r.g,r.r,r.i,r.z, r.run, r.rerun, r.camcol, r.field,  d.specobjid, d.class, d.z as redshift, d.plate, d.mjd, d.fiberid into mydb.MyTable from PhotoObj AS r  JOIN SpecObj AS d ON d.bestobjid = r.objid"
+2019-08-02 05:43:00,1

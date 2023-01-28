@@ -1,0 +1,2 @@
+1,select * from DBColumns where tableName like &&&
+2019-11-30 23:57:00,1

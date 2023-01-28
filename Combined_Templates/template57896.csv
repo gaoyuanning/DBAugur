@@ -1,0 +1,15 @@
+52,"select ra, dec, l, b, extinction_u, #*LOG1# (psfFlux_u) + # - extinction_u + # as psfPogCorr_u, #*LOG1# (psfFlux_g) + # - extinction_g + # as psfPogCorr_g, #*LOG1# (psfFlux_r) + # - extinction_r + # as psfPogCorr_r, #*LOG1# (psfFlux_i) + # - extinction_i + # as psfPogCorr_i, #*LOG1# (psfFlux_z) + # - extinction_z + # as psfPogCorr_z, #/SQRT (psfFluxIvar_u) /psfFlux_u as psfPogErr_u, #/SQRT (psfFluxIvar_g) /psfFlux_g as psfPogErr_g, #/SQRT (psfFluxIvar_r) /psfFlux_r as psfPogErr_r, #/SQRT (psfFluxIvar_i) /psfFlux_i as psfPogErr_i, #/SQRT (psfFluxIvar_z) /psfFlux_z as psfPogErr_z from star as s where ra between # and # and dec between # and # and s.clean = # and psfFlux_u > # and psfFlux_g > # and psfFlux_r > # and psfFlux_i > # and psfFlux_z > # and #/SQRT (psfFluxIvar_u) /psfFlux_u < # and #/SQRT (psfFluxIvar_g) /psfFlux_g < # and #/SQRT (psfFluxIvar_r) /psfFlux_r < # and #/SQRT (psfFluxIvar_i) /psfFlux_i < # and #/SQRT (psfFluxIvar_z) /psfFlux_z < #"
+2019-08-15 01:52:00,1
+2019-08-15 01:53:00,4
+2019-08-15 01:54:00,5
+2019-08-15 01:55:00,4
+2019-08-15 01:56:00,3
+2019-08-15 01:57:00,4
+2019-08-15 01:58:00,3
+2019-08-15 01:59:00,3
+2019-08-15 02:00:00,5
+2019-08-15 02:01:00,4
+2019-08-15 02:02:00,6
+2019-08-15 02:03:00,6
+2019-08-15 02:08:00,1
+2019-08-15 02:09:00,3

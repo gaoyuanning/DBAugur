@@ -1,0 +1,3 @@
+2,"SELECT m.idx as input_idx, m.ra AS input_ra, m.dec AS input_dec, n.objid as sdssm_objid, n.distance as sdssm_distance, p.ra AS sdss_p_ra, p.dec AS sdss_p_dec, s.specObjId as sdss_s_specObjId, s.plate, s.fiberID, s.mjd, s.ra as sdss_s_ra, s.dec as sdss_s_dec, s.z as sdss_s_z, s.zerr as sdss_s_zerr, s.zwarning as sdss_s_zwarning, s.class as sdss_s_class, s.subClass as sdss_s_subClass, dbo.fPhotoTypeN (p.type) as sdss_p_type into mydb.MyTable_# from MyDB.LASER_VCVadd_radec AS m OUTER APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n LEFT JOIN PhotoObj AS p ON n.objid = p.objid LEFT JOIN SpecObjAll AS s ON p.objID = s.bestObjID"
+2019-02-20 06:05:00,1
+2019-02-20 06:06:00,1

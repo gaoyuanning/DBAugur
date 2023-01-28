@@ -1,0 +1,2 @@
+1,"SELECT l.*, R.ext, R.ra as XRA, R.dec as XDec INTO DR5_LRGs_X FROM ROSAT.Rosat as R, DR5_lrgs as l WHERE sqrt (power ((l.ra-R.ra) *cos (l.dec) , #) +power ((l.dec-R.dec) , #) )< # R.ext > # ORDER BY l.objID"
+2019-03-19 17:47:00,1

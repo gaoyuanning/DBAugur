@@ -1,0 +1,5 @@
+6,"select top # r.* , rt.name as rt from resource r, resourcetype rt where rt.id = r.resourcetypeid and rt.name = #"
+2019-01-05 16:23:00,2
+2019-01-05 16:28:00,1
+2019-09-30 10:12:00,2
+2019-09-30 10:40:00,1

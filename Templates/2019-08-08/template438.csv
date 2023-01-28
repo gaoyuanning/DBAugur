@@ -1,0 +1,2 @@
+1,"select     specobjid, ra, dec, psfmag_u, psfmag_g, psfmag_r, psfmag_i, psfmag_z,z,class from   SpecPhotoAll   where class=&&&"
+2019-08-08 09:06:00,1

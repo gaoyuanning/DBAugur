@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, f.mjd_i, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, p.objID, p.modelMagErr_i, p.flags /*d.thingID*/ FROM photoObj p JOIN field f ON p.fieldid = f.fieldid /*JOIN detectionIndex d ON p.objID = d.objID*/ WHERE f.mjd_i ! = # /*AND f.mjd_i BETWEEN # AND #*/ AND p.type = # /*AND p.psfMag_i - p.cmodelMag_i > #*/ AND p.ra BETWEEN # AND # AND p.dec BETWEEN -.# AND -.# AND ( (p.flags & #) ! = #) AND ( (p.flags & #) = #) ORDER BY f.mjd_i"
+2019-07-01 16:16:00,1

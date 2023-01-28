@@ -1,0 +1,9 @@
+9,"select top # G.objID, G.ra, G.dec, p.z from Galaxy as G, photoz as p, dbo.fGetNearbyObjEq (#, #, #) as N where G.objID = N.objID and G.objID = p.objID And p.z between # and # AND p.zErr BETWEEN # and # AND ( (g.flags_r & #) ! = #) AND ( (g.flags_r & #) = #) AND ( ((g.flags_r & #) = #) or (g.psfmagerr_r < = #) ) AND ( ((g.flags_r & #) = #) or (g.flags_r & #) = #) order by p.z"
+2019-11-12 21:25:00,2
+2019-11-12 21:28:00,1
+2019-11-12 21:30:00,1
+2019-11-12 21:32:00,1
+2019-11-12 21:33:00,1
+2019-11-12 21:34:00,1
+2019-11-12 22:10:00,1
+2019-11-12 22:29:00,1

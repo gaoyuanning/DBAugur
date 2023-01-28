@@ -1,0 +1,3 @@
+4,"SELECT   m.SPRC, m.Objid, m.R, m.cz, p.objid,p.ra,p.dec,p.dered_u,p.dered_g,p.dered_r,p.dered_i,p.dered_z,   s.class,s.subclass , s.specObjID, s.z as redshift into SPRC_dr8_with_data_no_spec from dr1#.PhotoObjAll AS p     JOIN dr1#.SpecObj AS s ON s.bestobjid = p.objid     JOIN MyDB.SPRC_dr8 AS m ON m.Objid = p.objid"
+2019-04-12 08:14:00,2
+2019-04-12 08:21:00,2

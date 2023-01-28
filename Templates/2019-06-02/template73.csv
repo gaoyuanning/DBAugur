@@ -1,0 +1,2 @@
+1,"select all elpetro_absmag_f, elpetro_b3#, elpetro_b1#, field, ra, dec, nsaid from nsatlas where  ra < # and ra > # AND dec < # and dec > #"
+2019-06-02 20:30:00,1

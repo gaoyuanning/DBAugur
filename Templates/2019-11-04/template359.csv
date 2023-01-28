@@ -1,0 +1,2 @@
+1,"select o.objId, o.ra, o.dec, o.psfMag_u, o.psfMag_g, o.psfMag_r, o.psfMag_i, o.psfMag_z from MyDB.GraL_quads lens   cross apply fGetNearbyObjAllEq(lens.ra,lens.dec,#) as nb   inner join PhotoObjAll o on o.objId=nb.objId"
+2019-11-04 11:04:00,1

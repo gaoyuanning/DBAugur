@@ -1,0 +1,2 @@
+1,"SELECT match.distance into mydb.ext_sample_spmatch from MyDB.ext_sample AS my OUTER APPLY dbo.fGetNearestObjEq (my.ra, my.dec, #) as match"
+2019-04-17 19:35:00,1

@@ -1,0 +1,2 @@
+1,"select s.specobjid, s.z, SL.ew as EW_Ha, p.objid, p.petromag_u, p.petromag_g, p.petromag_r, p.petromag_i, p.petromag_z,    petroR5#_g, petroR5#_r, ra, dec,    extinction_g, extinction_r  from photoprimary p   join specobj s   on p.objid = s.bestobjid   join SpecLine SL   on s.specobjid = SL.specobjid WHERE   s.z > #   and   SL.lineID = #)   as f   JOIN   SpecLine SL   ON   f.specobjid = SL.specobjid WHERE   SL.lineID = #"
+2019-12-12 02:19:00,1

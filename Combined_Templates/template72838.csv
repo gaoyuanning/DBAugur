@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec, run, rerun, camcol, field, obj, mode, type, probPSF, flags, psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z, psfMagErr_u, psfMagErr_g, psfMagErr_r, psfMagErr_i, psfMagErr_z, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z, modelMagErr_u, modelMagErr_g, modelMagErr_r, modelMagErr_i, modelMagErr_z, dered_u, dered_g, dered_r, dered_i, dered_z, specObjID FROM PhotoObjAll INTO SDSS_photo_DR1#_XMMLSS WHERE mode = # AND ra > # AND ra < # AND dec > # AND dec < #"
+2019-10-31 13:16:00,1

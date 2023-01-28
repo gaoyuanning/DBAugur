@@ -1,0 +1,3 @@
+2,"SELECT TOP #   m.name, m.ra AS ra1, m.dec AS dec1,   n.specObjID, n.distance, s.plate, s.mjd, s.fiberid, s.z, s.zErr,   s.zWarning, s.class, s.subclass,    s.ra AS ra2, s.dec AS dec2 into mydb.MyTable from MyDB.wise_scosmos  AS m    OUTER APPLY dbo.fGetNearbySpecObjEq( m.ra, m.dec, #) AS n     LEFT JOIN SpecPhotoAll AS s ON n.specObjID=s.specObjID     WHERE s.z IS NOT NULL"
+2019-07-01 16:58:00,1
+2019-07-01 17:01:00,1

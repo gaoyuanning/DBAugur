@@ -1,0 +1,2 @@
+1,SELECT TrackId FROM chinook.Track GROUP BY AlbumId
+2019-04-22 19:44:00,1

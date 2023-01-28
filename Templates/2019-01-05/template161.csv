@@ -1,0 +1,2 @@
+2,"SELECT TOP #  pz.objID,pz.z,pz.zErr,pz.absMagU,pz.absMagG,pz.absMagR,pz.absMagI,pz.absMagZ,  p.objID,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z, FROM Photoz AS pz  JOIN PhotoObj AS p ON p.objID = pz.objID WHERE   pz.z BETWEEN # AND #"
+2019-01-05 16:04:00,2

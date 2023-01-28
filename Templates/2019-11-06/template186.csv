@@ -1,0 +1,10 @@
+83,"SELECT p.u, p.g, p.r, p.i, p.z, p.err_u, p.err_g, p.err_r, p.err_i, p.err_z, psfFlux_u, psfFlux_g, psfFlux_r, psfFlux_i, psfFlux_z, psfFluxIvar_u, psfFluxIvar_g, psfFluxIvar_r, psfFluxIvar_i, psfFluxIvar_z FROM PhotoObj p WHERE (p.ra BETWEEN # AND #) AND (p.dec BETWEEN # AND #) AND p.run = # AND p.rerun = # AND p.camcol = # AND p.field = #"
+2019-11-06 13:08:00,10
+2019-11-06 13:09:00,10
+2019-11-06 13:11:00,10
+2019-11-06 13:13:00,10
+2019-11-06 13:15:00,10
+2019-11-06 13:17:00,10
+2019-11-06 13:18:00,3
+2019-11-06 13:20:00,10
+2019-11-06 13:22:00,10

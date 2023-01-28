@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec into mydb.an_example FROM SpecObj as s, PhotoObj as p WHERE s.specObjID = # and s.bestObjID = p.objID"
+2019-12-15 13:44:00,1

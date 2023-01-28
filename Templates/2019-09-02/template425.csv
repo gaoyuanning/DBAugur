@@ -1,0 +1,2 @@
+1,"select ra, dec, u from galaxy where ra < # and ra > #"
+2019-09-02 08:41:00,1

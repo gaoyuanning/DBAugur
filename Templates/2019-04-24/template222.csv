@@ -1,0 +1,2 @@
+1,"select distinct m.Name as media, g.Name as genre   from chinook.track t   join chinook.MediaType m on m.MediaTypeID=t.MediaTypeID   join chinook.Genre g on g.GenreID=t.GenreID   GROUP BY media, genre"
+2019-04-24 17:58:00,1

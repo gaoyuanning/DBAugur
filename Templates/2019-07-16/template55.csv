@@ -1,0 +1,2 @@
+1,"SELECT s.mjd, s.plate, s.fiberID, s.z, s.specobjID  FROM SpecObjAll s,  WHERE s.specobjID=l1.specobjID and s.specobjID=l2.specobjID  AND (  (l1.wave BETWEEN # and #  and l1.ew > # )  AND  (l2.wave BETWEEN # and #  and l2.ew > #)  )  ORDER BY s.specobjID"
+2019-07-16 22:59:00,1

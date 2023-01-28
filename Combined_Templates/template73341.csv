@@ -1,0 +1,2 @@
+1,"SELECT top # ra, dec, wash_ddo5#_star_flag from apogeeObject WHERE ra BETWEEN # AND # AND dec between # and #"
+2019-11-02 02:41:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.nsaid, p.ra, p.dec, p.z as redshift, p.elpetro_absmag_r, s.bestObjID, s.ra, s.dec, s.class, s.z as redshift, s.elodieTEff FROM nsatlas AS p JOIN SpecObjall AS s ON s.bestObjID = p.nsaid"
+2019-11-26 09:29:00,1

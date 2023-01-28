@@ -1,0 +1,2 @@
+1,"SELECT to upload -- the results to the SAS (Science Archive Server) for FITS file retrieval. SELECT    p.objid, s.specobjid, p.ra,p.dec, s.primTarget, s.z, s.zerr FROM PhotoObj AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE    s.primTarget & # != #	    AND s.ra BETWEEN #. AND #.    AND s.dec BETWEEN #. AND #."
+2019-02-11 11:15:00,1

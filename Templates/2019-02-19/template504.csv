@@ -1,0 +1,2 @@
+1,"select top # bestObjID, ra, dec, z FROM specObj p dbo.fGetNearbyObjEq(#,#,#) n ON n.bestObjID = p.bestObjID Order by z"
+2019-02-19 01:15:00,1

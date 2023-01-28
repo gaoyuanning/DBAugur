@@ -1,0 +1,2 @@
+1,"select top # class, SpecObjID from specObj where zWarning = # order by RAND ()"
+2019-11-29 17:52:00,1

@@ -1,0 +1,4 @@
+4,"SELECT TOP # z as Redshift, dered_u as u, dered_g as g, dered_r as r, dered_i as i, dered_z as z FROM SpecPhotoAll WHERE  type = # AND  z BETWEEN # AND # AND zErr < #"
+2019-01-14 19:46:00,2
+2019-01-14 19:47:00,1
+2019-01-14 23:38:00,1

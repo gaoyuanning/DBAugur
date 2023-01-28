@@ -1,0 +1,2 @@
+1,select count (*) from genetic_profile gp join mutation m on m.genetic_profile_id = gp.genetic_profile_id
+2019-04-22 07:45:00,1

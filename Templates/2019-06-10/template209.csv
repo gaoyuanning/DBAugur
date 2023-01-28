@@ -1,0 +1,2 @@
+1,"SELECT DISTINCT p.ra, p.dec, p.modelMag_g, p.clean, p.type, p.obj, p.objID, p.dbo.resolveStatus(RUN_IGNORE), p.mode FROM PhotoObjAll AS p WHERE ((p.ra between # and #) and (p.dec between # and #))"
+2019-06-10 16:39:00,1

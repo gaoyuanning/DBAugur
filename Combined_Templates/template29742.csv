@@ -1,0 +1,2 @@
+1,"select objID, ra, dec, r, z from SpecPhotoAll where ra BETWEEN # and # AND dec BETWEEN # and # AND r < # AND # < r"
+2019-04-12 20:59:00,1

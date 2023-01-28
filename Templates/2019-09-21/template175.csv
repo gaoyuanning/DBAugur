@@ -1,0 +1,2 @@
+1,"SELECT       m.mangaid,   m.plate,   m.ifudesign,   m.plateifu,   m.objra,   m.objdec,   m.z,   m.emline_sflux_cen_hb_#,   m.emline_sflux_cen_oiii_#,   m.emline_sflux_cen_ha_#,   m.emline_sflux_cen_nii_# into mydb.MyTable from mangaDAPall AS m"
+2019-09-21 15:37:00,1

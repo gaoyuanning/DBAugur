@@ -1,0 +1,2 @@
+1,"CREATE TABLE [Breathing] ( 	eid BIGINT NOT NULL ,	[Wheeze_or_whistling_in_the_chest_in_last_year_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Shortness_of_breath_walking_on_level_ground_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=# ,PRIMARY KEY (eid)) GO"
+2019-04-29 11:38:00,1

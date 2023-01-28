@@ -1,0 +1,3 @@
+2,"select top # e.eid, e.Ethnic_background_#, c.meaning AS # from dbo.Ethnicity e cross apply openjson (Ethnic_background_#) h join metadata.columns d on d.column_name = # join metadata.encoding c on c.encoding_id = d.encoding_id AND c.value = h.value"
+2019-10-07 10:26:00,1
+2019-10-07 10:28:00,1

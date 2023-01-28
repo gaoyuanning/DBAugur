@@ -1,0 +1,2 @@
+1,"SELECT s.subclass, specobjid, s.objID, s.dered_u, s.dered_g, s.dered_i, s.dered_z, s.dec, p.pmDec, p.pmRa, t.j, t.h, t.k into mydb.MyTable from SpecPhoto as s   JOIN ProperMotions as p ON p.objID = s.objID   JOIN TwoMass as t on t.objID = s.objID WHERE (s.subclass LIKE &&&)   AND (s.subclass NOT LIKE &&&)   ORDER BY s.subclass ASC"
+2019-03-16 19:16:00,1

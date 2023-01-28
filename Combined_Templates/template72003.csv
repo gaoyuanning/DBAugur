@@ -1,0 +1,3 @@
+3,"SELECT TOP # p.objid, p.r, p.extinction_r, p.dered_r FROM PhotoObj AS p WHERE p.objid = #"
+2019-10-28 16:20:00,1
+2019-10-28 16:21:00,2

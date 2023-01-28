@@ -1,0 +1,2 @@
+1,"select s.modelMag_u, s.modelMag_g, s.modelMag_r, s.modelMag_i, s.modelMag_z, s.ra, s.dec, s.z, s.ObjID, s.mjd, s.plate, s.fiberID from SpecPhotoAll as s, dbo.fGetNearbyObjEq(#,#,#) n where s.objID = n.objID and s.class = &&&"
+2019-06-02 10:00:00,1

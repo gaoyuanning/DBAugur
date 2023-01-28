@@ -1,0 +1,2 @@
+1,"SELECT distinct g.objID, g.modelMag_r, g.petroRad_r,g.z FROM GALAXY as g join p.ra on p.ra = g.ra WHERE (g.ra between # and #) and (g.dec between # and #) and g.modelMag_r < # and g.petroRad_r > #"
+2019-02-12 04:07:00,1

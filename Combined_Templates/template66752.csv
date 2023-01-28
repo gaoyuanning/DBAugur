@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.specobjid, s.class, s.z as redshift, FROM Galaxy WHERE s.z BETWEEN .# AND .#"
+2019-09-30 22:45:00,1

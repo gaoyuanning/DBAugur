@@ -1,0 +1,2 @@
+2,"select p.Index5#, p.objID, G.u as uu, G.g as gg, G.r as rr, G.i as ii, G.z as zz, G.err_u as uu_err, G.err_g as gg_err, G.err_r as rr_err, G.err_i as ii_err, G.err_z as zz_err, G.extinction_u as ext_u, G.extinction_g as ext_g, G.extinction_r as ext_r, G.extinction_i as ext_i, G.extinction_z as ext_z into mydb.neighz_#Mpc_candidates_mergers_isol_circsearch_#_ObjID_kcorrect from mydb.neighz_#Mpc_candidates_mergers_isol_circsearch_#_ObjID as p, PhotoPrimary as G where p.objID = G.objID"
+2019-03-01 18:47:00,2

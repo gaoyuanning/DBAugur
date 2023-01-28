@@ -1,0 +1,2 @@
+1,"select ra, dec from stripe8# where ( dec < # AND dec > # ) AND ( ra < # OR ra > #)"
+2019-11-20 10:39:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, ra , dec, ugriz, mags+error, redshift FROM DR1#"
+2019-03-26 21:46:00,1

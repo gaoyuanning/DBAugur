@@ -1,0 +1,3 @@
+2,select count(*) as count into mydb.count_test
+2019-05-01 00:31:00,1
+2019-05-01 03:12:00,1

@@ -1,0 +1,2 @@
+1,"SELECT   p.objid,p.ra,p.dec,p.petroMag_u,p.petroMag_g,p.petroMag_r,p.petroMag_i,p.petroMag_z FROM PhotoObj AS p WHERE   p.ra BETWEEN # AND #  AND p.dec BETWEEN # AND #"
+2019-05-28 13:22:00,1

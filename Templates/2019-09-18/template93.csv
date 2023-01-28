@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.psfMag_r,  s.ra, s.dec FROM Star AS s  WHERE s.psfMag_r < #  ra between # and #  and dec > #"
+2019-09-18 22:13:00,1

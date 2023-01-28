@@ -1,0 +1,2 @@
+1,SELECT COUNT(*) FROM SpecObj WHERE class = &&&
+2019-03-18 10:25:00,1

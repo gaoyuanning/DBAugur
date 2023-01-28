@@ -1,0 +1,2 @@
+1,"SELECT f.run, f.rerun, f.field, f.camcol, p.rowc, p.colc, p.psfMag_r, p.psfMagErr_r, p.r, p.modelMagErr_r into mydb.cc1_s_coo_test0#  from star p    JOIN field f ON f.fieldid = p.objID WHERE f.camcol = #    and (p.field = # or p.field = # or p.field = # or p.field = # or p.field = # or p.field = #)   and p.type = #    and f.run = #"
+2019-12-05 01:50:00,1

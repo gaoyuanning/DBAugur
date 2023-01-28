@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID, ra, dec, z, zErr, zWarning, class, subClass, rChi2, DOF, z_noqso, zErr_noqso, zWarning_noqso, class_noqso, subClass_noqso, snMedian_u, snMedian_g, snMedian_r, snMedian_i, snMedian_z, spectroFlux_u, spectroFlux_g, spectroFlux_r, spectroFlux_i, spectroFlux_z FROM SpecObjAll WHERE z_noqso > #"
+2019-07-24 18:03:00,1

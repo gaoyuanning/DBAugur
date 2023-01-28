@@ -1,0 +1,5 @@
+5,"select ra, dec, z from specObj where class = # AND z BETWEEN # and # AND ra BETWEEN # and # AND dec BETWEEN # and # AND zWarning = #"
+2019-05-02 15:14:00,1
+2019-05-02 15:15:00,2
+2019-05-02 15:29:00,1
+2019-05-02 15:30:00,1

@@ -1,0 +1,2 @@
+1,"select count(*) as count from galaxy p, specobj s where p.objid=s.bestobjid"
+2019-08-08 14:32:00,1

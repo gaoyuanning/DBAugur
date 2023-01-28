@@ -1,0 +1,2 @@
+1,"SELECT last # specObjID, z FROM SpecObj WHERE class = # AND zWarning = # AND z BETWEEN # and # AND htmid*# & # < (# * #)"
+2019-03-27 14:34:00,1

@@ -1,0 +1,3 @@
+2,"SELECT nsaid, ra, dec, z, elpetro_absmag_g, elpetro_absmag_r, elpetro_th5#_g, elpetro_th5#_r, elpetro_mets, elpetro_mass FROM nsatlas WHERE (#*z/#) < #"
+2019-05-16 14:42:00,1
+2019-05-16 14:43:00,1

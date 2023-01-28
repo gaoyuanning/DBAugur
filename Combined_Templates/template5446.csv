@@ -1,0 +1,2 @@
+1,SELECT COUNT (DISTINCT run) FROM dbo.PhotoObjAll WHERE type = # AND mode = #
+2019-01-23 10:46:00,1

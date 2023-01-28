@@ -1,0 +1,3 @@
+6,"SELECT S.ra, S.dec, W.ra as wise_ra, W.dec as wise_dec, S.psfmag_r as r, W.w1mpro as w1 FROM wise_xmatch as X JOIN wise_allsky as W on X.wise_cntr = W.cntr JOIN photoTag as S on X.sdss_objid = S.objid WHERE S.ra BETWEEN # AND # AND S.dec BETWEEN -.# AND -.#"
+2019-07-25 11:49:00,1
+2019-07-25 11:50:00,5

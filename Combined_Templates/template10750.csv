@@ -1,0 +1,3 @@
+3,"select ra, dec, z, bestObjID from specObj where z > # AND zWarning = #"
+2019-02-13 15:55:00,1
+2019-02-13 15:57:00,2

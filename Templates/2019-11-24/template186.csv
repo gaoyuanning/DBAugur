@@ -1,0 +1,2 @@
+2,"SELECT top # ra,dec,u,g,ObjID FROM photoObj WHERE ra BETWEEN # AND #"
+2019-11-24 17:00:00,2

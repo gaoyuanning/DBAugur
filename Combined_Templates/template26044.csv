@@ -1,0 +1,2 @@
+1,"SELECT ALL ra, dec FROM PhotoObjAll WHERE b BETWEEN # AND #"
+2019-03-31 20:07:00,1

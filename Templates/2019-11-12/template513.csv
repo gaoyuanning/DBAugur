@@ -1,0 +1,2 @@
+2,"SELECT TOP # G.objID, G.ra, G.dec, p.z, zErr  FROM Galaxy as G  JOIN photoz AS p  ON G.objID = p.objID WHERE  G.ra BETWEEN # and # AND G.dec BETWEEN # and # AND p.z BETWEEN # and # AND p.zErr BETWEEN # and #  ORDER BY p.z"
+2019-11-12 03:43:00,2

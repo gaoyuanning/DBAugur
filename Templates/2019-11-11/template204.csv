@@ -1,0 +1,9 @@
+8,"SELECT ra, dec, type, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z, modelMagErr_u, modelMagErr_g, modelMagErr_r, modelMagErr_i, modelMagErr_z, psfMag_r, type_r, psfMagErr_r FROM PhotoPrimary WHERE (ra between # and #) and (dec between # and #)"
+2019-11-11 15:09:00,1
+2019-11-11 15:12:00,1
+2019-11-11 16:13:00,1
+2019-11-11 16:16:00,1
+2019-11-11 16:30:00,1
+2019-11-11 16:35:00,1
+2019-11-11 16:43:00,1
+2019-11-11 16:52:00,1

@@ -1,0 +1,2 @@
+1,"SELECT s.plate, s.fiberid, s.mjd, s.z, s.zwarning, nii # flux, nii # flux err, g.h beta flux, g. h beta flux err, g.h alpha flux, g.h alpha flux err, g. oii # flux, g.oii # flux err, g.oii # flux, g. oii # flux err, g.oiii # flux, g.oiii # flux err, g.oiii # flux, g.oiii # flux err FROM GalSpecLine AS g JOIN SpecObj AS s ON s.specobjid = g.specobjid WHERE h alpha flux > h alpha flux err*# AND h beta flux > h beta flux err*# AND h beta flux err > # AND h alpha flux > #.*h beta flux AND s.class = GALAXY AND s.zwarning = #"
+2019-01-26 04:20:00,1

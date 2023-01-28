@@ -1,0 +1,2 @@
+1,SELECT COUNT (objID) FROM dbo.SpecPhotoAll WHERE class = #
+2019-01-23 10:33:00,1

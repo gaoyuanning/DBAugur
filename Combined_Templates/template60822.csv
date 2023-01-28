@@ -1,0 +1,2 @@
+1,"select spectroFlux_u as xcol, spectroFlux_g as ycol from MyTable_# where spectroFlux_u between # and # AND spectroFlux_g between # and #"
+2019-09-04 16:18:00,1

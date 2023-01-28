@@ -1,0 +1,2 @@
+1,"select RunID, sum (x*y #) as derived, stdev (y) from Data where x> # and x+y between # and # group by RunID order by RunID asc"
+2019-11-18 12:35:00,1

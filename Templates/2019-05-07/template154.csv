@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.ra,p.dec, s.z, p.dered_u, p.dered_r, p.fracDeV_r e.specObjID FROM  PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN GalSpecExtra AS e ON e.specObjID = s.bestobjid WHERE  class = &&&  AND s.z between # and #  AND p.fracDeV_r > #"
+2019-05-07 18:57:00,1

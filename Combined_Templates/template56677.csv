@@ -1,0 +1,2 @@
+1,"SELECT objID, petroMag_u, petroMag_r, petroMag_i, petroMag_g, petroMag_z, petroMag_g FROM PhotoObjAll WHERE objID in PGC.objID"
+2019-08-10 13:06:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.plate, s.mjd, s.fiberid FROM SpecObj AS s JOIN sppParams spp ON spp.bestobjid = s.bestobjid WHERE s.class = #"
+2019-03-08 20:32:00,1

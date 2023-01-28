@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.ra, p.dec, p.fuv_mag, p.fuv_magerr, p.nuv_mag, p.nuv_magerr into mydb.MyTable from photoobjall as p where p.fuv_mag > # AND p.nuv_mag > #"
+2019-03-25 10:23:00,1

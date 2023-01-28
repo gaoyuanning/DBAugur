@@ -1,0 +1,2 @@
+1,"select avg (lick_fe4#) , avg (lick_fe4#_sub) from galSpecIndx where lick_fe4#_sub> #"
+2019-11-10 13:47:00,1

@@ -1,0 +1,2 @@
+1,"SELECT g.sdss_id, s.objID, s.ra, s.dec, s.psfMag_u, s.psfMagErr_u, s.psfMag_g, s.psfMagErr_g, s.psfMag_r, s.psfMagErr_r, s.psfMag_i, s.psfMagErr_i, s.psfMag_z, s.psfMagErr_z, INTO mydb.noflags from Star AS s JOIN mydb.gdr_sdss_ngp_maglim AS g ON s.objID = g.sdss_id"
+2019-09-23 11:06:00,1

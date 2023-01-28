@@ -1,0 +1,2 @@
+2,"SELECT ra, dec, z, petroRad_r, modelMag_u, modelMag_r, modelMag_z FROM SpecPhoto WHERE z> # AND type = # AND class < > #"
+2019-02-10 12:17:00,2

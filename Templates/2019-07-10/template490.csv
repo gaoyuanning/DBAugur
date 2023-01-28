@@ -1,0 +1,3 @@
+2,SELECT COUNT(*) into mydb.MyTable_# from SpecPhoto
+2019-07-10 08:16:00,1
+2019-07-10 08:46:00,1

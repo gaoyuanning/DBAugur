@@ -1,0 +1,2 @@
+1,"SELECT top # ph.ObjID, ph.ra, ph.dec, phz.z, phz.zerr into mydb.MyTable_# from PhotoObjAll as ph                                     JOIN PhotoZ as phz ON ph.objID = phz.objID WHERE     ph.type=Galaxy&&&"
+2019-12-24 03:20:00,1

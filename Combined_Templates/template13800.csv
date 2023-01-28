@@ -1,0 +1,2 @@
+1,"SELECT pp.profMean, pp.profErr, pp.bin, pp.band, pp.objID into mydb.MyTable_# from PhotoProfile as pp WHERE pp.ra > # and pp.ra < # and pp.dec > # pp.dec < #"
+2019-02-24 19:12:00,1

@@ -1,0 +1,2 @@
+1,"SELECT   m.*, e.specsfr_tot_p5#, e.lgm_tot_p5#   INTO   myDB.lixodr1#xx   FROM   myDB.PosterCoord as m, specObj as s   WHERE   s.bestobjID = m.objID"
+2019-07-24 18:01:00,1

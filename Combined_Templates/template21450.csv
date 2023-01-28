@@ -1,0 +1,4 @@
+3,"SELECT p.ra, p.dec FROM PhotoPrimary AS p JOIN Field AS f ON f.fieldid = p.fieldid JOIN SpecObj as s ON p.objid = s.BestObjID WHERE ( (p.ra BETWEEN # AND #) AND (p.dec BETWEEN # AND #) OR (p.ra BETWEEN # AND #) AND (p.dec BETWEEN # AND #) OR (p.ra BETWEEN # AND #) AND (p.dec BETWEEN # AND #) OR (p.ra BETWEEN # AND #) AND (p.dec BETWEEN # AND #) ) AND s.class = #"
+2019-03-19 23:59:00,1
+2019-03-20 00:01:00,1
+2019-03-20 00:05:00,1

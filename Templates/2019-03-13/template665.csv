@@ -1,0 +1,2 @@
+1,"SELECT   ISNULL(s.subclass,#) into mydb.MyTable_# from SpecObj AS s WHERE    (s.boss_target1 & #) != #"
+2019-03-13 02:35:00,1

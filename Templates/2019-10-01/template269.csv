@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.u,p.g,p.r,p.i,p.z,p.extinction_g,p.extinction_i,p.extinction_r,p.extinction_u,p.extinction_z,p.fiberMag_g,p.objID,p.probPSF,ISNULL(s.bestObjID,#) as bestObjID,ISNULL(s.specClass,#) as specClass,ISNULL(s.specObjID,#) as specObjID FROM BESTDR7..Galaxy AS p LEFT OUTER JOIN BESTDR7..SpecObj s ON p.objID = s.bestObjID 	JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = p.objID"
+2019-10-01 12:07:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # mangaid, objra, objdec, daptype, z, sfr_#re FROM mangaDAPall WHERE stellar_sigma_#re > #"
+2019-01-31 21:15:00,1

@@ -1,0 +1,5 @@
+4,"SELECT top # specObjID, class, subclass, flags, zWarning, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z FROM SpecPhoto WHERE class = # AND zWarning = # AND subclass like # AND subclass not like #"
+2019-09-25 07:16:00,1
+2019-09-25 07:21:00,1
+2019-09-25 07:25:00,1
+2019-09-25 07:26:00,1

@@ -1,0 +1,2 @@
+1,"SELECT sourceType,ra,dec,class,subClass into mydb.MyTable from SpecObjAll WHERE ra between # and # and dec between # and #"
+2019-06-06 08:05:00,1

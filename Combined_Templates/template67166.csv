@@ -1,0 +1,2 @@
+1,select count (*) from DR1#.photoObj as photo where # between photo.deVRad_i-photo.deVRadErr_i and photo.deVRad_i+photo.deVRadErr_i
+2019-10-02 11:27:00,1

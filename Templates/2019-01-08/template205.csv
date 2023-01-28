@@ -1,0 +1,2 @@
+1,"select min(specobjID),max(specobjID) into mydb.MyTable2 from photoprimary where mode=#"
+2019-01-08 15:49:00,1

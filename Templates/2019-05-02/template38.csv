@@ -1,0 +1,2 @@
+1,"SELECT top # s.objid,s.ra,s.dec,s.modelmag_r,  s.modelmag_r-#*log1#(#E+#*s.z)+# as abs_mag_r,  s.modelmag_g,s.modelmag_i, z.p_el,z.p_cw,z.p_acw,  z.p_edge,z.p_dk,z.p_mg,z.p_cs, s.petroR5#_r,s.petroR9#_r,  g.spectrotype,g.subclass FROM PhotoObjAll as s  JOIN zooSpec as z  ON s.objid = z.objid  JOIN galSpecInfo as g ON s.objid = g.specObjID WHERE s.modelmag_r < #  AND s.z BETWEEN # AND #  AND abs(g.z - s.z) < g.z_err AND s.modelmag_g > #  AND s.modelmag_i > #"
+2019-05-02 23:31:00,1

@@ -1,0 +1,4 @@
+3,"SELECT TOP # bestobjid,survey,z from SpecObj where class = &&& and survey = &&& and zWarning = # and z >= # + RAND()/#  and z < #"
+2019-03-27 14:06:00,1
+2019-03-27 14:07:00,1
+2019-03-27 14:08:00,1

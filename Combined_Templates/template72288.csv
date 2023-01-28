@@ -1,0 +1,2 @@
+1,"SELECT TOP # absMagr, absMagg, ra FROM Photoz WHERE z < # and nnIsInside = # and nnCount> # and zErr BETWEEN # and #"
+2019-10-29 17:56:00,1

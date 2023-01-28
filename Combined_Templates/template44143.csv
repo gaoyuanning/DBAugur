@@ -1,0 +1,2 @@
+2,"select z, zErr from specObj where z BETWEEN .# and # MAX # rows"
+2019-06-05 23:34:00,2

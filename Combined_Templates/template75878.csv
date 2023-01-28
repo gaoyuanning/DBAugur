@@ -1,0 +1,3 @@
+2,"SELECT p.ObjID, p.ra, p.dec, p.dered_g FROM PhotoObj p"
+2019-11-14 00:39:00,1
+2019-11-14 17:54:00,1

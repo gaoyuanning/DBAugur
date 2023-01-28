@@ -1,0 +1,2 @@
+1,"SELECT  specObjID,ra,dec, velDisp, velDispErr into mydb.MyFirstTable  FROM SpecObj"
+2019-02-19 06:56:00,1

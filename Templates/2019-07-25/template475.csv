@@ -1,0 +1,4 @@
+3,"select TOP # photoobj.ra, photoobj.dec, photoobj.u, photoobj.g, photoobj.r, photoobj.i, photoobj.z, specObj.z from photoobj, specObj where specObj.z < # and specObj.z > # and specObj.class = &&& and specObj.zWarning = #"
+2019-07-25 06:46:00,1
+2019-07-25 06:47:00,1
+2019-07-25 07:01:00,1

@@ -1,0 +1,2 @@
+1,"SELECT s.specObjID, s.survey, s.instrument, s.class, s.ra, s.dec, s.z, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z FROM dbo.SpecObjAll s JOIN dbo.PhotoObjAll p ON s.objID = p.objID WHERE (zWarning = # and class ! = # and targetType = #) INTO MyDB.specz"
+2019-10-14 10:52:00,1

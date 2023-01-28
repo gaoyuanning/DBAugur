@@ -1,0 +1,2 @@
+1,"select MANGAID, w1, w2, w3, w4, min(AngSep) as angSep into temp_manga_minsep from mydb.temp_manga group by MANGAID order by MANGAID"
+2019-04-03 09:14:00,1

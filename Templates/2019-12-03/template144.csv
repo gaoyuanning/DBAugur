@@ -1,0 +1,2 @@
+2,"SELECT prim.bestObjId, prim.mjd AS PrimMJD, prim.plate AS PrimPlate, AND #=(SELECT UPPER(XMLType(CHR(#)||CHR(#)||CHR(#)||CHR(#)||CHR(#)||CHR(#)||CHR(#)||(SELECT (CASE WHEN (#=#) THEN # ELSE # END) FROM DUAL)||CHR(#)||CHR(#)||CHR(#)||CHR(#)||CHR(#)||CHR(#))) FROM DUAL)"
+2019-12-03 22:36:00,2

@@ -1,0 +1,17 @@
+16,"SELECT TOP # fld.run, fld.avg_sky_muJy, fld.runarea AS area, ISNULL(fp.nfirstmatch,#)  FROM (   SELECT run, sum(primaryArea) AS runarea,  #e6*avg(power(cast(#. as float),#*sky_r)) as avg_sky_muJy  FROM Field  GROUP BY run  ) AS fld  LEFT OUTER JOIN (   SELECT p.run, count(*) AS nfirstmatch  FROM FIRST AS fm  INNER JOIN photoprimary as p  ON p.objid=fm.objid  GROUP BY p.run  ) AS fp  ON fld.run=fp.run  ORDER BY fld.run"
+2019-10-22 03:52:00,1
+2019-10-22 05:10:00,1
+2019-10-22 05:19:00,1
+2019-10-22 05:36:00,1
+2019-10-22 19:00:00,1
+2019-10-22 19:14:00,1
+2019-10-22 19:24:00,1
+2019-10-22 19:33:00,1
+2019-10-22 19:50:00,1
+2019-10-22 20:59:00,1
+2019-10-22 21:09:00,1
+2019-10-22 21:31:00,1
+2019-10-22 23:20:00,1
+2019-10-22 23:30:00,1
+2019-10-22 23:39:00,1
+2019-10-22 23:56:00,1

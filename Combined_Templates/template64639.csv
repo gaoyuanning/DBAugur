@@ -1,0 +1,2 @@
+1,"SELECT g.objID, g.ra, g.dec, g.petroR5#_u, g.petroR5#_g, g.petroR5#_r, g.petroR5#_i, g.petroR5#_z, g.petroR9#_u, g.petroR9#_g, g.petroR9#_r, g.petroR9#_i, g.petroR9#_z, g.mCr4_u, g.mCr4_g, g.mCr4_r, g.mCr4_i, g.mCr4_z, g.u, g.g, g.r, g.i, g.z, p.rest_ug, p.rest_gr, p.rest_ri, p.rest_iz FROM Galaxy AS g, PhotoZ AS p WHERE g.objID = p.objID AND g.specobjID > # AND g.ra BETWEEN # and # order by g.ra"
+2019-09-23 12:51:00,1

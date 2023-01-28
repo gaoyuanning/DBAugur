@@ -1,0 +1,2 @@
+2,"SELECT specObjID, ra, dec, z, bpt FROM emissionLinesPort  WHERE z between # and #"
+2019-03-19 08:16:00,2

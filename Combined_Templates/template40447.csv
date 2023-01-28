@@ -1,0 +1,3 @@
+104,SELECT dr8objid FROM PhotoObjDR7 AS p WHERE p.dr7objid = #
+2019-05-19 09:27:00,8
+2019-05-19 09:28:00,96

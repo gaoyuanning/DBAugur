@@ -1,0 +1,2 @@
+1,"select ra, dec, min (z) as min_z from specObj where class = # AND zwarning = #"
+2019-07-24 07:15:00,1

@@ -1,0 +1,2 @@
+1,"select s.specObjID, s.ra, s.dec, s.z, s.plate, s.mjd, s.fiberid, s.run2d, e.lgm_tot_p5#  from galaxy g JOIN galSpecExtra e ON e.specObjID = g.specObjID JOIN specObjAll s ON s.specObjID = g.specObjID JOIN zooSpec z ON z.specObjID = g.specObjID JOIN zooVotes v ON v.specObjID = g.specObjID JOIN galSpecInfo i ON i.specObjID = g.specObjID  where e.bptclass = # AND s.z < .# AND z.p_mg >= .# AND v.nvote_tot >= # AND s.class == QSO AND i.subclass == AGN OR i.subclass == BROADLINE"
+2019-07-23 18:29:00,1

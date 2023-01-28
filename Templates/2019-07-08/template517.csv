@@ -1,0 +1,2 @@
+1,"SELECT TOP #    m.name, m.ra, m.dec,    n.objid, n.distance,    s.plate, s.mjd, s.fiberID, s.z    FROM MyDB.gaia_cand AS m    OUTER APPLY dbo.fGetNearestObjEq( m.ra, m.dec, #) AS n    LEFT JOIN SpecObjAll AS s ON s.specObjID = n.objid"
+2019-07-08 06:32:00,1

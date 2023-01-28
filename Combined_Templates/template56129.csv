@@ -1,0 +1,2 @@
+1,"select HSCHSC_NB0#_O3E_D-COSMOS_#, p.specobjid, p.ra, p.dec, p.z, p.zerr, p.class, dbo.fDistanceArcMinEq (#, #, p.ra, p.dec) as distance from dbo.fGetNearbySpecObjEq (#, #, #) s, specobj p where s.specobjid = p.specobjid and p.zwarning = # and p.class = #"
+2019-08-08 13:06:00,1

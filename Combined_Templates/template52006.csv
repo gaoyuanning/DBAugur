@@ -1,0 +1,2 @@
+1,"select top # plate, MJD, fiberid from specobjall where objTypeName = #"
+2019-07-15 06:58:00,1

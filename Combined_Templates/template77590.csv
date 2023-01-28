@@ -1,0 +1,2 @@
+1,"SELECT G.objID, G.err_u, G.err_g, G.err_r, G.err_i, G.err_z, a.h_alpha_flux_err, emline.sigmaStarsErr as emline_vdisp FROM Galaxy as G join GalSpecLine as a on G.SpecobjID = a.SpecObjID join stellarMassPCAWiscBC0# AS pca ON G.specobjid = pca.specobjid join emissionLinesPort as emline on pca.specobjid = emline.specobjid JOIN specObj as sp ON emline.specobjid = sp.specobjid JOIN mangaDAPall as mn on G.htmID = mn.htmID"
+2019-11-20 09:21:00,1

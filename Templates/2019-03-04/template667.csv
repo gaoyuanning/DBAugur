@@ -1,0 +1,2 @@
+1,"select top # sp.ra,sp.dec,sp.z,sp.objid,sp.type,sp.clean,sp.probpsf from photoprimary as sp where sp.objid=#"
+2019-03-04 12:11:00,1

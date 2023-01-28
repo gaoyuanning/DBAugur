@@ -1,0 +1,2 @@
+1,"SELECT S.ra,S.dec,S.z,P.psfMag_u, P.psfMag_g, P.psfMag_r, P.psfMag_i, P.psfMag_z, P.psfMagErr_u, P.psfMagErr_g, P.psfMagErr_r,P.psfMagErr_i, P.psfMagErr_z, P.extinction_u,   S.run2d,s.plate,s.mjd,s.fiberid FROM SpecObj as S JOIN  PhotoObj as P ON p.objID = S.bestObjID WHERE S.class = &&& AND S.zWarning = # and #<S.ra and S.ra<# and #<S.dec and S.dec<# and S.z># and S.z<#"
+2019-09-17 00:27:00,1

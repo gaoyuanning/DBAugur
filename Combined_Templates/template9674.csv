@@ -1,0 +1,2 @@
+2,"SELECT o.mjd, o.plate, o.fiberID into sdssdr1#spec from SpecPhotoAll AS o"
+2019-02-11 13:31:00,2

@@ -1,0 +1,2 @@
+1,"SELECT ph.objid, ph.l, ph.b, ph.ra, ph.dec, psfMag_g, psfMag_r, psfMag_i, psfMagErr_g, psfMagErr_r, psfMagErr_i, extinction_g, extinction_r, extinction_i, sp.plate, sp.fiberid, sp.specObjID, sp.bestobjid, sp.elodiervfinal, sp.elodiervfinalerr, sp.loggadop, sp.fehadop, sp.fehadopunc, sp.zwarning, sp.snr sp.plateid, sp.plate. into mydb.gg from sppParams sp, Photoprimary ph WHERE ph.objid = sp.bestobjid and type = # and elodiervfinalerr > # and zwarning = # and fehadop > # and ph.clean = #"
+2019-05-31 19:11:00,1

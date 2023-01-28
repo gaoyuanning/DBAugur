@@ -1,0 +1,2 @@
+1,"select    p.objid,p.ra,p.dec,p.g,p.r into mydb.GZSpectra from PhotoPrimary as p, zooSpec as GZ where p.objID = GZ.objid"
+2019-01-09 10:13:00,1

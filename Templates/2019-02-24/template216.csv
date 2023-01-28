@@ -1,0 +1,2 @@
+1,"select top # specobjid as name, ra, dec from SpecObj where type = # AND RA between # and # AND Dec > # AND (psfMag_g-psfMag_r) between # and # AND psfMag_u-psfMag_g between #*(psfMag_g-psfMag_r)  # and #*(psfMag_g-psfMag_r) #"
+2019-02-24 15:36:00,1

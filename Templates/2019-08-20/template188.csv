@@ -1,0 +1,2 @@
+1,"SELECT ra,dec,z  FROM SpecObj  WHERE (ra between # and #) AND (dec between +# +#)"
+2019-08-20 17:05:00,1

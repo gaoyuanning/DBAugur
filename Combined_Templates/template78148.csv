@@ -1,0 +1,2 @@
+1,"SELECT SpecLineID, wave into mydb.MyTable from SpecLine as G_SpecLine INNER JOIN SpecObj ON SpecLine.speoobjID = SpecObj.specObjID WHERE SpecObj.objType = # and SpecObj.specClass = # and SpecObj.zConf > = .#"
+2019-11-22 11:43:00,1

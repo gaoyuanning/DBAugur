@@ -1,0 +1,2 @@
+1,SELECT count(*) FROM specPhoto WHERE class=&&&
+2019-11-14 14:29:00,1

@@ -1,0 +1,2 @@
+1,"SELECT f.plateifu, f.mangaid, f.objra, f.objdec, t.manga_target3, pi.re_arc, sigma_cen, e_sigma_cen, pi.log_Mass, pi.e_log_Mass FROM mangaFirefly as f JOIN mangatarget as t on t.mangaID = f.MANGAID JOIN mangaPipe3D as pi on pi.plateifu = f.PLATEIFU WHERE MANGA_TARGET3 = #"
+2019-10-03 04:39:00,1

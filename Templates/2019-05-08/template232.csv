@@ -1,0 +1,2 @@
+1,"select top # haloid,subhalofileid,x,y,z,velx,vely,velz,np,vdisp,halfmassradius from mr where snapnum=# order by np desc"
+2019-05-08 16:58:00,1

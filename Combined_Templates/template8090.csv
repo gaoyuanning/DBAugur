@@ -1,0 +1,3 @@
+2,"SELECT p.objID, p.modelMag_u AS M_u, p.modelMag_g AS M_g, p.modelMag_r AS M_r, p.modelMag_i AS M_i, p.modelMag_z as M_z, p.modelMagErr_u AS E_u, p.modelMagErr_g AS E_g, p.modelMagErr_r AS E_r, p.modelMagErr_i AS E_i, p.modelMagErr_z AS E_z, p.z AS z_spec INTO mydb.sdss1#_pmas_modelmag_# FROM MyDB.sdss1#_pmas_phot_# AS p"
+2019-02-04 10:51:00,1
+2019-02-04 10:52:00,1

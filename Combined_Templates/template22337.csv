@@ -1,0 +1,2 @@
+1,"select top # modelMag_g, ra, dec, modelMag_u, modelMag_r from StarTag where ra between # and # and dec between # and # and modelmag_g between # and #"
+2019-03-22 20:15:00,1

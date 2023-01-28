@@ -1,0 +1,2 @@
+1,select count(*) from ( select distinct objID from Photoz ) as tmp;
+2019-12-30 09:38:00,1

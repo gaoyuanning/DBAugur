@@ -1,0 +1,2 @@
+1,select count (*) from specobj where zwarning = # and bestobjid > # and class = # and survey IN () and (z > = # and z < #)
+2019-04-18 21:11:00,1

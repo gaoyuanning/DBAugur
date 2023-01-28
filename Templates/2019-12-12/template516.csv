@@ -1,0 +1,2 @@
+2,"select distinct      photo.ra, photo.dec, photo.run, photo.rerun, photo.camcol, photo.field, Photo.objid,    photo.isoA_u, photo.isoB_u, photo.isoA_g, photo.isoB_g, photo.isoA_r, photo.isoB_r, photo.isoA_i, photo.isoB_i, photo.isoA_z, photo.isoB_z    into mydb.WARP_#  from PhotoObjAll As photo, SpecObjAll As Spec    where Photo.isoA_g > # AND Spec.z < # AND Spec.z > # AND Spec.bestObjID = photo.objid"
+2019-12-12 03:37:00,2

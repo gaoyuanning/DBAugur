@@ -1,0 +1,2 @@
+1,"select count(*) from star p, dbo.fgetNearByObjEq(#,#,#) n where p.objid=n.objid"
+2019-10-25 03:35:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP #     objID, ra ,dec 	-- Get the unique object ID and coordinates FROM   PhotoPrimary		-- View of PhotoObjAll containing photometric data for unique objects WHERE  ra  between # and #   AND  dec between # and #"
+2019-03-26 17:55:00,1

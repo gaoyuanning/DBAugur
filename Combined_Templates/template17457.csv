@@ -1,0 +1,2 @@
+1,"SELECT COUNT (z) , z FROM SpecObj WHERE class = # AND zWarning = # AND survey = #"
+2019-03-05 12:33:00,1

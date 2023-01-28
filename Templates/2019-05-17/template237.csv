@@ -1,0 +1,2 @@
+1,"SELECT s.class, COUNT(*) FROM galSpecLine AS g JOIN specObj AS s ON s.specObjID = g.specObjID GROUP BY s.class"
+2019-05-17 13:14:00,1

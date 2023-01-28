@@ -1,0 +1,2 @@
+1,"SELECT s.plate, s.fiberid, s.mjd, ga.oiii_#_flux,        ga.oiii_#_flux_err    INTO mydb.t5_tid  FROM  GalSpecLine as ga, specobj as s, Galaxy as g,       SpecPhoto as sph  WHERE ga.oiii_#_flux >#*ga.oiii_#_flux_err   AND ga.oiii_#_flux <#*ga.oiii_#_flux_err   AND s.class = &&&   AND s.specobjid = ga.specobjid   AND s.specobjid = g.specobjid   AND sph.specobjid = g.specobjid   AND sph.specobjid = ga.specobjid   AND ga.Flux_OIII_#_err > #   AND g.specobjid > #   AND sph.z > #"
+2019-07-18 05:17:00,1

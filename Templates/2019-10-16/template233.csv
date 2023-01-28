@@ -1,0 +1,3 @@
+2,"select top # bestObjID,ra,dec,z,p.modelMag_g from specObj where class=galaxy"
+2019-10-16 14:41:00,1
+2019-10-16 14:42:00,1

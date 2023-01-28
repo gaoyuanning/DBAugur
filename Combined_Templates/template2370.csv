@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objID, p.ra, p.dec FROM PhotoTag AS p join photoprimaryDR7 p7 on p.objid = p7.dr8objid where dr7objid IN () order by p.ra"
+2019-01-11 21:45:00,1

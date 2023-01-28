@@ -1,0 +1,3 @@
+3,"SELECT psfmag_u, psfMagErr_u, psfmag_g, psfMagErr_g, psfmag_r, psfMagErr_r, psfmag_i, psfMagErr_i, psfmag_z, psfMagErr_z from photoObj WHERE objID = #"
+2019-07-10 14:44:00,2
+2019-07-10 14:45:00,1

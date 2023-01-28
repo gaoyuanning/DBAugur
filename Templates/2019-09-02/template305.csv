@@ -1,0 +1,2 @@
+1,"SELECT * into mydb.MyTable from mydb.NULL_sdss AS my, dr1#.PhotoObjAll AS cs WHERE my.ra - cs.ra < # AND cs.ra - my.ra < # AND my.dec - cs.dec < # AND cs.dec - my.dec < #"
+2019-09-02 13:49:00,1

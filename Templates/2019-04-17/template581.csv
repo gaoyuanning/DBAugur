@@ -1,0 +1,2 @@
+1,"select s.* into mydb.Field_SDSSDR1#_#_# from Field as s LIMIT #, #"
+2019-04-17 07:14:00,1

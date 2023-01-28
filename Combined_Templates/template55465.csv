@@ -1,0 +1,2 @@
+1,"SELECT n.ra, n.dec FROM nsatlas AS n JOIN PhotoObj AS p ON p.ra = n.ra AND p.dec = n.dec WHERE n.z> # AND n.z< .#"
+2019-08-06 12:59:00,1

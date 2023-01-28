@@ -1,0 +1,2 @@
+1,"SELECT s.z, s.zErr, s.class, p.u, p.g, p.r, p.i, p.z, p.modelMagErr_u, p.modelMagErr_g, p.modelMagErr_r, p.modelMagErr_i, p.modelMagErr_z FROM ..SpecObj as s JOIN ..PhotoObj AS p ON s.bestObjID = p.objID WHERE s.z > # AND s.zWarning = # AND (s.class = #) AND s.z < .# AND (p.type = #)"
+2019-07-11 15:06:00,1

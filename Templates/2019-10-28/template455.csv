@@ -1,0 +1,2 @@
+1,"SELECT f.run, f.rerun, f.field, f.camcol, p.rowc, p.colc, p.g, p.r, p.i into mydb.MyTable_# from photoObj p    JOIN field f ON f.fieldid = p.fieldid WHERE f.camcol = #    and f.run = #    and p.type = #   and p.field = #"
+2019-10-28 04:16:00,1

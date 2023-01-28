@@ -1,0 +1,2 @@
+1,"select top # phot.objid, phot.cModelMag_u, phot.cModelMag_g, phot.cModelMag_r, phot.cModelMag_i, phot.cModel_Mag_z, spec.class from PhotoObjAll phot join specObjAll spec on (phot.objid = =spec.objid)"
+2019-03-25 15:54:00,1

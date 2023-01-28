@@ -1,0 +1,2 @@
+1,"select top # s.z, s.ra, s.dec, p.modelMag_r, p.modelMag_u, p.objid from specObj s join photoObj p on s.bestObjID = p.objID where s.class = # s.z between # and # and zWarning = #"
+2019-07-08 11:02:00,1

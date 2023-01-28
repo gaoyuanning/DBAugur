@@ -1,0 +1,3 @@
+3,"SELECT into mydb.tugas_ekstragalaksi3_#   objID, ra, dec, z, zErr,    petroMag_u, petroMag_g, petroMag_r, petroMag_i, petroMag_z,   extinction_u, extinction_g, extinction_r, extinction_i, extinction_z    FROM SpecPhotoAll      WHERE    ra > # and ra < # and dec > # and dec < #"
+2019-04-14 08:49:00,2
+2019-04-14 08:57:00,1

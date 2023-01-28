@@ -1,0 +1,2 @@
+1,"SELECT TOP # fieldID, raMin, raMax, decMin, decMax, run, rerun, camcol, field FROM dbo.Field WHERE rerun = # AND raMin > # AND raMax < # AND decMin > # AND decMax < # ORDER BY run, field, camcol"
+2019-01-08 06:57:00,1

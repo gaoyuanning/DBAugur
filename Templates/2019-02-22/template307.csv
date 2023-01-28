@@ -1,0 +1,3 @@
+2,"SELECT   p.ra,   p.dec,   p.raErr     into mydb.test from PhotoPrimary AS p LEFT OUTER JOIN SpecObjAll as s on p.ObjID = s.BestObjID LEFT OUTER JOIN wise_xmatch as X on X.sdss_objid = p.objid   LEFT OUTER JOIN wise_allsky as W on X.wise_cntr = W.cntr    WHERE   ( s.class = &&& )"
+2019-02-22 08:32:00,1
+2019-02-22 08:33:00,1

@@ -1,0 +1,3 @@
+3,"SELECT TOP # soa.specObjID, poa.ra, poa.dec, soa.z, soa.cx, soa.cy, soa.cz, poa.modelmag_r, poa.r, poa.u, poa.g, poa.i FROM SpecObjAll as soa, PhotoObjAll as poa WHERE soa.specObjID = poa.specObjID AND soa.z> # AND #< =soa.ra AND soa.ra< =# AND #< =soa.dec AND soa.dec< =#"
+2019-10-02 19:27:00,2
+2019-10-02 19:28:00,1

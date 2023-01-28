@@ -1,0 +1,3 @@
+3,"SELECT SpecObj.ra, SpecObj.dec, z, p_el, p_cw, p_acw, p_edge, p_dk, p_mg FROM SpecObj, zooSpec WHERE SpecObj.ra > # and SpecObj.ra < # AND SpecObj.dec > +# and SpecObj.ra < +# And SpecObj.class = #"
+2019-08-21 10:38:00,1
+2019-08-21 10:39:00,2

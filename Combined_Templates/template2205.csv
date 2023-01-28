@@ -1,0 +1,2 @@
+1,"SELECT sp.plate, sp.mjd, sp.fiberID, sp.RUN2D, sp.ra, sp.dec, sp.z, s.snr, sp.CLASS into mydb.MyTable_qso_snr0# FROM sppParams as s JOIN SpecObjAll as sp ON s.specobjid = sp.specobjid WHERE sp.class = # and sp.z> # and sp.z< =# and s.snr> # order by sp.z"
+2019-01-10 03:07:00,1

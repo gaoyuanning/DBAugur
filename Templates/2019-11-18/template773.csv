@@ -1,0 +1,2 @@
+1,"SELECT   g.ObjId, g.ra, g.dec, g.type, g.clean, g.insideMask, g.flags, g.cmodelMag_r, g.cmodelMagErr_r, p.z, p.zErr into mydb.maskeditemsalltable from PhotoObj as g     join Photoz as p on p.Objid = g.ObjId   where g.cmodelMag_r < &&& and p.z > &&&     and g.ra between &&& and &&& and g.insideMask != #"
+2019-11-18 07:29:00,1

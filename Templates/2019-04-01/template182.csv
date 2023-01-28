@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID, z  FROM SpecObj  WHERE class = &&&  AND zWarning = #   AND z BETWEEN # and #   AND (survey=&&& OR survey=&&&)  AND htmid*# & # < (# * #)"
+2019-04-01 20:12:00,1

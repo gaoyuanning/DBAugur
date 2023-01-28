@@ -1,0 +1,2 @@
+1,"select _id,the_geom.STArea() as area ,      the_geom.ToString() as the_geom    from ESchoolZones where _year=#"
+2019-03-03 18:02:00,1

@@ -1,0 +1,2 @@
+1,"SELECT * FROM ( SELECT SUBSTRING(Name, #, #) as firstLetter FROM chinook.Artist) AS a GROUP BY firstLetter"
+2019-04-11 14:38:00,1

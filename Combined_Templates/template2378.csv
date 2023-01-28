@@ -1,0 +1,2 @@
+1,"select O.RUN, O.CAMCOL, O.FIELD, ra, dec, F.pspStatus, #*sqrt (mRrCc_r/#) PSF_FWHM, psfMag_g, psfMag_r, psfMag_i, psfMagErr_g, psfMagErr_r, psfMagErr_i, FLAGS, FLAGS_g, FLAGS_r, FLAGS_i from star O join field F on O.fieldId = F.fieldId where (O.psfMag_g < # or O.psfMag_r < # or O.psfMag_i < #)"
+2019-01-11 18:03:00,1

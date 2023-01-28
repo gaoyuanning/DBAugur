@@ -1,0 +1,5 @@
+4,"SELECT TOP # p.objID, p.ra, p.dec, photoz FROM photoObj p, photoz JOIN dbo.fGetNearbyObjEq (#, #, #) n ON n.objID = p.objID where p.type = #"
+2019-01-14 16:35:00,1
+2019-01-14 19:11:00,1
+2019-01-14 19:16:00,1
+2019-01-14 21:17:00,1

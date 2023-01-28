@@ -1,0 +1,2 @@
+1,"select psfMag_u,psfMag_g,psfMag_r,psfMag_i,psfMag_z,z from galaxy where   glat > #  and z > #"
+2019-12-10 00:51:00,1

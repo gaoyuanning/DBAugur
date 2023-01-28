@@ -1,0 +1,2 @@
+1,"SELECT   f.ra, f.dec,   f.plate, f.mjd, f.fiberid,   f.apstar_id,   star.teff, star.logg   from myDB.apogee_flare_cross as f     JOIN aspcapStar AS star ON f.apstar_id=star.apstar_id"
+2019-03-29 12:10:00,1

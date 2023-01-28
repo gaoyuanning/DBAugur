@@ -1,0 +1,2 @@
+1,"select ID, wkt = geom.ToString () , lat = centroid.STY, lon = centroid.STX, dist = geom.STDistance (@center) from optw.tamass.TRACTS where geom.STDistance (@center) < # / # * # -- meters"
+2019-10-27 16:00:00,1

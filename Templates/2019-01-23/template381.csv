@@ -1,0 +1,2 @@
+5,SELECT COUNT(objID) FROM dbo.PhotoObjAll WHERE type=# AND specObjID <> # AND mode=#
+2019-01-23 10:22:00,5

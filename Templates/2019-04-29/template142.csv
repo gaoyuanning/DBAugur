@@ -1,0 +1,4 @@
+4,"select TOP # specObjID, dered_u, dered_g, dered_r, dered_i, dered_z, z, dered_u-dered_r as u_menos_r, dered_u-dered_g as u_menos_g, dered_g-dered_r as g_menos_r from SpecPhoto where modelMag_r < # AND z>=# AND class = &&& AND zWarning = # order by z"
+2019-04-29 00:42:00,1
+2019-04-29 00:43:00,1
+2019-04-29 18:05:00,2

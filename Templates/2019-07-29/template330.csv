@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.bestObjID,s.class,s.dec,s.fiberID,cast(str(s.ra,#,#) as float) as ra,s.subClass  FROM ..SpecObj as s  WHERE s.zWarning = # AND (s.class = &&&) AND s.z < # AND (s.primTarget & (dbo.fPrimTarget(&&&)) > #) AND (subClass=&&& or subClass=&&& or subClass=&&& or subClass=&&&)"
+2019-07-29 07:12:00,1

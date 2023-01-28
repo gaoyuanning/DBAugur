@@ -1,0 +1,2 @@
+1,select count(*) from ( select distinct objid from ProperMotions ) as tmp
+2019-12-30 09:16:00,1

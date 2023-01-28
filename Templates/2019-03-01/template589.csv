@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra, dec,z,mag FROM PhotoObj as obj  JOIN nsatlas as nsa on obj.objId = nsa.objId WHERE  ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-03-01 04:47:00,1

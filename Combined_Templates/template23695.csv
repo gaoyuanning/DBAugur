@@ -1,0 +1,2 @@
+1,"SELECT bestObjID, - z as redshift, class FROM SpecObj WHERE RAND () < =#*# AND (CLASS = # AND zWarning = #)"
+2019-03-25 21:49:00,1

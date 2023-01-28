@@ -1,0 +1,2 @@
+1,"SELECT TOP # apogee_id,b.snr,a.teff,a.teff_err,a.teff_flag,a.logg,a.logg_err,a.logg_flag,a.mg_fea.mg_fe_err,mg_fe_flag,fe_h,fe_h_err,fe_h_flag FROM aspcapStar AS a JOIN apogeeStar AS b ON a.apstar_id=b.apstar_id WHERE teff>#"
+2019-07-31 15:02:00,1

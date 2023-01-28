@@ -1,0 +1,2 @@
+1,"select top # objid, ra, dec, modelMag_u, modelMag_g, modelMag_r, modelMag_i, z from SpecPhoto where ra BETWEEN # AND # AND dec BETWEEN # AND # AND z BETWEEN # AND #"
+2019-09-26 14:23:00,1

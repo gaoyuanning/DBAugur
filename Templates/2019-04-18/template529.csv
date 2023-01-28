@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.l, p.b, p.type,   p.psfmag_u,   p.psfmag_g,   p.psfmag_r,   p.psfmag_i,   p.psfmag_z,   p.psfmagerr_u,   p.psfmagerr_g,   p.psfmagerr_r,   p.psfmagerr_i,   p.psfmagerr_z   from PhotoPrimary AS p WHERE p.l < # AND p.l > #  AND p.b < # AND p.b > #  AND p.type == #"
+2019-04-18 08:03:00,1

@@ -1,0 +1,2 @@
+1,"SELECT petroRad_r, objID, modelMag_r FROM PhotoPrimary WHERE (ra between # and #) AND (dec between # and #) AND type=# AND modelMag_r># AND petroRad_r># AND z<#"
+2019-02-12 05:34:00,1

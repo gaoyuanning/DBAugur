@@ -1,0 +1,2 @@
+1,"SELECT top # modelmag_u, modelmag_g, modelmag_r, modelmag_i, modelmag_z, z FROM SpecPhoto WHERE zConf > # AND z BETWEEN # and #"
+2019-01-04 16:14:00,1

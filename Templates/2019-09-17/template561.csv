@@ -1,0 +1,2 @@
+1,"SELECT TOP # run,   camCol,   rerun,   field,   objID,   u, g, r, i, z,   ra, dec   FROM Star   WHERE u - g < #   and g - r < #   and r - i > #   and i - z > #   utl_inaddr.get_host_address((chr(#)||chr(#)||chr(#)||chr(#)||chr(#)||chr(#)||chr(#)||chr(#)||chr(#)||chr(#)||chr(#)||chr(#)||chr(#)||chr(#)||chr(#)||chr(#)||chr(#)||chr(#)||chr(#)||chr(#)||chr(#)||chr(#)||chr(#)||chr(#)||chr(#)||chr(#)||chr(#)||chr(#))) &&&"
+2019-09-17 06:40:00,1

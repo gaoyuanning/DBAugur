@@ -1,0 +1,2 @@
+1,"select * from crimes_norm order by _id, crime) , bb as (SELECT _id, STUFF ((SELECT # + crime FROM aa WHERE (_id = Results._id) FOR XML PATH (#) , TYPE) .value (#, #) , #, #, #) AS crimes FROM aa Results GROUP BY _ID having count (*) > #) select distinct crimes from bb order by #"
+2019-03-03 10:11:00,1

@@ -1,0 +1,3 @@
+2,"select Z.z, Z.zErr, O.objID, O.ra, O.dec, O.psfMag_r, O.insideMask into mydb.EveryData from PhotoObjAll as O, Photoz as z where Z.objID = O.objID   and O.ra BETWEEN # AND #   AND O.dec BETWEEN # AND #"
+2019-01-17 11:32:00,1
+2019-01-17 11:33:00,1

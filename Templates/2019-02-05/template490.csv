@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.plate,s.mjd,s.fiberid,s.z,s.zErr,s.zWarning,s.specClass FROM BESTDR7..SpecObj as s 	JOIN BESTDR7..Star AS p ON s.bestObjID = p.objID WHERE  (s.specClass = dbo.fSpecClass(&&&))"
+2019-02-05 00:48:00,1

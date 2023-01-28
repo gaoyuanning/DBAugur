@@ -1,0 +1,2 @@
+1,"select top # devflux_u, expflux_u, deVRad_u, expRad_u, devflux_u*expRad_u^#/ (expflux_u*deVRad_u^#*#) from PhotoObjall"
+2019-10-30 10:58:00,1

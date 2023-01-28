@@ -1,0 +1,2 @@
+1,"SELECT # a.OBJID AS OBJID, a.RA AS RA, a.DEC AS DEC, n.distance AS SEPARATION_AKARI_SDSS1# FROM MyDB.akari AS a OUTER APPLY dbo.fGetNearestSpecObjEq (a.RA, a.DEC, #) AS n LEFT JOIN SpecObjAll AS sp ON n.specObjID = sp.specObjID where a.OBJID > # and a.OBJID < #"
+2019-08-16 08:10:00,1

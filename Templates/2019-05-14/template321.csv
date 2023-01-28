@@ -1,0 +1,2 @@
+1,"SELECT objID , ra , dec into blueberry from PhotoObj TOP # WHERE cModelMag_g ># and cModelMag_g <# and psfMag_g <# and cModelMagErr_g <# and cModelMagErr_r <#"
+2019-05-14 13:42:00,1

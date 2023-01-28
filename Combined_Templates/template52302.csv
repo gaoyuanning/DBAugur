@@ -1,0 +1,11 @@
+19,"select s.psfmag_r as r, w.w1mpro as w1 from wise_xmatch as xm join photoObjAll as s on xm.sdss_objid = s.objid join wise_allsky as w on xm.wise_cntr = w.cntr"
+2019-07-17 15:10:00,2
+2019-07-17 15:14:00,2
+2019-07-17 15:40:00,2
+2019-07-17 15:41:00,4
+2019-07-17 15:42:00,2
+2019-07-17 15:44:00,2
+2019-07-17 15:48:00,1
+2019-07-17 15:52:00,1
+2019-07-17 15:53:00,1
+2019-07-17 15:55:00,2

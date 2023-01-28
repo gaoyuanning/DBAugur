@@ -1,0 +1,2 @@
+2,"SELECT TOP # ObjID, modelMag_r, petroRad_r FROM PhotoPrimary JOIN dbo.fGetNearbyObjEq(#,#,#)"
+2019-02-12 04:36:00,2

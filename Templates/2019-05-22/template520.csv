@@ -1,0 +1,2 @@
+1,"SELECT m.*, dbo.fDateTimeToMJD(s.fobs_dat) as Mjd_f,dbo.fDateTimeToMJD(s.nobs_dat) as Mjd_n"
+2019-05-22 08:17:00,1

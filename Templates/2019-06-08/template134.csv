@@ -1,0 +1,2 @@
+1,"select top # p.*, s.* into mydb.MyTable from SpecObj as s join PhotoObj as p  on p.objID = s.specObjID  where    s.programname IN (&&&, &&&)"
+2019-06-08 19:17:00,1

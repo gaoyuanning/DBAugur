@@ -1,0 +1,2 @@
+2,"SELECT ra, dec, z, bestObjID into mydb.MyTable_a FROM specObj where ra BETWEEN # and # AND dec BETWEEN # and # AND z BETWEEN # and # AND class = # AND zWarning = #"
+2019-04-14 07:13:00,2

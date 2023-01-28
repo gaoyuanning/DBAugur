@@ -1,0 +1,6 @@
+5,"SELECT   p.objid,p.ra,p.dec,p.dered_u,p.dered_g,p.dered_r,p.dered_i,p.dered_z,  s.specobjid, s.class, s.subclass, s.z as redshift FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   s.zWarning=# and s.class=&&& and p.ra BETWEEN # AND #"
+2019-12-30 01:06:00,1
+2019-12-30 01:07:00,1
+2019-12-30 01:12:00,1
+2019-12-30 01:29:00,1
+2019-12-30 01:31:00,1

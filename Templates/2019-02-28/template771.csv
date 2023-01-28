@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.class, s.z as redshift, FROM SpecObj AS s   group by z having count(*) > #"
+2019-02-28 00:48:00,1

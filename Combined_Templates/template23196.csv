@@ -1,0 +1,2 @@
+1,"SELECT pall.mangaid, pall.nsa_elpetro_absmag_g, pall.nsa_elpetro_absmag_g, pall.nsa_sersic_th5#, pall.nsa_sersic_ba FROM mangaDRPall as pall WHERE pall.nsa_sersic_ba > #"
+2019-03-25 20:36:00,1

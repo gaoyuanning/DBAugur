@@ -1,0 +1,4 @@
+4,"CREATE TABLE my_Track (TrackId int, Name nvarchar (#) , AlbumId int, MediaTypeId int, GenreId int, Composer nvarchar (#) , Milliseconds int, Bytes int, UnitPrice numeric) ;"
+2019-04-17 11:10:00,1
+2019-04-17 11:11:00,2
+2019-04-17 11:15:00,1

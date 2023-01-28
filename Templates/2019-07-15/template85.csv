@@ -1,0 +1,2 @@
+1,"select  dr7objid, l.logMass into mydb.MyTable from PhotoObjDR7 as c, stellarMassFSPSGranEarlyDust   as l       JOIN PhotoObj as p ON p.objID    = c.dr8objid    JOIN SpecObjAll as s ON s.bestObjID    = p.objID      JOIN stellarMassFSPSGranEarlyDust ON l.specObjID   = s.specObjID      where dr7objid = #"
+2019-07-15 19:37:00,1

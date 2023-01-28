@@ -1,0 +1,2 @@
+1,"SELECT sp.ra, sp.dec, sp.plate, sp.mjd, sp.fiberID, sp.specobjid, sp.snMedian, sp.class, sp.subClass, sp.zWarning, st.psfmag_g-st.extinction_g g0, st.psfmag_u-st.psfmag_g-st.extinction_u+st.extinction_g umg0, st.psfmag_g-st.psfmag_r-st.extinction_g+st.extinction_r gmr0 into mydb.findData_#_#_# from star st, specobj sp WHERE st.objID = sp.bestObjID AND sp.plate = # AND sp.fiberID = #"
+2019-07-19 15:29:00,1

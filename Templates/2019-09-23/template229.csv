@@ -1,0 +1,2 @@
+1,"select p.objID, p.ra, p.dec, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z into mydb.segue2phot from mydb.segue2centers mp, PhotoObjAll p where sqrt((mp.ra-p.ra)*(mp.ra-p.ra)* cos(mp.dec*#/#)*cos(mp.dec*#/#) +(mp.dec-p.dec)*(mp.dec-p.dec)) < #"
+2019-09-23 16:28:00,1

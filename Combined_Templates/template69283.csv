@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec, cModelMag_u AS Mag_u, cModelMag_g AS Mag_g, cModelMag_r AS Mag_r, cModelMag_i AS Mag_i, cmodelMag_z AS Mag_z, petroR5#_u, petroR5#_g, petroR5#_r, petroR5#_i, petroR5#_z, petroR9#_u, petroR9#_g, petroR9#_r, petroR9#_i, petroR9#_z, petroR5#_u/petroR9#_u AS coindex_u, petroR5#_g/petroR9#_g AS coindex_g, petroR5#_r/petroR9#_r AS coindex_r, petroR5#_i/petroR9#_i AS coindex_i, petroR5#_z/petroR9#_z AS coindex_z, petroMag_u, petroMag_g, petroMag_r, petroMag_i, petroMag_z INTO Test FROM DR1#.photoObj WHERE type = # and Clean = #"
+2019-10-12 11:28:00,1

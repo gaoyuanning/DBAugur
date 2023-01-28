@@ -1,0 +1,2 @@
+1,"SELECT ALL elpetro_absmag_f, elpetro_b3#, elpetro_b1#, sersic_b3#, sersic_b1#, field, ra, dec, nsaid FROM nsatlas WHERE nsaid = #"
+2019-05-19 21:26:00,1

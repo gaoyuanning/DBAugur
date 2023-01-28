@@ -1,0 +1,2 @@
+4,"select s.cluster,s.ra,s.dec,s.objid,p.ra,p.dec,p.cModelMag_i,p.extinction_i,p.specobjID,p.type,p.clean,q.z,q.zErr from MyDB.codexobjID as s , PhotoObjAll as p, Photoz as q  where s.objid=p.objID And s.objid=q.objID"
+2019-07-02 05:39:00,4

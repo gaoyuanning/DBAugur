@@ -1,0 +1,2 @@
+2,select * into mydb.MyTable from DR9.PhotoObjAll where OBJID = dbo.sdssdr9_best_neighbour.original_ext_source_id
+2019-10-21 10:47:00,2

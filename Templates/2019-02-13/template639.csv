@@ -1,0 +1,2 @@
+1,select * from Portfolio.budavari.Parameters where algo like &&& and qmin=# and day=# and progress=#
+2019-02-13 11:14:00,1

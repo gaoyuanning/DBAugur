@@ -1,0 +1,2 @@
+1,"SELECT     m.index, m.ra AS ra1, m.dec AS dec1,     n.objid, n.distance,     o.ra AS ra2, o.dec AS dec2     asp.* into mydb.MyTable from MyDB.nlirich AS m     CROSS APPLY dbo.fGetNearestObjEq( m.ra, m.dec, #) AS n     JOIN apogeestar s ON s.apstar_id = n.apstar_id    JOIN aspcapStar asp ON asp.apogee_id = s.apogee_id"
+2019-04-16 00:49:00,1

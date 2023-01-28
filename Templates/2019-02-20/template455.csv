@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.run,p.rerun,p.camCol,p.field,p.obj  FROM ..PhotoObj AS p  JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = P.objID  WHERE (p.u - p.g) > # AND (p.g - p.r) > # AND (p.r - p.i) > # AND (p.i - p.z) > # AND (p.u - p.g) < # AND (p.g - p.r) < # AND (p.r - p.i) < # AND (p.i - p.z) < # AND ( p.type = # OR p.type = #)"
+2019-02-20 07:21:00,1

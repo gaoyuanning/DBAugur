@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.objID, p.field, f.gain_g, f.mjd_g, dbo.fGetUrlFitsCFrame(f.fieldID,&&&) into mydb.MyTable_# from PhotoObjAll as p   Join Field as f on f.field = p.field WHERE    (p.ra BETWEEN # AND #) AND (p.dec BETWEEN # AND #)"
+2019-12-22 11:45:00,1

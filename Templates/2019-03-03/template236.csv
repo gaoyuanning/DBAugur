@@ -1,0 +1,2 @@
+1,"select top # _year,dbn,msid_no,initials from mschoolzones where dbn is not null    and dbn=&&&order by dbn        select top # fiscal_year, ATS_SYSTEM_CODE,ADMIN_DISTRICT_LOCATION_CODE,COMMUNITY_DISTRICT from schoollocation"
+2019-03-03 17:10:00,1

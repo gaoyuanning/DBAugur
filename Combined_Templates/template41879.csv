@@ -1,0 +1,4 @@
+5,"SELECT --top # specObjID, bestObjID, id into MyDB.Y1#b FROM MyDB.Y1#a AS y join SpecObjAll as s on y.objid = s.bestobjid"
+2019-05-27 10:30:00,1
+2019-05-27 10:31:00,2
+2019-05-27 10:32:00,2

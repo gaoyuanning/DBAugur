@@ -1,0 +1,2 @@
+2,"select fieldID,ra,dec,Run.strip from Field inner join dbo.Run on Run.run=Field.run where Run.stripe=# and ra between # and #"
+2019-01-24 08:44:00,2

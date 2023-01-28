@@ -1,0 +1,5 @@
+6,"SELECT TOP # specobjid,ra, dec, specobjid, plate, mjd, fiberid,z, sp.fiberMag_i FROM specphoto as sp WHERE survey = &&& and programname =&&& AND z between # and #"
+2019-02-05 01:29:00,1
+2019-02-05 01:30:00,1
+2019-02-05 01:45:00,3
+2019-02-05 01:46:00,1

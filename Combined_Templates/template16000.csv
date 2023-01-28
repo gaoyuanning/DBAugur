@@ -1,0 +1,2 @@
+1,"SELECT TOP # g.ra, g.dec, nsa.z, nsa.mag FROM Galaxy as g JOIN nsatlas as nsa on g.objid = =nsa.objid WHERE g.ra BETWEEN # and # AND g.dec BETWEEN # and #"
+2019-03-01 04:53:00,1

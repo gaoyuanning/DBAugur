@@ -1,0 +1,4 @@
+3,select * into mydb.MyTable_# from photoz where objid in (select objid from specphoto)
+2019-03-04 10:52:00,1
+2019-03-04 10:58:00,1
+2019-03-04 16:27:00,1

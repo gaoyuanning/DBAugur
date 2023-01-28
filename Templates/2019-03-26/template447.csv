@@ -1,0 +1,2 @@
+1,"select top # objid, specobjid, ra, dec, cModelMag_u, cModelMag_g, cModelMag_r, cModelMag_i, cModelMag_z,   cModelMagErr_u, cModelMagErr_g, cModelMagErr_r, cModelMagErr_i, cModelMagErr_z, z into mydb.MyTable from photoobjall, specobjall   where photoobjall.objid=specobjall.bestobjid"
+2019-03-26 17:45:00,1

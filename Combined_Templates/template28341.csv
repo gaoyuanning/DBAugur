@@ -1,0 +1,2 @@
+2,"SELECT SPA.ra, SPA.dec, SAP.z, SPA.pertoMag_g, SPA.petromMag_r, SPA.extinction_g, SPA.extinction_r into GU2#_hw3 From SpecPhotoAll as SPA Where SPA.class = # and SPA.z < #"
+2019-04-07 05:47:00,2

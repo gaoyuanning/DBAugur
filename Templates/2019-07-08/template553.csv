@@ -1,0 +1,2 @@
+2,"select p.objID,        p.ra,        p.dec into   mydb.DR7_PhotoPrimary_ojbID_ra_dec from   PhotoPrimary p where  (p.petroMag_r-p.extinction_r) between # and # and p.Type=#."
+2019-07-08 04:26:00,2

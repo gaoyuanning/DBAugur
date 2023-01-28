@@ -1,0 +1,2 @@
+1,"SELECT p.objId as objid, p.ra,p.dec,p.petror9#_r,s.z, n.sersic_n, pz.distMod, pz.lumDist    JOIN SpecObj AS s ON s.bestobjid = p.objid    JOIN nsatlas AS n ON n.mjd = s.mjd and n.fiberID = s.fiberID and n.plate = s.plate    JOIN Photoz AS pz ON pz.objID = p.objid WHERE n.sersic_n < #"
+2019-07-11 11:01:00,1

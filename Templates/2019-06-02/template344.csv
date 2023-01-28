@@ -1,0 +1,3 @@
+2,"SELECT p.u,p.g,p.u,p.i,s.z into mydb.MyTable2 from SpecObj AS s INNER JOIN PhotoObj AS p   ON s.bestObjId=p.ObjId WHERE p.type=# AND s.z BETWEEN # AND #"
+2019-06-02 04:26:00,1
+2019-06-02 04:28:00,1

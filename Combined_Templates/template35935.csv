@@ -1,0 +1,2 @@
+1,select distinct SystemStudentID as student_id from enrollment
+2019-04-30 00:17:00,1

@@ -1,0 +1,2 @@
+4,"SELECT avg(dered_g) as gMag_avg, avg(dered_r) as rMag_avg FROM PhotoObj WHERE (ra between # and #) and (dec between # and #) and Type = #"
+2019-03-07 18:39:00,4

@@ -1,0 +1,2 @@
+3,"SELECT top # t.Name, t.Composer   ,a.Name as Artist, b.Title as Album from chinook.Track t join chinook.Album b on b.albumid=t.albumid   join chinook.Artist a on a.artistid=b.artistid   join chinook.genre g on g.genreid=t.genreid where g.name like&&&   order by ALbum"
+2019-03-31 12:07:00,3

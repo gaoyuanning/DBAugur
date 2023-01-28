@@ -1,0 +1,2 @@
+1,"select top # p.ra, p.dec, p.bestObjID from photoObj as p where Class = # AND u< # And u-g < #"
+2019-10-19 06:58:00,1

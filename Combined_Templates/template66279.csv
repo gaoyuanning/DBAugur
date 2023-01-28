@@ -1,0 +1,2 @@
+2,"select m.specObjID, m.objID, m.SDSS, h_alpha_eqw into mydb.xGASS_Huertas_ew from galspecline i, mydb.xGASS_Huertas_specObjID m where i.specobjid = m.specObjID;"
+2019-09-27 03:19:00,2

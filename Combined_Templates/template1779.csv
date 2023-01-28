@@ -1,0 +1,2 @@
+1,"SELECT * into mydb.MyTable from apogeeStar AS star CROSS APPLY dbo.fGetNearestObjEq (star.ra, star.dec, #) AS near JOIN photoobj ON near.objid = photoobj.objid JOIN aspcapStar as aspcap ON star.apstar_id = aspcap.apstar_id WHERE star.ra < # AND star.ra > # AND star.dec < # AND star.dec > #"
+2019-01-09 12:57:00,1

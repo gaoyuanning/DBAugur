@@ -1,0 +1,5 @@
+4,"SELECT TOP #   run,   camCol,   rerun,   field,   objID,   ra,   dec   FROM Galaxy   WHERE ( flags"
+2019-01-08 03:27:00,1
+2019-01-08 06:25:00,1
+2019-01-08 07:26:00,1
+2019-01-08 08:39:00,1

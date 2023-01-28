@@ -1,0 +1,2 @@
+1,"SELECT TOP # d.objid, d.ra, d.dec FROM dbo.PhotoObj as d, SpecObjAll as s into MyDB.MyTable WHERE d.objid = s.bestObjID"
+2019-05-13 07:56:00,1

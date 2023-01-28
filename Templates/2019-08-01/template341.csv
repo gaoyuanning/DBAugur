@@ -1,0 +1,2 @@
+1,"SELECT  p.objID, p.ra, p.dec into mydb.MyTable_# from mydb.LOFAR_HATLAS h     JOIN PhotoObj p ON h.objid=p.objid"
+2019-08-01 08:11:00,1

@@ -1,0 +1,4 @@
+3,"SELECT TOP #  p.objid,  p.mE1_r,p.mE2_r,p.mE1_u,p.mE1_g,p.mE1_r,p.mE1_i,p.mE1_z,p.mE2_u,p.mE2_g,p.mE2_r,p.mE2_i,p.mE2_z FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   p.objid = #"
+2019-07-29 02:01:00,1
+2019-07-29 02:07:00,1
+2019-07-29 02:08:00,1

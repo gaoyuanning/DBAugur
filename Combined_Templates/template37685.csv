@@ -1,0 +1,2 @@
+1,"SELECT u.AGCNr, u.RAdeg_OC, u.DECdeg_OC, u.Dist_Mpc, u.z as hi_z, n.objid, n.distance, n.type, n.mode, o.ra as ra_near, o.dec as dec_near, o.u, o.g, o.r, o.i, o.z, o.specObjID, s.z as spec_z, s.z_noqso, s.z_person, z.z as photo_z, z.zErr as photo_zErr into mydb.environment_#_new FROM mydb.udg1#_newinfo as u outer apply dbo.fGetNearbyObjAllEq (u.RAdeg_OC, u.DECdeg_OC, #) as n left join GALAXY as o on n.objid = o.objid join Photoz as z on n.objid = z.objid join SpecObj as s on o.specObjID = s.specObjID"
+2019-05-07 09:35:00,1

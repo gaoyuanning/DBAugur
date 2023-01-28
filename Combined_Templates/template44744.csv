@@ -1,0 +1,2 @@
+1,"SELECT s.plate, s.fiberid, s.mjd, s.z, s.zwarning, GalSpecLine.oiii_#_flux, GalSpecLine.oiii_#_flux_err into mydb.oiii od from GalSpecLine as g, SpecObj as s WHERE oiii_#_flux > oiii_#_flux_err*# AND GalSpecLine.specobjid = SpecObj.specobjid AND SpecObj.class = # AND SpecObj.zwarning = #"
+2019-06-07 05:11:00,1

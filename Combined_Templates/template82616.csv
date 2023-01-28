@@ -1,0 +1,3 @@
+3,"SELECT m.ra AS ra1, m.dec AS dec1, --n.objid, n.distance, s.* -- o.ra AS ra2, o.dec AS dec2 into mydb.MyTable_# from MyDB.MyTable AS m CROSS APPLY dbo.fGetNearestApogeeStarEq (m.ra, m.dec, #) as s SET ANSI_WARNINGS OFF -- dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n -- JOIN PhotoObj AS o ON n.objid = o.objid -- JOIN apogeestar AS s ON s.apstar_id = o.objid"
+2019-12-13 11:00:00,2
+2019-12-13 15:59:00,1

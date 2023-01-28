@@ -1,0 +1,3 @@
+2,"CREATE TABLE boron_carbide_training ( Id INT NOT NULL IDENTITY PRIMARY KEY, json_path varchar(#), frame_path varchar(#), class varchar(#) )"
+2019-10-12 19:21:00,1
+2019-10-12 19:22:00,1

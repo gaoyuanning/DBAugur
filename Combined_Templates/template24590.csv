@@ -1,0 +1,2 @@
+1,"CREATE TABLE furnaceStateHistory (name varchar (#) , image, presentValue float, setValue float, upperShaftRotation float, lowerShaftRotation float, upperShaftFastMin float, upperShaftFastHour float, upperShaftSlowMin float, upperShaftSlowHour float, ) ;"
+2019-03-27 14:21:00,1

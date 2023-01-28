@@ -1,0 +1,2 @@
+1,"select bestObjId, ra, dec, z into mydb.CFHTLenS_W1_galaxy_spectra from specObj where ra BETWEEN # and # AND dec BETWEEN # and # AND class = # AND zWarning = #"
+2019-12-14 13:16:00,1

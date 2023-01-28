@@ -1,0 +1,2 @@
+1,"select ra, dec, b, l from GALAXY where l> # and l< #"
+2019-06-15 17:03:00,1

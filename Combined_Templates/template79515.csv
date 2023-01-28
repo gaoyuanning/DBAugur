@@ -1,0 +1,3 @@
+2,"select top # r.plate, r.mjd, r.fiberid, FORMAT (r.logg, #) as logg, FORMAT (r.Fe/H, #) as [Fe/H], FORMAT (r.Teff, #, #) as Teff, FORMAT (r.extn_g, #) as extn_g, FORMAT (r.gmag, #) as gmag, FORMAT (r.gerr, #) as gerr, FORMAT (r.rerr, #) as rerr, Format (r.gr0, #) as gr0, r.psfflags, r.edgebadflags, r.CCMGH, r.CCCAHK, x.plate, x.mjd, x.fib, Format (x.ra, #) as RA, FORMAT (x.dec, #) as DEC, FORMAT (x.dobs, #) as dkpc, FORMAT (x.derr, #) as derr into mydb.giantswdist from myDB.realredocheck as r join myDB.DMKgiants as x on r.plate = x.plate and r.fiberid = x.fib where x.kgfl = # and x.clu = # and x.abhb = #"
+2019-11-28 13:00:00,1
+2019-11-28 13:01:00,1

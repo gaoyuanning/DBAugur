@@ -1,0 +1,2 @@
+1,"SELECT top # P.objId, modelMag_u, S.z FROM PhotoObj as P JOIN SpecObj as S ON P.objId = S.bestObjI WHERE P.modelMag_r< # AND S.z < # AND P.type = #"
+2019-10-02 07:24:00,1

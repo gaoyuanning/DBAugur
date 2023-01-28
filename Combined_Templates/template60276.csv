@@ -1,0 +1,2 @@
+1,"SELECT TOP #s.bestObjID, s.specObjID into mydb.MyTable_# from SpecObjAll as s"
+2019-09-02 07:15:00,1

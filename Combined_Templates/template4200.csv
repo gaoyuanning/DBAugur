@@ -1,0 +1,2 @@
+1,"select top # specObjID, z from SpecObjAll where z between # and #"
+2019-01-18 18:28:00,1

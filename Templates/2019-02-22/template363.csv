@@ -1,0 +1,2 @@
+1,"SELECT G.ra, G.dec, S.z, S.zErr FROM Galaxy as G, SpecObj as S WHERE G.ObjID = S.BestObjID and (G.flags & (dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&))) > # and (G.flags & ( dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&))) != dbo.fPhotoFlags(&&&) and (G.flags & (dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&))) = # and S.z < # and S.z > # and G.ra > # and G.ra < # and G.dec > # and G.dec < #"
+2019-02-22 05:57:00,1

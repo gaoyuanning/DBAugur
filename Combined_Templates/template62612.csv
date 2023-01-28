@@ -1,0 +1,2 @@
+1,"SELECT m.int_id, m.ra AS ra1, m.dec AS dec1, n.objid, n.distance, o.ra AS ra2, o.dec AS dec2, s.class, s.subclass, s.snMedian_g, s.class_person, s.zWarning into mydb.MyTable_# from MyDB.table2 AS m CROSS APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n JOIN PhotoObj AS o ON n.objid = o.objid JOIN SpecObjAll s ON o.objID = s.bestObjID"
+2019-09-12 16:08:00,1

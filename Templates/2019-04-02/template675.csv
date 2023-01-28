@@ -1,0 +1,2 @@
+1,"SELECT ALL    p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,    p.cModelMag_r, p.cModelMag_g,    s.specobjid, s.class, s.z as redshift into mydb.MyTable_# from PhotoObj AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE     p.cModelMag_r < #    AND s.class = &&&"
+2019-04-02 04:01:00,1

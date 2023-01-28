@@ -1,0 +1,3 @@
+3,select petroRad_r from galaxy where objID in #
+2019-11-22 18:05:00,1
+2019-11-22 18:09:00,2

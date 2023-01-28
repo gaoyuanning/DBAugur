@@ -1,0 +1,2 @@
+1,"SELECT  g.objid as objid, g.ra, g.dec, zns.nvote, S.velDisp as velDisp FROM sdssdr1#:Galaxy as g JOIN sdssdr1#:ZooNoSpec AS zns ON G.objid = zns.objid  JOIN sdssdr1#:SpecObj as S on G.objid = S. bestObjID WHERE g.clean=# and zns.nvote > # and zns.p_el > # AND s.z < #"
+2019-07-03 09:06:00,1

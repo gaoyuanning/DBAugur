@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.ra AS ra, p.dec AS dec, p.flags, p.type, Photoz.z AS Photz, Photoz.zErr AS PhotzErr, SpecObj.z As Specz, SpecObj.zErr As SpeczErr, SpecObj.zWarning As zWarning, SpecObj.class As SpecClass, SpecObj.subClass As SpecsubClass, galSpecExtra.lgm_tot_p5#, p.u, p.g, p.r, p.i, p.z FROM PhotoObj AS p JOIN Photoz ON p.objID=Photoz.objID JOIN galSpecExtra ON p.specObjID = galSpecExtra.specObjID LEFT JOIN SpecObj On p.specObjID = SpecObj.specObjID WHERE (p.ra BETWEEN # AND #)  AND (p.dec BETWEEN # AND #)"
+2019-08-27 17:20:00,1

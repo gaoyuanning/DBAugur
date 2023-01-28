@@ -1,0 +1,2 @@
+1,"SELECT TOP # score, class, ra, dec, psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z, psfmagerr_u, psfmagerr_g, psfmagerr_r, psfmagerr_i, psfmagerr_z, extinction_u, extinction_g, extinction_r, extinction_i ,extinction_z INTO mydb.MyTable FROM SpecPhotoAll;"
+2019-02-08 00:23:00,1

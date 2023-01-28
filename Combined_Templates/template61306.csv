@@ -1,0 +1,2 @@
+1,"SELECT sub.*, p.snMedian_r from SpecPhotoAll AS p JOIN mydb.sub_petrorad as sub ON sub.objID = p.objID"
+2019-09-05 05:37:00,1

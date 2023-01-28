@@ -1,0 +1,2 @@
+2,"SELECT   p.objID,p.ra as ra_p,p.dec as dec_p,p.specObjID as specObjID_p,s.specObjID as specObjID_s,s.bestObjID,s.ra as ra_s,s.dec as dec_s,s.z,s.class,s.sourcetype into mydb.Mag1#_#ps_sec FROM PhotoObjAll as p   JOIN SpecObjAll as s ON s.bestObjID=p.objID WHERE   p.mode=#   AND p.type=#   AND p.petroMag_g BETWEEN # and #   AND s.z BETWEEN # and #   AND p.ra BETWEEN # and #   AND p.dec BETWEEN # and # ORDER BY p.objID"
+2019-12-19 01:07:00,2

@@ -1,0 +1,3 @@
+2,"SELECT top # objid, cModelMag_u, cModelMag_g, cModelMag_r, cModelMag_i, cModelMag_z FROM PhotoObjAll INNER JOIN specObjAll ON PhotoObjAll.objid = specObjAll.bestobjid"
+2019-03-25 15:56:00,1
+2019-03-25 15:57:00,1

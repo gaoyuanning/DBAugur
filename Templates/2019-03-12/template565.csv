@@ -1,0 +1,2 @@
+1,"select top #   dr1#objid, petroMag_u-extinction_u as u_pmag, petroMag_g-extinction_g as g_pmag, petroMag_r-extinction_r as r_pmag,    petroMag_i-extinction_i as i_pmag, petroMag_z-extinction_z as z_pmag, extinction_r from MyDB.te as t   join PhotoObjAll as p on p.objid=t.dr1#objid"
+2019-03-12 02:23:00,1

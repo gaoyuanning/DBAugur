@@ -1,0 +1,2 @@
+1,"SELECT top # p.objID, p.ra, p.dec, p.r FROM fGetObjFromRect (#, #, #, #) n, PhotoPrimary p WHERE n.objID = p.objID"
+2019-04-26 12:18:00,1

@@ -1,0 +1,2 @@
+2,SELECT unit_of_measure FROM sys.spatial_reference_systems WHERE spatial_reference_id = #
+2019-10-27 17:25:00,2

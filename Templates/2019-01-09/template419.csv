@@ -1,0 +1,5 @@
+4,"select p.run,p.rerun,p.camcol,p.field, g.colc, g.rowc, g.petroR9#_r from dbo.fGetNearestObjEq(#,#,#) p, PhotoObjAll g where p.run=g.run and p.rerun=g.rerun and p.camcol=g.camcol and p.field=g.field and p.objid=g.objid and p.rerun>#"
+2019-01-09 02:50:00,1
+2019-01-09 05:53:00,1
+2019-01-09 05:54:00,1
+2019-01-09 06:21:00,1

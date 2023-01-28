@@ -1,0 +1,2 @@
+1,"select z,mag_#,ObjType from SpecObj where SpecClass=# and z between #e-# and #"
+2019-04-17 03:10:00,1

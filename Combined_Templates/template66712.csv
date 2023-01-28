@@ -1,0 +1,2 @@
+1,"select u.*, p.* from #x x, #upload u, photoPrimary p where u.up_id = x.up_id and x.objID = p.objID and p.type = # order by x.up_id"
+2019-09-30 12:20:00,1

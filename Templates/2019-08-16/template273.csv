@@ -1,0 +1,2 @@
+1,"SELECT * into mydb.MyTable_# from PhotoZ as G, where G.objID = #"
+2019-08-16 12:40:00,1

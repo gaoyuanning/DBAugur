@@ -1,0 +1,2 @@
+1,"SELECT f.ra, f.dec, f.plate, f.mjd, f.fiberid, f.specobjid, f.bestobjid, s.teffadop, s.fehadop, s.loggadop, sp.subclass, s.SPECTYPEHAMMER, s.spectypesubclass, s.TEFFIRFM, s.LOGGNGS1IRFM, s.FEHNGS1IRFM, s.teffspec, s.loggspec, s.fehspec, s.flag from myDB.flaretable_crosscheck_sdss_specobj as f JOIN sppParams as s ON f.specobjid = s.specobjid join specobjall as sp on f.specobjid = sp.specobjid"
+2019-03-29 13:17:00,1

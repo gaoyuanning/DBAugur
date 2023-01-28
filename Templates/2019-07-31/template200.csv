@@ -1,0 +1,3 @@
+2,"SELECT sp.bestobjid, sp.TEFFSPEC, sp.LOGGSPEC, sp.FEHSPEC, sp.SNR FROM sppParams as sp WHERE sp.FEHSPEC!=#"
+2019-07-31 16:14:00,1
+2019-07-31 16:37:00,1

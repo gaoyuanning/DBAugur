@@ -1,0 +1,3 @@
+2,"SELECT ra, dec into mydb.MyTable from dbo.zooVotes WHERE p_cw > #"
+2019-03-24 18:15:00,1
+2019-03-24 18:19:00,1

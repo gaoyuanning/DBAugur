@@ -1,0 +1,2 @@
+1,"SELECT g.ra,g.dec from GalaxyTag as g WHERE g.ra between # and # AND g.type = # AND g.cmodelmag_r < # AND g.clean = # AND g.insidemask = #"
+2019-12-29 10:15:00,1

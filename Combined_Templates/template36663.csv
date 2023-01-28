@@ -1,0 +1,2 @@
+1,"SELECT GN.objID, GN.distance FROM SpecObjAll as s JOIN dbo.fGetNearbyObjEq (#, #, #) AS GN ON s.bestObjID = GN.objID ORDER BY distance"
+2019-05-03 12:16:00,1

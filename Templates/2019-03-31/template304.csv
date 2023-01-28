@@ -1,0 +1,2 @@
+1,"select a.artistid, a.name as artist, count(b.albumid) as numZ from chinook.artist a    inner join chinook.album b       on b.artistid=a.artistid      and b.title like &&& group by a.artistid,a.name order by a.name"
+2019-03-31 16:13:00,1

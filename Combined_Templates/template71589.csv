@@ -1,0 +1,3 @@
+3,"SELECT s.ra, s.dec, s.dered_r, w.w1mpro as w1, w.j_m_#mass as j, s.z, s.class INTO mydb.stripe8#_wise_#mass_z_match FROM wise_xmatch as xm JOIN specPhoto as s on xm.sdss_objid = s.objid JOIN wise_allsky as w on xm.wise_cntr = w.cntr WHERE ( (s.dered_g < #) or (s.dered_r < #) or (s.dered_i < #) ) and ( (s.ra > # and s.ra < # and s.dec > # and s.dec < #) or (s.ra > # and s.dec > # and s.dec < #) ) and s.zWarning = # and s.zErr < #"
+2019-10-25 13:33:00,1
+2019-10-25 13:35:00,2

@@ -1,0 +1,2 @@
+2,"select a.group_id, count (*) as n_member from mydb.ipetroA_# as a group by a.group_id into mydb.group_member order by a.group_id"
+2019-12-20 01:45:00,2

@@ -1,0 +1,2 @@
+1,"SELECT g.specObjID, g.ra, g.dec, g.z, g.z_warning into mydb.MyTable from galSpecInfo g WHERE g.ra BETWEEN # AND #    AND g.dec BETWEEN # AND #"
+2019-05-14 09:28:00,1

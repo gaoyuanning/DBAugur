@@ -1,0 +1,2 @@
+1,"select   mangaID, nsa_nsaid, catind, catalog_ra, catalog_dec from   mangaTarget into MyDB.manga_basic_info"
+2019-04-15 16:28:00,1

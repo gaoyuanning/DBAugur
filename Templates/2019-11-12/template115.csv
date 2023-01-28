@@ -1,0 +1,15 @@
+20,"SELECT TOP # G.objID, G.ra, G.dec, p.z, zErr  FROM Galaxy as G  JOIN photoz AS p  ON G.objID = p.objID WHERE  G.ra BETWEEN # and # AND G.dec BETWEEN # and # AND p.z between # and # AND p.zErr BETWEEN # and #  AND ((g.flags_r & #) != #) AND ((g.flags_r & #) = #) AND (((g.flags_r & #) = #) or (g.psfmagerr_r <= #)) AND (((g.flags_r & #) = #) or (g.flags_r & #) = #) ORDER BY p.z"
+2019-11-12 16:10:00,1
+2019-11-12 16:14:00,1
+2019-11-12 16:31:00,2
+2019-11-12 16:32:00,1
+2019-11-12 16:43:00,2
+2019-11-12 16:44:00,2
+2019-11-12 19:10:00,1
+2019-11-12 19:12:00,1
+2019-11-12 19:14:00,2
+2019-11-12 19:15:00,3
+2019-11-12 19:17:00,1
+2019-11-12 19:40:00,1
+2019-11-12 20:15:00,1
+2019-11-12 20:40:00,1

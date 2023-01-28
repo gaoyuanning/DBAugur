@@ -1,0 +1,2 @@
+1,"CREATE TABLE LCG_objIDs (lcgID smallint, objID_lcg bigint, ra float, dec float) ;"
+2019-07-24 19:18:00,1

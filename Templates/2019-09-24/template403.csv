@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.dered_u - p.dered_g as ug, p.dered_g - p.dered_r as gr, p.dered_g - p.dered_i as gi, p.dered_g - p.dered_z as gz, p.petroRad_i, p.petroR5#_i, p.deVAB_i FROM PhotoObjAll AS p JOIN specObjAll s ON s.bestobjid = p.objid WHERE p.mode = # AND s.sciencePrimary = # AND p.clean = # AND p.type = #"
+2019-09-24 12:09:00,1

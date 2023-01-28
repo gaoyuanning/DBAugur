@@ -1,0 +1,2 @@
+1,"SELECT z.ra, z.dec, z.nvote_tot, z.nvote_std, z.p_el FROM zooVotes AS z, SpecObjAll AS s, PhotoObjAll as p --into mydb.testzoo WHERE z.specobjid = s.bestObjID and p.objID = s.bestObjID"
+2019-07-13 10:55:00,1

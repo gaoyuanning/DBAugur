@@ -1,0 +1,2 @@
+1,"select top # e.eid,e.Ethnic_background_#  from dbo.Ethnicity e      cross apply openjson(Ethnic_background_#) h where h.value=&&&"
+2019-10-07 10:25:00,1

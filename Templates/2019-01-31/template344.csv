@@ -1,0 +1,6 @@
+6,"select   ra,dec,psfMag_g, psfMag_r, psfMag_i, psfMag_z  from star where ra between # and # and dec between # and #"
+2019-01-31 11:54:00,2
+2019-01-31 11:56:00,1
+2019-01-31 12:19:00,1
+2019-01-31 12:44:00,1
+2019-01-31 15:15:00,1

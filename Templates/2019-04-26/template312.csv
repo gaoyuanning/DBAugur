@@ -1,0 +1,2 @@
+1,select * from galaxy where ra > # and ra < # and dec > # and dec < # and z > # and z < # and zWarning = #
+2019-04-26 16:07:00,1

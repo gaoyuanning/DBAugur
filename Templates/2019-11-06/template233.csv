@@ -1,0 +1,2 @@
+1,select count(*) from MyDB.StageTwo where modelMag_i is null
+2019-11-06 10:49:00,1

@@ -1,0 +1,2 @@
+1,SELECT SUM(Track.UnitPrice) AS Total Price
+2019-04-24 14:47:00,1

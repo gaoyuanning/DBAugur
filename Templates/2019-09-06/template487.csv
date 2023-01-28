@@ -1,0 +1,2 @@
+1,"SELECT      * FROM MyDB.zpcat AS m     CROSS APPLY dbo.fGetNearestObjEq( m.ra_gaia, m.dec_gaia, #) AS n     JOIN PhotoObj AS o ON n.objid=o.objid"
+2019-09-06 00:35:00,1

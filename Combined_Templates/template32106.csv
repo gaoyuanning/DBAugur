@@ -1,0 +1,2 @@
+1,"SELECT SUBSTRING (name, #, #) AS firstLetter"
+2019-04-20 14:32:00,1

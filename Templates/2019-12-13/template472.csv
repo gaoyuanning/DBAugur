@@ -1,0 +1,2 @@
+1,"INSERT INTO Routes values(#,&&&,geography::STPolyFromText(&&&,#))"
+2019-12-13 07:09:00,1

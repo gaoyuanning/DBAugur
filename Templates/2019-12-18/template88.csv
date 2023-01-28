@@ -1,0 +1,4 @@
+3,"SELECT p.objID,p.run,p.rerun,p.camcol,p.field FROM dbo.fGetNearbyObjEq(#,#,#) as b, BESTDR9..PhotoObjAll as p WHERE b.objID = p.objID"
+2019-12-18 19:25:00,1
+2019-12-18 19:26:00,1
+2019-12-18 19:59:00,1

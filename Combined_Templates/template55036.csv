@@ -1,0 +1,2 @@
+1,"SELECT objID, field, ra, dec -- Get the unique object ID, field number, and coords FROM PhotoObj -- From the photometric data WHERE PhotoObj.objid = LOFAR_HATLAS.OBJID"
+2019-08-01 08:02:00,1

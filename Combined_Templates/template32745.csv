@@ -1,0 +1,3 @@
+2,"SELECT TOP # Count (TrackId) AS NumTracks, AlbumId, Sum (UnitPrice) AS TotalPrice FROM chinook.Track GROUP BY AlbumId ORDER BY AlbumId DESC"
+2019-04-21 01:01:00,1
+2019-04-21 01:09:00,1

@@ -1,0 +1,2 @@
+2,"SELECT    ra, type, clean,   dec, dered_u into mydb.Area1utest from PhotoObjAll Where    ra># and ra<# and dec># and dec<#   And dered_u<# and dered_u># where  clean=#        type=#"
+2019-05-10 16:59:00,2

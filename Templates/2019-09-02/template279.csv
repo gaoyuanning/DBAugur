@@ -1,0 +1,2 @@
+1,"select bestObjID, ra, dec, class, subclass, z, zErr, zWarning from SpecObj where abs(dec) < # and and bestObjID># order by bestObjID"
+2019-09-02 15:27:00,1

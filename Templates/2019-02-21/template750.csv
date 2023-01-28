@@ -1,0 +1,2 @@
+1,"SELECT ALL objID, z into mydb.MyTable_# from Galaxy  WHERE z<# and z>#"
+2019-02-21 09:11:00,1

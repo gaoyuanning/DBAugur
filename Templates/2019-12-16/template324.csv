@@ -1,0 +1,2 @@
+1,"select   s.ra, s.dec, s.z from DR1#.specObj s   join mydb.shamir_ccw ccw ON s.bestObjID = ccw.ID  into mydb.result_shamir_ccw"
+2019-12-16 12:23:00,1

@@ -1,0 +1,3 @@
+2,"SELECT EID,[Pattern_of_lights_displayed_pilot__#],[Pattern_of_lights_as_remembered_pilot__#],[Time_taken_to_complete_lights_test_pilot__#] FROM Lights_pattern_memory GO"
+2019-04-15 13:25:00,1
+2019-04-15 13:35:00,1

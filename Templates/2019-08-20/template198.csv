@@ -1,0 +1,2 @@
+1,"select   p.objID,    s.ra, s.dec, s.z,   pz.absMagR,   z.p_cw, z.p_acw, z.spiral,   p.deVAB_r, p.deVPhi_r,   offsetRa_u, offsetRa_g, offsetRa_r, offsetRa_i, offsetRa_z,   offsetDec_u, offsetDec_g, offsetDec_r, offsetDec_i, offsetDec_z from DR1#.zooSpec z   join DR8.specObj s ON s.specObjID = z.specObjID   join DR8.photoObj p ON  p.objID = s.bestObjID   join DR8.photoZ pz ON pz.objID = p.objID  into mydb.zoo_offsets    where   (z.p_acw >= # or z.p_cw >= # or z.spiral >= #)   and   s.origObjId = s.bestObjId"
+2019-08-20 16:32:00,1

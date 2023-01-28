@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.SpecObjID,    s.z,    L.ew,    L.sigma,    L.height,    dbo.fCosmoDl(s.z),    ph.dered_u,   ph.dered_g,   ph.dered_r,   p_el,   p_cw  FROM SpecPhotoAll as ph,    SpecPhoto as s,   SpecLine  as L,   SpecObjAll as so,   zooNoSpec as zoo  WHERE s.specClass = #      AND L.lineID = #      AND L.ew > #      AND L.height > # http://skyserver.sdss.org/CasJobs/SchemaBrowser.aspx     AND ph.specObjID = s.specObjID     AND L.specObjID = s.specObjID   AND so.specObjID = s.specObjID   AND zoo.dr7objid = s.specObjID     AND s.z < #"
+2019-10-18 16:35:00,1

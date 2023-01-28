@@ -1,0 +1,5 @@
+4,"select top # dbo.fApogeeStarFlagN(m.starflag) as starflag,dbo.fApogeeAspcapFlagN(a.aspcapflag) as ascapflag,a.teff,a.teff_err,a.logg,a.logg_err,a.fe_h,a.fe_h_err,a.alpha_m,a.alpha_m_err,m.vhelio_avg,m.vscatter,dbo.fApogeeTarget1N(m.apogee_target1) as target1,dbo.fApogeeTarget2N(m.apogee_target2) as target2,m.commiss,p.ra,p.dec,m.glon,m.glat,p.apogee_id,m.apstar_id,p.j,p.j_err,p.h,p.h_err,p.k,p.k_err, p.irac_#_#, p.irac_#_#_err, p.src_#_# from apogeeObject p, apogeeStar m, aspcapStar a"
+2019-04-08 14:35:00,1
+2019-04-08 16:23:00,1
+2019-04-08 16:26:00,1
+2019-04-08 16:29:00,1

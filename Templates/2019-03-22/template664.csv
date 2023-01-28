@@ -1,0 +1,2 @@
+1,"SELECT ROW_NUMBER() OVER(ORDER BY bestObjID) AS FILE, specObjID, bestObjID, z from SpecObj where bestObjID in (SELECT TOP # bestObjID FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& order by newid())"
+2019-03-22 08:05:00,1

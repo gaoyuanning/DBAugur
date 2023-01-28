@@ -1,0 +1,2 @@
+1,"SELECT SUBSTRING (ArtistId, #, #) AS Initial FROM chinook.Album GROUP BY ArtistId"
+2019-04-23 00:55:00,1

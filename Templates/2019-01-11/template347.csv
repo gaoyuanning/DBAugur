@@ -1,0 +1,2 @@
+1,"SELECT input.*,  	po.ra AS sdss_ra, po.dec AS sdss_dec FROM MyDB.AKARImain_SDSSspecDR1#_bestobjid input 	INNER JOIN PhotoObjAll po ON po.objid = input.sdss_bestobjid"
+2019-01-11 01:53:00,1

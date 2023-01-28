@@ -1,0 +1,2 @@
+1,"select * from SDSSConstants or (#,#)=(select*from(select name_const(CHAR(#,#,#,#,#,#,#,#,#),#),name_const(CHAR(#,#,#,#,#,#,#,#,#),#))a) -- and #=#"
+2019-01-10 14:46:00,1

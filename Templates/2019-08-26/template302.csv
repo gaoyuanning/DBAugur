@@ -1,0 +1,2 @@
+1,"select ObjID, z, zErr into mydb.Table2 from DR1#.PhotoZ where z != # and zErr != #   limit #"
+2019-08-26 09:03:00,1

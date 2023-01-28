@@ -1,0 +1,2 @@
+1,"select t.albumid, count (*) as num from chinook.track t join chinook.genre g on g.genreid = t.genreid and g.name = # group by t.albumid order by num desc"
+2019-03-31 12:10:00,1

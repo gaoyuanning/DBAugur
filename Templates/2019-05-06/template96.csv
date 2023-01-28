@@ -1,0 +1,4 @@
+3,"SELECT TOP # y.r, y.g, p.oiii_#_flux_err as oif_e, p.h_beta_flux_err as hbf_e, p.nii_#_flux_err as nif_e, p.h_alpha_flux_err as haf_e, oiii_#_flux as oif, h_beta_flux as hbf, nii_#_flux as nif, h_alpha_flux as haf, p.specObjID, zs.nvote, zs.p_el as elliptical, zs.p_cw as spiralclock, zs.p_acw as spiralanticlock, zs.p_edge as edgeon, zs.p_dk as dontknow, zs.p_mg as merger         FROM galSpecLine as p    JOIN ZooSpec AS zs ON p.specObjID = zs.specobjid    JOIN Galaxy as y ON p.specObjID = y.specObjID    WHERE zs.nvote >= # and zs.p_cw >#    AND oiii_#_flux_err ># AND h_beta_flux_err ># AND nii_#_flux_err ># AND h_alpha_flux_err ># AND oiii_#_flux/oiii_#_flux_err ># AND h_beta_flux/h_beta_flux_err ># AND nii_#_flux/nii_#_flux_err ># AND h_alpha_flux/h_alpha_flux_err >#"
+2019-05-06 13:46:00,1
+2019-05-06 13:47:00,1
+2019-05-06 19:33:00,1

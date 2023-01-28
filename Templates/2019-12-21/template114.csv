@@ -1,0 +1,2 @@
+2,"SELECT A.RAJ2#WISE_AGN_R9#_ptsrc_VIZIER,A.DEJ2#WISE_AGN_R9#_ptsrc_VIZIER,        A.zphot,A.SFR_UV,A.logMstar,        C.ra,C.dec,C.objID,C.z,        D.class,D.subClass,        E.ssfr,E.logMass FROM   MyDB.CCOSEDProps AS A   CROSS APPLY dbo.fGetNearestObjEq(A.RAJ2#WISE_AGN_R9#_ptsrc_VIZIER,A.RAJ2#WISE_AGN_R9#_ptsrc_VIZIER,#/#.) AS B   JOIN SpecPhoto as C on B.objID=C.objID   JOIN SpecObj as D on C.specObjID=D.specObjID   LEFT JOIN stellarMassFSPSGranEarlyDust as E on C.specObjID=E.specObjID INTO    MyDB.CCOSEDProps_SpecPhotoFGED"
+2019-12-21 15:58:00,2

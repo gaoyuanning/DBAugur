@@ -1,0 +1,3 @@
+4,"select top # astar.ra, astar.dec from apogeestar as astar join apogeeplate as ap on sp.location_id = astar.location_id where ap.plate = #"
+2019-10-02 11:46:00,3
+2019-10-02 11:47:00,1

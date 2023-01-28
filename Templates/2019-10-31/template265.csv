@@ -1,0 +1,2 @@
+1,"SELECT objID, clean, ra, dec, zWarning, programname FROM SpecObj as s JOIN SpecPhotoAll AS p ON s.specObjID = p.specObjID WHERE s.clean = # AND s.ra BETWEEN # and # AND s.dec BETWEEN # and # and s.class = GALAXY and s.subClass = NULL"
+2019-10-31 15:11:00,1

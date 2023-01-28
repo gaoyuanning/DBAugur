@@ -1,0 +1,2 @@
+1,"select soa.plate,soa.mjd,soa.fiberid,(soa.segue2_target1 & #),(soa.segue2_target1 & #),(soa.segue2_target1 & #),(soa.segue2_target1),soa.segue2_target2,soa.segue2primary  from SegueTargetAll as soa  WHERE (soa.segue2_target1 & #)!= #  and soa.segue2primary>#"
+2019-08-26 12:43:00,1

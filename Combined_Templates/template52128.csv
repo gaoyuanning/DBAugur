@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.l, p.b, p.dered_u, p.dered_g, p.dered_r, p.dered_i, p.dered_z, spp.ELODIERVFINAL, spp.ELODIERVFINALERR into mydb.AllRVs from PhotoObj AS p JOIN sppParams AS spp ON spp.bestobjid = p.objid WHERE spp.ELODIERVFINAL > #"
+2019-07-16 12:36:00,1

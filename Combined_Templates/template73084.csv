@@ -1,0 +1,2 @@
+1,"SELECT str (p.ra, #, #) as ra, str (p.[dec], #, #) as dec, p.u, p.g, p.r, p.i, p.z, p.modelMagErr_u, p.modelMagErr_g, p.modelMagErr_r, p.modelMagErr_i, p.modelMagErr_z FROM BESTDR7..Galaxy AS p"
+2019-11-01 07:33:00,1

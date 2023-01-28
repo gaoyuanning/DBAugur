@@ -1,0 +1,2 @@
+1,SELECT TOP # * into mydb.LSA_#_id from galaxy WHERE specObjID IN ()
+2019-05-26 17:50:00,1

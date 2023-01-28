@@ -1,0 +1,2 @@
+2,"SELECT p1.ra_#, p1.dec_#, p1.objID, p1.CATAID, p1.specname_#, p.objID, p.mode, p.type, p.probPSF, p.ra, p.dec, p.fiberMag_r, p.fiberMagErr_r, p.deVAB_r, p.deVABErr_r, p.deVPhi_r, p.deVRad_r, p.deVRadErr_r, p.deVMag_r, p.deVMagErr_r, p.extinction_r, p.dered_u, p.dered_g, p.dered_r, p.dered_i, p.dered_z, p.fracDeV_g, p.fracDeV_r, p.petroMag_g, p.petroMag_r FROM PhotoObjAll as p, mydb.SpecAllv2#_radec_specid_cataid_objid as p1 WHERE p1.objID = p.objID and p.mode = # INTO mydb.omegak_sdssDR6_photometry_puc"
+2019-04-08 14:20:00,2

@@ -1,0 +1,2 @@
+1,"SELECT Top # p.ra,p.dec,p.type,p.CmodelMag_g,p.CmodelMag_r FROM PhotoObj AS p WHERE  p.ra BETWEEN #-# AND #+#  AND p.dec BETWEEN #-# AND #+#  AND p.type = #"
+2019-11-27 12:27:00,1

@@ -1,0 +1,2 @@
+1,select * from photoObj where objID in ( #)
+2019-06-27 12:57:00,1

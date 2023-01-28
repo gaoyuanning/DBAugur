@@ -1,0 +1,2 @@
+1,"SELECT top # p.objID, p.ra, p.dec, s.z, s.class, s.subclass, dbo.fPrimTargetN (s.PrimTarget) as PrimTarget FROM photoObj p, specObj s WHERE p.clean = # and s.bestObjID = p.ObjID and ( (p.g < = #) and (p.u - p.g BETWEEN # AND #) and (p.g - p.r BETWEEN # AND #) and (p.r - p.i BETWEEN # AND #) and (p.i - p.z BETWEEN # AND #)"
+2019-11-12 18:51:00,1

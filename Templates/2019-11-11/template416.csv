@@ -1,0 +1,7 @@
+678,"SELECT sp.objid,sp.ra,sp.dec, sp.class, sp.z as redshift, sp.dered_r FROM SpecPhoto AS sp WHERE sp.z ># AND sp.z < # AND sp.class = GALAXY&&&"
+2019-11-11 01:55:00,138
+2019-11-11 01:56:00,173
+2019-11-11 01:57:00,15
+2019-11-11 02:06:00,111
+2019-11-11 02:07:00,174
+2019-11-11 02:08:00,67

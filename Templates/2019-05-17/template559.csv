@@ -1,0 +1,2 @@
+1,"SELECT objid, r FROM PhotoObj WHERE u <# # AND r > # ORDER BY objid"
+2019-05-17 03:38:00,1

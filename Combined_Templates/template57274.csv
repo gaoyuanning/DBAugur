@@ -1,0 +1,5 @@
+6,"SELECT [objID], [ra], [dec], [raErr], [decErr], [b], [l], [htmID], [u], [g], [r], [i], [z], [type] FROM [BESTDR1#].[dbo].[PhotoObjAll]"
+2019-08-13 10:01:00,2
+2019-08-13 10:02:00,1
+2019-08-13 10:23:00,2
+2019-08-13 10:24:00,1

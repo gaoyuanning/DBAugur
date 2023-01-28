@@ -1,0 +1,2 @@
+1,"select bestObjID , survey ,z from SpecObj where class = &&& and survey = &&& and zWarning = # and z > # and z < # order by rand() limit #"
+2019-03-02 16:03:00,1

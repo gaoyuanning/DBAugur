@@ -1,0 +1,2 @@
+1,"SELECT objID. ra. dec. u. g. r. i. z. into mydb.MyTable from dbo.PhotoObjAll WHERE fgetnearbyobjeq (#, #, #)"
+2019-06-03 03:12:00,1

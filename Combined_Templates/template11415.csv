@@ -1,0 +1,2 @@
+1,"select p.ra, p.dec, p.g, p.r, p.type from photoobjall where ra between # and # and dec between # and #"
+2019-02-15 15:12:00,1

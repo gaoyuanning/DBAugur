@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra, dec, specobjid, plate, mjd, fiberid,z, sp.fiberMag_i,run2d FROM specphoto as sp WHERE survey = &&& and program=&&& AND z between # and #"
+2019-02-04 23:56:00,1

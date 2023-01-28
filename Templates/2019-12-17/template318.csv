@@ -1,0 +1,2 @@
+1,"SELECT TOP # g.objid, g.modelMag_u, g.modelMag_g, g.modelMag_r, g.modelMag_i, g.modelMag_z  pz.absMagU, pz.absMagG, pz.absMagR, pz.absMagI, pz.absMagZ, n.sersic_n  INTO mydb.hugetable2# FROM Galaxy as G JOIN ZooSpec AS zns ON G.objid = zns.objid JOIN SpecObj AS s ON s.bestObjID = G.objID JOIN Photoz AS pz ON pz.objID = G.objID JOIN nsatlas AS n ON n.mjd = s.mjd and n.fiberID = s.fiberID and n.plate = s.plate WHERE g.clean=# and zns.nvote >= # and s.zWarning = #"
+2019-12-17 08:16:00,1

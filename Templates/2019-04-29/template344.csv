@@ -1,0 +1,2 @@
+1,"CREATE TABLE [Cognitive_function_online] ( 	eid BIGINT NOT NULL ,	[When_initial_questions_completed_#] DATETIME -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Invitation_to_complete_online_cognitive_function_questionnaire_date_sent_#] DATETIME -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=# ,PRIMARY KEY (eid)) GO"
+2019-04-29 11:39:00,1

@@ -1,0 +1,8 @@
+8,"SELECT * FROM  (SELECT p.u, p.g, p.r, p.i, p.z, s.class, s.z as z1, s.zerr, number = ROW_NUMBER() OVER (ORDER BY p.objid)  FROM PhotoObj AS p   JOIN SpecObj AS s ON s.bestobjid = p.objid  WHERE   p.u BETWEEN # AND #   AND p.g BETWEEN # AND #   AND s.class <> &&&   AND s.class <> &&&   AND s.class <> &&&   AND s.class <> &&&)  T2 WHERE number BETWEEN # AND #"
+2019-11-19 11:25:00,1
+2019-11-19 13:22:00,1
+2019-11-19 13:31:00,1
+2019-11-19 13:42:00,2
+2019-11-19 13:44:00,1
+2019-11-19 13:45:00,1
+2019-11-19 13:51:00,1

@@ -1,0 +1,2 @@
+1,"SELECT ast.apogee_id, ap.target_id, ast.apstar_id, ast.glon, ast.glat, ast.RA, ast.DEC, ast.snr, ast.vhelio_avg, ast.rv_teff, ap.j, ap.h, ap.k, ap.ak_wise, ap.ak_targ, asp.fe_h, asp.fe_h_err, asp.mg_fe, asp.mg_fe_err into mikelong1# FROM dbo.apogeeStar as ast JOIN dbo.apogeeObject as ap ON (ap.apogee_id = ast.apogee_id) JOIN dbo.aspcapStar as asp ON (asp.apogee_id = ast.apogee_id) WHERE ( ((ast.glon < #) AND (ast.glon > #) ) AND ( (ast.glat < #) AND (ast.glat > #) ) AND (ast.vhelio_avg > #) AND (ast.vhelio_avg < #) )"
+2019-09-27 07:21:00,1

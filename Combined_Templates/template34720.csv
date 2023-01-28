@@ -1,0 +1,2 @@
+1,"SELECT b.ra AS lam_ra, b.dec AS lam_dec, a.ra AS SDSS_ra, a.dec AS SDSS_dec, a.petroMag_u, a.petroMag_g , a.petroMag_r , a.petroMag_i , a.petroMag_z into mydb.cross_petroMag from mydb.cross_mag AS b CROSS APPLY dbo.fGetNearestObjEq (b.ra, b.dec, #) AS c JOIN DR1#.PhotoObjAll AS a ON a.objid = b.objid"
+2019-04-25 05:23:00,1

@@ -1,0 +1,2 @@
+1,"SELECT to upload -- the results to the SAS (Science Archive Server) for FITS file retrieval. SELECT TOP # objid, ra, dec, u, g, r, i, z, FROM PhotoObj WHERE z> =# and z< #"
+2019-05-21 02:07:00,1

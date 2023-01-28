@@ -1,0 +1,3 @@
+2,"SELECT objID, ra, dec, u , err_u, g, err_g, r, err_r, i, err_i, z, err_z into mydb.PhotoObjAllSDSSDR1# from PhotoObjAll"
+2019-03-28 07:40:00,1
+2019-03-28 10:15:00,1

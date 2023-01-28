@@ -1,0 +1,2 @@
+1,"select ra, dec, modelmag_u from photoObj where type = # AND modelmag_u> #"
+2019-09-26 02:56:00,1

@@ -1,0 +1,2 @@
+1,"SELECT ra, dec,dbo.fDistanceEq(#,#,ra,dec) into mydb.MyTable from mydb.stripe1"
+2019-05-02 05:14:00,1

@@ -1,0 +1,2 @@
+1,"select a.specobjid, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z, modelMagErr_u, modelMagErr_g, modelMagErr_r, modelMagErr_i, modelMagErr_z into mydb.DR1#_modelmag from specobjall as a, specphotoall as b where a.specobjid = b.specobjid order by a.specobjid"
+2019-02-14 04:37:00,1

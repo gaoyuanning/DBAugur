@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.l, p.b, p.type FROM PhotoPrimary AS p WHERE (ra between # and #) and (dec between # and #)"
+2019-03-06 17:18:00,1

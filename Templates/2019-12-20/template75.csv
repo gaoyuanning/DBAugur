@@ -1,0 +1,3 @@
+2,"SELECT Top # spPhoto.specObjID, spObj.bestObjID, spPhoto.mjd, spPhoto.plate, spPhoto.fiberID, spPhoto.subClass, spPhoto.ra, spPhoto.dec, spPhoto.psfMag_u, spPhoto.psfMag_g, spPhoto.psfMag_r, spPhoto.psfMag_i, spPhoto.psfMag_z, spObj.elodieObject, spObj.elodieSpType, spObj.elodieBV, spObj.elodieTEff, spObj.elodieLogG, spObj.elodieFeH FROM SpecPhoto as spPhoto join SpecObj as spObj On spPhoto.SPECOBJID = spObj.SPECOBJID  where spObj.class = &&&  and spObj.survey = &&&"
+2019-12-20 20:26:00,1
+2019-12-20 20:28:00,1

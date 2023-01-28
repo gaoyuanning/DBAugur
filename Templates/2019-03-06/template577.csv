@@ -1,0 +1,2 @@
+1,select top # tm.text from Messages c join TextMessages tm on tm.row_id = c.row_id
+2019-03-06 10:54:00,1

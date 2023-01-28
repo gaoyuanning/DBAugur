@@ -1,0 +1,2 @@
+1,"SELECT jd, starname, rv, BARYCENTRICVEL FROM marvelsVelocityCurveUF1D WHERE starname LIKE #PEG"
+2019-07-12 01:43:00,1

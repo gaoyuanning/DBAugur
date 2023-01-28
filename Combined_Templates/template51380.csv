@@ -1,0 +1,2 @@
+1,"select apstar_id, apogee_id, location_id into mydb.apogeestar from apogeestar"
+2019-07-11 09:57:00,1

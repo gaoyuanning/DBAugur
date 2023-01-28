@@ -1,0 +1,2 @@
+1,"SELECT s.mjd, s.plate, s.fiberID, s.z, s.specobjID FROM SpecObjAll s, SpecLineAll l1, SpecLineAll l2 WHERE s.specobjID = l1.specobjID and s.specobjID = l2.specobjID ORDER BY s.specobjID"
+2019-07-29 23:32:00,1

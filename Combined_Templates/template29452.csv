@@ -1,0 +1,2 @@
+1,"SELECT s.specObjID, s.ra, s.dec, s.z, s.class, s.zWarning, s.snMedian, el.ra, el.dec from mydb.MyTable_# as el CROSS APPLY dbo.fGetNearestSpecObjEq (el.ra1, el.dec1, #) AS near JOIN SpecObjAll as s ON s.specObjID = near.specObjID WHERE s.snMedian > = # AND s.class = # AND s.zWarning = #"
+2019-04-11 06:03:00,1

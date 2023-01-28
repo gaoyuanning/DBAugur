@@ -1,0 +1,2 @@
+1,"select a1.name name1, a2.name as name2 from chinook.artist a1 join chinook.artist a2 on a2.name like #+a1.name+# -- and a1.name ! = a2.name order by a1.name"
+2019-03-30 10:10:00,1

@@ -1,0 +1,2 @@
+1,"SELECT AVG(z) SpecObjID, z FROM SpecObj  WHERE class = &&&  AND zWarning = #  AND z BETWEEN # and #"
+2019-03-20 16:17:00,1

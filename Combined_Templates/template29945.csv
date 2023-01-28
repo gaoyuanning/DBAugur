@@ -1,0 +1,2 @@
+2,"SELECT g.specobjid, l.sii_#_cont, l.sii_#_cont_err, l.sii_#_reqw, l.sii_#_reqw_err, l.sii_#_eqw, l.sii_#_eqw_err, l.sii_#_flux, l.sii_#_flux_err, l.sii_#_inst_res, l.sii_#_chisq, l.sii_#_cont, l.sii_#_cont_err, l.sii_#_reqw, l.sii_#_reqw_err, l.sii_#_eqw, l.sii_#_eqw_err, l.sii_#_flux, l.sii_#_flux_err, l.sii_#_inst_res, l.sii_#_chisq into mydb.DR1#_line9 from galspecinfo AS g JOIN galspecline AS l ON l.specobjid = g.specobjid JOIN SpecObjAll AS s ON s.specobjid = g.specobjid WHERE s.scienceprimary = #"
+2019-04-13 01:26:00,2

@@ -1,0 +1,2 @@
+2,"SELECT TOP #    ROW_NUMBER() OVER(ORDER BY gi.specobjid) AS Row,    gi.specobjid AS giSpecObjID, gl.specobjid AS glSpecObjID FROM galSpecInfo as gi    JOIN galSpecLine AS gl ON gi.specobjid = gl.specobjid"
+2019-04-16 06:22:00,2

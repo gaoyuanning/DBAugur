@@ -1,0 +1,2 @@
+1,"SELECT  ObJID,ra,dec into mydb.coordinates FROM PhotoObjAll"
+2019-04-03 07:49:00,1

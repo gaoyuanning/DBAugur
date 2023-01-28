@@ -1,0 +1,2 @@
+1,"select count (pz.objid) from Photoz2 pz, SpecObj s where pz.objID = s.specObjID AND pz.Flag = #"
+2019-09-13 17:35:00,1

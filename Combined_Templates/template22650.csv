@@ -1,0 +1,2 @@
+80,SELECT DISTINCT p.petroMag_i FROM PhotoObjAll AS p WHERE ( (p.ra between # and #) and (p.dec between # and #) )
+2019-03-22 23:16:00,80

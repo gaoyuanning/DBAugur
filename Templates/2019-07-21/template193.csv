@@ -1,0 +1,2 @@
+2,"select apogee_id, teff, teff_err, teff_flag, aspcap_chi2, aspcap_class, aspcapflag limit # from aspcapstar  into myDB.apogee"
+2019-07-21 07:39:00,2

@@ -1,0 +1,3 @@
+2,"SELECT TOP # plate, MJD, fiberID FROM specobjall (SELECT ROW_NUMBER () OVER (ORDER BY MJD) AS RowNumber) t WHERE RowNumber > = #"
+2019-09-02 07:24:00,1
+2019-09-02 07:25:00,1

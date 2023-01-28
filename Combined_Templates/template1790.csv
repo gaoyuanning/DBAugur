@@ -1,0 +1,3 @@
+2,"select objID as SDSS_ID from dbo.fGetObjFromRectEq (#, #, #, #) where type = # into GSJ_ParentPop_Stage1"
+2019-01-09 10:56:00,1
+2019-01-09 12:32:00,1

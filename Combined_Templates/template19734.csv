@@ -1,0 +1,8 @@
+11,"SELECT specObjID, ra, dec, z, SourceType, fluxObjID FROM specObj WHERE class = # AND z BETWEEN #-# AND #+# AND zWarning = # AND ra BETWEEN #-#. AND #+#. AND dec BETWEEN #-#. AND #+#. AND fluxObjID > #."
+2019-03-12 05:10:00,2
+2019-03-12 06:45:00,1
+2019-03-12 07:01:00,4
+2019-03-12 07:17:00,1
+2019-03-12 07:25:00,1
+2019-03-12 07:36:00,1
+2019-03-12 13:06:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra, modelMag_u, modelMag_g FROM photoObj WHERE ra BETWEEN # AND # and class = # and modelMag_u-modelMag_g> #"
+2019-10-24 11:07:00,1

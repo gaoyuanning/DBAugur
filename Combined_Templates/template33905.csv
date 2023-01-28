@@ -1,0 +1,2 @@
+1,"select m.Name as media, g.Name as genre from chinook.track t join chinook.MediaType m on m.MediaTypeID = t.MediaTypeID join chinook.Genre g on g.GenreID = t.GenreID"
+2019-04-24 17:57:00,1

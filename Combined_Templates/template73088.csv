@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.run, p.rerun, p.camCol, p.field, p.obj FROM BESTDR7..Galaxy AS p"
+2019-11-01 07:27:00,1

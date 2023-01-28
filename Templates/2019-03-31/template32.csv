@@ -1,0 +1,2 @@
+1,"SELECT ALL p.specObjID, p.b, n.lumDist FROM galSpecExtra AS g JOIN PhotoObjAll AS p ON p.specObjID = g.specObjID  JOIN Photoz AS n ON n.objID = p.ObjID WHERE g.lgm_fib_p9#p5 < # AND p.b BETWEEN # AND #  AND n.lumDist < #"
+2019-03-31 23:37:00,1

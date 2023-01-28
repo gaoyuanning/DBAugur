@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, (p.u-p.r) as #, (p.r-p.i) as #, (p.r-p.z) as #, (p.g-p.r) as #, p.type as obj_ph_type, s.specobjid, s.class, s.subclass, s.z as redshift into mydb.DR1#_spec_samp from PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE s.z BETWEEN # AND # AND (p.u-p.r < = #) AND (p.r-p.i < = #) AND (p.r-p.z < = #) AND (p.g-p.r > = (p.r-p.i) + #) AND (p.u-p.r > = #* (p.r-p.z) )"
+2019-08-21 12:34:00,1

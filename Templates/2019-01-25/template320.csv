@@ -1,0 +1,5 @@
+6,select fieldid from field where expapcorrectionerr_g between .# and #
+2019-01-25 00:58:00,1
+2019-01-25 04:14:00,1
+2019-01-25 04:57:00,2
+2019-01-25 12:47:00,2

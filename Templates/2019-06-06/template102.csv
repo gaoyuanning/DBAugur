@@ -1,0 +1,2 @@
+1,"SELECT    m.designation, m.ra AS ra1, m.dec AS dec1,    n.objid, n.distance,    o.ra AS ra2, o.dec AS dec2,    s.z, s.zErr, s.zWarning,    p.z as zPhot, p.zErr as zPhotErr,    o.type, o.mode,    o.dered_u, o.dered_g, o.dered_i, o.dered_r, o.dered_z into mydb.yes_offsets_all_#arcsec from mydb.wise1# AS m    -- radius is in arcmin so this should be #"
+2019-06-06 19:20:00,1

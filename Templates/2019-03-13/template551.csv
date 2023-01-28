@@ -1,0 +1,2 @@
+1,"SELECT ALL g.HUBBLE, g.hubble_src, g.type FROM RC3 AS g WHERE  g.ra between # and #"
+2019-03-13 07:28:00,1

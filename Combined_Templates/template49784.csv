@@ -1,0 +1,2 @@
+1,"SELECT top # so.ra, so.dec, so.specobjid, sp.teffadop, sp.teffadopunc, sp.fehadop, sp.fehadopunc, sp.loggadop, sp.loggadop, sp.FEHANNSR, sp. FEHANNRR, sp.FEHCAIIK1, sp.ELODIERVFINAL, sp.ELODIERVFINALERR, sp.snr, sp.flag FROM dbo.fGetNearestSpecObjEq (#, #, #.) b, specobjall as so JOIN sppparams sp ON so.specobjid = sp.specobjid and so.sciencePrimary = # WHERE b.objID = so.objID"
+2019-07-04 16:01:00,1

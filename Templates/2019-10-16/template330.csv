@@ -1,0 +1,2 @@
+1,"select top # specobjid, ra,dec,run,rerun,camCol,field into mydb.MyTable from specphoto   where specclass=# and z># and z<#"
+2019-10-16 09:50:00,1

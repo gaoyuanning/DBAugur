@@ -1,0 +1,2 @@
+1,"select z as xcol, h_alpha_flux as ycol from BadBalmers where  h_alpha_flux < #e-#"
+2019-11-05 17:52:00,1

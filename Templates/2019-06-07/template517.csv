@@ -1,0 +1,2 @@
+1,"SELECT galSpecLine.specObjID FROM galSpecLine, specObj WHERE    galSpecLine.specObjID = specObj.specObjID"
+2019-06-07 04:41:00,1

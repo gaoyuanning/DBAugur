@@ -1,0 +1,2 @@
+1,"SELECT TOP #    p.ra,p.dec,p.psfMag_u,p.psfMag_g,p.psfMag_r,p.psfMag_i,p.psfMag_z,p.psfMagErr_u, p.psfMagErr_g, p.psfMagErr_r, p.psfMagErr_i, p.psfMagErr_z  INTO SA9# FROM PhotoObj AS p WHERE     p.ra BETWEEN # and # AND p.dec BETWEEN #. and #.    p.psfMag_r BETWEEN # AND #    AND p,psfMagErr_r BETWEEN # AND #"
+2019-06-06 09:03:00,1

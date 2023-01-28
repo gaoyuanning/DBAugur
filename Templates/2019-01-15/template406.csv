@@ -1,0 +1,2 @@
+1,"SELECT top #  s.specObjID,  s.objID,  s.z,  s.petroMag_g,  s.petroMag_u,  s.petroMag_r,  s.petroMag_i,  s.plate,  s.mjd,  s.fiberid FROM   SpecPhoto as s"
+2019-01-15 10:59:00,1

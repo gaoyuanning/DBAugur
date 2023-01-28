@@ -1,0 +1,2 @@
+1,"select top # max (modelMag_g) as, ra, dec from PhotoTag"
+2019-03-22 19:30:00,1

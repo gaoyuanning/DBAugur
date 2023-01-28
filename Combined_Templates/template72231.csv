@@ -1,0 +1,2 @@
+1,"SELECT sp.objid, sp.ra, sp.dec, sp.class, sp.z FROM SpecPhoto AS sp JOIN specphotoall as spa on sp.z = spa.z WHERE z > # AND z < # AND class = GALAXY#"
+2019-10-28 20:36:00,1

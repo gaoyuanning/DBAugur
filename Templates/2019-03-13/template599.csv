@@ -1,0 +1,2 @@
+1,"SELECT  objID, field, ra, dec, modelmag_u, modelmag_g, modelmag_r, modelmag_i, modelmag_z, extinction_r into mydb.G0#x from DR1#.PhotoPrimary 	 WHERE   ra > # and ra < # and dec > # and dec < +#"
+2019-03-13 04:59:00,1

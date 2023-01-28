@@ -1,0 +1,3 @@
+2,"select G.objid, G.ra, G.dec, G.lnLExp_r, G.lnLDev_r, G.petroMag_r, G.extinction_r, # as spiral, # as nvote, # as mE1_u, # as mE1_g, G.mE1_r, # as mE1_i, # as mE1_z, # as mE2_u, # as mE2_g, G.mE2_r, # as mE2_i, # as mE2_z, # as mRrCc_u, # as mRrCc_g, G.mRrCc_r, # as mRrCc_i, # as mRrCc_z, # as mRrCcPSF_u, # as mRrCcPSF_g, G.mRrCcPSF_r, # as mRrCcPSF_i, # as mRrCcPSF_z, # as mE1PSF_u, # as mE1PSF_g, G.mE1PSF_r, # as mE1PSF_i, # as mE1PSF_z, # as mE2PSF_u, # as mE2PSF_g, G.mE2PSF_r, # as mE2PSF_i, # as mE2PSF_z into mydb.duplicates FROM Galaxy as G WHERE objid > # and objid < #"
+2019-06-24 15:11:00,1
+2019-06-24 15:12:00,1

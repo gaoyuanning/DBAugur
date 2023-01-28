@@ -1,0 +1,2 @@
+1,"select top # s.specobjid, s.bestobjid, ra, dec, s.class, s.subClass, s.z as redshift, s.elodieTEff, s.elodieLogG, s.elodieFeH, survey, run2d, s.plate, s.mjd, s.fiberid from SpecObj AS s into dr1#specobj_casjobs"
+2019-02-01 03:07:00,1

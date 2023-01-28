@@ -1,0 +1,3 @@
+3,"select *  from dbo.fGetNearestFrameidEq(#, #,#)"
+2019-04-17 10:56:00,1
+2019-04-17 10:57:00,2

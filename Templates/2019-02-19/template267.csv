@@ -1,0 +1,2 @@
+1,"select top # m.*, u.user_id from SciServerLog.Messages m join Users u on u.user_id = m.user_id where m.task_name like &&&"
+2019-02-19 14:38:00,1

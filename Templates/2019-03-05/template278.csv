@@ -1,0 +1,4 @@
+3,"select s.ra,s.dec,s.z,s.specobjid from specobj as s,  dbo.fGetNearbySpecObjEq(#,#,#) as N where s.specobjID = N.specobjID and  s.z between # and # and class=&&&"
+2019-03-05 17:32:00,1
+2019-03-05 17:34:00,1
+2019-03-05 17:35:00,1

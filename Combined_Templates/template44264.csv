@@ -1,0 +1,2 @@
+1,"select ra, dec, SpecObjID, bestObjID from specObj where bestObjID IN ()"
+2019-06-06 10:39:00,1

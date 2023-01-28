@@ -1,0 +1,2 @@
+1,"select g,r,i,ra,dec from Galaxy where ra > # and ra < # and dec < # and dec > #  and r < # and r > #"
+2019-04-10 16:03:00,1

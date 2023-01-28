@@ -1,0 +1,2 @@
+1,"SELECT count (*) as #, sum (case when (Type = #) then # else # end) as #, sum (case when (Type = #) then # else # end) as #, sum (case when (Type not IN () ) then # else # end) as # FROM PhotoPrimary WHERE (longitude between # and #) and (latitude between # and #)"
+2019-03-07 13:50:00,1

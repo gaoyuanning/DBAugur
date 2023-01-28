@@ -1,0 +1,3 @@
+2,"select TOP # SQRT(POWER(((m.objra-w.ra)*cos((w.dec)*(#/#))),#)+(POWER((m.objdec-w.dec),#)))*# from mangaDRPall m, WISE_allsky w"
+2019-04-02 06:49:00,1
+2019-04-02 06:54:00,1

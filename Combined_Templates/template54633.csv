@@ -1,0 +1,2 @@
+2,"SELECT m.objid, s.specobjid, p.ra, p.dec, p.dered_u, p.dered_g, p.dered_r, p.dered_i, p.dered_z, s.z as redshift , g.h_alpha_flux, g.h_beta_flux, g.oiii_#_flux, g.nii_#_flux, g.oi_#_flux, g.sii_#_flux into S0_#_posib_data from dr1#.PhotoObjAll AS p JOIN DR1#.SpecObj AS s ON s.bestobjid = p.objid JOIN MyDB.S0_#_posib AS m ON m.objid = p.objid JOIN DR1#.galSpecLine AS g ON s.specobjid = g.specobjid"
+2019-07-30 09:04:00,2

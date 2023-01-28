@@ -1,0 +1,7 @@
+6,"SELECT s.specobjid, s.ra, s.dec, s.plate, s.mjd, s.fiberid,  p.objID, p.run, p.rerun, p.camcol, p.field FROM #upload u       JOIN #x x ON x.up_id = u.up_id       JOIN SpecObjAll s ON s.specObjID = x.specObjID       JOIN PhotoTag p ON p.objID = s.bestObjID"
+2019-11-08 03:03:00,1
+2019-11-08 03:06:00,1
+2019-11-08 03:08:00,1
+2019-11-08 03:11:00,1
+2019-11-08 03:14:00,1
+2019-11-08 03:18:00,1

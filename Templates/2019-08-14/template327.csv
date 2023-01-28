@@ -1,0 +1,2 @@
+2,"select   m.objid as objid_file, p.objid, p.ra, p.dec, p.clean, p.type,   p.dered_u as u, p.dered_g as g, p.dered_r as r, p.dered_i as i, p.dered_z as z,   p.err_u, p.err_g, p.err_r, p.err_i, p.err_z into mydb.sagan_sdss_obid_magnitudes_DR1#    from   photoobj p, mydb.sagan_sdss_obid m    where   m.objid = p.objid"
+2019-08-14 14:02:00,2

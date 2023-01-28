@@ -1,0 +1,6 @@
+80,"select p.run, p.camcol, p.field from STAR as p   inner join dbo.fGetNearbyObjEq(#,#,#) as N on p.objid = N.objid"
+2019-10-09 15:09:00,2
+2019-10-09 15:34:00,16
+2019-10-09 15:38:00,30
+2019-10-09 15:42:00,30
+2019-10-09 15:46:00,2

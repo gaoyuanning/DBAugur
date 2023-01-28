@@ -1,0 +1,4 @@
+3,select ra from SpecObjAll where class = # and subclass like # group by ra having count (ra) > #) order by snr
+2019-05-05 08:08:00,1
+2019-05-05 08:10:00,1
+2019-05-27 04:01:00,1

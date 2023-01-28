@@ -1,0 +1,2 @@
+1,"select z, ra, dec, bestObjID from Galaxy where ra > # and ra < # and dec > # and dec < # and z < #"
+2019-04-26 15:42:00,1

@@ -1,0 +1,2 @@
+2,"SELECT specObjID, bestObjID, mjd, plate, fiberID, eboss_target_id, ra, dec, plateSN2, deredSN2 into mydb.MyTable from SpecObjAll WHERE z> # and z< # and waveMax-waveMin > # and plate> #"
+2019-09-04 05:16:00,2

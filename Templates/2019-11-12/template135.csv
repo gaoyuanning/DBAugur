@@ -1,0 +1,2 @@
+1,"select top # p.objid, p.ra, p.dec from photoobj p, specobj s, dbo.fgetNearByObjEq(#,#,#) n where p.objid=s.bestobjid and p.objid=n.objid and s.bestobjid=n.objid and (p.r BETWEEN # AND #)  and (s.class = &&&)"
+2019-11-12 19:24:00,1

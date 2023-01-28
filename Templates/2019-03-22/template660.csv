@@ -1,0 +1,2 @@
+1,SELECT Q1 + CAST((ROW_NUMBER() OVER(ORDER BY bestObjID)) as varchar)
+2019-03-22 08:10:00,1

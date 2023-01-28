@@ -1,0 +1,6 @@
+5,"SELECT first.plate, other.plate, first.mjd, other.mjd, first.fiberid, other.fiberid, first.ra, other.ra, first.dec, other.dec, first.z FROM specObjAll first JOIN specObjAll other ON first.bestObjID = other.bestObjID JOIN plateX firstPlate ON firstPlate.plate = # JOIN plateX otherPlate ON otherPlate.plate = # WHERE first.scienceprimary = # AND other.scienceprimary = # AND other.bestObjID > # AND first.plate = # AND (first.specclass = # OR first.specclass = #) AND (first.dec = other.dec) AND (first.ra = other.ra) AND (first.z < #) GROUP BY first.plate, other.plate, first.mjd, other.mjd, first.fiberid, other.fiberid, first.ra, first.dec, other.ra, other.dec, first.z ORDER BY first.ra"
+2019-03-03 09:32:00,1
+2019-03-03 10:53:00,1
+2019-03-03 11:16:00,1
+2019-03-03 11:57:00,1
+2019-03-03 12:26:00,1

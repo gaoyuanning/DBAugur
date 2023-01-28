@@ -1,0 +1,2 @@
+1,"select top #     S.ra as sdss_ra, S.dec as sdss_dec, W.ra as wise_ra, W.dec as wise_dec,     S.psfmag_r as r, W.w1mpro as w1 from wise_xmatch as X     join wise_allsky as W on X.wise_cntr = W.cntr     join photoTag as S on X.sdss_objid = S.objid where S.nchild = #     # AND S.psfmag_r between # and #     AND cModelMag_i between # and #     # The image I&&&m hopint that works"
+2019-04-12 10:45:00,1

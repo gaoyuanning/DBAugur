@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.ra, p.dec, s.logMASS FROM  PhotoObjAll AS p JOIN stellarMassFSPSGranEarlyDust AS s ON s.ra = p.ra  WHERE logMASS > #"
+2019-03-31 22:45:00,1

@@ -1,0 +1,9 @@
+8,"select count(expMag_u),avg(expMag_u-#*log1#(#E+#*SpecObjAll.z)),stdev(expMag_u-#*log1#(#E+#*SpecObjAll.z)),avg(expMag_g-#*log1#(#E+#*SpecObjAll.z)),stdev(expMag_g-#*log1#(#E+#*SpecObjAll.z)),avg(expMag_r-#*log1#(#E+#*SpecObjAll.z)),stdev(expMag_r-#*log1#(#E+#*SpecObjAll.z)),avg(expMag_i-#*log1#(#E+#*SpecObjAll.z)),stdev(expMag_i-#*log1#(#E+#*SpecObjAll.z)),avg(expMag_z-#*log1#(#E+#*SpecObjAll.z)),stdev(expMag_z-#*log1#(#E+#*SpecObjAll.z)) from MyDB.DR1#_cw ,PhotoObjAll,SpecObjAll where DR1#_cw.ID=PhotoObjAll.objID and SpecObjAll.bestObjID=DR1#_cw.ID and SpecObjAll.z># and SpecObjAll.z<# and (PhotoObjAll.ra<# or PhotoObjAll.ra>#) and expMag_u># and expMag_g># and expMag_r># and expMag_i># and expMag_z># and expMag_u<# and expMag_g<# and expMag_r<# and expMag_i<# and expMag_z<#    select count(expMag_u),avg(expMag_u-#*log1#(#E+#*SpecObjAll.z)),stdev(expMag_u-#*log1#(#E+#*SpecObjAll.z)),avg(expMag_g-#*log1#(#E+#*SpecObjAll.z)),stdev(expMag_g-#*log1#(#E+#*SpecObjAll.z)),avg(expMag_r-#*log1#(#E+#*SpecObjAll.z)),stdev(expMag_r-#*log1#(#E+#*SpecObjAll.z)),avg(expMag_i-#*log1#(#E+#*SpecObjAll.z)),stdev(expMag_i-#*log1#(#E+#*SpecObjAll.z)),avg(expMag_z-#*log1#(#E+#*SpecObjAll.z)),stdev(expMag_z-#*log1#(#E+#*SpecObjAll.z)) from MyDB.DR1#_ccw ,PhotoObjAll,SpecObjAll where DR1#_ccw.ID=PhotoObjAll.objID and SpecObjAll.bestObjID=DR1#_ccw.ID and SpecObjAll.z># and SpecObjAll.z<# and (PhotoObjAll.ra<# or PhotoObjAll.ra>#) and expMag_u># and expMag_g># and expMag_r># and expMag_i># and expMag_z># and expMag_u<# and expMag_g<# and expMag_r<# and expMag_i<# and expMag_z<#"
+2019-11-26 00:41:00,1
+2019-11-26 00:53:00,1
+2019-11-26 00:55:00,1
+2019-11-26 01:13:00,1
+2019-11-26 01:16:00,1
+2019-11-26 01:19:00,1
+2019-11-26 01:21:00,1
+2019-11-26 01:26:00,1

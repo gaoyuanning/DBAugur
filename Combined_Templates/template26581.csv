@@ -1,0 +1,2 @@
+2,"SELECT top # so.bestobjid, so.specobjid, so.plate, so.mjd, so.fiberid, sp.teffadop, sp.fehadop, sp.loggadop, sp.snr, sp.flag into mydb.cross_para from mydb.MyTable as b CROSS APPLY dbo.fGetNearestObjEq (b.ra, b.dec, #) as c join DR1#.specobjall as so on so.bestobjid = c.objid JOIN sppparams sp ON so.specobjid = sp.specobjid and so.sciencePrimary = #"
+2019-04-01 04:13:00,2

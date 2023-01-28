@@ -1,0 +1,2 @@
+1,"SELECT     m.EVCC, m.RA AS ra1, m.DEC AS dec1,     n.objid, n.distance,     o.ra AS ra2, o.dec AS dec2, o.bpt AS bpt into mydb.evcc_ELPort from MyDB.EVCC AS m     OUTER APPLY dbo.fGetNearestObjEq( m.RA, m.DEC, #) AS n     LEFT JOIN emissionLinesPort AS o ON n.specObjID=o.specObjID"
+2019-05-09 07:33:00,1

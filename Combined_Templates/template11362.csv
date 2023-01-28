@@ -1,0 +1,2 @@
+1,"select top # z, ra, dec, bestObjID from specObj where abs (ra) < # and abs (dec) < #"
+2019-02-15 19:25:00,1

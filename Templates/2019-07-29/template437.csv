@@ -1,0 +1,2 @@
+1,"SELECT TOP # objId,z,zErr,absMagR into mydb.MyTable from Photoz WHERE      z BETWEEN # and #      and photoErrorClass=# 	      and nnCount># 	      and zErr BETWEEN # and #"
+2019-07-29 00:14:00,1

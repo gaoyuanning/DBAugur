@@ -1,0 +1,2 @@
+1,"select t.logMass, t.logMass_err from SpecObjAll s JOIN stellarMassFSPSGranEarlyDust t ON t.specObjID = s.specobjID where s.bestObjID = #"
+2019-03-15 14:24:00,1

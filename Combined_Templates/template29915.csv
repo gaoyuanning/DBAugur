@@ -1,0 +1,2 @@
+1,"select * from dbo.fGetNearestObjEq (#, #, #) as near join PhotoProfile as p on near.objid = p.objid"
+2019-04-13 07:29:00,1

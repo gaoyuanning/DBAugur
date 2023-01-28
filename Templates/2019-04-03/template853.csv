@@ -1,0 +1,7 @@
+6,"SELECT p.ra, p.dec, p.psfMag_u, p.psfMagErr_u, p.psfMag_g, p.psfMagErr_g, p.psfMag_r, p.psfMagErr_r, p.psfMag_i, p.psfMagErr_i, p.psfMag_z, p.psfMagErr_z, extinction_u, extinction_g,extinction_r, extinction_i, extinction_z FROM fGetNearbyObjEq(#,#,#) n, Star p WHERE n.objID=p.objID"
+2019-04-03 03:46:00,1
+2019-04-03 03:48:00,1
+2019-04-03 03:53:00,1
+2019-04-03 03:58:00,1
+2019-04-03 04:01:00,1
+2019-04-03 04:03:00,1

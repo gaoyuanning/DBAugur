@@ -1,0 +1,2 @@
+1,"select specobjid, ra,dec,spectroflux_g,spectroflux_i,elodiesptype,elodieteff,elodielogg,elodiefeh,elodiez,elodiezerr into MyDB.spectra from SpecObj where class=&&&"
+2019-06-07 13:17:00,1

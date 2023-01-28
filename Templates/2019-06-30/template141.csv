@@ -1,0 +1,2 @@
+2,"SELECT ra, dec, psfMag_u AS &&&, psfMag_g AS &&&, psfMag_r AS &&&,   psfMag_i AS &&&, psfMag_z AS &&&, z AS &&&  FROM dbo.SpecPhotoAll WHERE (z BETWEEN # AND #) AND dbo.SpecPhotoAll.class = &&& AND   dbo.SpecPhotoAll.survey = &&&;"
+2019-06-30 14:33:00,2

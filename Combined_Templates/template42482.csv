@@ -1,0 +1,2 @@
+1,"select distinct Galaxy.objID, Galaxy.specObjID, Galaxy.ra, Galaxy.dec, Spec.specObjID, zoo.dr7objid, zoo.objid into mydb.new_warp_data_dr1# from Galaxy AS Galaxy, SpecObjAll As Spec, zooVotes As Zoo where Galaxy.specObjID = Spec.specObjID AND zoo.specobjid = spec.specobjid AND Spec.z > # AND Spec.z < #"
+2019-05-29 15:01:00,1

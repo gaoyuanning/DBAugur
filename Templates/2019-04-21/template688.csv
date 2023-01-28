@@ -1,0 +1,2 @@
+1,"select top # AlbumId, sum(UnitPrice) from chinook.Track group by AlbumId order by sum(UnitPrice) desc"
+2019-04-21 00:59:00,1

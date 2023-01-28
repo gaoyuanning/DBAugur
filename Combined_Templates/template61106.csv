@@ -1,0 +1,2 @@
+1,"select s.ra, s.dec, s.z, p.ra, p.dec, p.z from SpecObj s inner join PhotoObj p where subclass = # and modelmag_g< #"
+2019-09-04 20:28:00,1

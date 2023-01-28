@@ -1,0 +1,3 @@
+2,"SELECT   s.objID, p.objID,  s.plate, s.mjd, s.fiberid,  s.z FROM Photoz AS p  JOIN SpecPhotoAll AS s ON s.objID = p.objID WHERE   s.z<#"
+2019-05-31 07:28:00,1
+2019-05-31 07:29:00,1

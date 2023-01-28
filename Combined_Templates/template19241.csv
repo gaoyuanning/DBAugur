@@ -1,0 +1,2 @@
+1,"SELECT count (*) into mydb.check_manga from mangaDRPall as m , SpecObjAll as s where (m.designid = s.designID)"
+2019-03-10 04:24:00,1

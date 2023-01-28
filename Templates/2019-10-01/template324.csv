@@ -1,0 +1,2 @@
+1,"select top # eid,Diagnoses_main_ICD1#_#,v.*,j.[key] as jk from r2#.summary_information_diagnoses_  cross apply openjson(Diagnoses_main_ICD1#_#) j cross apply openjson(j.value) v  where v.value is NOT NULL"
+2019-10-01 10:44:00,1

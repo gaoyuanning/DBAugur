@@ -1,0 +1,2 @@
+1,SELECT Galaxy.objID into mydb.SDSSdefLRGs from Galaxy JOIN wiseForcedTarget ON Galaxy.objID = wiseForcedTarget.objID
+2019-09-17 08:06:00,1

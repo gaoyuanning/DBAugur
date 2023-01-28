@@ -1,0 +1,2 @@
+1,"select top # m.time , sum (#) over (order by m.time rows between unbounded preceding and current row) as cumsum from computemessages cm join messages m on cm.row_id = m.row_id and m.method like # order by #"
+2019-09-30 13:47:00,1

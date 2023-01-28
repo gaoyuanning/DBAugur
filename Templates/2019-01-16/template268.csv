@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra,dec,objId,lcolor  FROM segueTargetAll WHERE ra ># and dec<#"
+2019-01-16 10:15:00,1

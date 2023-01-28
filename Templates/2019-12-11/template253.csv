@@ -1,0 +1,3 @@
+2,"SELECT TOP # plateifu,   m.mangaid, m.objra, m.objdec, m.mngtarg1, m.drp3qual, m.nsa_elpetro_mass  FROM mangadrpall as m  JOIN mangapipe3d as p ON m.mangaid=p.mangaid WHERE  ((m.mngtarg1 != # or m.mngtarg3 != #)  and (m.drp3qual < #)  and (m.ifudesignsize = #)  and (m.nsa_z > #)  and (m.nsa_elpetro_mass <#e1#))  and (p.log_Mass < #.)"
+2019-12-11 12:57:00,1
+2019-12-11 12:58:00,1

@@ -1,0 +1,2 @@
+1,"SELECT p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,ISNULL(str(s.z,#,#),#) as redshift FROM PhotoObjAll p LEFT OUTER JOIN specobj s on s.bestobjid=# WHERE p.objid=#"
+2019-02-22 05:54:00,1

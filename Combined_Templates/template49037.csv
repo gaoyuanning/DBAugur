@@ -1,0 +1,2 @@
+1,"SELECT specobjid, objid, ra, dec, z, zErr, zWarning, class, subClass, dered_u, modelMagErr_u, dered_g, modelMagErr_g, dered_r, modelMagErr_r, dered_i, modelMagErr_i, dered_z, modelMagErr_z FROM SpecPhotoAll WHERE class IN () AND z > # AND zErr/z < # AND zWarning = # AND mode = #"
+2019-06-29 16:35:00,1

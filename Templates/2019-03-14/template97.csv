@@ -1,0 +1,4 @@
+5,"select top #    g.ra,    g.dec,    g.petroMag_u,g.petroMag_g, g.petroMag_r,g.petroMag_i, g.petroMag_z,    g.extinction_u, g.extinction_g, g.extinction_r, g.extinction_i, g.extinction_z,    g.modelMag_u,g.modelMag_g,g.modelMag_r, g.modelMag_i, g.modelMag_z,    g.petroR5#_r,    g.petroR9#_r,    g.fracDeV_r,    s.z,    s.velDisp,   g.petroMag_r - g.extinction_r,   zp.elliptical,   zp.spiral,   zp.uncertain,   zp.rastring,   zp.decstring    into mydb.diplomatura from galaxy g, SpecObjAll s, zoospec zp   where g.objID = s.bestObjID and   g.objID=zp.objid and    # < s.z and s.z < # and    g.specObjID<># and # < g.petroMag_r-g.extinction_r and g.petroMag_r-g.extinction_r < #"
+2019-03-14 21:59:00,3
+2019-03-14 22:01:00,1
+2019-03-14 22:02:00,1

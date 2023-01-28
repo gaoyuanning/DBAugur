@@ -1,0 +1,2 @@
+2,"select plate,MJD,fiberID  from SpecObj   where subClass = &&& and sn<#"
+2019-11-14 08:47:00,2

@@ -1,0 +1,2 @@
+1,"select p.* from dbo.fGetNearbySpecObjEq (#, #, #) s, specobj p where s.specobjid = p.specobjid"
+2019-07-19 03:57:00,1

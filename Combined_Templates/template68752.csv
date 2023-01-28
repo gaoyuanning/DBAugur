@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec into mydb.MyTable from PhotoObjAll WHERE ra IN () AND dec IN ()"
+2019-10-09 16:28:00,1

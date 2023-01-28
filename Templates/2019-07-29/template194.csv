@@ -1,0 +1,2 @@
+1,"SELECT TOP #  specObjID, ra,dec FROM spSpec  WHERE   ra BETWEEN # AND #"
+2019-07-29 15:05:00,1

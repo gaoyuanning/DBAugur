@@ -1,0 +1,2 @@
+1,"SELECT G.bestObjID, G.ra, G.dec, G.z, G.zErr, G.class, G.sourceType  into mydb.t1# from SpecObjAll as G    JOIN dbo.fGetNearbyObjEq(#, #, #) AS GN ON G.bestObjID = GN.objID  WHERE class = &&&"
+2019-11-29 04:41:00,1

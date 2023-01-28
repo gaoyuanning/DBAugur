@@ -1,0 +1,2 @@
+1,"SELECT id.plate_eu, spp.PLATE, spp.SPECOBJID, spp.TEFFADOP, spp.FEHADOP into mydb.avmet_eu from mydb.eu_ids AS id, sppParams AS spp WHERE id.plate_eu = spp.PLATE"
+2019-08-09 11:50:00,1

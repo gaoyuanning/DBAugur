@@ -1,0 +1,9 @@
+9,"SELECT S.ra as ra, S.dec as dec, S.psfMag_i as mag, S.psfMagErr_i as magerr, GN.distance as distance, S.objID, S.flags FROM Star AS S JOIN dbo.fGetNearbyObjEq(#, #, #) AS GN ON S.objID = GN.objID WHERE S.psfMag_i < # AND S.psfMag_i > # ORDER BY S.psfMag_i"
+2019-09-11 16:41:00,1
+2019-09-11 16:42:00,2
+2019-09-11 16:49:00,1
+2019-09-11 18:05:00,1
+2019-09-11 20:27:00,1
+2019-09-11 20:28:00,1
+2019-09-11 20:33:00,1
+2019-09-11 23:33:00,1

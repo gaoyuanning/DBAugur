@@ -1,0 +1,2 @@
+1,select top # bestObjID from PhotoObjAll INNER JOIN SpecObjAll on SpecObjAll.ObjID = PhotoObjAll.bestObjID
+2019-03-25 15:56:00,1

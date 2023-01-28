@@ -1,0 +1,2 @@
+1,"select top # objID, ra, dec, sample into MyDB.big_query from Galaxy as Gwhere clean = # and petror9#_r > # order by objID"
+2019-01-16 00:21:00,1

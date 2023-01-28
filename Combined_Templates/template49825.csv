@@ -1,0 +1,2 @@
+1,"select c.table_schema+#+c.table_name as table_name, c.column_name, ci.datatype, ci.encoding_id , c.ordinal_position from information_schema.columns c inner join metadata.columninfo ci on ci.table_name = c.table_name and c.column_name = ci.column_name+#+cast (ci.id as varchar (#) ) union all select distinct c.table_schema+#+c.table_name as table_name, c.column_name, c.data_type as datatype, # , c.ordinal_position from information_schema.columns c where table_schema = # and column_name = #) select * from a order by #, ordinal_position"
+2019-07-04 12:33:00,1

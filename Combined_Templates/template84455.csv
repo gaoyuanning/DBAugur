@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec, s.z, s.zErr, s.velDisp, s.velDispErr, s.survey, s.programname, s.mjd, s.plate, s.fiberid, l.h_alpha_cont, l.h_alpha_flux, l.h_alpha_eqw, l.oii_#_cont, l.oii_#_flux, l.oii_#_eqw, l.oii_#_cont, l.oii_#_flux, l.oii_#_eqw, l.h_beta_cont, l.h_beta_flux, l.h_beta_eqw into mydb.legacy_only_galaxy_lines from specObj as s JOIN photoObj as p ON p.objID = s.bestObjID JOIN galSpecLine as l ON s.specObjID = l.specObjID JOIN galSpecIndx as i ON s.specObjID = i.specObjID WHERE s.programname = # AND s.class = #"
+2019-12-26 08:53:00,1

@@ -1,0 +1,2 @@
+1,"select ra, Dec, modelMag_g, z as redshift from PhotoTag where Class = STAR"
+2019-03-22 20:37:00,1

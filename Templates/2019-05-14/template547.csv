@@ -1,0 +1,2 @@
+1,"SELECT             (sqrt(abs(power(p.petroR5#_r, #)/p.expAB_r - #*power(psffwhm_r, #)))   ) AS Re into mydb.MyTable_# from PhotoObj AS p    WHERE    ((p.type = #)                AND (p.ra BETWEEN # AND #)      AND (p.dec BETWEEN # AND #)         )"
+2019-05-14 03:04:00,1

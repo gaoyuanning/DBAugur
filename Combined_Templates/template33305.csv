@@ -1,0 +1,7 @@
+8,"SELECT p.ra, p.dec, p.objID, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMagErr_u, p.psfMagErr_g, p.psfMagErr_r into mydb.SDSS_wisp0#_ugr from PhotoObjAll p where p.type = # AND p.ra > = #-# AND p.ra < = #+# AND p.dec > = #-# AND p.dec < = #+#"
+2019-04-23 00:33:00,2
+2019-04-23 01:12:00,1
+2019-06-25 01:53:00,1
+2019-06-25 01:58:00,1
+2019-06-25 02:01:00,1
+2019-08-14 02:33:00,2

@@ -1,0 +1,2 @@
+1,"select p.objID, p.ra, p.dec, p.petroMag_r, z.z into mydb.photogal_voidgroup_maglim_pz_lim  from PhotoObjAll p   join Photoz z on z.objID=p.objID where p.type=# and p.ra between # and # and p.dec between # and # and p.petroMag_r between # and # and z.z between #-z.zErr and #+z.zErr"
+2019-11-11 04:34:00,1

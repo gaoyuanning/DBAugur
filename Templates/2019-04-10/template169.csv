@@ -1,0 +1,2 @@
+9,"SELECT      pz.objid     FROM PhotoObjAll  as pz     JOIN dbo.fGetNearestObjEq( #,#,#)      AS n ON pz.objid = n.objid"
+2019-04-10 19:39:00,9

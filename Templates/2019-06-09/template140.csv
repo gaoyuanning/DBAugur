@@ -1,0 +1,2 @@
+2,"select    A.specObjID,    A.plateid,    A.mjd,    A.fiberID,    B.h_beta_flux,    B.h_alpha_flux,    B.oiii_#_flux,    B.oiii_#_flux,    B.nii_#_flux,    B.nii_#_flux,    B.h_beta_flux_err,    B.h_alpha_flux_err,    B.oiii_#_flux_err,    B.oiii_#_flux_err,    B.nii_#_flux_err,    B.nii_#_flux_err    B.sii_#_flux,    B.sii_#_flux_err,    B.sii_#_flux_err,    B.sii_#_flux,    B.oi_#_flux,    B.oi_#_flux_err,     INTO MYDB.ROSI_TFM_STARBURST FROM    MYDB.ROSII_STARBURST as A JOIN galSpecLine as B on A.specObjID = B.specObjID"
+2019-06-09 18:49:00,2

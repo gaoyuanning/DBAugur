@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.fiber2Mag_r, IS# (s.anyOrMask, #) as anyOrMask FROM ..PhotoObj AS p LEFT OUTER JOIN ..SpecObj s ON p.objID = s.bestObjID WHERE (p.type = # OR p.type = #)"
+2019-03-01 15:29:00,1

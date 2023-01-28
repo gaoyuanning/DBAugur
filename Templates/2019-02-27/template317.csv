@@ -1,0 +1,2 @@
+3,"SELECT TOP #   SPhot.specObjID,   SPhot.mjd,   SPhot.plate,   SPhot.fiberID,      SPhot.z,   SPhot.zErr,      SPhot.ra,   SPhot.dec,      SPhot.objID, --  SPhot.objtype, --  SPhot.type,      SObj.sn_#,  --  Median S/N in g&&&   SObj.sn_#,  -- Median S/N in i&&&Ha_#'   --and L1.LineID = LN1.value  -- The wavelength of the line (for H_alpha, # Angstroms)   --and L1.ew > #"
+2019-02-27 18:26:00,3

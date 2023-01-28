@@ -1,0 +1,4 @@
+5,"SELECT TOP # s.plate, s.mjd, s.fiberid, s.z, s.zErr, s.zWarning, s.class, p.run, p.rerun, p.camCol, p.field, p.obj, cast (str (p.ra, #, #) as float) as ra, cast (str (p.[dec], #, #) as float) as dec, p.r, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, dbo.fIAUFromEq (p.ra, p.[dec]) as SDSSname FROM ..SpecObj as s JOIN ..PhotoObj AS p ON s.bestObjID = p.objID WHERE SDSSname = # AND s.zWarning = # AND (s.class = #) AND p.u < # AND p.g < # AND p.r < # AND p.i < # AND (p.type = # OR p.type = #)"
+2019-12-04 09:00:00,2
+2019-12-04 09:07:00,1
+2019-12-04 09:08:00,2

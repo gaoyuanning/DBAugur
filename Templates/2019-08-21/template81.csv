@@ -1,0 +1,11 @@
+10,"SELECT   A.RAJ2#,A.DEJ2#,C.mode,C.run,C.rerun,C.camcol,C.field,C.obj,C.type,C.clean,C.probPSF,C.flags,D.z,D.zerr,D.class,D.subClass,A.INDX,C.objID,C.ra,C.raErr,C.dec,C.decErr,C.psfMag_u,C.fiberMag_u,C.petroMag_u,C.psfMag_g,C.fiberMag_g,C.petroMag_g,C.psfMag_r,C.fiberMag_r,C.petroMag_r,C.psfMag_i,C.fiberMag_i,C.petroMag_i,C.psfMag_z,C.fiberMag_z,C.petroMag_z,C.psfMagErr_u,C.fiberMagErr_u,C.petroMagErr_u,C.psfMagErr_g,C.fiberMagErr_g,C.petroMagErr_g,C.psfMagErr_r,C.fiberMagErr_r,C.petroMagErr_r,C.psfMagErr_i,C.fiberMagErr_i,C.petroMagErr_i,C.psfMagErr_z,C.fiberMagErr_z,C.petroMagErr_z,B.distance FROM    MyDB.WISE_AGN_R9#_ptsrc_VIZIER AS A    OUTER APPLY dbo.fGetNearestObjEq( A.RAJ2#, A.DEJ2#, #/#.) AS B    LEFT OUTER JOIN PhotoObj AS C ON B.objID=C.objID    LEFT JOIN SpecObj as D ON C.specObjID=D.specObjID  WHERE    A.INDX BETWEEN # AND # INTO    MyDB.WISE_AGN_R9#_ptsrc_VIZIER1#_SDSSDR1#_#as"
+2019-08-21 18:47:00,1
+2019-08-21 18:57:00,1
+2019-08-21 19:07:00,1
+2019-08-21 19:16:00,1
+2019-08-21 19:25:00,1
+2019-08-21 19:32:00,1
+2019-08-21 19:36:00,1
+2019-08-21 19:44:00,1
+2019-08-21 19:51:00,1
+2019-08-21 19:56:00,1

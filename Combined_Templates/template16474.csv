@@ -1,0 +1,6 @@
+5,"select p.ra, p.dec, p.objID, s.z, s.zConf, s.objType, s.specClass, p.petromag_u, p.petromag_g, p.petromag_r, p.petromag_i, p.petromag_z, p.petromagerr_u, p.petromagerr_g, p.petromagerr_r, p.petromagerr_i, p.petromagerr_z into dr5spectroscopyallstkcorr7# from dr5.photoprimary p, dr5.specobj s where p.objID = s.bestobjID and s.zConf > = # and p.petromag_r between # and # and p.type = # and ( (p.primTarget & dbo.fPrimTarget (#) > #) or (p.primTarget & dbo.fPrimTarget (#) > #) )"
+2019-03-03 09:36:00,1
+2019-03-03 10:58:00,1
+2019-03-03 11:21:00,1
+2019-03-03 12:02:00,1
+2019-03-03 12:30:00,1

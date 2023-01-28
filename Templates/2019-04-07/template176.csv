@@ -1,0 +1,2 @@
+1,"CREATE TABLE RM_BCG_ZOOSPECDR1#_OUT(  ra_BCG       float  not null,  dec_BCG       float  not null,  objID_BCG     bigint not null,  ra       float  not null,  dec       float  not null,  objID     bigint not null,   elliptical  int  not null,   spiral  int  not null,   uncertain  int  not null       );"
+2019-04-07 16:24:00,1

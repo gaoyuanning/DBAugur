@@ -1,0 +1,2 @@
+2,"SELECT g.objid as objId, /* stoke parameters*/ q_r, u_r, /* iso_a, iso_b */ FROM Galaxy AS g WHERE g.objid = #"
+2019-05-02 14:04:00,2

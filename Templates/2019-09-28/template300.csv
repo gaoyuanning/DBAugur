@@ -1,0 +1,2 @@
+1,"SELECT TOP #  M.specobjid, M.plate, M.fibreid, M.mjd, M.ra, M.dec, M.z, M.logmass, M.logmass_median FROM stellarMassFSPSGranEarlyDust AS M WHERE   M.z BETWEEN # AND #"
+2019-09-28 06:36:00,1

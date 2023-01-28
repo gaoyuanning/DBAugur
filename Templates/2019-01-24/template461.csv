@@ -1,0 +1,2 @@
+1,"SELECT top # spectroFlux_r, spectroFlux_i, spectroFlux_z FROM SpecObj WHERE zWarning=# AND z># AND ra># AND ra<# AND z<# ORDER by z"
+2019-01-24 12:31:00,1

@@ -1,0 +1,14 @@
+16,"select g.objID, pz.z, g.ra, g.dec, g.modelMag_i, g.petroMag_u, g.petroMag_g, g.petroMag_r, g.petroMag_i, g.petroMag_z, g.petroMagErr_u, g.petroMagErr_g, g.petroMagErr_r, g.petroMagErr_i, g.petroMagErr_z from Galaxy as g join Photoz as pz on pz.objID = g.objID where pz.z < # and g.ra between # and # and g.dec between # and #"
+2019-10-29 15:46:00,1
+2019-10-29 15:47:00,1
+2019-10-29 15:48:00,1
+2019-10-29 15:51:00,1
+2019-10-29 16:20:00,2
+2019-10-29 16:21:00,1
+2019-10-29 16:22:00,1
+2019-10-29 16:23:00,1
+2019-10-29 16:24:00,2
+2019-10-29 16:26:00,2
+2019-10-29 16:27:00,1
+2019-10-29 16:28:00,1
+2019-10-29 16:29:00,1

@@ -1,0 +1,2 @@
+1,"SELECT s.plate, s.ra, s.dec FROM SpectObj AS s WHERE s.plate IN ()"
+2019-05-30 17:46:00,1

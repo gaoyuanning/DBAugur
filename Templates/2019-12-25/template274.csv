@@ -1,0 +1,2 @@
+2,"SELECT   z.allamID,z.objID,z.ra,z.dec,z.SpecObjID,z.mjd,z.plate,z.fiberID,z.z,z.zWarning,   p.objID as objID_p,p.ra as ra_p,p.dec as dec_p,p.specObjID as specObjID_p,   s.specObjID as specObjID_s,s.bestObjID as bestObjID_s,s.mjd as mjd_s,s.plate as plate_s,s.fiberID as fiberID_s,s.z as z_s,s.zWarning as zWarning_s into mydb.z1# FROM mydb.zMP as z   JOIN dr1#.SpecObjAll as s ON s.mjd=z.mjd   JOIN dr1#.PhotoObjAll as p ON p.objID=s.bestObjID WHERE   s.plate=z.plate   AND s.fiberID=z.fiberID"
+2019-12-25 01:29:00,2

@@ -1,0 +1,2 @@
+2,"SELECT top # id.dr8objid, gsp.oiii_#_flux, gsp.h_beta_flux, gsp.nii_#_flux, gsp.h_alpha_flux from MyDB.S0_IDs AS id, galSpecLine AS gsp WHERE id.specObjID = gsp.specObjID"
+2019-02-07 05:53:00,2

@@ -1,0 +1,2 @@
+1,"SELECT TOP # z, lgm_tot_p5# FROM galSpecExtra JOIN SpecPhotoAll ON galSpecExtra.specObjID = SpecPhotoAll.specObjID WHERE z> # AND lgm_tot_p5#> #"
+2019-05-02 09:16:00,1

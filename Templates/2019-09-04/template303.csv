@@ -1,0 +1,2 @@
+1,"SELECT s.class , count(*) from SpecObjAll as s ,PhotoObjAll as p WHERE p.ObjID = s.specObjID and p.psfMag_r < # and p.psfMag_g < # and  p.psf_Mag_r - p.psf_Mag_g < # and s.class =&&&    GROUP BY s.class;"
+2019-09-04 16:10:00,1

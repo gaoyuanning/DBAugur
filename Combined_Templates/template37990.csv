@@ -1,0 +1,2 @@
+1,"select s.z, s.dec, s.ra into mydb.W2_number_download from specObj as s where (s.boss_Target1& (dbo.fBossTarget1 (#) | dbo.fBossTarget1 (#) )) > # and s.ra between # and # and s.dec between # and # and s.z_noqso > # and s.zWarning = # and s.class = #"
+2019-05-08 11:08:00,1

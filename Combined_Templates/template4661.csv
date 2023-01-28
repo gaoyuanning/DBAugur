@@ -1,0 +1,2 @@
+1,"select ra, dec, mjd, plate, fiberID, petroMag_g, petroMag_r, petroMag_i, petroMag_z from SpecPhotoAll where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-01-19 12:53:00,1

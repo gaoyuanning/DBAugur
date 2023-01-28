@@ -1,0 +1,8 @@
+13,"SELECT TOP # specObjID, z, spectroFlux_u, spectroFlux_g, spectroFlux_r, spectroFlux_i, spectroFlux_z FROM SpecObj WHERE class = # AND z BETWEEN # and #"
+2019-03-08 18:59:00,1
+2019-03-08 19:06:00,1
+2019-03-08 19:11:00,2
+2019-03-08 19:13:00,2
+2019-03-08 19:14:00,3
+2019-03-08 19:15:00,2
+2019-03-08 19:16:00,2

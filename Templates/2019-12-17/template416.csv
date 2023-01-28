@@ -1,0 +1,2 @@
+1,"SELECT   p.allamID,s.img into mydb.img1 FROM mydb.pmetric1 as p   JOIN SpecObjAll as s ON s.specObjID=p.specObjID   JOIN PhotoZ as z ON z.objID=p.objID WHERE   s.specObjID=p.specObjID ORDER BY   p.allamID"
+2019-12-17 01:42:00,1

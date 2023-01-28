@@ -1,0 +1,2 @@
+1,"SELECT top # specObjID, z from SpecPhotoAll where (z > # and z< #) order by z DESC"
+2019-09-25 03:27:00,1

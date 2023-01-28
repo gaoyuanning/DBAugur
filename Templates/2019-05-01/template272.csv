@@ -1,0 +1,4 @@
+4,"SELECT TOP # oiii_#_flux as oif, h_beta_flux as hbf, nii_#_flux as nif, h_alpha_flux as haf, specObjID   FROM galSpecLine as p"
+2019-05-01 10:30:00,1
+2019-05-01 10:31:00,2
+2019-05-01 14:15:00,1

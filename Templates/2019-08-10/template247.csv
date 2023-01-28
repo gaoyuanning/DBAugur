@@ -1,0 +1,2 @@
+1,"SELECT TOP # flags_r,ra,dec FROM Galaxy  WHERE  ra BETWEEN # and # AND dec BETWEEN # and #  AND ((flags_r"
+2019-08-10 13:26:00,1

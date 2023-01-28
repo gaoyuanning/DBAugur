@@ -1,0 +1,2 @@
+1,"SELECT  s.specObjID, s. mjd, s.plate, s.tile, s.xFocal, s.yFocal, s.fiberID, s.z, s.zErr, s.zconf, s.zStatus, s.specClass, s.zWarning, s.velDisp, s.velDispErr, s.eCoeff_#, s.eCoeff_#, s.eCoeff_#, s.eCoeff_#, s.eCoeff_#, s.eClass FROM SpecObjAll AS s  JOIN PhotoObj AS p ON p.objid=s.bestobjid WHERE   p.specObjID=s.specObjID"
+2019-06-27 19:13:00,1

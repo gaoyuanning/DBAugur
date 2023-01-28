@@ -1,0 +1,2 @@
+1,"select modelmag_u, modelmag_r, z, (modelmag_u-modelmag_r) as mur from SpecPhoto where class=&&& and z between # and #"
+2019-09-04 21:27:00,1

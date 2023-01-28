@@ -1,0 +1,4 @@
+4,"SELECT TOP #  sq.z as redshift, sq.width1_hb, sq.width2_hb, sq.width3_hb, sq.width4_hb FROM spiders_quasar AS sq WHERE"
+2019-04-28 16:59:00,1
+2019-04-28 17:01:00,2
+2019-04-28 17:02:00,1

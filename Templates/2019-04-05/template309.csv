@@ -1,0 +1,2 @@
+1,"select * from openquery([dsp0#], &&&)      select * from cbioportal.cancer_study"
+2019-04-05 14:36:00,1

@@ -1,0 +1,4 @@
+1940,"SELECT z, ra, dec, objID FROM SPECPhoto WHERE z> # AND z< # AND ra> # AND ra< # AND dec> # AND dec< # AND class=&&&"
+2019-01-28 09:43:00,4
+2019-01-28 09:53:00,1382
+2019-01-28 09:54:00,554

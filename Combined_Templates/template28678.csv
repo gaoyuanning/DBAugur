@@ -1,0 +1,3 @@
+2,"select p.SpecObjID, S.h_alpha_flux, S.h_alpha_cont, S.h_beta_flux, S.h_beta_cont, S.oii_#_flux, S.oii_#_cont, S.oii_#_flux, S.oii_#_cont, S.oiii_#_flux, S.oiii_#_cont, S.oiii_#_flux, S.oiii_#_cont, S.oiii_#_flux, S.oiii_#_cont, S.nii_#_flux, S.nii_#_cont, S.nii_#_flux, S.nii_#_cont, S.sii_#_flux, S.sii_#_cont, S.sii_#_flux, S.sii_#_cont into mydb.SIT4#_SDSS_Spectra_SpecObjID_linesDR1# from mydb.SIT4#_SDSS_Spectra_SpecObjID as p, galSpecLine as S where p.SpecObjID = S.specObjID"
+2019-04-09 19:15:00,1
+2019-04-09 19:16:00,1

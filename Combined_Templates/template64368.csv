@@ -1,0 +1,4 @@
+3,"SELECT TOP # modelmag_g, devmag_g, expmag_g, devrad_g, exprad_g, devab_g, expab_g, extinction_g, modelmag_r, devmag_r, expmag_r, devrad_r, exprad_r, devab_r, expab_r, extinction_r, z into mydb.sampleA from dr1#.galaxy WHERE z > # and z < # and petroR9#_r/petroR5#_r > # and eclass < # and fracdev_g = #"
+2019-09-21 16:34:00,1
+2019-09-21 16:35:00,1
+2019-09-21 16:49:00,1

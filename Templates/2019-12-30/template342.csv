@@ -1,0 +1,3 @@
+2,"SELECT TOP # plateifu, -- Get the unique object ID,     mangaid, objra, objdec, mngtarg1, drp3qual -- and other quantities FROM mangadrpall -- From the drpall catalog WHERE     ((mngtarg1 != # or mngtarg3 != #)     and (drp3qual < #)     and (ifudesignsize = #)     and (nsa_z > #)     and (nsa_elpetro_mass >#e1#))"
+2019-12-30 01:26:00,1
+2019-12-30 01:27:00,1

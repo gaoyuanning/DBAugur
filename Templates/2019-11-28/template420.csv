@@ -1,0 +1,2 @@
+1,"select top # * from specobj select  plate, mjd, fiberID from specobj where subClass=&&& and snMedian > #"
+2019-11-28 00:10:00,1

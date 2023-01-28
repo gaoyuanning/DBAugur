@@ -1,0 +1,2 @@
+1,select * from MyDB.JR_Table_SDSS where objID=#
+2019-01-04 15:02:00,1

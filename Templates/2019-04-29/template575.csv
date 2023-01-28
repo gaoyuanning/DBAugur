@@ -1,0 +1,2 @@
+1,"SELECT TOP # specobjID, z, run, mjd, fiberID FROM SpecObjAll WHERE z > # and z < #"
+2019-04-29 10:24:00,1

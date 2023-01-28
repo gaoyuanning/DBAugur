@@ -1,0 +1,2 @@
+1,SELECT count(*) as &&& into mydb.redkg_pole4 from segueTargetAll as s
+2019-08-16 12:42:00,1

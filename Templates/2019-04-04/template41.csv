@@ -1,0 +1,2 @@
+1,"select top # plateX.plate, plateX.mjd, specObj.fiberID, PhotoObj.modelMag_u, PhotoObj.modelMag_g,  PhotoObj.modelMag_r, PhotoObj.modelMag_i, PhotoObj.modelMag_z, PhotoObj.ra, PhotoObj.dec, specObj.z, PhotoObj.ObjID from PhotoObj, specObj, plateX where specObj.bestObjid = PhotoObj.ObjID AND plateX.plateID = specObj.plateID AND (specObj.specClass = # OR specObj.specClass = #) AND  specObj.zconf > # and specobj.z between # and #"
+2019-04-04 23:21:00,1

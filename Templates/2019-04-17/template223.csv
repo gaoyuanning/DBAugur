@@ -1,0 +1,3 @@
+2,"CREATE TABLE Metrics(   StudentID int,   EnrollmentGrade varchar(#),   SchoolYear4Digit int,   Period varchar(#),   AssessmentSubject varchar(#),   MetricSource varchar(#),   MetricName varchar(#),   Score int,   IsMostRecent int);"
+2019-04-17 14:14:00,1
+2019-04-17 14:46:00,1

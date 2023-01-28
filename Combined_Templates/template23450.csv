@@ -1,0 +1,2 @@
+1,"select cModelFlux_U + cModelFlux_g + cModelFlux_r + cModelFlux_i + cModelFlux_z as cModelFlux, type from PhotoObjAll left outer join specObjAll on objID = bestobjid where cModelFlux > # and type = #"
+2019-03-25 15:58:00,1

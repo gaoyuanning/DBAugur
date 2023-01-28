@@ -1,0 +1,2 @@
+1,"SELECT [m].[star], [s].[objID], [m].[sdss_id] AS SDSS_ID, [m].[source_id] AS GAIA_ID, [s].[ra], [s].[dec], [s].[psfFlux_u], [s].[psfFlux_g], [s].[psfFlux_r], [s].[psfFlux_i], [s].[psfFlux_z], [s].[psfFluxIvar_u], [s].[psfFluxIvar_g], [s].[psfFluxIvar_r], [s].[psfFluxIvar_i], [s].[psfFluxIvar_z], [s].[extinction_u], [s].[extinction_g], [s].[extinction_r], [s].[extinction_i], [s].[extinction_z] INTO MYDB.dav_phot FROM DR1#.PhotoPrimary AS [s] INNER JOIN [dav_sdssgaiaids2] AS [m] ON [m].[sdss_id] = [s].[objid]"
+2019-03-22 00:40:00,1

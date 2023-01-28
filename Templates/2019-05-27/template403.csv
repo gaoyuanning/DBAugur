@@ -1,0 +1,2 @@
+1,"SELECT ALL  p.ra,p.dec,p.petroMag_u,p.petroMag_g,p.petroMag_r,p.petroMag_i,p.petroMag_z  s.z as redshift FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   p.ra BETWEEN # AND #  P.dec BETWEEN # AND #  s.class = &&&"
+2019-05-27 08:26:00,1

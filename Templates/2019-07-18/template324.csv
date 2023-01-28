@@ -1,0 +1,4 @@
+4,"SELECT u.up_col0 as col0,     &&& + cast(x.objId as varchar(#)) + &&&+ cast(x.objId as varchar(#)) + &&& as objID, p.ra, p.dec, dbo.fPhotoTypeN(p.type) as type,    p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, s.z FROM #upload u       JOIN #x x ON x.up_id = u.up_id       JOIN PhotoTag p ON p.objID = x.objID       JOIN SpecObjAll s ON p.objID = s.bestObjID ORDER by x.up_id"
+2019-07-18 12:47:00,1
+2019-07-18 12:48:00,2
+2019-07-18 12:49:00,1

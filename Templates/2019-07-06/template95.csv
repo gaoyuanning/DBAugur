@@ -1,0 +1,3 @@
+2,"SELECT COUNT(objid)  FROM PhotoObjAll p WHERE p.ra > # AND p.ra < # AND dbo.fDistanceArcMinEq(#, #, p.ra, p.dec) < #"
+2019-07-06 20:16:00,1
+2019-07-06 20:23:00,1

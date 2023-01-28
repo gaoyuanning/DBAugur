@@ -1,0 +1,2 @@
+1,"SELECT m.objra, m.objdec, m.nsa_z as redshift FROM mangaDRPall as m WHERE m.nsa_z BETWEEN # AND # ORDER BY m.objra"
+2019-11-21 07:39:00,1

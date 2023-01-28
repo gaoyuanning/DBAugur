@@ -1,0 +1,2 @@
+1,"SELECT sp.specObjID, sp.modelMag_r, sl.lineID, sl.specobjID, sl.z into mydb.mz_tab4 from Galaxy AS sp, specLine as sl WHERE sp.specObjID = sl.specobjID AND sl.lineID = #"
+2019-06-06 06:03:00,1

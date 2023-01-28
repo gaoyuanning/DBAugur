@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.type, s.specobjid, s.class, s.subClass, s.z into mydb.MyTable_# from DR1#.PhotoObj p, MyDB.t1 a, DR1#.SpecObj s WHERE p.objid = a.objid and s.bestobjid = a.objid"
+2019-12-10 18:23:00,1

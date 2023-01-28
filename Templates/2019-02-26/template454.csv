@@ -1,0 +1,2 @@
+1,"SELECT TOP # sp.ra,sp.dec,sp.z,PZ.objId,PZ.z,PZ.zErr,P.ra, P.dec FROM Photoz as PZ,  SpecPhoto AS sp,  Neighbors as N JOIN PhotoObj AS P ON PZ.ObjID = P.ObjID WHERE sp.class = &&&  AND zWarning = #  and sp.z > #  and sp.z < #  and sp.modelMag_u<#  and PZ.z BETWEEN # and #  and PZ.photoErrorClass=#   and PZ.nnCount>#   and PZ.zErr BETWEEN # and #  and sp.z>PZ.z   and P.ObjID = N.ObjID   and sp.ObjID = N.NeighborObjID   and N.distance < #/#"
+2019-02-26 11:33:00,1

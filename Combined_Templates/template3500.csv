@@ -1,0 +1,2 @@
+1,"select d.*, s.class, s.subclass from dbo.fGetNearestSpecObjAllEq (#, #, #) as d, SpecObjAll as s where d.specObjID = s.specObjID"
+2019-01-15 00:58:00,1

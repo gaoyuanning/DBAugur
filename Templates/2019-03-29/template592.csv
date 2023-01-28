@@ -1,0 +1,3 @@
+2,"SELECT a.id, a.objid as objid1, b.neighborobjid as objid2 into mydb.MyTable_# from MyDB.MyObjs a   JOIN Neighbors b ON b.objid=a.objid WHERE b.distance = (SELECT min(distance) from Neighbors n where n.objid=a.objid)"
+2019-03-29 12:20:00,1
+2019-03-29 12:21:00,1

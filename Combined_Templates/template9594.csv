@@ -1,0 +1,2 @@
+1,"select top # s.ra, s.dec, class, m.objra, m.objdec, m.plate, m.ifudesign, m.z from mangaDAPall as m, specobj as s where s.class = # and ( ((s.ra - m.objra) * (s.ra - m.objra) + (s.dec - m.objdec) * (s.dec - m.objdec) ) < #)"
+2019-02-11 15:16:00,1

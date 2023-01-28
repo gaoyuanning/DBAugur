@@ -1,0 +1,2 @@
+1,"SELECT specObjID, bestObjID, z ,REPLACE(CONVERT(FLOAT, z),&&&,&&&) FROM SpecObj s WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&&"
+2019-03-22 12:28:00,1

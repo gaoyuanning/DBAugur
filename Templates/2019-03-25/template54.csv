@@ -1,0 +1,3 @@
+2,"SELECT mangaid,nsa_elpetro_absmag_g,nsa_elpetro_absmag_r,nsa_extinction_g,nsa_extinction_r,nsa_sersic_th5#,nsa_sersic_ba,nsa_z,nsa_zdist FROM mangaDRPall WHERE nsa_sersic_ba > #"
+2019-03-25 22:04:00,1
+2019-03-25 22:05:00,1

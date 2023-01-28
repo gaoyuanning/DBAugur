@@ -1,0 +1,5 @@
+4,"SELECT DISTINCT g.Name as Genre, mt.Name as type   FROM chinook.Track AS t     INNER JOIN chinook.MediaType AS mt     ON t.MediaTypeId = mt.MediaTypeId    INNER JOIN chinook.Genre as g     ON t.GenreId = g.GenreId ORDER by Genre"
+2019-04-21 16:18:00,1
+2019-04-21 16:32:00,1
+2019-04-21 17:25:00,1
+2019-04-21 17:27:00,1

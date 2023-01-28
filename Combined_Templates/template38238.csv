@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, z.z, z.zErr, q = CASE WHEN p.lnLExp_r < p.lnLDeV_r THEN p.DeVAB_r WHEN p.lnLExp_r > p.lnLDeV_r THEN p.expAB_r END, phi = CASE WHEN p.lnLExp_r < p.lnLDeV_r THEN p.DeVPhi_r WHEN p.lnLExp_r > p.lnLDeV_r THEN p.expPhi_r END, p.petroMag_r, p.petroMag_u, p.fracDeV_r FROM PhotoObj p, Photoz z JOIN dbo.fGetNearbyObjEq (#, #, #) n ON n.objID = p.objID WHERE p.type = #"
+2019-05-09 11:12:00,1

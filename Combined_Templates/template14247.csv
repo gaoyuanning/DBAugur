@@ -1,0 +1,2 @@
+1,"select yearId, count (*) , sum (hr) from baseball.batting group by yearid order by # desc"
+2019-02-25 09:45:00,1

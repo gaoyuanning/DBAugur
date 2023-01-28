@@ -1,0 +1,2 @@
+1,"SELECT TOP #  plate,mjd,fiberID into mydb.MyTable from SpecObjALL WHERE class = &&& AND z <= #"
+2019-07-09 10:10:00,1

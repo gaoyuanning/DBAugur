@@ -1,0 +1,3 @@
+2,"select PhotoObjAll.ObjID, PhotoObjAll.ra, PhotoObjAll.dec, buta.z into MyDB.buta_ids2 from MyDB.buta, PhotoObjAll where PhotoObjAll.type = # and PhotoObjAll.petroRad_g> # and PhotoObjAll.deVMag_g< # and sqrt (power (buta.ra-PhotoObjAll.ra, #) +power (buta.dec-PhotoObjAll.dec, #) )< #"
+2019-09-17 12:28:00,1
+2019-09-17 18:23:00,1

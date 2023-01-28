@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjId, ancillary_target1, ra, dec, class, z, zErr, modelMag_u, modelMagErr_u, modelMag_g, modelMagErr_g, modelMag_i,modelMagErr_i, modelMag_r,modelMagErr_r, modelMag_z, modelMagErr_z FROM SpecPhotoAll WHERE  ancillary_target1 = #"
+2019-09-29 22:10:00,1

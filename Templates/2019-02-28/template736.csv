@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.specObjID, n.distance AS offset FROM fGetNearbyObjEq(#,#,#) n JOIN SpecObj s ON n.specObjID=s.specObjID ORDER BY offset"
+2019-02-28 02:03:00,1

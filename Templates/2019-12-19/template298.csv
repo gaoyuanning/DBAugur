@@ -1,0 +1,2 @@
+2,"SELECT top # p.ra, p.dec, x.objID FROM mydb.galex_xsdssdr7 as p, Star as x WHERE p.SDSSObjid = x.objID"
+2019-12-19 10:45:00,2

@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.petroMag_u, p.petroMag_g, p.petroMag_r, p.petroMag_i, p.petroMag_z FROM BESTDR1..PhotoObj as p WHERE p.r > # AND (p.type = # OR p.type = #)"
+2019-01-30 14:52:00,1

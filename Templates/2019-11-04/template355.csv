@@ -1,0 +1,2 @@
+1,"SELECT   s.plate, s.fiberid, s.mjd, s.z, s.zwarning,   g.oii_#_flux, g.oii_#_flux_err,   g.oii_#_flux, g.oii_#_flux_err,   g.h_beta_flux, g.h_beta_flux_err,   g.oiii_#_flux, g.oiii_#_flux_err,   g.oiii_#_flux, g.oiii_#_flux_err,   g.h_alpha_flux, g.h_alpha_flux_err FROM    GalSpecLine AS g    JOIN SpecObj AS s ON s.specobjid = g.specobjid WHERE     oiii_#_flux > oiii_#_flux_err*#     AND oii_#_flux > oii_#_flux_err*#     AND oii_#_flux_err > #     AND (oiii_#_flux + oiii_#_flux) > (oii_#_flux + oii_#_flux)*#     AND s.class = &&&"
+2019-11-04 11:08:00,1

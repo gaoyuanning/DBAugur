@@ -1,0 +1,2 @@
+1,"select Photo ID, ra, dec, z from specObj where z > # and zWarning = #"
+2019-11-14 13:16:00,1

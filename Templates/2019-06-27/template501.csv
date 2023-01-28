@@ -1,0 +1,2 @@
+1,"select ra, dec, fiberMag_u from specobj where ra between # to # and dec between # to #"
+2019-06-27 07:58:00,1

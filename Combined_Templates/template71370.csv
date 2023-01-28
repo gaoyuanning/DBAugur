@@ -1,0 +1,2 @@
+1,"select top # a.gal_id, a.nyu_id, a.group_id, b.gal_id as cent_id from mydb.ipetroA_# as a join mydb.ipetroA_#_central as b on b.group_id = a.group_id where a.flag_massive = # order by a.gal_id -- into mydb.ipetroA_link"
+2019-10-23 05:03:00,1

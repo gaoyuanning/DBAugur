@@ -1,0 +1,6 @@
+6,"SELECT FLOOR(l) hossz, AVG((z*#)/COS(RADIANS(b))) Doppler, STDEV((z*#)/COS(RADIANS(b)))/SQRT(COUNT(*)) D_h FROM SpecObj s  INNER JOIN sppParams ON s.specObjID=sppParams.specObjID WHERE (#) < Feha AND Feha < # AND ABS(z) < # GROUP BY FLOOR(l) ORDER BY #"
+2019-01-31 05:54:00,2
+2019-01-31 06:10:00,1
+2019-01-31 06:24:00,1
+2019-01-31 17:51:00,1
+2019-01-31 18:52:00,1

@@ -1,0 +1,3 @@
+4,"SELECT zoo2.dr8objid, photObj.objID, photObj.specObjID, photObj.ra, photObj.dec, photObj.petroR9#_r FROM dbo.zoo2MainSpecz as zoo2 LEFT JOIN dbo.PhotoObj as photObj ON (zoo2.specobjid = photObj.specObjID) WHERE (zoo2.t0#_smooth_or_features_a0#_features_or_disk_fraction > # and photObj.z > #) INTO mydb.zoo2SpecJoinPhotObj"
+2019-05-21 18:46:00,3
+2019-05-21 18:51:00,1

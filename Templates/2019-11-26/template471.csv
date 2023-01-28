@@ -1,0 +1,2 @@
+1,"SELECT f.run, f.rerun, f.field, f.camcol, p.rowc, p.colc, p.r, p.modelMagErr_r, p.petroFlux_r, p.aperFlux7_r into mydb.cc1_s_coo2 from photoObj p    JOIN field f ON f.fieldid = p.fieldid WHERE f.camcol = #    and (p.field = # or p.field = # or p.field = # or p.field = # or p.field = # or p.field = #)   and p.type = #    and f.run = #"
+2019-11-26 00:44:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.plateID, p.mjd, p.programName FROM PlateX as p WHERE p.plate = #"
+2019-01-11 01:14:00,1

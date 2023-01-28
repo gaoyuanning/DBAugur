@@ -1,0 +1,2 @@
+1,"select photoobj.objid, photoobj.g as g, photoobj.r as r, specobj.z as redshift, photoz.absMag_r as absmag from photoobj,specobj,photoz where specObj.bestObjid = PhotoObj.objID AND  specobj.z between # and # AND specobj.Zconf># AND specobj.specclass = #"
+2019-06-20 06:35:00,1

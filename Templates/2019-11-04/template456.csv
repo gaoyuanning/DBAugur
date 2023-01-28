@@ -1,0 +1,3 @@
+3,"SELECT SpecObjID, ra, dec, petroMag_g, petroMag_i into mydb.mags  FROM SpecPhotoAll"
+2019-11-04 06:30:00,1
+2019-11-04 06:31:00,2

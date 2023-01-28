@@ -1,0 +1,2 @@
+1,"SELECT G.objid as HostGal_OBJID, GN.distance as NN1 into mydb.BOSS_HEADS_GAL_NN1 from Galaxy as G JOIN dbo.fGetNearbyObjEq(ra,dec, #) AS GN ON G.objID = GN.objID   WHERE ra IN (MYDb.BOSS_HEADS_RA.BOSS_HEADS_RA)    AND dec IN (MYDb.BOSS_HEADS_DEC.BOSS_HEADS_DEC) ORDER BY distance OFFSET # ROWS  FETCH NEXT # ROWS ONLY"
+2019-01-04 16:34:00,1

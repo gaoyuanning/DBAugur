@@ -1,0 +1,3 @@
+2,"SELECT TOP # mjd, plate, fiberID FROM SpecobjAll WHERE class==STAR"
+2019-09-29 08:41:00,1
+2019-09-29 08:44:00,1

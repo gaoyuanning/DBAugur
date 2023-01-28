@@ -1,0 +1,2 @@
+1,"SELECT b.objid, p.petroR9#_u, p.petroR9#_r, p.petroR9#_z, p.petroR9#Err_u, p.petroR9#Err_r, p.petroR9#Err_z into mydb.Atab2 from MyDB.MyTable_# AS b JOIN PhotoObjAll as p ON b.objid = p.objid"
+2019-02-26 08:19:00,1

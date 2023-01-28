@@ -1,0 +1,3 @@
+4,"SELECT TOP # p.ra, p.dec, s.plate, s.mjd, s.fiberid FROM BESTDR7..SpecObj as s JOIN BESTDR7..Star AS p ON s.bestObjID = p.objID JOIN #x AS x ON x.objID = p.objID JOIN #upload AS u ON u.up_id = x.up_id WHERE (s.specClass = dbo.fSpecClass (#) ) AND p.u > # AND p.g > # AND p.r > # AND p.u < # AND p.g < # AND p.r < # ORDER BY x.up_id"
+2019-02-01 10:49:00,3
+2019-02-01 11:12:00,1

@@ -1,0 +1,2 @@
+1,"SELECT top #   s.specObjID,   s.objID,   s.z,   pp.logMass,   sf.logMass into mydb.MyTable from dbo.SpecPhotoAll AS s JOIN dbo.stellarMassPassivePort AS pp ON s.specObjID = pp.specObjID JOIN dbo.stellarMassStarformingPort AS sf ON s.specObjID = sf.specObjID WHERE s.z < #      and s.class = &&&"
+2019-07-07 17:25:00,1

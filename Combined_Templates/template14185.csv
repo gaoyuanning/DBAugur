@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec, probPSF, modelMag_r, r, petroMag_r FROM Galaxy WHERE petroMag_r < # and petroMag_r > # INTO Ether_PARENT2"
+2019-02-25 11:59:00,1

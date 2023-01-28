@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  p.run, p.rerun, p.camcol, p.field,  s.specobjid, s.class, s.z as redshift,  s.plate, s.mjd, s.fiberid, g.* FROM SpecObj AS s  JOIN PhotoObj AS p ON p.objid = s.bestobjid  JOIN zoo2MainPhotoz AS g ON g.dr7objid = s.bestobjid"
+2019-05-28 13:21:00,1

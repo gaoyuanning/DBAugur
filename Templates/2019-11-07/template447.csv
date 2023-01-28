@@ -1,0 +1,2 @@
+1,"SELECT mjd, objID INTO MyDB.test1# FROM PhotoPrimary WHERE stripe = #"
+2019-11-07 05:33:00,1

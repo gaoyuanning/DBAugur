@@ -1,0 +1,2 @@
+1,"SELECT TOP # into mydb.MyFirstTable from photoobj     objID, ra ,dec ,dered_u,dered_g, dered_r , dered_z ,dered_i  into mydb.new from PhotoObjAll		         WHERE     ra > # and ra < #      and dec > # and dec < # and clean=# and dered_u < # and dered_g < # and dered_r < # and dered_i < # and dered_z < #"
+2019-04-25 08:09:00,1

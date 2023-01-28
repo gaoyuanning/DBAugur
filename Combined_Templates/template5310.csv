@@ -1,0 +1,2 @@
+1,"SELECT count (*) FROM GalSpecLine AS g JOIN SpecPhoto AS sp ON sp.specobjid = g.specobjid JOIN dbo.fGetNearbySpecObjEq (#, #, #) AS GN ON GN.specobjID = g.specobjid WHERE h_alpha_eqw between # and # and oii_#_eqw between # and # and sp.modelMag_g-sp.modelMag_i > # and sp.z between # and # and sp.modelMag_i-#*log1# (#E+#*sp.z) < #"
+2019-01-22 22:03:00,1

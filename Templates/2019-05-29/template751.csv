@@ -1,0 +1,2 @@
+1,"select --top #   id, s.specObjID as specobjid, s.objID as objid, bptclass as bpt, lgm_tot_p5# as smass, sfr_tot_p5# as sfr, specsfr_tot_p5# as ssfr from MyDB.temp as t   join SpecPhotoAll as s on s.ObjID=t.objid   join galSpecExtra as x on s.specObjID=x.specObjID   order by id"
+2019-05-29 00:32:00,1

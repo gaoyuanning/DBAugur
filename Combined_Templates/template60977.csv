@@ -1,0 +1,2 @@
+1,"select a.eid, Age_at_recruitment_#, Sex_#, Ethnic_background_#, Ever_had_refractive_laser_eye_surgery_# from dbo.Baseline_characteristics b inner join dbo.Eye_surgery_complications a cross apply openjson (Ever_had_refractive_laser_eye_surgery_#) j on a.eid = b.eid inner join dbo.Ethnicity e on a.eid = e.eid where j.value IN ()"
+2019-09-04 09:42:00,1

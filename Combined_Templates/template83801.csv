@@ -1,0 +1,2 @@
+1,"SELECT TOP # specobjid AS id, plate, mjd, fiberid AS fiber, z AS redshift_noqso, zerr AS redshift_err, redshift AS redshiftgandalf, chisq, bpt, ebmv, ebmv_err, EW_OII_# AS OII3#, EW_OII_#_Err AS OII3#_err, EW_OII_# AS OII3#, EW_OII_#_Err AS OII3#_err, EW_Hb_# AS Hb4#, EW_Hb_#_Err AS Hb4#_err FROM emissionLinesPort"
+2019-12-19 11:42:00,1

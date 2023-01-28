@@ -1,0 +1,3 @@
+2,"SELECT p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,p.type, p.run, p.rerun, p.camcol, p.field, s.specobjid, s.class, s.z as redshift, s.plate, s.mjd, s.fiberid,GN.distance, dbo.fCosmoDA(s.z,#,#,#e-#,#,#)*GN.distance*#/#/# as rho, ms.mstellar_median as logMass,ms.mstellar_err as logMass_err FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN dbo.fGetNearbyObjEq(#,#, #) AS GN ON p.objID = GN.objID JOIN stellarMassPCAWiscM1# as ms ON s.specobjid=ms.specobjid WHERE s.z># AND s.z<# AND dbo.fCosmoDA(s.z,#,#,#e-#,#,#)*GN.distance*#/#/#<# AND ms.mstellar_median># ORDER by rho"
+2019-10-31 05:57:00,1
+2019-10-31 15:42:00,1

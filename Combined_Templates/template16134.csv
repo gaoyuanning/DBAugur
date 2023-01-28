@@ -1,0 +1,2 @@
+2,"select top # bestObjID , survey , z from SpecObj where class = # and survey = # and zWarning = # and z > # and z < # order by z desc"
+2019-03-02 15:55:00,2

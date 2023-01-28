@@ -1,0 +1,2 @@
+1,"SELECT TOP # psfMag_u, psfMag_g, psfMag_r, psfMag_z, psfMag_i, z  FROM PhotoObjAll WHERE  AND z > #"
+2019-12-09 22:10:00,1

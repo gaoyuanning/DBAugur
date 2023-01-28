@@ -1,0 +1,5 @@
+5,"select ra,dec from specObj where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-10-24 08:46:00,1
+2019-10-24 08:51:00,2
+2019-10-24 13:53:00,1
+2019-10-24 13:58:00,1

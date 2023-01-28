@@ -1,0 +1,2 @@
+1,"select top # plate, mjd, fiberID from specobjall where subClass like # and snMedian > = #"
+2019-09-08 06:33:00,1

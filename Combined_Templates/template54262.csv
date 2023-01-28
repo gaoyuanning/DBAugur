@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, type, psfmag_g, psfmag_r, psfmag_i, psfmagerr_g, psfmagerr_r, psfmagerr_i, flags, probpsf, clean FROM PhotoObjAll LIMIT #"
+2019-07-29 20:43:00,1

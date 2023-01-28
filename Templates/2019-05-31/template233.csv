@@ -1,0 +1,4 @@
+3,"SELECT TOP # run,   camCol,   rerun,   field,   objID,   u, g, r, i, z,   ra, dec   FROM Star   WHERE u - g < #   and g - r < #   and r - i > #   and i - z > #"
+2019-05-31 03:24:00,1
+2019-05-31 07:40:00,1
+2019-05-31 17:54:00,1

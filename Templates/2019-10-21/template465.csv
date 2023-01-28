@@ -1,0 +1,2 @@
+1,"SELECT   s.objID, r.NAME1,r.NAME2,r.PGC, s.z,s.zErr,s.ra,s.dec,r.BT,r.BTERR,r.BMVT0,r.BMVEERR,r.M2#,r.M2#ERR,r.UMBE,r.UMBEERR FROM RC3 AS r  JOIN SpecPhotoAll AS s ON r.objID = s.objID WHERE  r.BT > # and r.BTERR < # and r.BMVEERR < #"
+2019-10-21 06:42:00,1

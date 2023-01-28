@@ -1,0 +1,4 @@
+3,"SELECT TOP # specObjID, ra, dec, z, cx, cy, cz FROM SpecObjAll"
+2019-10-02 09:45:00,1
+2019-10-02 15:24:00,1
+2019-10-02 15:30:00,1

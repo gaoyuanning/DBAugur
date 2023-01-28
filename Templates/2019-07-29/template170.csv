@@ -1,0 +1,2 @@
+2,"SELECT TOP # s.BestObjID, s.z, s.ra, s.dec, s.sciencePrimary, s.subClass FROM ..specObj s WHERE s.class=&&& AND s.z < # AND s.zWarning = # AND s.subClass=&&& AND dbo.fFieldQuality(&&&)>#"
+2019-07-29 16:18:00,2

@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.specobjid, s.class, s.z as redshift,  s.plate, s.mjd, s.fiberid, s.img FROM SpecObj AS s"
+2019-02-24 18:53:00,1

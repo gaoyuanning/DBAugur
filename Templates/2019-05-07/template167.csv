@@ -1,0 +1,4 @@
+3,"select * from   openquery([CBIO],&&&'paac_jhu_#&&& union all select p.stable_id   ,    cam.attr_id, cls.attr_value   from cancer_study cs    inner join clinical_attribute_meta cam      on cam.cancer_study_id=cs.cancer_study_id     and cam.patient_attribute=#    inner join patient p      on p.cancer_study_id=cs.cancer_study_id    inner join sample s      on s.patient_id=p.internal_id    inner join clinical_sample cls      on s.internal_id=cls.internal_id     and cls.attr_id=cam.attr_id  where cs.cancer_study_identifier=&&&paac_jhu_#&&&') a"
+2019-05-07 18:15:00,1
+2019-05-07 18:17:00,1
+2019-05-07 18:29:00,1

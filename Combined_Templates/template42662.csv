@@ -1,0 +1,3 @@
+3,"SELECT TOP # f.id, f.ra, f.dec, p.objid, p.run, p.rerun, p.camcol, p.field, p.obj, s.plate, s.mjd, s.fiberID FROM MyDB.FIRST_Reduced_#p0#deg AS f CROSS APPLY dbo.fGetNearestObjEq (f.ra, f.dec, #) AS x JOIN PhotoObjAll p ON x.objID = p.objID JOIN SpecObjAll s ON p.objID = s.bestObjID"
+2019-05-29 07:02:00,1
+2019-05-29 07:03:00,2

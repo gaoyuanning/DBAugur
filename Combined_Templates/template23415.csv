@@ -1,0 +1,2 @@
+1,"SELECT top # objid, cModelMag_g, cModelMag_r, cModelMag_i, cModelMag_z, class FROM PhotObjAll p inner join specobjall s on p.objid s.objid"
+2019-03-25 16:01:00,1

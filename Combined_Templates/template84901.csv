@@ -1,0 +1,2 @@
+1,"select top # s.ra, s.dec, p.l, p.b, s.z, zErr, zWarning, subclass, snMedian, p.u, p.g, p.r, p.i, p.z, elodieSpType, elodieBV, elodieTEff, elodieLogG, elodieFeH, elodieZ, elodieZerr from specobj as s, photoobj as p where s.specobjid = p.specobjid and s.class = # and (s.ra between # and #) and (s.dec between # and #)"
+2019-12-31 23:44:00,1

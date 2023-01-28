@@ -1,0 +1,2 @@
+1,"SELECT DR1#.GalaxyTag.objID, DR1#.GalaxyTag.ra, DR1#.GalaxyTag.dec, DR1#.Photoz.z, DR1#.Photoz.zErr into mydb.Full-PhotoZ from DR1#.Photoz RIGHT JOIN DR1#.GalaxyTag ON DR1#.GalaxyTag.objID = DR1#.Photoz.objID ORDER BY DR1#.GalaxyTag.objID"
+2019-08-24 20:04:00,1

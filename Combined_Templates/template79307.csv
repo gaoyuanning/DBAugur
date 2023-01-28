@@ -1,0 +1,2 @@
+1,"SELECT s.plate, s.mjd, s.fiberID, p.sigmaStars, sigmaStarsErr, s.snMedian_g, p.Sigma_Hb_# FROM SpecObjAll as s JOIN emissionLinesPort as p ON (s.plate = p.plate AND s.mjd = p.mjd AND s.fiberID = p.fiberID) WHERE s.z BETWEEN # AND # AND s.snMedian_g > # and p.sigmaStars> # and p.Sigma_Hb_#> # and s.class = #"
+2019-11-27 14:05:00,1

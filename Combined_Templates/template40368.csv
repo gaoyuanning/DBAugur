@@ -1,0 +1,2 @@
+2,"SELECT X.bestObjID, X.specObjID, X.ra, X.dec, X.z, X.exo_ra SN_ra, X.exo_dec SN_dec, X.SNname SN, X.type, X.angDist angDist, mydb.DistancePair (X.angDist, X.z) Distance into mydb.A0#_d2_noz from mydb.A0#_d1_noz X WHERE mydb.DistancePair (X.angDist, X.z) < #"
+2019-05-18 18:35:00,2

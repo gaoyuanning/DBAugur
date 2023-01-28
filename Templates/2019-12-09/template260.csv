@@ -1,0 +1,2 @@
+1,"SELECT C.objID,C.z FROM   MyDB.CCOSEDProps as A   CROSS APPLY dbo.fGetNearestObjEq( A.RAJ2#WISE_AGN_R9#_ptsrc_VIZIER, A.DEJ2#WISE_AGN_R9#_ptsrc_VIZIER, #/#.) AS B   JOIN SpecPhotoAll AS C ON B.objID=C.objID INTO MyDB.CCOSEDProps_SpecPhotoAll"
+2019-12-09 16:47:00,1

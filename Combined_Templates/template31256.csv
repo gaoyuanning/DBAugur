@@ -1,0 +1,2 @@
+2,"SELECT specObjID, bestObjID, s.targetObjID, ra, dec, z, mjd, plate, fiberID INTO mydb.spec FROM SpecObjAll"
+2019-04-17 11:00:00,2

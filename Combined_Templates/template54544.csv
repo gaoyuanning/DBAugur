@@ -1,0 +1,2 @@
+1,select count (objID) into mydb.MyTable from photoObjall
+2019-07-30 14:23:00,1

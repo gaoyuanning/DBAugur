@@ -1,0 +1,2 @@
+1,"SELECT specObjID, ra, dec, plate, mjd, fiberID, psfMag_u, psfMagErr_u, psfMag_u, psfMagErr_u, psfMag_g psfMag_r psfMag_i psfMag_z psfMagErr_u real # mag PHOT_SDSS_U ERROR PSF flux error psfMagErr_g real # mag PHOT_SDSS_G ERROR PSF flux error psfMagErr_r real # mag PHOT_SDSS_R ERROR PSF flux error psfMagErr_i real # mag PHOT_SDSS_I ERROR PSF flux error psfMagErr_z from SpecPhoto WHERE thingID = #"
+2019-11-11 12:32:00,1

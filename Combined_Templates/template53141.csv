@@ -1,0 +1,2 @@
+1,"select m.objID, m.ra, m.dec, m.z, m.zErr, p.fiber2Mag_g, p.fiber2Mag_r, p.fiberMag_g, p.fiberMag_r, p.r, p.g into mydb.MyTable_# from PhotoObjAll as p JOIN MyDB.A2#_redshifts_MMT as m on m.objID = p.objID"
+2019-07-22 15:05:00,1

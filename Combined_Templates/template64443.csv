@@ -1,0 +1,2 @@
+1,"select top # specobjid as name, ra, dec from SpecObj as s JOIN GalSpecLine AS g ON s.specobjid = g.specobjid WHERE g.h_delta_eqw - g.h_delta_eqw_err> # AND g.h_alpha_eqw < # AND s.class = # AND s.zwarning = #"
+2019-09-21 01:28:00,1

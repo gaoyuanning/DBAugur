@@ -1,0 +1,2 @@
+1,"select count(ID), count(RunID) FROM DATA"
+2019-04-24 12:42:00,1

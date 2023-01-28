@@ -1,0 +1,2 @@
+1,"select type,ra,dec,psfMag_r,psfMagErr_r,extinction_r FROM PhotoObjAll WHERE ra BETWEEN # AND # AND dec BETWEEN # AND # AND ra BETWEEN # AND # AND dec BETWEEN .# AND .# AND Clean = #"
+2019-09-22 15:32:00,1

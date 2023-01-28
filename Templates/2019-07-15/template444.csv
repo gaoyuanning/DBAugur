@@ -1,0 +1,2 @@
+2,select distinct subClass from specobjall where class=&&& group by subClass
+2019-07-15 06:27:00,2

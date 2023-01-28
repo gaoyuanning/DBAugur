@@ -1,0 +1,2 @@
+2,"SELECT P.objid , P.ra, P.dec, dered_r, dered_i, dered_g, cmodelmag_i, extinction_i, fiber2mag_i, pz.z as photoz, pz.zErr as photozerr FROM photoprimary as P JOIN PhotoZ as pz on P.objid = pz.objid WHERE (dered_r-dered_i) < # AND (dered_r-dered_i) > # AND (dered_g-dered_r) < # AND (dered_g-dered_r) > # AND (cmodelmag_i-extinction_i) BETWEEN # AND # AND fiber2mag_i < # INTO micado_galaxies_photoz"
+2019-07-04 06:21:00,2

@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.ra , p.dec into mydb.MyTable"
+2019-11-02 10:19:00,1

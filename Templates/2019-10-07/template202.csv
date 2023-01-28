@@ -1,0 +1,2 @@
+1,"select stripe, run from Segment order by stripe  SELECT TOP # p.u,p.g,p.r,p.i,p.z,p.u-p.g AS u_g FROM PhotoObj AS p WHERE p.u BETWEEN # AND # AND p.g BETWEEN # AND #"
+2019-10-07 14:44:00,1

@@ -1,0 +1,2 @@
+2,"SELECT g.u, g.g, g.r, g.i, g.ra, g.dec, g.flags_r, g.specobjid, s.z FROM Galaxy as g  JOIN galSpecInfo as s ON g.specobjID = s.specobjID  WHERE  g.ra BETWEEN # and # AND g.dec BETWEEN # and #  AND ((g.flags_r & #) != #)  AND ((g.flags_r & #) = #)   AND (((g.flags_r & #) = #) or (psfmagerr_r <= #))  AND (((g.flags_r & #) = #) or (g.flags_r & #) = #)"
+2019-10-30 07:27:00,2

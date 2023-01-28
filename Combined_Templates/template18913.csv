@@ -1,0 +1,2 @@
+3,"select TOP # s.z, s.zErr from DR1#.sepcObj s into mydb.zerr s.class = #"
+2019-03-09 17:12:00,3

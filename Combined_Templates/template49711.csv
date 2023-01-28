@@ -1,0 +1,3 @@
+4,"select top # a.objid, b.specobjid, a.ra, a.dec, a.petroflux_r from specobjall as b, photoobjall as a where a.objid = b.bestobjid and a.type = # and b.z< # and a.petromag_g-a.petromag_r> # and a.petror9#_r/a.petror5#_r< # and a.fracdev_r< #"
+2019-07-03 04:47:00,1
+2019-07-04 02:02:00,3

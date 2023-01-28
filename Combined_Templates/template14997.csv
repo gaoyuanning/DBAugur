@@ -1,0 +1,2 @@
+1,"SELECT ObjID, specObjID, p.ra, p.dec, p.z, p.zErr, p.petroR5#_r, p.petroR9#_r, p.petroRad_r, petroMag_u, petroMag_g, petroMag_r, petroMag_i, petroMag_z FROM SpecPhotoAll AS p, MyDB.Manu AS manu INTO myDB.manu_matched WHERE p.ObjID = manu.ObjID"
+2019-02-27 16:49:00,1

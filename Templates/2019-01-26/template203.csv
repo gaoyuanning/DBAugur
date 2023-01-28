@@ -1,0 +1,17 @@
+40,"select count(*), stim_timestamps.timestamp from public.ncarey.session_eeg, public.ncarey.stim_timestamps              where session_eeg.session_ID = # and stim_timestamps.session_ID = # and session_eeg.timestamp < stim_timestamps.timestamp              group by stim_timestamps.timestamp             )              select stim_timestamps_index.index_value, stim_timestamps.stim_ID from stim_timestamps_index, public.ncarey.stim_timestamps              where stim_timestamps.session_ID = # and stim_timestamps.timestamp = stim_timestamps_index.timestamp             order by stim_timestamps_index.index_value"
+2019-01-26 12:25:00,2
+2019-01-26 12:26:00,2
+2019-01-26 12:27:00,3
+2019-01-26 12:28:00,2
+2019-01-26 12:29:00,3
+2019-01-26 12:30:00,3
+2019-01-26 12:31:00,2
+2019-01-26 12:32:00,1
+2019-01-26 13:34:00,1
+2019-01-26 13:35:00,4
+2019-01-26 13:36:00,4
+2019-01-26 13:37:00,2
+2019-01-26 13:38:00,3
+2019-01-26 13:39:00,2
+2019-01-26 13:40:00,3
+2019-01-26 13:41:00,3

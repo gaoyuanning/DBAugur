@@ -1,0 +1,5 @@
+4,"SELECT dr7objid, ra, dec into mydb.MyTable_# from MyTable WHERE total_votes > # and t0#_edgeon_a0#_no_weight > # and t0#_edgeon_a0#_no_fraction > # and t0#_edgeon_a0#_no_debiased > # and t0#_spiral_a0#_spiral_weight > # and t0#_spiral_a0#_spiral_fraction > # and t0#_spiral_a0#_spiral_weighted_fraction > # and t0#_spiral_a0#_spiral_debiased > #"
+2019-02-05 09:47:00,1
+2019-02-05 09:48:00,1
+2019-02-05 09:50:00,1
+2019-02-05 09:51:00,1

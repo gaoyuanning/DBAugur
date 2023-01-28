@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra AS ri, dec AS declinacao, psfMag_u, psfMag_g as g, psfMag_g, psfMag_z, psfMag_i FROM Galaxy"
+2019-11-26 22:31:00,1

@@ -1,0 +1,2 @@
+1,"select TOP # s.specobjid, s.ra, s.dec, s.z, g.lgm_tot_p5#, s.velDisp, s.velDispErr, s.special_target1 from specObj as s JOIN galSpecExtra as g ON g.specobjid = s.specobjid where AncillaryTarget2 = #"
+2019-08-09 12:17:00,1

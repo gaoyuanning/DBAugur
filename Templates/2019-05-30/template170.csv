@@ -1,0 +1,6 @@
+5,"select name, description from DBObjects where access=&&& and name like &&& or name like &&& and name not like &&& order by name"
+2019-05-30 09:07:00,1
+2019-05-30 09:25:00,1
+2019-05-30 15:56:00,1
+2019-05-30 16:59:00,1
+2019-05-30 18:02:00,1

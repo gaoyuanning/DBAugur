@@ -1,0 +1,2 @@
+1,"select top # specobjid, ra, dec from specobj order by specobjid"
+2019-02-06 03:29:00,1

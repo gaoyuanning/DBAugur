@@ -1,0 +1,3 @@
+4,"SELECT TOP # str(s.ra,#,#) as ra,str(s.[dec],#,#) as dec FROM BESTDR8..SpecObj as s 	JOIN dbo.fGetNearbySpecObjEq(#,#,#) AS b ON b.SpecobjID = S.SpecobjID WHERE  s.zWarning = #"
+2019-11-28 05:54:00,1
+2019-11-28 05:55:00,3

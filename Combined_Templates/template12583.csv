@@ -1,0 +1,2 @@
+1,"SELECT sp.apogee_id, sp.ra, sp.dec, sp.snr, sp.synthvhelio_avg, sp.synthverr, s.teff, s.teff_err, s.teff_flag, s.logg, s.logg_err, s.logg_flag, s.fe_h, s.fe_h_err, s.fe_h_flag, s.c_fe, s.c_fe_err, s.c_fe_flag FROM aspcapStar as s JOIN apogeeStar as sp ON s.apstar_id = sp.apstar_id WHERE sp.ra > # AND sp.ra < # AND sp.dec > # AND sp.dec < # into MyDB.ApogeeBulge5"
+2019-02-20 11:43:00,1

@@ -1,0 +1,2 @@
+1,"CREATE TABLE [Saliva_sample_collection] ( 	eid BIGINT NOT NULL ,	[Reason_no_saliva_sample_collected_#] INTEGER -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Time_saliva_sample_collected_#] DATETIME -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=# ,PRIMARY KEY (eid)) GO"
+2019-04-17 11:28:00,1

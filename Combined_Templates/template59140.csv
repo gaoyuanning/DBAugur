@@ -1,0 +1,2 @@
+1,"SELECT objID, z, zErr into mydb.MyTable from DR1#.Photoz ORDER BY objID"
+2019-08-24 20:06:00,1

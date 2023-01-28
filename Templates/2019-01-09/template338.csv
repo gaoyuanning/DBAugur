@@ -1,0 +1,3 @@
+2,"select one.SDSS_ID, photo.ra, photo.dec from   dr1#.photoObj photo, dr1#.PhotoZ photoZ, MyDB.GSJ_ParentPop_Stage1 one where     photo.objID = one.SDSS_ID and photo.objID = photoZ.objID and     photoZ.z < #     into MyDB.GSJ_ParentPop_Stage2"
+2019-01-09 11:45:00,1
+2019-01-09 11:48:00,1

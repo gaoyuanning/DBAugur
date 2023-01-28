@@ -1,0 +1,2 @@
+1,"select min (rowc) , min (colc) , max (rowc) , max (colc) from dr1#.Star where run = #"
+2019-03-17 10:12:00,1

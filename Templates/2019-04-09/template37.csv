@@ -1,0 +1,2 @@
+1,"select top # p.objid, p.ra, p.dec, s.specobjid from galaxy p, specobj s where p.objid=s.bestobjid and s.z BETWEEN # AND #"
+2019-04-09 23:23:00,1

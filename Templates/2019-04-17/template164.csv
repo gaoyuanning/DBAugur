@@ -1,0 +1,5 @@
+6,"SELECT TOP # p.objId,p.absmagU,p.absmagG,p.absmagR, g.u, g.g, g.r FROM photoZ as p JOIN GALAXY AS g ON g.objID=p.objID WHERE g.clean = # and (htmid*# & #) < (#*#)"
+2019-04-17 16:28:00,1
+2019-04-17 16:31:00,2
+2019-04-17 16:32:00,1
+2019-04-17 16:34:00,2

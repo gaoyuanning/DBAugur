@@ -1,0 +1,2 @@
+1,"select mc.homicide,mc._id,c.location.ToString() as location,c.[date] from mcrimes mc, mschoolzones z, crimes c where mc._year=#    and z._id=mc._id    and z._year=mc._year   and mc.homicide > #   and c.[date] between&&& and &&&   and c.homicide=#   and z.the_geom.STContains(c.location)=#   order by #,#"
+2019-03-03 12:36:00,1

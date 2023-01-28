@@ -1,0 +1,3 @@
+4,"select subclass,count(*) from specobjall group by subclass"
+2019-07-22 09:16:00,2
+2019-07-22 09:17:00,2

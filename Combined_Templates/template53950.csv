@@ -1,0 +1,2 @@
+2,"select z, ra, dec, specObjID, plate , class, subClass, zErr, petroMag_u, petroMag_g, petroMag_r, petroMag_i, petroMag_z, petroMagErr_u, petroMagErr_g, petroMagErr_r, petroMagErr_i, petroMagErr_z from specObjAll where zWarning = #"
+2019-07-26 13:12:00,2

@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec, s.plate, s.mjd, s.fiberID, s.z, s.modelMag_u, s.modelMag_g, s.modelMag_r, s.modelMag_i, s.modelMag_z, s.modelMagErr_u, s.modelMagErr_g, s.modelMagErr_r, s.modelMagErr_i, s.modelMagErr_z, s.fiberMag_u, s.fiberMag_g, s.fiberMag_r, s.fiberMag_i, s.fiberMag_z, s.fiberMagErr_u, s.fiberMagErr_g, s.fiberMagErr_r, s.fiberMagErr_i, s.fiberMagErr_z, s.zWarning from SpecPhotoAll s, mydb.pmf_qso_targets into mydb.qso_targets_squeze_mags WHERE s.plate = m.plate and s.mjd = m.mjd and s.fiberID = m.fiberid"
+2019-08-05 07:57:00,1

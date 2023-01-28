@@ -1,0 +1,2 @@
+1,"SELECT top # ra, dec FROM PhotoObj AS p WHERE p.type = # and p.petromag_r - p.extinction_r < #"
+2019-06-14 18:05:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP #   sp.veldisp as sp_vdisp, sp.veldisperr as sp_vdisp_err,   p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,   p.petroR5#_r, p.fracdeV_r, p.deVRad_r, p.expRad_r,  fsps.logMass, fsps.age, fsps.metallicity,   pz.z as photoz  FROM emissionLinesPort AS emline, fGetNearbyObjEq(#,#,#) n JOIN specObj as sp ON emline.specobjid = sp.specobjid  JOIN PhotoObj AS p on p.objid = n.objid  JOIN PhotoZ AS pz ON pz.objid = n.objid  JOIN stellarMassFSPSGranWideDust as fsps ON s.specobjid =fsps.specobjid  WHERE   emline.plate = # AND emline.mjd = #"
+2019-03-27 04:53:00,1

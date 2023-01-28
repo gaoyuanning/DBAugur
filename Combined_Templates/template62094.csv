@@ -1,0 +1,3 @@
+2,"select ph.ra, ph.dec, ph.deVPhi_r as PA into mydb.test from PhotoObjAll ph where (ph.ra between # and #) and (ph.dec between # and #)"
+2019-09-10 14:58:00,1
+2019-09-10 15:01:00,1

@@ -1,0 +1,2 @@
+1,"SELECT psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z, ra, dec FROM Star and ra between RA_min and RA_max and dec between Dec_min and Dec_max"
+2019-01-03 11:45:00,1

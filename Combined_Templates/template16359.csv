@@ -1,0 +1,2 @@
+1,"select z._id, max (z.the_geom.ToString () ) as location , count (*) as numHom from mschoolzones z left outer join crimes c on c.[date] between# and # and c.homicide = # and z.the_geom.STContains (c.location) = # where z._year = # group by z._id order by numHOm desc"
+2019-03-03 15:07:00,1

@@ -1,0 +1,5 @@
+4,"select h.haloId, p.x-hh.x as x, p.y-hh.y as y, p.z-hh.z as z, hh.np from mydb.strathalosample h inner join mpahalotrees..mr hh on hh.haloid = h.haloid and h.rank < = # and h.npbin between # and # cross apply dbo.MillenniumParticles (hh.snapnum, dbo.Sphere::New (hh.x, hh.y, hh.z, #*hh.halfmassradius) .ToString () ) p) , rs as (select haloid, sqrt (x*x+y*y+z*z) as r, np from ps) select haloid, max (np) as np, power (convert (real, #) , .#*floor (log1# (r) /.#) ) as r1 , power (convert (real, #) , .#* (#+floor (log1# (r) /.#) )) as r2, count (*) as num from rs where r > # group by haloid, floor (log1# (r) /.#) order by #, #"
+2019-11-24 15:59:00,1
+2019-11-24 16:03:00,1
+2019-11-24 16:07:00,1
+2019-11-24 16:13:00,1

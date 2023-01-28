@@ -1,0 +1,2 @@
+1,"SELECT so.specobjid, so.ra, so.dec, so.plate, so.mjd, so.fiberid, u.NSAID into mydb.NSA_SpecObjIDs from SpecObjAll AS so JOIN mydb.NSA_plate_mjd_fiberid AS u ON (so.plate = u.PLATE AND so.mjd = u.MJD AND so.fiberid = u.FIBERID)"
+2019-10-01 12:54:00,1

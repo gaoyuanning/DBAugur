@@ -1,0 +1,3 @@
+3,"SELECT ALL p.objID as id, p.ra as ra, p.dec as dec, p.dered_u as u, p.dered_g as g, p.dered_r as r, p.dered_i as i, p.dered_z as z into mydb.gal_table from PhotoPrimary AS p   WHERE p.type=#"
+2019-05-06 18:03:00,1
+2019-05-06 18:04:00,2

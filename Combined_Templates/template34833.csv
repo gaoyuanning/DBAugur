@@ -1,0 +1,4 @@
+3,"select ra, dec, psfMag_g as g, psfMag_g - psfMag_r as g_r from star where ra between # and # and dec between # and # and psfMag_g - psfMag_r between # and # and psfMag_u < #"
+2019-04-26 17:19:00,1
+2019-04-26 17:20:00,1
+2019-04-26 17:21:00,1

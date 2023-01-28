@@ -1,0 +1,3 @@
+3,"select specObjAll.ra, specObjAll.dec    from specObjAll    where specObjAll.MJD = #   and specObjAll.Plate = #   and specObjAll.FiberID = #"
+2019-10-01 07:27:00,2
+2019-10-01 07:43:00,1

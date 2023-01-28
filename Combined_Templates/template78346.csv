@@ -1,0 +1,2 @@
+1,"select ra, dec, cx, cy, cz, z, sourceType from specObj where cx BETWEEN # and # AND sourceType = #"
+2019-11-23 13:01:00,1

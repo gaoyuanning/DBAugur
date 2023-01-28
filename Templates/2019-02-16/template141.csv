@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid, p.ra, imageStatus_g, s.class, s.z as redshift FROM PhotoObj AS p WHERE   s.class = &&&  AND s.z < #"
+2019-02-16 14:13:00,1

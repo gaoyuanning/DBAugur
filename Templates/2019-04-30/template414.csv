@@ -1,0 +1,4 @@
+3,"select CANCER_STUDY_IDENTIFIER as cancer_study_id,name,description from cancer_study  order by name"
+2019-04-30 13:35:00,1
+2019-04-30 13:46:00,1
+2019-04-30 15:10:00,1

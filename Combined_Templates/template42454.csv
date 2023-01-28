@@ -1,0 +1,3 @@
+2,"SELECT specObjID, bestObjID, id, y.oldobjid into MyDB.Y1#b FROM MyDB.Y1#a AS y join SpecObjAll as s on y.objid = s.bestobjid"
+2019-05-29 15:00:00,1
+2019-05-29 15:34:00,1

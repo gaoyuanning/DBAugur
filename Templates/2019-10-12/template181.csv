@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.ra, s.dec, s.z, gSL.nii_#_eqw, gSL.nii_#_eqw, gSL.oiii_#_eqw, gSL.oiii_#_eqw, gSL.oii_#_eqw, gSL.oii_#_eqw, gSL.oi_#_eqw, gSL.sii_#_eqw, s.CLASS FROM galSpecIndx as g  JOIN SpecObj AS s  ON g.SpecobjID = s.SpecobjID JOIN galSpecLine as gSL  ON gSL.SpecobjID = s.SpecobjID JOIN galSpecInfo as gSI  ON gSI.SpecobjID = s.SpecobjID JOIN galSpecExtra as gSE  ON gSE.SpecobjID = s.SpecobjID WHERE (s.ra between # and #) and (s.dec between # and #)  AND s.CLASS = &&&"
+2019-10-12 11:27:00,1

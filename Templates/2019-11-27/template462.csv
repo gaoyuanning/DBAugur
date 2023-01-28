@@ -1,0 +1,2 @@
+1,"SELECT   p.dr7objid, p.dr8objid, p.ra, p.dec, p.SpecObjID FROM PhotoObjDR7 AS p"
+2019-11-27 04:02:00,1

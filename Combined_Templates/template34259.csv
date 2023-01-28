@@ -1,0 +1,2 @@
+2,"select round (x/@bin, #) *@bin, count (ID) from data group by round (x/@bin, #) *@bin order by #"
+2019-04-24 12:52:00,2

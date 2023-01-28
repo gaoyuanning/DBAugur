@@ -1,0 +1,2 @@
+1,"select top # plate, mjd, fiberid into mydb.pca_# from SpecObj where z between # and #"
+2019-04-29 10:40:00,1

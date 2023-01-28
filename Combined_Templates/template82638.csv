@@ -1,0 +1,3 @@
+2,"SELECT m.ra, m.dec, o.velDisp into MyDBDispQuery FROM MyDB.dispersion_query AS m CROSS APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) as n JOIN PhotoObj AS o ON n.objid = o.objid"
+2019-12-13 14:54:00,1
+2019-12-13 14:55:00,1

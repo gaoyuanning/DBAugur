@@ -1,0 +1,4 @@
+5,"SELECT g.objid, g.ra, g.dec, g.dered_u as u, g.dered_g as g, g.dered_r as r, g.dered_i as i, g.clean, s.z as z_spec FROM galaxy AS g JOIN SpecObj AS s ON s.bestobjid = g.objid JOIN dbo.fGetNearbyObjEq (#, #, #) AS n ON g.objid = n.objid WHERE clean = # AND s.z < #"
+2019-04-17 15:01:00,1
+2019-04-17 15:07:00,3
+2019-04-17 15:09:00,1

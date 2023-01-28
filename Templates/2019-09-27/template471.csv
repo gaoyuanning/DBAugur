@@ -1,0 +1,2 @@
+2,"select m.specObjID, m.objID, d4#_n_sub, d4#_n_sub_err, lick_hd_a_sub, lick_hd_a_sub_err into mydb. xGASS_Huertas_d4# from galspecindx i, mydb. xGASS_Huertas_specObjID m where i.specobjid = m.specObjID;"
+2019-09-27 02:31:00,2

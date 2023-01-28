@@ -1,0 +1,2 @@
+1,"select ID, vintage, state, county, centroid, geom = case when geom.MakeValid () .STContains (centroid) = # then geom.MakeValid () else geom.MakeValid () .ReorientObject () end from optw.tamass.TRACTS) select ID, wkt = geom.ToString () , dist = centroid.STDistance (@center) from tracts where centroid.STDistance (@center) < # -- meters"
+2019-10-26 18:09:00,1

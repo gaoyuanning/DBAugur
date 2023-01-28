@@ -1,0 +1,2 @@
+1,"SELECT Q.BestObjID, u, g, Q.ra, Q.dec, Q.z, G.ObjID, G.ra, G.dec, G.z, G.u, G.g, G.r, G.i, G.z, N.distance into mydb.MyTable_nocutx from Galaxy   as G, 		         SpecObj       	as Q, 		         Neighbors       as N,		  	SpecObj         as S		 WHERE Q.BestObjID = S.BestObjID 		   and Q.z > #   and Q.z < #   and u < #   and g <#	     and Q.class  in (&&&, &&&) 	     and G.ObjID = N.ObjID		     and Q.BestObjID = N.NeighborObjID  	     and N.distance < #/#"
+2019-02-25 05:45:00,1

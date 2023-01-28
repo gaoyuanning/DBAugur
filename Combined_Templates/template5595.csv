@@ -1,0 +1,2 @@
+1,"SELECT TOP # objid, ra, dec, u, g, r, i, z, run, rerun, camcol, field FROM PhotoObj WHERE objid = #"
+2019-01-24 21:10:00,1

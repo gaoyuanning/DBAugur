@@ -1,0 +1,2 @@
+1,"SELECT     p.objid,p.ra,p.dec,p.u,p.r,    s.class, s.z as redshift,    pz.kcorrU0#,pz.kcorrR0# into mydb.MyTable from PhotoObj AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid    JOIN Photoz AS pz ON pz.objid = p.objid WHERE     p.ra between # and # and p.dec between # and #"
+2019-04-14 02:47:00,1

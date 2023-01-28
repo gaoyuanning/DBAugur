@@ -1,0 +1,2 @@
+2,"select top #   r.plate,r.mjd,r.fiberid,   FORMAT(x.fe,&&&) as fe, r.logg, r.Teff,    r.gmag, r.gerr,r.rerr,r.extn_g,r.gr0,    r.psfflags,r.edgebadflags, r.CCMGH, r.CCCAHK,   x.plate,x.mjd,x.fib, Format(x.ra,&&&) as RA,FORMAT(x.dec,&&&) as DEC,FORMAT(x.dobs,&&&) as dkpc, FORMAT(x.derr,&&&) as derr   from myDB.realredocheck as r   join myDB.DMKgiants as x     on r.plate=x.plate and r.fiberid=x.fib   where x.kgfl=#     and x.clu=#     and x.abhb=#"
+2019-11-28 13:11:00,2

@@ -1,0 +1,2 @@
+1,"select top # c.row_id, c.doShowInUserHistory, c.content, m.message_type, m.host, m.application, m.method, m.time, m.client_IP, m.user_id, u.user_name from computemessages c join messages m on c.row_id = m.row_id join users u on u.user_id = m.user_id"
+2019-03-06 10:35:00,1

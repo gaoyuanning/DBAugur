@@ -1,0 +1,2 @@
+1,"SELECT TOP # PhotoObjAll.ra, PhotoObjAll.dec into mydb.MyTable_# from PhotoObjAll, SpecObjAll, galSpecExtra, emissionLinesPort WHERE SpecObjAll.z < # AND SpecObjAll.z > # AND SpecObjAll.class = # AND SpecObjAll.zWarning = # AND PhotoObjAll.SPecObjID = SpecObjAll.SpecObjID AND galSpecExtra.SpecObjID = SpecObjAll.SpecObjID AND emissionLinesPort.SpecObjID = SpecObjAll.SpecObjID AND emissionLinesPort.EW_Ha_# < # AND emissionLinesPort.EW_Ha_# > #"
+2019-08-08 14:04:00,1

@@ -1,0 +1,12 @@
+83,"select ra,dec,petroMag_u,petroMag_g,petroMag_r,petroMag_i,petroMag_z,petroR5#_r,probPSF,petroMagErr_u,petroMagErr_g,petroMagErr_r,petroMagErr_i,petroMagErr_z, p.objid from (PhotoTag p inner join fGetObjFromRectEq(#,#,#,#) r on p.objid=r.objid)"
+2019-04-09 22:04:00,3
+2019-04-09 22:05:00,16
+2019-04-09 22:09:00,1
+2019-04-09 22:10:00,20
+2019-04-09 22:15:00,11
+2019-04-09 22:20:00,9
+2019-04-09 22:25:00,8
+2019-04-09 22:29:00,8
+2019-04-09 22:32:00,5
+2019-04-09 22:34:00,1
+2019-04-09 22:39:00,1

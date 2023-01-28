@@ -1,0 +1,2 @@
+1,"SELECT Top # A.ra, A.dec, A.objID, A.specObjID, B.specObjID, A.z, B.z, A.class, A.subClass FROM SpecPhoto as A WHERE A.class = # INTO MyDB.SpecPhotoGalaxyTOP1#"
+2019-12-18 13:32:00,1

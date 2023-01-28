@@ -1,0 +1,2 @@
+1,"select top # spa.ra, spa.dec, spa.dered_r, spa.class, z, soa.xfocal as x, soa.yfocal as y from specphotoAll as spa, specObjAll as soa where spa.specObjID = soa.SpecOBJID and plate = # and dered_r > # order by dered_r asc"
+2019-03-12 05:34:00,1

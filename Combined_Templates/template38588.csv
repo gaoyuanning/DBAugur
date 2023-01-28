@@ -1,0 +1,2 @@
+2,SELECT TOP # * FROM target_galaxies GO*/ ALTER TABLE target_galaxies ORDER BY idx_num; --SELECT * FROM target_galaxies --ORDER BY idx_num;
+2019-05-10 11:42:00,2

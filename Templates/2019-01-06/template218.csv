@@ -1,0 +1,6 @@
+8,"SELECT TOP # s.plate,s.mjd,s.fiberid FROM BESTDR7..SpecObj as s 	JOIN BESTDR7..PhotoObj AS p ON s.bestObjID = p.objID 	JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = p.objID WHERE  ( p.type = # OR p.type = #)"
+2019-01-06 09:42:00,1
+2019-01-06 09:44:00,2
+2019-01-06 09:46:00,3
+2019-01-06 09:48:00,1
+2019-01-06 09:49:00,1

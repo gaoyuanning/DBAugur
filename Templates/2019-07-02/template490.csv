@@ -1,0 +1,3 @@
+2,"SELECT objID, petroR5#_g, petroR5#_r, deVAB_r, fracDeV_r, dered_u, dered_g, dered_r, dered_i, dered_z FROM GALAXY WHERE objID IN (#,#,#,#,#,#,#,#,#,#)"
+2019-07-02 04:46:00,1
+2019-07-02 04:48:00,1

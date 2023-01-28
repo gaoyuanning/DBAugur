@@ -1,0 +1,2 @@
+1,"SELECT plate, fiberid, mjd, primtarget, dbo.fPrimTargetN (primtarget) from dbo.specobjall where plate = # and fiberid = # and mjd = # INTO mydb.onetarget1"
+2019-12-10 04:35:00,1

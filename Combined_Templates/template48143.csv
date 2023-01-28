@@ -1,0 +1,3 @@
+2,"select a.ra, a.dec into mydb.MyTable from bars as a UNION b.ra, b.dec FROM bars_# as b UNION c.ra, c.dec FROM bars_# as c UNION d.ra, d.dec FROM bars_# as d"
+2019-06-25 03:19:00,1
+2019-06-25 05:37:00,1

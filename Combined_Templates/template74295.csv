@@ -1,0 +1,2 @@
+2,"SELECT m.objID, s.survey, s.z, s.class, s.subClass, s.velDisp, s.snMedian, p.petroMag_r, p.petroMag_g, p.petroMag_i, p.deVRad_r into mydb.MyTable_# from mydb.MyTable_# as m, SpecObjAll as s, PhotoObjAll as p WHERE m.objID = s.bestObjID AND m.objID = p.objID"
+2019-11-07 15:41:00,2

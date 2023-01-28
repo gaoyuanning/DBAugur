@@ -1,0 +1,2 @@
+1,"SELECT * FROM(  SELECT   ROW_NUMBER() OVER(ORDER BY p.objid) AS Row,  p.objid, p.ra, p.dec, s.z  FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid)  AS numTable WHERE numTable.Row BETWEEN # AND #"
+2019-03-07 11:03:00,1

@@ -1,0 +1,2 @@
+1,"select s.z, fiber2Mag_z into mydb.MyTable from SpecObj s, PhotoObj p where programname IN () and class = # and (fiber2MagErr_z/fiber2Mag_z) between # and # and p.SpecObjID = s.specObjID"
+2019-06-08 06:56:00,1

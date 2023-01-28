@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.ra, p.dec INTO SA9# FROM PhotoPrimary AS p WHERE p.ra BETWEEN # and # AND p.dec BETWEEN #. and #. p.psfMag_r BETWEEN # AND # AND p.psfMagErr_r BETWEEN # AND #"
+2019-06-06 09:25:00,1

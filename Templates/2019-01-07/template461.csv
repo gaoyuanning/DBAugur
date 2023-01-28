@@ -1,0 +1,2 @@
+1,"SELECT specObjID,ra,dec,z,z_err,ke_i,cModelAbsMag_i,m2l_i,m2l_median_i,m2l_min_i,m2l_max_i,logMass,logMass_median,logMass_err,logMass_min,logMass_max into mydb.mass5  FROM stellarMassFSPSGranEarlyNoDust  WHERE Z<#"
+2019-01-07 00:05:00,1

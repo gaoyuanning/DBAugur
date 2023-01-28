@@ -1,0 +1,2 @@
+1,"SELECT TOP # d.objid, d.ra, d.dec FROM dbo.PhotoObj as d, WHERE d.cx < #"
+2019-05-13 07:33:00,1

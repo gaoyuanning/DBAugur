@@ -1,0 +1,2 @@
+1,select fieldid from field where skyslope_r between .# and .# and medianpsfcolor_r between # and #
+2019-01-26 09:39:00,1

@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec, s.z as z, pz.z as photoz FROM specObj s INNER JOIN PhotoObj p ON s.bestObjID = p.objID INNER JOIN Photoz pz ON pz.objID = p.objID WHERE s.ra = # AND s.dec = #"
+2019-10-03 11:59:00,1

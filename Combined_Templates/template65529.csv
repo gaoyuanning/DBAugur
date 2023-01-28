@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, z, class, SPECOBJID into mydb.MyTable_# from SpecObj where zwarning = #"
+2019-09-25 04:40:00,1

@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, p.psfMagErr_u, p.psfMagErr_g, p.psfMagErr_r, p.psfMagErr_i, p.psfMagErr_z, f.mjd_u, f.mjd_g, f.mjd_r, f.mjd_i, f.mjd_z FROM PhotoObj as p inner join field as f on f.fieldid = p.fieldid WHERE p.psfMag_r < # AND p.psfMag_i < # AND (p.flags & (dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) ) = #) AND (abs (# - p.ra) < #) AND (abs (# - p.dec) < #)"
+2019-03-03 09:40:00,1

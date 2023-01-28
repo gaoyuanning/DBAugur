@@ -1,0 +1,7 @@
+6,"SELECT sp.ra,sp.dec,sp.z,   sp.psfmag_i-sp.extinction_i AS mag_i,  peak,integr  FROM SpecPhoto AS sp   INNER JOIN FIRST AS f ON sp.objid = f.objid  WHERE   class = &&&"
+2019-02-08 01:34:00,1
+2019-02-08 05:06:00,1
+2019-02-08 08:20:00,1
+2019-02-08 17:42:00,1
+2019-02-08 18:15:00,1
+2019-02-08 22:22:00,1

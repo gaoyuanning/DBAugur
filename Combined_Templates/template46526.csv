@@ -1,0 +1,2 @@
+1,"SELECT p.ObjID, p.cModelMag_i-p.extinction_i, p.cModelMagErr_i, p.probPSF, p.type, pz.z, pz.zErr from PhotoObjAll AS p, photoz as sz where pz.objID = p.objID and p.ra< # and p.ra> # and p.dec< # and p.dec> # and p.type = =# and pz.z > # and pz.z < # into SDSS_photometry_dr1#"
+2019-06-18 11:16:00,1

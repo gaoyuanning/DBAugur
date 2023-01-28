@@ -1,0 +1,4 @@
+3,"select top # objid, modelmag_u, modelmag_g, modelmag_r, modelmag_i, modelmag_z, z into mydb.MyTable from SpecPhoto where (specclass = # or specclass = #) and zconf > .#"
+2019-07-18 13:33:00,1
+2019-07-18 13:36:00,1
+2019-07-18 13:43:00,1

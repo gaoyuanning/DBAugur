@@ -1,0 +1,3 @@
+2,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.run, p.rerun, p.camcol, p.field, p.type, S.class, s.z, pz.z FROM PhotoObj AS p LEFT JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN PhotoZ as pz ON pz.objid = p.objid WHERE s.bestobjid IS # AND p.u BETWEEN # AND # AND g BETWEEN # AND #"
+2019-02-26 11:27:00,1
+2019-02-26 16:50:00,1

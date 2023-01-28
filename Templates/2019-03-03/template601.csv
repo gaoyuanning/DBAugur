@@ -1,0 +1,2 @@
+1,"select  _id, cast(ASSAULT as integer) + cast(BURGLARY as integer) + cast(LARCENY as integer) + cast(ARSON as integer) + cast(THEFT as integer) + cast(WEAPSCH as integer) + cast(KIDNAPPING as integer) + cast(HOMICIDE as integer) + cast(DRUGS as integer) + cast(ROBBERY as integer) + cast(RAPE as integer) + cast(SEXCRIMES as integer) + cast(WEAPONS as integer) + cast(VIOLENT as integer) + cast(PROPERTY as integer) + cast(DRUG as integer)   + cast(OTHER as integer) as tot from crimes) select tot, count(*) as num from a  group by tot"
+2019-03-03 09:45:00,1

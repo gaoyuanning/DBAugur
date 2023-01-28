@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.u,p.g,p.r,p.i,p.z,p.extinction_g,p.extinction_i,p.extinction_r,p.extinction_u,p.extinction_z,p.fiberMag_g FROM BESTDR7..PhotoObj AS p 	JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = p.objID WHERE  ( p.type = # OR p.type = #)"
+2019-10-01 11:55:00,1

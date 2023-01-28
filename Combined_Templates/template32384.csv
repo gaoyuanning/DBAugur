@@ -1,0 +1,4 @@
+3,"select albums.AlbumName, count (albums.AlbumName) FROM (SELECT a.Title as AlbumName FROM chinook.Track AS t INNER JOIN chinook.Album as a ON t.AlbumId = a.AlbumId) albums GROUP BY albums.AlbumName"
+2019-04-21 16:44:00,1
+2019-04-21 16:52:00,1
+2019-04-21 16:57:00,1

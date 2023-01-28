@@ -1,0 +1,2 @@
+1,"SELECT * into mydb.manag_redcorr FROM OPENQUERY ([#.#], #)"
+2019-04-05 11:55:00,1

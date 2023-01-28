@@ -1,0 +1,2 @@
+1,"SELECT f.id, f.ra as F_ra, f.dec as F_dec , p.ra, p.dec FROM MyDB.FIRST_Reduced_#p0#deg AS f OUTER APPLY dbo.fGetNearestObjEq (f.ra, f.dec, #) AS x JOIN PhotoObjAll p ON x.objID = p.objID"
+2019-08-13 03:04:00,1

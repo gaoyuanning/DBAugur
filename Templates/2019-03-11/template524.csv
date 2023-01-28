@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.objid,s.ra,s.dec, s.r, s.u - s.g as &&&, s.g-s.r as &&&, s.r-s.i as &&&, s.i-s.z as &&& FROM Star as s WHERE   s.dec BETWEEN # AND #  AND s.ra BETWEEN # AND #  AND s.clean = #  AND s.r < #  AND s.u - s.g BETWEEN # AND #  AND s.g -s.r BETWEEN # AND #"
+2019-03-11 04:50:00,1

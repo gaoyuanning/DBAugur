@@ -1,0 +1,3 @@
+2,"SELECT TOP # s.specobjid, s.class, s.z as redshift, s.plate, s.mjd, s.fiberid FROM SpecObj as s WHERE s.z> # AND s.class = #"
+2019-10-08 16:01:00,1
+2019-10-08 16:02:00,1

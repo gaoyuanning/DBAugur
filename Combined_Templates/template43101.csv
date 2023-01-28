@@ -1,0 +1,3 @@
+2,"select top # velDispNPix, count (*) from SpecObjAll Group by velDispNPix"
+2019-05-31 17:41:00,1
+2019-05-31 17:43:00,1

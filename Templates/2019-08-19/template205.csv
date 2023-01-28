@@ -1,0 +1,2 @@
+2,"select s.bestobjid bestobjid, s.ra ra, s.dec dec, s.z z, s.zErr zErr, s.Class Class, s.subClass subClass,   s.z_person z_person, s.class_person class_person, s.comments_person comments_person into mydb.zzz_dr1#_# from SpecObj S    where   S.z > # and S.zWarning=&&&"
+2019-08-19 12:40:00,2

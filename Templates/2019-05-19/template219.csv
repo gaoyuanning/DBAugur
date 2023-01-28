@@ -1,0 +1,4 @@
+3,"SELECT   p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  p.field FROM PhotoObj AS p WHERE   p.objid = #  OR  p.objid =#  OR  p.objid = #  OR  p.objid = #  OR  p.objid = #  OR  p.objid = #  OR p.objid = #  OR p.objid = #"
+2019-05-19 09:24:00,1
+2019-05-19 09:25:00,1
+2019-05-19 11:47:00,1

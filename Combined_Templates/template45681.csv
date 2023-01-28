@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.specobjid, p.ra, p.dec, p.z, g.lgm_tot_p5# FROM SpecPhotoAll AS p JOIN galSpecExtra AS g ON p.specObjID = g.specObjID"
+2019-06-14 20:35:00,1

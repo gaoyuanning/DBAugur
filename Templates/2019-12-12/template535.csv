@@ -1,0 +1,3 @@
+2,"select top # objid, ra, dec, z, zerr, type, dered_u, dered_g, dered_r, dered_i, dered_z, modelmagerr_u, modelmagerr_g, modelmagerr_r, modelmag_i, modelmagerr_z from specphoto where z<# and class=&&& and ra between # and # and dec between # and #"
+2019-12-12 01:51:00,1
+2019-12-12 02:10:00,1

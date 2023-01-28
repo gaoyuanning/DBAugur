@@ -1,0 +1,4 @@
+4,"SELECT   m.SPRC, m.Objid, m.R, m.cz, p.objid,p.ra,p.dec,p.dered_u,p.dered_g,p.dered_r,p.dered_i,p.dered_z,   s.class,s.subclass,g.specObjID , s.specObjID, s.z as redshift,   g.h_beta_flux, g.oiii_#_flux, g.h_alpha_flux, g.nii_#_flux into SPRC_dr8_with_data from dr8.PhotoObjAll AS p     JOIN dr1#.SpecObj AS s ON s.bestobjid = p.objid     JOIN MyDB.SPRC_dr8 AS m ON m.oBjid = p.objid   JOIN dr1#.galSpecLine AS g ON s.specObjID = g.specObjID"
+2019-04-12 07:50:00,2
+2019-04-12 07:54:00,1
+2019-04-12 07:55:00,1

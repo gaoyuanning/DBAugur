@@ -1,0 +1,3 @@
+3,"select v.[name] as viewname, s.[name] as [schema] from sys.views as v,sys.schemas as s where v.schema_id = s.schema_id --and s.[name] = &&& Select top # plate, MJD, fiberID from specobjall  where subClass = &&& and snMedian_g > # and waveMin <= # and  waveMax >= #"
+2019-10-10 03:48:00,1
+2019-10-10 03:50:00,2

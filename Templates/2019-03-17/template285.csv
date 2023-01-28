@@ -1,0 +1,2 @@
+2,"SELECT TOP # ObjID, z COUNT(TOP # ObjID, z)AS FREQUENCY FROM SpecObj WHERE class = &&& AND zWarning = #  AND survey=&&& AND z BETWEEN # and #"
+2019-03-17 11:06:00,2

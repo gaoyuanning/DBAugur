@@ -1,0 +1,2 @@
+2,"SELECT TOP # specObjID, z, spectroFlux_u, spectroFlux_g, spectroFlux_r, spectroFlux_i, spectroFlux_z FROM SpecObj WHERE class = &&& AND z BETWEEN # and # SELECT TOP # specObjID, z, spectroFlux_u, spectroFlux_g, spectroFlux_r, spectroFlux_i, spectroFlux_z FROM SpecObj WHERE class = &&& AND z BETWEEN # and #"
+2019-03-08 19:03:00,2

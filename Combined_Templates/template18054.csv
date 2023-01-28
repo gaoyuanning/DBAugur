@@ -1,0 +1,2 @@
+1,"SELECT t.thingid, t.ndetect, t.ra, t.dec, d.objid, p.mjd, p.u, p.g, p.r, p.i, p.z, p.err_u, p.err_g, p.err_r, p.err_i, p.err_z , s.z, s.zerr into mydb.MyTable_# from thingIndex AS t, dbo.fgetNearByObjEq (#, #, #) n JOIN detectionindex AS d ON t.thingid = d.thingid JOIN photoobjall AS p ON p.objid = d.objid where p.objid = n.objid ORDER BY t.thingid ASC"
+2019-03-06 08:38:00,1

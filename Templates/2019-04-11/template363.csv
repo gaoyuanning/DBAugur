@@ -1,0 +1,2 @@
+1,"SELECT 	      ra, dec, modelMag_u, modelMag_i, modelMag_g, modelMag_r, modelMag_z, z into mydb.SDSS_DI_v2 from dr1#.SpecPhotoAll	 WHERE     ra > # and ra < # and dec > # and dec < #"
+2019-04-11 11:15:00,1

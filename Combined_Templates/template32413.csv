@@ -1,0 +1,4 @@
+3,"SELECT Milliseconds as time, Bytes as size, MediaTypeId as type FROM chinook.Track"
+2019-04-21 15:42:00,1
+2019-04-21 15:46:00,1
+2019-04-21 15:47:00,1

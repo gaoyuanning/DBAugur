@@ -1,0 +1,12 @@
+20,"select p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, c.z, c.zErr, str(p.u - p.g,#,#) as ugModelColor, str(p.g - p.r,#,#) as grModelColor, str(p.r - p.i,#,#) as riModelColor, str(p.i - p.z,#,#) as izModelColor from Galaxy p, dbo.fgetNearByObjEq(#,#,#) n, Photoz c where p.objid=n.objid AND c.objID=p.objID AND p.g < # AND p.r < # AND p.i < # AND p.z < # AND c.z > # AND c.z < #"
+2019-02-22 20:24:00,2
+2019-02-22 20:25:00,1
+2019-02-22 20:27:00,2
+2019-02-22 20:28:00,1
+2019-02-22 20:29:00,2
+2019-02-22 20:30:00,2
+2019-02-22 20:31:00,2
+2019-02-22 20:34:00,3
+2019-02-22 20:35:00,1
+2019-02-22 20:36:00,2
+2019-02-22 20:37:00,2

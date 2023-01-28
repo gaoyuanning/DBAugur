@@ -1,0 +1,2 @@
+1,"SELECT * g.ra, g.dec, g.petroMag_u as mag_u, g.petroMag_g as mag_g, g.petroMag_r as mag_r, g.petroMag_i as mag_i, g.petroMag_z as mag_z, p.z, p.zErr from PhotoObjAll as g JOIN Photoz as p ON p.objID = g.objID WHERE g.ra BETWEEN # AND # AND g.type = #, #, ,# #, #, #, #, #, #, #, #/#/# #:#:# PM, #, #.#, preprod.skyserver.sdss.org, SDSS3T, BestDR1#, SkyserverWS.SearchTools.RadialSearch, #, #E-#, #, SELECT TOP # p.objid"
+2019-01-25 19:08:00,1

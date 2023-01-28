@@ -1,0 +1,2 @@
+1,"select V3.SampleID as V3_ID, pa.ra, pa.dec, V3.z, V3.dered_r, pa.petroR9#_r, pa.expRad_r, pa.petroRad_r, V3.objID   into mydb.Version3_Re from PhotoObj as pa   join mydb.Version3 as V3 on V3.objID = pa.objID"
+2019-02-09 01:09:00,1

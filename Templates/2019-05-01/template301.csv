@@ -1,0 +1,4 @@
+3,"CREATE TABLE furnaceStateHistory (  	historyId int NOT NULL IDENTITY(#,#) AUTO_INCREMENT, 	presentValue float, 	setValue float, 	upperShaftRotation float, 	lowerShaftRotation float, 	upperShaftFastMin float, 	upperShaftFastHour float, 	upperShaftSlowMin float, 	upperShaftSlowHour float, 	temperature float, 	processed bit NOT NULL DEFAULT #, 	CONSTRAINT history_id_pk  		PRIMARY KEY (historyId) );"
+2019-05-01 13:21:00,1
+2019-05-01 13:24:00,1
+2019-05-01 13:28:00,1

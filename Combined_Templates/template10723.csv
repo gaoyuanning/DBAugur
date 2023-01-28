@@ -1,0 +1,2 @@
+1,"select g, z, bestObjID, spectroFlux_u, spectroFlux_g, spectroFlux_r, spectroFlux_i, spectroFlux_z from specObj where spectroFlux_g BETWEEEN # and # AND z < # AND class = GALAXY#"
+2019-02-13 16:06:00,1

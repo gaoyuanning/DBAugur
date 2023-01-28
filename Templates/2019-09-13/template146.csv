@@ -1,0 +1,2 @@
+2,"select p.extinction_r from photoObj p, photoz2 pz where pz.ObjID = p.objID AND pz.flag = #"
+2019-09-13 17:50:00,2

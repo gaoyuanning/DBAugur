@@ -1,0 +1,2 @@
+1,"SELECT  sp.plate, sp.fiberid, sp.mjd, gal.h_alpha_flux, gal.h_alpha_flux_err, phot.u, phot.g, phot.r, phot.i, phot.z FROM SpecObj AS sp  JOIN GalSpecLine AS gal ON sp.specObjID = gal.specObjID JOIN PhotoObj AS phot ON phot.objID = sp.targetObjID"
+2019-03-06 03:34:00,1

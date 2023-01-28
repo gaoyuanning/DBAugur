@@ -1,0 +1,4 @@
+3,"SELECT s.objid, s.ra, s.dec, s.u, s.g, s.r, s.i, s.z FROM star s, dbo.fGetNearbyObjEq(#,#,#) n WHERE s.objid = n.objid"
+2019-03-06 04:55:00,1
+2019-03-06 20:58:00,1
+2019-03-06 21:45:00,1

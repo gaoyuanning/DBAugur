@@ -1,0 +1,2 @@
+1,"SELECT o.specobjid, m.dr7objid, m.ra, m.dec, o.z as REDSHIFT, o.zerr AS REDSHIFTERR into mydb.GZ1_specto_z from MyDB.GZ1_to_get_z AS m JOIN SpecObj AS o ON o.bestObjID = m.dr7objid JOIN PhotoObj AS p ON p.objid = m.objid"
+2019-11-25 16:14:00,1

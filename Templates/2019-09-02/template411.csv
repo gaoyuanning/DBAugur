@@ -1,0 +1,2 @@
+1,"SELECT    TOP #    * into mydb.MyTable from mydb.NULL_sdss AS db    JOIN dr1#.PhotoObjAll AS tc    ON #=CONTAINS(POINT(&&&, db.ra, db.dec),                  CIRCLE(&&&, tc.ra, tc.dec, #./#.))"
+2019-09-02 09:54:00,1

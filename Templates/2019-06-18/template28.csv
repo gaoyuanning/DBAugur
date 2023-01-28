@@ -1,0 +1,4 @@
+3,"SELECT DISTINCT p.run, p.rerun, p.camcol, p.field FROM fGetNearbyObjEq(#,#,#) n, PhotoPrimary p WHERE n.objID=p.objID"
+2019-06-18 21:53:00,1
+2019-06-18 22:47:00,1
+2019-06-18 23:48:00,1

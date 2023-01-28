@@ -1,0 +1,2 @@
+3,"SELECT TOP #    m.PGC_name, m.RA AS ra1, m.DEC AS dec1,    n.objid, n.distance,    o.ra AS ra2, o.dec AS dec2 FROM MyDB.PGC AS m    CROSS APPLY dbo.fGetNearestObjEq( m.ra, m.dec, #) AS n    JOIN dr1#.PhotoObj AS o ON n.objid=o.objid"
+2019-08-10 15:20:00,3

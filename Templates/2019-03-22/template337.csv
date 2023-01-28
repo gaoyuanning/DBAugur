@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, specObjID, r, v_radial, u-v , b-u, g-u    FROM Galaxy, specObj WHERE r < #     AND v_radial >= #"
+2019-03-22 17:28:00,1

@@ -1,0 +1,6 @@
+5,"SELECT s.specObjID, s.nGood, s.sn_#, s.sn_#, s.sn_#, s.mag_#, s.mag_#, s.mag_#, s.ra, s.dec, s.cx, s.cy, s.cz, s.htmID, s.fiberMag_u, s.fiberMag_g, s.fiberMag_r, s.fiberMag_i, s.fiberMag_z, s.primTarget FROM SpecObjAll AS s JOIN PhotoObj AS p ON p.objid = s.bestobjid WHERE p.specObjID = s.specObjID AND p.ra BETWEEN # AND # AND p.dec BETWEEN # AND # AND s.z< # AND p.type = # AND s.specclass = #"
+2019-06-27 19:54:00,1
+2019-06-27 19:55:00,1
+2019-06-27 19:58:00,1
+2019-06-27 20:01:00,1
+2019-06-27 20:03:00,1

@@ -1,0 +1,2 @@
+1,"SELECT G.objID, G.ra, G.dec, G.specObjID, G.type into mydb.x from PhotoObjAll as G FROM MyDB.MyTable AS m JOIN dbo.fGetNearestObjEq (m.RA, m.dec, #)"
+2019-12-31 01:25:00,1

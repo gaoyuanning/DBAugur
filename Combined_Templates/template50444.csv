@@ -1,0 +1,4 @@
+3,"SELECT TOP # p.objID, p.ra, p.dec, p.psfMag_u, p.psfMag_g , p.psfMag_r, p.psfMag_i, p.psfMag_z FROM PhotoObjAll AS p WHERE p.mode = # AND p.clean = # AND p.specObjID = # AND p.type = #"
+2019-07-08 01:25:00,1
+2019-07-08 08:51:00,1
+2019-07-09 01:55:00,1

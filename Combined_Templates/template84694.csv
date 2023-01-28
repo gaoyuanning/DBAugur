@@ -1,0 +1,19 @@
+60,"SELECT TOP # p.objID, p.specObjID, p.petroMag_u, p.petroMagErr_u, p.petroMag_g, p.petroMagErr_g, p.petroMag_r, p.petroMagErr_r, p.petroMag_i, p.petroMagErr_i, p.petroMag_z, p.petroMagErr_z, p.cModelMag_u, p.cModelMagErr_u, p.cModelMag_g, p.cModelMagErr_g, p.cModelMag_r, p.cModelMagErr_r, p.cModelMag_i, p.cModelMagErr_i, p.cModelMag_z, p.cModelMagErr_z, wx.sdss_objid, wx.wise_cntr, wx.match_dist, w.cntr, w.r_#mass, w.j_m_#mass, w.j_msig_#mass, w.h_m_#mass, w.h_msig_#mass, w.k_m_#mass, w.k_msig_#mass, w.blend_ext_flags, w.w1mpro, w.w1sigmpro, w.w1snr, w.w1rchi2, w.w1sat, w.w1flux, w.w1sigflux, w.w1sky, w.w1sigsky, w.ph_qual_det1, w.w2mpro, w.w2sigmpro, w.w2snr, w.w2rchi2, w.w2sat, w.w2flux, w.w2sigflux, w.w2sky, w.w2sigsky, w.ph_qual_det2, w.w3mpro, w.w3sigmpro, w.w3snr, w.w3rchi2, w.w3sat, w.w3flux, w.w3sigflux, w.w3sky, w.w3sigsky, w.ph_qual_det3, w.w4mpro, w.w4sigmpro, w.w4snr, w.w4rchi2, w.w4sat, w.w4flux, w.w4sigflux, w.w4sky, w.w4sigsky, w.ph_qual_det4 FROM PhotoObjAll AS p JOIN WISE_xmatch AS wx ON wx.sdss_objid = p.objID JOIN WISE_allsky AS w ON w.cntr = wx.wise_cntr JOIN dbo.fGetNearbyObjEq (#, #, #) AS cm ON cm.objID = p.ObjID"
+2019-12-29 07:38:00,1
+2019-12-29 07:39:00,3
+2019-12-29 07:40:00,1
+2019-12-29 07:41:00,2
+2019-12-29 07:42:00,1
+2019-12-29 07:43:00,1
+2019-12-29 07:44:00,5
+2019-12-29 07:45:00,6
+2019-12-29 07:46:00,4
+2019-12-29 07:47:00,2
+2019-12-29 07:48:00,1
+2019-12-29 07:49:00,1
+2019-12-29 07:50:00,1
+2019-12-29 07:51:00,1
+2019-12-29 07:52:00,11
+2019-12-29 07:53:00,4
+2019-12-29 07:54:00,7
+2019-12-29 07:55:00,8

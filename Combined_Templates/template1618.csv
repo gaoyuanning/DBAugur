@@ -1,0 +1,2 @@
+1,"SELECT specObjID, plate, mjd, fiberid, ra, dec, z FROM SpecObj WHERE (ra between # and #) AND (dec between # and #) AND class = # AND zWarning = # AND z> #"
+2019-01-08 05:22:00,1

@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec into mydb.MyTable_# from DR1#.PhotoObj p, thomasp.fGetNearbyObjEq(#,#,#) n WHERE n.objID = p.objID"
+2019-10-31 09:06:00,1

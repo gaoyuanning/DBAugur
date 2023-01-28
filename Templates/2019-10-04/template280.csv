@@ -1,0 +1,2 @@
+1,"SELECT count(*)  objid, ra, dec  FROM  PhotoObjAll WHERE   type=#  AND RA between # and #  AND Dec > #   AND (psfMag_g -psfMag_r) between # and #"
+2019-10-04 10:59:00,1

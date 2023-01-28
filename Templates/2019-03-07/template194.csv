@@ -1,0 +1,2 @@
+1,"SELECT TOP # bestObjId, z FROM SpecObj WHERE (z># AND z<#) AND survey=&&& AND zwarning=# AND class=&&& AND bestObjId > #)  UNION (SELECT TOP # bestObjId, z FROM SpecObj WHERE (z># AND z<#) AND survey=&&& AND zwarning=# AND class=&&& AND bestObjId > #)"
+2019-03-07 20:09:00,1

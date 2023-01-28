@@ -1,0 +1,2 @@
+2,"SELECT dbo.fCosmoDc(#,DEFAULT,DEFAULT,DEFAULT,DEFAULT,DEFAULT) as dist,   dist-# as distmin,dist+# as distmax"
+2019-02-10 17:35:00,2

@@ -1,0 +1,3 @@
+2,"SELECT p.objid, s.specobjid FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid where chunk = # and eboss_target1 = # and plate = # and tile = # and s.mjd = # and run2d = # and thing_id = #"
+2019-08-23 13:12:00,1
+2019-08-23 14:00:00,1

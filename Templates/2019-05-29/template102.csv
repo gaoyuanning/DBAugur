@@ -1,0 +1,2 @@
+1,"SELECT top # objID, type, ra, dec, u, g, r, i, z, extinction_u, extinction_g, extinction_r, extinction_i, extinction_z FROM PhotoObj WHERE  ra > # and ra < # AND dec > # and dec < #"
+2019-05-29 21:52:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.objid,s.ra,s.dec,s.u,s.g,s.r,s.i FROM Star as s WHERE   s.dec BETWEEN # AND #  AND s.ra BETWEEN # AND #  AND s.clean = #  AND s.r > #"
+2019-03-07 19:23:00,1

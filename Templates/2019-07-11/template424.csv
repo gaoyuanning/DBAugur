@@ -1,0 +1,2 @@
+1,"SELECT p.objId as objid, p.ra,p.dec,p.petror9#_r,s.z, n.sersic_n, m.DL as dist FROM galaxy AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid    JOIN nsatlas AS n ON n.mjd = s.mjd and n.fiberID = s.fiberID and n.plate = s.plate    JOIN mangaPipe3D AS m ON m.objra = p.ra and m.objdec = p.dec WHERE n.sersic_n < #"
+2019-07-11 10:07:00,1

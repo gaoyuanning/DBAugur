@@ -1,0 +1,2 @@
+1,"SELECT     G.Name, G.RAdeg_HI, G.DECdeg_HI, G.RAdeg_OC, G.DECdeg_OC, G.DeltaRA_arcsec, G.DeltaDEC_arcsec, G.Vhelio,     G.W5#, G.sigW, G.W2#, G.HIflux, G.sigflux, G.SNR, G.RMS, G.sigDist, G.logMH, G.siglogMH, G.HIcode,     replace( dbo.fGetUrlExpEq(G.RAdeg_HI,G.DECdeg_HI),&&&,&&&) as linkHI,     replace( dbo.fGetUrlExpEq(G.RAdeg_OC,G.DECdeg_OC),&&&,&&&) as link_many_catalo  s_OC FROM MyDB.G1# G"
+2019-04-03 12:00:00,1

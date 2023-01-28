@@ -1,0 +1,2 @@
+1,"SELECT p.objid, pz.z, pz.zErr into mydb.zMLNa3#phot2#DR1# FROM dbo.fGetNearbyObjEq (#, #, #) as b, PhotoObj as p, Photoz as pz WHERE b.objID = p.objID and p.petroMag_r-p.extinction_r < = # and p.objID = pz.objID"
+2019-02-12 19:04:00,1

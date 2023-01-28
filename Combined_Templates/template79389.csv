@@ -1,0 +1,2 @@
+1,"SELECT TOP # khpv.ID, khpv.b as b, khpv.l as l, g.b as galaxy_b, g.l as galaxy_l, g.ra as sdss_ra, g.dec as sdss_dec, g.objID, g.modelMag_u, g.modelMagErr_u, g.modelMag_g, g.modelMagErr_g, g.modelMag_r, g.modelMagErr_r, g.modelMag_i, g.modelMagErr_i, g.modelMag_z, g.modelMagErr_z, g.deVRad_u, g.deVRadErr_u, g.deVRad_g, g.deVRadErr_g, g.deVRad_r, g.deVRadErr_r, g.deVRad_i, g.deVRadErr_i, g.deVRad_z, g.deVRadErr_z INTO MyDB.Khalsaid_pv_radec2 FROM MyDB.Khalsaid_pv_sample AS khpv JOIN PhotoObjAll AS g ON khpv.ID = g.specobjid"
+2019-11-27 05:51:00,1

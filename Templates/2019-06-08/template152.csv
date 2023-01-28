@@ -1,0 +1,2 @@
+1,"select p.*, s.* into mydb.MyTable from SpecObj as s join PhotoObj as p  on p.objID = s.bestObjID  where    p.mode = # and p.clean = # and s.programname IN (&&&, &&&)              and s.zWarning <> #"
+2019-06-08 19:00:00,1

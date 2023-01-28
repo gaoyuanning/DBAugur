@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.specobjid, p.h_alpha_uqw, p.h_alpha_eqw_err, s.lick_hd_a, s.lick_hd_a_err, s.lick_hd_a_model, s.lick_hd_a_sub, s.lick_hd_a_sub_err FROM galspecline AS p  JOIN galspecindx AS s ON s.specobjid = p.specobjid"
+2019-10-02 08:58:00,1

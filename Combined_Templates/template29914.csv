@@ -1,0 +1,6 @@
+6,"select * from dbo.fGetNearestObjEq (#, #, #) as near join PhotoProfile as p on near.objid = p.objid where p.band = #"
+2019-04-13 07:31:00,1
+2019-04-13 07:34:00,1
+2019-04-13 07:35:00,1
+2019-04-13 07:39:00,1
+2019-04-13 07:40:00,2

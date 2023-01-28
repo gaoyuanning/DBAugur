@@ -1,0 +1,2 @@
+1,"SELECT p.objID, z.absMag_u, z.absMag_r, p.r, p.petroMag_z into mydb.fullSim from mydb.fullSimard u JOIN DR7.PhotoObjAll p ON p.objID = u.objID AND DR7.PhotoZ z ON z.objID = u.objID"
+2019-08-01 10:16:00,1

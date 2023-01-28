@@ -1,0 +1,8 @@
+11,"SELECT  TOP # p.apstar_id,     p.apogee_id,p.ra, p.dec, p.glon, p.glat,    p.vhelio_avg,p.vscatter,    a.teff,a.logg,a.metals    FROM apogeeStar p    JOIN fGetNearbyApogeeStarEq(#,#,#) n on p.apstar_id=n.apstar_id    JOIN aspcapStar a on a.apstar_id = p.apstar_id"
+2019-03-06 03:11:00,2
+2019-03-06 03:13:00,1
+2019-03-06 03:15:00,2
+2019-03-06 03:17:00,1
+2019-03-06 03:18:00,3
+2019-03-06 03:22:00,1
+2019-03-06 03:24:00,1

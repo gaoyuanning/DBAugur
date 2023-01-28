@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.plate, s.mjd, s.fiberid, s.bestObjID, s.z, g.sn_median FROM specObj s JOIN galSpecInfo g ON g.specObjID = s.bestObjID WHERE s.class = # AND s.zWarning = # AND s.bestObjID > # AND # < = s.z AND s.z < = # AND MAX = g.sn_median"
+2019-04-04 19:28:00,1

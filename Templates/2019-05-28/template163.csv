@@ -1,0 +1,2 @@
+1,"SELECT g.h_alpha_flux, g.h_beta_flux, g.oiii_#_flux, g.sii_#_flux, g.specObjID FROM Galaxy AS gal JOIN galSpecLine AS g ON gal.specObjID = g.specObjID"
+2019-05-28 18:18:00,1

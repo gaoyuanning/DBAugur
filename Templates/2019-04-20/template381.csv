@@ -1,0 +1,2 @@
+1,"SELECT GenreID, MediaTypeID from chinook.track, name from chinook.genre"
+2019-04-20 14:43:00,1

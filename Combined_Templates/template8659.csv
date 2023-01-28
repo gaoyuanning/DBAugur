@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.extinction_u, p.extinction_r, p.extinction_g, p.extinction_i, p.extinction_z, p.dered_u, p.dered_r, p.dered_g, p.dered_i, p.dered_z, s.class, s.z FROM PhotoObjAll AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE s.z BETWEEN # AND # AND s.class = #"
+2019-02-06 05:18:00,1

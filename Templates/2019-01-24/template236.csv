@@ -1,0 +1,2 @@
+1,"INSERT INTO #upload values ( #, #e+#),( #, #e+#) EXEC spExecuteSQL &&&,&&&, @log=#, @filter=#"
+2019-01-24 17:56:00,1

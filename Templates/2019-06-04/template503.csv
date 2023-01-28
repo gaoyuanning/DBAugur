@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,str(p.u - p.g,#,#) as ugModelColor,str(p.g - p.r,#,#) as grModelColor,str(p.r - p.i,#,#) as riModelColor,str(p.i - p.z,#,#) as izModelColor,dbo.fIAUFromEq(p.ra,p.[dec]) as SDSSname,p.cModelMag_g,p.cModelMag_i,p.cModelMag_r,p.cModelMag_z FROM BESTDR8..Star AS p 	JOIN #x AS x ON x.objID=p.objID JOIN #upload AS u ON u.up_id = x.up_id  WHERE  p.r > # AND p.r < # AND (p.flags & (dbo.fPhotoFlags(&&&)) > #) ORDER BY x.up_id"
+2019-06-04 01:25:00,1

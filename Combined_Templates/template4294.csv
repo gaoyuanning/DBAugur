@@ -1,0 +1,2 @@
+1,"SELECT s.ObjID, s.ra, s.dec, s.l, s.b, s.psfMag_u, s.psfMag_g, s.psfMag_r, s.psfMag_i, s.psfMag_z, s.extinction_u, s.extinction_g, s.extinction_r, s.extinction_i, s.extinction_z INTO mydb.hermus_big_msto from Star s WHERE (s.psfMag_g - s.extinction_g) between # and # AND (s.psfMag_g - s.extinction_g) - (s.psfMag_r - s.extinction_r) between # and # AND (s.psfMag_u - s.extinction_u) - (s.psfMag_g - s.extinction_g) > # AND s.dec > # AND s.dec < # AND s.ra > # AND s.ra < # AND (flags & dbo.fPhotoFlags (#) ) = # AND (flags & dbo.fPhotoFlags (#) ) = #"
+2019-01-18 14:09:00,1

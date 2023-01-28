@@ -1,0 +1,2 @@
+1,"SELECT TOP # G.ObjID, u, g, Q.ra, Q.dec, Q.z, Q.BestObjID, G.ObjID, g.z, N.distance  From Galaxy as G,   SpecObj as Q,   Neighbors as N,   SpecObj as S  WHERE G.ObjID = S.BestObjID, g.z BETWEEN # and #   and photoErrorClass=#  and nnCount>#   and g.zErr BETWEEN # and #   and Q.z > #  and Q.z < #  and u < #  and Q.class in (&&&, &&&)   and Q.BestObjID = N.ObjID   and G.ObjID = N.NeighborObjID   and N.distance < #/#"
+2019-02-21 03:39:00,1

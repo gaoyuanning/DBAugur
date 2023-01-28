@@ -1,0 +1,4 @@
+4,"SELECT ra, dec FROM Star WHERE   ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-03-21 12:54:00,1
+2019-03-21 16:48:00,2
+2019-03-21 16:49:00,1

@@ -1,0 +1,2 @@
+1,SELECT (CHR(#)||CHR(#)||CHR(#)||CHR(#)||CHR(#))||(SELECT (CASE WHEN (#=#) THEN # ELSE # END))::text||(CHR(#)||CHR(#)||CHR(#)||CHR(#)||CHR(#)))
+2019-12-03 22:36:00,1

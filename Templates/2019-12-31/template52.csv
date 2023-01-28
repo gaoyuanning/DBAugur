@@ -1,0 +1,2 @@
+1,"select top # ra, dec, z, zErr, zWarning, subclass, snMedian, (# - #*log1#(spectroFlux_g)), elodieSpType, elodieBV, elodieTEff, elodieLogG, elodieFeH, elodieZ, elodieZerr, (z - elodieZ) from specobj where (ra between # and #) and (dec between # and #) and class = &&& and snMedian > #. and (z > # or z < #)"
+2019-12-31 20:51:00,1

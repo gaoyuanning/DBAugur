@@ -1,0 +1,3 @@
+4,"SELECT top # p.objid, s.ra, s.dec, s.z, s.class, p.g, p.r, p.i, p.u, p.z, s.plate, s.fiberid, m.mstellar_median FROM PhotoObj AS p, SpecObj AS s, stellarMassPCAWiscM1# as m WHERE  s.bestobjid = p.objid AND m.specobjid = s.specobjid AND s.z BETWEEN # AND # AND s.zWarning = # AND m.mstellar_median BETWEEN # and # AND m.warning = # AND class = &&&"
+2019-06-26 00:30:00,2
+2019-06-26 00:31:00,2

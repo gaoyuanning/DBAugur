@@ -1,0 +1,4 @@
+3,"SELECT TOP # so1.specobjid as specobjid1, so2.specobjid as specobjid2, photo.objid as objid FROM SpecObjAll as so1, SpecObjALL as so2, PhotoPrimary as photo WHERE so1.bestobjid = so2.bestobjid AND so1.bestobjid ! = # AND photo.objid = so1.bestobjid"
+2019-03-03 09:39:00,1
+2019-03-03 11:25:00,1
+2019-03-03 12:34:00,1

@@ -1,0 +1,3 @@
+2,"select p.ra, p.dec, pa.l, pa.b, str (s.z, #, #) as z, s.eClass, p.petroRad_r from photoObjAll p join specObjAll s on p.objId = s.bestObjID join photoAuxAll pa on p.objID = pa.objID where s.specClass = # and s.primTarget & (dbo.fprimTarget (#) ) > #"
+2019-03-03 11:37:00,1
+2019-03-03 12:45:00,1

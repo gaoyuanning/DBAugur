@@ -1,0 +1,2 @@
+1,"select name, type, description from DBObjects where type IN () and UPPER (name) like ## = A%'"
+2019-03-14 16:52:00,1

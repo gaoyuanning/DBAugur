@@ -1,0 +1,3 @@
+2,"select top # objid, ra, dec, b, l, u, g, r, i, z from star where htmid*# & # < (# * #)"
+2019-10-20 06:24:00,1
+2019-10-20 06:29:00,1

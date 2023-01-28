@@ -1,0 +1,2 @@
+2,"select   ra,   dec,   fiberMag_i,   fiberMag_g,   fiberMag_r from PhotoObjAll where # < ra and ra < # and # < dec and dec < #"
+2019-06-19 16:19:00,2

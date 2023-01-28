@@ -1,0 +1,2 @@
+1,"SELECT * into mydb.Gal_OBJIDS_RA_indexed from (                 SELECT  ra,                          dec,                    objid,                   distance,                         ROW_NUMBER() OVER(PARTITION BY ra ORDER BY distance ASC) rn                     FROM NN               ) a WHERE rn = #"
+2019-01-09 15:56:00,1

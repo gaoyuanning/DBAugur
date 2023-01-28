@@ -1,0 +1,2 @@
+1,"select run1, run2, count(distance) into mydb.S8#MatchRunPairs from Match group by run1, run2"
+2019-03-02 18:09:00,1

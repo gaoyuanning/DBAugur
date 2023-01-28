@@ -1,0 +1,2 @@
+1,"select ID, VINTAGE, STATE, COUNTY, TRACT , lon = centroid.Long, lat = centroid.Lat , wkt = geom.ToString () from optw.tamass.TRACTS"
+2019-12-07 15:02:00,1

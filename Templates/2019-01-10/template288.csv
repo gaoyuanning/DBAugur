@@ -1,0 +1,2 @@
+2,"SELECT top #   s.plate    FROM MyDB.spec AS u, SpecObj AS s       WHERE u.plate=s.plate       and u.mjd=s.mjd       and u.fiberid=s.fiberid"
+2019-01-10 12:04:00,2

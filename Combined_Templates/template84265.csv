@@ -1,0 +1,4 @@
+3,"SELECT ph.specObjID, ph.ra, ph.dec, ph.type, phz.z, phz.zerr into mydb.zph5 from PhotoObjAll as ph JOIN PhotoZ as phz ON ph.objID = phz.objID WHERE ph.type = # AND ph.specObjID> # AND phz.z> # AND ph.ra > #. and ph.ra < #. and ph.dec > #. and ph. dec < #."
+2019-12-24 08:49:00,1
+2019-12-24 08:51:00,1
+2019-12-24 08:52:00,1

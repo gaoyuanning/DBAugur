@@ -1,0 +1,2 @@
+1,"select top # logmass_max,rv_teff, STAR_WHITE_DWARF from apogeestar, stellarMassFSPSGranEarlyDust,zone, primtarget where rv_teff BETWEEN # and # AND logmass_max BETWEEN # and #"
+2019-06-27 10:27:00,1

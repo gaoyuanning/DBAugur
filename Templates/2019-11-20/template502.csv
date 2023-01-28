@@ -1,0 +1,2 @@
+1,"select mjd, ra, dec, spectroFlux_u, spectroFlux_g, spectroFlux_r, spectroFlux_i, spectroFlux_z, z from SpecObjAll where ( dec < # AND dec > # ) AND ( ra < # OR ra > #) AND z > #"
+2019-11-20 04:58:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # c.RA, c.Dec, s.RA as RA_neighbour, s.dec as Dec_neighbour, s.ObjID as Neighbour_ID, s.r as rband into mydb.cont_match2 from MyDB.continuum_sources as c, photoobj as s WHERE s.RA < c.RA + # and s.RA > c.RA - # and s.Dec < c.Dec + # and s.Dec > c.Dec - #"
+2019-02-04 07:17:00,1

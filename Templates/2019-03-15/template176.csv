@@ -1,0 +1,2 @@
+1,"SELECT specObjID,z,zConf,SpecClass,ra,dec FROM SpecObj WHERE (SpecClass=dbo.fSpecClass(&&&) or SpecClass=dbo.fSpecClass(&&&)) and z between # and # and zConf>#"
+2019-03-15 18:13:00,1

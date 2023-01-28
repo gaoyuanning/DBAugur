@@ -1,0 +1,2 @@
+1,"select s.modelMag_u, s.modelMag_g, s.modelMag_r, s.modelMag_i, s.modelMag_z, s.ra, s.dec, s.z, s.ObjID, s.mjd, s.plate, s.fiberID, po.petroR9#_g,po.petroR9#_r,po.petroR9#_i,po.petroR9#Err_g,po.petroR9#Err_r,po.petroR9#Err_i  from SpecPhotoAll as s, dbo.fGetNearbyObjEq(#,#,#) n JOIN PhotoObjAll AS po ON s.objID = po.objID where s.objID = n.objID and s.class = &&& and s.z between # and #"
+2019-06-01 11:29:00,1

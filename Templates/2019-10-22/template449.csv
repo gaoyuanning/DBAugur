@@ -1,0 +1,2 @@
+1,"select objID, ra, dec, cModelMag_u, cModelMag_g, cModelMag_r, cModelMag_i, cModelMag_z from SpecObj where  ra between # and # and cModelMag_g >= # and and cModelMag_u - cModelMag_g > #"
+2019-10-22 10:19:00,1

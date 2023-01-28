@@ -1,0 +1,2 @@
+1,"SELECT     g.objid as objId,          q_r,u_r,           isoA_r,isoB_r FROM Galaxy AS g WHERE     g.objid = #"
+2019-05-02 14:03:00,1

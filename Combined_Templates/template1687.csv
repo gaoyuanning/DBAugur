@@ -1,0 +1,2 @@
+1,"SELECT OBJID, ra, dec, FROM #mass WHERE ra < # AND ra > # AND dec < # and DEC > #"
+2019-01-09 17:06:00,1

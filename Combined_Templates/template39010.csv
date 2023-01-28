@@ -1,0 +1,2 @@
+1,"select data.id, cat.objid, data.ra, data.dec, cat.ra from photoobjall as cat, mydb.MyTable as data where cat.ra = data.ra and cat.dec = data.dec"
+2019-05-13 16:14:00,1

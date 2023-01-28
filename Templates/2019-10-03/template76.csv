@@ -1,0 +1,4 @@
+3,"SELECT objid,ra,dec, class, z as redshift FROM SpecPhoto  WHERE z ># AND z < # AND class = GALAXY&&&"
+2019-10-03 22:26:00,1
+2019-10-03 22:28:00,1
+2019-10-03 22:29:00,1

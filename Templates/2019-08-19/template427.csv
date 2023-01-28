@@ -1,0 +1,3 @@
+2,"select specObjID, ra, dec, z, zErr, zWarningfrom dr1#.SpecObjAll where bestObjId =#or fluxObjID =#"
+2019-08-19 00:42:00,1
+2019-08-19 00:43:00,1

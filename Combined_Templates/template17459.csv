@@ -1,0 +1,2 @@
+1,"SELECT TOP # w.cntr, w.w1mag as w1 FROM wise_xmatch as xm JOIN wise_allsky as w on xm.wise_cntr = w.cntr"
+2019-03-05 12:27:00,1

@@ -1,0 +1,2 @@
+1,"SELECT S.specObjID, S.ra, S.dec, S.z, S.zErr into mydb.DR1#_BOSS FROM SpecObj as S JOIN PlateX as P on S.plateID = P.plateID WHERE S.instrument = &&& AND S.class = &&&"
+2019-12-20 02:26:00,1

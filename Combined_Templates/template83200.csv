@@ -1,0 +1,2 @@
+1,"select id, s.bestobjID as objid, s.specObjID as specobjid, s.z as zspec, s.zErr, zWarning as zW, sciencePrimary as prim, s.plate, s.mjd, s.fiberid, s.eClass from MyDB.temp as t left join SpecObjAll as s on s.bestObjID = t.objid order by id"
+2019-12-16 15:19:00,1

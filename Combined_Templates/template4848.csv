@@ -1,0 +1,4 @@
+7,"SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = #) ) BEGIN drop table CycleEdges_S1# END CREATE TABLE CycleEdges_S1# (cycleRootId integer, snapnum smallint, rankInCycle integer, elementId integer, edgeRank tinyint)"
+2019-01-21 17:08:00,5
+2019-01-21 18:34:00,1
+2019-01-22 00:38:00,1

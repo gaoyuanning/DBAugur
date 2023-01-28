@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, bestobjid INTO mydb.galaxy FROM dbo.SpecObjAll WHERE class = #"
+2019-03-29 14:54:00,1

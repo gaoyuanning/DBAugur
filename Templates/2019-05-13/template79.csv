@@ -1,0 +1,4 @@
+4,"SELECT top # objid, ra, dec, psfmag_i-extinction_i AS mag_i, psfmag_r-extinction_r AS mag_r, z  FROM SpecPhoto  WHERE   (class = &&&)"
+2019-05-13 02:33:00,1
+2019-05-13 08:35:00,2
+2019-05-13 22:23:00,1

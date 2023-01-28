@@ -1,0 +1,2 @@
+1,"SELECT sp.ra, sp.dec, sp.z, f.ra, f.dec FROM SpecObj AS sp INNER JOIN FIRST AS f ON sp.specObjID = f.ObjID WHERE class = #"
+2019-10-23 12:01:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # g,r,ra,dec,petroMag_r,s.z as redshift SELECT p.objid,p.ra,p.dec,p.g,p.r,s.z as redshift FROM Galaxy AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE  ra BETWEEN # AND #   AND dec BETWEEN # and #  AND ((flags_r & #) != #)   AND ((flags_r & #) = #)   AND (((flags_r & #) = #) or (psfmagerr_r <= #))   AND (((flags_r & #) = #) or (flags_r & #) = #)"
+2019-10-25 21:30:00,1

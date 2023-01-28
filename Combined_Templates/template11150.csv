@@ -1,0 +1,2 @@
+4,"select top # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, s.z as redshift from galaxy p, specobj s where ra BETWEEN # and # AND dec BETWEEN # an # AND p.objid = s.bestobjid"
+2019-02-14 11:44:00,4

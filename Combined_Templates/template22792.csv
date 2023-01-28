@@ -1,0 +1,2 @@
+1,"SELECT ra, dec into mydb.MyTable_# from PhotoPrimary WHERE class = # AND zWarning = # AND ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-03-22 05:16:00,1

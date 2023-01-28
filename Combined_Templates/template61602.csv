@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.psfmag_g, f.mjd_g into mydb.MyTable from PhotoPrimary p, Field f WHERE (f.fieldID = p.fieldID AND p.run = #)"
+2019-09-06 04:07:00,1

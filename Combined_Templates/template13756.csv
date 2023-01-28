@@ -1,0 +1,2 @@
+1,"SELECT ra, dec FROM DR1#.galaxyData OPEN my_cursor -- WHILE (# = #) BEGIN FETCH NEXT from my_cursor into @ra, @dec IF (@@fetch_status < #) break INSERT MYDB.MyTable_# SELECT * FROM dbo.fGetNearestObjEq (@ra, @dec, #) END -------------------- -- close the cursor -------------------- CLOSE my_cursor DEALLOCATE my_cursor"
+2019-02-23 00:17:00,1

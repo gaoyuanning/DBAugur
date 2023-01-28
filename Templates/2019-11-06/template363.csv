@@ -1,0 +1,2 @@
+1,"SELECT   objID,ra, dec,flags,type,run,rerun,camcol,field,   rowc_r,colc_r,rowcErr_r,colcErr_r,   u,g,r,i,z,   err_u,err_g,err_r,err_i,err_z,   psfmag_u,psfMag_g, psfMag_r, psfMag_i,psfMag_z,    psfmagerr_u,psfmagerr_g, psfmagerr_r,psfmagerr_i, psfmagerr_z into mydb.t3#_# from PhotoPrimary WHERE     ((ra BETWEEN # and #))   AND (psfMag_i BETWEEN # and #)"
+2019-11-06 02:44:00,1

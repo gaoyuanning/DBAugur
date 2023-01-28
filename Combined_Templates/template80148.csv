@@ -1,0 +1,2 @@
+1,"select specobjid, bestobjid, firstrelease, survey, sourcetype, class, ra, raErr, dec, decErr, z, zErr, modelMag_g, modelMag_r, modelMag_i, psfMag_g, psfMag_r, psfMag_i, petroMag_r, petroR5#_r INTO mydb.LRG_CUT1_COMPLETE from LRG_CUT1 where petroMag_r+#*log (petroR5#_r*petroR5#_r*#*#) < # AND petroMag_r< #+ (#* (psfMag_g-psfMag_r) +#* ((psfMag_r-psfMag_i) #) )/#"
+2019-12-02 01:10:00,1

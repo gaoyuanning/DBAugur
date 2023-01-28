@@ -1,0 +1,2 @@
+1,"SELECT s.SpecObjID, s.z, L.ew into mydb.NII2 from SpecObj as s RIGHT JOIN SpecLineAll as L ON s.SpecObjID = L.specObjID WHERE (L.LineID = #) and L.ew/#if (L.ewErr, #) > # and s.z IS NOT # ORDER BY s.SpecObjID"
+2019-05-30 06:32:00,1

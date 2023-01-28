@@ -1,0 +1,2 @@
+1,"select x.plate, x.mjd, s.fiberid, s.ra, s.dec, s.z, p.modelMag_z, s.bestobjid from dbo.specobj s join dbo.platex x on x.plateid = s.plateid join dbo.PhotoObj p on p.objid = s.bestobjid where s.class = # and s.zwarning = # and p.modelMag_z between # and # order by s.z into mydb.HbrightQSOallz"
+2019-02-07 06:00:00,1

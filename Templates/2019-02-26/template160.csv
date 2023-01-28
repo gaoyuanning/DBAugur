@@ -1,0 +1,2 @@
+1,"SELECT count(*) objID, ra ,dec, g FROM PhotoPrimary WHERE ra > # and ra < # AND dec > # and dec < #"
+2019-02-26 19:40:00,1

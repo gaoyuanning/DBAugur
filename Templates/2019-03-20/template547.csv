@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec from PhotoObj WHERE  cModelMag_g># and cModelMag_g<# and  psfMag_g<# and cModelMagErr_g<# and  cModelMagErr_r<# and cModelMag_g - cModelMag_r > - # and psfMag_g -psfMag_r > # and cModelMag_g - cModelMag_r < # and psfMag_g -psfMag_r < # and  cModelMag_r - cModelMag_i > # and psfMag_r -psfMag_i > # and cModelMag_g - cModelMag_r < # and psfMag_g -psfMag_r < # and  calibStatus_u <=# and calibStatus_g <=# and calibStatus_r <=# and calib-Status_i <=# and (flags & #)=#"
+2019-03-20 05:59:00,1

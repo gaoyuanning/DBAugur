@@ -1,0 +1,2 @@
+1,"select type, ra, dec, psfMag_g, psfMag_r, z  FROM specPhotoAll  WHERE ra BETWEEN # and #  AND dec BETWEEN # and #  AND type = #"
+2019-04-14 17:35:00,1

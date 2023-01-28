@@ -1,0 +1,12 @@
+11,"SELECT str(p.ra,#,#) as ra,str(p.[dec],#,#) as dec,p.u,p.g,p.r,p.i, p.z,p.modelMagErr_u,p.modelMagErr_g,p.modelMagErr_r,p.modelMagErr_i, p.modelMagErr_z,p.obj,p.type FROM BESTDR7..PhotoObj AS p JOIN dbo.fGetObjFromRect(#,#,#,#) AS b ON p.objID = b.objID WHERE ( p.type = # OR p.type = #)"
+2019-03-03 08:07:00,1
+2019-03-03 08:24:00,1
+2019-03-03 08:40:00,1
+2019-03-03 08:49:00,1
+2019-03-03 09:02:00,1
+2019-03-03 09:14:00,1
+2019-03-03 09:23:00,1
+2019-03-03 10:42:00,1
+2019-03-03 11:04:00,1
+2019-03-03 11:45:00,1
+2019-03-03 12:14:00,1

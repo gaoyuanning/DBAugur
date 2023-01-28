@@ -1,0 +1,2 @@
+1,"CREATE TABLE ImageTableDemo (     Id int NOT NULL IDENTITY(#,#) PRIMARY KEY,     Name varchar(#),     Photo varbinary(max)  )"
+2019-05-03 07:49:00,1

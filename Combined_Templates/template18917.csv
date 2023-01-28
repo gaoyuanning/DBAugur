@@ -1,0 +1,2 @@
+2,"select s.ra, s.dec, s.z, p.deVAB_u, p.deVAB_g, p.deVAB_r, p.deVAB_i, p.deVAB_z, p.deVABErr_u, p.deVABErr_g, p.deVABErr_r, p.deVABErr_i, p.deVABErr_z, p.deVPhi_u, p.deVPhi_g, p.deVPhi_r, p.deVPhi_i, p.deVPhi_z, z.ra, z.dec from DR8.photoObj p join DR8.specObj s ON s.bestObjID = p.objID join DR1#.zooSpec z ON z.objId = p.objID into mydb.dongzi where s.class = # and z.spiral = # and s.z < #"
+2019-03-09 16:41:00,2

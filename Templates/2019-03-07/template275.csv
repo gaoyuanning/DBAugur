@@ -1,0 +1,2 @@
+1,"select Modelmag_i, Modelmag_z, (Modelmag_g - Modelmag_r) from PhotoObjDR7 as x where x.name=# or x.name=# or x.name=#"
+2019-03-07 18:33:00,1

@@ -1,0 +1,2 @@
+1,"SELECT objId, ra, dec, g, r, i, z, zErr FROM Photoz WHERE ra BETWEEN # and # AND dec BETWEEN # and # AND z BETWEEN # and # AND r < = # and nnIsInside = # and nnCount> # and zErr BETWEEN # and #"
+2019-09-29 18:34:00,1

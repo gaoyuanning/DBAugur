@@ -1,0 +1,2 @@
+1,"SELECT  objra, objdec, nsa_z  FROM MangaDRPall WHERE  objra > # and objra < #  AND objdec > # and objdec < #"
+2019-10-07 12:56:00,1

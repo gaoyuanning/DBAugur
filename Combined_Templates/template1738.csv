@@ -1,0 +1,3 @@
+2,"select distinct top # m.ra into #list from NN m GO select distinct top # q.objid, a.ra, q.dec from NN q JOIN #list a on a.ra = q.ra"
+2019-01-09 15:25:00,1
+2019-01-09 15:26:00,1

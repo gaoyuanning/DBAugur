@@ -1,0 +1,2 @@
+1,"SELECT TOP # z,mjd,fiberID,plate into mydb.adat_spectra from SpecObj   WHERE class = &&& AND z between # and #"
+2019-04-29 10:37:00,1

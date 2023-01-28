@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid, p.ra, p.dec, p.u, p.err_u, p.g, p.err_g, p.r, p.err_r, p.i, p.err_i, p.z, p.err_z,  s.specobjid, s.class, s.z as redshift,  s.plate, s.mjd, s.fiberid FROM PhotoObjAll AS p  RIGHT OUTER JOIN SpecObjAll AS s ON s.bestobjid = p.objid"
+2019-03-26 21:55:00,1

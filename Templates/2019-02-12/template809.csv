@@ -1,0 +1,2 @@
+1,"SELECT distinct objID, modelMag_r, petroRad_r, count(z) FROM galaxy WHERE (ra between # and #) and (dec between # and #) and modelMag_r < # and petroRad_r > #"
+2019-02-12 04:48:00,1

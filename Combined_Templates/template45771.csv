@@ -1,0 +1,2 @@
+1,"select p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, s.z, x.tempno from PhotoObj p, specObj s, XCRedshift x where objid = bestobjid specobjid p.ObjID = s.bestObjID AND p.SpecObjID = x.specObjID AND s.specObjID = x.specObjID AND (s.specClass = # OR s.specClass = #) AND s.z > # AND s.zConf > #"
+2019-06-14 14:50:00,1

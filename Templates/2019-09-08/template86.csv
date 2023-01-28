@@ -1,0 +1,2 @@
+1,"SELECT objID,ra,dec,offsetRa_r,offsetRa_i,offsetRa_g,offsetDec_r,offsetDec_i,offsetDec_g FROM PhotoObj WHERE ra > # AND ra < # AND ra > # AND ra < #"
+2019-09-08 18:46:00,1

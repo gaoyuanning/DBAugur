@@ -1,0 +1,2 @@
+1,"select count(mjd),plate from plateX where plate <= # group by plate"
+2019-06-20 02:50:00,1

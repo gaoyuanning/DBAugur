@@ -1,0 +1,2 @@
+1,"SELECT TOP # poa.objID, poa.ra, poa.dec, p.z, so.z FROM Photoz p, PhotoObjAll poa, SpecObj so, dbo.fGetNearbyObjEq (#, #, #) n WHERE p.z BETWEEN # and # AND poa.objID = n.objID AND p.objID = so.objID"
+2019-01-15 12:11:00,1

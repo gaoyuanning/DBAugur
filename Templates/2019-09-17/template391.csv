@@ -1,0 +1,2 @@
+1,"select b.eid,b.Qualifications_#,a.encoding_id from dbo.Education b cross apply openjson([Qualifications_#])  join metadata.columninfo a on a.column_name =&&& AND a.table_name=&&&"
+2019-09-17 14:20:00,1

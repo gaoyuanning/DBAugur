@@ -1,0 +1,2 @@
+1,"SELECT Track.AlbumId, Album.Title FROM chinook.Track AS Track INNER JOIN chinook.Album AS Album ON Track.AlbumId = Album.AlbumId"
+2019-04-21 01:18:00,1

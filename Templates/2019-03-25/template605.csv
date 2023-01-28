@@ -1,0 +1,2 @@
+1,"select top # objid, cModelMag_u, cModelMag_g, cModelMag_r, cModelMag_i, cModel_Mag_z from PhotoObjAll select top # class from specObjAll"
+2019-03-25 15:47:00,1

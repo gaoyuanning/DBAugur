@@ -1,0 +1,2 @@
+1,"SELECT bestObjID, z From SpecObj WHERE htmid*# & # < (# * #) AND type = galaxy#QSO AND zWarning = # AND z BETWEEN # and #"
+2019-03-12 20:44:00,1

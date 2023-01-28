@@ -1,0 +1,2 @@
+1,"SELECT ALL p.objID, p.RA, p.DEC, p.petroMag_u as u, p.petroMagErr_u as u_err, p.petroMag_g as g, p.petroMagErr_g as g_err, p.petroMag_r as r, p.petroMagErr_r as r_err, p.petroMag_i as i, p.petroMagErr_i as i_err, p.petroMag_z as z, p.petroMagErr_z as z_err, s.z as z_red, s.zErr as z_red_err, into mydb.crossMatchGalex from PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN GalexGR6.xSDSSDR7 AS G6 ON G6.SDSSobjid = p.objid WHERE p.petroMag_r < # AND p.petroMag_g < # AND p.petroMag_u < # AND s.class = # AND s.z> # AND s.z< #"
+2019-11-17 12:46:00,1

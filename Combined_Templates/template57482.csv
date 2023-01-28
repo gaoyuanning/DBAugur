@@ -1,0 +1,2 @@
+1,"SELECT top # s.ra, s.dec, s.class, max (s.dec) as max_dec, min (s.dec) as min_dec FROM specobj s"
+2019-08-14 20:50:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID, z, primTarget, sourceType FROM SpecObj WHERE (LEGACY_TARGET1 & #) > # --primTarget & (flagname & value) != # QSO_HIZ"
+2019-06-05 13:49:00,1

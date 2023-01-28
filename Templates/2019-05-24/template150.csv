@@ -1,0 +1,2 @@
+1,"SELECT top # objid, ra, dec, psfmag_i-extinction_i AS mag_i, psfmag_r-extinction_r AS mag_r, z  sp.objID, camCol, rerun, field, objID, u, g, r, i, z, sp.mjd, px.taiBegin, px.taiEnd, sp.fiberID, sp.z  FROM SpecPhoto as sp WHERE  sp.ra > # and sp.ra < # AND sp.dec > # and sp.dec < #"
+2019-05-24 21:57:00,1

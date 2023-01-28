@@ -1,0 +1,2 @@
+1,"SELECT  g2.petroR5#_r as g2_rad,  g2.objID as g2_obj FROM Galaxy as g2 WHERE  g2_rad > #"
+2019-04-18 19:07:00,1

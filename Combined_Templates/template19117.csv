@@ -1,0 +1,15 @@
+1122,"SELECT s.specObjID, p.type, x.z, x.ra, x.dec, x.plate, x.fiberID, x.MJD, s.oii_#_flux as OII3#, s.oiii_#_flux as OIII4#, s.oiii_#_flux as OIII5#, s.h_beta_flux as HBeta, s.h_alpha_flux as HAlpha, s.nii_#_flux as NII6#, x.logMass as logM FROM galSpecLine s JOIN stellarMassFSPSGranEarlyDust x ON x.specObjID = s.specObjID JOIN PhotoObj p ON p.specObjID = s.specObjID WHERE x.plate = # AND x.fiberID = #"
+2019-03-10 16:58:00,3
+2019-03-10 16:59:00,4
+2019-03-10 17:06:00,54
+2019-03-10 17:07:00,84
+2019-03-10 17:08:00,155
+2019-03-10 17:09:00,207
+2019-03-10 17:10:00,94
+2019-03-10 17:11:00,67
+2019-03-10 17:12:00,111
+2019-03-10 17:13:00,82
+2019-03-10 17:15:00,65
+2019-03-10 17:16:00,120
+2019-03-10 17:17:00,75
+2019-03-14 18:46:00,1

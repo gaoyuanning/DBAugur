@@ -1,0 +1,2 @@
+1,"SELECT DISTINCT p.psfMag_u, p.psfMag_g, p.psfMag_r, p.probPSF, p.run, p.rerun, p.camcol, p.field FROM PhotoObjAll AS p WHERE ( (p.ra between # and #) and (p.dec between # and #) )"
+2019-03-14 20:34:00,1

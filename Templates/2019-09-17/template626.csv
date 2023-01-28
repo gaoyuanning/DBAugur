@@ -1,0 +1,2 @@
+2,"SELECT   z.specobjid, z.p_el, z.p_cw, z.p_acw, z.p_edge    INTO   mydb.dr1#_zoo    FROM   zooSpec as z"
+2019-09-17 03:03:00,2

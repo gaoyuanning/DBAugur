@@ -1,0 +1,2 @@
+1,"select top # objID, psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z, class from PhotoObjAll, specObjAll"
+2019-03-25 15:37:00,1

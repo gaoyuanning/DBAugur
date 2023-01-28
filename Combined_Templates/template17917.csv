@@ -1,0 +1,2 @@
+1,"SELECT a.objID, b.z, b.zErr, b.specObjID FROM Galaxy a, SpecPhoto b WHERE b.objID = = a.objID"
+2019-03-06 14:02:00,1

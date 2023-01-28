@@ -1,0 +1,3 @@
+2,"SELECT specobjid,objid,ra,dec,z,zErr,zWarning,class,subClass FROM SpecPhotoAll WHERE class IN (&&&,&&&)"
+2019-06-29 16:19:00,1
+2019-06-29 16:20:00,1

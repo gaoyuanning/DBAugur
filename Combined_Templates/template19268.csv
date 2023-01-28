@@ -1,0 +1,2 @@
+1,"SELECT PZ.z, PZ.zErr, P.ra, P.dec, PZ.absMagU, PZ.absMagR into mydb.testforphotoz from Photoz as PZ, PhotoObj AS P WHERE PZ.z BETWEEN # and # and PZ.nnCount> # and PZ.zErr BETWEEN # and # and PZ.ObjID = P.ObjID and P.r> # and P.r< #"
+2019-03-10 01:50:00,1

@@ -1,0 +1,2 @@
+1,"SELECT    t.ra, t.dec,t.plate,t.mjd,t.fiberid   into mydb.SDSS_gal_#   FROM specphotoall as t   where      (t.Class=&&& or t.Class=&&&)     and t.sciencePrimary>#     and t.ZWARNING=#"
+2019-01-16 11:22:00,1

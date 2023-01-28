@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.plate, s.mjd, s.fiberid, p.score as score FROM ..SpecObj as s JOIN dbo.fGetObjFromRect (#, #, #, #) AS b ON s.bestobjid = b.objID WHERE s.z > # AND s.z < # AND (p.score > = #) AND s.zWarning = #"
+2019-11-21 20:08:00,1

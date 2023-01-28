@@ -1,0 +1,2 @@
+1,"SELECT M.ra, M.dec into mydb.MyTable_# from mydb.MyTable as M"
+2019-12-31 00:50:00,1

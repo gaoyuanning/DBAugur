@@ -1,0 +1,2 @@
+1,"SELECT l.* INTO nofossils FROM LRGs_X as l, companion as c WHERE l.objID = c.dominantID and c.r< = (l.r+#) ORDER BY l.objID"
+2019-03-13 17:21:00,1

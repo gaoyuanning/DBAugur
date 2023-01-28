@@ -1,0 +1,2 @@
+1,"select &&&+column_name from information_schema.columns where table_name=&&&   and data_type=&&&         select _id,ASSAULT +BURGLARY +LARCENY +ARSON +THEFT +WEAPSCH +KIDNAPPING +HOMICIDE +DRUGS +ROBBERY +RAPE +SEXCRIMES +WEAPONS +VIOLENT +PROPERTY +DRUG     +OTHER as tot   from crimes     order by tot desc"
+2019-03-03 09:38:00,1

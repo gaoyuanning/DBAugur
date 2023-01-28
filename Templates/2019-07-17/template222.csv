@@ -1,0 +1,2 @@
+2,"SELECT T.SDSS_objID, T.redshift, P.petroFlux_u, P.petroFlux_g, P.petroFlux_r, P.petroFlux_i, P.petroFlux_z, P.petroFluxIvar_u, P.petroFluxIvar_g, P.petroFluxIvar_r, P.petroFluxIvar_i, P.petroFluxIvar_z INTO mydb.SHELS_petroFlux FROM DR1#.PhotoObj as P, mydb.SHELS as T WHERE CONVERT(varchar,P.objID) = T.SDSS_objID"
+2019-07-17 15:27:00,2

@@ -1,0 +1,4 @@
+3,"SELECT TOP # run,            camCol,   rerun,   field,   objID,   u-g, g-r, r-i   ra, dec into mydb.CVn_# from PhotoPrimary	 WHERE  u - g > # and  u - g < # and  g - r < #  and  g - r > #  and  r - i > #  and  r - i < #"
+2019-05-22 04:59:00,1
+2019-05-22 05:01:00,1
+2019-05-22 05:05:00,1

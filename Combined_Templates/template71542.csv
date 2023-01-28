@@ -1,0 +1,2 @@
+1,"select z as xcol, velDisp as ycol from Table_dr1#_all_AGN_# where z between # and # AND velDisp between # and #"
+2019-10-24 01:21:00,1

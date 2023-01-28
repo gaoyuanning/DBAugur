@@ -1,0 +1,2 @@
+2,"SELECT TOP # specObjID, survey, bestobjid, z /*Table of top A random objects with redshift, survey they are in, and object ID for searching*/ FROM SpecObj /*Objects with spectra*/ WHERE class = # /* The objects shown will all be QSO's*/ AND zWarning = # /* No warning flag */ AND z = # /*Specifying the range of z used to obtain the data */"
+2019-04-09 07:58:00,2

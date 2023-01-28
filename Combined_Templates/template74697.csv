@@ -1,0 +1,2 @@
+1,"SELECT top # mjd, plate, fiberid FROM SpecObjall WHERE class = # and snmedian > #"
+2019-11-08 06:26:00,1

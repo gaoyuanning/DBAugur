@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z FROM Star WHERE ( ((ra between # and #) and (dec between # and #)) OR ((ra between # and #) and (dec between # and #)) OR ((ra between # and #) and (dec between # and #)) )AND modelMag_r>#"
+2019-10-28 15:10:00,1

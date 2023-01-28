@@ -1,0 +1,2 @@
+1,"select a.SystemStudentID as student_id,    a.gradelevel as enrollment_grade,   a.SchoolYear4Digit as schoolyear,   &&& as period,   &&& as assessment_subject,   &&& as metricsource,   &&& as metricname,   sum(b.hours) as score from enrollment a   join parentengagement b   on a.SystemStudentID=b.StudentID group by a.SystemStudentID, a.gradelevel, a.SchoolYear4Digit"
+2019-04-30 00:47:00,1

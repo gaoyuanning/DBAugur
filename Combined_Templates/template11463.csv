@@ -1,0 +1,2 @@
+1,"SELECT top # objid, ra, dec, photoz, modelmag_r, modelmag_r-#*log1# (#E+#*z) +# as abs_mag_r ---FROM Galaxy ---WHERE modelmag_r-#*log1# (#E+#*z) +# < #AND z> # SELECT objid, ra, dec, modelmag_u, modelmag_u-#*log1# (#E+#*z) +# as abs_mag_u, modelmag_g, modelmag_g-#*log1# (#E+#*z) +# as abs_mag_g, modelmag_r, modelmag_r-#*log1# (#E+#*z) +# as abs_mag_r, modelmag_i, modelmag_i-#*log1# (#E+#*z) +# as abs_mag_i, modelmag_z, modelmag_z-#*log1# (#E+#*z) +# as abs_mag_z FROM Galaxy WHERE objid = #, #"
+2019-02-15 12:54:00,1

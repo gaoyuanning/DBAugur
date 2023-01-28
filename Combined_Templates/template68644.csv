@@ -1,0 +1,3 @@
+2,select distinct (subclass) from specobjall where class = #
+2019-10-08 03:36:00,1
+2019-10-08 03:38:00,1

@@ -1,0 +1,2 @@
+2,"SELECT g.objID, s.specObjID, s.z FROM Galaxy g, SpecObj s, galSpecLine Ha  WHERE g.objID = s.bestObjID  AND Ha.specObjID = s.specObjID  AND Ha.h_alpha_reqw > # AND s.z < # AND (g.flags & #) = # AND (s.primtarget & #) > #"
+2019-10-01 13:37:00,2

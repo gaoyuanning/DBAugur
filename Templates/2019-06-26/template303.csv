@@ -1,0 +1,2 @@
+3,"SELECT TOP #  p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  s.specobjid, s.class, s.z as redshift,  err_u, err_g, err_r, err_i, err_z, extinction_u, extinction_g, extinction_r, extinction_i, extinction_z, deVRad_u, deVRad_g, deVRad_r,deVRad_i,deVRad_z FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   s.class = galaxy&&&"
+2019-06-26 13:42:00,3

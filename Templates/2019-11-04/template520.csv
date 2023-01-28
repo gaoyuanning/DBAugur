@@ -1,0 +1,4 @@
+3,"SELECT   m.*,   n.elpetro_th5#_r,   n.elpetro_th5#_r_original,   n.elpetro_th9#_r,   n.elpetro_th9#_r_original INTO mydb.MyTable FROM mangadrpall AS m   JOIN nsatlas AS n ON m.nsa_nsaid = n.nsaid"
+2019-11-04 00:00:00,1
+2019-11-04 00:01:00,1
+2019-11-04 00:06:00,1

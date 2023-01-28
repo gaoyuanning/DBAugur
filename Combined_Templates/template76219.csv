@@ -1,0 +1,3 @@
+2,"select count (*) from MyDB.DR1#_ccw , specObjAll where DR1#_ccw.ID = specObjAll.bestObjID and specObjAll.z> # and specObjAll.z< =# and specObjAll.ra> # and specObjAll.ra< #"
+2019-11-14 09:57:00,1
+2019-11-14 10:45:00,1

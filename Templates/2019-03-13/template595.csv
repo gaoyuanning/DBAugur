@@ -1,0 +1,3 @@
+3,"select plate,MJD,fiberID from specobjall where subClass like &&&"
+2019-03-13 04:55:00,2
+2019-03-13 05:15:00,1

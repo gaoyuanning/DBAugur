@@ -1,0 +1,3 @@
+2,"SELECT top #  objid, ra, dec, psfmag_i-extinction_i AS mag_i,  psfmag_r, extinction_r, z   FROM SpecPhoto"
+2019-09-19 04:12:00,1
+2019-09-19 04:15:00,1

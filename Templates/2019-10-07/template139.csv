@@ -1,0 +1,4 @@
+4,"select g.geom.ToString() wkt from CellGeom g, Celltag3 c where g.cellid=c.cellid   and c.sampleid=#   and c.ptype=#   and c.pdl1=#   and g.btype=#   and c.tdist<#"
+2019-10-07 16:48:00,1
+2019-10-07 16:50:00,1
+2019-10-07 16:55:00,2

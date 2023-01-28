@@ -1,0 +1,2 @@
+1,"select count (distinct l.specobjid) from specline l, specobj s where s.specobjid=l.specobjid  and (specclass=# or specclass=# or specclass=#) and abs(ewerr/ew)<# and ew<># and abs(ew)<#"
+2019-02-08 08:23:00,1

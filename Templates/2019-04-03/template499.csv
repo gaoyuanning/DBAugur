@@ -1,0 +1,2 @@
+1,"SELECT     A.Name, A.RAdeg_HI, A.DECdeg_HI, A.RAdeg_OC, A.DECdeg_OC, A.DeltaRA_arcsec, A.DeltaDEC_arcsec, A.Vhelio,     A.W5#, A.sigW, A.W2#, A.HIflux, A.sigflux, A.SNR, A.RMS, A.sigDist, A.logMH, A.siglogMH, A.HIcode,     replace( dbo.fGetUrlExpEq(A.RAdeg_HI,A.DECdeg_HI),&&&,&&&) as linkHI,     replace( dbo.fGetUrlExpEq(A.RAdeg_OC,A.DECdeg_OC),&&&,&&&) as linkmanycOC into mydb.ALFALFA_images from MyDB.Alfalfa_source A"
+2019-04-03 12:06:00,1

@@ -1,0 +1,2 @@
+1,"SELECT count (uncertain) as total_uncertain, count (spiral) as total_spiral, count (elliptical) as total_elliptical FROM Galaxy AS G JOIN ZooSpec AS zs ON G.objid = zs.objid WHERE g.clean = # and zs.nvote > = #"
+2019-01-30 07:00:00,1

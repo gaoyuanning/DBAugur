@@ -1,0 +1,2 @@
+1,"select Track.AlbumId, Track.TrackId, InvoiceLine.UnitPrice, InvoiceLine.TrackId as #, sum (InvoiceLine.UnitPrice) From chinook.Track Inner Join chinook.InvoiceLine on Track.TrackId = InvoiceLine.TrackId Group by AlbumId"
+2019-04-21 12:52:00,1

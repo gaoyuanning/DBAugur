@@ -1,0 +1,2 @@
+1,"SELECT id.dr8objid, p.petroMag from mydb.DR1#_ids AS id, PhotoObj AS p WHERE id.dr8objid = p.objid"
+2019-11-13 04:39:00,1

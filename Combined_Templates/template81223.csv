@@ -1,0 +1,4 @@
+3,"SELECT sp.ra, sp.dec, sp.psfMag_u FROM SpecPhotoAll AS sp JOIN sppParams AS p ON sp.specobjid = p.specobjid and sp.sciencePrimary = # WHERE sp.ra > # AND sp.ra < # AND sp.dec > # AND sp.dec < #"
+2019-12-07 02:18:00,1
+2019-12-07 02:23:00,1
+2019-12-07 02:42:00,1

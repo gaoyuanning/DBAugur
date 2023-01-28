@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, s.specobjid, s.zWarning_noqso, s.chunk, p.fiber2Mag_i, p.psfMag_z, p.psfMag_i, p.cModelMag_i into mydb.MyTabledr1# from PhotoObjAll AS p JOIN SpecObjAll AS s ON s.bestobjid = p.objid WHERE s.class = #"
+2019-09-18 08:00:00,1

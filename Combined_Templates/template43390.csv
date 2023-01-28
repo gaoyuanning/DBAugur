@@ -1,0 +1,4 @@
+4,"SELECT TOP # objID, ra, dec, u, g, r, i, z, err_u, err_g, err_r, err_i, err_z FROM Star WHERE i BETWEEN # AND # and type = #"
+2019-06-02 13:26:00,1
+2019-06-02 13:27:00,2
+2019-06-02 13:36:00,1

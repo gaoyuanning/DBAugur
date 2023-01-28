@@ -1,0 +1,2 @@
+1,"SELECT objID, field,ra, dec FROM PhotoObj WHERE run=# and field = #"
+2019-11-13 21:53:00,1

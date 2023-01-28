@@ -1,0 +1,5 @@
+4,"SELECT EID, [Brain_MRI_measuring_method_#], [Brain_MRI_measurement_completed_#] FROM [r2#]Brain_MRI GO"
+2019-04-15 14:29:00,1
+2019-04-15 14:31:00,1
+2019-04-15 14:33:00,1
+2019-04-15 14:35:00,1

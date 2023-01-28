@@ -1,0 +1,2 @@
+1,"SELECT max (z) , min (z) into mydb.MyTable_# from PhotoObjAll WHERE (ra BETWEEN # AND #) AND (PhotoObjAll.dec BETWEEN # AND #)"
+2019-05-23 09:29:00,1

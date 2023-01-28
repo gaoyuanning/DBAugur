@@ -1,0 +1,2 @@
+1,"select top # objid, modelmag_u, modelmag_g, modelmag_r, modelmag_i, modelmag_z, z from SpecPhoto where QSO"
+2019-08-27 18:34:00,1

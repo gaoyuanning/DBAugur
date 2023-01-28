@@ -1,0 +1,2 @@
+1,SELECT specsfr_tot_p5# FROM dr1#.galspecextra WHERE specobjid = &&&;
+2019-10-16 21:35:00,1

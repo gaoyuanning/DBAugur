@@ -1,0 +1,4 @@
+4,select top # c.* from information_schema.columns c
+2019-07-04 12:15:00,1
+2019-07-04 12:16:00,1
+2019-07-04 12:19:00,2

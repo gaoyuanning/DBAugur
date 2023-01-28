@@ -1,0 +1,4 @@
+3,"SELECT spec.specObjID, phot.objID, spec.ra, spec.dec, spec.class, spec.z, spec.zErr, phot.rerun, phot.run, phot.camcol, phot.field, phot.dered_u, phot.dered_g, phot.dered_r, phot.dered_i, phot.dered_z, phot.psfMag_u, phot.psfMag_g, phot.psfMag_r, phot.psfMag_i, phot.psfMag_z, cModelMag_u, cModelMag_g, cModelMag_r, cModelMag_i, cModelMag_z, phot.extinction_u, phot.extinction_g, phot.extinction_r, phot.extinction_i, phot.extinction_z INTO mydb.DR1#_spec_phot_all FROM SpecObjAll AS spec JOIN PhotoObjAll AS phot ON spec.specObjID = phot.specObjID WHERE phot.clean = # AND spec.zWarning = # AND phot.dered_r > # and phot.dered_r < # AND phot.expRad_r < # AND phot.deVRad_r < # AND spec.zErr < # AND spec.z < # SELECT TOP # * INTO mydb.DR1#_spec_phot_sample FROM mydb.DR1#_spec_phot_all ORDER BY NEWID ()"
+2019-07-17 18:40:00,1
+2019-07-17 18:43:00,1
+2019-07-17 18:51:00,1

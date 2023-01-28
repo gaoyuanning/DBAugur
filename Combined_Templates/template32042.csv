@@ -1,0 +1,2 @@
+1,"select SUBSTRING (Name, #, #) AS Initial from chinook.Artist GROUP BY Intitial"
+2019-04-20 16:31:00,1

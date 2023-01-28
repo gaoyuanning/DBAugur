@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.ra, p.dec, p.modelMag_u FROM photoObjAll AS p"
+2019-04-20 04:39:00,1

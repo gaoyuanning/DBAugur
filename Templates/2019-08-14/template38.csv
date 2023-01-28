@@ -1,0 +1,2 @@
+1,"SELECT   class, z , plate, mjd, fiberid, snMedian FROM SpecObj  WHERE   z BETWEEN # AND #"
+2019-08-14 23:04:00,1

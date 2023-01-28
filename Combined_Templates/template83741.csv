@@ -1,0 +1,2 @@
+1,"select dered_i as xcol, dered_z as ycol from Minhatabela0 where dered_i between # and # AND dered_z between # and #"
+2019-12-19 18:49:00,1

@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, dered_u, dered_g, dered_r, dered_i, dered_z into mydb.TableNameHere from PhotoObjAll Where ra> # and ra< # and dec> # and dec< # And dered_u< # and dered_u> #"
+2019-04-30 06:54:00,1

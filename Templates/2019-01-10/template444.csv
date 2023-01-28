@@ -1,0 +1,2 @@
+1,"SELECT ra AS up_ra, dec AS up_dec, search_id AS up_id  FROM MyDB.AKARImain_SDSSspecsel_WISE4#selrev_rev_pos  CREATE TABLE #tmp ( 	up_id int, 	objid bigint ) INSERT INTO #tmp  EXEC spGetSpecNeighborsPrim #   INSERT INTO MyDB.test SELECT tmp.up_id AS up_id, up_id.objid AS specObjID FROM #tmp tmp"
+2019-01-10 05:00:00,1

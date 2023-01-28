@@ -1,0 +1,2 @@
+1,"SELECT g.objid, zns.nvote, zns.p_el as elliptical, zns.p_cw as spiralclock, zns.p_acw as spiralanticlock, zns.p_edge as edgeon, zns.p_dk as dontknow, zns.p_mg as merger FROM Galaxy AS g JOIN ZooNoSpec AS zns ON G.objid = zns.objid WHERE g.clean = #"
+2019-07-09 16:22:00,1

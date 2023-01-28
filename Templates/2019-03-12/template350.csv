@@ -1,0 +1,8 @@
+469,"select ssfr, ssfr_min   from stellarMassFSPSGranEarlyDust   where ra<#  and ra>#  and dec<#  and dec>#  and z >#  and z <#"
+2019-03-12 12:32:00,58
+2019-03-12 12:33:00,98
+2019-03-12 12:34:00,42
+2019-03-12 13:23:00,19
+2019-03-12 13:24:00,98
+2019-03-12 13:25:00,81
+2019-03-12 13:28:00,73

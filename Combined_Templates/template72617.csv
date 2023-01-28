@@ -1,0 +1,2 @@
+1,"select distinct top # #--arcsec = #*distance , a.rowc, a.colc , ard = a.rowc - FLOOR (a.rowc) , arc = a.colc - FLOOR (a.colc) , a_mid = case when ABS (a.rowc - FLOOR (a.rowc) - @half) + ABS (a.colc - FLOOR (a.colc) - @half) < = # then @one else @zero end from photoobjall a"
+2019-10-30 14:03:00,1

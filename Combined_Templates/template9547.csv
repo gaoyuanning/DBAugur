@@ -1,0 +1,2 @@
+1,"SELECT TOP # replace (dbo.fGetUrlNavId (objid) , #, #) into mydb.MyTable from phototag"
+2019-02-11 16:47:00,1

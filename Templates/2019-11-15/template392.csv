@@ -1,0 +1,4 @@
+3,"SELECT TOP #  p.run,p.rerun,p.camCol,p.field,p.obj  FROM ..PhotoObj AS p  WHERE (p.i - p.z) > # AND (p.i - p.z) < # AND p.u > #"
+2019-11-15 00:51:00,1
+2019-11-15 02:27:00,1
+2019-11-15 03:25:00,1

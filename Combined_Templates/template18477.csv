@@ -1,0 +1,2 @@
+1,"SELECT COUNT (gi.ra) , gi.ra, gl.h_gamma_eqw FROM galSpecInfo as gi JOIN galSpecLine AS gl ON gi.specobjid = gl.specobjid"
+2019-03-07 12:08:00,1

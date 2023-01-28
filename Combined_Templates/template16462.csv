@@ -1,0 +1,4 @@
+3,"select rowc_r, colc_r from BESTDR7..PhotoObjAll where objID = #"
+2019-03-03 09:39:00,1
+2019-03-03 11:24:00,1
+2019-03-03 12:33:00,1

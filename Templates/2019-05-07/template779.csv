@@ -1,0 +1,2 @@
+1,"select count(*) as count into mydb.count_test3 from PhotoObjAll p,Photoz s,SpecObjAll q where p.objid=s.objid and p.specobjid = q.specobjid"
+2019-05-07 04:25:00,1

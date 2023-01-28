@@ -1,0 +1,5 @@
+5,"SELECT top # objid, ra, dec, psfmag_i-extinction_i AS mag_i, psfmag_r-extinction_r AS mag_r, z -- In SpecPhoto, z is the redshift"
+2019-03-06 12:44:00,1
+2019-03-06 12:47:00,1
+2019-09-06 04:57:00,2
+2019-12-19 16:38:00,1

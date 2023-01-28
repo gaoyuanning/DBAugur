@@ -1,0 +1,2 @@
+1,"select top # z, zErr, bestObjID, class from specObj where z> = .# and class = # order by z desc"
+2019-06-06 00:00:00,1

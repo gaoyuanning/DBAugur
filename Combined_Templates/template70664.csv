@@ -1,0 +1,2 @@
+1,"SELECT P.ra, P.dec, P.g, P.r FROM Star as P WHERE P.ra between # and # and P.dec between # and # and P.g between # and # and P.g-P.r between # and # COUNT"
+2019-10-21 19:21:00,1

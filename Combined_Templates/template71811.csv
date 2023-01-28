@@ -1,0 +1,2 @@
+1,select SqMiles = geom.MakeValid () .STArea () *{f} from optw.tamass.TRACTS
+2019-10-26 15:35:00,1

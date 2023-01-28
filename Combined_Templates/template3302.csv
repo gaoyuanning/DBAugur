@@ -1,0 +1,2 @@
+1,"SELECT t.objid , t.thingid, t.ndetect, t.ra, t.dec, t.thingid, t.ndetect, t.ra, t.dec, d.objid, p.mjd, p.u, p.g, p.r, p.i, p.z, p.err_u, p.err_g, p.err_r, p.err_i, p.err_z FROM thingIndex t , dbo.fgetNearByObjEq (#, #, #) n JOIN detectionindex AS d ON t.thingid = d.thingid JOIN photoobjall AS p ON p.objid = d.objid where t.objid = n.objid"
+2019-01-15 10:16:00,1

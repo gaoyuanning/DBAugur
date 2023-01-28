@@ -1,0 +1,2 @@
+1,"SELECT TOP # str(s.ra,#,#) as ra,str(s.[dec],#,#) as dec,str(p.ra,#,#) as ra,str(p.[dec],#,#) as dec FROM BESTDR8..SpecObj as s 	JOIN BESTDR8..PhotoObj AS p ON s.bestObjID = p.objID 	JOIN dbo.fGetNearbySpecObjEq(#,#,#) AS b ON b.SpecobjID = S.SpecobjID WHERE  s.z > # AND s.zWarning = # AND (s.class = &&&) AND s.z < # AND ( p.type = # OR p.type = #)"
+2019-06-18 18:47:00,1

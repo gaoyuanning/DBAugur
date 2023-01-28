@@ -1,0 +1,3 @@
+2,"SELECT s.ra, s.dec, s.plate, s.mjd, s.fiberID, s.modelMag_u, s.modelMag_g, s.modelMag_r, s.modelMag_i, s.modelMag_z  FROM SpecPhotoAll as s INTO MyDB.DR1#S_S8#   WHERE s.ra < #. OR s.ra > #. AND s.dec > # AND s.dec < # AND s.Class = &&&"
+2019-09-13 09:50:00,1
+2019-09-13 12:09:00,1

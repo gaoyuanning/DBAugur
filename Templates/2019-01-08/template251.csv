@@ -1,0 +1,2 @@
+1,"SELECT TOP #   p.objID,p.type,p.ra, p.dec,p.modelMag_u,err_u,p.modelMag_g,err_g,p.modelMag_r,err_r,p.modelMag_i,err_i,p.modelMag_z,err_z into mydb.PhotoDR8 from PhotoObjAll AS p      WHERE      p.type = #"
+2019-01-08 13:27:00,1

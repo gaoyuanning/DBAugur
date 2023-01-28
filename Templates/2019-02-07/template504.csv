@@ -1,0 +1,2 @@
+1,"SELECT dr7objid, ra, dec into mydb.no_spiral_feature from dbo.zoo2MainSpecz WHERE    total_votes > #    and t0#_smooth_or_features_a0#_smooth_fraction >#   and t0#_smooth_or_features_a0#_smooth_debiased >#   and t0#_spiral_a0#_spiral_fraction >#   and t0#_spiral_a0#_spiral_debiased >#   and t0#_rounded_a1#_completely_round_fraction <#   and t0#_rounded_a1#_completely_round_debiased <#"
+2019-02-07 00:26:00,1

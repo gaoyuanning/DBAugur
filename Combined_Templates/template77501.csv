@@ -1,0 +1,4 @@
+5,"SELECT TOP # z, z_err, ra, dec, specObjID logMass, logMass_median, logMass_err, t_age INTO MyDB.Table_#_#_mass_#_# FROM stellarMassFSPSGranWideDust WHERE z > # AND z < #"
+2019-11-20 13:29:00,2
+2019-11-20 13:32:00,1
+2019-11-20 13:49:00,2

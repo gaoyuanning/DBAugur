@@ -1,0 +1,2 @@
+1,"SELECT plate.programname, dbo.fSpecClassN (specClass) AS Class, COUNT (specObjId) AS numObjs FROM SpecObjAll JOIN PlateX AS plate ON plate.plate = specObjAll.plate WHERE plate.programtype > # GROUP BY plate.programname, specClass ORDER BY plate.programname, specClass"
+2019-04-11 13:12:00,1

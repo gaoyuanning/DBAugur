@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objID, s.SpecObjID, dbo.fPhotoFlagsN (p.flags_r) , p.ra, p.dec, p.u, p.g, p.r, p.i, p.z from Star p JOIN SpecObj s ON s.bestObjID = p.objID WHERE (p.htmid*# & #) < (# * #) AND (p.calibStatus_u & #) ! = # AND (p.calibStatus_g & #) ! = # AND (p.calibstatus_r & #) ! = # AND (p.calibstatus_i & #) ! = # AND (p.calibstatus_z & #) ! = # AND p.psfmagerr_u < # AND p.psfmagerr_g < # AND p.psfmagerr_r < # AND p.psfmagerr_i < # AND p.psfmagerr_z < # AND p.clean = # AND s.segueprimary = # AND s.zwarning = #"
+2019-09-26 03:18:00,1

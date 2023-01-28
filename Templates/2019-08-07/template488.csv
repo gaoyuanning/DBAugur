@@ -1,0 +1,2 @@
+1,select * into mydb.SpecPhot1#fulltable from SpecPhoto where dec<# or (dec<# and (ra between # and #))
+2019-08-07 06:20:00,1

@@ -1,0 +1,2 @@
+1,"SELECT N.objID, ra, dec, psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z, extinction_r, secTarget FROM Star s, Join dbo.fGetNearbyObjEq (#, #, #) AS N on s.objid = N.objid WHERE (s.secTarget&#) > # and s.psfMag_r < #"
+2019-09-02 15:05:00,1

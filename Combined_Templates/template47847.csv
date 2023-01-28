@@ -1,0 +1,2 @@
+1,"select p.objid, p.ra, p.dec, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, s.z as redshift, s.specobjid from galaxy p, specobj s where p.objid = s.bestobjid and p.ra between # and #"
+2019-06-24 13:21:00,1

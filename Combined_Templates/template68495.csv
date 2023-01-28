@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.g, FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE sqrt (pow ((p.ra-#) , #) +pow ((p.dec+#) , #) )"
+2019-10-08 14:34:00,1

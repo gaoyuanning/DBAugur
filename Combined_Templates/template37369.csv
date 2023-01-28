@@ -1,0 +1,4 @@
+3,"select ra, dec, fiberId, ObjId, z from SpecPhoto where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-05-07 17:15:00,1
+2019-05-07 17:16:00,1
+2019-05-07 17:19:00,1

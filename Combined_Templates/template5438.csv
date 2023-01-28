@@ -1,0 +1,3 @@
+3,SELECT run from dbo.Run where stripe = #
+2019-01-23 10:46:00,2
+2019-01-23 10:59:00,1

@@ -1,0 +1,2 @@
+1,"select SpecObjID, ra, dec, z, bpt into mydb.MyTable_# from dr1#.emissionLinesPort order by ra"
+2019-04-03 10:04:00,1

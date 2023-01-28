@@ -1,0 +1,2 @@
+1,"SELECT * mjd, plate, fiberID, ra, dec, snMedian, snMedian_u ,snMedian_g , snMedian_r, snMedian_i, snMedian_z FROM SpecObjAll"
+2019-12-11 09:46:00,1

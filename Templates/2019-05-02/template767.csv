@@ -1,0 +1,2 @@
+1,"select b.MinID, b.N, b.Nvac, b.Nmcc, b.Nvmc, Nown,         IsSameStreet = coalesce(IsSameStreet,#),         MinBlockLot = MIN(BlockLot),         MaxBlockLot = MAX(BlockLot)     from SubBlockFaces b         join RealGroups g on g.MinID=b.MinID         join t.RealPropertiesExtra e on e.ID=g.ID     where Neighborhood like &&&     group by b.MinID, b.N, b.Nvac, b.Nmcc, b.Nvmc, Nown, IsSameStreet"
+2019-05-02 09:49:00,1

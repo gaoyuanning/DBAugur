@@ -1,0 +1,27 @@
+234,"SELECT TOP #  p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  p.run, p.rerun, p.camcol, p.field,  f.z as photoz, f.zErr as photoZerr, GN.distance,  s.specobjid, s.class, s.z as redshift, s.zErr as errredshift, s.plate, s.mjd, s.fiberid  FROM PhotoObj AS p  JOIN dbo.fGetNearbyObjEq(#,#, #) AS GN on p.objid = GN.objid   join Photoz as f ON f.objid = GN.objid   LEFT OUTER JOIN SpecObj AS s ON s.bestobjid = GN.objid"
+2019-11-12 12:51:00,1
+2019-11-12 12:52:00,1
+2019-11-12 12:56:00,1
+2019-11-12 13:06:00,1
+2019-11-12 13:10:00,1
+2019-11-12 13:11:00,1
+2019-11-12 13:13:00,4
+2019-11-12 13:43:00,2
+2019-11-12 13:44:00,14
+2019-11-12 13:46:00,2
+2019-11-12 13:47:00,14
+2019-11-12 13:57:00,16
+2019-11-12 13:59:00,5
+2019-11-12 14:00:00,11
+2019-11-12 14:13:00,16
+2019-11-12 16:34:00,16
+2019-11-12 16:50:00,16
+2019-11-12 16:54:00,16
+2019-11-12 17:04:00,16
+2019-11-12 17:25:00,1
+2019-11-12 17:26:00,15
+2019-11-12 17:48:00,16
+2019-11-12 17:50:00,16
+2019-11-12 17:55:00,12
+2019-11-12 17:56:00,4
+2019-11-12 17:57:00,16

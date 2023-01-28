@@ -1,0 +1,2 @@
+1,"SELECT s.SpecObjID, s.z, s.fiberMag_r, s.mag_#, s.sn_#, L.ew, L.sigma, L.sigmaErr, K.ew, K.sigma, K.sigmaErr into mydb.MyTable from SpecObj as s, SpecLine as L, SpecLine as K WHERE    (L.LineID = #)    and (K.LineID = #)    and s.SpecObjID = L.specObjID    and L.specObjID = K.specObjID   and L.ew/nullif(L.ewErr,#)>#   and s.z IS NOT NULL   and s.sn_# > #   and s.objType = #   and s.z>#   and s.z<# ORDER BY s.mag_#"
+2019-06-05 05:12:00,1

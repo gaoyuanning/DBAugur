@@ -1,0 +1,4 @@
+4,select count(*) from FramePathProcessing where processed = #
+2019-05-22 15:07:00,1
+2019-05-22 16:07:00,1
+2019-05-22 17:06:00,2

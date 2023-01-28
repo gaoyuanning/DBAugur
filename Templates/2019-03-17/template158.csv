@@ -1,0 +1,2 @@
+2,"SELECT g.objID, g.ra, g.dec, s.z as redshift, g.r, x.objID as dominantID INTO DR5_companion FROM DR5.Galaxy as g, DR5.SpecObjAll as s, DR5_LRGs_X as x WHERE   x.objID!=g.objID and   s.bestObjID=g.objID and   g.redshift*#e5*sin(sqrt(power((g.ra-x.ra),#)+power((g.dec-x.dec),#)))/#<# and   abs(s.z-x.redshift)<#    ORDER BY g.objID"
+2019-03-17 18:08:00,2

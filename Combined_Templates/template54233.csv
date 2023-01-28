@@ -1,0 +1,4 @@
+6,"select mjd, plate, fiberid, ra, dec from specobjall as s where s.mjd = # and s.plate = # and fiberid = #"
+2019-07-28 07:57:00,2
+2019-07-28 07:58:00,3
+2019-07-28 08:10:00,1

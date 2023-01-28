@@ -1,0 +1,3 @@
+2,"SELECT TOP # s.apogee_id, s.ra, s.dec, s.glon, s.glat, s.vhelio_avg, s.vscatter, a.teff, a.teff_err, a.logg, a.logg_err, a.m_h, a.m_h_err, a.alpha_m, a.alpha_m_err, dbo.fApogeeAspcapFlagN (a.aspcapflag) , dbo.fApogeeStarFlagN (s.starflag) FROM apogeeStar s JOIN aspcapStar a on a.apstar_id = s.apstar_id WHERE (a.aspcapflag & dbo.fApogeeAspcapFlag (#) ) = # and s.commiss = # and (s.apogee_target1 & (dbo.fApogeeTarget1 (#) ) ! = # & a.teff > #)"
+2019-01-30 19:46:00,1
+2019-01-30 20:10:00,1

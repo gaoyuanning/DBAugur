@@ -1,0 +1,3 @@
+2,"SELECT s.ra, s.dec, s.plate, s.mjd, s.fiberID, s.z, s.modelMag_u, s.modelMag_g, s.modelMag_r, s.modelMag_i, s.modelMag_z, s.modelMagErr_u, s.modelMagErr_g, s.modelMagErr_r, s.modelMagErr_i, s.modelMagErr_z, s.fiberMag_u, s.fiberMag_g, s.fiberMag_r, s.fiberMag_i, s.fiberMag_z, s.fiberMagErr_u, s.fiberMagErr_g, s.fiberMagErr_r, s.fiberMagErr_i, s.fiberMagErr_z, s.zWarning, s.Class from SpecPhotoAll s into mydb.DR1#Q_mini_jpas2 WHERE s.ra > = # and s.ra < = # and s.dec > = # and s.dec < = # and s.Class = # and s.modelMag_r > = #. and s.modelMag_r < = #."
+2019-07-24 06:52:00,1
+2019-07-24 06:53:00,1

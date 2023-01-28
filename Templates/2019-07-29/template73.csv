@@ -1,0 +1,4 @@
+3,"select z,class,ObjID,specObjID,ra,dec from SpecPhotoAll where  #, #  ra BETWEEN # and # AND dec BETWEEN # and # AND class=&&& AND z> .# AND z< .#"
+2019-07-29 22:10:00,1
+2019-07-29 22:13:00,1
+2019-07-29 22:37:00,1

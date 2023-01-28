@@ -1,0 +1,10 @@
+801,"SELECT m.k,sp.objid,sp.ra,sp.dec, sp.class, sp.z as redshift FROM SpecPhoto AS sp JOIN apogeeOBJECT AS m ON sp.objid = m.location_id WHERE sp.z ># AND sp.z < # AND sp.class = GALAXY&&&"
+2019-10-28 21:35:00,1
+2019-10-28 22:11:00,46
+2019-10-28 22:12:00,138
+2019-10-28 22:13:00,139
+2019-10-28 22:14:00,77
+2019-10-28 23:30:00,59
+2019-10-28 23:31:00,124
+2019-10-28 23:32:00,127
+2019-10-28 23:33:00,90

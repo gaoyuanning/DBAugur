@@ -1,0 +1,2 @@
+1,"SELECT class, count(*) FROM SpecObj  GROUP BY star WHERE   p.ra BETWEEN # AND #  AND p.dec BETWEEN # AND #"
+2019-10-21 19:51:00,1

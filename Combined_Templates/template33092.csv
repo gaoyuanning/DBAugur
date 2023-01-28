@@ -1,0 +1,2 @@
+1,"SELECT album.AlbumId, album.Name, COUNT (Track.AlbumId) AS Total FROM chinook.Album album LEFT JOIN chinook.Track track ON album.AlbumId = track.AlbumId GROUP BY album.AlbumId, album.Name"
+2019-04-23 15:59:00,1

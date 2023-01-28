@@ -1,0 +1,2 @@
+1,"SELECT    ra, dec, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z, specClass, z, zErr into mydb.MyTable from dr6.SpecPhoto WHERE    modelMag_u BETWEEN # AND #    AND modelMag_g BETWEEN # AND #    AND zerr BETWEEN # and #    AND specClass > #     AND specClass <> #     AND specClass <> #"
+2019-05-04 15:44:00,1

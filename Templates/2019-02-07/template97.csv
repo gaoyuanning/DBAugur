@@ -1,0 +1,2 @@
+1,"SELECT P.type, P.camcol, count(*) FROM PhotoObjAll AS P WHERE class = galaxy&&&start&&&"
+2019-02-07 19:57:00,1

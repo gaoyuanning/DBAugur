@@ -1,0 +1,2 @@
+1,"SELECT top # s.specObjID, s.ra, s.dec, s.z, magPetro_r, z.petromag_u, z.petromag_g, z.petromag_r, z.petromag_i, z.petromag_z FROM Specobj as s JOIN PhotoPrimary WHERE s.z > #. and s.z < = #"
+2019-10-31 19:56:00,1

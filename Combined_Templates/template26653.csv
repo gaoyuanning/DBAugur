@@ -1,0 +1,2 @@
+1,"select top # ra, dec into mydb.MyTable_# from dbo.mangatarget where ra between # and #"
+2019-04-02 19:11:00,1

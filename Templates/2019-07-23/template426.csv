@@ -1,0 +1,3 @@
+2,"SELECT s.plate, s.fiberid, s.mjd,(sph.dered_g-sph.dered_r) as col_g_r,         sph.dered_g-#*log1#(#E+#*sph.z)+# as M_g, sph.petroMag_g,        g.petroRad_g   FROM  specobj as s, Galaxy as g, SpecPhoto as sph  WHERE s.class = &&&   AND s.specobjid = g.specobjid    AND sph.specobjid = g.specobjid   AND g.specobjid > #   AND sph.z > #  into MyDB.tsdss"
+2019-07-23 03:17:00,1
+2019-07-23 04:59:00,1

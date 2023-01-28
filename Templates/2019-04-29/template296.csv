@@ -1,0 +1,2 @@
+2,"SELECT TOP #   s.elodieSpType, s.elodieBV, s.elodieTEff, s.elodieLogG, s.elodieFeH, s.elodieZ,   s.elodie.ZErr FROM SpecObjAll AS s"
+2019-04-29 11:43:00,2

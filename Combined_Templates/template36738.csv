@@ -1,0 +1,4 @@
+3,"SELECT top # s.objid, s.ra, s.dec, s.modelmag_r, s.z, s.modelmag_r-#*log1# (#E+#*s.z) +# as abs_mag_r, s.modelmag_g, s.modelmag_i, s.petroR5#_r, s.petroR9#_r, z.p_el, z.p_cw, z.p_acw FROM PhotoObjAll as s JOIN zooSpec as z ON s.objid = z.objid WHERE s.modelmag_r < # AND s.z BETWEEN # AND # AND s.modelmag_g > # AND s.modelmag_i > #"
+2019-05-03 19:39:00,1
+2019-05-03 19:42:00,1
+2019-05-03 19:45:00,1

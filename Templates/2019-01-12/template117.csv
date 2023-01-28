@@ -1,0 +1,5 @@
+4,"SELECT   s.plate, s.mjd, s.fiberid,  s.z, s.dered_r,  p.rest_ug, p.rest_gr FROM Photoz AS p JOIN SpecPhotoAll AS s ON s.objID = p.objID WHERE   s.z<#  and s.dered_r <#"
+2019-01-12 09:41:00,1
+2019-01-12 16:19:00,1
+2019-01-12 16:20:00,1
+2019-01-12 16:21:00,1

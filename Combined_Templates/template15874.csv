@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, ra, dec, psfMag_u, psfMagErr_u, psfMag_g, psfMagErr_g, psfMag_r, psfMagErr_r, psfMag_i, psfMagErr_i into mydb.m8# from Star WHERE ra BETWEEN #. AND #. AND dec BETWEEN #. AND #.. AND psfMagErr_g < #"
+2019-03-01 14:26:00,1

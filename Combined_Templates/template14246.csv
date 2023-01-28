@@ -1,0 +1,2 @@
+1,"select yearid, teamid, g, sum (hr) as nHR from baseball.batting group by yearid, teamid, g) select top # * from r order by # desc"
+2019-02-25 09:48:00,1

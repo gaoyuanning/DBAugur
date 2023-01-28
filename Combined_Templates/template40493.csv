@@ -1,0 +1,2 @@
+1,"SELECT ALL elpetro_absmag_f, elpetro_b3#, elpetro_b1#, sersic_b3#, sersic_b1#, field, ra, dec, nsaid, elpetro_flux_f, elpetro_nmgy_f, elpetro_rnmgy_f, elpetro_kcorrect_f, petro_flux_f, petro_flux_n, fiber_flux_f, sersic_flux_f, sersic_nmgy_f, sersic_rnmgy_f, sersic_absmag_n, sersic_kcorrect_f FROM nsatlas WHERE elpetro_absmag_f = #"
+2019-05-19 21:30:00,1

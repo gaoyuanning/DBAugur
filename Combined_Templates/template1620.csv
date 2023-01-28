@@ -1,0 +1,2 @@
+1,"SELECT TOP # skyVersion, run, field FROM dbo.PhotoObjAll WHERE type = # SELECT TOP # DISTINCT run FROM dbo.PhotoObjAll WHERE type = #"
+2019-01-08 04:50:00,1

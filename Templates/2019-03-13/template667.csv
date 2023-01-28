@@ -1,0 +1,2 @@
+1,SELECT f1.specObjID into mydb.MyTable_# from SpecPhoto AS f1
+2019-03-13 02:31:00,1

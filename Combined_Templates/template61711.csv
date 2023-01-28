@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, g, r FROM photobj WHERE CIRCLE (#, #, #, #) ) = # AND (g< =#)"
+2019-09-08 16:09:00,1

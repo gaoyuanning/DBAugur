@@ -1,0 +1,3 @@
+2,"select top # x  from Data  where #*y between -sin(x) and x  order by RunID desc, y desc"
+2019-11-20 12:45:00,1
+2019-11-20 12:49:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, s.specobjid, s.class, s.z as redshift, s.plate, s.mjd, s.fiberid FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN GalSpecLine AS g ON s.specobjid = g.specobjid WHERE (s.class = # or s.class = #) AND s.z between # and # AND s.snmedian_g > #"
+2019-08-24 23:45:00,1

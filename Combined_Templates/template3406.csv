@@ -1,0 +1,4 @@
+3,"SELECT i_gal, ra_gal, dec_gal, R5#kpc_arcmin, magPetro_r_gal FROM MYDB.VYGs_RR OPEN my_cursor WHILE (# = #) BEGIN FETCH NEXT from my_cursor into @i_gal, @ra_gal, @dec_gal, @R5#kpc_arcmin, @magPetro_r_gal IF (@@fetch_status < #) break INSERT MYDB.VYG_neighbours SELECT @i_gal, p.objID, p.ra, p.dec, (p.petromag_g - p.extinction_g) as magPetro_g, (p.petromag_r - p.extinction_r) as magPetro_r, (p.petromag_i - p.extinction_i) as magPetro_i, n.distance FROM dbo.fGetNearbyObjEq (@ra_gal, @dec_gal, (@R5#kpc_arcmin*#) ) as n, Galaxy as p WHERE n.objID = p.objID AND p.type = # AND (p.petromag_r - p.extinction_r) < @magPetro_r_gal + # AND (p.petromag_r - p.extinction_r) > # END CLOSE my_cursor DEALLOCATE my_cursor"
+2019-01-15 06:08:00,1
+2019-01-15 06:10:00,1
+2019-01-15 06:25:00,1

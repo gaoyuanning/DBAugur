@@ -1,0 +1,2 @@
+1,"SELECT plate, mjd, survey,name ,radius FROM apogeePlate WHERE name=&&&"
+2019-03-07 14:53:00,1

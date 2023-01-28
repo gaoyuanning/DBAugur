@@ -1,0 +1,3 @@
+4,"select V.ra, V.dec, dbo.fHMSbase (V.ra, default, default) , dbo.fDMSbase (V.dec, default, default) into mydb.A1# from mydb.VASCO_favorites V"
+2019-11-29 11:35:00,2
+2019-11-29 11:37:00,2

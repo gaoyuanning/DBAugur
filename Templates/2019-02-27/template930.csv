@@ -1,0 +1,8 @@
+9,select ra from SpecObjAll where class=&&& and subclass like &&& group by ra having count(ra)>#) order by ra
+2019-02-27 02:39:00,1
+2019-02-27 02:40:00,1
+2019-02-27 02:42:00,1
+2019-02-27 03:26:00,2
+2019-02-27 03:27:00,1
+2019-02-27 03:43:00,1
+2019-02-27 03:44:00,2

@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec FROM PhotoObj p WHERE p.type = #"
+2019-05-09 14:03:00,1

@@ -1,0 +1,2 @@
+1,"SELECT s.lambdaeff, st.petroFlux_u, st.petroFlux_g, st.petroFlux_r, st.petroFlux_i, st.petroFlux_z, s.specObjId, sp.TEFFADOP, sp.TEFFADDOPUNC, sp.FEHADOP, sp.FEHADOPUNC, sp.SNR, sp.LOGGADOP, sp.LOGGADOPUNC, sp.ELODIERVFINAL, sp.ELODIERVFINALERR, sp.zwarning FROM sppParams as sp JOIN specObjAll as s ON sp.specObjID = s.specObjID JOIN Stars as st ON sp.specObjID = st.specObjID WHERE s.class = &&& AND sp.snr># AND sp.ELODIERVFINALERR># AND sp.zwarning=# OR sp.zwarning=#"
+2019-02-06 07:39:00,1

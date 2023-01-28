@@ -1,0 +1,2 @@
+2,"SELECT s.ossy_id,   s.id,   g.run,            g.camCol,            g.rerun,            g.field,            g.objID     INTO mydb.sdss_matches FROM galaxy AS g RIGHT JOIN myDB.spogs AS s  ON spogs.sdss_id = galaxy.objid;"
+2019-07-08 16:47:00,2

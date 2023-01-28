@@ -1,0 +1,3 @@
+3,"SELECT top # p.objId,p.ra,p.dec,p.l,p.b,     p.dered_u as u, p.dered_g as g, p.dered_r as r, p.dered_i as i,      s.z as z_spec, s.plate, s.mjd, s.fiberid FROM galaxy AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.g < #"
+2019-03-05 14:54:00,1
+2019-03-05 14:55:00,2

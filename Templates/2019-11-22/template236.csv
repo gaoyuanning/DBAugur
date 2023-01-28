@@ -1,0 +1,4 @@
+3,"select objID,petroRad_r from galaxy where objID in (#, #)"
+2019-11-22 18:17:00,1
+2019-11-22 18:18:00,1
+2019-11-22 18:20:00,1

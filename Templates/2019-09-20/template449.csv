@@ -1,0 +1,2 @@
+1,"SELECT objID, specObjID, z, modelMag_u,modelMag_g,modelMag_r,modelMag_i,modelMag_z,   extinction_u,extinction_g,extinction_r,extinction_i,extinction_z INTO mydb.dr7_photometry_v3 FROM SpecPhotoAll   WHERE sciencePrimary = # AND z < #"
+2019-09-20 03:55:00,1

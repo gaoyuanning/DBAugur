@@ -1,0 +1,2 @@
+1,"SELECT     p.ra,p.dec,p.type into mydb.MyTable from photoobj AS p   JOIN mydb.stripe8# AS s ON        dbo.fdistanceeq(s.ra,s.dec,p.ra,p.dec)<#/#"
+2019-05-02 04:56:00,1

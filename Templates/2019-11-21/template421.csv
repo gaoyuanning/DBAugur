@@ -1,0 +1,2 @@
+1,"select specObj.z, PhotoObjAll.ra, PhotoObjAll.dec from specObj, PhotoObjAll where specObj.bestObjid = PhotoObj.ObjID"
+2019-11-21 11:40:00,1

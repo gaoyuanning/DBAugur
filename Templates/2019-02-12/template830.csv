@@ -1,0 +1,2 @@
+1,"SELECT TOP # ObjID, petroRad_r, modelMag_r FROM PhotoObj AS p WHERE modelMag_g-modelMag_r >#"
+2019-02-12 04:24:00,1

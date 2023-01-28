@@ -1,0 +1,2 @@
+1,"SELECT gal.objID, s.z, count (*) FROM Galaxy gal JOIN SpecObj s ON s.bestobjID = gal.objID WHERE s.z BETWEEN # AND #"
+2019-04-02 16:26:00,1

@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, q.z, q.zerr, q.class, q.zWarning FROM Galaxy as p JOIN SpecObj as q ON p.objid = q.bestobjid WHERE ( (q.class = #) and (q.zWarning = #) )"
+2019-02-02 04:07:00,1

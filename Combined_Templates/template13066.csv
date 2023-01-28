@@ -1,0 +1,2 @@
+1,"select sp.objID, psfMag_u, psfMag_g, psfMag_i, psfMag_r, psfMag_z, modelMag_u, modelMag_g, modelMag_i, modelMag_r, modelMag_z, z, sp.ra, sp.dec, zoo.ra, zoo.dec NVOTE, P_EL, P_CW, P_ACW, P_EDGE, P_DK, P_MG, P_CS, P_EL_DEBIASED, P_CS_DEBIASED, SPIRAL, ELLIPTICAL, UNCERTAIN into mydb.zoo1_mags_with_spec from dr7.SpecPhoto sp, mydb.zoo1_with_spec zoo where zoo.OBJID = sp.objID"
+2019-02-21 16:11:00,1

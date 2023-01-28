@@ -1,0 +1,3 @@
+2,"SELECT ph.objID, ph.ra, ph.raErr, ph.dec, ph.decErr, ph.mjd, ph.u, ph.err_u, ph.g, ph.err_g, ph.r, ph.err_r, ph.i, ph.err_i, ph.z, ph.err_z Into MYDB.result_#info From PhotoObjAll ph, MYDB.MyTable_objID1# db Where db.objID = ph.objID"
+2019-08-16 18:43:00,1
+2019-08-16 18:46:00,1

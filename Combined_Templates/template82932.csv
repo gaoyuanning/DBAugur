@@ -1,0 +1,2 @@
+1,"SELECT so.plate, so.mjd, so.fiberID, so.ra, so.dec, so.class, so.subclass, so.elodieSpType, so.elodieTEff, so.elodieLogG, so.elodieFeH, p.psfMag_u, p.psfMagErr_u, p.psfMag_g, p.psfMagErr_g, p.psfMag_r, p.psfMagErr_r, p.psfMag_i, p.psfMagErr_i, p.psfMag_z, p.psfMagErr_z, extinction_g, u.pmRa, u.pmDec, u. pmRaErr, u.pmDecErr, snMedian_g, l, b INTO mydb.O1# FROM SpecObjAll so INNER JOIN PhotoObjAll p ON so.bestObjId = p.ObjID LEFT OUTER JOIN ProperMotions u on p.ObjID = u.ObjID WHERE so.class = # and (so.subclass LIKE #)"
+2019-12-15 13:55:00,1

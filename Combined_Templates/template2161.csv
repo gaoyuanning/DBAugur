@@ -1,0 +1,2 @@
+1,"select plate, mjd, fiberID from SpecPhotoAll where subClass = #"
+2019-01-10 05:38:00,1

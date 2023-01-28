@@ -1,0 +1,2 @@
+1,"SELECT objID, specObjID, type, ra, dec, raErr, decErr, isoA_r, isoAErr_r, isoB_r, isoBErr_r, expAB_r, expABErr_r, expPhi_r, expPhiErr_r,    u, err_u, g, err_g, r, err_r, i, err_i, err_z, z, isoA_g, isoAErr_g, isoB_g, isoBErr_g, expAB_g, expABErr_g,    petroR5#_r, petroR5#Err_r, petroR5#_z, petroR5#Err_z, petroR9#_r, petroR9#Err_r, petroR9#_z, petroR9#Err_z FROM PhotoObjAll   into SDSS_PhotoObjAll_# WHERE ra between # and #    and dec between # and #"
+2019-01-06 01:34:00,1

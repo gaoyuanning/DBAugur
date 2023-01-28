@@ -1,0 +1,2 @@
+1,"select NAME,the_geom.ToString() as the_geom, lon, lat ,      geography::Point(lat,lon,#).ToString() as location   from edu_BmoreSchoolZones"
+2019-12-16 14:28:00,1

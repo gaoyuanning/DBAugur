@@ -1,0 +1,2 @@
+1,"select top # rspecobjid, dec, z, psfMag_r from specphoto where class = QSO and psfMag_r < #"
+2019-10-22 15:57:00,1

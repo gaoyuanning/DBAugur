@@ -1,0 +1,2 @@
+1,"SELECT   f.ra, f.dec,   f.plate, f.mjd, f.fiberid,     from myDB.flaretable_crosscheck_sdss_specobj as f     FROM apogeeStar AS star     CROSS APPLY dbo.fGetNearestSpecObjEq( f.ra, f.dec, #) AS near     JOIN apogeeStar AS star ON near.specobjid=star.specobjid"
+2019-03-29 11:52:00,1

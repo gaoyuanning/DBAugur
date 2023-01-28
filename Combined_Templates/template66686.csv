@@ -1,0 +1,2 @@
+1,"SELECT sp.objid, sp.ra, sp.dec, sp.z, sp.zErr FROM SpecPhoto sp JOIN dbo.fGetNearbyObjEq (#, #, #) n ON sp.objid = n.objid"
+2019-09-30 13:27:00,1

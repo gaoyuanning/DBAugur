@@ -1,0 +1,2 @@
+1,"select   p.objid as oid,   p.ra as ra, p.dec as dec,   q.ra as ra_ref, q.dec as dec_ref      into mydb.s8#qso_s8#_#deg from mydb.stripe8#_coords q cross apply dbo.fGetNearestObjAllEq(q.ra, q.dec, #) N, photoobj p  where p.objID = N.objID"
+2019-12-19 08:51:00,1

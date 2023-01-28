@@ -1,0 +1,2 @@
+1,"SELECT COUNT (*) AS Redshift_# SELECT count (*) FILTER (WHERE z BETWEEN # AND #) AS low , count (*) FILTER (WHERE z BETWEEN # AND #) AS mid , count (*) FILTER (WHERE z BETWEEN # AND #) AS high , count (*) AS totat FROM SpecObj WHERE class = # AND zWarning = #"
+2019-03-16 19:23:00,1

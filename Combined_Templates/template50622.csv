@@ -1,0 +1,3 @@
+3,"SELECT specObjID, bestObjID, fluxObjID, plateID, mjd, plate, fiberID, eboss_target0, eboss_target1, eboss_target2, eboss_target_id, sourceType, ra, dec, zOffset, z, zErr, zWarning into mydb.MyTable_# from SpecObjAll WHERE z> # and z< # and waveMax - waveMin > #"
+2019-07-09 16:17:00,2
+2019-07-09 16:18:00,1

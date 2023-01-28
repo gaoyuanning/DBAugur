@@ -1,0 +1,2 @@
+1,SELECT TOP # s.class FROM SpecPhotoAll s.bestobjid = p.objid WHERE p.mode = # AND s.sciencePrimary = # AND p.clean = # AND s.class ! = #
+2019-05-29 05:31:00,1

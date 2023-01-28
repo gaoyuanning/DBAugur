@@ -1,0 +1,2 @@
+1,"SELECT top # sp.plate, sp.mjd, sp.fiberid, sp.specobjid, sp.bestobjid, sp.elodiervfinal, sp.teffadop, sp.fehadop, sp.loggadop, ph.psfmag_g, ph.psfmag_r, ph.psfmag_i, ph.psfmagErr_g, ph.psfmagErr_r, ph.psfmagErr_i FROM Galaxy   JOIN sp.bestobjid = ph.objid    ON PhotoObjAll ph WHERE ph.psfmag_r < # AND elodiervfinal > # AND elodiervfinalerr > #"
+2019-03-22 17:55:00,1

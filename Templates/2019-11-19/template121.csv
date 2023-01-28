@@ -1,0 +1,7 @@
+8,"select count(*) as count from star p, dbo.fgetNearByObjEq(#,#,#) n where p.objid=n.objid and (p.u BETWEEN # AND #)  and (p.g BETWEEN # AND #)  and (p.r BETWEEN # AND #)  and (p.i BETWEEN # AND #)  and (p.z BETWEEN # AND #)"
+2019-11-19 21:34:00,1
+2019-11-19 21:36:00,1
+2019-11-19 21:40:00,1
+2019-11-19 21:41:00,2
+2019-11-19 21:43:00,1
+2019-11-19 21:44:00,2

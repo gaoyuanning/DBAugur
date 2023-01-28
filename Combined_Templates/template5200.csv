@@ -1,0 +1,2 @@
+1,"select top # p.ra, p.dec, p.u_r, p.q_r, p.petror5#_r from PhotoObjAll as p WHERE p.objid IN ()"
+2019-01-22 13:07:00,1

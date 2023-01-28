@@ -1,0 +1,2 @@
+1,"SELECT top # (# / POWER (#, #) ) * (# / (POWER (#, (# / (# * sppParams.teffadop) )) - #) as Flux_U FROM sppParams INTO stars"
+2019-09-19 09:36:00,1

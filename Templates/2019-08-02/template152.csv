@@ -1,0 +1,22 @@
+61,"SELECT p.objid, p.ra, p.dec, f.fieldid, p.field, p.InsideMask, p.u, p.err_u, p.g, p.err_g, p.r, p.err_r, p.i, p.err_i, p.z, p.err_z, p.type, f.quality, p.specObjID, s.specObjID, s.class, s.subclass, s.ra, s.dec, s.SNMEDIAN, s.plate, s.mjd, s.fiberID, s.run2d, dbo.fGetUrlSpecImg(s.specObjID) as png_url, dbo.fGetUrlFitsSpectrum(s.specObjID) as fits_url FROM PhotoPrimary AS p JOIN Field AS f ON f.fieldid = p.fieldid JOIN SpecObj as s ON p.objid = s.BestObjID WHERE (p.ra BETWEEN # AND #) AND p.dec BETWEEN # AND # AND (#/p.err_u > #) AND (#/p.err_g > #) AND (#/p.err_r > #) AND (#/p.err_i > #) AND (#/p.err_z > #) AND s.class=&&&"
+2019-08-02 17:41:00,1
+2019-08-02 17:42:00,1
+2019-08-02 17:48:00,2
+2019-08-02 17:50:00,1
+2019-08-02 17:52:00,1
+2019-08-02 17:56:00,4
+2019-08-02 17:57:00,4
+2019-08-02 17:58:00,3
+2019-08-02 17:59:00,4
+2019-08-02 18:00:00,1
+2019-08-02 18:06:00,4
+2019-08-02 18:07:00,3
+2019-08-02 18:08:00,3
+2019-08-02 18:09:00,6
+2019-08-02 18:10:00,3
+2019-08-02 18:14:00,1
+2019-08-02 18:19:00,4
+2019-08-02 18:20:00,3
+2019-08-02 18:21:00,4
+2019-08-02 18:22:00,5
+2019-08-02 18:23:00,3

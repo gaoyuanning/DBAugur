@@ -1,0 +1,8 @@
+7,"SELECT p.objID,p.ra,p.dec,p.dered_u,p.dered_g,p.dered_r,p.dered_i,p.dered_z,p.clean,p.flags,z.z as photoz,z.zErr as photozErr,s.specObjID as specObjID,s.z_noqso as specz_noqso,s.zErr_noqso as speczErr_noqso,s.zWarning_noqso as speczWarning_noqso,s.class,p.rowv as RowV,p.rowvErr as RowVErr,p.colv as ColV,p.colvErr as ColVErr, dbo.fPhotoFlagsN(p.flags) as note from Galaxy as p LEFT OUTER JOIN photoz as z ON z.ObjID = p.ObjID LEFT OUTER JOIN specObjAll as s ON s.bestObjID = p.ObjID WHERE ((#- # <= p.ra and p.ra <= #) or (# <= p.ra and p.ra <= #)) and # <= p.dec and p.dec <= #"
+2019-05-25 06:23:00,1
+2019-05-25 06:25:00,1
+2019-05-25 07:07:00,1
+2019-05-25 07:09:00,1
+2019-05-25 07:18:00,1
+2019-05-25 10:09:00,1
+2019-05-25 13:02:00,1

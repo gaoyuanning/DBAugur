@@ -1,0 +1,2 @@
+1,"SELECT DISTINCT po.objid AS phot_id, IS# (sp.zwarning, #) AS spec_zwarning, IS# (sp.z_noqso, #) AS spec_z_noqso, IS# (sp.zerr_noqso, #) AS spec_zerr_noqso, IS# (sp.zwarning_noqso, #) AS spec_zwarning_noqso, IS# (sp.class_noqso, #) AS spec_class_noqso INTO MyDB.SDSSphotDR1#_WISExmatch_add FROM MyDB.tmp_objid_p1 tmp INNER JOIN PhotoPrimary po ON po.objid = tmp.objid LEFT OUTER JOIN SpecObj sp ON sp.bestobjid = po.objid"
+2019-03-12 15:58:00,1

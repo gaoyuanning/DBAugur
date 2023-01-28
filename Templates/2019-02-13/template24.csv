@@ -1,0 +1,6 @@
+18,"SELECT TOP # p.ra,p.dec,p.type,p.modelmag_g,p.modelmag_r,p.modelmag_i,p.run,p.rerun,p.camcol,p.field,p.obj,p.objid,dbo.fIAUFromEq(p.ra,p.dec),p.z,p.specobjid,p.specClass FROM SpecPhotoAll as p WHERE p.ra<# and p.ra># and p.dec># and p.dec<# and (p.specClass=# or p.specClass=#) order by p.modelmag_r"
+2019-02-13 23:45:00,1
+2019-02-13 23:46:00,5
+2019-02-13 23:47:00,8
+2019-02-13 23:48:00,2
+2019-02-13 23:49:00,2

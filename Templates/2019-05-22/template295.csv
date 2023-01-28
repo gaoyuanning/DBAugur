@@ -1,0 +1,2 @@
+3,"select top #   p.fieldId, p.objId into mydb.galaxy_sort1# from Galaxy as p where p.dec >= # AND p.dec < # AND   p.mode = # AND   (p.flags & CAST(# AS BIGINT)) = # AND   (p.flags & CAST(# AS BIGINT)) = CAST(# AS BIGINT) AND   exists (   select g.fieldId, count(g.objId)    from Galaxy as g    where p.fieldId = g.fieldId   group by fieldId having count(g.objId) > #)"
+2019-05-22 13:17:00,3

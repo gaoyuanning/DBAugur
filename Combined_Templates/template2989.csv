@@ -1,0 +1,2 @@
+1,"SELECT PhotoObj, plate, mjd, fiberID, petroR5#_z into mydb.MyTable_# from PhotoObjAll AS p WHERE ra = # and dec = #"
+2019-01-14 05:26:00,1

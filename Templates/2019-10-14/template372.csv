@@ -1,0 +1,2 @@
+1,"SELECT   specObjID, survey, instrument,   legacy_target1, boss_target1, eboss_target1, eboss_target2,   sourceType, class, dec, z,   spectroFlux_u, spectroFlux_g, spectroFlux_r, spectroFlux_i, spectroFlux_z  FROM dbo.SpecObjAll WHERE (   zWarning = # and   class != &&& and   targetType=&&&) INTO MyDB.specz"
+2019-10-14 09:23:00,1

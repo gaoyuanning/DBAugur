@@ -1,0 +1,2 @@
+1,select top # * from DR1#.specobj where DR1#.specobj.survey = eBOSS into MyDB.JackTest
+2019-09-23 07:46:00,1

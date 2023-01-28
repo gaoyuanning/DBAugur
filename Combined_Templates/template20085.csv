@@ -1,0 +1,2 @@
+1,"SELECT u.up_name as [name], # + cast (x.objId as varchar (#) ) + #+ cast (x.objId as varchar (#) ) + # as objID, p.ra, p.dec, p.modelMag_g, u.ra FROM #x x, #upload u, PhotoTag p WHERE x.objID = p.objID"
+2019-03-13 11:54:00,1

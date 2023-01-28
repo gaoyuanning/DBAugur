@@ -1,0 +1,2 @@
+15,"SELECT TOP # ra, dec, type, objID from PhotoObjAll WHERE ra BETWEEN # AND # AND type = #"
+2019-01-21 15:51:00,15

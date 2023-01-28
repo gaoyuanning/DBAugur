@@ -1,0 +1,4 @@
+3,"SELECT G.objID, G.ra, G.dec, G.specObjID, G.type, Z.z, Z.zErr, SP.z, SP.zErr into mydb.sp_ph_radec2 From PhotoObjAll as G Join MyDB.MyTable AS m CROSS APPLY dbo.fGetNearestObjEq (m.RA, m.dec, #) AS GN On G.type = # JOIN PhotoZ AS Z ON G.ObjID = Z.ObjID JOIN SpecObjAll AS SP ON G.specObjID = SP.specObjID"
+2019-12-31 02:17:00,1
+2019-12-31 02:18:00,1
+2019-12-31 02:20:00,1

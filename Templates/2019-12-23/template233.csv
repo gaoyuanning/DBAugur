@@ -1,0 +1,2 @@
+1,"select ra,dec,psfMag_u,psfMagErr_u,psfMag_g,psfMagErr_g,psfMag_r,psfMagErr_r,psfMag_i,psfMagErr_i,psfMag_z,psfMagErr_z from star where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-12-23 06:45:00,1

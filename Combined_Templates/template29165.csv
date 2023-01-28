@@ -1,0 +1,2 @@
+1,"SELECT ab.OBSID_forfit, lamost.lamost_obsid, lamost.objID, lamost.SpObjID into mydb.absID_forfit from obsid_forfit_abs_not0_sn1# AS ab JOIN lsidAll AS lamost ON ab.OBSID_forfit = lamost.lamost_obsid;"
+2019-04-10 02:49:00,1

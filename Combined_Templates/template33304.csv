@@ -1,0 +1,2 @@
+1,"SELECT t.Name, t.Composer, a.title AS Album, SUM (t.UnitPrice) AS Total Price FROM chinook.track t JOIN chinook.album a ON a.albumid = t.albumid"
+2019-04-23 01:12:00,1

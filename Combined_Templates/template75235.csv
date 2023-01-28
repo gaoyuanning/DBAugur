@@ -1,0 +1,11 @@
+14,"select s.z, s.ra, s.dec as redshift into mydb.dr1#_jun1#_#_#_# from galaxy p, specobj s, dbo.fgetNearByObjEq (#e+#, #e+#, #) n where p.objid = s.bestobjid and p.objid = n.objid and s.bestobjid = n.objid and s.z BETWEEN # AND #"
+2019-11-12 18:08:00,2
+2019-11-12 18:16:00,1
+2019-11-12 18:18:00,1
+2019-11-12 18:19:00,2
+2019-11-12 18:20:00,2
+2019-11-12 18:21:00,1
+2019-11-12 18:23:00,2
+2019-11-12 18:24:00,1
+2019-11-12 18:25:00,1
+2019-11-12 18:26:00,1

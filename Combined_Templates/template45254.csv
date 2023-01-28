@@ -1,0 +1,2 @@
+1,"SELECT u, g, r, i, z into mydb.MyTable from objID = #"
+2019-06-11 08:13:00,1

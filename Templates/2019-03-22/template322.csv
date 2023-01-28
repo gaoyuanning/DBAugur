@@ -1,0 +1,2 @@
+2,"SELECT TOP # objID, specObjID, r, sppParams.elodiervfinal, u,b,g into mydb.MyTable_#  from Galaxy JOIN SpecObjAll as sp ON s.specobjid = sp.specobjid JOIN PhotoObjAll as p ON sp.bestobjid = p.objid    WHERE r < #     AND sppParams.elodiervfinal > #"
+2019-03-22 17:44:00,2

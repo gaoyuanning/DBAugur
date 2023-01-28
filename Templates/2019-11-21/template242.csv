@@ -1,0 +1,2 @@
+1,"select objID, ra, dec, psfmag_u, psfmag_g, psfmag_r, psfmag_i, psfmag_z from star where ra between ( # ) and ( # ) and dec between ( # ) and ( # ) and psfmag_r between # and # and (psfmag_g - psfmag_r) between ( # ) and ( # ) and (psfmag_r - psfmag_i) between ( # ) and ( # )"
+2019-11-21 17:20:00,1

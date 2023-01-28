@@ -1,0 +1,2 @@
+1,"SELECT m.*, Sp.plate, Sp.fiberid, Sp.mjd  into mydb.Green_missing_fiber      from SpecObjAll Sp JOIN mydb.missing_Green m   ON Sp.Bestobjid = p.objID_sdss1#"
+2019-03-12 09:39:00,1

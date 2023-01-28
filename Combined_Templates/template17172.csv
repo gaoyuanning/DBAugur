@@ -1,0 +1,4 @@
+3,"SELECT TOP # str (p.ra, #, #) as ra, str (p.[dec], #, #) as dec FROM TARGDR7..PhotoObj AS p JOIN TARGDR7.dbo.fGetNearbyObjEq (#, #, #) AS b ON b.objID = p.objID WHERE (p.type = # OR p.type = #)"
+2019-03-04 06:38:00,1
+2019-05-30 16:59:00,1
+2019-06-04 01:01:00,1

@@ -1,0 +1,5 @@
+5,"SELECT   s.mangaid, s.input_teff, s.input_teff, s.input_logg,   s.input_fe_h, s.input_alpha_m, v.plate, v.ifudesign, v.mjdqual  FROM mastar_goodstars AS s   JOIN mastar_goodvisits AS v ON s.mangaid = v.mangaid  WHERE   POWER(s.objra - #, #) + POWER(s.objdec - #, #) < POWER(#, #)   AND s.nvisits > #"
+2019-12-22 07:18:00,2
+2019-12-22 07:43:00,1
+2019-12-22 15:33:00,1
+2019-12-22 19:42:00,1

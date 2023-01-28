@@ -1,0 +1,2 @@
+1,"SELECT m.ra_#, m.dec_#, m.bestObjID, S.ra, S.dec INTO MyDB.chandra_matched_sdss_details2# FROM MyDB.chandra_matched_sdss AS m LEFT OUTER JOIN SpecObj AS S ON m.bestObjID = S.bestObjID"
+2019-06-18 08:32:00,1

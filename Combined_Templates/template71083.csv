@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.u, p.g, p.r, p.i, p.z, s.class, s.z AS z1, G.petroR5#_g, G.petroR5#_r FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN GALAXY AS G ON G.ObjID = p.objid WHERE p.u BETWEEN # AND # AND p.g BETWEEN # AND # AND s.class < > # AND s.class < > #"
+2019-10-22 12:38:00,1

@@ -1,0 +1,2 @@
+1,"SELECT objid, ra, dec, modelmag_u, modelmag_u-#*log1# (#E+#*z) +# as abs_mag_u, z from Galaxy where ObjID = #"
+2019-02-24 19:59:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # PERCENT g.objid, g.dec, g.ra, g.u, g.g, g.r, g.i, g.z, pz.z, pz.absMagU, pz.absMagG, pz.absMagR, pz.absMagI, pz.absMagZ into mydb.MyTable FROM Galaxy AS G JOIN Photoz AS pz      ON G.objid = pz.objid WHERE g.clean=#"
+2019-07-11 09:51:00,1

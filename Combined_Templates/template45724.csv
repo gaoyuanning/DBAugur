@@ -1,0 +1,2 @@
+1,"select p.ra, p.dec, s.specobjid from specobj s, photoobj p where p.specobjid = s.specobjid AND s.bestobjid = p.objid AND dec> # or dec< #"
+2019-06-14 17:27:00,1

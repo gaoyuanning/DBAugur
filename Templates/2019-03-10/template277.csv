@@ -1,0 +1,2 @@
+1,"select   z.nvote, z.p_el, z.p_cs, z.p_dk, z.p_mg from DR8.zooNoSpec z into mydb.zoo_nospec_combined_dr8 where    z.nvote >= #   and ((z.p_el >= #) or (z.p_cs >= #) or (z.p_dk >= #) or (z.p_mg >= #))"
+2019-03-10 11:09:00,1

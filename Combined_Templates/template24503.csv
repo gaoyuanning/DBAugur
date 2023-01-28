@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.z, p.objID, p.absMagU, p.absMagG, p.absMagR, p.absMagI, p.absMagZ, gi.d4#, gi.oii_#_reqw, gs.oii_#_eqw, gs.oii_#_reqw, gs.oii_#_eqw, gs.h_delta_reqw, gs.h_delta_eqw, gs.h_gamma_reqw, gs.h_gamma_eqw, gs.h_beta_reqw, gs.h_beta_eqw, gs.oiii_#_eqw, gs.oiii_#_reqw, gs.oiii_#_eqw, gs.h_alpha_reqw, gs.h_alpha_eqw FROM SpecObjAll as s JOIN Photoz as p ON s.specObjID = p.objID JOIN galSpecIndx as gi ON s.specObjID = gi.specObjID JOIN galSpecLine as gs ON s.specObjID = gs.specObjID WHERE s.z< #"
+2019-03-27 19:17:00,1

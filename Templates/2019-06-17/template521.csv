@@ -1,0 +1,2 @@
+1,"select top # * from MRscPlanck1 where stellarMass > #, and redshift < #"
+2019-06-17 04:16:00,1

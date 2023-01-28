@@ -1,0 +1,2 @@
+1,"select top # plate, MJD, fiberID from specobjall except select top # plate, MJD, fiberID from specobjall"
+2019-09-02 07:26:00,1

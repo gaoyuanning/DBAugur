@@ -1,0 +1,2 @@
+2,"select top # z, ra, dec, ObjID, petroRad_r, petroR5#_r, petroR9#_r from galaxy where ObjID IN (#, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #, #)"
+2019-05-30 16:37:00,2

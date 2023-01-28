@@ -1,0 +1,2 @@
+1,"SELECT s.plate, s.mjd, s.fiberId, s.z,p.sigmaStars FROM specObj AS s JOIN emissionLinesPort AS p ON s.specObjID = p.specObjID WHERE s.class = QSO and"
+2019-11-27 13:19:00,1

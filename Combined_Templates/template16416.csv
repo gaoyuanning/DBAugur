@@ -1,0 +1,3 @@
+2,select count (*) from startag where ra between # and # and dec between # and # and type = #
+2019-03-03 11:35:00,1
+2019-03-03 12:43:00,1

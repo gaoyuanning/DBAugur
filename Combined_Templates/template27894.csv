@@ -1,0 +1,2 @@
+1,"select A.specObjID, A.plateid, A.mjd, A.fiberID, B.h_beta_flux, B.h_alpha_flux, B.sii_#_flux, B.sii_#_flux, B.sii_#_flux_err, B.sii_#_flux_err, INTO MYDB.Rosi_lineas_non_thermal FROM MYDB.new_non_thermal_candidates_definitive_definitive as A JOIN galSpecLine as B on A.specObjID = B.specObjID"
+2019-04-04 01:20:00,1

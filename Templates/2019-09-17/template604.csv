@@ -1,0 +1,2 @@
+2,"SELECT    s.plate, s.mjd, s.fiberID, s.mstellar_median    INTO   mydb.test_#    FROM   stellarMassPCAWiscBC0# as s"
+2019-09-17 04:15:00,2

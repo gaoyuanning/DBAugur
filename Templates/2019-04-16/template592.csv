@@ -1,0 +1,2 @@
+1,"SELECT TOP # star.apstar_id,star.ra,star.dec,param.fe_h,param.teff FROM apogeeStar as star   JOIN aspcapStar as param   ON star.apstar_id = param.apstar_id"
+2019-04-16 08:17:00,1

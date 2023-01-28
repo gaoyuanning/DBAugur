@@ -1,0 +1,2 @@
+1,"SELECT z, dered_r as r FROM SpecPhoto WHERE zWarning = # AND class = # AND (dered_r < # OR z < #)"
+2019-04-19 19:18:00,1

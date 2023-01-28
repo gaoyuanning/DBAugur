@@ -1,0 +1,2 @@
+1,"select  S.ra,S.dec into mydb.wise_per_emissionlinesport_radecSUBSA_z from wise_xmatch as X       join mydb.MyTable as  S on X.sdss_objid = S.objid   join wise_allsky as W on X.wise_cntr = W.cntr"
+2019-09-10 17:43:00,1

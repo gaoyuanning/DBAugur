@@ -1,0 +1,3 @@
+2,"select s.ra, s.dec, x.ids, s.bestobjid, s.specobjid, galspec.h_beta_flux, galspec.oiii_#_flux,   galspec.h_alpha_flux, galspec.nii_#_flux into mydb.xrayagn_bptlines from specobjall as s    inner join mydb.xrayagn_ids as x on x.ids=s.bestobjid   inner join galspecline as galspec on galspec.specobjid = s.specobjid      order by s.ra ASC;"
+2019-03-01 17:28:00,1
+2019-03-01 17:29:00,1

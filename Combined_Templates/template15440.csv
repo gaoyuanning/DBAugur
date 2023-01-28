@@ -1,0 +1,2 @@
+1,"SELECT s.z, s.velDisp, s.plate, s.mjd, s.fiberid FROM SpecObj"
+2019-02-28 17:34:00,1

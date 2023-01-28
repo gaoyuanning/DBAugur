@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.fiberMag_u, p.fiberMag_g, p.fiberMag_r, p.petroMag_u, p.petroMag_g, p.petroMag_r, p.run, p.rerun, p.camcol, p.field FROM PhotoObj AS p WHERE p.u BETWEEN # AND # AND p.fiberMag_r BETWEEN # AND # AND p.petroRad_g > # AND p.fiberMag_g-p.fiberMag_r > p.petroMag_g-p.petroMag_r+#"
+2019-04-15 14:23:00,1

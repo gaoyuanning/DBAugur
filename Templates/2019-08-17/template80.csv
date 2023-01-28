@@ -1,0 +1,2 @@
+1,"SELECT g.specObjID,g.class,g.subClass,g.ra,g.dec,g.z,g.zErr,g.znoqso,g.zErr_noqso, into mydb.MyTable from SpecObjAll AS g WHERE   g.ra BETWEEN # and #   and g.dec BETWEEN # and #   and g.zWarning=#   and g.zWarning_noqso=#"
+2019-08-17 19:06:00,1

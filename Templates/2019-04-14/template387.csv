@@ -1,0 +1,2 @@
+1,"select sl.list_id,cs.*   from cancer_study cs     left outer join sample_list sl     on sl.cancer_study_id=cs.cancer_study_id where cs.name like &&&"
+2019-04-14 09:58:00,1

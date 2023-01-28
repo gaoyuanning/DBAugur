@@ -1,0 +1,2 @@
+1,"select top #   ra,dec,ObjID, u, g, i, z, r from  specObj where  class = &&&  and ra between # and #  u-g ># and   g <#"
+2019-09-27 16:02:00,1

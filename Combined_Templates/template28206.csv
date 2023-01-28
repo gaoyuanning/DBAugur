@@ -1,0 +1,2 @@
+1,"SELECT TOP # f.num, f.ra AS F_ra, f.dec AS F_dec, p.objID, p.ra AS S_ra, p.dec AS S_dec, p.type, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, s.specObjID, s.z, s.zErr, s.sourcetype, s.class, s.subClass, s.velDisp, s.velDispErr into mydb.MyTable from MyDB.FIRST_RADec_Half as f CROSS APPLY dbo.fGetNearestObjEq (f.ra, f.dec, #) as c JOIN PhotoObjAll AS p ON c.objid = p.objID JOIN SpecObjAll AS s ON p.objID = s.bestObjID"
+2019-04-06 09:12:00,1

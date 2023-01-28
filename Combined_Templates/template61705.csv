@@ -1,0 +1,2 @@
+1,"SELECT TOP # PhotoPrimary AS p; SELECT ra, dec, cModelMag_g, cModelMag_r, cModelMag_i, cModelMag_z, cModelMagErr_g, cModelMagErr_r, cModelMagErr_i, cModelMagErr_z FROM p;"
+2019-09-07 19:32:00,1

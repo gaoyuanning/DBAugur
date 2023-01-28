@@ -1,0 +1,13 @@
+12,"SELECT TOP # p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,p.type,pm.pmra, pm.pmdec FROM PhotoObj AS p JOIN propermotions pm ON p.objid = pm.objid WHERE p.ra BETWEEN # AND # AND p.dec BETWEEN # AND # AND p.g < #"
+2019-12-12 12:42:00,1
+2019-12-12 13:21:00,1
+2019-12-12 14:27:00,1
+2019-12-12 14:45:00,1
+2019-12-12 15:45:00,1
+2019-12-12 15:47:00,1
+2019-12-12 15:50:00,1
+2019-12-12 15:52:00,1
+2019-12-12 16:04:00,1
+2019-12-12 16:18:00,1
+2019-12-12 16:32:00,1
+2019-12-12 16:59:00,1

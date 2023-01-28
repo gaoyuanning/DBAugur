@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.r-#*log1# (#E+#*p.z) +# as abs_r, p.g-#*log1# (#E+#*p.z) +# as abs_g, dbo.fPhotoFlagsN (p.flags) as flags FROM Galaxy p WHERE p.z> # AND p.mode = #"
+2019-07-17 18:55:00,1

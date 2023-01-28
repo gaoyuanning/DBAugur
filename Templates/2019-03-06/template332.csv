@@ -1,0 +1,2 @@
+1,"SELECT p.ObjID, p.specObjID, p.run, p.camcol, p.ra, p.dec, p.z, p.zerr, p.class, p.subClass    FROM SpecPhotoAll AS p,      MyDB.manu_sample    AS manu    INTO myDB.manu_DR1#_matched    WHERE p.SpecObjID = manu.ObjID     ORDER BY p.SpecObjID"
+2019-03-06 17:06:00,1

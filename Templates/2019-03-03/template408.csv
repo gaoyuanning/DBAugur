@@ -1,0 +1,3 @@
+2,"SELECT TOP # s.plate,s.mjd,s.fiberid,s.z,s.zErr,s.zWarning,s.specClass,p.run,p.rerun,p.camCol,p.field,p.obj,str(p.ra,#,#) as ra,str(p.[dec],#,#) as dec,p.r, &&& as filter FROM BESTDR3..SpecObj as s, BESTDR3..PhotoObj as p WHERE s.z > .# AND s.zConf > .# AND (s.specClass = dbo.fSpecClass(&&&) OR s.specClass = dbo.fSpecClass(&&&)) AND s.z < .# AND s.zConf < # AND ( p.type = # OR p.type = #) AND s.bestObjID = p.objID"
+2019-03-03 11:36:00,1
+2019-03-03 12:43:00,1

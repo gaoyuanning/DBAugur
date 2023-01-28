@@ -1,0 +1,3 @@
+2,"SELECT m.*, f.gain_u, f.gain_g, f.gain_r, f.gain_i, f.gain_z, f.saturationLevel_u , f.saturationLevel_g, f.saturationLevel_r, f.saturationLevel_i, f.saturationLevel_z into mydb.AllcUVLGs_PhotoFieldInfo_DR1# from MyDB.AllcUVLGs_PhotoFluxData_DR1# AS m JOIN Field as f ON f.fieldid = m.fieldid"
+2019-07-10 12:35:00,1
+2019-07-10 12:36:00,1

@@ -1,0 +1,2 @@
+2,"SELECT TOP # str (s.ra, #, #) as ra, str (s.[dec], #, #) as dec, # as filter FROM BESTDR3..SpecObj as s, dbo.fGetNearbyObjEq (#, #, #) as b, BESTDR3..PhotoObj as p WHERE b.objID = p.objID AND (p.type = # OR p.type = #) AND s.bestObjID = p.objID"
+2019-12-11 05:56:00,2

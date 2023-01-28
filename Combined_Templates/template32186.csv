@@ -1,0 +1,2 @@
+1,"select substring (Name, #, #) as FirstLetter from chinook.Artist as New select New, count (*) as Count group by FirstLetter"
+2019-04-20 10:42:00,1

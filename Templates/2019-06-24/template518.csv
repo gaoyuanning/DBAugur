@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid,p.ra,p.dec,  p.u,p.g,p.r,p.i,p.z,  p.run, p.rerun, p.camcol, p.field FROM   fGetNearbyObjEq(#, #,#/#) as p WHERE   p.u BETWEEN # AND #  AND p.type = #  AND g BETWEEN # AND #"
+2019-06-24 08:17:00,1

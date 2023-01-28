@@ -1,0 +1,2 @@
+1,"SELECT TOP #  ap.racen, ap.deccen, ap.radius, ap.shared, ap.location_id, ap.plate FROM ApogeePlate AS ap WHERE   ap.plate = #"
+2019-01-21 21:16:00,1

@@ -1,0 +1,2 @@
+2,"SELECT p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.probPSF_r, p.type into mydb.stars5 from PhotoObj AS p WHERE p.ra BETWEEN # AND # AND p.dec BETWEEN # AND # and p.r < # AND p.probPSF_r > #"
+2019-01-18 13:19:00,2

@@ -1,0 +1,2 @@
+1,"SELECT    objID,profMean,profErr,band,bin FROM PhotoProfile WHERE   band BETWEEN # AND # AND objID= #"
+2019-11-13 06:38:00,1

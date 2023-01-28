@@ -1,0 +1,3 @@
+2,"SELECT objid,ra,dec, class, z as redshift FROM SpecPhoto WHERE class = GALAXY&&&"
+2019-10-12 20:42:00,1
+2019-10-12 20:54:00,1

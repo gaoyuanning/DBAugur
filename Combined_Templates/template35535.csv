@@ -1,0 +1,2 @@
+1,"SELECT phot.ra, phot.dec, phot.r JOIN segueTargetAll AS seg ON seg.objid = phot.objID"
+2019-04-29 09:57:00,1

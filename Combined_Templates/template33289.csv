@@ -1,0 +1,2 @@
+1,"SELECT a.Title, SUM (t.UnitPrice) AS AlbumPrice, t.AlbumId FROM chinook.track t JOIN chinook.album a ON a.AlbumId = t.AlbumId GROUP BY a.NumberOfTracks"
+2019-04-23 01:18:00,1

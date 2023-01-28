@@ -1,0 +1,2 @@
+1,"SELECT u.up_obj_id as [obj_id], x.objID, p.ra, p.dec, p.Mag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, p.objID as obj_id,dbo.fPhotoTypeN(p.type) as type                       FROM #upload u JOIN #x x ON x.up_id = u.up_id                       JOIN PhotoObjAll p ON p.objID = x.objID ORDER BY x.up_id"
+2019-04-23 12:17:00,1

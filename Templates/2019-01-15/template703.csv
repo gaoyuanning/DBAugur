@@ -1,0 +1,2 @@
+1,"SELECT TOP #  modelMag_u,modelMag_g,modelMag_r,modelMag_i,modelMag_z,s.z as redshift,modelMagErr_u,modelMagErr_g,modelMagErr_r,modelMagErr_i,modelMagErr_z  FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid"
+2019-01-15 00:22:00,1

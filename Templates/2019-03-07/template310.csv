@@ -1,0 +1,2 @@
+1,"SELECT imag, zmag, (gmag-rmag) FROM PhotoObjDR7 AS x WHERE x.name=rs1#&&&rf0#&&&rf0#"
+2019-03-07 18:18:00,1

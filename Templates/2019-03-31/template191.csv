@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  p.run, p.rerun, p.camcol, p.field FROM PhotoObj AS p  JOIN apogeeStar AS a ON a.bestobjid = p.objid WHERE   a.glat BETWEEN # AND #"
+2019-03-31 19:08:00,1

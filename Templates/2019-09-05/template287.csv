@@ -1,0 +1,3 @@
+2,"SELECT p.SpecObj, p.specClass as specClass,p.SpecObj > #,"
+2019-09-05 11:37:00,1
+2019-09-05 12:36:00,1

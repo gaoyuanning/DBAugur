@@ -1,0 +1,2 @@
+1,"select count (*) objID, ra, dec, subClass, psfMag_r from SpecPhotoAll where class = #"
+2019-01-29 13:17:00,1

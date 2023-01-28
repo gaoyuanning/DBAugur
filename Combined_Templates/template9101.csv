@@ -1,0 +1,2 @@
+1,"select top # s.specobjid, p.targ_pmra, p.targ_pmraerr, p.targ_pmdec, p.targ_pmdecerr, s.mag_#, s.mag_#, s.mag_# from sppparams p, specobj s where (p.targ_pmra< ># or p.targ_pmra< >#) and p.specobjid = s.specobjid and s.mag_#< ># and s.mag_#< ># and s.mag_#< ># and (s.sn_#> # and s.sn_#> # and s.sn_#> #) and abs (p.targ_pmra) > p.targ_pmraerr and abs (p.targ_pmdec) > p.targ_pmdecerr order by s.mag_# desc"
+2019-02-08 08:44:00,1

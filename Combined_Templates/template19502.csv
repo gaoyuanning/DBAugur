@@ -1,0 +1,2 @@
+4,"SELECT p.*, s.* from SpecPhoto s, photoprimary p where s.objid = p.objid and s.plate = # and s.mjd = # and s.fiberID = #"
+2019-03-11 06:37:00,4

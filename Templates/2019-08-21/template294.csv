@@ -1,0 +1,2 @@
+1,"SELECT st.objid, st.ra, st.dec, st.petroMag_r, pz.z, pz.zErr, st.type FROM Star AS st JOIN PhotoZ AS pz ON pz.objid = st.objid, fGetNearbyObjEq(#,#,#) AS n WHERE st.objID = n.objID"
+2019-08-21 06:54:00,1

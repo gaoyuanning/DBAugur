@@ -1,0 +1,2 @@
+1,"select m.dec, COUNT (m.dec) FROM NN1 m GROUP by m.ra HAVING COUNT (m.dec) > #"
+2019-01-07 14:33:00,1

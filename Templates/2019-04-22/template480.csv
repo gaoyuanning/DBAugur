@@ -1,0 +1,8 @@
+7,"SELECT ALL  p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,p.type,  s.class, s.z as redshift, s.class FROM PhotoPrimary AS p  JOIN SpecObj AS s ON s.class = &&& WHERE   p.ra BETWEEN # AND #  AND p.dec BETWEEN # AND #  AND p.type = #"
+2019-04-22 02:57:00,1
+2019-04-22 03:49:00,1
+2019-04-22 03:50:00,1
+2019-04-22 03:51:00,1
+2019-04-22 03:53:00,1
+2019-04-22 06:34:00,1
+2019-04-22 10:18:00,1

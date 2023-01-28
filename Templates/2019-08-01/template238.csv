@@ -1,0 +1,2 @@
+2,"select top # q.ra, q.dec, dbo.fGetNearestObjIdEq(q.ra, q.dec, #/#) as id from mydb.s8#qsoMin as q"
+2019-08-01 13:49:00,2

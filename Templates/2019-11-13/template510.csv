@@ -1,0 +1,4 @@
+5,"SELECT   g.ObjId, g.ra, g.dec, g.field, g.type, g.clean, g.probPSF, g.insideMask, g.flags, g.psfMag_r, g.psfMagErr_r, g.modelMag_r, g.modelMagErr_r, p.z, p.zErr into mydb.MyTable_# from PhotoObjAll as g     join Photoz as p on p.Objid = g.ObjId   where g.ra < # and g.ra > # and g.type = # and g.clean = # and g.insideMask = #"
+2019-11-13 04:08:00,2
+2019-11-13 05:09:00,1
+2019-11-13 05:10:00,2

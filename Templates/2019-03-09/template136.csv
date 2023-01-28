@@ -1,0 +1,2 @@
+1,"SELECT TOP # z, Metallicity, logMass, age, SFR, SFH into mydb.table1# from stellarMassStarformingPort   WHERE logMass <= #   AND logMass >= #   AND zErr < .#   AND SFR != #"
+2019-03-09 18:38:00,1

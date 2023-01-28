@@ -1,0 +1,3 @@
+2,"SELECT TOP # p.objid, p.ra, p.dec, p.petror9#_r, p.dered_g, p.dered_r, p.dered_u, p.dered_g - p.dered_r as color, s.z as z_spec, s.zErr FROM galaxy as p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.clean = # AND (s.z BETWEEN # AND .#)"
+2019-04-02 12:22:00,1
+2019-04-02 12:25:00,1

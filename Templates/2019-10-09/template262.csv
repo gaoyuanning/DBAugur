@@ -1,0 +1,2 @@
+2,"select ra as ra_need, dec as dec_need from mydb.kGiants select objID, ra, dec from PhotoObjAll as want join want on ra = ra_need and dec = dec_need"
+2019-10-09 16:11:00,2

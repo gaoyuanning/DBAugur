@@ -1,0 +1,5 @@
+4,"SELECT dbo.fGetUrlFitsCFrame(fieldid,&&&) FROM Field WHERE ABS(# - RA) < # AND ABS(# - Dec) < #"
+2019-06-19 20:19:00,1
+2019-06-19 20:21:00,1
+2019-06-19 20:26:00,1
+2019-06-19 20:42:00,1

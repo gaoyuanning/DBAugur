@@ -1,0 +1,3 @@
+2,"SELECT a.id, a.objid as objid1, b.objid as objid2,      b.distance into mydb.MyNbrsDist FROM MyDB.MyObjs a CROSS APPLY (SELECT TOP # objid, distance       FROM dbo.fGetNearbyObjEq( a.ra, a..dec, # )        WHERE objid != a.objID ORDER BY distance) b"
+2019-03-30 18:29:00,1
+2019-03-30 18:36:00,1

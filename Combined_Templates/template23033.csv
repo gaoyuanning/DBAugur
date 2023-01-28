@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.run, p.rerun, p.camCol, p.field, p.obj, IS# (s.z, #) as redshift FROM ..PhotoObj AS p LEFT OUTER JOIN ..SpecObj s ON p.objID = s.bestObjID WHERE p.r > # AND p.r < # AND (p.type = # OR p.type = #)"
+2019-03-24 03:12:00,1

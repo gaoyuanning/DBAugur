@@ -1,0 +1,2 @@
+1,"SELECT TOP # dr7objid AS objid,ra,dec,p_el,(p_acw + p_cw) AS p_sp FROM zoo2MainSpecz"
+2019-03-12 19:42:00,1

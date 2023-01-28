@@ -1,0 +1,2 @@
+1,"SELECT TOP # u, g, r, i, z, dbo.fPhotoFlagsN (flags) FROM Galaxy WHERE (htmid*# & #) < (# * #)"
+2019-03-12 19:57:00,1

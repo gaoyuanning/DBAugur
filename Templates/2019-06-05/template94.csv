@@ -1,0 +1,4 @@
+3,"SELECT s.bestobjid, s.specObjID, s.z as redshift, s.zErr as redshiftErr FROM specObj s, dbo.fgetNearByObjEq(#,#,#) n WHERE s.bestobjid = n.objid"
+2019-06-05 10:01:00,1
+2019-06-05 16:17:00,1
+2019-06-05 21:17:00,1

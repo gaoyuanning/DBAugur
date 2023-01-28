@@ -1,0 +1,2 @@
+1,"select distinct top # star.ra, star.dec from apogeestar as star"
+2019-12-31 11:45:00,1

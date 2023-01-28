@@ -1,0 +1,4 @@
+3,"select top # ra,type ,dec,z from photoobjall where ra># and dec>#"
+2019-01-17 06:37:00,1
+2019-01-17 06:39:00,1
+2019-01-17 07:53:00,1

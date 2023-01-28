@@ -1,0 +1,2 @@
+1,"SELECT g.ra, g.dec, f.class into mydb.file_sdssDR8_wise_galex_clu_ALL_CLASS FROM dbo.specphotoall AS g"
+2019-04-15 18:55:00,1

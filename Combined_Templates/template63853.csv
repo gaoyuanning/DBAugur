@@ -1,0 +1,2 @@
+1,"SELECT TOP # bestObjID, sigma_balmer FROM GalSpecLine as g, SpecObj as s where g.specobjID = s.bestObjID"
+2019-09-18 20:01:00,1

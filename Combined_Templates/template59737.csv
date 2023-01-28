@@ -1,0 +1,2 @@
+1,"select top # m.object_ra, m.object_dec, m.ifu_ra, m.ifu_dec, m.catalog_ra, m.catalog_dec, m.tilera, m.tiledec from mangatarget m"
+2019-08-29 09:49:00,1

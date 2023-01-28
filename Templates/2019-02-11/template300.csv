@@ -1,0 +1,4 @@
+5,"SELECT       s.specObjID as specObjID,   m.ra AS ra,   m.dec AS dec,   s.h_beta_flux as h_beta,   s.oiii_#_flux as OIII,   s.h_alpha_flux as h_alpha,   s.nii_#_flux as NII   into mydb.SDSS_SIMARD_ALL_FLUXES from MyDB.SDSS_SIMARD_ALL_RADEC AS m   OUTER APPLY dbo.fGetNearestSpecObjAllEq( m.ra, m.dec, #) AS n    LEFT JOIN galSpecLine AS s ON n.specObjID=s.specObjID"
+2019-02-11 16:54:00,2
+2019-02-11 16:55:00,1
+2019-02-11 16:58:00,2

@@ -1,0 +1,2 @@
+1,"SELECT g.specObjID, g.ra, g.dec, p.type, p.u, p.g, p.r, p.i, p.z, g.spectrotype FROM galSpecInfo AS g JOIN PhotoObjAll as p ON p.specObjID = g.specObjID WHERE g.ra > # ORDER BY g.specObjID"
+2019-11-02 11:02:00,1

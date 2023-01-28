@@ -1,0 +1,6 @@
+5,"select * from astrometry.budavari.Neighbors2Star2#eq where arcsec between # and # order by #, #, #"
+2019-03-17 11:22:00,1
+2019-03-17 11:31:00,1
+2019-03-17 11:33:00,1
+2019-03-17 15:31:00,1
+2019-03-17 16:02:00,1

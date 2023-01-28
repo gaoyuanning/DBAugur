@@ -1,0 +1,2 @@
+1,"SELECT TOP # colc_g, colc_r into mydb.MyTable_# from Galaxy WHERE (# * cx + # * cy> =#) and (# * cx - # * cy < #)"
+2019-12-08 13:44:00,1

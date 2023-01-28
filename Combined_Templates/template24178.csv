@@ -1,0 +1,4 @@
+3,"SELECT TOP # p.g, p.r, p.r-p.g FROM PhotoObj AS p WHERE p.ra BETWEEN # AND # AND p.dec BETWEEN # AND #"
+2019-03-26 14:47:00,1
+2019-03-26 14:49:00,1
+2019-03-26 14:55:00,1

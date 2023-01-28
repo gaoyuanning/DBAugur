@@ -1,0 +1,2 @@
+2,"SELECT x.MatchID, x.RA, x.Dec, m.ID, m.ra, m.dec, s.objID, s.ra, s.dec, s.u, s.g, s.r, s.i, s.z INTO MYDB:xmatchtable FROM XMATCH (MUST EXIST IN MYDB:webuser.radec2 AS m WITH (POINT (ra, dec) , ERROR (#) ), MUST EXIST IN SDSSDR1#:Galaxy AS s WITH (ERROR (RaErr, #, #) ) LIMIT BAYESFACTOR TO #) AS x INNER JOIN SDSSDR1#:SpecObj sp ON sp.bestObjID = s.objID"
+2019-04-11 05:25:00,2

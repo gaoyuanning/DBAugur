@@ -1,0 +1,3 @@
+3,"select specOBJID,ra,dec,z,zerr,class,subclass,mag_#,mag_#,mag_#,objtype,objtypename  into myDB.zall from SpecObj  Where z > # AND objtype <# AND specclass BETWEEN # and #"
+2019-01-15 13:39:00,2
+2019-01-15 13:52:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # u,g,r,i,z,ra,dec, flags_r into test FROM Star  WHERE ra BETWEEN # and # AND ((flags_r & #) != #)  AND ((flags_r & #) = #)   AND (((flags_r & #) = #) or (psfmagerr_r <= #))   AND (((flags_r & #) = #) or (flags_r & #) = #)"
+2019-05-12 05:06:00,1

@@ -1,0 +1,2 @@
+1,"SELECT m.obsid, m.ra AS lamo_ra, m.dec AS lamo_dec, o.ra AS SDSS_ra, o.dec AS SDSS_dec, o.psfMag_u, o.psfMag_g, o.psfMag_r, o.psfMag_i, o.psfMag_z, o.psfMagErr_u, o.psfMagErr_g, o.psfMagErr_r, o.psfMagErr_i, o.psfMagErr_z, o.extinction_u, o.extinction_g, o.extinction_r, o.extinction_i, o.extinction_z, o.clean, n.objid, n.distance from MyDB.c AS m CROSS APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #/#) AS n JOIN Star AS o ON n.objid = o.objid into mydb.c_out"
+2019-12-30 03:02:00,1

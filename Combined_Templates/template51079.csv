@@ -1,0 +1,2 @@
+1,"select n.objID, l.logMass into mydb.#_stellar_mass from stellarMassFSPSGrantEarlyDust as l, PhotoObj as p, Mr1#_group_#_ObjID as n where l.specObjID = p.specObjID AND p.objID = n.ObjId"
+2019-07-10 11:07:00,1

@@ -1,0 +1,2 @@
+1,"select p.objID, s.specObjID, s.mjd, s.plate, s.fiberID, s.z, p.mjd, s.ra, s.dec, p.ra, p.dec, p.u, p.g, p.i, p.r, p.z into mydb.MyTable_# from PhotoObjAll as p, SpecObjAll as s where s.z < #"
+2019-05-02 20:04:00,1

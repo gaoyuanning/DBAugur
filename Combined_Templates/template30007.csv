@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, type, ra, dec, mag_g, mag_r, z, FROM SpecPhoto JOIN dbo.fGetNearbyObjEq (#, #, #) ON objID = objID ORDER BY type"
+2019-04-14 17:18:00,1

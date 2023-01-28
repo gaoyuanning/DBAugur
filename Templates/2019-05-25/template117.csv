@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec,s.z, p.z,p.zErr, p.absMagI,p.absMagR,p.absMagG,p.absMagU FROM Photoz AS p JOIN SpecPhoto as s ON p.ObjID = s.ObjID WHERE p.z BETWEEN # and # AND p.nnIsInside = # AND p.nnCount > # AND p.zErr BETWEEN # AND #"
+2019-05-25 16:52:00,1

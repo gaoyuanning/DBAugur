@@ -1,0 +1,2 @@
+1,"select  specObjId, ra, dec, z, specClass from specObj where SpecClass = (Select AVG(specClass)from specObj) AND ra BETWEEN # and #"
+2019-12-05 12:47:00,1

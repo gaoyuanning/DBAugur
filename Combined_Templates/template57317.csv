@@ -1,0 +1,2 @@
+2,"SELECT f.plateifu, t.mangaid, f.objra, f.objdec, f.REDSHIFT, f.PHOTOMETRIC_MASS, t.nsa_petro_th5#, nsa_elpetro_absmag_u, nsa_elpetro_absmag_g, nsa_elpetro_absmag_r, nsa_elpetro_absmag_i, nsa_elpetro_absmag_z FROM mangatarget as t JOIN mangaFirefly as f ON f.mangaID = t.MANGAID WHERE MANGA_TARGET3 = # and nsa_elpetro_mass > #"
+2019-08-13 08:00:00,2

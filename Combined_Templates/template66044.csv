@@ -1,0 +1,2 @@
+1,"SELECT s.BESTOBJID, s.RA, s.DEC, s.Z, p.modelMag_r, p.psffwhm_r, p.extinction_r into specTable from specObj AS s LEFT OUTER JOIN PhotoPrimary AS p ON s.BESTOBJID = p.objID Where (s.CLASS = #) and (s.Z_ERR< #) and (s.Z_ERR> =#) and (s.RCHI2< #) and (s.Z> #)"
+2019-09-26 01:05:00,1

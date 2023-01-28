@@ -1,0 +1,2 @@
+1,"SELECT * into mydb.MyTable from myDB.Hammond_Short HS JOIN (SELECT objID FROM dbo.fGetNearbyObjEq (#, #, #) ) OL"
+2019-09-04 05:57:00,1

@@ -1,0 +1,2 @@
+1,"SELECT top #  s.specobjID, s.bestobjID, s.firstrelease, s.sourcetype, s.class,   p.ra, p.dec, s.z, p.raErr, p.decErr, s.zErr, s.zwarning,  p.dered_r, p.dered_i, p.dered_g, p.modelMag_g, p.modelMag_r, p.modelMag_i,   p.psfMag_g, p.petroMag_r, p.extinction_r, p.petroR5#_r FROM specobj as s  JOIN photoobj as p on p.objid = s.bestobjid WHERE  eboss_target1 & dbo.febosstarget1(&&&) > #"
+2019-12-18 08:10:00,1

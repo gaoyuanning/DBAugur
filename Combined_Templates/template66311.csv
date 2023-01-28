@@ -1,0 +1,2 @@
+1,"SELECT TOP # psfMag_r, psfMegErr_r, extinction_r FROM Star WHERE ra BETWEEN # and # AND dec BETWEEN # and # AND (a.aspxcapflag & dbo.fApogeeAspcapFlag (#) ) = #"
+2019-09-28 19:45:00,1

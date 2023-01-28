@@ -1,0 +1,2 @@
+1,"SELECT         o.objid,o.specobjid,o.ra,o.dec, pz.z,pz.zerr,pz.photoErrorClass,f.gain_u,f.gain_g,f.gain_r,f.gain_i,f.gain_z,f.saturationLevel_u        ,f.saturationLevel_g,f.saturationLevel_r,f.saturationLevel_i,f.saturationLevel_z        From PhotoObjAll as o         JOIN fGetNearbyObjEq( #,#, #) AS n ON o.objid = n.objid        JOIN Photoz AS pz ON n.objid=pz.objid        JOIN Field AS f ON f.FieldID=o.FieldID        WHERE o.type = # and pz.photoErrorClass in (#,#,#, #) and pz.z > #e-#        and pz.z < #"
+2019-04-25 02:04:00,1

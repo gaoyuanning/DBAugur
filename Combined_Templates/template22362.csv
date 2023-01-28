@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, u, g, r, i, u-g, r-i, g-r, type, petroMag_u, petroMag_g, petroMag_r, petroMag_i, petroMag_z, petroRad_u, petroRad_g, petroRad_i, petroRad_z, s.z, zErr FROM Galaxy AS p JOIN SpecObj AS s ON s.bestObjID = p.objID WHERE r < # AND z > #"
+2019-03-22 20:01:00,1

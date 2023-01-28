@@ -1,0 +1,3 @@
+2,"SELECT SPA.SpecObjID, SPA.z, SPA.ra, SPA.dec, GZ.t0#_bar_a0#_bar_debiased, GZ.t0#_bar_a0#_no_bar_debiased, GZ.t0#_spiral_a0#_spiral_debiased, GZ.t0#_odd_feature_a2#_merger_debiased into mydb.morphos from SpecPhotoAll as SPA, dbo.zoo2MainSpecz as GZ WHERE SPA.z >= # and SPA.z <= # and SPA.petroMag_r <= # and SPA.SpecObjID = GZ.specobjid"
+2019-12-04 07:26:00,1
+2019-12-04 07:27:00,1

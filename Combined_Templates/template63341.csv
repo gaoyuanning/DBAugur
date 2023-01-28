@@ -1,0 +1,4 @@
+4,"SELECT BC.specObjID, BC.plate, BC.fiberID, BC.mjd, BC.mstellar_median, BC.mstellar_err INTO BC0#_# FROM stellarMassPCAWiscBC0# as BC"
+2019-09-16 09:22:00,2
+2019-09-16 09:23:00,1
+2019-09-16 09:24:00,1

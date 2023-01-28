@@ -1,0 +1,3 @@
+3,"SELECT sp.plate, sp.fiberID, sp.run1d, sp.run2d, sp.tile, sp.designID, sp.legacy_target1, sp.legacy_target2, sp.special_target1, sp.special_target2, sp.segue1_target1, sp.segue1_target2, sp.segue2_target1, sp.segue2_target2, sp.boss_target1, sp.eboss_target0, sp.eboss_target1, sp.eboss_target2, sp.eboss_target_id, sp.ancillary_target1 into mydb.DR1#_sp_# from SpecObj AS sp WHERE z BETWEEN #. AND #. AND class=&&&"
+2019-02-05 11:41:00,1
+2019-02-05 11:42:00,2

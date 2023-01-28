@@ -1,0 +1,2 @@
+1,"SELECT s.SpecObjID, s.z, p.r, p.err_r, L.ew, L.sigma, L.sigmaErr, K.ew, K.sigma, K.sigmaErr into mydb.MyTable from SpecObj as s, SpecLine as L, SpecLine as K, PhotoObj as p WHERE    (L.LineID = #)    and (K.LineID = #)    and s.SpecObjID = L.specObjID    and L.specObjID = K.specObjID   and s.SpecObjID = p.specObjID   and L.ew/nullif(L.ewErr,#)>#   and s.z>#   and s.z<# order by s.SpecObjID"
+2019-06-06 05:10:00,1

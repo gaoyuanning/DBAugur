@@ -1,0 +1,2 @@
+1,"select floor(ra/#)*# as ra_cell,  count(*) as count from SpecPhoto group by ra_cell order by ra_cell;"
+2019-01-25 18:00:00,1

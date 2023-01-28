@@ -1,0 +1,2 @@
+1,"select top # s.zwarning, w.w3mag, e.zerr, e.z from wise_xmatch as xm  join SpecObjAll as s on xm.sdss_objid = s.bestObjID  join emissionLinesPort as e on xm.sdss_objid = e.specObjID  join wise_allsky as w on xm.wise_cntr = w.cntr"
+2019-01-03 13:20:00,1

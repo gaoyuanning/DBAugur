@@ -1,0 +1,3 @@
+4,insert into #upload EXEC dbo.spGetNeighborsRadius
+2019-05-09 13:52:00,1
+2019-05-09 13:55:00,3

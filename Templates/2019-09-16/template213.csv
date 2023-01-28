@@ -1,0 +1,2 @@
+1,"select distinct eid, Wears_glasses_or_contact_lenses_# from dbo.Eyesight a inner join metadata.columninfo b on b.column_name=&&&"
+2019-09-16 14:59:00,1

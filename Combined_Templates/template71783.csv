@@ -1,0 +1,2 @@
+1,"select county, dist = centroid.STDistance (geography::Point (#, #, #) ) from optw.tamass.TRACTS where state = # and centroid< >#"
+2019-10-26 16:43:00,1

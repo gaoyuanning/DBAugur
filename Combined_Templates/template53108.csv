@@ -1,0 +1,2 @@
+1,"select o.dr8objid, o.dr7objid, data.* into mydb.Maldicao from MyDB.GALEX_GR5_AIS_SDSS_DR7_Matched_catalog_errmagFUVandNUV_menor_#_# as data OUTER APPLY dbo.fGetNearestObjEq (data.ra_sdss, data.dec_sdss, #*#) AS n LEFT JOIN PhotoPrimaryDR7 AS o ON n.objid = o.dr8objid where o.dr7objid = data.objid_sdss"
+2019-07-22 16:03:00,1

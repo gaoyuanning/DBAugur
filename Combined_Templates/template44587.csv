@@ -1,0 +1,2 @@
+2,"select top # G.objid, G.ra, G.dec, sp.z into mydb.test_test FROM Galaxy as G Join Photoz as sp On G.ObjID = sp.ObjID WHERE (sp.z> #)"
+2019-06-07 11:29:00,2

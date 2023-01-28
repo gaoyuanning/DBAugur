@@ -1,0 +1,3 @@
+2,"SELECT z FROM SpecObjAll WHERE z in (SELECT z, count (*) FROM SpecObjAll GROUP BY z HAVING count (*) > #)"
+2019-05-13 20:55:00,1
+2019-05-13 20:56:00,1

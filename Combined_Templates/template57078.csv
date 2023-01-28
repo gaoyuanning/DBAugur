@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.plate, s.mjd, s.fiberid FROM SpecObj AS s where (s.z < #) and (s.class = #) order by RAND ()"
+2019-08-13 17:35:00,1

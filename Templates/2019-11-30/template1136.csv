@@ -1,0 +1,2 @@
+1,"select t.objID, p.ra, p.dec, t.chiSq, t.z, t.zErr, t.absMagU, t.absMagG, t.absMagR,t.absMagI,t.absMagZ, p.dered_u, p.dered_g,p.dered_r,p.dered_i,p.dered_z, p.petroR5#_u, p.petroR5#_g, p.petroR5#_r, p.petroR5#_i, p.petroR5#_z, p.petroR9#_u, p.petroR9#_g, p.petroR9#_r, p.petroR9#_i, p.petroR9#_z FROM Photoz t, PhotoPrimary p WHERE ((p.flags & @bad_flags)) = # AND (p.dered_r<=#) AND (p.ra>=#) AND (p.ra<=#) AND (p.dec>#) AND (p.dec<=#) AND (p.type = #) AND (t.objid=p.objid)"
+2019-11-30 01:03:00,1

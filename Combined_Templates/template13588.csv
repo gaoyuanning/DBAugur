@@ -1,0 +1,2 @@
+1,"select top # ra, dec, dered_r from specphotoAll where plate = # order by dered_r desc"
+2019-02-22 07:47:00,1

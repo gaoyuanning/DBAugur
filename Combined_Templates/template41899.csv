@@ -1,0 +1,2 @@
+3,"SELECT TOP # a.specobjID , b.logmass FROM SpecObjAll as a, stellarMassStarformingPort as b WHERE a.type = # and a.specobjid = b.specobjid and b.z< #"
+2019-05-27 09:11:00,3

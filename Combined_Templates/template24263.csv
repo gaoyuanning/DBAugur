@@ -1,0 +1,6 @@
+5,"select top # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, s.z as redshift from star p, specobj s where p.objid = s.bestobjid"
+2019-03-26 08:41:00,1
+2019-03-26 08:56:00,1
+2019-04-02 07:53:00,1
+2019-04-26 17:58:00,1
+2019-11-22 01:22:00,1

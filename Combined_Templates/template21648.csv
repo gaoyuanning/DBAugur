@@ -1,0 +1,2 @@
+1,"SELECT u.source_id, u.ra, u.dec, b.plate, b.mjd, b.fiberid FROM MyDB.ELMcan u CROSS APPLY dbo.fGetNearbySpecObjAllEq (u.ra, u.dec, #./#.) b JOIN SpecObjAll s on s.spObjID = b.spObjID"
+2019-03-19 05:36:00,1

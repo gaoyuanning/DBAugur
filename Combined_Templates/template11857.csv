@@ -1,0 +1,2 @@
+1,"SELECT SpecObjID, plate, fiberID, z, class, ra, dec, psfMag_u, psfMag_g, psfMag_r, psfMag_i FROM SpecPhoto WHERE SpecPhoto.class = # ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-02-18 20:14:00,1

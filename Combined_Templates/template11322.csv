@@ -1,0 +1,2 @@
+2,"SELECT objID, ra, dec, l, b, psfMag_u, psfMagErr_u, extinction_u, psfMag_g INTO mydb.allsky_u from Star WHERE ( (flags_u & #) ! = #) AND ( (flags_u & #) = #) AND ( (flags_u & #) = #) AND ( ((flags_u & #) = #) or (flags_u & #) = #) AND psfMagErr_u < # AND abs (b) > #"
+2019-02-14 02:28:00,2

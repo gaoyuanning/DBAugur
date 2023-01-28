@@ -1,0 +1,2 @@
+1,"SELECT TOP # pz.objId, pz.absMagR, pz.absMagG FROM Photoz AS pz JOIN Galaxy AS gy ON pz.objID = gy.objID WHERE pz.z BETWEEN # and # and pz.zErr BETWEEN # and # and gy.b> #"
+2019-10-30 20:34:00,1

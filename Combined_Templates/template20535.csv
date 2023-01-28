@@ -1,0 +1,2 @@
+1,"SELECT ALL s.elodieObject, s.elodieSpType, s.elodieBV, s.elodieTEff, g.starname, g.TWOMASS_NAME, g.HIP_Name, g.ra_final, g.dec_final, g.sp1, g.sp2, g.Teff, g.RPM_LOG_g, g.hip_sptype, g.HIP_PLX FROM marvelsStar AS g JOIN SpecObj AS s ON s.elodieSpType = g.hip_sptype"
+2019-03-14 10:20:00,1

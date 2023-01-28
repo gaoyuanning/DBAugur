@@ -1,0 +1,2 @@
+1,"SELECT (*) specObjID, z FROM SpecObj WHERE class = # AND zWarning = # AND z LIKE ##"
+2019-03-26 07:02:00,1

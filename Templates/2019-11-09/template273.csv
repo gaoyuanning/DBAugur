@@ -1,0 +1,7 @@
+8,"select s.ObjID, s.ra,s.dec,s.deVRad_r,s.deVAB_r,s.raErr,s.decErr,s.type,s.modelMag_u,s.modelMagErr_u,s.modelMag_g,s.modelMagErr_g,s.modelMag_r,s.modelMagErr_r,s.modelMag_i,s.modelMagErr_i,s.modelMag_z,s.modelMagErr_z from PhotoPrimary s, dbo.fGetNearbyObjEq(#,#,#) n where s.ObjID = n.ObjID AND s.mode = #"
+2019-11-09 04:30:00,1
+2019-11-09 04:31:00,1
+2019-11-09 05:00:00,1
+2019-11-09 05:05:00,1
+2019-11-09 05:14:00,2
+2019-11-09 05:21:00,2

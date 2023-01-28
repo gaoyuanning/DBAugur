@@ -1,0 +1,2 @@
+1,"SELECT     px.objID    px.ra,    px.dec,    px.modelMag_r,    px.modelMagErr_r,    px.extinction_r,    px.petroRad_r,    px.petroRadErr_r,    px.petroR5#_r,    px.petroR5#Err_r,    px.petroR9#_r,    px.petroR9#Err_r,    p.z,    p.zErr"
+2019-10-07 12:02:00,1

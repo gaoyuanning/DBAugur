@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec into mydb.MyTable from PhotoObj AS p, MyDB.bobTable as t, dbo.fGetNearbyObjEq(t.ra,t.dec,#) as N WHERE n.objID = p.objID AND p.type=star&&&"
+2019-12-28 11:39:00,1

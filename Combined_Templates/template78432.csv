@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.ra, p.dec FROM PhotoObj AS p WHERE p.u = #"
+2019-11-24 18:10:00,1

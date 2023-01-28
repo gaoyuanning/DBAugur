@@ -1,0 +1,11 @@
+12,"SELECT TOP # specObjID, survey, bestobjid, z  FROM SpecObj /*Objects with spectra*/ WHERE class = &&& /* The objects shown will all be QSO&&&sdss&&&boss')  order by newid() /* This is the randomisation algorithm */"
+2019-04-06 10:32:00,1
+2019-04-06 10:42:00,2
+2019-04-06 10:43:00,1
+2019-04-06 10:45:00,1
+2019-04-06 10:47:00,1
+2019-04-06 10:51:00,2
+2019-04-06 10:54:00,1
+2019-04-06 10:55:00,1
+2019-04-06 10:57:00,1
+2019-04-06 11:00:00,1

@@ -1,0 +1,2 @@
+1,"select    p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, s.z as redshift into mydb.MyTable from galaxy p, specobj s where p.objid=s.bestobjid    and s.class = &&&    and s.sourceType=&&&   and p.ra > # and p.ra < #   and p.dec ># and p.dec < # order by redshift desc"
+2019-06-17 02:35:00,1

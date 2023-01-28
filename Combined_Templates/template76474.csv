@@ -1,0 +1,2 @@
+1,"SELECT # p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.type, FROM PhotoObj AS p WHERE p.ra BETWEEN # AND # AND p.dec BETWEEN # AND # AND p.type = # ORDER by p.r"
+2019-11-15 07:10:00,1

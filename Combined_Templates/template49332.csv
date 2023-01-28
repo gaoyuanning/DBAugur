@@ -1,0 +1,2 @@
+1,"SELECT s.plate, s.mjd, s.fiberid, s.z, s.dered_r, s.dered_u FROM SpecPhotoAll AS s WHERE s.dered_r BETWEEN # AND # AND s.z< #"
+2019-07-01 05:53:00,1

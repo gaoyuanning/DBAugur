@@ -1,0 +1,2 @@
+1,"select * from simulations s, information_schema.tables t where t.tablename like #+s.suffixId"
+2019-01-21 15:55:00,1

@@ -1,0 +1,2 @@
+1,"SELECT t.ra, t.dec, t.plate, t.mjd, t.fiberid, t.petromag_u, t.petromag_g, t.petromag_r, t.petromag_i, t.petromag_z, t.z, t.objid as objiD, t.specobjid as specobjid into mydb.SDSS_gal_# FROM specphotoall as t JOIN dbo.galSpecLine AS g ON g.specobjid = t.specobjid"
+2019-04-05 15:24:00,1

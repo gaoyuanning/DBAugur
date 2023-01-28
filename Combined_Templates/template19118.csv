@@ -1,0 +1,2 @@
+2,"select top # objid, ra, dec, type, petroMag_g, petroMag_r, petroRad_g, petroR5#_g, deVRad_g, deVRad_r, expRad_g, expRad_r, expAB_g, deVAB_g, expAB_r, deVAB_r, cModelMag_g, cModelMag_r, dered_g, dered_r from PhotoObjAll where devrad_g > # and exprad_g > # and devrad_r > # and exprad_r > # and dered_g < # and dered_r < # and cmodelmag_g < # and cmodelmag_r < # and petromag_g < # and petromag_r < # and cmodelmag_g + # + #*LOG1# (#*devrad_g*devrad_g) > # and cmodelmag_r + # + #*LOG1# (#*devrad_r*devrad_r) > #"
+2019-03-10 17:16:00,2

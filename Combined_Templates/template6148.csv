@@ -1,0 +1,2 @@
+1,"SELECT TOP # specobjid, class, redshift, plate, mjd, fiberid, SubClass FROM specobjid WHERE class = STAR"
+2019-01-25 10:00:00,1

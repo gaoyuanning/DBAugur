@@ -1,0 +1,2 @@
+1,"select nsa_petro_th5#, nsa_elpetro_th5#_r, nsa_nsaid from mangaDRPall where plateifu = &&& or plateifu  = &&& into tmp"
+2019-04-07 08:23:00,1

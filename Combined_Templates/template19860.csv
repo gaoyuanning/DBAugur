@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID, z, psfMag_u - extinction_u AS u, psfMag_g - extinction_g AS g, psfMag_r - extinction_u AS r, psfMag_i - extinction_u AS i, psfMag_z - extinction_u AS z FROM SpecObj WHERE class = # AND zWarning = #"
+2019-03-12 02:53:00,1

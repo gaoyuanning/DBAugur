@@ -1,0 +1,3 @@
+2,"select p.z, p.objid from Photoz p where p.objid = #"
+2019-01-23 19:42:00,1
+2019-01-23 20:03:00,1

@@ -1,0 +1,2 @@
+1,"select Column2 as xcol, g as ycol from Table1#_abr4 where g between # and # AND Column2 between # and #"
+2019-04-11 16:03:00,1

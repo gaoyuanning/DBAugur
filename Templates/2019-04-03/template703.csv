@@ -1,0 +1,2 @@
+1,select TOP # * from dbo.specPhotoAll where class=&&& and objID is not null and sciencePrimary=# and z<# and dered_r<#
+2019-04-03 08:04:00,1

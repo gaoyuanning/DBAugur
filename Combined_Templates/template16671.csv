@@ -1,0 +1,2 @@
+1,"SELECT b.bid, b.bname, b.bcolor, s.sid, s.sname, r.day FROM reserves r JOIN sailors s ON r.sid = s.sid JOIN boats b ON r.bid = b.bid"
+2019-03-04 19:48:00,1

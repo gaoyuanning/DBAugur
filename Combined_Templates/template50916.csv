@@ -1,0 +1,2 @@
+1,"SELECT TOP # specobjid, ra, dec, class, z as z_sp, plate, mjd, fiberid FROM SpecObj WHERE zWarning = #"
+2019-07-10 18:48:00,1

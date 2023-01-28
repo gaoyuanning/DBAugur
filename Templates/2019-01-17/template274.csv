@@ -1,0 +1,2 @@
+1,"select top #   plate,   mjd,   fiberid,   run2d,   SpecObjID,   dbo.fSpecidFromSDSS(plate,mjd,fiberid,run2d)   from SpecObjAll"
+2019-01-17 12:21:00,1

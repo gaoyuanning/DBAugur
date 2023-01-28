@@ -1,0 +1,7 @@
+6,"SELECT star.apstar_id, star.apogee_id, star.ra, star.dec, star.glon, star.glat, star.apogee_target1, star.apogee_target2, aspcap.teff, aspcap.logg, aspcap.m_h, aspcap.alpha_m, aspcap.c_fe, aspcap.ci_fe, aspcap.n_fe, aspcap.o_fe,aspcap.na_fe, aspcap.mg_fe,  aspcap.al_fe, aspcap.si_fe, aspcap.p_fe, aspcap.s_fe, aspcap.k_fe, aspcap.ca_fe, aspcap.ti_fe,  aspcap.tiii_fe, aspcap.v_fe, aspcap.cr_fe, aspcap.mn_fe, aspcap.fe_h, aspcap.co_fe, aspcap.ni_fe,  aspcap.cu_fe, aspcap.ge_fe, aspcap.rb_fe, aspcap.y_fe, aspcap.nd_fe FROM apogeeStar star JOIN fGetNearbyApogeeStarEq(#,#,#) near on star.apstar_id=near.apstar_id JOIN aspcapStar aspcap on aspcap.apstar_id=star.apstar_id where aspcap.teff != #"
+2019-09-15 15:31:00,1
+2019-09-15 15:33:00,1
+2019-09-15 15:39:00,1
+2019-09-15 15:40:00,1
+2019-09-15 15:41:00,1
+2019-09-15 15:43:00,1

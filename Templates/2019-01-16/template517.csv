@@ -1,0 +1,2 @@
+1,"select p.objID,p.ra,p.dec,p.psfMag_u,p.psfMagErr_u,p.psfMag_g,p.psfMagErr_g,p.psfMag_r,p.psfMagErr_r,p.psfMag_i,p.psfMagErr_i,p.psfMag_z,p.psfMagErr_z FROM fGetObjFromRect(#,#,#,#) n,Star p WHERE n.objID=p.objID AND p.psfMag_r < #"
+2019-01-16 02:35:00,1

@@ -1,0 +1,7 @@
+8,"SELECT objid, ra, dec, psfMag_u, psfMagErr_u, psfMag_z, psfMagErr_z FROM PhotoObj WHERE ra BETWEEN # AND # AND dec BETWEEN # AND #"
+2019-06-20 08:17:00,1
+2019-06-20 08:23:00,2
+2019-06-20 08:34:00,1
+2019-06-21 01:42:00,2
+2019-06-21 01:43:00,1
+2019-09-03 01:51:00,1

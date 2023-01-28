@@ -1,0 +1,2 @@
+1,select count(*) specObjID into mydb.INFSCI_Size_Test from galSpecInfo where z between # and #
+2019-03-31 19:39:00,1

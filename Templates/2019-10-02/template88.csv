@@ -1,0 +1,3 @@
+2,"SELECT     &&& + cast(x.objId as varchar(#)) + &&&+ cast(x.objId as varchar(#)) + &&& as objID, p.ra, p.dec FROM #x x, #upload u, PhotoTag p WHERE u.up_id = x.up_id and x.objID=p.objID  ORDER BY x.up_id"
+2019-10-02 19:57:00,1
+2019-10-02 20:00:00,1

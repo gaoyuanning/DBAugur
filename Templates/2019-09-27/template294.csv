@@ -1,0 +1,2 @@
+1,"SELECT TOP # ph.objid,ph.ra,ph.dec,sp.ra as ra1,sp.dec as dec1,sp.z,sp.specobjid,sp.bestobjid FROM photoobjall as ph, specobjall as sp"
+2019-09-27 11:49:00,1

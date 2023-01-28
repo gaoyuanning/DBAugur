@@ -1,0 +1,2 @@
+1,"select specObjID,ra, dec, mstellar_median,z from stellarmasspcawiscbc0#   where ra># and ra<# or  and dec># and dec<#"
+2019-07-24 07:37:00,1

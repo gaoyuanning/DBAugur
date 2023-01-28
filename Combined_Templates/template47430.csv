@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.fiberFlux_u, p.fiberFlux_g, p.fiberFlux_r, p.fiberFlux_i, p.fiberFlux_z, p.fiberMag_u, p.fiberMag_g, p.fiberMag_r, p.fiberMag_i, p.fiberMag_z, p.devFlux_u, p.devFlux_g, p.devFlux_r, p.devFlux_i, p.devFlux_z, p.devMag_u, p.devMag_g, p.devMag_r, p.devMag_i, p.devMag_z, p.expMag_u, p.expMag_g, p.expMag_r, p.expMag_i, p.expMag_z INTO MyDB.sdssbasicdata3 FROM PhotoObjAll AS p INNER JOIN SpecObjAll AS s on p.objID = s.bestObjID"
+2019-06-22 06:17:00,1

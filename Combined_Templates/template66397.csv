@@ -1,0 +1,2 @@
+3,"select s.specObjID, s.bestObjID, s.ra, s.dec, s.z, s.zErr, s.class, r.ObjID, r.name1, r.name2, r.name3 from SpecObjAll as s, RC3 as r into MyDB.test_sepideh_#mpc where s.z between # and #, s.specObjID = r.ObjID"
+2019-09-28 04:53:00,3

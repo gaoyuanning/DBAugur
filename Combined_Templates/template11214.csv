@@ -1,0 +1,3 @@
+2,"select top # z, ra, dec, bestObjID, modelMag_g from specObj, ra, dec, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z, objID from photoObj where type = # and modelMag_u - modelMag_g < # where class = # and z > # and zWarning = #"
+2019-02-14 09:58:00,1
+2019-02-14 09:59:00,1

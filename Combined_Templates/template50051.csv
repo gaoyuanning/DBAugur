@@ -1,0 +1,2 @@
+1,"SELECT Galaxy.modelMagErr_u, Galaxy.modelMagErr_g, Galaxy.modelMagErr_r, Galaxy.modelMagErr_i into Large_galaxy_sample_with_errors_nocuts_ugrerrs FROM Galaxy JOIN wiseForcedTarget on Galaxy.objID = wiseForcedTarget.objID WHERE Galaxy.dec BETWEEN # AND # AND (Galaxy.mode ! = # OR Galaxy.type ! = # OR Galaxy.insideMask ! = #)"
+2019-07-05 06:56:00,1

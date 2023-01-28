@@ -1,0 +1,4 @@
+5,"SELECT avg (modelMag_g) as gMag_avg, avg (modelMag_r) as rMag_avg FROM PhotoPrimary WHERE (ra between # and #) and (dec between # and #)"
+2019-03-07 17:33:00,2
+2019-03-07 17:34:00,2
+2019-03-07 17:35:00,1

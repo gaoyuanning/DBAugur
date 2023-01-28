@@ -1,0 +1,3 @@
+3,"SELECT       s.plate, s.fiberid, s.mjd, g.u, g.r    FROM      Galaxy as g,    SpecObj as s,    GalSpecLine as ga,    emissionLinesPort as e       WHERE g.ObjID = s.bestObjID       AND (ga.oiii_#_flux > ga.oiii_#_flux_err*#  OR em.Flux_OIII_# > em.Flux_OIII_#_Err*#)"
+2019-06-07 06:06:00,2
+2019-06-07 06:07:00,1

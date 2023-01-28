@@ -1,0 +1,3 @@
+2,"SELECT DROP TABLE specObjID, z FROM SpecObj WHERE class = # AND zWarning = #"
+2019-03-09 11:20:00,1
+2019-03-09 11:21:00,1

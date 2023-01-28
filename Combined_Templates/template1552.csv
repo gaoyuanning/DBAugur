@@ -1,0 +1,3 @@
+4,"SELECT s.objID, n.distance, t.objID as objID_t, t.ra, t.dec, t.j_m, t.j_msigcom, t.j_snr, t.h_m, t.h_msigcom, t.h_snr, t.k_m, t.k_msigcom, t.k_snr, t.ph_qual, t.rd_flg, t.bl_flg, t.cc_flg, t.gal_contam, t.mp_flg, t.glon, t.glat FROM MyDB.JR_Table_SDSS_coords AS s CROSS APPLY dbo.fGetNearbyObjEq (s.ra, s.dec, #/#) AS n JOIN PhotoObjAll AS t ON n.objid = t.objid INTO MyDB.JR_Table_#MASS_nearby"
+2019-01-08 10:21:00,2
+2019-01-08 10:34:00,2

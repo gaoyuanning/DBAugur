@@ -1,0 +1,2 @@
+1,"SELECT ra,dec,u,g,r,i,z,R, flags_r FROM Galaxy WHERE  ra BETWEEN # and # AND dec BETWEEN # and #   AND ((flags_r & #) != #)   AND ((flags_r & #) = #)   AND (((flags_r & #) = #) or (psfmagerr_r <= #))   AND (((flags_r & #) = #) or (flags_r & #) = #)"
+2019-05-07 16:21:00,1

@@ -1,0 +1,2 @@
+1,"SELECT ra, dec from pop3_dr1#_# where  ModelMag_g - ModelMag_r > #   and  ModelMagErr_u<#"
+2019-04-13 03:55:00,1

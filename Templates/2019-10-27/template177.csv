@@ -1,0 +1,2 @@
+1,"select top #  objid, nvote, p_el, p_cw, p_acw, p_edge, p_dk, p_mg, p_cs, p_el_debiased, p_cs_debiased, spiral, elliptical, uncertain, p_el_debiased + p_cs_debiased as p_galaxy from zoospec where  elliptical = #"
+2019-10-27 13:14:00,1

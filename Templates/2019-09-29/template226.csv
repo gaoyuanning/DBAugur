@@ -1,0 +1,2 @@
+1,"select ra,dec from Star where ra BETWEEN # AND # dec BETWEEN # AND #  AND clean = #"
+2019-09-29 18:58:00,1

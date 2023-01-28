@@ -1,0 +1,3 @@
+2,"SELECT FLOOR (sppParams.l/#) *#, AVG (s.z*#e5/cos (radians (sppParams.b) )) v_doppler, STDEV (s.z*#e5/cos (radians (sppParams.b) )) /SQRT (COUNT (*) ) err FROM SpecObj s INNER JOIN sppParams ON s.specObjID = sppParams.specobjiD WHERE s.z < # and s.z> # and sppParams.feha > # and sppParams.feha < # and sppParams.b< # GROUP BY FLOOR (sppParams.l/#) *# ORDER BY #"
+2019-01-24 16:39:00,1
+2019-01-31 06:38:00,1

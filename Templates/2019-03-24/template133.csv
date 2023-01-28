@@ -1,0 +1,2 @@
+1,"SELECT COUNT()  FROM SpecObj WHERE z BETWEEN # AND # SELECT TOP # bestObjID, z as redshift  FROM PhotoObj WHERE z BETWEEN # AND #"
+2019-03-24 20:52:00,1

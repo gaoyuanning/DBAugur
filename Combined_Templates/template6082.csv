@@ -1,0 +1,3 @@
+2,"SELECT FLOOR (l) AS Longitude, AVG (z/COS (RADIANS (b) )) AS Average redshift"
+2019-01-25 12:39:00,1
+2019-01-25 13:14:00,1

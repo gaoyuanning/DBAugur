@@ -1,0 +1,2 @@
+1,"select ra,dec from specObj where ra BETWEEN # and # AND dec BETWEEN # and # sql import logMass_median"
+2019-01-13 15:14:00,1

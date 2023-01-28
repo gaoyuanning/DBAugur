@@ -1,0 +1,2 @@
+1,"select distinct photo.ra, photo.dec, photo.run, photo.rerun, photo.camcol, photo.field, Photo.objid, photo.isoA_g into mydb.donga3 from PhotoObjAll As photo, SpecObjAll As Spec where Photo.isoA_g > # AND Spec.z < #"
+2019-11-15 00:14:00,1

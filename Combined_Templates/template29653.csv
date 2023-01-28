@@ -1,0 +1,10 @@
+11,"select top # z.z, z.zErr, p.dec, p.ra, p.modelMag_r, a.extinction_r into mydb.dr1#test_# from photoObj p join photoz z ON z.objID = p.objID Join photoObjAll a ON a.objID = p.objID where z.photoErrorClass = # AND p.modelMag_r < # AND p.modelMag_r > #"
+2019-04-12 06:20:00,1
+2019-04-12 06:24:00,1
+2019-04-12 06:58:00,2
+2019-04-12 07:18:00,1
+2019-04-12 07:49:00,1
+2019-04-12 08:00:00,1
+2019-04-12 08:01:00,1
+2019-04-12 08:06:00,1
+2019-04-12 08:08:00,2

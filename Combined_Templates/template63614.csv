@@ -1,0 +1,2 @@
+2,"select p.objid, p.ra, p.dec, p.deVPhi_u, p.deVPhi_g, p.deVPhi_r, p.deVPhi_i, p.PA AS deVPhi_z, s.z AS redshift into mydb.MyTable from mydb.PAsFinal2 p, specobj s where p.objid = s.bestobjid"
+2019-09-17 11:14:00,2

@@ -1,0 +1,2 @@
+1,"SELECT z.ra, z.dec, z.p_cs, z.p_el, z.p_dk, z.p_mg FROM zooNoSpec z WHERE z.ra BETWEEN # AND # AND z.dec BETWEEN # AND #"
+2019-02-13 04:05:00,1

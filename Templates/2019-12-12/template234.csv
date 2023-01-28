@@ -1,0 +1,2 @@
+1,select SDSS_name into mydb.MyTable from MyTable
+2019-12-12 15:09:00,1

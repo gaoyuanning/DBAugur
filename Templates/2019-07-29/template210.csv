@@ -1,0 +1,2 @@
+1,"select stripe, run from Segment order by stripe SELECT TOP # p.modelFlux_u as model_flux_u, p.modelFlux_g as model_flux_g, p.modelFlux_r as model_flux_r, p.modelFlux_i as model_flux_i, p.modelFlux_z as model_flux_z, s.z as redshift FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE AND p.modelFlux_u > # AND p.modelFlux_g > # AND p.modelFlux_r > # AND p.modelFlux_i > # AND p.modelFlux_x > # AND s.z BETWEEN # AND # AND s.class = &&&"
+2019-07-29 14:50:00,1

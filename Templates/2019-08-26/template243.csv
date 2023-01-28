@@ -1,0 +1,2 @@
+1,"SELECT COUNT(*) as Z0#_count, min(z) as min_Z, max(z) as max_Z into mydb.MyTable1 from DR1#.PhotoZ   WHERE z != # AND zErr != # AND z >= # AND z < #"
+2019-08-26 10:47:00,1

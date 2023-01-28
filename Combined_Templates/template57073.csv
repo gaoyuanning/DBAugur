@@ -1,0 +1,2 @@
+2,"SELECT TOP # NEWID () as R, s.plate, s.mjd, s.fiberid FROM SpecObj AS s where (s.z < #) and (s.class = #) order by NEWID ()"
+2019-08-13 17:41:00,2

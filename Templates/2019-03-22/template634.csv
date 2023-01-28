@@ -1,0 +1,2 @@
+1,"CREATE TABLE Cercaincerchio (  objid bigint,  ra float,  dec float,  search_id int,  matched_id bigint,  z real );"
+2019-03-22 09:38:00,1

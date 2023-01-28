@@ -1,0 +1,2 @@
+1,"select dbo.fCosmoZfromDc (distmin, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT) as zmin select dbo.fCosmoZfromDc (distmax, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT) as zmax LEFT JOIN PhotoObj AS p ON n.objid = p.objid LEFT JOIN Photoz as pz ON n.objid = pz.objid WHERE G.objID = n.objID and pothoz< zmax and zmix< pothoz INTO MyDB.NearbyObjEq5"
+2019-02-10 18:09:00,1

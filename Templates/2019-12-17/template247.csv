@@ -1,0 +1,2 @@
+1,"select TOP # f.specobjid, f.plate, f.mjd, f.fiberid, f.ra, f.dec, f.z_noqso from sdssEbossFirefly f"
+2019-12-17 11:51:00,1

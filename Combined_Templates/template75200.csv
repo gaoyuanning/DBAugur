@@ -1,0 +1,2 @@
+1,SELECT avg (matchcount) from matchhead h join phototag p on h.objid = p.objid where p.run IN ()
+2019-11-12 19:26:00,1

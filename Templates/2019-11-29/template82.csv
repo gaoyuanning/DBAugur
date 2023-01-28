@@ -1,0 +1,4 @@
+6,"SELECT elodieLogG as LogG,elodieBV as B_V, elodieFeH as Fe_H FROM SpecObjAll  WHERE elodieLogG BETWEEN # AND #  AND elodieBV BETWEEN # AND #"
+2019-11-29 19:49:00,1
+2019-11-29 19:50:00,4
+2019-11-29 19:55:00,1

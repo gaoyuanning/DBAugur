@@ -1,0 +1,2 @@
+1,"select M.MediaTypeId, G.Genre from ctechinook.Media as M Cross join ctechinook.Genre as G"
+2019-04-20 13:39:00,1

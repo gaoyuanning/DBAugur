@@ -1,0 +1,2 @@
+1,"SELECT TOP # plateifu, -- Get the unique object ID,     mangaid, objra, objdec, mngtarg1, drp3qual -- and other quantities FROM mangadrpall -- From the drpall catalog WHERE     mngtarg1 != # or mngtarg3 != # -- Require that either mngtarg1 is nonzero     -- (galaxy in the primary, secondary, or color-enhanced sample) or that     -- mngtarg3 is nonzero (galaxy is an ancillary program target)"
+2019-04-29 05:01:00,1

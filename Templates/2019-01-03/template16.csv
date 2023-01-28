@@ -1,0 +1,6 @@
+6,"select name, type, description from DBObjects where  type in (&&&,&&&) and access=&&& and UPPER(name) like &&&"
+2019-01-03 15:46:00,1
+2019-01-03 15:50:00,2
+2019-01-03 16:38:00,1
+2019-01-03 19:28:00,1
+2019-01-03 23:25:00,1

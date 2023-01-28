@@ -1,0 +1,2 @@
+1,"SELECT TOP #  g.objID,g.ra,g.raErr g.dec,g.decErr g.u,g.err_u, g.g,g.err_g, g.r,g.err_r, g.i,g.err_i, g.z, g.err_z, s.z as redshift FROM Galaxy g, SpaceObj s WHERE g.objID=s.bestobjID"
+2019-05-02 18:48:00,1

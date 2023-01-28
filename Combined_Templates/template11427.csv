@@ -1,0 +1,3 @@
+3,"SELECT TOP # s.plate, s.mjd, s.fiberid, cast (str (p.ra, #, #) as float) as ra, cast (str (p.[dec], #, #) as float) as dec, p.u, p.g, p.r, p.i, p.z FROM ..SpecObj as s JOIN ..PhotoObj AS p ON s.bestObjID = p.objID JOIN dbo.fGetNearbySpecObjEq (#, #, #) AS b ON b.SpecobjID = S.SpecobjID WHERE s.zWarning = # AND (p.type = # OR p.type = #)"
+2019-02-15 14:40:00,2
+2019-02-15 14:42:00,1

@@ -1,0 +1,2 @@
+1,"select top # flags, flags_u, flags_g, flags_r, flags_i, flags_z into mydb.MyTable from photoobjall"
+2019-07-17 18:31:00,1

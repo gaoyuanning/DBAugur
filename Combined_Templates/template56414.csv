@@ -1,0 +1,4 @@
+3,"SELECT TOP # gsi.specObjID, sp.z, gsl.nii_#_flux AS NII_#_FLUX from galSpecInfo as gsi, SpecObjAll as sp, galSpecLine as gsl where gsi.specObjID = sp.specObjID and gsi.specObjID = gsl.specObjID and sp.specObjID = #"
+2019-08-09 10:03:00,1
+2019-08-09 10:04:00,1
+2019-08-09 10:08:00,1

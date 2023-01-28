@@ -1,0 +1,12 @@
+11,"SELECT za.specObjID, za.bestObjID, za.class, za.subClass, za.z, za.zErr, po.objID, po.type, po.flags, po.ra, po.dec, po.run, po.rerun, po.field, po.camcol, (po.petroMag_r-po.extinction_r) as dered_petro_r, zp.z as zphot, zp.zErr as dzphot, zi.e_bv_sfd, zi.primtarget, zi.sectarget, zi.targettype, zi.spectrotype, zi.subclass INTO MyDB.SDSS_DR1# FROM SpecObjAll za JOIN PhotoObjAll po ON (po.objID = za.bestObjID) JOIN Photoz zp ON (zp.objID = za.bestObjID) JOIN galSpecInfo zi ON (zi.SpecObjID = za.specObjID) WHERE (za.z> # AND za.zWarning = #) AND (za.targetType = # AND za.survey = #) AND (za.class = # AND zi.primtarget> =# AND zi.targettype = #) AND (po.clean = # AND po.insideMask = #) AND ( (po.petroMag_r-po.extinction_r) < =#) AND za.z < = #"
+2019-11-22 15:35:00,1
+2019-11-22 16:04:00,1
+2019-11-22 16:16:00,1
+2019-11-22 16:19:00,1
+2019-11-22 16:20:00,1
+2019-11-22 16:33:00,1
+2019-11-22 16:35:00,1
+2019-11-22 16:37:00,1
+2019-11-22 16:38:00,1
+2019-11-22 16:42:00,1
+2019-11-22 16:43:00,1

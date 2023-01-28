@@ -1,0 +1,2 @@
+1,"SELECT TOP #  nsaid as id, ra as ra, dec as dec,   z as redshift,   size, sersic_th5#,   elpetro_nmgy_u as u,   elpetro_nmgy_g as g,  elpetro_nmgy_r as r,  elpetro_nmgy_i as i,  elpetro_nmgy_z as z FROM  nsatlas WHERE  z < #"
+2019-04-24 20:39:00,1

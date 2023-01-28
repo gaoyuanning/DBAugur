@@ -1,0 +1,2 @@
+1,"SELECT   g.ObjID, g.petroRad_u,g.ra, g.dec, s.bestObjID, s.z FROM  GALAXY as g  JOIN SpecObj as s on s.bestObjID = g.objID WHERE  g.ra between and # and #  g.dec between # and # and  g.petroRad_u > # and  s.z between # and #"
+2019-12-06 15:47:00,1

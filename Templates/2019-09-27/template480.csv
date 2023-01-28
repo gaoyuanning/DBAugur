@@ -1,0 +1,2 @@
+1,"SELECT TOP # run, camCol, field, objID, rowC, colC, rowV, colV, rowVErr, colVErr, flags, psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z, psfMagErr_u, psfMagErr_g, psfMagErr_r, psfMagErr_i, psfMagErr_z FROM PhotoPrimary WHERE power(rowv, #) / power(rowvErr, #) + power(colv, #) / power(colvErr, #) > #"
+2019-09-27 00:20:00,1

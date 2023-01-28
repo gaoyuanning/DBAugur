@@ -1,0 +1,2 @@
+1,"SELECT i.specObjID, n.ra, n.dec, i.d4# FROM galSpecInfo AS n, galSpecIndx AS i WHERE i.specObjID = n.specObjID AND n.targettype = # AND z_warning = #"
+2019-02-22 09:51:00,1

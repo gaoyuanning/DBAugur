@@ -1,0 +1,2 @@
+1,"SELECT u.source_id, u.ra, u.dec, s.plate, s.mjd, s.fiberid FROM MyDB.ELMcan u JOIN fGetNearbySpecObjAllEq (u.ra, u.dec, #./#.) AS s"
+2019-03-19 05:02:00,1

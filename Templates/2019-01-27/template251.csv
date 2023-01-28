@@ -1,0 +1,2 @@
+2,"select s.objid, s.ra, s.dec   into mydb.tmptest    from dr7.galaxy as s     where s.objid = #"
+2019-01-27 12:28:00,2

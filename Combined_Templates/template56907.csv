@@ -1,0 +1,2 @@
+1,"select top # z.specobjid, dbo.fPhotoFlagsN (p.flags) , p.ra, p.dec, p.flags into mydb.dev_nosat3 from PhotoObj p join zoo2MainSpecz z on p.specobjid = z.specobjid where (p.flags & dbo.fPhotoFlags (#) ) = #"
+2019-08-12 11:01:00,1

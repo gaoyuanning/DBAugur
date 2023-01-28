@@ -1,0 +1,2 @@
+2,"SELECT m.X_MatchID, m.t_designation, m.s_ra, m.s_dec, o.deVAB_r into mydb.sdss2masxphotobj from sdss2masx AS m OUTER APPLY dbo.fGetNearestObjEq (m.s_ra, m.s_dec, #) AS n LEFT JOIN PhotoObjAll AS o ON n.objid = o.objid"
+2019-01-21 16:48:00,2

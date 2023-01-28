@@ -1,0 +1,2 @@
+1,"select top # BlockLot, Lon, Lat, NEighborhood from RealPropertiesExtra where IsVacant = #"
+2019-06-07 12:21:00,1

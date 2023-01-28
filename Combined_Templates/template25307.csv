@@ -1,0 +1,2 @@
+1,"select top # ra, dec from SpecPhoto order by z as redshift desc"
+2019-03-29 17:14:00,1

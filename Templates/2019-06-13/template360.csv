@@ -1,0 +1,2 @@
+1,"SELECT top #      m.objID, m.RAdeg AS ra1, m.DEdeg AS dec1 into mydb.MyTable_# from MyDB.Dani_table_Chiara_new AS m  OUTER APPLY dbo.fGetNearbyApogeeStarEq( m.RAdeg, m.DEdeg, #)"
+2019-06-13 03:29:00,1

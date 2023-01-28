@@ -1,0 +1,2 @@
+1,"select top # eid,Ever_had_eye_surgery_#    , oj.key as I   from r2#.Eye_surgery_complications a cross apply openjson(a.Ever_had_eye_surgery_#) as oj  where JSON_VALUE(Ever_had_eye_surgery_#,&&&) in (#"
+2019-07-12 12:29:00,1

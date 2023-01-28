@@ -1,0 +1,2 @@
+1,"select top # objid, ra, dec, u,g,r,i,z from PhotoObjAll where clean = #"
+2019-03-27 09:56:00,1

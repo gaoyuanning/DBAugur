@@ -1,0 +1,2 @@
+1,"SELECT segmentID,   run, rerun,   field0,   nFields into mydb.MyTable from Run"
+2019-11-01 02:58:00,1

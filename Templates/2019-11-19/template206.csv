@@ -1,0 +1,2 @@
+1,"select g.objid, g.ra, g.dec, g.u, g.g, g.r, g.i, g.z from galaxy g, dbo.fGetNearbyObjEq(#,#,#) n where g.objid = n.objid"
+2019-11-19 18:52:00,1

@@ -1,0 +1,3 @@
+2,"SELECT u, g, r, i, z into mydb.MyTable from Galaxy WHERE r< # and r> #"
+2019-05-16 02:02:00,1
+2019-10-26 11:48:00,1

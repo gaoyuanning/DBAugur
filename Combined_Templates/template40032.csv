@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, s.plate, s.mjd, s.fiberid, s.specobjid, p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i, p.extinction_z, dbo.fPhotoDescription (p.objid) into mydb.MyTable from PhotoObjAll as p JOIN SpecObj as s ON s.bestobjid = p.objid WHERE s.specobjid = # AND p.mode = # AND"
+2019-05-16 05:26:00,1

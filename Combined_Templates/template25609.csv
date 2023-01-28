@@ -1,0 +1,2 @@
+1,"SELECT b.ID, p.deVAB_r, p.deVAB_u, p.deVAB_z, p.deVABErr_r, p.deVABErr_u, p.deVABErr_z, p.petroR5#_u, p.petroR5#_r, p.petroR5#_z, p.petroR5#Err_u, p.petroR5#Err_r, p.petroR5#Err_z, p.petroR9#_u, p.petroR9#_r, p.petroR9#_z, p.petroR9#Err_u, p.petroR9#Err_r, p.petroR9#Err_z, s.velDisp, s.velDispErr into mydb.C1#_HETDEX_AB from MyDB.C1#_HETDEX AS b JOIN PhotoObjAll as p ON b.MJD = p.mjd and b.Plate = p.plate and b.Fiber = p.fiber JOIN SpecObjAll s ON b.MJD = s.mjd and b.Plate = s.plate and b.Fiber = s.fiber"
+2019-03-29 12:17:00,1

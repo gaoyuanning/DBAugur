@@ -1,0 +1,2 @@
+1,"SELECT s.specObjID, s.objID, s.ra, s.dec, s.z, s.class, s.subclass, e.lgm_tot_p5# FROM MyDB.hst_radec AS m OUTER APPLY dbo.fGetNearbySpecObjAllEq (m.RA, m.DEC, #) AS n LEFT JOIN specObjAll AS s ON n.objID = s.specObjID LEFT JOIN galSpecExtra AS e ON n.specObjID = e.specObjID WHERE e.bptclass = # AND e.lgm_tot_p5# > = # AND s.z < = # AND (s.class = # AND s.subclass = #) OR (s.class = # AND s.subclass = #)"
+2019-07-26 18:23:00,1

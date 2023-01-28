@@ -1,0 +1,2 @@
+1,"SELECT fiber2Mag_u,fiber2Mag_g,fiber2Mag_r,fiber2Mag_i,fiber2Mag_z,ra,dec, flags_r From Star WHERE ra BETWEEN # and # AND dec BETWEEN # and # AND ((flags_r & #) != #) AND ((flags_r & #) = #) AND (((flags_r & #) = #) or (psfmagerr_r <= #)) AND (((flags_r & #) = #) or (flags_r & #) = #)"
+2019-05-22 12:26:00,1

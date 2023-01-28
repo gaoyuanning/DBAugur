@@ -1,0 +1,2 @@
+2,"select top # p.objid, p.ra, p.dec into mydb.MyTable from photoobjall as p, field as f where p.run = f.run and p.rerun = f.rerun and p.camcol = f.camcol and f.imageStatus_u = # and f.imageStatus_g = # and f.imageStatus_r = # and f.imageStatus_i = # and f.imageStatus_z = #"
+2019-06-17 06:55:00,2

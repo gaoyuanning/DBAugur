@@ -1,0 +1,2 @@
+1,"SELECT ALL m.OBJID AS AKARI_ID, m.RA AS AKARI_RA, m.DEC AS AKARI_DEC, n.objid AS SDSS_ID, o.z AS zsp, o.zErr AS e_zsp, o.zWarning AS zWarning, o.class AS class, o.subClass AS subclass, n.distance AS SEPARATION_AKARI_SDSS1# into mydb.AKARIx3#SDSS_zsp from MyDB.akari AS m OUTER APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n LEFT JOIN SpecObjAll AS o ON n.objid = o.fluxObjID"
+2019-08-07 13:03:00,1

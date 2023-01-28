@@ -1,0 +1,4 @@
+6,"SELECT &&&'&&&'&&& as objID,  p.run, p.rerun, p.camcol, p.field, p.obj,  p.type, p.ra, p.dec,  f.mjd_u as mjd_u,  f.mjd_g as mjd_g,  f.mjd_r as mjd_r,  f.mjd_i as mjd_i,  f.mjd_z as mjd_z,  p.u,p.g,p.r,p.i,p.z,  p.Err_u, p.Err_g, p.Err_r,p.Err_i,p.Err_z,  petroMag_u, petroMag_g, petroMag_r, petroMag_i, petroMag_z,  petroMagErr_u, petroMagErr_g, petroMagErr_r, petroMagErr_i, petroMagErr_z  FROM fGetNearbyObjEq(#,#,#) n, PhotoPrimary p  JOIN Field f ON p.fieldID=f.fieldID   WHERE n.objID=p.objID"
+2019-01-10 00:36:00,1
+2019-01-10 00:37:00,3
+2019-01-10 00:44:00,2

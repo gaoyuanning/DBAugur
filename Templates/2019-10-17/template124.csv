@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.SpecObjID,    s.z,    L.ew,    L.sigma,    L.height,    dbo.fCosmoDl(s.z),    wave,    restWave,    so.mag_# into mydb.muchdatawow from SpecPhoto as s,    SpecLine  as L,   SpecObjAll as so    WHERE s.specClass = #      AND L.lineID = #      AND L.ew > #      AND L.height > #      AND s.z< #     AND s.z > #     AND L.specObjID = s.specObjID     AND so.specObjID = s.specObjID"
+2019-10-17 19:04:00,1

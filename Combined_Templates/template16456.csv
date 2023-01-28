@@ -1,0 +1,4 @@
+3,"SELECT u.up_col0 as [col0], s.specobjid, u.up_ra, u.up_dec, p.objID, p.ra, p.dec, dbo.fPhotoTypeN (p.type) as type, p.petromag_g, p.petromagerr_g, p.petromag_r, p.petromagerr_r, s.ra, s.dec, s.specclass, s.z, m.propermotion, s.mjd, s.plate, s.fiberid FROM #x x join #upload u on u.up_id = x.up_id join PhotoTag p on x.objID = p.objID left outer join SpecObjAll s on x.objid = s.bestobjid"
+2019-03-03 09:40:00,1
+2019-03-03 11:25:00,1
+2019-03-03 12:35:00,1

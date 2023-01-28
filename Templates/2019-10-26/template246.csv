@@ -1,0 +1,2 @@
+1,"select ID, wkt=geom.MakeValid().ToString(), dist=centroid.STDistance(@center) from optw.tamass.TRACTS  where state=#     and county in (&&&, &&&, &&&, &&&, &&&, &&&, &&&, &&&, &&&, &&&, &&&, &&&) -- within #km --order by # asc"
+2019-10-26 17:08:00,1

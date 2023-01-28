@@ -1,0 +1,4 @@
+3,"SELECT s.z, s.zErr, s.class, s.subClass, s.class_person, s.comments_person, g.*, e.bpt FROM SpecObj AS s JOIN galSpecLine AS g ON s.specObjID = g.specObjID LEFT JOIN emissionLinesPort AS e ON g.specObjID = e.specObjID WHERE htmid*# & # < (# * #) AND s.class < > #"
+2019-05-16 10:44:00,1
+2019-05-16 10:45:00,1
+2019-05-16 10:46:00,1

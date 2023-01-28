@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.ra, s.dec, s.apogee_id FROM apogeeStar as s WHERE   s.field like kepler"
+2019-04-16 01:49:00,1

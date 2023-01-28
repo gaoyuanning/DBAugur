@@ -1,0 +1,2 @@
+1,"select top # max(ra),dec,count(dec) from SpecObj WHERE objType=# group by dec"
+2019-06-28 03:42:00,1

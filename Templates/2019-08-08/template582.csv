@@ -1,0 +1,3 @@
+10,"select *  from dbo.fGetNearestObjAllEq(#,#,#) union select *  from dbo.fGetNearestObjAllEq(#,#,#)"
+2019-08-08 02:18:00,8
+2019-08-08 02:19:00,2

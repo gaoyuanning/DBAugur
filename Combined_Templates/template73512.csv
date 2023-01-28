@@ -1,0 +1,2 @@
+1,"CREATE TABLE [VALS] ([TRACTID] [bigint] NOT #, [VARID] [bigint] NOT #, PRIMARY KEY (TRACTID, VARID) , [VAL] [int] #)"
+2019-11-03 06:04:00,1

@@ -1,0 +1,2 @@
+1,"SELECT t.Name, t.targetID, t.target_photz, t.target_photzErr, t.target_specz, t.target_speczErr, t.objID, t.AngSep, t.neighbor_photz, t.neighbor_photzErr, p.neighbor_specz, p.neighbor_speczErr INTO mydb.neighbors_allz1 from mydb.neighbors_allphotz1 as t FULL OUTER JOIN mydb.neighbors_specz1 as p ON p.objID = t.objID"
+2019-04-13 19:14:00,1

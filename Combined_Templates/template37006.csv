@@ -1,0 +1,2 @@
+1,"select u.Name, r.RunID, r.Xmax - r.Xmin from Runs r cross join Users u"
+2019-05-06 17:17:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP #  dbo.fIAUFromEq(p.ra,p.[dec]) as SDSSname  FROM ..PhotoObj AS p  WHERE ( p.type = # OR p.type = #)"
+2019-10-08 00:12:00,1

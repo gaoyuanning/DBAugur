@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, s.z, s.zWarning, s.class, s.subClass, s.rChi2, s.z_noqso, s.subClass_noqso, s.z_person, s.nPoly, s.snMedian, s.survey, s.bestObjID, s.sciencePrimary into mydb.SPECT_part from PhotoObj as p JOIN SpecObj as s ON s.bestObjID = p.objID"
+2019-03-30 11:44:00,1

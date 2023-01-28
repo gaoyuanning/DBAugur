@@ -1,0 +1,2 @@
+2,"SELECT TOP # p.g, p.r, s.z as redshift, p.extinction_g, p.extinction_r FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.u < # AND p.g < # AND CLASS = # AND s.z > #"
+2019-05-16 15:23:00,2

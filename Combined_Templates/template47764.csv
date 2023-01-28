@@ -1,0 +1,4 @@
+4,"select top # p.objid, p.ra, p.dec from star p where (p.r BETWEEN # AND #) and (p.g-p.r BETWEEN # AND #)"
+2019-06-24 19:33:00,1
+2019-06-24 19:37:00,1
+2019-06-24 19:38:00,2

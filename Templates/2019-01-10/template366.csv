@@ -1,0 +1,2 @@
+1,"select spec.specObjId, main.* from MyDB.DR7_MGS_Spec_HETDEX as main, DR7.SpecObj as spec where main.RA+# > spec.ra and main.RA-# < spec.ra   and main.DEC+# > spec.dec and main.DEC-# < spec.dec   into MyDB.DR7_MGS_Spec_HETDEX2"
+2019-01-10 08:00:00,1

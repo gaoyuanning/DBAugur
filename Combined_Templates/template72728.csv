@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.dec, p.err_g, p.err_i, p.err_r, p.err_u, p.err_z, p.g, p.i, p.r, cast (str (p.ra, #, #) as float) as ra, p.u, p.z, p.score as score FROM ..PhotoObj AS p JOIN dbo.fGetNearbyObjEq (#, #, #) AS b ON b.objID = P.objID WHERE p.psfMag_r < # AND (p.score > = #) AND (p.type = # OR p.type = #)"
+2019-10-31 18:23:00,1

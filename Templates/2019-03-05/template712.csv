@@ -1,0 +1,2 @@
+1,"SELECT objID,ra,dec, dered_u,dered_g, dered_r, dered_i, DR7.dered_z,   DR7.extinction_u, DR7.extinction_g, DR7.extinction_r, DR7.extinction_i, DR7.extinction_z into mydb.MyTable_success FROM PhotoObjAll as DR7"
+2019-03-05 08:48:00,1

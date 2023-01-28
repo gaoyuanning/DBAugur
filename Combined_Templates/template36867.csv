@@ -1,0 +1,2 @@
+1,"select * from mpahalotrees.mr where snapnum = # and phkey = dbo.fkey (#, #, #*#/#, #*#/#, #*#/#) and x between # and # and y between # and # and z between # and #"
+2019-05-05 13:16:00,1

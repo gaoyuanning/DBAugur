@@ -1,0 +1,2 @@
+2,"select ra, dec  from mydb.kGiants as ra_want, dec_want"
+2019-10-09 16:03:00,2

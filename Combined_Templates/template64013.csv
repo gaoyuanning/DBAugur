@@ -1,0 +1,3 @@
+2,"SELECT s.ra, s.dec, s.z, s.zWarning, s.class, s.subClass, s.sciencePrimary, s.survey, s.programname, s.legacy_target1, s.boss_target1, s.eboss_target0, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, g.dered_u, g.dered_g, g.dered_r, g.dered_i, g.dered_z, g.petroR5#_u, g.petroR5#_g, g.petroR5#_r, g.petroR5#_i, g.petroR5#_z, g.petroR9#_u, g.petroR9#_g, g.petroR9#_r, g.petroR9#_i, g.petroR9#_z, s.bestObjID FROM PhotoObjAll AS p JOIN specObj AS s ON s.bestObjID = p.objID JOIN Galaxy AS g ON g.objID = p.objID WHERE s.ra BETWEEN # AND # AND s.dec BETWEEN # and # AND s.sciencePrimary = # AND s.class = # AND (boss_target1 & #) ! = # AND s.z BETWEEN # and # AND s.zWarning_noqso = # ORDER BY s.z"
+2019-09-18 07:28:00,1
+2019-09-18 07:30:00,1

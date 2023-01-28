@@ -1,0 +1,2 @@
+1,select * into mydb.specPhotoAll from dbo.specPhotoAll where class = # and objID is not #
+2019-04-03 07:12:00,1

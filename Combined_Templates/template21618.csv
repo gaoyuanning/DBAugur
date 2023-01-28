@@ -1,0 +1,2 @@
+2,"SELECT t.GAIA_DESIG, t.RAJ2#, t.DEJ2#, b.apstar_id, c.teff, c.logg, c.m_h FROM MyDB.sdOB_cat AS t CROSS APPLY dbo.fGetNearestApogeeStarEq (t.RAJ2#, t.DEJ2#, #/#) b JOIN aspcapStar c ON c.apstar_id = b.apstar_id INTO mydb.sdOB_cat_apogee"
+2019-03-19 07:35:00,2

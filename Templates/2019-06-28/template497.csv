@@ -1,0 +1,4 @@
+9,"select top # s.objTypeName, p.objID, s.z as redshift, p.g from photoObj p, SpecObj s WHERE s.objType=# and p.specObjID=s.specObjID and p.ra BETWEEN # AND # AND p.dec BETWEEN # AND # order by s.z"
+2019-06-28 03:47:00,2
+2019-06-28 03:48:00,4
+2019-06-28 03:49:00,3

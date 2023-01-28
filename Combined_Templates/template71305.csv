@@ -1,0 +1,2 @@
+1,"select top # p.objid, p.ra, p.dec, psfmag.u, psfmagerr.u, p.g, p.r, p.i, p.z from photoobj p, dbo.fgetNearByObjEq (#, #, #) n where p.objid = n.objid"
+2019-10-23 13:32:00,1

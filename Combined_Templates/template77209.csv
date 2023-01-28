@@ -1,0 +1,2 @@
+1,"select ra, dec, distance from specObj where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-11-19 12:43:00,1

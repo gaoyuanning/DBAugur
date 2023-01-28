@@ -1,0 +1,6 @@
+8,"select RunID, sum(x*y - #) as derived, stdev(y) from Data where x > # and x+y between # and # group by RunID order by RunID asc    select ROUND(x, #) as crap, countsLOL = count(ID) from Data group by round(x, #) order by #    declare @b float = # select memes=round(x/@b, #) * @b, cts = count(ID) from Data group by round(x/@b, #) * @b having count(ID) > # order by #    select top # * from data order by y desc -- retrieve entire top row    select top # RunID from data order by y desc -- retrieve the RunID value of the top row    select top # UserID from runs where runID = # -- accidentally called top # on a table with only one row; this does not cause a problem!"
+2019-11-18 12:47:00,1
+2019-11-18 12:50:00,1
+2019-11-18 12:59:00,1
+2019-11-18 13:02:00,3
+2019-11-18 13:07:00,2

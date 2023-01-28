@@ -1,0 +1,5 @@
+5,"SELECT TOP #   x.objID AS xObjID,pz.objID AS pzObjID, p.objID AS pObjID, s.specObjID, s.bestObjID,   p.flags_u, p.flags_g, p.flags_r, p.flags_i, p.flags_z FROM MyDB.FIRST_RADec_Half AS f   CROSS APPLY dbo.fGetNearestObjEq(f.ra, f.dec, #) AS x   JOIN PhotoObjAll p ON x.objID = p.objID   JOIN SpecObjAll s ON p.objID = s.bestObjID   JOIN Photoz pz ON x.objID = pz.objID where (flags & @bad_flags) = # and nChild=#"
+2019-04-17 04:31:00,1
+2019-04-17 04:32:00,1
+2019-04-17 04:33:00,1
+2019-04-17 04:40:00,2

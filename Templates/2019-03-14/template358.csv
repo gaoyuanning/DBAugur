@@ -1,0 +1,3 @@
+2,"select   objid, ra, dec, type, petromag_g, petror5#_g, petromag_r, petror5#_r, devrad_g, devrad_r, exprad_g, exprad_r, cmodelmag_g, cmodelmag_r from PhotoObjAll where petromag_g < #  and petromag_r < #  and petror5#_g > #   and petror5#_r > #  and devrad_g > #  and devrad_r > #  and exprad_g > #  and exprad_r > #  and cmodelmag_g < #   and cmodelmag_r < #  and type = #  and petromag_g + # + #*log1#(#*petror5#_g*petror5#_g)>=#"
+2019-03-14 15:16:00,1
+2019-03-14 15:19:00,1

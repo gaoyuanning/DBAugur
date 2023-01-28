@@ -1,0 +1,3 @@
+2,"select top # haloid, subhalofileid, x, y, z, velx, vely, velz, np, vdisp, halfmassradius into MyDB.Top1#SubHalos_subIDs_#_halfmassradius from mr where snapnum = # order by np desc"
+2019-05-06 07:14:00,1
+2019-05-06 07:25:00,1

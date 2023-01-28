@@ -1,0 +1,2 @@
+1,"SELECT   m.indx,		m.ra AS ra1, m.dec AS dec1,   n.objid,        	   g.devmag_r,       g.devmag_i,   g.devmag_g,       g.devmag_u,   g.devmag_z,   g.dered_r,        g.dered_i,   g.dered_g,        g.extinction_g,   g.extinction_r,   g.extinction_i        into MyDB.cmass1#_photo_devmag  from MyDB.cmass_short AS m   OUTER APPLY dbo.fGetNearestObjEq( m.ra, m.dec, #) AS n   LEFT OUTER join dr1#.Galaxy as g On g.objid=n.objid   LEFT OUTER join dr1#.zooVotes zoo on zoo.objid=n.objid   LEFT OUTER join dr1#.specobj s ON s.bestobjid=n.objid"
+2019-08-23 02:45:00,1

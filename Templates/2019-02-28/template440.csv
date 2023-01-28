@@ -1,0 +1,2 @@
+1,"SELECT specObjID,plateid,mjd,fiberid,z,z_err FROM MyTable"
+2019-02-28 12:09:00,1

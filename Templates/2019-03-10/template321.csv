@@ -1,0 +1,7 @@
+6,"SELECT TOP # s.bestObjID FROM BESTDR7..SpecObj as s 	JOIN BESTDR7..PhotoObj AS p ON s.bestObjID = p.objID 	JOIN dbo.fGetObjFromRect(#,#,#,#) AS b ON p.objID = b.objID  WHERE  ( p.type = # OR p.type = #)"
+2019-03-10 07:44:00,1
+2019-03-10 07:45:00,1
+2019-03-10 07:46:00,1
+2019-03-10 07:47:00,1
+2019-03-10 07:52:00,1
+2019-03-10 07:53:00,1

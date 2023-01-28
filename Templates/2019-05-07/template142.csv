@@ -1,0 +1,2 @@
+1,"SELECT x.MatchID, x.RA, x.Dec,   m.ID, m.ra, m.dec,  s.objID, s.ra, s.dec, s.u, s.g, s.r, s.i, s.z,  w.cntr, w.ra, w.dec, w.w1mag, w.w2mag, w.w3mag, w.w4mag,  s.r - w.w1mag AS r_w1 INTO MYDB:xmatchtable FROM XMATCH (   MUST EXIST IN MYDB:mytable AS m WITH(POINT(ra, dec), ERROR(#)),  MUST EXIST IN SDSSDR1#:Galaxy AS s WITH(ERROR(RaErr, #, #)),  MUST EXIST IN WISE:PhotoObj AS w WITH(ERROR(#)),  LIMIT BAYESFACTOR TO #) AS x  INNER JOIN SDSSDR1#:SpecObj sp ON sp.bestObjID = s.objID WHERE s.r < # AND s.g - s.r BETWEEN # AND # REGION &&&"
+2019-05-07 19:11:00,1

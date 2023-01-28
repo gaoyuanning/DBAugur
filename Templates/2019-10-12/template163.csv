@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.SpecObjID, s.z,   L1.ew, L1.ewErr, L1.continuum,   L2.ew, L2.ewErr, L2.continuum,   S.petroMag_u, S.petroMagErr_u,   S.petroMag_g, S.petroMagErr_g,   S.petroMag_r, S.petroMagErr_r,   S.petroMag_i, S.petroMagErr_i,   S.petroMag_z, S.petroMagErr_z INTO mydb.sebven_ext  FROM SpecPhoto as S,   SpecLine as L1,   SpecLine as L2 WHERE S.specClass = #   AND S.SpecObjID = L1.SpecObjID   AND S.SpecObjID = L2.SpecObjID   AND L1.LineId = #   AND L2.LineId = #   AND L1.ew/nullif(L1.ewErr,#)>#   AND L2.ew/nullif(L2.ewErr,#)>#"
+2019-10-12 12:04:00,1

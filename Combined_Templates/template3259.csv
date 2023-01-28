@@ -1,0 +1,2 @@
+1,"SELECT objID, p.ra, p.dec, p.u , p.v, p.r, p.i, p.z, s.z FROM specObj s join photoObj p om p.objID = sbestObjID WHERE s.class = # AND zWarning = # AND p.ra BETWEEN # and # AND p.dec between # and #"
+2019-01-15 10:58:00,1

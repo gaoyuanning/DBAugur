@@ -1,0 +1,2 @@
+1,"SELECT top # meanra as ra, meandec as dec INTO #snlist FROM MyDB.sn_coor GO SELECT a.*, b.distance FROM #snlist a CROSS APPLY dbo.fGetNearbyObjEq (a.ra, a.dec, #) b"
+2019-12-04 15:57:00,1

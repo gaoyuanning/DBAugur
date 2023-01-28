@@ -1,0 +1,2 @@
+2,"SELECT TOP # SpecObj.specObjID, SpecObj.z, SpecObj.ra, SpecObj.dec, SpecObj.sourceType, SpecObj.class zooSpec.p_el, zooSpec.p_cw, zooSpec.p_acw, zooSpec.p_mg FROM SpecObj, zooSpec WHERE zooSpec.specObjID = SpecObj.specObjID AND SpecObj.ra< =# AND SpecObj.ra> =# AND SpecObj.dec < =# AND SpecObj.dec > =# ORDER BY SpecObj.z DESC"
+2019-06-14 00:59:00,2

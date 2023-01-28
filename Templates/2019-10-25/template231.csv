@@ -1,0 +1,3 @@
+3,"SELECT spec.bestobjid, spec.ra, spec.dec, spec.z, spec.zErr, spec.class, spec.subclass,        phot.objID, phot.dered_u, phot.dered_g, phot.dered_r, phot.dered_i, phot.dered_z INTO MyDB.MyTable_# FROM SpecObj as spec, PhotoObj as phot WHERE   spec.bestobjid = phot.objID AND (spec.zWarning = # OR spec.zWarning = #) AND spec.ra BETWEEN #   and #  AND spec.dec BETWEEN # and # OR   spec.bestobjid = phot.objID AND (spec.zWarning = # OR spec.zWarning = #) AND spec.ra BETWEEN # and # AND spec.dec BETWEEN # and #"
+2019-10-25 12:17:00,2
+2019-10-25 12:18:00,1

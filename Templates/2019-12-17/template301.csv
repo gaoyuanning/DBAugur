@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.run,p.rerun,p.camCol,p.field,p.obj,ISNULL(s.plateID,#) as plateID,ISNULL(s.objType,#) as objType,ISNULL(s.targetID,#) as targetID,ISNULL(s.img,#) as img, &&& as filter FROM dbo.fGetNearbyObjEq(#,#,#) as b,  BESTDR1..Galaxy as p LEFT OUTER JOIN BESTDR1..SpecObj s ON p.objID = s.bestObjID WHERE b.objID = p.objID"
+2019-12-17 10:15:00,1

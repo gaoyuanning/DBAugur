@@ -1,0 +1,2 @@
+1,"SELECT p.objID,f.run,f.rerun,f.camcol,f.field, f.aa_u,f.kk_u,f.airmass_u,p.colc_u,p.rowc_u, f.sky_u,f.skysig_u,s.plate,s.mjd,s.fiberID FROM Field as f ON (f.run=p.run AND f.rerun=p.rerun AND f.camcol=p.camcol AND f.field=p.field) JOIN SpecPhotoAll as s ON p.objID=s.objID WHERE p.objID = #&&&"
+2019-01-18 01:20:00,1

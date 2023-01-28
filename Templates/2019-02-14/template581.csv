@@ -1,0 +1,3 @@
+3,"SELECT TOP #  p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  p.run, p.rerun, p.camcol, p.field,  r.HUBBLE, r.LOGD_#, r.LOGD_#Q FROM PhotoObj AS p  JOIN RC3 AS r ON r.objid = p.objid WHERE   p.u BETWEEN # AND #  AND g BETWEEN # AND #"
+2019-02-14 02:57:00,2
+2019-02-14 03:06:00,1

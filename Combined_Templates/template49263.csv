@@ -1,0 +1,7 @@
+8,"SELECT t.thingid, t.ndetect, d.objid, p.dec, p.ra FROM thingIndex AS t JOIN detectionindex AS d ON t.thingid = d.thingid JOIN PhotoObjAll p ON d.objid = p.objid WHERE d.objid = # order by t.ndetect"
+2019-07-01 16:33:00,2
+2019-07-01 16:35:00,1
+2019-07-01 16:36:00,2
+2019-07-01 16:37:00,1
+2019-07-01 16:47:00,1
+2019-07-01 16:51:00,1

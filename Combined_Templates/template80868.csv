@@ -1,0 +1,2 @@
+1,"select objID, ra, dec, type, r, g from PhotoObj where ra BETWEEN # and # AND dec BETWEEN # AND # AND type = #"
+2019-12-05 15:11:00,1

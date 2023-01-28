@@ -1,0 +1,2 @@
+2,"SELECT TOP # mjd, plate, fiberID, ra, dec, targetType, sourceType, z, zErr, zWarning, snMedian into mydb.boss_test from SpecObjAll WHERE plate> =# AND z > = #"
+2019-11-26 11:47:00,2

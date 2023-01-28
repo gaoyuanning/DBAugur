@@ -1,0 +1,2 @@
+1,"SELECT PhotoObjAll.objID, PhotoObjAll.ra, PhotoObjAll.dec, PhotoObjAll.u , PhotoObjAll.err_u,    PhotoObjAll.g, PhotoObjAll.err_g, PhotoObjAll.r, PhotoObjAll.err_r, PhotoObjAll.i, Photoz.z as redshift, Photoz.zErr as redshift_err   PhotoObjAll.err_i, PhotoObjAll.z, PhotoObjAll.err_z, Photoz.objID FROM PhotoObjAll, Photoz  WHERE Photoz.objID = PhotoObjAll.objID"
+2019-06-04 13:59:00,1

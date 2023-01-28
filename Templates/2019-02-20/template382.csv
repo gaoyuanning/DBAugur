@@ -1,0 +1,2 @@
+1,"SELECT TOP #   e.plate,e.mjd,e.fiberID,   e.sigmaStars,e.sigmaStarsErr,    s.velDisp  FROM emissionLinesPort AS e   JOIN specObjAll s on s.specObjid = e.specObjid"
+2019-02-20 10:04:00,1

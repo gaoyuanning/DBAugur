@@ -1,0 +1,2 @@
+2,"select top # G.ra as right_acension, G.dec as declination, zmp.* from Galaxy as G join zoo2MainPhotoz as zmp on G.objID = zmp.dr8objid where clean = # and zmp.total_classifications > #"
+2019-01-16 01:58:00,2

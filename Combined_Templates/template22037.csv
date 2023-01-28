@@ -1,0 +1,2 @@
+1,"select specObjID bigint from dbo.fGetNearbySpecObjEq (#, #, #, #)"
+2019-03-21 18:21:00,1

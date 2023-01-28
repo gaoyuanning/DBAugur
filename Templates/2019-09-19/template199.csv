@@ -1,0 +1,6 @@
+5,"select p.objid as name, p.ra, p.dec from photoobj p, specobj s where p.objid=s.bestobjid and (p.g BETWEEN # AND #) and (s.class = &&&) and s.z BETWEEN # AND #"
+2019-09-19 17:50:00,1
+2019-09-19 17:52:00,1
+2019-09-19 17:53:00,1
+2019-09-19 17:54:00,1
+2019-09-19 17:58:00,1

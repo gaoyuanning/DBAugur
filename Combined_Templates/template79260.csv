@@ -1,0 +1,7 @@
+6,"SELECT p.objId, p.ra, p.dec, p.petror9#_r, p.expAB_r, p.dered_u as u, p.dered_g as g, p.dered_r as r, p.dered_i as i, s.z, s.plate, s.mjd, s.fiberid, pz.absMagR FROM galaxy AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN Photoz as pz ON pz.objiD = p.objiD WHERE p.petror9#_r > # and p.ra between # and # and s.z < # and p.g < #"
+2019-11-27 09:45:00,1
+2019-11-27 09:51:00,1
+2019-11-27 18:00:00,1
+2019-11-28 07:10:00,1
+2019-12-29 17:47:00,1
+2019-12-29 17:49:00,1

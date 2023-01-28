@@ -1,0 +1,3 @@
+4,"select * from dbo.fGetNearbyApogeeStarEq(#,#,#)"
+2019-04-11 18:10:00,1
+2019-04-11 18:11:00,3

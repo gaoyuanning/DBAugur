@@ -1,0 +1,4 @@
+3,select * into mydb.MyTable_# from PhotoObjAll where psfMag_u between # and #
+2019-10-20 16:52:00,1
+2019-10-20 16:53:00,1
+2019-10-20 16:55:00,1

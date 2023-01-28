@@ -1,0 +1,3 @@
+2,"select avg(PhotoObjAll.i-#*log1#(#E+#*SpecObjAll.z)+#), stdev(PhotoObjAll.i-#*log1#(#E+#*SpecObjAll.z)+#), avg(PetroRad_g), count(PetroRad_g) from SpecObjAll,PhotoObjAll where ObjID=BestObjID and PhotoObjAll.i># and PhotoObjAll.i<# and SpecObjAll.z># and SpecObjAll.z<# and PhotoObjAll.PetroRad_g<#"
+2019-01-03 15:07:00,1
+2019-01-03 15:09:00,1

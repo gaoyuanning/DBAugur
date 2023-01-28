@@ -1,0 +1,2 @@
+1,"select   manga.mangaID, nsa.nsaid, nsa.isdss, nsa.ra, nsa.dec from nsatlas nsa   join DR1#.mangaTarget manga on manga.nsa_nsaid = nsa.nsaid into MyDB.manga_sdss_indices"
+2019-04-16 08:16:00,1

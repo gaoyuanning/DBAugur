@@ -1,0 +1,2 @@
+1,"select m.objID, petroRad_r into mydb.output from PhotoObjAll i, MyDB.MyTable m where i.objID = m.objID;"
+2019-11-26 13:38:00,1

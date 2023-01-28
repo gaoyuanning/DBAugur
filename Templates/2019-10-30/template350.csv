@@ -1,0 +1,2 @@
+1,select count(run1) into mydb.MyTable from match where run2=#
+2019-10-30 11:18:00,1

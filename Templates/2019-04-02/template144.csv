@@ -1,0 +1,2 @@
+1,"SELECT TOP #  h_alpha_flux, h_beta_flux, oiii_#_flux, nii_#_flux FROM galSpecLine WHERE specObjID = # or specObjID = # or specObjID = #"
+2019-04-02 19:29:00,1

@@ -1,0 +1,2 @@
+1,"SELECT StudentID AS StudentID, GradeLevel AS EnrollmentGrade, SchoolYear4Digit AS SchoolYear4Digit FROM Enrollment WHERE EnrollmentStatus = # AND IsActiveEnrollment = TRUE) ;"
+2019-04-17 14:24:00,1

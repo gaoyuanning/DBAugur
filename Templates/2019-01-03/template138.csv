@@ -1,0 +1,2 @@
+1,"select top # SpecObjID, ra, dec, z, logMass, chi2, ssfr, metallicity from stellarMassFSPSGranEarlyDust where logMass+ssfr BETWEEN # and # and chi2 BETWEEN # and # AND ssfr BETWEEN # and # AND logMass BETWEEn # and #"
+2019-01-03 18:21:00,1

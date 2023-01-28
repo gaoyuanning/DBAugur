@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid,  p.devRad_u, p.devRadErr_u, p.expRad_u, p.expRadErr_u,  p.fracDeV_u,  g.lgm_tot_p5#,  p.z, s.specobjid, s.class, s.z as redshift,  s.mjd FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid  JOIN galSpecExtra AS g on g.specobjid = s.specobjid  JOIN mangaPipe3D AS m on m.mangaPipe3D = s.specobjid WHERE   s.class = galaxy"
+2019-11-13 17:43:00,1

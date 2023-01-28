@@ -1,0 +1,18 @@
+21,"SELECT u.up_name as [name], # + cast (x.objId as varchar (#) ) + #+ cast (x.objId as varchar (#) ) + # as objID, p.ra, p.dec, p.run, p.rerun, p.camcol, p.field, dbo.fPhotoTypeN (p.type) as type, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, s.specObjID, s.plate, s.mjd, s.fiberID, s.z, s.zConf FROM #upload u JOIN #x x ON x.up_id = u.up_id JOIN PhotoTag p ON p.objID = x.objID JOIN SpecObjAll s ON p.objID = s.bestObjID ORDER by x.up_id"
+2019-01-09 18:40:00,1
+2019-01-09 18:44:00,1
+2019-01-09 18:46:00,1
+2019-01-31 18:29:00,1
+2019-02-13 16:29:00,3
+2019-02-13 16:30:00,2
+2019-02-18 10:00:00,2
+2019-03-06 06:10:00,1
+2019-03-13 23:43:00,1
+2019-03-19 09:32:00,1
+2019-06-03 08:56:00,1
+2019-06-14 11:34:00,1
+2019-06-16 19:20:00,1
+2019-06-21 21:25:00,1
+2019-07-18 15:05:00,1
+2019-08-05 13:57:00,1
+2019-11-05 02:49:00,1

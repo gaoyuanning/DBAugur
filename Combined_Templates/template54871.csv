@@ -1,0 +1,2 @@
+1,"select z. (*) , s.z into mydb.dist_z from zoo2MainSpecz z join specobj s on z.specobjid = s.specobjid where t0#_odd_feature_a2#_disturbed_debiased > t0#_odd_feature_a2#_irregular_debiased and t0#_odd_feature_a2#_disturbed_debiased > # and t0#_odd_feature_a2#_disturbed_flag < > #"
+2019-07-31 05:03:00,1

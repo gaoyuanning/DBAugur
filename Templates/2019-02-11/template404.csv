@@ -1,0 +1,3 @@
+3,"SELECT TOP #  spp.mjd,spp.plate,spp.fiberid, spp.SPECTYPEHAMMER, spp.SPECTYPESUBCLASS,spp.TEFFADOP,spp.LOGGADOP,spp.FEHADOP,spp.SNR FROM sppParams AS spp WHERE  spp.TEFFADOP < #,spp.LOGGADOP<#,spp.FEHADOP<#"
+2019-02-11 14:17:00,1
+2019-02-11 14:39:00,2

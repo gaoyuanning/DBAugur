@@ -1,0 +1,2 @@
+2,"select modelmag_u, modelmag_g, ra, dec from SpecPhoto where Type in (#,#) and ra between # and # and dec between # and #"
+2019-09-04 20:46:00,2

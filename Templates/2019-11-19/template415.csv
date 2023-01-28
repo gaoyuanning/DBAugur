@@ -1,0 +1,2 @@
+1,"select mjd_r as primary_mjd, u, g, r, i, z from Field where dec < # AND dec > # AND (ra > # AND ra < # )"
+2019-11-19 08:03:00,1

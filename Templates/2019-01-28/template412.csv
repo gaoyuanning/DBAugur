@@ -1,0 +1,2 @@
+1,"SELECT COUNT(*) into mydb.count from specObj, photoObj WHERE  specObj.bestObjid = photoObj.ObjID AND specObj.zWarning=# AND specObj.z># AND specObj.class=&&& AND specObj.ra># AND specObj.ra<# AND specObj.z<# AND specObj.z<#"
+2019-01-28 10:46:00,1

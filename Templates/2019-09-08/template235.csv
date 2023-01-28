@@ -1,0 +1,16 @@
+28,"select top # plate, MJD, fiberID,  subClass  from specobjall where subClass like &&& and snMedian >= # --[A,B,M] --select distinct subClass from specobjall-- where subClass like &&&    select top # plate, MJD, fiberID from specobjall where subClass = &&& and snMedian >= #   --[A,B,Carbon,F,G,K,L,M,O,T]"
+2019-09-08 08:06:00,1
+2019-09-08 08:07:00,3
+2019-09-08 08:08:00,2
+2019-09-08 08:09:00,2
+2019-09-08 08:10:00,1
+2019-09-08 08:11:00,3
+2019-09-08 08:12:00,1
+2019-09-08 08:13:00,1
+2019-09-08 08:14:00,3
+2019-09-08 08:15:00,3
+2019-09-08 08:16:00,1
+2019-09-08 08:17:00,2
+2019-09-08 08:18:00,2
+2019-09-08 08:19:00,2
+2019-09-08 08:20:00,1

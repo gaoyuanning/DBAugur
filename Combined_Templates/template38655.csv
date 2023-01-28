@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.class, s.subClass, s.z_noqso FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE s.subClass ! = #"
+2019-05-10 08:54:00,1

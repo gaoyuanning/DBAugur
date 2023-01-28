@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.plate, s.mjd, s.fiberid FROM BESTDR9..SpecObj as s WHERE s.zWarning = # AND (s.secTarget & (dbo.fSecTarget (#) ) > #)"
+2019-03-20 21:20:00,1

@@ -1,0 +1,2 @@
+2,"select TOP # s.z, s.zErr from DR1#.specObj s into mydb.zerr where s.class = # and s.z< #"
+2019-03-09 17:14:00,2

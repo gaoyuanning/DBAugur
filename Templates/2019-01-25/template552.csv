@@ -1,0 +1,9 @@
+8,"SELECT TOP #  cast(str(p.ra,#,#) as float) as ra,cast(str(p.[dec],#,#) as float) as dec,p.u,p.g,p.r,p.i,p.z  FROM ..PhotoObj AS p  JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = P.objID  WHERE ( p.type = #)"
+2019-01-25 01:42:00,1
+2019-01-25 01:50:00,1
+2019-01-25 01:51:00,1
+2019-01-25 01:59:00,1
+2019-01-25 02:01:00,1
+2019-01-25 02:02:00,1
+2019-01-25 02:03:00,1
+2019-01-25 02:06:00,1

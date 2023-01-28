@@ -1,0 +1,2 @@
+1,"SELECT MAX (z.total_classifications) , MIN (z.total_classifications) FROM zoo2MainPhotoz as z"
+2019-04-29 09:17:00,1

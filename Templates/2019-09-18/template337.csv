@@ -1,0 +1,2 @@
+1,"SELECT s.specobjid, s.ra, s.dec, s.plate, s.mjd, s.fiberid, g.lgm_tot_p5#, m.logMass FROM #upload u  JOIN SpecObjAll s ON (s.plate=u.up_plate AND s.mjd=u.up_mjd AND s.fiberID=u.up_fiber)  JOIN galSpecExtra g ON g.specObjID = s.specObjID  JOIN stellarMassPassivePort m ON m.specObjID = s.specObjID ORDER by x.up_id &&&#', @log=#, @filter=#"
+2019-09-18 15:42:00,1

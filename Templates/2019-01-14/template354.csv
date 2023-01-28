@@ -1,0 +1,2 @@
+1,"select *,   &&& as class   from mydb.dr1#q_photometry_sdss into mydb.dr1#q_photometry_sdss2"
+2019-01-14 11:16:00,1

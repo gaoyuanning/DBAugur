@@ -1,0 +1,6 @@
+2238,"SELECT z, ra, dec, objID FROM SPECPhoto WHERE z> # AND z< # AND ra> # AND ra< # AND dec> # AND dec< # AND type=#"
+2019-01-29 07:22:00,4
+2019-01-29 07:25:00,2
+2019-01-29 08:52:00,2226
+2019-01-29 10:10:00,2
+2019-01-29 10:11:00,4

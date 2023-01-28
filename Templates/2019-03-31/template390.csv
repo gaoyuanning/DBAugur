@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID, z, survey  FROM SpecObj  WHERE class = &&&  AND zWarning = # AND z BETWEEN # to # order by newid()"
+2019-03-31 12:08:00,1

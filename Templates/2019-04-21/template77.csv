@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec, u, err_u, TAI_u FROM PhotoObj  WHERE   class = star"
+2019-04-21 19:53:00,1

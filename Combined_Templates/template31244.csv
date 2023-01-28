@@ -1,0 +1,2 @@
+1,"select SUBSTRING (Name, #, #) as char, COUNT (SUBSTRING (Name, #, #) ) from chinook.Artist group by SUBSTRING (Name, #, #)"
+2019-04-17 11:13:00,1

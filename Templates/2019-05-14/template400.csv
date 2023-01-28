@@ -1,0 +1,2 @@
+3,"select top # sp.objid, sp.ra, sp.dec, sp.p_el, sp.p_cw, sp.p_acw, sp.elliptical, sp.spiral, sp.nvote, xp.mE1_u, xp.mE1_g, xp.mE1_r, xp.mE1_i, xp.mE1_z, xp.mE2_u, xp.mE2_g, xp.mE2_r, xp.mE2_i, xp.mE2_z  into mydb.Objmorphocationidentification(biglist) from dbo.zooSpec As sp   Join dbo.Galaxy as xp    On sp.objid=xp.objid  where (nvote > #)    and (elliptical=#     or spiral=#)"
+2019-05-14 10:50:00,3

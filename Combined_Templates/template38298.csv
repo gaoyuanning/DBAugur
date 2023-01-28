@@ -1,0 +1,3 @@
+2,"SELECT TOP # t.thingid, t.ra, t.dec, t.ndetect, d.objid, p.psfMag_r, p.psfMagerr_r INTO my_test FROM thingIndex AS t JOIN detectionindex AS d ON t.thingid = d.thingid JOIN Star AS p ON d.objid = p.objid WHERE t.ra > # AND t.ra < # AND t.ndetect > #"
+2019-05-09 09:06:00,1
+2019-05-09 09:07:00,1

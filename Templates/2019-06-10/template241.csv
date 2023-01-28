@@ -1,0 +1,4 @@
+8,select max(Id) from public.ncarey.FramePathProcessing where Processed = # )
+2019-06-10 15:28:00,4
+2019-06-10 15:29:00,3
+2019-06-10 15:31:00,1

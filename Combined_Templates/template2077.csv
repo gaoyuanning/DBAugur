@@ -1,0 +1,2 @@
+1,"select specObjID, bestObjID, RA, DEC from MyDB.DR1#_MGS_HETDEX_Data into MyDB.DR1#_MGS_HETDEX"
+2019-01-10 09:10:00,1

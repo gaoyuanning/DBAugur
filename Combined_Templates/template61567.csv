@@ -1,0 +1,2 @@
+2,"SELECT top # soa.ra, soa.dec, soa.z, soa.zErr, soa.zWarning, soa.class, soa.velDisp, soa.velDispErr, soa.velDispZ, soa.targetType, # * soa.z/# as distance FROM SpecObjAll as soa JOIN PhotoObjAll as poa ON soa.specObjID = poa.objID WHERE abs (zErr/z) < # AND z > # AND z< # AND velDisp > # AND velDispErr > # AND velDispErr/velDisp < #"
+2019-09-06 05:35:00,2

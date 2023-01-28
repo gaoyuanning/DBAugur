@@ -1,0 +1,2 @@
+1,"SELECT t.Name, t.targetID, t.objID, t.AngSep, t.target_photoz, t.target_photozErr, s.z as target_specz, s.zErr as target_speczErr from mydb.angsep_z1 as t INTO mydb.angsep_z FULL OUTER JOIN mydb.specz_wiyn_targets as s on s.objID = t.targetID where t.AngSep < #"
+2019-04-13 13:03:00,1

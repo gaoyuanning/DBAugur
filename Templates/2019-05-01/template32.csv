@@ -1,0 +1,2 @@
+1,"SELECT count(*), ra, dec, petroRad_r, modelMag_g, modelMag_r, dered_g, dered_r, petroR5#_r, specObjID FROM Galaxy WHERE ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-05-01 22:12:00,1

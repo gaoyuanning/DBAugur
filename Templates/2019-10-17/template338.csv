@@ -1,0 +1,2 @@
+1,select count(*) into MyDB.MyTable2 from MPAGalaxies.DeLucia2#a_SDSS2MASS
+2019-10-17 11:51:00,1

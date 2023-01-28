@@ -1,0 +1,2 @@
+1,"select top # eid,Ever_had_eye_surgery_#,m.encoding_id  from dbo.Eye_surgery_complications a       cross apply openjson(Ever_had_eye_surgery_#) j join metadata.columns m on m.column_name=&&&  where j.value in (#,#)"
+2019-10-01 11:33:00,1

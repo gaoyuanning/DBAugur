@@ -1,0 +1,3 @@
+3,"SELECT ra, dec, cModelMag_g, cModelMag_r, cModelMag_i, cModelMag_z, cModelMagErr_g, cModelMagErr_r, cModelMagErr_i, cModelMagErr_z FROM PhotoPrimary; JOIN on Photoprimary.objID = photoz.objID;"
+2019-09-06 09:01:00,1
+2019-09-06 09:02:00,2

@@ -1,0 +1,2 @@
+1,"select BlockLot, FullAddr, IsMCC, IsDemolished, IsVacant from RealPropertiesExtra where neighborhood like &&&   and isMCC=#"
+2019-05-06 09:34:00,1

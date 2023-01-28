@@ -1,0 +1,2 @@
+1,"SELECT mjd, plate, fiberid, subclass, bestObjID, specObjID from specobjall where bestObjID = # or bestObjID = # or bestObjID = # or bestObjID = # or bestObjID = # or bestObjID = # or bestObjID = # or bestObjID = # or bestObjID = # or bestObjID = # or bestObjID = # or bestObjID = # or bestObjID = #"
+2019-03-06 13:01:00,1

@@ -1,0 +1,2 @@
+1,"SELECT star.apstar_id, star.apogee_id, m.RAdeg, m.DEdeg, star.glon, star.glat, star.apogee_target1, star.apogee_target2, aspcap.teff, aspcap.logg, aspcap.param_m_h FROM apogeeStar star, mydb.dani_table_chiara_new1 as m JOIN fGetNearbyApogeeStarEq (m.RAdeg, m.DEdeg, #) near on star.apstar_id = near.apstar_id JOIN aspcapStar aspcap on aspcap.apstar_id = star.apstar_id"
+2019-06-14 03:23:00,1

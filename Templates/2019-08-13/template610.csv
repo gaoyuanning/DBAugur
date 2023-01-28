@@ -1,0 +1,2 @@
+1,"SELECT *  p.log_Mass, p.e_log_Mass, p.log_Mass_gas, p.e_log_Mass_gas,  p.sigma_cen, p.e_sigma_cen, p.re_kpc, p.redshift, t.MANGA_TARGET3 FROM mangaPipe3D as p JOIN mangatarget as t on t.mangaID = p.MANGAID WHERE MANGA_TARGET3 = #"
+2019-08-13 06:57:00,1

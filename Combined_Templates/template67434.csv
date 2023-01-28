@@ -1,0 +1,2 @@
+1,"select top # p.objID, p.ra, p.dec, p.petroMag_u-extinction_u AS mag_u, p.petroMag_g-extinction_g AS mag_g, p.petroMag_r-extinction_r AS mag_r, p.petroMag_i-extinction_i AS mag_i, p.petroMag_z-extinction_z AS mag_z, p.petroR5#_r, p.deVRad_r, s.z AS RedShift, #E+#*s.z /# AS DH, s.zWarning from photoObj AS p JOIN specObj s ON s.bestObjID = p.objID where s.class = # and p.ObjID< ># and s.z> # and s.zWarning = # ORDER BY s.z desc"
+2019-10-03 15:05:00,1

@@ -1,0 +1,4 @@
+4,"SELECT TOP # ra, dec, z as Redshift, into mydb.MyTable_# from SpecPhotoAll WHERE type = # AND ra BETWEEN # AND # AND dec BETWEEN # AND # AND z BETWEEN # AND #"
+2019-02-15 13:51:00,1
+2019-02-15 13:52:00,2
+2019-02-15 13:54:00,1

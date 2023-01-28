@@ -1,0 +1,2 @@
+1,"select v.[name] as viewname, s.[name] as [schema] from sys.views as v, sys.schemas as s where v.schema_id = s.schema_id --and s.[name] = # Select distinct subClass from specobjall where subClass like # and snMedian_g > # and waveMin < = # and waveMax > = #"
+2019-10-10 03:51:00,1

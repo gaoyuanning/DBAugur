@@ -1,0 +1,2 @@
+1,"select ph.objid,ph.ra, ph.dec, ph.deVPhi_r as PA into mydb.PAs from PhotoObjAll ph  LIMIT #"
+2019-09-11 06:15:00,1

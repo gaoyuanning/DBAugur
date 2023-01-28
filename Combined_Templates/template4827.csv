@@ -1,0 +1,2 @@
+1,"SELECT G.ra, G.dec FROM Galaxy as G WHERE G.objid = #"
+2019-01-21 19:34:00,1

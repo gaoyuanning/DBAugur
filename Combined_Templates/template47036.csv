@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.g, p.r, s.specobjid, s.class, s.z as redshift, photoz.absmagr FROM PhotoObj as p, specobj as s, photoz WHERE specobj.specclass = # and s.z BETWEEN # AND # and p.type = #"
+2019-06-20 10:30:00,1

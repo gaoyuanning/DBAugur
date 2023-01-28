@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.ra, p.dec, s.specObjID, p.psfMag r, p.modelMag r, p.petroMag r, p.fiberMag r, p.petroRad r, p.petroR5# r, p.petroR9# r, p.lnLStar r, p.lnLExp r, p.lnLDeV r, p.mE1 r, p.mE2 r, p.mRrCc r, p.type r, p.type, s.specClass FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.modelMag r BETWEEN # AND #"
+2019-10-31 10:07:00,1

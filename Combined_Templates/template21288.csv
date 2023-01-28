@@ -1,0 +1,2 @@
+1,"select top # m.myspecobid --s.mjd, --s.plate, --s.fiberID from --SpecObj as s, MyDB.popid as m"
+2019-03-18 15:09:00,1

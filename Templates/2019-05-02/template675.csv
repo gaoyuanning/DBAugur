@@ -1,0 +1,3 @@
+2,"SELECT EID,[ECG_automated_diagnoses_#],[Number_of_automated_diagnostic_comments_recorded_during_#_lead_ECG_#],[Ventricular_rate_#],[P_duration_#],[QRS_duration_#],[Identifier_for_#_lead_ECG_device_#],[Reason_ECG_not_performed_#] FROM ECG_at_rest_#_lead GO"
+2019-05-02 09:33:00,1
+2019-05-02 10:35:00,1

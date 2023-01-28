@@ -1,0 +1,2 @@
+1,"SELECT m.id, m.ra AS ra1, m.dec AS dec1, m.cluster AS cluster , n.objid, n.distance, o.ra AS ra2, o.dec AS dec2, o.objid AS newobjid into MyDB.GNGAlla FROM MyDB.AllGNG AS m CROSS APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n JOIN PhotoObj AS o ON n.objid = o.objid"
+2019-05-29 16:32:00,1

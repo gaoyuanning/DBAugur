@@ -1,0 +1,4 @@
+4,"SELECT FLOOR(petroMag_r-#*log1#(dbo.fCosmoDl(s.z))#-extinction_r) as M, COUNT(*) as count FROM SpecObj s INNER JOIN PhotoObj ON s.bestObjID=PhotoObj.ObjID WHERE s.z BETWEEN # AND #    AND objTypeName = &&& GROUP BY FLOOR(petroMag_r-#*log1#(dbo.fCosmoDl(s.z))#-extinction_r) ORDER BY #"
+2019-01-23 14:56:00,1
+2019-01-23 15:00:00,1
+2019-01-23 15:01:00,2

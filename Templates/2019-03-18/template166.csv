@@ -1,0 +1,6 @@
+5,"SELECT dr7objid AS objid, ra, dec, p_el, (p_acw + p_cw) AS p_sp  FROM zooSpec  WHERE (p_el >= #) OR (p_acw + p_cw) >= #  ORDER BY dr7objid ASC"
+2019-03-18 16:05:00,1
+2019-03-18 18:41:00,1
+2019-03-18 18:49:00,1
+2019-03-18 18:54:00,1
+2019-03-18 19:08:00,1

@@ -1,0 +1,2 @@
+1,"SELECT p.g-p.r, p.r, p.g as temps FROM PhotoObj AS p WHERE p.ra BETWEEN # AND # AND p.dec BETWEEN # AND #"
+2019-04-02 12:17:00,1

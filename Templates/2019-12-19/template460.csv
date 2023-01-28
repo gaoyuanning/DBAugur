@@ -1,0 +1,4 @@
+3,"select top # ra as X_WIN, dec as Y_WIN, psfMag_g as MAG_AUTO, psfMagErr_g as MAGERR_AUTO from PhotoObj where (ra between # and #) and (dec between # and #) and (psfMag_g between # and # )"
+2019-12-19 01:42:00,1
+2019-12-19 01:49:00,1
+2019-12-19 02:39:00,1

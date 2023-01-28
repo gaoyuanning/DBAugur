@@ -1,0 +1,4 @@
+5,"SELECT TOP # z, elodieFeH into mydb.MyTable_# from SpecObj WHERE specObjID != #"
+2019-11-06 18:08:00,1
+2019-11-06 18:15:00,2
+2019-11-06 18:20:00,2

@@ -1,0 +1,2 @@
+1,"select top # psfMag_u, psfMag_g, psfMag_u-psfMag_g as color, ra, dec, type from galaxy where psfMag_u-psfMag_g> # order by color"
+2019-09-03 09:09:00,1

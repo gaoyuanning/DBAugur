@@ -1,0 +1,4 @@
+4,"select specObjID, objID, ra, dec, z, zErr, petroMag_r-extinction_r as rpmag from SpecPhotoAll where ra between # and # and dec between # and # and z between # and # and z> # and type = #"
+2019-09-03 22:50:00,1
+2019-09-03 22:53:00,1
+2019-09-03 23:03:00,2

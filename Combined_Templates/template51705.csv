@@ -1,0 +1,2 @@
+1,"SELECT starname, utc-obs, fcjd, jd, time, mjd, rv, keep, offseterror into mydb.MyTable from marvelsVelocityCurveUF1D WHERE starname LIKE #"
+2019-07-13 10:52:00,1

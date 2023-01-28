@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.plate, s.mjd, s.fiberid FROM SpecObj AS s WHERE s.class = # AND S.SNMEDIAN > #"
+2019-12-11 07:55:00,1

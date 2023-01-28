@@ -1,0 +1,2 @@
+2,"select top # dbo.fGetNearestObjIdEq(v.ra, v.dec, #/#) as objID, v.ra, v.dec, ivz_id from mydb.vstarmin as v   join star as s on s.objid = objID where dbo.fGetNearestObjIdEq(v.ra, v.dec,#/#) IS NOT NULL"
+2019-09-11 15:19:00,2

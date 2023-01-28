@@ -1,0 +1,4 @@
+3,SELECT p.objid%#C p.ra%#C p.dec%#C p.u%#Cp.g%#Cp.r%#Cp.i%#Cp.z FROM fGetNearbyObjEq%
+2019-06-09 17:42:00,1
+2019-06-09 17:49:00,1
+2019-06-09 17:54:00,1

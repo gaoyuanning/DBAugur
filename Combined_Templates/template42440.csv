@@ -1,0 +1,3 @@
+2,"select fromid as id from edgesmonth union all select toid as id from edgesmonth) , a2 as (-- count how often each entry from the agents table occurs in the previous result, the degree. -- NOTE using the socalled left outer join allows us to include agents that never occur in an edge"
+2019-05-29 15:49:00,1
+2019-05-29 15:50:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.SpecObjID,    s.z,    ph.u,   ph.g,   ph.r,  FROM PhotoObjAll as ph,    SpecPhoto as s,   SpecLine  as L,   SpecObjAll as so    WHERE s.specClass = #      AND ph.specObjID = s.specObjID     AND L.specObjID = s.specObjID     AND so.specObjID = s.specObjID     AND s.z < #"
+2019-10-18 15:45:00,1

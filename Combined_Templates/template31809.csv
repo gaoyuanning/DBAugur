@@ -1,0 +1,6 @@
+6,"SELECT ALL p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.type, s.specobjid, s.class, s.z as redshift, s.class FROM PhotoObj AS p JOIN SpecObj AS s ON s.class = # WHERE p.ra BETWEEN # AND # AND p.dec BETWEEN # AND # AND p.type = #"
+2019-04-19 11:25:00,1
+2019-04-19 11:30:00,1
+2019-04-19 11:42:00,1
+2019-04-19 11:51:00,1
+2019-04-19 13:47:00,2

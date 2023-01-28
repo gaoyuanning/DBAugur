@@ -1,0 +1,2 @@
+1,"select objid, ra, dec, fiber2mag_i, fiber2magERR_i from photoprimary where clean = # and ra between # and # and dec between # and # and fiber2mag_i < = #"
+2019-11-10 09:00:00,1

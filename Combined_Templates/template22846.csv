@@ -1,0 +1,2 @@
+1,"SELECT TOP # count (ra) , count (dec) FROM PhotoTag WHERE modelMag_g> # AND modelMag_g< # AND type = # order by modelMag_g"
+2019-03-23 18:45:00,1

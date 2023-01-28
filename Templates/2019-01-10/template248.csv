@@ -1,0 +1,2 @@
+2,"select objid, ra, dec, u, g, r, i, z, lnLStar_r, type_r into mydb.MyTable6# from PhotoObjAll WHERE ra < # and ra > # and dec < # and dec > #"
+2019-01-10 14:09:00,2

@@ -1,0 +1,3 @@
+2,"SELECT specObjID, ra, dec, z, bpt, FLUX_Ha_#, FLUX_Ha_#_err, FLUX_NII_#, Flux_NII_#_err FROM emissionLinesPort WHERE z BETWEEN # AND #"
+2019-03-20 12:00:00,1
+2019-03-20 12:03:00,1

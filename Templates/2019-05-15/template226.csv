@@ -1,0 +1,2 @@
+1,"SELECT TOP #  objid, nvote,  p_el as elliptical,  p_cw as spiralclock, p_acw as spiralanticlock, p_edge as edgeon,  p_dk as dontknow, p_mg as merger FROM ZooNoSpec"
+2019-05-15 19:49:00,1

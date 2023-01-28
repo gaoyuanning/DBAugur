@@ -1,0 +1,3 @@
+2,"SELECT count (G.PetroRad_u) as num_Gals, avg (G.PetroRad_u) as avg_Petrou FROM Galaxy as G JOIN SpecObj as S ON S.bestObjID = G.objID WHERE G.ra between # and # AND G.dec between # and # AND S.class = # AND S.zWarning = # AND G.PetroMag_u > # AND S.z between .# and #"
+2019-02-21 21:24:00,1
+2019-02-21 21:52:00,1

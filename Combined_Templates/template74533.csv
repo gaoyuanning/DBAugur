@@ -1,0 +1,2 @@
+1,"SELECT TOP # f.N, p.ra, p.dec, p.Modelmag_i, p.z, p.specObjID into mydb.MyTable_# from mydb.MyTable_# f JOIN SpecPhotoAll p ON f.OBJID = p.specObjID"
+2019-11-07 18:51:00,1

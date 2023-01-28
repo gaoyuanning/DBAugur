@@ -1,0 +1,2 @@
+1,"SELECT TOP #   G.objID,   G.ra,   G.dec,   G.petroMag_i,   G.petroMag_r, into mydb.MyTable_# from Galaxy AS G WHERE      G.ra BETWEEN # AND #     AND G.dec BETWEEN # AND #"
+2019-04-08 11:20:00,1

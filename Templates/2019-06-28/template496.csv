@@ -1,0 +1,2 @@
+1,"select top # s.objTypeName from photoObj p, SpecObj s WHERE s.objType=# and p.specObjID=s.specObjID and p.ra BETWEEN # AND # AND p.dec BETWEEN # AND #"
+2019-06-28 03:51:00,1

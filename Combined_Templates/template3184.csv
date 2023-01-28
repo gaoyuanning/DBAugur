@@ -1,0 +1,2 @@
+1,"SELECT poa.objID, poa.ra, poa.dec, p.z, p.type FROM PhotoObjAll poa, WHERE p.z BETWEEN # and # AND poa.ra BETWEEN # AND # AND poa.dec BETWEEN # AND #"
+2019-01-15 13:11:00,1

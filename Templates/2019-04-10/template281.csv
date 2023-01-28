@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid,p.ra,p.dec,sl.u,p.g,p.r,p.i,p.z,  p.run, p.rerun, p.camcol, p.field,  s.specobjid, s.class, s.z as redshift,  s.plate, s.mjd, s.fiberid FROM sppLines AS sl JOIN sppParams AS sp  ON sl.specobjid = sp.specobjid  WHERE  fehadop < #  AND fehadopunc between #  and # and fehadopn > #"
+2019-04-10 16:24:00,1

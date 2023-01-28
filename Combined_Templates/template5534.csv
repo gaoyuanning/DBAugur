@@ -1,0 +1,2 @@
+1,"select top # s.plate, s.mjd, s.fiberId, s.Class from SpecObj as s where s.Class like #"
+2019-01-23 08:19:00,1

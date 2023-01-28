@@ -1,0 +1,2 @@
+1,"select b.yearId, p.playerId, sum(b.hr) , rank() over (partition by yearid order by sum(hr) desc) as rank, max(p.nameFirst) as firstName,max( p.nameLast) as lastName   from baseball.batting b join baseball.players p on p.playerId=b.playerId  group by b.yearId, p.playerId  order by # desc"
+2019-02-20 18:53:00,1

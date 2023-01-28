@@ -1,0 +1,9 @@
+11,"SELECT top # bestObjId, z, ra, dec, plate, mjd, fiberId, run2d,   &&& + cast(run2d as varchar(#)) + &&& + format(plate, &&&) +  &&& + format(plate, &&&) + &&& + cast(mjd as varchar(#)) + &&& + format(fiberid, &&&) + &&& as url FROM specObjAll WHERE survey = &&& AND class = &&& and zWarning = # AND bestObjId > #  AND (z > # AND z < #)  AND (htmid*# & #) < (# * #)"
+2019-03-20 17:09:00,1
+2019-03-20 17:14:00,2
+2019-03-20 17:17:00,3
+2019-03-20 17:31:00,1
+2019-03-20 17:32:00,1
+2019-03-20 17:33:00,1
+2019-03-20 17:34:00,1
+2019-03-20 17:38:00,1

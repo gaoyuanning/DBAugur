@@ -1,0 +1,2 @@
+2,"select top # g.objId, g.ra, g.dec, g.petror9#_r, dbo.fGetUrlFitsCFrame (F.FIELDiD, #) as fieldURL from galaxy g , field f where f.run = g.run and f.camcol = g.camcol and f.field = g.field and f.rerun = g.rerun"
+2019-12-17 07:45:00,2

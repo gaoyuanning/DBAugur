@@ -1,0 +1,2 @@
+1,"SELECT     m.ID, m.DES_g, m.DES_g_err, m.DES_r, m.DES_r_err, m.DES_i, m.DES_i_err, m.DES_z, m.DES_z_err, m.DES_Y, m.DES_Y_err, m.DES_ID, m.ra as DES_ra, m.dec as DES_dec, m.DES_tile, m.W1, m.W1_err, m.W2, m.W2_err, m.W3, m.W3_err, m.W4, m.W4_err,     n.objid, n.distance,     o.ra AS SDSS_ra, o.dec AS SDSS_dec  FROM MyDB.DES_sample AS m     CROSS APPLY dbo.fGetNearestObjEq( m.ra, m.dec, #) AS n     JOIN SpecObj AS o ON n.objid=o.objid"
+2019-04-19 14:24:00,1

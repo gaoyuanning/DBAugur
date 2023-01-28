@@ -1,0 +1,4 @@
+3,"select p.SpecObjID, p.bpt, p.Flux_OIII_#, p.Flux_OIII_#_err, p.Flux_Hb_#, p.Flux_Hb_#_Err, p.Flux_Ha_#, p.Flux_Ha_#_Err, p.Flux_NII_#,p.Flux_NII_#_Err, p.EW_Ha_#,p.EW_Ha_#_Err into mydb.MyTable from emissionLinesPort p"
+2019-04-03 07:20:00,1
+2019-04-03 07:21:00,1
+2019-04-03 07:22:00,1

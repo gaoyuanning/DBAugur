@@ -1,0 +1,2 @@
+1,"SELECT m.id, m.ra AS ra1, m.dec AS dec1, n.apstar_id, n.distance into mydb.MyTable_# from MyDB.tic_positions_fdwarfs_Ncvz AS m CROSS APPLY dbo.fGetNearestApogeeStarEq (m.ra, m.dec, #) AS n JOIN apogeestar AS o ON n.apstar_id = o.apstar_id"
+2019-04-17 01:36:00,1

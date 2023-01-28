@@ -1,0 +1,2 @@
+1,"SELECT p.objID, q.ra, q.dec, q.petroMag_u, q.petroMagErr_u, q.petroMag_g, q.petroMagErr_g, q.petroMag_r, q.petroMagErr_r, q.petroMag_i, q.petroMagErr_i, q.petroMag_z, q.petroMagErr_z, q.petroRad_r into MyDB.J1#_PetroPhotometry from MyDB.J1#_objID as p, DR1#.PhotoObjAll as q WHERE p.objID = q.objID"
+2019-08-25 19:52:00,1

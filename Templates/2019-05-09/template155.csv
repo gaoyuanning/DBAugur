@@ -1,0 +1,2 @@
+1,"SELECT   p.ra,   p.dec,   p.petroMag_r into mydb.surr_gals_one_target1 from PhotoObj p      JOIN dbo.fGetNearbyObjEq(#,#,#) n ON n.objID = p.objID   JOIN Photoz z ON z.objID = n.objID  WHERE   p.type = #   AND z.z < # + #*z.zErr   AND z.z > # - #*z.zErr   AND z.zErr < #*z.z"
+2019-05-09 16:40:00,1

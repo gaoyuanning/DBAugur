@@ -1,0 +1,2 @@
+1,"select p.*, s.segue2_target1  into mydb.segue2msto_mp from mydb.segue2phot p, segueTargetAll s  where (s.segue2_target1 & #) or (s.segue2_target1 & #)"
+2019-09-23 16:48:00,1

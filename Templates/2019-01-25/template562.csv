@@ -1,0 +1,3 @@
+2,"SELECT specObjID,     mjd,plate,fiberID,class,ra,dec,z,     (petroMag_u) - (extinction_u) AS petro_u,     (petroMag_g) - (extinction_g) AS petro_g,     (petroMag_r) - (extinction_r) AS petro_r,     (petroMag_i) - (extinction_i) AS petro_i,     (petroMag_z) - (extinction_z) AS petro_z,     (cModelMag_u) - (extinction_u) AS petro_u,     (cModelMag_g) - (extinction_g) AS petro_g,     (cModelMag_r) - (extinction_r) AS petro_r,     (cModelMag_i) - (extinction_i) AS petro_i,     (cModelMag_z) - (extinction_z) AS petro_z FROM SpecPhoto WHERE     z<# and zWarning=# and sciencePrimary># and class=GALAXY"
+2019-01-25 01:43:00,1
+2019-01-25 01:44:00,1

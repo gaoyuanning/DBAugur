@@ -1,0 +1,2 @@
+1,"SELECT top # objid, ra, dec, psfmag_i-extinction_i AS mag_i, psfmag_r-extinction_r AS mag_r, z FROM SpecPhoto AS sp INNER JOIN FIRST AS f ON sp.objid = f.objid WHERE (class = #) and (sp.i< #)"
+2019-04-25 14:55:00,1

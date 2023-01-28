@@ -1,0 +1,2 @@
+1,"SELECT u.up_name as [name], x.objID,     s.plate, s.mjd, s.fiberid,    s.z, s.dered_r,    p.rest_ug, p.rest_gr FROM Photoz AS p JOIN SpecPhotoAll AS s ON s.objID = p.objID"
+2019-01-12 09:42:00,1

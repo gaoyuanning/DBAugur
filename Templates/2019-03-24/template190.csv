@@ -1,0 +1,2 @@
+1,"SELECT Fun.objID,  P.ra, P.dec,  P.u, P.g, P.r, P.i, P.z, P.err_u, P.err_g, P.err_r, P.err_i, P.err_z, Photoz.z, Photoz.zErr, Fun.type FROM fGetNearbyObjEq(#,#,#.) Fun, PhotoObjAll P, Photoz  WHERE (Fun.objID=P.objID AND Fun.objID=Photoz.objID AND Fun.type= #)"
+2019-03-24 18:23:00,1

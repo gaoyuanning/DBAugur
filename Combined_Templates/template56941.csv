@@ -1,0 +1,2 @@
+1,"select z.specobjid, p.petrorad_u, s.z into mydb.test_t from zoo2MainSpecz z join photoobjall p on p.specobjid = z.specobjid join specobjall s on s.specobjid = z.specobjid where z.t0#_odd_feature_a2#_disturbed_debiased < z.t0#_odd_feature_a2#_irregular_debiased and z.t0#_odd_feature_a2#_irregular_debiased > # and z.t0#_odd_feature_a2#_irregular_flag < > #"
+2019-08-12 09:26:00,1

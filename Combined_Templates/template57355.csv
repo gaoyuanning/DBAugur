@@ -1,0 +1,4 @@
+3,"select s.ra , s.dec, s.z, p.petroMag_r from SpecObjAll as s, PhotoObjAll as p into MyDB.test7# where p.objID = s.BestObjID and s.ra between # and # and s.z between # and #"
+2019-08-13 06:19:00,1
+2019-08-13 06:20:00,1
+2019-08-13 06:21:00,1

@@ -1,0 +1,2 @@
+1,"select ra,dec,z,logMass into mydb.MyTable_#jan from stellarMassPassivePort"
+2019-01-23 06:45:00,1

@@ -1,0 +1,2 @@
+2,SELECT COUNT(*) INTO mydb.count1 FROM SpecObj AS s
+2019-08-08 10:12:00,2

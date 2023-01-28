@@ -1,0 +1,2 @@
+1,"select *,dbo.topoint(ra,dec) as pt   into ataptable from tapsampletable"
+2019-10-09 14:19:00,1

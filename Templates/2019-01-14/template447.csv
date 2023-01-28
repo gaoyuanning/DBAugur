@@ -1,0 +1,2 @@
+1,"select      O.apogee_id, O.target_id, O.ra, O.dec, P.o_fe, P.o_fe_err  into mydb.chemistry  from apogeeObject as O, aspcapStar as P  where O.target_id = P.target_id"
+2019-01-14 10:09:00,1

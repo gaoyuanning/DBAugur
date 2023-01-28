@@ -1,0 +1,2 @@
+2,"select top # p.objid, p.flags from PhotoPrimary p where p.type = # and p.flags = #"
+2019-09-10 04:50:00,2

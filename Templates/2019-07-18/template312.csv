@@ -1,0 +1,2 @@
+1,"select   cntr_#,pang_x,name_#,ra_#,dec_#,ra,dec,w1mpro,w1sigmpro,w1snr,w2mpro,w2sigmpro,w2snr,w3mpro,w3sigmpro,w3snr,w4mpro,w4sigmpro,min(dist_x) as dist_x into mydb.MyTable_# from MyDB.NonMasers group by cntr_# order by cntr_#"
+2019-07-18 13:12:00,1

@@ -1,0 +1,2 @@
+1,"select   myt.objId, myt.specObjID, zoo.p_cs_debiased, zoo.p_el_debiased,    po.fracDeV_u,   po.fracDeV_g,  po.fracDeV_r,  po.fracDeV_i,  po.fracDeV_z   el.bptclass from   myDB.galWS myt, galSpecExtra el, PhotoObjAll po, zooSpec zoo where   el.specObjId = myt.specObjID and   po.objID = myt.objID"
+2019-10-09 15:54:00,1

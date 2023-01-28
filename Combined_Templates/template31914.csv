@@ -1,0 +1,2 @@
+1,select distinct (key) from clinical_event_data
+2019-04-20 19:47:00,1

@@ -1,0 +1,2 @@
+1,"SELECT G.objID, G.ra, G.dec into mydb.x  from PhotoObjAll as G from MyDB.MyTable as M   JOIN dbo.fGetNearbyObjEq(M.RA,M.DEC,#) AS GN   ON  G.type=#"
+2019-12-31 00:47:00,1

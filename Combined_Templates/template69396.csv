@@ -1,0 +1,2 @@
+2,"select max (p_el+p_cw+p_acw+p_edge+p_dk+p_mg-#) , min (p_el+p_cw+p_acw+p_edge+p_dk+p_mg-#) , max (p_cw+p_acw+p_edge-p_cs) , min (p_cw+p_acw+p_edge-p_cs) from MyTable_Zoo"
+2019-10-13 03:57:00,2

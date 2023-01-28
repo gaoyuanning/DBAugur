@@ -1,0 +1,2 @@
+1,"select s.specObjID, s.ra, s.dec, s.mstellar_median, s.z from stellarMassPCAWisc s, SpecObj g where g.specObjID = s.specObjID and g.class = # and g.subclass = # and s.mstellar_median < = # and s.warning = #"
+2019-04-08 17:12:00,1

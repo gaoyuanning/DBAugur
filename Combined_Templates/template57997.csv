@@ -1,0 +1,3 @@
+2,"SELECT ra, dec, z, z_person, class, subClass INTO mydb.sdss1#qsogal2 FROM SpecObj WHERE ( (class = # AND subClass! =# AND subClass! =#) OR (class = #) ) AND zWarning = # AND zErr> =#"
+2019-08-16 02:48:00,1
+2019-08-16 02:49:00,1

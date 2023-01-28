@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjId, ra, dec, class, subclass, survey, programname, z, zErr, fiberMag_g, fiberMagErr_g FROM SpecPhotoAll WHERE ra = #:#:# and dec = #:#:#"
+2019-09-29 20:56:00,1

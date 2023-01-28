@@ -1,0 +1,21 @@
+20,"select p.objid, p.ra, p.dec, p.dered_u, p.dered_g, p.dered_r, p.dered_i, p.dered_z, p.err_u, p.err_g, p.err_r, p.err_i, p.err_z, c.z, c.zErr, c.photoErrorClass, str (p.dered_u - p.dered_g, #, #) as ugModelColor, str (p.dered_g - p.dered_r, #, #) as grModelColor, str (p.dered_r - p.dered_i, #, #) as riModelColor, str (p.dered_i - p.dered_z, #, #) as izModelColor from Galaxy p, dbo.fgetNearByObjEq (#, #, #) n, Photoz c where p.objid = n.objid AND c.objID = p.objID AND c.z > # AND c.z < #"
+2019-09-06 22:53:00,1
+2019-09-06 22:57:00,1
+2019-09-06 22:58:00,1
+2019-09-06 22:59:00,1
+2019-09-06 23:01:00,1
+2019-09-06 23:02:00,1
+2019-09-06 23:04:00,1
+2019-09-07 01:16:00,1
+2019-09-07 01:18:00,1
+2019-09-07 01:20:00,1
+2019-09-07 01:22:00,1
+2019-09-07 01:24:00,1
+2019-09-07 01:26:00,1
+2019-09-07 01:31:00,1
+2019-09-07 01:35:00,1
+2019-09-07 01:36:00,1
+2019-09-07 01:38:00,1
+2019-09-07 01:39:00,1
+2019-09-07 01:41:00,1
+2019-09-07 01:43:00,1

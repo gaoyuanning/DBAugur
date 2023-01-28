@@ -1,0 +1,2 @@
+1,"select specObjID, ra, dec, zconf from specObj where zconf > .# AND SpecClass = #"
+2019-04-10 12:37:00,1

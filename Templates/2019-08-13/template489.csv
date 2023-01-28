@@ -1,0 +1,2 @@
+1,"select   o.cntr_#,o.dist_x,o.pang_x,o.mcpnum_#,o.name_#,o.ra_#,o.dec_#,o.ra,o.dec,o.w1mpro,o.w1sigmpro,o.w1snr,o.w2mpro,o.w2sigmpro,o.w2snr,o.w3mpro,o.w3sigmpro,o.w3snr,o.w4mpro,o.w4sigmpro into mydb.MyTable_# from MyDB.Masers_WISEfinalresults as o    cross join   MyDB.MaserDistances as n where   o.mcpnum_#=n.mcp_num_Jun1#"
+2019-08-13 11:25:00,1

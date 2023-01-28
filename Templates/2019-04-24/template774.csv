@@ -1,0 +1,2 @@
+1,"select round(x/@bin,#)*@bin, count(ID) --into myhistogram --from data --group by round(x/@bin,#)*@bin --order by #    -- select * from Runs where RunID = # --select * from Users where UserID = #    --select * from Users --where UserID in ( --select distinct UserID  --from RunID where in (select top # RunID from data order by ID asc) --)    select top # u.*, d.ID, r.RunID from data as d   join runs r on r.RunID=d.RunID   join users u on u.UserID = r.UserID   where X #   order by d.ID asc"
+2019-04-24 13:03:00,1

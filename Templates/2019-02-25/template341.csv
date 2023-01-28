@@ -1,0 +1,4 @@
+3,"SELECT    p.objid, p.ra, p.dec,   p.run, p.rerun, p.camcol, p.field,   p.petroMag_g, p.extinction_g,   p.petroMag_r, p.extinction_r,   s.specobjid, s.z,   s.plate, s.mjd, s.fiberid INTO mydb.cfhtW2   FROM PhotoPrimary AS p      JOIN SpecObjAll AS s ON s.bestobjid = p.objid      WHERE (p.ra<#. and p.ra>#.) and (p.dec<#. and p.dec>#.) and p.mode = # and s.sciencePrimary = #      and s.class = &&& and p.petroMag_r-p.extinction_r<=#."
+2019-02-25 14:39:00,1
+2019-02-25 14:45:00,1
+2019-02-25 15:56:00,1

@@ -1,0 +1,2 @@
+1,select * from servers where name like '%DR1#%
+2019-03-04 16:15:00,1

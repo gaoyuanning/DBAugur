@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, objid, nChild, psfMag_u, psfMagErr_u, psfMag_g, psfMagErr_g, psfMag_r, psfMagErr_r, psfMag_i, psfMagErr_i, psfMag_z, psfMagErr_z, extinction_u, extinction_g, extinction_r, extinction_i, extinction_z into mydb.S8#_dr8 from PhotoObjAll WHERE (ra between # and #) AND (dec between # and #) AND (clean = #) AND (mode = #) AND (type = #) AND (psfMag_u > #) AND (psfMag_u < #)"
+2019-03-10 06:41:00,1

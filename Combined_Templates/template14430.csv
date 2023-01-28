@@ -1,0 +1,2 @@
+2,"SELECT survey , count (bestObjID) FROM SpecObj WHERE class = # and zWarning = #"
+2019-02-26 19:47:00,2

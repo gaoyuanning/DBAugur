@@ -1,0 +1,5 @@
+5,"select psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z, z from PhotoObjAll where b > # and z > #"
+2019-12-10 00:54:00,1
+2019-12-10 01:57:00,1
+2019-12-10 02:00:00,2
+2019-12-10 02:05:00,1

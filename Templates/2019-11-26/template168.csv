@@ -1,0 +1,7 @@
+156,"SELECT p.objID,p.ra,p.dec,p.run,p.rerun,p.camcol,p.field,p.type,p.z,p.zErr,p.zWarning,p.class,p.subClass,p.survey,p.programname FROM dbo.fGetNearbyObjEq(#,#,#) as b, BESTDR1#..SpecPhotoAll as p WHERE b.objID = p.objID"
+2019-11-26 16:28:00,1
+2019-11-26 16:29:00,27
+2019-11-26 16:30:00,35
+2019-11-26 16:31:00,35
+2019-11-26 16:32:00,35
+2019-11-26 16:33:00,23

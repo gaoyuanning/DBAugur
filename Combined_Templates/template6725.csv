@@ -1,0 +1,2 @@
+1,"select objID, specObjID, ra, dec, run, rerun, field, camcol, z, zErr into mydb.MyTable_# from dbo.specPhotoAll where class = # and objID is not #"
+2019-01-29 07:56:00,1

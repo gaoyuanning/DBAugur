@@ -1,0 +1,2 @@
+2,"SELECT TOP #   s.ra, s.dec, s.plate, s.mjd, s.fiberID, s.z, s.modelMag_u, s.modelMag_g, s.modelMag_r, s.modelMag_i, s.modelMag_z, s.modelMagErr_u, s.modelMagErr_g, s.modelMagErr_r, s.modelMagErr_i, s.modelMagErr_z, s.fiberMag_u, s.fiberMag_g, s.fiberMag_r, s.fiberMag_i, s.fiberMag_z, s.fiberMagErr_u, s.fiberMagErr_g, s.fiberMagErr_r, s.fiberMagErr_i, s.fiberMagErr_z, s.zWarning, s.Class from SpecPhotoAll s into mydb.DR1#G2   WHERE s.modelMag_r >= #. and s.modelMag_r <=#. and s.z >= # and s.z <= # and s.Class = &&& and zWarning = #"
+2019-08-05 08:44:00,2

@@ -1,0 +1,2 @@
+1,"select a.artistid, a.name, count (b.albumid) as numAlbum from chinook.artist a inner join chinook.album b on b.artistid = a.artistid group by a.artistid, a.name order by numAlbum desc"
+2019-03-30 10:49:00,1

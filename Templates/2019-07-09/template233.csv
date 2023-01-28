@@ -1,0 +1,2 @@
+1,"SELECT * objID,type,dec,ra,u,g,r,i,z FROM Galaxy WHERE  type=#"
+2019-07-09 14:47:00,1

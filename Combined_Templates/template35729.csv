@@ -1,0 +1,2 @@
+1,"SELECT zs.ra, zs.dec, p.ra, p.dec, p.g, p.r, zs.spiral, zs.elliptical FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN zooSpec AS zs ON zs.objid = p.objid WHERE s.class = # AND p.r BETWEEN # and #"
+2019-04-30 11:54:00,1

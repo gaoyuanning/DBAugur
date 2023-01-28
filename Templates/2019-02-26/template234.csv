@@ -1,0 +1,6 @@
+5,"SELECT TOP #  s.z,s.zErr,p.dec,p.err_g,p.err_r,p.g,p.r,cast(str(p.ra,#,#) as float) as ra  FROM ..SpecObj as s  JOIN ..PhotoObj AS p ON s.bestObjID = p.objID  JOIN dbo.fGetNearbySpecObjEq(#,#,#) AS b ON b.SpecobjID = S.SpecobjID  WHERE s.z > # AND s.zWarning = # AND (s.class = &&&) AND s.z < # AND p.r > # AND p.r < # AND ( p.type = #) AND (s.primTarget & (dbo.fPrimTarget(&&&)) > #)"
+2019-02-26 16:21:00,1
+2019-02-26 16:23:00,1
+2019-02-26 16:28:00,1
+2019-02-26 16:45:00,1
+2019-02-26 16:46:00,1

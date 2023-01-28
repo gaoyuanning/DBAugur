@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra, dec, modelMag_u , modelMag_g , modelMag_r, modelMag_i, modelMag_z, z into mydb.MyTable_# from PhotoObj WHERE z BETWEEN # AND # AND dec BETWEEN # AND # AND ra BETWEEN # AND # AND modelMag_u BETWEEN # AND # AND modelMag_g BETWEEN # AND # AND modelMag_r BETWEEN # AND # AND modelMag_i BETWEEN # AND # AND modelMag_z BETWEEN # AND #"
+2019-10-01 13:58:00,1

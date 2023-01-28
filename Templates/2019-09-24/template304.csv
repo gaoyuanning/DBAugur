@@ -1,0 +1,2 @@
+1,"select distinct eid,count(distinct eid)  from r2#.summary_information_diagnoses_  cross apply openjson(Diagnoses_main_ICD1#_#) j cross apply openjson(Diagnoses_secondary_ICD1#_#) h where j.value is NOT NULL or       h.value is NOT NULL"
+2019-09-24 14:27:00,1

@@ -1,0 +1,2 @@
+1,"SELECT    p.objOD,p.ra,p.dec,p.dered_u,p.dered_g,p.dered_r,p.dered_i,p.dered_z,   s.specobjid, s.class, s.z as redshift into mydb.MyTable from PhotoObjAll AS p   JOIN SpecObj AS s ON s.bestobjid = p.objOD WHERE     redshift BETWEEN # AND #    AND s.class=GALAXY&&&"
+2019-02-16 18:59:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP   p.u, p.g, p.r, p.i, s.class FROM PhotoObj AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE     (s.class = &&& OR s.class = &&& OR s.class = &&&)"
+2019-11-05 11:51:00,1

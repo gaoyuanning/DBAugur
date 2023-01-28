@@ -1,0 +1,2 @@
+1,"select objID, petroMag_g, petroMag_r, petroR5#_r, petroR9#_r into mydb.MyTable from PhotoObj where z<#"
+2019-05-27 03:38:00,1

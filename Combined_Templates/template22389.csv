@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, u, g, r, i, u-g, r-i, g-r, type, petroMag_u, petroMag_g, petroMag_r, petroMag_i, petroMag_z, petroRad_u, petroRad_g, petroRad_i, petroRad_z FROM Galaxy AS p JOIN SpecObj AS s ON s.bestObjID = p.objID WHERE r < # -- r IS NOT deredenned"
+2019-03-22 19:51:00,1

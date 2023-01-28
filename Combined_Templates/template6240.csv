@@ -1,0 +1,2 @@
+1,"SELECT TOP # into mydb.QSO_sdssXallwise wiseXsdss.sdss_objid, wiseXsdss.wise_cntr, match_dist, sdss_best.ra, sdss_best.dec, sdss_best.specObjID, sdss_best.instrument, sdss_best.class, sdss_best.subClass, sdss_best.z, sdss_best.zErr, allwise.ra, allwise.dec, FROM WISE_xmatch wiseXsdss JOIN WISE_allsky allwise ON wiseXsdss.wise_cntr = allwise.cntr JOIN SpecObj sdss_best on wiseXsdss.sdss_objid = sdss_best.bestObjID WHERE sdss_best.class = # AND sdss_best.zWarning = #"
+2019-01-25 06:21:00,1

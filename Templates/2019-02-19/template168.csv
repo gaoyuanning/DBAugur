@@ -1,0 +1,2 @@
+1,"select survey, count(*) from specobjall where zWarning = #   and class = &&&  group by #"
+2019-02-19 17:28:00,1

@@ -1,0 +1,2 @@
+1,"select Sp.dr7ObjID as dr7ID, Sp.SpecObjID as specobjID into mydb.MyTable from SpecDR7 as Sp   left outer join mydb.Simard_S8# as smd   on Sp.dr7ObjID=smd.dr7_objID"
+2019-06-11 02:09:00,1

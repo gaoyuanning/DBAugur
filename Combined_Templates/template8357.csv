@@ -1,0 +1,2 @@
+1,"SELECT sp.zWarning, sp.class, sp.subClass, sp.rChi2, sp.DOF, sp.rChi2Diff, sp.z_noqso, sp.zErr_noqso, sp.zWarning_noqso, sp.class_noqso, sp.subClass_noqso, sp.rChi2Diff_noqso, sp.z_person, sp.class_person, sp.comments_person, sp.tFile, sp.tColumn_#, sp.tColumn_#, sp.tColumn_#, sp.tColumn_# into mydb.DR1#_sp_# from SpecObj AS sp WHERE z BETWEEN #. AND #. AND class = #"
+2019-02-05 12:00:00,1

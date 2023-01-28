@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.r, p.r-#*log1# (#E+#*s.z) +# as abs_r FROM PhotoObj p, SpecObj s WHERE s.z < > # AND p.type = # AND (abs_r > = # OR abs_r < = #)"
+2019-07-11 14:52:00,1

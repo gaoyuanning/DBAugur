@@ -1,0 +1,3 @@
+2,"select l.AGCNr as AGCNr, l.RAdeg_OC as ra, l.DECdeg_OC as dec, l.Vhelio as Vhelio, l.Dist as Dist, l.z as HI_z, N.objID as objID, N.run, N.camcol, N.field, N.rerun, N.type, N.cx, N.cy, N.cz, N.htmID, N.distance, (N.distance*#*l.Dist) /# as distance_Mpc, Z.z as photo_Near_z into mydb.MyTable from mydb.edge_lsbg_# l cross apply dbo.fGetNearbyObjEq (l.RAdeg_OC, l.DECdeg_OC, #) N JOIN photoZ as Z on N.objID = Z.objID WHERE Z.z > = (l.z-#* (#+l.z) ) and Z.z < = (l.z+#* (#+l.z) ) and (N.distance*#*l.Dist) /# < = # order by N.distance"
+2019-11-08 11:45:00,1
+2019-11-08 11:46:00,1

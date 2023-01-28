@@ -1,0 +1,15 @@
+21,"select p.ra,p.dec,p.g,p.r,p.type from photoobjall p where p.ra between # and # and p.dec between # and # --  select p.ra,p.dec,p.g,p.r,p.type from photoobjall p where p.ra between # and # and p.dec between # and #  --   #	#	#	#	#	#	# -#	#	#	#	#	#	#      -#	#	#	#	#	#	#       --   #	#	#	#	# -- select * from plateX where plate=#"
+2019-02-15 15:25:00,3
+2019-02-15 15:26:00,3
+2019-02-15 15:27:00,1
+2019-02-15 15:29:00,2
+2019-02-15 15:31:00,1
+2019-02-15 15:35:00,1
+2019-02-15 15:38:00,1
+2019-02-15 15:40:00,1
+2019-02-15 15:41:00,1
+2019-02-15 15:43:00,2
+2019-02-15 15:44:00,2
+2019-02-15 15:45:00,1
+2019-02-15 15:47:00,1
+2019-02-15 15:49:00,1

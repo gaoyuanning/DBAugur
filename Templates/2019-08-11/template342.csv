@@ -1,0 +1,2 @@
+2,"SELECT top # objID, ra, dec, u, g, r, I, z  FROM Star  WHERE   CLEAN=#"
+2019-08-11 00:27:00,2

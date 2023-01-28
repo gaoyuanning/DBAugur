@@ -1,0 +1,27 @@
+27,"SELECT up_id, dbo.fGetNearestObjIdEq (up_ra, up_dec, up_sep) as objId FROM #upload WHERE dbo.fGetNearestObjIdEq (up_ra, up_dec, up_sep) IS NOT # SELECT TOP # p.ra, p.dec, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, IS# (s.z, #) as redshift FROM ..PhotoObj AS p LEFT OUTER JOIN ..SpecObj s ON p.objID = s.bestObjID JOIN #x AS x ON x.objID = p.objID JOIN #upload AS u ON u.up_id = x.up_id WHERE (p.type = # OR p.type = #) ORDER BY x.up_id"
+2019-03-21 23:31:00,2
+2019-03-21 23:46:00,1
+2019-03-26 13:20:00,1
+2019-03-26 13:22:00,1
+2019-03-26 14:00:00,1
+2019-03-26 14:11:00,1
+2019-03-26 14:22:00,1
+2019-03-26 14:24:00,1
+2019-03-26 14:25:00,1
+2019-03-26 14:27:00,1
+2019-03-26 14:36:00,1
+2019-03-26 14:47:00,1
+2019-03-26 15:04:00,1
+2019-03-26 15:12:00,1
+2019-03-26 18:09:00,1
+2019-03-26 18:16:00,1
+2019-03-26 18:33:00,1
+2019-03-26 18:41:00,1
+2019-03-26 18:52:00,1
+2019-03-26 21:14:00,1
+2019-03-26 21:20:00,1
+2019-03-26 21:22:00,1
+2019-03-26 21:26:00,1
+2019-03-26 21:35:00,1
+2019-03-26 21:52:00,1
+2019-03-31 12:51:00,1

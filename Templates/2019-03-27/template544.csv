@@ -1,0 +1,2 @@
+2,"select      t.Host_name Host_name,   t.redshift_gal redshift_gal,   t.Type_SN Type_SN,   t.z_SN z_SN,   t.r_arcmin r_arcmin   into mydb.test3# from mydb.OpenSN_withcontaminants t      where t.AGN1=&&&"
+2019-03-27 08:04:00,2

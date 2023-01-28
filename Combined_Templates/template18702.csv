@@ -1,0 +1,2 @@
+3,"SELECT TOP # (.#* (p.g - p.r) +.#) as Color, ( (p.g+.#* (p.g-p.r) +.#) - #* (LOG (# * # * (s.z/#) , #) #) ) as AbsMagnitude FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE s.class = # AND (# * (s.z/#) )< # AND (# * (s.z/#) )> #"
+2019-03-08 18:19:00,3

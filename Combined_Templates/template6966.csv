@@ -1,0 +1,4 @@
+3,"SELECT TOP # p.cModelMag_r, p.cModelMagErr_r FROM BESTDR1#..PhotoObj AS p WHERE p.r > # AND (p.type = # OR p.type = #)"
+2019-01-30 13:59:00,1
+2019-01-30 14:00:00,1
+2019-01-30 14:16:00,1

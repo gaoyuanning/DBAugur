@@ -1,0 +1,4 @@
+3,"SELECT TOP # p.ra, p.dec, p.dered_u, p.dered_r, s.z FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE (class = &&&) AND s.z BETWEEN # AND # AND s.zWarning = #"
+2019-05-07 14:04:00,1
+2019-05-07 14:05:00,1
+2019-05-07 14:06:00,1

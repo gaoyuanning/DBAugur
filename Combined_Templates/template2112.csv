@@ -1,0 +1,2 @@
+1,select rand (#) from specobjall group by specClass
+2019-01-10 06:49:00,1

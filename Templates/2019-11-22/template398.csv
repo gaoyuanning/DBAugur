@@ -1,0 +1,2 @@
+1,"SELECT   &&&<a target=INFO href=http://skyserver.sdss.org/DR1#/en/tools/explore/obj.aspx?id=&&& + cast(x.objId as varchar(#)) + &&&>&&&+ cast(x.objId as varchar(#)) + &&&</a>&&& as objID, p.ra, p.dec, dbo.fPhotoTypeN(p.type) as type FROM #upload u  JOIN #x x ON x.up_id = u.up_id  JOIN PhotoObjAll p ON p.objID = x.objID  FROM Galaxy AS G  JOIN Star AS S  ON G.parentID = S.parentID WHERE p.psfMAG_r <= # AND p.clean = # ORDER by x.up_id &&&#', @log=#, @filter=#"
+2019-11-22 13:35:00,1

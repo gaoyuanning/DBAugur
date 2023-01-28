@@ -1,0 +1,2 @@
+1,"SELECT f.mjd_u, p.u, p.g, p.r, p.i, p.z, p.ra, p.dec, p.objID FROM photoObj p JOIN field f ON p.fieldid = f.fieldid WHERE type = # AND p.ra BETWEEN # AND # AND p.dec BETWEEN # AND # ORDER BY f.mjd_u GROUP BY f.mjd_u"
+2019-05-21 12:53:00,1

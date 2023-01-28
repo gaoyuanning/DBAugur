@@ -1,0 +1,2 @@
+1,"SELECT gal.objID, s.ra, s.dec, s.run, s.rerun, s.camcol, s.field, s.obj, gal.photozcc2, gal.photozerrcc2, gal.photozd1, gal.photozerrd1,    gal.flag, s.deVAB_g, s.expAB_g, s.dered_g,s.dered_r,s.dered_i into mydb.dr7_photoz2_zpt0#_zpt0#    from Photoz2 gal  JOIN Galaxy s ON s.objID = gal.objID       WHERE gal.photozcc2 BETWEEN # AND #"
+2019-07-17 03:35:00,1

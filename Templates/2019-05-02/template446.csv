@@ -1,0 +1,2 @@
+1,"SELECT top # ra, dec into mydb.MyTable from star order by rand() limit # where     ra > #. and ra < # and dec > # and dec < #"
+2019-05-02 13:33:00,1

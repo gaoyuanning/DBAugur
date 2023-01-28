@@ -1,0 +1,4 @@
+5,"select ra, dec, objid from photoobjall where ra between # and # and dec between # and #"
+2019-09-26 07:26:00,1
+2019-09-26 07:27:00,3
+2019-09-26 07:28:00,1

@@ -1,0 +1,2 @@
+1,"SELECT m.specobjid,s.plate,s.mjd,s.fiberID,   L.h_alpha_eqw,L.h_alpha_eqw_err,   L.nii_#_eqw,L.nii_#_eqw_err,   L.h_beta_eqw,L.h_beta_eqw_err,   L.h_delta_eqw,L.h_delta_eqw_err,   L.oiii_#_eqw,L.oiii_#_eqw_err  into Mydb.Coma_eqw_rahul2 from Mydb.Coma_rahul as m, SpecObjAll as s, galSpecLine as L WHERE m.specobjid = s.specobjid     and s.specObjID = L.specObjID"
+2019-09-09 06:51:00,1

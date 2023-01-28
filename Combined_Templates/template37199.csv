@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.ObjID, FROM, Galaxy as G, WHERE, G.lnlDev_r> G.lnlExp_r+#"
+2019-05-06 07:33:00,1

@@ -1,0 +1,2 @@
+1,"SELECT dr7objid, dr8objid into mydb.MyTable_# from PhotoObjDR7 WHERE type < # and type > #"
+2019-06-23 15:58:00,1

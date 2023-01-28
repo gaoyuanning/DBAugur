@@ -1,0 +1,2 @@
+2,"select s.specObjID , s.ra , s.dec , s.z , s.zErr , s.class , s.cModelMag_i into mydb.BOSSDR1#_SpeczObject from SpecPhoto as s where s.zWarning = # AND s.z > # AND s.zErr/ (#+s.z) < # AND s.z < # AND s.sciencePrimary> #"
+2019-09-13 09:05:00,2

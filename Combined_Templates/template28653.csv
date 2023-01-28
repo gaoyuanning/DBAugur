@@ -1,0 +1,2 @@
+1,"select z as RedShift, # as Count from specobj where class = # and zwarning = # and (z > = # and z < #)"
+2019-04-09 20:20:00,1

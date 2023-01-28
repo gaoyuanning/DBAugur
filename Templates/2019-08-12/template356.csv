@@ -1,0 +1,2 @@
+1,select z.specobjid into mydb.MyTable from PhotoObj p
+2019-08-12 09:44:00,1

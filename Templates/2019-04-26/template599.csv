@@ -1,0 +1,2 @@
+1,"SELECT objid, ra, dec, r, err_r, nObserve, nDetect, mjd  FROM PhotoObj      WHERE     run BETWEEN # and #"
+2019-04-26 05:44:00,1

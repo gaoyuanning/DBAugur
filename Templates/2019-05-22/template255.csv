@@ -1,0 +1,2 @@
+1,select MatchMaxDistance=max(distance) into mydb.Stripe8#max from match
+2019-05-22 14:14:00,1

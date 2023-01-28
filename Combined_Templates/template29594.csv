@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.modelmag_z - p.extinction_z as magModel_z_DR7, p.fibermag_z - p.extinction_z as magFiber_z_DR7 INTO myDB.mags_DR1# FROM DR1#.PhotoObj as d, DR7.PhoObj as s, DR1#.SpecObj as sd, DR7.SpecObj as ss WHERE sd.z < = # AND sd.z > = # AND sd.plate = ss.plate AND sd.mjd = ss.mjd AND sd.fiberid = ss.fiberid AND d.bestObjID = sd.bestObjID AND s.bestObjID = ss.bestObjID"
+2019-04-12 14:02:00,1

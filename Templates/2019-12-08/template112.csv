@@ -1,0 +1,2 @@
+1,"select statement: ,# #,#,#,#,#,#,#,#/#/# #:#:# PM,#,#.#,skyserver.sdss.org,SDSS3S,BestDR3,public,#,#,#,select * from SpecLine where specObjId=#  ,#,,# #,#,#,#,#,#,#,#/#/# #:#:# PM,#,#.#,cas.sdss.org,SDSS3S,BestDR3,public,#,#,#,select * from SpecLine where specObjId=#  ,#,,# #,#,#,#,#,#,#,#/#/# #:#:# PM,#,#.#,skyserver.sdss.org,SDSS3S,BestDR7,public,#E-#,#,#,SELECT  top # &&& + cast(p.objId as varchar(#)) + &&& + cast(p.objId as varchar(#)) + &&& as objID"
+2019-12-08 21:05:00,1

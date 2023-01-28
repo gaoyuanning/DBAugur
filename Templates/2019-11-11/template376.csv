@@ -1,0 +1,3 @@
+2,"SELECT TOP #  s.eboss_target_id  FROM ..SpecObj as s  JOIN dbo.fGetNearbySpecObjEq(#,#,#) AS b ON b.SpecobjID = S.SpecobjID  WHERE s.zWarning = # AND (s.class = &&&)"
+2019-11-11 05:54:00,1
+2019-11-11 05:55:00,1

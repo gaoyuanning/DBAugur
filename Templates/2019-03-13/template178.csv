@@ -1,0 +1,3 @@
+4,"SELECT s.ra, s.dec, s.dered_g as g, s.dered_r as r, s.err_g, s.err_r, s.flags FROM dbo.fGetNearbyObjEq(#, #, #) AS n JOIN Star AS s ON n.objID = s.objID"
+2019-03-13 18:54:00,1
+2019-03-13 18:56:00,3

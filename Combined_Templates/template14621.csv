@@ -1,0 +1,2 @@
+1,"SELECT TOP # sp.ra, sp.dec, sp.z, sp.modelMag_u, sp.modelMag_g, sp.modelMag_r, sp.modelMag_i, sp.modelMag_z, PZ.objId, PZ.z, PZ.zErr, P.ra, P.dec, P.u, P.g, P.r, P.i, P.z, PZ.synthU, PZ.synthG, PZ.synthU, PZ.absMagR, PZ.synthI, PZ.synthZ, PZ.absMagG, PZ.absMagR, PZ.absMagI, PZ.absMagZ FROM Photoz as PZ, SpecPhoto AS sp, Neighbors as N JOIN PhotoObj AS P ON PZ.ObjID = P.ObjID"
+2019-02-26 11:15:00,1

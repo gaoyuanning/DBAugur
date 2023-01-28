@@ -1,0 +1,2 @@
+1,"SELECT TOP # m.RA AS akari_ra, m.DEC AS akari_dec FROM MyDB.akari AS m"
+2019-08-06 05:34:00,1

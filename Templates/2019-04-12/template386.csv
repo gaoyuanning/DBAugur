@@ -1,0 +1,2 @@
+1,"SELECT specObjID, ra, dec, z, zErr, class INTO mydb.MySpecObjAll FROM SpecObjAll"
+2019-04-12 07:16:00,1

@@ -1,0 +1,2 @@
+1,"SELECT galaxies.ra, galaxies.dec, galaxies.z, zErr, galaxies.plate, galaxies.fiberID, lines.oiii_#_flux, lines.oiii_#_flux_err, lines.oiii_#_cont, lines.oiii_#_cont_err, lines.oiii_#_reqw, lines.oiii_#_reqw_err, lines.oiii_#_eqw, lines.oiii_#_eqw_err from galSpecLine lines, SpecObjAll galaxies where lines.specobjID = galaxies.specobjID and galaxies.Sourcetype = # and z> # and z< # and lines.oiii_#_cont > lines.oiii_#_cont_err and"
+2019-12-04 05:28:00,1

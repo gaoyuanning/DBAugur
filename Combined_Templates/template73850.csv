@@ -1,0 +1,11 @@
+12,"select source = run1, target = run2, weight = sum (cts) from astrometry.budavari.S8#r2# where type1 = # and type2 = # and arcsec< # and (run1> # and run2> #) and mid1 = mid2 group by run1, run2 having sum (cts) > # order by weight desc"
+2019-11-05 14:22:00,1
+2019-11-05 16:46:00,1
+2019-11-05 16:47:00,1
+2019-11-05 16:48:00,1
+2019-11-05 17:18:00,1
+2019-11-05 17:19:00,1
+2019-11-05 17:37:00,1
+2019-11-05 17:38:00,1
+2019-11-05 17:39:00,3
+2019-11-05 17:51:00,1

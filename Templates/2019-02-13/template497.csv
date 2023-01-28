@@ -1,0 +1,3 @@
+2,"select ra,dec,BestObjID from varchar AND class where ra BETWEEN # and # AND dec BETWEEN # and # AND class GALAXY"
+2019-02-13 15:29:00,1
+2019-02-13 15:30:00,1

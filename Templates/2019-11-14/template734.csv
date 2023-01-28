@@ -1,0 +1,2 @@
+1,"select specObjID,z,ra,dec ,mjd,plate,fiberID where mjd = # and plate = # and fiberID = # into mydb.MyTable"
+2019-11-14 12:24:00,1

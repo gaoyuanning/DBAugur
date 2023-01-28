@@ -1,0 +1,2 @@
+1,"SELECT   p.objid,p.ra,p.dec,p.u FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE  p.objid=# or p.objid=# or p.objid=# or p.objid=# or p.objid=# or p.objid=# or p.objid=# or p.objid=# or p.objid=# or p.objid=#"
+2019-05-11 03:50:00,1

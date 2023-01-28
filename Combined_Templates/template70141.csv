@@ -1,0 +1,2 @@
+1,"SELECT TOP # ga.objID, ga.ra, ga.dec, pp.profMean, pp.profErr FROM Galaxy AS ga JOIN PhotoProfile AS pp ON ga.objID = pp.objID"
+2019-10-17 23:09:00,1

@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.ra, p.dec, (p.petromag_g - p.extinction_g) as magPetro_g,     (p.petromag_r - p.extinction_r) as magPetro_r, (p.petromag_i - p.extinction_i) as magPetro_i, n.distance    INTO myDB.oneZw1#_#kpc  FROM dbo.fGetNearbyObjEq(#, #, #) as n, Galaxy as p  WHERE    n.objID = p.objID AND    p.type = # AND    (p.petromag_r - p.extinction_r) < # + # AND    (p.petromag_r - p.extinction_r) > #"
+2019-01-29 06:28:00,1

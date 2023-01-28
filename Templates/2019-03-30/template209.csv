@@ -1,0 +1,6 @@
+6,"SELECT TOP # p.ra,p.dec,p.run,p.rerun,p.camCol,p.field,p.obj,ISNULL(s.plate,#) as plate,ISNULL(s.mjd,#) as mjd,ISNULL(s.fiberid,#) as fiberid FROM BESTDR7..Star AS p LEFT OUTER JOIN BESTDR7..SpecObj s ON p.objID = s.bestObjID 	JOIN #x AS x ON x.objID=p.objID JOIN #upload AS u ON u.up_id = x.up_id   ORDER BY x.up_id"
+2019-03-30 15:17:00,1
+2019-03-30 15:31:00,1
+2019-03-30 15:37:00,1
+2019-03-30 15:38:00,2
+2019-03-30 15:39:00,1

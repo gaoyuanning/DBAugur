@@ -1,0 +1,2 @@
+1,"SELECT ALL s.specObjID, s.z, s.spectroFlux_g, s.spectroFlux_i, s.spectroFlux_r, s.spectroFlux_u, s.spectroFlux_z into mydb.MyTable_qso1 from SpecObj as s WHERE s.class = # AND (s.z between # AND #) AND (s.ra between # AND #) AND (s.dec between # AND #)"
+2019-07-23 14:13:00,1

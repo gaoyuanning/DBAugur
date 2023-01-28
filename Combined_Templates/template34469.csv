@@ -1,0 +1,3 @@
+2,"select ra, dec, z from specPhoto where z > # and class = GALAXY"
+2019-04-25 16:27:00,1
+2019-04-25 16:48:00,1

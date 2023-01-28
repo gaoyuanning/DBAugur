@@ -1,0 +1,2 @@
+1,"select top # objid, ra, dec from Galaxy where g< # and ra > # order by objid"
+2019-01-16 06:11:00,1

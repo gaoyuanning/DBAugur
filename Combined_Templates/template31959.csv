@@ -1,0 +1,5 @@
+21,"select Bytes, MilliSeconds from chinook.Track where MediaTypeId = #"
+2019-04-20 17:27:00,1
+2019-04-20 17:28:00,5
+2019-04-21 12:14:00,10
+2019-04-24 17:03:00,5

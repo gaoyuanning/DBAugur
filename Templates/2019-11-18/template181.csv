@@ -1,0 +1,2 @@
+1,"SELECT    p.objid,p.ra,p.dec,p.expRad_u,p.expRad_g,p.expRad_r,p.expRad_i, p.expRad_z, p.expRadErr_u,p.expRadErr_g,p.expRadErr_r,p.expRadErr_i,p.expRadErr_z, p.type_g, s.z, s.zErr  FROM PhotoObj AS p   JOIN SpecObj AS s ON s.bestobjid = p.objid  WHERE     AND p.type = #    AND probPSF = #    AND p.clean = #    AND s.z < #"
+2019-11-18 16:54:00,1

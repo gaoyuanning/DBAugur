@@ -1,0 +1,3 @@
+2,"SELECT m.EVCC as evcc, n.specObjID as specObjID, m.RA AS ra_evcc, m.Dec AS dec_evcc, o.ra AS ra_sdss, o.dec AS dec_sdss, n.distance as dist, o.bpt AS bpt, o.Flux_HeII_# as HeII, o.Flux_HeII_#_Err as HeII_err, o.Flux_OIII_# as OIII, o.Flux_OIII_#_Err as OIII_err, o.Flux_Hb_# as Hb, o.Flux_Hb_#_Err as Hb_err, o.Flux_OI_# as OI, o.Flux_OI_#_Err as OI_err, o.Flux_Ha_# as Ha, o.Flux_Ha_#_Err as Ha_err, o.Flux_NII_# as NII, o.Flux_NII_#_Err as NII_err, o.Flux_SII_# as SII, o.Flux_SII_#_Err as SII_err INTO mydb.evcc_elports FROM MyDB.EVCC AS m OUTER APPLY dbo.fGetNearestSpecObjAllEq (m.RA, m.Dec, #) AS n LEFT JOIN emissionLinesPort AS o ON n.specObjID = o.specObjID"
+2019-05-09 11:51:00,1
+2019-05-09 11:52:00,1

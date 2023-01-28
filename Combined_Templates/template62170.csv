@@ -1,0 +1,2 @@
+1,"select objID, ra, dec, z into mydb.MyTable_# from specObj where z between # and # and zWarning = # and class = #"
+2019-09-10 10:46:00,1

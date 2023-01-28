@@ -1,0 +1,3 @@
+3,"SELECT COUNT(*) into mydb.MyTable from DR7.Photoz as Z, DR7.PhotoObjAll as G WHERE Z.objID = G.Objid and G.type = # and Z.z != # and Z.z < # and G.petromag_r-G.extinction_r < # and Z.z - Z.zErr < #"
+2019-01-25 07:32:00,2
+2019-01-25 07:34:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # star.apstar_id, star.ra as star_ra, star.dec as star_dec FROM apogeeStar AS star"
+2019-03-29 13:29:00,1

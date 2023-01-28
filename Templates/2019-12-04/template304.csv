@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.ra,p.dec,   g.best_model_z,  s.z as redshift, s.class  FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid  JOIN galSpecIndx AS g ON g.specobjid = s.specobjid  JOIN zooSpec AS Z ON Z.specobjid = s.specobjid WHERE   s.z BETWEEN # AND #  AND g.lgm_tot_p5# > #  AND s.class = &&&"
+2019-12-04 12:58:00,1

@@ -1,0 +1,2 @@
+1,"SELECT s.SpecObjID, s.z, L.ew, L.ewErr, L.height, L.heightErr, p.petroMag_r, p.petroMagErr_r into mydb.NII from SpecObj as s JOIN SpecLine as L ON s.SpecObjID = L.specobjID JOIN SpecPhoto as p ON s.SpecObjID = p.specObjID WHERE L.lineID = # AND s.specClass = # AND L.ew/#if (L.ewErr, #) > #"
+2019-10-02 09:03:00,1

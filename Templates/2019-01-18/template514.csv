@@ -1,0 +1,2 @@
+1,"select a.objID,a.ra,a.dec,c.specObjID,b.z from PhotoObj as a, Photoz as b, stellarMassFSPSGranWideDust as c where a.specObjID = #"
+2019-01-18 08:04:00,1

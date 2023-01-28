@@ -1,0 +1,2 @@
+1,"select s.specObjID, s.ra, s.dec, s.z, s.plate, s.mjd, s.fiberid, s.run2d from galaxy g JOIN specObjAll s ON s.specObjID = g.specObjID where s.z < # AND (s.class = # AND s.subclass = #) OR (s.class = # AND s.subclass = #)"
+2019-07-25 15:26:00,1

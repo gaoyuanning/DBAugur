@@ -1,0 +1,2 @@
+1,"select description, name from ObjMask where name like &&&"
+2019-12-06 17:01:00,1

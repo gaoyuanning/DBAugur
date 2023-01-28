@@ -1,0 +1,2 @@
+1,"SELECT s.specobjid, s.bestobjid, s.firstrelease, s.survey, s.sourcetype, s.class, p.ra, p.raErr, p.dec, p.decErr, s.z, s.zErr, s.zwarning, p.r, p.i, p.g, p.dered_r, p.dered_i, p.dered_g, p.psfMag_g, p.petroMag_r, p.extinction_r, p.petroR5#_r, pz.z as photoz, pz.zErr as photozErr, pz.absMagG INTO mydb.GALAXY_RED_photoobj2 FROM specobj as s JOIN photoobj as p on p.objid = s.bestobjid JOIN photoz as pz on pz.objid = s.bestobjid WHERE (primtarget & dbo.fPrimTarget (#) > #) and (pz.z between # and #) and pz.absMagG between # and # and s.firstrelease = #"
+2019-12-11 00:10:00,1

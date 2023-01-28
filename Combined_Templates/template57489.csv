@@ -1,0 +1,2 @@
+1,"SELECT top # x.plate, x.mjd, s.fiberid, s.z, gal.objID, gal.u, gal.g, gal.r, gal.i, gal.z from Galaxy gal JOIN specObj s on s.bestObjID = gal.objID JOIN platex x on x.plateID = s.plateID WHERE s.class = # AND gal.g BETWEEN # AND # AND s.z < #"
+2019-08-14 20:23:00,1

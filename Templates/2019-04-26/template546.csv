@@ -1,0 +1,6 @@
+5,"SELECT p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,p.deVPhi_r,p.deVAB_r,s.z,q.z into mydb.MyTable_# from PhotoObjAll AS p  JOIN Photoz AS s ON p.objid = s.objid  JOIN SpecObjAll AS q ON p.specobjid = q.specobjid  WHERE  (((p.ra BETWEEN # AND #) AND (p.dec BETWEEN  # AND # )))   AND p.r<#"
+2019-04-26 07:38:00,1
+2019-04-26 07:40:00,1
+2019-04-26 07:42:00,1
+2019-04-26 07:44:00,1
+2019-04-26 07:45:00,1

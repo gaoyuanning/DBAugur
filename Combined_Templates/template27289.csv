@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec, cModelMag_g FROM Star WHERE (ra between # and #) and (dec between # and #) AND cModelMag_g between # and # GROUP BY class"
+2019-04-03 15:38:00,1

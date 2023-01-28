@@ -1,0 +1,3 @@
+3,"SELECT TOP # p.run,p.rerun,p.camCol,p.field,p.obj,ISNULL(s.img,#) as img FROM BESTDR7..PhotoObj AS p LEFT OUTER JOIN BESTDR7..SpecObj s ON p.objID = s.bestObjID 	JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = p.objID WHERE  ( p.type = # OR p.type = #)"
+2019-02-01 12:49:00,2
+2019-02-01 12:53:00,1

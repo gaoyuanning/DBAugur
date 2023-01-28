@@ -1,0 +1,3 @@
+2,"SELECT f.ID as FIRST_ID, f.RA as FIRST_ra, f.Dec as FIRST_dec, p.ra as SDSS_ra, p.dec as SDSS_dec into mydb.FIRST_RAShift_#arcmin from MyDB.FIRST_RA_Shift_#arcmin AS f CROSS APPLY dbo.fGetNearestObjEq (f.RA, f.Dec, #) AS x JOIN PhotoObjAll p ON x.objID = p.objID"
+2019-05-24 07:18:00,1
+2019-05-25 12:12:00,1

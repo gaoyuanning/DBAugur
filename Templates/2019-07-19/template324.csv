@@ -1,0 +1,2 @@
+1,"select   cntr_#,dist_x into mydb.MyTable_# from MyDB.NonMasers_WISEnd where   w1snr>#"
+2019-07-19 10:05:00,1

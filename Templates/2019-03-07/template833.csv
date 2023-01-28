@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.bestObjID,p.run,p.rerun,p.camCol,p.field,p.obj,str(p.ra,#,#) as ra,str(p.[dec],#,#) as dec,p.r FROM BESTDR9..SpecObj as s 	JOIN BESTDR9..PhotoObj AS p ON s.bestObjID = p.objID WHERE  s.z > # AND s.zWarning = # AND s.z < # AND ( p.type = # OR p.type = #) AND (s.primTarget & (dbo.fPrimTarget(&&&) + dbo.fPrimTarget(&&&) + dbo.fPrimTarget(&&&) + dbo.fPrimTarget(&&&) + dbo.fPrimTarget(&&&)) > #)"
+2019-03-07 08:21:00,1

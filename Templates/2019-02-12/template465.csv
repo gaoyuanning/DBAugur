@@ -1,0 +1,2 @@
+1,"select my.id, my.ra_s, my.dec_s, my.bmag, my.bvcolor, my.z_s, l.distance, p.z   cross apply dbo.fGetNearestObjEQ(my.ra_s, my.dec_s, #) as l   join PhotoPrimary as p on p.objid = l.objid into mydb.s2#_sdss_spec"
+2019-02-12 12:25:00,1

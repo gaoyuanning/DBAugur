@@ -1,0 +1,2 @@
+1,"select ra, dec, EXPTIME from ROSAT where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-01-29 10:05:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, fsps.logMass, fsps.age, fsps.metallicity, s.specobjid, s.class, s.z as redshift, pz.z as photoz FROM fGetNearbyObjEq (#, #, #) n JOIN PhotoObj AS p on p.objid = n.objid JOIN SpecObj AS s ON s.bestobjid = n.objid JOIN PhotoZ AS pz ON pz.objid = n.objid JOIN stellarMassFSPSGranWideDust as fsps ON s.specobjid = fsps.specobjid WHERE s.class = GALAXY"
+2019-03-27 05:00:00,1

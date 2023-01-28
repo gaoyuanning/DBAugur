@@ -1,0 +1,3 @@
+3,"SELECT ra, dec FROM galaxy WHERE ra BETWEEN # and # AND dec BETWEEN # and # SELECT z, zErr, absMagR FROM Photoz WHERE photoErrorClass = # and nnCount> # and zErr BETWEEN # and # SELECT round (absMagR, #) as absMagR, COUNT (*) as cnt FROM Photoz WHERE z BETWEEN # and # and photoErrorClass = # and nnCount> # and zErr BETWEEN # and # group by round (absMagR, #) order by round (absMagR, #)"
+2019-04-30 23:09:00,1
+2019-04-30 23:10:00,2

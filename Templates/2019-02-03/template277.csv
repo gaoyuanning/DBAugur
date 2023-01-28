@@ -1,0 +1,2 @@
+1,"SELECT * FROM dbo.fGetNearbyObjEq(#,#,#) as N"
+2019-02-03 10:14:00,1

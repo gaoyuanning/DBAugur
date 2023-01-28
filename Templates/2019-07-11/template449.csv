@@ -1,0 +1,2 @@
+1,"select count(distinct apogee_id,location_id) from apogeestar"
+2019-07-11 09:34:00,1

@@ -1,0 +1,2 @@
+1,select max (sfr_tot_p5#) from dr1#.galSpecExtra
+2019-09-17 09:08:00,1

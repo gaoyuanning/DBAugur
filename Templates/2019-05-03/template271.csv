@@ -1,0 +1,2 @@
+1,"select instrument as xcol, mag_u as ycol from MyTable"
+2019-05-03 12:22:00,1

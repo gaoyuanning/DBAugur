@@ -1,0 +1,2 @@
+1,"SELECT s.SpecObjID, s.z, s.fiberMag_r, s.sn_#, s.mag_#, L.ew, L.ewMin, L.sigma, L.sigmaErr into mydb.NII3 from SpecObj as s RIGHT JOIN SpecLine as L ON s.SpecObjID = L.specObjID WHERE    (L.LineID = #)    and L.ew/nullif(L.ewErr,#)>#   and s.z IS NOT NULL   and s.sn_# > # ORDER BY s.SpecObjID"
+2019-05-30 06:40:00,1

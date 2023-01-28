@@ -1,0 +1,2 @@
+1,"select ra, dec, ModelMag_u, ModelMag_g, ModelMag_r, ModelMag_i, ModelMag_z, cModelMag_u, cModelMag_g, cModelMag_r, cModelMag_i, cModelMag_z, ModelMagErr_u, ModelMagErr_g, ModelMagErr_r, ModelMagErr_i, ModelMagErr_z, fiberMag_u, fiberMag_g, fiberMag_r, fiberMag_i, fiberMag_z, extintion_u, extintion_g, extintion_r, extintion_i, extintion_z from Galaxy where ( (ra between # and # and dec between # and #) or) and cModelMag_r< #"
+2019-08-01 07:18:00,1

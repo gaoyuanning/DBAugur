@@ -1,0 +1,2 @@
+1,"SELECT count (xm.wise_cntr) as wise_xmatch_count, count (xm.sdss_specobjid) as sdss_xmatch_count into mydb.MyTable from wise_xmatch AS xm"
+2019-03-04 08:56:00,1

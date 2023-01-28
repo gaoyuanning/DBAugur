@@ -1,0 +1,2 @@
+1,"select ra, dec, ObjID, modelMag_u, modelMag_g, modelMag_r , modelMag_i, modelmag_z, class from photoobj AND specobj where ra BETWEEN # AND # AND modelMag_g > = # AND modelMag_u - modelMag_g > #"
+2019-08-14 18:43:00,1

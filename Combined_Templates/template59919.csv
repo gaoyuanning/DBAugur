@@ -1,0 +1,4 @@
+3,"SELECT p.objID, p.ra, p.dec, s.specObjID, p.psfMag r, p.modelMag r, p.petroMag r, p.fiberMag r, p.petroRad r, p.petroR5# r, p.petroR9# r, p.lnLStar r, p.lnLExp r, p.lnLDeV r, p.mE1 r, p.mE2 r, p.mRrCc r, p.type r, p.type, s.Class INTO MyDB.SDSS_DR1#_TRAIN_R1#_# FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.modelMag r BETWEEN # AND # AND s.Class IN () AND p.psfMag r! =# AND p.modelMag r! =# AND p.petroMag r! =# AND p.fiberMag r! =# AND p.petroRad r! =# AND p.petroR5# r! =# AND p.petroR9# r! =# AND p.lnLStar r! =# AND p.lnLExp r! =# AND p.lnLDeV r! =# AND p.mE1 r! =# AND p.mE2 r! =# AND p.mRrCc r! =#"
+2019-08-30 02:11:00,1
+2019-08-30 02:12:00,1
+2019-08-30 02:13:00,1

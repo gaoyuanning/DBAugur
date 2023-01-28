@@ -1,0 +1,2 @@
+1,"SELECT specObjID, z, class, ra, dec, dered_u, dered_g, dered_r, dered_i, dered_z into mydb.MyTable from SpecPhotoAll WHERE class = # AND z BETWEEEN < # AND Zwarning = #"
+2019-02-27 05:38:00,1

@@ -1,0 +1,4 @@
+3,"SELECT EID,[Number_of_treatments_medications_taken_#],[Treatment_medication_READ_code_#],[Treatment_medication_code_#] FROM Medications GO"
+2019-04-24 09:48:00,1
+2019-04-24 09:54:00,1
+2019-04-24 13:19:00,1

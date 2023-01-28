@@ -1,0 +1,2 @@
+1,"select A.Title, COUNT(T.AlbumId) AS Count from chinook.Album as A, chinook.Track as T where A.AlbumId = T.AlbumId group by A.Title"
+2019-04-24 17:49:00,1

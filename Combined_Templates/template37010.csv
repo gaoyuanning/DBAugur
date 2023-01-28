@@ -1,0 +1,2 @@
+1,"select r.RunID, u.name, r.Xmax - r.Xmin from Runs r, Users u"
+2019-05-06 17:15:00,1

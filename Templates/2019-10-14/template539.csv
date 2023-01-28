@@ -1,0 +1,2 @@
+1,"SELECT Top #  p.ra, p.dec, p.petroMag_r, p.petroMagErr_r FROM PhotoObj p"
+2019-10-14 00:26:00,1

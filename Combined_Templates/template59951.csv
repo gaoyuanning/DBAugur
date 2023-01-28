@@ -1,0 +1,2 @@
+1,"select top # s.objID from specobjall as s join dbo.fgetnearbyobjeq (#, #, #) as n on s.objID = n.objID where (s.secTarget&#) > #"
+2019-08-31 23:23:00,1

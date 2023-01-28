@@ -1,0 +1,2 @@
+1,"SELECT top #  p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,p.type,  p.psffwhm_u, p.psffwhm_g, p.psffwhm_r,  p.psffwhm_i, p.psffwhm_z, FROM PhotoObjALL AS p  JOIN SpecObj AS s on s.class = &&& WHERE   p.ra BETWEEN # AND #  AND p.dec BETWEEN # AND #  AND p.type = #"
+2019-04-23 13:09:00,1

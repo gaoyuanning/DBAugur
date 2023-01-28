@@ -1,0 +1,2 @@
+1,"select s.specObjID, (h_alpha_flux/h_alpha_cont), (nii_#_flux/nii_#_cont), (h_beta_flux/h_beta_cont), (oiii_#_flux/oiii_#_cont) from stellarMassPCAWisc s, galSpecLine g where   s.specObjID = g.specObjID and s.mstellar_median <= # and s.warning = # and s.mstellar_err < # and s.z < #"
+2019-04-08 16:34:00,1

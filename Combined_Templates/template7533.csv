@@ -1,0 +1,2 @@
+1,"SELECT TOP # plate.programname p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.run, p.rerun, p.camcol, p.field, s.specobjid, s.class, s.z as redshift, s.plate, s.mjd, s.fiberid FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.g BETWEEN # AND # AND r BETWEEN # AND # AND i BETWEEN # AND # AND g-r BETWEEN # AND # AND r-i BETWEEN # AND # AND s.z BETWEEN # AND # AND s.class = # AND plate.programname = #"
+2019-02-01 12:55:00,1

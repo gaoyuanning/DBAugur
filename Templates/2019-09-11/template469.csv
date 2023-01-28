@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.g, p.r, p.i into mydb.MyTableGalaxySpecNew from Galaxy as p   JOIN SpecPhoto as sp on p.objid= sp.objid WHERE class=&&&"
+2019-09-11 08:32:00,1

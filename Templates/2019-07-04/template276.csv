@@ -1,0 +1,2 @@
+1,"select distinct &&&+c.table_name as table_name, c.column_name,c.datatype,NULL ,c.ordinal_position   from information_schema.columns c     where table_schema=&&&"
+2019-07-04 12:30:00,1

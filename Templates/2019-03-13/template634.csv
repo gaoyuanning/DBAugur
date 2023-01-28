@@ -1,0 +1,2 @@
+2,"SELECT ra, dec, petroR5#_r, petroR9#_r, dered_r, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z, z into mydb.MyTable from PhotoObjAll WHERE z BETWEEN # AND #   AND dered_r < #   AND modelMag_u > #    AND modelMag_g > #    AND modelMag_r > #   AND modelMag_i > #    AND modelMag_z > #"
+2019-03-13 03:28:00,2

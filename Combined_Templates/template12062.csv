@@ -1,0 +1,2 @@
+1,"SELECT S.specObjID, S.bestObjID, S.plate, S.MJD, S.fiberID, S.firstRelease, S.survey, S.instrument, S.sourceType, S.ra, S.dec, S.z, S.zErr, S.class, S.subClass into mydb.galaxies_all from SpecObjAll AS S WHERE S.sciencePrimary = # AND S.zWarning = # AND S.class = #"
+2019-02-18 11:02:00,1

@@ -1,0 +1,2 @@
+1,"SELECT n.specObjID, n.ra as ra, n.dec as dec, n.z as z_spec, n.mstellar_median as mstar_med, n.mstellar_err as mstar_err, into mydb.MyTable_allGalaxy_mstar from  dbo.stellarMassPCAWiscM1# as n"
+2019-03-29 03:00:00,1

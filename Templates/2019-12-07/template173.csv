@@ -1,0 +1,2 @@
+1,"SELECT TOP # run,            camCol,            rerun,            field,            objID,            u, g, r, i, z,   ra, dec into mydb.dr1#_weblog_long2 from Star                                          WHERE ( u - g > #  or  u > # )    and ( i < # )    and ( i > # )   and ( g - r > # )   and ( r - i <           (# + # * (g - r - #) )     or    g - r > # )   and ( i - z < # )"
+2019-12-07 16:19:00,1

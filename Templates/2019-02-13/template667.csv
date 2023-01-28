@@ -1,0 +1,5 @@
+4,"SELECT p.objid, p.ra, p.dec, f.fieldid, p.field, p.InsideMask, p.u, p.err_u, p.g, p.err_g, p.r, p.err_r, p.i, p.err_i, p.z, p.err_z, p.type, f.quality, p.specObjID, s.specObjID, s.class, s.subclass, s.ra, s.dec, s.plate, s.mjd, s.fiberID, s.run2d, dbo.fGetUrlSpecImg(s.specObjID) as png_url, dbo.fGetUrlFitsSpectrum(s.specObjID) as fits_url FROM PhotoPrimary AS p JOIN Field AS f ON f.fieldid = p.fieldid JOIN SpecObj as s ON p.objid = s.BestObjID WHERE (p.ra BETWEEN # AND #) AND p.dec BETWEEN # AND # AND (#/p.err_u > #) AND (#/p.err_g > #) AND (#/p.err_r > #) AND (#/p.err_i > #) AND (#/p.err_z > #) AND ((p.type = dbo.fPhotoType(&&&)) OR (p.type = dbo.fPhotoType(&&&))) AND (s.SNMEDIAN > #)"
+2019-02-13 08:13:00,1
+2019-02-13 08:16:00,1
+2019-02-13 08:25:00,1
+2019-02-13 08:28:00,1

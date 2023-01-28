@@ -1,0 +1,2 @@
+1,SELECT * into mydb.MyTable from [myscratch:default].tmp1
+2019-07-30 14:53:00,1

@@ -1,0 +1,2 @@
+2,select count (distinct hash) from portfolios
+2019-02-03 15:59:00,2

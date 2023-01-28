@@ -1,0 +1,2 @@
+1,"SELECT TOP # objiD,type,ra,dec,u,g,r,i,z FROM PhotoObjAll WHERE ra > # and ra < # and dec between # and # and g-r <# and u!=#"
+2019-02-20 03:49:00,1

@@ -1,0 +1,4 @@
+4,"select specClass, count(z) as num_redshift from specObj where z BETWEEN # and # group by specClass"
+2019-06-20 05:04:00,1
+2019-06-20 05:06:00,2
+2019-06-20 14:06:00,1

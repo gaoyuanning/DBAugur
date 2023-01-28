@@ -1,0 +1,2 @@
+1,"select TOP # class,specobjid,z from specphoto where z<# GROUP by class"
+2019-09-20 03:47:00,1

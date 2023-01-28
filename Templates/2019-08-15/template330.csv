@@ -1,0 +1,2 @@
+1,"SELECT TOP #  ra,dec,field FROM PhotoObj WHERE   ra BETWEEN # and # AND  dec BETWEEN # and # group by   class"
+2019-08-15 06:40:00,1

@@ -1,0 +1,21 @@
+22,"select n.ObjID, l.logMass into mydb.Mr1#_group_#_stellarmass from mydb.Mr1#_group_#_ObjID as n JOIN PhotoObjDR7 as c ON c.dr7objid = n.ObjID JOIN PhotoObj as p ON p.objID = c.dr8objid JOIN SpecObjAll as s ON s.bestObjID = p.objID JOIN stellarMassFSPSGranEarlyDust as l ON l.specObjID = s.specObjID"
+2019-07-15 01:01:00,1
+2019-07-15 01:32:00,1
+2019-07-15 01:33:00,1
+2019-07-15 01:48:00,1
+2019-07-15 02:01:00,1
+2019-07-15 02:13:00,1
+2019-07-15 02:14:00,1
+2019-07-15 02:17:00,1
+2019-07-15 02:25:00,1
+2019-07-15 02:26:00,1
+2019-07-15 02:27:00,1
+2019-07-15 02:28:00,1
+2019-07-15 02:29:00,1
+2019-07-15 02:31:00,1
+2019-07-15 02:40:00,1
+2019-07-15 02:41:00,1
+2019-07-15 02:49:00,1
+2019-07-15 02:53:00,1
+2019-07-15 03:09:00,3
+2019-07-15 03:11:00,1

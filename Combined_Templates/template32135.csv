@@ -1,0 +1,8 @@
+7,"SELECT g.objid, g.ra, g.dec, g.dered_u as u, g.dered_g as g, g.dered_r as r, g.dered_i as i, g.clean, s.z as z_spec FROM galaxy AS g JOIN SpecObj AS s ON s.bestobjid = g.objid WHERE g.ra BETWEEN # AND # AND g.dec BETWEEN # AND # AND s.z BETWEEN # AND #"
+2019-04-20 12:22:00,1
+2019-04-20 12:23:00,1
+2019-04-20 12:26:00,1
+2019-04-20 13:05:00,1
+2019-04-20 13:13:00,1
+2019-04-20 13:21:00,1
+2019-04-20 13:22:00,1

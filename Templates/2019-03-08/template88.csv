@@ -1,0 +1,2 @@
+1,"select top #  objid, ra, dec, dered_g, dered_r, deVRad_g, expRad_g from PhotoObjAll where deVRad_g>#  and dered_g < #  and dered_g > #  and dered_r > #  and dered_r < #  and dered_g + # + #*LOG1#(# * deVRad_g * deVRad_g) > #"
+2019-03-08 22:42:00,1

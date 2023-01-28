@@ -1,0 +1,2 @@
+2,"SELECT top # so.bestobjid, so.specobjid, so.plate, so.mjd, so.fiberid, so.ra, so.dec, so.snMedian, so.waveMin, so.waveMax, so.subclass, so.class, so.z  From specobjall so WHERE so.class = &&& and so.sciencePrimary=# and so.snMedian > #  and so.waveMin <= # and so.waveMax >= # and so.zWarning = # ORDER BY so.snMedian DESC"
+2019-08-28 05:29:00,2

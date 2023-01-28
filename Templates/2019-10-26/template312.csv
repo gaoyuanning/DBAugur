@@ -1,0 +1,2 @@
+1,"select ID, wkt=geom.ToString() from optw.tamass.TRACTS where state=#"
+2019-10-26 15:24:00,1

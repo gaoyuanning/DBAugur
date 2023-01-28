@@ -1,0 +1,2 @@
+1,"SELECT SpecObj.ra,SpecObj.dec,  FROM SpecObj  WHERE (SpecObj.ra ># and SpecObj.ra <#) AND (SpecObj.dec > +# and SpecObj.ra < +#) And SpecObj.class=&&&"
+2019-08-21 10:53:00,1

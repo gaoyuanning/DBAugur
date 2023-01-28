@@ -1,0 +1,4 @@
+3,"SELECT TOP # s.plate, s.mjd, s.fiberid, s.z, s.zErr, s.zWarning, s.specClass FROM BESTDR7..SpecObj as s JOIN BESTDR7..PhotoObj AS p ON s.bestObjID = p.objID WHERE (s.specClass = dbo.fSpecClass (#) ) AND (p.type = # OR p.type = #)"
+2019-02-05 00:47:00,1
+2019-02-05 00:48:00,1
+2019-07-04 18:37:00,1

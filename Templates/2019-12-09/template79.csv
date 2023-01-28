@@ -1,0 +1,2 @@
+1,"SELECT top # z, spectroFlux_u, spectroFlux_g, spectroFlux_r, spectroFlux_i, spectroFlux_z FROM specObj WHERE (class = qso)"
+2019-12-09 22:23:00,1

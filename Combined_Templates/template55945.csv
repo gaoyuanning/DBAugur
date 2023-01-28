@@ -1,0 +1,2 @@
+1,"SELECT sa.OBJID AS akari_ID, sa.RA AS akari_ra, sa.DEC AS akari_dec, sp.cmodelMag_u AS u, n.objid, n.distance, o.ra AS ra2, o.dec AS dec2 FROM MyDB.akari1# AS sa CROSS APPLY dbo.fGetNearestObjEq (sa.ra, sa.dec, #) AS n JOIN PhotoObjAll AS o ON n.objid = o.objid"
+2019-08-07 06:10:00,1

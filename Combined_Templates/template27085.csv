@@ -1,0 +1,4 @@
+3,select * into so0 from specobjall where specobjid%# = #
+2019-04-02 02:12:00,1
+2019-04-02 02:13:00,1
+2019-04-02 02:14:00,1

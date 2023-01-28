@@ -1,0 +1,18 @@
+339,"SELECT TOP #  G.ra,G.dec,G.modelMag_r,G.modelMagErr_r,G.extinction_r,  sp.z,sp.zErr,  G.modelFlux_u,  G.modelFlux_g,  G.modelFlux_r,  G.modelFlux_i,  G.modelFlux_z,  G.modelFluxIvar_u,G.modelFluxIvar_g,G.modelFluxIvar_r,G.modelFluxIvar_i,G.modelFluxIvar_z,GN.distance  FROM  dbo.fGetNearbyObjEq(#, #, #) AS GN  JOIN Galaxy AS G ON GN.objID = G.objID  JOIN PhotoTag AS pt ON pt.objID = G.objID  JOIN specPhoto AS sp ON GN.objID = sp.objID  ORDER by distance"
+2019-02-16 05:38:00,15
+2019-02-16 05:39:00,22
+2019-02-16 05:40:00,24
+2019-02-16 05:41:00,21
+2019-02-16 05:42:00,12
+2019-02-16 05:46:00,22
+2019-02-16 05:47:00,17
+2019-02-16 05:48:00,23
+2019-02-16 05:49:00,19
+2019-02-16 05:50:00,20
+2019-02-16 05:51:00,13
+2019-02-16 05:58:00,22
+2019-02-16 05:59:00,22
+2019-02-16 06:00:00,23
+2019-02-16 06:01:00,24
+2019-02-16 06:02:00,23
+2019-02-16 06:03:00,17

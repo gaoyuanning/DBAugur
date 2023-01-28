@@ -1,0 +1,23 @@
+237,"SELECT TOP # p.objid, psfMag_u, psfMag_g, psfMag_r, cModelMag_u, cModelMag_g, cModelMag_r, ModelMag_u, ModelMag_g, ModelMag_r, p.type, n.distance*# as distance, s.specobjid, CASE WHEN g.subclass< ># THEN g.subclass ELSE s.class END as spec_class FROM photoObj AS p JOIN dbo.fGetNearestObjEq (#, #, #) as n ON n.objID = p.objID left JOIN SpecObj AS s ON s.bestobjid = p.objid left JOIN galSpecInfo as g on s.specobjid = g.specobjid"
+2019-08-13 23:38:00,2
+2019-08-13 23:40:00,1
+2019-08-13 23:41:00,1
+2019-08-13 23:43:00,1
+2019-08-13 23:51:00,1
+2019-08-13 23:52:00,2
+2019-08-13 23:53:00,1
+2019-08-13 23:55:00,2
+2019-08-14 00:39:00,28
+2019-08-14 04:10:00,1
+2019-08-14 04:15:00,6
+2019-08-14 04:16:00,22
+2019-08-14 04:22:00,27
+2019-08-14 04:23:00,1
+2019-08-14 05:32:00,28
+2019-08-14 05:33:00,26
+2019-08-14 05:34:00,2
+2019-08-14 05:37:00,28
+2019-08-14 05:38:00,28
+2019-09-17 18:48:00,1
+2019-09-17 18:49:00,27
+2019-09-25 22:58:00,1

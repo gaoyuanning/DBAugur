@@ -1,0 +1,2 @@
+1,"SELECT TOP #  a.apogee_id,cast(str(a.glon,#,#) as float) glon,cast(str(a.glat,#,#) as float) glat,a.snr,a.vhelio_avg,a.vscatter,q.teff,q.logg,q.m_h,q.alpha_m  FROM apogeeStar as a  JOIN apogeeObject as o ON a.apogee_id=o.apogee_id  JOIN aspcapStar as q ON a.apstar_id=q.apstar_id  WHERE q.logg > # AND q.param_m_h > # AND q.logg < # AND q.param_m_h < #"
+2019-01-29 02:14:00,1

@@ -1,0 +1,2 @@
+1,"SELECT G.specObjID, G.ra, G.dec, G.z, G.zErr, G.class, G.zWarning, G.snMedian, GN.distance FROM SpecObjAll as G CROSS APPLY dbo.fGetNearbyObjEq(#,#, #) AS GN  JOIN Photoz as zp ON zp.objID = s.bestObjID  ORDER BY distance"
+2019-05-03 12:06:00,1

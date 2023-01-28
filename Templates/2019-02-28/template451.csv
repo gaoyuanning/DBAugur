@@ -1,0 +1,2 @@
+1,"SELECT ALL s.bestobjid, p.objid, p.ra, p.dec, p.petror9#_r, p.dered_g, p.dered_r , p.g, p.r, p.err_g,  s.z as z_spec, s.zErr, zmb.p_cw_mr1, zmb.p_acw_mr1, zns.nvote, zns.p_el as elliptical, zns.p_cw as spiralclock, zns.p_acw as spiralanticlock, zns.p_edge as edgeon, zns.p_dk as dontknow, zns.p_mg as merger    FROM Galaxy as p    JOIN zooMirrorBias AS zmb ON p.specobjid = zmb.objid    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.clean=# and zmb.p_cw_mr1 >=# and zmb.p_acw_mr1 >=#"
+2019-02-28 12:00:00,1

@@ -1,0 +1,2 @@
+1,"select p.*, pz.z as redshift, pz.zerr as redshift_err into mydb.GEMSS-Photo from photoobj p, photoz pz where p.objid = pz.objid and p.ra> =# | p.ra< =# and p.dec> =# and p.dec< =+#"
+2019-09-04 10:16:00,1

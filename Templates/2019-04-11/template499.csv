@@ -1,0 +1,2 @@
+1,"SELECT x.ra,x.dec FROM radec2 as x WHERE x.ra># AND x.ra<#"
+2019-04-11 05:28:00,1

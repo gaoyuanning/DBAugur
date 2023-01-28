@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.spectrographID,s.z,s.zErr,s.zWarning  FROM ..SpecObj as s  WHERE (s.class = &&&) AND s.zWarning = #"
+2019-02-25 08:26:00,1

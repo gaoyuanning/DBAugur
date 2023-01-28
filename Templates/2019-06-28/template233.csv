@@ -1,0 +1,8 @@
+7,"select objID, ra, dec, g, r, g-r as gMinusR from photoObj WHERE g># and g<# and ra BETWEEN # AND # AND dec BETWEEN # AND #"
+2019-06-28 12:42:00,1
+2019-06-28 12:49:00,1
+2019-06-28 16:09:00,1
+2019-06-28 16:14:00,1
+2019-06-28 16:30:00,1
+2019-06-28 16:31:00,1
+2019-06-28 16:56:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # wiseXsdss.sdss_objid, wiseXsdss.wise_cntr, match_dist, sdss_best.bestObjID, allwise.cntr, allwise.w1mpro FROM WISE_xmatch wiseXsdss JOIN WISE_allsky allwise ON wiseXsdss.wise_cntr = allwise.cntr JOIN SpecObj sdss_best ON wiseXsdss.sdss_objid = sdss_best.bestObjID WHERE sdss_best.class = # AND allwise.w1mpro > #"
+2019-01-24 11:11:00,1

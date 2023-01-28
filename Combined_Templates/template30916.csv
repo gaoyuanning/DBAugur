@@ -1,0 +1,2 @@
+1,"SELECT count (*) FROM apogeeStar as star SELECT star.apstar_id, star.ra, star.dec, star.glon, star.glat, param.fe_h, param.teff FROM apogeeStar as star JOIN aspcapStar as param ON star.apstar_id = param.apstar_id WHERE param.fe_h < # AND param.fe_h > # AND param.mg_fe > # AND param.mg_fe_err < # AND param.teff > # AND param.teff < #"
+2019-04-16 08:22:00,1

@@ -1,0 +1,2 @@
+1,"select distinct eid, Wears_glasses_or_contact_lenses_# from dbo.Eyesight cross apply openjson (Wears_glasses_or_contact_lenses_#)"
+2019-09-16 13:39:00,1

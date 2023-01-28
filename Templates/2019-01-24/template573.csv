@@ -1,0 +1,2 @@
+1,"select top # fieldID,ra,dec from Field inner join dbo.Run on Run.run=Field.run where Run.stripe=#"
+2019-01-24 08:42:00,1

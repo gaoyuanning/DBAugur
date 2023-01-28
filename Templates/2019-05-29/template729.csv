@@ -1,0 +1,2 @@
+1,"select   id, d.dr7objid, dr8objid into mydb.MyTable_# from MyDB.data as d   join PhotoObjDR7 as p on p.dr7objid=d.dr7objid   order by id"
+2019-05-29 02:36:00,1

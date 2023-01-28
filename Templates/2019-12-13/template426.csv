@@ -1,0 +1,2 @@
+1,"SELECT u.up_SourceId as [SourceId], s.* into mydb.MyTable_# from #upload u       JOIN #x x ON x.up_id = u.up_id       JOIN apogeestar s ON s.apstar_id = x.apstar_id"
+2019-12-13 10:11:00,1

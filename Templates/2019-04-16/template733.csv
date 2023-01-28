@@ -1,0 +1,2 @@
+2,"SELECT into mydb.A0#Salma_#      s.objID, s.specObjID, s.ra, s.dec, s.z, s.zErr, s.class,   z.kcorr_u, z.kcorr_r, s.petroMag_u, s.petroMag_r    FROM    SpecPhotoAll s, Photoz z  WHERE    s.objID = z.objID      AND s.ra BETWEEN # AND #   AND s.dec BETWEEN # AND #   AND s.class = &&&"
+2019-04-16 03:25:00,2

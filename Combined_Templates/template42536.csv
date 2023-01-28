@@ -1,0 +1,2 @@
+2,"select rr0.ra, rr0.dec, rr0objid, avg (s.psfmag_g) as meang, stdev (s.psfmag_g) as sigmag, count (*) into mydb.rrmeansb from star s, mydb.rrmatches m, mydb.rr0b rr0 where s.objid = m.objid and m.rr0objid = rr0.objid group by rr0.ra, rr0.dec, rr0objid"
+2019-05-29 13:14:00,2

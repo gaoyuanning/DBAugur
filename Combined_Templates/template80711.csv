@@ -1,0 +1,3 @@
+2,"SELECT P.ObjID, P.ra, P.dec, P.type, P.cModelMag_g, P.cModelMag_r into mydb.CIRs_# From PhotoObjAll P, mydb.CIRs x WHERE x.name = P.ObjID"
+2019-12-04 06:34:00,1
+2019-12-04 06:37:00,1

@@ -1,0 +1,2 @@
+1,"SELECT   g.specobjID, g.z, h.Flux_Ha_#, h.Flux_NII_#, h.Flux_Hb_#, h.Flux_OIII_#, h.Sigma_Ha_#, h.bpt, j.H_beta_flux, j.oiii_#_flux, j.H_alpha_flux, j.NII_#_flux,    j.sigma_balmer,j.spectofiber,j.h_alpha_eqw    into mydb.vas2 from SpecObj g     join dbo.fGetNearbyObjEq(#,#,#) as N ON N.specobjID = g.specobjID       left outer join emissionlinesport h ON h.specobjID = g.specobjID      left outer join galspecline j ON j.specobjID = g.specobjID       left outer join galspecextra f ON f.specobjID = g.specobjID"
+2019-10-02 06:08:00,1

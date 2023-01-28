@@ -1,0 +1,2 @@
+1,"select z, ra, dec, bestObjID from specObj where ObjID = #"
+2019-07-18 20:17:00,1

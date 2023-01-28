@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.ObjID, teffadop, teffadopunc, teffadopn, loggadop, loggadopunc, loggadopn, fehadop, fehadopunc, fehadopn, elodiervfinal, elodiervfinalerr, p.ra, p.dec, p.l, p.b, p.type, p.clean, psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z, psfMagErr_u, psfMagErr_g, psfMagErr_r, psfMagErr_i, psfMagErr_z into mydb.SDSS_DR9_sppParams_test FROM sppParams AS sp INNER JOIN PhotoObjAll AS p ON sp.BESTOBJID = p.ObjID WHERE p.type = # AND p.clean = # AND fehadopunc > # AND teffadopunc > # AND loggadopunc > #"
+2019-02-15 00:37:00,1

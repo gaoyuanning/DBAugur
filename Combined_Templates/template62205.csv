@@ -1,0 +1,2 @@
+1,"SELECT i.thingID, i.objID, p.objID, p.run, p.ra, p.dec, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z into mydb.MyTable_# from detectionIndex i JOIN PhotoObjAll AS p ON i.objID = p.objID JOIN mydb.Pet AS d ON p.objID = d.objid"
+2019-09-10 08:41:00,1

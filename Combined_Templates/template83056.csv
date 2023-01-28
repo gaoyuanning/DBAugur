@@ -1,0 +1,3 @@
+2,"select * from information_schema.tables where table_name = #) create table edu.MTABusRoutes (id integer, shortName varchar (#) , route geography)"
+2019-12-15 07:15:00,1
+2019-12-15 07:16:00,1

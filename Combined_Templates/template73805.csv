@@ -1,0 +1,2 @@
+1,"SELECT floor (zErr/#) as zErr_floor, count (*) as count FROM Photoz WHERE photoErrorClass = # GROUP BY photoErrorClass"
+2019-11-04 02:09:00,1

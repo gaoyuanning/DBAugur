@@ -1,0 +1,2 @@
+1,"select TOP # SQRT (POWER (( (w.ra-m.objra) *cos ((m.objdec) * (#/#) )) , #) + (POWER ((w.dec-m.objdec) , #) )) *#, w.w1mpro from mangaDRPall m, WISE_allsky w where (w.w1mpro-w.w2mpro) > = #"
+2019-04-02 07:01:00,1

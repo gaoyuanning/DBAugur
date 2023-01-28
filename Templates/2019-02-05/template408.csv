@@ -1,0 +1,2 @@
+1,"select    s.ra, s.dec, s.z,p.objID , p.u_r , p.petroR5#_r, p.petroR9#_r, c=(p.petroR9#_r/p.petroR5#_r)    from    SpecObjAll as s,     PhotoObjAll as p,      into MyDB.concentration_index      where       s.bestObjID=p.objID       and s.sciencePrimary = #      and s.z between # and #"
+2019-02-05 06:17:00,1

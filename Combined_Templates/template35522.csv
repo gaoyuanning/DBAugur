@@ -1,0 +1,2 @@
+1,"SELECT TOP # po.Run, po.mjd, za.fiberID, dered_u, dered_g, dered_r, dered_i, dered_z, po.ra, po.dec, za.z, za.zErr --INTO mydb.photoz_class_radec FROM SpecObjAll za JOIN PhotoObjAll po ON (po.objID = za.bestObjID) JOIN galSpecInfo zi ON (zi.SpecObjID = za.specObjID) WHERE za.z > # and za.zWarning = # and za.targetType = # and za.survey = # and za.class = # and zi.primtarget> =# and po.clean = # and po.insideMask = # and (po.petroMag_r - po.extinction_r) < =# and za.sciencePrimary = #"
+2019-04-29 10:24:00,1

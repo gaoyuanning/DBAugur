@@ -1,0 +1,2 @@
+1,"SELECT s1.specObjID, s1.z, s1.velDisp, s1.velDispErr, s1.bestObjID, s1.ra, s1.dec FROM SpecObjAll AS s1 WHERE s1.ra BETWEEN # AND # AND s1.dec BETWEEN # AND #   OR s1.ra BETWEEN # AND # AND s1.dec BETWEEN #. AND +#.   OR s1.ra BETWEEN # AND # AND s1.dec BETWEEN #. AND +#.   OR s1.ra BETWEEN # AND # AND s1.dec BETWEEN #. AND +#.   OR s1.ra BETWEEN # AND # AND s1.dec BETWEEN #. AND #   AND s1.sciencePrimary>#    INTO mydb.SDSS_IN_GAMA_FIELDS_radec_DR6"
+2019-04-17 19:52:00,1

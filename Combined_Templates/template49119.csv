@@ -1,0 +1,3 @@
+3,"SELECT TOP # objID, g, ra, dec FROM Galaxy WHERE ra between # and # and dec > # and (#+rho) > g"
+2019-06-29 05:40:00,1
+2019-06-29 05:42:00,2

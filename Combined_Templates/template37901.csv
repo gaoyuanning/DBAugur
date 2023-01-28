@@ -1,0 +1,2 @@
+1,select count (z) from SpecObj where z > #
+2019-05-08 15:20:00,1

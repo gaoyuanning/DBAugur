@@ -1,0 +1,2 @@
+1,"select top # SpecObjID, ra, dec, z, logMass_median, logMass_median, chi2, ssfr, ssfr_mean, metallicity from stellarMassFSPSGranEarlyDust where z < #"
+2019-02-28 19:23:00,1

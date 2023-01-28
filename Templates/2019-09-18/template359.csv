@@ -1,0 +1,2 @@
+1,"select top # (distinct buta1.ObjID),buta1.ra,buta1.dec,buta1.z,buta1.deVMag_u,buta1.deVMag_g,buta1.deVMag_r,buta1.deVMag_i,buta1.deVMag_z,buta1.expMag_u,buta1.expMag_g,buta1.expMag_r,buta1.expMag_i,buta1.expMag_z from buta_ids2_DR7_col  as buta1, buta_ids2_DR7_col  as buta2 where buta1.ObjID<>buta2.ObjID and sqrt(power(buta1.ra-buta2.ra,#)+power(buta1.dec-buta2.dec,#))<# and buta1.deVMag_g<=buta2.deVMag_g"
+2019-09-18 14:45:00,1

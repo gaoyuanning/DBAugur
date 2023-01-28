@@ -1,0 +1,13 @@
+12,"select psf2GSigma1_u, psf2GSigma1_g, psf2GSigma1_r, psf2GSigma1_i, psf2GSigma1_z, psf2GSigma2_u, psf2GSigma2_g, psf2GSigma2_r, psf2GSigma2_i, psf2GSigma2_z, psf2GB_u, psf2GB_g,psf2GB_r, psf2GB_i, psf2GB_z from Field where run = # and rerun = # and camcol = # and field = #"
+2019-01-09 10:45:00,1
+2019-01-09 11:44:00,1
+2019-01-09 13:42:00,1
+2019-01-09 14:10:00,1
+2019-01-09 14:19:00,1
+2019-01-09 15:39:00,1
+2019-01-09 15:54:00,1
+2019-01-09 15:58:00,1
+2019-01-09 16:02:00,1
+2019-01-09 16:03:00,1
+2019-01-09 16:19:00,1
+2019-01-09 16:38:00,1

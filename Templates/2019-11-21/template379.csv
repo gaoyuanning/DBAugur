@@ -1,0 +1,2 @@
+1,"select specObj.z, PhotoObj.ra, PhotoObj.dec, PhotoObj.u, PhotoObj.g, PhotoObj.r, PhotoObj.i, PhotoObj.z, PhotoObj.TAI_u, PhotoObj.TAI_g, PhotoObj.TAI_r, PhotoObj.TAI_i, PhotoObj.TAI_z from PhotoObj, specObj, photoz where PhotoObj.dec < # AND PhotoObj.dec > # AND (PhotoObj.ra > # AND PhotoObj.ra < #)AND specObj.bestobjid = PhotoObj.specObjID"
+2019-11-21 12:29:00,1

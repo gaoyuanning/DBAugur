@@ -1,0 +1,11 @@
+10,"SELECT objID, run, psfMag_u, psfMag_g, psfMag_r, extinction_u, extinction_g, extinction_r, psfMagErr_u, psfMagErr_g, psfMagErr_r, l, b  from Star  WHERE (l > #   AND l < #   AND ((b > # AND b < #)   OR (b < # AND b > #))   AND ((psfMag_g - extinction_g) - (psfMag_r - extinction_r)) > #   AND ((psfMag_g - extinction_g) - (psfMag_r - extinction_r)) < #   AND ((psfMag_u - extinction_u) - (psfMag_g - extinction_g)) > #)"
+2019-04-07 03:21:00,1
+2019-04-07 04:40:00,1
+2019-04-07 04:42:00,1
+2019-04-07 04:50:00,1
+2019-04-07 05:00:00,1
+2019-04-07 17:04:00,1
+2019-04-07 17:05:00,1
+2019-04-07 17:12:00,1
+2019-04-07 17:13:00,1
+2019-04-07 17:14:00,1

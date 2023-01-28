@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p. cModelMag_r, p. cModelMagerr_r, p.fiberMag_u, p.fiberMag_g, p.fiberMag_r, p.fiberMag_i, p.fiberMag_z, p.fiberMagerr_u, p.fiberMagerr_g, p.fiberMagerr_r, p.fiberMagerr_i, p.fiberMagerr_z, p.run, p.rerun, p.camcol, p.field, s.specobjid, s.class, s.z as redshift, s.plate, s.mjd, s.fiberid FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE # < p.cModelMag_r < # AND # < p.ra < # AND # < p.dec < #"
+2019-10-25 14:10:00,1

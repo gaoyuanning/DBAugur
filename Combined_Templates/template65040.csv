@@ -1,0 +1,2 @@
+1,"select top # g.objid, g.ra, g.dec from galaxy as g"
+2019-09-24 10:30:00,1

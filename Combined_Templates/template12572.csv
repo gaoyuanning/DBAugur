@@ -1,0 +1,2 @@
+1,"SELECT objid, ra, dec, extinction_r, type as obj_ph_type into mydb.cmass_photo_only from PhotoPrimary WHERE cmodelmag_i BETWEEN # AND # AND (modelmag_r-modelmag_i) - (modelmag_g-modelmag_r) /# > # AND cmodelmag_i < # + #* ((modelmag_r-modelmag_i) - (modelmag_g-modelmag_r) /#. - #) AND (modelmag_r-modelmag_i) < # AND fiber2mag_i < # AND (psfmag_i - modelmag_i) > # + #* (# - modelmag_i) AND (psfmag_z - modelmag_z) > # - #*modelmag_z AND psffwhm < #"
+2019-02-20 12:06:00,1

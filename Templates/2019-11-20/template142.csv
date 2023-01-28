@@ -1,0 +1,2 @@
+1,"select  ra,dec,g,u,PhotoType from  photoObj where ra > # and ra < # AND g > # AND u - g > #  PhotoType = #"
+2019-11-20 19:44:00,1

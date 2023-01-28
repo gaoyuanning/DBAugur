@@ -1,0 +1,2 @@
+1,"SELECT TOP # cModelMag_g, cModelMag_r, cModelMag_i, cModelMag_z, cModelMagErr_g, cModelMagErr_r, cModelMagErr_i, cModelMagErr_z FROM PhotoPrimary as p INNER JOIN specz ON p.objID = s.specobjID ORDER BY p.objID SELECT TOP # ra, dec FROM PhotoObjAll as po"
+2019-09-27 09:12:00,1

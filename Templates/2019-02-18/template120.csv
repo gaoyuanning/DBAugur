@@ -1,0 +1,2 @@
+1,"SELECT plate_number,fiber_number,objectID,u,g,r,i,z,ra,dec FROM SpecPhoto WHERE SpecPhoto.class = &&&"
+2019-02-18 20:07:00,1

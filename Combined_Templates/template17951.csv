@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.err_u, p.err_g, p.err_r, p.err_i, p.err_z into mydb.MyTable_# from mydb.MyTable_# as p order by p.ra asc"
+2019-03-06 12:29:00,1

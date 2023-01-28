@@ -1,0 +1,5 @@
+5,"SELECT TOP # spa.specObjID, spa.ra, spa.dec, spa.z, spa.modelMag_r FROM SpecPhotoAll as spa WHERE spa.z> #"
+2019-10-04 14:01:00,2
+2019-10-04 14:12:00,1
+2019-10-04 16:06:00,1
+2019-10-04 16:09:00,1

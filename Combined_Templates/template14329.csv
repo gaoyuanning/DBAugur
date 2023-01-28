@@ -1,0 +1,3 @@
+2,"SELECT TOP # Galaxy.u, Galaxy.g, Galaxy.r, Galaxy.i, Galaxy.ra, Galaxy.dec, flags_r, SpecObj.z, SpecObj.zErr FROM Galaxy INNER JOIN SpecObj ON Galaxy.specObjID = SpecObj.bestObjID WHERE Galaxy.ra BETWEEN # and # AND Galaxy.dec BETWEEN # and # AND ( (flags_r & #) ! = #) AND ( (flags_r & #) = #) AND ( ((flags_r & #) = #) or (psfmagerr_r < = #) ) AND ( ((flags_r & #) = #) or (flags_r & #) = #)"
+2019-02-25 05:57:00,1
+2019-02-25 05:59:00,1

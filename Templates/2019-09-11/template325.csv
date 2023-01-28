@@ -1,0 +1,3 @@
+4,"select c.table_name,ci.field_name,c.column_name--ci.*,c.ORDINAL_POSITION,c.column_name as realname   from information_schema.columns c     inner join metadata.columninfo ci      on c.column_name=ci.column_name+&&&+cast(ci.id as varchar(#))      and ci.table_name=c.table_name  where c.table_schema=&&&      order by c.table_name,c.ORDINAL_POSITION"
+2019-09-11 09:25:00,3
+2019-09-11 15:54:00,1

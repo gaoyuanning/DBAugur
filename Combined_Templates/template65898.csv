@@ -1,0 +1,2 @@
+1,"select p.objid as id, p.ra as ra, p.dec as dec, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, f.mjd from photoobj as p join specobj as s on s.bestobjid = p.objid join field as f on f.fieldid = p.fieldid where s.objtype = #"
+2019-09-26 11:28:00,1

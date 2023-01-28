@@ -1,0 +1,5 @@
+6,"SELECT TOP #   g.u, g.g, g.r, g.i, g.z, g.ra, g.dec, g.flags_r, g.specobjid, s.z, g.objid, s.bestobjid from GALAXY as g JOIN SpecObj AS s ON s.bestobjid = g.objid WHERE   g.ra BETWEEN # and # AND   g.dec BETWEEN # and # AND   ((g.flags_r & #) != #) AND   ((g.flags_r & #) = #) AND   (((g.flags_r & #) = #) or (psfmagerr_r <= #)) AND   (((g.flags_r & #) = #) or (g.flags_r & #) = #)"
+2019-09-24 09:11:00,2
+2019-09-24 09:14:00,2
+2019-09-24 09:19:00,1
+2019-09-24 09:36:00,1

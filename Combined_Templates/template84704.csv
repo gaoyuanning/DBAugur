@@ -1,0 +1,2 @@
+1,"select objID, mjd, type, clean, probPSF, flags, psffwhm_u, psffwhm_g, psffwhm_r, psffwhm_i from PhotoObjAll where field = #;"
+2019-12-30 15:26:00,1

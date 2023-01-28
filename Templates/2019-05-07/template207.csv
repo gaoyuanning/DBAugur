@@ -1,0 +1,2 @@
+1,"select * from OPENQUERY([CBIO],&&& &&&gbm_tcga&&&) a"
+2019-05-07 17:59:00,1

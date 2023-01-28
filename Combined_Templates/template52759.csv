@@ -1,0 +1,2 @@
+1,"SELECT sp.ra, sp.dec, sp.objId, sp.plate, sp.mjd, sp.fiberID, sp.specobjid, sp.elodieLogG, sp.elodieFeH, sp.elodieSpType, sp.snMedian, sp.class, sp.subClass, sp.zWarning, st.psfmag_g-st.extinction_g g0, st.psfmag_u-st.psfmag_g-st.extinction_u+st.extinction_g umg0, st.psfmag_g-st.psfmag_r-st.extinction_g+st.extinction_r gmr0, into mydb.plate2#_# from star st, specobj sp, plateX pl, sppParams pa WHERE st.objID = sp.bestObjID AND sp.plateID = pl.plateID AND sp.plateID = #"
+2019-07-19 15:13:00,1

@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec FROM PhotoObj s JOIN dbo.fGetNearbyObjEq (#, #, #) AS N on N.objID = s.objID WHERE r> # AND r< # AND SQRT (POWER ((u-g) #) , #) + POWER ((g-r) #) , #) + POWER ((r-i) #) , #) + POWER ((i-z) #) , #) < #"
+2019-09-02 16:53:00,1

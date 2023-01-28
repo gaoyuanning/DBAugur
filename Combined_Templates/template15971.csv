@@ -1,0 +1,2 @@
+1,"select one.*, spec.z as SPEC_Z, spec.zErr as SPEC_ZERR from MyDB.StageOne as one left join DR8.specObj as spec on one.REDMAPPER_ID = spec.bestObjID"
+2019-03-01 06:01:00,1

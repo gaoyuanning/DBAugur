@@ -1,0 +1,2 @@
+1,"select a.plateifu, a.daptype, a.objra, a.objdec, a.ifura, a.ifudec, r.nsa_field, r.nsa_run, r.nsa_camcol, r.nsa_sersic_mass, r.nsa_sersic_th5# into mydb.mga_cat from mangaDAPall a left join mangaDRPall r on a.plateifu = r.plateifu"
+2019-05-21 02:48:00,1

@@ -1,0 +1,2 @@
+1,"SELECT top # DR1#.PhotoZ.ObjID AS ObjID, DR1#.GalaxyTag.ra AS ra, DR1#.GalaxyTag.dec AS dec, DR1#.PhotoZ.z AS z, DR1#.PhotoZ.zErr AS zErr where z ! = # and zErr ! = # into mydb.MyTable"
+2019-08-26 09:36:00,1

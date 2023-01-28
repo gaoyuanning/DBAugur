@@ -1,0 +1,3 @@
+2,"select G.cx, G.cy, G.cz from Galaxy as G Where G.objid = #"
+2019-01-07 16:10:00,1
+2019-01-07 16:12:00,1

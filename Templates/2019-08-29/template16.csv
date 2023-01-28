@@ -1,0 +1,2 @@
+1,"select count(*) as count from photoobj p, dbo.fgetNearByObjEq(#,#,#) n where p.objid=n.objid"
+2019-08-29 23:41:00,1

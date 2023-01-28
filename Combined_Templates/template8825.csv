@@ -1,0 +1,3 @@
+2,"select top # specobjid, z, modelmag_u, modelmag_g, modelmag_r, modelmag_i, modelmag_z from specphoto where class = # AND z BETWEEN # and # AND zWarning = #"
+2019-02-07 17:05:00,1
+2019-02-07 17:06:00,1

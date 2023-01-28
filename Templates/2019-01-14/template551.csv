@@ -1,0 +1,2 @@
+1,"select    dbo.fSpecidFromSDSS(q.plate,q.mjd,q.fiberid,#) as specObjID,   ph.ObjID,   ph.ra,   ph.dec,   ph.u, ph.g, ph.r, ph.i, ph.z,   ph.u_err, ph.g_er, ph.i_err, ph.z_err from mydb.dr1#q as q, PhotoObjALL as ph, SpecObjAll as sp into mydb.dr1#q_photo_sdss where specObjID = sp.specObjID   and sp.ObjID = ph.ObjID   and q.spectro = &&&"
+2019-01-14 08:51:00,1

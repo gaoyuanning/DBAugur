@@ -1,0 +1,2 @@
+1,select fieldid from field where cccol_u between # and # and skyframes_r between # and # and mjd_g between # and # and photostatus between # and #
+2019-01-28 17:53:00,1

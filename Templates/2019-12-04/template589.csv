@@ -1,0 +1,2 @@
+1,"SELECT P.ObjID,P.ra,P.dec,P.type,P.cModelMag_g,P.cModelMag_r into mydb.etc_cl_# From  PhotoObjAll P, mydb.etc_cl x  -- this function outputs a table, so we have to do a join  WHERE   x.name= P.ObjID"
+2019-12-04 04:24:00,1

@@ -1,0 +1,2 @@
+1,"select objID, ra, dec into mydb.giantIDs from PhotoObjAll where ra = #"
+2019-10-09 17:52:00,1

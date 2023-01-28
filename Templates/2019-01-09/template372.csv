@@ -1,0 +1,2 @@
+1,"select top #    GZ.objID, p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z from PhotoPrimary as p, zooSpec as GZ where p.objID = GZ.objid"
+2019-01-09 10:05:00,1

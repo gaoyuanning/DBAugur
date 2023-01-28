@@ -1,0 +1,3 @@
+2,"SELECT TOP # a.SPECOBJID AS AKARI_ID, a.RA AS AKARI_RA, a.DEC AS AKARI_DEC, gls.z AS redshift, n.distance AS angDist from MyDB.sdss8 AS a OUTER APPLY dbo.fGetNearestObjEq (a.RA, a.DEC, #) AS n LEFT JOIN galSpecInfo AS gsl ON gsl.SpecObjID = n.objid"
+2019-08-13 18:52:00,1
+2019-08-13 18:56:00,1

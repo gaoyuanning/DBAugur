@@ -1,0 +1,2 @@
+1,"select top # tablename, name, unit, ucd, enum, description, rank from dbcolumns"
+2019-12-10 17:11:00,1

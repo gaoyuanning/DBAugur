@@ -1,0 +1,9 @@
+10,"select mr.haloid  from dbo.fCover(&&&,#,&&&,#,@qry.ToString()) cov   inner join mpahalotrees..mr mr      on mr.snapnum=#    and mr.phkey between cov.keymin and cov.keymax     and mr.x between #-# and #+#     and mr.y between #-# and #+#     and mr.z between #-# and #+#   )   select mr.x,mr.y,mr.z,mr.velx,mr.vely,mr.velz,mr.halfmassradius    from ids inner loop join mpahalotrees..mr mr    on mr.haloid=ids.haloid"
+2019-06-18 11:02:00,1
+2019-06-18 11:04:00,1
+2019-06-18 11:07:00,1
+2019-06-18 11:09:00,1
+2019-06-18 11:11:00,2
+2019-06-18 11:12:00,1
+2019-06-18 11:13:00,2
+2019-06-18 11:14:00,1

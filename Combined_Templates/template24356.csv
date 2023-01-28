@@ -1,0 +1,2 @@
+2,"select top # p.objid as name, p.ra, p.dec from galaxy p where (p.u BETWEEN # AND #) and (p.g BETWEEN # AND #)"
+2019-03-26 08:00:00,2

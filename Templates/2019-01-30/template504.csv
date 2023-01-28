@@ -1,0 +1,2 @@
+1,"SELECT TOP # g.objid, g.run, g.rerun, g.camcol, g.field, g.obj, g.ra, g.dec, zs.nvote as votes, zs.p_el as elliptical, zs.p_cw as spiralclock, zs.p_acw as spiralanticlock, zs.p_edge as edgeon, zs.p_dk as dontknow, zs.p_mg as merger, zs.spiral as debiased_spiral, zs.elliptical as debiased_elliptical, zs.uncertain as debiased_uncertain FROM Galaxy as G JOIN ZooSpec AS zs ON G.objid = zs.objid WHERE g.clean=# and zs.nvote >= #"
+2019-01-30 06:52:00,1

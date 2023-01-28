@@ -1,0 +1,2 @@
+2,"SELECT PA.ra, PA.dec, PA.l, PA.b, PA.g, PA.r, PA.u, (PA.g - PA.r - PA.extinction_g + PA.extinction_r) as gmr, (PA.u - PA.g - PA.extinction_u + PA.extinction_g) as umg into mydb.P5_FirstQuadrant FROM PhotoObjAll PA WHERE PA.l < # AND PA.l > # AND PA.b < # AND PA.b > # AND PA.g < # AND (PA.u - PA.g - PA.extinction_u + PA.extinction_g) < # AND (PA.u - PA.g - PA.extinction_u + PA.extinction_g) > #"
+2019-02-10 12:44:00,2

@@ -1,0 +1,2 @@
+1,"SELECT top # gal.u, gal.g, gal.r, gal.i, gal.z, s.z as redshift, gal.objID into mydb.MyTable_# from galaxy gal JOIN specObj s on s.bestObjID = gal.objID WHERE s.class = # AND s.z BETWEEN # and #"
+2019-03-12 05:39:00,1

@@ -1,0 +1,3 @@
+2,"select m.SpecObjID, m.ra, m.dec  into mydb.DR8_morphology_Huertas from SpecDR7 i, mydb.DR7_morphology_Huertas m where i.specObjID = m.SpecObjID;"
+2019-09-10 11:03:00,1
+2019-09-10 11:04:00,1

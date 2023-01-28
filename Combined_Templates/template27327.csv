@@ -1,0 +1,5 @@
+5,"SELECT p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.err_u, p.err_g, p.err_r, p.err_i, p.err_z, p.petroMag_u, p.petroMag_g, p.petroMag_r, p.petroMag_i, p.petroMag_z, p.petroMagErr_u, p.petroMagErr_g, p.petroMagErr_r, p.petroMagErr_i, p.petroMagErr_z, p.petroFlux_u, p.petroFlux_g, p.petroFlux_r, p.petroFlux_i, p.petroFlux_z, p.petroRad_u, petroRad_g, petroRad_r, petroRad_i, petroRad_z, p.petroRadErr_u, p.petroRadErr_g, p.petroRadErr_r, p.petroRadErr_i, p.petroRadErr_z, s.specobjid, s.class, s.z as z_spec, s.zErr as zspec_err, ga.bptclass, ga.oh_p5#, ga.lgm_tot_p5#, ga.lgm_fib_p5#, ga.sfr_tot_p5#, sfr_fib_p5#, specsfr_tot_p5# FROM PhotoObjAll AS p JOIN SpecObjAll AS s ON s.bestobjid = p.objid JOIN galSpecExtra AS ga ON ga.specObjID = s.specObjID WHERE s.z BETWEEN # AND # AND s.class = # AND ga.lgm_tot_p5# BETWEEN # AND # AND oh_p5# > #"
+2019-04-03 14:23:00,2
+2019-06-07 14:22:00,1
+2019-06-07 14:23:00,1
+2019-06-07 14:26:00,1

@@ -1,0 +1,2 @@
+1,"select top # P.ra, P.dec, P.objID, P.u, P.err_u, P.g, P.err_g, P.r, P.err_r, P.i, P.err_i, P.z, P.err_z from PhotoPrimary"
+2019-10-16 16:47:00,1

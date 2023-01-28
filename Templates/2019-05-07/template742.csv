@@ -1,0 +1,2 @@
+1,"select top # haloid , lastprogenitorid, mainleafid, m_crit2#, d.np   from MR d  where snapnum=#                          and firsthaloinfofgroupid=d.haloid      and m_crit2# between # and #  order by newid()                       ) select d.haloid as d_id, d.m_crit2# as d_mass, d.np as d_np ,      p.haloId,p.x,p.y,p.z,p.snapnum,p.mainLeafId,p.halfMassRadius into HaloTrees_#   from descendants d       inner join MR p         on p.haloid between d.haloid and d.lastprogenitorid order by d.haloid, p.haloid"
+2019-05-07 06:47:00,1

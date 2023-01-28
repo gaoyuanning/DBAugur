@@ -1,0 +1,2 @@
+1,"SELECT u.id, u.plate, u.mjd, u.fiberid, s.specObjID, s.ra, s.dec, s.z into mydb.sample_gt1 from MYDB.samplegt1 AS u       JOIN SpecObjAll s ON (s.plate=u.plate AND s.mjd=u.mjd AND s.fiberID=u.fiberid)"
+2019-10-29 02:17:00,1

@@ -1,0 +1,2 @@
+2,"SELECT my.plate, my.mjd, my.fiberid FROM MyDB.minisdss_galaxyonly as my INTO MyDB.minisdss_galaxy_speccoords"
+2019-09-24 14:14:00,2

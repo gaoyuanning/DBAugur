@@ -1,0 +1,2 @@
+1,"select distinct top # star.ra, star.dec, obj.j as mag from apogeestar as star, apogeeObject as obj, apogeePlate as plate where obj.target_id = star.target_id and plate.location_id = star.location_id and plate.plate = XXXX order by mag"
+2019-12-31 11:51:00,1

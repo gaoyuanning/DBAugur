@@ -1,0 +1,3 @@
+2,"SELECT apogee_id, glon, glat FROM apogeeStar  into myDB.apogee"
+2019-08-03 07:51:00,1
+2019-08-03 07:52:00,1

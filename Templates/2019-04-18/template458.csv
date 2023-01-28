@@ -1,0 +1,2 @@
+1,"SELECT TOP #  S.ObjID, S.ra, S.dec, S.z,   &&&, L.ew, L.ewErr, L.continuum,   &&&, L2.ew, L2.ewErr, L2.continuum,   &&&, L_OII.ew ,L_OII.ewErr,L_OII.continuum,   &&&, L_Hd.ew ,L_Hd.ewErr,L_Hd.continuum  FROM SpecPhoto AS S   JOIN SpecLine AS L ON S.SpecObjID = L.SpecObjID   JOIN SpecLine AS L2 ON S.SpecObjID = L2.SpecObjID   JOIN SpecLine AS L_OII ON S.SpecObjID = L_OII.SpecObjID  JOIN SpecLine AS L_Hd ON S.SpecObjID = L_Hd.SpecObjID  WHERE  L.LineId = #   and L2.LineId = #   and L_OII.LineId = #   and L_Hd.LineId = #"
+2019-04-18 10:36:00,1

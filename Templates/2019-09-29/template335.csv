@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.SpecObjID, s.z, dbo.fCosmoDl(s.z), psfMag_r FROM SpecPhoto as s   JOIN SpecLine as L    ON s.specObjID = L.specObjID  WHERE s.specClass = # AND L.lineID = #"
+2019-09-29 06:25:00,1

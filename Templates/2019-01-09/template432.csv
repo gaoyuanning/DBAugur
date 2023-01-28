@@ -1,0 +1,2 @@
+3,"select   m.mangaid, m.ra as ra1, m.dec as dec1, n.objid, z.nvote, z.p_el as elliptical, z.p_cw as spiralclock from MyDB.MyTable as m      cross apply dbo.fGetNearestObjEq(m.ra, m.dec,#) as n   join DR8.ZooSpec as z on n.objid=z.objid"
+2019-01-09 06:07:00,3

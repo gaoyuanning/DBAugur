@@ -1,0 +1,3 @@
+3,"select top # objid,ra,dec,u,g,r,i,z from PhotoObj where   select top # objid,ra,dec,modelmag_g,z  from specphoto"
+2019-01-13 01:29:00,1
+2019-01-13 01:37:00,2

@@ -1,0 +1,2 @@
+1,"select max (z) , min (z) from Photoz where z < > #"
+2019-10-06 09:55:00,1

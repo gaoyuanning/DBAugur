@@ -1,0 +1,2 @@
+1,"SELECT a.z, b.z INTO mydb.SFR_CHECK_# FROM stellarMassFSPSGranWideDust as a LEFT JOIN SpecPhotoAll as b on a.specObjID = b.specObjID"
+2019-05-13 07:54:00,1

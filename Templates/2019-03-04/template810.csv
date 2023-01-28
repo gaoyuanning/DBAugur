@@ -1,0 +1,3 @@
+2,"SELECT TOP #  f.objID, f.ra, f.dec, f.peak, f.integr, f.rms FROM FIRST AS f"
+2019-03-04 08:49:00,1
+2019-03-04 08:51:00,1

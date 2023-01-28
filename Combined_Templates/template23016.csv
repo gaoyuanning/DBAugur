@@ -1,0 +1,2 @@
+2,"select photoobj.objid, specphotoall.z, specphotoall.subclass from photoobj, specphotoall where photoobj.ra between # and # and photoobj.dec between # and # and photoobj.objid = specphotoall.objid"
+2019-03-24 05:54:00,2

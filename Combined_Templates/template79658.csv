@@ -1,0 +1,2 @@
+1,"select top # _id, the_geom.ToString () as geo from eschoolzones"
+2019-11-29 14:59:00,1

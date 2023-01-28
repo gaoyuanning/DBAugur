@@ -1,0 +1,2 @@
+1,"SELECT TOP # PERCENT objID,type,dec,ra,u,g,r,i,z,flags_r into mydb.MyTable WHERE   type=#"
+2019-07-09 11:04:00,1

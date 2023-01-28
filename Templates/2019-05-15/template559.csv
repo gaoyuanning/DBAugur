@@ -1,0 +1,5 @@
+5,select top # s.* FROM MRscPlanck1 as s INNER JOIN cones.MRscPlanck1_BC0#_# as c ON s.snapnum = # and s.galaxyID = c.galaxyID
+2019-05-15 04:23:00,1
+2019-05-15 04:24:00,1
+2019-05-15 04:26:00,2
+2019-05-15 04:43:00,1

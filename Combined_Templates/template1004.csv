@@ -1,0 +1,2 @@
+1,"select distinct P.objID, P.err_u, P.err_g, P.err_r, P.err_i, P.err_z, P.isoAGrad_u, P.isoAGrad_g, P.isoAGrad_r, P.isoAGrad_i, P.isoAGrad_z, P.isoBGrad_u, P.isoBGrad_g, P.isoBGrad_r, P.isoBGrad_i, P.isoBGrad_z, P.isoA_u, P.isoA_g, P.isoA_r, P.isoA_i, P.isoA_z, P.isoB_u, P.isoB_g, P.isoB_r, P.isoB_i, P.isoB_z, P.isoPhi_u, P.isoPhi_g, P.isoPhi_r, P.isoPhi_i, P.isoPhi_z, P.ra, P.dec, P.run, P.rerun, P.camcol, P.field into mydb.spiral_arm_mother_sample from PhotoObjAll AS P, mydb.spiral_arm_sample AS SID where P.objid = SID.ID"
+2019-01-04 00:50:00,1

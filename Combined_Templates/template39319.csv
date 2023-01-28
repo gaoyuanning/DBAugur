@@ -1,0 +1,3 @@
+3,"SELECT s.SDSSname, s.specObjID, s.objID, s.ra, s.dec, s.petroMag_u, s.petroMagErr_u, s.petroMag_g, s.petroMagErr_g, s.petroMag_r, s.petroMagErr_r, s.petroMag_i, s.petroMagErr_i, s.petroMag_z, s.petroMagErr_z, s.specobjid, s.class, s.subclass, s.z, g.* into mydb.SF_xgalex from xSDSSDR7 as g, mydb.SF_sdss as s where s.objID = g.SDSSObjid"
+2019-05-14 13:54:00,1
+2019-05-14 13:55:00,2

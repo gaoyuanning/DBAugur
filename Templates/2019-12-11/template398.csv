@@ -1,0 +1,2 @@
+1,"SELECT top # specObj,ra,dec,class,subclass FROM SpecObj WHERE   (class = &&&)"
+2019-12-11 08:59:00,1

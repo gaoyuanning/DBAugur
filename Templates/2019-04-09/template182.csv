@@ -1,0 +1,2 @@
+2,"select s.mjd, s.plate,s.fiberid,s.ra,s.dec,s.z,s.zerr,s.class,s.subclass, s.veldisp,s.veldisperr into mydb.vgt6allsp from mydb.vgt6ph as cc join specObjAll as s on s.bestobjid = cc.objid"
+2019-04-09 19:56:00,2

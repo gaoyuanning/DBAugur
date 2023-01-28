@@ -1,0 +1,6 @@
+6,"SELECT SpecObj.ra,SpecObj.dec,lineID into mydb.MyTable from SpecLine as Q_SpecLine INNER JOIN SpecObj ON Q_SpecLine.specObjID=SpecObj.specObjID WHERE   Q_SpecLine.wave != #   and Q_SpecLine.cate  ry = #   and Q_SpecLine.ew > #   and Q_SpecLine.height > #   and SpecObj.objType = #   and SpecObj.specClass = #"
+2019-12-23 14:17:00,1
+2019-12-23 14:18:00,1
+2019-12-23 14:21:00,2
+2019-12-23 14:22:00,1
+2019-12-23 14:28:00,1

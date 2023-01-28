@@ -1,0 +1,2 @@
+1,"SELECT TOP # G.subclass FROM specphotoall as G JOIN dbo.fGetNearbyObjEq (#, #, #) AS GN ON G.objID = GN.objID ORDER BY subclass"
+2019-06-13 13:22:00,1

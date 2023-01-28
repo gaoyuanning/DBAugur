@@ -1,0 +1,6 @@
+5,"SELECT TOP # z, ra, dec, psfMag_g, psfMag_r FROM SpecPhoto WHERE class = &&& AND zWarning = # AND ra > # and ra < # AND dec > # and dec < # AND z > # and z < #"
+2019-12-10 20:38:00,1
+2019-12-10 20:49:00,1
+2019-12-10 20:51:00,1
+2019-12-10 21:03:00,1
+2019-12-10 21:04:00,1

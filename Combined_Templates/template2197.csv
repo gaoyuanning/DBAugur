@@ -1,0 +1,2 @@
+1,"SELECT TOP # t.thingid, t.ndetect, d.objid, p.psfMag_r, p.ra, p.dec FROM thingIndex AS t JOIN detectionindex AS d ON t.thingid = d.thingid JOIN Galaxy AS p ON d.objid = p.objid WHERE t.ndetect > # AND p.ra between # and # and p.dec between # and #"
+2019-01-10 03:14:00,1

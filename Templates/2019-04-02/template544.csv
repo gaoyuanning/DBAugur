@@ -1,0 +1,5 @@
+5,"select top # p.objid, s.z as redshift from photoobj p, specobj s where p.objid=s.bestobjid and (p.u BETWEEN # AND #)  and (p.g BETWEEN # AND #)"
+2019-04-02 07:54:00,1
+2019-04-02 07:55:00,1
+2019-04-02 07:56:00,1
+2019-04-02 07:57:00,2

@@ -1,0 +1,2 @@
+1,"select z,ra,dec,specClass,zconf, targetID from specObj where zconf >.# AND specClass = # AND z >=#"
+2019-09-12 22:53:00,1

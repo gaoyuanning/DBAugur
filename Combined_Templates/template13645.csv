@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID, class, ra, dec, r, g into mydb.MyTable_Y from SpecObj WHERE class = # OR class = #"
+2019-02-22 01:58:00,1

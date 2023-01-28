@@ -1,0 +1,2 @@
+1,"SELECT     s.specobjid,s.bestObjID,s.plate, s.mjd, s.fiberid, s.z,s.ra,s.dec,     g.ra,g.dec,g.bpt,g.ew_oii_#,g.ew_oii_#_err,g.flux_oii_#, g.flux_oii_#_err,     g.ew_ha_#,g.ew_ha_#_err,g.flux_ha_#, g.flux_ha_#_err into mydb.specEMcutnew from DR1#.emissionLinesPort AS g   JOIN DR1#.SpecObj AS s ON s.specobjid = g.specobjid WHERE     g.flux_ha_# < g.flux_ha_#_err*#     AND g.flux_oii_# < g.flux_oii_#_err*#     AND g.Flux_Hb_#_err > #     AND s.class = &&&     AND s.zwarning = #"
+2019-05-15 04:23:00,1

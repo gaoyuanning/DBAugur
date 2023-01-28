@@ -1,0 +1,2 @@
+1,"SELECT z, ra, dec WHERE dec BETWEEN # AND # AND ra BETWEEN # AND #"
+2019-03-22 01:25:00,1

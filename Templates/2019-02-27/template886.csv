@@ -1,0 +1,2 @@
+1,"SELECT TOP #    a.objID a_objID, a.ra a_ra, a.dec a_dec, b.ra b_ra, b.dec b_dec,    a.petroMag_u a_mag_u, b.petroMag_u b_mag_u  FROM PhotoObjAll a    INNER JOIN Neighbors n ON n.objID = a.objID    INNER JOIN PhotoObjAll b ON b.objID = n.NeighborObjID  WHERE a.mode = # AND b.mode = # AND n.distance < #  AND (a.petroMag_u-b.petroMag_u) < #  AND a.petroMag_u > #"
+2019-02-27 05:48:00,1

@@ -1,0 +1,2 @@
+1,"SELECT specobj.specObjID, specobj.z, photoobjall.type into mydb.MyTable from SpecObj, PhotoObjAll WHERE specobj.class = &&& AND specobj.zWarning = # AND SpecObj.fluxobjid = photoobjall.objid"
+2019-08-08 00:24:00,1

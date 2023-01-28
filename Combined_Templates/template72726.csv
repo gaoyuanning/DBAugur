@@ -1,0 +1,2 @@
+1,select * into mydb.MyTable from PhotoObjAll where ra between # and # and dec between # and # and type = #
+2019-10-31 18:27:00,1

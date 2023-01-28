@@ -1,0 +1,2 @@
+2,select specObjID into [myscratch:default].Testing3 from dbo.galSpecInfo as s
+2019-04-01 01:29:00,2

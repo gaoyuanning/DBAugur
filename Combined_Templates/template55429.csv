@@ -1,0 +1,2 @@
+1,"select top # bestobjid, class, count (z) as num_redshift, ra, dec from specObj where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-08-06 15:36:00,1

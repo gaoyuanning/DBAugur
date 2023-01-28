@@ -1,0 +1,2 @@
+1,"SELECT t.AlbumID, SUM(t.UnitPrice) AS totalPrice, COUNT(t.AlbumID)         AS numTracks     FROM chinook.Track t     GROUP BY AlbumID ) SELECT * FROM album"
+2019-04-24 19:22:00,1

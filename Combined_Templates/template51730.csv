@@ -1,0 +1,3 @@
+2,"SELECT u.up_CID as CID, x.objID, s.BestObjID, s.ra, s.dec, dbo.fPhotoTypeN (p.type) as type, s.specObjID, s.z, s.zWarning, s.class, s.subClass FROM #upload u JOIN #x x ON x.up_id = u.up_id JOIN PhotoObj p ON p.objID = x.objID JOIN SpecObjAll s ON p.objID = s.bestObjID ORDER by x.up_id##', @log = #, @filter = #"
+2019-07-14 19:04:00,1
+2019-07-14 19:29:00,1

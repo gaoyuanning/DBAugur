@@ -1,0 +1,4 @@
+3,"SELECT p.objID, p.ra, p.dec FROM #x x, #upload u, PhotoTag p WHERE u.up_id = x.up_id and x.objID = p.objID ORDER BY x.up_id"
+2019-08-01 23:47:00,1
+2019-08-05 14:27:00,1
+2019-08-05 14:28:00,1

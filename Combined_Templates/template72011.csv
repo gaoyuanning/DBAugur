@@ -1,0 +1,5 @@
+5,"SELECT TOP # s.plate, s.mjd, s.fiberid FROM ..SpecObj as s WHERE s.z > .# AND s.zWarning = # AND (s.class = #) AND s.z < #"
+2019-10-28 15:30:00,1
+2019-11-18 19:13:00,1
+2019-11-18 19:16:00,2
+2019-11-18 19:51:00,1

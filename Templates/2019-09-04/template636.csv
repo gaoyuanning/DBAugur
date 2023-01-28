@@ -1,0 +1,2 @@
+1,"select top #, ra,dec, rand() from specObj where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-09-04 02:02:00,1

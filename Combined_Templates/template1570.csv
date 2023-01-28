@@ -1,0 +1,2 @@
+2,"SELECT TOP # mqc.NAME, mqc.RA, mqc.DEC, mqc.RMAG, mqc.BMAG, mqc.REDSHIFT, mqc.TYPE, distance (POINT (#, mqc.RA, mqc.DEC) , POINT (#, dr1#.ra, dr1#.dec) ) AS dist FROM mydb.milliquas AS mqc, dbo.PhotoObjAll AS dr1# ORDER BY mqc.RMAG ASC into mydb.mqcXdr1#_#arcsec WHERE # = CONTAINS (POINT (#, mqc.RA, mqc.DEC) , CIRCLE (#, dr1#.ra, dr1#.dec, #) )"
+2019-01-08 08:46:00,2

@@ -1,0 +1,2 @@
+1,SELECT * FROM mydb.galaxias as g JOIN dr1#.galspecextra as x ON g.objid_dr1# = x.specobjid;
+2019-10-16 17:10:00,1

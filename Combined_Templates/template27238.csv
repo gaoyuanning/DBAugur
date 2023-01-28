@@ -1,0 +1,2 @@
+1,"SELECT TOP # survey, plate, mjd, fiberid, bestobjid, z FROM specObj WHERE class = # AND zWarning = # AND # < = z AND z < =# ORDER BY MAX (flux)"
+2019-04-03 16:24:00,1

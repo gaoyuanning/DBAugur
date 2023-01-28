@@ -1,0 +1,2 @@
+1,"SELECT u.up_name as [name], x.objID, p.ra, p.dec, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z FROM #x x, #upload u, PhotoTag p"
+2019-02-26 22:25:00,1

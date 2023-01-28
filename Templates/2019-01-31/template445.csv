@@ -1,0 +1,2 @@
+1,"select floor((p.petroMag_r - # - # * log1#(dbo.fCosmoDl(s.z)) - p.extinction_r)*#)/# M_r_vagott, count(*) N_vagott, s.z z from SpecObj s inner join PhotoObj p on s.bestObjID = p.ObjID where s.z > #  and s.z < # and p.petroMag_r - # - # * log1#(dbo.fCosmoDl(s.z)) - p.extinction_r > # and p.petroMag_r - # - # * log1#(dbo.fCosmoDl(s.z)) - p.extinction_r < # group by floor((p.petroMag_r - # - # * log1#(dbo.fCosmoDl(s.z)) - p.extinction_r)*#) order by #"
+2019-01-31 09:18:00,1

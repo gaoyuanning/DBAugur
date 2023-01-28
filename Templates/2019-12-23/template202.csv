@@ -1,0 +1,2 @@
+1,"select objid from dbo.fGetNearbyObjEq(#,#,#)"
+2019-12-23 08:26:00,1

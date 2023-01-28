@@ -1,0 +1,2 @@
+1,"SELECT TOP # Photo ID,ra,dec,z FROM specObj WHERE class=QSO"
+2019-10-24 11:40:00,1

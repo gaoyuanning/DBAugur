@@ -1,0 +1,2 @@
+1,"SELECT TOP # cast (str (p.ra, #, #) as float) as ra, cast (str (p.[dec], #, #) as float) as dec, p.u, p.g, p.r, p.i, p.z FROM ..Galaxy AS p JOIN dbo.fGetNearbyObjEq (#, #, #) AS b ON b.objID = P.objID"
+2019-01-15 13:23:00,1

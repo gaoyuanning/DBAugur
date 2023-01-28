@@ -1,0 +1,2 @@
+1,"select top # STR(Zone.ra,#,#), STR(Zone.dec,#,#), Count(*) FROM Zone"
+2019-05-31 18:19:00,1

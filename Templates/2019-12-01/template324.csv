@@ -1,0 +1,2 @@
+1,"select top # g.dered_g, g.dered_r, g.petroMag_g, g.petroMag_r, g.extinction_g, g.extinction_r from Galaxy as g"
+2019-12-01 02:15:00,1

@@ -1,0 +1,2 @@
+1,"select ALL p.u-p.r, p.g-p.r , p.r-p.i , p.r-p.z, p.l, p.b from star p where objid = #"
+2019-10-26 13:50:00,1

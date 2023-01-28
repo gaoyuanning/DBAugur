@@ -1,0 +1,2 @@
+1,"select u.*, # + cast (p.objId as varchar (#) ) + #+ cast (p.objId as varchar (#) ) + # as url, ltrim (str (p.ra, #, #) ) as ra, ltrim (str (p.dec, #, #) ) as dec, dbo.fPhotoTypeN (p.type) as type from #x x, #upload u, photoPrimary p where u.up_id = x.up_id and x.objID = p.objID and p.type = # order by x.up_id"
+2019-12-13 07:19:00,1

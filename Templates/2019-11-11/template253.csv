@@ -1,0 +1,4 @@
+5,"select ra, dec, mjd, programName from PlateX where plate=#"
+2019-11-11 13:23:00,1
+2019-11-11 13:38:00,2
+2019-11-11 13:40:00,2

@@ -1,0 +1,2 @@
+1,"SELECT ALL   p.objID, p.RA, p.DEC,     GIDX.lick_mgb,   GIDX.lick_mgb,      into mydb.lick_xsample from PhotoObj AS p      JOIN SpecObj AS s ON s.bestobjid = p.objid      JOIN galSpecIndx AS GIDX ON s.specobjid = GIDX.specobjid   JOIN TwoMassXSC AS TM ON TM.objID = p.objid       WHERE     p.petroMag_r <#    AND p.petroMag_g <#   AND p.petroMag_u <#   AND s.class=&&&    AND s.z>#   AND s.z<#"
+2019-12-04 09:38:00,1

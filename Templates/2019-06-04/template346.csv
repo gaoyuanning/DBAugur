@@ -1,0 +1,2 @@
+1,"SELECT ALL    p.objID, p.petroMag_u, p.petroMagErr_u, p.petroMag_g, p.petroMagErr_g, p.petroMag_r,p.petroMagErr_r,    s.z, s.zErr, zspec.spiral, zspec.elliptical, zspec.uncertain, gal.lgm_tot_p5#,   gal.sfr_tot_p5# into mydb.MyTable from PhotoObj AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid    JOIN ZooSpec AS zspec ON zspec.objid = p.objid    JOIN galSpecExtra AS gal ON gal.specobjid = s.specobjid  WHERE     p.petroMag_r <#    AND p.petroMag_g <#    AND p.petroMag_u <#    AND s.z>#    AND s.z<#"
+2019-06-04 09:45:00,1

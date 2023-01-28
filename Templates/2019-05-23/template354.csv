@@ -1,0 +1,6 @@
+5,"SELECT s.*,dbo.fDistanceArcMinEq(s.RA+((s.pmra/cos(radians(s.Dec)))/#.)*(s.mjd_f-s.mjd)/#,s.Dec+(s.pmdec/#.)*(s.mjd_f-s.mjd)/#,s.RAJ2#,s.DEJ2#)*#. as Separation from MyDB.gaia_neigh_galex_mjd as s WHERE dbo.fDistanceArcMinEq(s.RA+((s.pmra/cos(radians(s.Dec)))/#.)*(s.mjd_f-s.mjd)/#,s.Dec+(s.pmdec/#.)*(s.mjd_f-s.mjd)/#,s.RAJ2#,s.DEJ2#)*#.<=# -- cone search #/arcsec INTO gaia_X_galex_test1"
+2019-05-23 05:54:00,1
+2019-05-23 06:01:00,1
+2019-05-23 06:23:00,1
+2019-05-23 11:31:00,1
+2019-05-23 12:15:00,1

@@ -1,0 +1,2 @@
+1,"select z.*, p.ra as photoRA, p.dec as photoDec, s.z into mydb.MyTable from zoo2MainSpecz z   join   specobjall s on s.specobjid=z.specobjid join   photoobjall p on s.bestobjid=p.objid where   z.t0#_odd_feature_a2#_disturbed_debiased > z.t0#_odd_feature_a2#_irregular_debiased   and   z.t0#_odd_feature_a2#_disturbed_debiased > #   and    z.t0#_odd_feature_a2#_disturbed_flag <> #"
+2019-08-17 16:23:00,1

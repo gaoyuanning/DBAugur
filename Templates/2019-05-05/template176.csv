@@ -1,0 +1,6 @@
+5,"SELECT up_id, dbo.fGetNearestObjIdEq(up_ra,up_dec,#) as objId           FROM #upload WHERE dbo.fGetNearestObjIdEq(up_ra,up_dec,#) IS NOT NULL SELECT         p.objID, p.ra, p.dec, p.run, p.rerun, p.camcol, p.field,        dbo.fPhotoTypeN(p."
+2019-05-05 11:06:00,1
+2019-05-05 11:41:00,1
+2019-05-05 11:50:00,1
+2019-05-05 11:54:00,1
+2019-05-05 11:58:00,1

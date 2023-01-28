@@ -1,0 +1,2 @@
+2,"SELECT distinct objID, modelMag_r, petroRad_r,z FROM GALAXY as g join PhotoPrimary on PhotoPrimary = g.PhotoObjAll WHERE (g.ra between # and #) and (g.dec between # and #) and g.modelMag_r < # and g.petroRad_r > #"
+2019-02-12 04:05:00,2

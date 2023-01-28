@@ -1,0 +1,2 @@
+1,SELECT * into mydb.field_all from SELECT *  from Galaxies_dr1# UNION SELECT * FROM QSOs_dr1#
+2019-08-19 10:46:00,1

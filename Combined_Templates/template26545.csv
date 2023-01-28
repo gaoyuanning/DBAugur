@@ -1,0 +1,3 @@
+2,"select ra, dec i from PhotoObj where (ra = #) and (dec = #)"
+2019-04-01 09:02:00,1
+2019-04-01 09:04:00,1

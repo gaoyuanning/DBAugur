@@ -1,0 +1,2 @@
+1,"SELECT p.objId as objid, p.ra,p.dec,p.petror9#_r,s.z, n.sersic_n, rc.MP2# as avgsurfbright, e.EW_H5_# as h5width,  e.EW_He_# as hewidth, e.EW_Hb_# as hbwidth, e.EW_Ha_# as hawidth, m.DL as dist FROM galaxy AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid    JOIN nsatlas AS n ON n.mjd = s.mjd and n.fiberID = s.fiberID and n.plate = s.plate    JOIN emissionLinesPort AS e ON e.mjd = s.mjd and e.fiberID = s.fiberID and e.plate = s.plate    JOIN mangaPipe3D AS m ON m.objra = e.ra and m.objdec = e.dec WHERE n.sersic_n < #"
+2019-07-11 10:05:00,1

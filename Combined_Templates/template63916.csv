@@ -1,0 +1,2 @@
+1,"SELECT Distinct s.specObjID, s.ra, s.dec FROM dbo.SpecObjAll AS s INNER JOIN dbo.PhotoObjAll AS p on s.bestObjID = p.objID INNER JOIN dbo.SpecLineAll AS l on s.specObjID = l.specObjID WHERE SQRT (SQUARE (s.ra - nan) + SQUARE (s.dec - nan) ) < #/# and s.z > # and l.ew > #"
+2019-09-18 16:40:00,1

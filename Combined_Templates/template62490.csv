@@ -1,0 +1,2 @@
+1,"SELECT s.sdss_s_specObjId as input_specObjId, s.ra as s_ra, s.dec as s_dec, s.z as s_z, s.specObjID as s_specObjID, s.sciencePrimary, m.* into mydb.MyTable_# from MyDB.CAGN_final_radec AS d LEFT JOIN SpecObjAll AS s ON d.sdss_s_specObjId = s.bestObjID LEFT JOIN stellarMassStarFormingPort AS m ON m.specObjID = s.specObjID"
+2019-09-11 08:49:00,1

@@ -1,0 +1,3 @@
+2,"SELECT specobjid,    Chabrier_MILES_age_lightW, Chabrier_MILES_metallicity_lightW, Chabrier_MILES_stellar_mass,   Kroupa_MILES_age_lightW, Kroupa_MILES_metallicity_lightW, Kroupa_MILES_stellar_mass,    Kroupa_ELODIE_age_lightW, Kroupa_ELODIE_metallicity_lightW, Kroupa_ELODIE_stellar_mass into mydb.MyTable_# from sdssEbossFirefly WHERE z_err < .# AND zwarning = #"
+2019-03-07 12:15:00,1
+2019-03-07 12:27:00,1

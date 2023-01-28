@@ -1,0 +1,3 @@
+2,"SELECT   G.specObjID, G.plateid, G.mjd, G.fiberid, G.ra, G.dec  INTO   G1#  FROM   galSpecInfo as G"
+2019-09-16 08:23:00,1
+2019-09-16 08:24:00,1

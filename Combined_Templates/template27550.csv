@@ -1,0 +1,2 @@
+1,select * into mydb.allGal from dbo.specPhotoAll where class = # and objID is not # and sciencePrimary = # and z< # and dered_r< #
+2019-04-03 08:05:00,1

@@ -1,0 +1,2 @@
+1,"select * from optw.tamass.VARIABLES where UNIT = # and CONCEPT like #) select VARID, Label = REPLACE (MIN (b.label) , #, #) , N = sum (v.VAL) from optw.tamass.VALS v join bins b on b.ID = v.VARID --where TRACTID = # group by VARID order by VARID asc"
+2019-12-15 11:42:00,1

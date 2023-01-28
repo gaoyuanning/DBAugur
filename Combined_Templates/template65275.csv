@@ -1,0 +1,3 @@
+4,"SELECT g.sfr_tot_p5#, g.lgm_tot_p5#, g.specsfr_tot_p5# INTO myDB.sfr_sdss_#_#z FROM galSpecExtra as g, specObj as s WHERE s.specObjID = g.specObjID AND s.z > = # AND s.z < = #"
+2019-09-25 12:43:00,2
+2019-09-25 14:42:00,2

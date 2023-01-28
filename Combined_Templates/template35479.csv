@@ -1,0 +1,2 @@
+1,"SELECT s.run1d, s.mjd, s.fiberid into mydb.PCA from SpecObj as s INNER JOIN PhotoObj AS p ON s.bestObjId = p.objID WHERE p.type = # AND s.z BETWEEN # AND #"
+2019-04-29 10:31:00,1

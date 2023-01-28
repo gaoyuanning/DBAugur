@@ -1,0 +1,2 @@
+1,"select objID, photo.ra, photo.dec, photo.type, spec.class, spec.subclass from PhotoObj photo join SpecObj spec on photo.objID = spec.objID where abs (photo.ra) < # and abs (photo.dec) < #"
+2019-02-15 20:31:00,1

@@ -1,0 +1,2 @@
+1,"select top # ra, dec, ivz_id, dbo.fGetNearestObjIdEq (ra, dec, #/#) as objID -- into #upload from mydb.vstarMin where dbo.fGetNearestObjIdEq (ra, dec, #/#) is not #"
+2019-09-11 15:41:00,1

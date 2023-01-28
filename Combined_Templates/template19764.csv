@@ -1,0 +1,2 @@
+1,"SELECT s . specObjID , g . dered_u , g . dered_g , g . dered_r , g . dered_i , g . dered_z , s . z AS redshift INTO mydb .specObjAllz_cleanphoto FROM SpecObj As s JOIN Galaxy as g ON s . specobjid = g . specobjid , PhotoObj WHERE class = GALAXY"
+2019-03-12 10:11:00,1

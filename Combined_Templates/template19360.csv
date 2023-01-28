@@ -1,0 +1,2 @@
+1,"SELECT TOP # *, (p_cw + p_acw) AS p_sp FROM zooSpec"
+2019-03-11 17:26:00,1

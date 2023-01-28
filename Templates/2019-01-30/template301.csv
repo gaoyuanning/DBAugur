@@ -1,0 +1,2 @@
+1,"SELECT FLOOR(sppParams.l), COUNT(*), AVG(s.z/cos(RADIANS(sppParams.b))) ,     STDEV(s.z / cos(RADIANS(sppParams.b))) / SQRT(COUNT(*)#)  FROM SpecObj s   INNER JOIN sppParams ON s.specObjID=sppParams.specObjID   WHERE Feha > # AND Feha < # AND s.z<#  GROUP BY FLOOR(sppParams.l) ORDER BY #"
+2019-01-30 14:25:00,1

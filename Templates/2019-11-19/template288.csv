@@ -1,0 +1,2 @@
+1,"select   id, t.objid, ra, dec, run, rerun, camcol, field, petroMag_u as upmag,    petroMagErr_u as upmag_err, petroMag_g as gpmag, petroMagErr_g as gpmag_err,    petroMag_r as rpmag, petroMagErr_r as rpmag_err, petroMag_i as ipmag,    petroMagErr_i as ipmag_err, petroMag_z as zpmag, petroMagErr_z as zpmag_err,    extinction_u as ext_u, extinction_g as ext_g, extinction_r as ext_r,    extinction_i as ext_i, extinction_z as ext_z   from MyDB.temp as t    left join PhotoObjAll as p on p.objID=t.objid    order by id"
+2019-11-19 14:34:00,1

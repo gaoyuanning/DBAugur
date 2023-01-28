@@ -1,0 +1,2 @@
+1,"select PhotoObj.objID, PhotoObj.ra, PhotoObj.dec, specObj.bestObjid, specObj.ra, SpecObj.dec, SpecObj.z, PhotoProfile.objID, PhotoProfile.profMean, PhotoProfile.profErr into mydb.MyTable from PhotoObj, specObj, PhotoProfile where specObj.bestObjid = PhotoObj.objID and PhotoObj.objID = PhotoProfile.objID and SpecPhotoAll.z between # and #"
+2019-01-04 02:07:00,1

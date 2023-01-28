@@ -1,0 +1,2 @@
+1,"SELECT       p.ObjID,    p.dered_g, p.dered_r, p.dered_i, p.err_g, p.err_r, p.err_i                            INTO mydb.SDSS_DR1#_GalaxyAll_griPhotoOnly_# FROM PhotoObjAll AS p      WHERE     p.dered_u + p.dered_g + p.dered_r + p.dered_i + p.dered_z > #     AND p.clean = #     AND p.type = #"
+2019-06-03 14:59:00,1

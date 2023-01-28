@@ -1,0 +1,2 @@
+1,"SELECT ra, dec FROM dr1#.Star WHERE ra BETWEEN # and # AND dec BETWEEN # and # into mydb.photo_star_#-#"
+2019-03-22 05:29:00,1

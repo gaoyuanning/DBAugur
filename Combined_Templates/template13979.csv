@@ -1,0 +1,4 @@
+3,"SELECT TOP # G.ObjID, G.u AS u_mag, G.g AS g_mag, G.r AS r_mag, G.i AS i_mag, G.z AS z_mag, spec.z, spec.zErr FROM Galaxy AS G INTO MyDB.photo_redshift JOIN SpecObjAll AS spec ON spec.specObjID = G.specObjID WHERE spec.z > # AND spec.z < # AND spec.zErr < # AND G.lnlDev_r > # AND (G.flags & (dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) )) > # AND (G.flags & (dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) )) ! = dbo.fPhotoFlags (#) AND (G.flags & (dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) )) = # AND G.petroMag_i > #"
+2019-02-25 21:39:00,1
+2019-02-25 21:43:00,1
+2019-02-25 21:46:00,1

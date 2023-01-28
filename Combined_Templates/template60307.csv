@@ -1,0 +1,2 @@
+1,"SELECT objID, ra1, dec1, z, zWarning, class, subClass, ra2, dec2, j, h, k, phQual INTO mydb.sdssztmassgood FROM mydb.sdssztmass where phQual = #"
+2019-09-02 06:08:00,1

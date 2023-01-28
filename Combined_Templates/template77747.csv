@@ -1,0 +1,2 @@
+1,"select ra, dec, class from specObj where class = # and ra > # and ra < # and dec > # and dec < # and specClass = dbo.fSpecClass (#)"
+2019-11-21 16:11:00,1

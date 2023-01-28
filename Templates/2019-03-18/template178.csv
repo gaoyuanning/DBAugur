@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec, s.psfMag_g as g, s.psfMag_r as r, s.psfMag_i as i, s.psfMag_z as z FROM dbo.fGetNearbyObjEq(#, #, #) AS n JOIN Star AS s ON n.objID = s.objID"
+2019-03-18 18:36:00,1

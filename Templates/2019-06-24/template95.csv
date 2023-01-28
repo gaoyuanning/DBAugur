@@ -1,0 +1,2 @@
+1,"select ra,dec,modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z, objID from  Galaxy  where ra between # and # AND modelMag_u-modelMag_g > # AND modelMag_g>#"
+2019-06-24 21:29:00,1

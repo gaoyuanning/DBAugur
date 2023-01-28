@@ -1,0 +1,2 @@
+1,"CREATE TABLE BCGLumdist2(   ra_BCG  float  not null,   dec_BCG   float  not null,   objID     bigint not null,    ra       float  not null,   dec       float  not null,   lumDist  real   not null       );"
+2019-05-13 08:02:00,1

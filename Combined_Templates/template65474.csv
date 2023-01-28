@@ -1,0 +1,2 @@
+1,"SELECT top # objID, class, subclass, flags, zWarning, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z FROM PhotoObj WHERE zWarning = # AND class = # AND subclass like # AND subclass not like #"
+2019-09-25 07:32:00,1

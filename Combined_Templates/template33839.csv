@@ -1,0 +1,2 @@
+1,"select substring (Name, #, #) as Letter, count (*) as Count from chinook.Artist group by Letter"
+2019-04-24 01:09:00,1

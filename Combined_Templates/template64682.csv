@@ -1,0 +1,2 @@
+2,"SELECT TOP # s.objID, s.ra, s.dec, s.psfMag_u, s.psfMagErr_u, s.psfMag_g, s.psfMagErr_g, s.psfMag_r, s.psfMagErr_r, s.psfMag_i, s.psfMagErr_i, s.psfMag_z, s.psfMagErr_z from Star AS s"
+2019-09-23 10:32:00,2

@@ -1,0 +1,2 @@
+1,"SELECT     m.objID, m.ra_conea AS ra1, m.dec_conea AS dec1,      o.objid AS PhotoZobjID, o.z AS photoZ FROM MyDB.ShenBaldryObjID AS m  JOIN PhotoZ AS o ON m.objID=o.objid"
+2019-06-20 12:34:00,1

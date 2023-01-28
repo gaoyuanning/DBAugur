@@ -1,0 +1,2 @@
+1,"SELECT   JackascapCopy.*,   JT.* FROM JackTest2 as JT   JOIN JackaspcapCopy ON JT.specobjid = JackaspcapCopy.APOGEE_ID"
+2019-09-23 08:27:00,1

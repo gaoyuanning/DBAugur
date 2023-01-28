@@ -1,0 +1,2 @@
+1,"select u.*, &&& + cast(p.objId as varchar(#)) + &&&+ cast(p.objId as varchar(#)) + &&& as url, ltrim(str(p.ra,#,#)) as ra, ltrim(str(p.dec,#,#)) as dec, dbo.fPhotoTypeN(p.type) as type, p.status, ltrim(str(p.modelMag_u,#,#)) as u, ltrim(str(p.modelMag_g,#,#)) as g, ltrim(str(p.modelMag_r,#,#)) as r, ltrim(str(p.modelMag_i,#,#)) as i, ltrim(str(p.modelMag_z,#,#)) as z from #x x, #upload u, photoTag p  where u.up_id = x.up_id and x.objID=p.objID and p.mode=# order by x.up_id"
+2019-05-30 17:04:00,1

@@ -1,0 +1,2 @@
+1,"SELECT ALL  p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  p.z as redshift FROM PhotoObj AS p WHERE   p.ra BETWEEN # AND #  AND p.dec BETWEEN # AND #"
+2019-09-05 10:42:00,1

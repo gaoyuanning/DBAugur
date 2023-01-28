@@ -1,0 +1,2 @@
+5,"SELECT top # objID, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z,modelMagErr_u, modelMagErr_g, modelMagErr_r,    modelMagErr_i, modelMagErr_z FROM mydb.DR7RefCatNames       JOIN photoobj p ON p.objID = mydb.DR7RefCatNames.objID"
+2019-06-17 13:02:00,5

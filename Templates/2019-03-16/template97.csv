@@ -1,0 +1,2 @@
+1,"SELECT COUNT( z BETWEEN # AND # AS Redshift1, z BETWEEN # AND # AS Redshift2 ) FROM SpecObj  WHERE class = &&&  AND zWarning = #"
+2019-03-16 19:51:00,1

@@ -1,0 +1,2 @@
+1,"SELECT sp.ra, sp.dec, sp.z, sp.class, sp.psfmag_u-sp.extinction_u AS mag_u, sp.psfmag_g-sp.extinction_g AS mag_g, sp.psfmag_r-sp.extinction_r AS mag_r, sp.psfmag_i-sp.extinction_i AS mag_i, sp.psfmag_z-sp.extinction_z AS mag_z into mydb.MyTable from SpecObjAll AS sp"
+2019-04-04 13:03:00,1

@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec, s.spectroFlux_u, s.spectroFlux_g, s.spectroFlux_r, s.spectroFlux_i, s.spectroFlux_z, s.specobjid, s.class, s.z as redshift FROM SpecobjAll as s WHERE s.class = # and s.z > #"
+2019-06-30 10:13:00,1

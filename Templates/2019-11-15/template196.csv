@@ -1,0 +1,4 @@
+3,"SELECT top # objID, ra, dec, g, clean FROM PhotoObj WHERE CLEAN=#"
+2019-11-15 02:23:00,1
+2019-11-15 02:42:00,1
+2019-11-15 14:34:00,1

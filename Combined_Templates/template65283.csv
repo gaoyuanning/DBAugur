@@ -1,0 +1,3 @@
+2,"select cast (ZTF_Name as varchar (#) ), ra, dec, objid, distance, ra2, dec2 into mydb.RCF_has_SDSS from mydb.MyTable_#"
+2019-09-25 14:09:00,1
+2019-09-25 14:17:00,1

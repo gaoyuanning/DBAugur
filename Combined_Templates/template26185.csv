@@ -1,0 +1,3 @@
+2,"select t.Name, t.Composer, b.title as Album from chinook.track t join chinook.album b"
+2019-03-31 12:24:00,1
+2019-04-01 15:56:00,1

@@ -1,0 +1,2 @@
+1,"SELECT survey, programname, ra, dec, z, zErr, spectroFlux_u, spectroFlux_g, spectroFlux_r, spectroFlux_i, spectroFlux_z, spectroFluxIvar_u, spectroFluxIvar_g, spectroFluxIvar_r, spectroFluxIvar_i, spectroFluxIvar_z into mydb.MyTable from SpecObj WHERE zWarning = # AND z> # AND class = # AND ra> # AND ra< # AND z< # ORDER by z"
+2019-01-24 07:50:00,1

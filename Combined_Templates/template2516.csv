@@ -1,0 +1,4 @@
+4,"SELECT TOP # s.ra, s.dec, s.z AS redshift, p.cmodelmag_u, p.cmodelmag_g, p.cmodelmag_r, p.cmodelmag_i, p.cmodelmag_z INTO mydb.qso_galaxies FROM SpecObj AS s JOIN PhotoObj AS p ON s.bestobjid = p.objid WHERE (s.class = # OR s.class = #) AND s.zWarning = #"
+2019-01-13 13:45:00,2
+2019-12-02 01:55:00,1
+2019-12-02 01:56:00,1

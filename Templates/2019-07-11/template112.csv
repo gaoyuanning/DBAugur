@@ -1,0 +1,3 @@
+4,"SELECT aa_r,kk_r,airmass_r,gain_r,sky_r,skysig_r FROM Field where run=# AND rerun=# AND camcol=# AND field=#"
+2019-07-11 18:34:00,1
+2019-07-11 18:35:00,3

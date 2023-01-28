@@ -1,0 +1,2 @@
+1,"SELECT d.m_coadd_objects_id, g.objID,    g.ra, g.dec, g.run, g.rerun, g.camcol, g.field,    g.rowc_u, g.colc_u, g.rowc_g, g.colc_g,   g.rowc_r, g.colc_r, g.rowc_i, g.colc_i,   g.rowc_z, g.colc_z   INTO mydb.sdss_xmatch_#cutout_allc_dedup FROM mydb.desy1eqsdssxmatch_dedup as d   INNER JOIN GAlAXY as g ON d.s_objID = g.objID"
+2019-01-17 02:46:00,1

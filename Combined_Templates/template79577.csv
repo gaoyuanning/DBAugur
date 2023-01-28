@@ -1,0 +1,2 @@
+1,"SELECT TOP # e.plate, e.fiberID, e.mjd, e.z, e.Error_Warning, e.Flux_Hb_#, e.Flux_Hb_#_Err, e.Flux_Ha_#, e.Flux_Ha_#_Err, e.Flux_Hg_#, e.Flux_Hg_#_Err, e.Flux_Hd_#, e.Flux_Hd_#_Err FROM emissionLinesPort AS e WHERE e.Flux_Ha_# > e.Flux_Ha_#_Err*# AND Flux_Hb_# > Flux_Hb_#_Err*# AND Flux_Hg_# > Flux_Hg_#_Err*# AND Flux_Hd_# > Flux_Hd_#_Err*# AND Flux_Hb_#_Err > # AND Flux_Ha_# > #.*Flux_Hb_# AND e.Error_Warning = #"
+2019-11-28 06:14:00,1

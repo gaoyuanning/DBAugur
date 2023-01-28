@@ -1,0 +1,2 @@
+1,"SELECT top # objID, run, rerun, camcol, field FROM PhotoObjAll where type = # and petroMag_r> # and petroMag_r< #"
+2019-04-30 19:09:00,1

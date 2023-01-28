@@ -1,0 +1,3 @@
+2,"SELECT   s.plate, s.mjd, s.fiberid FROM SpecObjall AS s WHERE   class = &&& AND Z < # and snmedian > #"
+2019-10-10 06:27:00,1
+2019-10-10 06:28:00,1

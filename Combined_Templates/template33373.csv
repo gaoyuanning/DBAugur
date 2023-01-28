@@ -1,0 +1,2 @@
+1,"select top # x, y, c = sin (y+x) from data where y< # -- negative and cos (x) -y*y< # order by x desc */ select count (ID) , count (distinct RUNID) , AVG (Y) as A from data where X> #"
+2019-04-24 12:43:00,1

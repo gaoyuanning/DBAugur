@@ -1,0 +1,2 @@
+2,"SELECT SpecObj.ra,SpecObj.dec,z,zooSpec.spiral,zooSpec.elliptical,zooSpec.uncertain,zooNoSpec.p_el  FROM SpecObj,zooSpec,zooNoSpec  WHERE (SpecObj.ra ># and SpecObj.ra <#) AND (SpecObj.dec># and SpecObj.dec<#) And SpecObj.class=&&& And (zooSpec.specobjid=SpecObj.SpecObjID OR zooSpec.specobjid=SpecObj.SpecObjID)"
+2019-08-22 07:27:00,2

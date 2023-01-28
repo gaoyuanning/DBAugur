@@ -1,0 +1,2 @@
+2,"SELECT survey, snMedian % # AS bin, count(*) as count FROM specObjAll GROUP BY survey, snMedian % #"
+2019-03-20 17:49:00,2

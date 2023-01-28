@@ -1,0 +1,8 @@
+7,"SELECT p.objId,p.ra,p.dec,p.petror9#_r, p.expAB_r,     p.dered_u as u, p.dered_g as g, p.dered_r as r, p.dered_i as i,     s.z, s.plate, s.mjd, s.fiberid,     psfMag_u, psfMag_g, psfMag_r,      fiberMag_u, fiberMag_g, fiberMag_r,      petroMag_u, petroMag_g, petroMag_r,     p.extinction_g, n.sersic_n,      a.subClass FROM galaxy AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid    JOIN nsatlas AS n ON n.mjd = s.mjd and n.fiberID = s.fiberID and n.plate = s.plate    JOIN SpecObjAll AS a ON a.bestObjID=p.objid WHERE p.petror9#_r > #   and p.ra between # and #   and s.z between # and #   and p.g <#"
+2019-11-25 05:27:00,1
+2019-11-25 05:34:00,1
+2019-11-25 05:38:00,1
+2019-11-25 10:06:00,1
+2019-11-25 10:08:00,1
+2019-11-25 10:10:00,1
+2019-11-25 10:11:00,1

@@ -1,0 +1,2 @@
+1,"select c.* , x.[name] #, x.Flux8, x.e_Flux8, x.HR1, x.HR2, x.HR3, x.HR4, x.Nd from mydb.XMM_Master_masers as x inner join mydb.Chandra_Master_maser as c on x.num = c.num into mydb.XMM_Chandra_Masers_masers2"
+2019-07-15 12:14:00,1

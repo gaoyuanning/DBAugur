@@ -1,0 +1,2 @@
+1,"select class,subclass,count(*) from sppparams as a,specobjall as b where a.specobjid=b.specobjid   group by b.class,b.subclass"
+2019-09-08 11:08:00,1

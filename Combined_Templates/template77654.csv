@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.dr7objid, p.dr8objid FROM PhotoObjDR7 AS p WHERE p.dr7objid = #"
+2019-11-20 21:59:00,1

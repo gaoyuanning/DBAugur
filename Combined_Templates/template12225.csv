@@ -1,0 +1,2 @@
+1,select count (*) from PhotoObj where abs (ra) < # and abs (dec) < # and objID> # and (probPSF = <# or probPSF> =#)
+2019-02-19 15:21:00,1

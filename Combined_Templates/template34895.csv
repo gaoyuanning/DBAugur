@@ -1,0 +1,3 @@
+2,"SELECT z, ra, dec, bestObjID FROM Galaxy WHERE ra > # AND ra < # AND dec > # AND dec < # AND z < #"
+2019-04-26 15:38:00,1
+2019-04-26 15:39:00,1

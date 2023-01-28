@@ -1,0 +1,3 @@
+3,"select z,ra,dec,bestObjID, zConf, specClass from specObj where (specClass = # OR specClass = # OR specClass = #) AND z > # AND zConf > #"
+2019-06-27 19:00:00,2
+2019-06-27 19:04:00,1

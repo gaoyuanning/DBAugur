@@ -1,0 +1,2 @@
+1,"select ObjID, class, u, g, r, i, z into mydb.MyTable from SpecObj where ObjID is the unique object ID."
+2019-05-21 13:42:00,1

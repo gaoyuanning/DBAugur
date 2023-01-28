@@ -1,0 +1,2 @@
+1,select z into mydb.MyTable from SpecObj where z<#
+2019-03-14 09:34:00,1

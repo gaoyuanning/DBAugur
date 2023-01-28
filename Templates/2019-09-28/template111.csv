@@ -1,0 +1,3 @@
+2,"SELECT top #   modelmag_g, devmag_g, expmag_g, devrad_g, exprad_g, devab_g, expab_g,   extinction_g,  FROM specObj AS s   JOIN Galaxy AS g ON s.specObjId=g.specObjId"
+2019-09-28 20:01:00,1
+2019-09-28 20:02:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.u, p.g, p.r, p.i, p.z, o.class FROM PhotoObjAll as p, specObjAll as o WHERE p.objid = = s.objid"
+2019-03-25 15:43:00,1

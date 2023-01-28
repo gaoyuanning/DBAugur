@@ -1,0 +1,2 @@
+1,"SELECT top # p.dered_u, p.dered_g, p.dered_r, p.dered_i, p.dered_z, s.z into mydb.dr7 from SpecObj as s   inner join PhotoObj as p   on s.bestObjId=p.objId   where p.type=# and s.z between # and #"
+2019-03-25 12:22:00,1

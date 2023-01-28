@@ -1,0 +1,2 @@
+1,"SELECT TOP # photo.objid, photo.ra, photo.dec, photo.u, photo.g, photo.r, photo.i, photo.z, Photoz.z AS photoz, Photoz.zerr AS photozerror, spec.z - Photoz.z AS error_calc, spec.z AS redshift, spec.class FROM PhotoObj AS photo JOIN SpecObj AS spec ON spec.bestobjid = photo.objid JOIN Photoz ON Photoz.objid = photo.objid WHERE photo.u BETWEEN # AND # AND photo.g BETWEEN # AND #"
+2019-02-14 05:56:00,1

@@ -1,0 +1,2 @@
+1,"select top # bestObjID, ra, dec, z, p.modelMag_g from photoObj where class = galaxy"
+2019-10-16 14:44:00,1

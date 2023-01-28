@@ -1,0 +1,4 @@
+3,"SELECT distinct s.plate, s.mjd, s.fiberID, p.lnLDeV_g, p.lnLDeV_r, p.lnLDeV_i, p.lnLExp_g, p.lnLExp_r , p.lnLExp_i, p.lnLStar_g, p.lnLStar_r , p.lnLStar_i FROM SpecObjAll AS s JOIN PhotoObj AS p ON p.SpecObjID = s.SpecObjID WHERE s.z > # and s.z<# and s.SourceType=&&& and p.u > # and p.g > # and p.r > # and p.i > # and p.z > # and  p.ra between # and #"
+2019-03-14 14:29:00,1
+2019-03-14 15:18:00,1
+2019-03-14 15:22:00,1

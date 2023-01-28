@@ -1,0 +1,2 @@
+1,"select   l.oiii_#_flux into     from   galSpecline AS l,   join SpecObjALL AS s on l.specObjID = s.specObjID    where   s.sciencePrimary = #"
+2019-11-06 01:09:00,1

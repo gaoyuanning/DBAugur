@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.u, p.g, p.r, p.i, p.z, p.modelMagErr_u, p.modelMagErr_g, p.modelMagErr_r, p.modelMagErr_i, p.modelMagErr_z, str (p.u - p.g, #, #) as ugModelColor, str (p.g - p.r, #, #) as grModelColor, str (p.r - p.i, #, #) as riModelColor, str (p.i - p.z, #, #) as izModelColor, dbo.fIAUFromEq (p.ra, p.[dec]) as SDSSname, p.nProf_g, p.nProf_i, p.nProf_r, p.nProf_u, p.nProf_z, p.obj, p.objID FROM BESTDR7..PhotoObj AS p JOIN dbo.fGetNearbyObjEq (#, #, #) AS b ON b.objID = p.objID WHERE (p.type = # OR p.type = #)"
+2019-07-09 07:29:00,1

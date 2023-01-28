@@ -1,0 +1,2 @@
+1,"SELECT TOP # bestObjID, z (CASE WHEN # < = z AND z < = # THEN z END) as &&& FROM SpecObj WHERE class = &&& AND zWarning = #"
+2019-03-22 19:24:00,1

@@ -1,0 +1,4 @@
+4,"SELECT top #   id.dr8objid, gsp.oiii_#_flux, gsp.oiii_#_flux_err, gsp.h_beta_flux, gsp.h_beta_flux_err,   gsp.nii_#_flux, gsp.nii_#_flux_err, gsp.h_alpha_flux, gsp.h_alpha_flux_err,    gsp.oi_#_flux, gsp.oi_#_flux_err, gsp.sii_#_flux, gsp.sii_#_flux_err,   gsp.sii_#_flux, gsp.sii_#_flux_err, gsp.h_alpha_eqw, gsp.h_alpha_eqw_err   from MyDB.nsa_ids AS id,  galSpecLine AS gsp     WHERE id.specObjID=gsp.specObjID"
+2019-03-26 14:10:00,2
+2019-03-26 14:11:00,1
+2019-03-26 14:12:00,1

@@ -1,0 +1,2 @@
+1,"SELECT top # s.class, s.specObjID, s.plateID, s.mjd, s.plate, s.fiberID, s.z, s.zErr, z.objid, z.nvote, z.spiral, z.elliptical FROM zooSpec z JOIN SpecObjAll s ON s.specObjID = z.specobjid WHERE z.uncertain=#"
+2019-09-06 18:08:00,1

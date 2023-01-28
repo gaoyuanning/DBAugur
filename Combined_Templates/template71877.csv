@@ -1,0 +1,2 @@
+1,"select * into mydb.MyTable from aspcapStar where # = contains (point (#, ra, dec) , circle (#, #, #, #) )"
+2019-10-27 15:31:00,1

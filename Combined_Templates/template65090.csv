@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.SpecObjID, s.z INTO mydb.Try1 FROM SpecObj as S, SpecLine as L1, SpecLine as L2 WHERE S.SpecObjID = L1.SpecObjID AND S.SpecObjID = L2.SpecObjID AND L.LineId = # AND L.LineId = #"
+2019-09-24 08:23:00,1

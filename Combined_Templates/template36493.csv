@@ -1,0 +1,2 @@
+1,"SELECT dr8objid, specObjID, ra, dec FROM dbo.zoo2MainSpecz as zoo2 LEFT JOIN dbo.SpecObj as specObj ON (zoo2.specobjid = specObj.specObjID) WHERE (zoo2.t0#_smooth_or_features_a0#_features_or_disk_debiased > # and specObj.z > #)"
+2019-05-02 09:59:00,1

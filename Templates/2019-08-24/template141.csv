@@ -1,0 +1,2 @@
+1,INSERT INTO #tmp EXEC spgetneighbors # INSERT INTO MYDB.MyTable_#
+2019-08-24 14:42:00,1

@@ -1,0 +1,2 @@
+1,"select top # c.*, tm.text from ComputeMessages c join TextMessages tm on tm.row_id = c.row_id"
+2019-03-06 10:51:00,1

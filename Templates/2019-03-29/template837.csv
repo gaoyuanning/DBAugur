@@ -1,0 +1,2 @@
+1,"SELECT TOP #  ra,dec,z FROM SpecPhoto WHERE (type=#) AND (ra between # and #) AND (dec between # and #) order by z"
+2019-03-29 01:22:00,1

@@ -1,0 +1,8 @@
+8,"select substring(Name,#,#) as FL into test from chinook.Artist select FL, count(*) from test group by FL"
+2019-04-20 10:53:00,2
+2019-04-20 10:54:00,1
+2019-04-20 10:55:00,1
+2019-04-20 11:02:00,1
+2019-04-20 11:03:00,1
+2019-04-20 11:11:00,1
+2019-04-20 11:12:00,1

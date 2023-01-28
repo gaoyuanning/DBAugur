@@ -1,0 +1,2 @@
+1,"SELECT u.up_col0 as [col0], x.objID,     s.ra, s.dec,    p.rest_ug, p.rest_gr FROM #upload u       JOIN #x x ON x.up_id = u.up_id       JOIN Photoz p ON p.objID = x.objID ORDER by x.up_id"
+2019-01-12 08:07:00,1

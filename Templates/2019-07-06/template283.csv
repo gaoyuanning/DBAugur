@@ -1,0 +1,2 @@
+1,"SELECT    m.nsa_sersic_n,m.objra,m.objdec   FROM   mangaDAPall AS m WHERE    m.objra=# and m.objdec=#"
+2019-07-06 02:32:00,1

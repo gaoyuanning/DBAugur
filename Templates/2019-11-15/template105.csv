@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID,ra,dec FROM Galaxy WHERE  r<#  and extinction_r>#"
+2019-11-15 21:01:00,1

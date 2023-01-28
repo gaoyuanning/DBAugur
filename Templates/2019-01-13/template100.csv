@@ -1,0 +1,2 @@
+4,"SELECT   m.object_id,   m.ra,      m.dec,   n.objid,    n.distance,   f.z,    f.zErr,    sm.logMass,    sm.logMass_err,   sm.ssfr + sm.logMass - #. AS logSFR,   sm.age into mydb.MyTable_# from MyDB.oii_eo AS m     CROSS APPLY dbo.fGetNearestObjEq( m.ra, m.dec, #) AS n    JOIN SpecPhotoAll AS f ON n.objid=f.objid    JOIN stellarMassFSPSGranWideDust as sm on f.SpecObjID = sm.SpecObjID"
+2019-01-13 14:47:00,4

@@ -1,0 +1,2 @@
+1,"select u, g, r, i, z from galaxy gal where ra between # and # AND dec between # and #"
+2019-11-14 14:56:00,1

@@ -1,0 +1,2 @@
+1,"SELECT g.ra, g.dec, s.z, e.lgm_tot_p5# into mydb.final_# from Galaxy as g JOIN SpecPhoto as s ON g.objID = s.objID JOIN galSpecExtra as e on s.specObjID = e.specObjID WHERE g.ra< # AND g.ra> # AND g.dec< # AND g.dec> # AND s.z< # AND s.z> # AND e.lgm_tot_p5#> # AND s.class = #"
+2019-04-26 13:04:00,1

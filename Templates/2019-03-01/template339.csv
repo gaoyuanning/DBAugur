@@ -1,0 +1,5 @@
+7,select objid from galaxy where galaxy.cmodelmag_g between # and #
+2019-03-01 14:38:00,1
+2019-03-01 14:39:00,1
+2019-03-01 16:17:00,4
+2019-03-01 16:25:00,1

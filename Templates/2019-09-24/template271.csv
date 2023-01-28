@@ -1,0 +1,2 @@
+1,"SELECT s.plate,s.mjd,s.fiberid FROM BESTDR7..SpecObj as s 	JOIN BESTDR7..PhotoObj AS p ON s.bestObjID = p.objID 	JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = p.objID 	JOIN RunQA AS q ON q.fieldid = p.fieldid WHERE  (s.specClass = dbo.fSpecClass(&&&)) AND s.z < # AND (q.fieldQall >= #) AND ( p.type = # OR p.type = #)"
+2019-09-24 15:51:00,1

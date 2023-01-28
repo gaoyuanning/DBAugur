@@ -1,0 +1,2 @@
+3,"select top #  ObjID, modelmag_u, modelmag_v, modelmag_r, modelmag_i, modelmag_z, z from  specObj where  class = &&&  and z = #  and zWarning = #"
+2019-02-05 17:04:00,3

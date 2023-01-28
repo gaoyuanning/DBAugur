@@ -1,0 +1,7 @@
+8,"SELECT TOP # gal.u, gal.g, gal.r, gal.i, gal.z, zoo.nvote, zoo.p_el AS elliptical, zoo.p_cs as spiral FROM galaxy AS gal JOIN zoonospec AS zoo ON gal.objid = zoo.objid WHERE gal.clean = # and zoo.nvote > = # AND (zoo.p_el > # OR zoo.p_cs > #)"
+2019-03-07 14:22:00,1
+2019-03-07 14:23:00,1
+2019-03-07 14:25:00,1
+2019-03-07 14:26:00,2
+2019-03-07 14:27:00,2
+2019-03-07 14:28:00,1

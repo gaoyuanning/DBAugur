@@ -1,0 +1,2 @@
+1,"SELECT TOP # sp.objID, sp.ra, sp.dec, sp.mjd, px.taiBegin, px.taiEnd, sp.fiberID, sp.z FROM GALAXY"
+2019-08-13 23:18:00,1

@@ -1,0 +1,2 @@
+1,"select Top # ra, dec, bestObjID,sciencePrimary, z into mydb.MyTable from specobj where    class = &&& and sciencePrimary =#"
+2019-04-01 10:07:00,1

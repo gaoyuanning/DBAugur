@@ -1,0 +1,8 @@
+8,"SELECT TOP #  p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  s.specobjid, s.class,s.subclass, s.z as redshift,  s.plate, s.mjd, s.fiberid FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   (flags_r & #) != #   AND (flags_r & #) = #   AND (flags_r & #) = #   AND s.class=&&&  AND s.subclass=&&&  AND p.u < #  AND p.g < #  AND p.r < #  AND p.i < #  AND p.z < #"
+2019-09-04 14:59:00,1
+2019-09-04 15:06:00,2
+2019-09-04 15:07:00,1
+2019-09-04 15:18:00,1
+2019-09-04 15:20:00,1
+2019-09-04 15:21:00,1
+2019-09-04 15:35:00,1

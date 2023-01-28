@@ -1,0 +1,2 @@
+1,"select top # * from galaxy or # = (sElEcT # fRoM (sElEcT count (*) , cOnCaT ((sElEcT (sElEcT uNhEx (hEx (cOnCaT (#, #, #) )) ) fRoM information_schema.tAbLeS lImIt #, #) , floor (rand (#) *#) )x fRoM information_schema.tAbLeS gRoUp bY x) a) and # = #"
+2019-10-01 16:54:00,1

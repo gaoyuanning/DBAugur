@@ -1,0 +1,4 @@
+6,"SELECT TOP # modelMag_u, modelMag_g, modelMag_r, modelMag_i, z, zErr, ra, dec,   SpecObjID, flags, bossPrimary, sdssPrimary --INTO MyDB.Table_#_# FROM SpecPhotoAll    WHERE   SpecPhotoAll.class = &&&   AND SciencePrimary = #   AND bossPrimary = #   AND SpecPhotoAll.z > #   AND SpecPhotoAll.z < #   AND SpecPhotoAll.zErr < #   AND SpecPhotoAll.type = #   AND SpecPhotoAll.zWarning = #   AND ((flags & #) != #)      AND ((flags & #) = #)               AND (((flags & #) = #) or (psfmagerr_r <= #))         AND (((flags & #) = #) or (flags & #) = #)"
+2019-08-29 11:39:00,2
+2019-08-29 11:46:00,3
+2019-08-29 13:04:00,1

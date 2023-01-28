@@ -1,0 +1,4 @@
+4,"SELECT starname,fcjd,rv,rverr,beam,survey FROM marvelsVelocityCurveDFDI WHERE starname LIKE &&&"
+2019-10-01 10:04:00,2
+2019-10-01 10:06:00,1
+2019-10-01 10:07:00,1

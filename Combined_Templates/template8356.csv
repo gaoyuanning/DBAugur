@@ -1,0 +1,2 @@
+1,"SELECT sp.tColumn_#, sp.tColumn_#, sp.tColumn_#, sp.tColumn_#, sp.tColumn_#, sp.tColumn_#, sp.nPoly, sp.theta_#, sp.theta_#, sp.theta_#, sp.theta_#, sp.theta_#, sp.theta_#, sp.theta_#, sp.theta_#, sp.theta_#, sp.theta_#, sp.velDisp, sp.velDispErr, sp.velDispZ into mydb.DR1#_sp_# from SpecObj AS sp WHERE z BETWEEN #. AND #. AND class = #"
+2019-02-05 12:07:00,1

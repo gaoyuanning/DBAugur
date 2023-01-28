@@ -1,0 +1,2 @@
+2,"SELECT ra, dec, dered_r,petroR9#_r, petroR5#_r into mydb.MyTable_# from PhotoObjAll WHERE dered_r BETWEEN # AND #   AND ra BETWEEN # AND #"
+2019-03-26 12:11:00,2

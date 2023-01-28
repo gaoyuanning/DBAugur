@@ -1,0 +1,2 @@
+2,"select m.specobjid, h_alpha_flux, h_alpha_flux_err, h_beta_flux, h_beta_flux_err, oiii_#_flux, oiii_#_flux_err, nii_#_flux, nii_#_flux_err, sii_#_flux, sii_#_flux_err, sii_#_flux, sii_#_flux_err into mydb.HAE_host_flux from galSpecLine i, MyDB.HAE_hosts m where i.specObjID = m.specobjid;"
+2019-01-04 12:06:00,2

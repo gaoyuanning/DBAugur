@@ -1,0 +1,2 @@
+1,"SELECT TOP # g.ra,g.dec,g.raErr,g.decErr,g.u,g.g,g.r,g.i,g.z, z.z as redshift,z.zErr, g.objid FROM Galaxy AS g JOIN SpecObj AS z ON z.objid = g.objid WHERE  g.ra ># and g.ra <# and g.dec ># and g.dec <# and z.z ># and z.z <# ORDER BY g.u"
+2019-12-30 13:39:00,1

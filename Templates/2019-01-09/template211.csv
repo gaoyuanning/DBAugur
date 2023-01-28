@@ -1,0 +1,2 @@
+1,"select top # ra, dec from plateX where plate=#   into mydb;"
+2019-01-09 16:01:00,1

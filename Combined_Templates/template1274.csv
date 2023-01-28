@@ -1,0 +1,2 @@
+1,"select G.cx, G.cy, G.cz from Galaxy as G Where G.RA = # AND G.dec = #"
+2019-01-07 16:12:00,1

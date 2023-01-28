@@ -1,0 +1,2 @@
+1,"select top # z, ra, dec from GalaxyTag where sqrt ((ra - #) * (ra - #) + (dec - #) * (dec - #) ) < #/#"
+2019-05-10 11:59:00,1

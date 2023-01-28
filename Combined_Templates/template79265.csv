@@ -1,0 +1,2 @@
+1,"SELECT TOP # z, ra, dec, specobjid FROM specObj WHERE z Between # and # AND Class = # AND zwarning = # or zwarning = # ORDER BY Newid ()"
+2019-11-27 17:53:00,1

@@ -1,0 +1,4 @@
+3,"SELECT TOP #  s.specobjid, s.class, s.z as redshift, s.spectroFlux_r FROM specobj as s"
+2019-11-20 10:25:00,1
+2019-11-20 10:26:00,1
+2019-11-20 10:27:00,1

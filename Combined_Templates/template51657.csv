@@ -1,0 +1,2 @@
+2,"SELECT starname, rv, BARYCENTRICVEL, mjd FROM marvelsVelocityCurveUF1D WHERE fcjd BETWEEN # AND # AND WHERE starname LIKE #"
+2019-07-12 02:08:00,2

@@ -1,0 +1,10 @@
+11,"SELECT TOP #  p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  p.run, p.rerun, p.camcol, p.field,  s.specobjid, s.class, s.z as redshift,  s.plate, s.mjd, s.fiberid FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   p.u BETWEEN # AND #  AND g BETWEEN # AND #"
+2019-07-30 02:41:00,1
+2019-07-30 02:42:00,1
+2019-07-30 02:43:00,2
+2019-07-30 02:48:00,1
+2019-07-30 06:14:00,2
+2019-07-30 06:15:00,1
+2019-07-30 07:40:00,1
+2019-07-30 09:50:00,1
+2019-07-30 12:21:00,1

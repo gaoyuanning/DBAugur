@@ -1,0 +1,5 @@
+4,"SELECT count(*) as &&&,     sum( case when (Type=#) then # else # end) as &&&,     sum( case when (Type=#) then # else # end) as &&&,     sum( case when (Type not in (#,#)) then # else # end) as &&& FROM PhotoPrimary  WHERE (ra between # and #) and (dec between # and #)"
+2019-03-04 12:17:00,1
+2019-03-04 17:51:00,1
+2019-03-04 17:59:00,1
+2019-03-04 18:48:00,1

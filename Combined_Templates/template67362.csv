@@ -1,0 +1,2 @@
+1,"SELECT top # g.objid as name, g.ra, g.dec FROM galaxy g, specobj s WHERE eclass < # fracdev_g = #"
+2019-10-02 20:02:00,1

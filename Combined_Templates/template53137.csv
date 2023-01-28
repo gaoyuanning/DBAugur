@@ -1,0 +1,2 @@
+2,"select photoDR7.objid, pDR7.dr7objid, data.objid_sdss into mydb.Teste_GR5 FROM MyDB.GALEX_GR5_AIS_SDSS_DR7_Matched_catalog_errmagFUVandNUV_menor_#_# as data JOIN dr7.PhotoObjall as photoDR7 ON photoDR7.objid = data.objid_sdss JOIN photoobjdr7 as pDR7 ON photoDR7.objid = pDR7.dr7objid"
+2019-07-22 15:11:00,2

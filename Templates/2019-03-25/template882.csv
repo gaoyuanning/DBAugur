@@ -1,0 +1,2 @@
+1,"SELECT p.dered_u, p.g, p.r, p.i, p.z, s.z AS redshift into mydb.MyTable_# from SpecObj AS s   INNER JOIN PhotoObj AS p   ON s.bestOBJId=p.objID   WHERE p.type=# AND s.z BETWEEN # AND #"
+2019-03-25 12:19:00,1

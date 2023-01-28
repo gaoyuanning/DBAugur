@@ -1,0 +1,6 @@
+6,"SELECT TOP # GAL.ObjID, SO.chunk, SO.ra, SO.dec, SO.z, PO.u, PO.g, PO.r, PO.i, PO.z from SpecObj SO, galSpecLine Line, Galaxy GAL, PhotoObjAll PO where SO.bestObjID = GAL.ObjID and LINE.specObjID = SO.specObjID and SO.specObjID = PO.specObjID and LINE.oiii_#_flux > # and LINE.sii_#_flux > #"
+2019-06-27 02:52:00,1
+2019-06-27 02:53:00,2
+2019-06-27 19:23:00,1
+2019-06-27 19:25:00,1
+2019-06-27 19:58:00,1

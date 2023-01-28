@@ -1,0 +1,2 @@
+1,"SELECT TOP #   a.OBJID, a.RA, a.DEC, GalexGR6.fGetNearestObjIdAllEq(a.RA, a.DEC, #)    FROM    MyDB.akari_# as a,   photoobjall AS p"
+2019-08-26 09:00:00,1

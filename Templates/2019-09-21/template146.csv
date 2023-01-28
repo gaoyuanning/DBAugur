@@ -1,0 +1,3 @@
+2,"SELECT TOP # modelmag_g, devmag_g,    expmag_g, devrad_g, exprad_g, devab_g,    expab_g, extinction_g,    modelmag_r, devmag_r,    expmag_r, devrad_r, exprad_r, devab_r,    expab_r, extinction_r, spec.z as redshift into mydb.sampleA  FROM dr7.galaxy AS gal JOIN dr7.specObj AS spec ON gal.objID = spec.specObjID   WHERE spec.z > # and spec.z < # and   petroR9#_r/petroR5#_r > # and   eclass < # and   fracdev_g = #"
+2019-09-21 17:28:00,1
+2019-09-21 17:31:00,1

@@ -1,0 +1,4 @@
+3,"SELECT    m.ra AS ra1, m.dec AS dec1,      s.*      into mydb.MyTable_# from MyDB.MyTable AS m    CROSS APPLY   dbo.fGetNearestApogeeStarEq(m.ra,m.dec,#) as s"
+2019-12-18 08:34:00,1
+2019-12-18 08:37:00,1
+2019-12-18 08:38:00,1

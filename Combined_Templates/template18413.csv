@@ -1,0 +1,2 @@
+1,select count (*) from computemessages c join messages m on m.row_id = c.row_idjoin users u on u.user_id = m.user_id where u.user_name ! = #
+2019-03-07 14:43:00,1

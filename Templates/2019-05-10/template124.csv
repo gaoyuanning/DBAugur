@@ -1,0 +1,2 @@
+1,SELECT * FROM ra_dec_class_many where class = &&&;
+2019-05-10 16:58:00,1

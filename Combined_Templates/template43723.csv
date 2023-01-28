@@ -1,0 +1,5 @@
+5,"select specObjID, cModelMag_u, cModelMagErr_u, extinction_u from SpecPhoto where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-06-03 06:15:00,1
+2019-06-03 07:03:00,1
+2019-06-03 07:04:00,1
+2019-06-03 07:05:00,2

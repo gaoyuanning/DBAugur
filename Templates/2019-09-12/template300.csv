@@ -1,0 +1,2 @@
+2,"SELECT top #  p.objid, sp.subclass, p.petroMag_u, p.petroMag_g, p.petroMag_r, p.petroMag_i, p.petroMag_z, p.u AS ModelMag_u, p.g AS ModelMag_g, p.r AS ModelMag_r, p.i AS ModelMag_i, p.z AS ModelMag_z FROM Galaxy as p  JOIN SpecPhoto as sp on p.objid = sp.objid WHERE  class = &&&"
+2019-09-12 11:52:00,2

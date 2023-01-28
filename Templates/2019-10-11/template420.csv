@@ -1,0 +1,2 @@
+1,"SELECT TOP #  fracdev_g, devab_g,expab_g FROM PhotoObjall WHERE   fracdev_g between # and #"
+2019-10-11 02:23:00,1

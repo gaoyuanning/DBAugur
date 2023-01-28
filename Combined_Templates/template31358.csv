@@ -1,0 +1,2 @@
+1,"select class, count (dec) as num_declination and count (z) as num_redshift from specObj where dec BETWEEN # and # AND z BETWEEN # and # group by class"
+2019-04-17 01:00:00,1

@@ -1,0 +1,2 @@
+2,"SELECT DISTINCT s.twomass_name,s.starname,s.teff,uf1d.survey FROM marvelsVelocityCurveUF1D AS uf1d JOIN marvelsStar AS s ON s.starname = uf1d.starname WHERE starname LIKE &&&"
+2019-09-30 16:17:00,2

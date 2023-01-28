@@ -1,0 +1,2 @@
+1,"SELECT  po.objid, po.plate, po.mjd, po.fkberid, po.ra, po.dec, po.u, po.g, po.r, po.i, po.z, po.err_u, po.err_g, po.err_i, po.err_z, sp.teffadop, sp.fehadop, sp.loggadop, sp.snr, sp.flag  FROM PhotoObjAll po  JOIN sppparams as sp On po.objid=sp.specobjid WHERE   ra > # and ra < #  AND dec > # and dec < #   AND class=&&&"
+2019-04-08 11:27:00,1

@@ -1,0 +1,2 @@
+1,"SELECT so.specObjID, so.ra, so.dec, sp.ra, sp.dec, so.class, so.subclass FROM SpecObj AS so JOIN SpecPhotoAll AS sp ON so.specObjID = sp.specObjID WHERE so.ra BETWEEN # AND # AND so.ra BETWEEN # AND #"
+2019-11-03 01:04:00,1

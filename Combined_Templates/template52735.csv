@@ -1,0 +1,2 @@
+1,"select top # objID, z, zErr from PhotoZ where Z between # and #"
+2019-07-19 15:51:00,1

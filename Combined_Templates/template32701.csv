@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.g, p.r, p.i, (p.r-p.i) as #, (p.g-p.r) as #, p.type as obj_ph_type, s.tile, s.boss_target1, s.specobjid, s.class, s.subclass, s.z as redshift into mydb.cmass1#test from PhotoPrimary AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE (modelmag_r-modelmag_i) < # AND cmodelmag_i BETWEEN # AND # AND (modelmag_r-modelmag_i) - (modelmag_g-modelmag_r) /#. > # AND fiber2mag_i < # AND cmodelmag_i < # + #* ((modelmag_r-modelmag_i) - (modelmag_g-modelmag_r) /#. - #) AND boss_target1 > # AND class = #"
+2019-04-21 09:36:00,1

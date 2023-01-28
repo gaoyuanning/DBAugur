@@ -1,0 +1,6 @@
+13,"SELECT TOP #  p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z, s.specobjid, s.class, s.z as redshift FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   s.z BETWEEN # AND #  AND s.class = &&&"
+2019-03-07 18:07:00,3
+2019-03-07 18:08:00,5
+2019-03-07 18:09:00,3
+2019-03-07 18:12:00,1
+2019-03-07 18:14:00,1

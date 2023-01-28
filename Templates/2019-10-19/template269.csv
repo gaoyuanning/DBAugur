@@ -1,0 +1,6 @@
+9,"SELECT TOP #  G.objID, G.ra, G.dec, GN.distance, G.Type, G.mode, P.objID, P.ra, P.dec, P.specObjID, P.petroMag_u, P.petroMag_g, P.petroMag_r, P.petroMag_i, P.petroMag_z, P.cModelMag_u, P.cModelMag_g, P.cModelMag_r, P.cModelMag_i, P.cModelMag_z, Pz.objid, Pz.z, Pz.zErr, Pz.photoErrorClass, Pz.absMagU, Pz.absMagG, Pz.absMagR, Pz.absMagI, Pz.absMagZ  From   Galaxy as G  JOIN dbo.fGetNearbyObjEq(#,#,#) AS GN  ON G.objID = GN.objID   JOIN PhotoObj AS P  ON P.objID = GN.objid  Join Photoz as Pz  ON Pz.objid = GN.objid  ORDER BY distance"
+2019-10-19 07:04:00,2
+2019-10-19 07:06:00,2
+2019-10-19 07:19:00,2
+2019-10-19 07:20:00,1
+2019-10-19 07:36:00,2

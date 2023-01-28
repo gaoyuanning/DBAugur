@@ -1,0 +1,2 @@
+1,"select top # spoa.specObjID, starboss.plate, starboss.mjd, starboss.fiberID, starboss.run2d, starboss.ra, starboss.dec, starboss.z_person, spoa.subClass from SpecObjAll as spoa, mydb.dr1#stars_boss as starboss into mydb.dr1#_stars_boss_types where spoa.specObjID = starboss.specObjID"
+2019-01-23 09:43:00,1

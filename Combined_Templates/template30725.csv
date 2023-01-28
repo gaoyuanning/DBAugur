@@ -1,0 +1,2 @@
+1,"SELECT m.ra as my_ra, m.dec as my_dec, m.z as my_z, s.objid, s.ra, s.dec, s.z, e.lgm_tot_p5# as mass into mydb.SpecCompanions from MyDB.Sample5#_coord_ID AS m OUTER APPLY dbo.fGetNearbyObjEq (m.ra, m.dec, @radius) AS n LEFT JOIN SpecPhotoAll AS s ON n.objID = s.objID LEFT JOIN galSpecExtra AS e ON s.specObjID = e.specObjID WHERE n.objID = s.objID AND s.z is not #"
+2019-04-15 03:40:00,1

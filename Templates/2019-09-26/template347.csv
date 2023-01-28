@@ -1,0 +1,2 @@
+1,"SELECT TOP #   ra, dec, ModelMag_u , ModelMag_g , ModelMag_r,ModelMag_i,ModelMag_z, z FROM SpecPhoto WHERE    z BETWEEN # AND #   AND dec BETWEEN # AND #"
+2019-09-26 13:56:00,1

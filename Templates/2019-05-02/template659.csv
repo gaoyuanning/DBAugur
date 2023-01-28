@@ -1,0 +1,3 @@
+2,"CREATE TABLE [T2_weighted_brain_MRI] ( 	eid BIGINT NOT NULL ,	[T2_FLAIR_structural_brain_images_NIFTI_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[T2_FLAIR_structural_brain_images_DICOM_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Total_volume_of_white_matter_hyperintensities_from_T1_and_T2_FLAIR_images__#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Discrepancy_between_T2_FLAIR_brain_image_and_T1_brain_image_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[T2_PD_brain_images_DICOM_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=# ,PRIMARY KEY (eid)) GO"
+2019-05-02 09:34:00,1
+2019-05-02 10:35:00,1

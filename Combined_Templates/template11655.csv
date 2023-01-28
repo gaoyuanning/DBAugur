@@ -1,0 +1,2 @@
+1,"select p.objid, p.specObjID, p.ra, p.dec, p.g, p.r, g.h_alpha_flux, g.nii_#_flux from GalSpecLine as g join photoObj as p ON p.objid = g.objid join dbo.fgetnearbyobjeq (#, #, #) n on p.objid = n.objid join specObj s on p.objid = s.bestobjid where p.petrorad_r > # and p.r < # and s.Class = # and s.z > = #"
+2019-02-17 20:43:00,1

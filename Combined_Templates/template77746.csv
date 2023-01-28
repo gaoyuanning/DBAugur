@@ -1,0 +1,2 @@
+1,select top # * from SpecObj where specClass = dbo.fSpecClass (#)
+2019-11-21 16:12:00,1

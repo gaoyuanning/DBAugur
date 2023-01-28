@@ -1,0 +1,2 @@
+1,"SELECT TOP # G.modelMag_u, G.modelMag_g, G.objID, G.cx, G.cy, G.cz, p.u, p.g, p.r, p.i, p.z, class FROM photoObj p JOIN Galaxy as G ON G.parentID = p.parentID WHERE (G.Flags & (dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) )) = # and G.petroRad_r < # and ( (G.modelMag_u - G.modelMag_g) - (G.psfMag_u - G.psfMag_g) ) < #"
+2019-03-13 19:18:00,1

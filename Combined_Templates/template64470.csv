@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.rest_ug, p.rest_gr, p.rest_ri, p.rest_iz FROM Galaxy AS g, PhotoZ AS p WHERE g.objID = p.objID AND g.specobjID > # AND g.ra BETWEEN # and # AND g.dec BETWEEN # and #"
+2019-09-22 17:29:00,1

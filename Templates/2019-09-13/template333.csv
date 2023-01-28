@@ -1,0 +1,2 @@
+1,select count(type) into mydb.MyTable_# from photoobjall
+2019-09-13 09:47:00,1

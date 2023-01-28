@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.expFlux_z FROM BESTDR9..PhotoObj AS p 	JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = P.objID WHERE  ( p.type = # OR p.type = #)"
+2019-03-25 13:23:00,1

@@ -1,0 +1,2 @@
+1,"select Max(ra), Min(ra),Max(dec), Min(dec) from Zone"
+2019-05-31 19:00:00,1

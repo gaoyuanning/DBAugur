@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.SpecObjID, s.z FROM SpecObj as s JOIN SpecLine as L ON s.specObjID = L.specObjID WHERE s.specClass = # AND L.lineID = # fCosmoDl (s.z)"
+2019-09-27 11:49:00,1

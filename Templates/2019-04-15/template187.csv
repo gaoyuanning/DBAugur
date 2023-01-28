@@ -1,0 +1,2 @@
+2,"SELECT TOP # s.plate,s.mjd,s.fiberid FROM BESTDR7 Stripe #..SpecObj as s 	JOIN STRIPE8#..Galaxy AS p ON s.bestObjID = p.objID 	JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = p.objID WHERE  s.z > # AND s.zConf > # AND (s.specClass = dbo.fSpecClass(&&&)) AND s.z < # AND s.zConf < #"
+2019-04-15 18:59:00,2

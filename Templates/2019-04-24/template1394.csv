@@ -1,0 +1,2 @@
+1,"SELECT TOP # z, ra, dec into mydb.MyTable from SpecObjAll WHERE abs(z-#)<#"
+2019-04-24 05:54:00,1

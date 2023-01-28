@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.z, p.zErr, g.ra, g.dec INTO twowayxmatch FROM XMATCH(   MUST EXIST IN Photoz AS p,   MUST EXIST IN MUSE_NVSS AS g )"
+2019-03-25 11:48:00,1

@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.specobjid FROM PhotoPrimary AS p JOIN SpecPhoto AS s ON s.specobjid = p.specobjid WHERE p.specobjid = #"
+2019-05-07 18:00:00,1

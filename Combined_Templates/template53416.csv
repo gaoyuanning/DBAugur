@@ -1,0 +1,2 @@
+2,"SELECT specObjID, ra, dec, class, subclass, z, zErr into mydb.spectrainq from SpecPhotoAll WHERE class = # AND zWarning = # AND htmid*# & # < (# * #)"
+2019-07-23 09:49:00,2

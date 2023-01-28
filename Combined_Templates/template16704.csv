@@ -1,0 +1,2 @@
+1,select objid from photoz where objid IN ()
+2019-03-04 16:47:00,1

@@ -1,0 +1,2 @@
+1,"SELECT gt.run, gt.rerun, gt.camcol, gt.field, count (#) FROM zooSpec zs JOIN GalaxyTag gt ON gt.objID = zs.objID GROUP BY gt.run, gt.rerun, gt.camcol, gt.field"
+2019-01-22 01:28:00,1

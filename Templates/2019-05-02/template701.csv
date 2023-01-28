@@ -1,0 +1,3 @@
+2,"CREATE TABLE [Operations] ( 	eid BIGINT NOT NULL ,	[Had_major_operations_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Had_other_major_operations_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=# ,PRIMARY KEY (eid)) GO"
+2019-05-02 09:32:00,1
+2019-05-02 10:34:00,1

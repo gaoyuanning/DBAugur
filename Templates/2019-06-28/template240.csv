@@ -1,0 +1,2 @@
+1,"select objTypeName,z as redshift from SpecObj WHERE objType=# and specObjID in ( select specObjID from photoObj where objID in ( #, /*@ ra,dec...#,#*/ #, /*#,#*/ #, /*#,#*/ # /*#,#*/ ) )"
+2019-06-28 16:40:00,1

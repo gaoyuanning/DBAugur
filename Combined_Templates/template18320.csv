@@ -1,0 +1,2 @@
+1,"SELECT Bucket, COUNT (*) AS Count FROM (SELECT CAST ((z - (SELECT MIN (z) FROM SpecObj WHERE class = # AND zWarning = # and survey = #) ) / ( ((SELECT MAX (z) *# FROM SpecObj WHERE class = # AND zWarning = # and survey = #) - (SELECT MIN (z) FROM SpecObj WHERE class = # AND zWarning = # and survey = #) ) / #) AS INT) +# as Bucket FROM SpecObj WHERE class = # AND zWarning = # and survey = #) a GROUP BY Bucket ORDER BY Bucket"
+2019-03-07 17:35:00,1

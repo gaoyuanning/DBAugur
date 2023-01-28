@@ -1,0 +1,2 @@
+1,"SELECT TOP #    m.* p.objID, p.ra, p.dec,    s.specObjID, s.plate, s.mjd, s.fiberID, s.z FROM mydb.SDSS7# as m, PhotoObj AS p       JOIN SpecObjAll s ON p.objID = s.bestObjID ORDER by x.up_id WHERE p.ra=m.ra, p.dec=m.dec"
+2019-01-24 13:41:00,1

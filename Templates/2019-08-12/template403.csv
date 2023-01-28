@@ -1,0 +1,7 @@
+10,"SELECT TOP #  p.objid, p.ra, p.dec,  p.u, p.g, p.r, p.i, p.z,  p.run, p.rerun, p.camcol, p.field,  p.score, p.type, s.class, s.subclass FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE  p.score > #  AND p.CLEAN = #  AND p.type = #  AND s.class = &&&  AND (#*p.g+#*p.r) BETWEEN # AND # ORDER BY p.objid"
+2019-08-12 05:27:00,1
+2019-08-12 06:07:00,1
+2019-08-12 06:09:00,2
+2019-08-12 06:10:00,2
+2019-08-12 06:12:00,1
+2019-08-12 06:13:00,3

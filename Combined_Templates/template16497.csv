@@ -1,0 +1,13 @@
+12,"SELECT TOP # p.ra, p.dec, p.run, p.rerun, p.camCol, p.field, p.obj, # as filter FROM #x x, #upload u, BESTDR2..PhotoObj as p WHERE (p.type = # OR p.type = #) AND u.up_id = x.up_id AND x.objID = p.objID ORDER BY x.up_id"
+2019-03-03 08:52:00,1
+2019-03-03 09:05:00,1
+2019-03-03 09:17:00,1
+2019-03-03 09:27:00,1
+2019-03-03 10:46:00,1
+2019-03-03 11:09:00,1
+2019-03-03 11:50:00,1
+2019-03-03 12:19:00,1
+2019-03-18 21:31:00,1
+2019-05-01 14:09:00,1
+2019-05-01 14:10:00,1
+2019-09-06 08:41:00,1

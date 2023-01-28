@@ -1,0 +1,2 @@
+1,"select ids.*, photo.z as PHOTO_Z, photo.zErr as PHOTO_ZERR from MyDB.DR8IDs as ids, DR8.PhotoZ as photo where ids.REDMAPPER_ID = photo.objid"
+2019-03-01 05:55:00,1

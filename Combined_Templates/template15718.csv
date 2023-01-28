@@ -1,0 +1,3 @@
+2,"SELECT s.specObjID, n.distance AS offset, s.z AS redshift, s.zErr AS redshift_err, s.velDisp, s.velDispErr FROM fGetNearbySpecObjEq (#, #, #) n JOIN SpecObj s ON n.specObjID = s.specObjID ORDER BY offset"
+2019-02-28 02:23:00,1
+2019-02-28 02:24:00,1

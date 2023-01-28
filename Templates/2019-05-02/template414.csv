@@ -1,0 +1,2 @@
+2,"SELECT TOP #    run,	   -- get a bunch of quantities   camCol,   field,   objID,   rowC, colC, rowV, colV, rowVErr, colVErr,   flags,   psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z,   psfMagErr_u, psfMagErr_g, psfMagErr_r, psfMagErr_i, psfMagErr_z FROM PhotoPrimary WHERE	 ((rowv * rowv) / (rowvErr * rowvErr) +         (colv * colv) / (colvErr * colvErr) > #)  -- where the velocities are reliable"
+2019-05-02 14:07:00,2

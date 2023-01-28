@@ -1,0 +1,2 @@
+2,"SELECT p.objid, s.ra, s.dec, s.z, g.lgm_tot_p5#, g.specobjid, s.bestobjid FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid, GalSpecExtra as g WHERE s.z BETWEEN # AND # AND g.lgm_tot_p5# BETWEEN # and # AND class = #"
+2019-06-23 19:44:00,2

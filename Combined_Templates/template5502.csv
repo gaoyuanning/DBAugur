@@ -1,0 +1,2 @@
+1,"select Z.z, Z.zErr, O.objID, O.ra, O.dec, O.cModelMag_r, Z.z-Z.zErr, Z.z+Z.zErr, Z.photoErrorClass into mydb.DR1#_NW_ErrorClass from PhotoObjAll as O, Photoz as Z where Z.objID = O.objID AND O.ra BETWEEN # AND # AND O.dec BETWEEN # AND # AND O.type = # AND Z.z > # AND O.insideMask = # AND photoErrorClass = #"
+2019-01-23 09:36:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.u, p.g, p.r, p.i, p.z FROM PhotoObj AS p JOIN sppParams AS sp ON sl.specobjid = sp.specobjid WHERE fehadop < # and fehadopunc between # and # and fehadopn > # AND fehadopn > #"
+2019-04-10 22:36:00,1

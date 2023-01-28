@@ -1,0 +1,21 @@
+21,"SELECT p.u, p.g, p.r, p.i, p.z, p.err_u, p.err_g, p.err_r, p.err_i, p.err_z, psfFlux_u, psfFlux_g, psfFlux_r, psfFlux_i, psfFlux_z, psfFluxIvar_u, psfFluxIvar_g, psfFluxIvar_r, psfFluxIvar_i, psfFluxIvar_z FROM PhotoObj p WHERE (p.ra BETWEEN # AND #) AND (p.dec BETWEEN # AND #) AND p.run = # AND p.rerun = # AND p.camcol = # AND p.field = #"
+2019-06-24 21:06:00,1
+2019-06-24 21:40:00,1
+2019-06-24 21:43:00,1
+2019-06-24 21:45:00,1
+2019-06-24 21:52:00,2
+2019-06-24 21:54:00,1
+2019-06-24 21:57:00,1
+2019-06-24 21:59:00,1
+2019-06-24 22:00:00,1
+2019-06-24 22:02:00,1
+2019-06-24 22:03:00,1
+2019-06-24 22:07:00,1
+2019-06-24 22:16:00,1
+2019-06-24 22:17:00,1
+2019-06-24 23:34:00,1
+2019-06-24 23:35:00,1
+2019-06-24 23:36:00,1
+2019-06-24 23:41:00,1
+2019-06-24 23:42:00,1
+2019-06-24 23:45:00,1

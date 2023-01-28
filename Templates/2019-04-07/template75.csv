@@ -1,0 +1,2 @@
+1,"SELECT ra,dec FROM Star WHERE ra BETWEEN # and # AND dec BETWEEN # and # AND psfMag_g BETWEEN # and # AND ((flags_r & #) != #) AND ((flags_r & #) = #) AND (((flags_r & #) = #) or (psfMagErr_g <= #)) AND (((flags_r & #) = #) or (flags_r & #) = #) AND ((flags_g & #) != #) AND ((flags_g & #) = #) AND (((flags_g & #) = #) or (psfMagErr_r <= #)) AND (((flags_g & #) = #) or (flags_g & #) = #)"
+2019-04-07 20:28:00,1

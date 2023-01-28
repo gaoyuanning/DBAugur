@@ -1,0 +1,2 @@
+1,"SELECT s.plate, s.mjd, s.fiberid, s.ra, s.dec, s.TEFFA, s.TEFFAERR, s.LOGGA, s.LOGGAERR, s.FEHA, s.FEHAERR, s.sna FROM sppParams s INTO mydb.sspp_dr7"
+2019-09-02 07:10:00,1

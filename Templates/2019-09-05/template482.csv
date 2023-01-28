@@ -1,0 +1,3 @@
+2,"SELECT sub.*, p.objID, p.specObjID  from SpecPhotoAll AS p      JOIN mydb.subset as sub    ON sub.mjd = p.mjd   AND sub.plate = p.plate   AND sub.fiberID = p.fiberID"
+2019-09-05 04:34:00,1
+2019-09-05 04:35:00,1

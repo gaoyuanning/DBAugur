@@ -1,0 +1,2 @@
+1,"select ra,dec,sp.objid, sp.z FROM specPhoto AS sp  where ra BETWEEN # and # AND dec BETWEEN # and # AND sp.class = &&& AND  sp.zWarning = # and sp.z between # and #"
+2019-03-05 14:45:00,1

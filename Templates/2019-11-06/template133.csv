@@ -1,0 +1,3 @@
+2,"SELECT TOP # z, elodieFeH into mydb.MyTable_# from SpecObj WHERE specObjID != # ORDER BY RANDOM()"
+2019-11-06 18:12:00,1
+2019-11-06 18:14:00,1

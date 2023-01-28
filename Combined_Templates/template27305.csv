@@ -1,0 +1,2 @@
+1,"select a.name as artist, b.title from chinook.artist a LEFT OUTER join chinook.album b on b.artistid = a.artistid and b.title like # where a.name IN () -- for illustration order by a.name"
+2019-04-03 15:09:00,1

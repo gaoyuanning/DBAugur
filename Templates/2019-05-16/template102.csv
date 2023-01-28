@@ -1,0 +1,5 @@
+12,"select Top # Objid, run, camcol, field, petroR9#_r From galaxytag Where petroR9#_r > #"
+2019-05-16 18:58:00,1
+2019-05-16 18:59:00,4
+2019-05-16 19:01:00,5
+2019-05-16 19:02:00,2

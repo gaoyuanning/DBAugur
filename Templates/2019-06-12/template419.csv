@@ -1,0 +1,2 @@
+1,"SELECT ra,dec,class,subClass into mydb.testfield2_B from SpecObjAll WHERE (ra between # and #) OR (ra between # AND #) and dec between # and #"
+2019-06-12 08:04:00,1

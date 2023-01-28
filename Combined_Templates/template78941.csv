@@ -1,0 +1,2 @@
+1,"select SpecObjAll.z from PhotoObj, SpecObjAll where PhotoObj.dec > # and PhotoObj.dec < # and (PhotoObj.ra > # and PhotoObj.ra < #) SpecObj.bestObjID = PhotoObjAll.objID"
+2019-11-25 03:29:00,1

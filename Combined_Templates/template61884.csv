@@ -1,0 +1,2 @@
+1,"SELECT p.*, s.z AS zspec FROM galaxy as p AND specObjAll as s WHERE ra BETWEEN # AND #"
+2019-09-09 12:49:00,1

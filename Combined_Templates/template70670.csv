@@ -1,0 +1,2 @@
+1,"SELECT --sp.specObjID, p.objid, p.ra, p.dec, p.objid, p.ra, p.dec, p.deVPhi_r, p.lnLDeV_r, p.expPhi_r, p.lnLExp_r --pz.z AS zphot, --pz.zErr AS zphot_err, --pz.photoErrorClass AS zphot_errClass INTO mydb.pereyra_ang FROM PhotoObj AS p, ---Photoz AS pz, --SpecObjAll AS sp, MyDB.ids_fil_gxl_pereyra AS ids_pereyra WHERE ids_pereyra.OBJID = p.objid --AND ids_pereyra.SPECOBJID = sp.specObjID ---AND sp.bestObjID = p.objid --AND pz.objid = p.objid"
+2019-10-21 18:25:00,1

@@ -1,0 +1,2 @@
+1,"select  ra,dec from SpecObjAll where class=&&& and subclass like &&&"
+2019-04-17 12:50:00,1

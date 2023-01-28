@@ -1,0 +1,2 @@
+1,"select count (*) as count into mydb.count_test2 from galaxy p, specobj s where p.objid = s.bestobjid"
+2019-05-07 04:22:00,1

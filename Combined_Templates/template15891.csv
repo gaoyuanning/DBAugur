@@ -1,0 +1,2 @@
+1,"SELECT plate, mjd, fiberID, z FROM SDSS1#z WHERE plate> #"
+2019-03-01 13:46:00,1

@@ -1,0 +1,2 @@
+1,"select s.ra, s.dec, x.ids, s.bestobjid into mydb.xrayagn_match_spec_radec from specobjall as s join xrayagn_ids as x on x.ids = s.bestobjid"
+2019-03-01 17:10:00,1

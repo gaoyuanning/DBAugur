@@ -1,0 +1,3 @@
+2,"SELECT s.objid, s.ra, s.dec, g.objid, g.ra, g.dec, x.ra, x.dec INTO twowayxmatch FROM XMATCH (MUST EXIST IN SDSSDR7:PhotoObjAll AS s WITH (POINT (s.ra, s.dec) , ERROR (#, #, #) ), MUST EXIST IN GALEXGR6:PhotoObjAll AS g WITH (POINT (g.ra, g.dec) , ERROR (#, #, #) ), LIMIT BAYESFACTOR TO #e3) AS x WHERE s.ra BETWEEN # AND # AND s.dec BETWEEN # AND # AND g.ra BETWEEN # AND # AND g.dec BETWEEN # AND #"
+2019-03-25 11:54:00,1
+2019-05-28 15:25:00,1

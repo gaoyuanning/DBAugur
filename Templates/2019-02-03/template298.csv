@@ -1,0 +1,2 @@
+1,"SELECT COUNT(N.objID) FROM dbo.fGetNearbyObjEq(#,#,#) as N"
+2019-02-03 09:35:00,1

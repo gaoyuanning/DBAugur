@@ -1,0 +1,2 @@
+3,"SELECT u.SN_name, u.ra, u.dec, p.petroFlux_u, p.petroFluxIvar_u,    p.petroFlux_g, p.petroFluxIvar_g, p.petroFlux_r, p.petroFluxIvar_r,    p.petroFlux_i, p.petroFluxIvar_i, p.petroFlux_z, p.petroFluxIvar_z  FROM mydb.Host_Gals_SNf as u  LEFT JOIN PhotoObjAll as p on u.objID=p.objID  ORDER BY u.SN_name asc  INTO mydb.Host_Gals_SNf_kcorr"
+2019-01-23 11:03:00,3

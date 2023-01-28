@@ -1,0 +1,2 @@
+1,"SELECT   specObjID, mjd, z, class, subClass, ra, dec,   sourceType, type, psfMag_u, psfMag_g,   psfMag_r, psfMag_i, psfMag_z, psfMagErr_u,  psfMagErr_g, psfMagErr_r, psfMagErr_i, psfMagErr_z FROM  SpecPhotoAll WHERE   htmid*# & # < (# * .#)"
+2019-04-21 21:09:00,1

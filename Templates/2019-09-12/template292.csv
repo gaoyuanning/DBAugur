@@ -1,0 +1,2 @@
+1,"SELECT top #  sp.subclass, count(sp.class) FROM SpecPhoto as sp WHERE  class = &&& GROUP BY subclass"
+2019-09-12 11:57:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # G.objID, G.ra, G.dec, G.type, G.flags, G.cModelMag_r, G.cModelMagErr_r, GN.distance FROM Galaxies as G JOIN dbo.fGetNearbyObjEq(#, #, #) AS GN ON G.objID = GN.objIDWHERE clean=#"
+2019-09-06 18:42:00,1

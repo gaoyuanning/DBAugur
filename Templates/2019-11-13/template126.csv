@@ -1,0 +1,5 @@
+5,"SELECT TOP #  s.plate,s.mjd,s.fiberid  FROM ..SpecObj as s  WHERE s.z > .# AND s.zWarning = # AND (s.class = &&&) AND s.z < .# AND (s.primTarget & (dbo.fPrimTarget(&&&)) > #)"
+2019-11-13 20:48:00,2
+2019-11-13 20:50:00,1
+2019-11-13 20:51:00,1
+2019-11-13 20:56:00,1

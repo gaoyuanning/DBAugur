@@ -1,0 +1,2 @@
+1,"SELECT p.u,p.g,p.r,p.i,p.z,s.z into mydb.adatbany from SpecObj as s   INNER JOIN PhotoObj as p   ON s.bestObjID = p.objID   WHERE p.type = # AND s.z between # and #"
+2019-03-25 12:22:00,1

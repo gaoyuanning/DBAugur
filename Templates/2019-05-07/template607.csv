@@ -1,0 +1,6 @@
+7,"select top # d_id from halotrees_# where d_id=haloid order by newid()) select h.*   from tree, halotrees_# h where h.d_id=tree.d_id order by h.haloid"
+2019-05-07 07:04:00,1
+2019-05-07 07:05:00,1
+2019-05-07 11:15:00,1
+2019-05-07 11:22:00,2
+2019-05-07 11:23:00,2

@@ -1,0 +1,4 @@
+3,"SELECT TOP # Galaxy.ra, Galaxy.dec, Galaxy.objid, Galaxy.specObjID FROM Galaxy with (nolock) INNER JOIN MyDB.MyTable on Galaxy.objid=MyTable.objid_dr1#"
+2019-01-15 10:59:00,1
+2019-01-15 11:24:00,1
+2019-01-15 11:30:00,1

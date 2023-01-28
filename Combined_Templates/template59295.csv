@@ -1,0 +1,2 @@
+1,"SELECT TOP # a.OBJID, a.RA, a.DEC, photoobjall.fGetNearestObjIdAllEq (a.RA, a.DEC, #) AS obid FROM MyDB.akari_# as a"
+2019-08-26 08:59:00,1

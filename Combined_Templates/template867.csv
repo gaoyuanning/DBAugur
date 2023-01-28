@@ -1,0 +1,2 @@
+2,"SELECT s.objID, n.distance, t.objID as objID_t, t.ra, t.dec, t.j_m, t.j_msigcom, t.j_snr, t.h_m, t.h_msigcom, t.h_snr, t.k_m, t.k_msigcom, t.k_snr, t.ph_qual, t.rd_flg, t.bl_flg, t.cc_flg, t.gal_contam, t.mp_flg, t.glon, t.glat into MyDB.JR_Table_#MASS_nearest from MyDB.JR_Table_SDSS AS s CROSS APPLY dbo.fGetNearestObjEq (s.ra, s.dec, #/#) AS n JOIN PhotoObjAll AS t ON n.objid = t.objid"
+2019-01-04 15:09:00,2

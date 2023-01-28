@@ -1,0 +1,2 @@
+1,"select dbo.fSDSS (obj.objId) as ID, ltrim (str (#*distance, #, #) ) as distance, ltrim (str (mjd_r, #, #) ) as MJD, modelMag_g, modelMagErr_g, modelMag_r, modelMagErr_r, modelMag_i, modelMagErr_i from (select objId1, objId2, #/#. as distance FROM match union all select objId1, objId2, distance FROM match) as M JOIN PhotoObj as Obj on (obj.objId = M.objId2) JOIN Field as F on F.fieldId = obj.fieldId where M.ObjId1 = dbo.fGetNearestObjIdEq (#, #, #)"
+2019-10-04 10:32:00,1

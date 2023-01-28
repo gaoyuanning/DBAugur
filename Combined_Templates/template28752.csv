@@ -1,0 +1,2 @@
+1,"select p.* from dbo.MillenniumParticlesPosVel (#, SPHERE[#, #, #, #]) p"
+2019-04-09 15:49:00,1

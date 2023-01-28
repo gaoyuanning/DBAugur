@@ -1,0 +1,5 @@
+9,"select a.*,t.objid as matched_id, s.z  from #tmp t    JOIN MYDB.DR5_Xmatch a ON t.up_id = a.search_id    JOIN specobj s ON s.bestobjid=t.objid"
+2019-03-17 17:57:00,2
+2019-03-17 17:58:00,1
+2019-03-17 17:59:00,5
+2019-03-17 18:00:00,1

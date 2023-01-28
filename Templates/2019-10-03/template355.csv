@@ -1,0 +1,2 @@
+1,"select dec, ra, z, modelMag_g, modelMag_r, modelMag_i, modelMag_z from SpecPhoto   where dec between # and # and z < # and z > #"
+2019-10-03 13:35:00,1

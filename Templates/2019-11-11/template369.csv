@@ -1,0 +1,2 @@
+1,"select mode, count(*) from PhotoObjAll where ra > # and ra < #  and dec > # and dec < # group by mode"
+2019-11-11 07:00:00,1

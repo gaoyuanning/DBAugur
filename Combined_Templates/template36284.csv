@@ -1,0 +1,4 @@
+3,"SELECT ALL g.objID, g.ra, g.raErr, g.dec, g.decErr, g.u, g.err_u, g.g, g.err_g, g.r, g.err_r, g.i, g.err_i, g.z, g.err_z, s.z as redshift FROM Galaxy g, SpecObj s WHERE g.objid = s.bestobjid"
+2019-05-02 18:51:00,1
+2019-05-02 18:52:00,1
+2019-05-02 18:54:00,1

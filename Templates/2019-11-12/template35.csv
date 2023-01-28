@@ -1,0 +1,2 @@
+1,"select ra,dec,u,g,r,i,z from Star where ra BETWEEN #&##; and #&##; AND dec #&##;&##; BETWEEN and #"
+2019-11-12 23:39:00,1

@@ -1,0 +1,2 @@
+2,"select min(p.dec), max(p.dec) from photoobj p where p.specobjID<>#"
+2019-07-03 07:12:00,2

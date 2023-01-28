@@ -1,0 +1,3 @@
+2,"select SpecObj.z from PhotoObj, SpecObj where PhotoObj.ObjID = #, SpecObj.ObjID = PhotoObj.ObjID"
+2019-08-11 09:11:00,1
+2019-08-11 09:12:00,1

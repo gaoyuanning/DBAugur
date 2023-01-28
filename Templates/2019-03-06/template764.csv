@@ -1,0 +1,2 @@
+1,"SELECT top # sp.plate, sp.fiberid, sp.mjd, gal.h_alpha_flux, gal.h_alpha_flux_err, phot.u, phot.g, phot.r, phot.i, phot.z FROM SpecObj AS sp  JOIN PhotoObj AS phot ON phot.objID = sp.targetObjID JOIN GalSpecLine AS gal ON sp.specObjID = gal.specObjID WHERE err_u > #"
+2019-03-06 03:02:00,1

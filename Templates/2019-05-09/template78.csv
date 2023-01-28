@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.class, s.z as redshift, s.elodieSpType as spectraltype, s.elodieBV as color, s.elodieTEff as temperature, s.elodieLogG as gravity, s.elodieFeH as metallicity, p.ra,p.dec, p.u, p.g, p.r, p.i, p.z, p.probPSF_u FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   p.u BETWEEN # AND #  AND g BETWEEN # AND #  AND s.class = STAR"
+2019-05-09 19:32:00,1

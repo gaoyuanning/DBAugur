@@ -1,0 +1,2 @@
+1,"SELECT top # ph.specObjID, ph.ra, ph.dec, ph.type, phz.z, phz.zerr into mydb.test1 from PhotoObjAll as ph                                     JOIN PhotoZ as phz ON ph.objID = phz.objID"
+2019-12-24 03:23:00,1

@@ -1,0 +1,2 @@
+2,"select cc.search_id,f.ra,f.dec,f.peak,f.integr,f.rms,f.major into mydb.cc2first from mydb.cc2allph as cc join first as f on f.objid = cc.objid"
+2019-03-16 06:51:00,2

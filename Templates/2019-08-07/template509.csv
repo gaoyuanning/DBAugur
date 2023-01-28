@@ -1,0 +1,4 @@
+4,select top # * into mydb.SpecPhot1#tableSample from SpecPhoto where dec<# or (dec<# and (ra between # and #))
+2019-08-07 05:58:00,2
+2019-08-07 05:59:00,1
+2019-08-07 06:01:00,1

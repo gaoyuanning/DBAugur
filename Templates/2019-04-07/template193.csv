@@ -1,0 +1,2 @@
+1,"SELECT n.nsaid,n.fiberid,n.aid,n.pid,n.xcen,n.ycen FROM nsatlas as n --into mydb.test_idcorrection where n.nsaid<# and n.nsaid>#"
+2019-04-07 15:48:00,1

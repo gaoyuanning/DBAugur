@@ -1,0 +1,2 @@
+60,"select objID, b, l, offsetRa_u, offsetRa_g,  from PhotoObjAll where field=#;"
+2019-12-31 04:48:00,60

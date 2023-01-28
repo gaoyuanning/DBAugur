@@ -1,0 +1,2 @@
+2,"SELECT count (*) FROM PhotoPrimary p, SpecObj as S WHERE p.objid = S. bestObjID AND s.z < # AND velDisp > #. into s_gt_#_z_lt_#_#"
+2019-07-07 16:39:00,2

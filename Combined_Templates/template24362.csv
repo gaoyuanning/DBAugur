@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objID, p.ra, p.dec, p.u, p.err_u, p.g, p.err_g, p.r, p.err_r, p.i, p.err_i, p.z, p.err_z, s.z FROM PhotoObjAll AS p JOIN SpecObjAll AS s ON p.objID = s.bestObjID"
+2019-03-26 21:58:00,1

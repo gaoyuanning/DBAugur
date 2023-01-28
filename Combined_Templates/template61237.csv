@@ -1,0 +1,3 @@
+2,"select p.objid, p.ra, p.dec, pz.z as redshift, pz.zerr as redshift_err, p.clean, (cModelMag_u - extinction_u) as u, (cModelMag_g - extinction_g) as g, (cModelMag_r - extinction_r) as r, (cModelMag_i - extinction_i) as i, (cModelMag_z - extinction_z) as z, cModelMagErr_u as u_err, cModelMagErr_g as g_err, cModelMagErr_r as r_err, cModelMagErr_i as i_err, cModelMagErr_z as z_err into mydb.GEMSS_P3#_Photo_Gal from photoobj p, photoz pz where p.objid = pz.objid and p.mode = # and p.type = # and p.ra> =# and p.ra< =# and p.dec> =# and p.dec< =#"
+2019-09-05 09:47:00,1
+2019-09-05 09:48:00,1

@@ -1,0 +1,7 @@
+7,"select [enum], [name], [type], [length], [unit], [ucd], [description] from dbo.fDocColumns(&&&) ORDER BY [columnID]"
+2019-09-07 05:58:00,1
+2019-09-07 08:10:00,2
+2019-09-07 08:11:00,1
+2019-09-07 08:41:00,1
+2019-09-07 20:45:00,1
+2019-09-07 21:07:00,1

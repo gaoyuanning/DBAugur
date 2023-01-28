@@ -1,0 +1,22 @@
+21,"SELECT EID, [Reason_for_skipping_IOP_left__#], [Reason_for_skipping_IOP_right__#], [Intra_ocular_pressure_IOP_method_left__#], [Intra_ocular_pressure_IOP_method_right__#], [Corneal_hysteresis_left__#], [Corneal_hysteresis_right__#], [Corneal_resistance_factor_left__#], [Corneal_resistance_factor_right__#], [Intra_ocular_pressure_corneal_compensated_left__#], [Intra_ocular_pressure_corneal_compensated_right__#], [Intra_ocular_pressure_Goldmann_correlated_left__#], [Intra_ocular_pressure_Goldmann_correlated_right__#], [Applanation_curve_left__#], [Applanation_curve_right__#], [Pressure_curve_left__#], [Pressure_curve_right__#], [Intra_ocular_pressure_device_ID_left__#], [Intra_ocular_pressure_device_ID_right__#] FROM Intraocular_pressure GO"
+2019-04-15 13:25:00,1
+2019-04-15 13:35:00,1
+2019-04-16 08:56:00,1
+2019-04-16 08:58:00,1
+2019-04-16 10:12:00,1
+2019-04-16 10:14:00,1
+2019-04-16 10:17:00,1
+2019-04-16 10:35:00,1
+2019-04-17 11:27:00,1
+2019-04-23 09:44:00,1
+2019-04-23 10:47:00,1
+2019-04-23 10:52:00,1
+2019-04-24 09:49:00,1
+2019-04-24 09:55:00,1
+2019-04-24 13:19:00,1
+2019-04-29 11:38:00,1
+2019-04-30 11:43:00,1
+2019-04-30 15:37:00,1
+2019-05-01 09:26:00,1
+2019-05-02 09:33:00,1
+2019-05-02 10:34:00,1

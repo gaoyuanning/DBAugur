@@ -1,0 +1,2 @@
+1,"SELECT * INTO myDB.HS_matched from myDB.Hammond_Short HS, dbo.fGetNearbyObjEq (RA_DEG_J2#, DEC_DEG_J2#, #) as N"
+2019-08-30 13:50:00,1

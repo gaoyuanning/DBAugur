@@ -1,0 +1,2 @@
+1,"SELECT m.objra, m.objdec FROM mangaDRPall AS m WHERE m.objra BETWEEN # AND # AND m.objdec BETWEEN # AND #"
+2019-12-28 14:29:00,1

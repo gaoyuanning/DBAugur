@@ -1,0 +1,2 @@
+1,SELECT * into mydb.spectralMetaData from MyDB.spectralTestData2# UNION SELECT * FROM MyDB.spectralTrainData2#
+2019-01-23 16:31:00,1

@@ -1,0 +1,2 @@
+1,"SELECT   ast.apogee_id, ap.target_id, ast.apstar_id, ast.glon, ast.glat, ast.RA, ast.DEC, ast.snr, ast.vhelio_avg, ast.rv_teff, ap.j, ap.h, ap.k, ap.ak_wise, ap.ak_targ, asp.fe_h, asp.fe_h_err, asp.mg_fe, asp.mg_fe_err FROM dbo.apogeeStar as ast   JOIN dbo.apogeeObject as ap ON (ap.apogee_id = ast.apogee_id)   JOIN dbo.aspcapStar as asp ON (asp.apogee_id = ast.apogee_id) WHERE ((ap.j < #) AND (ap.h < #))"
+2019-10-18 08:37:00,1

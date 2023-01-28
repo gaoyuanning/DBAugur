@@ -1,0 +1,2 @@
+1,"select z, zErr, ra, dec, spectroFlux_r, bestObjID from  specObj where  class = &&&   and z > # and z < #   and zWarning = # and bestObjID>#  AND dec BETWEEN # and #"
+2019-03-01 13:51:00,1

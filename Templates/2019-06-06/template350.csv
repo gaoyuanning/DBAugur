@@ -1,0 +1,3 @@
+2,"SELECT    s.plate, s.mjd, s.fiberID, s.class, s.survey, s.z, s.zErr, sp.ra, sp.dec,      sp.cModelMag_u - sp.extinction_u as mag_u,   sp.cModelMag_g - sp.extinction_g as mag_g,    sp.cModelMag_r - sp.extinction_r as mag_r,    sp.cModelMag_i - sp.extinction_i as mag_i,    sp.cModelMag_z - sp.extinction_z as mag_z into mydb.SDSS_DR1#_GALQSO from SpecObj AS s    JOIN SpecPhoto AS sp ON sp.specObjID = s.specObjID    WHERE     ( s.Class = &&& or s.Class = &&& )   AND s.zwarning = #"
+2019-06-06 08:23:00,1
+2019-06-06 08:28:00,1

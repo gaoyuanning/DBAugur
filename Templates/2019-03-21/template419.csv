@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.ra, p.dec  FROM Star WHERE  ra BETWEEN # and # AND dec BEWTEEN # and #"
+2019-03-21 11:45:00,1

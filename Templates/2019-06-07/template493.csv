@@ -1,0 +1,2 @@
+1,"SELECT       g.ObjID, s.bestObjID    FROM      Galaxy as g,    SpecObj as s,    GalSpecLine as ga,    emissionLinesPort as e       WHERE      g.ObjID = s.bestObjID AND   ga.oiii_#_flux > ga.oiii_#_flux_err*# AND   em.Flux_OIII_# > Flux_OIII_#_Err*# AND"
+2019-06-07 05:49:00,1

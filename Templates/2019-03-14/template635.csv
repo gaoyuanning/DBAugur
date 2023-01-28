@@ -1,0 +1,2 @@
+1,"SELECT TOP #   sg.galaxy_id, phot.ra, phot.dec, phot.specObjID, phot.dr7ObjID    INTO mydb.sdss7groups_TEST FROM MyDB.sdss7groups AS sg  JOIN SpecDR7 AS phot ON (   sg.run=phot.run and sg.rerun=phot.rerun   and sg.camcol=phot.camcol and sg.field=phot.field   and sg.id=phot.obj)"
+2019-03-14 07:46:00,1

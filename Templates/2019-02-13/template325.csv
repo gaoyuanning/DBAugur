@@ -1,0 +1,2 @@
+1,"select objid,ra,dec,z from specobj where z > #  and zwarning = #"
+2019-02-13 16:11:00,1

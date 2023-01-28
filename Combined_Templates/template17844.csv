@@ -1,0 +1,8 @@
+8,"SELECT f1.specObjID, f1.mjd, f1.plate, f1.fiberID, f1.class, f1.ra, f1.dec, f1.z, f2.h_beta_flux, f2.h_beta_flux_err, f2.oiii_#_flux, f2.oiii_#_flux_err, f2.oiii_#_flux, f2.oiii_#_flux_err, f2.oiii_#_flux, f2.oiii_#_flux_err, f2.nii_#_flux, f2.nii_#_flux_err, f2.nii_#_flux, f2.nii_#_flux_err, f2.h_alpha_flux, f2.h_alpha_flux_err into mydb.MyTable_# from SpecPhoto AS f1 JOIN GalSpecLine AS f2 ON f2.specObjID = f1.specObjID WHERE f1.z BETWEEN # and # AND f1.zWarning = # AND f1.class = # AND f1.ra BETWEEN # and # AND f1.dec BETWEEN # and #"
+2019-03-06 15:39:00,2
+2019-03-06 15:41:00,1
+2019-03-06 15:48:00,1
+2019-03-06 15:49:00,1
+2019-03-06 15:50:00,1
+2019-03-06 15:55:00,1
+2019-03-07 02:37:00,1

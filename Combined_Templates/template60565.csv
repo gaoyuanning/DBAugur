@@ -1,0 +1,5 @@
+6,"SELECT ra, dec, type into Large_galaxy_sample_Bright_Stars_extrabright from Star WHERE dec BETWEEN # AND # AND modelMag_i< #"
+2019-09-03 10:30:00,1
+2019-09-03 10:31:00,2
+2019-09-03 10:32:00,1
+2019-09-03 10:38:00,2

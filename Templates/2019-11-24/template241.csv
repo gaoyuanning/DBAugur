@@ -1,0 +1,4 @@
+4,"SELECT p.ra,p.dec,p.u,p.g,p.r,p.i,p.z FROM #UPLOAD as U OUTER APPLY dbo.fGetNearestObjEq((U.up_ra),(U.up_dec),#) as N LEFT JOIN Galaxy AS p ON N.objid=p.objid"
+2019-11-24 11:46:00,2
+2019-11-24 11:53:00,1
+2019-11-24 15:41:00,1

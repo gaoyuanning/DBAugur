@@ -1,0 +1,2 @@
+1,"SELECT count(*) FROM PhotoObj AS p,    SpecObj AS s  WHERE    p.petroMag_r - p.extinction_r < # AND s.instrument = &&&   AND s.class = &&& AND  s.bestobjid = p.objid"
+2019-01-09 13:02:00,1

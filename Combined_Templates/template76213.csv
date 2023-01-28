@@ -1,0 +1,2 @@
+1,"SELECT top # ra, dec, z, specObjID, lambdaEff FROM SpecObjAll WHERE z> # ra between # and # and dec between # and #"
+2019-11-14 11:33:00,1

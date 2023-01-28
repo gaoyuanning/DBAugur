@@ -1,0 +1,14 @@
+13,"SELECT objID, ra, dec, psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z, psfMagErr_u, psfMagErr_g, psfMagErr_r, psfMagErr_i, psfMagErr_z, extinction_u, extinction_g, extinction_r, extinction_i, extinction_z FROM star WHERE (ra > #) AND (ra< #) AND (dec> #) AND (dec< #) AND (psfMag_i < #) AND clean = #"
+2019-02-15 15:41:00,1
+2019-02-15 15:51:00,1
+2019-02-15 16:39:00,1
+2019-02-15 21:57:00,1
+2019-02-15 22:22:00,1
+2019-02-15 23:28:00,1
+2019-02-15 23:42:00,1
+2019-02-16 00:44:00,1
+2019-02-16 00:45:00,1
+2019-02-16 00:46:00,1
+2019-03-01 18:04:00,1
+2019-03-01 18:05:00,1
+2019-03-01 18:25:00,1

@@ -1,0 +1,2 @@
+1,"select p.objid, p.ra, p.dec, s.specobjid, s.petroMag_u , s.plate, s.mjd, s.fiberid from galaxy p, specobj s where p.objid = s.bestobjid and s.plate = #"
+2019-02-13 07:47:00,1

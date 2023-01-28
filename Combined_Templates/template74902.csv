@@ -1,0 +1,2 @@
+1,"select row1, count (*) from s8#r2#q1#_select where row1 = row2 group by row1 order by #"
+2019-11-10 13:35:00,1

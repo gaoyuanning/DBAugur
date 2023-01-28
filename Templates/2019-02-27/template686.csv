@@ -1,0 +1,2 @@
+1,"SELECT TOP # z, count(*) into mydb.MyTable1# FROM SpecObjAll s1, SpecObjAll s2 where s2.class=GALAXY&&&RSO and"
+2019-02-27 13:12:00,1

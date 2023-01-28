@@ -1,0 +1,2 @@
+2,"select m.SDSS, sersic_mtol_g into mydb.bars_ml from nsatlas i, mydb.bars_radec m where i.ra = m.ra;"
+2019-08-08 08:02:00,2

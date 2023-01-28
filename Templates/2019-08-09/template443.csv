@@ -1,0 +1,3 @@
+2,"SELECT TOP # m.OBJID AS AKARI_ID,   m.RA AS AKARI_RA,   m.DEC AS AKARI_DEC,	 	      o.SpecObjID AS SDSS_ID,   o.z AS z,   o.z_err AS z_err,   o.z_warning AS z_warning,  o.plateid, o.mjd	 ,	 	 o.fiberid,	 	 	 o.ra	,	 o.dec	, o.primtarget	, o.sectarget,	 o.targettype,	 o.spectrotype,	 o.subclass, o.z	, o.z_err, o.z_warning,	 o.v_disp, o.v_disp_err,	 o.sn_median,	 o.e_bv_sfd,	 o.release,	 	 	 o.reliable,      n.distance AS SEPARATION_AKARI_SDSS1# into mydb.test5 from MyDB.akari AS m    OUTER APPLY dbo.fGetNearestObjEq( m.ra, m.dec, #) AS n    LEFT JOIN galSpecInfo AS o ON n.objid = o.specObjID   where m.OBJID = #"
+2019-08-09 07:25:00,1
+2019-08-09 07:26:00,1

@@ -1,0 +1,2 @@
+1,"select     S.ra as sdss_ra, S.dec as sdss_dec, W.ra as wise_ra, W.dec as wise_dec, M.objid      S.psfmag_r as r, W.w1mpro as w1 into mydb.MyTable_# from wise_xmatch as X       join wise_allsky as W on X.wise_cntr = W.cntr       join photoobjall as M on X.objid=M.objid"
+2019-02-04 12:16:00,1

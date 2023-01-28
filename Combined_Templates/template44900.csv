@@ -1,0 +1,4 @@
+4,select * from SpecObjAll where z> # and dec< # and dec> # and (ra> # or ra< #)
+2019-06-09 20:10:00,1
+2019-06-09 20:12:00,1
+2019-06-12 21:08:00,2

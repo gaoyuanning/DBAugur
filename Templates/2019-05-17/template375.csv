@@ -1,0 +1,8 @@
+11,"SELECT TOP # spec.specObjID, phot.objID,  spec.ra, spec.dec,  spec.class,  spec.z, spec.zErr,  phot.rerun, phot.run, phot.camcol, phot.field,  phot.dered_u, phot.dered_g, phot.dered_r, phot.dered_i, phot.dered_z,  phot.extinction_u, phot.extinction_g, phot.extinction_r, phot.extinction_i, phot.extinction_z  FROM SpecObjAll AS spec  JOIN PhotoObjAll AS phot  ON spec.specObjID = phot.specObjID  WHERE  phot.clean = #  AND spec.zWarning = #  AND spec.ra >= #  AND spec.ra < #  AND spec.dec >= #  AND spec.dec < #  AND phot.dered_r > # and phot.dered_r < #  AND phot.expRad_r < #  AND phot.deVRad_r < #  AND spec.zErr < #  AND spec.z < #  ORDER BY NEWID()"
+2019-05-17 05:18:00,1
+2019-05-17 06:36:00,1
+2019-05-17 06:37:00,4
+2019-05-17 06:38:00,2
+2019-05-17 07:46:00,1
+2019-05-17 09:48:00,1
+2019-05-17 09:50:00,1

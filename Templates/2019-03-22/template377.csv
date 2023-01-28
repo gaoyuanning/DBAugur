@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.petroRad_r,p.petroRadErr_r,ISNULL(s.targetObjID,#) as targetObjID FROM BESTDR8..Galaxy AS p LEFT OUTER JOIN BESTDR8..SpecObj s ON p.objID = s.bestObjID  JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = P.objID"
+2019-03-22 16:18:00,1

@@ -1,0 +1,5 @@
+4,"SELECT PhotoObjAll.objID, PhotoObjAll.ra, PhotoObjAll.dec, PhotoObjAll.u, PhotoObjAll.err_u, PhotoObjAll.g, PhotoObjAll.err_g, PhotoObjAll.r, PhotoObjAll.err_r, PhotoObjAll.i, err_i, PhotoObjAll.z, err_z, Photoz.z AS photoz, Photoz.zErr AS err_photoz into mydb.MyTable FROM PhotoObjAll, Photoz WHERE PhotoObjAll.objID = Photoz.objID AND (PhotoObjAll.type =# OR PhotoObjAll.type =#)"
+2019-02-27 12:27:00,1
+2019-02-27 12:28:00,1
+2019-02-27 12:29:00,1
+2019-02-27 12:30:00,1

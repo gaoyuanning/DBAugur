@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z, p.run, p.rerun, p.camcol, p.field,p.type, S.class,s.z, pz.z, w.w1mpro AS w1, w.w2mpro AS w2, w.w3mpro AS w3, w.w4mpro AS w4, f.peak,f.integr,f.rms FROM PhotoObj AS p LEFT JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN wise_xmatch AS xm ON s.objid = xm.sdss_objid JOIN FIRST AS f ON s.objid = f.objid JOIN wise_allsky AS w ON xm.wise_cntr = w.cntr JOIN PhotoZ as pz ON pz.objid = p.objid WHERE  s.bestobjid IS NULL   into myDB.test"
+2019-03-13 19:30:00,1

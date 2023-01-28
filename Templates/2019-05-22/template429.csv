@@ -1,0 +1,2 @@
+1,"SELECT    t.idx_num, t.ra AS ra_t, t.dec AS dec_t,    n.distance,    p.ra AS ra_s, p.dec AS dec_s FROM MyDB.sample_t AS t    OUTER APPLY dbo.fGetNearbyObjEq(t.ra, t.dec, t.theta) AS n    LEFT JOIN PhotoObj AS p ON n.objid=p.objid"
+2019-05-22 11:11:00,1

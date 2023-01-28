@@ -1,0 +1,2 @@
+1,"select ra, dec, mstellar_p9#p5 from dbo.stellarMassPCAWiscM1# where ra between # and # AND dec between # and # order by ra"
+2019-10-21 19:19:00,1

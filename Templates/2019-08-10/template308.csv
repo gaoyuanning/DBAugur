@@ -1,0 +1,2 @@
+1,"SELECT TOP # objid, q_r, u_r into mydb.MyTable_# from photoObj WHERE type = #"
+2019-08-10 01:56:00,1

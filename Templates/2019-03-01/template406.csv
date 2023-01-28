@@ -1,0 +1,2 @@
+1,"select apogee_id, ra, dec, h from apogeeObject WHERE h < #"
+2019-03-01 13:54:00,1

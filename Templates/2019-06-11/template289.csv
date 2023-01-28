@@ -1,0 +1,5 @@
+6,"SELECT up_id,  dbo.fGetNearestObjIdEq( up_ra,up_dec,up_sep ) as objId   FROM #upload  WHERE  dbo.fGetNearestObjIdEq( up_ra,up_dec,up_sep ) IS NOT NULL  SELECT TOP #   p.ra,p.dec, p.u,p.g,p.r,p.i,p.z,p.modelMagErr_u,p.modelMagErr_g,p.modelMagErr_r,p.modelMagErr_i,p.modelMagErr_z,ISNULL(s.z,#) as redshift,ISNULL(s.z_noqso,#) as z_noqso,ISNULL(s.z_person,#) as z_person,ISNULL(s.zErr,#) as redshiftErr,ISNULL(s.zErr_noqso,#) as zErr_noqso,ISNULL(s.zOffset,#) as zOffset,ISNULL(s.zWarning,#) as zWarning  FROM ..PhotoObj AS p  LEFT OUTER JOIN ..SpecObj s ON p.objID = s.bestObjID  JOIN #x AS x ON x.objID=p.objID  JOIN #upload AS u ON u.up_id = x.up_id   WHERE  ( p.type = # OR p.type = #)   ORDER BY x.up_id"
+2019-06-11 11:16:00,2
+2019-06-11 11:17:00,2
+2019-06-11 11:18:00,1
+2019-06-11 11:19:00,1

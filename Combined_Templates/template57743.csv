@@ -1,0 +1,2 @@
+1,"SELECT subclass, count (specObjID) as num, min (z) as min_redshift, max (z) as max_redshift FROM specObj WHERE zWarning = # GROUP by subclass"
+2019-08-14 02:30:00,1

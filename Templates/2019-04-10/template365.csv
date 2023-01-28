@@ -1,0 +1,2 @@
+1,"SELECT    zoo.objid,zoo.ra,zoo.dec,spec.z,spec.zErr,photo.rowc,photo.rowcErr,photo.colc,photo.colcErr,   photo.mE1_r,photo.mE2_r,photo.mE1E1Err_r,photo.mE2E2Err_r,photo.mE1E2Err_r,photo.mRrCc_r,photo.mRrCcErr_r,photo.mCr4_r,   photo.mE1PSF_r,photo.mE2PSF_r,photo.mRrCcPSF_r,photo.mCr4PSF_r INTO mydb.gz_cw0#_orientation   FROM     dbo.zooVotes zoo     JOIN dbo.SpecPhotoAll spec ON spec.objid=zoo.objid     JOIN dbo.PhotoObjAll photo On photo.objid=zoo.objid   WHERE   zoo.p_cw >#"
+2019-04-10 14:37:00,1

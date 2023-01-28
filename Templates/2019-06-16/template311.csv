@@ -1,0 +1,2 @@
+1,"SELECT TOP # objid,ra,dec,u,g,r,i,z,  run,rerun,camcol, distinct field FROM PhotoObj WHERE   u BETWEEN # AND #   AND g BETWEEN # AND #  AND run=#"
+2019-06-16 01:06:00,1

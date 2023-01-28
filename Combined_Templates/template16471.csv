@@ -1,0 +1,6 @@
+5,"select ra, dec, petroMag_u, petroMag_g, petroMag_r, petroMag_i, petroMag_z, petroR5#_r, probPSF from PhotoTag p, fGetObjFromRectEq (#, #, #, #) r WHERE p.objid = r.objid"
+2019-03-03 09:36:00,1
+2019-03-03 10:58:00,1
+2019-03-03 11:21:00,1
+2019-03-03 12:02:00,1
+2019-03-03 12:31:00,1

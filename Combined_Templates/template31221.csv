@@ -1,0 +1,2 @@
+1,"select A.Name, sum (T.UnitPrice) as AlbumPrice from chinook.Track as T, chinook.Album as A where T.AlbumId = A.AlbumId group by A.Name"
+2019-04-17 11:40:00,1

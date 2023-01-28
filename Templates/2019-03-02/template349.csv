@@ -1,0 +1,8 @@
+719,select objid from photoobjall where photoobjall.dec between # and # and photoobjall.ra between # and #
+2019-03-02 04:20:00,460
+2019-03-02 09:13:00,38
+2019-03-02 09:14:00,33
+2019-03-02 11:05:00,15
+2019-03-02 11:06:00,36
+2019-03-02 11:07:00,96
+2019-03-02 11:08:00,41

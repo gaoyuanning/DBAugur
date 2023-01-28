@@ -1,0 +1,2 @@
+1,"SELECT ph.objID, ph.ra, ph.dec, ph.g Into MYDB.InClassExample1# From dbo.fGetNearbyObjEq (#, #, #) as x JOIN PhotoObjAll AS ph ON x.objid = ph.objid"
+2019-10-03 12:19:00,1

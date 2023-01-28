@@ -1,0 +1,2 @@
+1,"SELECT TOP # * p.objid, s.specobjid, p.type, s.class, p.deVRad_r, p.deVRadErr_r,  p.expRad_r, p.expRadErr_r, s.ra, s.dec, s.z, g.bptclass, g.lgm_tot_p5#, z.spiral, z.elliptical, z.uncertain FROM photoobj as p JOIN SpecObj as s ON s.bestobjid = p.objid JOIN galSpecExtra as g ON g.specobjid = s.specobjid JOIN zooSpec as z on z.specobjid = g.specobjid WHERE type = # and class = &&&  AND specialTarget1 & dbo.fSpecialTarget1(&&&) > #"
+2019-08-08 08:26:00,1

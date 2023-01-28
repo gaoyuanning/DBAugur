@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objId,p.ra,p.dec,s.z,s.tile FROM galaxy AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid"
+2019-07-08 11:14:00,1

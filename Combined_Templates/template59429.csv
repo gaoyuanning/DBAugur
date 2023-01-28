@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.run, p.rerun, p.camcol, p.field, p.obj into mydb.W3 from PhotoObjAll AS p WHERE p.ra BETWEEN # AND # AND p.dec BETWEEN # AND #"
+2019-08-27 15:21:00,1

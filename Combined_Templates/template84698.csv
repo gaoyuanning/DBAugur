@@ -1,0 +1,2 @@
+1,"select top # ra, dec, subclass from SpecObj where ra > # and ra < # and dec > # and dec < #"
+2019-12-29 02:55:00,1

@@ -1,0 +1,2 @@
+2,"select f.field_name, v.location_id, v.apogee_target1, v.apogee_target2, v.apogee_target3, v.apogee2_target1, v.apogee2_target2, v.apogee2_target3, v.apogee_id, v.snr, v.vhelio, v.dateobs into mydb.apogeevisits from apogeeVisit as v join apogeeField f on f.location_id = v.location_id"
+2019-11-07 06:08:00,2

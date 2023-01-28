@@ -1,0 +1,16 @@
+19,"SELECT p.objid, p.type, p.clean, p.ra, p.dec, p.raErr, p.decErr, p.psfMag_u,p.psfMag_g,p.psfMag_r,p.psfMag_i,p.psfMag_z, p.psfMagErr_u,p.psfMagErr_g,p.psfMagErr_r,p.psfMagErr_i,p.psfMagErr_z, p.petroR5#_u,p.petroR5#_g,p.petroR5#_r,p.petroR5#_i,p.petroR5#_z, p.psffwhm_u, p.psffwhm_g, p.psffwhm_r, p.psffwhm_i, p.psffwhm_z, p.modelMagErr_u,p.modelMagErr_g,p.modelMagErr_r,p.modelMagErr_i,p.modelMagErr_z, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, pz.z, pz.zErr FROM PhotoObj AS p , dbo.fGetNearbyObjEq(#, #, #) AS n LEFT JOIN Photoz AS pz ON pz.objID = n.objID WHERE n.objID = p.objID"
+2019-11-28 00:58:00,1
+2019-11-28 00:59:00,2
+2019-11-28 01:00:00,2
+2019-11-28 01:01:00,2
+2019-11-28 01:05:00,1
+2019-11-28 01:06:00,1
+2019-11-28 01:08:00,1
+2019-11-28 01:09:00,1
+2019-11-28 01:10:00,1
+2019-11-28 01:11:00,1
+2019-11-28 01:12:00,2
+2019-11-28 01:13:00,1
+2019-11-28 20:57:00,1
+2019-11-28 22:15:00,1
+2019-11-28 22:17:00,1

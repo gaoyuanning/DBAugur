@@ -1,0 +1,2 @@
+42,"select ra, dec, psfmag_r-extinction_r AS mag_r, psfmag_i-extinction_i AS mag_i from PhotoPrimary where objID=#"
+2019-03-04 11:47:00,42

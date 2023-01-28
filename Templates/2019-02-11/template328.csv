@@ -1,0 +1,2 @@
+1,"SELECT TOP #  spp.mjd,spp.plate,spp.fiberid, spp.SPECTYPEHAMMER, spp.SPECTYPESUBCLASS,spp.TEFFADOP,spp.LOGGADOP,spp.FEHADOP,spp.SNR, spp.SPECOBJID, spec.mjd,spec.plate,spec.fiberid,spec.subclass FROM sppParams AS spp JOIN specobjall as spec on spec.SPECOBJID=spp.SPECOBJID WHERE  spp.TEFFADOP > # AND spp.LOGGADOP > # AND spp.FEHADOP > # AND spp.SNR > #"
+2019-02-11 16:11:00,1

@@ -1,0 +1,2 @@
+1,"SELECT /*binning variables */ ast.teff, ast.logg, ap.snr, /*elemental abundances */ ast.m_h, ast.fe_h, ast.mg_h, ast.mg_fe into myDB.apogeeparam FROM dbo.aspcapStar as ast JOIN dbo.apogeestar as ap ON (ap.apogee_id = ast.apogee_id)"
+2019-01-22 06:06:00,1

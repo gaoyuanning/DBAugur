@@ -1,0 +1,2 @@
+1,"SELECT plate, mjd, fiberID, specObjID, ra, dec, petroMag_u, petroMag_g, petroMag_r, petroMag_i, petroMag_z, petroMagErr_u, petroMagErr_g, petroMagErr_r, petroMagErr_i, petroMagErr_z, fiberMag_u, fiberMag_g, fiberMag_r, fiberMag_i, fiberMag_z, fiberMagErr_u, fiberMagErr_g, fiberMagErr_r, fiberMagErr_i, fiberMagErr_z into mydb.MyTable from dr1#.SpecPhotoAll where z > #"
+2019-09-02 07:52:00,1

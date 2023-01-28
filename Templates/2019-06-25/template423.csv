@@ -1,0 +1,2 @@
+1,"select top #  ra, dec, elodieSpType, elodieTEff from  specObj where  elodieTEff > #"
+2019-06-25 09:45:00,1

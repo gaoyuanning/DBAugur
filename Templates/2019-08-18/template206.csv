@@ -1,0 +1,7 @@
+6,"select z.*,    p.petrorad_u, p.petroraderr_u, p.petrorad_g, p.petroraderr_g, p.petrorad_r, p.petroraderr_r, p.petrorad_i, p.petroraderr_i, p.petrorad_z, p.petroraderr_z,    p.petromag_u, p.petromagerr_u, p.petromag_g, p.petromagerr_g, p.petromag_r, p.petromagerr_r, p.petromag_i, p.petromagerr_i, p.petromag_z, p.petromagerr_z,   p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i, p.extinction_z, p.petromag_r*# as #xr_p"
+2019-08-18 05:02:00,1
+2019-08-18 08:26:00,1
+2019-08-18 08:54:00,1
+2019-08-18 09:01:00,1
+2019-08-18 09:09:00,1
+2019-08-18 09:13:00,1

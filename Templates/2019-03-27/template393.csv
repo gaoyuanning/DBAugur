@@ -1,0 +1,4 @@
+3,select * from emissionLinesPort where specObjId=#
+2019-03-27 00:11:00,1
+2019-03-27 05:10:00,1
+2019-03-27 14:03:00,1

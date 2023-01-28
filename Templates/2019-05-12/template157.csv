@@ -1,0 +1,2 @@
+1,"SELECT * FROM ( SELECT p.objid, p.u, p.g, p.r, p.i, p.z, s.class, s.z as redshift, s.zerr, ROW_NUMBER() OVER (ORDER BY p.objid) AS rownum FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE  p.u BETWEEN # AND #  AND g BETWEEN # AND #  AND s.class = &&&) AS DTAB"
+2019-05-12 14:35:00,1

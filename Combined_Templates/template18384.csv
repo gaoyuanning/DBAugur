@@ -1,0 +1,3 @@
+2,"SELECT count (*) AS QSOCount, min (z) as MinRedShift, max (z) as MaxRedShift FROM SpecObj WHERE class = # AND zWarning = # and survey = #"
+2019-03-07 15:27:00,1
+2019-03-15 12:22:00,1

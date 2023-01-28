@@ -1,0 +1,4 @@
+4,"select mjd, plate, fiberid from specobjall where specObjID = #"
+2019-06-26 04:18:00,2
+2019-07-15 03:59:00,1
+2019-07-15 04:09:00,1

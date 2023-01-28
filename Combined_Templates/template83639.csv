@@ -1,0 +1,2 @@
+2,"SELECT Top # A.objID, A.specObjID, B.specObjID, A.z, B.z, A.class, A.subClass FROM SpecPhoto as A JOIN stellarMassFSPSGranEarlyDust AS B ON A.specObjID = B.specObjID INTO MyDB.SpecPhotoAllJOINstellarMassFGEDTOP1#"
+2019-12-18 13:13:00,2

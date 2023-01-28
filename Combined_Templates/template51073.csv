@@ -1,0 +1,2 @@
+1,"SELECT my.*, dbo.fGetNearestSpecObjIdEq (my.ra, my.dec, #) as specobjid FROM hasspec as my WHERE dbo.fGetNearestSpecObjIdEq (my.ra, my.dec, #) IS NOT #"
+2019-07-10 11:13:00,1

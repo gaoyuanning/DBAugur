@@ -1,0 +1,2 @@
+1,"SELECT INTO MyDB.photo_lim   L.grpid, SPO.specObjID, SPO.ra, SPO.dec, SPO.z,    SPO.modelMag_u, SPO.modelMag_g, SPO.modelMag_r, SPO.modelMag_i, SPO.modelMag_z FROM MyDB.Lim as L, SpecPhotoAll as SPO, OUTER APPLY dbo.fGetNearbySpecObjEq(L.ra, L.dec, L.aperture) as SO WHERE SPO.specObjID = SO.SpecObjID and SPO.class = &&& and abs(SPO.z - L.zcmb) < # * sqrt(#) * L.sigma"
+2019-06-27 09:12:00,1

@@ -1,0 +1,2 @@
+1,"SELECT   p.objid,p.ra,p.dec FROM PhotoObj AS p WHERE   p.ra > (#-#) AND p.ra<(#+#)   AND p.dec > (#-#) AND p.dec < (#+#)   AND p.probPSF=#"
+2019-12-02 17:44:00,1

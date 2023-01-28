@@ -1,0 +1,2 @@
+1,"SELECT s.objID, s.raStack, s.decStack, Q.RA as qso_ra, Q.DEC as qso_dec, Q.ZQSO as qso_z, Q.ZABS as absorber_z, FROM MyDB.cosmosgala_rmagless2# as Q CROSS APPLY dbo.fGetNearbyObjEq (Q.ra, Q.dec, #/#) as nb JOIN PhotoObj AS s on s.objID = nb.objID JOIN Photoz p on s.objID = p.objID INTO MyDB.cosmosgala_rmagless2#_SDSS"
+2019-10-10 05:35:00,1

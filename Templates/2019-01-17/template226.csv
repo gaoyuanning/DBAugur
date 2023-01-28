@@ -1,0 +1,5 @@
+7,"SELECT p.objid, p.ra, p.dec,  p.petroMag_g, p.petroMagerr_g, p.extinction_g, p.petroMag_r, p.petroMagerr_r, p.extinction_r, p.probPSF, p.type into mydb.Ncas_SRGb0# FROM dbo.fGetNearbyObjEq(#, #,#) as b, PhotoObj as p WHERE b.objID = p.objID and p.petroMag_r - p.extinction_r <= #"
+2019-01-17 15:49:00,1
+2019-01-17 15:50:00,1
+2019-01-17 15:51:00,3
+2019-01-17 15:53:00,2

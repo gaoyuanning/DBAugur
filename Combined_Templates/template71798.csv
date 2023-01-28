@@ -1,0 +1,4 @@
+3,"select ID, wkt = geom.MakeValid () .ToString () , Bad = case when geom.MakeValid () .STArea () > #e1# then # else # end from optw.tamass.TRACTS where state = # -- Oregon and geom.MakeValid () .STArea () > #e1#"
+2019-10-26 15:59:00,1
+2019-10-26 16:00:00,1
+2019-10-26 16:01:00,1

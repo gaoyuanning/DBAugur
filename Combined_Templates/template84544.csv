@@ -1,0 +1,2 @@
+1,"select from SpecObj where select dbo.fIAUFromEq (ra, dec) = #"
+2019-12-27 09:21:00,1

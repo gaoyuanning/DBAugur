@@ -1,0 +1,2 @@
+1,"select * from openquery ([#.#], #'ETHNICITY# left outer join clinical_patient cp2 on cp2.internal_id = p.internal_id and cp2.attr_id = #IMMUNOHISTOCHEMISTRY# left outer join clinical_patient cp3 on cp3.internal_id = p.internal_id and cp3.attr_id = #AGE# where cs.cancer_study_identifier = #paac_jhu_##') a"
+2019-04-20 17:33:00,1

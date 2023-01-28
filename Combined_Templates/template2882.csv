@@ -1,0 +1,2 @@
+2,"SELECT m.bestObjID_DR1#, s.plate, s.mjd, s.fiberid, s.ra, s.dec, s.class, s.subClass, s.z, s.z, s.zErr, s.zWarning, s.velDisp, s.velDispErr, s.snMedian, p.petroMag_r, p.fracDeV_r, p.petroRad_r, p.fiberMag_r, p.deVRad_r into mydb.MC0#_DR1#_SpecPhoto_v2 from mydb.McCon_DR1#_Samplef as m, SpecObj as s, PhotoObj as p WHERE m.bestObjID_DR1# = s.bestobjid and m.bestObjID_DR1# = p.objid"
+2019-01-14 09:18:00,2

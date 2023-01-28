@@ -1,0 +1,2 @@
+1,"select top # *, Pt = convert (geometry, #) into mydb.TEST4 from data"
+2019-11-23 17:21:00,1

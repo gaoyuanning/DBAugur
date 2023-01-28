@@ -1,0 +1,2 @@
+1,"SELECT u.up_name as [name], x.objID,         distinct        p.ra, p.dec,        p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z      FROM #x x, #upload u, PhotoTag p     WHERE u.up_id = x.up_id and x.objID=p.objID"
+2019-02-28 00:11:00,1

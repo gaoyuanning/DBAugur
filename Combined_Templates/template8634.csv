@@ -1,0 +1,2 @@
+1,"select ra, dec, psfMag_z from dbo.PhotoObj where type = # and psfMag_z> # and psfMag_z< # into mydb.stars"
+2019-02-06 09:51:00,1

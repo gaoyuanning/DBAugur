@@ -1,0 +1,3 @@
+2,"select X.*, E.RA exo_ra, E.Dec exo_dec, E.SN SNname, E.Type type, dbo.fDistanceEq (E.ra, E.dec, X.ra, X.dec) angDist into mydb.A0#_d1_noz from mydb.A0# X, mydb.SNlist_noz E where dbo.fDistanceArcMinEq (E.ra, E.dec, X.ra, X.dec) < #"
+2019-05-18 15:10:00,1
+2019-05-18 15:11:00,1

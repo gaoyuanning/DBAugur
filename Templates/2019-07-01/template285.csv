@@ -1,0 +1,2 @@
+1,"select Neighborhood,Area,GeoStr=CHull.ToString() from Neighborhoods"
+2019-07-01 14:12:00,1

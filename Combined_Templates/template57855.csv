@@ -1,0 +1,3 @@
+2,"SELECT t.mangaID, t.catalog_ra, t.catalog_dec, t.manga_target3 FROM mangatarget as t WHERE MANGA_TARGET3 = #"
+2019-08-15 10:16:00,1
+2019-08-15 10:17:00,1

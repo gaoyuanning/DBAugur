@@ -1,0 +1,7 @@
+8,"SELECT u.up_name as [name], s.specobjid, s.ra, s.dec, s.plate, s.mjd, s.fiberid FROM #upload u       JOIN #x x ON x.up_id = u.up_id       JOIN SpecObjAll s ON s.specObjID = x.specObjID"
+2019-03-23 07:07:00,1
+2019-03-23 07:15:00,1
+2019-03-23 07:22:00,2
+2019-03-23 07:23:00,2
+2019-03-23 07:31:00,1
+2019-03-23 07:42:00,1

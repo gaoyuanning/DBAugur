@@ -1,0 +1,2 @@
+1,SELECT top # * FROM PhotoObjAll JOIN specObjAll ON objid = bestobjid
+2019-03-25 15:59:00,1

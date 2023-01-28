@@ -1,0 +1,2 @@
+1,"select x.gal_id, x.objid, p.ra, p.dec, p.raerr as ra_err, p.decerr as dec_err, p.petror5#_r as r5#, p.petror9#_r as r9#, p.petromag_r as mag, p.cmodelmag_r as model_mag, p.devab_r as dev_ab, p.devaberr_r as dev_ab_err, p.devphi_r as dev_phi, p.devmag_r as dev_mag, p.expab_r as exp_ab, p.expaberr_r as exp_ab_err, p.expphi_r as exp_phi, p.expmag_r as exp_mag from mydb.match_dr1#_primaryobj as x join dr1#.photoobjall as p on x.objid = p.objid into mydb.sdss_dr1#_photo order by x.gal_id"
+2019-12-20 03:20:00,1

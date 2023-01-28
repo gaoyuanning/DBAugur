@@ -1,0 +1,3 @@
+3,"SELECT   g.ra, g.dec, s.z, s.zerr,    g.cModelMag_u - g.extinction_u as cmu, g.cModelMag_g-g.extinction_g as cmg, g.cModelMag_r-g.extinction_r as cmr,   g.cModelMag_i-g.extinction_i as cmi, g.cModelMag_z-g.extinction_z as cmz,   g.cModelMagErr_u, g.cModelMagErr_g, g.cModelMagErr_r, g.cModelMagErr_i, g.cModelMagErr_z,   n.distance,   pz.z as photoz, pz.zerr as photoz_err  into mydb.mmt2  from galaxytag g    CROSS APPLY dbo.fGetNearbyObjEq( #, #, #) AS n   left outer join specphoto s on s.objid = n.objid   left outer join photoz pz on pz.objid = n.objid WHERE N.objID = g.ObjID   and g.modelMag_r<#"
+2019-09-18 09:22:00,2
+2019-09-18 09:24:00,1

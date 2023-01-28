@@ -1,0 +1,2 @@
+1,"select pa.petroR9#_r as pR9#r, pa.petroR9#_g as pR9#g, pa.petroR9#_i as pR9#i into mydb.z0#_R9# from PhotoObj as pa   join mydb.pos_z0# as pos on pos.objID = pa.objID"
+2019-11-13 11:33:00,1

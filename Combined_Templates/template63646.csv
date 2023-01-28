@@ -1,0 +1,2 @@
+1,"select Ethnic_background_#, a.encoding_id, c.value, c.meaning from dbo.Ethnicity b cross apply openjson ([Ethnic_background_#]) join metadata.columninfo a on a.encoding_id = c.encoding_id join metadata.encoding c on c.encoding_id = a.encoding_id where a.encoding_id = #"
+2019-09-17 10:17:00,1

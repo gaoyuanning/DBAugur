@@ -1,0 +1,2 @@
+1,"SELECT m.recno, m.ra AS ra1, m.dec AS dec1, n.objid, n.distance, o.ra AS ra2, o.dec AS dec2, o.mode, o.q_mode FROM MyDB.SyCATv1# AS m CROSS APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n JOIN PhotoObj AS o ON n.objid = o.objid"
+2019-11-05 06:38:00,1

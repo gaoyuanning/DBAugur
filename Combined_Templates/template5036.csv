@@ -1,0 +1,2 @@
+1,"SELECT specObjID, mjd, plate, fiberID, z, ra, dec, objID, objtype, type into mydb.dr7_data from dr7.SpecPhoto WHERE zWarning = #"
+2019-01-21 02:32:00,1

@@ -1,0 +1,2 @@
+1,"CREATE TABLE dados_qsos_sdss2 (   id varchar(#),   ra float,   dec float,   objid bigint,   specobjid bigint,   plate smallint,   mjd int,   fiberID smallint,   ra_sdss float,   dec_sdss float,   z real,   cModelMag_r real,   cModelMagErr_r real );"
+2019-11-25 12:30:00,1

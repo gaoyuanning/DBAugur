@@ -1,0 +1,2 @@
+1,"SELECT za.specObjID,za.bestObjID,za.class,za.subClass,za.z,za.zErr, po.objID,po.type,po.flags, po.ra,po.dec, zp.z as zphot, zp.zErr as dzphot, zi.e_bv_sfd,zi.primtarget,zi.sectarget,zi.targettype, zi.spectrotype, zi.subclass into mydb.MyTable from SpecObjAll AS za JOIN PhotoObjAll AS po ON (po.objID = za.bestObjID) JOIN Photoz AS zp ON (zp.objID = za.bestObjID) JOIN galSpecInfo AS zi ON (zi.SpecObjID = za.specObjID) WHERE za.z > # and za.zWarning=# and za.targetType =SCIENCE&&&sdss"
+2019-02-21 09:44:00,1

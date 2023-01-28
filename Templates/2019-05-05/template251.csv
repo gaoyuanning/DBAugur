@@ -1,0 +1,2 @@
+1,"SELECT top # objID, ra, dec,  (CASE WHEN q.type IS NULL THEN &&& ELSE &&& END) AS found FROM PhotoObj AS p OUTER APPLY dbo.fFootprintEq(ra,dec, and #=#"
+2019-05-05 02:36:00,1

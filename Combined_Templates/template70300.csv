@@ -1,0 +1,2 @@
+1,"SELECT specsfr_tot_p5# FROM galSpecExtra as g, myDB.isolated_gals as m, specObj as s WHERE m.objID_DR1# = s.objID AND s.specObjID = g.specObjID"
+2019-10-18 13:53:00,1

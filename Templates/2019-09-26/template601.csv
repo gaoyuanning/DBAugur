@@ -1,0 +1,6 @@
+821,"SELECT st.ra, st.dec, st.r from star as st JOIN dbo.fGetNearbyObjEq(#,#,#) as PN ON st.objID = PN.objID WHERE st.r < #"
+2019-09-26 05:03:00,103
+2019-09-26 05:04:00,239
+2019-09-26 05:05:00,199
+2019-09-26 05:06:00,158
+2019-09-26 05:07:00,122

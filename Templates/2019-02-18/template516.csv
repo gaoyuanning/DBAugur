@@ -1,0 +1,6 @@
+7,"SELECT top # p.objID, s.ra, s.dec, (p.psfMag_u - p.extinction_u) as psfMag_u, (p.psfMag_g - p.extinction_g) as psfMag_g,  (p.psfMag_r - p.extinction_r) as psfMag_r, (p.psfMag_i - p.extinction_i) as psfMag_i, (p.psfMag_z - p.extinction_z) as psfMag_z  FROM SpecObj as s JOIN PhotoPrimary as p on p.ObjID = s.bestobjID WHERE s.class=&&& AND p.clean=# AND ((p.psfMag_u  - p.extinction_u)-(p.psfMag_g - p.extinction_g)) between # and # AND ((p.psfMag_g - p.extinction_g)-(p.psfMag_r - p.extinction_r)) between # and # AND ((p.psfMag_r - p.extinction_r)-(p.psfMag_i - p.extinction_i)) between # and # AND ((p.psfMag_i - p.extinction_i)-(p.psfMag_z - p.extinction_z)) between # and #"
+2019-02-18 04:37:00,2
+2019-02-18 04:40:00,1
+2019-02-18 04:59:00,1
+2019-02-18 05:32:00,2
+2019-02-18 05:47:00,1

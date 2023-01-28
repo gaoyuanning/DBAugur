@@ -1,0 +1,2 @@
+1,"select distinct  eid,Ever_had_eye_surgery_# , cast(json_value(Ever_had_cataract_surgery_#,&&&) as integer)   + cast(json_value(Ever_had_cataract_surgery_#,&&&) as integer) as cataract  from dbo.Eye_surgery_complications a       cross apply openjson(Ever_had_eye_surgery_#) j where j.value in (#,#)"
+2019-07-16 10:43:00,1

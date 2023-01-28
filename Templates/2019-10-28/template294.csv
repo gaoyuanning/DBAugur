@@ -1,0 +1,9 @@
+8,"select DISTINCT TOP # G.objid, G.ra, G.dec, G.u, G.g, G.r, G.i, G.z, G.fieldID, G.specobjid, S.z, S.veldisp, s.elodieFeH from Galaxy G  join Frame F on F.fieldID = G.fieldID  join SpecObj S on S.specObjID = G.specObjID"
+2019-10-28 11:01:00,1
+2019-10-28 11:02:00,1
+2019-10-28 11:06:00,1
+2019-10-28 11:09:00,1
+2019-10-28 11:11:00,1
+2019-10-28 12:10:00,1
+2019-10-28 12:19:00,1
+2019-10-28 12:27:00,1

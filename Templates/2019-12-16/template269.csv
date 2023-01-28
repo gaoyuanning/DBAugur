@@ -1,0 +1,2 @@
+2,"SELECT p.Name,p.objID,s.ra,s.dec INTO mydb.bentdoubles_sdsscoord FROM mydb.wiyn_targets_allz as p INNER JOIN dbo.PhotoObjAll as s ON p.Name = s.name"
+2019-12-16 15:02:00,2

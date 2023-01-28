@@ -1,0 +1,2 @@
+1,SELECT TOP # &&&FROM PhotoTag o JOIN SpecObj as s ON o.ObjId = s.bestObjID
+2019-03-28 17:01:00,1

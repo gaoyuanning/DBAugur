@@ -1,0 +1,3 @@
+2,"select h_alpha_flux, h_beta_flux, oiii_#_flux, nii_#_flux from galSpecLine where specObjID = # OR specObjID = # OR specObjID = # OR specObjID = #"
+2019-03-26 16:06:00,1
+2019-03-26 16:31:00,1

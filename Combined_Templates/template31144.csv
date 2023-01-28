@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, petroMag_r, extinction_r, modelMag_g, modelMag_r, petroR5#_r into mydb.ext_sample from Galaxy as g WHERE ra between # and # AND dec between # and # AND petroMag_r-extinction_r < # AND psfMag_r-cmodelMag_r > =# AND clean = #"
+2019-04-17 15:30:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.subClass, g.oii_#_flux, g.oii_#_flux_err, g.oii_#_flux, g.oii_#_flux_err, g.h_alpha_flux, g.h_alpha_flux_err FROM GalSpecLine AS g JOIN SpecObj AS s  ON s.specobjid = g.specobjid  WHERE  s.class = &&&  AND s.zwarning = #  AND g.oii_#_flux > # AND g.oii_#_flux > # AND g.h_alpha_flux > #"
+2019-03-18 23:15:00,1

@@ -1,0 +1,2 @@
+1,"SELECT COUNT (*) m.id AS akari_id m.ra AS akari_ra, m.dec AS akari_dec, n.objid, n.distance, o.ra AS ra_sdss, o.dec AS dec_sdss FROM MyDB.akari_position AS m CROSS APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #.) AS n JOIN SpecObj AS o ON n.objid = o.objid"
+2019-08-06 05:24:00,1

@@ -1,0 +1,2 @@
+1,"SELECT mjd,plate,fiberID,z into mydb.MyTable from SpecObjAll"
+2019-03-01 13:18:00,1

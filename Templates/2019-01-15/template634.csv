@@ -1,0 +1,2 @@
+1,"SELECT top # &&&'&&&'&&& as objID,  p.obj, p.type, p.ra, p.dec, p.u,p.g,p.r,p.i,p.z  FROM galaxy as g, fGetNearbyObjEq(#,#,#) n, PhotoPrimary p, photoz  WHERE n.objID=p.objID   AND p.type =# AND p.objID = g.objID"
+2019-01-15 05:21:00,1

@@ -1,0 +1,2 @@
+1,"SELECT objid, ra, dec FROM SpecPhoto WHERE (ra between # and #) and (dec between # and #) WHERE class = &&& AND zWarning = #"
+2019-08-13 12:39:00,1

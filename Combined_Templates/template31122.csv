@@ -1,0 +1,4 @@
+3,"SELECT TOP # psfMag_g, psfMagErr_g, psfMag_r, psfMagErr_r, psfMag_i, psfMagErr_i, class, z, zerr FROM SpecPhotoAll WHERE class = # AND z< # AND zerr< #"
+2019-04-17 17:51:00,1
+2019-04-17 17:53:00,1
+2019-04-17 17:55:00,1

@@ -1,0 +1,2 @@
+1,"select count (ra),z, ra from SpecPhoto where class=GALAXY"
+2019-03-25 00:39:00,1

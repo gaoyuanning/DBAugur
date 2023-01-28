@@ -1,0 +1,2 @@
+6,"SELECT TOP # objID, extinction_u as u, extinction_g as g, extinction_r as r, extinction_i as i, extinction_z as z FROM PhotoPrimary WHERE (b between # and #) and (l between # and #)"
+2019-03-07 00:08:00,6

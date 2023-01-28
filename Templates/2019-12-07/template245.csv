@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.*, s.z FROM zoovotes as p   JOIN specobjall as s ON s.bestobjid = p.objid"
+2019-12-07 06:43:00,1

@@ -1,0 +1,2 @@
+2,"SELECT    b.ra as ra, b.dec as dec, p.ra as Gal_ra, p.dec as Gal_dec, p.u_r, p.q_r, p.petror5#_r, b.distance, b.objid into mydb.March_TwentyTwo_Check from MyDb.NN_#ARCSeconds as b     JOIN PhotoObjAll p on p.objid = b.objid     WHERE p.type = #"
+2019-03-22 15:02:00,2

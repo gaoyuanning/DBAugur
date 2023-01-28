@@ -1,0 +1,2 @@
+1,"select z , ra , dec , specObjID , ObjType from specObj where z > = # AND Objtype = #"
+2019-02-04 15:16:00,1

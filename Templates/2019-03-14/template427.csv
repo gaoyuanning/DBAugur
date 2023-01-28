@@ -1,0 +1,2 @@
+1,"SELECT   p.objID, p.ra, p.dec, p.psfMag_u, p.psfMagErr_u, p.psfMag_g, p.psfMagErr_g, p.psfMag_r, p.psfMagErr_r, p.psfMag_i, p.psfMagErr_i, p.psfMag_z, p.psfMagErr_z, p.psffwhm_u, p.psffwhm_g, p.psffwhm_r, p.psffwhm_i, p.psffwhm_z FROM PhotoPrimary AS p WHERE   ((p.dered_g < #) OR (p.dered_r < #) OR (p.dered_i < #)) and (p.type=#) and (p.psfMag_r>=#)"
+2019-03-14 14:22:00,1

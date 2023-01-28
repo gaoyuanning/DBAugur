@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.petroMag_r, p.petroMag_u, s.ra, s.dec, p.lnLExp_r, p.lnLDeV_r, p.expAB_r, p.expPhi_r, p.deVAB_r, p.deVPhi_r, p.fracDeV_r, s.class, s.z, s.zErr into mydb.MyTable from photoObj p JOIN specObj s ON s.bestObjID = p.objID WHERE s.class = # AND s.z < # AND p.lnLExp_r > lnLDeV_r"
+2019-05-08 16:15:00,1

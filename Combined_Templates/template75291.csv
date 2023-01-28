@@ -1,0 +1,2 @@
+1,"SELECT objid1, run1, run2, p.camcol, p.field into mydb.MyTable_# from match m join phototag p on m.objid2 = p.objid where run1 IN () order by objid1"
+2019-11-12 15:09:00,1

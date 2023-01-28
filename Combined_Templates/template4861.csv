@@ -1,0 +1,2 @@
+25,"SELECT TOP # pobj.ra, pobj.dec, pz.z, pobj.type, pobj.objID, pz.objID pobj.dered_u, pobj.dered_g from PhotoObjAll as pobj JOIN Photoz as pz ON pz.objID = pobj.objID WHERE pobj.ra BETWEEN # AND # AND pobj.type = # AND pobj.dered_u > # and pobj.dered_u < # AND pobj.dered_g > #"
+2019-01-21 17:23:00,25

@@ -1,0 +1,5 @@
+4,"SELECT TOP # p.objid, p.ra, p.dec, p.l, p.b, p.dered_u, p.dered_g, p.dered_r, p.dered_i, p.dered_z FROM PhotoObj AS p WHERE (p.dered_u - p.dered_g) > # AND (p.dered_g - p.dered_r) BETWEEN # AND # AND (p.dered_u - p.dered_g) BETWEEN # AND # AND p.l BETWEEN # and # AND p.b BETWEEN # and #"
+2019-06-20 16:55:00,1
+2019-06-20 18:05:00,1
+2019-06-20 18:19:00,1
+2019-06-20 18:23:00,1

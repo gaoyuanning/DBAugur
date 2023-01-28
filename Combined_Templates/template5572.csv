@@ -1,0 +1,2 @@
+1,"SELECT top # objid, ra, dec, modelmag_r, #E+#*z as dist FROM SpecPhoto WHERE modelmag_r-#*log1# (#E+#*z) +# < #AND z> #"
+2019-01-23 00:14:00,1

@@ -1,0 +1,2 @@
+2,select top # c.* from metadata.columninfo c--information_schema.columns c
+2019-07-04 12:19:00,2

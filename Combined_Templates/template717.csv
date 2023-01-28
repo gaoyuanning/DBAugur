@@ -1,0 +1,2 @@
+1,"SELECT top # objid, ra, dec, type into mydb.MyTable from PhotoObjAll WHERE ra BETWEEN # AND # AND dec BETWEEN # AND #"
+2019-01-03 09:09:00,1

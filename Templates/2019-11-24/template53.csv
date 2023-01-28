@@ -1,0 +1,2 @@
+1,"SELECT objID, plateID, dec  FROM PhotoPrimary  WHERE u - g < #   AND g - r < #  AND r - i > #  AND i - z > #"
+2019-11-24 23:07:00,1

@@ -1,0 +1,2 @@
+1,"SELECT t.Name, t.targetID, t.target_photz, t.target_photzErr, t.target_specz, t.target_speczErr, t.objID, t.AngSep, p.z as neighbor_photz, p.zErr as neighbor_photzErr INTO mydb.neighbors_photoz from mydb.neighbors as t, dbo.Photoz as p where p.objID = t.objID"
+2019-04-13 14:32:00,1

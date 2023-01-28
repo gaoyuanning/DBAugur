@@ -1,0 +1,2 @@
+1,"SELECT TOP # ObjID, modelMag_r, petroRad_r FROM AncillaryTarget2 WHERE (ra between # and #) and (dec between # and #)"
+2019-02-12 05:42:00,1

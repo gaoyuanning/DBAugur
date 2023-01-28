@@ -1,0 +1,2 @@
+1,"SELECT u, g, r, i, z, ra, dec, b, l, flags_r FROM Star WHERE b BETWEEN # and # AND i BETWEEN # and #"
+2019-05-31 23:25:00,1

@@ -1,0 +1,3 @@
+3,select all mjd from specobj where specobjid = #
+2019-12-10 17:30:00,1
+2019-12-10 17:31:00,2

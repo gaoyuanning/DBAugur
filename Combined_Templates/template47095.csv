@@ -1,0 +1,2 @@
+1,"select pa.objID, pa.ra, pa.dec, pa.dered_u, pa.modelMagErr_u, pa.dered_g, pa.modelMagErr_g, pa.dered_r, pa.modelMagErr_r, pa.dered_i, pa.modelMagErr_i, pa.dered_z, pa.modelMagErr_z into mydb.S8#PhotoObj_test from PhotoObj as pa WHERE (pa.dec between # and #) and (pa.ra between #. and #.)"
+2019-06-20 06:52:00,1

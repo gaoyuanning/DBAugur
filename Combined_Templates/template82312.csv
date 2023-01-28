@@ -1,0 +1,4 @@
+4,"select s.specobjid, s.z, SL.ew as EW_Ha, p.objid, p.petromag_u, p.petromag_g, p.petromag_r, p.petromag_i, p.petromag_z from photoprimary p join specobj s on p.objid = s.bestobjid join SpecLine SL on s.specobjid = SL.specobjid WHERE s.z > # and petroR5#_r > # and petroR5#_g > # and (p.petroMag_g + p.extinction_g - #*log1# (#*s.z) ) > (#* (p.petroMag_g + p.extinction_g - p.petroMag_r - p.extinction_r) - #) and (p.petroMag_g + p.extinction_g + #*log1# (p.petroR5#_g) - p.petroMag_r - p.extinction_r - #*log1# (p.petroR5#_r) ) < = # and (# + p.petroMag_g + p.extinction_g + #*log1# (p.petroR5#_g) ) < (# - #* (p.petroMag_g + p.extinction_g - p.petroMag_r + p.extinction_r + #*log1# (p.petroR5#_g) - #*log1# (p.petroR5#_r) )) and SL.lineID = # and SL.ew > #) as f JOIN SpecLine SL ON f.specobjid = SL.specobjid WHERE SL.lineID = # and log1# (SL.ew/f.EW_Ha) < #"
+2019-12-11 02:57:00,2
+2019-12-11 02:58:00,1
+2019-12-11 03:01:00,1

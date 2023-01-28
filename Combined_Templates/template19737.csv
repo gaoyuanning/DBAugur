@@ -1,0 +1,2 @@
+2,"select v.*, el.* into mydb.VAC_clean_GRGs_emissionline from mydb.VAC_clean_GRGs_ID v, emissionLinesPort el where v.specobjid = el.specobjid"
+2019-03-12 12:02:00,2

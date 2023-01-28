@@ -1,0 +1,2 @@
+1,"select s.specObjID, s.class as spec_class, s.zWarning, q.objid, q.type, q.clean from SpecObjAll as s join photoObjAll as q on s.bestobjid = q.objid left outer join Photoz as p on s.bestobjid = p.objid"
+2019-03-04 14:41:00,1

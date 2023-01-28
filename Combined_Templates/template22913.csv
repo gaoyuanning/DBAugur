@@ -1,0 +1,2 @@
+1,"SELECT COUNT (*) FROM galSpecInfo AS i JOIN galSpecLine AS l ON l.specObjID = i.specObjID WHERE i.dec BETWEEN #. AND +# AND i.reliable > # AND l.nii_#_flux > #*l.nii_#_flux_err AND LOG1# (MAX (#, oiii_flux/h_beta_flux) ) > #"
+2019-03-24 21:08:00,1

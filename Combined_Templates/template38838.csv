@@ -1,0 +1,2 @@
+1,"select top # ra, dec, psfMag_g as mag_g, psfMagErr_g as magerr_g, psfMag_r as mag_r, psfMagErr_r as magerr_r, psfMag_i as mag_i, psfMagErr_i as magerr_i from PhotoObj"
+2019-05-11 16:06:00,1

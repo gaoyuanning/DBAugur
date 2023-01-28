@@ -1,0 +1,2 @@
+1,"select pll.objID, spec.z, spec.specObjID from MyDB.maxBCG pll, SpecPhotoAll spec where pll.objID = spec.objID"
+2019-08-16 16:56:00,1

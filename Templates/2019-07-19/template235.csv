@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.z  FROM Photoz AS p  WHERE p.z < #"
+2019-07-19 14:45:00,1

@@ -1,0 +1,2 @@
+1,"SELECT all SpecObjId,  	      ra, dec,z,zwarning into mydb.MyTable_# from SpecObjAll	 WHERE     ra > # and ra < # and dec > # and dec < #  or ra > # and ra < # and dec > # and dec < #"
+2019-12-12 18:54:00,1

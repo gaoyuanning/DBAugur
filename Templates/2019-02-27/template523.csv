@@ -1,0 +1,3 @@
+2,"SELECT TOP # p.objid, p.ra,p.dec,p.petror9#_r, p.dered_g, p.dered_r s.z as z_spec, s.zErr, zns.t0#_smooth_or_features_a0#_smooth_count as el_votes, zns.t0#_smooth_or_features_a0#_smooth_weighted_fraction as el_prob   FROM Galaxy as p    JOIN zoo2MainSpecz AS zns ON p.objid = zns.dr8objid    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.clean=#"
+2019-02-27 14:47:00,1
+2019-02-27 14:48:00,1

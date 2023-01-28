@@ -1,0 +1,2 @@
+2,"select ra, dec from specPhoto where ra BETWEEN # and # AND dec BETWEEN # and # AND cModelMag_z > #"
+2019-06-19 03:50:00,2

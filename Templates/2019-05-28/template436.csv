@@ -1,0 +1,2 @@
+1,"select top #    s.specobjid, p.ra, p.dec, p.z, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, s.lgm_fib_p9#p5, s.lgm_tot_p9#p5, s.lgm_fib_p2p5, s.sfr_tot_p2p5 from dbo.galSpecExtra as s, specphoto as p where    s.specobjid =p.specobjid"
+2019-05-28 12:28:00,1

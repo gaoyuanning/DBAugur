@@ -1,0 +1,3 @@
+2,"SELECT g.ObjId, g.ra, g.dec, g.type, g.clean, g.insideMask, g.flags, g.cmodelMag_r, g.cmodelMagErr_r, p.z, p.zErr into mydb.maskeditemstable from PhotoObj as g join Photoz as p on p.Objid = g.ObjId where g.type = # and g.cmodelMag_r < # and p.z > # and g.ra between # and # and g.insideMask ! = #"
+2019-11-18 07:26:00,1
+2019-11-18 07:27:00,1

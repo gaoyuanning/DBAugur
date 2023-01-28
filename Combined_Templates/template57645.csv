@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.specObjID, s.ra, s.dec, s.z INTO myDB.teste_script FROM SpecObj as s WHERE s.class = # AND s.z < = # AND z > = #"
+2019-08-14 10:28:00,1

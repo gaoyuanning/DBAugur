@@ -1,0 +1,2 @@
+1,"SELECT   s.ObjID, s.specObjID, s.plate, s.mjd, s.fiberID, p.petroR5#_z FROM SpecPhotoAll AS s JOIN PhotoObj AS p ON p.ObjID = s.objID WHERE  s.plate=# and s.mjd=# and s.fiberID=#"
+2019-01-14 05:44:00,1

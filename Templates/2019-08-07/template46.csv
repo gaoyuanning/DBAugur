@@ -1,0 +1,2 @@
+1,"select top #  p.ra, p.dec, s.z, bestObjID,  p.modelMag_u, p.modelMag_g,   p.modelMag_r, p.modelMag_i,   p.modelMag_z from  photoObj p join  specObj s ON s.bestObjID = p.objID where  s.class = &&&   and s.z between # and #  and s.zWarning = #  and p.modelMag_r < #  and (p.modelMag_g - p.modelMag_r) between # and # ORDER BY RANDOM() LIMIT #"
+2019-08-07 22:49:00,1

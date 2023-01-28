@@ -1,0 +1,5 @@
+5,"SELECT    ra,   dec, dered_u,dered_g,dered_r, dered_i,dered_z, type=#, clean=#  into mydb.Area1_# from PhotoObjAll Where    ra># and ra<# and dec># and dec<#   And dered_u<# and dered_u>#   And dered_g-dered_r<# and dered_g-dered_r>#   And dered_r-dered_i<# and dered_r-dered_i>#   And dered_i-dered_z<# and dered_i-dered_z>#   And dered_u-dered_g<# and dered_u-dered_g>#"
+2019-05-11 06:50:00,1
+2019-05-11 06:55:00,2
+2019-05-11 06:57:00,1
+2019-05-11 06:58:00,1

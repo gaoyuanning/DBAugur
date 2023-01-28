@@ -1,0 +1,2 @@
+1,"SELECT TOP #  P.objid,P.ra,P.dec,P.u,P.g,P.r,P.i,PH.z, FROM PhotoObjAll AS P  JOIN Photoz as PH on PH.objID = P.objID WHERE  AND P.ra BETWEEN (#-#) AND (#+#)  AND P.dec BETWEEN (#-#) AND (#+#)"
+2019-02-25 21:37:00,1

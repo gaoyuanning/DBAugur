@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.ra,s.dec,s.dered_r FROM SpecPhoto as s WHERE   s.ra=#  AND s.dec=# and s.class=GALAAXY"
+2019-06-24 11:54:00,1

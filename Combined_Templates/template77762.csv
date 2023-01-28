@@ -1,0 +1,2 @@
+1,"SELECT x.objID, g.objID, g.ra, g.dec, g.expAB_r FROM #x x, #upload u, Galaxy g WHERE u.up_id = x.up_id and x.objID = p.objID ORDER BY x.up_id"
+2019-11-21 15:38:00,1

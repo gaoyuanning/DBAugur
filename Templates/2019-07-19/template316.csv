@@ -1,0 +1,2 @@
+1,"select distinct eid,Ever_had_surgery_for_glaucoma_or _high_eye_pressure from r2#.Eye_surgery_complications a       cross apply openjson(Ever_had_surgery_for_glaucoma_or _high_eye_pressure) j where j.value in (#,#,#)"
+2019-07-19 10:23:00,1

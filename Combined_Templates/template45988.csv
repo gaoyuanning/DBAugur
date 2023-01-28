@@ -1,0 +1,2 @@
+2,"SELECT g.objID, g.ra, g.dec, g.u_r, g.q_r, g.petroR5#_r, g.psfMag_g, g.psfMag_i FROM Galaxy AS g, dbo.fGetNearbyObjEq (#, #, .#) AS n WHERE g.objID = n.objID"
+2019-06-15 04:54:00,2

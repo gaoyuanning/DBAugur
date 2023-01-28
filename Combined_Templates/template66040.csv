@@ -1,0 +1,2 @@
+2,"SELECT ap2.ra, ap2.dec, ap2.glon, ap2.glat, ap2.vhelio_avg, ap2.vscatter, ap2.verr, ap.teff, ap.teff_err, ap.logg, ap.logg_err, ap.m_h, ap.m_h_err, ap.alpha_m, ap.alpha_m_err, ap.alpha_m_flag, ap.teff_flag, ap.logg_flag, ap.m_h_flag into mydb.apogee from aspcapStar AS ap JOIN apogeeStar AS ap2 ON ap2.apstar_id = ap.apstar_id WHERE ap.aspcapflag = #"
+2019-09-26 01:22:00,2

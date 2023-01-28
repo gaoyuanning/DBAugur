@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.glon, s.glat, a.fe_h, a.fe_h_err, a.alpha_m, a.alpha_m_err, a.m_h, a.m_h_err FROM apogeeStar s JOIN aspcapStar a on a.apstar_id = s.apstar_id WHERE # < s.glat and s.glat < # and a.fe_h ! = # and a.alpha_m ! = #"
+2019-10-29 16:03:00,1

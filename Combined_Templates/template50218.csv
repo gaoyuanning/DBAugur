@@ -1,0 +1,3 @@
+2,"SELECT p.objid, p.field, p.ra, p.dec, p.insideMask, p.flags, p.probPSF, p.PSFMag_r, p.PSFMagErr_r, p.cModelMag_r, p.cModelMagErr_r, p.flags_r, p.type_r, p.PSFfwhm_r, s.specobjid, s.z as redshift_spec, s.zErr as redshift_specErr, s.class, s.zWarning, p1.z as redshift_phot, p1.zErr as redshift_photErr into mydb.sdss_dr1#_jul7re FROM PhotoObjAll AS p JOIN SpecObjAll AS s ON s.bestobjid = p.objid JOIN Photoz AS p1 ON p1.ObjID = s.bestobjid WHERE s.class = # and p.type_r = #"
+2019-07-07 09:24:00,1
+2019-07-07 09:25:00,1

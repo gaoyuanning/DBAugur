@@ -1,0 +1,21 @@
+20,"CREATE TABLE [Cereal_yesterday] (eid BIGINT NOT # , [Breakfast_cereal_consumed_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Porridge_intake_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Liquid_used_to_make_porridge_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Muesli_intake_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Oat_crunch_intake_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Sweetened_cereal_intake_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Plain_cereal_intake_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Bran_cereal_intake_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Whole_wheat_cereal_intake_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Other_cereal_intake_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Dried_fruit_added_to_cereal_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Milk_added_to_cereal_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Intake_of_sugar_added_to_cereal_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Intake_of_artificial_sweetener_added_to_cereal_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , PRIMARY KEY (eid) ) GO"
+2019-04-15 13:26:00,1
+2019-04-15 13:36:00,1
+2019-04-16 08:57:00,1
+2019-04-16 08:59:00,1
+2019-04-16 10:13:00,1
+2019-04-16 10:15:00,1
+2019-04-16 10:18:00,1
+2019-04-16 10:36:00,1
+2019-04-16 10:50:00,1
+2019-04-17 11:28:00,1
+2019-04-23 09:45:00,1
+2019-04-23 10:53:00,1
+2019-04-24 09:56:00,1
+2019-04-24 13:20:00,1
+2019-04-29 11:39:00,1
+2019-04-30 11:44:00,1
+2019-04-30 15:39:00,1
+2019-05-01 09:28:00,1
+2019-05-02 09:35:00,1
+2019-05-02 10:36:00,1

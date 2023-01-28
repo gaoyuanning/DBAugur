@@ -1,0 +1,3 @@
+65,SELECT DISTINCT p.objID from PhotoPrimary as p WHERE ( (p.ra between # and #) and (p.dec between # and #) )
+2019-05-19 09:45:00,35
+2019-05-19 09:46:00,30

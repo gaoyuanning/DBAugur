@@ -1,0 +1,2 @@
+1,"select a.gal_id, a.ra, a.dec, a.z, b.group_id from mydb.sdss7 as a join mydb.ipetroA_# as b on b.gal_id = a.gal_id join mydb.group_member as c on c.group_id = b.group_id where b.flag_massive = # and c.n_member = # into mydb.isolate_index order by a.gal_id"
+2019-12-20 02:00:00,1

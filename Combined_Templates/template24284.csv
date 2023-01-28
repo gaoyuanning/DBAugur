@@ -1,0 +1,5 @@
+4,"select top # p.objid as name, p.ra, p.dec from star p, specobj s where p.objid = s.bestobjid and (p.g BETWEEN # AND #)"
+2019-03-26 08:45:00,1
+2019-04-22 15:02:00,1
+2019-07-11 01:55:00,1
+2019-09-05 03:18:00,1

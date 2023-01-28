@@ -1,0 +1,2 @@
+1,"select top # ra, dec, z, u, i, r, g from specobj where type = star and u-g < #"
+2019-06-27 17:19:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, g, ra, dec, z FROM Galaxy Where (g+rho) > #"
+2019-06-29 06:24:00,1

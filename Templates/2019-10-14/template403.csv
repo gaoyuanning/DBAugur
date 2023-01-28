@@ -1,0 +1,4 @@
+3,"SELECT TOP #  p.ra,p.dec FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE  s.class = &&&"
+2019-10-14 07:49:00,1
+2019-10-14 07:58:00,1
+2019-10-14 07:59:00,1

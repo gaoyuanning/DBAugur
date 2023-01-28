@@ -1,0 +1,2 @@
+1,"select objID, petroRad_r into mydb.dr1#_radius from PhotoObjAll where mode=# AND type=#"
+2019-11-25 07:50:00,1

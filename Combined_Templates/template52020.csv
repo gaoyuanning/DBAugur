@@ -1,0 +1,2 @@
+2,"select class, count (distinct class) from specobjall group by class"
+2019-07-15 06:23:00,2

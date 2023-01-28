@@ -1,0 +1,2 @@
+1,"select an.ID, TID = tn.ID, Worker = sum (c.VAL) from optw.ptheta.Portland1#Assets an join optw.ptheta.Portland1#Drive d on d.DestNodeID = an.NodeID join optw.ptheta.Portland1#Tracts tn on d.OrigNodeID = tn.NodeID join optw.tamass.VALS c on c.TRACTID = tn.ID where Minutes < # and c.VARID = # -- # of people in tract and an.ID = # order by an.ID"
+2019-12-15 13:34:00,1

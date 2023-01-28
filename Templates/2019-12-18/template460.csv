@@ -1,0 +1,2 @@
+1,"SELECT   gal.objID,gal.ra as ra_p,gal.dec as dec_p,gal.specObjID as specObjID_p,s.specObjID as specObjID_s,s.bestObjID,s.ra as ra_s,s.dec as dec_s,s.z,s.class.s.sourcetype into mydb.Mag1#_#ps FROM Galaxy as gal   JOIN SpecObjAll as s ON s.bestObjID=gal.objID and s.specObjID=gal.specObjID WHERE   gal.mode=#   AND gal.type=#   AND gal.petroMag_g BETWEEN # and #   AND s.z BETWEEN # and #   AND gal.ra BETWEEN # and #   AND gal.dec BETWEEN # and # ORDER BY objID"
+2019-12-18 01:13:00,1

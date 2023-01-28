@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, ra, dec, PetroGrad_r, z FROM PhotoPrimary WHERE ra = # AND dec = #"
+2019-08-07 14:01:00,1

@@ -1,0 +1,2 @@
+1,"select s.teffadop, s.teffadopunc, s.loggadop, s.loggadopunc, s.fehadop, s.fehadopunc, p.dered_g from sppParams s where s.plate = # and s.mjd = # and s.fiberid = #"
+2019-03-22 10:21:00,1

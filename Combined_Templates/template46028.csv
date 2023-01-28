@@ -1,0 +1,6 @@
+10,"SELECT TOP # STR (p.objid, #, #) as [objid], p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, s.class, s.z as redshift FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE s.class = # ORDER BY NEWID ()"
+2019-06-16 08:41:00,1
+2019-06-16 08:42:00,2
+2019-06-16 08:46:00,1
+2019-06-16 08:47:00,5
+2019-06-16 08:58:00,1

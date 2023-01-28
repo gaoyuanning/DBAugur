@@ -1,0 +1,4 @@
+4,"select ObjID,ra,dec,dered_u,dered_g,dered_r,dered_i,dered_z into  A0#_#r2#_PopCl from galaxy where (r<#) and (ra between      # and      #) and (dec between     # and      #) GO"
+2019-11-15 14:02:00,1
+2019-11-15 14:03:00,2
+2019-11-15 14:04:00,1

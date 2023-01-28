@@ -1,0 +1,4 @@
+3,"SELECT p.objid,p.ra,p.dec,p.g,p.r,p.i, (p.r-p.i) as &&&, (p.g-p.r) as &&&, p.type as obj_ph_type, s.tile, s.boss_target1, s.specobjid, s.class, s.subclass, s.z as redshift into mydb.cmasslast from PhotoPrimary AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE    cmodelmag_i BETWEEN # AND #    AND (modelmag_r-modelmag_i) - (modelmag_g-modelmag_r)/#. > #    AND cmodelmag_i < # + #*((modelmag_r-modelmag_i) - (modelmag_g-modelmag_r)/#. - #)   AND boss_target1 > #   AND class = &&&"
+2019-05-10 12:06:00,1
+2019-05-10 12:26:00,1
+2019-05-10 12:27:00,1

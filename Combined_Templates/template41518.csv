@@ -1,0 +1,2 @@
+1,"SELECT top # objID, ra, dec, u, g, r, i, z, sp.mjd, px.taiBegin, px.taiEnd, sp.fiberID, sp.z FROM SpecPhoto as sp WHERE sp.ra > # and sp.ra < # AND sp.dec > # and sp.dec < #"
+2019-05-24 22:00:00,1

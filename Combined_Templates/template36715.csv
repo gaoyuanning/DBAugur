@@ -1,0 +1,3 @@
+2,"SELECT SOA.ra, SOA.dec, SOA.z, POA.petroMag_g, POA.petroMag_r, POA.petroR5#_g, POA.petroR5#_r, SOA.velDisp into GU2#_hw5_# From PhotoObjAll as POA, SpecObjAll as SOA Where SOA.z < # and SOA.z > # and POA.ObjId = SOA.bestObjID"
+2019-05-03 06:49:00,1
+2019-05-03 06:51:00,1

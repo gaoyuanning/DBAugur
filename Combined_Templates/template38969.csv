@@ -1,0 +1,2 @@
+1,"SELECT z FROM SpecObjAll WHERE class = # AND z in (SELECT z, count (*) FROM SpecObjAll GROUP BY z HAVING count (*) > #)"
+2019-05-13 20:54:00,1

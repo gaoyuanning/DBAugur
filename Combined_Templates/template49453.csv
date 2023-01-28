@@ -1,0 +1,2 @@
+1,"select p.objid, p.u, p.g, p.i, p.r, p.z, s.z, x.plate, x.mjd, s.fiberID from PhotoObj p join SpecObj s on s.bestObjID = p.bestObjID join platex x on x.plateID = s.plateID where p.g between # and # and s.z< #"
+2019-07-02 14:35:00,1

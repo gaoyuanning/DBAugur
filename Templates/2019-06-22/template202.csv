@@ -1,0 +1,12 @@
+11,"select pa.objID, pa.ra, pa.dec, pa.flags,    pa.dered_u, pa.modelMag_u, pa.modelMagErr_u, pa.flags_u,    pa.dered_g, pa.modelMag_g, pa.modelMagErr_g, pa.flags_g,    pa.dered_r, pa.modelMag_r, pa.modelMagErr_r, pa.flags_r,    pa.dered_i, pa.modelMag_i, pa.modelMagErr_i, pa.flags_i,    pa.dered_z, pa.modelMag_z, pa.modelMagErr_z, pa.flags_z  into mydb.S8#PhotoObj_#B from PhotoObjAll as pa  WHERE (pa.dec between #. and #)   and (pa.ra between # and #)"
+2019-06-22 14:08:00,1
+2019-06-22 14:12:00,1
+2019-06-22 14:19:00,1
+2019-06-22 14:22:00,1
+2019-06-22 14:24:00,1
+2019-06-22 14:28:00,1
+2019-06-22 14:30:00,1
+2019-06-22 14:32:00,1
+2019-06-22 14:36:00,1
+2019-06-22 14:37:00,1
+2019-06-22 14:39:00,1

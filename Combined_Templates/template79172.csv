@@ -1,0 +1,4 @@
+3,"SELECT top # p.objID, p.skyVersion, p.ra, p.raErr, p.dec, p.decErr, p.modelMag_g, s.specObjID, s.firstRelease, s.z, s.zErr FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjID = p.objID WHERE p.modelMag_g BETWEEN # AND # AND s.z BETWEEN # AND # AND s.class = #"
+2019-11-26 03:52:00,1
+2019-11-26 05:48:00,1
+2019-11-26 07:40:00,1

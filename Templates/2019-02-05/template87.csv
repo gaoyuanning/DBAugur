@@ -1,0 +1,2 @@
+1,"SELECT specObjID, lambdaEff, spectroFlux_u, spectroFlux_g, spectroFlux_r, spectroFlux_i, spectroFlux_z FROM SpecObj  WHERE class = &&& AND lambdaeff != #"
+2019-02-05 19:41:00,1

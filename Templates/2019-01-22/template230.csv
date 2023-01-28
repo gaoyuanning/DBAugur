@@ -1,0 +1,2 @@
+1,"select objid, ra, dec from dr7.PhotoPrimary  where flags & (dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&))= # and (petroMag_r-extinction_r) between # and # and Type=#"
+2019-01-22 18:12:00,1

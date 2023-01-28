@@ -1,0 +1,2 @@
+1,"select top # specObjID, cModelMag_u, cModelMag_g, cModelMag_r, cModelMag_i from specPhoto Where type = # cModelMag_uErr < #, cModelMag_gErr < # , cModelMag_rErr < #, cModelMag_iErr < #"
+2019-06-12 02:06:00,1

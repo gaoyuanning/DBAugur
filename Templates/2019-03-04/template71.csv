@@ -1,0 +1,3 @@
+11,select specobjid from specobj where specobj.dec between # and # and specobj.ra between # and #
+2019-03-04 22:51:00,2
+2019-03-04 23:10:00,9

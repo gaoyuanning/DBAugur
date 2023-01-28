@@ -1,0 +1,2 @@
+1,"select ra, dec, r, psfMag_r from PhotoObj where (class = #) and ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-09-30 03:26:00,1

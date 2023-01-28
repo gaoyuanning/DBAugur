@@ -1,0 +1,2 @@
+1,"select z as xcol, zErr as ycol from sample_targets1 where z between #e-# and # AND zErr between #e-# and #e-#"
+2019-05-09 12:08:00,1

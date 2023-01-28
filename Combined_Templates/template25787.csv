@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.run, p.rerun, p.camcol, p.field, p.obj, p.rowc, p.rowcErr, p.colc, p.colcErr, p.extinction_r, p.ra, p.dec, p.petroR5#_r into mydb.M4# from PhotoObjAll as p where (p.objID = #)"
+2019-03-29 01:20:00,1

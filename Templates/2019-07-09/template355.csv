@@ -1,0 +1,2 @@
+1,"SELECT phot.b, phot.l FROM PhotoObjAll as phot WHERE phot.type=# AND phot.l < # AND phot.l > # AND phot.b > # AND phot.b < #;"
+2019-07-09 11:51:00,1

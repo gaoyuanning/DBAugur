@@ -1,0 +1,2 @@
+1,"select s.specObjID,s.z,s.ra,s.dec,g.bptclass  into mydb.ml_test from galSpecInfo as s, galSpecExtra as g where   g.specObjID=s.specObjID and s.z>=# and s.z<=#"
+2019-11-18 07:27:00,1

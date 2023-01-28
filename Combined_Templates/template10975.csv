@@ -1,0 +1,12 @@
+15,"SELECT n.objid, p.objid, p.specObjId, p.ra, p.dec, g.d4#_n, g.d4#_n_err FROM fGetNearbyObjEq (#, #, #) as n INNER JOIN PhotoObjAll p ON n.objID = p.objID INNER JOIN galSpecIndx g ON p.specObjID = g.specObjID"
+2019-02-13 05:20:00,1
+2019-02-13 05:29:00,1
+2019-02-13 05:30:00,1
+2019-02-13 05:31:00,1
+2019-02-13 05:34:00,1
+2019-02-13 05:35:00,1
+2019-02-13 05:36:00,4
+2019-02-13 05:37:00,2
+2019-02-13 05:38:00,1
+2019-02-13 05:39:00,1
+2019-02-13 05:40:00,1

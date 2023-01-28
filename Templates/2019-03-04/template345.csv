@@ -1,0 +1,2 @@
+1,"SELECT distinct mjd, flags FROM PhotoPrimary WHERE flags = #"
+2019-03-04 15:07:00,1

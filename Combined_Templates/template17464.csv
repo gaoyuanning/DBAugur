@@ -1,0 +1,2 @@
+1,"SELECT COUNT (*) w.w1mag as w1, w.w1sigmag as w.w1err w.w2mag as w2, w.w2sigmag as w.w2err, w.w3mag as w3, w.w3sigmag as w.w3err, w.w4mag as w4, w.w4sigmag as w.w4err FROM wise_xmatch as xm JOIN wise_allsky as w on xm.wise_cntr = w.cntr"
+2019-03-05 12:14:00,1

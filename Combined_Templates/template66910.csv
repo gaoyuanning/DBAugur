@@ -1,0 +1,3 @@
+2,"SELECT TOP # str (p.u - p.g, #, #) as ugModelColor FROM BESTDR7..PhotoObj AS p JOIN dbo.fGetNearbyObjEq (#, #, #) AS b ON b.objID = p.objID WHERE (p.type = # OR p.type = #)"
+2019-10-01 08:23:00,1
+2019-10-01 11:50:00,1

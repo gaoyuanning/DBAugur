@@ -1,0 +1,2 @@
+1,"SELECT s.specObjID, spp.logga, spp.loggaerr FROM SpecObj s INNER JOIN sppParams spp ON spp.specObjID = s.specObjID WHERE s.specObjID = #"
+2019-06-26 11:35:00,1

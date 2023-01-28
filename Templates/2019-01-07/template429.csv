@@ -1,0 +1,2 @@
+1,"SELECT s.z, dbo.fCosmoDl(s.z) AS DL, p.petromag_r, p.extinction_r, p.petromag_r - p.extinction_r - #*LOG1#(dbo.fCosmoDl(s.z)) - # AS absMag FROM SpecObj s INNER JOIN PhotoObj p ON s.bestObjID = p.objID WHERE survey = &&& AND (s.legacy_target1 & #) <> #   AND s.z BETWEEN # AND # AND p.petromag_r > #"
+2019-01-07 05:09:00,1

@@ -1,0 +1,2 @@
+1,"SELECT s.objid, s.ra, s.dec, g.objid, g.ra, g.dec, x.ra, x.dec INTO twowayxmatch FROM XMATCH (MUST EXIST IN SDSSDR1#:PhotoObjAll AS s WITH (POINT (s.ra, s.dec) , ERROR (#, #, #) ), MUST EXIST IN SQL0#DBHost:webuser.dr1#q AS g WITH (POINT (g.ra, g.dec) , ERROR (#, #, #) ), LIMIT BAYESFACTOR TO #e3) AS x"
+2019-05-28 13:33:00,1

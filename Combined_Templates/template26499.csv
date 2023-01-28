@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, ra , dec, u, g, I, r, so.bestobjid, so.specobjid, so.plate, so.mjd, so.fiberid, sp.teffadop, sp.fehadop, sp.loggadop, sp.snr, sp.flag FROM star, specobjall so JOIN sppparams sp ON so.specobjid = sp.specobjid and so.sciencePrimary = # WHERE ra > # and ra < # AND dec > # and dec < #"
+2019-04-01 10:37:00,1

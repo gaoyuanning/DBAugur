@@ -1,0 +1,2 @@
+1,"select t.objid, s.dr7ObjID, s.specObjID, p.plate, p.mjd, p.fiberid into myDB.spobjID_# from myDB.MyTable as t JOIN SpecDR7 AS s ON t.objid = s.dr7ObjID JOIN galSpecInfo AS p ON p.specObjID = s.specObjID"
+2019-11-01 18:47:00,1

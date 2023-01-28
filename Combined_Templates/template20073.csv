@@ -1,0 +1,2 @@
+1,"select objID, modelMagErr_u, modelMagErr_g, modelMagErr_r, modelMagErr_i, modelMagErr_z into mydb.MyTable from specphoto where survey = sdss#legacy#"
+2019-03-13 14:00:00,1

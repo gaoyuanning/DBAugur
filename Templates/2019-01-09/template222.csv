@@ -1,0 +1,2 @@
+1,"select ra,dec,run,camcol,field, mjd into steinhardt from photoobjall where thingid=#"
+2019-01-09 15:37:00,1

@@ -1,0 +1,2 @@
+1,"SELECT top # MJD, plate, fiberID, ra, dec, modelMag_g, modelMag_r FROM SpecPhoto WHERE class=galaxy"
+2019-05-29 15:15:00,1

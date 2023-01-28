@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.run,p.rerun,p.camCol,p.field,p.obj,cast(str(p.ra,#,#) as float) as ra,cast(str(p.[dec],#,#) as float) as dec,p.r,ISNULL(s.plate,#) as plate,ISNULL(s.mjd,#) as mjd,ISNULL(s.fiberid,#) as fiberid,ISNULL(s.z,#) as redshift,ISNULL(s.zErr,#) as redshiftErr,ISNULL(s.zWarning,#) as zWarning,ISNULL(s.class,#) as class  FROM ..PhotoObj AS p  LEFT OUTER JOIN ..SpecObj s ON p.objID = s.bestObjID  WHERE ( p.type = # OR p.type = #)"
+2019-08-26 10:33:00,1

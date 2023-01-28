@@ -1,0 +1,2 @@
+1,"SELECT lambdaEff,z as redshift FROM SpecObjAll WHERE ra Between # and # AND  dec Between # and #"
+2019-10-19 06:51:00,1

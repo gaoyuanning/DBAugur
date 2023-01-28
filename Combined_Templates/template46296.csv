@@ -1,0 +1,5 @@
+4,"select p.objid, p.ra, p.dec into mydb.stripe8# from PhotoPrimary as p JOIN run as f ON p.run = f.run and p.rerun = f.rerun where f.stripe = # and p.ra< #"
+2019-06-17 08:19:00,1
+2019-06-17 08:49:00,1
+2019-06-17 08:50:00,1
+2019-06-17 08:58:00,1

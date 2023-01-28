@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.ra, s.dec, s.psfMag_g, psfMag_r, s.psfMag_i, s.psfMag_z FROM Star AS s"
+2019-10-28 11:04:00,1

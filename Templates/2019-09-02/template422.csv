@@ -1,0 +1,9 @@
+10,"select top # plate,MJD,fiberID from specobjall where class=&&&  and waveMin <= # and waveMax >= # except select top # plate,MJD,fiberID from specobjall where class=&&&  and waveMin <= # and waveMax >= #"
+2019-09-02 07:28:00,2
+2019-09-02 07:29:00,1
+2019-09-02 08:32:00,1
+2019-09-02 08:34:00,1
+2019-09-02 08:35:00,1
+2019-09-02 08:53:00,1
+2019-09-02 08:59:00,2
+2019-09-02 09:05:00,1

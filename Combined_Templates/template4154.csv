@@ -1,0 +1,2 @@
+2,"SELECT TOP # poa.objID, poa.ra, poa.dec, p.z, poa.type, poa.petroMag_u, p.absMagU, poa.petroMag_g, p.absMagG, poa.petroMag_r, p.absMagR, poa.petroMag_i, p.absMagI, poa.petroMag_z, p.absMagZ, poa.petroRad_u, poa.petroRad_g, poa.petroRad_r, poa.petroRad_i, poa.petroRad_z FROM PhotoObjAll poa, Photoz p WHERE poa.ra BETWEEN # AND # AND poa.dec BETWEEN # AND # AND s.z BETWEEN # and # AND poa.type = #"
+2019-01-17 05:21:00,2

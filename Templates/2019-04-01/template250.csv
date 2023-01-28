@@ -1,0 +1,2 @@
+1,"SELECT   G.RAdeg_HI as RA, G.DECdeg_HI as DEC, G1#.dbo.fGetUrlNavEq(G.RAdeg_HI,G.DECdeg_HI) as link FROM G1# G"
+2019-04-01 16:55:00,1

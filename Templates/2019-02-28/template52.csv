@@ -1,0 +1,7 @@
+22,select objid from photoobj where photoobj.dec between -.# and -.# and photoobj.ra between # and #
+2019-02-28 00:19:00,1
+2019-02-28 00:20:00,7
+2019-02-28 03:56:00,10
+2019-02-28 04:51:00,1
+2019-02-28 23:24:00,1
+2019-02-28 23:25:00,2

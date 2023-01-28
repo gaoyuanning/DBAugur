@@ -1,0 +1,3 @@
+2,"select round(p.ra, #) as sdss_ra, round(p.dec, #) as sdss_dec,round(p.psfMag_g, #) as g, round(p.psfMagErr_g, #) as gErr from phototag p, dbo.fGetNearbyObjEq(#,#,#) d where p.objID = d.objID and p.psfMag_g > # and p.psfMag_g < # and p.type = #"
+2019-06-26 05:50:00,1
+2019-06-26 05:54:00,1

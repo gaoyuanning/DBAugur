@@ -1,0 +1,2 @@
+2,"SELECT TOP # run,   camCol,   rerun,   field,   objID,   u, g, r, i, z,  so.bestobjid, so.specobjid, so.plate, so.mjd, so.fiberid,  sp.teffadop, sp.fehadop, sp.loggadop, sp.snr, sp.flag   FROM Star, specobjall so  WHERE   ra > # and ra < #  AND dec > # and dec < #"
+2019-04-01 10:12:00,2

@@ -1,0 +1,2 @@
+1,"select a.ID, a.RA, a.DEC, f.* from mydb.SY_NAD a cross apply DR1#:dbo.fGetNearestMangaObjEq (a.RA, a.DEC, #) f into mydb.MANGA_SY_NAD"
+2019-09-26 18:56:00,1

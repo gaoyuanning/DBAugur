@@ -1,0 +1,2 @@
+1,"SELECT top # s.teffspec, sp.spectroFlux_u as FluxU, sp.spectroFlux_g as FluxG, sp.spectroFlux_r as FluxR, sp.spectroFlux_i as FluxI, sp.spectroFlux_z as FluxZ, p.psfmag_u as MagU, p.psfmag_g as MagG, p.psfmag_r as MagR, p.psfmag_i as MagI, p.psfmag_z as MagZ, spp.distv.kpc FROM DR1#.sppParams as s JOIN DR1#.SpecObjAll as sp ON s.specobjid = sp.specobjid JOIN DR1#.PhotoObjAll as p ON sp.bestobjid = p.objid JOIN DR1#.spptargets as spp ON sp.bestobjid = spp.objid WHERE s.teffspec > # INTO data_analysis_exercise"
+2019-09-20 06:50:00,1

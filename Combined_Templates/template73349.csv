@@ -1,0 +1,2 @@
+1,"SELECT top # ra, dec, z, zerr, zwarning, class, z_noqso from SpecObjAll WHERE ra BETWEEN # AND # AND dec between # and # and zwarning = #"
+2019-11-02 01:55:00,1

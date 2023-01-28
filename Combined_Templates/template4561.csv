@@ -1,0 +1,5 @@
+4,"SELECT up_id, dbo.fGetNearestObjIdEq (up_ra, up_dec, up_sep) as objId FROM #upload WHERE dbo.fGetNearestObjIdEq (up_ra, up_dec, up_sep) IS NOT # SELECT TOP # p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.modelMagErr_u, p.modelMagErr_g, p.mo"
+2019-01-18 22:35:00,1
+2019-01-18 22:36:00,1
+2019-01-18 22:47:00,1
+2019-01-18 22:51:00,1

@@ -1,0 +1,4 @@
+3,"select specobjid, ra, dec, z from specobj where zwarning = # and  ra between # and # and  dec between # and #"
+2019-11-10 08:49:00,1
+2019-11-10 08:52:00,1
+2019-11-10 08:53:00,1

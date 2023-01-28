@@ -1,0 +1,4 @@
+4,"select s.ObjID,s.class,s.subclass,s.z,s.zErr,s.type from SpecPhoto s, dbo.fGetNearbyObjEq(#,#,#) n where s.ObjID = n.ObjID AND s.mode = #"
+2019-01-21 01:35:00,2
+2019-01-21 02:26:00,1
+2019-01-21 02:27:00,1

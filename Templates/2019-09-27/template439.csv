@@ -1,0 +1,2 @@
+1,"SELECT   ast.apogee_id, ap.target_id, ast.apstar_id, ast.glon, ast.glat, ast.RA, ast.DEC, ast.snr, ast.vhelio_avg, ast.rv_teff, ap.j, ap.h, ap.k, ap.ak_wise, ap.ak_targ, ast.fe_h, ast.fe_h_err, ast.mg_fe, ast.mg_fe_err into myDB.apcentrewr2#t FROM dbo.apogeeStar as ast   JOIN dbo.apogeeObject as ap ON (ap.apogee_id = ast.apogee_id) WHERE (((ast.glon < #) AND (ast.glon > #)) AND ((ast.glat < #) AND (ast.glat > #)))"
+2019-09-27 05:18:00,1

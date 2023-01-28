@@ -1,0 +1,4 @@
+3,"SELECT TOP # p.objid, p.ra, p.dec, s.class, s.z as redshift, s.plate, s.fiberid FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE class = #"
+2019-04-17 17:14:00,1
+2019-04-17 17:15:00,1
+2019-04-17 17:18:00,1

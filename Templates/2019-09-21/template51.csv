@@ -1,0 +1,2 @@
+1,"SELECT TOP # name, ra, dec FROM dr7.galaxy AS gal JOIN dr7.specObj AS spec ON gal.objID = spec.bestObjID WHERE spec.z > # and spec.z < # and   petroR9#_r/petroR5#_r > # and   eclass < # and   fracdev_g = #"
+2019-09-21 22:57:00,1

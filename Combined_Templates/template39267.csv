@@ -1,0 +1,2 @@
+1,"SELECT g.ra, g.dec, g.objid, g.g, g.petroR5#_r, g.petroR9#_r into mydb.het_pars from GALAXY as g join mydb.obs_submission as o on o.objid = g.objid"
+2019-05-14 16:18:00,1

@@ -1,0 +1,3 @@
+3,"SELECT TOP # p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMagErr_u, p.modelMagErr_g, p.modelMagErr_r, p.objID FROM Galaxy AS p"
+2019-04-10 16:41:00,2
+2019-04-10 16:43:00,1

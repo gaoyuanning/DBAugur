@@ -1,0 +1,3 @@
+2,"select clean, profErr, objID where PhotoTag.objID = PhotoProfile.objID"
+2019-03-08 23:51:00,1
+2019-03-08 23:54:00,1

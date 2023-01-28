@@ -1,0 +1,4 @@
+4,"SELECT TOP # a.ra, a.dec FROM apogeeStar AS a JOIN nsatlas AS n ON n.ra = a.ra WHERE a.glat between # and # AND n.elpetro_mass > #"
+2019-03-31 19:43:00,1
+2019-03-31 19:44:00,2
+2019-03-31 19:45:00,1

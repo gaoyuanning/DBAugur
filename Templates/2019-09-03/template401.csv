@@ -1,0 +1,2 @@
+1,"SELECT   p.objID, sa.plate as Plate,sa.mjd as MJD,sa.fiberid as Fiber, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, ph.psfMag_z, p.cModelMag_u,    p.cModelMag_g, p.cModelMag_r, p.cModelMag_i, p.cModelMag_z, p.psfMagErr_u, p.psfMagErr_g, p.psfMagErr_r, p.psfMagErr_i, ph.psfMagErr_z, p.cModelMagErr_u,    p.cModelMagErr_g, p.cModelMagErr_r, p.cModelMagErr_i, p.cModelMagErr_z  into mydb.Sabater_mags from PhotoObjAll p     JOIN MyDB.Sabater_SDSS_inform_new sa ON p.objID = sa.objID"
+2019-09-03 10:07:00,1

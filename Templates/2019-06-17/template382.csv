@@ -1,0 +1,2 @@
+1,"SELECT s.plate, s.fiberid, s.mjd, g.u, g.r, ga.oiii_#_flux, ga.oiii_#_flux_err    INTO mydb.tremonti_mags_flux_#  FROM GalSpecLine as ga, specobj as s, Galaxy as g    WHERE ga.oiii_#_flux > ga.oiii_#_flux_err*#     AND s.class = &&&   AND s.specobjid = g.specobjid    AND s.specobjid = ga.specobjid   AND ga.oiii_#_flux_err > #   AND g.specobjid > #"
+2019-06-17 10:56:00,1

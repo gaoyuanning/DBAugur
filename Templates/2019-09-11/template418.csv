@@ -1,0 +1,3 @@
+2,"SELECT TOP #  s.class, s.subclass, z.p_el_debiased, z.p_cs_debiased, zn.p_el, zn.p_cs FROM SpecPhotoAll AS s JOIN zooSpec AS z ON S.objID = z.objid JOIN zooNoSpec AS zn ON s.objID = zn.objid WHERE  class <> &&&"
+2019-09-11 08:55:00,1
+2019-09-11 10:19:00,1

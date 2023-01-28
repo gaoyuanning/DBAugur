@@ -1,0 +1,4 @@
+3,"select top # Starname,RPM_LOG_g,cModelMag_u, cModelMag_g, cModelMag_r, cModelMag_i from specPhoto, marvelsStar Where type = # and cModelMagErr_u <# and cModelMagErr_g <# and cModelMagErr_r <# and cModelMagErr_i <# and RPM_LOG_g = Giant&&&"
+2019-06-12 04:15:00,1
+2019-06-12 04:26:00,1
+2019-06-12 05:03:00,1

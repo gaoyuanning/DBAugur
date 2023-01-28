@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.ra, s.dec, s.glon, s.glat, a.teff, a.logg FROM apogeeStar s JOIN aspcapStar a on a.apstar_id = s.apstar_id WHERE s.glat > #"
+2019-10-28 20:28:00,1

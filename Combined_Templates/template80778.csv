@@ -1,0 +1,2 @@
+1,"SELECT P.ObjID, P.ra, P.dec, P.type, P.cModelMag_g, P.cModelMag_r into mydb.HeCS_SZ_# From PhotoObjAll P, mydb.HeCS_SZ x -- this function outputs a table, so we have to do a join WHERE x.name = P.ObjID"
+2019-12-04 03:59:00,1

@@ -1,0 +1,2 @@
+2,"select   objid, ra, dec, loga_e, bmvt0, mpe, bt0 from RC3 where mpe > #  and bmvt0 > #"
+2019-03-14 15:01:00,2

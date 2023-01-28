@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, fGetUrlExpId (p.objId) FROM PhotoObj AS p WHERE p.u BETWEEN # AND # AND p.run = # and p.camCol = # and p.field = # AND g BETWEEN # AND #"
+2019-05-31 14:13:00,1

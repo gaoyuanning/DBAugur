@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.objID, s.ra, s.dec, s.u, s.g, s.r, s.i, s.z, s.specObjID, o.elodieSpType, o.elodieTEff into mydb.MyTable_# from Star s      JOIN SpecObj o ON s.specObjID = o.specObjID WHERE s.b >#    AND o.elodieTEff != #   AND o.elodieSpType != &&&"
+2019-06-25 18:25:00,1

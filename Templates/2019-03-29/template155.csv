@@ -1,0 +1,2 @@
+1,"select dbo.fPrimTargetN(a.legacy_target1) as targetOne, dbo.fPrimTargetN(a.legacy_target2) as targetTwo from SpecObjAll a where a.bestObjID=#"
+2019-03-29 19:25:00,1

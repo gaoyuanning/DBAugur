@@ -1,0 +1,2 @@
+1,"SELECT TOP #  u,dered_u, g,dered_g, r,dered_r, i,dered_i, z,dered_z, ra,dec, deVRad_u, deVRad_g, deVRad_r, deVRad_i, deVRad_z, flags_r, petroR9#_r, petroR5#_r FROM Galaxy SELECT TOP #  s.ra, s.dec, s.z, SFR, absMagK, SFH, Metallicity, logMass, age, minAge, maxAge FROM stellarMassStarformingPort AS g  JOIN SpecObj AS s  ON s.specobjid = g.specobjid  WHERE  s.class = &&&  AND s.zwarning = #"
+2019-03-28 15:31:00,1

@@ -1,0 +1,2 @@
+2,"select top # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z into [myscratch:default].MyTable from photoobj p, specobj s where p.objid = s.bestobjid and p.r < # and (p.g-p.r BETWEEN # AND #) and p.r-p.i < #"
+2019-05-21 02:02:00,2

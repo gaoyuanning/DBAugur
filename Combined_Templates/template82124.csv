@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec, s.z, z.specobjid, z.elliptical into mydb.ZOOspecETG from zooSpec as z JOIN SpecObj AS s ON s.specobjid = z.specobjid WHERE s.zwarning> # AND z.elliptical = #"
+2019-12-11 09:35:00,1

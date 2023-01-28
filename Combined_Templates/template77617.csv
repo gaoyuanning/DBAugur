@@ -1,0 +1,2 @@
+1,"SELECT g.objid, g.insidemask, g.rerun, g.run, g.camcol, m.maskid, m.masktype FROM GalaxyTag as g JOIN maskedObject as m on g.objid = m.objid WHERE g.ra between # and # AND g.dec between # and # AND g.cmodelMag_r < #"
+2019-11-20 04:54:00,1

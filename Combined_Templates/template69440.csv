@@ -1,0 +1,2 @@
+1,select json_path from boron_carbide_training where class = # group by boron_carbide_training.json_path
+2019-10-14 18:38:00,1

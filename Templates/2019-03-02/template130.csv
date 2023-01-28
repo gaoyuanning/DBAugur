@@ -1,0 +1,3 @@
+2,"SELECT TOP # SpecPhoto.objID, SpecPhoto.z as specz, SpecPhoto.zErr as speczerr,  Photoz.z as photoz, Photoz.zErr as photozerr,  dered_r, dered_u - dered_g as ug_color, dered_g - dered_r as gr_color, dered_r - dered_i as ri_color,   dered_i - dered_z as iz_color,   modelMagErr_u, modelMagErr_g, modelMagErr_r,   modelMagErr_i, modelMagErr_z,  fiberMag_r, fiberMag_u - fiberMag_g as fiber_ug, fiberMag_g - fiberMag_r as fiber_gr,   fiberMag_r - fiberMag_i as fiber_ri, fiberMag_i - fiberMag_z as fiber_iz from SpecPhoto JOIN Photoz on Photoz.objid = SpecPhoto.objid WHERE  class = &&& and  SpecPhoto.z > # and  SpecPhoto.zErr < #"
+2019-03-02 22:30:00,1
+2019-03-02 22:33:00,1

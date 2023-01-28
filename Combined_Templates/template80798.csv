@@ -1,0 +1,2 @@
+1,"SELECT G.ra, G.dec, G.type, G.cModelMag_g, G.cModelMag_r into mydb.CIRs_# From galaxy G, mydb.CIRs x -- this function outputs a table, so we have to do a join WHERE (G.flags & dbo.fPhotoFlags (#) ) = # -- and the object is not saturated. f.PhotoFlags is a function that interprets the flag bits. and x.name = G.ObjID ORDER BY distance -- sort these by distance"
+2019-12-04 03:15:00,1

@@ -1,0 +1,2 @@
+1,select top # * from PhotoObjAll where ra > # and ra < # and de > # and de < #
+2019-10-10 13:50:00,1

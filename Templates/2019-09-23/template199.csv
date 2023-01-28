@@ -1,0 +1,2 @@
+1,"select top # specobjid as name, ra, dec FROM SpecObj as s JOIN Galaxy as g ON s.bestObjID = g.objID WHERE petroR9#_r/petroR5#_r < #   AND s.eclass > #   AND (# <= fracdev_g) AND (fracdev_g < #)"
+2019-09-23 18:12:00,1

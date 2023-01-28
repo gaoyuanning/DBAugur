@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, s.z as redshift, s.plate, s.mjd, s.fiberid into mydb.Legacy_gal_starforming_starburst from PhotoObj AS p INNER JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE (s.legacy_target1 & #) ! = # AND s.class = # AND (s.subclass = # OR s.subclass = #)"
+2019-03-10 01:08:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objID, p.specObjID , p.cModelMag_u, p.cModelMag_g, p.cModelMag_r, cModelMag_i, p.cModelMag_u,p.z FROM   SpecPhot AS p WHERE (p.specObjID > #)"
+2019-03-26 21:54:00,1

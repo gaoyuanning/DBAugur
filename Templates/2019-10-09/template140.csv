@@ -1,0 +1,2 @@
+1,"SELECT TOP # pca.specobjid,   emline.z as z_noqso,   emline.sigmaStars as emline_vdisp,   pca.vdisp_median as pca_vdisp,   sp.veldisp as sp_vdisp  FROM emissionLinesPort AS emline   JOIN stellarMassPCAWiscBC0# AS pca ON emline.specobjid = pca.specobjid   JOIN specObj as sp ON emline.specobjid = sp.specobjid"
+2019-10-09 18:00:00,1

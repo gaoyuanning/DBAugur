@@ -1,0 +1,2 @@
+1,"select p.objID, s.specObjID, s.mjd, s.ra, s.dec, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z from PhotoObjAll as p, SpecObjAll as s where p.u between # and #"
+2019-05-02 19:43:00,1

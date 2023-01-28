@@ -1,0 +1,2 @@
+1,"SELECT s.plate, s.fiberid, s.mjd, ga.oiii_#_flux, ga.oiii_#_flux_err, sph.modelmag_u - sph.modelmag_r as color, sph.modelmag_r-#*log1# (#E+#*sph.z) +# as M_r INTO mydb.tremonti_col_mag_# FROM GalSpecLine as ga, specobj as s, Galaxy as g, SpecPhoto as sph WHERE ga.oiii_#_flux > ga.oiii_#_flux_err*# AND s.class = # AND s.specobjid = g.specobjid AND s.specobjid = ga.specobjid AND sph.specobjid = g.specobjid AND sph.specobjid = ga.specobjid AND ga.oiii_#_flux_err > # AND g.specobjid > # AND sph.z > # AND col > #"
+2019-06-18 05:56:00,1

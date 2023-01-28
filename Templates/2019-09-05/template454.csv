@@ -1,0 +1,2 @@
+1,"SELECT sub.*, p.sci_sn into mydb.sub_petrorad_sn from SpecObjAll AS p      JOIN mydb.sub_petrorad as sub   ON sub.objID = p.objID"
+2019-09-05 05:41:00,1

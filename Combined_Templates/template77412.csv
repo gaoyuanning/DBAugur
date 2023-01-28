@@ -1,0 +1,2 @@
+1,"select objID, psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z, specObj.z, plateID, fiberID from photoObj, specObj where class = # and psfMag_g > # and psfMag_g < # and z< #"
+2019-11-20 20:07:00,1

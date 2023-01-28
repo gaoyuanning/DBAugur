@@ -1,0 +1,4 @@
+3,"SELECT objID, modelMag_r, petroRad_r, count (ra) FROM PhotoObj WHERE (ra between # and #) and (dec between # and #) order by objID"
+2019-02-12 02:35:00,1
+2019-02-12 02:36:00,1
+2019-02-12 02:37:00,1

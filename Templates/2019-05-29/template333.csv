@@ -1,0 +1,2 @@
+1,"select   cat.*, ws.* into mydb.MyTable from wise_xmatch as ws, mydb.sb_sdss_galex_ids as cat where ws.sdss_objid=cat.objid"
+2019-05-29 15:44:00,1

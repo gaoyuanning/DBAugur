@@ -1,0 +1,2 @@
+1,"SELECT into mydb.Aapakekgitu_#   objID, ra, dec, s.z, s.zErr, z.z, z.zErr,   s.petroMag_u, s.petroMag_g, s.petroMag_r, s.petroMag_i, s.petroMag_z,   s.extinction_u, s.extinction_g, s.extinction_r, s.extinction_i, s.extinction_z,   z.kcorr_u, z.kcorr_g, z.kcorr_r, z.kcorr_i, z.kcorr_,z, s.sourceType==#    FROM   SpecPhotoAll s, Photoz z    WHERE    s.objID=z.objID AND   ra > # and ra < # and dec > # and dec < # AND   sourceType=#"
+2019-04-13 09:12:00,1

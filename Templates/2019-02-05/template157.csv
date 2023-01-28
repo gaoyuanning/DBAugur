@@ -1,0 +1,13 @@
+15,"SELECT TOP #  cast(str(s.ra,#,#) as float) as ra,cast(str(s.[dec],#,#) as float) as dec,s.z,s.zErr,p.err_g,p.err_r,p.fiber2Mag_g,p.fiber2Mag_r,p.g,p.r  FROM ..SpecObj as s  JOIN ..PhotoObj AS p ON s.bestObjID = p.objID  JOIN dbo.fGetObjFromRect(#,#,#,#) AS b ON s.bestobjid = b.objID  WHERE s.z > # AND s.zWarning = # AND (s.class = &&&) AND s.z < # AND p.r > # AND p.r < # AND ( p.type = # OR p.type = #) AND (s.primTarget & (dbo.fPrimTarget(&&&)) > #)"
+2019-02-05 16:25:00,1
+2019-02-05 16:27:00,1
+2019-02-05 16:28:00,1
+2019-02-05 16:32:00,1
+2019-02-05 16:35:00,1
+2019-02-05 16:38:00,1
+2019-02-05 16:39:00,1
+2019-02-05 16:45:00,1
+2019-02-05 16:46:00,1
+2019-02-05 16:52:00,2
+2019-02-05 16:53:00,2
+2019-02-05 16:54:00,2

@@ -1,0 +1,2 @@
+1,"select  targetObjID, ra, dec, z from SpecObj where specClass = # or specClass = # AND z > # AND zConf > #"
+2019-07-02 23:24:00,1

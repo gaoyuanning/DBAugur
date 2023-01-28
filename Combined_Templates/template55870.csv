@@ -1,0 +1,3 @@
+3,"CREATE TABLE dr1#lang (objID bigint, ra float, dec float, has_wise_phot bit, treated_as_pointsource bit, coadd_id char, w1_mag real, w1_mag_err real, w2_mag real, w2_mag_err real) ;"
+2019-08-07 08:47:00,2
+2019-08-07 08:49:00,1

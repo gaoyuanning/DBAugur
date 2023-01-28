@@ -1,0 +1,3 @@
+3,"select substring(Name, #, #) as Letter, count(*) as Count  from chinook.Artist  group by substring(Name, #, #)"
+2019-04-24 01:09:00,1
+2019-04-24 01:10:00,2

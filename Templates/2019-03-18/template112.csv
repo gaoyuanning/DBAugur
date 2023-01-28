@@ -1,0 +1,2 @@
+1,"SELECT COUNT(*) specObjID, bestObjID, z FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND #"
+2019-03-18 21:15:00,1

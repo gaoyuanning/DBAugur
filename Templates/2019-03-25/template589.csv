@@ -1,0 +1,2 @@
+1,"SELECT objid, u, g, r, i, z FROM PhotoObjAll JOIN specObjAll ON PhotoObjAll.objid = specObjAll.objid"
+2019-03-25 15:48:00,1

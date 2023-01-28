@@ -1,0 +1,2 @@
+1,"select redshift,class from specphoto s where redshift between # and # group by class order by z"
+2019-09-20 03:26:00,1

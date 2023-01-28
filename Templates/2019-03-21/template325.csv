@@ -1,0 +1,2 @@
+2,"SELECT top #   inp.objID, inp.specObjID, db.mjd, db.plate, db.fiberID, db.ra, db.dec, db.z, db.zErr,   db.petroMag_u, db.petroMagErr_u, db.extinction_u, db.petroMag_g, db.petroMagErr_g,   db.extinction_g, db.petroMag_r, db.petroMagErr_r, db.extinction_r, db.petroMag_i,   db.petroMagErr_i, db.extinction_i, db.petroMag_z, db.petroMagErr_z, db.extinction_z FROM SpecPhotoAll db, mydb.H1#_formatted_IDs inp WHERE inp.objID = db.objId"
+2019-03-21 15:13:00,2

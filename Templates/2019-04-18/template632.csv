@@ -1,0 +1,26 @@
+27,"select ra,dec, #*LOG1#(psfFlux_u) + # - extinction_u + # as psfPogCorr_u, #*LOG1#(psfFlux_g) + # - extinction_g + # as psfPogCorr_g, #*LOG1#(psfFlux_r) + # - extinction_r + # as psfPogCorr_r, #/SQRT(psfFluxIvar_u)/psfFlux_u as psfPogErr_u, #/SQRT(psfFluxIvar_g)/psfFlux_g as psfPogErr_g, #/SQRT(psfFluxIvar_r)/psfFlux_r as psfPogErr_r from star as s where ra between # and # and dec between #e-# and # and s.clean=# and psfFlux_u > # and psfFlux_g > # and psfFlux_r > # and psfMagErr_u < # and psfMagErr_g < # and psfMagErr_r < #"
+2019-04-18 00:51:00,1
+2019-04-18 00:53:00,1
+2019-04-18 00:56:00,1
+2019-04-18 00:57:00,1
+2019-04-18 01:00:00,1
+2019-04-18 01:03:00,1
+2019-04-18 01:07:00,1
+2019-04-18 01:08:00,2
+2019-04-18 01:11:00,1
+2019-04-18 01:13:00,1
+2019-04-18 01:14:00,1
+2019-04-18 01:18:00,1
+2019-04-18 01:19:00,1
+2019-04-18 01:21:00,1
+2019-04-18 01:22:00,1
+2019-04-18 01:23:00,1
+2019-04-18 01:24:00,1
+2019-04-18 01:25:00,1
+2019-04-18 01:26:00,1
+2019-04-18 01:28:00,1
+2019-04-18 01:30:00,1
+2019-04-18 01:31:00,1
+2019-04-18 01:32:00,1
+2019-04-18 01:33:00,2
+2019-04-18 01:34:00,1

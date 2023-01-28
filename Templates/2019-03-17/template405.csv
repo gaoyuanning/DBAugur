@@ -1,0 +1,2 @@
+1,SELECT TOP # aspcapStar.aspcapflag FROM aspcapStar JOIN apogeeStar ON aspcapStar.apstar_id = apogeeStar.apstar_id WHERE apogeeStar.andflag=#
+2019-03-17 04:00:00,1

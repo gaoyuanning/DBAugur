@@ -1,0 +1,2 @@
+1,"select top #  objID, ra, dec from  star where   magnitude < # and   ra BETWEEN # and # and  dec BETWEEN # and #"
+2019-03-03 00:41:00,1

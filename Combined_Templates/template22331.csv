@@ -1,0 +1,2 @@
+1,"select top # modelMag_g, ra, dec from PhotoTag where probPSF = #"
+2019-03-22 20:23:00,1

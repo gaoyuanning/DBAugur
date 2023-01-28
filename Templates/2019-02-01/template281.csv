@@ -1,0 +1,5 @@
+7,"SELECT TOP #  p.u,p.g,p.r,p.i,p.z,ISNULL(cast(str(s.ra,#,#) as float),#) as ra,ISNULL(cast(str(s.[dec],#,#) as float),#) as dec  FROM ..PhotoObj AS p  LEFT OUTER JOIN ..SpecObj s ON p.objID = s.bestObjID  JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = P.objID  WHERE ( p.type = # OR p.type = #)"
+2019-02-01 13:36:00,1
+2019-02-01 13:43:00,2
+2019-02-01 13:44:00,2
+2019-02-01 13:51:00,2

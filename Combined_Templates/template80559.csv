@@ -1,0 +1,4 @@
+3,"SELECT s.ra, s.dec, g.specsfr_tot_p5# from SpecObjAll s JOIN galSpecExtra g ON g.specObjID = s.specObjID"
+2019-12-04 16:07:00,1
+2019-12-04 16:08:00,1
+2019-12-04 16:12:00,1

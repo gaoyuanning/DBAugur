@@ -1,0 +1,2 @@
+1,"SELECT NYU_num, COUNT (NYU_num) FROM VAGC_photoobjid_no# GROUP BY NYU_num HAVING COUNT (NYU_num) > #"
+2019-02-21 14:13:00,1

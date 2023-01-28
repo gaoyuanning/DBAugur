@@ -1,0 +1,2 @@
+1,"SELECT TOP # a.ra, a.dec, s.logMass, s.specObjID FROM apogeeStar AS a JOIN stellarMassFSPSGranEarlyDust AS s ON s.ra = a.ra WHERE a.glat between # and # AND s.logMass > #"
+2019-03-31 19:50:00,1

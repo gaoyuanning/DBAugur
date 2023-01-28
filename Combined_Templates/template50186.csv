@@ -1,0 +1,2 @@
+1,"SELECT nsa_sersic_n FROM PhotoObjAll AS p, mangaDRPall AS m WHERE p.ra = # and p.dec = #"
+2019-07-06 02:12:00,1

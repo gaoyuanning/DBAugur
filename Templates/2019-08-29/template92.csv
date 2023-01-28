@@ -1,0 +1,2 @@
+1,"select ra,dec where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-08-29 20:58:00,1

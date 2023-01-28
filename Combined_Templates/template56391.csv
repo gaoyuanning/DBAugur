@@ -1,0 +1,2 @@
+1,"select top # * FROM field WHERE field = # and run = # order by field, run, camcol ;"
+2019-08-09 10:51:00,1

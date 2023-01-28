@@ -1,0 +1,2 @@
+1,"SELECT TOP #,      ra, dec, u, g, r, z, i FROM Galaxy 	 WHERE     ra > # and ra < # and dec > # and dec < #"
+2019-07-15 17:16:00,1

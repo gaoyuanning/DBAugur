@@ -1,0 +1,2 @@
+1,SELECT * FROM rosat INNER JOIN rosat on rosat.objid = PhotoObjAll.objid WHERE cModelFlux_u + cModelFlux_g + cModelFlux_r + cModelFlux_i + cModelFlux_z > #
+2019-03-25 15:58:00,1

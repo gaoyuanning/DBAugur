@@ -1,0 +1,5 @@
+4,"select Neighborhood, Lat=EnvelopeCenter.Lat, Long=EnvelopeCenter.Long from Neighborhoods"
+2019-06-11 15:36:00,1
+2019-06-11 15:52:00,1
+2019-06-11 17:34:00,1
+2019-06-11 17:50:00,1

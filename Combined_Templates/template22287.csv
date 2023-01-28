@@ -1,0 +1,3 @@
+2,"SELECT TOP # dbo.fIAUFromEq (p.ra, p.[dec]) as SDSSname FROM ..PhotoObj AS p JOIN dbo.fGetNearbyObjEq (#, #, #) AS b ON b.objID = P.objID WHERE (p.type = #)"
+2019-03-21 04:07:00,1
+2019-08-08 02:28:00,1

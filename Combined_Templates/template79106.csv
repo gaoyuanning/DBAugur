@@ -1,0 +1,3 @@
+3,"SELECT p.ObjID, p.ra, p.dec, s.plate, s.mjd, s.fiberID, g.weirdness INTO raras_radec FROM SpecObj s, Galaxy p, MyDB.weird g WHERE p.ObjID = s.BestObjID AND g.plate = s.plate AND g.mjd = s.mjd AND g.fiber = s.fiberID"
+2019-11-26 11:10:00,2
+2019-11-26 11:15:00,1

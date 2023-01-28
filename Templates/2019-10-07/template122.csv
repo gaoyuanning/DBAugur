@@ -1,0 +1,6 @@
+8,"SELECT TOP #  s.plate,s.mjd,s.fiberid,p.run,p.rerun,p.camCol,p.field,p.obj  FROM ..SpecObj as s  JOIN ..PhotoObj AS p ON s.bestObjID = p.objID  JOIN dbo.fGetObjFromRect(#,#,#,#) AS b ON s.bestobjid = b.objID  WHERE s.zWarning = #"
+2019-10-07 17:29:00,3
+2019-10-07 17:45:00,2
+2019-10-07 17:46:00,1
+2019-10-07 17:57:00,1
+2019-10-07 18:03:00,1

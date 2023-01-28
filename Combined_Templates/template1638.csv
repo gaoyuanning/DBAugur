@@ -1,0 +1,2 @@
+2,"SELECT at.apstar_id, ap.ra, ap.dec, at.teff, at.teff_err, at.teff_flag, logg, logg_err, logg_flag, m_h, m_h_err, m_h_flag FROM aspcapStar AS at INNER JOIN apogeeStar AS ap ON at.apstar_id = ap.apstar_id INTO MyDB.ASPCAP_DR1#_Para"
+2019-01-08 00:33:00,2

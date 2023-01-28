@@ -1,0 +1,2 @@
+1,"select objID, ra, dec, raErr, decErr, psfMag_u, psfMagErr_u, psfMag_g, psfMagErr_g, psfMag_r, psfMagErr_r, psfMag_i, psfMagErr_i, psfMag_z, psfMagErr_z, flags, clean from star where ra between #e-# and # and dec between # and # AND flags & dbo.fPhotoFlags(&&&) = # and clean = #"
+2019-05-10 00:44:00,1

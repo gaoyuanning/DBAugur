@@ -1,0 +1,3 @@
+2,"select top #   p.objid, s.specobjid, s.bestobjid, p.ra, s.ra, p.dec, s.dec into mydb.test_table from photoobj as p, s.objtypename, s.objtype   join specobj as s on s.bestobjid = p.objid"
+2019-09-25 09:16:00,1
+2019-09-25 09:17:00,1

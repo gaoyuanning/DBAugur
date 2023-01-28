@@ -1,0 +1,3 @@
+4,"SELECT  class,count(*) FROM specPhoto as s   JOIN 	galSpecLine as g ON s.specObjID = g.specObjID   WHERE     petroMag_r < #. and z > # and z < #     GROUP BY class"
+2019-02-05 10:51:00,2
+2019-02-05 10:53:00,2

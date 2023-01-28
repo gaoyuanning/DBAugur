@@ -1,0 +1,2 @@
+1,"SELECT objID, g.lick_hd_a from SpecPhoto as s join galspecindx as g on s.specobjid = g.specobjid WHERE petroMag_r < #. and z > # and z < #"
+2019-02-21 16:27:00,1

@@ -1,0 +1,3 @@
+4,"select t.logMass, t.logMass_err, s.z, s.ra, s.dec from SpecObjAll s JOIN stellarMassFSPSGranEarlyDust t ON t.specObjID = s.specobjID where s.ra BETWEEN # AND # and s.dec BETWEEN # AND # and s.z BETWEEN # and #"
+2019-03-15 14:37:00,3
+2019-03-15 14:47:00,1

@@ -1,0 +1,2 @@
+2,"SELECT o.objID, o.petroMag_u, o.petroMag_r, o.petroMag_i, o.petroMag_g, o.petroMag_z, o.petroMag_g FROM PhotoObjAll as o"
+2019-08-10 13:45:00,2

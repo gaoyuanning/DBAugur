@@ -1,0 +1,2 @@
+1,"select p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.err_u, p.err_g, p.err_r, p.err_i, p.err_z, s.z as redshift, s.zErr as e_redshift, s.zwarning, p.petrorad_u, p.petrorad_g, p.petrorad_r, p.petrorad_i, p.petrorad_z, p.petroraderr_u, p.petroraderr_g, p.petroraderr_r, p.petroraderr_i, p.petroraderr_z from galaxy p, specobj s, dbo.fgetNearByObjEq(#,+#v,#)n where p.objid=s.bestobjid and p.objid=n.objid and s.bestobjid=n.objid and(p.g BETWEEN # and #) order by p.g"
+2019-06-16 02:55:00,1

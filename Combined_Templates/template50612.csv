@@ -1,0 +1,6 @@
+6,"SELECT TOP # p.objid, p.field, p.obj, p.type, p.ra, p.dec, p.z, p.Err_z FROM fGetObjFromRectEq (#, #, #, #) n, PhotoObj p WHERE n.objID = p.objID"
+2019-07-09 13:07:00,1
+2019-07-09 13:08:00,1
+2019-07-09 13:43:00,2
+2019-07-09 16:35:00,1
+2019-07-09 16:38:00,1

@@ -1,0 +1,2 @@
+1,"select g.* into companion from lrgs as g, LRGs_X as x where   sqrt((g.ra-x.ra)**#+(g.dec-x.dec)**#)<# and   abs(g.z-x.z)<#    order by g.objID"
+2019-03-09 08:16:00,1

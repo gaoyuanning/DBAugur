@@ -1,0 +1,2 @@
+1,"SELECT s.specObjID, s.plate, s.mjd, s.fiberID, s.ra, s.dec, s.z WHERE s.z < # AND s.Class = &&& OR (s.Class = &&& AND s.subClass = &&&) OR (s.Class = &&& AND s.subClass = &&&)"
+2019-01-22 22:52:00,1

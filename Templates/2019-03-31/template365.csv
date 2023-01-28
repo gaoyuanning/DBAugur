@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.objid,s.ra as ra,s.dec as dec,pz.z as photoz,pz.zerr as photozerr, b.distance as proj_sep,s.modelMag_u as umag,s.modelMagErr_u as umagerr, s.modelMag_g as gmag,s.modelMagErr_g as gmagerr,s.modelMag_r as rmag, s.modelMagerr_r as rmagerr, s.type as obj_type  FROM BESTDR1#..PhotoObjAll as s  JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = S.objID  JOIN Photoz as pz ON pz.objid = s.objid  WHERE (s.type=# and pz.z > # and pz.z < #)"
+2019-03-31 13:14:00,1

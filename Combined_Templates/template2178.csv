@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec, u, Err_u, g, Err_g, r, Err_r, i, Err_i, z, Err_z FROM PhotoPrimary WHERE (ra between # and #) and (dec between # and #) and (u BETWEEN # AND #) and (g BETWEEN # AND #) and (r BETWEEN # AND #) and (i BETWEEN # AND #) and (z BETWEEN # AND #)"
+2019-01-10 22:50:00,1

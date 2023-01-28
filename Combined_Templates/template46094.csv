@@ -1,0 +1,2 @@
+1,"select run, dbo.fStripeOfRun (run) , rerun, dbo.fStripeOfRun (rerun) from Run"
+2019-06-16 00:31:00,1

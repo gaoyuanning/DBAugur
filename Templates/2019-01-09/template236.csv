@@ -1,0 +1,2 @@
+1,"SELECT    m.NAME, m.RA AS ra1, m.DEC AS dec1,   n.objid, n.distance,   m.RMAG, m.BMAG,   m.REDSHIFT,   m.BROAD_TYPE,   m.OPTICAL_FLAG,   o.ra AS ra2, o.dec AS dec2,   o.u, o.g, o.r, o.i, o.z,   o.err_u, o.err_g, o.err_r, o.err_i, o.err_z,   o.SpecObjID, o.mode into mydb.dr1#xmqc_clean from MyDB.milliquas AS m    CROSS APPLY dbo.fGetNearestObjEq( m.ra, m.dec, #) AS n     JOIN PhotoObjAll AS o ON n.objid=o.objid WHERE m.REDSHIFT > #    AND o.clean = #"
+2019-01-09 15:24:00,1

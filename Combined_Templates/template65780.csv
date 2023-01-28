@@ -1,0 +1,2 @@
+1,"select psfMag_r, psfMagErr_r, extinction_r, ra, dec from Star where ra BETWEEN # and # AND dec BETWEEN # and # OR ra BETWEEN # and # AND dec between # and # AND clean = #"
+2019-09-26 14:38:00,1

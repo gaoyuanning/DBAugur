@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.class,s.dec,cast(str(s.ra,#,#) as float) as ra,s.z  FROM ..SpecObj as s  WHERE s.z > # AND s.zWarning = # AND (s.class = &&&) AND s.z < #"
+2019-03-21 16:17:00,1

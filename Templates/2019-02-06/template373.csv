@@ -1,0 +1,2 @@
+1,"SELECT  c.ra, c.dec, c.MAGAP, c.MAGAP_ERR, s.RA as RA_match, s.dec as Dec_match, s.r as rband_match into MyDB.cont_match0#as from MyDB.continuum_sources as c, photoobj as s WHERE s.RA < c.RA + #   and s.RA > c.RA - #   and s.Dec < c.Dec + #   and s.Dec > c.Dec - #"
+2019-02-06 05:24:00,1

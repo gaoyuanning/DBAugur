@@ -1,0 +1,3 @@
+2,"select a.*, t.objid as matched_id from #tmp t, mydb.Qfeeds_A_# a where t.up_id = a.search_id"
+2019-08-08 08:00:00,1
+2019-08-08 08:20:00,1

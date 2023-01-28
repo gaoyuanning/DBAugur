@@ -1,0 +1,3 @@
+3,"select    s.ra, s.dec, s.z, s.boss_target1, s.sourceType    from    SpecObjAll as s      into MyDB.Kauffmann_specobjAll_#_#    where   s.z between # and #"
+2019-06-15 06:53:00,1
+2019-06-15 06:54:00,2

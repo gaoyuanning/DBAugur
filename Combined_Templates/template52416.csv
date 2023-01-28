@@ -1,0 +1,7 @@
+6,"SELECT s.plate, s.fiberid, s.mjd, g.petroRad_g, g.petroRad_u, g.petroRad_r, g.petroRad_i, g.petroRad_z, sph.z, sph.dered_u, sph.dered_g, sph.dered_i, sph.dered_r, sph.dered_z FROM specobj as s, Galaxy as g, SpecPhoto as sph WHERE s.class = # AND s.specobjid = g.specobjid AND sph.specobjid = g.specobjid AND g.specobjid > # AND sph.z > # into MyDB.test"
+2019-07-17 05:47:00,1
+2019-07-17 05:49:00,1
+2019-07-17 06:09:00,1
+2019-07-17 06:11:00,1
+2019-07-17 06:20:00,1
+2019-07-17 06:22:00,1

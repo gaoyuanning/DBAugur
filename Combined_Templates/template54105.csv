@@ -1,0 +1,2 @@
+1,"SELECT a.apstar_id, a.ra, a.dec, b.aspcap_class, b.teff, b.logg, b.m_h, b.alpha_m, b.vsini into mydb.APOGEEpara from aspcapStar as b, apogeeStar as a WHERE a.apstar_id = b.apstar_id"
+2019-07-27 10:19:00,1

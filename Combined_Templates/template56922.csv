@@ -1,0 +1,3 @@
+2,"select s.specObjID, s.ra, s.dec, s.z, s.zErr, s.petroMag_u as umag, s.petroMag_g as gmag, s.petroMag_r as rmag, s.petroMag_i as imag FROM SpecPhoto as s WHERE (s.ra between # and #) and (s.dec between #. and #.) and (s.z between # and #) and (s.zWarning = #) and (s.class = #)"
+2019-08-12 10:27:00,1
+2019-08-12 10:28:00,1

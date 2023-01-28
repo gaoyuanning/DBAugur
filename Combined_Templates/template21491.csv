@@ -1,0 +1,2 @@
+1,"SELECT dbo.fIAUFromEq (s.ra, s.[dec]) as SDSSname, s.ra, s.dec, s.petroMag_u, s.petroMagErr_u, s.petroMag_g, s.petroMagErr_g, s.petroMag_r, s.petroMagErr_r, s.petroMag_i, s.petroMagErr_i, s.petroMag_z, s.petroMagErr_z, s.specobjid, s.class, s.subclass, s.zwarning into mydb.stars2_DR1# from SpecPhotoAll as s WHERE s.class = # AND s.zwarning = # AND s.ra BETWEEN # AND # OR s.ra BETWEEN # AND # AND s.dec BETWEEN # AND # ORDER BY s.ra"
+2019-03-19 15:38:00,1

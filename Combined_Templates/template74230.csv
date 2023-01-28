@@ -1,0 +1,2 @@
+1,"select l.oiii_#_flux into mydb.MyTable from galSpecline AS l, SpecObjALL AS s where s.sciencePrimary = #"
+2019-11-06 01:04:00,1

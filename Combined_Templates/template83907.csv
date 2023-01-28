@@ -1,0 +1,2 @@
+2,"SELECT p.Name, p.ra, p.dec, dbo.fGetNearestObjIdEq (p.ra, p.dec, #) as objID INTO mydb.MyTable_jpas_#seg FROM mydb.MyTable_jpas as p WHERE dbo.fGetNearestObjIdEq (p.ra, p.dec, #) is NOT #"
+2019-12-19 06:33:00,2

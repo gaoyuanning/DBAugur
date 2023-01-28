@@ -1,0 +1,2 @@
+1,"select top # * from crimes_norm order by _id ) SELECT    _id,   STUFF((     SELECT &&& + crime      FROM aa      WHERE (_id = Results._id)      FOR XML PATH(&&&),TYPE).value(&&&,&&&)   ,#,#,&&&) AS crimes FROM aa Results GROUP BY _ID having count(*) > #"
+2019-03-03 10:09:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.specobjid, s.class, s.z as redshift, s.ra, s.dec FROM SpecObj AS s where redshift > #"
+2019-09-26 21:09:00,1

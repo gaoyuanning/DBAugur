@@ -1,0 +1,2 @@
+1,select * from SciServerLog.RACMMessages where content like #
+2019-02-21 13:56:00,1

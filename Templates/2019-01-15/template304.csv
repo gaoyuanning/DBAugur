@@ -1,0 +1,2 @@
+1,"select specOBJID,objID,ra,dec,z,zerr,zwarning,class,subclass,type,sourcetype,petroMag_u,petroMag_g,petroMag_r,petroMag_i,petroMag_z,petroMagErr_u,petroMagErr_g,petroMagErr_r,petroMagErr_i,petroMagErr_z,modelMag_u,modelMag_g,modelMag_r,modelMag_i,modelMag_z,modelMagErr_u,modelMagErr_g,modelMagErr_r,modelMagErr_i,modelMagErr_z into myDB.SpecPall_gt_pone_lt_pthree from SpecPhotoAll Where z > # AND z < # AND type=#"
+2019-01-15 13:39:00,1

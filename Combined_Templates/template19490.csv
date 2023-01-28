@@ -1,0 +1,2 @@
+1,"select fiberMag_u, fiberMag_g, fiberMag_r, fiberMag_i, fiberMag_z, z from specObj where z BETWEEN # and # AND"
+2019-03-11 08:40:00,1

@@ -1,0 +1,2 @@
+2,"select top # objID, ra, dec from star where clean = # and mag_r < # and ra BETWEEN # and # and dec BETWEEN # and #"
+2019-03-03 01:07:00,2

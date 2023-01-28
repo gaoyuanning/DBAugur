@@ -1,0 +1,2 @@
+1,"SELECT specobjid, feha, fehan, fehaerr, teffa, teffan, teffaerr, logga, loggan, loggaerr, alphafe, alphafen, alphafeerr, elodierv, elodierverr, ra, dec, l, b, g0, sna into mydb.SDSS_DR7_sppParams FROM sppParams AS sp WHERE sna> # AND fehaerr > # AND teffaerr > # AND loggaerr > #"
+2019-03-12 03:20:00,1

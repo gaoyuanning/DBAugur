@@ -1,0 +1,5 @@
+8,"SELECT   e.specObjID, e.ra, e.dec, e.z, e.zErr,   dbo.fGetUrlFitsSpectrum(e.specObjID) as urlfits into mydb.emlineport_old FROM emissionLinesPort AS e WHERE   AoN_OIII_# > #   and AoN_HeI_# > #"
+2019-06-19 17:03:00,2
+2019-06-19 17:04:00,2
+2019-06-19 17:05:00,3
+2019-06-19 17:08:00,1

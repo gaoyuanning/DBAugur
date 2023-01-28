@@ -1,0 +1,2 @@
+2,"select *  --/T <br> from Galaxy                       as G,  --/T <br>      dbo.fGetNearbyObjEq(#,#,#) as N --/T <br> where G.objID = N.objID SELECT TOP # * FROM Galaxy as G --FROM mydb.grlist_s_ntot_gt_#"
+2019-07-23 11:52:00,2

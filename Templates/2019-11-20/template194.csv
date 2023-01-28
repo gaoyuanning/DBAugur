@@ -1,0 +1,6 @@
+8,"SELECT   p.modelMag_u as m_u,   p.modelMag_g as m_g,   p.modelMag_r as m_r,   p.modelMag_i as m_i,   p.modelMag_z as m_z,      p.petroMag_u as pm_u,   p.petroMag_g as pm_g,   p.petroMag_r as pm_r,   p.petroMag_i as pm_i,   p.petroMag_z as pm_z,      p.modelMag_u-p.extinction_u-p.modelMag_g+p.extinction_g as ug,   p.modelMag_g-p.extinction_g-p.modelMag_r+p.extinction_r as gr,   p.modelMag_r-p.extinction_r-p.modelMag_i+p.extinction_i as ri,   p.modelMag_i-p.extinction_i-p.modelMag_z+p.extinction_z as iz,      s.z as z into mydb.MyTable from PhotoObj AS p   JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   p.probPSF=# AND    p.modelMagErr_u/p.modelMag_u BETWEEN # AND # AND   p.modelMagErr_g/p.modelMag_g BETWEEN # AND # AND   p.modelMagErr_r/p.modelMag_r BETWEEN # AND # AND   p.modelMagErr_i/p.modelMag_i BETWEEN # AND # AND   p.modelMagErr_z/p.modelMag_z BETWEEN # AND # AND      s.specClass = #"
+2019-11-20 16:59:00,3
+2019-11-20 17:03:00,1
+2019-11-20 17:04:00,2
+2019-11-20 17:05:00,1
+2019-11-20 17:07:00,1

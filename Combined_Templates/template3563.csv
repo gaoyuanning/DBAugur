@@ -1,0 +1,2 @@
+3,"select top # case when q.spectro = # then fbo.fSpecidFromSDSS (q.plate, q.mjd, q.fiberid, #) when q.spectro = # then fbo.fSpecidFromSDSS (q.plate, q.mjd, q.fiberid, #) else # end as SpecObjID from mydb.dr1#q as q"
+2019-01-16 15:29:00,3

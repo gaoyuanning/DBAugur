@@ -1,0 +1,2 @@
+1,"SELECT p.run,p.rerun,p.camCol,p.field,p.obj into mydb.tab2 FROM Galaxy as p, dbo.fGetNearbyObjEq(#,#,#) AS b WHERE b.objID = p.objID and p.r < # and p.probpsf = #"
+2019-02-15 09:46:00,1

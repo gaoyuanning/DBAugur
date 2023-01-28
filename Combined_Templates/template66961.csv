@@ -1,0 +1,2 @@
+1,"SELECT eid, JSON_VALUE (#) AS PostCode FROM r2#.summary_information_diagnoses_ a WHERE ISJSON (Diagnoses_main_ICD1#_#) > #"
+2019-10-01 09:32:00,1

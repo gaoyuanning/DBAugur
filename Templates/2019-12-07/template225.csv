@@ -1,0 +1,3 @@
+2,"SELECT mjd, plate, fiberID, ra, dec, targetType, sourceType, z, zErr, zWarning, snMedian, snMedian_r  into mydb.EBOSS_SN_TYPE from SpecObjAll WHERE z>=# AND z<#   AND plate>#"
+2019-12-07 09:52:00,1
+2019-12-07 09:53:00,1

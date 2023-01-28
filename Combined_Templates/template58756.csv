@@ -1,0 +1,2 @@
+1,"SELECT top # p.objid, p.ra, p.dec, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, (p.modelMag_u-p.modelMag_r) as #, (p.modelMag_r-p.modelMag_i) as #, (p.modelMag_r-p.modelMag_z) as #, (p.modelMag_g-p.modelMag_r) as #, em.specobjid, em.bpt as obj_sp_type, em.z as redshift, em.Flux_Hb_# as lumin, POWER ((dbo.fCosmoDl (em.z, #, #, #, #, #) *POWER (#, #) ), #) as dist into mydb.dr1#_lcg from SpecPhotoAll AS p JOIN emissionLinesPort as em on p.specobjid = em.specobjid"
+2019-08-22 10:26:00,1

@@ -1,0 +1,2 @@
+1,"SELECT spec.specObjID,  gal.dered_u, gal.dered_g, gal.dered_r,  gal.dered_i, gal.dered_z,  gal.err_u, gal.err_g, gal.err_r,  gal.err_i, gal.err_z, spec.z AS zs INTO mydb.DR1#_spec_clean_phot FROM SpecObj AS spec JOIN Galaxy AS gal ON spec.specobjid = gal.specobjid,  PhotoObj AS phot WHERE spec.class = GALAXY   AND gal.objId = phot.ObjID  AND phot.CLEAN=#  AND spec.zWarning = #"
+2019-07-01 21:37:00,1

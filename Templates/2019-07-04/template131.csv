@@ -1,0 +1,10 @@
+9,"SELECT DISTINCT TOP # p.run, p.rerun, p.camcol, max(p.field) as &&&, max(p.ra) as &&&, max(p.dec) as &&& FROM PhotoObjAll p WHERE (p.ra BETWEEN # AND #) AND (p.dec BETWEEN # AND #) GROUP BY p.run, p.rerun, p.camcol"
+2019-07-04 17:03:00,1
+2019-07-04 17:04:00,1
+2019-07-04 17:12:00,1
+2019-07-04 17:13:00,1
+2019-07-04 17:56:00,1
+2019-07-04 17:57:00,1
+2019-07-04 18:04:00,1
+2019-07-04 18:10:00,1
+2019-07-04 18:12:00,1

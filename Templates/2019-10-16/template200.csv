@@ -1,0 +1,2 @@
+1,SELECT * into mydb.MyTable from galSpecExtra WHERE specObjID LIKE &&&;
+2019-10-16 16:46:00,1

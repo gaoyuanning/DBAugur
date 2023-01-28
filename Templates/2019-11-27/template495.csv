@@ -1,0 +1,2 @@
+1,"select avg(abs_u),stdev(abs_u),avg(abs_g),stdev(abs_g) FROM DR1#_ccw_mag where apr_g<#"
+2019-11-27 00:18:00,1

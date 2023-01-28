@@ -1,0 +1,2 @@
+1,"SELECT TOP #   objID,    sqrt( power(rowv,#) + power(colv, #) ) as velocity into mydb.MyTable_# from PhotoObj  WHERE    (power(rowv,#) + power(colv, #)) between # and #"
+2019-04-16 06:52:00,1

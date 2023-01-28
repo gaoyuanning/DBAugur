@@ -1,0 +1,3 @@
+2,"select count(*) as count from photoobj p, specobj s where p.objid=s.bestobjid and (s.class = &&&)"
+2019-03-05 20:12:00,1
+2019-03-05 20:13:00,1

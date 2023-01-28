@@ -1,0 +1,4 @@
+3,"select all p.ra, p.dec, p.objID, p.psffwhm_u, psffwhm_g, psffwhm_r, psffwhm_i, psffwhm_z into mydb.SeeingData from PhotoObj as p where p.ra < # or p.ra > # or (p.ra > # and p.ra < #)"
+2019-11-22 02:46:00,1
+2019-11-22 02:49:00,1
+2019-11-22 02:54:00,1

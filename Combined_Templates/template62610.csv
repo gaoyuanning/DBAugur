@@ -1,0 +1,4 @@
+4,"SELECT p.catalog_ra, p.catalog_dec, p.nsa_z, p.nsa_elpetro_mass, p.mangaid FROM mangatarget AS p WHERE p.nsa_elpetro_mass > #"
+2019-09-12 16:02:00,2
+2019-09-12 16:06:00,1
+2019-09-12 16:10:00,1

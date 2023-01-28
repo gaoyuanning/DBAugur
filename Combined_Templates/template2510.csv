@@ -1,0 +1,9 @@
+11,"SELECT TOP # # + cast (p.apstar_id as varchar (#) ) + # + cast (p.apstar_id as varchar (#) ) + # as apstar_id, p.apogee_id, p.ra, p.dec, p.glon, p.glat, p.vhelio_avg, p.vscatter, a.teff, a.logg, a.param_m_h FROM apogeeStar p JOIN fGetNearbyApogeeStarEq (#, #, #) n on p.apstar_id = n.apstar_id JOIN aspcapStar a on a.apstar_id = p.apstar_id JOIN apogeeObject as o ON a.apogee_id = o.apogee_id"
+2019-01-13 14:19:00,2
+2019-02-04 01:54:00,1
+2019-05-09 04:30:00,1
+2019-05-09 04:32:00,1
+2019-05-14 11:17:00,1
+2019-07-06 18:14:00,1
+2019-10-04 12:21:00,3
+2019-12-26 00:19:00,1

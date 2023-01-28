@@ -1,0 +1,2 @@
+1,"SELECT specObjID,z,zConf,SpecClass,ra,dec FROM SpecObj WHERE (SpecClass=dbo.fSpecClass(QSO) or SpecClass=dbo.fSpecClass(HIZ_QSO)) and z between # and # and zConf>#"
+2019-03-15 18:12:00,1

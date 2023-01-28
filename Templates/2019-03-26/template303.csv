@@ -1,0 +1,2 @@
+1,"select top # objid,OIII_#,OIII_#,z from SpecObj where (SpecClass=dbo.fSpecClass(&&&)) (specclass=# or specclass=#) and zconf > .#"
+2019-03-26 20:35:00,1

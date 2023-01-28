@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec,  s.psfMag_u-s.extinction_u as u, s.psfMagErr_u as u_err, s.psfMag_g-s.extinction_g as g, s.psfMagErr_g as g_err, s.psfMag_r-s.extinction_r as r, s.psfMagErr_r as r_err, s.psfMag_i-s.extinction_i as i, s.psfMagErr_i as i_err, s.psfMag_z-s.extinction_z as z, s.psfMagErr_z as z_err, pm.pmra, pm.pmdec, pm.pmraerr, pm.pmdecerr  FROM star as s JOIN propermotions as pm ON s.objid = pm.objid  WHERE s.ra BETWEEN # AND # and s.dec BETWEEN # and #  AND CLEAN=# AND s.type=#"
+2019-02-25 19:06:00,1

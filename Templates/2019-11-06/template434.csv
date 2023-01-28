@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID,ra,dec FROM Galaxy WHERE ( (u - r <= #) and (r - i <= #) and (r - z <= #) and (g - r >= r - i + #) and (u - r >= #*(r - z)) )"
+2019-11-06 00:29:00,1

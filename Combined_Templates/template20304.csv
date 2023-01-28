@@ -1,0 +1,2 @@
+1,"SELECT objID, sky_u, sky_r, elodieFeH FROM Star as st JOIN specObj as sObj ON sObj.specObjID = st.specObjID WHERE (st.type = # OR st.type = #) AND st.clean = # AND st.specObjID! =#"
+2019-03-14 20:08:00,1

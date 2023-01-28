@@ -1,0 +1,2 @@
+1,"SELECT   sp.objID,   sp.ra,   sp.dec,   sp.z,   sp.psfMag_r,  sp.class  FROM specPhoto AS sp JOIN SpecLine AS sl  ON sp.specLineID = sl.specLineID  WHERE  (sp.class=&&&)   AND (sp.lineID = &&&)  AND (sp.lineID = &&&)"
+2019-06-06 09:15:00,1

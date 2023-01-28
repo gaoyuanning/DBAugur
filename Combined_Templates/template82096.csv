@@ -1,0 +1,2 @@
+1,"select stripe, run from Segment order by stripe select p.objid , p.ra , p.dec , p.g , p.r from photoObj p, specObj s where p.specobjid = s.specobjid and p.g - p.r < # and p.g< # and p.r< # and s.specCLASS = #"
+2019-12-11 11:56:00,1

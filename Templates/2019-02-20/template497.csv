@@ -1,0 +1,2 @@
+1,"SELECT BOTTOM #  bestObjID, ra, dec, z FROM specObjAll WHERE   class = &&& order by z"
+2019-02-20 04:18:00,1

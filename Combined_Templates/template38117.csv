@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, z.z, z.zErr, p.petroMag_r FROM PhotoObj p -- galaxies nearby ra = # and dec = #. This target galaxy has a redshift of z = #, so # Mpc corresponds to # arcmin at this distance JOIN dbo.fGetNearbyObjEq (#, #, #) n ON n.objID = p.objID JOIN Photoz z ON z.objID = n.objID WHERE p.type = # AND z.z < # + #*z.zErr AND z.z > # - #*z.zErr AND z.zErr < #*z.z"
+2019-05-09 16:49:00,1

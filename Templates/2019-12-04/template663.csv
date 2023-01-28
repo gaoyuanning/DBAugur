@@ -1,0 +1,2 @@
+1,"select   s.specobjID, s.bestobjID, s.firstrelease, s.survey, s.sourcetype, s.class,   gal.ra, gal.raErr, gal.dec, gal.decErr, s.z, s.zErr,   gal.r, gal.i, gal.g, gal.dered_r, gal.dered_i, gal.dered_g, gal.psfMag_r, gal.petroMag_r, gal.extinction_r, gal.petroR5#_r into mydb.galaxyred from SpecObj as s   join PhotoObj as p on p.objID = s.bestobjID where   s.zwarning = #    and s.z > #   and s.primtarget & dbo.fPrimTarget(&&&) > #"
+2019-12-04 01:27:00,1

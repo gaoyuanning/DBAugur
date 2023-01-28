@@ -1,0 +1,2 @@
+2,"SELECT TOP # *, MilliSeconds / # as Minutes FROM chinook.Track WHERE MilliSeconds > = # ORDER BY MilliSeconds"
+2019-04-11 14:17:00,2

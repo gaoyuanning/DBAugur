@@ -1,0 +1,2 @@
+3,"select p.ra,p.dec,p.class,p.flags,dbo.fphotoflagsn(p.flags) from photoobj p join dbo.fgetnearbyobjeq(#,#,#) as n on n.objid=p.objid where p.class =&&&"
+2019-09-21 09:45:00,3

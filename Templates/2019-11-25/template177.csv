@@ -1,0 +1,4 @@
+3,"select e.specObjID, e.ra, e.dec, e.z, g.psfMag_g, g.psfMag_r, g.psfMag_i, g.cModelMag_g, g.cModelMag_r, g.cModelMag_i, g.SpecObjID, g.type from emissionLinesPort as e JOIN PhotoObjAll AS g ON g.specObjID = e.specObjID where e.ra BETWEEN # AND # AND e.dec BETWEEN # AND # AND e.z < # order by newid()"
+2019-11-25 16:30:00,1
+2019-11-25 16:32:00,1
+2019-11-25 16:41:00,1

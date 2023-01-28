@@ -1,0 +1,3 @@
+2,"SELECT Galaxy.ObjID,Galaxy.ra,Galaxy.dec,Galaxy.dered_u,Galaxy.dered_g,Galaxy.dered_r,Galaxy.dered_i,Galaxy.dered_z,  Photoz.z,Photoz.zErr   into mydb.tab_galz_#_#   from Galaxy,Photoz   where ((Photoz.ObjID=Galaxy.ObjID) and (Photoz.z between # and #) and   (Photoz.Zerr < #) and (Galaxy.dered_r between # and #)"
+2019-04-02 06:45:00,1
+2019-04-02 06:46:00,1

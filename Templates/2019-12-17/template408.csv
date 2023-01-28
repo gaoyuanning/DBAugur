@@ -1,0 +1,2 @@
+1,"SELECT    s.specObjID, s.ra, s.dec, s.z, s.zErr, s.class, s.zWarning, s.snMedian, el.ra1, el.dec1, zp.z, zp.zErr into mydb.zspec_zphot_#bcg from mydb.BCG2 as el   CROSS APPLY dbo.fGetNearestSpecObjEq( el.ra1, el.dec1, #) AS near    JOIN SpecObjAll as s ON near.specObjID=s.specObjID   JOIN Photoz as zp ON zp.objID = s.bestObjID   WHERE  s.class = &&& AND   s.zWarning=#"
+2019-12-17 02:04:00,1

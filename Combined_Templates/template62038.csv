@@ -1,0 +1,2 @@
+2,"select sp.specObjID, sp.bestObjID, sp.ra, sp.dec, sp.plate, sp.mjd, sp.fiberid into mydb.segue_apogee_info1 FROM specObjall as sp JOIN mydb.segue_apogee_final as me on sp.specObjID = me.specobjid"
+2019-09-10 17:56:00,2

@@ -1,0 +1,2 @@
+1,select primTarget from specobj where plate = # and fiberid = # and mjd = #
+2019-11-26 08:44:00,1

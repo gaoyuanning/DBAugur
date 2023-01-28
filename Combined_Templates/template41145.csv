@@ -1,0 +1,3 @@
+3,"SELECT dbo.fPhotoFlags (#) AS PEAKCENTRE, dbo.fPhotoFlags (#) AS NOTCHECKED, dbo.fPhotoFlags (#) AS DEBLEND_NOPEAK, dbo.fPhotoFlags (#) AS PSF_FLUX_INTERP, dbo.fPhotoFlags (#) AS BAD_COUNTS_ERROR, dbo.fPhotoFlags (#) AS INTERP_CENTRE, dbo.fPhotoFlags (#) AS EDGE, dbo.fPhotoFlags (#) AS BADSKY, dbo.fPhotoFlags (#) AS BLENDED into mydb.MyTable_#"
+2019-05-22 11:06:00,1
+2019-05-22 11:07:00,2

@@ -1,0 +1,2 @@
+1,"select SpecPhotoAll.objID, SpecPhotoAll.plate, SpecPhotoAll.mjd, SpecPhotoAll.fiberID, SpecPhotoAll.ra, SpecPhotoAll.dec from DR9.SpecPhotoAll where SpecPhotoAll.ra = # and SpecPhotoAll.dec = #"
+2019-11-08 13:08:00,1

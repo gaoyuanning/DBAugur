@@ -1,0 +1,3 @@
+3,"select  z , ra , dec , specObjID from specObj where top #  z >= #"
+2019-02-04 15:14:00,2
+2019-02-04 15:15:00,1

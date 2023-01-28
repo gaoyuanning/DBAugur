@@ -1,0 +1,8 @@
+10,"select top # targetObjID , specObjId, ra, dec, class, subClass, petroMag_g from SpecPhoto where class=&&& and petroMag_g < #"
+2019-04-30 16:02:00,1
+2019-04-30 16:30:00,1
+2019-04-30 16:36:00,1
+2019-04-30 16:45:00,2
+2019-04-30 16:48:00,1
+2019-04-30 16:49:00,2
+2019-04-30 17:04:00,2

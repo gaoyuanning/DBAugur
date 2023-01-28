@@ -1,0 +1,2 @@
+1,"select Count(substring(Name, #, #)) from chinook.Artist order by Name asc"
+2019-04-20 15:25:00,1

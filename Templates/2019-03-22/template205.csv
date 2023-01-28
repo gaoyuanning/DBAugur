@@ -1,0 +1,2 @@
+1,"select r as xcol, petroMag_r as ycol from Probe where  r between # and # AND petroMag_g between # and # AND petroMag_r between # and #"
+2019-03-22 19:44:00,1

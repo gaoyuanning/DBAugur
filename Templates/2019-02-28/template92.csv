@@ -1,0 +1,3 @@
+3,"select SpecObjID,ra,dec,z,logMass,ssfr  from stellarMassFSPSGranEarlyDust where abs(ssfr) BETWEEN # and # and z < #"
+2019-02-28 21:02:00,2
+2019-02-28 21:09:00,1

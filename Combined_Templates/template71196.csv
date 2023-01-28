@@ -1,0 +1,2 @@
+1,"SELECT TOP # m.dr7objid AS dr7objid_gz, m.ra AS ra_gz, m.dec AS dec_gz, o.objid AS dr7objid_sdss, o.ra AS ra_sdss, o.dec AS dec_sdss, o.petroMag_g, o.petroMag_r, s.z from MyDB.gz2_locations AS m OUTER APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n LEFT JOIN PhotoObjAll AS o ON n.objid = o.objid LEFT JOIN SpecObjAll As s ON n.objid = s.specObjID"
+2019-10-22 04:20:00,1

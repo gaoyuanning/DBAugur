@@ -1,0 +1,2 @@
+1,"SELECT TOP # nsaid, iauname, ra, dec FROM nsatlas WHERE  nsa_nsaid = #"
+2019-04-15 17:43:00,1

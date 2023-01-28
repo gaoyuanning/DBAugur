@@ -1,0 +1,2 @@
+1,"SELECT TOP # g.objId, g.ra, g.dec, g.petroRad_r, g.modelMag_r, g.deVAB_r, g.deVPhi_r FROM Galaxy AS g WHERE g.clean = # AND g.probPSF = # AND (g.calibStatus_r & #) != # AND g.mode = # AND g.petroRadErr_r >= # AND g.petroRadErr_r < (g.petroRad_r * #) ORDER BY g.objId"
+2019-06-17 09:41:00,1

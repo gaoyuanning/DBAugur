@@ -1,0 +1,2 @@
+2,"SELECT Sp.*, p.* into mydb.SloanDR0#_dCs from SpecObjAll Sp JOIN PhotoTag p ON Sp.specObjID = p.specObjID WHERE Sp.Class = # AND (Sp.subclass = # OR Sp.subclass = # OR Sp.subclass = #)"
+2019-12-16 08:04:00,2

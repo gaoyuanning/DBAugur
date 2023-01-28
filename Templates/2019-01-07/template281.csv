@@ -1,0 +1,3 @@
+2,"SELECT m.objid, m.dec, m.ra, m.distance  from MyDB.NN1 m WHERE   m.dec IN (#)   AND m.ra IN (#)"
+2019-01-07 14:27:00,1
+2019-01-07 14:29:00,1

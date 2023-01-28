@@ -1,0 +1,4 @@
+4,"select top # p.u, p.g, p.r, p.i, p.z from star p where (p.u BETWEEN # AND #)  and (p.g BETWEEN # AND #)  and (p.r BETWEEN # AND #)  and (p.i BETWEEN # AND #)  and (p.z BETWEEN # AND #)"
+2019-03-26 07:56:00,1
+2019-03-26 07:58:00,1
+2019-03-26 07:59:00,2

@@ -1,0 +1,3 @@
+2,"SELECT TOP #  p.run,p.rerun,p.camCol,p.field,p.obj,cast(str(p.ra,#,#) as float) as ra,cast(str(p.[dec],#,#) as float) as dec,p.r,p.u,p.g,p.i,p.z,p.modelMagErr_u,p.modelMagErr_g,p.modelMagErr_r,p.modelMagErr_i,p.modelMagErr_z,cast(str(p.u - p.g,#,#) as float) as ugModelColor,cast(str(p.g - p.r,#,#) as float) as grModelColor,cast(str(p.r - p.i,#,#) as float) as riModelColor,cast(str(p.i - p.z,#,#) as float) as izModelColor,dbo.fIAUFromEq(p.ra,p.[dec]) as SDSSname  FROM ..PhotoObj AS p  JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = P.objID  WHERE ( p.type = #)"
+2019-12-12 03:05:00,1
+2019-12-12 03:22:00,1

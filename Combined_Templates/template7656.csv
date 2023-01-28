@@ -1,0 +1,3 @@
+2,"SELECT ph.plate, ph.mjd, ph.fiberid, ph.psfmag_u-ph.extinction_u as u0, ph.psfmag_g-ph.extinction_g as g0, ph.psfmag_r-ph.extinction_r as r0, ph.psfmag_i-ph.extinction_i as i0, ph.psfmag_z-ph.extinction_z as z0, ph.psfmagerr_u, ph.psfmagerr_g, ph.psfmagerr_r, ph.psfmagerr_i, ph.psfmagerr_z, ph.extinction_u, ph.extinction_g, ph.extinction_r, ph.extinction_i, ph.extinction_z, ph.ra, ph.dec, ph.z, ph.zerr, ph.zwarning, ph.class, ph.objtype, px.survey, px.programname, ph.scienceprimary, px.isprimary, ph.specobjid, ph.objid INTO mydb.photo_#_# FROM specphotoall ph, platex px WHERE ph.plate = # AND ph.mjd = # AND px.plate = # AND px.mjd = #"
+2019-02-01 02:59:00,1
+2019-02-01 03:00:00,1

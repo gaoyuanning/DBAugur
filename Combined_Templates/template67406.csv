@@ -1,0 +1,4 @@
+3,"select p.ra, p.dec, p.fiber2Mag_g from PhotoObjAll p, dbo.fGetNearbyObjEq (#, #, #) N where p.objID = N.objID"
+2019-10-03 16:54:00,1
+2019-10-03 16:55:00,1
+2019-10-03 16:56:00,1

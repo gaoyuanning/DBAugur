@@ -1,0 +1,5 @@
+5,"SELECT top # s.petroMag_u,s.petroMag_g,s.petroMag_r,s.petroMag_i,s.petroMag_z,s.petroMagErr_u,s.petroMagErr_g,s.petroMagErr_r,s.petroMagErr_i,s.petroMagErr_z,s.z,s.ra,s.dec,s.class,g.oiii_#_eqw,g.oiii_#_eqw,s.specObjID FROM SpecPhoto s JOIN galSpecLine g ON g.specObjID = s.specObjID WHERE  s.class = &&&   and s.zWarning = #   and s.z BETWEEN # AND #  and s.petroMagErr_g < #  and s.petroMagErr_r < #   and s.petroMagErr_i < #  and s.petroMagErr_g != #  and s.petroMagErr_r != #  and s.petroMagErr_i != #  and g.oiii_#_eqw < #  and g.oiii_#_eqw < # Order by s.specObjID"
+2019-04-29 05:32:00,1
+2019-04-29 05:33:00,1
+2019-04-29 16:55:00,1
+2019-04-29 16:56:00,2

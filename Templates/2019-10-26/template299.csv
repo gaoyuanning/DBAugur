@@ -1,0 +1,3 @@
+2,"select state, vintage, n=count(*)         , minSqMiles=min(geom.MakeValid().STArea())*#e-#         , avgSqMiles=avg(geom.MakeValid().STArea())*#e-#         , maxSqMiles=max(geom.MakeValid().STArea())*#e-#     from optw.tamass.TRACTS      where geom.MakeValid().STArea()*#e-# < #     group by state, vintage"
+2019-10-26 15:32:00,1
+2019-10-26 15:33:00,1

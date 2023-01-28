@@ -1,0 +1,2 @@
+1,"select teffadop, teffadopunc, loggadop, loggadopunc, fehadop, fehadopunc, dered_g from sppParams s join PhotoObjAll p on s.bestobjID = p.objid where plate = # and mjd = # and fiberid = #"
+2019-03-22 10:19:00,1

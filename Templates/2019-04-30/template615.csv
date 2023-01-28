@@ -1,0 +1,2 @@
+1,"SELECT SE.lgm_tot_p5#, SE.sfr_tot_p5#, SE.bptclass, SL.h_alpha_reqw, SL.h_alpha_reqw_err, SL.h_alpha_eqw, SL.h_alpha_eqw_err, SL.nii_#_reqw, SL.nii_#_reqw_err, SL.nii_#_eqw, SL.nii_#_eqw_err, SL.oiii_#_reqw, SL.oiii_#_reqw_err, SL.oiii_#_eqw, SL.oiii_#_eqw_err  into GU2#_hw2_w2  From SpecObjAll as SOA, PhotoObjAll as PA, stellarMassFSPSGranEarlyDust as FSPSG, galSpecExtra as SE, galSpecLine as SL Where   SOA.z < # and SOA.z > # and SOA.specObjID = PA.specObjID and SOA.specObjID = SE.specObjID and SOA.specObjID = SL.specObjID"
+2019-04-30 07:52:00,1

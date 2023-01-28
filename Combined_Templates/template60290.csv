@@ -1,0 +1,2 @@
+1,"SELECT o.objID, o.ra1, o.dec1, o.z, o.zWarning, o.class, o.subClass, o.ra2, o.dec2, o.j, o.h, o.k, o.phQual, o.wise_cntr, m.ra AS ra3, m.dec AS dec3, m.w1mpro, m.w2mpro, m.w3mpro WHERE m.ph_qual_det1 = # AND m.ph_qual_det3 = # m.ph_qual_det3 = # INTO mydb.zsdsstmasswise FROM WISE_allsky AS m JOIN mydb.sdsstmasswise AS o ON o.wise_cntr = m.cntr"
+2019-09-02 06:31:00,1

@@ -1,0 +1,8 @@
+7,"SELECT p.objid, p.ra, p.dec, p.fiberMag_u, p.fiberMagErr_u, p.fiberMag_g, p.fiberMagErr_g, p.fiberMag_r, p.fiberMagErr_r, p.fiberMag_i, p.fiberMagErr_i, p.fiberMag_z, p.fiberMagErr_z, p.type FROM PhotoObj AS p WHERE (p.type = dbo.fPhotoType (#) OR p.type = dbo.fPhotoType (#) ) and p.ra BETWEEN # AND # AND p.dec BETWEEN # AND #"
+2019-02-06 15:26:00,1
+2019-02-06 15:28:00,1
+2019-10-10 10:51:00,1
+2019-10-10 10:54:00,1
+2019-10-10 13:52:00,1
+2019-10-10 14:38:00,1
+2019-10-10 14:40:00,1

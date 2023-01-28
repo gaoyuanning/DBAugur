@@ -1,0 +1,2 @@
+1,"SELECT objid, ra, dec, psfmag_g-extinction_g AS mag_g, psfmag_i-extinction_i AS mag_i, psfmag_r-extinction_r AS mag_r, z FROM SpecPhoto WHERE (ra between # and #) and (dec between # and #)"
+2019-08-13 12:18:00,1

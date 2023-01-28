@@ -1,0 +1,2 @@
+1,"select top # poa.specObjID into mydb.test3 from dr7.PhotoObjAll poa, mydb.zoo1_ids zoo where poa.objID = zoo.OBJID"
+2019-02-21 15:52:00,1

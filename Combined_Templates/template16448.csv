@@ -1,0 +1,3 @@
+2,"SELECT str (p.ra, #, #) as ra, str (p.[dec], #, #) as dec, p.u, p.g, p.r, p.i, p.z, dbo.fIAUFromEq (p.ra, p.[dec]) as SDSSname from dbo.fGetObjFromRect (#, #, #, #) as b, Galaxy as p WHERE (b.objID = p.objID) AND (p.nchild = #) AND ( (p.flags & (dbo.fPhotoFlags (#) | dbo.fPhotoFlags (#) | dbo.fPhotoFlags (#) )) > #) AND ( (p.fiberMag_i - p.deVMag_i) > #) AND (p.flags & (dbo.fPhotoFlags (#) ) = #)"
+2019-03-03 11:27:00,1
+2019-03-03 12:36:00,1

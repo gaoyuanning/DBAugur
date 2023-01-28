@@ -1,0 +1,2 @@
+1,SELECT z FROM SpecObj WHERE class = # group by z having count (*) > =#)
+2019-05-06 19:00:00,1

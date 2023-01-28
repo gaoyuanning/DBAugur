@@ -1,0 +1,2 @@
+2,"select   m.*, g.*   into mydb.GRG_SDSSIV_galspecline    from    mydb.GRG_SDSSIV m, galSpecLine g, specobj s  where   s.bestobjid = m.bestobjid   and s.specobjid = g.specobjid   and m.bestobjid > #"
+2019-04-03 13:48:00,2

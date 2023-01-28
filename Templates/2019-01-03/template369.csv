@@ -1,0 +1,2 @@
+1,"select top # p.type, s.zwarning, w.w3mag, s.zerr, s.z from wise_xmatch as xm  join SpecObjAll as s on xm.sdss_objid = s.bestObjID  join PhotoObjAll as p on xm.sdss_objid = p.objID  join wise_allsky as w on xm.wise_cntr = w.cntr where p.type=# and s.z># and s.zerr/s.z<=#"
+2019-01-03 13:14:00,1

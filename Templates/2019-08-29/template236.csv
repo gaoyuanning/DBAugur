@@ -1,0 +1,4 @@
+3,"SELECT TOP # z, ra, dec,   logMass, logMass_median, logMass_err, t_age  FROM stellarMassFSPSGranWideDust WHERE   z > #   AND z < #"
+2019-08-29 13:03:00,1
+2019-08-29 13:04:00,1
+2019-08-29 13:10:00,1

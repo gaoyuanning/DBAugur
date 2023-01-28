@@ -1,0 +1,3 @@
+2,SELECT TOP # * into mydb.LSA_# from SpecPhoto WHERE ObjID IN ()
+2019-05-26 18:49:00,1
+2019-05-26 20:05:00,1

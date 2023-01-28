@@ -1,0 +1,2 @@
+1,"SELECT count(p.objid)  FROM fGetNearbyObjEq(#,#,#) n, Galaxy p  WHERE n.objID=p.objID AND p.r between # AND #"
+2019-01-28 14:40:00,1

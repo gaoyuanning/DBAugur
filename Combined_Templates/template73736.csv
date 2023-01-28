@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.ra, p.dec, p.petroMag_u, p.petroMag_g, p.petroMag_r, p.petroMag_i, p.petroMag_z, p.petroMagErr_u, p.petroMagErr_g, petroMagErr_r, p.petroMagErr_i, p.petroMagErr_z, s.class, s.z as redshift FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN galSpecLine AS g ON g.specObjID = p.objid WHERE s.class = # , g.oii_#_eqw, g.oii_#_eqw_err, g.oii_#_eqw, g.oii_#_eqw_err, g.h_delta_eqw, g.h_delta_eqw_err, g.h_alpha_eqw, g.h_alpha_eqw_err"
+2019-11-04 09:40:00,1

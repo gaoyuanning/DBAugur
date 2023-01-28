@@ -1,0 +1,4 @@
+3,"select p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, s.z as redshift from photoobj p, specobj s where p.objid = s.bestobjid and (p.u-p.r BETWEEN # AND #) and s.z BETWEEN # AND .#"
+2019-04-16 00:18:00,1
+2019-04-16 00:21:00,1
+2019-04-16 00:23:00,1

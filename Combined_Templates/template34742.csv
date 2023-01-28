@@ -1,0 +1,4 @@
+3,"SELECT DISTINCT p.type, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.err_u, p.err_g, p.err_r, p.err_i, p.err_z FROM PhotoObjAll AS p WHERE ( (p.ra between # and #) and (p.dec between # and #) )"
+2019-04-25 22:06:00,1
+2019-04-25 22:09:00,1
+2019-07-28 20:30:00,1

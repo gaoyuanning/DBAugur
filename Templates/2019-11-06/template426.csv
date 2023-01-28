@@ -1,0 +1,2 @@
+1,"SELECT TOP # G.objID,G.ra,G.dec,S.specObjID,S.h_beta_flux FROM Galaxy as G JOIN GalSpecLine AS s WHERE ( (u - r <= #) and (r - i <= #) and (r - z <= #) and (g - r >= r - i + #) and (u - r >= #*(r - z)) )"
+2019-11-06 00:34:00,1

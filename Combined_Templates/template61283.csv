@@ -1,0 +1,6 @@
+6,"select objID, ra, dec, mjd, run, u, err_u, g, err_g, r, err_r, i, err_i, z, err_z, TAI_u, TAI_g, TAI_r, TAI_i, TAI_z into mydb.S8# from PhotoObj where run = # or run = #"
+2019-09-05 05:32:00,1
+2019-09-05 05:39:00,2
+2019-09-05 05:54:00,1
+2019-09-05 05:55:00,1
+2019-09-05 06:29:00,1

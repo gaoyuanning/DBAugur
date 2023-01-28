@@ -1,0 +1,3 @@
+2,"SELECT t.Name, t.targetID, t.objID, t.AngSep, t.target_photoz, t.target_photozErr, s.z as target_specz, s.zErr as target_speczErr from mydb.angsep_z1 as t INTO mydb.angsep_z_leftjoin LEFT JOIN dbo.Photoz as s on s.objID = t.objID"
+2019-04-13 13:23:00,1
+2019-04-13 13:43:00,1

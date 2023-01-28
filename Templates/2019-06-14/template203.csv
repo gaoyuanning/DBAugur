@@ -1,0 +1,2 @@
+2,"select a.*,t.objid as matched_id, s.z s.zErr from #tmp t    JOIN MYDB.WiseSecondSearch a ON t.up_id = a.search_id    JOIN specobj s ON s.bestobjid=t.objid"
+2019-06-14 17:36:00,2

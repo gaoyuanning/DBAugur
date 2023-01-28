@@ -1,0 +1,2 @@
+1,"select round (x/@bin, #) *@bin, count (ID) --into myhistogram --from data --group by round (x/@bin, #) *@bin --order by # select * from Runs where RunID = #"
+2019-04-24 12:55:00,1

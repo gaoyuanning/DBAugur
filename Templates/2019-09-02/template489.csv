@@ -1,0 +1,2 @@
+1,"SELECT objID, ra1, dec1, z, zWarning, class, subClass, ra2, dec2, j, h, k, phQual, wise_cntr, ra3, dec3, w1mpro, w1snr, w2mpro, w2snr, w3mpro, w3snr  INTO mydb.sdsstmasswisegood FROM mydb.zsdsstmasswise where w1snr > # and w2snr > # and w3snr > #"
+2019-09-02 06:42:00,1

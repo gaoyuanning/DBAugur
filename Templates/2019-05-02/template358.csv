@@ -1,0 +1,2 @@
+2,"select top # a.fparam_teff, a.fparam_logg, a.fparam_m_h, a.fparam_alpha_m, a.apogee_id from aspcapStar as a"
+2019-05-02 15:38:00,2

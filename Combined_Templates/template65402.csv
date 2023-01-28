@@ -1,0 +1,2 @@
+2,"SELECT p.*, g.mpstype as GALEX_survey FROM MyDB.primary_ids_sdss_dr7 as p, XSDSSDR7 as s, photoextract as g, photoobjall as a INTO MyDB.primary_GALEXSURVEY WHERE (p.OBJID_SDSSDR7 = s.sdssObjid AND s.objid = a.objid AND g.photoExtractID = a.photoExtractID)"
+2019-09-25 10:38:00,2

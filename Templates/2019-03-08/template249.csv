@@ -1,0 +1,7 @@
+9,"SELECT TOP #  (.#*(p.g - p.r) +.#) as Color,  (p.g+.#*(p.g-p.r) +.#) + #*LOG1#(#*PI()*POWER((#*p.petroR5#_g-.#*p.petroR5#_r),#)) as SBe FROM   PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   s.class = &&&  AND (# * (s.z/#))<# AND (# * (s.z/#))>#"
+2019-03-08 17:44:00,3
+2019-03-08 17:45:00,2
+2019-03-08 17:50:00,1
+2019-03-08 17:51:00,1
+2019-03-08 17:52:00,1
+2019-03-08 17:56:00,1

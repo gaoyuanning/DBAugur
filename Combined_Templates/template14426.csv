@@ -1,0 +1,2 @@
+1,"SELECT survey , sum (count (bestObjID) ) as#Countof#QSO' and zWarning = # group by survey, bestObjID"
+2019-02-26 19:53:00,1

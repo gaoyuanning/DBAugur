@@ -1,0 +1,2 @@
+2,"SELECT s.class , count (*) into mydb.MyTable_# from SpecObjAll as s WHERE class = # GROUP BY s.class;"
+2019-09-04 15:51:00,2

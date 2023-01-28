@@ -1,0 +1,2 @@
+1,"SELECT   g.ra,  g.dec   into mydb.SDSS_gal_dr1#_stats FROM emissionLinesPort as g   JOIN photoobjall as f on g.specobjid=f.specobjid"
+2019-05-02 16:57:00,1

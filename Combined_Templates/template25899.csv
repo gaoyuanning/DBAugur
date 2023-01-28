@@ -1,0 +1,3 @@
+3,"select albumid, count (*) as num from chinook.track group by albumid) select num, count (*) as n from r group by num order by #"
+2019-03-30 11:24:00,2
+2019-03-30 11:25:00,1

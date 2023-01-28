@@ -1,0 +1,4 @@
+3,"CREATE TABLE [VARIABLES] ([ID] [bigint] NOT # PRIMARY KEY, [VINTAGE] [int] NOT #, [CENSUSID] [char] (#) NOT #, [LABEL] [varchar] (#) NOT #, [CONCEPT] [varchar] (#) NOT #, [RACE] [char] (#) #, [SEX] [char] (#) #, [UNIT] [char] (#) #, [BINMIN] [int] #, [BINMAX] [int] #)"
+2019-10-30 04:33:00,1
+2019-10-31 02:58:00,1
+2019-11-03 06:04:00,1

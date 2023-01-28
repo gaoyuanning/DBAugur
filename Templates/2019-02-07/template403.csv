@@ -1,0 +1,3 @@
+2,"SELECT s.specObjId, s.class, s.subclass, s.ra, s.dec FROM SpecObjAll s, fGetNearbyObjEq(#,#,#) n WHERE s.bestobjid=n.objId"
+2019-02-07 09:38:00,1
+2019-02-07 09:40:00,1

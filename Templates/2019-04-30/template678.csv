@@ -1,0 +1,2 @@
+5,"SELECT n.sersic_n,n.iauname,n.z from DR1#.nsatlas as n where n.z>#"
+2019-04-30 04:21:00,5

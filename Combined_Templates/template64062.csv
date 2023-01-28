@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objID, p.ra, p.dec , p.psfmag_r, p.psfmagerr_r, p.mjd FROM PhotoObj p WHERE p.ra = # and p.dec = #"
+2019-09-19 20:11:00,1

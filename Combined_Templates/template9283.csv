@@ -1,0 +1,2 @@
+1,"select p.objID, p.modelMag_r, p.petroRad_r from PhotoObjAll p, Star join dbo.fGetObjFromRectEq (#, #, #, #) r on p.objID = r.objID"
+2019-02-10 21:07:00,1

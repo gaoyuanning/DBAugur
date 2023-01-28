@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.objID, s.specObjID, s.ra, s.dec, s.psfMag_u, s.psfMag_g, s.psfMag_r, s.psfMag_i, s.psfMag_z, s.z into mydb.MyTable_# from SpecPhotoAll AS s JOIN PhotObjAll AS p ON s.objID = p.objID WHERE s.psfMag_u < #"
+2019-03-26 17:58:00,1

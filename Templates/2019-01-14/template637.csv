@@ -1,0 +1,2 @@
+1,"SELECT    plate, mjd, fiberID, petroR5#_z FROM PhotoObjAll AS p WHERE  ra=# and dec=#"
+2019-01-14 05:28:00,1

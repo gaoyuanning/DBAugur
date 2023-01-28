@@ -1,0 +1,4 @@
+3,"SELECT s.ra as ra, s.dec as dec, s.z as z, p.petroMag_r as mag, p.petroRad_r as radius FROM specObj s INNER JOIN PhotoObj p ON s.bestObjID = p.objID WHERE s.ra BETWEEN # AND # AND s.dec BETWEEN # AND # AND s.specClass = #"
+2019-04-03 07:32:00,1
+2019-05-04 09:11:00,1
+2019-06-18 09:01:00,1

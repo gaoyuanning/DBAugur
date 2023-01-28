@@ -1,0 +1,3 @@
+3,"select B.specObjID, A.plateid, A.mjd, A.fiberid INTO MYDB.Rosi_stb FROM MYDB.Rosi_lista_stb as A JOIN galSpecInfo as B on A.plateid = B.plateid and A.mjd = B.mjd and A.fiberid = B.fiberid"
+2019-05-17 07:22:00,2
+2019-05-17 07:23:00,1

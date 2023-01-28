@@ -1,0 +1,2 @@
+1,"select top # ra, Dec, modelMag_g from PhotoTag where modelMag_u-modelMag_g<#  and Dec between # and #  and class=&&& order by modelMag_g"
+2019-03-27 00:14:00,1

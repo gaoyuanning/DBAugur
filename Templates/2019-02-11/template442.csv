@@ -1,0 +1,2 @@
+1,SELECT * FROM SFParklets UNION SELECT SFViolations WHERE Permit_ZipCode = # OR Zipcode = #
+2019-02-11 13:46:00,1

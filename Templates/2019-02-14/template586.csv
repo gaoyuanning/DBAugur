@@ -1,0 +1,3 @@
+2,"select survey,run2d,plate,mjd,fiberid into mydb.DR1# from specobjall"
+2019-02-14 02:51:00,1
+2019-02-14 02:53:00,1

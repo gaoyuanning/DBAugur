@@ -1,0 +1,2 @@
+1,"SELECT TOP # s1.objID as s1, s2.objID as s2	 FROM	Star S1					-- S1 is the white dwarf    JOIN	Neighbors N ON S1.objID = N. objID	-- N is the precomputed neighbors link    JOIN	Star S2 ON S2.objID = N.NeighborObjID	-- S2 is the second star WHERE  		     N.neighborType = dbo.fPhotoType(&&&)	-- and S2 is a star     and N.distance < .#			-- the # arcsecond test     and ((S1.u - S1.g) < # )			-- and S1 meets the color cut for     and (S1.g - S1.r) < # 			-- white dwarfs.     and (S1.r - S1.i) > #      and (S1.i - S1.z) > #"
+2019-07-19 05:24:00,1

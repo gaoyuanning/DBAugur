@@ -1,0 +1,2 @@
+1,"select sum (t.unitprice) album_price, t.albumid from chinook.track t group by t.albumid"
+2019-05-17 09:28:00,1

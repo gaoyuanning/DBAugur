@@ -1,0 +1,3 @@
+2,"SELECT ObjID, SpecObjID, ra, dec, u, g, r, i, z into mydb.MyTable_# from Mydb.Good_Calib_Data_#b   WHERE SpecObjID not in (       SELECT SpecObjID from Mydb.Good_Calib_Data_#     )     ;"
+2019-01-23 15:23:00,1
+2019-01-23 15:24:00,1

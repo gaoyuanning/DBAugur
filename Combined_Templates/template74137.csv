@@ -1,0 +1,4 @@
+3,"select count (*) into mydb.MyTable from MyDB.Sabater_AGN as agn, DR7.SpecObjAll as spec where agn.ra between spec.ra-# and spec.ra+# and agn.dec between spec.dec-# and spec.dec+# and agn.mjd = spec.mjd and agn.plate = spec.plate and agn.fiberid = spec.fiberid"
+2019-11-06 09:10:00,1
+2019-11-06 09:11:00,1
+2019-11-06 09:14:00,1

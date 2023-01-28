@@ -1,0 +1,3 @@
+2,"select top #   specObjID,ra,dec,modelMag_r,modelMag_i,modelMag_u,modelMag_z,modelMag_g,z from    SpecPhotoAll where   ra BETWEEN # AND #   and dec between # and #   and z < #   and ra is not null   and z >= #"
+2019-09-29 15:35:00,1
+2019-09-29 15:36:00,1

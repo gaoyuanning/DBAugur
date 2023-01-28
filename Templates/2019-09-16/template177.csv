@@ -1,0 +1,2 @@
+1,"SELECT DISTINCT p.u, p.g, p.r, p.i, p.z, p.err_u, p.err_g, p.err_r, p.err_i, p.err_z, s.z, s.zErr, s.zWarning FROM PhotoObjAll AS p JOIN SpecObjAll s ON p.objID = s.bestObjID WHERE ((p.ra between # and #) and (p.dec between # and #))"
+2019-09-16 16:44:00,1

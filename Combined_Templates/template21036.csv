@@ -1,0 +1,4 @@
+3,"select * from astrometry.budavari.Neighbors2Star2#eq where run1 IN () and run2 IN () order by #, #, #"
+2019-03-17 17:24:00,1
+2019-03-17 17:33:00,1
+2019-03-17 18:38:00,1

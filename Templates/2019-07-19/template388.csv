@@ -1,0 +1,2 @@
+1,"SELECT plateid, mjd, fiberid, oiii_#_flux, oii_#_flux, nii_#_flux, h_beta_flux, h_alpha_flux INTO mydb.nearGalaxiesFluxes_AGN FROM dr1#.galSpecLine WHERE specObjID IN (SELECT specObjID FROM dr1#.galSpecInfo WHERE subclass=&&&)"
+2019-07-19 04:15:00,1

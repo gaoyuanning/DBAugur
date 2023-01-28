@@ -1,0 +1,9 @@
+8,"select yy, mm, dd, hh, mi, ss,  logID, clientIP, requestor, server, dbname, access,  elapsed, busy, rows, statement, error, errorMessage, isvisible  into sqllogall2#_#_#h_to_#_#h  from sqllogall  where yy = #   and mm between # and #   and dd between # and #   and hh between # and #"
+2019-12-01 09:43:00,1
+2019-12-01 10:18:00,1
+2019-12-01 13:39:00,1
+2019-12-01 13:58:00,1
+2019-12-01 16:35:00,1
+2019-12-01 16:52:00,1
+2019-12-01 17:13:00,1
+2019-12-01 18:34:00,1

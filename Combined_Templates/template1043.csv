@@ -1,0 +1,10 @@
+9,"select submittime , sum (#) over (order by submittime rows between unbounded preceding and current row) as cumsum from Job where status = # order by #"
+2019-01-05 15:39:00,1
+2019-01-05 16:23:00,1
+2019-01-05 16:26:00,1
+2019-09-30 10:11:00,1
+2019-09-30 10:12:00,1
+2019-09-30 10:38:00,1
+2019-11-22 15:48:00,1
+2019-11-22 16:36:00,1
+2019-11-24 17:22:00,1

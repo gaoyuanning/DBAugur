@@ -1,0 +1,2 @@
+1,"SELECT ra, dec FROM galaxy WHERE ra BETWEEN # and # AND dec BETWEEN # and # SELECT z, zErr, absMagR FROM Photoz WHERE photoErrorClass = # and nnCount> # and zErr BETWEEN # and #"
+2019-04-30 23:16:00,1

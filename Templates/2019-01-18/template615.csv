@@ -1,0 +1,2 @@
+2,"SELECT TOP # s.specobjid, s.class, s.z as redshift FROM Galaxy WHERE (r - extinction_r) < #"
+2019-01-18 01:28:00,2

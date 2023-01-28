@@ -1,0 +1,3 @@
+2,"SELECT p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, s.specobjid, s.class, s.z, s.subclass, s.zwarning FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE s.sublass = AGN"
+2019-07-09 11:33:00,1
+2019-07-09 11:34:00,1

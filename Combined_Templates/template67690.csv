@@ -1,0 +1,2 @@
+1,"SELECT s.plate, s.mjd, s.ra, s.dec, s.fiberid into mydb.MyTable from galaxy AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN{ SELECT objID dbo.fGetObjFromRect (#, #, #, #) AS b ON p.objID = b.objID UNION SELECT objID dbo.fGetObjFromRect (#, #, #, #) AS b ON p.objID = b.objID } foo ON p.objid = foo.objid WHERE (s.specClass = dbo.fSpecClass (#) ) AND s.z < # AND p.r < # AND (p.g - p.r) > #"
+2019-10-04 12:13:00,1

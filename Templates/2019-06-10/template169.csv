@@ -1,0 +1,2 @@
+2,"SELECT ObjID, psfMag_u,psfMag_g,psfMag_r,  psfMag_i,psfMag_z, extinction_u,  extinction_g,extinction_r,  extinction_i,extinction_z,  z,SpecClass into mydb.MyTable_# from SpecPhoto  WHERE ((psfMag_i <= #) AND (psfMag_i >#)   AND (psfMag_u - psfMag_g >= #)   AND (psfMag_u - psfMag_g < #)   AND (psfMag_g - psfMag_r >= #)   AND (psfMag_g - psfMag_r < #)   AND (psfMag_r - psfMag_i >= #)   AND (psfMag_r - psfMag_i < #)   AND (psfMag_i - psfMag_z >= #)   AND (psfMag_i - psfMag_z < #))"
+2019-06-10 18:55:00,2

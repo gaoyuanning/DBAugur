@@ -1,0 +1,3 @@
+2,"SELECT TOP # specObjID, lgm_tot_p9#p5, logMass_median FROM galSpecExtra, stellarMassFSPSGranEarlyDust, stellarMassFSPSGranEarlyNoDust, stellarMassFSPSGranWideDust, stellarMassFSPSGranWideNoDust with (nolock) WHERE lgm_tot_p9#p5! =# AND logMass_median! =#"
+2019-11-07 06:47:00,1
+2019-11-07 06:48:00,1

@@ -1,0 +1,2 @@
+1,"select avg (i-PhotoObjAll.z) , stdev (i-PhotoObjAll.z) , avg (PetroRad_g) from SpecObjAll, PhotoObjAll where PhotoObjAll.ObjID = SpecObjAll.BestObjID and SpecObjAll.class = # and SpecObjAll.z> =# and SpecObjAll.z< # and PhotoObjAll.z> # and i> # and PhotoObjAll.z< # and i< #"
+2019-01-03 13:31:00,1

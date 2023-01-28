@@ -1,0 +1,2 @@
+2,"SELECT   bc0#.SpecObjID, bc0#.plate, bc0#.fiberID, bc0#.mjd, bc0#.z, bc0#.mstellar_median,   bc0#.mstellar_err, bc0#.vdisp_median, bc0#.vdisp_err    INTO   mydb.sdss_bc0#_new    FROM   stellarMassPCAWiscBC0# as bc0#"
+2019-09-17 06:18:00,2

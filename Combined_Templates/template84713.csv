@@ -1,0 +1,2 @@
+1,select objID into mydb.MyTable_# from PhotoObjAll where field = #;
+2019-12-30 14:33:00,1

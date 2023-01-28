@@ -1,0 +1,2 @@
+1,"SELECT s.z, s.zErr  FROM SpecObjAll as s  WHERE   (s.dec between # and #)   and (s.z between # and #)"
+2019-01-28 17:51:00,1

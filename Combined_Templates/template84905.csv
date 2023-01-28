@@ -1,0 +1,2 @@
+1,"SELECT g.ra, g.dec into mydb.DR7pos2 from PhotoObj as g WHERE g.ra between # and # AND g.type = # AND g.modelmag_r < # AND g.insidemask = #"
+2019-12-31 06:36:00,1

@@ -1,0 +1,2 @@
+1,"select g.geom.ToString () from CellGeom g, Celltag3 c where g.cellid = c.cellid and c.sampleid = # and c.ptype = # and c.pdl1 = # and g.btype = #"
+2019-10-07 16:30:00,1

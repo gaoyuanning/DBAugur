@@ -1,0 +1,2 @@
+1,"select   zoo.objID, zoo.p_cs_debiased, zoo.ra, zoo.dec, zoo.p_cw, zoo.p_acw, po.expAB_r, re.z, po.fracDeV_r,   po.petroMag_u, po.petroMag_g,po.petroMag_r,po.petroMag_i,po.petroMag_z,   po.petroR9#_r, po.petroR5#_r from   zooSpec zoo, photoObjAll po, galSpecInfo re where   zoo.objID = po.objID and   re.specObjID = zoo.specObjID and"
+2019-10-10 14:53:00,1

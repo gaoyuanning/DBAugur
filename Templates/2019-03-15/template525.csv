@@ -1,0 +1,2 @@
+1,"select p.u,p.g,p.r,p.i,p.z from specobjall where subClass like &&& and snMedian_g>=#"
+2019-03-15 03:49:00,1

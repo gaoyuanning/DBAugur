@@ -1,0 +1,2 @@
+1,SELECT DISTINCT fieldID FROM PhotoObjAll INTO mydb.field_id WHERE
+2019-02-11 15:59:00,1

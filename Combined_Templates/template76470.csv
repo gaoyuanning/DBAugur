@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec, s.z, s.zErr, s.velDisp, s.velDispErr, s.survey, s.programname, s.legacy_target1, s.legacy_target2, s.special_target1, s.special_target2 into mydb.legacy_southern_targets from specObj as s JOIN photoObj as p ON p.objID = s.bestObjID JOIN galSpecLine as l ON s.specObjID = l.specObjID JOIN galSpecIndx as i ON s.specObjID = i.specObjID WHERE (s.programname = # OR s.programname = #) AND s.class = #"
+2019-11-15 08:55:00,1

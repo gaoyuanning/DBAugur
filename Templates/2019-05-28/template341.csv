@@ -1,0 +1,2 @@
+1,"select top # ObjID   from MatchHead h     join PhotoTag t on t.ObjID=h.ObjID   where type=# and psfMag_r between # and # ) select top # h.ObjID   , ObjID1, ObjID2, Arcsec=#*Distance   , psfMag_r from stars s    join Match m on m.MathHead=s.ObjID where type1=# and type2=#   and Distance < @dmax"
+2019-05-28 14:03:00,1

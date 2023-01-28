@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.z,ISNULL(s.plate,#) as plate,ISNULL(s.mjd,#) as mjd,ISNULL(s.fiberid,#) as fiberid,ISNULL(s.z,#) as redshift,ISNULL(s.zErr,#) as redshiftErr,ISNULL(s.zWarning,#) as zWarning,ISNULL(s.class,#) as class  FROM ..PhotoObj AS p  LEFT OUTER JOIN ..SpecObj s ON p.objID = s.bestObjID  JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = P.objID  WHERE ( p.type = # OR p.type = #)"
+2019-09-23 18:24:00,1

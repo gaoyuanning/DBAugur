@@ -1,0 +1,2 @@
+1,"SELECT   RA, DEC, z, zErr, class into mydb.DR1#E from DR1#.SpecPhotoAll   WHERE class = &&&"
+2019-12-24 01:30:00,1

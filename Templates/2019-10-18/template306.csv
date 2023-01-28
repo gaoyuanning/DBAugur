@@ -1,0 +1,2 @@
+2,"select s.NEW_ra ra, s.NEW_dec dec, dbo.fHMSbase(s.NEW_ra,default,default),  dbo.fDMSbase(s.NEW_dec,default,default) into  mydb.MyTable_#_transformed  from mydb.MyTable_# s"
+2019-10-18 09:30:00,2

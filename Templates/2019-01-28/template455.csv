@@ -1,0 +1,2 @@
+1,"SELECT z, ra, dec, objID  FROM SPECPhoto  WHERE z># AND sourceType=QSR"
+2019-01-28 09:35:00,1

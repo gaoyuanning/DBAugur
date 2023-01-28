@@ -1,0 +1,4 @@
+3,"SELECT TOP #  p.objid,p.ra,p.dec,  p.psfmag_u,p.psfmag_g,p.psfmag_r,p.psfmag_i,p.psfmag_z,  p.run, p.rerun, p.camcol, p.field,  s.specobjid, s.class, s.z as redshift,  s.plate, s.mjd, s.fiberid, s.ancillary_target1 FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE  class=&&&"
+2019-03-15 22:26:00,1
+2019-03-15 22:27:00,1
+2019-03-15 22:32:00,1

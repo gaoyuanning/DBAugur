@@ -1,0 +1,3 @@
+2,"SELECT p.objid, p.ra, p.dec, zns.nvote_mon, zns.p_cs_mon, p.dered_g, p.dered_r, p.dered_g-p.dered_r as redness FROM galaxy as p JOIN zooMonochromeBias AS zns ON p.objid = zns.objid JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.clean = #"
+2019-02-27 18:34:00,1
+2019-02-27 18:35:00,1

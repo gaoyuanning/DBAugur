@@ -1,0 +1,3 @@
+2,"select cat1=run1, cat2=run2, arcsec, cts=sum(cts) from astrometry.budavari.Neighbors0#Star2#PixEq where run1     in (#,#,#,#) and run2     in (#,#,#,#) and row1 in (#,#,#,#) and row2 in (#,#,#,#) and col1 in (#,#,#,#) and col2 in (#,#,#,#) group by run1, run2, arcsec order by #,#,#"
+2019-04-30 17:17:00,1
+2019-04-30 17:22:00,1

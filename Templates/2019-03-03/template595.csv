@@ -1,0 +1,2 @@
+1,"select _id, string_agg(crime, &&&) within group (order by crime) as crimes   from (select top # * from crimes_norm order by _id) ac group by _id having count(*) > #"
+2019-03-03 10:04:00,1

@@ -1,0 +1,2 @@
+1,"SELECT Num AS NumAlbums, COUNT (*) AS NumTracks FROM (SELECT AlbumId, COUNT (*) AS Num FROM chinook.Track GROUP BY AlbumID) AS B GROUP BY B.Num"
+2019-04-24 13:48:00,1

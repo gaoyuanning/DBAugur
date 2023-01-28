@@ -1,0 +1,4 @@
+4,"SELECT TOP # p.run,p.rerun,p.camCol,p.field,p.obj,p.psfMag_u,p.psfMag_g,p.psfMag_r,p.psfMag_i,p.psfMag_z,p.psfMagErr_u,p.psfMagErr_g,p.psfMagErr_r,p.psfMagErr_i,p.psfMagErr_z,dbo.fIAUFromEq(p.ra,p.[dec]) as SDSSname,ISNULL(s.fiberID,#) as fiberID,ISNULL(s.mjd,#) as mjd,ISNULL(s.plate,#) as plate FROM BESTDR7..PhotoObj AS p LEFT OUTER JOIN BESTDR7..SpecObj s ON p.objID = s.bestObjID 	JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = p.objID WHERE  ( p.type = # OR p.type = #)"
+2019-01-11 14:42:00,2
+2019-01-11 14:43:00,1
+2019-01-11 14:44:00,1

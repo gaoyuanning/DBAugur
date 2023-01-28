@@ -1,0 +1,4 @@
+163,"select mjd_u, mjd_g, mjd_r, mjd_i, mjd_z from Field where dec < # AND dec > # AND (ra > # AND ra < # )"
+2019-11-19 08:05:00,15
+2019-11-19 08:06:00,109
+2019-11-19 08:07:00,39

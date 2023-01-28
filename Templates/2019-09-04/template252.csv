@@ -1,0 +1,2 @@
+1,"select top # class,  s.z, s.g, p.z, p.g from SpecObj s inner join PhotoObj p on s.z=p.z where s.z>#"
+2019-09-04 16:39:00,1

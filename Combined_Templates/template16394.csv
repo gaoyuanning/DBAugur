@@ -1,0 +1,2 @@
+1,"select _id, lat, lng, state_code , location.ToString () as location from SchoolLocation where FISCAL_YEAR = # and location IS NOT #"
+2019-03-03 13:27:00,1

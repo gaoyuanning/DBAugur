@@ -1,0 +1,2 @@
+1,"SELECT t.SDSS_ID, s.dr8objid as dr1#objid INTO convite4 FROM MyDB.listaossy t, zoo2MainPhotoz s WHERE t.SDSS_ID = s.DR7ObjID"
+2019-05-15 12:16:00,1

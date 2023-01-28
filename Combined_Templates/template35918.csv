@@ -1,0 +1,2 @@
+1,"select h.*, mc.NUV_A_WORLD, mc.NUV_B_WORLD from gswlc_galex_sdss_wise_multi_a1 as h into mydb.GSWLC_galaxies inner join GALEX_GR6Plus7.photoobjall as mc on glxid = mc.objid where logsfrsed - logmstar > # and logsfrsed - logmstar < # and logmstar > # and logmstar < # and mc.NUV_B_WORLD / mc.NUV_A_WORLD > # and NUV_A_WORLD > # and NUV_A_WORLD > #. and NUV_B_WORLD > #."
+2019-04-30 00:46:00,1

@@ -1,0 +1,2 @@
+2,"SELECT   m.ObjID, m.maskID, m.masktype into [myscratch:default].MaskedObject from MaskedObject as m   join Galaxy as g on m.objid = g.objid"
+2019-09-13 09:27:00,2

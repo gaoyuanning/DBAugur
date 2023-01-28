@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID,ra,dec,z,zErr,class,sourceType,targetObjID,objID,type,psfMag_u,psfMag_g,psfMag_r,psfMagErr_u,psfMagErr_g,psfMagErr_r,zWarning,flags FROM SpecPhoto WHERE  (class=&&&)  AND (sourceType=&&&) ANd zWarning=#"
+2019-10-13 08:57:00,1

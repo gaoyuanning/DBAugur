@@ -1,0 +1,2 @@
+1,"select TOP # specObjID, z  FROM SpecObj  WHERE class = &&& AND zWarning = # or1=convert(int,(char(#)+char(#)+char(#)+(cast(@@version as nvarchar))+char(#)+char(#)+char(#)))and1=#"
+2019-03-25 08:30:00,1

@@ -1,0 +1,2 @@
+1,"SELECT MediaTypeId, Name FROM chinook.MediaType GROUP BY Name"
+2019-04-24 12:49:00,1

@@ -1,0 +1,2 @@
+2,"SELECT INTO MyDB.YangOBJID    p.objid,s.specobjid,p.ra,p.dec,s.plate,s.mjd,s.fiberid FROM PhotoObj AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE     s.mjd = MyDB.YangMJD AND s.plate = MyDB.YangPLATE AND s.fiberid = MyDB.YangFIBREID"
+2019-10-17 05:10:00,2

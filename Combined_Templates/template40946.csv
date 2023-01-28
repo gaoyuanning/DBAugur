@@ -1,0 +1,2 @@
+1,select * from run r join segment s on s.segmentid = r.segmentid
+2019-05-22 16:10:00,1

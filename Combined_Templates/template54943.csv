@@ -1,0 +1,4 @@
+3,"SELECT top # g.objID, g.petroRad_u, g.petroRad_g, g.petroRad_r, g.petroRad_i, g.petroRad_z, p.z FROM Galaxy g JOIN Photoz p ON p.objID = g.objID WHERE p.z > #"
+2019-08-01 13:51:00,1
+2019-08-01 14:29:00,1
+2019-08-01 14:30:00,1

@@ -1,0 +1,2 @@
+1,"SELECT ALL  p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  p.run, p.rerun, p.camcol,   s.specobjid, s.specClass, s.z,  s.plate, s.mjd, s.fiberid FROM PhotoObj AS p   JOIN SpecObj AS s ON s.specClass = # WHERE   p.ra BETWEEN # AND #  AND p.dec BETWEEN # AND #"
+2019-04-18 03:56:00,1

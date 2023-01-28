@@ -1,0 +1,5 @@
+4,"SELECT s.specObjID, s.sciencePrimary, s.ra, s.dec, s.z into mydb.DR8_scienceprimary from SpecObjAll AS s"
+2019-11-22 17:01:00,1
+2019-11-22 17:02:00,1
+2019-11-22 17:05:00,1
+2019-11-22 17:06:00,1

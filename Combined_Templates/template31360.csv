@@ -1,0 +1,2 @@
+1,"select class, count (dec) as num_declination from specObj where dec BETWEEN # and # group by class"
+2019-04-17 00:56:00,1

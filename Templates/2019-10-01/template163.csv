@@ -1,0 +1,2 @@
+2,"SELECT spec.bestobjid, spec.ra, spec.dec, spec.z, spec.zErr, spec.class, spec.subclass,   spec.z_noqso, spec.zErr_noqso, spec.zWarning_noqso, spec.class_noqso, spec.subClass_noqso,   spec.z_person, spec.class_person, spec.comments_person INTO MyDB.DR1#_S8#_Spec_All FROM SpecObj as spec WHERE   (spec.zWarning = # OR spec.zWarning = #) AND spec.ra BETWEEN #   and #  AND spec.dec BETWEEN # and # OR   (spec.zWarning = # OR spec.zWarning = #) AND spec.ra BETWEEN # and # AND spec.dec BETWEEN # and #"
+2019-10-01 15:44:00,2

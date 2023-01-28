@@ -1,0 +1,2 @@
+1,"select p.objid, p.ra, p.dec, s.z as redshift into mydb.MyTable from photoobj p, specobj s where p.objid = s.bestobjid and (s.class = #)"
+2019-08-19 05:47:00,1

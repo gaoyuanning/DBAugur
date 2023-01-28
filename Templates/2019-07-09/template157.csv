@@ -1,0 +1,2 @@
+1,"SELECT  GAL.ObjID, SO.chunk,SO.ra,SO.dec,SO.z,PO.u,PO.g,PO.r,PO.i,PO.z,PO.galSpecline..oiii_#_flux from SpecObj SO, galSpecline LINE, Galaxy GAL, PhotoObjAll PO where SO.bestObjID = GAL.ObjID and LINE.specObjID=SO.specObjID AND SO.specObjID= PO.specObjID AND SO.z between # and # AND LINE.oiii_#_flux > # AND LINE.oiii_#_flux > # AND LINE.oiii_#_flux > # AND LINE.sii_#_flux > # AND LINE.sii_#_flux > # order by ra"
+2019-07-09 17:04:00,1

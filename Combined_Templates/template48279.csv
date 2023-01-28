@@ -1,0 +1,3 @@
+2,"select top # * from Junctions j, SnapCounts c where j.snapid = c.snapid"
+2019-06-26 14:51:00,1
+2019-06-26 14:52:00,1

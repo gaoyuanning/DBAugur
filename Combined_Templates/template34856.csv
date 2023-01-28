@@ -1,0 +1,3 @@
+2,"select top # ra, dec, psfmag_g as g, psfmag_g - psfmag_r as g_r from galaxy"
+2019-04-26 17:06:00,1
+2019-04-26 17:09:00,1

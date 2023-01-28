@@ -1,0 +1,2 @@
+1,"SELECT ObjID, SpecObjID, ra, dec, u, g, r, i, z into Mydb.Good_Calib_Data_# from PhotoObj WHERE (calibStatus_u & #) ! = # AND (calibStatus_g & #) ! = # AND (calibStatus_r & #) ! = # AND (calibStatus_i & #) ! = # AND (calibStatus_z & #) ! = # AND psfmagerr_u < # AND psfmagerr_g < # AND psfmagerr_r < # AND psfmagerr_i < # AND psfmagerr_z < # AND specObjID ! = # AND Type = # AND clean = # AND htmid*# & # < (# * #) AND SpecObjID IN () AND SpecObjID not IN () AND SpecObjID not IN () ;"
+2019-01-23 15:59:00,1

@@ -1,0 +1,2 @@
+1,"select #*floor(milliseconds/#) as durationSec ,      count(*) as num   from chinook.Track   group by durationSec     order by durationSec"
+2019-03-31 16:28:00,1

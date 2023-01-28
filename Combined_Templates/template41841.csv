@@ -1,0 +1,2 @@
+1,"SELECT ra AS UP_RA, dec AS UP_DEC, cluster AS UP_ID FROM MYDB.Spiral_rBand_Correlation CREATE TABLE tmp up_id int, objid bigint INSERT INTO tmp EXEC spGetNeighborsRadius INSERT INTO MYDB.MyTable_# SELECT a.*, t.objid FROM tmp t JOIN MYDB.Spiral_rBand_Correlation a ON t.up_id = a.clusterCREATE TABLE MyTable_# (ra float, dec float, rad float, cluster int, objid bigint, ) ;"
+2019-05-27 12:51:00,1

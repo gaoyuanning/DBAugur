@@ -1,0 +1,2 @@
+1,"SELECT   s.objID, s.z, s.zErr,s.ra,s.dec,r.BT,r.BTERR,r.BMVT0,r.BMVEERR,r.M2#,rM2#ERR,r.UMBE,rUMBEERR, FROM RC3 AS r  JOIN SpecPhotoAll AS s ON r.objID = s.objID"
+2019-10-19 08:21:00,1

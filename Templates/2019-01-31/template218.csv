@@ -1,0 +1,4 @@
+3,"select top # dbo.fCosmoDl(s.z) Dl, p.modelMag_r r, p.extinction_r ext, s.z z, p.modelMag_r - # - # * log1#(dbo.fCosmoDl(s.z)) - p.extinction_r M_r, ntile(#) over(order by s.z) z_bin from SpecObj s inner join PhotoObj p on s.bestObjID = p.ObjID where s.z > #  and s.z < # and s.SpecClass = # and p.modelMag_r-p.extinction_r < # and p.modelMag_r - # - # * log1#(dbo.fCosmoDl(s.z)) - p.extinction_r > # and p.modelMag_r - # - # * log1#(dbo.fCosmoDl(s.z)) - p.extinction_r < #)  , W2 as (select Dl, r, ext, z, M_r, z_bin, row_number() over(partition by z_bin order by r) z_bin_sorszam from W1)  select r-M_r DM, z from W2 where z_bin_sorszam = #"
+2019-01-31 10:20:00,1
+2019-01-31 10:58:00,1
+2019-01-31 18:20:00,1

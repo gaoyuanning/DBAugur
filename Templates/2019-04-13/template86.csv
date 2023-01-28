@@ -1,0 +1,2 @@
+1,"SELECT t.Name,t.targetID,t.target_photz,t.target_photzErr,t.target_specz,t.target_speczErr,t.objID,t.AngSep INTO mydb.neighbors2 FROM mydb.all_angsep2 as t where   AngSep < #"
+2019-04-13 19:48:00,1

@@ -1,0 +1,2 @@
+1,"SELECT p.objid, zoo.objid, zoo.dr7objid, p.petroMag_r, zoo.p_el_debiased, zoo.p_cs_debiased, zoo.spiral, zoo.elliptical, zoo.uncertain FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN zooSpec AS zoo ON zoo.objid = p.objid WHERE p.ra BETWEEN # AND # AND p.dec BETWEEN # AND # AND s.z BETWEEN # AND # AND p.petroMag_r < # AND s.class = #"
+2019-03-18 13:08:00,1

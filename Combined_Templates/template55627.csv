@@ -1,0 +1,2 @@
+1,"SELECT p.objId as objid, p.ra, p.dec, p.petror9#_r, pz.z, n.sersic_n, pz.distMod, pz.lumDist, FROM galaxy AS p, JOIN SpecObj AS s ON s.bestobjid = p.objid, JOIN nsatlas AS n ON n.mjd = s.mjd and n.fiberID = s.fiberID and n.plate = s.plate, JOIN Photoz AS pz ON pz.objID = p.objid"
+2019-08-06 04:17:00,1

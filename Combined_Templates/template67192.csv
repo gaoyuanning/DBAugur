@@ -1,0 +1,2 @@
+1,"SELECT z.specobjid, z.ra, z.dec, z.nvote as Votos_Totales, z.p_el as Elipticas, z.p_cs as Espirales, z.dk as Peculiares s.specObjID as specobjid2, s.z, s.ra as ra2, s.dec as dec2, s.petroMag_u as u, s.petroMag_g as g, s.petroMag_r as r FROM zooSpec as z, SpecPhotoAll as s WHERE z.specobjid = s.specObjID"
+2019-10-02 10:10:00,1

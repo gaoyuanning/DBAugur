@@ -1,0 +1,3 @@
+3,SELECT top # lineID into mydb.MyTable_# from Specline
+2019-10-02 08:12:00,1
+2019-10-02 08:16:00,2

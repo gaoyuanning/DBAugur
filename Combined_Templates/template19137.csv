@@ -1,0 +1,2 @@
+2,"select c.search_id, c.ra2 as ra, c.dec2 as dec, R_ext, J_M_ext, J_MSIG_EXT, H_M_EXT, H_MSIG_EXT, K_M_EXT, K_MSIG_EXT into cc2xsc from mydb.cc2ph as c join #mass.photoxsc as x on c.objid = x.objid"
+2019-03-10 15:03:00,2

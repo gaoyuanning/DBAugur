@@ -1,0 +1,5 @@
+6,"select    s.ra, s.dec, s.z, s.boss_target1,s.bossPrimary,s.bossSpecObjID,s.firstRelease,s.instrument,s.programname    from    SpecObjAll as s      into MyDB.Kauffmann_specobjAll_finding_BOSS_final_new_mission_#"
+2019-06-18 06:25:00,2
+2019-06-18 06:26:00,1
+2019-06-18 06:27:00,1
+2019-06-18 06:28:00,2

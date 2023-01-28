@@ -1,0 +1,2 @@
+1,"SELECT TOP #   Z.specobjid, Z.p_el, Z.p_cw, Z.p_acw, M.specObjid, M.mstellar_median    INTO    mydb.sco_OG_All2    FROM   zooVotes as Z, stellarMassPCAWiscM1# as M"
+2019-09-17 02:40:00,1

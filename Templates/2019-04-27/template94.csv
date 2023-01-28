@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, z, lgm_tot_p5# into mydb.Problem2.# from SpecPhoto   JOIN galSpecExtra ON specObjID WHERE ra > # and ra < # AND dec > # and dec < # AND z < # AND z > # AND lgm_tot_p5# > # AND class = &&&"
+2019-04-27 19:28:00,1

@@ -1,0 +1,3 @@
+2,"CREATE TABLE [Vitamin_mineral_supplements_yesterday] ( 	eid BIGINT NOT NULL ,	[Vitamin_supplement_user_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Vitamin_and_or_mineral_supplement_use_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=# ,PRIMARY KEY (eid)) GO"
+2019-05-02 09:35:00,1
+2019-05-02 10:37:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.g, p.r, p.u, p.i, p.z, p.dered_g, p.dered_r, p.l, p.b, p.extinction_g, p.extinction_r, p.extinction_u, p.extinction_i, p.extinction_z         FROM PhotoPrimary as p     WHERE clean= # and (b between #nd #) and (l between # and #)"
+2019-03-07 10:11:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.specobjid, s.ra, s.dec, s.class, s.z as redshift, s.elodieTEff, s.spectroFlux_r, g.RA_#, g.DEC_#, g.RPM_LOG_g, g.Teff FROM  SpecObj AS s JOIN marvelsStar AS g ON g.RA_#=s.ra AND g.DEC_#=s.dec WHERE   s.ra BETWEEN # AND #  AND s.dec BETWEEN # AND #  AND s.class=&&&"
+2019-11-22 11:37:00,1

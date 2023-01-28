@@ -1,0 +1,2 @@
+1,"SELECT   g.objID, y.specobjID, g.ra, g.dec, y.ra, y.dec, y.z, y.zerr, y.zwarning, p.z, p.zerr, g.Modelmag_u, g.Modelmagerr_u,    g.Modelmag_g, g.Modelmagerr_g, g.Modelmag_r, g.Modelmagerr_r, g.Modelmag_i, g.Modelmagerr_i, g.Modelmag_z, g.Modelmagerr_z, y.plate, y.mjd, y.fiberID      into mydb.XXL_dr1#_new from galaxyTag g   join specobj y ON y.specobjID = g.specobjID   left outer join photoz p ON p.objID = g.objID  WHERE g.ra># and g.ra<# and g.dec># and g.dec<#"
+2019-11-27 07:46:00,1

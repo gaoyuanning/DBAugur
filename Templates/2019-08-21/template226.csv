@@ -1,0 +1,6 @@
+5,"SELECT p.objid,p.ra,p.dec,p.psfmag_u,p.psfmag_g,p.psfmag_r,p.psfmag_i,p.psfmag_z,p.psfmagerr_u,p.psfmagerr_g,p.psfmagerr_r,p.psfmagerr_i,p.psfmagerr_z,p.aperflux7_u,p.aperflux7_g,p.aperflux7_r,p.aperflux7_i,p.aperflux7_z,p.aperflux7Ivar_u,p.aperflux7Ivar_g,p.aperflux7Ivar_r,p.aperflux7Ivar_i,p.aperflux7Ivar_z FROM Star AS p JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = P.objID where p.psfmag_i<# AND ((flags_r & #) != #) AND ((flags_i & #) != #) AND ((flags_g & #) != #) AND ((flags_g & #) = #) AND ((flags_r & #) = #) AND ((flags_i & #) = #) AND ((flags_r & #) = #) AND (((flags_r & #) = #) or (flags_r & #) = #)"
+2019-08-21 10:34:00,1
+2019-08-21 10:38:00,1
+2019-08-21 10:51:00,1
+2019-08-21 11:09:00,1
+2019-08-21 11:17:00,1

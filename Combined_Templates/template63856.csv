@@ -1,0 +1,2 @@
+1,"SELECT TOP # bestObjID FROM Galaxy as g, SpecObj as s where g.objID = s.bestObjID"
+2019-09-18 19:57:00,1

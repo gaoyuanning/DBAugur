@@ -1,0 +1,2 @@
+1,"select z,ra,dec,specobjid  from SpecObj  where z in  (SELECT z FROM SpecObj  WHERE class = &&& group by z having count(*) >=#)"
+2019-05-06 19:01:00,1

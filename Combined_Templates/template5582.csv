@@ -1,0 +1,2 @@
+1,"select p.ra, p.dec, p.fieldId, cast (p.objID as varchar (#) ) as objId, dbo.fPhotoTypeN (p.type) as otype, p.rowc, p.colc from PhotoObjAll p RIGHT OUTER JOIN SpecObj s ON s.bestobjid = p.objid where p.objId = #"
+2019-01-24 21:41:00,1

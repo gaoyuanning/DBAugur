@@ -1,0 +1,2 @@
+1,"SELECT   SpecObj.specObjID,    SpecObj.z,    SpecObj.ra,    SpecObj.dec,    SpecObj.sourceType,   SpecObj.class,   zooSpec.p_el,   zooSpec.p_cw,   zooSpec.p_acw,   zooSpec.p_mg    FROM SpecObj, zooSpec    WHERE zooSpec.specObjID = SpecObj.specObjID   AND SpecObj.class=&&&   AND SpecObj.sourceType = &&&   ORDER BY SpecObj.z DESC"
+2019-06-14 06:20:00,1

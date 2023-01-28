@@ -1,0 +1,4 @@
+3,"select # as Column1, # as Column2  into MyDB.MyNewtable1"
+2019-12-13 16:50:00,1
+2019-12-13 16:54:00,1
+2019-12-13 17:00:00,1

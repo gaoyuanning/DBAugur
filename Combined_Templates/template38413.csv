@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, dered_u, dered_g, into mydb.Area1Phys3#ug from PhotoObjAll Where ra> # and ra< # and dec> # and dec< # And dered_u - dered_g < # and dered_u - derred_g> #"
+2019-05-10 16:32:00,1

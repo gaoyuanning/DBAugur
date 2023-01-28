@@ -1,0 +1,2 @@
+2,"SELECT z, ra, dec from  specObj where  class = &&& z BETWEEN # AND #"
+2019-12-14 15:46:00,2

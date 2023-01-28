@@ -1,0 +1,2 @@
+1,"SELECT TOP # SpecObjAll.z ,Photoz.objID ,Photoz.absMagU ,Photoz.absMagG ,Photoz.absMagR ,Photoz.absMagI ,Photoz.absMagZ FROM SpecObjAll  JOIN GalaxyTag ON SpecObjAll.bestObjID=GalaxyTag.specObjID JOIN Photoz ON GalaxyTag.objID=Photoz.objID WHERE SpecObjAll.z<#"
+2019-03-27 20:13:00,1

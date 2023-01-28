@@ -1,0 +1,2 @@
+1,"select top # s.ra, s.dec , s.plate, s.mjd, s.fiberid , s.sciencePrimary, s.sdssPrimary, s.legacyPrimary , s.subclass, s.z, s.zErr , s.psfMag_u, s.psfMag_g, s.psfMag_r, s.psfMag_i, s.psfMag_z , s.petroMag_u, s.petroMag_g, s.petroMag_r, s.petroMag_i, s.petroMag_z, so.* from SpecPhoto as s left join SpecObj as so on so.specobjid = s.specobjid where s.zWarning = # and s.legacyPrimary = # and s.class = #"
+2019-06-13 10:11:00,1

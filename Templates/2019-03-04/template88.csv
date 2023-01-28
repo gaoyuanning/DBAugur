@@ -1,0 +1,2 @@
+1,select specobjid from specobj where specobj.z between .# and #
+2019-03-04 22:59:00,1

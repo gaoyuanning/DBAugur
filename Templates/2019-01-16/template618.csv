@@ -1,0 +1,2 @@
+1,"select top # objID, ra, dec, sample into MyDB.big_query from Galaxy as G join zoo2MainPhotoz as zns on G.objID = zns.dr8objid where clean = # and petror9#_r > # order by objID"
+2019-01-16 00:25:00,1

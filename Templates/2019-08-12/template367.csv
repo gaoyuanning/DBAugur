@@ -1,0 +1,2 @@
+1,"SELECT g.objid, g.ra, g.dec, g.petroMag_r, pz.z, pz.zErr, g.type FROM Galaxy AS g JOIN PhotoZ AS pz ON pz.objid = g.objid, fGetNearbyObjEq(#,#,#) AS n WHERE g.objID = n.objID AND z < #"
+2019-08-12 09:28:00,1

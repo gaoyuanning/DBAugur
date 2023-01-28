@@ -1,0 +1,3 @@
+3,"select TOP # type, clean, ra, dec, cModelMag_g, deVMag_g, deVRad_g, deVPhi_g, deVAB_g, expMag_g, expRad_g, expPhi_g, expAB_g into mydb.dex-spring from PhotoPrimary where ra between # and # and dec between # and #"
+2019-05-27 08:31:00,2
+2019-05-27 08:32:00,1

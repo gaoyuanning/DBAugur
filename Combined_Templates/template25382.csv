@@ -1,0 +1,2 @@
+2,"select t.phi0, t.AGN1 AGN1 into mydb.openSN_phi0_mixed3 from mydb.OpenSN t where t.Host_name ! =# AND t.phi0 ! = # AND t.phi0 < # AND t.AGN1 = # or t.AGN1 = #"
+2019-03-29 16:11:00,2

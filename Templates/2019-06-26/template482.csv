@@ -1,0 +1,2 @@
+1,"SELECT   n.objID, m.mjd into MyTable_#   FROM dbo.fGetNearbyObjAllEq( #, #, #) as n     left join photoObjAll as p on p.objID=n.objID"
+2019-06-26 06:53:00,1

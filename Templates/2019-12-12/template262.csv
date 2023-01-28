@@ -1,0 +1,3 @@
+3,"select p.bin, p.cell, p.sinc, p.rInner, p.rOuter, p.aAnn, p.aDisk from ProfileDefs AS p"
+2019-12-12 14:51:00,2
+2019-12-12 14:52:00,1

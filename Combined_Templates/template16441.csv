@@ -1,0 +1,3 @@
+2,"select CONVERT (INT, colc_r) , CONVERT (INT, rowc_r) , r from PhotoObjAll where RUN = # and RERUN = # and CAMCOL = # and field = # and r < # and r > # and type = #"
+2019-03-03 11:29:00,1
+2019-03-03 12:38:00,1

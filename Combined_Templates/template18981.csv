@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, p.modelMag_r FROM mydb.test_radec"
+2019-03-09 12:04:00,1

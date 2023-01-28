@@ -1,0 +1,9 @@
+8,"select specObjID as specid, oiii_#_flux as flux_OIII_#, oiii_#_flux_err as err_OIII_#, h_beta_flux as flux_hbeta, h_beta_flux_err as err_hbeta, nii_#_flux as flux_NII_#, nii_#_flux_err as err_NII_#, h_alpha_flux as flux_halpha, h_alpha_flux_err as err_halpha from galSpecLine where oiii_#_flux_err > # and (oiii_#_flux/oiii_#_flux_err) > = # and h_beta_flux_err > # and (h_beta_flux/h_beta_flux_err) > = # and nii_#_flux_err > # and (nii_#_flux/nii_#_flux_err) > = # and h_alpha_flux_err > # and (h_alpha_flux/h_alpha_flux_err) > = #"
+2019-01-24 16:18:00,1
+2019-01-24 16:22:00,1
+2019-01-24 16:23:00,1
+2019-01-24 16:24:00,1
+2019-01-24 16:28:00,1
+2019-01-24 16:59:00,1
+2019-01-24 18:31:00,1
+2019-01-24 18:36:00,1

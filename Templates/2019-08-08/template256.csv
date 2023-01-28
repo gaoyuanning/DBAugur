@@ -1,0 +1,2 @@
+1,"SELECT f.plateifu, f.mangaid, f.objra, f.objdec, t.manga_target3, flags FROM mangaFirefly as f JOIN mangatarget as t on t.mangaID = f.MANGAID"
+2019-08-08 14:35:00,1

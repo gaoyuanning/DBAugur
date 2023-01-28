@@ -1,0 +1,2 @@
+1,"SELECT TOP # sp.objID, sp.ra, sp.dec, px.objID, px.p_el, px.p_cw, px.p_acw FROM Galaxy AS sp JOIN zooSpec AS px ON sp.objID = px.objID WHERE ra > # and ra < # AND dec > # and dec < #"
+2019-05-13 15:04:00,1

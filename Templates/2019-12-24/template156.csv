@@ -1,0 +1,2 @@
+1,"SELECT sp.specObjID, sp.ra, sp.dec, sp.class, sp.z, sp.zerr into mydb.zsp5 from SpecObjAll as sp                             WHERE     sp.class=&&& AND sp.ra > #. and sp.ra < #. and sp.dec > #. and sp.dec < #."
+2019-12-24 08:54:00,1

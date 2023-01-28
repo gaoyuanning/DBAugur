@@ -1,0 +1,4 @@
+3,"select mean (p.SkyVersion) , count (pz.ObjID) from PhotoTag p, Photoz2 pz where p.ObjID = pz.ObjID AND p.petroMag_r-p.Extinction_r< # into myDB.test"
+2019-09-14 17:32:00,1
+2019-09-14 17:35:00,1
+2019-09-14 17:38:00,1

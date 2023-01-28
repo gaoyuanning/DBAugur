@@ -1,0 +1,2 @@
+1,"select round(p.ra, #) as sdss_ra, round(p.dec, #) as sdss_dec,round(p.psfMag_u, #) as u, round(p.psfMagErr_u, #) as uErr,round(p.psfMag_g, #) as g, round(p.psfMagErr_g, #) as gErr,round(p.psfMag_r, #) as r, round(p.psfMagErr_r, #) as rErr,round(p.psfMag_i, #) as i, round(p.psfMagErr_i, #) as iErr,round(p.psfMag_z, #) as z, round(p.psfMagErr_z, #) as zErr from phototag p, dbo.fGetNearbyObjEq(#,#,#) d where p.objID = d.objID and p.type = # and p.psfMag_g > # and p.psfMag_g < # and p.psfMag_r > # and p.psfMag_r < #"
+2019-10-17 07:43:00,1

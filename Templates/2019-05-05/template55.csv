@@ -1,0 +1,2 @@
+20,"SELECT TOP # p.objid, p.specobjid, p.ra, p.dec, n.distance AS offset, p.run, p.rerun, p.camcol, p.field FROM fGetNearbyObjEq(#,#,#) n JOIN PhotoPrimary p ON n.objID=p.objID ORDER BY offset"
+2019-05-05 22:12:00,20

@@ -1,0 +1,24 @@
+24,"CREATE TABLE CMASS_S_cmassref_matches_batch_#(cmassref_count_index int, cmass_count_index int, cmass_redshift float, cmassref_RA float, cmassref_Dec float, cmassref_pumag float, cmassref_pgmag float, cmassref_prmag float, cmassref_pimag float, cmassref_pzmag float, cmassref_uextinct float, cmassref_gextinct float, cmassref_rextinct float, cmassref_iextinct float, cmassref_zextinct  float, cmassref_realz float, gal_ra float, gal_dec float, gal_cmodel_u float, gal_cmodel_g float, gal_cmodel_r float, gal_cmodel_i float, gal_cmodel_z float, gal_cmodel_uerr float, gal_cmodel_gerr float, gal_cmodel_rerr float, gal_cmodel_ierr float, gal_cmodel_zerr float, gal_extinction_u float, gal_extinction_g float, gal_extinction_r float, gal_extinction_i float, gal_extinction_z float, gal_airmass_u float, gal_airmass_g float, gal_airmass_r float, gal_airmass_i float, gal_airmass_z float)"
+2019-06-18 09:39:00,1
+2019-06-18 09:54:00,1
+2019-06-18 10:17:00,1
+2019-06-18 10:38:00,1
+2019-06-18 10:52:00,1
+2019-06-18 11:09:00,1
+2019-06-18 11:26:00,1
+2019-06-18 12:47:00,1
+2019-06-18 13:04:00,1
+2019-06-18 13:23:00,1
+2019-06-18 13:41:00,1
+2019-06-18 13:58:00,1
+2019-06-18 14:17:00,1
+2019-06-18 14:33:00,2
+2019-06-18 14:50:00,1
+2019-06-18 15:06:00,1
+2019-06-18 15:24:00,1
+2019-06-18 15:40:00,1
+2019-06-18 15:59:00,1
+2019-06-18 16:16:00,1
+2019-06-18 16:35:00,1
+2019-06-18 16:54:00,1
+2019-06-18 17:10:00,1

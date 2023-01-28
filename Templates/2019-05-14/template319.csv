@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID , ra , dec from PhotoObj WHERE cModelMag_g ># and cModelMag_g <# and psfMag_g <#   and cModelMagErr_g <# and cModelMagErr_r <#   and cModelMag_u - cModelMag_g ># and psfMag_u - psfMag_g >#   and cModelMag_r - cModelMag_g ># and psfMag_r - psfMag_g >#"
+2019-05-14 13:43:00,1

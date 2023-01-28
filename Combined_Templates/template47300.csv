@@ -1,0 +1,2 @@
+1,"SELECT ObjId, ra, dec, modelMag_u, modelMagErr_u, modelMag_g, modelMagErr_g, modelMag_r, modelMagErr_r, modelMag_i, modelMagErr_i, modelMag_z, modelMagErr_z FROM dbo.PhotoObjAll WHERE (ra between # and #) and (dec between # and #)"
+2019-06-21 07:27:00,1

@@ -1,0 +1,2 @@
+1,"select ra,dec,total_classifications,type,clean, from zoo2MainPhotoz where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-10-02 06:56:00,1

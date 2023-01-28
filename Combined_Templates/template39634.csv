@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.g, p.r, s.z, s.snMedian_r, s.velDisp, s.plate, s.mjd, s.fiberid, s.chunk, s.boss_target1, INTO BOSS_sample_sn7_DR1# FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN stellarMassPassivePort AS stM ON s.specObjID = stM.specObjID WHERE s.z BETWEEN # AND # AND s.survey = # AND s.class = # AND s.snMedian_r > # AND s.velDIsp BETWEEN # AND # AND s.zWARNING = #"
+2019-05-15 12:46:00,1

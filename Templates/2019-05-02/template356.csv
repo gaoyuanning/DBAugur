@@ -1,0 +1,2 @@
+2,"select a.fparam_teff, a.fparam_logg, a.fparam_m_h, a.fparam_alpha_m, a.apogee_id from aspcapStar as a    where a.apogee_id=&&&"
+2019-05-02 15:41:00,2

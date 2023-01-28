@@ -1,0 +1,3 @@
+2,"SELECT t.objid , t.thingid, t.ndetect,t.ra,t.dec FROM thingIndex t ,dbo.fgetNearByObjEq(#,#,#) n JOIN detectionindex AS d ON t.thingid = d.thingid where t.objid = n.objid"
+2019-01-15 10:43:00,1
+2019-01-15 11:17:00,1

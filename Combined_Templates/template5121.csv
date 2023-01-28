@@ -1,0 +1,2 @@
+1,"SELECT top # m.objid, m.ra, m.dec, G.ra as Gal_ra, G.dec as Gal_dec, G.u_r, G.q_r, G.petror5#_r, m.distance FROM MyDb.NN3#ArcSec as m JOIN PhotoObjAll as G on m.objid = G.objid"
+2019-01-22 17:18:00,1

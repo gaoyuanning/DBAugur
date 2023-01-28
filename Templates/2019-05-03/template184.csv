@@ -1,0 +1,3 @@
+2,"select f.peak,f.rms,f.major,f.minor from FIRST f where f.objID=#"
+2019-05-03 15:02:00,1
+2019-05-03 15:04:00,1

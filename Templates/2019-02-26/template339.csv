@@ -1,0 +1,5 @@
+16,select fieldid from field where a_g between -.# and .# and skyframes_g between # and #
+2019-02-26 11:10:00,1
+2019-02-26 13:25:00,11
+2019-02-26 13:26:00,3
+2019-02-26 13:45:00,1

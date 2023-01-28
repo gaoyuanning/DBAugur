@@ -1,0 +1,4 @@
+7,"select top # plate, mjd, fiberID  from specobj  where subClass=&&& and snMedian_g < #  and waveMin <= # and waveMax >= #"
+2019-12-10 07:52:00,3
+2019-12-10 07:53:00,2
+2019-12-10 07:54:00,2

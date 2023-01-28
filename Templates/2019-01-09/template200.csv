@@ -1,0 +1,2 @@
+1,"select top #   m.ra, m.dec, m.objid, p.z, p.zerr, s.z, s.zerr from MyDB.Gal_OBJIDS_RA_indexed m    JOIN Photoz p on p.objid = m.objid   JOIN Specz s on s.bestobjid = m.objid WHERE m.ra in (select q.ra from MyDB.Gal_OBJIDS_RA_indexed q)"
+2019-01-09 16:12:00,1

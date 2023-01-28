@@ -1,0 +1,2 @@
+2,"SELECT TOP # run,            camCol,   rerun,   field,   objID,   u-g, g-r, r-i,   ra, dec into mydb.CVn_# from PhotoObj	 WHERE  u - g > # and  u - g < # and  g - r < #  and  g - r > #  and  r - i > #  and  r - i < #"
+2019-05-22 05:33:00,2

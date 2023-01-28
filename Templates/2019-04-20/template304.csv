@@ -1,0 +1,2 @@
+1,"SELECT a.Name AS genre, m.Name AS mediatype FROM chinook.album a LEFT JOIN chinook.track t ON t.albumId = a.albumId"
+2019-04-20 16:48:00,1

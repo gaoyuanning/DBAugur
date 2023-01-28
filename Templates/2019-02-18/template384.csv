@@ -1,0 +1,2 @@
+1,"SELECT count(S.specObjID)--, S.bestObjID, S.plate, S.MJD, S.fiberID, S.firstRelease, S.survey, S.instrument, S.sourceType, S.ra, S.dec, S.z, S.zErr, S.zWarning, S.class, S.subClass  from SpecObjAll AS S       WHERE S.sciencePrimary = # AND (S.eboss_target0 = # OR S.eboss_target0 = #) AND S.zWarning = # AND S.class = &&& AND S.subClass != &&&"
+2019-02-18 11:24:00,1

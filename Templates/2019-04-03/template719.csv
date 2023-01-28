@@ -1,0 +1,2 @@
+1,"SELECT TOP objID, ra, dec into mydb.MyTable from Galaxy"
+2019-04-03 07:36:00,1

@@ -1,0 +1,2 @@
+1,"SELECT specObjID, bestObjID, REPLACE(CONVERT(varchar, z),&&&,&&&) as redshift FROM SpecObj WHERE class = &&& AND zWarning = # AND z BETWEEN # AND # AND (survey = &&& or survey = &&&) AND bestObjID <> &&& and redshift % # = #"
+2019-03-22 12:24:00,1

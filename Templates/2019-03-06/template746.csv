@@ -1,0 +1,2 @@
+1,"SELECT   g.specobjid,g.ra,g.dec,g.u,g.g,g.r,  s.specobjid, s.class, s.z as redshift FROM GALAXY AS g  JOIN SpecObj AS s ON g.specobjid = s.specobjid WHERE   g.ra BETWEEN # AND # AND  g.dec BETWEEN # AND # AND  s.z BETWEEN # AND # AND  s.class = &&&"
+2019-03-06 04:07:00,1

@@ -1,0 +1,2 @@
+1,"SELECT input.*,  	po.ra AS sdss_ra, po.dec AS sdss_dec FROM MyDB.AKARImain_SDSSspecDR1#_bestobjid input 	INNER JOIN PhotoObjAll po ON po.objid = input.sdss_bestobjid 	LEFT OUTER JOIN Photoz pz ON pz.objid = input.sdss_bestobjid 	LEFT OUTER JOIN TwoMassXSC tmass ON tmass.objid = input.sdss_bestobjid 	LEFT OUTER JOIN FIRST ft ON ft.objid = input.sdss_bestobjid   ORDER BY search_id"
+2019-01-11 02:15:00,1

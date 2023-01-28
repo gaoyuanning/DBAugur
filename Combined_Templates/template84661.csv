@@ -1,0 +1,4 @@
+4,"select top # SpecPhotoAll.plate, SpecPhotoAll.mjd, SpecPhotoAll.fiberid from SpecPhotoAll, Specobjall where SpecPhotoAll.specObjID = specobjAll.specObjID and Specobjall.subClass = # and Specobjall.snMedian < # and Specobjall.snMedian > = # and Specobjall.wavemin < # and wavemax > #"
+2019-12-28 03:18:00,1
+2019-12-28 03:19:00,1
+2019-12-28 03:20:00,2

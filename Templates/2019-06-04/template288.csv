@@ -1,0 +1,2 @@
+1,"select name, description from DBObjects where access=&&& and type=&&& or (#,#)=(select*from(select name_const(CHAR(#,#,#,#,#,#,#,#,#),#),name_const(CHAR(#,#,#,#,#,#,#,#,#),#))a) -- &&&=&&& order by name"
+2019-06-04 12:24:00,1

@@ -1,0 +1,3 @@
+3,"SELECT    m.specobjid, n.objid, m.ra_# AS ra1, m.dec_# AS dec1,   p.ra AS RA, p.dec AS DEC, o.z as REDSHIFT, o.zerr AS REDSHIFTERR into mydb.NewRedshifts from MyDB.Large_z_diff AS m    OUTER APPLY dbo.fGetNearestObjEq(m.ra_#, m.dec_#, #) AS n   JOIN SpecObj AS o ON o.bestObjID=n.ObjID     JOIN PhotoObj AS p ON p.objid=n.objid"
+2019-11-04 12:15:00,2
+2019-11-04 12:17:00,1

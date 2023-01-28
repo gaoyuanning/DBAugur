@@ -1,0 +1,6 @@
+5,"SELECT p.run,p.rerun,p.camCol,p.field,p.obj,p.ra,p.[dec],p.r,ISNULL(s.plate,#) as plate,ISNULL(s.mjd,#) as mjd,ISNULL(s.fiberid,#) as fiberid,ISNULL(s.z,#) as z,ISNULL(s.zErr,#) as zErr,ISNULL(s.zWarning,#) as zWarning,ISNULL(s.specClass,#) as specClass, &&& as filter FROM dbo.fGetObjFromRect(#,#,#,#) b, BESTDR2..PhotoObj as p LEFT OUTER JOIN BESTDR2..SpecObj s ON p.objID = s.bestObjID WHERE p.psfMag_r < #. AND ( p.type = # OR p.type = #) AND p.objID=b.objID"
+2019-03-03 09:32:00,1
+2019-03-03 10:54:00,1
+2019-03-03 11:17:00,1
+2019-03-03 11:58:00,1
+2019-03-03 12:27:00,1

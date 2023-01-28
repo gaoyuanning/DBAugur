@@ -1,0 +1,2 @@
+1,"select substring (title, #, #) as ch, count (*) as num from chinook.album group by substring (title, #, #) order by #"
+2019-03-30 11:12:00,1

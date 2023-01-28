@@ -1,0 +1,3 @@
+2,"SELECT objID, htmID, z, ra, dec, cx, cy, cz, class, subClass, type, survey, programname FROM SpecPhoto WHERE (htmid*# & #) < (#)"
+2019-08-02 11:54:00,1
+2019-08-02 11:55:00,1

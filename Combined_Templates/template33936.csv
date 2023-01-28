@@ -1,0 +1,2 @@
+1,"select A.Title, COUNT (T.AlbumId) AS Count from chinook.Album as A, chinook.Track as T"
+2019-04-24 17:40:00,1

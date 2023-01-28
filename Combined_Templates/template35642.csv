@@ -1,0 +1,2 @@
+2,"select count (*) direction_new_ra_dec_realz, manual_good_ccw where manual_good_ccw.ID = direction_new_ra_dec_realz.ID and z> # and z< # and ra> # and ra< #"
+2019-04-30 18:58:00,2

@@ -1,0 +1,7 @@
+9,"select table_name, column_name, encoding_id from metadata.columns      where column_name like &&&"
+2019-09-11 12:37:00,1
+2019-09-11 12:38:00,1
+2019-09-11 12:40:00,1
+2019-09-11 14:37:00,2
+2019-09-11 14:38:00,1
+2019-09-11 14:39:00,3

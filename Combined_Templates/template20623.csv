@@ -1,0 +1,2 @@
+1,"SELECT po.objID, po.ra, po.raErr, po.dec, po.decErr FROM PhotoObj as po WHERE po.ra BETWEEN # and # AND po.dec BETWEEN # and # AND po . type = #"
+2019-03-14 03:25:00,1

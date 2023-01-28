@@ -1,0 +1,2 @@
+1,select dr7.primtarget where dr7.plate=# and dr7.fiberid=# and dr7.mjd=# into db.oneprimt
+2019-11-26 05:39:00,1

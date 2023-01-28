@@ -1,0 +1,2 @@
+1,"select Album.AlbumId, Album.Title from chinook.Album JOIN chinook.Track ON Track.AlbumId = Album.AlbumId JOIN chinook.Artist ON Album.ArtistId = Artist.ArtistId GROUP BY Album.AlbumId"
+2019-04-20 17:34:00,1

@@ -1,0 +1,4 @@
+4,"SELECT ra, dec, psfMag_r , extinction_r, psfMagErr_r FROM star WHERE (dec between # and #) and (ra between # and #) AND (CLEAN=#)"
+2019-09-29 18:19:00,2
+2019-09-29 18:35:00,1
+2019-09-29 20:13:00,1

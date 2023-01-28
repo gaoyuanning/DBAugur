@@ -1,0 +1,2 @@
+1,"select pk,j.* from p cross apply openjson(p.value) j"
+2019-04-05 11:55:00,1

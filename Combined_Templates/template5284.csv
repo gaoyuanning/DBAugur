@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, s.specobjid, s.z as Redshift, Distance, Color, Magnitude FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE s.class = # AND (# * (s.z/#) )< # AND (.#* (p.g - p.r) +.#) < #"
+2019-01-22 00:11:00,1

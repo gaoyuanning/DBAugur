@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, z, zErr, velDisp, velDispErr, petroMag_r, class, subClass FROM SpecObj as s"
+2019-11-02 23:39:00,1

@@ -1,0 +1,3 @@
+3,"select G.objid, G.z into mydb.spec_duplicates FROM SpecPhoto as G WHERE (objid = #)"
+2019-06-24 15:56:00,2
+2019-06-24 15:57:00,1

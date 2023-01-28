@@ -1,0 +1,2 @@
+1,"SELECT objid, matchcount into mydb.MyTable_# from matchhead h join phototag p on h.objid = p.objid where p.run not IN ()"
+2019-11-12 14:53:00,1

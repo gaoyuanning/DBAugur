@@ -1,0 +1,2 @@
+1,"select * from openquery([#.#],&&&'MSK%&&&' group by cs.CANCER_STUDY_ID,cs.CANCER_STUDY_IDENTIFIER) a order by #"
+2019-04-14 10:17:00,1

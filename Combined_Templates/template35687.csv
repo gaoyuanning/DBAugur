@@ -1,0 +1,2 @@
+1,"select top # targetObjID , specObjId, ra, dec, class, subClass from SpecPhoto where class = # and petroMag_g < #"
+2019-04-30 16:02:00,1

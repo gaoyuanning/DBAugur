@@ -1,0 +1,4 @@
+4,"SELECT TOP #  skyIvar_u,skyIvar_g,skyIvar_r,skyIvar_i,skyIvar_z,  sky_u,sky_g,sky_r,sky_i,sky_z,  psffwhm_u,psffwhm_g,psffwhm_r,psffwhm_i,psffwhm_z,  u,g,r,i,z FROM Galaxy WHERE  htmid*# & # < (# * #)"
+2019-05-31 11:12:00,1
+2019-05-31 11:13:00,2
+2019-05-31 13:51:00,1

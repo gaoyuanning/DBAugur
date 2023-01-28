@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.z as redshift,s.subclass, s.elodieSpType as spectraltype, s.elodieBV as color, s.elodieTEff as temperature, s.elodieLogG as gravity, s.elodieFeH as metallicity, m.age FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid  JOIN stellarMassStarformingPort as m ON m.specObjID = s.specObjID WHERE   p.u BETWEEN # AND #  AND g BETWEEN # AND #  AND s.subClass != &&&"
+2019-05-10 09:38:00,1

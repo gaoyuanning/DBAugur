@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.ra,p.dec, FROM PhotoObj AS p WHERE  AND p.class = &&&"
+2019-10-14 07:47:00,1

@@ -1,0 +1,3 @@
+2,"SELECT TOP # p.ObjID, p.specObjID, p.ra, p.dec FROM SpecPhotoAll AS p, MyDB.Manu AS manu INTO myDB.manu_matched WHERE p.ObjID = manu.ObjID ORDER BY p.ObjID"
+2019-02-27 17:07:00,1
+2019-02-27 17:08:00,1

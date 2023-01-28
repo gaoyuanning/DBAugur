@@ -1,0 +1,5 @@
+5,"SELECT top # p.objid, s.ra, s.dec, s.z, g.lgm_tot_p5#, g.specobjid FROM PhotoObj AS p, SpecObj AS s, GalSpecExtra as g WHERE s.z BETWEEN # AND # AND g.lgm_tot_p5# BETWEEN # and # AND class = #"
+2019-06-23 19:16:00,1
+2019-06-23 19:17:00,1
+2019-06-23 19:20:00,1
+2019-06-23 19:22:00,2

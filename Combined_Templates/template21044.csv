@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.ra, p.dec, s.z as redshift, p.r INTO DR5_lrgs FROM SpecObjAll as s, Galaxy as p WHERE s.bestObjID = p.objID AND s.specClass = # AND (s.primTarget & # > #) AND s.z > # AND p.r < # ORDER BY p.objID"
+2019-03-17 17:38:00,1

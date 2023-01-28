@@ -1,0 +1,4 @@
+3,"SELECT u.up_name as [name], x.objID, str (p.ra, #, #) as ra, str (p.[dec], #, #) as dec, IS# (str (s.z, #, #) , #) as Zsp, str (p.petroMag_r - p.extinction_r, #, #) as mpder_r, str (p.deVMag_r, #, #) as deVMag_r, str (p.deVRad_r, #, #) as deVRad_r, str (p.petroR5#_r, #, #) as petroR5#_r, str (p.petroR9#_r, #, #) as petroR9#_r, str (p.petroR9#_r / p.petroR5#_r, #, #) as C9#_r, dbo.fIAUFromEq (p.ra, p.[dec]) as SDSSname FROM #x x, #upload u, BESTDR8..PhotoObj as p LEFT OUTER JOIN BESTDR8..SpecObj s ON p.objID = s.bestObjID WHERE (p.type = # OR p.type = #) AND p.petroMag_r - p.extinction_r < # AND u.up_id = x.up_id AND x.objID = p.objID ORDER BY x.up_id"
+2019-11-28 08:06:00,1
+2019-11-28 08:08:00,1
+2019-11-28 08:27:00,1

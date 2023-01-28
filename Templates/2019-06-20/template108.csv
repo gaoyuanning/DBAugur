@@ -1,0 +1,4 @@
+6,"select [indexMapID],[code],[type],[tableName],[fieldList],[foreignKey] from IndexMap order by [tableName],[indexMapId]"
+2019-06-20 09:14:00,1
+2019-06-20 14:50:00,1
+2019-06-20 18:50:00,4

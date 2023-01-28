@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.psfmag_r, s.secTarget From PhotoObj p  JOIN SpecObj AS s ON p.objid=s.bestobjid  JOIN dbo.fGetNearbyObjEq(#,#,#) As n ON n.objid=s.bestobjid WHERE (s.secTarget & #)>#"
+2019-09-02 19:08:00,1

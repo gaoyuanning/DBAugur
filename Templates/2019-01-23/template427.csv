@@ -1,0 +1,2 @@
+1,SELECT COUNT(specObjID) FROM dbo.galSpecInfo
+2019-01-23 09:26:00,1

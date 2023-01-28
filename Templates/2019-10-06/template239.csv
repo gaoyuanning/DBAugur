@@ -1,0 +1,2 @@
+2,select psfWidth_i from Field as f where f.run =# and f.field = # and f.camcol = #
+2019-10-06 08:25:00,2

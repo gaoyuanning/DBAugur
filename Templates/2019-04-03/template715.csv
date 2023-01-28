@@ -1,0 +1,2 @@
+1,"select  s.specobjid, s.z, s.zerr, s.survey, s.programname, s.class, s.subclass, s.ra, s.dec, s.objID, s.type, s.dered_u, s.modelMagErr_u, s.dered_g, s.modelMagErr_g,    s.dered_r, s.modelMagErr_r, s.dered_i, s.modelMagErr_i, s.dered_z, s.modelMagErr_z, pa.petroR9#_r, pa.petroR9#Err_r, pa.petroR5#_r, pa.petroR5#Err_r    into mydb.Version4_inHS from SpecPhotoAll as s   left outer join PhotoObj as pa on s.objID = pa.objID  WHERE  s.z># and s.zWarning=# and s.scienceprimary=#   and (s.dec between # and #)   and (s.ra between # and #)"
+2019-04-03 07:39:00,1

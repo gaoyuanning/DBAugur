@@ -1,0 +1,2 @@
+1,"SELECT count(*) into mydb.MyTable from PhotoObj as p, SpecObj as s    WHERE   p.petromag_r <= # AND   s.bestObjID = p.objID AND   s.Class = GALAXY&&&"
+2019-05-30 09:17:00,1

@@ -1,0 +1,2 @@
+1,"SELECT m.ra_#, m.dec_#, m.specObjID, S.ra, S.dec, S.specObjID INTO MyDB.chandra_matched_sdss_details3# FROM MyDB.chandra_matched_sdss_# AS m LEFT OUTER JOIN dbo.fGetNearestObjEQ (m.ra_#, m.dec_#, #) N, SpecObj AS S"
+2019-06-18 11:33:00,1

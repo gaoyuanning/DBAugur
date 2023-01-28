@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z, flags, psfmagerr_u, psfmagerr_g, psfmagerr_r, psfmagerr_i, psfmagerr_z into mydb.ra_#_# from PhotoPrimary WHERE ( (flags & #) ! = #) AND ( (flags & #) = #) AND ( ((flags & #) = #) or (psfmagerr_r < = # and psfmagerr_i< = # and psfmagerr_g< =#) ) AND ( ((flags & #) = #) or (flags & #) = #) AND (run = # or run = #) AND (type = # or type = #) AND (ra BETWEEN # and #)"
+2019-06-06 02:28:00,1

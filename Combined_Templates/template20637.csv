@@ -1,0 +1,2 @@
+1,"SELECT thingId, nDetect FROM thingIndex WHERE nDetect > # LIMIT #"
+2019-03-14 00:34:00,1

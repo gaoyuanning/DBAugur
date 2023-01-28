@@ -1,0 +1,4 @@
+3,"select top # s.plate, s. mjd, s.fiberid, s.psfmag, s.class, s.sn_median_all, s.eboss_target1, c.flux, c.loglam, c.Z from specobj as s and coadd as c where c.Z between # to # and s.eboss_target1 & # and s.sn_median_all between # to # and s.class = = #"
+2019-11-14 17:48:00,1
+2019-11-14 17:50:00,1
+2019-11-14 17:51:00,1

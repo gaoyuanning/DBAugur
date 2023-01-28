@@ -1,0 +1,2 @@
+1,"select p.class, p.ra, p.dec, s.z as redshift from photoobj p, specobj s, dbo.fgetNearByObjEq(#,#,#) n where p.objid=s.bestobjid and p.objid=n.objid and s.bestobjid=n.objid and s.plate=#"
+2019-06-14 17:29:00,1

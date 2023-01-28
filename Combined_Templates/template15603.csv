@@ -1,0 +1,2 @@
+2,"SELECT plateid, mjd, fiberid, z, z_err, z_warning into mydb.sdss1#z from galSpecInfo WHERE z> # AND z< #"
+2019-02-28 11:34:00,2

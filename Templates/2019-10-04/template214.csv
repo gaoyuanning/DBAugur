@@ -1,0 +1,2 @@
+2,"SELECT TOP # spa.specObjID, spa.ra, spa.dec, spa.z, poa.modelMag_r, poa.r, poa.u, poa.g, poa.i FROM SpecPhotoAll as spa WHERE spa.z>#"
+2019-10-04 13:53:00,2

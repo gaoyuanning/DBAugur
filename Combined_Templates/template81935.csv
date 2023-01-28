@@ -1,0 +1,2 @@
+2,"SELECT gal.objID, gal.ra, gal.dec, gal.specObjID, s.specObjID as specObjID_s, s.bestObjID, s.z, s.zErr, s.class, s.zWarning into mydb.Mag1#_#all FROM Galaxy as gal JOIN SpecObjAll as s ON s.bestObjID = objID WHERE ra BETWEEN # and # AND dec BETWEEN # and # AND mode = # AND type = # AND petroRad_u> # and petroRad_g> # and petroRad_r> # and petroRad_i> # and petroRad_z> # and petroRadErr_g> # AND petroMag_g BETWEEN # and # AND s.z< # ORDER BY objID"
+2019-12-10 02:43:00,2

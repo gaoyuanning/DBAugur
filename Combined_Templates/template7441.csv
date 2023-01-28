@@ -1,0 +1,3 @@
+2,"SELECT sp.objID, s.dr7ObjID, p.petroR5#_r, p.petroR5#Err_r, p.petroR9#_r, p.petroR9#Err_r, r.TYPE, r.TYPEERR into mydb.MyTable from SpecPhotoAll AS sp JOIN SpecDR7 AS s ON sp.specObjID = s.specObjID JOIN PhotoObjAll AS p on sp.objID = p.objID JOIN RC3 AS r ON r.objID = sp.objID WHERE sp.petroMagErr_r < # AND sp.petroMagErr_g < # AND sp.petroMagErr_i < # AND sp.z > # AND sp.z < # AND sp.petroMag_r < # AND r.TYPE > # ORDER BY sp.objID"
+2019-02-01 17:05:00,1
+2019-02-01 17:06:00,1

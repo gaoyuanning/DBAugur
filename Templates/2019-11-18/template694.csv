@@ -1,0 +1,2 @@
+2,"select flags_r,ra,dec,(flags_r & #), IIF(ra > #,#,#),(flags & dbo.fPhotoFlags(&&&)),(flags &dbo.fPhotoFlags(&&&)),   (flags &dbo.fPhotoFlags(&&&))   ,(flags & dbo.fPhotoFlags(&&&)),flags & dbo.fPhotoFlags(&&&) & dbo.fPhotoFlags(&&&),   (flags & dbo.fPhotoFlags(&&&)), (flags & dbo.fphotoFlags(&&&)) from photoobjall where ra between # and # and dec between   # and # and (flags & dbo.fPhotoFlags(&&&)) != #"
+2019-11-18 11:40:00,2

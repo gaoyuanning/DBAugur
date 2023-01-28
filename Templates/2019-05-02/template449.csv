@@ -1,0 +1,2 @@
+1,"SELECT top # ra, dec into mydb.MyTable from star order by newid() WHERe     ra > #. and ra < # and dec > # and dec < #"
+2019-05-02 13:31:00,1

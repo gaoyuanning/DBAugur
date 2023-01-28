@@ -1,0 +1,4 @@
+3,"select top # x.plate, x.mjd, x.ra, x.dec, x.z, x.logMass, g.oii_#_flux, g.oii_#_flux_err from stellarMassFSPSGranEarlyDust x JOIN galSpecLine g ON g.specObjID = x.specObjID FROM fGetNearbyObjEq (#, #, #)"
+2019-03-04 02:22:00,1
+2019-03-04 02:23:00,1
+2019-03-04 02:41:00,1

@@ -1,0 +1,2 @@
+1,"SELECT top #  ew.Halpha2#cont, ew.Halpha2#side, ew.Halpha2#err, s.targetType, s.subclass, par.TEFFADOP, par.TEFFADOPUNC, par.TEFFANNSR, par.TEFFANNRR, par.TEFFWBG, par.TEFFK2# FROM  spplines ew JOIN SpecObj s on s.specObjID = ew.specObjID JOIN sppParams par on par.specObjID = ew.specObjID WHERE  Halpha2#cont>#  AND s.class = &&&  AND s.subclass != &&&  AND s.subclass != &&& ORDER BY s.subclass desc"
+2019-11-02 14:09:00,1

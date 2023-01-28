@@ -1,0 +1,2 @@
+1,"select ra, dec from buta_ids4_DR7_col where z> # and z< # and ra> # and ra< # order by ra"
+2019-11-07 14:56:00,1

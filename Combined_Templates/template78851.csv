@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.fiber2Mag_u, p.fiber2Magerr_u, p.fiber2Mag_g, p.fiber2Magerr_g, p.fiber2Mag_r, p.fiber2Magerr_r, p.fiber2Mag_i, p.fiber2Magerr_i, p.fiber2Mag_z, p.fiber2Magerr_z into mydb.E3FGNRADsdssdr1#spec2all FROM SpecObj as s, PhotoObj as p WHERE s.bestObjID = p.objID AND (s.class = # or s.class = #)"
+2019-11-25 09:04:00,1

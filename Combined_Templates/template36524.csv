@@ -1,0 +1,2 @@
+1,"select objid, ra, dec into blueberry from photoobj where cmodelmag_g> # and cmodelmag_g< # and psfmag_g< #"
+2019-05-02 07:49:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # SpecObjAll.z , Photoz.objID FROM SpecObjAll JOIN GalaxyTab ON SpecObjAll.bestObjID = GalaxyTab.specObjID JOIN Photoz ON GalaxyTab.objID = Photoz.objID WHERE SpecObjAll.z< #"
+2019-03-27 20:07:00,1

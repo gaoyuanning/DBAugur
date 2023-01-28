@@ -1,0 +1,2 @@
+1,"SELECT elodieLogG as LogG, elodieBV as BV, elodieFeH as FeH FROM SpecObjAll WHERE class = # AND BV between # and #"
+2019-11-29 18:24:00,1

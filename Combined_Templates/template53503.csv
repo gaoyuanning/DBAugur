@@ -1,0 +1,2 @@
+1,"select s.specObjID, s.ra, s.dec, s.z, s.plate, s.mjd, s.fiberid, s.run2d, e.lgm_tot_p5# from specObjAll s JOIN galSpecExtra e ON e.specObjID = s.specObjID JOIN zooSpec z ON z.specObjID = s.specObjID JOIN zooVotes v ON v.specObjID = s.specObjID JOIN zoo2MainSpecz t ON t.specObjID = s.specObjID where e.bptclass = # AND s.z < .# AND z.p_mg > = .# order by e.lgm_tot_p5#"
+2019-07-24 16:53:00,1

@@ -1,0 +1,8 @@
+16,"SELECT TOP # p.objid, p.ra,p.dec,p.petror9#_r, p.dered_g, p.dered_r, s.z as z_spec, s.zErr, zns.nvote, zns.p_cw as spiralclock, zns.p_acw as spiralanticlock   FROM Galaxy as p    JOIN ZooNoSpec AS zns ON p.objid = zns.objid    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.clean=# and zns.nvote >= # and zns.p_cw > # and zns.p_acw > #"
+2019-02-28 14:28:00,2
+2019-02-28 14:29:00,3
+2019-02-28 14:33:00,1
+2019-02-28 14:34:00,5
+2019-02-28 14:35:00,2
+2019-02-28 14:36:00,2
+2019-02-28 14:37:00,1

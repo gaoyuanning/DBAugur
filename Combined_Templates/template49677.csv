@@ -1,0 +1,2 @@
+1,"select s.*, p.z as zspec, p.zErr as zspec_Err, p.zwarning, p.class from MyDB.codex_with_ra_dec_pz_new as s , SpecObjAll as p into codex_with_ra_dec_pz_sz_new where s.objid = p.bestObjID"
+2019-07-03 09:07:00,1

@@ -1,0 +1,2 @@
+1,"SELECT top # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.dered_u, p.dered_g, p.dered_r, p.dered_i, p.dered_z, p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i, p.extinction_z, s.specobjid, s.class, s.z as redshift, gs.lgm_tot_p5# FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN galSpecExtra AS gs ON gs.specObjID = s.specObjID WHERE s.class = # AND s.z > # AND gs.lgm_tot_p5# > # AND p.u > # AND p.g > # AND p.r > # AND p.i > # AND p.z > #"
+2019-09-23 14:11:00,1

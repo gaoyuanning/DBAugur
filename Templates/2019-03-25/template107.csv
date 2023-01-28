@@ -1,0 +1,2 @@
+1,"SELECT bestObjID,z  FROM SpecObj  WHERE  RAND()<(SELECT (#) FROM SpecObj) AND class=QSO AND zWarning=#"
+2019-03-25 20:53:00,1

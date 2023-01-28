@@ -1,0 +1,2 @@
+1,"SELECT TOP # a.OBJID AS OBJID, a.RA AS RA, a.DEC AS DEC, dbo.fGetNearestObjIdEq (a.RA, a.DEC, #) AS sdssid, sp.z AS zsp FROM MyDB.akari AS a, dbo.SpecObjAll AS sp WHERE a.OBJID < # and dbo.fGetNearestObjIdEq (a.RA, a.DEC, #) = sp.specObjId"
+2019-08-18 20:06:00,1

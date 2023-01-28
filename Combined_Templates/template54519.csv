@@ -1,0 +1,2 @@
+1,"select distinct sp.z AS zz, ra, dec, bestObjID from specObj sp where sp.class = # and z > # and zWarning = #"
+2019-07-30 16:10:00,1

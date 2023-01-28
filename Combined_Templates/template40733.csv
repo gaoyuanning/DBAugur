@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.u, p.g, p.r, p.i, p.z into mydb.MyTable from PhotoObj AS p LEFT OUTER JOIN SpecObj s ON p. objID = s. bestObjID WHERE (p. type = # OR p. type = #) AND s. class is #."
+2019-05-21 13:45:00,1

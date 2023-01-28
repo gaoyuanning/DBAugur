@@ -1,0 +1,2 @@
+2,"select sp.specObjID, so.ra, so.dec, sp.MJD, sp.TEFFADOP, sp.LOGGADOP, sp.FEHADOP, sp.SNR, sp.ELODIERVFINAL, sp.ELODIERVFINALERR into mydb.MyTable from DR1#.sppParams as sp join (select specObjID, ra, dec from DR1#.SpecObjAll where class = #) as so on sp.specObjID = so.specObjID where sp.SNR > # and sp.TEFFADOP between # and # and sp.LOGGADOP between # and # and sp.FEHADOP between # and #"
+2019-10-09 07:06:00,2

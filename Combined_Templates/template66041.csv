@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.plate, s.mjd, s.fiberid FROM specobjall AS s WHERE s.class = # and (s.subclass = # or s.subclass = #) and s.snmedian > #"
+2019-09-26 01:10:00,1

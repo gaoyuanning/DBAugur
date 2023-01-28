@@ -1,0 +1,2 @@
+1,"select top # ra, dec, u, g, r, i, z, gnoe.distance*# from photoobj as pt join dbo.fgetnearbyobjeq (#, #, #) as gnoe on pt.objid = gnoe.objid order by gnoe.distance"
+2019-10-20 07:45:00,1

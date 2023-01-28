@@ -1,0 +1,2 @@
+1,"select m.mangaid, o.objID, m.objra, m.objdec, f.integr, f.rms, f.skyrms into mydb.bestheckinmanga from dbo.mangaDRPall as m, mydb.bestheck as b CROSS APPLY dbo.fGetNearestObjEq (b.RAJ2#, b.DEJ2#, #) AS n join m on m.objID = n.objID"
+2019-11-12 17:01:00,1

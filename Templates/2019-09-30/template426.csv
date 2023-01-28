@@ -1,0 +1,2 @@
+1,"select top #   specObjID,ra,dec,z,zErr,modelMag_u,modelMag_r,modelMag_g,modelMag_i,modelMag_z from SpecPhotoAll where   # < z and z < # and # < dec and dec < # and # < ra and ra < # and z != null and modelMag_u != null and modelMag_r != null and modelMag_g != null and modelMag_i != null and modelMag_z != null"
+2019-09-30 09:42:00,1

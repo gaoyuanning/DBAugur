@@ -1,0 +1,8 @@
+7,"SELECT TOP # ObjID, r, g, i, u into mydb.E_Galaxies from Galaxy as G WHERE G.lnlDev_r > G.lnlExp_r + # and G.lnlExp_r > # and (G.flags & (dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) )) > # and (G.flags & (dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) )) ! = dbo.fPhotoFlags (#) and (G.flags & (dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) )) = # and G.petroMag_i > # and (G.petroMag_r > # or G.petror5#_r > #) and (G.petroMag_r > # and G.g > # and G.r > # and G.i > #) and ( (G.petroMag_r - G.extinction_r) < # and (G.petroMag_r - G.extinction_r < (# + (#/#) * (G.g - G.r) + # * (G.r - G.i) - # * #) ) and ( (G.r - G.i - (G.g - G.r) /# - #) < #) and ( (G.r - G.i - (G.g - G.r) /# - #) > #) ) or ( (G.petroMag_r - G.extinction_r < #) and ( (G.r - G.i - (G.g - G.r) /# - #) > (# - #* (G.g - G.r) )) and ( (G.g - G.r) > (# + # * (G.r - G.i) )) )"
+2019-08-09 10:54:00,1
+2019-08-12 10:05:00,1
+2019-08-12 10:06:00,1
+2019-08-12 10:09:00,1
+2019-08-12 10:10:00,1
+2019-08-12 10:11:00,1
+2019-08-12 10:13:00,1

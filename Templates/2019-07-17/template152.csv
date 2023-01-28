@@ -1,0 +1,2 @@
+1,"select top #  flags, flags_u, flags_g, flags_r, flags_i, flags_z from photoobjall as p where  type = # and  clean = #"
+2019-07-17 18:24:00,1

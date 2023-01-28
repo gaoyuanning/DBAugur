@@ -1,0 +1,3 @@
+2,"SELECT    gal.run, gal.camCol, gal.field, gal.objID, gal.ra, gal.dec, s.z,   gal.raErr, gal.decErr, s.zErr, s.zwarning,   s.class, s.sourcetype. s.firstrelease INTO mydb.LRG_SAMPLE_CHANGE_withspec FROM Galaxy as gal   JOIN specobj as s ON s.bestobjid = gal.objid WHERE ( ( flags & (dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&)) ) > #     and ( flags & (dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&)) ) != dbo.fPhotoFlags(&&&)     and ( flags & (dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&)) ) = #"
+2019-12-19 07:39:00,1
+2019-12-19 07:40:00,1

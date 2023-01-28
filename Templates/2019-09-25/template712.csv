@@ -1,0 +1,3 @@
+2,"SELECT TOP # z, class, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z from SpecPhotoAll order by z DESC"
+2019-09-25 03:13:00,1
+2019-09-25 03:20:00,1

@@ -1,0 +1,2 @@
+1,"select RunID, sum (x*y - #) as derived, cst = count (ID) from Data where x > # and x+y between # and # group by RunID order by RunID asc select top # x, y, x*y - # as derived from Data where x > # and x+y between # and # order by x*y desc"
+2019-11-18 12:37:00,1

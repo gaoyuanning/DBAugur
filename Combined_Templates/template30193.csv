@@ -1,0 +1,2 @@
+1,"select p.u, p.g, p.r from photoObj as p where p.objId ="
+2019-04-14 20:15:00,1

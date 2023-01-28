@@ -1,0 +1,2 @@
+1,"SELECT ra,dec, dbo.fGetNearestObjIdEq(ra,dec,#) as objId FROM mydb.test_radec  into mydb.test_# WHERE dbo.fGetNearestObjIdEq(ra,dec,#) IS NOT NULL  SELECT TOP #   p.ra,p.dec, p.run,p.rerun,p.camCol,p.field,p.obj  FROM PhotoObj AS p,   mydb.test_# as a,   SpecObj as s       WHERE  ( p.type = # OR p.type = #) and s.objId=a.objId and p.objID=s.ObjID"
+2019-02-24 09:03:00,1

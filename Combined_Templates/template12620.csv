@@ -1,0 +1,2 @@
+1,"SELECT TOP # e.plate, e.mjd, e.fiberID, e.sigmaStars, e.sigmaStarsErr FROM emissionLinesPort AS e where e.mjd = #"
+2019-02-20 10:01:00,1

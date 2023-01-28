@@ -1,0 +1,2 @@
+2,"SELECT TOP #   o.u, o.g, o.mode FROM DR1#.PhotoPrimary as o where o.mode = # and   (o.ra > #) and   (o.ra < #) and   (o.dec > #) and	   (o.dec < #)"
+2019-03-02 16:31:00,2

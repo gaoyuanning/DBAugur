@@ -1,0 +1,6 @@
+5,"SELECT p.run, p.rerun, p.camcol, p.field FROM PhotoObj as p WHERE (p.ra > # AND p.ra < #) AND (p.dec > # AND p.dec < #)"
+2019-03-03 09:35:00,1
+2019-03-03 10:57:00,1
+2019-03-03 11:20:00,1
+2019-03-03 12:00:00,1
+2019-03-03 12:29:00,1

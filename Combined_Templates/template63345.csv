@@ -1,0 +1,9 @@
+9,"select top # * FROM SpecObjAll as s, SpecPhotoAll as ph, sppParams as spp where s.SPECOBJID = spp.SPECOBJID and spp.SPECOBJID = ph.specObjID"
+2019-09-16 09:09:00,1
+2019-09-16 09:10:00,1
+2019-10-15 13:01:00,1
+2019-10-21 01:22:00,1
+2019-10-21 07:26:00,1
+2019-11-15 11:46:00,1
+2019-11-15 11:58:00,2
+2019-12-19 06:45:00,1

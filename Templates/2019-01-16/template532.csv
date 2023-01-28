@@ -1,0 +1,2 @@
+1,"select top # G.ra as G_ra, zns.ra as z_ra, G.dec as G_dec, zns.dec as z_dec from Galaxy as G   join zooNoSpec as zns   on G.objID = zns.objid where clean = # and   zns.nvote > # and   G.petroR9#_g between # and #"
+2019-01-16 02:02:00,1

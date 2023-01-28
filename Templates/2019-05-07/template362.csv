@@ -1,0 +1,2 @@
+1,SELECT TOP # * FROM PhotoObj WHERE (htmid*# & #) < (# * #)
+2019-05-07 15:33:00,1

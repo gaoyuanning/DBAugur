@@ -1,0 +1,2 @@
+1,"SELECT top #   m.id AS ID, m.RA AS ra1, m.DEC AS dec1,    stack.ra AS ra, stack.dec  AS dec,    stack.psfMag_u AS umag, stack.psfMagErr_u AS umagerr   stack.psfMag_g AS gmag, stack.psfMagErr_g AS gmagerr   stack.extinction_u AS extinction_u,  FROM MyDB.browncat_bootes AS m     OUTER APPLY dbo.fGetNearestObjEq( m.ra, m.dec, #) AS n     LEFT JOIN StackObjectThin AS stack ON n.objid=stack.objID"
+2019-03-26 19:41:00,1

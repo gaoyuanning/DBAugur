@@ -1,0 +1,7 @@
+6,"SELECT ra, dec FROM star WHERE (ra between # and #) and (dec between # and #) and (petroMag_g < #) and (petroMag_g>#)"
+2019-03-10 01:48:00,1
+2019-03-10 01:49:00,1
+2019-03-10 02:15:00,1
+2019-03-10 03:47:00,1
+2019-03-10 03:48:00,1
+2019-03-10 10:20:00,1

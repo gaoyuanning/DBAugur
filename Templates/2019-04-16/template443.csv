@@ -1,0 +1,7 @@
+6,"SELECT EID,[Diastolic_blood_pressure_automated_reading_#],[Diastolic_blood_pressure_manual_reading_#],[Pulse_rate_during_blood_pressure_measurement__#],[Pulse_rate_automated_reading_#],[Systolic_blood_pressure_automated_reading_#],[Systolic_blood_pressure_manual_reading_#] FROM Blood_pressure GO"
+2019-04-16 08:56:00,1
+2019-04-16 08:58:00,1
+2019-04-16 10:12:00,1
+2019-04-16 10:14:00,1
+2019-04-16 10:17:00,1
+2019-04-16 10:35:00,1

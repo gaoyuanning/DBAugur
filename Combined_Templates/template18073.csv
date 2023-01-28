@@ -1,0 +1,3 @@
+2,"SELECT mytab.thingid, mytab.ndetect, mytab.objid, mytab.ra, mytab.dec, mytab.mjd, into mydb.MyTable_# from MyTable_# as mytab where mytab.objid IS # ORDER BY p.mjd DESC"
+2019-03-06 05:35:00,1
+2019-03-06 05:37:00,1

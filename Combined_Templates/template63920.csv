@@ -1,0 +1,2 @@
+1,"select top # q.*, p.type, p.probPSF from mydb.qsophoto as q join photoprimary as p on p.objid = q.objid"
+2019-09-18 15:49:00,1

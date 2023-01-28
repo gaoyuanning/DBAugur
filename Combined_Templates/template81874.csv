@@ -1,0 +1,3 @@
+2,"SELECT m.plate, m.fiberid, m.mjd, d.primtarget, d.fprimtargetN (d.primtarget) from Mydb.pfmQN as m join dbo.specobjall as d on m.plate = d.plate where m.plate = d.plate and m.fiberid = d.fiberid and m.mjd = d.mjd INTO mydb.attempt4"
+2019-12-10 06:33:00,1
+2019-12-10 06:36:00,1

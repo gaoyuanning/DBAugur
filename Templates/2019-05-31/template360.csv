@@ -1,0 +1,2 @@
+1,"SELECT ph.ra, ph.dec, n.objID, n.neighborObjID into MyDB.redmappermatch1    FROM MyDB.redmapper1 as p, Neighbors n    Join PhotoObjAll ph ON ph.objID = n.objID    WHERE   n.distance < p.#SearchRadius and   ph.petroMag_i< p.#i and   /*make sure objects found are galaxies*/   n.type = # and   n.neighborType = # and   /*Primary objects*/   n.mode = # and   n.neighborMode = # and    n.ra = p.ra and    n.dec = p.#dec"
+2019-05-31 13:05:00,1

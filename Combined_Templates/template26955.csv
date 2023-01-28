@@ -1,0 +1,4 @@
+3,"select s.specobjid, s.ra, s.dec, z, zerr, zwarning, class, subclass, z_noqso into mydb.specz from mydb.specii as u Join specobjALL as s on s.specobjid = u.specobjid"
+2019-04-02 04:55:00,1
+2019-04-02 04:56:00,1
+2019-04-02 04:57:00,1

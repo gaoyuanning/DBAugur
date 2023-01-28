@@ -1,0 +1,2 @@
+1,"select      bucket_floor as date,     CONCAT(bucket_floor, &&&, bucket_ceiling) as bucket_name,     count(*) as count from (     select          floor(creationDate/#)*# as bucket_floor,         floor(creationDate/#)*# + # as bucket_ceiling     from t_sciserverentity where dtype=&&& ) a group by #, # order by #;"
+2019-11-26 11:21:00,1

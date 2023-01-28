@@ -1,0 +1,10 @@
+12,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, IS# (s.specobjid, #) AS specobjid, IS# (s.z, #) AS zs , IS# (s.class, #) AS class , IS# (s.subclass, #) AS subclass FROM PhotoObj AS p LEFT OUTER JOIN SpecObj AS s ON s.bestobjid = p.objid"
+2019-07-18 09:21:00,1
+2019-07-18 09:32:00,1
+2019-07-18 09:33:00,1
+2019-07-18 09:34:00,2
+2019-07-18 09:38:00,1
+2019-07-18 09:39:00,2
+2019-07-18 09:42:00,2
+2019-07-18 09:47:00,1
+2019-07-18 11:44:00,1

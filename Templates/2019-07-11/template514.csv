@@ -1,0 +1,2 @@
+1,"SELECT  count(*) FROM    fGetNearbyObjEq(#.,#.,#.* #) n   JOIN photoprimary as P on n.objID = p.objID    JOIN dr1#..SpecObj as S on P.objid = S. bestObjID   JOIN PhotoZ as pz on P.objid = pz.objid WHERE  (dered_r-dered_i) <  # AND (dered_r-dered_i) > # AND (dered_g-dered_r) <  # AND (dered_g-dered_r) > # AND (cmodelmag_i-extinction_i) BETWEEN # AND # AND   fiber2mag_i < # AND   AND s.z < #   AND s.velDisp > #. INTO micado_galaxies_loRG_rho_#_#"
+2019-07-11 03:38:00,1

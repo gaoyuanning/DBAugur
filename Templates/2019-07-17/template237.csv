@@ -1,0 +1,3 @@
+2,"SELECT TOP #    a.idc, a.objid, a.modelmag_r,    p.objid as pid , p.modelmag_r as pmag ---INTO MyDB.aa FROM MyDB.agnvec AS a   LEFT OUTER JOIN PhotoObj AS p ON a.objid=p.objid"
+2019-07-17 14:59:00,1
+2019-07-17 15:00:00,1

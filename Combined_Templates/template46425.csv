@@ -1,0 +1,2 @@
+1,"select a.*, t.objid as matched_id, s.z from #tmp t JOIN MYDB.SecondID5 a ON t.up_id = a.search_id JOIN specobj s ON s.bestobjid = t.objidCREATE TABLE #UPLOAD ("
+2019-06-18 16:14:00,1

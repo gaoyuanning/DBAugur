@@ -1,0 +1,2 @@
+1,"SELECT st.objid, st.ra, st.dec, st.petroRad_r, st.petroMag_r, dbo.fPhotoTypeN (st.type) as type FROM Star AS st, fGetNearbyObjEq (#, #, #) AS n WHERE st.objID = n.objID"
+2019-08-22 20:49:00,1

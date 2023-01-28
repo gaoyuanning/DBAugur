@@ -1,0 +1,2 @@
+1,"select @bin float = # select x = round (x/@bin, #) *@bin, n = count (ID) into myhistogram from data group by round (x/#bin, #) *@bin order by #"
+2019-04-24 12:55:00,1

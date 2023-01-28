@@ -1,0 +1,2 @@
+1,"SELECT ALL p.modelMag_g, p.modelMag_r,     FROM PhotoPrimary as p WHERE (ra between # and #) and (dec between # and #) and Type = #"
+2019-03-07 17:25:00,1

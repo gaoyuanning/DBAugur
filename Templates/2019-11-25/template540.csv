@@ -1,0 +1,2 @@
+1,"SELECT   fieldID,   skyVersion,   run,      rerun,   camcol,                    field,     nObjects,    nChild,   nGalaxy,   nStars,   raMin,   raMax,   decMin,   decMax,   mjd_u,mjd_g,mjd_r,mjd_i,mjd_z    into mydb.test3 from Field      WHERE run=#"
+2019-11-25 01:46:00,1

@@ -1,0 +1,4 @@
+4,"SELECT TOP # gsl.h_beta_reqw, gsl.h_beta_reqw_err, gsl.oii_#_reqw, gsl.oii_#_reqw_err, gsl.nii_#_reqw, gsl.nii_#_reqw_err, gsl.h_alpha_reqw, gsl.h_alpha_reqw_err, p.objid, p.ra, p.dec, p.petror9#_r, p.dered_z, p.dered_r, p.dered_g FROM Galaxy as p JOIN galSpecLine AS gsl ON p.specobjid = gsl.specobjid"
+2019-04-18 16:20:00,2
+2019-04-18 16:23:00,1
+2019-04-18 16:24:00,1

@@ -1,0 +1,3 @@
+5,"select count (*) from data select count (*) from Data as d, Runs r, Users u where d.RunID = r.RunID and r.UserID = u.UserID"
+2019-11-18 12:53:00,1
+2019-11-18 12:54:00,4

@@ -1,0 +1,3 @@
+2,"select SpecObjID, ra, dec, z, logMass, ssfr from stellarMassFSPSGranEarlyDust ssfr BETWEEN # and #"
+2019-02-28 20:40:00,1
+2019-02-28 20:41:00,1

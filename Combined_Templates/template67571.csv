@@ -1,0 +1,2 @@
+1,"SELECT run, camCol, rerun, field, objID, thingId, type, ra, dec, raErr, decErr, psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z, psfMagErr_u, psfMagErr_g, psfMagErr_r, psfMagErr_i, psfMagErr_z, u, g, r, i, z, err_u, err_g, err_r, err_i, err_z into mydb.MyTable from Star or Galaxy WHERE ( (u - g > #) or (u > #) ) and (i < #) and (i > #) and (g - r > #) and ( (r - i < (# + # * (g - r - #) )) or (g - r > #) ) and (i - z < #) and (dec between # and #)"
+2019-10-03 01:54:00,1

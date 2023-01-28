@@ -1,0 +1,2 @@
+1,"SELECT one, two FROM (SELECT  CASE WHEN N.psfMag_i BETWEEN # AND # THEN # END one,  CASE WHEN NN.psfMag_i BETWEEN # AND # THEN # END two  FROM   dbo.fGetNearbyObjEq(#,#,#) as N,  dbo.fGetNearbyObjEq(#,#,#) as NN  INNER JOIN PhotoTag ON PhotoTag.objID = NN.objID) PhotoTag"
+2019-02-03 10:20:00,1

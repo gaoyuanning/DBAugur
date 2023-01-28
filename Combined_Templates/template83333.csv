@@ -1,0 +1,2 @@
+1,"select gsl.h_alpha_flux as haflux, gsl.h_beta_flux as hbetaflux, gsl.oiii_#_flux as oiiiflux, s.elodiefeh as metallicity from galaxy p, specobj s, galspecline as gsl where p.objid = s.bestobjid and s.specobjid = gsl.specobjid and s.subclass = starforming#"
+2019-12-16 22:32:00,1

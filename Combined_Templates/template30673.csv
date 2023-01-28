@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra, dec into mydb.tmp1# from Galaxy as g WHERE ra between # and # AND dec between # and # AND petroMag_r-extinction_r < # AND psfMag_r-cmodelMag_r > =# AND specObjID = #"
+2019-04-15 11:36:00,1

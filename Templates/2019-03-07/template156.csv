@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.specobjid, s.class, s.z as redshift,  s.ra, s.dec, s. FROM   SpecObj AS s WHERE   s.z BETWEEN # AND #"
+2019-03-07 21:21:00,1

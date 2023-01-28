@@ -1,0 +1,2 @@
+1,"select x = ROUND (x/@b, #) *@b, cts = count (ID) from Data where x > # group by Round (x/@b, #) *@b having count (ID) > # order y #"
+2019-11-18 12:42:00,1

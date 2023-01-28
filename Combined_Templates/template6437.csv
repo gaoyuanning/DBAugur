@@ -1,0 +1,3 @@
+2,"select top # --p.ra as RA, p.dec as DEC, p.u as u_mMAG, p.r as r_mMAG, p.objID as pID, p.modelMag_u as better_u, p.modelMag_r as better_r , s.bestObjID as sID, IS# (s.z, #) --into MyDB.ur_modelMag_DR from PhotoObjAll as p, SpecObjAll as s where s.z between # and # and p.objID = s.bestObjID"
+2019-01-27 06:27:00,1
+2019-01-27 06:29:00,1

@@ -1,0 +1,6 @@
+5,"SELECT p.objID, p.ra, p.dec, p.cmodelmag_g, p.cmodelmag_r, p.petromag_g, p.petromag_r, p.petrorad_g, p.petrorad_r, p.petror5#_g, p.petror5#_r, p.devrad_g, p.devrad_r, p.exprad_g, p.exprad_r FROM PhotoObjAll as p JOIN dbo.fGetNearbyObjEq (#, #, #) AS r ON p.objID = r.objID"
+2019-03-30 15:53:00,1
+2019-03-30 15:56:00,1
+2019-03-30 20:53:00,1
+2019-03-30 20:54:00,1
+2019-03-30 20:57:00,1

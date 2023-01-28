@@ -1,0 +1,3 @@
+2,"select  S.objid as ID, S.ra as ra, S.dec as dec, S.class, S.subClass, S.z, S.zerr, S.petroMag_u as umag, S.petroMag_g as gmag, S.petroMag_r as rmag, S.petroMag_i as imag, S.petroMag_z as zmag, W.w1mpro as W1, W.w2mpro as W2, S.psfMag_g as psfgmag, S.psfMag_r as psfrmag, S.psfMag_i as psfimag into mydb.zptrain from dr1#.SpecPhotoAll as S  join dr1#.wise_xmatch as X on S.objid = X.sdss_objid  join dr1#.wise_allsky as W on X.wise_cntr = W.cntr where (S.nchild = # and (S.dec<# and S.b<#)   and W.w1mpro-W.W2mpro>#+sqrt(W.w1sigmpro*W.w1sigmpro+W.w2sigmpro*W.w2sigmpro)   )"
+2019-03-07 08:23:00,1
+2019-03-07 08:24:00,1

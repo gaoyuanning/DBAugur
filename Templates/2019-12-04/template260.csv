@@ -1,0 +1,2 @@
+1,"SELECT   p.ObjID, p.ra, p.dec, p.cModelMag_u, p.cModelMag_g, p.cModelMag_r, p.cModelMag_i, p.cModelMag_z, p.cModelMagErr_u, p.cModelMagErr_g, p.cModelMagErr_r,    p.cModelMagErr_i, p.cModelMagErr_z into MYSCRATCH.photometricdata from DR1#.PhotoObjAll AS p   WHERE p.ra > # AND p.ra < # AND p.dec > # AND p.dec < #"
+2019-12-04 15:37:00,1

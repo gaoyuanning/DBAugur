@@ -1,0 +1,2 @@
+2,"SELECT TOP #  p.dered_u, p.dered_g, p.dered_r, p.dered_i, p.dered_z, s.z AS redshift  FROM SpecObj s INNER JOIN PhotoObj AS p ON s.bestobjID=p.objID WHERE p.type=# AND s.z BETWEEN # AND #"
+2019-05-07 07:38:00,2

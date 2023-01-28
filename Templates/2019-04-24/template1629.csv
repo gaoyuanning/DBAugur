@@ -1,0 +1,2 @@
+1,"select SUBSTRING(Name, #, #) AS ExtractString group by Name from chinook.Artist;"
+2019-04-24 00:57:00,1

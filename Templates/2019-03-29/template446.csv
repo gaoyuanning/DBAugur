@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra,dec, flags  FROM Galaxy  WHERE  ((flags_r & #) = #)  AND ((flags_r & #) = #)"
+2019-03-29 14:53:00,1

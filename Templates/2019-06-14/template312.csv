@@ -1,0 +1,2 @@
+1,"select  SpecObj.specObjID, SpecObj.fiberID, PhotoObj.u, PhotoObj.g, PhotoObj.r, PhotoObj.i, PhotoObj.z, SpecObj.z, PlateX.plateID,  u,g,r,i,z,redshift,plate/mjd, fiber number from  SpecObj s, PhotoObj p, PlateX l where p.g BEWTEEN # and # AND s.z<#"
+2019-06-14 14:20:00,1

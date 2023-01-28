@@ -1,0 +1,2 @@
+1,"select      p.objid as sdss_id,   s.specobjid as spec_id,   s.bestobjid as best_id,      p.ra as ra,   p.dec as dec,      p.psfMag_u, p.psfMagErr_u,   p.psfMag_g, p.psfMagErr_g,   p.psfMag_r, p.psfMagErr_r,   p.psfMag_i, p.psfMagErr_i,   p.psfMag_z, p.psfMagErr_z      into mydb.s8#qsos from photoobj as p   join specobj as s on s.bestobjid = p.objid      where s.objtype = #"
+2019-11-12 11:46:00,1

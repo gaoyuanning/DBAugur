@@ -1,0 +1,2 @@
+1,"SELECT top # o.objid, m.ra AS ra1, m.dec AS dec1, o.ra AS ra2, o.dec AS dec2, m.apstar_id, m.apogee_id, params.*, paramerrs.*, elems.*, elemerrs.*, elemsALL.* into mydb.MyTable_# from mydb.MyTable_# AS m JOIN aspcapStar AS s ON m.apstar_id = s.apstar_id CROSS APPLY dbo.fAspcapParams (s.aspcap_id) params CROSS APPLY dbo.fAspcapParamErrs (s.aspcap_id) paramerrs CROSS APPLY dbo.fAspcapElems (s.aspcap_id) elems CROSS APPLY dbo.fAspcapElemErrs (s.aspcap_id) elemerrs CROSS APPLY dbo.fAspcapElemsAll (s.aspcap_id) elemsALL"
+2019-06-07 06:16:00,1

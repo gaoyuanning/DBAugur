@@ -1,0 +1,3 @@
+2,"SELECT  s.objID,p.z into mydb.dr1#_zphot from SpecPhoto as s      JOIN Photoz AS p ON  p.objID=s.objID"
+2019-03-19 11:24:00,1
+2019-03-19 11:32:00,1

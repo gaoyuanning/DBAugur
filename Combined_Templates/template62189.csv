@@ -1,0 +1,2 @@
+1,"SELECT p.objid, deVPhi_r into mydb.MyTable from PhotoObjAll p where deVPhi_r> #"
+2019-09-10 09:32:00,1

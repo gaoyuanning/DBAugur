@@ -1,0 +1,2 @@
+1,"SELECT     fieldID,      raMin, raMax, decMin, decMax,      run, rerun, camcol, field FROM dbo.Field  ORDER BY run, field, camcol"
+2019-01-08 09:09:00,1

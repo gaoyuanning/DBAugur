@@ -1,0 +1,2 @@
+1,"select (a.ra + b.ra + c.ra + d.ra) , (b.dec + a.dec + c.dec + d.dec) into mydb.MyTable from bars as a, bars_# as b, bars_# as c, bars_# as d"
+2019-06-25 03:07:00,1

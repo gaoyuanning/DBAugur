@@ -1,0 +1,2 @@
+2,"select b.eid,b.Qualifications_#,a.encoding_id from dbo.Education b  join metadata.columninfo a on a.column_name=Qualifications_# AND a.table_name=&&&"
+2019-09-17 14:55:00,2

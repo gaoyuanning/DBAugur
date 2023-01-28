@@ -1,0 +1,2 @@
+2,select * from dbo.SpecObjAll where plateID=# and fiberID=#
+2019-11-07 01:24:00,2

@@ -1,0 +1,2 @@
+1,"select FullAddress, GeogArea, GeogString=Geog.ToString()  from RealPropertiesAll where Neighborhood like &&&"
+2019-12-13 09:21:00,1

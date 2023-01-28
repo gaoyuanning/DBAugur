@@ -1,0 +1,2 @@
+1,"SELECT m.*, p.objid, p.petromag_r - p.extinction_r as magPetro_r, p.petromag_g - p.extinction_g as magPetro_g, p.fiberMag_r, p.petroMag_r, p.modelMag_r, p.fiberMag_z, p.petroMag_z, p.modelMag_z, s.veldisp as sigma INTO myDB.cgs_out_dr1# FROM myDB.cgs as m, PhotoObj as p, specObj as s WHERE p.objid = m.objid_dr1# AND p.objID = s.bestObjID"
+2019-11-07 06:55:00,1

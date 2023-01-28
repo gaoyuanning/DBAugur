@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, g, r, modelmag_g, modelmag_g-#*log1# (#E+#*z) +# as abs_mag_g FROM SpecPhoto WHERE modelmag_g-#*log1# (#E+#*z) +# < # AND z> # AND z< # AND g-r< #"
+2019-04-17 09:10:00,1

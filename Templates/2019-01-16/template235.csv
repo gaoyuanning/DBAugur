@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objID, p.ra, p.dec FROM SpecObj AND JOIN PhotoObj p ON p.objID = s.bestobjID WHERE s.class= &&& AND zwarning =# AND p.ra BETWEEN # AND # AND p.dec BETWEEN # AND #"
+2019-01-16 11:19:00,1

@@ -1,0 +1,3 @@
+2,"select sp.bestObjID, sp.ra, sp.dec, sp.z from SpecObj sp where abs (sp.ra - #) < # AND abs (sp.dec - (#) ) < #"
+2019-08-05 14:14:00,1
+2019-08-05 14:15:00,1

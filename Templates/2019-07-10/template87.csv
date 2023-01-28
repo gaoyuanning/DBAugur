@@ -1,0 +1,2 @@
+1,"SELECT ALL  p.objid,p.distance, s.z as redshift FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   p.u BETWEEN # AND #  AND g BETWEEN # AND #"
+2019-07-10 21:42:00,1

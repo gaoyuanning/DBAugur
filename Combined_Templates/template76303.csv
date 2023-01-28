@@ -1,0 +1,5 @@
+4,"SELECT top # objID, ra, dec, u, err_u, g, err_g, r, err_r, i, err_i, z, err_z, dered_u, dered_g, dered_r, dered_i, dered_z into mydb.TABLE3# from Galaxy WHERE ( (ra BETWEEN # AND # AND RAND () < #) AND (dec BETWEEN # AND #) )"
+2019-11-14 05:26:00,1
+2019-11-14 05:27:00,1
+2019-11-14 05:28:00,1
+2019-11-14 05:29:00,1

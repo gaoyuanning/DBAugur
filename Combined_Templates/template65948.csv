@@ -1,0 +1,4 @@
+7,"SELECT TOP # p.objID, p.ra, p.dec, p.cModelMag_g , s.z, s.class FROM PhotoObjAll as p join specObjAll as s on s.bestobjid = p.objID WHERE p.ra BETWEEN # AND # AND p.dec < # and s.class = #"
+2019-09-26 08:50:00,2
+2019-09-26 08:51:00,3
+2019-09-26 08:52:00,2

@@ -1,0 +1,2 @@
+2,"select top # sp.ra, sp.dec, sp.z, sp.objid from specphoto as sp where sp.objid = #"
+2019-02-25 18:53:00,2

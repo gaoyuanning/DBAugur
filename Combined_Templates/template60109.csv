@@ -1,0 +1,3 @@
+2,"SELECT s.ra, s.dec, s.psfMag_r FROM Stars s JOIN dbo.fGetNearbyObjEq (#, #, #) AS N on N.objID = s.objID WHERE SQRT (POWER (( (psfMag_u-psfMag_g) #) , #) + POWER (( (psfMag_g-psfMag_r) #) , #) + POWER (( (psfMag_r-psfMag_i) #) , #) + POWER (( (psfMag_i-psfMag_z) #) , #) ) < #"
+2019-09-02 18:00:00,1
+2019-09-02 18:01:00,1

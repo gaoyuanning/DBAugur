@@ -1,0 +1,4 @@
+102,SELECT DISTINCT s.z FROM PhotoObjAll AS p JOIN SpecObjAll s ON p.objID = s.bestObjID WHERE (s.plate=# AND s.mjd=# AND s.fiberid=#)
+2019-12-13 13:43:00,19
+2019-12-13 13:44:00,72
+2019-12-13 13:45:00,11

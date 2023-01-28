@@ -1,0 +1,2 @@
+1,"select cam.*, p.attr_value from cancer_study cs left outer join clinical_attribute_meta cam on cam.cancer_study_id = cs.cancer_study_id -- and cam.attr_id = # left outer join patient p on p.internal_id = cam.patient_id and p.attr_id = cam.attr_id where cs.cancer_study_identifier = #"
+2019-04-20 17:18:00,1

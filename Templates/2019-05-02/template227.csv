@@ -1,0 +1,2 @@
+1,"select   p.objID, s.specObjID, s.ra, s.dec, p.ra, p.dec, z, s.u, s.g, s.r, s.i, s.z       from   PhotoObjAll as p,    SpecObjAll as s  into MyDB.test1    where   p.objID=s.objectID   s.u between # and #, s.u-s.r between # and #"
+2019-05-02 19:26:00,1

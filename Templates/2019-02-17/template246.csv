@@ -1,0 +1,2 @@
+1,"select &&& as foo union all select top # case when ordinal_position > # then &&& else &&& end + column_name + &&& + data_type--,* from information_schema.columns where table_name like &&& order by ordinal_position   union all   select &&&"
+2019-02-17 14:36:00,1

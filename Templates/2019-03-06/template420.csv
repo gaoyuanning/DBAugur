@@ -1,0 +1,2 @@
+1,"SELECT CAST(ObjID     AS VARCHAR(#)) AS ObjID,        CAST(specobjid AS VARCHAR(#)) AS specobjid,               ra,dec,z, zErr, zWarning, class, subClass  FROM manu_DR1#_matched  ORDER BY specobjid"
+2019-03-06 15:17:00,1

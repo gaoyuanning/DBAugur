@@ -1,0 +1,4 @@
+3,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.run, p.rerun, p.camcol, p.field, g.* FROM zoo2MainPhotoz AS g JOIN PhotoObjAll AS p ON objID = g.dr8objid"
+2019-05-28 13:24:00,1
+2019-05-28 13:25:00,1
+2019-05-28 14:53:00,1

@@ -1,0 +1,2 @@
+1,"SELECT t.Name,t.objID,t.ra,t.dec,t.vlass,t.z,t.zErr,p.SpecObjID as n_objID,p.ra,p.dec,p.z,p.zErr,SQRT(POWER(((p.ra-t.ra)*cos((t.dec)*(#/#))),#)+(POWER((p.dec-t.dec),#)))*# as AngSep INTO mydb.vlassbd_angsep FROM mydb.bd_invlass_objid_spec as t, dbo.SpecObj as p where   p.ra between (t.ra-.#) and (t.ra+.#) and   p.dec between (t.dec-.#) and (t.dec+.#) and   p.type = # and   t.z between (p.z-.#) and (p.z+.#)"
+2019-12-26 15:59:00,1

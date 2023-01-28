@@ -1,0 +1,5 @@
+4,select * from photoObj where ra BETWEEN # and # AND dec BETWEEN # and #
+2019-06-26 22:07:00,1
+2019-06-26 22:08:00,1
+2019-06-26 22:09:00,1
+2019-06-26 22:29:00,1

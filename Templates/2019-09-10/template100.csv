@@ -1,0 +1,7 @@
+15,"SELECT s.ra,s.dec,s.plate,s.mjd,s.fiberid FROM BESTDR8..SpecObj as s 	JOIN #x AS x ON x.SpecobjID=s.SpecobjID JOIN #upload AS u ON u.up_id = x.up_id  WHERE  s.zWarning = # AND (s.class = &&&) AND (s.primTarget & (dbo.fPrimTarget(&&&) + dbo.fPrimTarget(&&&) + dbo.fPrimTarget(&&&) + dbo.fPrimTarget(&&&) + dbo.fPrimTarget(&&&)) > #) ORDER BY x.up_id"
+2019-09-10 18:26:00,1
+2019-09-10 18:29:00,3
+2019-09-10 18:30:00,5
+2019-09-10 18:31:00,3
+2019-09-10 18:37:00,2
+2019-09-10 18:43:00,1

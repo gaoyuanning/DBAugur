@@ -1,0 +1,3 @@
+3,"select TOP # p.objid, p.ra, p.dec, p.nuv_mag, p.nuv_magerr, p.fuv_mag, p.fuv_magerr, nuv_weight, nuv_artifact as survey into mydb.MyTable from dbo.PhotoObjAll as p"
+2019-11-04 15:35:00,2
+2019-11-04 15:50:00,1

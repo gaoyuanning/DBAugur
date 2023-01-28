@@ -1,0 +1,2 @@
+1,"SELECT TOP # run, mjd, fiber FROM SpecObj   WHERE z BETWEEN # AND #"
+2019-04-29 10:24:00,1

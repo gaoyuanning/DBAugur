@@ -1,0 +1,3 @@
+2,"SELECT specObjID, ra, dec, plate, mjd, fiberID into mydb.MyTable from specObjAll WHERE plate = # and eboss_target1 = #"
+2019-11-12 12:52:00,1
+2019-11-12 12:54:00,1

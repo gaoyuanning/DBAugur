@@ -1,0 +1,2 @@
+1,"SELECT   f.specObjID,   p.specObjID,   p.oiii_#_flux_err,   p.h_alpha_flux_err,   p.h_beta_flux_err,   p.nii_#_flux,   p.nii_#_flux_err      into mydb.MyTablenew2 from DR1#.galSpecInfo f    JOIN DR1#.galSpecline p ON p.specObjID = f.specObjID     WHERE   f.z BETWEEN # and #"
+2019-10-07 11:59:00,1

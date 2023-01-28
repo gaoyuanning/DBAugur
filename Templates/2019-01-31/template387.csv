@@ -1,0 +1,2 @@
+1,"SELECT  sp.psfMag_u, sp.psfMag_g, sp.psfMag_r, sp.psfMag_i, sp.psfMag_z, sp.psfMagErr_u, sp.psfMagErr_g, sp.psfMagErr_r, sp.psfMagErr_i, sp.psfMagErr_z into mydb.DR1#_# from SpecPhoto AS sp WHERE z BETWEEN # AND #   AND class=&&&"
+2019-01-31 12:19:00,1

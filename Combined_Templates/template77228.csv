@@ -1,0 +1,2 @@
+1,"SELECT p.elodieFeH, p.elodieBV FROM SpecObj WHERE class = # and z < #"
+2019-11-19 10:25:00,1

@@ -1,0 +1,2 @@
+1,"select   cntr_#,dist_x,pang_x,name_#,ra_#,dec_#,ra,dec,w1mpro,w1sigmpro,w1snr,w2mpro,w2sigmpro,w2snr,w3mpro,w3sigmpro,w3snr,w4mpro,w4sigmpro into mydb.MyTable from MyDB.NonMasers where   NonMasers.cntr_#=NonMasers_IPACangsep.cntr_# and NonMasers.dist_x=NonMasers_IPACangsep.dist_x group by cntr_# order by cntr_#"
+2019-07-18 14:48:00,1

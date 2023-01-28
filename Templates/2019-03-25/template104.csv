@@ -1,0 +1,3 @@
+3,"SELECT top #  ROW_NUMBER() OVER(ORDER BY z ASC) + # AS Row,   (ROW_NUMBER() OVER(ORDER BY z ASC) % #) + # AS Batch,   bestObjId, z, survey, subclass, ra, dec,   &&& + survey + &&& +  cast(run2d as varchar(#)) + &&& + format(plate, &&&) +  &&& + format(plate, &&&) + &&& + cast(mjd as varchar(#)) +   &&& + format(fiberid, &&&) + &&& as url FROM specObj WHERE class = &&& and zWarning = # AND bestObjId > #   AND survey IN (&&&, &&&)  AND snMedian > #  AND (z >= # AND z <= #)  AND (htmid*# & #) < (# * #)  ORDER BY z"
+2019-03-25 20:55:00,2
+2019-03-25 20:56:00,1

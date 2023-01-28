@@ -1,0 +1,2 @@
+1,"select top # z.z, z.objID  from photoObj p  join photoz z ON z.objID = p.objID  Join photoObjAll a ON a.objID = p.objID  where z.photoErrorClass =# AND p.modelMag_r < # AND p.modelMag_r > #"
+2019-04-16 07:28:00,1

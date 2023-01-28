@@ -1,0 +1,2 @@
+1,"SELECT TOP # G.ObjID, u, g, Q.ra, Q.dec, Q.z, Q.BestObjID, G.ObjID, G.z, N.distance  From Galaxy as G,   SpecObj as Q,   Neighbors as N   Where Q.class in (&&&, &&&)  and Q.z > #  and Q.z < #  and u < #   and Q.BestObjID = N.ObjID   and G.ObjID = N.NeighborObjID   and N.distance < #/#"
+2019-02-21 04:37:00,1

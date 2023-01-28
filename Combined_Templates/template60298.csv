@@ -1,0 +1,2 @@
+1,"SELECT s.plate, s.mjd, s.fiberid FROM PhotoObj as p JOIN sppParams s ON p.objID = s.bestObjID INTO mydb.p2#b WHERE s.plate = #"
+2019-09-02 06:22:00,1

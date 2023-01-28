@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.u,p.g,p.r,p.i,p.z  FROM ..PhotoObj AS p  WHERE ( p.type = # OR p.type = #)"
+2019-02-23 06:39:00,1

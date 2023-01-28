@@ -1,0 +1,2 @@
+1,"SELECT   p.objid, p.ra, p.dec, p.z into mydb.asasfsaf from PhotoObj as p WHERE   p.ra BETWEEN # AND # AND p.dec BETWEEN # AND # AND   p.z BETWEEN # AND #"
+2019-03-29 17:05:00,1

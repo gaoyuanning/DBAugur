@@ -1,0 +1,2 @@
+1,"SELECT t.specObjID, s.ra, s.dec, t.TEFFADOP, t.TEFFADOPUNC, t.LOGGADOP, t.LOGGADOPUNC, t.FEHADOP, t.FEHADOPUNC FROM sppParams AS t JOIN SpecObjAll AS s ON s.specObjID = t.specObjID WHERE s.zWarning = # INTO MyDB.sppP_Para"
+2019-01-08 00:48:00,1

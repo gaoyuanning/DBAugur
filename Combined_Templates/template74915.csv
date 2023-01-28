@@ -1,0 +1,3 @@
+2,"SELECT TOP # z.objid, k.petromag_g, k.petromag_r, k.petromag_i, (k.petromag_g-k.petromag_r) , k.deVAB_g, k.deVAB_r, p_el as elliptical, p_cw as spiralclock, p_dk as dontknow, p_acw as spiralanticlock, p_edge as edgeon, p_mg as merger FROM ZooNoSpec AS z JOIN PhotoObjAll AS k ON z.objid = k.objid"
+2019-11-10 22:10:00,1
+2019-11-10 22:11:00,1

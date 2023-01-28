@@ -1,0 +1,2 @@
+1,"SELECT objid, ra, dec, u, g, r, i, z INTO MyNewTable FROM SDSSDR7 WHERE ra BETWEEN # AND # AND dec BETWEEN # AND #"
+2019-11-12 08:26:00,1

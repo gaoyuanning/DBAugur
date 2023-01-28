@@ -1,0 +1,2 @@
+1,"select plate, MJD, fiberID from SpecObj where subClass = # and snMedian_g< #"
+2019-11-14 08:49:00,1

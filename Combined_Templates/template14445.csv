@@ -1,0 +1,2 @@
+1,"SELECT p.DR7objid, p.modelmag_g, p.modelmag_u, p.modelmag_i - p.modelmag_z FROM PhotoObjDR7 as p WHERE p.dr7objid = # or p.dr7objid = # or p.dr7objid = #"
+2019-02-26 18:47:00,1

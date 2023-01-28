@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.plate,s.mjd,s.fiberid FROM BESTDR7..SpecObj as s 	JOIN BESTDR7..Star AS p ON s.bestObjID = p.objID WHERE  (p.primTarget & (dbo.fPrimTarget(&&&)) > #)"
+2019-04-27 20:38:00,1

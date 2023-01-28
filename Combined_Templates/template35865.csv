@@ -1,0 +1,2 @@
+2,"SELECT n.sersic_n from DR1#.nsatlas as n dbo.fGetNearbyObjEq (#, #, #) as m on n.objID = m.objID"
+2019-04-30 03:49:00,2

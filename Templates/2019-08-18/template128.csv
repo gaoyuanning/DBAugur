@@ -1,0 +1,2 @@
+1,SELECT count(*) as &&& into mydb.target_all from PhotoPrimary
+2019-08-18 17:03:00,1

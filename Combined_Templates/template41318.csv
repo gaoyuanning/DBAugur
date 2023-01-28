@@ -1,0 +1,2 @@
+1,"SELECT ALL f.SpecObjID, z.specobjid, z.ra, z.dec, z.nvote_tot, z.p_el, z.p_cw, z.p_acw, z.p_edge, z.p_dk, z, p_mg, z.p_cs INTO mydb.SDSS_DR9_zooVotes FROM mydb.SDSS_DR9_ALL AS f JOIN zooVotes AS z ON f.SpecObjID = z.specobjid"
+2019-05-23 13:58:00,1

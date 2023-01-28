@@ -1,0 +1,2 @@
+1,"SELECT specObjID, z FROM SpecObjAll WHERE zWarning = # INTO MyDB.specz"
+2019-10-14 05:52:00,1

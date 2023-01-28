@@ -1,0 +1,2 @@
+1,"select top # a.name, a.parent from DBViewCols as a and DBObjects as b where a.name = b.name"
+2019-03-09 22:38:00,1

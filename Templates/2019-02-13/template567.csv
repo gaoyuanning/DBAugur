@@ -1,0 +1,2 @@
+1,"SELECT TOP # Messages.row_id, Messages.message_id, Messages.application, Messages.method, Messages.user_id, Messages.time, Messages.client_IP, JOBMMessages.content FROM Messages   INNER JOIN JOBMMessages ON Messages.row_id = JOBMMessages.row_id   WHERE     application NOT LIKE &&& AND     application <> &&& AND     application <> &&& ORDER BY time DESC;"
+2019-02-13 14:29:00,1

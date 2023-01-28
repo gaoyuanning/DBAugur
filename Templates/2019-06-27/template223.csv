@@ -1,0 +1,2 @@
+1,"SELECT Top #  specobjid, z, plate, mjd, fiberid, tile , xFocal , yFocal , zErr, zConf, zStatus, specClass, zWarning FROM SpecObj WHERE   specObjID>#"
+2019-06-27 19:05:00,1

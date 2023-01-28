@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, z FROM specObj WHERE  survey = &&& AND z BETWEEN # and #  AND class = &&& AND SPEC1_R >= #"
+2019-01-28 10:06:00,1

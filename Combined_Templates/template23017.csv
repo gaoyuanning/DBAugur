@@ -1,0 +1,2 @@
+2,"select photoobj.objid, photoz.z from photoobj, photoz where photoobj.ra between # and # and photoobj.dec between # and # and photoobj.objid = photoz.objid"
+2019-03-24 05:54:00,2

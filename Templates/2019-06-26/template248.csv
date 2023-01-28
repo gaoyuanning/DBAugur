@@ -1,0 +1,2 @@
+1,"select A.specObjID, A.plateid, A.mjd, A.z, A.spectrotype, A.subclass into mydb.MyTable_prueba from galspecInfo as A where   A.z<# and    A.subclass=&&&"
+2019-06-26 15:04:00,1

@@ -1,0 +1,3 @@
+2,"SELECT top # p.objid,p.ra,p.dec,p.u,p.g,p.r, sp.plate, sp.mjd, sp.fiberid, sp.specobjid, sp.bestobjid, sp.snr, sp.elodiervfinal, sp.teffadop, subclass, elodieSpType FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid  JOIN sppparams sp ON s.specobjid = sp.specobjid WHERE (elodieSpType LIKE &&&) AND snr > #  AND sp.seguePrimary = #"
+2019-06-03 15:30:00,1
+2019-06-03 15:32:00,1

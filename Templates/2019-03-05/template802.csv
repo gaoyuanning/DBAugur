@@ -1,0 +1,2 @@
+1,"SELECT TOP #  sm.specobjID, s.specobjID, sm.logMass  FROM   stellarMassPassivePort as sm JOIN SpecObj AS s ON s.specobjID = sm.specobjID JOING PhotoObj as p ON s.bestobjid = p.objid  WHERE   sm.ra > # and sm.ra < #"
+2019-03-05 01:54:00,1

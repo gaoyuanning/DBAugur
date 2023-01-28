@@ -1,0 +1,2 @@
+1,"SELECT TOP # S.ObjID, S.ra, S.dec, S.z, #, L.ew, L.ewErr, #, L_OII.ew , L_OII.ewErr FROM SpecPhoto AS S JOIN SpecLine AS L ON S.SpecObjID = L.SpecObjID JOIN SpecLine AS L_OII ON S.SpecObjID = L_OII.SpecObjID WHERE S.ra BETWEEN # AND # AND S.dec BETWEEN # AND # L.LineId = # and L_OII.LineId = #"
+2019-05-10 05:40:00,1

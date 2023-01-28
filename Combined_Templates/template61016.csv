@@ -1,0 +1,2 @@
+1,"SELECT *, ROW_NUMBER () AS row_number into mydb.MyTable from myDB.Hammond_Short HS"
+2019-09-04 06:03:00,1

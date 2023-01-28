@@ -1,0 +1,6 @@
+11,select Count(Track.TrackId) AS NumberOfTracks from chinook.Album Album JOIN chinook.Track Track ON (Album.AlbumID = Track.AlbumID) GROUP BY Album.Title) MyTable GROUP BY NumberOfTracks
+2019-04-20 17:16:00,3
+2019-04-20 17:17:00,3
+2019-04-20 17:18:00,1
+2019-04-20 17:20:00,1
+2019-04-20 17:22:00,3

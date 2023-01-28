@@ -1,0 +1,5 @@
+6,"SELECT t.objid , t.thingid, t.ndetect,t.ra,t.dec , p.mjd,p.u, p.g, p.r, p.i, p.z, p.err_u,p.err_g,p.err_r,p.err_i,p.err_z  FROM thingIndex t,detectionindex d ,photoobjall p,dbo.fgetNearByObjEq(# ,#,#) n where t.objid = n.objid and t.thingid = d.thingid and p.objid = d.objid Order by t.thingid"
+2019-01-16 10:04:00,2
+2019-01-16 10:12:00,2
+2019-01-16 11:15:00,1
+2019-01-16 11:16:00,1

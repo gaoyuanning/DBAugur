@@ -1,0 +1,2 @@
+2,"select ra, dec,parallax,pmra,pmdec, phot_g_mean_mag,phot_bp_mean_mag,phot_rp_mean_mag where abs(asin((#*cos(ra*PI()/#)+#*sin(ra*PI()/#))*cos(dec*PI()/#) +#*sin(dec*PI()/#))*#/PI()) <#     and ra># and ra<# and abs(parallax) < # and phot_g_mean_mag <# into MyTable.gd1_gaia2"
+2019-12-09 08:24:00,2

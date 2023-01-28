@@ -1,0 +1,2 @@
+1,"SELECT TOP # bestObjID, z as redshift FROM PhotoObj WHERE z BETWEEN # AND #"
+2019-03-24 20:47:00,1

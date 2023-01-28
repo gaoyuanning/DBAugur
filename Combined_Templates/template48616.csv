@@ -1,0 +1,2 @@
+1,"select top # s.objTypeName, s.z as redshift, p.objID, p.g, p.r, p.i from photoObj p, BESTDR1..SpecObj s where p.objID = s.specObjID"
+2019-06-27 14:17:00,1

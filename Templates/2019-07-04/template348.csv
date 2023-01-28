@@ -1,0 +1,2 @@
+1,"select   g.objid, p.u, p.g, p.r, p.i, z.p_mg into mydb.MyTable from photoobj p   join   galaxy g on g.objid=p.objid   join   zoonospec z on z.objid=p.objid   join    specobj s on p.objid=s.bestobjid where   z.p_mg># and   z.nvote># and   z.p_mg>z.p_dk and   p.r<# and   s.z<# and s.z>#"
+2019-07-04 09:20:00,1

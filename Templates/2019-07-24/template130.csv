@@ -1,0 +1,2 @@
+1,"select ra, dec, u, g, r, i, z, modelMagErr_u, modelMagErr_g, modelMagErr_r, modelMagErr_i, modelMagErr_z from star where g < # and (ra between # and #) and (dec between # and #) and clean=#"
+2019-07-24 18:55:00,1

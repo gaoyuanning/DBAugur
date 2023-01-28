@@ -1,0 +1,16 @@
+17,"SELECT top # p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.type, p.isoA_u, p.isoA_g, p.isoA_r, p.isoA_i, p.isoA_z, p.isoB_u, p.isoB_g, p.isoB_r, p.isoB_i, p.isoB_z, p.isoPhi_u, p.isoPhi_g, p.isoPhi_r, p.isoPhi_i, p.isoPhi_z, p.flags, dbo.fPhotoFlagsN (p.flags) FROM PhotoObj AS p WHERE p.ra BETWEEN # AND # AND p.dec BETWEEN # AND # AND (p.type = # OR (p.flags & dbo.fPhotoFlags (#) ) > #) ORDER by p.r"
+2019-08-30 12:18:00,1
+2019-08-30 12:19:00,1
+2019-08-30 12:20:00,1
+2019-08-30 12:22:00,1
+2019-08-30 12:24:00,1
+2019-08-30 12:28:00,2
+2019-08-30 12:30:00,1
+2019-08-30 13:13:00,1
+2019-08-30 13:22:00,1
+2019-08-30 13:23:00,2
+2019-09-02 05:37:00,1
+2019-09-03 12:06:00,1
+2019-09-04 01:32:00,1
+2019-09-04 01:33:00,1
+2019-09-04 01:57:00,1

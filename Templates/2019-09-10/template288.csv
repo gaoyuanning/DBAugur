@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, absMagU, absMagG, absMagR, absMagI, absMagZ, z, zErr FROM DR1#.Photoz WHERE z># INTO test"
+2019-09-10 12:17:00,1

@@ -1,0 +1,5 @@
+4,"select specObj.bestObjid, count(specline.restwave) as numlines from specObj, specLine where specObj.specObjID = specline.specObjID AND specLine.restwave > # AND specObj.bestObjID <> # group by specObj.bestObjID order by count(specLine.restwave) desc"
+2019-07-03 20:18:00,1
+2019-07-03 20:20:00,1
+2019-07-03 22:46:00,1
+2019-07-03 22:47:00,1

@@ -1,0 +1,2 @@
+1,"select distinct top # star.ra, star.dec, #*(star.ra  plate.racen)/cos(plate.deccen*PI()/#) as x, #*(star.dec  plate.deccen) as y, obj.j as mag from apogeestar as star join apogeeObject as obj on star.target_id = obj.target_id join apogeePlate as plate on star.location_id = plate.location_id where plate.plate = # order by mag"
+2019-12-31 11:44:00,1

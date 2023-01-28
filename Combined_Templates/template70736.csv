@@ -1,0 +1,2 @@
+1,"select top # p.objid, p.ra, p.dec, deVRad_u, deVRad_g, deVRad_r, deVRad_i, deVRad_z, expRad_u, expRad_g, expRad_r, expRad_i, expRad_z, p.u from galaxy p WHERE (htmid*# & # < (# * #) ) AND (p.u > # & p.u < #)"
+2019-10-21 14:53:00,1

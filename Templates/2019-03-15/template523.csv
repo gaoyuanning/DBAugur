@@ -1,0 +1,3 @@
+2,"select p.g,p.r,p.i from SpecObjs where subClass like &&& and snMedian_g>=#"
+2019-03-15 03:51:00,1
+2019-03-15 03:52:00,1

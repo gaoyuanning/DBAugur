@@ -1,0 +1,2 @@
+2,"SELECT TOP # e.plate, e.mjd, e.fiberID, e.sigmaStars, e.sigmaStarsErr FROM emissionLinesPort AS e"
+2019-02-20 09:59:00,2

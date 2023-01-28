@@ -1,0 +1,2 @@
+1,"SELECT  g.objid as objid, g.ra, g.dec, zns.nvote, zns.p_el as elliptical, zns.p_dk as dontknow, zns.p_mg as merger, g.petror9#_r as petror9#_r, g.fiberMag_g as fiberMag_g, S.velDisp as velDisp, g.g FROM dr1#..Galaxy as G JOIN dr1#..ZooNoSpec AS zns ON G.objid = zns.objid  JOIN dr1#..SpecObj as S on G.objid = S. bestObjID WHERE g.clean=# and zns.nvote > # and zns.p_el > # AND s.z <= # AND velDisp > #. INTO micado_galaxies"
+2019-07-03 10:01:00,1

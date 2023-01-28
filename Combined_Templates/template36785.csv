@@ -1,0 +1,3 @@
+2,"select p.objID, s.specObjID, s.mjd, s.plate, s.fiberID, s.z, s.ra, s.dec, p.ra, p.dec, p.u, p.g, p.i, p.r, p.z from PhotoObjAll as p, SpecObjAll as s where p.objID = s.bestObjID AND p.r-p.u between # and #"
+2019-05-04 11:25:00,1
+2019-05-04 11:31:00,1

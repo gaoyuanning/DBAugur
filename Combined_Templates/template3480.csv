@@ -1,0 +1,3 @@
+2,SELECT COUNT (*) into mydb.MyTable from SpecObj sp
+2019-01-15 03:11:00,1
+2019-01-15 03:14:00,1

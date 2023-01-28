@@ -1,0 +1,4 @@
+3,"SELECT TOP #   Z.specobjid, Z.p_el, Z.p_cw, Z.p_acw    INTO    mydb.sco_OG_zoo    FROM   zooVotes as Z"
+2019-09-17 02:12:00,1
+2019-09-17 02:24:00,1
+2019-09-17 02:25:00,1

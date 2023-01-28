@@ -1,0 +1,5 @@
+4,"select pa.objID, pa.ra, pa.dec, pa.modelMag_r, pa.flags, dbo.fPhotoFlags(&&&)  into mydb.tmp from PhotoObjAll as pa  WHERE (pa.dec between # and #.)   and (pa.ra between # and #)   and ((pa.flags & #) !=#)"
+2019-06-25 03:33:00,1
+2019-06-25 03:36:00,1
+2019-06-25 03:45:00,1
+2019-06-25 03:46:00,1

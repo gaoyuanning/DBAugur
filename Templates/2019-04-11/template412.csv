@@ -1,0 +1,3 @@
+2,"SELECT  	      ra, dec, u, g, r, i, z into mydb.SDSS_DI from dr1#.PhotoObjAll WHERE     ra < # and ra < # and dec > # and dec < #"
+2019-04-11 09:54:00,1
+2019-04-11 09:55:00,1

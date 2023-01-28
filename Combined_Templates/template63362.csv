@@ -1,0 +1,2 @@
+1,"SELECT TOP # absMagR, z FROM DR1#.Photoz WHERE z > # AND absMagR > # AND # > absMagR INTO absMagR_data"
+2019-09-16 07:54:00,1

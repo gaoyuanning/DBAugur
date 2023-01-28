@@ -1,0 +1,2 @@
+1,"SELECT    s.specobjid, s.plate, s.mjd, s.fiberid,   o.lineid, o.restWave, o.wave, o.sigma, o.height, o.z, o.continuum, o.ew into mydb.LBA1_n_spec FROM MyDB.LBA1_n AS s    JOIN speclineall AS o ON s.specobjid=o.specobjid"
+2019-12-18 02:42:00,1

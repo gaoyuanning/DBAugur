@@ -1,0 +1,2 @@
+1,"select * from optw.tamass.VARIABLES where UNIT=&&& and CONCEPT like &&&) select Commute=REPLACE(MIN(b.label),&&&,&&&), N=sum(v.VAL), BinMax=coalesce(min(binmax),#) from optw.tamass.VALS v     join bins b on b.ID=v.VARID     join optw.tamass.TRACTS t on t.ID=v.TRACTID where t.vintage = #     and geom.STArea() < #e9 -- m^# -- excluding huge tracts     and geom.STDistance(@center) < # / # * # -- meters group by VARID order by VARID asc"
+2019-12-15 13:02:00,1

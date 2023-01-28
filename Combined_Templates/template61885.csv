@@ -1,0 +1,2 @@
+2,select count (*) from galaxies where ra > # and ra < #
+2019-09-09 12:40:00,2

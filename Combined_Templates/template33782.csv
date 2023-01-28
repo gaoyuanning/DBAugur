@@ -1,0 +1,2 @@
+1,"SELECT TOP # Artist.Name as artsist, SUM (Track.UnitPrice) as prices FROM chinook.Track INNER JOIN chinook.Album on chinook.Track.AlbumId = chinook.Album.AlbumId GROUP BY Artist.Name, Track.UnitPrice ORDER BY SUM (Track.UnitPrice) DESC"
+2019-04-24 02:24:00,1

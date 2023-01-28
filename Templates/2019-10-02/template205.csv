@@ -1,0 +1,2 @@
+2,"SELECT   p.objid,sp.specobjid   into mydb.specobjid2objid  FROM   SpecPhoto as sp JOIN PhotoObj as p ON sp.objid=p.objid JOIN emissionLinesPort as em on sp.specobjid=em.specobjid"
+2019-10-02 16:02:00,2

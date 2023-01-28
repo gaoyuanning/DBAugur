@@ -1,0 +1,2 @@
+3,select * from dbo.specObjAll where specObjID = #
+2019-02-04 03:28:00,3

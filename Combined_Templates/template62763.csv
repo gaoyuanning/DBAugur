@@ -1,0 +1,2 @@
+1,"SELECT count (*) as #, sum (case when (s.class = #) then # else # end) as #, sum (case when (s.class = #) then # else # end) as #, sum (case when (s.class = # and s.subclass = #) then # else # end) as # sum (case when (s.class = # and s.subclass! =#) then # else # end) as # FROM WISE_xmatch as xm JOIN PhotoObj AS p on xm.sdss_objid = p.objid JOIN SpecObj AS s on p.objid = s.bestobjid JOIN WISE_allsky AS w on xm.wise_cntr = w.cntr"
+2019-09-12 09:18:00,1

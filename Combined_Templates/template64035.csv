@@ -1,0 +1,4 @@
+3,"select s.specobjid, s.z, s.mjd, s.plate, s.fiberID into mydb.SDSS_Spec_id from SpecPhotoAll as s left outer join PhotoObj as pa on s.objID = pa.objID ? WHERE s.zWarning = # and s.scienceprimary = # and (s.dec between # and #) and (s.ra between # and #) ? and ( (s.flags & #) = #) and ( (s.flags & #) = #) and ( (s.flags & #) = # or s.psfMagErr_r< =#) and ( (s.flags & #) = #)"
+2019-09-18 05:08:00,1
+2019-09-18 05:10:00,1
+2019-09-18 05:11:00,1

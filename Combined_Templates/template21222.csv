@@ -1,0 +1,2 @@
+1,"SELECT top # bestObjId, z, ra, dec, plate, mjd, fiberId, run2d, # + cast (run2d as varchar (#) ) + # + cast (plate as varchar (#) ) + # + cast (plate as varchar (#) ) + # + cast (mjd as varchar (#) ) + # + cast (fiberid as char (#) ) + # as url FROM specObjAll WHERE survey = # AND class = # and zWarning = # AND bestObjId > # AND (z > # AND z < #) AND (htmid*# & #) < (# * #)"
+2019-03-18 20:40:00,1

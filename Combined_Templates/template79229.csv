@@ -1,0 +1,16 @@
+19,"select count (expMag_u) , avg (expMag_u-#*log1# (#E+#*SpecObjAll.z) ), stdev (expMag_u-#*log1# (#E+#*SpecObjAll.z) ), avg (expMag_g-#*log1# (#E+#*SpecObjAll.z) ), stdev (expMag_g-#*log1# (#E+#*SpecObjAll.z) ), avg (expMag_r-#*log1# (#E+#*SpecObjAll.z) ), stdev (expMag_r-#*log1# (#E+#*SpecObjAll.z) ), avg (expMag_i-#*log1# (#E+#*SpecObjAll.z) ), stdev (expMag_i-#*log1# (#E+#*SpecObjAll.z) ), avg (expMag_z-#*log1# (#E+#*SpecObjAll.z) ), stdev (expMag_z-#*log1# (#E+#*SpecObjAll.z) ) from MyDB.DR1#_cw , PhotoObjAll, SpecObjAll where DR1#_cw.ID = PhotoObjAll.objID and SpecObjAll.bestObjID = DR1#_cw.ID and SpecObjAll.z> # and SpecObjAll.z< # and (PhotoObjAll.ra> # and PhotoObjAll.ra< #) and expMag_u> # and expMag_g> # and expMag_r> # and expMag_i> # and expMag_z> # and expMag_u< # and expMag_g< # and expMag_r< # and expMag_i< # and expMag_z< # and expMag_g-#*log1# (#E+#*SpecObjAll.z) < # and expMag_g-#*log1# (#E+#*SpecObjAll.z) > # select count (expMag_u) , avg (expMag_u-#*log1# (#E+#*SpecObjAll.z) ), stdev (expMag_u-#*log1# (#E+#*SpecObjAll.z) ), avg (expMag_g-#*log1# (#E+#*SpecObjAll.z) ), stdev (expMag_g-#*log1# (#E+#*SpecObjAll.z) ), avg (expMag_r-#*log1# (#E+#*SpecObjAll.z) ), stdev (expMag_r-#*log1# (#E+#*SpecObjAll.z) ), avg (expMag_i-#*log1# (#E+#*SpecObjAll.z) ), stdev (expMag_i-#*log1# (#E+#*SpecObjAll.z) ), avg (expMag_z-#*log1# (#E+#*SpecObjAll.z) ), stdev (expMag_z-#*log1# (#E+#*SpecObjAll.z) ) from MyDB.DR1#_ccw , PhotoObjAll, SpecObjAll where DR1#_ccw.ID = PhotoObjAll.objID and SpecObjAll.bestObjID = DR1#_ccw.ID and SpecObjAll.z> # and SpecObjAll.z< # and (PhotoObjAll.ra> # and PhotoObjAll.ra< #) and expMag_u> # and expMag_g> # and expMag_r> # and expMag_i> # and expMag_z> # and expMag_u< # and expMag_g< # and expMag_r< # and expMag_i< # and expMag_z< # and expMag_g-#*log1# (#E+#*SpecObjAll.z) < # and expMag_g-#*log1# (#E+#*SpecObjAll.z) > #"
+2019-11-26 02:34:00,1
+2019-11-26 02:36:00,1
+2019-11-26 02:37:00,1
+2019-11-26 02:40:00,1
+2019-11-26 02:42:00,1
+2019-11-26 02:56:00,1
+2019-11-26 03:01:00,1
+2019-11-26 03:02:00,1
+2019-11-26 03:04:00,2
+2019-11-26 03:06:00,2
+2019-11-26 03:07:00,1
+2019-11-26 03:08:00,1
+2019-11-26 03:09:00,2
+2019-11-26 03:10:00,2
+2019-11-26 03:17:00,1

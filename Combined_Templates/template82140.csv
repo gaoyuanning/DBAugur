@@ -1,0 +1,2 @@
+1,"SELECT TOP # sp.objID, sp.ra, sp.dec sp.ra, sp.dec, px.A, px.B, FROM specPhoto AS sp JOIN plateX AS px ON sp.plateID = px.plateID WHERE (sp.class = #) AND type = #"
+2019-12-11 09:14:00,1

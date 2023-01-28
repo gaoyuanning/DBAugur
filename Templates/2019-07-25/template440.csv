@@ -1,0 +1,2 @@
+1,"SELECT    m.*, s.specObjID, p.petroR5#_r, p.petroR9#_r, p.petroRad_r      INTO    myDB.TESTE7sssssss     FROM    myDB.TESTE1 as m, PhotoObjAll as p, specObjAll as s     WHERE  p.objID = m.objID and p.objID = s.bestObjID"
+2019-07-25 08:46:00,1

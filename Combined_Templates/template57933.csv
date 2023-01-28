@@ -1,0 +1,3 @@
+2,"SELECT plmatch.*, ph.objid as poa_objid, ph.psfmag_g, ph.psfmag_r into mydb.check FROM fGetNearbyObjEq (#, #, #) plmatch JOIN PhotoObjAll ph on ph.objid = plmatch.objid JOIN SegueTargetAll st on st.objid = ph.objid WHERE plmatch.type = # AND (ph.psfmag_g < # OR ph.psfmag_z < #) AND (st.segue2_target1 & #) ! = #"
+2019-08-16 12:31:00,1
+2019-08-16 12:32:00,1

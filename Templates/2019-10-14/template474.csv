@@ -1,0 +1,2 @@
+1,"SELECT specObjID, z, spectroFlux_u, spectroFlux_g, spectroFlux_r, spectroFlux_i, spectroFlux_z, eboss_target1, eboss_target2, boss_target1, legacy_target1, instrument, survey FROM dbo.SpecObjAll WHERE zWarning=#; class<>STAR&&&SCIENCE"
+2019-10-14 06:02:00,1

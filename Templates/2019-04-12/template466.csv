@@ -1,0 +1,2 @@
+1,"select    e.SystemStudentID,   ts.TestScore FROM Enrollments e   JOIN TestScores ts ON e.SystemStudentID=ts.SystemStudentID"
+2019-04-12 02:25:00,1

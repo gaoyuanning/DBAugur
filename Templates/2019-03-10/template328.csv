@@ -1,0 +1,2 @@
+1,"SELECT   p.ra,p.dec,p.modelMag_g FROM PhotoObjAll as p,    mydb.test_# as a,   SpecObjAll as s --into mydb.test7_photo WHERE ( p.type = # OR p.type = #) and a.objId=s.bestObjID and p.objID = s.bestObjID"
+2019-03-10 06:45:00,1

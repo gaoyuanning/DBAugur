@@ -1,0 +1,2 @@
+1,"select m.ra, m.dec, m.objid, p.z as Spectro_z, p.zerr as Spectro_z_err into mydb.Final_Spec_Z from MyDB.Gal_OBJIDS_RA_indexed m JOIN SpecOBJ p on p.bestobjid = m.objid WHERE m.ra IN ()"
+2019-01-09 16:24:00,1

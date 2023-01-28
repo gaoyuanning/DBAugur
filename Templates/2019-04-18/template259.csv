@@ -1,0 +1,2 @@
+1,"SELECT p.objId, s.z as z, n.distance as distance FROM galaxy AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid    JOIN Neighbors AS n ON n.objid = p.objid WHERE s.z < #"
+2019-04-18 16:56:00,1

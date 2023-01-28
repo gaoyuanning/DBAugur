@@ -1,0 +1,2 @@
+1,SELECT p.origObjID FROM SpecObjAll as p WHERE specObjID=#
+2019-05-22 13:34:00,1

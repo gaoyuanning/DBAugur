@@ -1,0 +1,2 @@
+1,"select spec_z as xcol, photo_z as ycol from MATLAS_allz_cleanonly where spec_z between # and # AND photo_z between # and #"
+2019-10-10 08:29:00,1

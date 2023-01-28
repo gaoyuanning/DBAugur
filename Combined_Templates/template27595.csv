@@ -1,0 +1,2 @@
+1,"select TOP # w.cntr, w.ra, w.dec, w.w1mpro from WISE_allsky w"
+2019-04-03 06:46:00,1

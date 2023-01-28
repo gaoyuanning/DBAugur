@@ -1,0 +1,2 @@
+2,SELECT COUNT(*) into mydb.SDSSdefLRGcount from Galaxy JOIN wiseForcedTarget ON Galaxy.objID = wiseForcedTarget.objID
+2019-09-17 19:29:00,2

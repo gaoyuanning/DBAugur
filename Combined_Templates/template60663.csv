@@ -1,0 +1,2 @@
+1,"SELECT TOP # catalog_ra, catalog_dec into mydb.MyTable from mangatarget WHERE MANGA_TARGET3 = = #"
+2019-09-03 03:43:00,1

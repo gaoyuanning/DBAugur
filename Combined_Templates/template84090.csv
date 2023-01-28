@@ -1,0 +1,2 @@
+1,"SELECT G.objID, G.ra, G.dec, rs.z, rs.zErr, G.petroMag_u, G.petroMag_g, G.petroMag_r, G.petroMag_i, G.petroMag_z into mydb.MyTable_# from Galaxy AS G JOIN Photoz AS rs ON G.objID = rs.objID WHERE G.ra BETWEEN # AND # AND G.dec BETWEEN # AND #"
+2019-12-21 08:41:00,1

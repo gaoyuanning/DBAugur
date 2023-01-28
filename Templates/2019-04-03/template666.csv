@@ -1,0 +1,2 @@
+1,"SELECT TOP #  PhotoObj.objid,PhotoObj.ra,PhotoObj.dec,PhotoObj.r,PhotoObj.err_r,PhotoObj.extinction_r FROM Galaxy  WHERE  ra BETWEEN # AND # AND dec BETWEEN # AND #"
+2019-04-03 08:44:00,1

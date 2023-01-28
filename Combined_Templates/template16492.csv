@@ -1,0 +1,8 @@
+7,"select run, camcol, ra, dec, modelmag_u, modelmag_g, modelmag_r, modelmag_i, modelmag_z, psfmag_u, psfmag_g, psfmag_r, psfmag_i, psfmag_z, conv_u as corr_u, conv_g as corr_g, conv_r as corr_r, conv_i as corr_i, conv_z as corr_z into mydb.conv_# from photoobjall as P, ubercalTemp as C where P.run = # and P.objid = C.objid"
+2019-03-03 09:07:00,1
+2019-03-03 09:18:00,1
+2019-03-03 09:29:00,1
+2019-03-03 10:48:00,1
+2019-03-03 11:11:00,1
+2019-03-03 11:53:00,1
+2019-03-03 12:21:00,1

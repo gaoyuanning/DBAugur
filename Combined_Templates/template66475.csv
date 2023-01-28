@@ -1,0 +1,3 @@
+2,"SELECT TOP # psfMag_r, psfMagErr_r, extinction_r, ra, dec FROM Star WHERE ra BETWEEN # and # AND dec BETWEEN # and # AND ( (flags_r & #) ! = #) AND ( (flags_r & #) = #) AND ( ((flags_r & #) = #) or (psfmagerr_r < = #) ) AND ( ((flags_r & #) = #) or (flags_r & #) = #)"
+2019-09-29 17:18:00,1
+2019-09-29 17:19:00,1

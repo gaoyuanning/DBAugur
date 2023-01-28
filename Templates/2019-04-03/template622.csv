@@ -1,0 +1,2 @@
+1,select count(*) from mr where snapnum=# and np between # and # and firsthaloinfofid=haloid
+2019-04-03 09:13:00,1

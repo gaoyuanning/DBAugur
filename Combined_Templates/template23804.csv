@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, u, g, r, i, z, extinction_u, extinction_g, extinction_r, extinction_i, extinction_z, Err_u, Err_g, Err_r, Err_i, Err_z, flags_i, flags_r, flags_g into SDSS_region_# FROM Star WHERE (#< =ra and ra< =#) and (#< dec and dec< =#)"
+2019-03-25 12:22:00,1

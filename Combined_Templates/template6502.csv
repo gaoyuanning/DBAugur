@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, ra, dec, psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z, EBOSS_TARGET0 FROM Galaxy"
+2019-01-28 17:22:00,1

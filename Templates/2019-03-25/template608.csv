@@ -1,0 +1,2 @@
+1,"SELECT POA.objid from PhotoObjAll as POA AND SOA.class from specObjAll as SOA WHERE INNERJOIN(POA.objid,SOA.bestobjid)"
+2019-03-25 15:47:00,1

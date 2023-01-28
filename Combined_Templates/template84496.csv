@@ -1,0 +1,2 @@
+1,"SELECT RA, DEC, z, zErr, class, modelMag_u, modelMagErr_u, modelMag_g, modelMagErr_g, modelMag_r, modelMagErr_r, modelMag_i, modelMagErr_i, modelMag_z, modelMagErr_z into mydb.DR1#PhotoX from DR1#.SpecPhotoAll WHERE class = # and petroMag_r < #"
+2019-12-26 03:14:00,1

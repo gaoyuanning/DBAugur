@@ -1,0 +1,7 @@
+6,"SELECT (htmID / power(#,#)) as htm_# ,   avg(ra) as ra,   avg(dec) as [dec],   count(*) as pop   FROM Galaxy   WHERE (#*u - #*g - #*i) < #   and r < #   group by (htmID /power(#,#))"
+2019-08-17 04:27:00,1
+2019-08-17 07:18:00,1
+2019-08-17 08:47:00,1
+2019-08-17 09:09:00,1
+2019-08-17 11:58:00,1
+2019-08-17 15:37:00,1

@@ -1,0 +1,2 @@
+1,"SELECT f.id as FIRST_id, f.ra as FIRST_ra, f.dec as FIRST_dec, g.id as GLX_id, g.objid, g.ra as GLX_ra, g.dec as GLX_dec, g.fuv_mag, g.fuv_magerr, g.nuv_mag, g.nuv_magerr, g.E_bv, g.fuv_flux, g.fuv_fluxerr, g.nuv_flux, g.nuv_fluxerr, g.type, g.sep into mydb.MyTable from MyDB.FIRST_Reduced_#p0#deg AS f OUTER APPLY dbo.fGetNearestObjEq (f.ra, f.dec, #) AS x JOIN photoobjall g ON g.objID = x.objID"
+2019-09-21 09:53:00,1

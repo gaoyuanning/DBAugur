@@ -1,0 +1,2 @@
+1,"SELECT   objID,   ra, dec,    petroMag_u, petroMag_g, petroMag_r, petroMag_i, petroMag_z INTO Test FROM DR1#.photoObj WHERE type = #"
+2019-10-12 11:23:00,1

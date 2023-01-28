@@ -1,0 +1,2 @@
+1,"SELECT TOP # G.objID, G.ra, G.dec, GN.distance, G.Type, G.mode, P.objID, P.ra, P.dec, P.type, P.specObjID, Pz.objid From Galaxy as G JOIN dbo.fGetNearbyObjEq (#, # , #) AS GN ON G.objID = GN.objID JOIN PhotoObj AS P ON P.objID = GN.objid Join Photoz as Pz ON Pz.objid = GN.objid ORDER BY distance"
+2019-10-07 08:08:00,1

@@ -1,0 +1,2 @@
+1,"SELECT up_id, (SELECT apstar_id FROM fGetNearestApogeeStarEq (up_ra, up_dec, #) ) as apstar_id"
+2019-03-20 21:13:00,1

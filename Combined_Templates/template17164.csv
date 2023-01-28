@@ -1,0 +1,2 @@
+1,"SELECT p.objID, s.ra, s.dec, s.z as redshift, p.u, p.g, p.r, p.i, p.z, (p.u-p.r) as u_r, s.eClass, p.lnlDev_r, p.lnlExp_r INTO lrgs FROM SpecObj as s, Galaxy as p WHERE s.bestObjID = p.objID AND s.specClass = # AND s.zStatus > # AND (s.primTarget & # > #) AND s.z > # AND p.r < # AND ORDER BY p.objID"
+2019-03-04 07:50:00,1

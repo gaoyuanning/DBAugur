@@ -1,0 +1,2 @@
+1,"SELECT    p.ra,p.dec,p.u,p.g,p.r,p.i,p.z  FROM Galaxy AS p, #UPLOAD as U    CROSS APPLY dbo.fGetNearbyObjEq((U.up_ra),(U.up_dec),#) as N  WHERE    p.objID = N.objID"
+2019-11-24 11:04:00,1

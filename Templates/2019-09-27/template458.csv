@@ -1,0 +1,3 @@
+2,"select top # p.r, p.camcol, s.z as redshift from galaxy p, specobj s where p.objid=s.bestobjid and s.z BETWEEN # AND # and p.camcol=# and p.colc BETWEEN # AND # and p.g BETWEEN # AND #"
+2019-09-27 03:16:00,1
+2019-09-27 03:20:00,1

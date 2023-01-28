@@ -1,0 +1,8 @@
+7,"SELECT top # objid, ra, dec, z, dered_u AS mag_u, dered_g AS mag_g, dered_r AS mag_r, dered_i AS mag_i, dered_z AS mag_z FROM SpecPhoto WHERE (class = # AND Zwarning = #)"
+2019-11-08 22:26:00,1
+2019-11-08 22:38:00,1
+2019-11-08 22:39:00,1
+2019-11-08 22:46:00,1
+2019-11-08 22:47:00,1
+2019-11-08 22:49:00,1
+2019-11-08 22:50:00,1

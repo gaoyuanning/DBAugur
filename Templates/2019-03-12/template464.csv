@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.plateifu,p.nsa_elpetro_absmag_f,p.nsa_elpetro_absmag_n,p.nsa_elpetro_absmag_u,p.nsa_elpetro_absmag_g,p.nsa_elpetro_absmag_r,p.nsa_elpetro_absmag_i,p.nsa_elpetro_absmag_z FROM mangaDRPall AS p"
+2019-03-12 06:37:00,1

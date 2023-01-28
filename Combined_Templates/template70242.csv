@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.run, p.rerun, p.camcol, p.field, p.obj, p.type, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.Err_u, p.Err_g, p.Err_r, p.Err_i, p.Err_z FROM fGetNearbyObjEq (#, #, #) n, PhotoPrimary p LEFT JOIN LATERAL fGetNearbyObjEq (n.ra, n.dec, #./#) n2 WHERE n2 IS # AND n.objID = p.objID AND p.g between # AND # AND p.type = #"
+2019-10-18 17:52:00,1

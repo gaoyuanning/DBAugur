@@ -1,0 +1,2 @@
+2,"select dbo.fCosmoZfromDc(distmin,DEFAULT,DEFAULT,DEFAULT,DEFAULT,DEFAULT) as zmin   select dbo.fCosmoZfromDc(distmax,DEFAULT,DEFAULT,DEFAULT,DEFAULT,DEFAULT) as zmax"
+2019-02-10 18:17:00,2

@@ -1,0 +1,2 @@
+1,select * into FramePathProcessingModel0# from FramePathProcessing where Id < #
+2019-05-29 14:31:00,1

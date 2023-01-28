@@ -1,0 +1,2 @@
+1,"select plate, mjd, fiberid, s.ra, s.dec, l, b, feha, fehaerr, teffa, teffaerr, logga, loggaerr, alphafe, alphafeerr, sna, ebv, flag from sppParams as s"
+2019-09-02 04:11:00,1

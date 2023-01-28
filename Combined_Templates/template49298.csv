@@ -1,0 +1,4 @@
+3,"select TOP # SpecObjID, plate, mjd, fiberid, z, zErr, redshift, ebvm, bpt, Flux_HeII_#, Flux_NeV_#, Flux_NeV_#, Flux_OII_#, Flux_OII_#, Flux_NeIII_#, Flux_NeIII_#, Flux_H5_#, Flux_He_#, Flux_Hd_#, Flux_Hg_#, Flux_OIII_#, Flux_HeII_#, Flux_ArIV_#, Flux_ArIV_#, Flux_Hb_#, Flux_OIII_#, Flux_OIII_#, Flux_NI_#, Flux_NI_#, Flux_HeI_#, Flux_OI_#, Flux_OI_#, Flux_NII_#, Flux_Ha_#, Flux_NII_#, Flux_SII_#, Flux_SII_#, Flux_Ha_#_Err from emissionLinesPort"
+2019-07-01 12:58:00,1
+2019-07-01 12:59:00,1
+2019-07-01 13:00:00,1

@@ -1,0 +1,6 @@
+6,"SELECT p.objid,p.ra,p.dec,p.g,p.r,p.err_g,p.err_r FROM star p, dbo.fgetNearByObjEq(#,#,#)n WHERE p.objid=n.objid  AND p.g BETWEEN # AND #"
+2019-08-13 15:41:00,1
+2019-08-13 16:07:00,1
+2019-08-13 20:21:00,1
+2019-08-13 20:22:00,1
+2019-08-13 20:46:00,2

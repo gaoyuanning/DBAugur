@@ -1,0 +1,2 @@
+1,"select Lat = Geog.Lat, Long = Geog.Long from Neighborhoods"
+2019-06-10 18:48:00,1

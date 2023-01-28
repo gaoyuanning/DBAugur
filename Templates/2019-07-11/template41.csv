@@ -1,0 +1,11 @@
+10,"SELECT objID, ra, dec, psfmag_r FROM photoObj WHERE (ra between (#) AND (#) OR ra between (#) AND (#) OR ra between (#) AND (#)) AND dec between (#) AND (#) AND psfmag_r < # AND clean = # AND (calibStatus_r & #) != #"
+2019-07-11 08:11:00,1
+2019-07-11 08:12:00,1
+2019-07-11 08:15:00,1
+2019-07-11 17:24:00,1
+2019-07-11 20:52:00,1
+2019-07-11 20:54:00,1
+2019-07-11 20:55:00,1
+2019-07-11 20:56:00,1
+2019-07-11 20:57:00,1
+2019-07-11 23:02:00,1

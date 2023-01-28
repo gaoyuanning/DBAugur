@@ -1,0 +1,2 @@
+1,"SELECT apogeeStar.ra, apogeeStar.dec, aspcapStar.apogee_id, aspcapStar.teff, aspcapStar.teff_err, aspcapStar.teff_flag, aspcapStar.logg, aspcapStar.logg_err, aspcapStar.logg_flag, aspcapStar.vmicro, aspcapStar.vmacro, aspcapStar.vsini, aspcapStar.m_h, aspcapStar.m_h_err, aspcapStar.m_h_flag, aspcapStar.alpha_m, aspcapStar.alpha_m_err, aspcapStar.alpha_m_flag into mydb.MyTable_# from aspcapStar inner join apogeeStar on apogeeStar.apstar_id = aspcapStar.apstar_id"
+2019-01-16 17:47:00,1

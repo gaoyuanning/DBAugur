@@ -1,0 +1,2 @@
+1,select * from chinook_artist where name like &&&
+2019-04-03 13:53:00,1

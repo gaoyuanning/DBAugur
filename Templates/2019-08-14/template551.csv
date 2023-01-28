@@ -1,0 +1,3 @@
+2,"SELECT subclass,count(specObjID) as num,avg(z) as avg_redshift,stdev(z) as stdev_redshift, avg(snMedian) as avg_snMedian , stdev(snMedian) as stdev_snMedian FROM specObj  WHERE   class = &&& and zWarning = #  GROUP by subclass"
+2019-08-14 03:30:00,1
+2019-08-14 03:32:00,1

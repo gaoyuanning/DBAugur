@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec FROM Star s, SpecObj JOIN dbo.fGetNearbyObjEq (#, #, #) AS N on N.objID = s.objID WHERE SQRT (POWER (( (u-g) #) , #) +POWER (( (g-r) #) , #) +POWER (( (r-i) #) , #) +POWER (( (i-z) #) , #) ) < #"
+2019-09-02 17:33:00,1

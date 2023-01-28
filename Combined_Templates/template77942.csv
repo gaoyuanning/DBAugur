@@ -1,0 +1,2 @@
+1,"select top # s.ObjID, p.ra, p.dec, p.expAB_r, p.expABErr_r from PhotoObjAll p, SpecPhotoAll s where s.ObjType = # and p.type = # and s.ObjID = p.ObjID"
+2019-11-21 01:47:00,1

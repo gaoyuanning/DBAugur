@@ -1,0 +1,3 @@
+2,"select htmid.FromEq(#,#) as foo,* from htmid.GetCenter(#)"
+2019-09-25 10:04:00,1
+2019-09-25 10:05:00,1

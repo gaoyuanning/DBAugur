@@ -1,0 +1,2 @@
+1,"select top # specobjid, * from specobj where class = &&& and survey = SDSS"
+2019-03-31 19:05:00,1

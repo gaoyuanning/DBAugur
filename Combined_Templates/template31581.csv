@@ -1,0 +1,2 @@
+1,"select dbo.fCosmoAbsMag (#, #, #, #, #e-#, #, #) --select dbo.fCosmoAbsMag (#, #, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT) --SELECT TOP # cModelMag_r into MyDB.magr --FROM PhotoObjAll ---select dbo.fCosmoAbsMag (MyDB.magr[#], #, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT) delimiter $$ create procedure test_loop () begin declare t int default #; label:loopset t = t+#;if t> # then leave label; end if; end loop label;select t; end $$ delimiter ;"
+2019-04-18 07:15:00,1

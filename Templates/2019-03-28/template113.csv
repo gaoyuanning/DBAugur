@@ -1,0 +1,2 @@
+1,"SELECT TOP #   p.objID, s.specObjID, p.ra, p.dec,  p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, p.modelMagErr_u, p.modelMagErr_g, p.modelMagErr_g, p.modelMagErr_i, p.modelMagErr_z,  s.z FROM PhotoObj p  RIGHT OUTER JOIN SpecObj s ON s.specObjID = p.specobjID"
+2019-03-28 21:49:00,1

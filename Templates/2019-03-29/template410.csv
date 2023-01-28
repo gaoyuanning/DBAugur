@@ -1,0 +1,3 @@
+2,"select a.specObjID, a.img, a.fiberID, a.mjd, a.plate, a.survey, a.programname, a.instrument,a.sourceType,a.z, a.zErr, dbo.fSpecZWarningN(a.zWarning) as WARNING, a.sciencePrimary, dbo.fSeque1Target1N(a.seque1_target1) as targetOne, dbo.fSeque1Target2N(a.seque1_target2) as targetTwo, a.class as CLASS, a.velDisp, a.velDispErr from SpecObjAll a where bestObjID=#"
+2019-03-29 15:10:00,1
+2019-03-29 15:11:00,1

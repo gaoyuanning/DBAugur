@@ -1,0 +1,2 @@
+1,"select objID, ra, dec into mydb.MyTable_# from dbo.PhotoObjAll where type = #  AND ra between # and # AND dec between # and #"
+2019-09-15 08:43:00,1

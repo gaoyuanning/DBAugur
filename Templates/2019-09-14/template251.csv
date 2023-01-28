@@ -1,0 +1,8 @@
+137,"select p.ra, p.dec, s.z, p.petromag_u, p.petromag_g, p.petromag_r, p.petromag_i, p.petromag_z, p.petromagerr_u, p.petromagerr_g, p.petromagerr_r, p.petromagerr_i, p.petromagerr_z FROM fGetNearbyObjEq(#,#,#) n, PhotoObjAll p, SpecObjAll s WHERE n.objID=p.objID and p.objID=s.bestobjID"
+2019-09-14 11:36:00,11
+2019-09-14 11:37:00,22
+2019-09-14 11:38:00,23
+2019-09-14 11:39:00,23
+2019-09-14 11:40:00,23
+2019-09-14 11:41:00,20
+2019-09-14 11:42:00,15

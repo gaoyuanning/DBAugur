@@ -1,0 +1,2 @@
+1,"SELECT      ra,dec  FROM dr8.PhotoObj AS m     CROSS APPLY dr8.fGetNearestObjEq( #, #, #) AS n     JOIN dr8.PhotoObj AS o ON n.objid=o.objid"
+2019-05-04 18:48:00,1

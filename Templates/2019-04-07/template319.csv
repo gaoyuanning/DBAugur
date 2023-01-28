@@ -1,0 +1,4 @@
+3,"CREATE TABLE ISOLATED_ZOOSPECDR1#_OUT(   ra_iso   float  not null,   dec_iso   float  not null,   objID     bigint not null,    elliptical  int  not null,   spiral  int  not null,   uncertain  int  not null       );"
+2019-04-07 05:32:00,1
+2019-04-07 06:03:00,1
+2019-04-07 06:04:00,1

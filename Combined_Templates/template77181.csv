@@ -1,0 +1,2 @@
+1,"select top # p.bin, p.band, p.profMeanfrom PhotoProfile AS p WHERE p.objID = #"
+2019-11-19 18:54:00,1

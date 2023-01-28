@@ -1,0 +1,2 @@
+1,"SELECT search_id AS up_id, ra AS up_ra, dec AS up_dec -- FROM MyDB.tmp1 FROM MyDB.FIRCAT_all_pos  CREATE TABLE #tmp ( 	up_id int, 	objid bigint ) INSERT INTO #tmp -- EXEC spGetNeighbors # -- # -- default. min=#"
+2019-03-05 06:42:00,1

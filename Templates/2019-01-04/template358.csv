@@ -1,0 +1,7 @@
+7,"SELECT FLOOR(l),AVG(b),AVG(z/COS(RADIANS(b))),COUNT(*) FROM SpecObj s  INNER JOIN SppParams ON s.SpecObjID = SppParams.SpecObjID WHERE feha < #   AND feha > #   AND b < #   AND b > #   AND ABS(z) < #   GROUP BY FLOOR(l)"
+2019-01-04 08:40:00,1
+2019-01-04 08:41:00,1
+2019-01-04 08:42:00,1
+2019-01-04 08:43:00,1
+2019-01-04 08:44:00,2
+2019-01-04 08:46:00,1

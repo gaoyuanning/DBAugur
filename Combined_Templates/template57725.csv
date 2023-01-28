@@ -1,0 +1,2 @@
+1,select g.z from specobjall as g where g.ra> # and g.ra< # and g.dec> # and g.dec< #
+2019-08-14 03:17:00,1

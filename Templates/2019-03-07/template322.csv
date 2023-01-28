@@ -1,0 +1,2 @@
+1,"SELECT imag, zmag, (gmag-rmag) FROM DR7 WHERE name=rs1#&&&rf0#&&&rf0#"
+2019-03-07 18:16:00,1

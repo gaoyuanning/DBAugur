@@ -1,0 +1,6 @@
+11,"SELECT TOP # p.objId,s.ra,s.dec,p.psfMag_u,p.psfMag_g,p.psfMag_r,p.psfMag_i,p.psfMag_z,p.extinction_u,p.extinction_g,p.extinction_r,p.extinction_i,p.extinction_z,s.class FROM  Specobj as s  JOIN PhotoPrimary as p ON p.objID=s.bestObjID WHERE s.class=&&& AND  p.clean=&&&"
+2019-02-05 05:03:00,3
+2019-02-05 05:05:00,1
+2019-02-05 05:06:00,2
+2019-02-05 05:12:00,3
+2019-02-05 05:15:00,2

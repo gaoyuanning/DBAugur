@@ -1,0 +1,2 @@
+1,"SELECT TOP # db.objID, db.extinction_u, db.petroMag_u, db.modelMag_u, db.dered_u FROM SpecPhotoAll db WHERE db.objId = #"
+2019-01-09 11:17:00,1

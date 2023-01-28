@@ -1,0 +1,2 @@
+1,"select two.*,   po.modelMag_u, po.modelMag_g, po.modelMag_r, po.modelMag_i, po.modelMag_z,   po.extinction_u, po.extinction_g, po.extinction_r, po.extinction_i, po.extinction_z from MyDB.StageOne as one, dr1#.PhotoObj as po where two.SDSS_ID = po.objID into MyDB.StageTwo"
+2019-02-25 09:48:00,1

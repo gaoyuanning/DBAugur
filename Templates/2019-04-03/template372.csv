@@ -1,0 +1,4 @@
+6,"CREATE TABLE chinook_Album (   [AlbumId] [int] NOT NULL,   [Title] [nvarchar](#) NOT NULL,   [ArtistId] [int] NOT NULL )"
+2019-04-03 12:37:00,1
+2019-04-03 14:41:00,3
+2019-04-03 15:22:00,2

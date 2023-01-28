@@ -1,0 +1,2 @@
+2,select distinct(concept) from optw.tamass.VARIABLES where RACE is NULL and SEX is NULL and UNIT=&&&
+2019-12-15 11:18:00,2

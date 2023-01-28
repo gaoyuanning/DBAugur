@@ -1,0 +1,5 @@
+5,"SELECT s.specobjid, s.ra, s.dec, s.plate, s.mjd, s.fiberid, s.z FROM #upload u JOIN SpecObjAll s ON (s.plate = u.up_plate AND s.mjd = u.up_mjd AND s.fiberID = u.up_fiber) ##', @log = #, @filter = #"
+2019-01-30 14:15:00,1
+2019-07-10 15:22:00,1
+2019-07-10 15:23:00,2
+2019-09-19 00:55:00,1

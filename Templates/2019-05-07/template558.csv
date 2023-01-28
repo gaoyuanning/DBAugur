@@ -1,0 +1,2 @@
+1,"select * from ZTF_RCF_ER into tmp (ZTF_name varchar(#), ra float, dec float)"
+2019-05-07 12:06:00,1

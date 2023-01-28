@@ -1,0 +1,4 @@
+12,select fieldid from field where ccrow_u between # and #
+2019-01-25 00:51:00,2
+2019-01-25 01:42:00,2
+2019-01-25 01:43:00,8

@@ -1,0 +1,3 @@
+3,"SELECT pca.specObjID, pca.ra, pca.dec, pca.z, pca.mstellar_median, pca.mstellar_err, p.petroR5#_r, p.petroR5#Err_r, p.expRad_r, p.expRadErr_r, p.deVRad_r, p.deVRadErr_r, p.lnLExp_r, p.lnLDeV_r, p.petroMag_g, p.petroMag_i, p.petroMag_r, p.petroMag_u, p.petroMag_z, elp.Flux_Ha_#, elp.Flux_Ha_#_Err, pca.warning, sp.class, sp.zWarning into mydb.DATAAA from stellarMassPCAWiscM1# AS pca JOIN SpecObj as sp ON sp.specObjID = pca.specObjID JOIN PhotoObj as p ON p.ObjID = sp.bestObjID JOIN emissionLinesPort as elp ON elp.specObjID = pca.specObjID WHERE class = # AND clean = # AND (calibStatus_r & #) ! = # AND pca.warning = # AND sp.zWarning = # AND p.petroMag_r< # AND pca.z> # AND pca.z< # AND pca.mstellar_err> #"
+2019-01-04 03:47:00,1
+2019-02-22 05:26:00,2

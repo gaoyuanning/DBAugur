@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec FROM Star WHERE (ra between NaN and NaN) and (dec between NaN and NaN)"
+2019-02-22 20:06:00,1

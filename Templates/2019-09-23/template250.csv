@@ -1,0 +1,2 @@
+1,"SELECT   po.objID,   po.ra,   po.dec,   po.run,   po.rerun,   po.camcol,   po.field,   po.UGC_AGC into mydb.NSA_ALFALFA_cross from mydb.alpha4#_ObjID AS po       JOIN mydb.NSA_run_rerun_camcol_field AS u ON (po.run=u.RUN AND po.rerun=u.RERUN AND po.camcol=u.CAMCOL AND po.field=u.FIELD)"
+2019-09-23 15:13:00,1

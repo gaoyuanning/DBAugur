@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, u, g, r, type, f.z, f.zErr, velDisp, kcorrU0#, kcorrG0#, kcorrR0#, kcorrI0#, kcorrZ0#, absmagU, absmagG, absmagR, absmagI, absmagZ, synthU, synthG, synthR, synthI, synthZ into mydb.Echo from Photoz AS f, Galaxy AS p, SpecObj AS s WHERE s.bestObjID = p.objID AND r < # AND s.z > #"
+2019-04-04 01:58:00,1

@@ -1,0 +1,2 @@
+1,"select run1, run2, x=max(arcsec) from astrometry.budavari.Neighbors2Star2#main group by run1, run2) select min=min(x), max(x), avg(x), stdev(x) from v"
+2019-03-06 18:47:00,1

@@ -1,0 +1,2 @@
+1,"SELECT m.objid, m.ra AS ra1, m.de AS dec1, n.objid, clean, flags, o.ra AS ra2, o.dec AS dec2 into mydb.spectra_mean_flags from MyDB.spectra_mean_# AS m CROSS APPLY dbo.fGetNearestObjEq (m.ra, m.de, #) AS n JOIN PhotoObjAll AS o ON n.objid = o.objid"
+2019-01-23 14:37:00,1

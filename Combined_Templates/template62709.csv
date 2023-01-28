@@ -1,0 +1,2 @@
+1,"SELECT COUNT (*) dr7objid, dr8objid, ra, dec, type into mydb.MyTable from PhotoObjDR7 WHERE type = #"
+2019-09-12 11:39:00,1

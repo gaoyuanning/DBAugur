@@ -1,0 +1,13 @@
+12,"SELECT ra, dec, petroMag_g, petroMagErr_g, petroMag_r, petroMagErr_r, petroMag_i, petroMagErr_i FROM star WHERE (ra between # and #) and (dec between # and #) and (petroMag_g < #) and (petroMag_g>#)"
+2019-04-14 18:52:00,1
+2019-04-14 19:03:00,1
+2019-04-14 19:18:00,1
+2019-04-14 19:25:00,1
+2019-04-14 19:28:00,1
+2019-04-14 19:41:00,1
+2019-04-14 19:46:00,1
+2019-04-14 19:48:00,1
+2019-04-14 19:50:00,1
+2019-04-14 20:35:00,1
+2019-04-14 21:17:00,1
+2019-04-14 21:18:00,1

@@ -1,0 +1,2 @@
+1,select distinct tile from sdssTileAll where raCen > # and raCen < # and decCen > # and decCen < #
+2019-11-08 03:25:00,1

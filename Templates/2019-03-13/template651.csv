@@ -1,0 +1,2 @@
+1,select top # s.subclass into mydb.MyTable_# from specobj as s where len(s.subclass) = #;
+2019-03-13 02:52:00,1

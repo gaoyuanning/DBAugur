@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.z as redshift, s.zerr as redshift_err, p.modelflux_u, p.u FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.u BETWEEN # AND # AND s.z BETWEEN .# AND .# AND s.class = #"
+2019-07-28 12:45:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i, p.extinction_z FROM PhotoObjAll p JOIN specObjAll s ON s.bestobjid = p.objid WHERE p.probPSF = #"
+2019-11-05 10:06:00,1

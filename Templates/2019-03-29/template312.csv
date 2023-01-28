@@ -1,0 +1,2 @@
+1,"SELECT    S.specobjid, S.ra, s.dec, s.class, s.z,    S.velDisp into mydb.MyTable_# from SpecObj AS s WHERE    S.sciencePrimary > # AND    s.bossPrimary > # AND    s.class = Galaxy AND"
+2019-03-29 16:10:00,1

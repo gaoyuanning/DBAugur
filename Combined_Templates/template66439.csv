@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjId, ra, dec, class, subclass, survey, programname, z, zErr, modelMag_u, modelMagErr_u, modelMag_g, modelMagErr_g, modelMag_i, modelMagErr_i, modelMag_r, modelMagErr_r, modelMag_z, modelMagErr_z FROM SpecPhotoAll WHERE class = #"
+2019-09-29 21:29:00,1

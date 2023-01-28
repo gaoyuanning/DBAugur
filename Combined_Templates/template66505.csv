@@ -1,0 +1,2 @@
+2,"select m.*, p.objid as sdss_objid, p.ra, p.dec, pz.z as redshift, pz.zerr as redshift_err, p.clean, p.type into mydb.VLASS_Photo_# from photoobj p, photoz pz, mydb.objid_vlass m where p.objid = pz.objid and p.objid = m.objid"
+2019-09-29 14:33:00,2

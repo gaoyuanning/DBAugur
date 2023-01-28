@@ -1,0 +1,2 @@
+1,"SELECT p.objID, s.specObjID, s.class, s.elodieSpType, p.b AS galactic_latitude, p.l as galactic_longitude, p.petroFlux_u, petroFlux_g, petroFlux_r, petroFlux_i, p.petroFlux_z, p.petroMag_u, p.petroMag_g, p.petroMag_r, p.petroMag_i, p.petroMag_z INTO MyDB.sdsstempbasicdata FROM PhotoObjAll AS p INNER JOIN SpecObjAll AS s on p.objID = s.bestObjID"
+2019-06-14 13:23:00,1

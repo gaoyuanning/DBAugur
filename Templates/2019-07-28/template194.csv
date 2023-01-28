@@ -1,0 +1,4 @@
+3,"SELECT objID, ra, dec, psfMag_g, psfMag_r, psfMag_i, z FROM SpecPhoto WHERE (dec between # and #)"
+2019-07-28 12:39:00,1
+2019-07-28 13:16:00,1
+2019-07-28 13:17:00,1

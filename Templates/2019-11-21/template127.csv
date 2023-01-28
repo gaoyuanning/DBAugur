@@ -1,0 +1,3 @@
+3,"SELECT TOP #  s.plate,s.mjd,s.fiberid,p.run,p.rerun,p.camCol,p.field,p.obj  FROM ..SpecObj as s  JOIN ..PhotoObj AS p ON s.bestObjID = p.objID  JOIN dbo.fGetObjFromRect(#,#,#,#) AS b ON s.bestobjid = b.objID  WHERE (p.score >= #) AND s.zWarning = # AND ( p.type = # OR p.type = #)"
+2019-11-21 20:08:00,1
+2019-11-21 20:09:00,2

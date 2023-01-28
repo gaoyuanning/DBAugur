@@ -1,0 +1,3 @@
+2,"SELECT   g.objID, g.ra, g.dec, g.flags, s.mjd, s.plate, s.fiberID, s.ra, s.dec, s.objID into mydb.MyTable_#    from PhotObjAll AS g    JOIN SpecPhotoAll AS s ON s.specObjID = g.specObjID"
+2019-06-17 12:57:00,1
+2019-06-17 13:00:00,1

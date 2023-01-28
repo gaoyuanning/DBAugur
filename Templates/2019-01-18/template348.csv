@@ -1,0 +1,2 @@
+1,"SELECT COUNT(*) ra,dec into mydb.photocount from PhotoObj  WHERE  z># AND type=# AND ra># AND ra<#"
+2019-01-18 10:46:00,1

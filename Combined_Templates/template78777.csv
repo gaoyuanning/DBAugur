@@ -1,0 +1,2 @@
+1,"SELECT galaxy.objId, galaxy.petror9#_r as size, SpecObj.z as z, galaxy.dered_u as u, galaxy.dered_g as g, galaxy.dered_r as r, galaxy.dered_i as i, galaxy.petroMag_r as ptrmag_r, galaxy.devmag_r as devmag_r, galaxy.modelMag_r as modmag_r, galaxy.ra, galaxy.dec, SpecObj.plate, SpecObj.mjd, SpecObj.fiberid FROM galaxy JOIN SpecObj ON SpecObj.bestobjid = galaxy.objid WHERE galaxy.g < # and SpecObj.z < #"
+2019-11-25 13:12:00,1

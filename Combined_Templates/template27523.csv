@@ -1,0 +1,2 @@
+1,"select m.MANGAID, m.RA, m.DEC, SQRT (POWER (( (w.ra-m.RA) *cos ((m.DEC) * (#/#) )) , #) + (POWER ((w.dec-m.DEC) , #) )) *# as AngSep from mydb.MaNGA_dap_mpl8 m, WISE_allsky w where w.ra between (m.RA-#) and (m.RA+#) and w.dec between (m.DEC-#) and (m.DEC+#)"
+2019-04-03 08:51:00,1

@@ -1,0 +1,3 @@
+2,"select ORIG.galaxyId as orig_id, ORIG.descendantId as orig_desid, DES.galaxyId as des_id, ORIG.sdssi as orig_sdssi, DES.sdssi as des_sdssi, ORIG.i_Dust as orig_i_Dust, DES.i_Dust as des_i_Dust, ORIG.snapnum as orig_snapnum, DES.snapnum as des_snapnum, ORIG.redshift as orig_redshift, DES.redshift as des_redshift, ORIG.Sfr as orig_Sfr, DES.Sfr as des_Sfr into MyDB.MyTable_des from GAEA.MR DES, GAEA.MR ORIG where ORIG.snapnum = # and DES.snapnum between # and # and ORIG.Stellarmass > # and ORIG.x between # and # and ORIG.y between # and # and ORIG.z between # and # and DES.galaxyId = ORIG.descendantId"
+2019-10-21 11:45:00,1
+2019-10-22 11:42:00,1

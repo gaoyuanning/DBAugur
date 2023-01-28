@@ -1,0 +1,5 @@
+5,"SELECT objid, ra, dec, psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z, run, rerun, camcol, field, extinction_u, extinction_g, extinction_r, extinction_i, extinction_z, flags, b, I, type FROM star WHERE psfMag_z-extinction_z < # AND (psfMag_i-extinction_i) - (psfMag_z-extinction_z) > # AND ( ((flags & #) = #) or (flags & #) = #) AND ( (flags & #) = #) AND ( (flags & #) = #) AND psfMag_u-extinction_u < = # AND psfMag_g-extinction_g < = # AND psfMag_r-extinction_r < = # AND psfMag_i-extinction_i < = #"
+2019-01-06 07:35:00,1
+2019-01-06 09:06:00,1
+2019-04-25 16:10:00,1
+2019-04-25 16:29:00,2

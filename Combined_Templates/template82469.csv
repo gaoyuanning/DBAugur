@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.plate, s.mjd, s.fiber, s.hgamma1#side FROM spplines as s"
+2019-12-12 10:38:00,1

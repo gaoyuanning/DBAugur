@@ -1,0 +1,2 @@
+1,"select count(*) from manual_good_cw,redshift_query where ID=objID and zspec># and zspec<#"
+2019-12-05 13:34:00,1

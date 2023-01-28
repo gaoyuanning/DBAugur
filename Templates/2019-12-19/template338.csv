@@ -1,0 +1,2 @@
+1,"SELECT top # photoobjall.ra, photoobjall.dec, xSDSSDR7.objid from photoobjall, xSDSSDR7"
+2019-12-19 09:51:00,1

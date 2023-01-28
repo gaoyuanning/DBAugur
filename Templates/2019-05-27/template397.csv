@@ -1,0 +1,2 @@
+2,"select TOP # type, clean, ra, dec, cModelMag_g,    deVMag_g, deVRad_g, deVPhi_g, deVAB_g,    expMag_g, expRad_g, expPhi_g, expAB_g from PhotoPrimary"
+2019-05-27 08:27:00,2

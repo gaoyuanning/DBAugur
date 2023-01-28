@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID_DR1#,ra,dec,z,magPetro_r,absPetro_r,logMass_Vaz1# FROM PhotoPrimary 	 WHERE     z_noqso > #. and z_noqso <= #"
+2019-10-31 17:41:00,1

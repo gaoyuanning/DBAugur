@@ -1,0 +1,2 @@
+2,"select m.*, p.objid, p.ra as pra, p.dec as pdec, p.dered_r as r, p.err_r as r_err, p.clean, p.type into mydb.LoTSS_GRGs_#_photo from mydb.LoTSS_GRGs_#_radec m, photoobj p where abs (m.ID_ra - p.ra) < = # and abs (m.ID_dec - p.dec) < = #"
+2019-06-21 08:05:00,2

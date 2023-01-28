@@ -1,0 +1,3 @@
+2,"select top # p.objid, p.ra, p.dec, p.psfMag_g, psfMagErr_g, p.petroMag_g, petroMagErr_g, p.petroRad_g,petroRadErr_g, fiberMag_g, fiberMagErr_g, modelMag_g, modelMagErr_g,p.clean, p.mode from PhotoObj AS p JOIN dbo.fGetNearbyObjEq(#,#, #) AS GN     ON p.objID = GN.objID ORDER BY distance"
+2019-11-19 18:42:00,1
+2019-11-19 19:01:00,1

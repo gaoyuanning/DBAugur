@@ -1,0 +1,2 @@
+1,"select ra,dec,z,bestobjid from  specobj where specclass =# and z># and zconf>#"
+2019-06-19 16:15:00,1

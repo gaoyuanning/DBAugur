@@ -1,0 +1,5 @@
+5,"select modelmag_u, modelmag_g, z from SpecPhoto where class=&&&"
+2019-09-04 16:47:00,1
+2019-09-04 16:48:00,2
+2019-09-04 18:56:00,1
+2019-09-04 19:14:00,1

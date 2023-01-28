@@ -1,0 +1,2 @@
+1,"select top #  s.specobjid, s.bestobjid, s.firstrelease, s.survey, s.sourcetype,   dbo.fPriTargetN(&&&) as priTarget,  p.ra, p.raErr, p.decErr, p.dec, s.z, s.zErr, p.modelMag_g from Specobj as s  join Photoobj as p on p.objid = s.bestobjid where   s.zwarning = #"
+2019-11-28 04:12:00,1

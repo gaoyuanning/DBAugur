@@ -1,0 +1,3 @@
+2,"SELECT p.snMedian_r, p.mjd, p.plate, p.fiberID into mydb.sn_r from SpecObjAll AS p   WHERE z># and z<# and waveMax-waveMin > # and plate>#"
+2019-09-05 05:06:00,1
+2019-09-05 05:07:00,1

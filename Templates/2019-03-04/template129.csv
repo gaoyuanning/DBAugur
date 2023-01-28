@@ -1,0 +1,2 @@
+2,select objid from star where star.r between # and #
+2019-03-04 22:38:00,2

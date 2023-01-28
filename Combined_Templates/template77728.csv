@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.K_M_K2#FE FROM TwoMassXSC AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.objid = #"
+2019-11-21 17:39:00,1

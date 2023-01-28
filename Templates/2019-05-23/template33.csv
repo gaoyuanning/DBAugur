@@ -1,0 +1,2 @@
+1,"select ra, dec from stars where (ra between # and #) and (dec between # and #)  and g < #"
+2019-05-23 23:48:00,1

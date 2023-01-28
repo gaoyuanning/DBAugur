@@ -1,0 +1,2 @@
+1,"CREATE TABLE DR5_companions (objid bigint, ra float, dec float, search_id int, matched_id bigint, z real) ;"
+2019-03-17 17:51:00,1

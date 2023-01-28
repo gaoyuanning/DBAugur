@@ -1,0 +1,2 @@
+2,"SELECT TOP (#) po.petroMag_r, po.extinction_r FROM PhotoObjAll po WHERE po.clean = # and po.insideMask = #"
+2019-02-17 16:29:00,2

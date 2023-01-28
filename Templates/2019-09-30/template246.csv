@@ -1,0 +1,3 @@
+3,"SELECT starname,fcjd,rv,photonerr,staterror,offseterror,specno,survey FROM marvelsVelocityCurveUF1D WHERE starname LIKE &&&"
+2019-09-30 15:58:00,2
+2019-09-30 15:59:00,1

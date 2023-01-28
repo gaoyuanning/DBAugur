@@ -1,0 +1,2 @@
+1,"SELECT plate, mjd, fiberID, RUN2D, ra, dec, z, CLASS into mydb.all_qso_DR1# FROM SpecObj WHERE class = # and z< =# order by z"
+2019-08-08 01:45:00,1

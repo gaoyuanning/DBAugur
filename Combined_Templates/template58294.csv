@@ -1,0 +1,3 @@
+2,SELECT * from (Galaxies_dr1# JOIN QSOs_dr1# ON Galaxies_dr1#.objid = QSOs_dr1#.objid)
+2019-08-19 10:24:00,1
+2019-08-19 10:25:00,1

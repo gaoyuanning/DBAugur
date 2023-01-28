@@ -1,0 +1,2 @@
+1,"SELECT    o.objid, n.objid,m.ra AS ra1, m.dec AS dec1,     o.ra AS ra2, o.dec AS dec2,    m.apstar_id, m.apogee_id into mydb.apogeestar_photobj from apogeeStar AS m  OUTER APPLY dbo.fGetNearestObjEq( m.ra, m.dec, #) AS n     JOIN PhotoObj AS o ON n.objid=o.objid"
+2019-06-07 09:53:00,1

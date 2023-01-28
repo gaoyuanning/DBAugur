@@ -1,0 +1,3 @@
+4,"select   m.*, p.objid as p_objid, p.ra, p.dec, p.clean, p.type,   p.dered_u as u, p.dered_g as g, p.dered_r as r, p.dered_i as i, p.dered_z as z,   p.err_u, p.err_g, p.err_r, p.err_i, p.err_z into mydb.GRQ_cat_sdss_photometry_DR1#    from   photoobj p, mydb.GRQ_cat_sdss m    where   m.bestobjid = p.objid    order by    p.ra"
+2019-12-31 06:41:00,2
+2019-12-31 06:42:00,2

@@ -1,0 +1,23 @@
+22,"SELECT top # s.ra, s.dec, s.dered_g, s.dered_r, p.oiii_#_reqw as oir, p.h_beta_reqw as hbr, p.nii_#_reqw as nir, p.h_alpha_reqw as har, p.oiii_#_reqw_err as oir_e, p.h_beta_reqw_err as hbr_e, p.nii_#_reqw_err as nir_e, p.h_alpha_reqw_err as har_e, p.specObjID FROM galSpecLine as p JOIN PhotoObjAll as s ON p.specObjID = s.specObjID WHERE p.oiii_#_reqw_err > # AND p.h_beta_reqw_err > # AND p.nii_#_reqw_err > # AND p.h_alpha_reqw_err > # AND p.oiii_#_reqw/p.oiii_#_reqw_err > # AND p.h_beta_reqw/p.h_beta_reqw_err > # AND p.nii_#_reqw/p.nii_#_reqw_err > # AND p.h_alpha_reqw/p.h_alpha_reqw_err > #"
+2019-04-18 15:47:00,1
+2019-04-18 16:13:00,1
+2019-04-18 16:16:00,1
+2019-04-18 16:20:00,1
+2019-04-18 16:46:00,1
+2019-04-19 11:35:00,1
+2019-04-19 11:36:00,1
+2019-04-19 16:52:00,1
+2019-04-22 13:02:00,1
+2019-04-25 12:47:00,1
+2019-04-25 15:05:00,1
+2019-04-25 15:11:00,1
+2019-04-25 15:14:00,1
+2019-04-25 17:02:00,1
+2019-04-26 16:33:00,1
+2019-04-26 17:23:00,1
+2019-04-29 15:50:00,1
+2019-05-01 10:30:00,1
+2019-05-01 10:31:00,1
+2019-05-01 14:15:00,1
+2019-05-04 15:25:00,1
+2019-05-04 18:45:00,1

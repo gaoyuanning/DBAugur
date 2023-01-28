@@ -1,0 +1,2 @@
+1,"SELECT TOP # mg.g,mr.r FROM limitingMagnitudes_g AS mg AND limitingMagnitudes_r AS mr WHERE mg.g BETWEEN # AND # AND mr.r BETWEEN # AND #"
+2019-03-24 14:55:00,1

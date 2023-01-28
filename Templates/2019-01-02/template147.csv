@@ -1,0 +1,2 @@
+3,"select top # s.specobjid, s.ra, s.dec   , s.plate, s.mjd, s.fiberid   , s.sciencePrimary, s.sdssPrimary, s.legacyPrimary   , s.subclass, s.z, s.zErr, s.targetObjID   , s.psfMag_u, s.psfMag_g, s.psfMag_r, s.psfMag_i, s.psfMag_z   , s.petroMag_u, s.petroMag_g, s.petroMag_r, s.petroMag_i, s.petroMag_z into mydb.galaxies_specphoto from SpecPhoto as s where s.zWarning = # and s.legacyPrimary = #   and s.class = &&&"
+2019-01-02 13:39:00,3

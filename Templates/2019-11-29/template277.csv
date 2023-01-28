@@ -1,0 +1,2 @@
+1,"select s.plate, s.mjd, s.fiberid,s.ra,s.dec FROM SpecObjAll as s where s.ra-#<# and s.dec-#<#"
+2019-11-29 08:10:00,1

@@ -1,0 +1,14 @@
+13,"SELECT s.plate, s.fiberid, s.mjd, ga.oiii_#_flux, ga.oiii_#_flux_err, (sph.dered_g-sph.dered_r) as col_g_r, sph.dered_g-#*log1# (#E+#*sph.z) +# as M_g, sph.petroMag_g, g.petroRad_g FROM GalSpecLine as ga, specobj as s, Galaxy as g, SpecPhoto as sph WHERE ga.oiii_#_flux > #*ga.oiii_#_flux_err AND ga.oiii_#_flux < #*ga.oiii_#_flux_err AND s.class = # AND s.specobjid = ga.specobjid AND s.specobjid = g.specobjid AND sph.specobjid = g.specobjid AND sph.specobjid = ga.specobjid AND ga.oiii_#_flux_err > # AND g.specobjid > # AND sph.z > # into MyDB.t5__t"
+2019-07-22 07:29:00,1
+2019-07-22 07:36:00,1
+2019-07-22 07:49:00,1
+2019-07-22 08:16:00,1
+2019-07-22 08:41:00,1
+2019-07-22 09:45:00,1
+2019-07-22 11:56:00,1
+2019-07-22 12:13:00,1
+2019-07-22 12:33:00,1
+2019-07-23 02:58:00,1
+2019-07-24 05:19:00,1
+2019-07-24 05:22:00,1
+2019-07-24 08:07:00,1

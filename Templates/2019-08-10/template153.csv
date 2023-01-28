@@ -1,0 +1,2 @@
+1,"SELECT   o.modelMag_u, o.modelMag_r, o.modelMag_g, o.modelMag_i, o.modelMag_z,   o.modelMagErr_u, o.modelMagErr_r, o.modelMagErr_g, o.modelMagErr_i, o.modelMagErr_z,   m.PGC_name INTO outtable FROM dr7.PhotoObjAll as o INNER JOIN mydb.PGC AS m ON m.objID = o.objID"
+2019-08-10 15:08:00,1

@@ -1,0 +1,2 @@
+1,"select one.*, spec.specObjID from MyDB.StageOne as one, DR1#.specObj as spec where one.SDSS_ID = spec.bestObjID into MyDB.StageTwo"
+2019-02-27 04:53:00,1

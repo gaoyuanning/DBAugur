@@ -1,0 +1,2 @@
+1,"SELECT SUM(UnitPrice), AlbumId   FROM Chinook.Track   GROUP BY AlbumId   ORDER BY SUM(UnitPrice) DESC"
+2019-04-23 00:46:00,1

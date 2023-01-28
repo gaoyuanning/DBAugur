@@ -1,0 +1,2 @@
+1,"select min (objId) , max (objID) from PhotoObjAll;"
+2019-12-30 09:53:00,1

@@ -1,0 +1,4 @@
+3,"SELECT m.ra, m.dec, p.objid, p.g, p.r, g.h_alpha_flux, g.nii_#_flux into mydb.MyTable from MyDB.galaxyData AS m CROSS APPLY dbo.fGetNearbyObjEq (m.ra, m.dec, #) AS n JOIN photoObj AS p ON p.objid = n.objid JOIN GalSpecLine AS g ON g.specobjid = p.specobjid JOIN galSpecInfo AS i ON i.specobjid = g.specobjid JOIN specObj AS s ON s.bestobjid = p.objid AND s.Class = # AND s.z < = # AND g.h_alpha_flux > # AND g.nii_#_flux > # AND g.h_alpha_flux_err < g.h_alpha_flux AND g.nii_#_flux_err < g.nii_#_flux AND i.subclass ! = #"
+2019-02-24 00:20:00,1
+2019-02-24 00:22:00,1
+2019-02-24 00:29:00,1

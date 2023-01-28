@@ -1,0 +1,2 @@
+1,"select   z.objid, z.ra, z.dec, p.ra, p.dec from DR1#.zooSpec z  into mydb.zoo_test    where   z.p_acw >= #"
+2019-03-22 14:09:00,1

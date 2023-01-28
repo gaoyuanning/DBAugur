@@ -1,0 +1,3 @@
+2,"SELECT TOP # ra, dec, psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z FROM Star WHERE ra BETWEEN # and # AND dec between # and #"
+2019-10-22 18:08:00,1
+2019-10-22 18:09:00,1

@@ -1,0 +1,2 @@
+1,"SELECT ObjID, r, g, i, u into mydb.E_Red_Galaxies FROM mydb.E_Galaxies where (u-r < # & u-r > #)"
+2019-08-14 08:30:00,1

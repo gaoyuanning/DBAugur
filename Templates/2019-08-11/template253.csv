@@ -1,0 +1,2 @@
+1,"select  Ra,Dec from  specObj, PhotoObj  where  PhotoObj.ObjID=#"
+2019-08-11 08:40:00,1

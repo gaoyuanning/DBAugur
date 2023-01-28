@@ -1,0 +1,3 @@
+2,"select objid, ra,dec, psfmag_g, psfmag_g-extinction_g as g0, psfmag_u-extinction_u-psfmag_g+extinction_g as umg0, psfmag_g-extinction_g-psfmag_r+extinction_r as gmr0 from star where run in (#,#) and ra between # and # and psfmag_g-extinction_g-psfmag_r+extinction_r between # and # and psfmag_g between # and #"
+2019-10-08 05:16:00,1
+2019-10-08 05:17:00,1

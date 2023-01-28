@@ -1,0 +1,2 @@
+2,"SELECT sp.ra, sp.dec FROM specPhoto AS sp WHERE sp.ra > # AND sp.ra < # AND sp.dec > # AND sp.dec < #"
+2019-12-07 02:12:00,2

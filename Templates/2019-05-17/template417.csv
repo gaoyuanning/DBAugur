@@ -1,0 +1,3 @@
+2,"select distinct g.name, m.name  from chinook.track t    left join chinook.genre g      on g.genreid = t.genreid         left join chinook.mediatype m          on m.mediatypeid = t.mediatypeid"
+2019-05-17 09:04:00,1
+2019-05-17 09:18:00,1

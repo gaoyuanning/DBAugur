@@ -1,0 +1,2 @@
+1,"SELECT TOP #   s.objID, s.ra, s.dec, s.dered_u as mag_u, s.dered_g as mag_g, s.dered_r as mag_r, s.dered_i as mag_i, s.dered_z as mag_z, s.z as redshift,    p.mRrCc_u-p.mRrCcPSF_u as size_u, p.mRrCc_g-p.mRrCcPSF_g as size_g, p.mRrCc_r-p.mRrCcPSF_r as size_r, p.mRrCc_i-p.mRrCcPSF_i as size_i, p.mRrCc_z-p.mRrCcPSF_z as size_z INTO    mydb.muestra_musas_test3 FROM   SpecPhoto s JOIN PhotoObj p ON s.objID = p.objID"
+2019-05-13 19:16:00,1

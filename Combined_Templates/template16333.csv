@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.dered_g, p.dered_r, p.b, p.bl FROM PhotoPrimary as p WHERE p.clean = #"
+2019-03-03 16:32:00,1

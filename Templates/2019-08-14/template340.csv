@@ -1,0 +1,2 @@
+2,"SELECT TOP #  p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  p.run, p.rerun, p.camcol, p.field,  s.specobjid, s.class, s.z as redshift,  s.plate, s.mjd, s.fiberid FROM Galaxy AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   p.r BETWEEN # AND #  AND s.z BETWEEN # AND #  AND s.class=GALAXY"
+2019-08-14 13:15:00,2

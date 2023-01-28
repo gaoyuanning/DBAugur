@@ -1,0 +1,3 @@
+2,"SELECT objID, type, u, g, r, i, z FROM Photobj WHERE  ra BETWEEN # AND # dec BETWEEN # AND #"
+2019-05-24 23:02:00,1
+2019-05-24 23:03:00,1

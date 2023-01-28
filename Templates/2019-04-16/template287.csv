@@ -1,0 +1,7 @@
+6,"INSERT INTO sessions         (session_ID, session_datetime, session_filepath, session_desc, session_stim_length_ms, subject_name, dataset_name)         VALUES         (#, &&&, &&&, &&&, #, &&&, &&&)"
+2019-04-16 13:02:00,1
+2019-04-16 13:10:00,1
+2019-04-16 13:26:00,1
+2019-04-16 13:43:00,1
+2019-04-16 13:46:00,1
+2019-04-16 13:59:00,1

@@ -1,0 +1,2 @@
+3,"SELECT p.ra, p.dec, p.modelMag_r, p.modelMag_u FROM galaxy AS p WHERE p.ra BETWEEN # AND # AND p.dec BETWEEN # AND # AND p.modelMag_r< #"
+2019-08-17 02:56:00,3

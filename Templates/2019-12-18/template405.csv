@@ -1,0 +1,2 @@
+1,"select s.bestObjId, s.ra, s.dec, s.z, p.u, p.err_u, p.g, p.err_g, p.r, p.err_g, p.i, p.err_i, p.z, p.err_z into mydb.CFHTLenS_W1_galaxy_spectra_magnitudes from specObj s join PhotoObj p ON p.objID = s.bestObjId where s.ra BETWEEN # and # AND   s.dec BETWEEN # and # AND   s.class=&&& AND   s.zWarning=#"
+2019-12-18 03:43:00,1

@@ -1,0 +1,2 @@
+1,"SELECT name,ra,dec FROM mydb.xave as x  x.ra into mydb.test"
+2019-11-05 11:56:00,1

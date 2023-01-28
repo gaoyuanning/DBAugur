@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra, dec,   z,    i,    g as Redshift into mydb.MyTable_# from Star"
+2019-04-21 19:39:00,1

@@ -1,0 +1,2 @@
+1,"select Album.Title as AlbumTitle, Count(*) as TrackCount from chinook.Track inner join chinook.Album on chinook.Track.AlbumId=chinook.Album.AlbumId inner join chinook.Artist on chinook.Album.ArtistId=chinook.Artist.ArtistId group by Album.Title"
+2019-04-24 19:07:00,1

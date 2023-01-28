@@ -1,0 +1,3 @@
+2,"SELECT top #  visit.*, aspcap.teff, aspcap.logg, aspcap.param_m_h FROM apogeeVisit visit  JOIN apogeeStarVisit starvisit on visit.visit_id = starvisit.visit_id  JOIN aspcapStar aspcap on aspcap.apstar_id = starvisit.apstar_id  JOIN apogeeStar star on star.apstar_id = starvisit.apstar_id WHERE (aspcap.aspxcapflag & dbo.fApogeeAspcapFlag(&&&)) = # and aspcap.teff > #  and (star.apogee_target1 & dbo.fApogeeTarget1(&&&)) > #  and star.nvisits > #  ORDER BY visit.apogee_id"
+2019-07-19 00:40:00,1
+2019-07-19 09:15:00,1

@@ -1,0 +1,3 @@
+2,"select --top # dr7objid, dr8objid, distance from MyDB.andre as a join PhotoObjDR7 as p on p.dr8objid = a.objid"
+2019-03-02 15:47:00,1
+2019-03-02 15:48:00,1

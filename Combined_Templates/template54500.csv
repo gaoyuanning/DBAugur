@@ -1,0 +1,3 @@
+4,"select top # objid, ra, dec into [myscratch:default].mytable_# from DR1#.PhotoPrimary"
+2019-07-30 17:07:00,2
+2019-07-30 17:08:00,2

@@ -1,0 +1,2 @@
+1,"select my.*,SpecObj.*, galSpecExtra.*, galSpecIndx.*, galSpecInfo.*, galSpecLine.*   into mydb.HSC_SDSS_cat   from mydb.HSC_SDSS as my     JOIN SpecObj on my.id = SpecObj.bestObjID     left join galSpecExtra on galSpecExtra.specObjID = SpecObj.specObjID     left join galSpecIndx on galSpecIndx.specObjID = SpecObj.specObjID     left join galSpecInfo on galSpecInfo.specObjID = SpecObj.specObjID     left join galSpecLine on galSpecLine.specObjID = SpecObj.specObjID"
+2019-05-10 13:50:00,1

@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec FROM Star s JOIN dbo.fGetNearbyObjEq(#,#,#) AS N on N.objID=s.objID  WHERE r># AND r<# AND"
+2019-09-02 17:25:00,1

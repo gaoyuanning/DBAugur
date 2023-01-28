@@ -1,0 +1,2 @@
+1,"select nsa.*, nb.objid from mydb.nsa_coords as nsa   outer apply dbo.fgetnearestobjeq(nsa.ra,nsa.dec,.#) as nb"
+2019-04-07 16:54:00,1

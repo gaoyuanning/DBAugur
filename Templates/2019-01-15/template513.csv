@@ -1,0 +1,4 @@
+4,"select top # g.objid, g.ra, g.dec,   g.u AS u, g.g AS g, g.r AS r, g.i AS i, g.z AS z, s.z AS z_obs,   p.absMagU AS U, p.absMagG AS G, p.absMagR AS R, p.absMagI AS I, p.absMagZ AS Z,     s.subclass    from galaxy g,  dbo.fgetNearByObjEq(#,#,#) n,  specObj s,   Photoz p   where  g.objid=n.objid  and g.objID = s.bestObjID and g.objID = p.objID AND s.z BETWEEN # AND #"
+2019-01-15 09:04:00,1
+2019-01-15 09:05:00,2
+2019-01-15 09:06:00,1

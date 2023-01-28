@@ -1,0 +1,2 @@
+1,"SELECT TOP # ( (FLOOR (#*g.ra) + #) %#) *# as ra , FLOOR (#*g.ra) *# as dec, g.dered_u as u , g.dered_g as g , g.dered_r as r, g.dered_i as i, g.dered_z as z, #*g.mRrCc_r as size, floor (#*power (power (g.mE1_r, #) + power (g.mE2_r, #) , #) )*# as ellipticity, s.z as redshift FROM galaxy as g INNER JOIN SpecObjAll as s on s.bestObjID = g.objID WHERE s.z> # and s.z< #"
+2019-03-03 07:24:00,1

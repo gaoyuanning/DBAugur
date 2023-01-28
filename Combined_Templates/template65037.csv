@@ -1,0 +1,2 @@
+1,"select top # g.objid, g.ra, g.dec, s.bestobjid, s.z from galaxy as g join specobj as s on s.bestobjid = g.objid"
+2019-09-24 10:32:00,1

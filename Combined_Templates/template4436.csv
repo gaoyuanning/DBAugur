@@ -1,0 +1,2 @@
+1,"SELECT top # ra, dec, z, spectroFlux_u, spectroFlux_g, spectroFlux_r, spectroFlux_i, spectroFlux_z into mydb.MyTable_# from SpecObj WHERE zWarning = # AND z> # AND class = # AND ra> # AND ra< # ORDER by z"
+2019-01-18 09:40:00,1

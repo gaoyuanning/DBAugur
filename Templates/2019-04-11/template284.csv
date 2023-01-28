@@ -1,0 +1,2 @@
+1,"SELECT ar.Name, COUNT(*) AS numAlbums FROM chinook.Artist AS ar JOIN chinook.Album AS al ON al.ArtistId = ar.ArtistId GROUP BY ar.Name ORDER BY numAlbums DESC"
+2019-04-11 15:00:00,1

@@ -1,0 +1,2 @@
+1,"SELECT SUBSTRING (Composer, #, #) as initial; COUNT intial FROM chinook.Track"
+2019-04-24 04:19:00,1

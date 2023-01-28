@@ -1,0 +1,12 @@
+126,"SELECT TOP # pobj.ra, pobj.dec, pz.z, pobj.type, pobj.objID, pz.objID from PhotoObjAll as pobj JOIN Photoz as pz ON pz.objID = pobj.objID WHERE pobj.ra BETWEEN # AND # AND pobj.type = #"
+2019-01-21 16:33:00,1
+2019-01-21 17:04:00,11
+2019-01-21 17:30:00,6
+2019-01-21 17:31:00,4
+2019-01-21 17:32:00,18
+2019-01-21 17:33:00,27
+2019-01-21 17:34:00,20
+2019-01-21 17:35:00,28
+2019-01-21 17:36:00,4
+2019-01-21 20:41:00,3
+2019-01-21 20:42:00,4

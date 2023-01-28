@@ -1,0 +1,2 @@
+1,"SELECT TOP # t.thingid, t.ndetect, d.objid, r.BESTOBJID, p.dec, r.GaiaDEC_#, p.ra, r.GaiaRA_#, p.mjd into mydb.AllThingIds2    FROM thingIndex AS t JOIN detectionindex AS d ON t.thingid = d.thingid JOIN PhotoObjAll p ON d.objid=p.objid JOIN mydb.FinalRawData AS r ON p.objid=r.BESTOBJID order by t.ndetect"
+2019-01-15 12:45:00,1

@@ -1,0 +1,3 @@
+2,"SELECT    p.specObjID,p.h_beta_flux,p.h_beta_flux_err,    p.oiii_#_flux,p.oiii_#_flux_err,    p.h_alpha_flux,p.h_alpha_flux_err,   p.nii_#_flux,p.nii_#_flux_err from PhotoObjAll g JOIN galSpecLine p     ON g.specObjID=p.specObjID WHERE     g.objID= #;"
+2019-09-25 12:03:00,1
+2019-09-25 12:04:00,1

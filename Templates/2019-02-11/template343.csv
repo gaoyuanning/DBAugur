@@ -1,0 +1,2 @@
+1,"SELECT TOP #   g.run,   g.camCol,   g.rerun,   g.field,   g.objID,   g.ra, g.dec FROM Field f    JOIN Galaxy g ON g.fieldID = f.fieldID WHERE   ( g.flags & (dbo.fPhotoFlags(&&&)                    + dbo.fPhotoFlags(&&&)                    + dbo.fPhotoFlags(&&&)) ) > #   and ( g.flags & (dbo.fPhotoFlags(&&&)                    + dbo.fPhotoFlags(&&&)                    + dbo.fPhotoFlags(&&&)) ) != dbo.fPhotoFlags(&&&)   and ( g.flags & (dbo.fPhotoFlags(&&&)                     + dbo.fPhotoFlags(&&&)) ) = #   and f.psfWidth_r < #   and (g.i - g.z > # )"
+2019-02-11 15:50:00,1

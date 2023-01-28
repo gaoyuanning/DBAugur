@@ -1,0 +1,4 @@
+5,"SELECT sp.ra, sp.dec, sp.z, sp.zErr, sp.plate, sp.mjd, sp.fiberID, sp.zWarning, sp.mode, sp.SourceType, sp.Class, p.clean, pl.platequality, lines.oiii_#_flux, lines.oiii_#_flux_err, lines.oiii_#_cont, lines.oiii_#_cont_err, lines.oiii_#_eqw, lines.oiii_#_eqw_err FROM galSpecLine AS lines, SpecPhoto AS sp, PhotoObj AS p, Platex AS pl WHERE lines.specobjID = sp.specobjID AND sp.plateID = pl.plateID AND sp.specobjID = p.specobjID AND sp.Class = # AND sp.z > # AND sp.z < #"
+2019-01-04 04:50:00,1
+2019-01-04 04:52:00,1
+2019-01-04 04:53:00,3

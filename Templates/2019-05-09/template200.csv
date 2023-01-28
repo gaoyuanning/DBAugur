@@ -1,0 +1,3 @@
+2,"select thetime,  logID, clientIP, op, command, error, browser,  isvisible, referer, bytesOut, bytesIn, elapsed  into weblog2#  from weblogall  where theTime between &&& and &&&"
+2019-05-09 15:28:00,1
+2019-05-09 15:30:00,1

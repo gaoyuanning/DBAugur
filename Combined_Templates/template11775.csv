@@ -1,0 +1,2 @@
+1,"select specObjID , ra , dec , fPhotoFlags from specObjAll where run = #"
+2019-02-17 12:55:00,1

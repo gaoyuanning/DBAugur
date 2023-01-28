@@ -1,0 +1,2 @@
+1,"SELECT TOP # cast (str (p.ra, #, #) as float) as ra, cast (str (p.[dec], #, #) as float) as dec, IS# (cast (str (s.ra, #, #) as float) , #) as ra, IS# (cast (str (s.[dec], #, #) as float) , #) as dec FROM ..PhotoObj AS p LEFT OUTER JOIN ..SpecObj s ON p.objID = s.bestObjID WHERE (p.type = # OR p.type = #)"
+2019-10-09 12:10:00,1

@@ -1,0 +1,2 @@
+1,"SELECT ra,dec,objid into mydb.ellipse FROM dbo.zooVotes  WHERE p_el >#"
+2019-03-28 14:44:00,1

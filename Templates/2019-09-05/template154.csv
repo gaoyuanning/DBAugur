@@ -1,0 +1,2 @@
+1,"SELECT starname,fcjd,rv,photonerr,offseterror,keep FROM marvelsVelocityCurveUF1D WHERE starname LIKE &&& AND hip_name LIKE &&&"
+2019-09-05 19:36:00,1

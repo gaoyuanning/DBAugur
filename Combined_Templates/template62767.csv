@@ -1,0 +1,2 @@
+1,"SELECT TOP # p7.objID , p.VAGC into myDB.yang_sdss FROM MyDB.Cluster_Yang p JOIN PhotoObjAll p7 ON p.run = p7.run and p.rerun = p7.rerun and p.camcol = p7.camcol and p.field = p7.field and p.id = p7.obj"
+2019-09-12 09:00:00,1

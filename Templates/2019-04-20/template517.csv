@@ -1,0 +1,3 @@
+4,"select substring(Name,#,#) from chinook.Artist"
+2019-04-20 10:21:00,1
+2019-04-20 10:25:00,3

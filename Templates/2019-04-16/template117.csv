@@ -1,0 +1,2 @@
+1,"SELECT TOP # str(p.g - p.r,#,#) as grModelColor, &&& as filter FROM  TARGDR2..PhotoObj as p WHERE  ( p.type = # OR p.type = #)"
+2019-04-16 20:14:00,1

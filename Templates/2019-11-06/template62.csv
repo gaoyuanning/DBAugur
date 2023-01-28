@@ -1,0 +1,2 @@
+1,"select objID, z, zErr, absMagU, absMagG, absMagR, absMagI, absMagZ from Photoz where z BETWEEN # and #"
+2019-11-06 22:35:00,1

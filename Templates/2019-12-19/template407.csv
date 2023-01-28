@@ -1,0 +1,2 @@
+1,"select top # p.objid, p.ra, p.dec from star p, specobj s where p.objid=s.bestobjid and p.r-p.i > #  and p.i-p.z > #"
+2019-12-19 07:26:00,1

@@ -1,0 +1,2 @@
+1,SELECT DISTINCT (probPSF_i) into mydb.distinct_probPSF_i from photoObjAll ;
+2019-08-15 13:28:00,1

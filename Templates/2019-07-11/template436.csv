@@ -1,0 +1,2 @@
+1,"SELECT Amplitude_Ha_# as ampHa, Amplitude_Ha_#_Err as ampHa_err, Amplitude_Hb_# as ampHb, Amplitude_Hb_#_Err as ampHb_err  FROM emissionLinesPort as e  WHERE ampHa > ampHa_err AND ampHb > ampHb_err AND ampHa_err > # AND ampHb_err > #"
+2019-07-11 10:00:00,1

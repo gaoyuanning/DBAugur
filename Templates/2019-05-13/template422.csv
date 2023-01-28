@@ -1,0 +1,2 @@
+1,"CREATE TABLE Allam2(   ra_iso   float  not null,   dec_iso   float  not null,   objID     bigint not null,    ra       float  not null,   dec       float  not null,   lumDist  real   not null       );"
+2019-05-13 08:20:00,1

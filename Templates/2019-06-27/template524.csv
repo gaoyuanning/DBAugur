@@ -1,0 +1,2 @@
+1,"select top # ra,dec,z,class from photoObjAll where class=&&& or &&&"
+2019-06-27 07:06:00,1

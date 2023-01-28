@@ -1,0 +1,2 @@
+1,select @max = max (*) from specobj WHERE class = # AND zWarning = # and survey = # print @max
+2019-03-07 15:49:00,1

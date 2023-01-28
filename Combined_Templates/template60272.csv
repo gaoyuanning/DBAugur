@@ -1,0 +1,4 @@
+3,"SELECT TOP # s.bestObjID, s.specObjID FROM SpecObjAll as s"
+2019-09-02 07:15:00,1
+2019-09-02 07:16:00,1
+2019-09-02 07:17:00,1

@@ -1,0 +1,2 @@
+1,"select s.objID, s.psfMag_r, s.fiberMag_r, s.fiber2Mag_r, s.fiberMag_g, s.fiber2Mag_g, s.petroMag_r, s.r, s.g   OUTER APPLY dbo.fGetNearbyObjEq(#, #, #) as s   where s.mode = # and s.type = # and s.specObjID = #"
+2019-05-03 05:04:00,1

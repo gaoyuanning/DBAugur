@@ -1,0 +1,2 @@
+1,"select S.objid, X.sdss_objid, S.specobjid, S.ra, S.dec, S.petromag_u, S.petromag_g, S.petromag_r, S.petromag_i, S.petromag_z, S.petromagerr_u, S.petromagerr_g, S.petromagerr_r, S.petromagerr_i, S.petromagerr_z, S.petrorad_r, S.z, S.ew_oiii_#, W.w1mpro, W.w2mpro, W.w3mpro, W.w4mpro, W.w1sigmpro, W.w2sigmpro, W.w3sigmpro, W.w4sigmpro, W.cntr into mydb.SDSS_gal_dr1#_wise5 from wise_xmatch as X join mydb.SDSS_gal_dr1#_# as S on X.sdss_objid = S.objid join wise_allsky as W on X.wise_cntr = W.cntr"
+2019-04-15 12:53:00,1

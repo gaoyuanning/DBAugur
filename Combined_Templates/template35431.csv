@@ -1,0 +1,2 @@
+1,"SELECT TOP # plate, mjd, fiberid into mydb.MyTable_sop1# from SpecObj WHERE z between # and # AND instrument = #"
+2019-04-29 10:48:00,1

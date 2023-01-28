@@ -1,0 +1,5 @@
+4,"create table test (ID bigint primary key not # identity (#, #) , data nvarchar (#) #)"
+2019-10-20 03:02:00,1
+2019-10-20 11:58:00,1
+2019-10-20 12:52:00,1
+2019-10-20 12:53:00,1

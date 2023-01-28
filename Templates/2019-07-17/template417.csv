@@ -1,0 +1,2 @@
+1,"SELECT MIN(s.z) FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE  p.objid IN (#,#)"
+2019-07-17 06:00:00,1

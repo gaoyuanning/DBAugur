@@ -1,0 +1,2 @@
+1,select count (*) from MyDB.StageOne where type! =#
+2019-11-06 06:53:00,1

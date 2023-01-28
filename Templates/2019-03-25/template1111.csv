@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, petroR5#_r, petroR9#_r, dered_r, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z    from PhotoObjAll   where dered_r < #"
+2019-03-25 05:34:00,1

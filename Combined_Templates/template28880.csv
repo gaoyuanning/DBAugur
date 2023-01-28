@@ -1,0 +1,2 @@
+2,"SELECT TOP # p.objid, p.R9#_r, p.R5#_r and p.R9#_r/R5#_r> # p.r and p.r between # and # p.MagErr_r, and p.MagErr_r < # p.run, p.rerun, p.camcol, p.field, s.specobjid, s0.class, s.z as redshift, and z > # s.zErr< #e-# s.plate, s.mjd, s.fiberid s.velDisp and s.velDisp > # s.velDispErr/velDisp < # FROM PhotoObj AS p"
+2019-04-09 04:30:00,2

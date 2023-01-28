@@ -1,0 +1,4 @@
+3,"select top # bestObjID, ra, dec, z from specObj where (class = #) and ra < # and ra > # and dec < # and dec > # order by # desc"
+2019-02-21 06:22:00,1
+2019-02-21 06:28:00,1
+2019-03-23 19:22:00,1

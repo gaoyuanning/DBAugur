@@ -1,0 +1,4 @@
+3,"select top # modelMag_g,ra,dec from PhotoTag where type=# AND modelMag_g># order by modelMag_g"
+2019-03-27 17:21:00,1
+2019-03-27 17:23:00,1
+2019-03-27 18:10:00,1

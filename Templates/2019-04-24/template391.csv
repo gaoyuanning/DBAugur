@@ -1,0 +1,2 @@
+1,"SELECT Num, COUNT(B.AlbumId) FROM (SELECT DISTINCT AlbumId, COUNT(*) AS Num       FROM chinook.Track       GROUP BY AlbumId) AS B GROUP BY B.Num"
+2019-04-24 16:40:00,1

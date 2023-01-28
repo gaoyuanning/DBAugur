@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.plate, s.mjd, s.fiberid, s.z, s.zErr, s.zWarning, s.class FROM BESTDR9..SpecObj as s WHERE s.zWarning = #"
+2019-03-01 01:18:00,1

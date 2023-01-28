@@ -1,0 +1,2 @@
+2,"SELECT TOP # o.objID, o.petroMag_u, INTO MyDB.PGC FROM PhotObjAll as o"
+2019-08-10 14:11:00,2

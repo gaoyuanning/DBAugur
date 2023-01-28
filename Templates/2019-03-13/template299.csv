@@ -1,0 +1,2 @@
+1,"SELECT colc_u,colc_g,colc_r,colc_i,colc_z,rowc_u,rowc_g,rowc_r,rowc_i,rowc_zFROM photoObj WHERE run = # AND camcol = # AND field = # AND type = #"
+2019-03-13 16:44:00,1

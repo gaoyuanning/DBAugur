@@ -1,0 +1,2 @@
+1,"SELECT * FROM chinook.track SELECT MediaTypeID, MilliSeconds, Bytes      FROM chinook.Track"
+2019-04-24 02:58:00,1

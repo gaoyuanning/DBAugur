@@ -1,0 +1,6 @@
+8,"SELECT     objid,ra,dec,     psfmag_g, psfmag_r, extinction_g, extinction_r FROM Star where ra between # and #     and dec between # and #"
+2019-01-19 14:43:00,1
+2019-01-19 14:55:00,4
+2019-01-19 14:57:00,1
+2019-01-19 17:00:00,1
+2019-01-19 17:04:00,1

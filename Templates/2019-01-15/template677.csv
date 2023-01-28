@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, f.mjd_r, p.psfMag_r, p.psfMagErr_r into mydb.fa from dr1#.PhotoObjAll p JOIN dr1#.Field f ON p.fieldid=f.fieldid WHERE  p.score># AND p.clean=# AND p.psfMag_r># AND p.psfMagErr_r"
+2019-01-15 02:29:00,1

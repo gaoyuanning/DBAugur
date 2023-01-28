@@ -1,0 +1,2 @@
+1,"select top # specobjid,ra,dec,mjd,fiberid,subclass from specobj where class=star"
+2019-01-25 10:28:00,1

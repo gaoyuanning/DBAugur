@@ -1,0 +1,2 @@
+1,"select v.[name] as viewname, s.[name] as [schema] from sys.views as v,sys.schemas as s where v.schema_id = s.schema_id --and s.[name] = &&& select top # * from dbo.DR1#.SpecObj"
+2019-10-04 06:45:00,1

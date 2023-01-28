@@ -1,0 +1,2 @@
+1,"SELECT top # sp.objid, sp.ra, sp.dec, sp.u, sp.g, sp.i, sp.r, sp.z, FROM SpecPhoto AS sp"
+2019-03-06 15:03:00,1

@@ -1,0 +1,2 @@
+1,"select top # p.objid, p.ra, p.dec from galaxy p, specobj s where p.objid=s.bestobjid"
+2019-09-12 01:08:00,1

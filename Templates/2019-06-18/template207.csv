@@ -1,0 +1,2 @@
+2,"SELECT   ra, dec,psfMag_u,psfMagerr_u,psfMag_g,psfMagerr_g,psfMag_r,psfMagerr_r,psfMag_i,psfMagerr_i,psfMag_z,psfMagerr_z into mydb.MyTable_# from PhotoPrimary WHERE ra > # and ra < # and dec > # and dec < # and type = #"
+2019-06-18 15:34:00,2

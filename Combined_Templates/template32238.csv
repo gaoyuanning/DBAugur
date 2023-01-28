@@ -1,0 +1,2 @@
+1,"select * into mydb.MyTable from chinook.Artist SUBSTRING (#, #, #)"
+2019-04-20 10:00:00,1

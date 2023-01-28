@@ -1,0 +1,2 @@
+1,"select top # p.ra, p.dec, s.z, s.snMedian, p.u, p.g, p.r, p.i, p.z, p.psfMag_g, (# - #*log1#(spectroFlux_g)), specobjid from specobj as s, photoobj as p where s.specobjid = p.specobjid and (p.ra between #. and #.) and (p.dec between #. and #.) and s.snMedian > # and s.class = &&& and p.g < #"
+2019-09-09 20:48:00,1

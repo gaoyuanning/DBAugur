@@ -1,0 +1,3 @@
+3,"SELECT s.plate, s.mjd, s.fiberid into mydb.MyTable from PhotoObjAll..SpecObjAll as s JOIN PhotoJobAll..Galaxy AS p ON s.bestObjID = p.objID JOIN dbo.fGetObjFromRect (#, #, #, #) AS b ON p.objID = b.objID WHERE (s.specClass = dbo.fSpecClass (#) ) AND s.z < # AND p.r < # AND (p.g - p.r) > #"
+2019-10-03 17:41:00,2
+2019-10-03 17:46:00,1

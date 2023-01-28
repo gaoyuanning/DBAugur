@@ -1,0 +1,2 @@
+1,"select s.u, s.g, s.r, s.i, s.z from specObj s JOIN galSpecLine g on g.specObjID = s.specObjID where ra between # and # AND dec between # and # AND class = &&&"
+2019-11-14 14:48:00,1

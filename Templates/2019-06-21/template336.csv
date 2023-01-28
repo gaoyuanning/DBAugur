@@ -1,0 +1,4 @@
+3,"SELECT ObjId, ra, dec, u, err_u, g, err_g, r, err_r, i, err_i, z, err_z into mydb.MyTable from PhotoObj WHERE (ra between # and #) and (dec between # and #)"
+2019-06-21 07:36:00,1
+2019-06-21 08:02:00,1
+2019-06-21 08:31:00,1

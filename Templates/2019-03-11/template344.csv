@@ -1,0 +1,2 @@
+1,"SELECT TOP # run,            objID,   z,    ra, dec   		 FROM PhotoPrimary	 WHERE  s.z < #"
+2019-03-11 14:49:00,1

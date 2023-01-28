@@ -1,0 +1,3 @@
+2,"SELECT SOA.ra, SOA.dec, SOA.z, SOA.zErr, SOA.zWarning, SOA.z_person,   POA.ra, POA.dec, POA.petroR5#_u, POA.petroR5#_g, POA.petroR5#_r, POA.petroR5#_i, POA.petroR5#_z, POA.petroR9#_u, POA.petroR9#_g, POA.petroR9#_r, POA.petroR9#_i, POA.petroR9#_z,   POA.dered_r, POA.modelMag_u, POA.modelMag_g, POA.modelMag_r, POA.modelMag_i, POA.modelMag_z into mydb.MyTable from SpecObjAll AS SOA   LEFT JOIN PhotoObjAll AS POA   ON SOA.ra = POA.ra AND SOA.dec = POA.dec WHERE dered_r <#"
+2019-03-13 01:03:00,1
+2019-03-13 01:04:00,1

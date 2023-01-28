@@ -1,0 +1,2 @@
+1,"SELECT top # objID, ra, dec, modelMag_r, petroRad_r FROM PhotoPrimary g JOIN specOBJ s ON g.ObjID = s.bestObjID WHERE g.ra > # and g.ra < # AND g.dec > # and g.dec < # AND type = # AND g.modelMag_r > # AND g.PetroRad_r > #"
+2019-02-12 14:41:00,1

@@ -1,0 +1,2 @@
+1,"SELECT PO.ra as ra, PO.dec as dec, PO.z as z, PO.petroMag_g as mag_g, PO.petroMag_r as mag_r, PO.petroMag_z as mag_z, PO.petroR5#_r as R5#, w.w1mpro as w1, w.w2mpro as w2 FROM WISE_xmatch as xm join PhotoObjAll as PO on xm.sdss_objid = PO.objID join WISE_allsky as w on xm.wise_cntr = w.cntr WHERE ABS (z) > # AND class = # AND petroMag_r > # AND petroMag_r < #"
+2019-04-15 02:49:00,1

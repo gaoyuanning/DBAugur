@@ -1,0 +1,2 @@
+1,"SELECT s.specobjid, s.bestobjid, s.firstrelease, s.survey, s.sourcetype, s.class, gal.ra, gal.raErr, gal.dec, gal.decErr, s.z, s.zErr, s.zwarning, gal.r, gal.i, gal.g, gal.dered_r, gal.dered_i, gal.dered_g, gal.psfMag_g, gal.petroMag_r, gal.extinction_r, gal.petroR5#_r INTO mydb.GALAXY_RED_galaxy FROM specobj as s JOIN Galaxy as gal on gal.objid = s.bestobjid WHERE (primtarget & dbo.fPrimTarget (#) > #)"
+2019-12-11 06:33:00,1

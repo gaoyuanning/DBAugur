@@ -1,0 +1,2 @@
+1,"SELECT ALL COUNT (dered_u) FROM Galaxy WHERE ROUND (ra, #) = # OR ROUND (ra, #) = #"
+2019-01-25 01:34:00,1

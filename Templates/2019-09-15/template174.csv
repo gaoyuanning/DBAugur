@@ -1,0 +1,5 @@
+6,"SELECT TOP #   PhotoObjAll.objid,  zooVotes.nvote_tot, 	zooVotes.p_el, 	zooVotes.p_cw, 	zooVotes.p_acw, 	zooVotes.p_edge, 	zooVotes.p_dk, 	zooVotes.p_mg, 	zooVotes.p_cs   into MyTable from PhotoObjAll     join zooVotes on PhotoObjAll.objid = zooVotes.objid  SELECT TOP # t1.nvote_tot, 	count(t1.p_el) as cnt,  	(SELECT count(t2.p_el) FROM zooVotes t2 WHERE t2.nvote_tot >= t1.nvote_tot)  into MyTable_cnt2 from zooVotes t1   group by t1.nvote_tot order by t1.nvote_tot desc"
+2019-09-15 13:00:00,2
+2019-09-15 13:01:00,1
+2019-09-15 13:10:00,2
+2019-09-15 13:12:00,1

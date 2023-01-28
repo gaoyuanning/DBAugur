@@ -1,0 +1,2 @@
+1,"SELECT s.plate, s.fiberid, s.mjdz FROM specobj as s, Galaxy as g, SpecPhoto as sph WHERE s.class = # AND s.specobjid = g.specobjid AND sph.specobjid = g.specobjid AND g.specobjid > # AND sph.z > # into MyDB.test"
+2019-07-18 09:34:00,1

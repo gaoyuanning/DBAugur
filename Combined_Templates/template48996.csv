@@ -1,0 +1,2 @@
+1,"SELECT MatchRA, MatchDEC, MatchID, CI, W2_F6#W, W2_F8#W, V_I = W2_F5#W - W2_F8#W INTO Mydb.MyTable_VI FROM SearchSumAper2Catalog (#, #, #)"
+2019-06-28 00:33:00,1

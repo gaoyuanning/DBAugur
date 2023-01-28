@@ -1,0 +1,4 @@
+6,"SELECT sp.specObjID, sp.ra, sp.dec, sp.z, sp.modelMag_r, sp.class, sl.lineID, sl.specobjID into mydb.MyTable_# from specPhoto AS sp, specLine as sl WHERE sp.specObjID = sl.specobjID AND sp.class = # AND sl.lineID = #"
+2019-06-06 05:47:00,2
+2019-06-06 05:50:00,2
+2019-06-06 05:51:00,2

@@ -1,0 +1,3 @@
+4,"SELECT TOP # s.apogee_id, s.ra, s.dec, s.glon, s.glat, s.vhelio_avg, s.vscatter, a.teff, a.teff_err, a.logg, a.logg_err, a.param_m_h, a.param_m_h_err, a.param_alpha_m, a.param_alpha_m_err,  a.c_h, a.c_h_err, a.n_h, a.n_h_err, a.o_h, a.o_h_err, a.na_h, a.na_h_err, a.mg_h, a.mh_h_err, a.al_h, a.al_h_err, a.si_h, a.si_h_err, a.s_h, a.s_h_err, a.k_h, a.k_h_err,  a.ca_h, a.ca_h_err, a.ti_h, a.ti_h_err, a.v_h, a.v_h_err, a.mn_h, a.mn_h_err, a.fe_h, a.fe_h_err, a.ni_h, a.ni_h_err, dbo.fApogeeAspcapFlagN(a.aspcapflag), dbo.fApogeeStarFlagN(s.starflag) into mydb.MyTable from apogeeStar s JOIN aspcapStar a on a.apstar_id = s.apstar_id WHERE (a.aspcapflag & dbo.fApogeeAspcapFlag(&&&)) = # and s.extratarg = #"
+2019-03-07 09:47:00,1
+2019-03-07 09:51:00,3

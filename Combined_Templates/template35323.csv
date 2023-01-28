@@ -1,0 +1,2 @@
+1,"SELECT count (*) FROM SpecObjAll as s, PhotoObjAll AS p WHERE s.bestobjid = p.objid AND s.z < # AND s.objtype = # AND s.zerr < # AND p.isoa_r > #"
+2019-04-28 02:19:00,1

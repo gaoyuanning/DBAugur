@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, type, clean, probPSF, psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z, psfMagErr_u, psfMagErr_g, psfMagErr_r, psfMagErr_i, psfMagErr_z, flags_u, flags_g, flags_r, flags_i, flags_z from PhotoPrimary WHERE g < # AND g > #"
+2019-03-03 12:04:00,1

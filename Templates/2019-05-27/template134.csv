@@ -1,0 +1,3 @@
+3,"SELECT    m.Name AS Name_cls,n.objid, n.distance, o.ra AS ra, o.dec AS dec,    o.modelMag_u as mu, o.modelMag_g as mg, o.modelMag_r as mr, o.modelMag_i as mi, o.modelMag_z as mz,    c.z as MEDIAN_Z, c.zErr as SIGMA_Z,    ISNULL(s.z,#) as z,ISNULL(s.zErr,#) as zErr,    o.score as score     into mydb.maughan_SDSS_gals_fov from Galaxy as o    left outer join SpecObj as s on o.objID = s.bestObjID    join dbo.fGetNearbyObjAllEq( m.Xra, m.Xdec, m.theta7Mpc) as n on n.objID = o.objID     join Photoz as c on c.objID = o.objID  WHERE   c.z > # AND   ( (o.modelMag_g - o.modelMag_r) BETWEEN # AND #) AND   o.modelMag_g < # AND   o.score >= # AND   clean = # AND (calibStatus_r & #) != #"
+2019-05-27 19:23:00,1
+2019-05-27 19:24:00,2

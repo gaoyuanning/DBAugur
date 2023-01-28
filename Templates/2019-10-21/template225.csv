@@ -1,0 +1,5 @@
+31,"select p.*  from Galaxy as p, SpecObj as s  where   p.mode = # AND s.zWarning = # AND p.specObjId = s.specObjId AND   p.dec > # AND p.dec < # AND p.clean = #"
+2019-10-21 15:00:00,1
+2019-10-21 15:37:00,1
+2019-10-21 15:44:00,1
+2019-10-21 15:45:00,28

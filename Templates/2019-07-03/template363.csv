@@ -1,0 +1,3 @@
+2,"SELECT --TOP # p.objid as objid, p.ra, p.dec, p.psfMag_r, p.psfMag_g, p.psfMag_i, p.psfMag_z FROM dr1#..PhotoObj as p WHERE   p.type = #  AND p.ra > # AND p.ra < #  AND p.dec > # AND p.dec < #   AND p.psfMag_g < #  INTO micado_stars"
+2019-07-03 09:16:00,1
+2019-07-03 10:02:00,1

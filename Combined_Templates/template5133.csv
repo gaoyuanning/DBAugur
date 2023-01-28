@@ -1,0 +1,3 @@
+2,"SELECT m.BOSS_HEADS_DEC as dec, m.BOSS_HEADS_RA as ra INTO #list FROM myDb.RA_AND_DEC m GO SELECT a.*, b.distance, b.objid FROM #list a CROSS APPLY dbo.fGetNearbyObjEq (a.ra, a.dec, #) b"
+2019-01-22 17:03:00,1
+2019-01-22 17:05:00,1

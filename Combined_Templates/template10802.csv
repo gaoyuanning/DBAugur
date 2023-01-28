@@ -1,0 +1,2 @@
+1,"select objectID, ra, dec, modelMag_g, modelMag_i, modelMag_r, modelMag_u, modelMag_z from SpecObj where ra BETWEEN # and # AND modelMag_g > # AND (modelmag_u - modelmag_g) > #"
+2019-02-13 15:44:00,1

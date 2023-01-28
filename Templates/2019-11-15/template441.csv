@@ -1,0 +1,2 @@
+2,"select distinct         photo.ra, photo.dec, photo.run, photo.rerun, photo.camcol, photo.field, my.id, photo.isoA_g       into mydb.donga2   from mydb.warpid AS my, PhotoObjAll As photo     where Photo.objid = my.id AND Photo.isoA_g > #"
+2019-11-15 00:12:00,2

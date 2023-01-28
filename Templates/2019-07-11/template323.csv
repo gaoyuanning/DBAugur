@@ -1,0 +1,2 @@
+1,"SELECT top # specObjID, z as redshift, ra, dec, cModelMag_u, cModelMagErr_u, cModelMag_g, cModelMagErr_g, cModelMag_r, cModelMagErr_r, cModelMag_i, cModelMagErr_i, cModelMag_z, cModelMagErr_z, class, subClass FROM SpecPhoto WHERE zWarning = #, subClass > #"
+2019-07-11 12:37:00,1

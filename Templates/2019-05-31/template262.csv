@@ -1,0 +1,2 @@
+1,"select top # sourceType, count(*) from SpecObjAll Group by sourceType"
+2019-05-31 16:45:00,1

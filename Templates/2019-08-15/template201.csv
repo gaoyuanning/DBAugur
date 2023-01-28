@@ -1,0 +1,2 @@
+1,"SELECT    objID, z, zErr, kcorrU, kcorrG, kcorrR, kcorrI, kcorrZ, kcorrU0#, kcorrG0#, kcorrR0#, kcorrI0#, kcorrZ0# into mydb.Kcorr_SDSS.fits from photoz  WHERE     photoErrorClass=#"
+2019-08-15 12:52:00,1

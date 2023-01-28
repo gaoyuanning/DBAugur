@@ -1,0 +1,3 @@
+2,"select top # v.ra, v.dec,  dbo.fGetNearestObjIdEq(v.ra, v.dec, #/#) as objID from mydb.vstar_min as v, star as s where (s.run = # or s.run = #)"
+2019-09-06 15:23:00,1
+2019-09-06 15:25:00,1

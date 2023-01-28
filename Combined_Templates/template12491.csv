@@ -1,0 +1,2 @@
+1,"select yearId, playerId, sum (hr) , rank () over (partition by yearid order by sum (hr) desc) as rank from baseball.batting group by yearId, playerId"
+2019-02-20 18:49:00,1

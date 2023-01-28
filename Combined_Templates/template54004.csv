@@ -1,0 +1,2 @@
+1,"SELECT s.plate, s.mjd, s.fiberid, s.z FROM SpecObj WHERE (class = #) and (z < #)"
+2019-07-26 08:16:00,1

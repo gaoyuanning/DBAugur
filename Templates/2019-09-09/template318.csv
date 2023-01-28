@@ -1,0 +1,2 @@
+1,"SELECT s.specObjID, s.ra, s.dec, s.plate, s.mjd, s.fiberID into mydb.MyTable1# from dbo.SpecObjAll AS s where s.specObjID != #"
+2019-09-09 09:39:00,1

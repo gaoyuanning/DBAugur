@@ -1,0 +1,2 @@
+1,"SELECT TOP # d.objid, d.ra, d.dec, s.z FROM dbo.PhotoObj as d, SpecObjAll as s into MyDB.MyTable WHERE s.z< #"
+2019-05-13 07:57:00,1

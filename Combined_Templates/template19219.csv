@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, dered_u, dered_g, into mydb.Test3# from PhotoObjAll Where ra> # and ra< # and dec> # and dec< # and type = #"
+2019-03-10 06:38:00,1

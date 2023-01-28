@@ -1,0 +1,2 @@
+1,"SELECT TOP # q.specObjID, q.z, q.ra, q.dec, u, g, g.specObjID, g.z, g.ra, g.dec FROM SpecObj as Q, Galaxy as G WHERE class = # AND zWarning = #"
+2019-02-21 01:25:00,1

@@ -1,0 +1,2 @@
+2,"SELECT p.ObjId, p.ra, p.dec, p.dered_r, p.dered_g, p.petroMag_r, p.petroMagErr_r, p.petroMag_g, p.petroMagErr_g, s.z_noqso FROM SpecObjAll s JOIN PhotoObjAll p on p.ra = s.ra WHEREp.type = # AND p.ra > # and p.ra < # AND p.dec > # and p.dec < # AND s.z_noqso > # AND s.z_noqso < #"
+2019-10-15 18:28:00,2

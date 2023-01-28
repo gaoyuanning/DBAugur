@@ -1,0 +1,2 @@
+1,"SELECT TOP #  ra,dec, z FROM SpecPhoto WHERE (type=#) order by z"
+2019-03-29 00:50:00,1

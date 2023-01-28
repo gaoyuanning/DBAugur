@@ -1,0 +1,2 @@
+1,"select apstar_id, apogee_id, location_id, telescope, ra, dec, glon, glat, min_h, max_h, min_jk, max_jk, survey, starflag, andflag, rv_teff, rv_logg, rv_feh, rv_ccfwhm, rv_autofwhm, apstar_version into mydb.apogeestar from apogeestar"
+2019-07-11 10:20:00,1

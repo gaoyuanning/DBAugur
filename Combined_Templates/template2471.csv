@@ -1,0 +1,4 @@
+4,"SELECT sp.plate, sp.mjd, sp.fiberid, s.elodiervfinal, s.elodiervfinalerr, s.teffadop, s.fehadop, s.fehadopunc, s.loggadop, sp.ra, sp.dec into mydb.MyTable_# from sppParams as s JOIN SpecObjAll as sp ON s.specobjid = sp.specobjid WHERE sp.seguePrimary = # AND s.fehadop < # AND s.fehadop > # AND s.teffadop > # AND s.teffadop < # AND s.loggadop > # AND sp.snMedian_r > #"
+2019-01-12 00:16:00,1
+2019-01-12 00:17:00,1
+2019-01-12 00:20:00,2

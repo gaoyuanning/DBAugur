@@ -1,0 +1,2 @@
+1,"SELECT   e.specObjID, e.ra, e.dec, e.z, e.zErr,   dbo.fGetUrlFitsSpectrum(e.specObjID) as urlfits into mydb.emlineport_flux5# FROM SpecObj AS e WHERE   z < #"
+2019-06-21 16:13:00,1

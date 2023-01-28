@@ -1,0 +1,2 @@
+1,"SELECT bestobjid, z FROM SpecObj ORDER BY RAND () LIMIT # WHERE class = # AND zWarning = # AND Z BETWEEN # AND #"
+2019-03-17 20:27:00,1

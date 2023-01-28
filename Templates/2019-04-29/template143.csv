@@ -1,0 +1,3 @@
+2,"SELECT TOP #  p.objid, p.ra, p.dec, p.petroRad_r FROM PhotoObj AS p JOIN zoo2MainSpecz as z ON z.dr7objid = p.objid"
+2019-04-29 18:02:00,1
+2019-04-29 18:04:00,1

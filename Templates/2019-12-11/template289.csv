@@ -1,0 +1,2 @@
+1,"SELECT   TOP # mangaid, nvisits, objra, objdec, input_teff, input_teff, input_logg,   input_fe_h, input_alpha_m  FROM MaStar_goodstars  WHERE   POWER(objra - #, #) + POWER(objdec - #, #) < POWER(#, #)   AND nvisits > #"
+2019-12-11 11:56:00,1

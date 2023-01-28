@@ -1,0 +1,4 @@
+3,"SELECT p.ObjID, p.ra, p.dec, f.rms, s.z, p.dered_g, ph.lumDist FROM PhotoObj p JOIN specObj s ON s.bestObjID = p.objID JOIN [FIRST] f ON f.objID = p.objID JOIN Photoz ph ON ph.objID = p.objID WHERE s.class = # AND s.z between # and # AND p.modelMag_g > # AND f.rms BETWEEN # AND #"
+2019-11-12 21:09:00,1
+2019-11-12 21:24:00,1
+2019-11-12 21:28:00,1

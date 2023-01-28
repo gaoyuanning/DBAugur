@@ -1,0 +1,2 @@
+2,"SELECT m.ra as mra, m.dec as mdec, n.objid as sdssid, n.distance, p.ra AS ra, p.dec AS dec, (p.psfmag_u-p.extinction_u) as mu, (p.psfmag_g-p.extinction_g) as mg, (p.psfmag_r-p.extinction_r) as mr, (p.psfmag_i-p.extinction_i) as mi, (p.psfmag_z-p.extinction_z) as mz, p.psfmagerr_u as mue, p.psfmagerr_g as mge, p.psfmagerr_r as mre, p.psfmagerr_i as mie, p.psfmagerr_z as mze, p.type into mydb.glq_sdss_allneighbor from MyDB.glq AS m CROSS APPLY dbo.fGetNearbyObjEq (m.ra, m.dec, #/#) AS n JOIN PhotoObjAll AS p ON n.objid = p.objid"
+2019-05-23 19:53:00,2

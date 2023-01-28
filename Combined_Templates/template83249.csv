@@ -1,0 +1,3 @@
+2,"select s.specobjid, gsl.h_alpha_flux as haflux, gsl.h_beta_flux as hbetaflux, gsl.oiii_#_flux as oiiiflux, smsp.metallicity as metallicity from galaxy p, specobj s, galspecline gsl, stellarmassstarformingport smsp where p.objid = s.bestobjid and s.specobjid = gsl.specobjid and gsl.specobjid = smsp.specobjid and s.subclass = starforming and s.z BETWEEN # AND # and s.snMedian> # and gsl.oiii_#_flux> # and gsl.h_beta_flux> # and (gsl.oiii_#_flux/gsl.h_beta_flux) BETWEEN # and #"
+2019-12-16 23:12:00,1
+2019-12-16 23:13:00,1

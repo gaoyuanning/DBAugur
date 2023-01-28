@@ -1,0 +1,3 @@
+2,"SELECT TOP # ra, dec, u, g, r, i, z, fieldID, specObjID into mydb.MyTable_# from Galaxy WHERE (htmid*# & #) < (# * #) AND specObjID ! = #"
+2019-10-23 18:59:00,1
+2019-10-23 19:43:00,1

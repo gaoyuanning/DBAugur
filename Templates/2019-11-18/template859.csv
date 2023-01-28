@@ -1,0 +1,3 @@
+3,SELECT * into mydb.MyTable from SpecLineAll as G_SpecLine
+2019-11-18 00:09:00,1
+2019-11-18 00:13:00,2

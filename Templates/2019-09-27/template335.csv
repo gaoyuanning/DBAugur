@@ -1,0 +1,4 @@
+3,"SELECT TOP # cModelMag_g, cModelMag_r cModelMag_i, cModelMag_z, cModelMagErr_g, cModelMagErr_r, cModelMagErr_i, cModelMagErr_z FROM PhotoObjAll LEFT OUTER JOIN SpecObjAll ON PhotoObjAll.objID = SpecObjAll.specobjID"
+2019-09-27 09:50:00,1
+2019-09-27 09:51:00,1
+2019-09-27 10:15:00,1

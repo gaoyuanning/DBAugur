@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objID, u, g, r, type, f.kcorrU, f.kcorrG, f.kcorrR, f.z, f.zErr, s.velDisp, f.kcorrU0#, f.kcorrG0#, f.kcorrR0#, f.absmagU, f.absmagG, f.absmagR, cModelMag_u, cModelMag_g, cModelMag_r from Photoz AS f, photoObj AS p, SpecObj AS s, PhotoPrimary WHERE s.bestObjID = f.objID AND s.bestObjID = p.objID AND r < # AND f.z > #"
+2019-04-05 15:33:00,1

@@ -1,0 +1,2 @@
+2,"select s.ra, s.dec, s.z, pz.absMagI, z.nvote, z.p_el, z.p_cw, z.p_acw, z.p_edge, z.p_dk, z.p_mg, z.p_cs, z.p_el_debiased, z.p_cs_debiased, z.spiral, p.deVAB_u, p.deVAB_g, p.deVAB_r, p.deVAB_i, p.deVAB_z, p.deVABErr_u, p.deVABErr_g, p.deVABErr_r, p.deVABErr_i, p.deVABErr_z, p.deVPhi_u, p.deVPhi_g, p.deVPhi_r, p.deVPhi_i, p.deVPhi_z, z.ra, z.dec, p.ra, p.dec from DR1#.zooSpec z join DR1#.photoObj p ON p.objID = z.ObjID join DR1#.specObj s ON s.ObjID = p.bestObjID join DR1#.photoZ pz ON pz.objID = p.objID into mydb.zoo_spec_full"
+2019-03-11 16:05:00,2

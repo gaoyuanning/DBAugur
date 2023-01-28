@@ -1,0 +1,3 @@
+3,"SELECT t.idx_num, t.ra AS ra_t, t.dec AS dec_t, t.q AS q_t, t.phi AS phi_t, n.distance, p.ra AS ra_surr, p.dec AS dec_surr, z.z AS z_surr, z.zErr AS zErr_surr, p.petroMag_r AS petroMag_r_surr from MyDB.sample_t1 AS t CROSS APPLY dbo.fGetNearbyObjEq (t.ra, t.dec, t.theta) AS n JOIN PhotoObj AS p ON n.objid = p.objid JOIN Photoz AS z ON z.objid = n.objid WHERE -- (t.idx_num < #) AND (p.type = #) AND (z.z BETWEEN t.z - #*z.zErr and t.z + #*z.zErr) AND z.zErr < #"
+2019-05-23 17:38:00,2
+2019-05-23 17:41:00,1

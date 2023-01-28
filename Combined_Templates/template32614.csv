@@ -1,0 +1,2 @@
+1,"select TrackId, AlbumId From chinook.Track (select TrackId, UnitPrice from chinook.InvoiceLine) a"
+2019-04-21 12:19:00,1

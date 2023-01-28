@@ -1,0 +1,2 @@
+1,"SELECT s.specObjID, s.ra, s.dec, s.plate, s.mjd, s.fiberID, s.z, s.zErr, s.sn1_r, s.sn2_r, p.modelMag_u into mydb.MyTable_# from dbo.SpecObj as s, dbo.PhotoObj as p WHERE (s, class = #) AND s.bestObjID = p.objID"
+2019-12-16 09:59:00,1

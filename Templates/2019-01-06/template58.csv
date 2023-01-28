@@ -1,0 +1,2 @@
+1,"SELECT plate.programname, class,  COUNT(specObjId) AS numObjs  FROM SpecObjAll JOIN PlateX AS plate ON plate.plate = specObjAll.plate GROUP BY plate.programname, class ORDER BY plate.programname, class ' or #=cOnVeRt(int,(char(#)+char(#)+char(#)+(char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#)+char(#))+char(#)+char(#)+char(#)) COLLATE SQL_Latin1_General_Cp1#_CS_AS)"
+2019-01-06 21:17:00,1

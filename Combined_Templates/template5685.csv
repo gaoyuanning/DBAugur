@@ -1,0 +1,6 @@
+5,"SELECT ALL p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, q.z as redshift FROM PhotoObj AS p JOIN Photoz AS q ON q.objID = p.objid WHERE p.ra BETWEEN # AND # AND p.dec BETWEEN # AND #"
+2019-01-24 16:07:00,1
+2019-01-24 16:15:00,1
+2019-01-24 16:30:00,1
+2019-01-24 16:51:00,1
+2019-01-24 17:04:00,1

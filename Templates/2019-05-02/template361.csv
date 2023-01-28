@@ -1,0 +1,3 @@
+4,"select top # a.teff, a.logg, a.m_h, a.alpha_m, a.apogee_id, dr.apogeeobjid, dr.segueobjid from aspcapStar as a    JOIN mydb.segue_dr1#_mch as dr on   dr.apogeeobjid=a.apogee_id"
+2019-05-02 15:30:00,2
+2019-05-02 15:34:00,2

@@ -1,0 +1,2 @@
+1,"select run, camcol, field, nobjects from field where nobjects< # ORDER BY nobjects asc"
+2019-10-15 20:13:00,1

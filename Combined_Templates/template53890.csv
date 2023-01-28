@@ -1,0 +1,2 @@
+1,"SELECT objid, specobjid, run, camcol, field, type, ra, dec, u, g, r, i, z INTO mydb.photoprimary FROM photoprimary WHERE (clean = #) AND (type = # OR type = #) AND (specobjid ! = #) ;"
+2019-07-26 15:55:00,1

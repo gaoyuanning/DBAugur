@@ -1,0 +1,2 @@
+1,SELECT COUNT (*) FROM Specobj (WHEN z BETWEEN # and # THEN # WHEN z BETWEEN # and # THEN #) WHERE class = # AND zWarning = #
+2019-03-21 18:30:00,1

@@ -1,0 +1,2 @@
+1,"SELECT    s.specObjID,s.bestObjID,s.targetObjID,   s.ra, s.dec, s.z, s.mjd, s.plate, s.fiberID,   s.spectroFlux_u,s.spectroFlux_g,s.spectroFlux_r,   s.spectroFlux_i,s.spectroFlux_z,   s.spectroSynFlux_u,s.spectroSynFlux_g,s.spectroSynFlux_r,     s.spectroSynFlux_i,s.spectroSynFlux_z, INTO spec.info FROM SpecObjAll as s"
+2019-04-17 10:54:00,1

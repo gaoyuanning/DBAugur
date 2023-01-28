@@ -1,0 +1,2 @@
+2,"SELECT sm.specObjId, sm.ra, sm.dec, sm.z, sm.dered_u as u, sm.dered_g as g, sm.dered_r as r, sm.dered_i as i, sm.plate, sm.mjd, sm.fiberid FROM stellarMassFSPSGranEarlyDust AS sm"
+2019-07-16 10:50:00,2

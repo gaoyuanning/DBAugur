@@ -1,0 +1,2 @@
+2,"CREATE TABLE [Consent] ( 	eid BIGINT NOT NULL ,	[Date_of_consenting_to_join_UK_Biobank_#] DATETIME -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Program_tactus_version_ID_compiler_timestamp__#] INTEGER -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=# ,PRIMARY KEY (eid)) GO"
+2019-04-17 11:26:00,2

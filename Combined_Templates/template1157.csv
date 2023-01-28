@@ -1,0 +1,2 @@
+1,"SELECT distinct top # p.ra, p.dec FROM SpecObjAll AS s JOIN sppParams AS spp ON spp.SpecObjID = s.SpecObjID JOIN PhotoObj AS p ON p.SpecObjID = s.SpecObjID WHERE s.z > # and s.specclass = # and p.u > # and p.g > # and p.r > # and p.i > # and p.z > # and p.ra between # and #"
+2019-01-06 09:48:00,1

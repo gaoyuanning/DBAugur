@@ -1,0 +1,2 @@
+1,"select s.specObjID, e.lgm_tot_p5#    from galaxy g JOIN galSpecExtra e ON e.specObjID = g.specObjID JOIN specObj s ON s.specObjID = g.specObjID JOIN zooSpec z ON z.specObjID = g.specObjID JOIN zooVotes v ON v.specObjID = g.specObjID  where e.bptclass = # AND s.z < .# AND z.p_mg = .# AND v.nvote_tot >= #    order by e.lgm_tot_p5#"
+2019-07-17 00:18:00,1

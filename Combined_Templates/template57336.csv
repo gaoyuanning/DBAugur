@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.log_Mass, p.e_log_Mass, p.log_Mass_gas, p.e_log_Mass_gas, p.sigma_cen, p.e_sigma_cen, p.re_kpc, p.redshift FROM mangaPipe3D as p JOIN mangatarget as t ON t.mangaID = p.mangaID"
+2019-08-13 07:17:00,1

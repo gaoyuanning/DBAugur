@@ -1,0 +1,2 @@
+1,"SELECT apogee_id, MIN(snr) FROM allinfo_visits_dr1#  GROUP BY apogee_id HAVING(MIN(snr)>#)"
+2019-01-18 07:15:00,1

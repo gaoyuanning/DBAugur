@@ -1,0 +1,2 @@
+3,"SELECT TOP # s.plate, s.mjd, s.fiberid FROM SpecObj AS s"
+2019-08-13 17:29:00,3

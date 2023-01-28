@@ -1,0 +1,2 @@
+1,select objID from Galaxy where ra=# and dec=#
+2019-04-12 17:31:00,1

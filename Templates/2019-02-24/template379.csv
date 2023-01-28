@@ -1,0 +1,2 @@
+2,"select m.sdss, m.specobjid, targetObjID, z, zErr into mydb.nair_redshift_DR1# from SpecObjAll i, mydb.nair_SpecObjID_DR1# m where i.specobjid = m.specobjid;"
+2019-02-24 06:50:00,2

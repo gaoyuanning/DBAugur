@@ -1,0 +1,2 @@
+1,"select top #   dec, ra, z, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z,zErr from SpecPhoto   where dec between # and # and z># and z<# and specClass=# and modelMag_u># and modelMag_g># and modelMag_r># and modelMag_i># and modelMag_z>#"
+2019-10-03 13:59:00,1

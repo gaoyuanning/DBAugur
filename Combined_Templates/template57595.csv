@@ -1,0 +1,5 @@
+8,"select ra, dec, psfMag_u into mydb.# from specObjAll Where ra BETWEEN # and # AND dec BETWEEN # and # AND class = #"
+2019-08-14 12:13:00,1
+2019-08-14 12:20:00,2
+2019-08-14 12:21:00,4
+2019-08-14 12:23:00,1

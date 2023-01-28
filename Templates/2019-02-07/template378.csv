@@ -1,0 +1,2 @@
+1,"select x.plate,x.mjd,s.fiberid,s.ra,s.dec,s.z,p.modelMag_z,s.bestobjid  from specobj s  join platex x on x.plateid=s.plateid  join PhotoObj p on p.objid=s.bestobjid where s.class=&&& and s.z between # and # and s.zwarning=# and p.modelMag_z between # and # order by s.z"
+2019-02-07 10:29:00,1

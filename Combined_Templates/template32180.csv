@@ -1,0 +1,2 @@
+1,"select substring (Name, #, #) as FL from chinook.Artist as New.new select FL from New.new group by FL"
+2019-04-20 10:44:00,1

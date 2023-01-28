@@ -1,0 +1,6 @@
+5,"SELECT top # sq.plate, sq.mjd, sq.fiberID, sq.norm1_hb, sq.peak1_hb, sq.width1_hb, sq.fwhm1_hb, sq.norm2_hb, sq.peak2_hb, sq.width2_hb, sq.fwhm2_hb, sq.norm3_hb, sq.peak3_hb, sq.width3_hb, sq.fwhm3_hb, sq.norm4_hb, sq.peak4_hb, sq.width4_hb, sq.fwhm4_hb, sq.l_#, sq.logBHMA_hb, sq.errlogBHMA_hb, sq.logBHMVP_hb, sq.errlogBHMVP_hb FROM spiders_quasar AS sq WHERE l_# > # AND DR1#_SN_MEDIAN_ALL > #"
+2019-08-22 11:00:00,1
+2019-08-22 13:47:00,1
+2019-08-22 16:43:00,1
+2019-08-23 19:55:00,1
+2019-08-24 17:21:00,1

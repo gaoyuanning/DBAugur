@@ -1,0 +1,2 @@
+1,"SELECT    m.RA AS ra1, m.Dec AS dec1,     n.objid, n.distance,     o.ra AS ra2, o.dec AS dec2,    s.w1_mag, s.w1_mag_err, s.w2_mag, s.w2_mag_err  into mydb.Gemini_WISE from MyDB.Gemini AS m     CROSS APPLY dbo.fGetNearestObjEq( m.ra, m.dec, #) AS n     JOIN PhotoObj AS o ON n.objid=o.objid     JOIN wiseForcedTarget s ON o.objID = s.ObjID"
+2019-11-14 13:36:00,1

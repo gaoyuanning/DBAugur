@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec into stars FROM star WHERE dec >= #"
+2019-06-06 15:50:00,1

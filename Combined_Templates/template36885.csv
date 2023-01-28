@@ -1,0 +1,4 @@
+3,"SELECT SPA.ra, SPA.dec, SPA.z, SPA.petroMag_u, SPA.petroMag_g, SPA.petroMag_r , SA.velDisp, PA.expAB_r, PA.fracDeV_r, PA.deVRad_r, FSPSG.logMass into GU2#_hw5_# From PhotoObjAll as PA, SpecPhotoAll as SPA, SpecObjAll as SA, stellarMassFSPSGranEarlyDust as FSPSG Where SPA.class = # and SPA.z < # and SPA.specObjID = PA.specObjID and SPA.specObjID = SA.specObjID and SPA.specObjID = FSPSG.specobjID"
+2019-05-05 10:14:00,1
+2019-05-05 10:15:00,1
+2019-05-05 10:21:00,1

@@ -1,0 +1,2 @@
+2,"SELECT SELECT TOP #  t.objid, t.thingId, a.ra, a.dec, a.cModelMag_i ,a.cModelMagErr_i FROM PhotoObjAll AS a   JOIN detectionIndex AS t ON a.thingid = t.thingid WHERE   t.thingId = #"
+2019-12-24 15:17:00,2

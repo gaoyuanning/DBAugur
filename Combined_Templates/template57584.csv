@@ -1,0 +1,2 @@
+1,"SELECT TOP # photostatus, imagestatus_u, imagestatus_g, imagestatus_r, imagestatus_i, imagestatus_z, calibStatus_u, calibStatus_g, calibStatus_r, calibStatus_i, calibStatus_z FROM field where fielded IN ()"
+2019-08-14 12:54:00,1

@@ -1,0 +1,2 @@
+1,"SELECT ALL    s.plate, s.mjd, s.fiberID into mydb.MyTable_lick_IDs from PhotoObj AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid    JOIN galSpecIndx AS gal ON gal.specobjid = s.specobjid  WHERE     p.petroMag_r <#    AND p.petroMag_g <#    AND p.petroMag_u <#    AND s.z>#    AND s.z<#"
+2019-07-19 05:46:00,1

@@ -1,0 +1,11 @@
+10,"SELECT TOP # p.run, p.rerun, p.camCol, p.field, p.obj, # as filter FROM dbo.fGetNearbyObjEq (#, #, #) as b, BESTDR2..PhotoObj as p WHERE b.objID = p.objID AND (p.type = # OR p.type = #)"
+2019-03-11 19:41:00,1
+2019-03-18 21:30:00,1
+2019-04-16 20:11:00,1
+2019-04-16 20:12:00,1
+2019-04-16 20:13:00,1
+2019-05-01 14:09:00,1
+2019-10-16 16:32:00,1
+2019-10-16 16:34:00,1
+2019-10-16 16:35:00,1
+2019-10-16 16:36:00,1

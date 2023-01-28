@@ -1,0 +1,2 @@
+2,"SELECT TOP # bestObjID,z  FROM specobj  WHERE class=&&&  SET counter = counter + # END GO"
+2019-03-25 17:42:00,2

@@ -1,0 +1,27 @@
+28,"SELECT p.ra,p.dec,p.raErr,p.decErr,p.objId,p.run,p.rerun,p.camcol,p.field,dbo.fPhotoModeN(mode) as mode,nChild,dbo.fPhotoTypeN(p.type) as type,clean,flags,psfMag_u,psfMag_g,psfMag_r,psfMag_i,psfMag_z,psfMagErr_u,psfMagErr_g,psfMagErr_r,psfMagErr_i,psfMagErr_z,modelMag_u,modelMag_g,modelMag_r,modelMag_i,modelMag_z,modelMagErr_u,modelMagErr_g,modelMagErr_r,modelMagErr_i,modelMagErr_z,extinction_u,extinction_g,extinction_r,extinction_i,extinction_z,mjd,distance FROM PhotoObj as p JOIN dbo.fGetNearbyObjEq(#,#,#) AS R ON P.objID=R.objID ORDER BY distance"
+2019-12-21 00:05:00,1
+2019-12-21 02:08:00,1
+2019-12-21 06:41:00,2
+2019-12-21 07:25:00,1
+2019-12-21 09:29:00,1
+2019-12-21 11:12:00,1
+2019-12-21 11:37:00,1
+2019-12-21 11:38:00,1
+2019-12-21 12:24:00,1
+2019-12-21 12:31:00,1
+2019-12-21 13:14:00,1
+2019-12-21 14:42:00,1
+2019-12-21 15:17:00,1
+2019-12-21 16:07:00,1
+2019-12-21 17:03:00,1
+2019-12-21 17:18:00,1
+2019-12-21 19:20:00,1
+2019-12-21 19:32:00,1
+2019-12-21 19:55:00,2
+2019-12-21 20:16:00,1
+2019-12-21 20:37:00,1
+2019-12-21 20:40:00,1
+2019-12-21 22:33:00,1
+2019-12-21 23:01:00,1
+2019-12-21 23:05:00,1
+2019-12-21 23:32:00,1

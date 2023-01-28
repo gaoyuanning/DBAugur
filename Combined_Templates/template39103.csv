@@ -1,0 +1,2 @@
+1,"SELECT b.TargetObjID, a.z, b.z, a.cModelAbsMag_r, b.psfMag_r, p.psfflux_r into mydb.MyTable_# from stellarMassFSPSGranWideDust as a INNER JOIN SpecPhotoAll as b on a.specobjID = b.specObjID LEFT JOIN PhotoObjAll as p on b.objID = p.ObjID ORDER BY b.objID ASC"
+2019-05-13 09:48:00,1

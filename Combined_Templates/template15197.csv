@@ -1,0 +1,2 @@
+1,"SELECT Top # g.ra, g.dec, n.objid, n.distance, o.ra AS ra_SDSS, o.dec AS dec_sdss, o.type, o.u, o.g, o.r, o.i, o.z, o.err_u, o.err_g, o.err_r, o.err_i, o.err_z --, s.sciencePrimary -- INTO MyDB.get_all_objs_test -- Uncomment this if you want to store it in your DB FROM MyDB.TestCoords AS g CROSS APPLY dbo.fGetNearbyObjAllEq (g.ra, g.dec, #) AS n JOIN PhotoObj AS o ON n.objid = o.objid -- JOIN SpecObj as s ON s.specObjID = o.specObjID WHERE o.type = = #"
+2019-02-27 13:14:00,1

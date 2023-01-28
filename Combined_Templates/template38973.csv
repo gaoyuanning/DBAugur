@@ -1,0 +1,4 @@
+3,"SELECT top # SpecObjId, z, ra, dec FROM SpecObjAll WHERE class = # AND zWarning = # AND z in (SELECT z, count (*) FROM SpecObjAll GROUP BY z HAVING count (*) > #) ORDER BY z"
+2019-05-13 20:46:00,1
+2019-05-13 20:51:00,1
+2019-05-13 20:52:00,1

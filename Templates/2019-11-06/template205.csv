@@ -1,0 +1,2 @@
+1,"select one.*, photo.modelMag_u, photo.modelMag_g, photo.modelMag_r, photo.modelMag_i, photo.modelMag_z, photo.modelMagErr_u, photo.modelMagErr_g, photo.modelMagErr_r, photo.modelMagErr_i, photo.modelMagErr_z  from myDB.StageOne as one   left join DR7.photoObj as photo on one.SDSS_bestObjID = photo.objID   into MyDB.StageTwo"
+2019-11-06 11:56:00,1

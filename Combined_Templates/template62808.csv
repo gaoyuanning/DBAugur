@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objID, p7.objID FROM MyDB.Sabater_inform_new p JOIN PhotoObjDR7 p7 ON p7.dr8objID = p.objID"
+2019-09-12 04:42:00,1

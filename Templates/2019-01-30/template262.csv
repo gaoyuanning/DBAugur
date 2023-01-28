@@ -1,0 +1,6 @@
+7,"SELECT   p.ra,p.dec,p.g,p.r,  s.z, s.snMedian_r,  s.velDisp,  s.plate, s.mjd, s.fiberid,  s.chunk, s.boss_target1,  stM.logMass,  p.fiber2Mag_u,p.fiber2MagErr_u,  p.fiber2Mag_g,p.fiber2MagErr_g,  p.fiber2Mag_r,p.fiber2MagErr_r,  p.fiber2Mag_i,p.fiber2MagErr_i,  p.fiber2Mag_z,p.fiber2MagErr_z,  p.extinction_u,p.extinction_g,p.extinction_r,p.extinction_i,p.extinction_z,  p.modelMag_r,p.modelMagErr_r,  p.modelMag_i,p.modelMagErr_i FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid  JOIN stellarMassPassivePort AS stM ON s.specObjID = stM.specObjID WHERE   s.z BETWEEN # AND #  AND  s.survey = &&&  AND  s.class = &&&  AND  s.snMedian_r > #  AND   s.velDIsp BETWEEN # AND #  AND  s.zWARNING = #"
+2019-01-30 14:53:00,2
+2019-01-30 14:55:00,1
+2019-01-30 14:56:00,1
+2019-01-30 14:57:00,1
+2019-01-30 14:58:00,2

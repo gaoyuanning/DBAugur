@@ -1,0 +1,2 @@
+1,"SELECT * objId, ra, dec, petroR5#_z, petroR5#_r FROM PhotoObjAll WHERE p.ra = =# AND p.dec = =#"
+2019-01-14 10:20:00,1

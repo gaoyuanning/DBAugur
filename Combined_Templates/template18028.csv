@@ -1,0 +1,2 @@
+1,"SELECT top # s.b, s.l, count (*) as #, sum (case when (Type = #) then # else # end) as #, sum (case when (Type = #) then # else # end) as #, sum (case when (Type not IN () ) then # else # end) as # FROM PhotoPrimary as p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE (ra between # and #) and (dec between # and #)"
+2019-03-06 09:53:00,1

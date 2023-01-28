@@ -1,0 +1,3 @@
+2,"SELECT TOP # G.objID, p.z  FROM Galaxy as G  JOIN photoz AS p  ON G.objID = p.objID  ORDER BY z"
+2019-11-12 03:16:00,1
+2019-11-12 03:19:00,1

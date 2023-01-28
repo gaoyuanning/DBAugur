@@ -1,0 +1,2 @@
+1,"SELECT p.objId, n.neighborType as type FROM galaxy AS p    JOIN Neighbors AS n ON n.objid = p.objid WHERE p.objID in allgals[&&&]"
+2019-04-18 16:50:00,1

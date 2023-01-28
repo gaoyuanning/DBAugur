@@ -1,0 +1,2 @@
+1,"select O.objID, O.ra, O.dec, O.psfMag_r, O.insideMask into mydb.Data_without_Z from PhotoObjAll as O where O.ra BETWEEN # AND #   AND O.dec BETWEEN # AND #"
+2019-01-17 11:37:00,1

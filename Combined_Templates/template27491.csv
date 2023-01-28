@@ -1,0 +1,2 @@
+1,select count (*) from mr where snapnum = # and np between # and # and firsthaloinfofgroupid = haloid
+2019-04-03 09:14:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.specobjID, s.bestObjID, p.ObjID, s.plate, s.mjd, s.fiberid, s.ra as plug_ra, s.dec as plug_dec, p.ra, p.dec, s.sourcetype, s.platesn2, s.snMedian_g, s.snMedian_r, s.snMedian_i, s.snMedian_z, s.zwarning, s.z_noqso, s.zErr_noqso, p.fiber2flux_g, p.fiber2flux_r, p.fiber2flux_i, p.fiber2flux_z FROM specObj as s, photoObj as p WHERE s.bestObjID = p.ObjID AND (s.sourcetype = # OR s.sourcetype = # OR s.sourcetype = # OR s.sourcetype = #) AND s.class = # AND s.z_noqso between # AND # AND p.fiber2mag_i > #"
+2019-12-11 16:45:00,1

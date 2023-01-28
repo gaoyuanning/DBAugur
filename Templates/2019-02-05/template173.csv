@@ -1,0 +1,2 @@
+2,"SELECT TOP #   objID, petroMag_g, petroMag_r, petroMag_i, petroMagErr_g, petroMagErr_r, petroMagErr_i, extinction_g, extinction_r, extinction_i, petroR5#_g, petroR9#_g  FROM Galaxy  WHERE z > # and z < # AND dec > # and dec < #"
+2019-02-05 16:17:00,2

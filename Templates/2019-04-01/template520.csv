@@ -1,0 +1,2 @@
+1,"select ra,dec Mag_i from PhotoObj where (ra between #-# and #+#) and (dec between #-# and #+#)"
+2019-04-01 09:09:00,1

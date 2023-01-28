@@ -1,0 +1,2 @@
+1,"SELECT top # specobjID, wave, sigma, sigmaErr, ew, ewErr, height, heightErr, z FROM DR7:dbo.SpecLineAll Where (wave/ (#+z) > # and wave/ (#+z) < #) and (z> =# and z < =#) and ( (sigma < # and height > #) or (height < #) )"
+2019-12-11 12:39:00,1

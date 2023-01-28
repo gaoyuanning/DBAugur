@@ -1,0 +1,2 @@
+1,"select p.objid, p.u, p.g, p.r, p.i, p.z from star p, dbo.fgetNearByObjXYZ (#, #, #) n where p.objid = n.objid"
+2019-11-03 01:12:00,1

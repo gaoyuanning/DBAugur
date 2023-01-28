@@ -1,0 +1,2 @@
+1,"select e.*, p.* from dbo.fgetnearbyobjalleq (#, #, #/#) as e join photoobjall as p on p.objid = e.objid where (run = # or run = #) order by distance"
+2019-08-01 14:12:00,1

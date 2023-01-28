@@ -1,0 +1,2 @@
+1,"select * into ASPCAP_DR1# from apogeeStar, aspcapStar where    (apogeeStar.APOGEE_TARGET2 & power(#,#)) != #   and aspcapStar.apstar_id = apogeeStar.apstar_id"
+2019-05-12 18:38:00,1

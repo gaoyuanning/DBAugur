@@ -1,0 +1,2 @@
+1,"SELECT m.specobjid, m.ra AS ra1, m.dec AS dec1, n.objid, n.distance, o.ra AS ra2, o.dec AS dec2 into mydb.MyTable from MyDB.gz2galaxies AS m JOIN DR1#.PhotoObj AS o ON m.specobjid = o.specobjid"
+2019-10-31 08:20:00,1

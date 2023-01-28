@@ -1,0 +1,2 @@
+1,"select specObjID, ra, dec, z, zErr, zWarning from dr1#.SpecObjAll"
+2019-07-25 03:38:00,1

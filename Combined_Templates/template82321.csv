@@ -1,0 +1,2 @@
+1,"select top # p.ra, p.dec from PhotoTag as p on p.objID = #"
+2019-12-11 02:55:00,1

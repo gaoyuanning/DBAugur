@@ -1,0 +1,3 @@
+3,"select top # s.gal_id, n.nuv_alpha_j2# as ra, n.nuv_delta_j2# as dec, n.nuv_poserr as poserr from mydb.sdss7 as s cross apply dbo.fGetNearestObjEq (s.ra, s.dec, #) AS n"
+2019-10-22 03:54:00,2
+2019-10-22 03:55:00,1

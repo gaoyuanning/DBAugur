@@ -1,0 +1,2 @@
+1,"SELECT   A.RAJ2#,A.DEJ2#,C.z,C.zerr,C.class,C.subClass,A.INDX,C.objID,C.specID,B.distance FROM    MyDB.WISE_AGN_R9#_ptsrc_VIZIER AS A    OUTER APPLY dbo.fGetNearestObjEq( A.RAJ2#, A.DEJ2#, #/#.) AS B    LEFT OUTER JOIN SpecObj AS C ON B.objID=C.objID WHERE    A.INDX BETWEEN # AND # INTO    MyDB.WISE_AGN_R9#_ptsrc_VIZIER4_SDSSspecDR1#_#as"
+2019-08-23 00:14:00,1

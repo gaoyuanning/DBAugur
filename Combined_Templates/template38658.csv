@@ -1,0 +1,2 @@
+1,"select top # objID, ra, dec, modelMag_u, modelMag_g from galaxy where ra between # and # and g < # and modelMag_u - modelMag_g > #"
+2019-05-10 08:43:00,1

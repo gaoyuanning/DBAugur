@@ -1,0 +1,2 @@
+1,"SELECT   sl.specLineID, sl.lineID, sl.restWave, sl.height, sl.heightErr,   sp.mjd, sp.plate, sp.fiberID into mydb.MyTable_# from SpecLine AS sl   JOIN SpecPhoto AS sp ON sl.specobjID = sp.specobjID        WHERE   lineID = #    ORDER BY sp.plate + #e-#*sp.mjd + #e-#*sp.fiberID"
+2019-09-26 10:40:00,1

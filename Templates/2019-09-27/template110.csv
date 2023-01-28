@@ -1,0 +1,3 @@
+2,"SELECT TOP # ra,dec, psfmag_u-extinction_u, z FROM specPhoto WHERE class = &&& AND z > #"
+2019-09-27 21:16:00,1
+2019-09-27 21:17:00,1

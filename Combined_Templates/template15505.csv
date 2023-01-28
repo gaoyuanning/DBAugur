@@ -1,0 +1,2 @@
+1,"select zoo.ra, zoo.dec, zoo.specobjid, zoo.dr7objid, zoo.nvote, zoo.p_el_debiased, zoo.p_cs_debiased into mydb.zoo_only_spirals from zooSpec as zoo where zoo.spiral = #"
+2019-02-28 15:33:00,1

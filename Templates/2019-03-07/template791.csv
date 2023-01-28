@@ -1,0 +1,2 @@
+1,"SELECT plate, mjd into mydb.MyTable from apogeePlate WHERE location_id=#"
+2019-03-07 09:54:00,1

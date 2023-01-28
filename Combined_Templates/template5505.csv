@@ -1,0 +1,2 @@
+1,SELECT COUNT (DISTINCT bestObjID) FROM dbo.SpecObjAll WHERE class = #
+2019-01-23 09:33:00,1

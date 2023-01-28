@@ -1,0 +1,2 @@
+1,select top # * from SpecPhoto where zErr> =# and zWarning = #
+2019-07-27 09:15:00,1

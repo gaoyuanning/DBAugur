@@ -1,0 +1,3 @@
+2,"SELECT TOP # s.plate,s.mjd,s.fiberid, &&& as filter FROM BESTDR4..SpecObj as s, dbo.fGetNearbyObjEq(#,#,#) as b,  BESTDR4..Galaxy as p WHERE b.objID = p.objID AND s.z > # AND s.zConf > # AND (s.specClass = dbo.fSpecClass(&&&)) AND s.z < # AND s.bestObjID = p.objID"
+2019-03-28 08:42:00,1
+2019-03-28 08:44:00,1

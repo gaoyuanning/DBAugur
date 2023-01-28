@@ -1,0 +1,2 @@
+1,"SELECT   z AS sass-photoz.   Photoz       FROM detectionindex d    JOIN PhotoObjAll p ON d.objid=p.objid         FROM mydb.Qso_KiDs_coord as Q  SELECT a.*, b.* CROSS APPLY dbo.fGetNearbyObjEq(a.ra, a.dec, #) b    INTO mydb.Qso_KiDs_photoinfo_flags_gcflux_dr1"
+2019-10-10 02:20:00,1

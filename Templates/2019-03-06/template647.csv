@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra,dec,mjd,modelMag_g,modelMagErr_g,modelMag_r,modelMagErr_r,modelMag_i,modelMagErr_i from PhotoPrimary WHERE #=#"
+2019-03-06 09:14:00,1

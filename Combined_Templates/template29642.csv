@@ -1,0 +1,2 @@
+1,"SELECT count (*) into mydb.MyTable2 from MyDB.radec_mc_short as my CROSS APPLY fGetNearestObjIdAllEq (my.ra, my.dec, #)"
+2019-04-12 10:06:00,1

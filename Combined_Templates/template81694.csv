@@ -1,0 +1,2 @@
+1,"SELECT s.specobjid, s.class, s.subClass, s.z into mydb.MyTable_# from MyDB.ta a, DR1#.SpecObj s WHERE s.bestobjid = a.objid"
+2019-12-10 18:58:00,1

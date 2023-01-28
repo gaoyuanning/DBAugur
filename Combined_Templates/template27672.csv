@@ -1,0 +1,2 @@
+1,select * into mydb.MyTable_# from PhotoObj where objID = #
+2019-04-03 04:33:00,1

@@ -1,0 +1,3 @@
+2,"SELECT P.MJD, P.psfMag_g FROM PhotoObjAll AS P WHERE P.objID = # OR P.objID = # OR P.objID = # OR P.objID = # OR P.objID = # OR P.objID = #"
+2019-03-22 12:04:00,1
+2019-03-22 12:07:00,1

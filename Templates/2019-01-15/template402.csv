@@ -1,0 +1,2 @@
+1,"SELECT top #  s.specObjID,  s.objID,  s.z,  s.petroMag_g,  s.petroMag_u,  s.petroMag_r,  s.petroMag_i,  s.plate,  s.mjd,  s.fiberid,  dbo.fObjTypeN(objType) as objType  FROM   SpecPhoto as s INTO  MyDB.SpecPhot_bases WHERE  s.z># and s.z<=# and (SpecClass = dbo.fSpecClass(&&&) or SpecClass = dbo.fSpecClass(&&&))"
+2019-01-15 11:02:00,1

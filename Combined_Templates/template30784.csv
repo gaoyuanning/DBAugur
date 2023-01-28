@@ -1,0 +1,5 @@
+4,"SELECT s.plate, s.mjd, s.fiberid, p.ObjId, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, p.ra, p.dec, s.z, u.propermotion, t.bsz, t.zbclass FROM SpecObjAll s INNER JOIN PhotoObjAll p ON s.bestObjId = p.ObjID LEFT OUTER JOIN sppParams t on s.specObjID = t.specObjID LEFT OUTER JOIN USNO u on s.bestObjID = u.ObjID WHERE p.psfMag_u< # AND p.extinction_r < = #"
+2019-04-16 02:05:00,1
+2019-04-16 02:06:00,1
+2019-04-16 20:26:00,1
+2019-04-16 20:27:00,1

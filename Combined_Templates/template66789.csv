@@ -1,0 +1,2 @@
+1,"SELECT TOP # str (p.u - p.g, #, #) as ugModelColor, str (p.g - p.r, #, #) as grModelColor, str (p.r - p.i, #, #) as riModelColor, str (p.i - p.z, #, #) as izModelColor FROM BESTDR7..PhotoObj AS p JOIN dbo.fGetNearbyObjEq (#, #, #) AS b ON b.objID = p.objID WHERE (p.type = # OR p.type = #)"
+2019-09-30 21:57:00,1

@@ -1,0 +1,17 @@
+19,"SELECT p.obj, str (p.ra, #, #) as ra, str (p.[dec], #, #) as dec, p.r, p.u, p.g, p.i, p.z, p.petroR5#_g, p.petroR5#_i, p.petroR5#_r, p.petroR9#_g, p.petroR9#_i, p.petroR9#_r, str (p.u - p.g, #, #) as ugModelColor, str (p.g - p.r, #, #) as grModelColor, str (p.r - p.i, #, #) as riModelColor, str (p.i - p.z, #, #) as izModelColor, p.dered_g, p.dered_i, p.dered_r, IS# (s.z, #) as z, IS# (s.zErr, #) as zErr, p.score as score, c.z, c.zErr into mydb.A2# from Galaxy as p left outer join SpecObj as s on p.objID = s.bestObjID join dbo.fGetNearbyObjEq (#, #, #) as b on b.objID = p.objID join Photoz as c on c.objID = p.objID WHERE p.g < # AND p.r < # AND p.i < # AND p.z < # AND c.z > # AND c.z < # AND (p.score > = #)"
+2019-02-28 16:45:00,1
+2019-05-14 09:27:00,1
+2019-05-14 09:28:00,2
+2019-05-14 09:29:00,1
+2019-05-14 10:10:00,2
+2019-05-14 10:13:00,2
+2019-05-17 09:54:00,1
+2019-05-17 10:38:00,1
+2019-05-17 10:53:00,1
+2019-07-17 13:46:00,1
+2019-07-17 14:06:00,1
+2019-07-17 14:10:00,1
+2019-07-17 14:22:00,1
+2019-08-09 16:20:00,1
+2019-08-12 09:09:00,1
+2019-08-20 10:31:00,1

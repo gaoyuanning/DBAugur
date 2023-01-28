@@ -1,0 +1,6 @@
+5,"select top # s.z, p.g, p.r, p.u, p.i, p.z, p.ra, p.dec, s.bestobjid, p.deVRad_g from specobj s, photoobjall p where p.psfmag_r- p.modelmag_r > # and p.psfmag_r- p.modelmag_r < # and s.z > # and s.z < # order by s.z desc"
+2019-03-03 09:36:00,1
+2019-03-03 10:58:00,1
+2019-03-03 11:21:00,1
+2019-03-03 12:02:00,1
+2019-03-03 12:30:00,1

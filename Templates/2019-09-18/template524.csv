@@ -1,0 +1,2 @@
+2,"SELECT specObjID, ra, dec into mydb.sdss1#gal from SpecObj   WHERE class=&&& AND subClass!=&&& AND subClass!=&&& AND zWarning=#"
+2019-09-18 03:43:00,2

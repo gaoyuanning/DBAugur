@@ -1,0 +1,2 @@
+1,"SELECT SPA.SpecObjID, SPA.z, SPA.ra, SPA.dec, GZ.p_el_debiased, GZ.p_cs_debiased, GZ.p_mg into mydb.gz1 from SpecPhotoAll as SPA, dbo.dbo.zooSpec as GZ WHERE SPA.z >= # and SPA.z <= # and SPA.petroMag_r <= # and SPA.SpecObjID = GZ.specobjid"
+2019-05-19 14:31:00,1

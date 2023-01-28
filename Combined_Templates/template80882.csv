@@ -1,0 +1,2 @@
+1,"SELECT z.petromag_u, z.petromag_g, z.petromag_r, z.petromag_i, z.petromag_z, g.lgm_tot_p5#, g.specsfr_tot_p5# FROM myDB.MyTable as m WHERE (z.petromag_u and z.petromag_g and z.petromag_r and z.petromag_i and z.petromag_z and g.lgm_tot_p5# and g.specsfr_tot_p5#) < > # JOIN specObj as s ON m.objID_DR1# = s.bestobjID JOIN PhotoPrimary as z ON s.specObjID = z.specObjID JOIN galSpecExtra as g ON s.specObjID = g.specObjID"
+2019-12-05 14:24:00,1

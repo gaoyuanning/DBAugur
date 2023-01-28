@@ -1,0 +1,4 @@
+3,"SELECT m.*, e.lgm_tot_p5#, e.specsfr_tot_p5# INTO myDB.gals_specObjIDs_M_ssfr FROM myDB.gals_specObjIDs as m, galspecExtra as e WHERE m.specObjID = e.specObjID"
+2019-07-25 10:00:00,1
+2019-07-25 12:15:00,1
+2019-07-25 12:16:00,1

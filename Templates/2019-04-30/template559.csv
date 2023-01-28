@@ -1,0 +1,4 @@
+3,"SELECT p.ra, p.dec, p.psfMag_i, p.psfMagErr_i FROM fGetNearbyObjEq(#,#,#) n, PhotoPrimary p WHERE n.objID=p.objID"
+2019-04-30 09:52:00,1
+2019-04-30 10:28:00,1
+2019-04-30 11:00:00,1

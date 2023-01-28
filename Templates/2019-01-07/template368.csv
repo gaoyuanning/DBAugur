@@ -1,0 +1,4 @@
+5,"select g.gene_id, g.chr, s.sampleId  ,      dbo.BlockAgg(bw.block,g.startLoc,g.endLoc).ToString() as stats  ,  count(*) as numBlocks  from  (select top # * from genes where symbol=&&& order by newid()) g     cross join (select top # * from samples order by newid()) s    inner join  bw   on bw.sampleid=s.sampleid   and bw.chr=g.chr   and bw.lo <= g.endLoc   and bw.hi >= g.startLoc  group by g.gene_id,g.chr,s.sampleid  order by #,#,#"
+2019-01-07 09:51:00,1
+2019-01-07 09:52:00,2
+2019-01-07 09:53:00,2

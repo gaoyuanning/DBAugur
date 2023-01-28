@@ -1,0 +1,2 @@
+1,"SELECT TOP # ObjID, modelMag_r, petroRad_r FROM PhotoPrimary JOIN fGetObjFromRectEq (#, #, #, #) r ON p.objID"
+2019-02-12 04:49:00,1

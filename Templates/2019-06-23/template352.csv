@@ -1,0 +1,2 @@
+1,"SELECT    n.identifier, m.objid  into cross_corr FROM new_#_id_coord AS n     JOIN new_#_corr AS m ON m.identifier=n.identifier     JOIN all_table_buta AS t ON t.objid=m.objid"
+2019-06-23 13:56:00,1

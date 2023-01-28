@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.objid into mydb.MyTable_# from photoobjall p where p.objid = #"
+2019-03-19 10:20:00,1

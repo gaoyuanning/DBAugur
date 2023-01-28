@@ -1,0 +1,2 @@
+1,"select sl.stable_id as case_list_id, sl.name as case_list_name ,      sl.cancer_study_id,sl.description as case_list_description   from cancer_study cs     inner join sample_list sl       on sl.CANCER_STUDY_ID=cs.CANCER_STUDY_ID  where cs.cancer_study_identifier=&&&"
+2019-04-14 16:03:00,1

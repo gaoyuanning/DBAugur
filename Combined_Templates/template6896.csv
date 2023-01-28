@@ -1,0 +1,2 @@
+1,"SELECT top # p.ra, p.dec, p.dered_u, p.dered_g WHERE p.ObjID = s.BestObjID AND g.SpecObjID = s.SpecObjID AND p.ObjID = m.ObjID AND s.z between # and # AND p.clean = # AND s.zWarning = #"
+2019-01-30 17:15:00,1

@@ -1,0 +1,5 @@
+4,"select top # ra, dec, elodieObject, elodieSpType, elodieBV, wCoverage, elodieTEff, elodieFeH, spectroSynFlux_u from specObj where class = # AND elodieTEff > # AND elodieFeH < = #"
+2019-06-25 12:44:00,1
+2019-06-25 12:46:00,1
+2019-06-25 13:06:00,1
+2019-06-26 07:37:00,1

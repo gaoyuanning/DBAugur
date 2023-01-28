@@ -1,0 +1,4 @@
+5,"SELECT  ObjID,ra,dec,lnlDev_r,lnlExp_r into mydb.MyTable from Galaxy as G WHERE       dec>#   and ra>#   and ra<#   and   G.lnlDev_r >  G.lnlExp_r      and  G.lnlExp_r > #       and (G.flags & (dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&) + dbo.fPhotoFlags(&&&))) > #      and G.petroMag_z < #   and G.petroMag_z > #"
+2019-08-12 01:53:00,2
+2019-08-12 01:54:00,2
+2019-08-12 01:57:00,1

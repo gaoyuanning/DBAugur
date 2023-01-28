@@ -1,0 +1,2 @@
+2,"SELECT TOP #  p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,s.class, s.subclass,s.z as redshift, s.mjd, s.plate, s.fiberid FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   s.ra < # and s.ra > #  AND s.dec > # and s.dec < #  AND s.class = &&&  AND s.survey = &&&   AND s.programName = &&&  AND (ancillary_target2 & dbo.fAncillaryTarget2(&&&) > #)"
+2019-01-02 07:21:00,2

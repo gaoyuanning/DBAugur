@@ -1,0 +1,2 @@
+1,"select top # ra,dec,specObjID,bestObjID,z,velDisp from SpecObjAll where velDisp># and z<#"
+2019-02-25 08:26:00,1

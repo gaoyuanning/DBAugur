@@ -1,0 +1,2 @@
+1,"SELECT TOP # objid, modelMag_r, petroRad_r FROM galaxy WHERE ra BETWEEN # and # AND dec BETWEEN # and # AND modelMag_r < #"
+2019-02-12 06:12:00,1

@@ -1,0 +1,2 @@
+1,"SELECT top # ra,dec,z, spectroFlux_u, spectroFlux_g, spectroFlux_r, spectroFlux_i, spectroFlux_z into mydb.SDSS_specZ_northern from SDSS_specZ  WHERE  ra># AND ra<# ORDER by z"
+2019-01-18 10:42:00,1

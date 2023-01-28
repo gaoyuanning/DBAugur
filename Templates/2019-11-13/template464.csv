@@ -1,0 +1,2 @@
+1,"SELECT   objID,profMean,profErr,band,bin into mydb.MyTable from PhotoProfile     INTO mydb.color_profile_# WHERE   band BETWEEN # AND # AND objID in (SELECT ID from mydb.ID)"
+2019-11-13 08:15:00,1

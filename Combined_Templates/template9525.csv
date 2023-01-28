@@ -1,0 +1,6 @@
+5,"select p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, c.z, c.zErr, str (p.u - p.g, #, #) as ugModelColor, str (p.g - p.r, #, #) as grModelColor, str (p.r - p.i, #, #) as riModelColor, str (p.i - p.z, #, #) as izModelColor from Galaxy p, dbo.fgetNearByObjEq (#, #, #) n, Photoz c where p.objid = n.objid AND c.objID = p.objID AND p.g < # AND p.r < # AND p.i < # AND p.z < # AND c.z > # AND c.z < # AND (p.score > = #)"
+2019-02-11 17:18:00,1
+2019-02-12 18:20:00,1
+2019-02-12 18:29:00,1
+2019-02-12 19:30:00,1
+2019-02-12 19:38:00,1

@@ -1,0 +1,2 @@
+1,"select TrackId, AlbumId From chinook.Track select TrackId, UnitPrice from chinook.InvoiceLine Inner Join chinook.genre on Track.GenreId = Genre.GenreId Inner Join chinook.MediaType on Track.MediaTypeId = MediaType.MediaTypeId"
+2019-04-21 12:31:00,1

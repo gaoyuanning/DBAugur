@@ -1,0 +1,2 @@
+1,select distinct (subclass) from specphoto order by class
+2019-03-01 12:12:00,1

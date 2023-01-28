@@ -1,0 +1,7 @@
+9,"SELECT TOP # objID, ra, dec, u, g, r, i, z FROM PhotoObjAll WHERE ra > # and ra < # and dec between # and # and u ! =#"
+2019-02-20 03:48:00,2
+2019-02-20 03:49:00,1
+2019-02-20 03:50:00,1
+2019-02-20 03:51:00,1
+2019-02-20 03:52:00,2
+2019-02-20 03:53:00,2

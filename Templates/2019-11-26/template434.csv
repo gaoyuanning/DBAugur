@@ -1,0 +1,2 @@
+1,"SELECT p.ra,p.dec,p.run,p.rerun,p.camCol,p.field,p.obj into mydb.TableR0 from photoobj AS p"
+2019-11-26 04:31:00,1

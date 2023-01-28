@@ -1,0 +1,2 @@
+1,"SELECT     t.objID, t.tmassxsc_ra, t.tmassxsc_dec,    t.J_BA,t.K_R_EFF,t.K_MNSURFB_EFF,    t.R_EXT,t.J_M_EXT,t.J_MSIG_EXT,t.H_M_EXT,t.H_MSIG_EXT.    t.K_M_EXT,t.K_MSIG_EXT,t.K_R_EFF,t.K_MNSURFB_EFF FROM #upload u    JOIN #x x ON x.up_id = u.up_id    JOIN TwoMassXSC t ON t.objID = x.objID ORDER BY x.up_id"
+2019-08-09 11:42:00,1

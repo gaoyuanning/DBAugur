@@ -1,0 +1,15 @@
+17,"select DISTINCT albums.AlbumName, count (albums.AlbumName) numTracks FROM (SELECT a.Title as AlbumName FROM chinook.Track AS t INNER JOIN chinook.Album as a ON t.AlbumId = a.AlbumId) albums GROUP BY albums.AlbumName"
+2019-04-21 17:06:00,1
+2019-04-21 17:25:00,1
+2019-04-21 17:27:00,1
+2019-04-22 15:34:00,2
+2019-04-22 15:41:00,1
+2019-04-22 15:52:00,1
+2019-04-22 16:00:00,1
+2019-04-22 16:06:00,1
+2019-04-22 16:07:00,3
+2019-04-24 17:39:00,1
+2019-04-24 17:40:00,1
+2019-04-24 17:41:00,1
+2019-04-24 18:16:00,1
+2019-04-24 18:18:00,1

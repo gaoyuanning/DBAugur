@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, ra , dec -- Get the unique object ID and coordinates FROM qsoVarPTF --PhotoPrimary -- From the table containing photometric data for unique objects WHERE ra > # and ra < # AND dec > # and dec < # -- that matches our criteria -- objID = #"
+2019-05-09 08:46:00,1

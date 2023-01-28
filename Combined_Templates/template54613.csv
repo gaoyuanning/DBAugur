@@ -1,0 +1,3 @@
+4,"select ese.id, ese.nyu, ese.groupID, ese.mjd, ese.plate, ese.fiber, ese.run, ese.rerun, ese.camcol, ese.field, G.specObjID, G.sfr_tot_p5#, G.sfr_tot_p2p5, G.sfr_tot_p1#, G.sfr_tot_p8#, G.sfr_tot_p9#p5, G.lgm_tot_p2p5, G.lgm_tot_p1#, G.lgm_tot_p5#, G.lgm_tot_p8#, G.lgm_tot_p9#p5, G.specsfr_fib_p2p5, G.specsfr_fib_p1#, G.specsfr_fib_p5#, G.specsfr_fib_p8#, G.specsfr_fib_p9#p5 into mydb.galBGG_wsfr from MyDB.galBCG ese, galSpecExtra G, galSpecInfo gi where G.specObjID = gi.specObjID and gi.plateid = ese.plate and gi.fiberid = ese.fiber and gi.mjd = ese.mjd"
+2019-07-30 10:38:00,2
+2019-07-30 10:41:00,2

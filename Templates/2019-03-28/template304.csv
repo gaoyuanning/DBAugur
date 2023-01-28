@@ -1,0 +1,2 @@
+1,"select top # objid,z from SpecPhoto where (specclass=# or specclass=#) and zconf > .# and z < .# LN2.name = &&&"
+2019-03-28 17:44:00,1

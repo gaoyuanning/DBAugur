@@ -1,0 +1,2 @@
+1,"select top # p.objid as name, p.ra, p.dec from photoobj p, dbo.fgetNearByObjEq(#,#,#) n where p.objid=n.objid WHERE pz.z > # and pz.z < #"
+2019-07-04 11:48:00,1

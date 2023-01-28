@@ -1,0 +1,6 @@
+5,"select ra, dec, u, g, r, i, z from star where g < # and (ra between # and #) and (dec between # and #)"
+2019-07-25 18:24:00,1
+2019-07-25 18:48:00,1
+2019-07-25 19:32:00,1
+2019-07-25 19:33:00,1
+2019-07-25 19:39:00,1

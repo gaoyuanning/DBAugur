@@ -1,0 +1,4 @@
+3,"select ra, dec, modelMag_r from PhotoObjAll where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-03-13 15:52:00,1
+2019-03-13 15:54:00,1
+2019-03-13 15:55:00,1

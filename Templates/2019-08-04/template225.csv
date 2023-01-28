@@ -1,0 +1,2 @@
+1,"SELECT p.objId,p.z,p.zErr,g.ra, g.raErr, g.dec, g.decErr into mydb.MyTable from Photoz as p   JOIN GalaxyTag as g ON g.objId = p.objId  WHERE      p.z BETWEEN # and #      and p.photoErrorClass=#   and p.nnCount>#"
+2019-08-04 04:44:00,1

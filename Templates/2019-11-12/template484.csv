@@ -1,0 +1,2 @@
+1,"SELECT specObjID, ra,dec, plate, mjd, fiberID, 	        psfMag_u, psfMagErr_u,   psfMag_g, psfMagErr_g,   psfMag_r, psfMagErr_r,   psfMag_i, psfMagErr_i,   psfMag_z, psfMagErr_z  from SpecPhotoAll	 WHERE plate=# and legacy_target2 = #"
+2019-11-12 04:40:00,1

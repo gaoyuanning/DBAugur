@@ -1,0 +1,2 @@
+1,"select a.artistid, a.name, s.value from chinook.artist a cross apply string_split (a.name, #) s) select a1.artistid as id1, a2.artistid as id2, count (a2.value) as num , max (a1.name) as name1, max (a2.name) as name2 from asplit a1 inner join asplit a2 on a1.artistid ! = a2.artistid and a1.value = a2.value group by id1, id2"
+2019-03-30 10:23:00,1

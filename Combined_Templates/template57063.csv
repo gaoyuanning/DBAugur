@@ -1,0 +1,2 @@
+1,"SELECT ALL a.OBJID AS OBJID, a.RA AS RA, a.DEC AS DEC, sp.bestObjID AS sdssid, sp.ra AS RA_sdss, sp.dec AS DEC_sdss, sp.z AS zsp, sp.zErr AS e_zsp, sp.class AS class, sp.subClass AS subClass, sp.zWarning AS zWarning, n.distance AS angDist into mydb.MyTable from MyDB.akari AS a OUTER APPLY dbo.fGetNearestObjEq (a.RA, a.DEC, #) AS n LEFT JOIN SpecObjAll AS sp ON n.objid = sp.bestObjID"
+2019-08-13 18:29:00,1

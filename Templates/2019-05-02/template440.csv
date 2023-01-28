@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra, dec ,run,objid into mydb.MyTable from star	 WHERE     ra > #. and ra < # and dec > # and dec < #"
+2019-05-02 13:36:00,1

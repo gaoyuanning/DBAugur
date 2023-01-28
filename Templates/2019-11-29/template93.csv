@@ -1,0 +1,2 @@
+2,"select top #  ra, dec, SpecObjID from  specObj where  class = &&& or class = 'galaxy  and zWarning = # order by  RAND()"
+2019-11-29 19:43:00,2

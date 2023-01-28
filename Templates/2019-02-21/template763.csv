@@ -1,0 +1,2 @@
+1,"SELECT   g.objID, s.ra, s.dec, g.u, g.g, g.r, g.i, s.class, s.subclass, g.type,    g.extinction_u, g.extinction_g, g.extinction_r, g.extinction_i    into mydb.THISISphotospec_DR1#_# from PhotoObj AS g   JOIN SpecObj AS s ON s.fluxObjID = g.objID WHERE    g.u># and g.g># and g.r># and g.i># and   s.zwarning=# and   g.err_u < # and   g.err_g < # and   g.err_r < # and   g.err_i < #"
+2019-02-21 07:46:00,1

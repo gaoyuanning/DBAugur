@@ -1,0 +1,2 @@
+1,"SELECT top # sp.specObjID, sp.z, sp.plate, sp.mjd, sp.fiberID, pp.u, pp.g, pp.r, pp.i, pp.z FROM SpecObjAll AS sp JOIN PhotoObjAll AS pp ON sp.bestObjID = pp.objID WHERE sp.z < #"
+2019-03-01 12:37:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.specObjID, s.ra, s.dec, s.z, spl. bpt, spl.Sigma_Hb_#, spl.Flux_Hb_#, spl.EW_Hb_#, spl.Sigma_Ha_#, spl.Flux_Ha_#, spl.EW_Ha_# into mydb.MyTable from emissionLinesPort AS spl JOIN SpecObj AS s ON s.specobjID = spl.specobjID WHERE (spl.EW_Hb_# > #) AND bpt = Star Forming"
+2019-03-05 11:19:00,1

@@ -1,0 +1,3 @@
+2,"SELECT count(*) sq.plate, sq.mjd, sq.fiberID, sq.fwhm2_hb, sq.l_#, sq_fwhm2_mgII  FROM spiders_quasar AS sq WHERE  l_# > #"
+2019-10-21 16:55:00,1
+2019-10-21 16:56:00,1

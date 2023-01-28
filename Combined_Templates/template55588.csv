@@ -1,0 +1,3 @@
+2,"select sp.bestObjID, sp.ra, sp.dec, sp.z, p.petroMag_r from SpecObj sp, Galaxy p WHERE (abs (sp.ra - #) < # AND abs (sp.dec - (#) ) < # AND sp.bestObjID = p.objID) OR (abs (sp.ra - #) < # AND abs (sp.dec - (#) ) < # AND sp.bestObjID = p.objID)"
+2019-08-06 08:17:00,1
+2019-08-06 08:18:00,1

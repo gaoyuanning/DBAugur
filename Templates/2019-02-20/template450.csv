@@ -1,0 +1,4 @@
+3,"SELECT up_id,  dbo.fGetNearestObjIdEq( up_ra,up_dec,up_sep ) as objId   FROM #upload  WHERE  dbo.fGetNearestObjIdEq( up_ra,up_dec,up_sep ) IS NOT NULL  SELECT TOP #   p.ra,p.dec, p.run,p.rerun,p.camCol,p.field,p.obj,cast(str(p.ra,#,#) as float) as ra,cast(str(p.[dec],#,#) as float) as dec,p.cModelFlux_r,p.cModelFluxIvar_r,p.fiberFlux_r,p.fiberFluxIvar_r,p.psfFlux_r,p.psfFluxIvar_r,ISNULL(s.plate,#) as plate,ISNULL(s.mjd,#) as mjd,ISNULL(s.fiberid,#) as fiberid,ISNULL(s.z,#) as redshift,ISNULL(s.zErr,#) as redshiftErr,ISNULL(s.zWarning,#) as zWarning,ISNULL(s.class,#) as class,ISNULL(s.spectroFlux_r,#) as spectroFlux_r,ISNULL(s.spectroFluxIvar_r,#) as spectroFluxIvar_r  FROM ..PhotoObj AS p  LEFT OUTER JOIN ..SpecObj s ON p.objID = s.bestObjID  JOIN #x AS x ON x.objID=p.objID  JOIN #upload AS u ON u.up_id = x.up_id   WHERE  ( p.type = # OR p.type = #)   ORDER BY x.up_id"
+2019-02-20 02:50:00,1
+2019-02-20 02:55:00,1
+2019-02-20 07:28:00,1

@@ -1,0 +1,2 @@
+2,select top # * from PhotoPrimaryDR7 as PP full outer join zoo2MainPhotoz as zmp on PP.dr8objid = zmp.dr8objid
+2019-01-16 01:30:00,2

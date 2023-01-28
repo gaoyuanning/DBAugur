@@ -1,0 +1,3 @@
+2,"select specObjId, ra,dec, specClass from specObj where specClass = # return #"
+2019-11-21 15:26:00,1
+2019-11-21 15:27:00,1

@@ -1,0 +1,3 @@
+2,"select x=round(x / @bin,#) * @bin, n=count(ID) from data group by round(x / @bin,#) * @bin order by #"
+2019-04-24 12:51:00,1
+2019-04-24 12:52:00,1

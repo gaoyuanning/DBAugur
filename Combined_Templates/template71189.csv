@@ -1,0 +1,2 @@
+1,"SELECT m.SPRC, m.specobjid, g.sii_#_flux, g.sii_#_flux into SPRC_SII from dr1#.galSpecLine AS g JOIN g.specObjID = m.specobjid"
+2019-10-22 04:40:00,1

@@ -1,0 +1,20 @@
+1044,"SELECT objID,parentID,specObjID,ra,dec,modelMag_u,modelMag_g,modelMag_r,modelMag_i,modelMag_z,modelMagErr_u,modelMagErr_g,modelMagErr_r,modelMagErr_i,modelMagErr_z,cModelMag_u,cModelMag_g,cModelMag_r,cModelMag_i,cModelMag_z,cModelMagErr_u,cModelMagErr_g,cModelMagErr_r,cModelMagErr_i,cModelMagErr_z,petroMag_u,petroMag_g,petroMag_r,petroMag_i,petroMag_z,petroMagErr_u,petroMagErr_g,petroMagErr_r,petroMagErr_i,petroMagErr_z,petroRad_u,petroRad_g,petroRad_r,petroRad_i,petroRad_z,petroR5#_g,petroR5#_r,petroR5#_i,petroR9#_g,petroR9#_r,petroR9#_i,extinction_u,extinction_g,extinction_r,extinction_i,extinction_z,expAB_g,expAB_r,expAB_i,expMag_g,expMag_r,expMag_i,flags_u,flags_g,flags_r,flags_i,flags_z,flags,lnLExp_r,lnLDeV_r,type,fracDev_g,fracDev_r,fracDev_i,expRad_g,expRad_r,expRad_i FROM photoObjAll WHERE objID=# OR objid=# OR objid=# OR objid=# OR objid=# OR objid=# OR objid=# OR objid=# OR objid=# OR objid=# OR objid=# OR objid=# OR objid=# OR objid=# OR objid=# OR objid=# OR objid=# OR objid=# OR objid=# OR objid=# OR objid=# OR objid=# OR objid=# OR objid=# OR objid=# OR objid=# OR objid=# OR objid=# OR objid=# OR objid=#"
+2019-03-04 21:03:00,54
+2019-03-04 21:04:00,58
+2019-03-04 21:05:00,57
+2019-03-04 21:06:00,58
+2019-03-04 21:07:00,58
+2019-03-04 21:08:00,57
+2019-03-04 21:09:00,57
+2019-03-04 21:10:00,58
+2019-03-04 21:11:00,58
+2019-03-04 21:12:00,56
+2019-03-04 21:13:00,55
+2019-03-04 21:14:00,57
+2019-03-04 21:15:00,57
+2019-03-04 21:16:00,58
+2019-03-04 21:17:00,57
+2019-03-04 21:18:00,17
+2019-03-04 21:19:00,60
+2019-03-04 21:20:00,60
+2019-03-04 21:21:00,52

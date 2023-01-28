@@ -1,0 +1,2 @@
+4,"SELECT TOP # p.objID, p.z, a.objID from Photoz AS photoz JOIN PhotoObjAll AS pobj ON a.objID = p.objID"
+2019-01-21 16:13:00,4

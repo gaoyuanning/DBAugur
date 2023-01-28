@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.g, p.i, p.r, p.u, p.z, p.score as score FROM ..PhotoObj AS p JOIN dbo.fGetNearbyObjEq (#, #, #) AS b ON b.objID = P.objID WHERE (p.score > = #) AND (p.type = #)"
+2019-10-31 17:47:00,1

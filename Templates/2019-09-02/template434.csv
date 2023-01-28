@@ -1,0 +1,2 @@
+1,"SELECT COUNT * --s.specObjID, s.dr7ObjID, s.dr8ObjID --INTO mydb.dr7objid_specobjid_match FROM PhotoPrimaryDR7 as s   WHERE s.specObjID != #"
+2019-09-02 08:20:00,1

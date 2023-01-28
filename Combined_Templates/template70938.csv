@@ -1,0 +1,4 @@
+9,"select top # s.elodieTEff, m.nsa_elpetro_absmag_g, m.nsa_sersic_absmag_g from mangaDRPall as m, specObjAll as s where m.objdec = s.dec and m.objra = s.ra and s.elodieTEff> # and s.elodieTEff< #"
+2019-10-21 02:19:00,2
+2019-10-21 02:20:00,3
+2019-10-21 02:21:00,4

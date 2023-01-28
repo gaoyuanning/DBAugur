@@ -1,0 +1,2 @@
+1,"SELECT TOP # m.OBJID AS akari_ID, m.RA AS akari_ra, m.DEC AS akari_dec, n.objid, n.distance into mydb.bliskie_obiekty from MyDB.akari AS m CROSS APPLY dbo.fGetNearestObjEq (m.RA, m.DEC, #) AS n JOIN SpecObj AS o ON n.objid = o.specObjID"
+2019-08-06 05:41:00,1

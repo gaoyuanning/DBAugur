@@ -1,0 +1,4 @@
+4,"SELECT T.ID, T.hostra, T.hostdec, dbo.fGetNearestObjIdEq (T.hostra, T.hostdec, #) as ObjID INTO mydb.SQL_Table_ObjID FROM mydb.SQL_Table as T WHERE dbo.fGetNearestObjIdEq (T.Host_RA, T.Host_Dec, #) IS NOT #"
+2019-06-20 17:22:00,2
+2019-06-20 17:24:00,1
+2019-06-20 17:25:00,1

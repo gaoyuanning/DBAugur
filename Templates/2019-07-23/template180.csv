@@ -1,0 +1,2 @@
+1,"select top # ra,dec,g from star where ra > # and ra < # AND dec < #"
+2019-07-23 16:44:00,1

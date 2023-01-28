@@ -1,0 +1,3 @@
+2,"SELECT TOP #  p.objid,p.ra,p.dec, s.class, s.z as redshift,  s.plate, s.fiberid FROM PhotoObj AS p WHERE   class = &&&"
+2019-04-17 17:16:00,1
+2019-04-17 17:17:00,1

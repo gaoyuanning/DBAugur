@@ -1,0 +1,2 @@
+1,"SELECT plate , fiberid , mjd FROM SpecObjall WHERE class = QSO and z < # and zwarning = # and snmedian > #"
+2019-02-04 23:39:00,1

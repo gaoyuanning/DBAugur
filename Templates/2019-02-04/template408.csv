@@ -1,0 +1,2 @@
+1,"select O.camcol, O.run, O.field into mydb.DR1#_field from PhotoObjAll as O, Photoz as Z where Z.objID = O.objID   AND O.ra BETWEEN # AND #   AND O.dec BETWEEN # AND #   AND O.type = #   AND Z.z > #   AND O.insideMask = #"
+2019-02-04 10:10:00,1

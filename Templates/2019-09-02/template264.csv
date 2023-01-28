@@ -1,0 +1,4 @@
+4,"select  *    from hschoolzones   where _year=# ) , zc as (  select z._id, z._year, count(c._id) as num--c.*   from z, crimes c  where z.the_geom.STContains(c.location)=#    and DATEPART(year,c.[date])=z._year  group by z._id,z._year ) select zc.*,mz.the_geom.ToString() as zone ,      cast(zc.num as float)/mz.the_geom.STArea() as dens  from zc, hschoolzones mz where mz._id=zc._id and mz._year=zc._year order by zc.num desc"
+2019-09-02 15:57:00,1
+2019-09-02 15:59:00,2
+2019-09-02 16:08:00,1

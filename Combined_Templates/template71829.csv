@@ -1,0 +1,2 @@
+1,"select top # ID, wkt = geom.ToString () from optw.tamass.TRACTS where state like #"
+2019-10-26 15:18:00,1

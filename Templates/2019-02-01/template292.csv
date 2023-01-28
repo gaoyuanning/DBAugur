@@ -1,0 +1,3 @@
+3,"select specObjID    into mydb.MyTable_cm from galSpecInfo    inner join mydb.castello_mor cm   on fGetNearbyObjEq(cm.ra, cm.dec, #/#)"
+2019-02-01 13:29:00,2
+2019-02-01 13:30:00,1

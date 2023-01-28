@@ -1,0 +1,3 @@
+2,"SELECT   TOP # mangaid, objra, objdec, psfmag_#, psfmag_#, psfmag_#, heliov, verr FROM MaStar_goodvisits  WHERE heliov > #   AND v_errcode = #"
+2019-02-14 12:38:00,1
+2019-02-14 15:31:00,1

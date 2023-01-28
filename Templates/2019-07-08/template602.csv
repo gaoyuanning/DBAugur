@@ -1,0 +1,4 @@
+3,"SELECT TOP # run,            camCol,   rerun,   field,   objID,   u, g, r, i, z,   ra, dec   		-- Just get some basic quantities FROM PhotoPrimary	-- From all primary detections, regardless of class WHERE  u - g < #   and  g - r < #   and  r - i > #    and  i - z > #   	-- that meet the color criteria"
+2019-07-08 00:39:00,1
+2019-07-08 00:41:00,1
+2019-07-08 01:15:00,1

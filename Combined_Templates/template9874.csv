@@ -1,0 +1,2 @@
+1,"SELECT ObjID, modelMag_r, petroRad_r FROM PhotoPrimary as p JOIN SpecPhotoAll as s on p.objID = s.specObjID WHERE (ra between # and #) AND (DEC between # and #) AND type = # AND modelmag_r < # AND petroRad_r > # AND specObjID ! = # AND z < #"
+2019-02-11 22:46:00,1

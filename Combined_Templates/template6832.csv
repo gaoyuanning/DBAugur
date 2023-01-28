@@ -1,0 +1,2 @@
+1,"SELECT objID, ra , dec, class, subClass, z, zWarning FROM SpecPhotoAll WHERE ra > = # and ra < # AND dec > = # and dec < # and class = QSO#"
+2019-01-29 02:22:00,1

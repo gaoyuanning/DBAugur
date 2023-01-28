@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra, dec, objid, plate, mjd, fiberid FROM photObj WHERE survey = # and programname = #"
+2019-06-06 01:11:00,1

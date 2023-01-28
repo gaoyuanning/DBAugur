@@ -1,0 +1,2 @@
+1,"select cmag_r as xcol, mag_r as ycol from MyTable where mag_r < # AND cmag_r < #"
+2019-04-18 06:22:00,1

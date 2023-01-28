@@ -1,0 +1,4 @@
+3,"SELECT s.specobjid, s.ra, s.dec, s.plate, s.mjd, s.fiberid, e.Flux_Hb_#, e.Flux_Hb_#_Err, e.Flux_OIII_#, e.Flux_OIII_#_Err, e.EW_Ha_#, e.EW_Ha_#_Err, e.Flux_Ha_#, e.Flux_Ha_#_Err, e.EW_NII_#, e.EW_NII_#_Err, e.Flux_NII_#, e.Flux_NII_#_Err FROM #upload u  JOIN #x x ON x.up_id = u.up_id  JOIN specobj s ON s.specObjID = x.specObjID  JOIN emissionLinesPort e on e.specObjID = s.specObjID"
+2019-06-26 05:00:00,1
+2019-06-26 05:02:00,1
+2019-06-26 05:04:00,1

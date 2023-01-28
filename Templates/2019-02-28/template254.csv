@@ -1,0 +1,2 @@
+2,"SELECT   nsa_nsaid, mangaID, MANGA_TARGET3, nsa_z as redshift into mydb.manga from mangatarget"
+2019-02-28 16:52:00,2

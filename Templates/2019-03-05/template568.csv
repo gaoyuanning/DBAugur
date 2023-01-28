@@ -1,0 +1,2 @@
+1,"SELECT objID, type, ra, dec, psfMag_u, psfMag_g, psfMag_r, psfMag_i,    psfMag_z, dered_u, dered_g, dered_r, dered_i, dered_z,   extinction_u, extinction_g, extinction_r, extinction_i, extinction_z,   mode =# into MyDB.MyTable_success   FROM Star WHERE main.ra >=# AND main.ra <=#   AND main.type=#"
+2019-03-05 11:22:00,1

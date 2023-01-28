@@ -1,0 +1,3 @@
+2,"SELECT TOP # ra, dec, extinction_u, extinction_g, extinction_r, extinction_i, extinction_z into mydb.MyTablecE FROM dr7.PhotoObjAll"
+2019-11-09 11:24:00,1
+2019-11-09 14:55:00,1

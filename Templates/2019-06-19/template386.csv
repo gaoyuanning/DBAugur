@@ -1,0 +1,4 @@
+3,"SELECT objID, ra, dec  FROM PhotoObj  WHERE (ra between # and #) and (dec between # and #)"
+2019-06-19 08:30:00,1
+2019-06-19 08:36:00,1
+2019-06-19 11:46:00,1

@@ -1,0 +1,2 @@
+1,"SELECT i, l into mydb.specline from dr1#.galSpecLine AS l JOIN dr1#.galSpecInfo AS i ON l.specobjid = i.specobjid"
+2019-08-04 07:43:00,1

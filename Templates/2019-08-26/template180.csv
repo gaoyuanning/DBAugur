@@ -1,0 +1,2 @@
+1,"select (soa.segue2_target1 & #),(soa.segue2_target1 & #),(soa.segue2_target1 & #),(soa.segue2_target1),   soa.segue2_target2  from SegueTargetAll as soa  WHERE (soa.segue2_target1 & #)!= #"
+2019-08-26 12:44:00,1

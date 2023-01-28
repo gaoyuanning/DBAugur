@@ -1,0 +1,2 @@
+1,"SELECT TOP #   specObjID,modelMag_u AS u,modelMag_g AS g,modelMag_r AS r,modelMag_i AS i,modelMag_z AS z,modelMagErr_u AS err_u,modelMagErr_g AS err_g,   modelMagErr_r AS err_r,modelMagErr_i AS err_i,modelMagErr_z As err_z,z AS Redshift, zErr AS RedshiftError,type into mydb.MyTable_# from SpecPhoto WHERE   z < #   AND type = #"
+2019-09-26 13:45:00,1

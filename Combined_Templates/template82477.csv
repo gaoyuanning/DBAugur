@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.plate, s.mjd, s.fiberid, s.linename FROM ..spZline as s"
+2019-12-12 10:33:00,1

@@ -1,0 +1,2 @@
+1,select * from chinook.artist where name like #
+2019-04-03 13:52:00,1

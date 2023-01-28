@@ -1,0 +1,2 @@
+1,"SELECT Frame.img into GU2#_a From Frame as Frame, SpecPhotoAll as Gal Where Gal.z < # and Gal.fID = Frame.fID"
+2019-03-19 08:36:00,1

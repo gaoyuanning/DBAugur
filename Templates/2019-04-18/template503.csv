@@ -1,0 +1,2 @@
+1,"SELECT ALL into mydb.H1#_data_Table SELECT Top #     db.objID, db.flag FROM SpecPhotoAll db WHERE (db.ra <= #. or db.ra >= #.) and db.dec >= # and db.dec <= #"
+2019-04-18 09:44:00,1

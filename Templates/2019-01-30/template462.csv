@@ -1,0 +1,2 @@
+1,"select top  #   SpecObjID,   plate,   mjd,   fiberid,   z_noqso from SpecObjAll   where instrument = &&&     and class = &&&     and z_noqso > #"
+2019-01-30 08:51:00,1

@@ -1,0 +1,2 @@
+2,"select SpecPhotoAll.objID, SpecPhotoAll.plate, SpecPhotoAll.mjd, SpecPhotoAll.fiberID, SpecPhotoAll.ra, SpecPhotoAll.dec into mydb.giantIDs from SpecPhotoAll select plate, mjd, fiberid from mydb.kGiants where plate = SpecPhotoAll.plate and mjd = SpecPhotoAll.mjd and fiberid = SpecPhotoAll.fiberID"
+2019-10-09 18:20:00,2

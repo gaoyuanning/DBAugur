@@ -1,0 +1,2 @@
+1,"SELECT ph.ra, ph.dec, n.objID, n.neighborObjID into MyDB.redmappermatch    FROM PhotoObjAll ph Neighbors n, MyDB.redmapper1 as p     WHERE   n.distance < p.#SearchRadius   ph.petroMag_i < p.#i   n.type = &&&   n.neighborType = &&&   n.mode = &&&   n.neighborMode = &&&"
+2019-05-31 12:13:00,1

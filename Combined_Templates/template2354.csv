@@ -1,0 +1,6 @@
+5,"CREATE TABLE test (search_id int, akari_objid bigint, sdss_bestobjid bigint, sdss_ra real, sdss_dec real)"
+2019-01-11 01:52:00,1
+2019-01-11 01:56:00,1
+2019-01-11 02:01:00,1
+2019-01-11 02:14:00,1
+2019-01-11 02:15:00,1

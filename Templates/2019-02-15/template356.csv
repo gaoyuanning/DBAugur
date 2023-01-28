@@ -1,0 +1,4 @@
+4,"SELECT up_id, dbo.fGetNearestObjIdEq(up_ra,up_dec,#) as objId   FROM #upload WHERE dbo.fGetNearestObjIdEq(up_ra,up_dec,#) IS NOT NULL  EXEC spExecuteSQL &&&'<a target=INFO href=http://skyserver.sdss.org/DR1#/en/tools/explore/obj.aspx?id=&&& + cast(x.objId as varchar(#)) + &&&>&&&+ cast(x.objId as varchar(#)) + &&&</a>&&& as objID, p.ra, p.dec, p.run, p.rerun, p.camcol, p.field,  dbo.fPhotoTypeN(p.type) as type,  po.petroMag_u, po.petroMag_g, po.petroMag_r, po.petroMag_i, po.petroMag_z,  po.petroR5#_r, po.petroR9#_r, po.petroR5#_z, po.petroR9#_z,  r.LOGD_#, r.LOGD_#Q  FROM #upload u  JOIN #x x ON x.up_id = u.up_id  JOIN PhotoTag p ON p.objID = x.objID  JOIN PhotoObj po ON po.objID = p.objID  JOIN RC3 r ON r.objID = po.objID  ORDER BY x.up_id  &&&#', @log=#, @filter=#"
+2019-02-15 03:13:00,1
+2019-02-15 03:27:00,2
+2019-02-15 03:29:00,1

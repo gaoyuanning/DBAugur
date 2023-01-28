@@ -1,0 +1,5 @@
+4,select * from stellarMassPassivePort where specObjId=#
+2019-08-01 09:48:00,1
+2019-08-01 10:21:00,1
+2019-08-01 13:56:00,1
+2019-08-01 15:22:00,1

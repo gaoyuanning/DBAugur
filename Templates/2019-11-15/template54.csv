@@ -1,0 +1,18 @@
+40,"SELECT  g.objID,  g.petroR5#_u, g.petroR5#_g, g.petroR5#_r, g.petroR5#_i, g.petroR5#_z, g.petroR9#_u, g.petroR9#_g, g.petroR9#_r, g.petroR9#_i, g.petroR9#_z, g.mCr4_u, g.mCr4_g, g.mCr4_r, g.mCr4_i, g.mCr4_z, g.u, g.g, g.r, g.i, g.z, g.modelMag_u, g.modelMag_g, g.modelMag_r, g.modelMag_i, g.modelMag_z, g.petroMag_u, g.petroMag_g, g.petroMag_r, g.petroMag_i, g.petroMag_z FROM Galaxy AS g WHERE g.specobjID > # AND g.mCr4_u > # AND g.mCr4_g > # AND g.mCr4_r > # AND g.mCr4_i > # AND g.mCr4_z > # AND g.ra between # and # AND htmid*# & # < (# * #) order by g.ra"
+2019-11-15 21:51:00,6
+2019-11-15 21:54:00,1
+2019-11-15 21:55:00,1
+2019-11-15 21:56:00,3
+2019-11-15 21:57:00,3
+2019-11-15 21:58:00,1
+2019-11-15 22:00:00,2
+2019-11-15 22:01:00,1
+2019-11-15 22:02:00,1
+2019-11-15 22:03:00,2
+2019-11-15 22:04:00,2
+2019-11-15 22:07:00,6
+2019-11-15 22:11:00,2
+2019-11-15 22:12:00,2
+2019-11-15 22:13:00,1
+2019-11-15 22:14:00,2
+2019-11-15 22:15:00,4

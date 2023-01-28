@@ -1,0 +1,2 @@
+1,"SELECT   p.objID, p.ra, p.dec,   p.u, p.g, p.r, p.i, p.z,  s.absMagU,s.absMagG,s.absMagR,s.absMagI,s.absMagZ,  s.z as redshift FROM #upload u  JOIN #x x ON x.up_id = u.up_id  JOIN PhotoObj p ON p.objID = x.objID  JOIN PhotoZ s ON s.objID = p.objID  ORDER BY x.up_id"
+2019-01-31 04:03:00,1

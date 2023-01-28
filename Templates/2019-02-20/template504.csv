@@ -1,0 +1,2 @@
+1,"SELECT TOP #  bestobjID, ra, dec, z, dbo.fGetNearbyObjEq(#,#,#) FROM specObjAll WHERE   class = &&&"
+2019-02-20 04:09:00,1

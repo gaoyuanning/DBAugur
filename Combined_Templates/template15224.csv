@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.petror9#_r, p.dered_r, p.dered_g, s.z as z_spec, s.zErr, zns.nvote, zns.p_el as elliptical, zns.p_cw as spiralclock, zns.p_acw as spiralanticlock, zns.p_edge as edgeon, zns.p_dk as dontknow, zns.p_mg as merger FROM Galaxy as p JOIN zoo2MainSpecz AS zms ON p.objid = zms.objid JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.clean = # and zms.t0#_spiral_a0#_spiral_count > = # and zms.t0#_bar_a0#_bar_flag = # and zms.t0#_spiral_a0#_spiral_fraction > .#"
+2019-02-27 12:46:00,1

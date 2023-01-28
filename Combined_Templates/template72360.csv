@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, ra, dec, z, zerr, petroMag_u, petroMag_g, petroMag_r, petroMag_i, petroMag_z into mydb.MyTable FROM SpecPhotoAll WHERE ra > #. and ra < # and dec > # and dec < # and petroMag_u < # and specObjID > # and class = # and type = # and z> # and z< #"
+2019-10-29 13:19:00,1

@@ -1,0 +1,4 @@
+3,"select count(substring(Name,#,#)) as COUNTS from chinook.Artist Group By substring(Name,#,#)"
+2019-04-24 14:32:00,1
+2019-04-24 15:56:00,1
+2019-04-24 19:44:00,1

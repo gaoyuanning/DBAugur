@@ -1,0 +1,2 @@
+2,"select s.plate, s.mjd, s.fiberid, s.subclass, s.ra, s.dec, spp.snr FROM SpecObjAll as s, SpecPhotoAll as ph, sppParams as spp  where s.SPECOBJID=spp.SPECOBJID and spp.SPECOBJID= ph.specObjID and  (s.ra, s.dec) in (select s.ra, s.dec from SpecObjAll where s.class=&&& group by s.ra, s.dec having count(*)>#) order by s.ra"
+2019-06-30 12:56:00,2

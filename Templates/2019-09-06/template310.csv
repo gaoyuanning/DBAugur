@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.clean, p.flags, p.calibStatus_r into mydb.DR7_flags FROM PhotoObjAll as p"
+2019-09-06 10:04:00,1

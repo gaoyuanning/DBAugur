@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, z, zErr, zWarning into mydb.MyTable from SpecPhotoAll WHERE z BETWEEN # AND # AND dered_r < # AND zWarning = #"
+2019-03-12 08:13:00,1

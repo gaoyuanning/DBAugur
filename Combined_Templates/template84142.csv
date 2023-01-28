@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.plate, s.mjd, s.fiberid, s.class, s.spectroFlux_r, s.velDisp, s.velDispErr, s.z, s.zErr, p.fiberFlux_r, p.petroFlux_r, p.type_r FROM ..SpecObj as s JOIN ..Galaxy AS p ON s.bestObjID = p.objID JOIN dbo.fGetNearbySpecObjEq (#, #, #) AS b ON b.SpecobjID = S.SpecobjID WHERE s.z > # AND s.zWarning = # AND (s.class = #) AND s.z < # AND p.r > # AND p.r < #"
+2019-12-23 13:32:00,1

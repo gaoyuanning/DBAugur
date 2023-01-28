@@ -1,0 +1,2 @@
+1,"select top # STR(Zone.dec,#,#) + &&& +STR(Zone.dec,#,#) FROM Zone"
+2019-05-31 18:32:00,1

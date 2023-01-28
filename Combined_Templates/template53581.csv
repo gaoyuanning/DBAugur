@@ -1,0 +1,3 @@
+2,"SELECT p.objID, s.ra, s.dec, s.specObjID, s.z as redshift, p.deVAB_u, p.deVAB_g, p.deVAB_r, p.deVAB_i, p.deVAB_z, p.expAB_u, p.expAB_g, p.expAB_r, p.expAB_i, p.expAB_z into mydb.b_a_ratio from PhotoObj as p JOIN SpecObj as s ON s.bestObjID = p.objID where s.class = # and s.z< #"
+2019-07-24 07:18:00,1
+2019-07-24 07:19:00,1

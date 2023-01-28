@@ -1,0 +1,2 @@
+2,"select plate, spectroFlux_z, fiberFlux_z from specObj, photoObj where plate = #    SELECT top #   x.plate,    p.fiberFlux_z,   s.spectroFlux_z FROM photoObj p JOIN specObj s ON s.bestObjID = p.objID JOIN plateX x ON x.plateID = s.plateID           WHERE     s.plate = #"
+2019-07-09 14:34:00,2

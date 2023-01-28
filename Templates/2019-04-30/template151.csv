@@ -1,0 +1,2 @@
+1,"SELECT s.ra,s.dec,s.z, g.lgm_tot_p5# FROM SpecPhoto as s JOIN galSpecExtra as g ON s.specObjID = g.specObjID WHERE (ra between # and #) and (dec between # and #) and s.class=&&& and (z=#)"
+2019-04-30 18:29:00,1

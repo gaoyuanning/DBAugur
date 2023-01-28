@@ -1,0 +1,4 @@
+4,"SELECT TOP # mstellar_median, mstellar_err, specObjID from stellarMassPCAWiscBC0# where abs (RA - #) < .# AND abs (DEC - #) < .#"
+2019-06-13 17:55:00,2
+2019-06-13 17:56:00,1
+2019-06-13 17:57:00,1

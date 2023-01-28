@@ -1,0 +1,2 @@
+1,"select top # j.chromosome, j.start, &&& FROM Junctions j, SnapCounts c WHERE j.snapid = c.snapid"
+2019-06-26 15:00:00,1

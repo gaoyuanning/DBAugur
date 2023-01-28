@@ -1,0 +1,3 @@
+4,"select mjd,plate,fiberID,fiberMag_u,fiberMag_g,fiberMag_r,fiberMag_i,fiberMag_z,mag_#,mag_#,mag_#,objType,objTypeName from dbo.SpecObjAll where plate=#"
+2019-11-07 01:36:00,2
+2019-11-07 01:37:00,2

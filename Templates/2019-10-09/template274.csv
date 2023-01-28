@@ -1,0 +1,2 @@
+2,"select ra as ra_want, dec as dec_want from mydb.kGiants select objID, ra, dec from dbo.PhotObjAll   where ra = ra_want AND dec = dec_want"
+2019-10-09 16:05:00,2

@@ -1,0 +1,2 @@
+1,"select s.specobjID, s.bestobjID, s.firstrelease, s.survey, s.sourcetype, s.class, p.ra, p.raErr, p.dec, p.decErr, s.z, s.zErr, p.modelMag_r, p.modelMag_i, p.modelMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_g, p.petroMag_r, p.petroR5#_r into mydb.galaxy_red from SpecObj as s join PhotoObj as p on p.ObjID = s.bestobjID where s.zwarning = # and s.sourcetype = #"
+2019-12-02 06:56:00,1

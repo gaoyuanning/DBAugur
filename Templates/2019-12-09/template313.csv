@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.ancillary_target1,s.bestObjID,s.class,cast(str(s.ra,#,#) as float) as ra,s.specObjID,s.spectroFlux_r,s.spectroFlux_u,s.spectroSkyFlux_r,s.spectroSkyFlux_u,s.subClass,s.targetObjID,s.z,dbo.fIAUFromEq(p.ra,p.[dec]) as SDSSname,p.cModelFlux_r,p.cModelFlux_u,p.cModelMag_r,p.cModelMag_u,p.modelMag_r,p.modelMag_u,p.objID,p.r,p.u  FROM ..SpecObj as s  JOIN ..PhotoObj AS p ON s.bestObjID = p.objID  JOIN dbo.fGetNearbySpecObjEq(#,#,#) AS b ON b.SpecobjID = S.SpecobjID  WHERE s.zWarning = # AND (s.class = &&&) AND ( p.type = # OR p.type = #)"
+2019-12-09 14:42:00,1

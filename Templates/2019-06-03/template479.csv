@@ -1,0 +1,2 @@
+1,"select nb.objid,nb.distance as dstArcMin,p.ra,p.dec, p.band,p.glon,p.glat,p.nuv_mag, p.nuv_magerr,p.fuv_mag, p.fuv_magerr, p.e_bv, pe.nexptime,pe.fexptime,pe.mpstype as survey into mydb.MyTable from fgetnearbyobjeq(#,#, #) as nb,  photoextract as pe, photoobjall as p where nb.objid=p.objid and p.photoextractid=pe.photoextractid and pe.nexptime > #  and pe.mpstype=&&&  order by dstArcMin"
+2019-06-03 03:14:00,1

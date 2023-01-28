@@ -1,0 +1,2 @@
+1,"SELECT TOP # ra, dec, specobjid, plate, mjd, fiberid, z, fiberMag_i FROM specphoto WHERE survey = # and programname = #"
+2019-02-04 23:43:00,1

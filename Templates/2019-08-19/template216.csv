@@ -1,0 +1,2 @@
+1,select s.z into mydb.zzz1 from SpecObj S
+2019-08-19 12:27:00,1

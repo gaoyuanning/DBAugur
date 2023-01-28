@@ -1,0 +1,3 @@
+2,"SELECT po.PSFMAG_U-po.PSFMAGERR_U,po.PSFMAG_G-po.PSFMAGERR_G,po.PSFMAG_R-po.PSFMAGERR_R,po.PSFMAG_I-po.PSFMAGERR_I,po.PSFMAG_Z-po.PSFMAGERR_Z, spp.LOGGWBG, spp.LOGGWBGUNC, spp.SPECTYPEELODIE into mydb.MyTable_# from PhotoObjAll as po JOIN sppParams as spp ON po.objID = spp.origObjID WHERE spp.LOGGWBG > #"
+2019-02-21 20:33:00,1
+2019-02-21 20:34:00,1

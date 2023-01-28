@@ -1,0 +1,2 @@
+1,"SELECT  ra,dec,z,class,subClass,sourceType,type,petroMag_u,petroMagErr_u,petroMag_g,petroMagErr_g,petroMag_r,petroMagErr_r,petroMag_i,petroMagErr_i,petroMag_z,petroMagErr_z into mydb.MyTable_# from SpecPhotoAll"
+2019-12-17 03:59:00,1

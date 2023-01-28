@@ -1,0 +1,10 @@
+10,"SELECT TOP # specObjID, z, survey  FROM SpecObj  WHERE class = &&&  AND zWarning = # AND z BETWEEN # and # AND (survey = &&& OR survey = &&&) order by newid()"
+2019-03-28 21:48:00,1
+2019-03-28 21:58:00,1
+2019-03-28 22:07:00,1
+2019-03-28 22:09:00,2
+2019-03-28 22:13:00,1
+2019-03-28 22:20:00,1
+2019-03-28 22:24:00,1
+2019-03-28 22:26:00,1
+2019-03-28 22:28:00,1

@@ -1,0 +1,3 @@
+2,"SELECT TOP # objid, colc_g, colc_r INTO MyDB.MySpatialVectors FROM Galaxy WHERE (# * cx + # * cy> =#) and (# * cx - # * cy < #)"
+2019-05-24 16:25:00,1
+2019-05-24 16:26:00,1

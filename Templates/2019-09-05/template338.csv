@@ -1,0 +1,3 @@
+4,"SELECT ra, dec into Large_galaxy_sample_Bright_Stars_extrabright_boundaries from Star WHERE dec BETWEEN # AND #    AND (modelMag_i = # OR modelMag_i = # OR modelMag_i = # OR modelMag_i = #)"
+2019-09-05 10:32:00,2
+2019-09-05 10:33:00,2

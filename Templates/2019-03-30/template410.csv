@@ -1,0 +1,11 @@
+10,"select p.objid, p.ra, p.dec, p.petroMag_u, p.petroMag_g, p.petroMag_r, p.petroMag_i, p.petroMag_z, s.z as redshift,m.K_M_K2#FE,dbo.fPhotoFlagsN(flags) as flag,p.run,p.rerun,p.camCol,p.field,p.obj  from galaxy p, specobj s, twomassxsc m where s.bestobjid=p.objid and m.objid=p.objid and s.z between # and # and m.K_M_K2#FE between # and # and m.cc_flg=&&& AND (p.flags & #) = #"
+2019-03-30 06:34:00,1
+2019-03-30 06:36:00,1
+2019-03-30 06:38:00,1
+2019-03-30 06:39:00,1
+2019-03-30 06:42:00,1
+2019-03-30 06:43:00,1
+2019-03-30 06:45:00,1
+2019-03-30 06:46:00,1
+2019-03-30 06:47:00,1
+2019-03-30 06:49:00,1

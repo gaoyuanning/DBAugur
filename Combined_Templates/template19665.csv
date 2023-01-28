@@ -1,0 +1,2 @@
+1,"SELECT a.specObjID, a.plateid, a.mjd, a.targettype, a.z, a.ra, a.dec, a.spectrotype, b.modelFlux_z, b.psfFlux_z, b.fiberFlux_z, b.psfFlux_z, b.modelMag_z, b.psfMag_z, b.fiberMag_z, b.petroMag_z b.cModelMag_z into mydb.phototable1 FROM galSpecInfo AS a JOIN PhotoObjAll AS b ON a.specObjID = b.specObjID"
+2019-03-12 17:13:00,1

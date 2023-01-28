@@ -1,0 +1,3 @@
+2,"SELECT top # s.objid, s.ra, s.dec, sp.class, s.u, s.g, s.i, s.r, s.z FROM Star as s INNER JOIN SpecObj AS sp ON s.specObjID = sp.specObjID WHERE s.specobjid ! = # AND sp.class IN (STAR"
+2019-03-06 15:13:00,1
+2019-03-06 15:14:00,1

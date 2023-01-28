@@ -1,0 +1,2 @@
+1,"select top #   objid, ra, dec, dered_u, dered_g, dered_r, dered_i, dered_z from PhotoObjAll   where type=#"
+2019-05-29 02:09:00,1

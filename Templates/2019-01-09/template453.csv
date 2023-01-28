@@ -1,0 +1,2 @@
+1,"SELECT count(*)    INTO      mydb.BaseTable     FROM     SpecObj as s, PhotoObj as p      WHERE     s.bestobjid = p.objid AND     s.Class = &&& AND     (p.petroMag_r - p.extinction_r) < # AND     s.z <= #"
+2019-01-09 05:05:00,1

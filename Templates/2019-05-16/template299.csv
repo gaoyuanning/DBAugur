@@ -1,0 +1,2 @@
+1,"SELECT top #   specObjID, bestObjID FROM MyDB.Y2a AS y   join SpecObjAll as s on y.objid=s.bestobjid"
+2019-05-16 13:41:00,1

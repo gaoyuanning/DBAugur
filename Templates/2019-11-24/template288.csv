@@ -1,0 +1,2 @@
+1,"SELECT p.objId,p.ra,p.dec,     p.dered_u as u, p.dered_g as g, p.dered_r as r, p.dered_i as i,      s.z, s.plate, s.mjd, s.fiberid,     p.dered_u-p.dered_r as u_minus_r,     p.dered_r-#*log1#(#E+#*z) as abs_mag_r  FROM galaxy AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.ra between # and #   and s.z < #   and p.g < #"
+2019-11-24 13:28:00,1

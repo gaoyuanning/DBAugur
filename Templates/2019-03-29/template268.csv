@@ -1,0 +1,2 @@
+2,"SELECT    p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z,    s.specobjid, s.ra, s.dec, s.class, s.z,    s.velDisp, s.class, s.plateID, s.MJD, s.FiberID   FROM PhotoObjAll as p   JOIN SpecObjAll AS s on s.bestobjid=p.objid WHERE    s.sciencePrimary > # AND    s.bossPrimary > #"
+2019-03-29 16:38:00,2

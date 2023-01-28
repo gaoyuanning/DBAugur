@@ -1,0 +1,2 @@
+1,"SELECT TOP #   p.ra,   p.dec,  p.dered_u,   p.dered_r,  s.z  FROM   PhotoObj AS p   JOIN SpaceObj AS s ON s.bestObjID = p.ObjID   WHERE   s.class=&&&  zwarning=#   AND #<s.z and s.z>#"
+2019-05-07 14:21:00,1

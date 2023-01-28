@@ -1,0 +1,2 @@
+2,"CREATE TABLE MASSAVERDADEIRA_objIDs (   lcgID smallint,   objID numeric(#,#),   ra float,   dec float,   lgm_tot_p5# float  );"
+2019-07-25 12:36:00,2

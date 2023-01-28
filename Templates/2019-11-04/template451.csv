@@ -1,0 +1,4 @@
+3,"SELECT bestobjid, z FROM SpecObj WHERE bestobjid IN (#,#,#,#)"
+2019-11-04 06:29:00,1
+2019-11-04 06:30:00,1
+2019-11-04 06:36:00,1

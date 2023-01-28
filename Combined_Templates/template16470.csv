@@ -1,0 +1,5 @@
+4,"SELECT str (p.ra, #, #) as ra, str (p.[dec], #, #) as dec, p.petroMag_u, p.petroMag_g, p.petroMag_r, p.petroMag_i, p.petroMag_z FROM TARGDR5..Galaxy as p WHERE p.petroMag_r < #"
+2019-03-03 09:36:00,1
+2019-03-03 11:21:00,1
+2019-03-03 12:02:00,1
+2019-03-03 12:31:00,1

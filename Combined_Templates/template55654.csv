@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.cx, p.cy, p.cz, s.z as redshift, s.plate FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid"
+2019-08-06 20:30:00,1

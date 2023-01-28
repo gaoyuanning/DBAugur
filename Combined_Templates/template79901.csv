@@ -1,0 +1,2 @@
+1,"SELECT a.l, a.b, f.profMean into mydb.MyTable_# from PhotoObjAll as a JOIN PhotoProfile as f ON a.objID = f.objID WHERE a.b > # AND a.b < # AND a.l > # AND a.l < # AND f.profMean < # AND f.bin = # AND f.band = #"
+2019-12-02 17:12:00,1

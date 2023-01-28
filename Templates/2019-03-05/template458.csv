@@ -1,0 +1,2 @@
+1,"SELECT t.objid , t.thingid, t.ndetect,t.ra,t.dec  from thingIndex t, dbo.fgetNearByObjEq(#,#,#) n where t.objid = n.objid order byt.thindid"
+2019-03-05 13:35:00,1

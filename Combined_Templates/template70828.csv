@@ -1,0 +1,2 @@
+2,"SELECT clientIP, seq, statement, elapsed into mydb.MyTable from SQLlog WHERE yy = # AND mm> =# AND rows> # AND dbname LIKE # ORDER BY busy DESC"
+2019-10-21 10:03:00,2

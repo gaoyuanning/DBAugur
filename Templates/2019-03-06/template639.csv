@@ -1,0 +1,2 @@
+1,"select objID,petroR5#_r into mydb.r5# from PhotoPrimary   where type=# and specObjID!=#"
+2019-03-06 09:33:00,1

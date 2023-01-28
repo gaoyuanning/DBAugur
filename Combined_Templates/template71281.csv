@@ -1,0 +1,2 @@
+1,"SELECT s.plate, s.fiberid, s.mjd, s.z, s.zwarning, e.Sigma_Hb_#, e.Sigma_Ha_# into mydb.Table_dr1#_# from PhotoObj AS p, emissionLinesPort AS e JOIN SpecObj AS s ON s.bestobjid = e.specObjID WHERE s.z BETWEEN # AND # AND s.zwarning = # AND e.Sigma_Hb_# BETWEEN # AND # AND e.Sigma_Ha_# BETWEEN # AND #"
+2019-10-23 17:50:00,1

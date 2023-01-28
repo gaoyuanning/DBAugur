@@ -1,0 +1,3 @@
+2,"SELECT s.*,dbo.fDistanceArcMinEq(s.RA+((s.pmra/cos(radians(s.Dec)))/#.)*(s.mjd_f-s.mjd)/#,s.Dec+(s.pmdec/#.)*(s.mjd_f-s.mjd)/#,s.ra2,s.dec2)*#. as Separation"
+2019-05-17 11:01:00,1
+2019-05-17 11:02:00,1

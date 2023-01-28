@@ -1,0 +1,2 @@
+1,select * from r2#.Eye_surgery_complications where Ever_had_eye_surgery_# IN ()
+2019-07-12 12:06:00,1

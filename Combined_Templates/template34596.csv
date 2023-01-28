@@ -1,0 +1,2 @@
+1,"SELECT TOP # * FROM ZooSpec as zspec, galSpecInfo as gspec WHERE zspec.specObjID = gspec.specObjID"
+2019-04-25 23:21:00,1

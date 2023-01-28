@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.run,p.rerun,p.camCol,p.field,p.obj FROM  TARGDR7..PhotoObj AS p 	JOIN  TARGDR7.dbo.fGetObjFromRect(#,#,#,#) AS b ON p.objID = b.objID  WHERE  ( p.type = # OR p.type = #)"
+2019-06-04 00:29:00,1

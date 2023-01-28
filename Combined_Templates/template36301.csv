@@ -1,0 +1,2 @@
+1,"SELECT TOP # g.objid, g.ra, g.dec, g.u, g.g, g.r, g.i, g.z, s.z FROM Galaxy AS g, SpecObj AS s WHERE g.objid = s.objid"
+2019-05-02 18:04:00,1

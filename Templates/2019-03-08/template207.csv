@@ -1,0 +1,4 @@
+42,"SELECT dbo.fGetNearestSpecObjIdAllEq(#,#,#) as specObjID"
+2019-03-08 19:49:00,8
+2019-03-08 19:50:00,19
+2019-03-08 19:51:00,15

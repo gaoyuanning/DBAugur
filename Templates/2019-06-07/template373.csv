@@ -1,0 +1,2 @@
+1,"SELECT MJD, plate, fiberID, ra, dec, petroMag_g, petroMag_r into mydb.sdss_leg_petro from SpecPhoto WHERE class = &&& AND zWarning = # AND modelMag_g - modelMag_r BETWEEN # and #    AND modelMag_r > # and survey=&&& and programname=&&&"
+2019-06-07 10:20:00,1

@@ -1,0 +1,2 @@
+1,"select p.ra, p.dec, p.fieldId, cast (p.objID as varchar (#) ) as objId, dbo.fPhotoTypeN (p.type) as otype, p.rowc, p.colc from PhotoObjAll p"
+2019-01-24 21:37:00,1

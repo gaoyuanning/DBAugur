@@ -1,0 +1,2 @@
+1,"select top # m.mangaID,m.nsa_nsaid,a.ra,a.dec,m.catalog_ra,m.catalog_dec from mydb.bhagn as a,dbo.mangatarget as m where   abs(a.ra-m.catalog_ra) < #"
+2019-04-03 09:22:00,1

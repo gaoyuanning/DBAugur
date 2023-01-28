@@ -1,0 +1,2 @@
+1,select top # * from dbo.specObj where class=&&&
+2019-02-18 05:54:00,1

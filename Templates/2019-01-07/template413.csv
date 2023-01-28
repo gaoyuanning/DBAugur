@@ -1,0 +1,2 @@
+1,"SELECT  Q.OBJID FROM PhotoPrimary AS Q  WHERE Q.OBJID IN (#,#)"
+2019-01-07 07:52:00,1

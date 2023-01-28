@@ -1,0 +1,2 @@
+1,"SELECT apstar_id, target_id, apogee_id, telescope, location_id, field, ra, dec, glon, glat, survey extratarg, nvisits, snr, rv_teff, rv_logg, rv_feh, apogee_id, ra1, dec1, teff, logg, m_h, alpha_m, c_fe, ci_fe, n_fe, o_fe, na_fe, mg_fe, al_fe, si_fe, p_fe, s_fe, k_fe, ca_fe, ti_fe, tiii_fe, v_fe, cr_fe, mn_fe, fe_h, co_fe, ni_fe, cu_fe, ge_fe, rb_fe, y_fe, nd_fe FROM apogeeStar star JOIN fGetNearbyApogeeStarEq (#, #, #) near on star.apstar_id = near.apstar_id JOIN aspcapStar aspcap on aspcap.apstar_id = star.apstar_id where aspcap.teff ! = #"
+2019-07-23 17:47:00,1

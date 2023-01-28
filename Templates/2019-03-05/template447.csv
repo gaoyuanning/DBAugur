@@ -1,0 +1,2 @@
+1,"SELECT t.objid , t.thingid, t.ndetect,t.ra,t.dec,d.objid,p.mjd ,p.psfFlux_u,p.psfFluxIvar_u ,p.psfFlux_g,p.psfFluxIvar_g ,p.psfFlux_r,p.psfFluxIvar_r ,p.psfFlux_i,p.psfFluxIvar_i ,p.psfFlux_z,p.psfFluxIvar_z into mydb.MyTable from PhotoObjDR7 p7  JOIN detectionindex AS d ON d.objid = p7.dr8objid JOIN thingIndex AS t ON d.thingid = t.thingid  JOIN photoobjall AS p ON p.objid = d.objid  JOIN detectionindex AS d ON t.thingid = d.thingid where p7.dr7objid=# OR p7.dr8objid=#"
+2019-03-05 13:40:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP #  ra,dec,z as redshift,  plate, mjd, fiberid, instrument FROM specObj WHERE INSTRUMENT = BOSS"
+2019-07-29 16:32:00,1

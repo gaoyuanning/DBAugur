@@ -1,0 +1,2 @@
+1,"select ra, dec, l, b, psfMag_u, psfMag_g, from star into test where b between # and # and psfMag_g between # and #"
+2019-03-16 04:39:00,1

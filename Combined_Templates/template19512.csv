@@ -1,0 +1,2 @@
+2,"select l.*, g.* into mydb.LoTSS_GRGs_#_galspecline from mydb.LoTSS_GRGs_#_ID l, galSpecLine g where l.specobjid = g.specobjid"
+2019-03-11 06:05:00,2

@@ -1,0 +1,3 @@
+3,"select top # specObjID, z, class, subClass from SpecObjAll where class = # AND subClass ! = #"
+2019-06-15 03:48:00,2
+2019-06-15 03:50:00,1

@@ -1,0 +1,2 @@
+1,"SELECT u.up_name as [name], TOP # &&& + cast(x.objId as varchar(#)) + &&&+ cast(x.objId as varchar(#)) + &&& as objID, p.ra, p.dec, s.plate, s.mjd, s.fiberid  FROM #upload u,      SpecObj s JOIN #x x ON x.up_id = u.up_id JOIN PhotoObj p ON p.objID = s.bestobjid"
+2019-04-08 13:50:00,1

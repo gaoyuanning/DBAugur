@@ -1,0 +1,9 @@
+8,"SELECT s.plate, s.mjd, s.fiberID FROM SpecObj AS s  JOIN PhotoObjAll AS p ON p.objid = s.bestobjid WHERE  s.z BETWEEN # AND # AND s.zwarning = #  AND (s.class=&&&) and s.snMedian_g>#"
+2019-06-08 18:14:00,1
+2019-06-08 18:20:00,1
+2019-06-08 18:22:00,1
+2019-06-08 18:56:00,1
+2019-06-08 18:57:00,1
+2019-06-08 19:14:00,1
+2019-06-08 20:08:00,1
+2019-06-08 20:27:00,1

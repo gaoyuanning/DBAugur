@@ -1,0 +1,2 @@
+1,"SELECT a.id, a.objid as objid1, b.objid as objid2, a.ra as ra1, a.dec as dec1, b.ra as ra2, b.dec as dec2 into mydb.MyTable_# from MyDB.MyObjs a CROSS APPLY dbo.fGetNearestObjEq (a.ra, a..dec, #) o JOIN PhotoTag b ON o.ibjID = b.objID"
+2019-03-29 11:49:00,1

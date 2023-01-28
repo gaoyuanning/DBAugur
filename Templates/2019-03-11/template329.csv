@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.ra,p.dec,p.run,p.rerun,p.camCol,p.field,p.obj,ISNULL(s.plate,#) as plate,ISNULL(s.mjd,#) as mjd,ISNULL(s.fiberid,#) as fiberid,ISNULL(s.z,#) as z,ISNULL(s.zErr,#) as zErr,ISNULL(s.zWarning,#) as zWarning,ISNULL(s.class,#) as class FROM BESTDR8..PhotoObj AS p LEFT OUTER JOIN BESTDR8..SpecObj s ON p.objID = s.bestObjID 	JOIN #x AS x ON x.objID=p.objID JOIN #upload AS u ON u.up_id = x.up_id  WHERE  ( p.type = # OR p.type = #) ORDER BY x.up_id"
+2019-03-11 15:36:00,1

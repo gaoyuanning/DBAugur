@@ -1,0 +1,6 @@
+10,select specobjid from specobjall where specobjall.dec between # and # and specobjall.ra between # and #
+2019-03-02 09:09:00,2
+2019-03-02 13:26:00,1
+2019-03-02 16:42:00,1
+2019-03-02 20:54:00,5
+2019-03-02 21:03:00,1

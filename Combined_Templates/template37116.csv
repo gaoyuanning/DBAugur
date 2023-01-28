@@ -1,0 +1,2 @@
+1,"SELECT p.objID as id, p.ra as ra, p.dec as dec, p.dered_u as u, p.dered_g as g, p.dered_r as r, p.dered_i as i, p.dered_z as z, s.z as z_spec, s.zErr as z_err into mydb.gal_tbl from PhotoObjAll AS p JOIN SpecObj AS s ON s.bestobjid = p.objID WHERE p.type = #"
+2019-05-06 13:53:00,1

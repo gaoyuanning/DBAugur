@@ -1,0 +1,2 @@
+1,"SELECT dr1#.objID, dr1#.ra, dr1#.dec, dr1#.run, dr1#.rerun, dr1#.camcol, dr1#.field, dbo.fPhotoTypeN (dr1#.type) as type, dr1#.modelMag_u, dr1#.modelMag_g, dr1#.modelMag_r, dr1#.modelMag_i, dr1#.modelMag_z into mydb.MyTable_# from MyDB.table_#"
+2019-03-14 12:46:00,1

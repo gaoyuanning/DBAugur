@@ -1,0 +1,3 @@
+3,"SELECT TOP # run, camCol, rerun, field, objID, r, u-g, g-r, r-i, ra, dec into mydb.CVn_# from Star WHERE r < # and u - g < # and g - r < # and g - r > # and r - i > # and r - i < # and u-g > # and dec > #"
+2019-05-27 10:56:00,2
+2019-05-27 11:02:00,1

@@ -1,0 +1,2 @@
+1,"select d.objid,p.ra,p.dec,s.z into mydb.CGzFromSDSS from MyDB.Compact_objid_all_Euge as d   join PhotoObj AS p on p.objid = d.objid   join SpecObj AS s ON s.bestobjid = d.objid"
+2019-04-03 10:37:00,1

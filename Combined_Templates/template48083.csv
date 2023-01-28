@@ -1,0 +1,2 @@
+1,"SELECT n.objid as sdssm_objid, n.distance as sdssm_distance into MyTable_# FROM dbo.fGetNearbySpecObjEq (#, #, #) AS n"
+2019-06-25 12:37:00,1

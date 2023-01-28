@@ -1,0 +1,2 @@
+1,"select s.specObjID, s.class as spec_class from SpecObjAll as s"
+2019-03-04 14:08:00,1

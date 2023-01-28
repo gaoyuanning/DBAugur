@@ -1,0 +1,6 @@
+6,"SELECT specobjid, z, survey, bestobjid FROM SpecObj  WHERE survey = &&& and programname = &&& AND class = &&& AND zWarning = # AND Z BETWEEN # and # AND htmid*# & # < (# * #)"
+2019-03-01 17:29:00,1
+2019-03-01 17:35:00,2
+2019-03-01 17:38:00,1
+2019-03-01 17:39:00,1
+2019-03-01 17:41:00,1

@@ -1,0 +1,4 @@
+3,"select Block, Num, GeoStr=Geog.ToString()      from Blocks      where MinNeighborhood like &&&"
+2019-03-01 11:31:00,1
+2019-03-01 11:32:00,1
+2019-03-01 11:33:00,1

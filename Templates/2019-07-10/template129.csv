@@ -1,0 +1,2 @@
+1,select name from sysobjects where type=&&& and category=# order by name asc
+2019-07-10 19:07:00,1

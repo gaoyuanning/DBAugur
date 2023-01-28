@@ -1,0 +1,2 @@
+1,"select top # sa.RA, sa.DEC into output0# from MyDB.akari_subset AS sa"
+2019-08-06 12:25:00,1

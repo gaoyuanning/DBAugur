@@ -1,0 +1,2 @@
+1,"SELECT s.specObjID,s.h_alpha_eqw,s.h_alpha_eqw_err,s.h_beta_eqw, s.h_beta_eqw_err,s.nii_#_eqw, s.nii_#_eqw_err,s.oiii_#_eqw,s.oiii_#_eqw_err,  s.h_alpha_flux,s.h_alpha_flux_err,s.h_beta_flux,s.h_beta_fluz_err,s.nii_#_flux, s.nii_#_flux_err,s.oiii_#_flux,s.oiii_#_flux_err,i.specObjID,  FROM PhotoObjAll AS g JOIN galSpecLine AS s ON s.specObjID = g.specObjID JOIN galSpecInfo AS s ON i.specObjID = g.specObjID WHERE  g.ra BETWEEN # AND #"
+2019-04-21 16:39:00,1

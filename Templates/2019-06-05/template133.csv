@@ -1,0 +1,2 @@
+1,"SELECT s.specObjID, s.z, s.class into mydb.MyTable_# from SpecObj as s SELECT L.lineID FROM SpecLine as L JOIN SpecLine as L ON s.specObjID = L.specObjID WHERE s.class = GALAXY AND L.lineId = #"
+2019-06-05 19:22:00,1

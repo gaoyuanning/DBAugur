@@ -1,0 +1,2 @@
+1,select top # *  from SpecPhoto where (ABS(ra #)< #) and (ABS(dec #)< #)
+2019-06-17 14:11:00,1

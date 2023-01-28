@@ -1,0 +1,2 @@
+1,"SELECT SpecObjALL.ra as RA, SpecObjALL.dec as DEC, SpecObjALL.z as zGAL, PhotoObjALL.petroMag_g as mag_g, PhotoObjALL.petroMag_r as mag_r, PhotoObjALL.petroMag_z as mag_z, PhotoObjALL.petroR5#_r as R5# FROM SpecObjALL, PhotoObjALL WHERE SpecObjALL.bestObjid = PhotoObjALL.objID AND SpecObjALL.class = &&& AND SpecObjALL.ra > # AND SpecObjALL.ra < # AND SpecObjALL.dec > # AND SpecObjALL.dec < #"
+2019-04-08 21:23:00,1

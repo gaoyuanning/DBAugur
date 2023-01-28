@@ -1,0 +1,2 @@
+2,"SELECT SPA.ra, SPA.dec, SPA.z, PA.fracDev_r, SPA.petromag_g, SPA.petromag_r, GSL.h_alpha_eqw, GSL.h_alpha_eqw_err,    GSL.h_beta_eqw, GSL.h_beta_eqw_err, GSL.oiii_#_eqw, GSL.oiii_#_eqw_err, GSL.nii_#_eqw, GSL.nii_#_eqw_err,   PA.petroR5#_r, SA.velDisp, PA.petromag_r    into GU2#_hw6_#    from SpecPhotoAll as SPA, PhotoObjAll as PA, galSpecLine as GSL, SpecObjAll as SA Where   SPA.class = &&& and SPA.z < # and SPA.z > # and SPA.specObjID = PA.specObjID and SPA.specObjID = GSL.specObjID,   SPA.specObjID = SA.specObjID, PA.fracDev_r > #"
+2019-05-14 01:21:00,2

@@ -1,0 +1,2 @@
+1,"SELECT p.objID, s.ra, s.dec, s.z, p.petroMag_u, p.petroMag_g, p.petroMag_r, p.petroMag_i, p.petroMag_z, p.petroRad_r, p.dered_u, p.dered_g, p.dered_r, p.dered_i, p.dered_z, pz.z as photoz, p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i, p.extinction_z FROM specObj s INNER JOIN PhotoObj p ON s.bestObjID = p.objID INNER JOIN Photoz pz ON pz.objID = p.objID WHERE s.ra BETWEEN # AND # AND s.dec BETWEEN # AND # AND s.class = #"
+2019-09-04 10:18:00,1

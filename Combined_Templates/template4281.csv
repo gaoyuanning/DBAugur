@@ -1,0 +1,11 @@
+13,"SELECT #*FLOOR (sppParams.l/#) AS l, AVG (z / cos (RADIANS (sppParams.b) )) AS z, STDEV (z / cos (RADIANS (sppParams.b) )) / SQRT (COUNT (*) ) AS err FROM SpecObj s INNER JOIN sppParams ON s.specObjID = sppParams.SpecObjID WHERE s.z between # and # and Feha between # and # and sppParams.b between # and # GROUP BY #*FLOOR (sppParams.l/#) ORDER BY #"
+2019-01-18 06:46:00,1
+2019-01-18 14:42:00,1
+2019-01-18 15:23:00,1
+2019-01-18 15:24:00,1
+2019-01-19 11:45:00,1
+2019-01-20 15:16:00,1
+2019-01-20 15:30:00,2
+2019-01-20 15:31:00,2
+2019-01-20 15:34:00,1
+2019-01-20 15:35:00,2

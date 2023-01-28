@@ -1,0 +1,2 @@
+1,"SELECT TOP #            g.run,            f.field,            p.objID         FROMphotoObj p, fieldf, segment g         WHERE                 f.fieldid= p.fieldid                 and  f.segmentid = g.segmentid                 and  f.psfWidth_r > #                 and  p.colc > # into mydb.MyTable"
+2019-09-25 01:12:00,1

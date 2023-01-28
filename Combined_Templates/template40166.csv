@@ -1,0 +1,2 @@
+1,"SELECT s.specObjID, s.ra, s.dec, s.z as redshift, s.zErr, s.class, s.zWarning, s.snMedian, zp.modelMag_u as u, zp.modelMag_g as g, zp.modelMag_r as r, zp.modelMag_i as i, zp.modelMag_z as z, mag_u-mag_g as u_g, mag_g-mag_r as g_r, mag_r-mag_i as r_i, mag_i-mag_z as i_z FROM SpecObjAll as s JOIN dbo.fGetNearbyObjEq (#, #, #) AS GN ON s.bestObjID = GN.objID JOIN PhotoObjAll as zp ON zp.objID = s.bestObjID WHERE s.class = # AND s.zWarning = #"
+2019-05-17 12:37:00,1

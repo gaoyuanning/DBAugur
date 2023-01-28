@@ -1,0 +1,2 @@
+1,"select source_id, ra, dec, parallax, pmra, pmra_error, pmdec, pmdec_error, l, b into mydb.MyTable from gaiadr2.gaia_source where ra between # and # and dec between # and #"
+2019-08-01 15:45:00,1

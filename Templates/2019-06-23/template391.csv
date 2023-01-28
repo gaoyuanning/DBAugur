@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.plate,s.mjd,s.fiberid,s.z,s.zErr,s.zWarning,s.specClass,s.bestObjID,s.objType,s.objTypeName, &&& as filter FROM BESTDR5..SpecObj as s,  BESTDR5..PhotoObj as p WHERE  (s.specClass = dbo.fSpecClass(&&&)) AND p.g < # AND s.bestObjID = p.objID"
+2019-06-23 10:05:00,1

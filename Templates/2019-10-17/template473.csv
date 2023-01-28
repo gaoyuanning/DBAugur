@@ -1,0 +1,2 @@
+1,"SELECT TOP # absMagG, absMagR, absMagI, z FROM DR1#.Photoz WHERE z > # INTO redshifts"
+2019-10-17 01:14:00,1

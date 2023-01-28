@@ -1,0 +1,3 @@
+4,"select count (ID) , count (distinct RunID) , AVG (Y) from data where X > # or X < #"
+2019-04-24 12:43:00,3
+2019-04-24 12:44:00,1

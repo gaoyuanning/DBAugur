@@ -1,0 +1,3 @@
+3,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.Err_u, p.g, p.Err_g, p.r, p.Err_r, p.i, p.Err_i, p.z, p.Err_z ,p.extinction_i,   s.specobjid , s.z AS zs, s.class, s.subclass, s.zErr, s.elodieBV as B_V,   w.w1mag AS w1, w.w1sigmag as w1_sig, w.w2mag AS w2, w.w2sigmag as w2_sig into mydb.Types from WISE_xmatch AS xm   JOIN photoObjAll AS p ON xm.sdss_objid = p.objid   JOIN WISE_allsky AS w ON xm.wise_cntr = w.cntr   left outer JOIN SpecObjAll AS s ON s.bestobjid = p.objid"
+2019-09-07 08:07:00,2
+2019-09-07 08:08:00,1

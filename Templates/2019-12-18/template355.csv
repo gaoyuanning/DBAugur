@@ -1,0 +1,2 @@
+1,"SELECT TOP # specobjid AS id, plate, mjd, fiberid AS fiber, ra, dec, z_noqso AS redshift, Z_ERR_NOQSO AS redshifterr, CLASS_NOQSO AS class, MAX(Chabrier_MILES_metallicity_lightW) AS MetMilesW, Chabrier_MILES_age_massW AS MetMilesM, Chabrier_ELODIE_metallicity_lightW AS MetEloW, Chabrier_ELODIE_metallicity_massW as MetEloM FROM sdssEbossFirefly WHERE z_noqso > # AND Z_ERR_NOQSO < # AND CLASS_NOQSO = &&& AND Chabrier_MILES_metallicity_lightW != # AND Chabrier_ELODIE_metallicity_lightW != #"
+2019-12-18 08:53:00,1

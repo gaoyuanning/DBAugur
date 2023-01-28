@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID, z, run1d, mjd, fiberID FROM SpecObjAll WHERE z > # and z < # and # > = CAST (CHECKSUM (NEWID () , specObjID) & # AS float) / CAST (# AS int)"
+2019-04-29 10:28:00,1

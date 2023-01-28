@@ -1,0 +1,5 @@
+5,"select s.z, p.petroRad_z   from photoObj p   JOIN specObj s ON s.bestObjID = p.objID   where s.bestObjID = #"
+2019-01-08 15:59:00,1
+2019-01-08 16:08:00,2
+2019-01-08 16:09:00,1
+2019-01-08 16:11:00,1

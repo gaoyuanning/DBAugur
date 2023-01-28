@@ -1,0 +1,2 @@
+1,"SELECT     match.distance into mydb.ext_sample_spmatch2 from MyDB.ext_sample AS my     CROSS APPLY dbo.fGetNearestObjEq(my.ra, my.dec, #) as match      JOIN SpecPhoto AS p ON match.objid=p.objid"
+2019-04-17 19:00:00,1

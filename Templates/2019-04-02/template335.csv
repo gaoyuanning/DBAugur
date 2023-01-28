@@ -1,0 +1,5 @@
+5,"select p.r, p.g-p.r as temp from PhotoObj as p where p.ra between # and # and p.dec # between and #"
+2019-04-02 12:48:00,1
+2019-04-02 12:50:00,2
+2019-04-02 12:51:00,1
+2019-04-02 12:52:00,1

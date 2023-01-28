@@ -1,0 +1,2 @@
+1,"select m.mangaID, m.nsa_nsaid, a.ra, a.dec, m.ra, m.dec from mydb.bhagn as a, dbo.mangatarget as m where abs (a.ra-m.ra) < #/# and abs (a.dec-m.dec) < #/#"
+2019-04-03 09:18:00,1

@@ -1,0 +1,2 @@
+1,select count (*) from specobjall where specClass = # and snMedian> =#
+2019-03-13 04:55:00,1

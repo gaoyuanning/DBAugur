@@ -1,0 +1,2 @@
+1,"SELECT p.petroRad_u, p.petroRad_g p.petroRad_r p.petroRad_i, p.petroRad_z, sub.* into mydb.sub_specobjID from PhotoObjAll AS p      JOIN sub_specobjID as sub    ON sub.ra = s.ra     AND sub.dec = s.dec"
+2019-09-05 03:56:00,1

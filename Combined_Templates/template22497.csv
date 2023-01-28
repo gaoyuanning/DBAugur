@@ -1,0 +1,2 @@
+2,"SELECT TOP # objID, specObjID, r, V, u-v , b-u, g-u into mydb.MyTable_# from Galaxy, specObj WHERE r < # AND V > = #"
+2019-03-22 17:31:00,2

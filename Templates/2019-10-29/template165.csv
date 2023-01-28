@@ -1,0 +1,2 @@
+1,"SELECT # dbo.fGetNearestSpecObjIdEq(#,#,#) as SpecobjId  WHERE dbo.fGetNearestSpecObjIdEq(#,#,#) IS NOT NULL  s.ra,s.dec,s.plate,s.mjd,s.fiberid  SELECT TOP # FROM SpecObj as s  WHERE s.zWarning = # AND (s.class = &&&)"
+2019-10-29 19:19:00,1

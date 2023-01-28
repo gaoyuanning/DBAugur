@@ -1,0 +1,2 @@
+1,"SELECT TOP #     p.ra,p.dec  INTO SA9# FROM PhotoObj AS p WHERE     p.ra BETWEEN # and # AND p.dec BETWEEN #. and #."
+2019-06-06 09:06:00,1

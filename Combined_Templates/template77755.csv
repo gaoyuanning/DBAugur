@@ -1,0 +1,5 @@
+4,"SELECT specObjId, ra, dec, z, zConf, fiberMag_u, fiberMag_g, fiberMag_r, fiberMag_i, fiberMag_z into mydb.MyTable from SpecObj as Q WHERE specObjID = #+#"
+2019-11-21 15:48:00,1
+2019-11-21 15:49:00,1
+2019-11-21 15:50:00,1
+2019-11-21 15:51:00,1

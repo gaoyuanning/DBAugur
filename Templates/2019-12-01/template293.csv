@@ -1,0 +1,3 @@
+2,"SELECT     o.SdssNum, s.specObjID, s.bestObjID   into  mydb.emplib1 from dbo.SpecObj as s, mydb.MyTable as o   WHERE s.plate = o.plate and s.mjd = o.mjd and s.fiberID = o.fiberID"
+2019-12-01 06:52:00,1
+2019-12-01 06:53:00,1

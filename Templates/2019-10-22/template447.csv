@@ -1,0 +1,2 @@
+1,"select bottom # objID, ra, dec, cModelMag_u, cModelMag_g, cModelMag_r, cModelMag_i, cModelMag_z from  SpecObj"
+2019-10-22 10:21:00,1

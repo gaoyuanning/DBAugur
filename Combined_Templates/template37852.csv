@@ -1,0 +1,2 @@
+1,"SELECT a.specobjID, a.ra, a.dec, a.cModelAbsMag_u, a.cModelAbsMag_g, a.cModelAbsMag_r, a.cModelAbsMag_i, a.cModelAbsMag_z, a.ke_u, a.ke_g, a.ke_r, a.ke_i, a.ke_z INTO mydb.UGRIZ_WISE FROM stellarMassFSPSGranWideDust as a LEFT JOIN SpecObjAll as b on a.specObjID = b.specObjID LEFT JOIN WISE_xmatch as c on b.fluxObjID = c.sdss_objid LEFT JOIN WISE_allsky as d on c.wise_cntr = cntr ORDER BY a.specobjid"
+2019-05-08 18:06:00,1

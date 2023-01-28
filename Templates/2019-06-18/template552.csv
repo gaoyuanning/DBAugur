@@ -1,0 +1,5 @@
+24,"select p.objid,p.ra,p.dec,p.psfmag_i,n.distance from photoobjall as p, dbo.fGetNearbyObjEq(#,#,#) as n where p.objID = N.objID and p.type=# and p.psfmag_i<#"
+2019-06-18 00:00:00,2
+2019-06-18 00:04:00,8
+2019-06-18 00:05:00,8
+2019-06-18 00:06:00,6

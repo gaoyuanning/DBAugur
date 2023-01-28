@@ -1,0 +1,3 @@
+3,select * from Portfolio.budavari.Parameters where day = # and algo IN () and progress = # order by day
+2019-02-18 10:32:00,2
+2019-02-18 10:36:00,1

@@ -1,0 +1,3 @@
+2,"SELECT P.objID, P.ra, P.dec, P.b, P.l, S.z, S.zErr, P.cModelMag_g, P.cModelMag_r, P.cModelMag_i, P.cModelMag_z, P.extinction_g, P.extinction_r, P.extinction_i, P.extinction_z FROM PhotoObj as P INNER JOIN SpecObj as S ON P.objID = S.bestobjID WHERE S.bestobjID< ># and P.type = # and (S.class = # OR S.class = #) and S.z< # and S.z> # and S.zWarning = # and ( ((S.tile> =#) AND (S.instrument = #) ) OR (S.instrument = #) )"
+2019-07-16 04:36:00,1
+2019-07-16 05:45:00,1

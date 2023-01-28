@@ -1,0 +1,2 @@
+1,"select * from variables where id = # select vr.* from VALS as v, variables as vr where v.varid = vr.id and tractid = # and VARID> # and val is not #"
+2019-12-01 13:34:00,1

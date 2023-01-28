@@ -1,0 +1,2 @@
+1,"SELECT TOP # gi.specobjid, gi.ra, gi.dec, gl.oiii_#_eqw, gl.nii_#_eqw, gl.sii_#_eqw FROM galSpecInfo as gi JOIN galSpecLine AS gl ON gi.specobjid = gl.specobjid"
+2019-03-07 08:39:00,1

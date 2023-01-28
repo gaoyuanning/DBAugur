@@ -1,0 +1,2 @@
+1,"select top # id as objId,coord_ra as ra,coord_decl as dec,coord_htmid2# as htmid from sourcedp"
+2019-09-11 15:59:00,1

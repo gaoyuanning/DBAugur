@@ -1,0 +1,2 @@
+1,"select top # a.Plate, a.ra, a.dec, m.catalog_ra, m.catalog_dec into mydb.MyTable from mydb.bhagn as a, dbo.mangatarget as m where abs (a.ra-m.catalog_ra) < #/# and abs (a.dec-m.catalog_dec) < #/#"
+2019-04-03 08:53:00,1

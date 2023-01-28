@@ -1,0 +1,2 @@
+2,select count(*) from sspParams where  TEFFADOP >#. and LOGGADOP<# and FEH>#
+2019-05-07 00:27:00,2

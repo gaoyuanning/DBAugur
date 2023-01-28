@@ -1,0 +1,13 @@
+22,"SELECT  p.apstar_id,     p.apogee_id,p.ra, p.dec, p.glon, p.glat,    p.vhelio_avg,p.vscatter,    a.teff,a.logg,a.metals    FROM apogeeStar p    JOIN fGetNearbyApogeeStarEq(#,#,#) n on p.apstar_id=n.apstar_id    JOIN aspcapStar a on a.apstar_id = p.apstar_id"
+2019-05-08 12:35:00,1
+2019-05-08 12:40:00,1
+2019-05-08 12:43:00,9
+2019-05-08 13:58:00,1
+2019-05-08 15:27:00,1
+2019-05-08 15:41:00,1
+2019-05-08 15:51:00,1
+2019-05-08 16:16:00,1
+2019-05-08 16:20:00,2
+2019-05-08 16:21:00,1
+2019-05-08 16:22:00,1
+2019-05-08 21:58:00,2

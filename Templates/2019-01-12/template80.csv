@@ -1,0 +1,4 @@
+3,"SELECT   sp.plate, sp.mjd, sp.fiberid, p.obj, s.elodiervfinal, s.elodiervfinalerr, s.teffadop, s.fehadop, s.fehadopunc, s.loggadop, sp.ra, sp.dec, p.dered_u, p.dered_g, p.dered_r, p.dered_i, p.dered_z   into mydb.MyTable_# from sppParams as s JOIN SpecObjAll as sp ON s.specobjid = sp.specobjid   JOIN PhotoObjAll as p ON sp.bestobjid = p.objid  WHERE sp.seguePrimary = #   AND p.dered_r between # and #   AND s.fehadop < #   AND s.teffadop < #   AND s.loggadop < # AND sp.snMedian_r > #"
+2019-01-12 18:25:00,1
+2019-01-12 18:26:00,1
+2019-01-12 18:34:00,1

@@ -1,0 +1,2 @@
+1,"SELECT    L.objID, L.ra, L.dec, L.u, L.g, L.r, L.i, L.z,    L.fracDev_g, L.PRadius, L.PRadius9#, L.ratioba, L.efscale, L.vfscale, L.redshift,    L.moB into mydb.MyTable from LSBGs L WHERE     L.moB = #"
+2019-08-07 15:40:00,1

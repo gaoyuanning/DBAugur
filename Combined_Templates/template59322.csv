@@ -1,0 +1,2 @@
+2,"select ra, dec, p_cs from zoovotes where p_cs> #"
+2019-08-26 03:41:00,2

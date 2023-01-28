@@ -1,0 +1,4 @@
+5,"SELECT ph.ra, ph.dec dbo.fGetNearbyObjEq (p.ra, p.#dec, p.#SearchRadius) as match1 into MyDB.redmapper1match From MyDB.redmapper1 as p JOIN PhotoObj ph ON ph.objID = redmapper1match.objID WHERE ph.petroMag_i < p.#i"
+2019-05-28 16:22:00,3
+2019-05-28 16:34:00,1
+2019-05-28 17:03:00,1

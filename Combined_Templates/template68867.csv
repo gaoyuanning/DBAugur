@@ -1,0 +1,2 @@
+1,"select FRI.*, zoo.* from dr1#.zooSpec as zoo, MyDB.StageOneFR1 as FRI where FRI.SDSS_ID = zoo.objID into MYDB.StageTwoFRI"
+2019-10-09 10:46:00,1

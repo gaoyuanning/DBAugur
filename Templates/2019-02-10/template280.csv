@@ -1,0 +1,5 @@
+4,"SELECT ra,dec,z,modelMag_u,modelMag_r,modelMag_z,class FROM SpecPhoto WHERE z-#*zErr >#  AND zErr ># AND zWarning = #    AND type= # AND class = &&&   ORDER BY z DESC"
+2019-02-10 13:54:00,1
+2019-02-10 13:59:00,1
+2019-02-10 14:27:00,1
+2019-02-10 14:44:00,1

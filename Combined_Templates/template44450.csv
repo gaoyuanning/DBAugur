@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, p.field FROM Galaxy AS p WHERE ra BETWEEN # AND # dec BETWEEN # AND # p.modelMag_r < #"
+2019-06-06 03:25:00,1

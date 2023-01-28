@@ -1,0 +1,2 @@
+1,"select objID,skyVersion,run,camcol,field,obj,type,clean,probPSF,flags, ra,decl,raErr,declErr,b,l,   mjd,htmID,fieldID,specObjID,thingId,nObserve,nDetect,score into mydb.MyTable5 from photoprimary    where objID=#"
+2019-01-08 16:03:00,1

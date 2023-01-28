@@ -1,0 +1,4 @@
+7,"SELECT str (s.ra, #, #) as ra, str (s.[dec], #, #) as dec, s.z, p.objID FROM BESTDR7..SpecObj as s JOIN BESTDR7..PhotoObj AS p ON s.bestObjID = p.objID WHERE s.z > # AND (s.specClass = dbo.fSpecClass (#) ) AND s.z < # AND (p.type = # OR p.type = #) AND (p.primTarget & (dbo.fPrimTarget (#) ) > #)"
+2019-08-21 09:20:00,2
+2019-08-21 09:21:00,3
+2019-08-21 09:22:00,2

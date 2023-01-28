@@ -1,0 +1,2 @@
+1,"SELECT top # sp.*, p.* FROM sppParams as sp JOIN stars as p ON sp.bestobjid = p.objid WHERE sp.teffadop between # and # AND sp.fehadop < # AND sp.fehadop > # AND sp.loggadop < # AND sp.loggadop > # AND sp.seguePrimary = # AND sp.survey LIKE # AND sp.programname LIKE # AND (sp.zwarning = # OR sp.zwarning = #) AND sp.elodiervfinalerr ! = # and sp.snr > #"
+2019-09-21 06:08:00,1

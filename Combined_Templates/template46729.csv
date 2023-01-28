@@ -1,0 +1,2 @@
+1,"select ra, dec, PhotoPrimary from PhotoObj where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-06-19 15:34:00,1

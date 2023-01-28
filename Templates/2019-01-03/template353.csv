@@ -1,0 +1,6 @@
+5,"select avg(u-g),stdev(u-g) from MyDB.ring_galaxies_z,PhotoObjAll where ObjID=ID and   ring_galaxies_z.z>=# and ring_galaxies_z.z<# and u># and u<# and g># and g<#  select avg(g-r),stdev(g-r) from MyDB.ring_galaxies_z,PhotoObjAll where ObjID=ID and   ring_galaxies_z.z>=# and ring_galaxies_z.z<# and g># and g<# and r># and r<#  select avg(r-i),stdev(r-i) from MyDB.ring_galaxies_z,PhotoObjAll where ObjID=ID and   ring_galaxies_z.z>=# and ring_galaxies_z.z<# and i># and i<# and r># and r<#  select avg(i-PhotoObjAll.z),stdev(i-PhotoObjAll.z) from MyDB.ring_galaxies_z,PhotoObjAll where   ObjID=ID and ring_galaxies_z.z>=# and ring_galaxies_z.z<# and i># and i<# and   PhotoObjAll.z># and PhotoObjAll.z<#"
+2019-01-03 13:17:00,1
+2019-01-03 13:20:00,1
+2019-01-03 13:23:00,1
+2019-01-03 13:27:00,1
+2019-01-03 13:29:00,1

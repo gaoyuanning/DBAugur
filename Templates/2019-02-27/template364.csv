@@ -1,0 +1,2 @@
+1,"SELECT # s.z as z_spec, p.objid, p.dered_g, p.dered_r   FROM Galaxy as p    JOIN SpecObj AS s ON s.bestobjid = p.objid  WHERE s.z between # and #"
+2019-02-27 17:46:00,1

@@ -1,0 +1,2 @@
+2,"SELECT (.#* (p.g - p.r) +.#) as Color, (p.g+.#* (p.g-p.r) +.#) + #*LOG1# (#*PI () *POWER ((#*p.deVRad_g-.#*p.deVRad_r) , #) ) as SBe FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE s.class = # AND (# * (s.z/#) )< # AND (# * (s.z/#) )> # AND POWER ((#*p.deVRad_g-.#*p.deVRad_r) , #) > #"
+2019-01-31 22:10:00,2

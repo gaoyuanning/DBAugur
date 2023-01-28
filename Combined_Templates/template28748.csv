@@ -1,0 +1,3 @@
+2,"select ra, dec, cmodelmag_u into mydb.A2#cmodel_U from photoprimary where err_r > # and err_z > # and ra > = # and ra< # and dec > =# and dec< =# and ( (flags_u & #) ! = #) and ( (flags_u & #) = #) and ( (flags_u & #) = #) AND ( ((flags_u & #) = #) or (flags_u & #) = #)"
+2019-04-09 15:59:00,1
+2019-04-09 16:00:00,1

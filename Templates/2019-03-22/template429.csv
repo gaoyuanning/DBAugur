@@ -1,0 +1,2 @@
+2,"SELECT round(dered_r,#) as magR, COUNT(*) as cnt  from SpecPhoto WHERE   z BETWEEN # and #   and zwarning = # group by round(dered_r,#) order by round(dered_r,#)"
+2019-03-22 14:16:00,2

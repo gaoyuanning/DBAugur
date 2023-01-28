@@ -1,0 +1,2 @@
+1,"select a.specobjid,fluxObjID,psfMag_u,psfMag_g,psfMag_r,psfMag_i,psfMag_z,psfMagErr_u,psfMagErr_g,psfMagErr_r,psfMagErr_i,psfMagErr_z into mydb.DR1#_psfmag from specobjall as a,specphotoall as b where a.specobjid = b.specobjid order by a.specobjid"
+2019-02-14 04:10:00,1

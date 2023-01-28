@@ -1,0 +1,5 @@
+4,"SELECT u.up_col0 as [col0], x.objID, p.ra, p.dec, str (p.ra, #, #) as ra, str (p.[dec], #, #) as dec, p.petroMag_u, p.petroMag_g, p.petroMag_r, p.petroMag_i, p.petroMag_z, p.petroMagErr_u, p.petroMagErr_g, p.petroMagErr_r, p.petroMagErr_i, p.petroMagErr_z, p.extinction_g, p.extinction_i, p.extinction_r, p.extinction_u, p.extinction_z FROM BESTDR7..Galaxy AS p JOIN #x AS x ON x.objID = p.objID JOIN #upload AS u ON u.up_id = x.up_id ORDER BY x.up_id"
+2019-04-26 07:17:00,1
+2019-04-26 07:23:00,1
+2019-04-26 07:29:00,1
+2019-04-26 07:30:00,1

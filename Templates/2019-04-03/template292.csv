@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec, petroMag_u, petroMag_g, petroMag_r, petroMag_i, petroMag_z, petroMagErr_u, petroMagErr_g, petroMagErr_r, petroMagErr_i, petroMagErr_z, extinction_r,clean,type,mode  FROM PhotoObj where (ra between # and #) AND (dec between # and #) AND petroMag_r <= #."
+2019-04-03 16:08:00,1

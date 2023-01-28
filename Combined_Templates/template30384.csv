@@ -1,0 +1,5 @@
+4,"SELECT EID, [Reason_for_skipping_arterial_stiffness_#], [Pulse_rate_#], [Pulse_wave_Arterial_Stiffness_index_#], [Pulse_wave_peak_to_peak_time_#], [Pulse_wave_pressure_versus_time_response_curve_#], [Pulse_wave_reflection_index_#], [Pulse_wave_velocity_manual_entry__#], [Stiffness_method_#] FROM [r2#]Arterial_stiffness GO"
+2019-04-15 14:28:00,1
+2019-04-15 14:31:00,1
+2019-04-15 14:33:00,1
+2019-04-15 14:34:00,1

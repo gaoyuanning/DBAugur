@@ -1,0 +1,2 @@
+1,"SELECT s.specObjID, p.objID, p.ra, p.dec     FROM dbo.SpecObjAll AS s     INNER JOIN dbo.PhotoObjAll AS p ON s.specObjID = p.specObjID     WHERE p.objID = #"
+2019-09-12 14:19:00,1

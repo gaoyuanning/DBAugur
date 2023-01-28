@@ -1,0 +1,2 @@
+1,"select Title, AlbumId from chinook.Album group by Title"
+2019-04-21 12:32:00,1

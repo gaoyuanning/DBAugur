@@ -1,0 +1,4 @@
+3,"select top # g.objid, g.flags, p.fracdev_r from galaxy g join photoobjall p on p.objid = g.objid where p.fracdev_r < # and g.flags > # order by g.flags"
+2019-09-10 14:05:00,1
+2019-09-10 14:09:00,1
+2019-09-10 14:15:00,1

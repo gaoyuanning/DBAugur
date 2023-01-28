@@ -1,0 +1,2 @@
+1,"select objID, dered_u, dered_g, dered_r, dered_i, dered_z, modelMagErr_u, modelMagErr_g, modelMagErr_r, modelMagErr_i, modelMagErr_z, z, zErr, class, subclass from specphoto where z># and z<#"
+2019-03-24 15:31:00,1

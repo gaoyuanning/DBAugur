@@ -1,0 +1,2 @@
+1,"SELECT TOP #  ra,  dec,  z as Redshift FROM SpecPhotoAll WHERE   type = # AND  ra BETWEEN # AND # AND   dec BETWEEN # AND # AND   z BETWEEN # AND # AND"
+2019-02-08 19:09:00,1

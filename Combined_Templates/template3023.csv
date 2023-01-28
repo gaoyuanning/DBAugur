@@ -1,0 +1,2 @@
+1,"select top # p.objid, p.ra, p.dec, petroMagU, petroMag_g, petroMag_r, petroMag_i, petroMag_z, po.petro_Rad_u, rc3.v_opt from galaxy p, photoz pz, photoObj po, rc3, dbo.fgetNearByObjEq (#, #, #) n where p.objid = n.objid and rc3.v_opt between # and #"
+2019-01-14 21:12:00,1

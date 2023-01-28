@@ -1,0 +1,3 @@
+3,"SELECT s.specObjID, s.ra, s.dec into MyDB.hst_qsos from MyDB.hst_gz AS m OUTER APPLY dbo.fGetNearestSpecObjAllEq (m.RA, m.DEC, #) AS n LEFT JOIN SpecObjAll AS s ON n.specObjID = s.specObjID LEFT JOIN PhotoObjAll AS p ON n.specObjID = p.specObjID LEFT JOIN galSpecExtra e ON n.specObjID = e.specObjID LEFT JOIN galSpecInfo i ON n.specObjID = i.specObjID WHERE e.bptclass = # AND s.z < = # AND (s.class = # AND i.subclass = # OR s.class = # AND i.subclass = #)"
+2019-07-24 19:37:00,2
+2019-07-24 19:38:00,1

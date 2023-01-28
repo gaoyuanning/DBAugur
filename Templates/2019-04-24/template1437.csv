@@ -1,0 +1,3 @@
+2,"SELECT Composer, Count(Composer) FROM chinook.Track Group By Composer;"
+2019-04-24 04:52:00,1
+2019-04-24 04:53:00,1

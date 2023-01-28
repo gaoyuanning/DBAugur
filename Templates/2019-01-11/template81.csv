@@ -1,0 +1,2 @@
+1,"SELECT str(s.ra,#,#) as ra,str(s.[dec],#,#) as dec, s.objType,s.specClass,s.specObjID,s.targetID,s.targetObjID, s.velDisp,s.velDispErr,s.z,s.zConf,s.zErr,p.g,p.i,p.r,p.u,p.z  FROM SpecObj as s, TARGDR5..PhotoObj as p  WHERE s.z > # AND (s.specClass = dbo.fSpecClass(&&&) OR  s.specClass = dbo.fSpecClass(&&&)  OR s.specClass = dbo.fSpecClass(&&&))  AND s.z < # AND ( p.type = # OR p.type = #) AND s.targetObjID = p.objID"
+2019-01-11 18:06:00,1

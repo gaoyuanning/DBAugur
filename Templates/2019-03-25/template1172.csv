@@ -1,0 +1,5 @@
+4,"select ra, dec, z as redshift from SpecPhoto where class = galaxy"
+2019-03-25 00:07:00,1
+2019-03-25 00:08:00,1
+2019-03-25 00:09:00,1
+2019-03-25 00:14:00,1

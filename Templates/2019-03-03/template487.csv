@@ -1,0 +1,6 @@
+5,"SELECT TOP # s.plate,s.mjd,s.fiberid FROM BESTDR7..SpecObj as s JOIN BESTDR7..PhotoObj AS p ON s.bestObjID = p.objID JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = p.objID WHERE s.z > # AND (s.specClass = dbo.fSpecClass(&&&)) AND s.z < # AND ( p.type = # OR p.type = #) AND (p.primTarget & (dbo.fPrimTarget(&&&)) > #) AND (p.secTarget & (dbo.fSecTarget(&&&)) > #)"
+2019-03-03 09:36:00,1
+2019-03-03 10:58:00,1
+2019-03-03 11:21:00,1
+2019-03-03 12:02:00,1
+2019-03-03 12:30:00,1

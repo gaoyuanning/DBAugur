@@ -1,0 +1,2 @@
+1,select count (*) from specphotoall where survey like #
+2019-09-24 14:26:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP #   specObjID, bptclass, oh_p2p5, oh_p1#, oh_p5#, oh_p8#, oh_p9#p5, lgm_tot_p5#, lgm_fib_p5# into mydb.MyTable from galSpecExtra WHERE bptclass=# and oh_p2p5!=# and oh_p1#!=# and oh_p5#!=# and oh_p8#!=# and oh_p9#p5!=# and lgm_fib_p5#!=# and lgm_tot_p5#!=#"
+2019-10-21 07:29:00,1

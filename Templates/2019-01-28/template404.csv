@@ -1,0 +1,17 @@
+74,"SELECT g.ra, g.dec, g.petroMag_u as mag_u, g.petroMag_g as mag_g, g.petroMag_r as mag_r, g.petroMag_i as mag_i, g.petroMag_z as mag_z, p.z, p.zErr from GalaxyTag as g JOIN Photoz as p ON p.objID = g.objID WHERE g.ra BETWEEN # AND # AND g.type=#"
+2019-01-28 11:15:00,2
+2019-01-28 11:16:00,5
+2019-01-28 11:17:00,6
+2019-01-28 11:18:00,3
+2019-01-28 11:19:00,4
+2019-01-28 11:20:00,6
+2019-01-28 11:21:00,6
+2019-01-28 11:22:00,3
+2019-01-28 11:23:00,5
+2019-01-28 11:24:00,7
+2019-01-28 11:25:00,4
+2019-01-28 11:26:00,4
+2019-01-28 11:27:00,6
+2019-01-28 11:28:00,5
+2019-01-28 11:29:00,2
+2019-01-28 11:30:00,6

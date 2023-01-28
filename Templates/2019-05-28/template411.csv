@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.ra, s.dec, s.z, p.u, p.g, p.r, p.i, p.z, p.err_u, p.err_g, p.err_r, p.err_i, p.err_z, p.petroR5#_u, p.petroR5#_g, p.petroR5#_r, p.petroR5#_i, p.petroR5#_z, p.petroR5#Err_u,p.petroR5#Err_g, p.petroR5#Err_r, p.petroR5#Err_i, p.petroR5#Err_z, p.petroR9#_u, p.petroR9#_g, p.petroR9#_r, p.petroR9#_i, p.petroR9#_z, p.petroR9#Err_u,p.petroR9#Err_g,p.petroR9#Err_r,p.petroR9#Err_i,p.petroR9#Err_z, g.* FROM zoo2MainSpecz AS g  JOIN SpecObj AS s ON s.bestobjid = g.specobjid  JOIN PhotoObjAll AS p ON p.objID = g.dr8objid"
+2019-05-28 12:49:00,1

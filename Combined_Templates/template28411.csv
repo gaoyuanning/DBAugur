@@ -1,0 +1,2 @@
+1,"SELECT s.specobjid, s.class, s.z as redshift, s.plate, s.mjd, s.fiberid FROM SpecObj AS s WHERE s.plate = #"
+2019-04-08 18:33:00,1

@@ -1,0 +1,2 @@
+2,"select s.specobjid from dbo.galSpecExtra as s, specphoto as p where s.specobjid = p.specobjid"
+2019-05-28 12:16:00,2

@@ -1,0 +1,2 @@
+1,select distinct(status) from clinical_event_data
+2019-04-20 14:49:00,1

@@ -1,0 +1,2 @@
+1,"select tilenum, count (*) from photoobjall where ra > # and ra < # and dec > # and dec < # group by tilenum"
+2019-11-15 03:50:00,1

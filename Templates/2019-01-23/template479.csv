@@ -1,0 +1,2 @@
+1,"SELECT  s.bestObjiD, s.ra, s.dec,   ISNULL(s.z,#) AS z,  ISNULL(s.zerr,#) AS zerr,     p.petroMag_r AS rmag,  P.petroMagErr_r AS rmagErr    -- INTO mydb.test3#_dr1#_new   FROM  SpecObjAll AS s, PhotoObjAll AS p    WHERE  s.bestObjID=p.objID    AND s.sciencePrimary = # AND p.mode = # AND p.type=# AND s.z BETWEEN # AND # AND s.zerr BETWEEN # AND # AND p.petroMag_r BETWEEN # AND #   AND P.petroMagErr_r BETWEEN # AND #   AND s.ra BETWEEN # AND #   AND s.dec BETWEEN # AND #"
+2019-01-23 05:37:00,1

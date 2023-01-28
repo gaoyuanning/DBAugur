@@ -1,0 +1,2 @@
+1,select top # z from SpecPhoto where ObjID IN (obj_#)
+2019-07-18 02:11:00,1

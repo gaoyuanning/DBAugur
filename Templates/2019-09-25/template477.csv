@@ -1,0 +1,2 @@
+1,SELECT COUNT(objID) into mydb.MyTable_# from Galaxy
+2019-09-25 09:55:00,1

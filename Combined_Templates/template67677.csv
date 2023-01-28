@@ -1,0 +1,2 @@
+1,"SELECT s.plate, s.mjd, s.ra, s.dec, s.fiberid into mydb.MyTable FROM galaxy AS p JOIN SpecObj AS s ON s.bestobjid = p.objid INNER JOIN (SELECT objID FROM dbo.fGetObjFromRect (#, #, #, #) UNION ALL SELECT objID FROM dbo.fGetObjFromRect (#, #, #, #) ) SR ON E.StatusCode = SR.StatusCode AND E.ReasonCode = SR.ReasonCode"
+2019-10-04 12:49:00,1

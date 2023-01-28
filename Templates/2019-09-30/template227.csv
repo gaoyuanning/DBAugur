@@ -1,0 +1,9 @@
+8,"SELECT TOP # p.ra,p.dec,p.g,p.i,p.petroR5#_r,p.petroR9#_r,p.r,p.u,p.z,ISNULL(s.plate,#) as plate,ISNULL(s.mjd,#) as mjd,ISNULL(s.fiberid,#) as fiberid FROM BESTDR7..PhotoObj AS p LEFT OUTER JOIN BESTDR7..SpecObj s ON p.objID = s.bestObjID 	JOIN #x AS x ON x.objID=p.objID JOIN #upload AS u ON u.up_id = x.up_id  WHERE  ( p.type = # OR p.type = #) ORDER BY x.up_id"
+2019-09-30 14:49:00,1
+2019-09-30 15:01:00,1
+2019-09-30 15:09:00,1
+2019-09-30 15:35:00,1
+2019-09-30 15:54:00,1
+2019-09-30 16:00:00,1
+2019-09-30 16:07:00,1
+2019-09-30 16:26:00,1

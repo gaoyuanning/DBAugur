@@ -1,0 +1,4 @@
+3,"SELECT G.objID, G.ra, G.dec, s.specObjID, s.h_alpha_flux, s.h_alpha_flux_err, s.h_beta_flux, s.h_beta_flux_err, s.oiii_#_flux, s.oiii_#_flux_err, s.oiii_#_flux, s.oiii_#_flux_err, s.nii_#_flux, s.nii_#_flux_err, s.nii_#_flux, s.nii_#_flux_err, p.z, p.zErr, G.u, G.err_u, G.g, G.err_g, G.r, G.err_r, G.i, G.err_i, G.z, G.err_z FROM Galaxy as G JOIN GalSpecLine AS s ON G.specObjID = s.specObjID JOIN PhotoZ AS p ON p.objID = G.objID WHERE p.z BETWEEN # AND # AND g.u-g.r < = # AND g.r-g.i < = # AND g.r-g.z< =# AND g.g-g.r > = g.r-g.i+# AND g.u-g.r > = #* (g.r-g.z)"
+2019-11-18 20:54:00,1
+2019-11-18 20:55:00,1
+2019-11-18 20:57:00,1

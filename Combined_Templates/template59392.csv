@@ -1,0 +1,2 @@
+2,"SELECT A.ra, A.dec, A.objID, A.specobjID FROM SpecPhotoAll AS A INTO MyDB.MySpecPhotoAll"
+2019-08-27 17:37:00,2

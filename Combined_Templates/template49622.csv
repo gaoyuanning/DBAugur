@@ -1,0 +1,2 @@
+1,"SELECT g.objid as objid, g.ra, g.dec, g.petror9#_r as petror9#_r, g.fiberMag_g as fiberMag_g, S.velDisp as velDisp, g.g FROM dr1#..Galaxy as G JOIN dr1#..SpecObj as S on G.objid = S. bestObjID WHERE s.z < # AND velDisp > #. INTO micado_galaxies"
+2019-07-03 14:12:00,1

@@ -1,0 +1,2 @@
+1,"select ObjID, g,r,i,g-r as gMinusR,r-i as rMinusI from photoObj where ObjID in (#)"
+2019-06-27 02:52:00,1

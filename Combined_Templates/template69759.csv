@@ -1,0 +1,3 @@
+2,"SELECT TOP # max (objid) , min (objid) FROM PhotoObj"
+2019-10-15 09:21:00,1
+2019-10-15 09:22:00,1

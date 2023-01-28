@@ -1,0 +1,5 @@
+5,"select z,zerr,ra,dec,bestObjID,class,subclass from specObj where z BETWEEN # and #"
+2019-09-10 16:56:00,2
+2019-09-10 17:05:00,1
+2019-09-10 17:07:00,1
+2019-09-10 17:08:00,1

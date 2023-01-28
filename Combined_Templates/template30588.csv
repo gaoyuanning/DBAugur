@@ -1,0 +1,22 @@
+21,"CREATE TABLE [Female_specific_factors] (eid BIGINT NOT # , [Ever_had_breast_cancer_screening_mammogram_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Years_since_last_breast_cancer_screening_mammogram_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Ever_had_cervical_smear_test_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Years_since_last_cervical_smear_test_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Age_when_periods_started_menarche__#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Had_menopause_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Age_at_menopause_last_menstrual_period__#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Time_since_last_menstrual_period_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Length_of_menstrual_cycle_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Menstruating_today_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Number_of_live_births_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Birth_weight_of_first_child_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Age_of_primiparous_women_at_birth_of_child_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Age_at_first_live_birth_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Age_at_last_live_birth_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Ever_had_stillbirth_spontaneous_miscarriage_or_termination_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Number_of_stillbirths_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Number_of_spontaneous_miscarriages_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Number_of_pregnancy_terminations_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Ever_taken_oral_contraceptive_pill_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Type_of_progestan_only_oral_contraceptive_used_pilot__#] INTEGER -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Age_started_oral_contraceptive_pill_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Age_when_last_used_oral_contraceptive_pill_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Ever_used_hormone_replacement_therapy_HRT__#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Age_started_hormone_replacement_therapy_HRT__#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Age_last_used_hormone_replacement_therapy_HRT__#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Ever_had_hysterectomy_womb_removed__#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Age_at_hysterectomy_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Bilateral_oophorectomy_both_ovaries_removed__#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Age_at_bilateral_oophorectomy_both_ovaries_removed__#] VARCHAR (MAX) -- f_# - http://biobank."
+2019-04-15 13:25:00,1
+2019-04-15 13:35:00,1
+2019-04-16 08:56:00,1
+2019-04-16 08:58:00,1
+2019-04-16 10:12:00,1
+2019-04-16 10:14:00,1
+2019-04-16 10:17:00,1
+2019-04-16 10:35:00,1
+2019-04-17 11:27:00,1
+2019-04-23 09:44:00,1
+2019-04-23 10:47:00,1
+2019-04-23 10:51:00,1
+2019-04-24 09:48:00,1
+2019-04-24 09:54:00,1
+2019-04-24 13:19:00,1
+2019-04-29 11:38:00,1
+2019-04-30 11:43:00,1
+2019-04-30 15:37:00,1
+2019-05-01 09:26:00,1
+2019-05-02 09:32:00,1
+2019-05-02 10:34:00,1

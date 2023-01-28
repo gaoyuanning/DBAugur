@@ -1,0 +1,5 @@
+4,"SELECT    sp.ra, sp.dec, st.l, st.b, sp.elodieLogG, sp.elodieFeH, sp.elodieSpType, sp.snMedian,    sp.subClass, sp.zWarning, st.psfmag_g-st.extinction_g g0, st.psfmag_r-st.extinction_r r0, st.psfmag_u-st.extinction_u u0, st.psfmag_i-st.extinction_i i0, st.psfmag_z-st.extinction_z z0,    st.psfmag_u-st.psfmag_g-st.extinction_u+st.extinction_g umg0,    st.psfmag_r-st.psfmag_i-st.extinction_r+st.extinction_i rmi0,      st.psfmag_g-st.psfmag_r-st.extinction_g+st.extinction_r gmr0, pa.elodiervfinal, pa.elodiervfinalerr, pa.fehwbg, pa.loggwbg, pa.LOGGADOP into mydb.bel_data_#_# from star st, specobj sp, plateX pl, sppParams pa  WHERE    st.objID=sp.bestObjID    AND st.ObjID = pa.BESTOBJID    AND sp.plateID=pl.plateID    AND st.psfmag_g-st.psfmag_r -st.extinction_g+st.extinction_r > #      AND st.psfmag_g-st.psfmag_r -st.extinction_g+st.extinction_r < #    AND st.psfmag_r < #    AND st.l < #    AND st.l > #    AND st.b < #    AND st.b > #"
+2019-06-13 10:37:00,1
+2019-06-13 11:03:00,1
+2019-06-13 11:50:00,1
+2019-06-13 11:56:00,1

@@ -1,0 +1,2 @@
+1,"select bucket_floor as date, CONCAT (bucket_floor, #, bucket_ceiling) as bucket_name, count (*) as count from (select floor (revenue/#) *# as bucket_floor, floor (revenue/#) *# + # as bucket_ceiling from web_sessions_table) a group by #, # order by #;"
+2019-11-26 11:20:00,1

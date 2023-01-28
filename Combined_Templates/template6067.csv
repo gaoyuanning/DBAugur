@@ -1,0 +1,2 @@
+1,SELECT TOP # s.objID FROM SpecObj as s WHERE s.z between # and # JOIN Galaxy AS g ON s.objID = g.specObjID
+2019-01-25 15:25:00,1

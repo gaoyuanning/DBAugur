@@ -1,0 +1,2 @@
+2,"SELECT ALL ROW_NUMBER() OVER (ORDER BY s.z ASC) as RowNumber, s.plate, s.fiberid, s.mjd, s.ra, s.dec, s.z, s.zwarning, s.subclass, g.HUBBLE, g.hubble_src, r.type FROM RC3 AS g JOIN SpecObj AS s ON s.specobjid = g.specobjid WHERE s.class = &&& AND s.zwarning = # AND s.ra between # and #"
+2019-03-13 07:24:00,2

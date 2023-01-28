@@ -1,0 +1,2 @@
+1,"select top #  p.objid s.specobjid, s.ra, s.dec, s.z as zspec from  SpecObj as s, PhotoObjAll as p where s.class = &&&"
+2019-05-10 15:06:00,1

@@ -1,0 +1,2 @@
+1,"SELECT v*, s* from MyDB.Vela_ND as v OUTER APPLY dbo.fGetNearbySpecObjEq (v.RA_deg, v.DEC_deg, #) as n LEFT JOIN PhotoObjAll as s on s.objID = n.objID"
+2019-01-23 10:46:00,1

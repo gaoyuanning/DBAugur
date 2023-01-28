@@ -1,0 +1,2 @@
+2,"select distinct eid, Spherical_power_left_# from dbo.Autorefraction a cross apply openjson (Spherical_power_left_#) j where j.value IN ()"
+2019-08-30 15:11:00,2

@@ -1,0 +1,2 @@
+1,"select mangaid, z, ldist_z, adist_z, nsa_z, nsa_zdist, ldist_nsa_z, adist_nsa_z into mydb.MyTable_# from mangaDAPall"
+2019-10-17 09:50:00,1

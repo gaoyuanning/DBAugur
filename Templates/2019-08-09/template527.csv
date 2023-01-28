@@ -1,0 +1,2 @@
+2,"select source_id, ra, dec, parallax,parallax_error,pmra,pmra_error,pmdec,pmdec_error, parallax_pmra_corr,parallax_pmdec_corr, pmra_pmdec_corr,phot_g_mean_mag,bp_rp from  gaiadr2.gaia_source  where sqrt((pmra-#)*(pmra-#)+(pmdec+#)*(pmdec+#))<# and abs(b) >#  and abs(parallax)<# into mydb.cps_gaia2_all"
+2019-08-09 02:09:00,2

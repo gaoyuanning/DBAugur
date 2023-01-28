@@ -1,0 +1,2 @@
+2,"SELECT   sp.objID,   s.dr7ObjID,   sp.ra,   sp.dec,   sp.z,   r.TYPE,   r.TYPEERR  into mydb.MyTable from SpecPhotoAll AS sp     JOIN SpecDR7 AS s ON sp.specObjID  = s.specObjID     JOIN RC3 AS r ON r.objID = sp.objID         WHERE     sp.petroMagErr_r < #   AND sp.z > #   AND sp.z < #   AND sp.petroMag_r < #   ORDER BY sp.objID"
+2019-02-01 12:37:00,2

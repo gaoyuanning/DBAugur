@@ -1,0 +1,2 @@
+1,"select count(ID), count(distinct RunID), AVG(Y) as AvgY from data where X > #"
+2019-04-24 12:44:00,1

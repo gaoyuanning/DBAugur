@@ -1,0 +1,3 @@
+2,SELECT CHAR (#) +CHAR (#) +CHAR (#) +CHAR (#) +CHAR (#) + (SELECT (CASE WHEN (# = #) THEN CHAR (#) ELSE CHAR (#) END) )+CHAR (#) +CHAR (#) +CHAR (#) +CHAR (#) +CHAR (#) )
+2019-10-26 17:32:00,1
+2019-12-03 22:37:00,1

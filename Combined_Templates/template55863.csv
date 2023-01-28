@@ -1,0 +1,5 @@
+8,"SELECT s.ra, s.dec, s.z INTO myDB.cluster_#_spec FROM SpecObj as s, dbo.fGetNearbySpecObjEq (#, #, #) as n WHERE n.specObjID = p.specObjID AND s.class ! = #"
+2019-08-07 08:43:00,1
+2019-08-07 08:56:00,2
+2019-08-07 08:57:00,4
+2019-08-07 08:58:00,1

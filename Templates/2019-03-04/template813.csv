@@ -1,0 +1,2 @@
+1,"SELECT COUNT(*)  f.objID, f.ra, f.dec, f.peak, f.integr, f.rms FROM FIRST AS f"
+2019-03-04 08:46:00,1

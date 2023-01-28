@@ -1,0 +1,4 @@
+4,"SELECT Top1# p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.type, p.isoA_u, p.isoA_g, p.isoA_r, p.isoA_i, p.isoA_z, p.isoB_u, p.isoB_g, p.isoB_r, p.isoB_i, p.isoB_z, p.isoPhi_u, p.isoPhi_g, p.isoPhi_r, p.isoPhi_i, p.isoPhi_z FROM PhotoObj AS p WHERE p.ra BETWEEN # AND # AND p.dec BETWEEN # AND # AND p.type = # ORDER by p.r"
+2019-08-23 15:31:00,1
+2019-08-23 15:32:00,2
+2019-08-23 15:33:00,1

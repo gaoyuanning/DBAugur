@@ -1,0 +1,2 @@
+1,"SELECT distinct objID, modelMag_r, petroRad_r FROM specphoto WHERE (ra between # and #) and (dec between # and #) and modelMag_r < # and petroRad_r > #"
+2019-02-12 04:56:00,1

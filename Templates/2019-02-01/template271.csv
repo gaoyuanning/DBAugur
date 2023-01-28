@@ -1,0 +1,2 @@
+1,"SELECT TOP #   ra, dec z, zErr    FROM SpecPhotoAll  WHERE class = &&& and zErr <= #"
+2019-02-01 14:07:00,1

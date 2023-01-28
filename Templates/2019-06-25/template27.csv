@@ -1,0 +1,7 @@
+6,"SELECT top # so.bestobjid, so.specobjid, so.plate, so.mjd, so.fiberid,  sp.teffadop, sp.fehadop, sp.loggadop, sp.snr, sp.flag   FROM specobjall so  JOIN sppparams sp ON so.specobjid = sp.specobjid and so.sciencePrimary=#  WHERE sp.teffadop > # and sp.teffadop < #  and fehadop > # and fehadop < #  and loggadop > # and loggadop < #  and sp.flag like &&&  and sp.snr > #"
+2019-06-25 02:46:00,1
+2019-06-25 08:58:00,1
+2019-06-25 17:24:00,1
+2019-06-25 19:34:00,1
+2019-06-25 23:38:00,1
+2019-06-25 23:55:00,1

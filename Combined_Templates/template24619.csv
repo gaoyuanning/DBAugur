@@ -1,0 +1,9 @@
+11,"SELECT p.objid, p.ra, p.dec, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, p.psfmagerr_u, p.psfmagerr_g, p.psfmagerr_r, p.psfmagerr_i, p.psfmagerr_z, p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i, p.extinction_z INTO mydb.p6#_p6# FROM Galaxy as p WHERE p.mode = # AND dbo.fPhotoFlags (PEAKCENTER) ! = # AND"
+2019-03-27 12:23:00,2
+2019-03-27 12:24:00,1
+2019-03-27 12:55:00,2
+2019-03-27 12:57:00,2
+2019-03-27 13:04:00,1
+2019-03-27 13:06:00,1
+2019-09-21 14:14:00,1
+2019-09-21 14:15:00,1

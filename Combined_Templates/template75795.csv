@@ -1,0 +1,2 @@
+1,"select g.ObjID, g.ra, g.dec, g.u, g.g, g.r, g.i, g.z, s.z from galaxy g JOIN SpecObj s ON s.specObjID = g.ObjID where g.ra between # and # AND g.dec # and # AND s.z between # and #"
+2019-11-14 19:09:00,1

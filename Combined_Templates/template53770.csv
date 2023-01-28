@@ -1,0 +1,2 @@
+1,"CREATE TABLE gals_specObjIDs (lcgID smallint, specObjID numeric (#, #) , ra float, dec float, distance float) ;"
+2019-07-25 09:44:00,1

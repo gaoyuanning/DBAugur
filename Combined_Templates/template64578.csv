@@ -1,0 +1,2 @@
+1,"select top # specobjid as name, ra, dec from SpecObj, Galaxy"
+2019-09-23 18:07:00,1

@@ -1,0 +1,2 @@
+1,"select top # dbo.fCosmoDl(s.z), p.petroMag_r, p.extinction_r, s.z, p.petroMag_r - # - # * log1#(dbo.fCosmoDl(s.z)) - p.extinction_r M_r from SpecObj s inner join PhotoObj p on s.bestObjID = p.ObjID where s.z > #  and s.z < # and s.SpecClass = #"
+2019-01-31 07:00:00,1

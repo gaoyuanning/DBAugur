@@ -1,0 +1,2 @@
+1,"SELECT top # specobjID,wave,sigma, sigmaErr,ew,ewErr,height,heightErr,z   FROM SpecLineAll    Where       (z>=# and z <=#)"
+2019-02-26 13:41:00,1

@@ -1,0 +1,4 @@
+3,"SELECT TOP #  s.plate,s.mjd,s.fiberid,s.subClass,p.g,p.i,p.r,p.u,p.z  FROM ..SpecObj as s  JOIN ..PhotoObj AS p ON s.bestObjID = p.objID  WHERE s.zWarning = # AND (s.class = &&&) AND ( p.type = # OR p.type = #) AND (s.primTarget & (dbo.fPrimTarget(&&&)) > #)"
+2019-11-18 14:19:00,1
+2019-11-18 14:44:00,1
+2019-11-18 14:46:00,1

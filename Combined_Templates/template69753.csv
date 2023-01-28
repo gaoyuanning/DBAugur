@@ -1,0 +1,2 @@
+1,"SELECT p.specObjID, p.cModelMag_u, p.cModelMag_g, p.cModelMag_r, p.cModelMag_i, p.cModelMag_z, p.dered_u, p.dered_g, p.dered_r, p.dered_i, p.dered_z, g.bptclass, g.oh_p5#, g.lgm_tot_p5#, g.sfr_tot_p5#, k.cModelAbsMag_u, k.cModelAbsMag_g, k.cModelAbsMag_r, k.cModelAbsMag_i, k.cModelAbsMag_z into mydb.granada_Mabs from SpecPhotoAll as p , MyDB.MGS_subset as m , galSpecExtra as g, stellarMassFSPSGranWideDust as k WHERE p.specObjID = m.specObjID AND g.specObjID = m.specObjID AND k.specObjID = m.specObjID"
+2019-10-15 11:50:00,1

@@ -1,0 +1,2 @@
+1,"select m5.objid, m5.ra, m5.dec, m5.u, m5.g, m5.r, m5.i, m5.z from galaxy m5, dbo.fgetNearByObjEq (#, #, #) n where m5.objid = n.objid"
+2019-09-25 19:03:00,1

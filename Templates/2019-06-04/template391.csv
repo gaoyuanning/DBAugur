@@ -1,0 +1,3 @@
+2,"SELECT   specObjID, ra, dec, z, zErr, velDisp, velDispErr FROM SpecObj  WHERE   ra BETWEEN # AND #"
+2019-06-04 09:11:00,1
+2019-06-04 09:13:00,1

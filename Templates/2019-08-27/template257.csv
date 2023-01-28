@@ -1,0 +1,2 @@
+1,SELECT count(*) FROM SpecPhotoAll p WHERE p.psfmag_r - psfmag_i > # AND p.psfmag_i - psfmag_z > # AND p.class = &&&
+2019-08-27 15:50:00,1

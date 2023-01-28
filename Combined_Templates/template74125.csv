@@ -1,0 +1,4 @@
+3,"select agn.*, spec.specObjID as SDSS_specObjID, spec.z as SDSS_specz, spec.z_Err as SDSS_speczErr, spec.zWarning as SDSS_zWarning, spec.velDisp as SDSS_velDisp, spec.velDispErr as SDSS_velDispErr, spec.bestObjID as SDSS_bestObjID into mydb.StageOne from MyDB.Sabater_AGN as agn, DR7.SpecObjAll as spec where agn.ra between spec.ra-# and spec.ra+# and agn.dec between spec.dec-# and spec.dec+# and agn.mjd = spec.mjd and agn.plate = spec.plate and agn.fiberid = spec.fiberid"
+2019-11-06 09:27:00,1
+2019-11-06 09:32:00,1
+2019-11-06 10:40:00,1

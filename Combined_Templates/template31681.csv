@@ -1,0 +1,3 @@
+4,"SELECT p.ObjID, p.mjd, p.ra, p.dec, s.z, s.zErr, p.u, p.g, p.r, p.i, p.z, p.err_u, p.err_g, p.err_r, p.err_i, p.err_z into mydb.photometricdata from DR1#.PhotoObjAll AS p JOIN DR1#.Photoz AS s ON s.ObjID = p.objID WHERE p.type = # AND s.z < = #"
+2019-04-19 19:20:00,2
+2019-04-19 19:47:00,2

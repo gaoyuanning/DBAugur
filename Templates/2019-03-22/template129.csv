@@ -1,0 +1,2 @@
+1,"select ra, dec, modelMag_g, modelMag_u, modelMag_r from StarTag where class = star"
+2019-03-22 20:17:00,1

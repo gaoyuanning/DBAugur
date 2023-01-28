@@ -1,0 +1,2 @@
+2,"select top # s.bestobjid, s.specobjid, m.* into mydb.LoTSS_GRGs_#_ID from specobj s, mydb.LoTSS_GRGs_# m where abs (s.ra - m.ID_ra) < = # and abs (s.dec - m.ID_dec) < = #"
+2019-03-11 05:18:00,2

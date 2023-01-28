@@ -1,0 +1,2 @@
+3,"SELECT top # objID,cModelMag_u,cModelMag_g,cModelMag_r,cModelMag_i,cModelMag_z,class FROM photoobjall p INNER JOIN specObjAll S on p.objID"
+2019-03-25 16:01:00,3

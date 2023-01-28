@@ -1,0 +1,2 @@
+1,"SELECT count (*) , specObjID, z, survey FROM SpecObj WHERE class = # AND zWarning = # AND z BETWEEN # and # order by newid ()"
+2019-04-04 15:34:00,1

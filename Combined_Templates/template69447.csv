@@ -1,0 +1,2 @@
+1,"SELECT DISTINCT p.psfFlux_u, p.psfFlux_g, p.psfFlux_r, p.psfFlux_i, p.psfFlux_z, p.psfFluxIvar_u, p.psfFluxIvar_u, p.psfFluxIvar_u, p.psfFluxIvar_u, p.psfFluxIvar_u, p.clean, p.objID, p.ra, p.dec, p.mode FROM PhotoObjAll AS p WHERE ( (p.ra between # and #) and (p.dec between # and #) ) or ( (p.ra between # and #) and (p.dec between # and #) ) or ( (p.ra between # and #) and (p.dec between # and #) ) or ( (p.ra between # and #) and (p.dec between # and #) ) or ( (p.ra between # and #) and (p.dec between # and #) )"
+2019-10-14 18:06:00,1

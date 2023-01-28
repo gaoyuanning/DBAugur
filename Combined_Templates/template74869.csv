@@ -1,0 +1,3 @@
+2,"select into res_gal_index avg (redshift_query.petroMag_u) , avg (redshift_query.petroMag_g) , avg (redshift_query.petroMag_r) , avg (redshift_query.petroMag_i) , avg (redshift_query.petroMag_z) , count (*) from MyDB.manual_good_ccw, specObjAll, galSpecIndx, redshift_query where MyDB.manual_good_ccw.ID = specObjAll.bestObjID and specObjAll.specObjID = galSpecIndex.specObjID and redshift_query.petroMag_u> # and redshift_query.petroMag_g> # and redshift_query.petroMag_r> # and redshift_query.petroMag_i> # and redshift_query.petroMag_z> # and lick_fe4#< # and lick_fe4#> #"
+2019-11-10 14:44:00,1
+2019-11-10 14:47:00,1

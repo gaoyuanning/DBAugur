@@ -1,0 +1,2 @@
+1,"select top # objid, ra, dec, MyDB.topoint (ra, dec) as pt into mydb.tapsampletable from photoobjall"
+2019-10-09 14:01:00,1

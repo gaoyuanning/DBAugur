@@ -1,0 +1,3 @@
+2,"select s.specObjID, count(*) into [myscratch:default].MyTable from dbo.galSpecInfo as s, dbo.galSpecExtra as e, dbo.galSpecLine as l, dbo.zoo2MainSpecz as z where s.z between # and # and s.z_warning is null and e.lgm_tot_p5# between # and # and s.v_disp_err > # and z.specobjid = s.specObjID and z.total_votes >#"
+2019-04-01 00:23:00,1
+2019-04-01 00:24:00,1

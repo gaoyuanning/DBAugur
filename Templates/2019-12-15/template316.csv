@@ -1,0 +1,2 @@
+1,"select NAME,the_geom.ToString() as the_geom,lon,lat as the_geom from edu_BmoreSchoolZones"
+2019-12-15 08:42:00,1

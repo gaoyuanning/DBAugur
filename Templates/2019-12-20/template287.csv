@@ -1,0 +1,2 @@
+1,SELECT p.ra FROM Photoz AS pz RIGHT JOIN PhotoObj AS p ON pz.objid = p.objid WHERE p.mode = # AND p.ra < # deg and p.ra > # deg AND p.dec < # deg and p.dec > # deg
+2019-12-20 05:30:00,1

@@ -1,0 +1,4 @@
+5,"select albumid, count (*) as num from chinook.track group by albumid"
+2019-03-30 11:18:00,1
+2019-03-30 11:19:00,2
+2019-03-30 11:20:00,2

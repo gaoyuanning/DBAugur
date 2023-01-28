@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z,  pz.z FROM PhotoObj AS p  JOIN Photoz AS pz ON pz.objid = p.objid WHERE  pz.z BETWEEN # and # &##;&##; restrict redshift  AND p.ra = #   AND p.dec = #"
+2019-01-13 14:21:00,1

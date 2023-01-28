@@ -1,0 +1,3 @@
+5,select count (*) from public.ncarey.FramePathProcessing where processed = #
+2019-05-17 15:11:00,3
+2019-05-17 15:25:00,2

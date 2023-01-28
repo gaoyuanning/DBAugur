@@ -1,0 +1,2 @@
+1,"select distinct (ring_galaxies_z.ID) , ring_galaxies_z.ra, ring_galaxies_z.dec from buta, ring_galaxies_z where sqrt (power (buta.ra-ring_galaxies_z.ra, #) + power (buta.dec-ring_galaxies_z.dec, #) )< #"
+2019-09-14 01:48:00,1

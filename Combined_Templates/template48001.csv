@@ -1,0 +1,3 @@
+2,"SELECT G.objID as sdss_ID, G.ra as RA, G.dec as DEC, G.modelMag_g as MODEL_MAG_G, G.modelMag_r as MODEL_MAG_R, G.modelMagErr_g as MODEL_MAG_G_err, G.modelMagErr_r as MODEL_MAG_R_err, FROM Galaxy as G JOIN dbo.fGetNearbyObjEq (#, #, #) AS GN ON G.objID = GN.objID"
+2019-06-25 19:43:00,1
+2019-06-25 19:45:00,1

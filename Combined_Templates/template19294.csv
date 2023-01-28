@@ -1,0 +1,2 @@
+1,"SELECT TOP # ObjID, r, RA, Dec, u, g, r, i, z FROM star WHERE r < # AND RA BETWEEN # and # AND Dec BETWEEN # and # AND flag = clean#"
+2019-03-10 00:20:00,1

@@ -1,0 +1,2 @@
+1,"SELECT objid, class, h_beta_flux, h_beta_flux_err, oiii_#_flux, oiii_#_flux_err, h_alpha_flux, h_alpha_flux_err, nii_#_flux, nii_#_flux_err FROM SpecPhoto as s JOIN galSpecLine as g ON s.specObjID = g.specObjID WHERE petroMag_r < #. and z > # and z < #"
+2019-02-05 10:40:00,1

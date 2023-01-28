@@ -1,0 +1,2 @@
+2,"SELECT top # m.apstar_id, target_id, aspcap_id, apogee_id into mydb.MyTable_# from aspcapStar AS m"
+2019-06-06 08:14:00,2

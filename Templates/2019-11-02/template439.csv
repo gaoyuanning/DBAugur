@@ -1,0 +1,6 @@
+5,"SELECT g.specObjID, g.spectrotype FROM galSpecInfo AS g WHERE g.ra between # and #"
+2019-11-02 09:38:00,1
+2019-11-02 09:48:00,1
+2019-11-02 09:51:00,1
+2019-11-02 09:54:00,1
+2019-11-02 09:56:00,1

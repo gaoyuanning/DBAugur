@@ -1,0 +1,2 @@
+1,"SELECT SUBSTRING(Composer,#,#) AS beg_char, COUNT(COMPOSER) as count FROM chinook.Track GROUP BY Composer ORDER BY beg_char Desc"
+2019-04-24 09:06:00,1

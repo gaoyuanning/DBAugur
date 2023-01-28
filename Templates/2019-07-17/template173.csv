@@ -1,0 +1,2 @@
+2,"SELECT   T.ID, T.hostra, T.hostdec, dbo.fGetNearestObjIdEq(T.hostra, T.hostdec, #) as PhotoObjID INTO    mydb.null_SQL_pObjID FROM    mydb.null_SQL as T WHERE dbo.fGetNearestObjIdEq(T.hostra, T.hostdec, #) IS NOT NULL"
+2019-07-17 16:20:00,2

@@ -1,0 +1,2 @@
+1,"select ra, dec, s.psfMag_u - extinction_u - #, s.psfMag_g - extinction_g, s.psfMag_r - extinction_r, s.psfMag_i - extinction_i, s.psfMag_z - extinction_z + #, s.psfMagErr_u, s.psfMagErr_g, s.psfMagErr_r, s.psfMagErr_i, s.psfMagErr_z from star as s JOIN dbo.fGetNearbyObjEq (#, #, #) AS GN ON s.objID = GN.objID where s.clean = # and s.psfMagErr_g < #"
+2019-05-31 18:08:00,1

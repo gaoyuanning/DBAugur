@@ -1,0 +1,10 @@
+404,"SELECT sp.objid,sp.ra,sp.dec, sp.class, sp.z as redshift, m.k, ISNULL(m.k,#) AS k FROM SpecPhoto AS sp JOIN apogeeOBJECT AS m ON sp.dec = m.dec WHERE sp.z ># AND sp.z < # AND sp.class = GALAXY&&&"
+2019-10-29 00:09:00,2
+2019-10-29 00:11:00,1
+2019-10-29 00:12:00,10
+2019-10-29 00:13:00,56
+2019-10-29 00:14:00,67
+2019-10-29 00:15:00,75
+2019-10-29 00:16:00,77
+2019-10-29 00:17:00,80
+2019-10-29 00:18:00,36

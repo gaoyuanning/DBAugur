@@ -1,0 +1,2 @@
+2,"SELECT s.run, s.mjd, s.fiber FROM SpecObj as s   INNER JOIN PhotoObj AS p   ON s.bestObjId = p.objID WHERE p.type = # AND s.z BETWEEN # and #"
+2019-04-29 10:25:00,2

@@ -1,0 +1,3 @@
+3,"SELECT top # Lower, Lower+Width AS Upper FROM (SELECT (SELECT MIN (z) FROM SpecObj WHERE class = # AND zWarning = # and survey = #) as Lower, ( (SELECT MAX (z) *# FROM SpecObj WHERE class = # AND zWarning = # and survey = #) - (SELECT MIN (z) FROM SpecObj WHERE class = # AND zWarning = # and survey = #) ) / # as Width From SpecObj) a Group By Lower, Width"
+2019-03-15 12:51:00,1
+2019-03-15 12:52:00,2

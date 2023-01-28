@@ -1,0 +1,2 @@
+1,"SELECT   sp.SpecObjID,   ph.ra,   ph.dec,   sp.z,   sp.zErr,   sp.velDisp   ph.petroMag_g,   ph.petroMag_r,   ph.petroMagErr_g,   ph.petroMagErr_r,   ph.petroR5#_g,   ph.petroR5#_r,   ph.petroR5#Err_g,   ph.petroR5#Err_r,   ph.extinction_g,   ph.extinction_r,   ph.extinction_i INTO mydb.chilrangenew FROM SpecObjAll AS sp JOIN PhotoObjAll AS ph   ON sp.specObjID = ph.specObjID WHERE   (sp.class=&&&)    AND (sp.z > # AND sp.z < #)   AND (sp.velDisp > #)"
+2019-01-02 14:17:00,1

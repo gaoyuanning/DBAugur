@@ -1,0 +1,5 @@
+387,"SELECT objID, ra, dec FROM Star WHERE (ra between # and #) and (dec between # and #)"
+2019-03-11 15:34:00,75
+2019-03-11 15:36:00,174
+2019-03-11 15:38:00,88
+2019-03-11 15:39:00,50

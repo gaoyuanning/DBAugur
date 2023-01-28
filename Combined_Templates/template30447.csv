@@ -1,0 +1,4 @@
+4,"SELECT m.ra as my_ra, m.dec as my_dec, m.petro_r, s.objid, s.ra, s.dec, s.petroMag_r, p.z into mydb.Neighbors_J0# from MyDB.colors_platemjdfiber AS m OUTER APPLY dbo.fGetNearbyObjEq (#, #, @radius) AS n LEFT JOIN SpecPhotoAll AS s ON n.objID = s.objID LEFT JOIN Photoz AS p ON n.objID = p.objID WHERE s.petroMag_r > m.petro_r AND s.class = # AND p.z < #"
+2019-04-15 13:37:00,2
+2019-04-15 13:41:00,1
+2019-04-15 13:47:00,1

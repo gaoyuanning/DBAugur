@@ -1,0 +1,10 @@
+9,"SELECT P.ObjID, G.objID,  G.ra, G.dec, G.u, G.g, G.r, G.i, G.z, G.type, P.zErr, P.z, P.absMagR FROM Galaxy as G left outer join Photoz as P  on G.objID=P.ObjID  JOIN dbo.fGetNearbyObjEq(#,#,#) n ON n.objID = G.objID"
+2019-02-05 20:34:00,1
+2019-02-05 20:36:00,1
+2019-02-05 20:37:00,1
+2019-02-05 20:39:00,1
+2019-02-05 20:40:00,1
+2019-02-05 20:41:00,1
+2019-02-05 20:42:00,1
+2019-02-05 20:43:00,1
+2019-02-05 20:45:00,1

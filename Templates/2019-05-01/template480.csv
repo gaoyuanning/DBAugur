@@ -1,0 +1,2 @@
+1,"SELECT EID,[Ever_had_eye_surgery_#],[Ever_had_cataract_surgery_#],[Ever_had_refractive_laser_eye_surgery_#],[Ever_had_surgery_for_glaucoma_or_high_eye_pressure_#],[Ever_had_laser_treatment_for_glaucoma_or_high_eye_pressure_#],[Ever_had_corneal_graft_surgery_#],[Both_eyes_present_#],[Current_eye_infection_#] FROM Eye_surgery_complications GO"
+2019-05-01 09:26:00,1

@@ -1,0 +1,5 @@
+4,"SELECT top # plate, mjd, fiberID AS fiber, survey, subClass, elodieBV, elodieTEff, elodieLogG, elodieFeH from SpecObj  where class = &&& and survey = &&& and subclass =&&& order by plate, mjd, fiber"
+2019-02-05 19:32:00,1
+2019-02-05 19:37:00,1
+2019-02-05 19:40:00,1
+2019-02-05 19:42:00,1

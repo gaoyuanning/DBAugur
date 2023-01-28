@@ -1,0 +1,2 @@
+2,"SELECT p.objid, s.objid, p.b, p.l into mydb.redkg_check from segueTargetAll as s JOIN PhotoObj as p ON p.objid = s.objid WHERE (s.segue2_target1 & #) ! =# and p.b > #"
+2019-08-15 18:03:00,2

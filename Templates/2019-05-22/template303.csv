@@ -1,0 +1,2 @@
+1,"select top #   p.fieldId, count(p.objId) into mydb.galaxy_sort9 from Galaxy as p where p.dec >= # AND p.dec < # AND   s.zWarning = # AND    p.mode = # AND p.SpecObjID = s.SpecObjID AND    (p.flags & CAST(# AS BIGINT)) = # AND   (p.flags & CAST(# AS BIGINT)) = CAST(# AS BIGINT) group by fieldId having count(p.objId) > #"
+2019-05-22 13:02:00,1

@@ -1,0 +1,2 @@
+1,"SELECT   m.objid, m.ra, m.dec, G.ra as Gal_ra, G.dec as Gal_dec, G.u_r, G.q_r, G.petror5#_r, m.distance into mydb.DLR_PARAMS from MyDb.NN3#ArcSec as m   JOIN PhotoObjAll as G on m.objid = G.objid"
+2019-01-22 17:25:00,1

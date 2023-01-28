@@ -1,0 +1,2 @@
+1,"select top #   p.ObjID, s.specObjID,   s.z, p.modelMag_z,   e.lgm_tot_p5#,   g.h_alpha_flux into mydb.MyTable from photoObj p   JOIN specObj s ON s.bestObjID = p.objID   JOIN galSpecLine g ON g.specObjID = s.specObjID   JOIN galSpecExtra e ON e.specObjID = g.specObjID"
+2019-02-15 16:47:00,1

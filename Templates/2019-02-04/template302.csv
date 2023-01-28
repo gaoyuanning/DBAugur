@@ -1,0 +1,2 @@
+1,"SELECT    m.specobjid AS specobjid_in,    s.specObjId, e.Flux_OIII_#, e.Flux_OIII_#_Err into mydb.MyTable_# from MyDB.MySpecobjID3 AS m    LEFT JOIN SpecObjAll AS s ON m.specobjid = s.specObjID    LEFT JOIN emissionLinesPort as e on s.specObjID = e.specObjID"
+2019-02-04 12:32:00,1

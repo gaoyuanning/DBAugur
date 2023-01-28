@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, field, ra, dec into mydb.MyTable from PhotoPrimary WHERE dbo.fSourcetype (objID) = STAR_BROWN_DWARF"
+2019-10-31 14:54:00,1

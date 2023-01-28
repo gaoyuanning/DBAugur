@@ -1,0 +1,2 @@
+1,"SELECT   TOP # mangaid, input_teff, psfmag_#, psfmag_# FROM MaStar_goodstars  WHERE input_teff<#"
+2019-01-09 17:58:00,1

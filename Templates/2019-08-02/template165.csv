@@ -1,0 +1,3 @@
+3,"select soa.plate, soa.mjd, soa.fiberid, soa.specobjid, soa.segue2_target1, soa.bestobjid, ph.ra, ph.dec, ph.objID into mydb.mgiant_spec_primary_# from SpecObjAll as soa   JOIN PhotoObjAll as ph on ph.objID=soa.bestobjid    WHERE (soa.segue2_target1 & #)!=# and soa.segue2primary>#"
+2019-08-02 17:46:00,2
+2019-08-02 17:47:00,1

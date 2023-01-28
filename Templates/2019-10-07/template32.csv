@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.ra,p.dec,s.objTypeName,dbo.fIAUFromEq(p.ra,p.[dec]) as SDSSname FROM BESTDR7..SpecObj as s 	JOIN BESTDR7..PhotoObj AS p ON s.bestObjID = p.objID 	JOIN #x AS x ON x.objID=p.objID JOIN #upload AS u ON u.up_id = x.up_id  WHERE  ( p.type = # OR p.type = #) ORDER BY x.up_id"
+2019-10-07 23:40:00,1

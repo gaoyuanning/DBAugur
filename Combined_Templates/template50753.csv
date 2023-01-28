@@ -1,0 +1,3 @@
+2,"SELECT s.ra, s.dec, s.survey, s.instrument into mydb.MyTable from specObjAll s WHERE s.specObjID = #"
+2019-07-09 11:11:00,1
+2019-07-09 11:12:00,1

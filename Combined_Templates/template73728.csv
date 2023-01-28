@@ -1,0 +1,2 @@
+1,"select specObjID, firstrelease, ra, dec, class, subclass, snMedian_r, plate, mjd, fiberid, z, zerr from SpecObjAll where class = # and (subclass like # or subclass like #) and zwarning = #"
+2019-11-04 10:32:00,1

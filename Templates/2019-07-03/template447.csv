@@ -1,0 +1,2 @@
+1,"select a.target_id, a.m_h, a.m_h_err, a.alpha_m, a.alpha_m_err, log(#. + # * a.alpha_m) as salaris from aspcapStar a   join mydb.highfeh m on a.target_id = m.id_#    where a.m_h > # and a.alpha_m > #"
+2019-07-03 04:07:00,1

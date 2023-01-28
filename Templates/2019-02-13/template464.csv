@@ -1,0 +1,2 @@
+1,"select objectID, ra, dec, fieldOffset_g, fieldOffset_i, fieldOffset_r, fieldOffset_u, fieldOffset_z from SpecObj where ra BETWEEN # and # AND g > # AND u - g > #"
+2019-02-13 15:39:00,1

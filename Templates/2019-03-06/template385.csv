@@ -1,0 +1,2 @@
+2,"SELECT MIN(z) specObjID, z, survey BOSS FROM SpecObj  WHERE class = &&& AND z BETWEEN # and #"
+2019-03-06 16:13:00,2

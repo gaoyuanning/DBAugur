@@ -1,0 +1,2 @@
+2,"select s.bestobjid, s.specobjid, m.* into mydb.VAC_clean_GRGs_ID from specobj s, mydb.VAC_clean_GRGs m where abs (s.ra - m.ID_ra) < = # and abs (s.dec - m.ID_dec) < = #"
+2019-03-12 08:52:00,2

@@ -1,0 +1,2 @@
+1,"SELECT max (s.match_dist) as max_dist, min (s.match_dist) as min_dist FROM WISE_xmatch AS s"
+2019-03-01 13:18:00,1

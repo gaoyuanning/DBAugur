@@ -1,0 +1,2 @@
+1,"SELECT SUBSTRING(COMPOSER, #,#) FROM chinook.Track GROUP BY Composer"
+2019-04-24 15:08:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.cModelMag_g,p.cModelMag_i,p.cModelMag_r,p.cModelMag_u,p.cModelMag_z  FROM ..PhotoObj AS p  WHERE ( p.type = # OR p.type = #)"
+2019-12-07 02:56:00,1

@@ -1,0 +1,2 @@
+1,"select ALl p.u-p.r,p.g-p.r ,p.r-p.i ,p.r-p.z,p.l,p.b from star p where b BETWEEN # and # OR b BETWEEN # and #"
+2019-10-22 05:05:00,1

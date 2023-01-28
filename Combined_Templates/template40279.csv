@@ -1,0 +1,2 @@
+1,"SELECT SpecObj.plate, SpecObj.mjd, SpecObj.fiberID, SpecObj.z FROM SpecObj AS s JOIN GalSpecLine AS g ON s.specobjid = g.specobjid WHERE (s.class = # OR s.class = #) AND s.z between # and # AND s.snmedian_g > #"
+2019-05-17 09:09:00,1

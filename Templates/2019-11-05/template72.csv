@@ -1,0 +1,4 @@
+5,"SELECT TOP # cModelMag_g, cModelMagErr_g, cModelMag_r, cModelMagErr_r, cModelMag_i, cModelMagErr_i, ra, dec, flags_r  FROM Star  WHERE   ra BETWEEN # and # AND dec BETWEEN # and #  AND ((flags_r & #) != #)  AND ((flags_r & #) = #)   AND (((flags_r & #) = #) or (psfmagerr_r <= #))  AND (((flags_r & #) = #) or (flags_r & #) = #)"
+2019-11-05 18:54:00,1
+2019-11-05 19:06:00,3
+2019-11-05 19:09:00,1

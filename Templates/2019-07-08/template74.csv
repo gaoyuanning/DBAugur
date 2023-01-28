@@ -1,0 +1,2 @@
+1,"SELECT  p.objID, s.specObjID, s.mjd, s.plate, s.tile, s.xFocal, s.yFocal, s.fiberID, s.z, s.zErr, s.zWarning, s.velDisp, s.velDispErr, s.snMedian_u, s.snMedian_g, s.snMedian_r, s.snMedian_i, s.snMedian_z, s.ra, s.dec, s.cx, s.cy, s.cz, s.htmID, s.fiberMag_u, s.fiberMag_g, s.fiberMag_r, s.fiberMag_i, s.fiberMag_z FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid"
+2019-07-08 21:34:00,1

@@ -1,0 +1,2 @@
+1,"SELECT ROW_NUMBER () OVER (ORDER BY r) #, L.objID, L.ra, L.dec, L.u, L.g, L.r, L.i, L.z, L.fracDev_g, L.petroRad_g as PRadius, L.petroR9#_g as PRadius9#, L.expAB_g as ratioba, L.expRad_g as efscale, L.deVRad_g as vfscale, L.moB, dbo.fGetUrlNavId (L.objid) as link into mydb.MyTable from LSBGs L WHERE L.moB = # ORDER BY L.r, #"
+2019-08-07 15:21:00,1

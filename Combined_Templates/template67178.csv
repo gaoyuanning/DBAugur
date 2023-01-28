@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.specobjid, p.h_alpha_eqw, p.h_alpha_eqw_err, s.lick_hd_a, s.lick_hd_a_err, s.lick_hd_a_model, s.lick_hd_a_sub, s.lick_hd_a_sub_err, m.z, m.z_err, m.targettype, m.spectrotype, m.subclass FROM galspecline AS p JOIN galspecindx AS s ON s.specobjid = p.specobjid JOIN galspecinfo AS m on m.specobjid = p.specobjid WHERE p.h_alpha_eqw_err > # AND s.lick_hd_a_err > # AND s.lick_hd_a_sub_err > # AND m.z > # AND m.z_err > #"
+2019-10-02 11:00:00,1

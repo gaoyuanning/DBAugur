@@ -1,0 +1,2 @@
+1,"select dbo.fGetNearestObjIdAllEq(#,#,#) as objID"
+2019-04-19 16:19:00,1

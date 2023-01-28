@@ -1,0 +1,2 @@
+1,"SELECT  sq.plate, sq.mjd, sq.fiberID, sq.fwhm1_hb, sq.fwhm2_hb, sq.fwhm3_hb sq.l_# FROM spiders_quasar AS sq WHERE  l_# > # AND DR1#_SN_MEDIAN_ALL ># AND sq.fwhm2_hb># AND sq.fwhm3_hb>#"
+2019-03-30 10:10:00,1

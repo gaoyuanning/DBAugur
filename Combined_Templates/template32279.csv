@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.plate, s.mjd, s.fiberid, p.run, p.rerun, p.camCol, p.field, p.obj, cast (str (p.ra, #, #) as float) as ra, cast (str (p.[dec], #, #) as float) as dec, p.r, p.g, p.i, p.u, p.z FROM ..SpecObj as s JOIN ..PhotoObj AS p ON s.bestObjID = p.objID WHERE s.z > # AND s.zWarning = # AND (s.class = #) AND s.z < # AND (p.type = # OR p.type = # OR p.type = #) AND (s.primTarget & (dbo.fPrimTarget (#) ) > #)"
+2019-04-20 23:01:00,1

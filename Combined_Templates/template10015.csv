@@ -1,0 +1,2 @@
+1,"SELECT distinct g.objID, g.modelMag_r, g.petroRad_r, s.z FROM photoprimary as g WHERE (g.ra between # and #) and (g.dec between # and #) and g.modelMag_r < # and g.petroRad_r > # and g.z < .#"
+2019-02-12 14:17:00,1

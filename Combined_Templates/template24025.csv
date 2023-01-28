@@ -1,0 +1,2 @@
+1,"SELECT specobjid, oiii_#_eqw FROM #upload u JOIN galSpecLine s ON (s.plate = u.up_plate AND s.mjd = u.up_mjd AND s.fiberID = u.up_fiber) ##', @log = #, @filter = #"
+2019-03-26 20:07:00,1

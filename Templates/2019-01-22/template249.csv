@@ -1,0 +1,2 @@
+1,"SELECT TOP #  cast(str(p.ra,#,#) as float) as ra,cast(str(p.[dec],#,#) as float) as dec  FROM ..Galaxy AS p  JOIN dbo.fGetObjFromRect(#,#,#,#) AS b ON p.objID = b.objID  WHERE p.u > # AND p.u < # AND (p.flags & (dbo.fPhotoFlags(&&&)) = #) AND (p.flags & (dbo.fPhotoFlags(&&&)) > #)"
+2019-01-22 17:20:00,1

@@ -1,0 +1,2 @@
+1,"SELECT top # bestObjID, class, subclass, flags, zWarning, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z FROM SpecObj WHERE class = &&& AND zWarning = # AND subclass like &&& AND subclass not like &&&"
+2019-09-25 07:20:00,1

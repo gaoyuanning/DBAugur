@@ -1,0 +1,2 @@
+1,"SELECT   p.objid, p.ra,  p.dec, s.plate, s.mjd, s.fiberid, s.specobjid,    dbo.fPhotoDescription(p.objid), dbo.fPhotoFlags(&&&), dbo.fPhotoFlags(&&&) FROM PhotoObjAll as p   JOIN SpecObj as s ON s.bestobjid = p.objid WHERE   (s.specobjid = # OR s.specobjid = #) AND   dbo.fPhotoFlags(&&&) =#"
+2019-05-16 05:38:00,1

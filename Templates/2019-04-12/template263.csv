@@ -1,0 +1,2 @@
+1,"SELECT    s.ra, s.dec, s.modelmag_z - s.extinction_z as magModel_z_DR7, s.fibermag_z - s.extinction_z as magFiber_z_DR7,   d.modelmag_z - d.extinction_z as magModel_z_DR1#, d.fibermag_z - d.extinction_z as magFiber_z_DR1#    INTO   myDB.mags_DR7_DR1#    FROM   DR1#.PhotoObj as d, DR7.PhoObj as s, DR1#.SpecObj as sd, DR7.SpecObj as ss    WHERE"
+2019-04-12 13:55:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.plate, s.mjd, s.fiberid, s.bestObjID, s.z, p.camcol FROM specObj s JOIN photoObj p ON p.ObjID = s.bestObjID WHERE s.class = # AND s.zWarning = # AND s.bestObjID > # AND # < = s.z AND s.z < = # AND p.camcol = #"
+2019-04-03 21:19:00,1

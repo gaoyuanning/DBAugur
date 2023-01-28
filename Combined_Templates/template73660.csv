@@ -1,0 +1,3 @@
+2,"SELECT p.objid, p.ra, p.dec, p.deVPhi_r, p.lnLDeV_r, p.expPhi_r, p.lnLExp_r INTO mydb.pereyra_ang_#_Mpc FROM PhotoObj AS p, MyDB.ids_fil_gxl_pereyra_#_Mpc AS ids_pereyra WHERE ids_pereyra.OBJID = p.objid"
+2019-11-04 14:36:00,1
+2019-11-04 15:05:00,1

@@ -1,0 +1,2 @@
+1,"SELECT l.*, n.neighborObjID, n.distance INTO DR5_neighbors FROM DR5.neighbors as n, mydb.DR5_lrgs as l WHERE l.objID = n.objID ORDER BY l.ra"
+2019-03-28 08:49:00,1

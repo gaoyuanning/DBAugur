@@ -1,0 +1,9 @@
+8,"SELECT TOP # s1.objID as s1, s2.objID as s2   FROM Star AS S1   JOIN Neighbors AS N ON S1.objID = N.objID   JOIN Star AS S2 ON S2.objID = N.NeighborObjID   WHERE   N.NeighborType = dbo.fPhotoType(&&&)   and N.distance < .#   and ((S1.u - S1.g) < # )   and (S1.g - S1.r) < #   and (S1.r - S1.i) > #   and (S1.i - S1.z) > #"
+2019-07-01 00:25:00,1
+2019-07-01 02:06:00,1
+2019-07-01 02:07:00,1
+2019-07-01 03:19:00,1
+2019-07-01 10:14:00,1
+2019-07-01 14:22:00,1
+2019-07-01 21:03:00,1
+2019-07-01 21:24:00,1

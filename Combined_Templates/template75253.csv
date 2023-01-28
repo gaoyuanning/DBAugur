@@ -1,0 +1,4 @@
+5,"SELECT objID, ra, dec, u, err_u, dered_u, psfMag_u, psfMagErr_u, g, err_g, dered _g, psfMag_g, psfMagErr_g, r, err_r, dered_r, psfMag_r, psfMagErr_r, i, err_i, d ered_i, psfMag_i, psfMagErr_i, z, err_z, dered_z, psfMag_z, psfMagErr_z, clean, nChild, type, nDetect, nObserve, b, l, extinction_u, extinction_g, extinction_r, extinction_i, extinction_z FROM Star WHERE CLEAN = # AND ra > # and ra < # AND dec > # and dec < # AND (nDetect> # and nObserve> #) AND (nChild< #)"
+2019-11-12 17:33:00,1
+2019-11-12 17:38:00,2
+2019-11-12 17:45:00,2

@@ -1,0 +1,2 @@
+1,"select Genre.Name, Count (*) as Count from chinook.Track inner join chinook.Genre on chinook.Track.GenreId = chinook.Genre.GenreId"
+2019-04-21 12:21:00,1

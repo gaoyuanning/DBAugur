@@ -1,0 +1,2 @@
+1,"SELECT class, COUNT(*) FROM SpecObj WHERE z > #"
+2019-03-26 21:10:00,1

@@ -1,0 +1,2 @@
+1,"SELECT Composer, AlbumID, SUM(UnitPrice) as TotPrice         FROM chinook.Track         GROUP BY AlbumID, Composer         ORDER BY AlbumID Desc"
+2019-04-24 16:02:00,1

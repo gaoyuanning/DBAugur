@@ -1,0 +1,4 @@
+9,"SELECT TOP # s.plate,s.mjd,s.fiberid,s.z,s.zErr,s.zWarning,s.class,p.u,p.g,p.r,p.i,p.z,p.modelMagErr_u,p.modelMagErr_g,p.modelMagErr_r,p.modelMagErr_i,p.modelMagErr_z FROM BESTDR9..SpecObj as s 	JOIN BESTDR9..PhotoObj AS p ON s.bestObjID = p.objID WHERE  s.z > # AND s.zWarning = # AND (s.class = &&&) AND s.z < # AND ( p.type = # OR p.type = #)"
+2019-03-08 18:59:00,1
+2019-03-08 19:00:00,6
+2019-03-08 19:01:00,2

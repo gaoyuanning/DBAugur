@@ -1,0 +1,2 @@
+1,"select top # bestObjID, dbo.fPrimTargetN (primTarget) as primTarget from specObj"
+2019-03-12 20:02:00,1

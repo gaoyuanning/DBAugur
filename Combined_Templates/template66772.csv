@@ -1,0 +1,2 @@
+1,"select ra, dec, r, psfMag_r, extinction_r, count (r) as psfMag_r from PhotoObj where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-09-30 03:59:00,1

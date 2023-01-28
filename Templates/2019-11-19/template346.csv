@@ -1,0 +1,2 @@
+1,"SELECT   g.ObjId, g.ra, g.dec, g.field, g.type, g.clean, g.probPSF, g.insideMask, g.flags, g.psfMAg_r, g.psfMagErr_r, g.cmodelMag_r, g.cmodelMagErr_r, g.PSFFWHM_r into mydb.Stars from PhotoObjAll as g   where g.cmodelMag_r < &&& and g.type = #     and g.ra between &&& and &&&"
+2019-11-19 10:11:00,1

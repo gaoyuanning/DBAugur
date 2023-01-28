@@ -1,0 +1,2 @@
+1,"SELECT top # g.ra, g.dec, ph.z, ph.zerr, g.u, g.g, g.r, g.i, g.z FROM galaxy as g, photoz as ph where ph.objID = g.objID and g.ra BETWEEN # and # and g.dec BETWEEN # and # and ph.z BETWEEN # and # and ph.zerr BETWEEN # and # and clean = # order by g.z"
+2019-10-07 09:12:00,1

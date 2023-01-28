@@ -1,0 +1,5 @@
+4,"CREATE TABLE [r2#][BGI_WGS_pilot] (eid BIGINT NOT # , [BGI_WGS_CRAM_files_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [BGI_WGS_CRAM_indices_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , PRIMARY KEY (eid) ) GO"
+2019-04-15 14:29:00,1
+2019-04-15 14:32:00,1
+2019-04-15 14:33:00,1
+2019-04-15 14:35:00,1

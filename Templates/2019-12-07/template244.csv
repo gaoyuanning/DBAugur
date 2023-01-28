@@ -1,0 +1,2 @@
+2,"SELECT TOP # zoo.*,   g.petroR5#_u,   g.petroR5#_g,   g.petroR5#_r,   g.petroR5#_i,   g.petroR5#_z,   g.petroR9#_u,   g.petroR9#_g,   g.petroR9#_r,   g.petroR9#_i,   g.petroR9#_z  FROM zooSpec AS zoo   JOIN galaxy as g ON g.objid = zoo.objid"
+2019-12-07 06:55:00,2

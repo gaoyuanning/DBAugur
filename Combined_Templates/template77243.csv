@@ -1,0 +1,2 @@
+1,"SELECT m.ra AS ra1, m.dec AS dec1, n.objid, n.distance, o.ra AS ra2, o.dec AS dec2, o.modelMag_u as u, o.modelMagErr_u as u_err, o.modelMag_g as g, o.modelMagErr_g as g_err, o.modelMag_r as r, o.modelMagErr_r as r_err, o.modelMag_i as i, o.modelMagErr_i as i_err, o.modelMag_z as z, o.modelMagErr_z as z_err into mydb.MyTable_# from MyDB.spectro_stripe AS m OUTER APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n LEFT JOIN PhotoObj AS o ON n.objid = o.objid"
+2019-11-19 09:33:00,1

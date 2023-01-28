@@ -1,0 +1,2 @@
+1,"SELECT s.bestObjID, g.lgm_fib_p5#, g.sfr_fib_p5# into mydb.MyTable from galSpecExtra as g JOIN SpecObj AS s ON s.specobjid = g.specobjid where s.z< # AND s.class = #"
+2019-12-15 11:57:00,1

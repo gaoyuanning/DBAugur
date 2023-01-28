@@ -1,0 +1,2 @@
+1,"select top # bestobjID, ((#*z)/(#e-#)) as distance_in_ly from SpecObj where zWarning = # and class = galaxy"
+2019-02-13 16:40:00,1

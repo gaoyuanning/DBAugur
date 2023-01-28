@@ -1,0 +1,2 @@
+1,"SELECT photoObj.objid photoObj.ra, photoObj.dec, specObj.bestObjid INTO mydb.MyTable FROM photoObj JOIN specObj ON specObj.bestObjID = photoObj.objid WHERE photoObj.type = # AND specObj.class = #"
+2019-10-08 10:25:00,1

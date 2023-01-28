@@ -1,0 +1,2 @@
+1,"select b.eid, b.Qualifications_#, a.encoding_id, c.value, c.meaning AS # from dbo.Education b join metadata.columninfo a on a.column_name like# AND a.table_name = # And a.encoding_id = # join metadata.encoding c on c.encoding_id = #"
+2019-09-17 14:28:00,1

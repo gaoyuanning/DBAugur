@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.ra, p.dec, p.mode, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, psfMagErr_u, psfMagErr_g, psfMagErr_r, psfMagErr_i, psfMagErr_z, p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i, p.extinction_z, p.type, p.probPSF, p.probPSF_i, p.specObjID into mydb.JPAS_v1_objall FROM PhotoObjAll as P JOIN mydb.test_# AS S ON p.objID = S.objid"
+2019-05-07 15:50:00,1

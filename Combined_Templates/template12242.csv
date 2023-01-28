@@ -1,0 +1,2 @@
+1,"select top # m.row_id, m.message_id, m.message_type, m.host, m.application, m.method, m.time, m.client_IP, u.user_id from SciServerLog.Messages m join Users u on u.user_id = m.user_id join TextMessages t on t.row_id = m.row_idwhere m.task_name like #"
+2019-02-19 14:48:00,1

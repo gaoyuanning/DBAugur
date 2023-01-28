@@ -1,0 +1,5 @@
+4,"select p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, s.z as redshift, s.specobjid, s.plate, s.mjd, s.fiberid from star p, specobj s where p.objid = s.bestobjid"
+2019-10-12 06:19:00,1
+2019-10-12 06:21:00,1
+2019-10-12 06:36:00,1
+2019-10-12 06:40:00,1

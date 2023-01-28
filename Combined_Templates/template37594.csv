@@ -1,0 +1,2 @@
+1,"select top # so.bossprimary, so.sdssprimary, so.mjd, so.plate, so.fiberID, so.z_noqso, so.zErr_noqso, so.class_noqso, so.subclass_noqso, so.class_person, so.programname, so.instrument, so.survey, so.scienceprimary, so.zwarning, f.peak, f.integr, f.rms from SpecObjAll AS so WHERE so.bossprimary = # and so.sdssprimary = #"
+2019-05-07 12:01:00,1

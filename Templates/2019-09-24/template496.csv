@@ -1,0 +1,2 @@
+1,select * into mydb.MyTable from sys.tables
+2019-09-24 09:58:00,1

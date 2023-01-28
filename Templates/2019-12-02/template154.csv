@@ -1,0 +1,2 @@
+1,"SELECT   p.objid,p.ra,p.dec, p.probPSF, s.z as redshift, FROM PhotoObj AS p  JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   p.ra>((#)-(#/#)) AND p.ra<((#)+(#/#))  p.dec>((#)-(#/#)) AND p.dec<((#)+(#/#))  p.probPSF==#"
+2019-12-02 17:12:00,1

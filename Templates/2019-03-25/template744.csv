@@ -1,0 +1,2 @@
+1,"SELECT TOP # bestobjID, z FROM PhotoObj WHERE z BETWEEN x AND y and class = &&& AND zWARNING = #"
+2019-03-25 15:06:00,1

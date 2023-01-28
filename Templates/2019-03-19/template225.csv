@@ -1,0 +1,2 @@
+1,"SELECT         s.ra,   s.dec,   s.plate,   s.mjd,   s.fiberid,   s.run2d,   s.z,   s.class,   s.subClass,   e.sigmaStars,   e.sigmaStarsErr,   e.bpt,   e.ebmv into mydb.MyTable_# from SpecObj AS s JOIN emissionLinesPort AS e ON s.specobjid = e.specobjid    WHERE      ( (s.zwarning = #) AND (s.z < #) AND (s.class = &&&) AND (s.subClass = &&&) AND (e.sigmaStars > #*e.sigmaStarsErr)     AND (e.bpt = &&&) AND (e.ebmv > #*e.ebmv_err) )"
+2019-03-19 17:18:00,1

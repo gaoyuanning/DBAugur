@@ -1,0 +1,6 @@
+5,"SELECT TOP # p.run, p.rerun, p.camCol, p.field, p.obj FROM ..PhotoObj AS p WHERE (p.type = #)"
+2019-03-19 13:23:00,1
+2019-03-19 13:24:00,1
+2019-06-13 13:10:00,1
+2019-08-27 18:21:00,1
+2019-09-16 21:49:00,1

@@ -1,0 +1,2 @@
+1,"SELECT s.specObjID, s.ra, s.dec, s.z, s.zErr, s.velDisp, s.velDispErr,p.objid, p.ra, p.dec, p.z, p.zErr, p.extinction_r, null FROM galaxy WHERE ra BETWEEN # AND # AND dec BETWEEN # AND # AND petroMag < #"
+2019-11-02 22:07:00,1

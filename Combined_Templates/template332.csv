@@ -1,0 +1,2 @@
+1,"SELECT z, class, psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z, fiberMag_u, fiberMag_g, fiberMag_r, fiberMag_i, fiberMag_z, petroMag_u, petroMag_g, petroMag_r, petroMag_i, petroMag_z, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z, cModelMag_u, cModelMag_g, cModelMag_r, cModelMag_i, cModelMag_z, mRrCc_r, score, calibStatus_u, calibStatus_g, calibStatus_r, calibStatus_i, calibStatus_z, extinction_u, extinction_g, extinction_r, extinction_i, extinction_z, dered_u, dered_g, dered_r, dered_i, dered_z into mydb.MyTable_# from SpecPhoto;"
+2019-01-02 08:52:00,1

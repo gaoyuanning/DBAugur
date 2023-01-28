@@ -1,0 +1,2 @@
+1,"SELECT petroRad_r, objID, modelMag_r,count(*) FROM PhotoObj WHERE (ra between # and #) and (dec between # and #) AND type=#"
+2019-02-12 04:34:00,1

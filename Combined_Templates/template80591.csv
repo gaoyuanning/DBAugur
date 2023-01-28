@@ -1,0 +1,2 @@
+2,"select p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z from galaxy p, specobj s where p.objid = s.bestobjid and (p.z BETWEEN # AND #) and s.z BETWEEN # AND #"
+2019-12-04 14:09:00,2

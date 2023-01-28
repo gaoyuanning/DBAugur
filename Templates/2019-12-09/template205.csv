@@ -1,0 +1,2 @@
+1,"select psfMag_u,psfMag_g,psfMag_r,psfMag_i,psfMag_z,z from galaxy where PrimTarget > #  and z > #"
+2019-12-09 18:31:00,1

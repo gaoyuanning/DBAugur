@@ -1,0 +1,5 @@
+4,"SELECT RAND (#) specObjID, bestObjID, z FROM SpecObj WHERE class = # AND zWarning = # AND z BETWEEN # AND #"
+2019-03-18 11:18:00,1
+2019-03-18 11:24:00,1
+2019-03-18 11:29:00,1
+2019-03-18 11:30:00,1

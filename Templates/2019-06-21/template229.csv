@@ -1,0 +1,2 @@
+1,"SELECT    p.objid,p.ra,p.dec,p.l,p.b,p.dered_u,p.dered_g,p.dered_r,p.dered_i,p.dered_z into mydb.vod_photo from Star AS p WHERE     p.ra BETWEEN # and #    AND p.dec BETWEEN # and #"
+2019-06-21 13:30:00,1

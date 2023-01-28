@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.plate,s.mjd,s.fiberid,s.dec,str(s.ra,#,#) as ra,s.specObjID,s.spectroFlux_g,s.spectroFlux_i,s.spectroFlux_r,s.spectroFlux_u,s.spectroFlux_z,s.z FROM BESTDR9..SpecObj as s 	JOIN dbo.fGetObjFromRect(#,#,#,#) AS b ON s.bestobjid = b.objID"
+2019-03-15 01:40:00,1

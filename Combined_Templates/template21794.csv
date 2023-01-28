@@ -1,0 +1,7 @@
+80,"SELECT TOP # p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, s.specobjid, s.class, s.z as redshift FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid, dbo.fGetNearbyObjEq (# , # , #) as N WHERE p.objid = N.objID"
+2019-03-20 06:13:00,15
+2019-03-20 15:57:00,15
+2019-04-19 20:37:00,9
+2019-05-17 00:08:00,9
+2019-05-19 22:06:00,16
+2019-06-09 16:27:00,16

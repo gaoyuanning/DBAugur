@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.ra, p.dec,  p.psfMag_u, p.dered_u, p.psfMagErr_u, p.psfMag_g, p.dered_g, p.psfMagErr_g, p.psfMag_r, p.dered_r, p.psfMagErr_r, p.psfMag_i, p.dered_i, p.psfMagErr_i, p.psfMag_z, p.dered_z, p.psfMagErr_z INTO mydb.#  FROM dr1#.Star p where p.ra BETWEEN # and # and p.dec Between # and #"
+2019-02-06 13:08:00,1

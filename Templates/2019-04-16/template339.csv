@@ -1,0 +1,5 @@
+4,"SELECT count(*) into mydb.coverage from MyDB.radec_mc as my   CROSS APPLY dbo.fGetNearestObjAllEq(my.ra,my.dec,#)"
+2019-04-16 12:23:00,1
+2019-04-16 12:25:00,1
+2019-04-16 12:29:00,1
+2019-04-16 12:31:00,1

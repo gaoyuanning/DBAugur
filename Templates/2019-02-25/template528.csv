@@ -1,0 +1,2 @@
+1,"select a.objID,a.ra,a.dec,b.z from PhotoObj as a, Photoz as b, SpecPhotoAll as d where a.type = # and a.objID = b.objID and d.specObjID = a.specObjID   and d.z<#"
+2019-02-25 10:33:00,1

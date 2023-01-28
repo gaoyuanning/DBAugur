@@ -1,0 +1,2 @@
+1,"select top #   p.objID, p.rowc_u, p.rowc_g, p.rowc_r, p.rowc_i, p.rowc_z,   p.colc_u, p.colc_g, p.colc_r, p.colc_i, p.colc_z FROM photoObj p   ON p.objID = #"
+2019-03-05 15:03:00,1

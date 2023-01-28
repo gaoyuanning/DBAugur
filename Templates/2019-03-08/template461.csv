@@ -1,0 +1,2 @@
+1,"select   m.objid,p.rerun,p.run,p.camCol,p.field into mydb.LDR1_SDSS from PhotoObjAll p join MyDB.LDR1_Match m on p.objID = m.objid"
+2019-03-08 08:54:00,1

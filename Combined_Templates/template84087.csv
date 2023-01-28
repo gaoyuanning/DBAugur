@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec, u, g, r, i, z, flags_r into A2#_dr1#_# from Galaxy WHERE ra BETWEEN # and # AND dec BETWEEN # and # AND ( (flags_r & #) ! = #) AND ( (flags_r & #) = #) AND ( ((flags_r & #) = #) or (psfmagerr_r < = #) ) AND ( ((flags_r & #) = #) or (flags_r & #) = #)"
+2019-12-21 09:59:00,1

@@ -1,0 +1,2 @@
+1,"SELECT   T.ID, T.hostra, T.hostdec, dbo.fGetNearestSpecObjIdAllEq(T.hostra, T.hostdec, #) as ObjID INTO    mydb.compareSpec_ObjID FROM    mydb.SQL_Table as T WHERE dbo.fGetNearestSpecObjIdAllEq(T.hostra, T.hostdec, #) IS NOT NULL"
+2019-07-08 13:13:00,1

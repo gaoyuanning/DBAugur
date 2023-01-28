@@ -1,0 +1,2 @@
+1,"select objID, ra, dec, dbo.fPrimTargetN (#) , replace (dbo.fGetUrlNavId (objID) , #, #) as link into mydb.Main_Sample_Galaxy from photoObj"
+2019-12-09 13:46:00,1

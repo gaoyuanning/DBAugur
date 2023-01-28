@@ -1,0 +1,2 @@
+1,"SELECT   p.ra, p.dec,p.u, p.g, p.r, p.i, p.z,  p.err_u,p.err_g,p.err_r,p.err_i,p.err_z into mydb.MyTable_#    from  dr1#.thingIndex AS t, photoobjall p,   dbo.fgetNearByObjEq(#, # ,#) n       JOIN dr1#.detectionindex AS d ON t.thingid = d.thingid JOIN dr1#.specobj  AS s ON t.objid = s.bestobjid   where (s.class = &&&) and  t.objid = n.objid"
+2019-03-20 10:07:00,1

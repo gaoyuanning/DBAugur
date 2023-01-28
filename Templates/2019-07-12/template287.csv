@@ -1,0 +1,2 @@
+2,"SELECT nvisits,apstar_id,ra,dec,vhelio_avg,obsvhelio_avg,synthvhelio_avg FROM apogeeStar WHERE nvisits > #"
+2019-07-12 13:28:00,2

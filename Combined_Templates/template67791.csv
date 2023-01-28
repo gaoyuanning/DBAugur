@@ -1,0 +1,2 @@
+1,"SELECT g, ra, dec from photoObj where photoObj.ra = #AND photoObj.dec = #"
+2019-10-04 00:02:00,1

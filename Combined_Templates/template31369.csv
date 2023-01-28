@@ -1,0 +1,2 @@
+1,"select top # sci_sn, z from SpecObj where (specclass = # or specclass = #) and zconf > .#"
+2019-04-17 21:36:00,1

@@ -1,0 +1,2 @@
+1,"select name from chinook.artist group by substring (name, #, #)"
+2019-04-19 16:17:00,1

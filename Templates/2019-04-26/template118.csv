@@ -1,0 +1,2 @@
+1,"SELECT star.apstar_id,  star.apogee_id, star.ra, star.dec,   aspcap.teff,aspcap.logg,aspcap.fparam_logvmicro,aspcap.fparam_m_h,aspcap.fparam_alpha_m,  aspcap.mn_fe, aspcap.mn_fe_err into mydb.M1# from apogeeStar star  JOIN dbo.fGetNearbyApogeeStarEq(#,+#,#) near on  star.apstar_id=near.apstar_id  JOIN aspcapStar aspcap on aspcap.apstar_id = star.apstar_id   AND aspcap.mn_fe > #   AND aspcap.mn_fe_flag = #   AND aspcap.logg > #"
+2019-04-26 18:29:00,1

@@ -1,0 +1,2 @@
+1,"select z, zErr, cx, cy, cz from specObjAll where z BETWEEN # and # AND"
+2019-10-25 20:39:00,1

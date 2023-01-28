@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID,  	       phot.petroMag_u,    phot.petroMagErr_u,    phot.petroMag_g,    phot.petroMagErr_g,   phot.petroMag_r,    phot.petroMagErr_r,    spec.z,   spec.zErr,   spec.zWarning,   gal.lgm_tot_p5#,   gal.sfr_tot_p5# into mydb.sdss_sample from PhotoPrimary as phot and SpecObjAll as spec and galSpecExtra as gal WHERE    phot.petroMag_u < # and phot.petroMag_g < # and phot.petroMag_r < # and z > # and  z < #"
+2019-06-04 09:26:00,1

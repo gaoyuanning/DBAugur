@@ -1,0 +1,2 @@
+2,select fieldid from field where mjd_g between # and # and photostatus between # and #
+2019-01-28 20:30:00,2

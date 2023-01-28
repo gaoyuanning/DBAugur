@@ -1,0 +1,2 @@
+1,"select top # JSON_QUERY (Ever_had_eye_surgery_#, #) , Ever_had_eye_surgery_# from r2#.Eye_surgery_complications where Ever_had_eye_surgery_# is not #"
+2019-07-12 12:11:00,1

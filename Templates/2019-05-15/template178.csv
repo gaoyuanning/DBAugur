@@ -1,0 +1,4 @@
+4,"SELECT TOP #  nsaid,ra, dec, mag, (elpetro_absmag_g +.#*(elpetro_absmag_g-elpetro_absmag_r)+.#) as AppMag, z,(z*#/#) as Distance, elpetro_mass as Mass, elpetro_mets as Metallicity FROM nsatlas WHERE   (#*z/#)<#"
+2019-05-15 20:01:00,1
+2019-05-15 20:26:00,1
+2019-05-15 20:36:00,2

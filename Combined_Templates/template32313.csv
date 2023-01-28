@@ -1,0 +1,2 @@
+1,"select top # objid, z, sn from SpecLine where (specclass = # or specclass = #) and zconf > .#"
+2019-04-20 22:21:00,1

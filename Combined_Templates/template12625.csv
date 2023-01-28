@@ -1,0 +1,2 @@
+1,"select specObjID , ra , dec , petroMag_u , petroMag_g , petroMag_r , petroMag_i , petroMag_z , petroMagErr_u , petroMagErr_g , petroMagErr_r , petroMagErr_i , petroMagErr_z into mydb.MyTable from specPhotoAll"
+2019-02-20 09:33:00,1

@@ -1,0 +1,2 @@
+1,"SELECT    p.objID, p.ra, p.dec, m.z into mydb.sabater_SDSS_lt2 FROM MyDB.Sabater_SDSS_inform m JOIN PhotoObjAll p ON p.objID = m.objID Where m.z <#"
+2019-09-12 11:28:00,1

@@ -1,0 +1,2 @@
+2,"SELECT TOP # p.objid, p.ra, p.dec, p.petror9#_r, p.dered_g, s.z as z_spec, s.zErr, p.r, z2ms.nvote, z2ms.p_el as elliptical, z2ms.p_cw as spiralclock, z2ms.p_acw as spiralanticlock, zns.p_edge as edgeon, zns.p_dk as dontknow, zns.p_mg as merger FROM Galaxy as p JOIN Zoo2MainSpec AS z2ms ON p.objid = z2ms.objid JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.clean = # and z2ms.nvote > = # and z2ms.p_el > # and s.z between # and #"
+2019-02-25 14:19:00,2

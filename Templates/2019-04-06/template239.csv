@@ -1,0 +1,2 @@
+2,"select   p.objid, p.type, p.clean, p.ra, p.dec,   p.dered_u, p.dered_g, p.dered_r, p.dered_i, p.dered_z,   p.err_u, p.err_g, p.err_r, p.err_i, p.err_z,   pz.z, pz.zerr,   pz.kcorrU, pz.kcorrI, pz.kcorrR, pz.kcorrI, pz.kcorrZ,   pz.absMagU, pz.absMagG, pz.absMagR, pz.absMagI, pz.absMagZ,   m.*   into mydb.VAC_clean_GRGs_Photo      from     photoobj p, photoz pz, mydb.VAC_clean_GRGs m      where     p.objid = pz.objid     and abs(p.ra - m.ID_ra) <= #     and abs(p.dec - m.ID_dec) <= #"
+2019-04-06 07:16:00,2

@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objID, p.ra, p.dec FROM PhotoTag AS p , photoprimaryDR7 p7 where   p.objid= p7.dr8objid   and p7.dr7objid in (#  ,#  ,#  ,#  ,#  ,#  ,#  ,#  ,#  ,#  ,#  ,#  ,#  ,#  ,#  ,#  ,#  ,#  ,#  ,#  ,#  ,#  ,#  ,#  ,#  ,#  ,#  ,#  ,#  ,#  ,#  ,#  ,#  ,#  ) order by p.ra"
+2019-01-11 16:58:00,1

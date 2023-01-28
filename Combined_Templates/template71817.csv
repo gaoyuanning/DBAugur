@@ -1,0 +1,2 @@
+1,"select state, vintage, n = count (*) , minArea = min (geom.MakeValid () .STArea () ) , maxArea = max (geom.MakeValid () .STArea () ) from optw.tamass.TRACTS group by state, vintage"
+2019-10-26 15:28:00,1

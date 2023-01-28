@@ -1,0 +1,4 @@
+3,"SELECT a.objID, a.class_body, a.elodieSpType, a.u, a.g, a.r, a.i, a.z, a.dered_u, a.dered_g, a.dered_r, a.dered_i, a.dered_z, b.petroFlux_u, b.petroFlux_g, b.petroFlux_r, b.petroFlux_i, b.petroFlux_z, b.petroMag_u, b.petroMag_g, b.petroMag_r, b.petroMag_i, b.petroMag_z INTO MyDB.sdssdata1 FROM sdssbasic1 AS a INNER JOIN sdssbasic2 as b ON a.objID = b.objID"
+2019-06-18 08:05:00,1
+2019-06-18 08:11:00,1
+2019-06-18 08:21:00,1

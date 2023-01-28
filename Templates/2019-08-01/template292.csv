@@ -1,0 +1,2 @@
+1,"SELECT top # objID, petroRad_u, petroRad_g, petroRad_r, petroRad_i, petroRad_z FROM Galaxy WHERE type = &&& clean = &&&"
+2019-08-01 11:14:00,1

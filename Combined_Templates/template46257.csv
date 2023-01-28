@@ -1,0 +1,3 @@
+4,"SELECT top # objID, modelMag_u, modelMag_g, modelMag_r, modelMag_i, modelMag_z, modelMagErr_u, modelMagErr_g, modelMagErr_r, modelMagErr_i, modelMagErr_z into mydb.DR7RefCat FROM photoobj WHERE objID = #"
+2019-06-17 12:35:00,3
+2019-06-17 12:36:00,1

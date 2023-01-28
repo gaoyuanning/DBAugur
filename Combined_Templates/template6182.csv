@@ -1,0 +1,2 @@
+1,"SELECT COUNT (*) --survey, programname, ra, dec, z, zErr, spectroFlux_u, spectroFlux_g, spectroFlux_r, spectroFlux_i, spectroFlux_z, spectroFluxIvar_u, spectroFluxIvar_g, spectroFluxIvar_r, spectroFluxIvar_i, spectroFluxIvar_z from SpecObj WHERE zWarning = # AND z> # AND class = # AND ra> # AND ra< # AND z< # AND z< # ORDER by z"
+2019-01-25 08:05:00,1

@@ -1,0 +1,2 @@
+1,"SELECT emline.specobjid, emline.ra, emline.dec, emline.bpt as prttype, bpt.bptclass as bpttype, bpts.subclass as bptsubtype, emline.z as z into mydb.MyTable_# from emissionLinesPort AS emline  JOIN galSpecExtra AS bpt ON emline.specobjid = bpt.specObjID JOIN galSpecInfo AS bpts ON emline.specobjid = bpts.specObjID   WHERE emline.bpt = &&&  AND NOT (bpts.subclass LIKE &&&)"
+2019-09-03 12:50:00,1

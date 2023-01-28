@@ -1,0 +1,2 @@
+1,"SELECT run, mjd INTO MyDB.test1# FROM Run WHERE stripe = #"
+2019-11-07 05:23:00,1

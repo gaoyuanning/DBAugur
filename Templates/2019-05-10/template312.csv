@@ -1,0 +1,2 @@
+1,SELECT min(theta) FROM mydb.target_galaxies
+2019-05-10 14:05:00,1

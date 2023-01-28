@@ -1,0 +1,2 @@
+1,"SELECT p.*, s.ra FROM zoovotes a p JOIN specobj as s ON s.objid = p.objid"
+2019-12-07 06:40:00,1

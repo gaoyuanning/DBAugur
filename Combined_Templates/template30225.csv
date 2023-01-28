@@ -1,0 +1,2 @@
+1,"SELECT m.ra, m.dec, t.class into mydb.file_sdssDR8_wise_galex_clu_ALL_CLASS FROM MyDB.mytable_# AS m CROSS APPLY dbo.fGetNearestObjEq (m.sdss_ra, m.sdss_dec, #) AS n JOIN specphotoall AS t ON n.objid = t.objid"
+2019-04-15 19:00:00,1

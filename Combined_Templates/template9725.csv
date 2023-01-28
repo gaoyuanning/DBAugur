@@ -1,0 +1,2 @@
+1,"SELECT Zipcode, sum (Permit_Number) , sum (#) FROM SFViolations INNER JOIN SFParklets ON SFViolations.Permit_ZipCode = SFParklets."
+2019-02-11 13:05:00,1

@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec, type, clean, psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z, psfMagErr_u, psfMagErr_g, psfMagErr_r, psfMagErr_i, psfMagErr_z FROM PhotoObj WHERE (ra between # and #) and (dec between # and #)"
+2019-05-23 06:07:00,1

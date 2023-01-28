@@ -1,0 +1,2 @@
+1,SELECT SpecLine.speoobjID into mydb.MyTable from SpecLine as G_SpecLine
+2019-11-22 11:39:00,1

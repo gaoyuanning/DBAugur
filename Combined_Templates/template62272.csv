@@ -1,0 +1,2 @@
+1,"select top # p.objid, p.ra, p.dec from star p where p.r < # and p.i < # and p.z < #"
+2019-09-10 03:36:00,1

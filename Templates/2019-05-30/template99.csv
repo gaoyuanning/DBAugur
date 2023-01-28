@@ -1,0 +1,3 @@
+99,"SELECT specObjID, dr7ObjID FROM SpecDR7 WHERE specobjid = #"
+2019-05-30 21:19:00,1
+2019-05-30 21:26:00,98

@@ -1,0 +1,2 @@
+2,"SELECT so.bestObjID,so.specObjID, so.ra, so.dec,nd.ra as Gal_ra,nd.dec as Gal_dec,so.plate, so.mjd, so.fiberID,gsl.oiii_#_flux, gsl.h_beta_flux, gsl.nii_#_flux, gsl.h_alpha_flux, so.z, so.snMedian,gsl.sii_#_flux,gsl.sii_#_flux,gsl.oi_#_flux into mydb.all_dwarfs_MPAJHU_no_duplicates from MyDB.MyTable_# as nd CROSS APPLY dbo.fGetNearestObjEq(nd.ra,nd.dec,#) as w JOIN SpecObj so ON so.bestObjID = w.objID JOIN GalSpecLine as gsl ON so.specObjid = gsl.specObjid"
+2019-08-20 19:44:00,2

@@ -1,0 +1,2 @@
+1,"select top # objid, ra, dec, modelmag_g, z, class from specphotoall where class = #"
+2019-11-08 08:19:00,1

@@ -1,0 +1,5 @@
+4,"SELECT u.up_name as name, #< a target = INFO href = http://skyserver.sdss.org/DR1#/en/tools/explore/obj.aspx? id = # + cast (x.objId as varchar (#) ) + #> #+ cast (x.objId as varchar (#) ) + #< /a> # as objID, p.ra, p.dec, p.run, p.rerun, p.camcol, p.field, dbo.fPhotoTypeN (p.type) as type, p.mou, p.g, p.r, p.i, p.z FROM #upload u JOIN #x x ON x.up_id = u.up_id JOIN PhotoObjAll p ON p.objID = x.objID ORDER BY x.up_id ##', @log = #, @filter = #"
+2019-11-02 14:12:00,1
+2019-11-02 14:13:00,1
+2019-11-02 14:15:00,1
+2019-11-02 14:16:00,1

@@ -1,0 +1,2 @@
+1,"CREATE TABLE imageRecords (id int NOT # IDENTITY (#, #) AUTO_INCREMENT, presentValue float, setValue float, upperShaftRotation float, lowerShaftRotation float, upperShaftFastMin float, upperShaftFastHour float, upperShaftSlowMin float, upperShaftSlowHour float, temperature float, path string, CONSTRAINT id_pk PRIMARY KEY (id) );"
+2019-10-11 14:14:00,1

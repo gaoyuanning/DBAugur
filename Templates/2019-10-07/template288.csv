@@ -1,0 +1,2 @@
+1,"SELECT top # ObjId, type, p.ra, dec, dered_r, dered_g, petromag_r, petromag_g, nsa_z  FROM PhotoObjAll JOIN MangsDRPall m ON p.ra=m.objra WHERE  type = #  AND ra > # and ra < #  AND dec > # and dec < #"
+2019-10-07 12:43:00,1

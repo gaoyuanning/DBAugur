@@ -1,0 +1,2 @@
+1,SELECT count(*) into mydb.tmp1 from Galaxies as g
+2019-04-15 09:17:00,1

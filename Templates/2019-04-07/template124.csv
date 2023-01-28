@@ -1,0 +1,2 @@
+1,"select dbo.frun(targetid) as run, dbo.frerun(targetid) as rerun, dbo.fcamcol(targetid) as camcol, dbo.ffield(targetid) as field, dbo.fobj(targetid) as obj, g0,umg0,gmr0,spp.ra,spp.dec,spp.l,spp.b, spp.plate,spp.mjd,spp.fiberid,elodierv, elodierverr, feha,fehaerr,fehan, logga,loggaerr, elodierv+#*cos(b*#/#)* cos(l*#/#)+ #*cos(b*#/#)*sin(l*#/#)+ #*sin(b*#/#) as vgsr into mydb.teste from sppParams spp,specobjall sp, platex p where spp.specobjid = sp.specobjid and sp.plateid = p.plateid and p.programname like &&& and elodierverr > #"
+2019-04-07 18:01:00,1

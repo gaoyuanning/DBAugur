@@ -1,0 +1,2 @@
+1,"select a.objID from photoObjAll a,SpecObjAll b where a.objID=b.bestObjID and b.plate=# and b.mjd=# and b.fiberID=#"
+2019-04-26 16:43:00,1

@@ -1,0 +1,2 @@
+1,"select agn.*, closest.objID, closest.distance, closest.type from MyDB.Sabater_AGN as agn cross apply dbo.fGetNearestObjEq (agn.ra, agn.dec, #) as closest into MyDB.StageOne"
+2019-11-06 06:52:00,1

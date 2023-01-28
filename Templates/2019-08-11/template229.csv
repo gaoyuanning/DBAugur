@@ -1,0 +1,2 @@
+1,"select ra, dec from specObj show top # where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-08-11 10:38:00,1

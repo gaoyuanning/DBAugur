@@ -1,0 +1,2 @@
+1,"select top # specobjid as name, ra, dec from SpecObj select ra, dec from specobj where (z between # and #) and snMedian > # and class = # order by z"
+2019-11-03 21:59:00,1

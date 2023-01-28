@@ -1,0 +1,3 @@
+2,"SELECT pz.objId,gt.ra,gt.dec,pz.z,pz.zErr FROM Photoz as pz JOIN GalaxyTag as gt ON gt.objId=pz.objId WHERE  pz.z BETWEEN # and #  and pz.photoErrorClass=#   and pz.nnCount>#"
+2019-07-29 03:54:00,1
+2019-07-29 03:57:00,1

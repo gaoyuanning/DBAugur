@@ -1,0 +1,5 @@
+4,"SELECT up_id,  dbo.fGetNearestSpecObjIdEq( up_ra,up_dec,up_sep ) as SpecobjId   FROM #upload  WHERE  dbo.fGetNearestSpecObjIdEq( up_ra,up_dec,up_sep ) IS NOT NULL  SELECT TOP #   s.ra,s.dec,s.plate,s.mjd,s.fiberid,cast(str(p.ra,#,#) as float) as ra,cast(str(p.[dec],#,#) as float) as dec,p.u,p.g,p.r,p.i,p.z,p.modelMagErr_u,p.modelMagErr_g,p.modelMagErr_r,p.modelMagErr_i,p.modelMagErr_z,p.fiberMag_i,p.fiberMag_r,p.fracDeV_i,p.fracDeV_r,p.petroR5#_r,p.petroR9#_r  FROM ..SpecObj as s  JOIN ..PhotoObj AS p ON s.bestObjID = p.objID  JOIN #x AS x ON x.SpecobjID=s.SpecobjID  JOIN #upload AS u ON u.up_id = x.up_id   WHERE  (s.class = &&&) AND s.zWarning = # AND ( p.type = # OR p.type = #)   ORDER BY x.up_id"
+2019-04-13 12:20:00,1
+2019-04-13 12:22:00,1
+2019-04-13 12:23:00,1
+2019-04-13 12:24:00,1

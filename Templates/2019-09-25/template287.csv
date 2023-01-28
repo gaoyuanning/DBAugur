@@ -1,0 +1,2 @@
+2,"select  p.*, s.specObjID  into mydb.segue2msto_mpspec from mydb.segue2msto_mp p    Join SpecPhotAll s    on s.objid=p.objid where s.survey=&&&"
+2019-09-25 14:20:00,2

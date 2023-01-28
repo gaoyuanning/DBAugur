@@ -1,0 +1,4 @@
+3,"SELECT    p.objID,    p.psfMag_g,    p.psfMag_r,    p.psfMag_i,    p.psfMag_z,    p.psfFlux_u,   t.OBJ_ID into mydb.MyTable from PhotoObjAll p,   mydb.qsogl AS t  WHERE   t.OBJ_ID = p.objID"
+2019-01-13 03:35:00,1
+2019-01-13 03:36:00,1
+2019-01-13 03:41:00,1

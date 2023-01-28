@@ -1,0 +1,4 @@
+11,"select logMass   from stellarMassFSPSGranEarlyDust   where ra = # # Name: ra, dtype: object   AND dec = # # Name: dec, dtype: object"
+2019-02-21 16:43:00,1
+2019-02-21 16:44:00,4
+2019-02-21 16:45:00,6

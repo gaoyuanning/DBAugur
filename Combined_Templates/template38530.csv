@@ -1,0 +1,2 @@
+1,"select my.*, PhotoObj.* into mydb.HSC_SDSS_cat from mydb.HSC_SDSS as my JOIN PhotoObj on my.id = PhotoObj.objID"
+2019-05-10 13:52:00,1

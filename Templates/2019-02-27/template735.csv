@@ -1,0 +1,3 @@
+3,"SELECT TOP # p.objid, p.ra,p.dec,p.petror9#_r, p.dered_g, s.z as z_spec, s.zErr, zns.nvote, zns.p_el as elliptical, zns.p_cw as spiralclock, zns.p_acw as spiralanticlock, zns.p_edge as edgeon, zns.p_dk as dontknow, zns.p_mg as merger, zmb.nvote_mon, zmb.p_cs_mon, zmb.p_el_mon    FROM Galaxy as p    JOIN ZooNoSpec AS zns ON p.objid = zns.objid    JOIN zooMonochromeBias AS zmb ON p.objid = zmb.objid    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.clean=# and zmb.nvote_mon >= # and zmb.p_el_mon > #"
+2019-02-27 11:28:00,1
+2019-02-27 11:30:00,2

@@ -1,0 +1,2 @@
+3,"SELECT TOP # S.objID, St.distance, S.psfMag_g FROM Star as S JOIN dbo.fGetNearbyObjEq (#, #, #) AS St ON S.objID = St.objID ORDER BY distance"
+2019-12-08 18:06:00,3

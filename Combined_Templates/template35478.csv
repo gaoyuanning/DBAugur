@@ -1,0 +1,2 @@
+1,"SELECT run1D, mjd , fiberID FROM SpecObj s WHERE s.z BETWEEN # AND #"
+2019-04-29 10:31:00,1

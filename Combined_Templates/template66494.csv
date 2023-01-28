@@ -1,0 +1,3 @@
+5,"select top # objid, ra, dec, z, modelMag_r, modelMag_i, modelMag_u, modelMag_z, modelMag_g from PhotoObj where dec BETWEEN # AND # and ra between # and # and z between # and #"
+2019-09-29 14:55:00,3
+2019-09-29 15:09:00,2

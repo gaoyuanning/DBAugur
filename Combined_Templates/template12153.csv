@@ -1,0 +1,2 @@
+1,"select s.Flux_OIII_#, s.Flux_Hb_#, s.Flux_NII_#, s.Flux_Ha_#, s.EW_Ha_# from emissionLinesPort as s where s.specobjid = #"
+2019-02-18 00:57:00,1

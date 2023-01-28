@@ -1,0 +1,2 @@
+1,"select top # p.objid, p.g, p.r, g.h_alpha_flux, g.nii_#_flux from GalSpecLine as g join GalSpecInfo as i on g.specobjid = i.specobjid join photoObj as p ON p.specobjid = g.specobjid join dbo.fGetObjFromRectEq (#, #, #, #) n on p.objid = n.objid join specObj s on p.objid = s.bestobjid and s.Class = # and s.z > = # and g.h_alpha_flux > # and g.nii_#_flux > # and g.h_alpha_flux_err < g.h_alpha_flux and g.nii_#_flux_err < g.nii_#_flux and i.subclass ! = AGN"
+2019-02-18 03:51:00,1

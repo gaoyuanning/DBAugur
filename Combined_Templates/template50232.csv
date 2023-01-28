@@ -1,0 +1,2 @@
+1,"SELECT top (#) p.objid, p.modelmag_r-#*log1# (#E+#*pz.z) +#, ra, dec, pz.z FROM PhotoObj as p join Photoz as pz on p.objid = pz.objid WHERE p.modelmag_r-#*log1# (#E+#*pz.z) +# < # and p.modelmag_r-#*log1# (#E+#*pz.z) +# > # AND pz.z> # AND pz.z < #."
+2019-07-07 06:49:00,1

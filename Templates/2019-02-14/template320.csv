@@ -1,0 +1,2 @@
+1,"select   s.ra ra,    s.dec dec,    dbo.fHMSbase(s.ra,default,default),   dbo.fDMSbase(s.dec,default,default) from   mydb.missymatch_coordinates s"
+2019-02-14 13:56:00,1

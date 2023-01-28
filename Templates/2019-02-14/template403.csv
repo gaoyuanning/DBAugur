@@ -1,0 +1,3 @@
+2,SELECT TOP # * into mydb.MyTable from dbo.emissionLinesPort
+2019-02-14 11:01:00,1
+2019-02-14 11:07:00,1

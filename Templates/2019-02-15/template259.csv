@@ -1,0 +1,2 @@
+1,select top # * from lahman_master m join lahman_batting b on b.playerID = m.playerID
+2019-02-15 14:15:00,1

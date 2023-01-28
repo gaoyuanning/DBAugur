@@ -1,0 +1,10 @@
+11,"SELECT top # objID, type, ra, dec, u, g, r, i, z, extinction_u, extinction_g, extinction_r, extinction_i, extinction_z FROM PhotoObj WHERE ra > # and ra < # AND dec > # and dec < #"
+2019-05-24 22:16:00,1
+2019-05-24 22:36:00,2
+2019-05-24 22:37:00,1
+2019-05-24 22:38:00,1
+2019-05-24 22:39:00,2
+2019-05-28 21:23:00,1
+2019-05-28 21:24:00,1
+2019-05-29 21:52:00,1
+2019-06-05 23:42:00,1

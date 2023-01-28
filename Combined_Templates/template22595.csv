@@ -1,0 +1,2 @@
+2,select t.phi0 into mydb.openSN_phi0_B from mydb.OpenSN t
+2019-03-22 12:29:00,2

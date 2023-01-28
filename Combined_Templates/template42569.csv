@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.dered_u, p.dered_g, p.dered_r, p.dered_i, p.dered_z, p.clean, p.flags FROM GALAXY as p, dbo.fGetNearbyObjEq (#, #, #) n WHERE p.objID = n.objID and p.petroRad_r > # ---bright problem and p.dered_r < # and dered_r > # and p.dered_i < # and p.dered_z < # and (flags & dbo.fPhotoFlags (#) ) = #"
+2019-05-29 11:48:00,1

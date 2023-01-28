@@ -1,0 +1,2 @@
+1,"select top # c.*, cast(tm.text as nvarchar(max)) from Messages c join TextMessages tm on tm.row_id = c.row_id"
+2019-03-06 10:53:00,1

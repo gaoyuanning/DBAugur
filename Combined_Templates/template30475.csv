@@ -1,0 +1,19 @@
+18,"CREATE TABLE [Acceleration_averages] (eid BIGINT NOT # , [Overall_acceleration_average_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Standard_deviation_of_acceleration_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Average_acceleration_#_#_#_#_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Average_acceleration_#_#_#_#_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Average_acceleration_#_#_#_#_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Average_acceleration_#_#_#_#_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Average_acceleration_#_#_#_#_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Average_acceleration_#_#_#_#_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Average_acceleration_#_#_#_#_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Average_acceleration_#_#_#_#_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Average_acceleration_#_#_#_#_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Average_acceleration_#_#_#_#_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Average_acceleration_#_#_#_#_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Average_acceleration_#_#_#_#_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Average_acceleration_#_#_#_#_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Average_acceleration_#_#_#_#_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Average_acceleration_#_#_#_#_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Average_acceleration_#_#_#_#_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Average_acceleration_#_#_#_#_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Average_acceleration_#_#_#_#_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Average_acceleration_#_#_#_#_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Average_acceleration_#_#_#_#_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Average_acceleration_#_#_#_#_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Average_acceleration_#_#_#_#_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Average_acceleration_#_#_#_#_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Average_acceleration_#_#_#_#_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Monday_average_acceleration_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Tuesday_average_acceleration_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Wednesday_average_acceleration_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Thursday_average_acceleration_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/cry"
+2019-04-15 13:26:00,1
+2019-04-15 13:36:00,1
+2019-04-16 08:58:00,1
+2019-04-16 09:00:00,1
+2019-04-16 10:13:00,1
+2019-04-16 10:15:00,1
+2019-04-16 10:18:00,1
+2019-04-17 11:28:00,1
+2019-04-23 09:46:00,1
+2019-04-23 10:53:00,1
+2019-04-24 09:56:00,1
+2019-04-24 13:21:00,1
+2019-04-29 11:40:00,1
+2019-04-30 11:45:00,1
+2019-04-30 15:40:00,1
+2019-05-01 09:29:00,1
+2019-05-02 09:36:00,1
+2019-05-02 10:37:00,1

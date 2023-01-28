@@ -1,0 +1,2 @@
+1,"SELECT top # m.ID, m.RA AS ra1, m.DEC AS dec1, galex.ra AS galex_ra, galex.dec AS galex_dec, galex.e_bv AS galex_e_bv, galex.dec AS galex_dec, galex.fuv_mag AS fuv_mag, galex.fuv_magerr AS fuv_magerr, galex.nuv_mag AS nuv_mag, galex.nuv_magerr AS nuv_magerr FROM MyDB.wise_clean AS m OUTER APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n LEFT JOIN GALEXGR6 AS galex ON n.objid = galex.objid into MyDB.wise_clean_galexphoto"
+2019-03-06 11:00:00,1

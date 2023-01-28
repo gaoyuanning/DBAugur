@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.deVPhi_r, p.deVAB_r, p.deVRad_r, p, s.z, q.z into mydb.table_galaxy_all_v0# from PhotoObjAll AS p JOIN Photoz AS s ON p.objid = s.objid JOIN SpecObjAll AS q ON p.specobjid = q.specobjid WHERE (q.class = #)"
+2019-05-01 03:18:00,1

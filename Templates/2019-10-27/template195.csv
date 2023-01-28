@@ -1,0 +1,5 @@
+4,"SELECT TOP # p.objID,s.z,p.petroMag_r FROM BESTDR7..SpecObj AS s JOIN BESTDR7..Galaxy AS p ON s.bestObjID = p.objID WHERE (p.primTarget & (dbo.fPrimTarget(&&&)) > #) AND (zWarning = #) ORDER BY p.petroMag_r ASC"
+2019-10-27 11:28:00,1
+2019-10-27 11:51:00,1
+2019-10-27 11:53:00,1
+2019-10-27 11:58:00,1

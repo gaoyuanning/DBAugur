@@ -1,0 +1,2 @@
+1,"SELECT P.ObjID, P.ra, P.dec, P.u, P.g, P.r, P.i, P.z I N T O mydb.MyTable F R O M Galaxy P WHERE (P.u - P.g > #) A N D (P.u - P.g < #) A N D (P.g - P.r > #) A N D (P.g - P.r < #) A N D (P.r - P.i < #) A N D (P.r - P.i > #) A N D (P.i - P.z < #) A N D (P.i - P.z > # - #*P.err_z) A N D (P.r < #) A N D ( (P.b < #) or (P.b > #) ) A N D (P.fiberMag_g < P.fiberMag_z) into mydb.MyTable"
+2019-08-05 15:12:00,1

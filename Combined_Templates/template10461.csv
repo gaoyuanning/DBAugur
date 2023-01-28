@@ -1,0 +1,2 @@
+1,"SELECT distinct objID, modelMag_r, petroRad_r FROM PhotoObj WHERE (ra between # and #) and (dec between # and #) and class = # order by objID"
+2019-02-12 03:45:00,1

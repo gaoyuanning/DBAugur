@@ -1,0 +1,2 @@
+2,"SELECT DISTINCT s.gsc, s.starname, s.teff, dfdi.survey, dfdi.rv, dfdi.mjd FROM marvelsVelocityCurveDFDI AS dfdi JOIN marvelsStar AS s ON s.starname = dfdi.starname"
+2019-07-12 12:35:00,2

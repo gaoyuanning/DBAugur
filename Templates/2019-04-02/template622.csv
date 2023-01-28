@@ -1,0 +1,2 @@
+1,"SELECT Galaxy.ra,Galaxy.dec,Galaxy.dered_u,Galaxy.dered_g,Galaxy.dered_r,Galaxy.dered_i,Galaxy.dered_z,Photoz.z,Photoz.zErr into mydb.MyTable from Photoz,Galaxy WHERE  and Photoz.z between # and #"
+2019-04-02 05:27:00,1

@@ -1,0 +1,2 @@
+1,"SELECT top # b.objid, m.BOSS_HEADS_DEC as dec, m.BOSS_HEADS_RA as ra, b.distance, G.psfMag_g - G.psfMag_i as Colour, G.psfMag_g into mydb.HST_test from MyDB.RA_AND_DEC m CROSS APPLY dbo.fGetNearbyObjEq (m.BOSS_HEADS_RA, m.BOSS_HEADS_DEC, .#) b join PhotoObj as G ON G.objid = b.objid WHERE b.distance < .# AND G.type = # AND G.psfMag_g < # ORDER BY b.distance"
+2019-04-17 14:36:00,1

@@ -1,0 +1,2 @@
+1,"select count(*) as count from galaxy p, dbo.fgetNearByObjEq(#,+#,) n where p.objid=n.objid"
+2019-09-21 18:02:00,1

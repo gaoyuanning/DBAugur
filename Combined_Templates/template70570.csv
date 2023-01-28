@@ -1,0 +1,4 @@
+3,"SELECT s.redshift, s.l_# FROM #upload u JOIN spiders_quasars ON (s.plate = u.up_plate AND s.mjd = u.up_mjd AND s.fiberID = u.up_fiber ##', @log = #, @filter = #"
+2019-10-19 20:50:00,1
+2019-10-19 20:52:00,1
+2019-10-19 20:53:00,1

@@ -1,0 +1,2 @@
+1,"SELECT t.SDSS_ID, p.dr8objid INTO hoy FROM MyDB.listaossy t, photoPrimaryDR7 p WHERE t.SDSS_ID = p.dr7objid"
+2019-05-16 06:55:00,1

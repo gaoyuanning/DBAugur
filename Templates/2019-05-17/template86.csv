@@ -1,0 +1,2 @@
+1,"select top # objid, petroR5#_r, run, camcol, field from galaxytag where  (petroMag_g - petroMag_r) > #"
+2019-05-17 19:02:00,1

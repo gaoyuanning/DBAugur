@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.ra,p.dec,p.modelMag_u,p.psfMag_u p.objid FROM SpecPhotoAll AS p WHERE p.ra BETWEEN # AND #"
+2019-01-06 19:38:00,1

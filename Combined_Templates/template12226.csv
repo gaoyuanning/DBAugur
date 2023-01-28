@@ -1,0 +1,2 @@
+2,"SELECT ra AS UP_RA, dec AS UP_DEC, rad as UP_RAD, id AS UP_ID FROM mydb.radius ORDER BY id CREATE TABLE #tmp (up_id int, objid bigint) INSERT INTO #tmp EXEC spGetNeighborsRadius INSERT INTO mydb.neighbors SELECT a.ra, a.dec, a.rad, a.id, a.redshift, t.objid, g.r FROM #tmp t, mydb.radius a, Galaxy g WHERE t.up_id = a.id AND t.objid = g.objID AND g.r < # ORDER BY a.id, t.objid"
+2019-02-19 15:13:00,2

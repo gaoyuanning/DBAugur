@@ -1,0 +1,2 @@
+1,"SELECT    L.objID, L.ra, L.dec, L.u, L.g, L.r, L.i, L.z,    L.fracDev_g, L.petroRad_g, L.petroR9#_g, L.expAB_g, L.expRad_g,    L.deVRad_g,    ((L.g + #*(L.g - L.r) + #) + (#*LOG1#(#*PI()*(L.petroR9#_r)*(L.petroR9#_r))) + (#*LOG1#(L.expAB_r)) -(#*LOG1#(#+L.z))) as moB,    dbo.fGetUrlNavId(L.objid) as link into mydb.MyTable from LSBGs L WHERE     ((L.g + #*(L.g - L.r) + #) + (#*LOG1#(#*PI()*(L.petroR9#_r)*(L.petroR9#_r))) + (#*LOG1#(L.expAB_r)) -(#*LOG1#(#+L.z))) = #"
+2019-08-07 15:29:00,1

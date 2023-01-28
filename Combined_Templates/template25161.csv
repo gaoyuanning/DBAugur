@@ -1,0 +1,2 @@
+2,"SELECT l.*, n.objID as dominantID, n.neighborObjID INTO DR5_neighbors FROM DR5.neighbors as n, mydb.DR5_lrgs as l WHERE l.objID = n.objID ORDER BY l.ra"
+2019-03-28 08:47:00,2

@@ -1,0 +1,4 @@
+4,"SELECT TOP #   a.OBJID, a.RA, a.DEC    FROM    MyDB.akari_# as a         OUTER APPLY dbo.fGetNearestObjIdEq(a.RA, a.DEC, #) AS n    LEFT JOIN photoobjall AS o ON n.objid = a.objid"
+2019-08-26 08:28:00,1
+2019-08-26 08:29:00,1
+2019-08-26 08:35:00,2

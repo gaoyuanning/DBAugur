@@ -1,0 +1,2 @@
+1,select * from DBObjects inner join specObjAll on specObjID
+2019-03-09 20:30:00,1

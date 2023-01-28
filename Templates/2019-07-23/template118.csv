@@ -1,0 +1,14 @@
+13,"SELECT g.objid,g.ra,g.dec,p.z,p.zErr,q.u,q.g,q.r,q.i,q.z FROM GALAXY as g JOIN PhotoZ as p ON p.objID = g.ObjID JOIN PhotoObjAll as q ON q.objID = g.objID WHERE (g.ra between # and #) and (g.dec between # and #)"
+2019-07-23 00:51:00,1
+2019-07-23 01:07:00,1
+2019-07-23 02:14:00,1
+2019-07-23 05:45:00,1
+2019-07-23 06:44:00,1
+2019-07-23 07:01:00,1
+2019-07-23 07:04:00,1
+2019-07-23 07:36:00,1
+2019-07-23 07:46:00,1
+2019-07-23 17:32:00,1
+2019-07-23 17:54:00,1
+2019-07-23 17:57:00,1
+2019-07-23 18:21:00,1

@@ -1,0 +1,2 @@
+1,"select dec as #, ra as #, z as #, fiber2Mag_z, petroMag_z from mydb.MyTable where (fiber2MagErr_z/fiber2Mag_z) between # and #"
+2019-06-09 16:45:00,1

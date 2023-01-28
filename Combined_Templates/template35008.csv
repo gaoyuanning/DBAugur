@@ -1,0 +1,3 @@
+2,"SELECT TOP # objID, ra , dec , dered_u, dered_g, dered_r , dered_z , dered_i into mydb.test1 from PhotoObj WHERE ra > # and ra < # and dec > # and dec < # and clean = # and dered_u < # and dered_g < # and dered_r < # and dered_i < # and dered_z < #"
+2019-04-26 08:53:00,1
+2019-04-26 09:03:00,1

@@ -1,0 +1,3 @@
+2,SELECT * into mydb.MyTable from SpecLine as Q_SpecLine
+2019-11-22 11:25:00,1
+2019-11-22 11:26:00,1

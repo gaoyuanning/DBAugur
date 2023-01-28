@@ -1,0 +1,2 @@
+1,"SELECT m.objid, m.ra AS ra1, m.de AS dec1, n.objid, petroRad_u, petroRadErr_u, petroRad_g, petroRadErr_g, petroRad_r, petroRadErr_r, petroRad_i, petroRadErr_i, petroRad_z, petroRadErr_z, modelMag_u, modelMagErr_u, modelMag_g, modelMagErr_g, modelMag_r, modelMagErr_r, modelMag_i, modelMagErr_i, modelMag_z, modelMagErr_z, o.ra AS ra2, o.dec AS dec2 into mydb.final_petro from MyDB.final_# AS m CROSS APPLY dbo.fGetNearestObjEq (m.ra, m.de, #) AS n JOIN PhotoObjAll AS o ON n.objid = o.objid"
+2019-06-16 19:46:00,1

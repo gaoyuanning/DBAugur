@@ -1,0 +1,2 @@
+3,"SELECT objID, ra, dec, psfMag_r , extinction_r, psfMagErr_r FROM PhotoObj ? WHERE (ra between # and #) and (dec between # and #)"
+2019-09-20 16:15:00,3

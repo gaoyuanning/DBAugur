@@ -1,0 +1,2 @@
+1,"select b.Name, n.objID, b.RA2 as ra, b.Dec2 as dec, b.new_vlass as vlass into mydb.bd_invlass_objid_spec from mydb.bd_invlass as b CROSS APPLY dbo.fGetNearestObjEq (b.RA2, b.Dec2, #) AS n join dbo.SpecObj as o on o.TargetObjID = n.objID"
+2019-12-26 15:50:00,1

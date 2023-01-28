@@ -1,0 +1,2 @@
+1,"SELECT TOP # CONVERT (DECIMAL (#, #) , p.ra) , CONVERT (DECIMAL (#, #) , p.modelMag_u) , p.u_u FROM photoObjAll AS p"
+2019-04-20 04:52:00,1

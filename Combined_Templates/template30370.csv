@@ -1,0 +1,5 @@
+4,"SELECT EID, [Mean_time_to_correctly_identify_matches_#], [Index_for_card_A_in_round_#], [Index_for_card_B_in_round_#], [Number_of_times_snap_button_pressed_#], [Number_of_times_snap_button_pressed_pilot__#], [Duration_to_first_press_of_snap_button_in_each_round_#], [Duration_to_first_press_of_snap_button_in_each_round_pilot__#] FROM [r2#]Reaction_time GO"
+2019-04-15 14:29:00,1
+2019-04-15 14:31:00,1
+2019-04-15 14:33:00,1
+2019-04-15 14:35:00,1

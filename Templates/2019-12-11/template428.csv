@@ -1,0 +1,2 @@
+1,"select bestObjID, ra, dec, modelmag_u, modelmag_g, modelmag_r, modelmag_i, modelmag_z from galaxy where ra ># and ra < # and modelmag_g > # and modelmag_u - modelmag_g > #"
+2019-12-11 08:39:00,1

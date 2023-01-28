@@ -1,0 +1,2 @@
+1,"SELECT TOP # z, ra, dec into mydb.MyTable from SpwcObj WHERE abs (z-#) < #"
+2019-09-18 07:25:00,1

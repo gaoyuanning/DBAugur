@@ -1,0 +1,2 @@
+1,"select ra, dec, fiberId, ObjId, class, count (z) as num_redshift from SpecPhoto where ra BETWEEN # and # AND dec BETWEEN # and # group by class"
+2019-05-07 17:18:00,1

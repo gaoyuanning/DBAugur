@@ -1,0 +1,2 @@
+1,"SELECT  g.objid, g.specobjid, sp.specobjid, sp.plate,sp.mjd,sp.fiberid,sp.z as redshift, sp.zErr as redshift_err, sp.z_noqso, sp.zErr_noqso, sp.veldisp as sp_vdisp, sp.veldisperr as sp_vdisp_err FROM SpecObj AS sp JOIN Galaxy AS g ON g.objid = sp.bestobjid JOIN stellarMassPCAWiscBC0# AS pca ON sp.specobjid = pca.specObjID WHERE (sp.plate = # and sp.mjd = # and sp.fiberid = #)"
+2019-08-13 04:25:00,1

@@ -1,0 +1,2 @@
+1,"CREATE TABLE Qfeeds_matches (objid bigint, ra float, dec float, search_id int, matched_id bigint, ) ;"
+2019-08-08 07:36:00,1

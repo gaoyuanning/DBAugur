@@ -1,0 +1,2 @@
+1,"SELECT TOP # specObjID, ra, dec, i, z FROM Galaxy as g JOIN SpecObj AS s ON s.parentID = s.class WHERE s.parentID = #"
+2019-04-15 16:50:00,1

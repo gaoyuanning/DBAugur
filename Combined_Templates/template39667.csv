@@ -1,0 +1,2 @@
+1,"SELECT t.SDSS_ID, s.dr7objid, p.ObjID as dr1#objid INTO convite2 FROM MyDB.ossy t, SpecDR7 s, PhotoObj p WHERE t.SDSS_ID = s.DR7ObjID AND p.specobjid = s.specobjid"
+2019-05-15 11:39:00,1

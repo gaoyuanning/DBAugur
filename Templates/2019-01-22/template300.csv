@@ -1,0 +1,3 @@
+2,"SELECT top # b.objid, m.BOSS_HEADS_DEC as dec, m.BOSS_HEADS_RA as ra, b.distance    p.ra as Gal_ra, p.dec as Gal_dec, p.u_r, p.q_r, p.petror5#_r from MyDB.RA_AND_DEC m   CROSS APPLY dbo.fGetNearbyObjEq(m.BOSS_HEADS_RA,m.BOSS_HEADS_DEC, .#) b   Join PhotoObjAll as p on p.objid=b.objid"
+2019-01-22 16:01:00,1
+2019-01-22 16:02:00,1

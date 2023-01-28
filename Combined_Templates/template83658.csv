@@ -1,0 +1,8 @@
+7,"SELECT TOP # s.plate, s.mjd, s.fiberid FROM ..SpecObj as s JOIN PhotoObj AS p ON s.bestobjid = p.objid WHERE (p.i - p.z) > # AND (p.i - p.z) < # AND p.u > #"
+2019-12-18 03:22:00,1
+2019-12-18 09:06:00,1
+2019-12-19 21:54:00,1
+2019-12-20 00:34:00,1
+2019-12-22 16:03:00,1
+2019-12-26 03:32:00,1
+2019-12-27 16:55:00,1

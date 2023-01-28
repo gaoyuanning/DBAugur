@@ -1,0 +1,2 @@
+1,select count(*) from [myscratch:default].efeds as rows where brickname = &&&
+2019-10-29 08:22:00,1

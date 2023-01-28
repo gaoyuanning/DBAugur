@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid, p.run, p.rerun, p.camcol, p.field, p.obj, p.ra, p.dec FROM PhotoObjAll AS p WHERE p.camcol = #"
+2019-10-16 09:23:00,1

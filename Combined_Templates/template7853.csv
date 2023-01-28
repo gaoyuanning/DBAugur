@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.modelMagErr_u, p.modelMagErr_g, p.modelMagErr_r, p.modelMagErr_i, p.modelMagErr_z into mydb.testing from PhotoObj as p, mydb.test_sql as u, dbo.fGetNearbyObjEq (u.ra, u.dec, #) as n WHERE n.objID = p.objID"
+2019-02-03 12:17:00,1

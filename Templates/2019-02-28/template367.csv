@@ -1,0 +1,11 @@
+11,"SELECT ALL s.bestobjid, p.objid, p.ra, p.dec, p.petror9#_r, p.dered_g, p.dered_r , p.g, p.r, p.err_g,  s.z as z_spec, s.zErr, zmb.p_cw_mr1, zmb.p_acw_mr1    FROM Galaxy as p    JOIN zooMirrorBias AS zmb ON p.specobjid = zmb.objid    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.clean=# and zmb.p_acw_mr1 >=#"
+2019-02-28 12:02:00,1
+2019-02-28 12:05:00,1
+2019-02-28 13:26:00,1
+2019-02-28 13:31:00,1
+2019-02-28 13:35:00,1
+2019-02-28 13:36:00,1
+2019-02-28 13:37:00,1
+2019-02-28 13:39:00,2
+2019-02-28 13:53:00,1
+2019-02-28 13:57:00,1

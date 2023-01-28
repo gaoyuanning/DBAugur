@@ -1,0 +1,2 @@
+1,"select top # objID, ra , dec , dered_u, dered_g, dered_r , dered_z , dered_i intro mydb.new into mydb.MyTable from PhotoOjecttAll WHERE ra > # and ra < # and dec > # and dec < # and clean = # and dered_u < # and dered_g < # and dered_r < # and dered_# < # and dered_Z < #"
+2019-04-25 07:47:00,1

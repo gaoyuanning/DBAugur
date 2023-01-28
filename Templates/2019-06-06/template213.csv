@@ -1,0 +1,2 @@
+1,"SELECT top #   id, RAdeg,DEdeg, dbo.fGetNearestObjIdEq(ra,dec,#) as objId into mydb.MyTable_# from mydb.Dani_table_Chiara_new WHERE dbo.fGetNearestObjIdEq(ra,dec,#) IS NOT NULL"
+2019-06-06 12:49:00,1

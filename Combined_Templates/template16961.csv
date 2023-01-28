@@ -1,0 +1,2 @@
+1,"SELECT count (*) as #, sum (case when (Type = #) then # else # end) as #, sum (case when (Type = #) then # else # end) as #, sum (case when (Type not IN () ) then # else # end) as #, php.b, php.l FROM PhotoPrimary as php WHERE (php.b between # and #) and (php.l between # and #)"
+2019-03-04 14:18:00,1

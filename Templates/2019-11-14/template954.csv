@@ -1,0 +1,2 @@
+2,"SELECT bottom # z,ra,dec FROM specObj WHERE class=&&& AND ra># AND ra<# AND dec># AND dec<# AND z<# AND zWarning=#"
+2019-11-14 03:19:00,2

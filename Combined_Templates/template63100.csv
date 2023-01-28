@@ -1,0 +1,2 @@
+1,"select avg (p.SkyVersion) , count (pz.ObjID) from PhotoTag p, Photoz2 pz where p.ObjID = pz.ObjID AND flag = # AND p.petroMag_r-p.Extinction_r< # into MyDB.test2"
+2019-09-14 18:20:00,1

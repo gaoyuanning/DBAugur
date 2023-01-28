@@ -1,0 +1,3 @@
+2,"SELECT TOP # sp.objID, sp.ra, sp.dec, sp.plateID AS plateID, sp.plate AS plate, sp.mjd AS mjd, sp.fiberID AS fiberID, sp.z AS Z, sp.zErr AS Z_Err, sp.psfmag_u, sp.psfmag_g, sp.psfmag_r, sp.psfmag_i, sp.psfmag_z FROM specPhotoALL AS sp JOIN galSpecExtra AS gse ON (sp.specObjID = gse.specObjID) WHERE zWarning = # AND ( (Z > #) AND (Z < #) ) ORDER BY Z"
+2019-02-14 23:11:00,1
+2019-02-14 23:12:00,1

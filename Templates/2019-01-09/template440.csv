@@ -1,0 +1,2 @@
+1,"SELECT TOP #     f.fieldID,      f.raMin, f.raMax, f.decMin, f.decMax,      r.stripe, f.run, f.rerun, f.camcol, f.field FROM dbo.Run r INNER JOIN Field f ON f.run = r.run AND f.rerun = r.rerun WHERE stripe = #"
+2019-01-09 05:48:00,1

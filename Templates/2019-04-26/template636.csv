@@ -1,0 +1,2 @@
+1,"select top #   ra, dec, sky_u, sky_r, sky_i, objid into mydb.algol from PhotoObjAll   where     (ra between # and #) and     (dec between # and #)"
+2019-04-26 03:07:00,1

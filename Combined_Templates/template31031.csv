@@ -1,0 +1,2 @@
+1,"SELECT p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.deVPhi_r, p.q_r, p.u_r into mydb.test from PhotoObjAll AS p WHERE ( ((p.ra BETWEEN # AND #) AND (p.dec BETWEEN # AND #) )) AND p.g< #"
+2019-04-16 03:39:00,1

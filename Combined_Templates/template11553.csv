@@ -1,0 +1,2 @@
+1,"select photo.objID, photo.ra, photo.dec, photo.type from PhotoObj photo where abs (photo.ra) < # and abs (photo.dec) < #"
+2019-02-15 20:25:00,1

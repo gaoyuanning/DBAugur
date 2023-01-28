@@ -1,0 +1,2 @@
+1,"select count(s.bestObjID) as num_objs, (max(e.zerr/e.z)-min(e.zerr/e.z))/# as med_fzerr from wise_xmatch as xm  join SpecObjAll as s on xm.sdss_objid = s.bestObjID  join PhotoObjAll as p on xm.sdss_objid = p.objID  join emissionLinesPort as e on s.specObjID = e.specObjID  join wise_allsky as w on xm.wise_cntr = w.cntr where xm.match_dist<=# and s.zwarning=# and e.z># and e.zerr/e.z<=#"
+2019-01-03 13:42:00,1

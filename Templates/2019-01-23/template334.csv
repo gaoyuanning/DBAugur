@@ -1,0 +1,2 @@
+1,"SELECT MPA JHU for BPT: SELECT so.specObjID, so.ra, so.dec, so.plate, so.mjd, so.fiberID, gsl.oiii_#_flux, gsl.h_beta_flux, gsl.nii_#_flux, gsl.h_alpha_flux, so.z, so.snMedian_g"
+2019-01-23 11:04:00,1

@@ -1,0 +1,2 @@
+1,"SELECT   sp.specObjId AS specObjId,   sp.ra AS RA_sdss,   sp.dec AS DEC_sdss,   sp.z AS zsp,   sp.zErr AS e_zsp,   sp.class AS class,   sp.subClass AS subClass,   sp.zWarning AS zWarning,    sp.mode AS mode,      sp.modelMag_u AS umag,   sp.modelMag_g AS gmag,   sp.modelMag_r AS rmag,   sp.modelMag_i AS imag,   sp.modelMag_z AS zmag,      sp.modelMagErr_u AS e_umag,   sp.modelMagErr_g AS e_gmag,   sp.modelMagErr_r AS e_rmag,   sp.modelMagErr_i AS e_imag,   sp.modelMagErr_z AS e_zmag,    INTO   SpecPhotoAll    FROM   SpecPhotoAll as sp"
+2019-08-19 11:21:00,1

@@ -1,0 +1,2 @@
+1,"SELECT sp.ra, sp.dec, sp.z, g.lgm_tot_p5#	  FROM SpecPhoto	AS sp   JOIN galSpecExtra AS g ON  WHERE ra BETWEEN # AND #   AND dec BETWEEN # AND #   AND z < #   AND class=&&&"
+2019-04-26 12:57:00,1

@@ -1,0 +1,2 @@
+1,"SELECT p.specObjID, p.type, p.u, p.g, p.r, p.i, p.z FROM PhotoObjAll as p WHERE p.type = #     and p.ra > # ORDER BY p.specObjID"
+2019-11-02 10:43:00,1

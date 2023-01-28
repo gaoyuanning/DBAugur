@@ -1,0 +1,2 @@
+1,"SELECT TOP # lnlstar_g, lnldev_g, lnlexp_g, fracdev_g FROM PhotoObjall WHERE fracdev_g > #"
+2019-10-11 02:19:00,1

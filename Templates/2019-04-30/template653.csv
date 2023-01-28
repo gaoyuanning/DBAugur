@@ -1,0 +1,3 @@
+2,"select top ra,dec,z , modelmag_u-modelmag_r , modelmag_r-modelmag_z  modelMag_i,modelMag_z,objID into mydb.MyTable from GALAXY where   modelmag_u-modelmag_r > # AND   modelmag_r-modelmag_z < # AND   modelmag_u- modelmag_r > # + # * modelmag_r-modelmag_z"
+2019-04-30 04:55:00,1
+2019-04-30 04:57:00,1

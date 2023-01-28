@@ -1,0 +1,2 @@
+1,"SELECT TOP # str(p.ra,#,#) as ra,str(p.[dec],#,#) as dec FROM BESTDR7..Galaxy AS p"
+2019-11-01 07:28:00,1

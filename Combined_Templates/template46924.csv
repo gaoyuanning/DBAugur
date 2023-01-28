@@ -1,0 +1,2 @@
+2,"SELECT T.ID, T.hostra, T.hostdec, P.petroMag_r INTO mydb.SQL_Table_rmag FROM mydb.SQL_Table_ObjID as T, DR1#.photoObj as P WHERE P.ObjID = T.ObjID"
+2019-06-20 17:29:00,2

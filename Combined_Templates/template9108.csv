@@ -1,0 +1,4 @@
+3,"select p.dr7objid, p.dr8objid from photoprimarydr7 as p, fGetNearbyObjEq (#, #, #) as n where n.objid = p.dr7objid"
+2019-02-08 08:30:00,1
+2019-02-08 08:34:00,1
+2019-02-08 08:38:00,1

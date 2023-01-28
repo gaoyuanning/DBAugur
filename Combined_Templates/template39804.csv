@@ -1,0 +1,2 @@
+1,"SELECT up_id, dbo.fGetNearestSpecObjIdEq (up_ra, up_dec, #) as SpecobjId FROM #upload WHERE dbo.fGetNearestSpecObjIdEq (up_ra, up_dec, #) IS NOT # SELECT u.up_name as [name], s.specobjid, s.ra, s.dec, s.plate, s.mjd, s.fiberid, p.objID, p.run, p.rerun, p.camcol, p.field FROM #upload u JOIN #x x ON x.up_id = u.up_id JOIN SpecObjAll s ON s.specObjID = x.specObjID JOIN PhotoTag p ON p.objID = s.bestObjID"
+2019-05-15 01:38:00,1

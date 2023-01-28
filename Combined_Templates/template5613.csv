@@ -1,0 +1,2 @@
+1,"SELECT top # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.err_u, p.err_g, p.err_r, p.err_i, p.err_z, s.firstRelease, s.survey, s.instrument, s.z as redshift, s.zErr as zErr FROM Galaxy AS p JOIN SpecObj AS s ON s.bestobjid = p.objid ORDER BY s.zErr DESC"
+2019-01-24 20:50:00,1

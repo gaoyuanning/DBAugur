@@ -1,0 +1,3 @@
+2,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.run, p.rerun, p.camcol, p.field, s.specobjid, s.class, s.z as redshift, s.plate, s.mjd, s.fiberid, pro.profmean FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN PhotoProfile AS pro ON p.objid = pro.objid WHERE s.plate = # and s.fiberid = # and s.mjd = #"
+2019-03-21 14:39:00,1
+2019-03-21 14:41:00,1

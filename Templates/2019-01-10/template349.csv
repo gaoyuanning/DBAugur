@@ -1,0 +1,2 @@
+1,"select data.*, spec.zWarning from MyDB.DR1#_MGS_HETDEX_Data2 as data, DR1#.specObj as spec where data.specObjID = spec.specObjID   and spec.z < # and spec.z > #   and spec.zWarning = #"
+2019-01-10 08:39:00,1

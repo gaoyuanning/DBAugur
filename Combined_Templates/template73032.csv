@@ -1,0 +1,4 @@
+3,"select p.objid, p.u, p.g, p.r, p.i, p.z from star p where (p.g BETWEEN # AND #)"
+2019-11-01 16:42:00,1
+2019-11-01 16:43:00,1
+2019-11-01 18:28:00,1

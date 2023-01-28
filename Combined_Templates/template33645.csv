@@ -1,0 +1,4 @@
+3,select top # * into MyDB.MySources from Source
+2019-04-24 07:14:00,1
+2019-04-24 07:16:00,1
+2019-04-25 12:05:00,1

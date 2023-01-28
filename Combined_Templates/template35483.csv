@@ -1,0 +1,2 @@
+1,"SELECT s.run, s.mjd, s.fiberid INTO mydb.DR9MyTable FROM SpecObj as s WHERE s.z BETWEEN # AND #"
+2019-04-29 10:31:00,1

@@ -1,0 +1,3 @@
+2,"SELECT    dbo.fIAUFromEq(s.ra,s.[dec]) as SDSSname,   s.ra, s.dec    from SpecPhotoAll as s JOIN mydb.xavi as g ON s.ra = g.ra"
+2019-11-05 12:01:00,1
+2019-11-05 12:03:00,1

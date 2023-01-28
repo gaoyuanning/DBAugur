@@ -1,0 +1,2 @@
+1,"SELECT m.objra, m.objdec, m.z as redshift FROM mangaDRPall as m JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE # < = m.z < = # ORDER BY m.ra"
+2019-11-21 07:37:00,1

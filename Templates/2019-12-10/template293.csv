@@ -1,0 +1,2 @@
+2,"SELECT   W.ra as wise_ra, W.dec as wise_dec,W.w1mpro as w1,W.w1sigmpro as w1err,W.w2mpro as w2,W.w2sigmpro as w2err,W.w3mpro as w3,W.w3sigmpro as w3err,W.w4mpro as w4,W.w4sigmpro as w4err,   W.j_m_#mass, W.j_msig_#mass, W.h_m_#mass, W.h_msig_#mass, W.k_m_#mass, W.k_msig_#mass into mydb.J1#_wise from wise_allsky as W WHERE W.ra BETWEEN # AND # AND W.dec BETWEEN # AND #"
+2019-12-10 12:56:00,2

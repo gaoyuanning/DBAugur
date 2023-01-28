@@ -1,0 +1,2 @@
+2,"SELECT p.objid,p.ra,p.dec into mydb.MyFirstTable FROM dr7.PhotoObj AS p JOIN dr7.SpecObj AS s ON s.bestobjid = p.objid"
+2019-09-17 18:31:00,2

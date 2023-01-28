@@ -1,0 +1,2 @@
+1,"SELECT TOP # INTO MYDB.MyTable_# p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,   p.run, p.rerun, p.camcol, p.field,    s.class, s.z,    s.plate, s.mjd, s.fiberid,s.specObjID from PhotoObj AS p   JOIN SpecObj AS s ON s.bestObjId= p.objid WHERE s.class=&&& AND p.ra between # and # and p.dec between # and  #,# and s.z<=#"
+2019-09-25 12:24:00,1

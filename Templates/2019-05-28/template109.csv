@@ -1,0 +1,5 @@
+4,"select top # p.objid as name, p.ra, p.dec from photoobj p where p.r < # and p.g-p.r > # and p.r-p.i < # and p.i-p.z > #"
+2019-05-28 20:21:00,1
+2019-05-28 20:23:00,1
+2019-05-28 20:33:00,1
+2019-05-28 20:35:00,1

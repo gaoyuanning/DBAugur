@@ -1,0 +1,2 @@
+1,"select sp.plate, sp.mjd, sp.fiberid, sp.g0, sp.gmr0, sl.caIIK, sl.caIIKerr, sl.caIIKmask, sp.feha, sp.fehaerr, sp.fehan, sp.logga, sp.loggaerr, sp.loggan from sppLines as sl, sppParams as sp where feha < # and fehaerr between # and # and fehan > # and g0 < # and sl.specobjid = sp.specobjid"
+2019-08-30 10:54:00,1

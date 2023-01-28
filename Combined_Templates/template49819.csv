@@ -1,0 +1,4 @@
+5,"select table_name, column_name, datatype, url from metadata.COLUMNS order by table_name, ordinal_position"
+2019-07-04 12:57:00,1
+2019-07-12 15:27:00,1
+2019-07-16 10:41:00,3

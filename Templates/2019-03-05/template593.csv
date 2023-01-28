@@ -1,0 +1,2 @@
+2,"SELECT p.objID, s.specObjID, s.mjd as mjd_spec, s.plate, s.fiberID, s.ra, s.dec,s.survey, s.instrument, s.programname INTO  [myscratch:default].foot_test from PhotoPrimary p       LEFT JOIN SpecObjAll AS s ON p.ObjID = s.bestObjID WHERE (s.survey = &&& AND s.programname = &&&) OR (s.survey = &&&  AND s.programname = &&&)"
+2019-03-05 11:00:00,2

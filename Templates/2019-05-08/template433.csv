@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.ra,p.dec, s.z, p.dered_u, p.dered_r,  s.velDisp, s.velDispErr, p.petroRad_r, p.petroRadErr_r, g.lgm_tot_p2p5  FROM  PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN galSpecExtra AS g ON g.specObjID = s.bestobjid"
+2019-05-08 09:38:00,1

@@ -1,0 +1,2 @@
+2,"SELECT my.id, my.ra_s, my.dec_s, my.bmag, my.bvcolor, my.z_s, match.distance, p.z FROM MyDB.s2# AS my   CROSS APPLY dbo.fGetNearestObjEq(my.ra_s, my.dec_s, #) AS match   JOIN SpecPhoto AS P ON p.objid = match.objid"
+2019-02-12 12:25:00,2

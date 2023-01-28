@@ -1,0 +1,2 @@
+1,"SELECT sp.skyVersion, sp.run, sp.rerun, sp.camcol, sp.field, sp.obj, sp.mode, sp.nChild, sp.type, sp.flags into mydb.DR1#_# from SpecPhoto AS sp WHERE z BETWEEN # AND # AND class = #"
+2019-01-31 12:16:00,1

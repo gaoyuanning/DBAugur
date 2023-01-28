@@ -1,0 +1,2 @@
+1,SELECT TOP # objID FROM PhotoObjAll INNER JOIN specObjAll ON PhotoObjAll.objid=specObjAll.objid
+2019-03-25 15:57:00,1

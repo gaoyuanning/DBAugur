@@ -1,0 +1,5 @@
+4,"SELECT p.objID as objid, p.ra as ra, p.dec as dec, p.u as uSDSS, p.err_u as uSDSS_err, p.g as gSDSS, p.err_g as gSDSS_err, p.r as rSDSS, p.err_r as rSDSS_err, p.i as iSDSS, p.err_i as iSDSS_err, p.z as zSDSS, p.err_z as zSDSS_err, p.psfMag_r as psf_rSDSS, p.psfMagErr_r as psf_rSDSS_err, p.psfMag_g as psf_gSDSS, p.psfMagErr_g as psf_gSDSS_err, p.fiberMag_r as fib_rSDSS, p.fiberMagErr_r as fib_rSDSS_err, p.fiberMag_g as fib_gSDSS, p.fiberMagErr_g as fib_gSDSS_err, p.probPSF_r as probPSFstar_r, p.probPSF_g as probPSFstar_g, p.type_r as type_r, p.type_g as type_g INTO mydb.jplusTile FROM dr1#.PhotoObjAll AS p WHERE p.ra BETWEEN # AND # AND p.dec BETWEEN # AND # AND p.clean = # AND (p.calibStatus_r & #) ! = # ORDER BY p.objID"
+2019-12-17 04:12:00,1
+2019-12-17 04:14:00,1
+2019-12-17 05:30:00,1
+2019-12-17 05:32:00,1

@@ -1,0 +1,2 @@
+1,"SELECT   i.ra,   i.dec,   i.z,   l.oii_#_flux,   l.oii_#_flux_err,   l.oii_#_flux,   l.oii_#_flux_err,   l.h_beta_flux,   l.h_beta_flux_err,   l.oiii_#_flux,   l.oiii_#_flux_err,   l.oiii_#_flux,   l.oiii_#_flux_err,   l.oi_#_flux,   l.oi_#_flux_err,   l.nii_#_flux,   l.nii_#_flux_err,   l.h_alpha_flux,   l.h_alpha_flux_err,   l.nii_#_flux,   l.nii_#_flux_err,   l.sii_#_flux,   l.sii_#_flux_err,   l.sii_#_flux,   l.sii_#_flux_err into mydb.specline from dr1#.galSpecLine AS l JOIN dr1#.galSpecInfo AS i ON l.specobjid = i.specobjid"
+2019-08-04 07:47:00,1

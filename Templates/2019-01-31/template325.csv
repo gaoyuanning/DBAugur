@@ -1,0 +1,4 @@
+5,"SELECT   ra, dec, modelMag_u, modelMag_g,modelMag_r,modelMag_i,modelMag_z, z, zErr    FROM SpecPhotoAll  WHERE class = &&& and zErr <= # and ra between # and # and dec between # and # and modelMag_i <= #"
+2019-01-31 15:07:00,1
+2019-01-31 15:08:00,3
+2019-01-31 15:52:00,1

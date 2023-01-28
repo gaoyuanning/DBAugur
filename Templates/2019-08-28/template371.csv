@@ -1,0 +1,2 @@
+1,"SELECT str(p.ra,#,#) as ra,str(p.dec,#,#) as dec FROM BESTDR7..Star AS p  JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON p.objID=b.objID  WHERE p.r<# AND p.r>#"
+2019-08-28 02:22:00,1

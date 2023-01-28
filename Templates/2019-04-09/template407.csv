@@ -1,0 +1,2 @@
+1,"select all s.ra,s.dec,p.petroRad_r,p.petroMag_r from specObj s join photoObj p on s.bestObjID=p.objID where s.z<# LIMIT #"
+2019-04-09 13:32:00,1

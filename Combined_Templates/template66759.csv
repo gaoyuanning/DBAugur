@@ -1,0 +1,3 @@
+2,"SELECT ra_BCG, dec_BCG FROM MyDB.BCG_SF_IN OPEN my_cursor WHILE (# = #) BEGIN FETCH NEXT from my_cursor into @ra_BCG, @dec_BCG IF (@@fetch_status < #) break INSERT MYDB.BCG_SF_OUT SELECT @ra_BCG, @dec_BCG, p.ra, p.dec, p.objID, e.bpt FROM dbo.fGetNearestObjEq (@ra_BCG, @dec_BCG, #/#) n, Galaxy p JOIN Photoz As z ON z.objid = p.objid JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN emissionLinesPort AS e ON e.specobjid = s.bestobjid WHERE n.objid = p.objid END CLOSE my_cursor DEALLOCATE my_cursor"
+2019-09-30 06:35:00,1
+2019-10-01 05:23:00,1

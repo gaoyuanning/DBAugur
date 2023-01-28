@@ -1,0 +1,2 @@
+1,"SELECT red.ra, red.dec, sdss.fiberMag_u, sdss.fiberMag_g, sdss.fiberMag_r, sdss.fiberMag_i, sdss.fiberMag_z,    sdss.fiber2Mag_u, sdss.fiber2Mag_g, sdss.fiber2Mag_r, sdss.fiber2Mag_i, sdss.fiber2Mag_z,     sdss.petroMag_u, sdss.petroMag_g, sdss.petroMag_r, sdss.petroMag_i, sdss.petroMag_z into mydb.MyTable from mydb.red AS red, dr1#.PhotoObjAll AS sdss WHERE abs(red.ra - sdss.ra) < # AND abs(red.dec - sdss.dec) < #"
+2019-09-12 13:23:00,1

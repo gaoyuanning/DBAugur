@@ -1,0 +1,2 @@
+1,"SELECT gal.objID, gal.run, gal.rerun, gal.camcol, gal.field, gal.obj, gal.expAB_g, s.mjd, s.plate, s.fiberID, s.ra, s.dec, s.z, s.zErr, s.zWarning, gal.petroMag_u, gal.petroMag_g, gal.petroMag_r, gal.petroMag_i, gal.petroMag_z, gal.petroRad_g, gal.petroRad_r, gse.lgm_tot_p2p5, gse.lgm_tot_p1#, gse.lgm_tot_p5#, gse.lgm_tot_p8#, gse.lgm_tot_p9#p5 from Galaxy gal JOIN SpecObj s ON s.bestObjID = gal.objID JOIN galSpecExtra gse ON gse.specObjID = s.specObjID WHERE s.z BETWEEN # AND #"
+2019-07-13 00:50:00,1

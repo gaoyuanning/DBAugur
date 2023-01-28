@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.ra, p.dec, s.z as redshift, l.ew FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN SpecLine AS l ON s.bestobjid = l.specobjID WHERE p.ra BETWEEN # AND # AND p.dec BETWEEN # AND # AND l.name = #"
+2019-05-10 05:21:00,1

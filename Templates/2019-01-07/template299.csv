@@ -1,0 +1,2 @@
+1,"SELECT m.BOSS_HEADS_DEC as dec, m.BOSS_HEADS_RA as ra into mydb.Testing_Table from MyDB.RA_AND_DEC m CROSS APPLY dbo.fGetNearbyObjEq(m.BOSS_HEADS_RA,m.BOSS_HEADS_DEC, #)   ORDER BY distance OFFSET # ROWS    FETCH NEXT # ROW ONLY;"
+2019-01-07 14:01:00,1

@@ -1,0 +1,2 @@
+1,"select min (rowc) , min (colc) , max (rowc) , max (colc) from dr1#.Star where run = # -- # # # # declare @bin float = # select top # rowq = round ((rowc-floor (rowc) )/@bin, #) , colq = round ((colc-floor (colc) )/@bin, #) from dr1#.Star"
+2019-03-17 10:49:00,1

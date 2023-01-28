@@ -1,0 +1,2 @@
+1,"CREATE TABLE [Broad_WGS_pilot] ( 	eid BIGINT NOT NULL ,	[Broad_WGS_CRAM_files_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=#  ,	[Broad_WGS_CRAM_indices_#] VARCHAR(MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi?id=# ,PRIMARY KEY (eid)) GO"
+2019-05-01 09:28:00,1

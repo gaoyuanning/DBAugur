@@ -1,0 +1,4 @@
+3,"SELECT s.z as z_spec, gsl.oiii_#_flux, gsl.oiii_#_flux_err, gsl.nii_#_flux, gsl.nii_#_flux_err, gsl.h_alpha_flux, gsl.h_alpha_flux_err, gsl.h_beta_flux, gsl.h_beta_flux_err, p.objId, p.ra,p.dec, p.petror9#_r, p.expAB_r,     p.dered_u as u, p.dered_g as g, p.dered_r as r, p.dered_i as i   FROM Galaxy as p    JOIN galSpecLine AS gsl ON p.specobjid = gsl.specobjid    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE   gsl.oiii_#_flux > # AND gsl.nii_#_flux > # AND gsl.h_alpha_flux > # AND gsl.h_beta_flux > # AND gsl.oiii_#_flux/gsl.oiii_#_flux_err > # AND gsl.nii_#_flux/gsl.nii_#_flux_err > #          AND gsl.h_alpha_flux/gsl.h_alpha_flux_err > # AND gsl.h_beta_flux/gsl.h_beta_flux_err > # AND p.petror9#_r>#   and p.ra between # and #   and s.z between # and #   and p.g < #"
+2019-05-06 19:40:00,1
+2019-05-06 19:52:00,1
+2019-05-06 20:00:00,1

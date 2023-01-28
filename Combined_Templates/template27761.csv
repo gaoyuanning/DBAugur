@@ -1,0 +1,2 @@
+1,"SELECT sp.ra, sp.dec, sp.z, sp.class, sp.mode into mydb.MyTable from SpecPhoto AS sp"
+2019-04-04 14:23:00,1

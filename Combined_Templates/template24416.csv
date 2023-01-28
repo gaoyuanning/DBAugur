@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, dered_r, modelMag_u, modelMagErr_u, modelMag_g, modelMagErr_g , modelMag_r, modelMagErr_r, modelMag_i, modelMagErr_i, modelMag_z, modelMagErr_z , petroR9#_r, petroR5#_r FROM PhotoObjAll WHERE dered_r BETWEEN # AND #"
+2019-03-26 02:33:00,1

@@ -1,0 +1,5 @@
+5,"SELECT TOP #  p.run,p.rerun,p.camCol,p.field,p.obj,ISNULL(s.z,#) as redshift,ISNULL(s.z_noqso,#) as z_noqso,ISNULL(s.z_person,#) as z_person  FROM ..PhotoObj AS p  LEFT OUTER JOIN ..SpecObj s ON p.objID = s.bestObjID  JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = P.objID  WHERE p.petroMag_r < # AND ( p.type = # OR p.type = #)"
+2019-02-09 01:34:00,1
+2019-02-09 01:35:00,1
+2019-02-09 01:36:00,1
+2019-02-09 01:37:00,2

@@ -1,0 +1,2 @@
+2,"SELECT objID, ra, dec into testberry from PhotoObj WHERE cModelMag_g> # and cModelMag_g< # and psfMag_g< # and cModelMagErr_g< # and cModelMagErr_r< # and cModelMag_u - cModelMag_g > # and psfMag_u - psfMag_g > #"
+2019-02-12 01:08:00,2

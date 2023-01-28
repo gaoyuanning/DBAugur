@@ -1,0 +1,2 @@
+1,"SELECT TOP # P.ObjID as objid1, L.ObjID as objid2, N.distance  FROM    PhotoPrimary P			  -- P is the primary object    JOIN Neighbors N ON P.ObjID = N.ObjID  -- N is the neighbor link    JOIN	PhotoPrimary L ON L.ObjID = N.NeighborObjID  -- L is the lens candidate of P WHERE     P.ObjID < L. ObjID                     -- avoid duplicates    and abs((P.u-P.g)-(L.u-L.g))<#      -- L and P have similar spectra    and abs((P.g-P.r)-(L.g-L.r))<#    and abs((P.r-P.i)-(L.r-L.i))<#      and abs((P.i-P.z)-(L.i-L.z))<#"
+2019-08-24 10:51:00,1

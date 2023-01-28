@@ -1,0 +1,3 @@
+2,"select top # p.objid as name, p.ra, p.dec from galaxy p where p.z > #"
+2019-05-21 15:52:00,1
+2019-05-21 15:53:00,1

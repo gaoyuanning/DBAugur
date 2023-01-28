@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.specobjid, s.class, s.z as redshift, p.petroR5#_r, SM.logMass, sp.veldisp as sp_vdisp FROM PhotoObj AS p JOIN SpecObj AS s ON s.bestobjid = p.objid JOIN dbo.fGetNearbyObjEq (#, #, #) AS N ON p.objid = N.objID JOIN stellarMassFSPSGranEarlyNoDust AS SM ON s.specObjID = SM.specObjID FROM emissionLinesPort AS emline JOIN stellarMassPCAWisc AS pca ON emline.specobjid = pca.specobjid JOIN specObj AS sp ON emline.specobjid = sp.specobjid WHERE s.Z BETWEEN # AND #"
+2019-03-24 22:55:00,1

@@ -1,0 +1,2 @@
+1,"SELECT Top # l.specobjID, s.z, l.ew, l.ewErr, l.lineID, l.wave/(#+s.z), l.restWave From dbo.SpecLineAll AS l   INNER JOIN dbo.specObjAll AS s ON l.specobjID = s.specObjId  WHERE ew > #"
+2019-09-10 10:23:00,1

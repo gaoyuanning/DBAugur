@@ -1,0 +1,2 @@
+1,"select b.Sex_#, a.encoding_id, c.value, c.meaning from dbo.Baseline_characteristics b join metadata.columninfo a on a.column_name = # join metadata.encoding c on c.encoding_id = a.encoding_id AND c.value = b.Sex_#"
+2019-09-17 10:46:00,1

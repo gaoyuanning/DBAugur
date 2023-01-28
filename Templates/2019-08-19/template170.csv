@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.sdssPrimary  FROM ..SpecObj as s  JOIN dbo.fGetObjFromRect(#,#,#,#) AS b ON s.bestobjid = b.objID  JOIN PhotoObj AS p ON s.bestobjid=p.objid  WHERE (s.class = &&&) AND p.i > # AND p.i < # AND (p.g - p.r) > # AND (p.g - p.r) < # AND s.zWarning = #"
+2019-08-19 14:02:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # g.source_id, g.ra, g.ra_error, g.dec, g.dec_error, g.parallax, g.parallax_error, g.phot_g_mean_mag, g.bp_rp, g.radial_velocity, g.radial_velocity_error, g.phot_variable_flag, g.teff_val, g.a_g_val FROM gaia_source g"
+2019-09-27 12:54:00,1

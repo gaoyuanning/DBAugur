@@ -1,0 +1,2 @@
+2,"SELECT TOP # w.ra,w.dec,  (IF w.blend_ext_flags & # == # OR (w.blend_ext_flags w.blend_ext_flags & #) > # THEN &&& ELSE &&& END) from WISE_allsky AS w WHERE blend_ext_flags <> #;"
+2019-03-27 19:53:00,2

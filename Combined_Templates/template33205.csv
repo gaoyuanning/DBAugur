@@ -1,0 +1,3 @@
+2,"SELECT MAX (z.total_classifications) , MIN (z.total_classifications) FROM zoo2MainSpecz as z"
+2019-04-23 08:11:00,1
+2019-04-24 11:56:00,1

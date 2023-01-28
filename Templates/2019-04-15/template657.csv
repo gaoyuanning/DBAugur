@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra,p.dec,p.petror9#_r, p.dered_g, s.z as z_spec, s.zErr   FROM Galaxy as p    JOIN galSpecLine AS gsl     JOIN SpecObj AS s"
+2019-04-15 12:53:00,1

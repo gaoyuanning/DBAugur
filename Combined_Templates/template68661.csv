@@ -1,0 +1,2 @@
+1,"SELECT spec.specObjID, spec.ra, spec.dec, spec.z, spec.zErr, spec.velDisp, spec.velDispErr, sm.logMass, sm.logMass_min, sm.logMass_max, sm.ssfr, ph.petroR5#_r FROM dbo.SpecObj as spec, dbo.stellarMassFSPSGranWideDust as sm, dbo.PhotoObjAll as ph WHERE spec.sciencePrimary = # AND spec.zWarning = # AND spec.z BETWEEN # and # AND spec.class = # AND spec.specObjID = sm.specObjID AND spec.bestobjID = ph.objID"
+2019-10-08 01:13:00,1

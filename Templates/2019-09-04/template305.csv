@@ -1,0 +1,2 @@
+1,"SELECT top # class, cz FROM SpecObj s INNER JOIN PhotoObj p ON s.cz=p.cz WHERE z>#"
+2019-09-04 16:09:00,1

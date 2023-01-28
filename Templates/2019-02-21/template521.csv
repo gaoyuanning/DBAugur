@@ -1,0 +1,2 @@
+1,"select top # spa.z into mydb.MyTable from dr7.SpecObjAll spa, mydb.zoo1_ids mdb where spa.specObjID=mydb.OBJID"
+2019-02-21 14:52:00,1

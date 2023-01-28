@@ -1,0 +1,2 @@
+1,"SELECT TOP # z, ra, dec, specobjid, fluxobjid FROM specObj WHERE z > # and z < =# AND Class = # AND zwarning = # or zwarning = # ORDER BY Newid ()"
+2019-11-27 17:57:00,1

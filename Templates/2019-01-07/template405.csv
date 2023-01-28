@@ -1,0 +1,2 @@
+1,"SELECT  S.OBJID, S.specObjID FROM SpecPhoto AS S  WHERE S.OBJID IN (#,#,#)"
+2019-01-07 07:57:00,1

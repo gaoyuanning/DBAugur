@@ -1,0 +1,2 @@
+1,"SELECT spectrotype, z, ra, dec FROM galSpecInfo WHERE SpecObjID=#   OR SpecObjID = #"
+2019-06-15 15:21:00,1

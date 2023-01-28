@@ -1,0 +1,5 @@
+4,"SELECT TOP # t.thingid, t.ndetect, d.objid, p.psfMag_r, p.psfMagerr_r  FROM thingIndex AS t JOIN detectionindex AS d ON t.thingid = d.thingid JOIN Star AS p ON d.objid = p.objid WHERE t.ndetect > #"
+2019-11-22 00:31:00,1
+2019-11-22 08:57:00,1
+2019-11-22 15:51:00,1
+2019-11-22 18:41:00,1

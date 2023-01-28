@@ -1,0 +1,2 @@
+2,"select PhotoObj.ObjID, PhotoObj.ra, PhotoObj.dec, PhotoObj.petroR5#_g, specObj.z, specObj.class from PhotoObj, specObj where specObj.bestObjid = PhotoObj.ObjID AND specObj.class = # AND PhotoObj.petroR5#_g > #"
+2019-04-28 11:10:00,2

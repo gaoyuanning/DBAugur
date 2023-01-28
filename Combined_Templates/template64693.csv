@@ -1,0 +1,7 @@
+11,"SELECT TOP # modelmag_g, devmag_g, expmag_g, devrad_g, exprad_g, devab_g, expab_g, extinction_g, modelmag_r, devmag_r, expmag_r, devrad_r, exprad_r, devab_r, expab_r, extinction_r, z INTO mydb.tmp1 FROM SpecObj AS s JOIN Galaxy AS g ON s.specobjid = g.specobjid WHERE petroR9#_r/petroR5#_r > # AND eclass < # AND fracdev_g = #"
+2019-09-23 09:50:00,3
+2019-09-23 09:52:00,1
+2019-09-23 09:53:00,1
+2019-09-23 10:01:00,2
+2019-09-23 10:02:00,1
+2019-09-23 10:03:00,3

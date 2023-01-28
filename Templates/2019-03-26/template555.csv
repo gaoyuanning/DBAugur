@@ -1,0 +1,2 @@
+1,"SELECT gal.objID, s.mjd, s.plate, s.fiberID, s.ra, s.dec, s.z, s.zErr FROM Galaxy as gal JOIN SpecObj s ON s.bestObjID = gal.objID   WHERE s.z BETWEEN # AND # AND gse.lgm_tot_p5# > #"
+2019-03-26 14:51:00,1

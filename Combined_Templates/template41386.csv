@@ -1,0 +1,2 @@
+1,"SELECT distinct * into mydb.MyTable_# from PhotoObjAll WHERE (ra BETWEEN # AND #) AND (dec BETWEEN # AND #) and z between # and # and clean = # group by z, type"
+2019-05-23 10:20:00,1

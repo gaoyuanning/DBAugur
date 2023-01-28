@@ -1,0 +1,15 @@
+542,"SELECT TOP # spec.specObjID, phot.objID,  spec.ra, spec.dec,  spec.class,  spec.z, spec.zErr,  phot.rerun, phot.run, phot.camcol, phot.field,  phot.dered_u, phot.dered_g, phot.dered_r, phot.dered_i, phot.dered_z,  phot.extinction_u, phot.extinction_g, phot.extinction_r, phot.extinction_i, phot.extinction_z  FROM SpecObjAll AS spec  JOIN PhotoObjAll AS phot  ON spec.specObjID = phot.specObjID  WHERE  phot.clean = #  AND spec.zWarning = #  AND spec.ra >= #  AND spec.ra < #  AND spec.dec >= #  AND spec.dec < #  AND phot.dered_r > # and phot.dered_r < #  AND phot.expRad_r < #  AND phot.deVRad_r < #  AND spec.zErr < #  AND spec.z < #  ORDER BY NEWID()"
+2019-02-08 02:49:00,43
+2019-02-08 02:50:00,59
+2019-02-08 02:51:00,70
+2019-02-08 02:52:00,36
+2019-02-08 02:53:00,62
+2019-02-08 02:54:00,47
+2019-02-08 02:55:00,50
+2019-02-08 02:56:00,64
+2019-02-08 02:57:00,36
+2019-02-08 15:18:00,19
+2019-02-08 21:10:00,1
+2019-02-08 22:37:00,15
+2019-02-08 22:38:00,28
+2019-02-08 22:39:00,12

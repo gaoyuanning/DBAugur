@@ -1,0 +1,4 @@
+3,"select s.z, p.logMass  from stellarMassFSPSGranEarlyDust p   JOIN specObj s ON s.bestObjID = p.specObjID   where s.bestObjID = #"
+2019-02-21 16:16:00,1
+2019-02-21 16:18:00,1
+2019-02-21 16:20:00,1

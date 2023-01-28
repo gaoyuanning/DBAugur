@@ -1,0 +1,2 @@
+1,"SELECT ra, dec,model_g,model_u,ObjID FROM specObj WHERE ra = # between ra=#"
+2019-11-24 16:46:00,1

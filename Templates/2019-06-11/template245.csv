@@ -1,0 +1,13 @@
+16,"select cat1=run1, cat2=run2, arcsec, cts=sum(cts)      from astrometry.budavari.Stripe8#Match0#Stars1#k2#Run2k      where row1 in (#,#) and row2 in (#,#) and col1 in (#,#) and col2 in (#,#) and mag in (#)      group by run1, run2, arcsec      order by run1, run2, arcsec"
+2019-06-11 11:02:00,2
+2019-06-11 11:21:00,1
+2019-06-11 11:28:00,1
+2019-06-11 11:30:00,1
+2019-06-11 11:43:00,1
+2019-06-11 12:25:00,2
+2019-06-11 12:26:00,2
+2019-06-11 13:03:00,2
+2019-06-11 13:08:00,1
+2019-06-11 13:36:00,1
+2019-06-11 13:41:00,1
+2019-06-11 14:23:00,1

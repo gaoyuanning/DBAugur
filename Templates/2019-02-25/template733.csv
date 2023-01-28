@@ -1,0 +1,2 @@
+1,"SELECT p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,    s.specobjid, s.specClass, s.z,    s.plate, s.mjd, s.fiberid into mydb.MyTable_# from PhotoObj AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE    (s.legacy_target1 & (# & # & #)) != #"
+2019-02-25 00:58:00,1

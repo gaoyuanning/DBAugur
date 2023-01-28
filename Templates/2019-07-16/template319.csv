@@ -1,0 +1,7 @@
+6,"select yy, mm, dd, hh, mi, ss,  logID, clientIP, op, command, error, browser,  isvisible, referer, bytesOut, bytesIn, elapsed  into weblogall2#_#_#h_to_#_#h  from weblogall  where yy = #   and mm between # and #   and dd between # and #   and hh between # and #"
+2019-07-16 09:10:00,1
+2019-07-16 09:30:00,1
+2019-07-16 10:43:00,1
+2019-07-16 10:48:00,1
+2019-07-16 11:33:00,1
+2019-07-16 12:01:00,1

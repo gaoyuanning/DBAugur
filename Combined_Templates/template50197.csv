@@ -1,0 +1,2 @@
+1,"SELECT s.specObjID, s.objID, s.z, gse.lgm_tot_p5# as logmass, p.cModelMag_g - p.extinction_g as app_g, p.cModelMag_r - p.extinction_r as app_r, pz.kcorrG as kcorrG, pz.kcorrR as kcorrR, p.petroR5#_r as half_light into mydb.ForLaura_gse from dbo.SpecPhotoAll AS s JOIN dbo.PhotoObjAll AS p ON s.objID = p.objID JOIN dbo.Photoz as pz ON p.objID = pz.objID JOIN dbo.galSpecExtra as gse ON s.specObjID = gse.specObjID WHERE s.z < # and s.class = #"
+2019-07-07 18:54:00,1

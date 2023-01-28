@@ -1,0 +1,3 @@
+2,"select top # id, s.specobjid, s.z, zErr, zWarning from MyDB.data as m join SpecObjAll as s on s.bestObjID = m.dr7objid order by id"
+2019-05-29 15:58:00,1
+2019-05-29 15:59:00,1

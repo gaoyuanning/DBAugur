@@ -1,0 +1,3 @@
+2,"SELECT s.plate, s.mjd, s.fiberid from specObj as s WHERE s.specobjid IN ()"
+2019-03-29 15:10:00,1
+2019-03-29 15:12:00,1

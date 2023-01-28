@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, ra, dec FROM PhotoPrimary, SpecPhoto WHERE ra > #"
+2019-02-27 11:12:00,1

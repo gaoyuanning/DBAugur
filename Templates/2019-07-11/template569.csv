@@ -1,0 +1,2 @@
+1,"select p.specObjID, n.ObjID into mydb.MyTable from PhotoObj as p, mydb.Mr1#_group_#_ObjID as n    where p.objID = n.ObjID"
+2019-07-11 00:58:00,1

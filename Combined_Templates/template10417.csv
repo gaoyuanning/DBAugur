@@ -1,0 +1,2 @@
+1,"select count (*) from Galaxy p join dbo.fGetObjFromRectEq (#, #, #, #) r on r.objID = p.objID inner join SpecObjAll s on p.specobjID = s.specobjID where p.modelMag_r < # and p.petroRad_r > # and s.class ! = #"
+2019-02-12 04:43:00,1

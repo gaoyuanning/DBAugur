@@ -1,0 +1,2 @@
+1,"SELECT top # p.ra, p.dec, p.u,p.g,p.r,p.i,p.z, p.Err_u, p.Err_g, p.Err_r,p.Err_i,p.Err_z, p.dered_u, p.dered_g, p.dered_r, p.dered_i, p.dered_z, pz.z, pz.zerr, pz2.photozcc2, pz2.photozerrcc2, pz2.photozd1, pz2.photozerrd1, pz.pzType FROM fGetNearbyObjEq (#,#,#) n, PhotoObj p, Photoz pz WHERE p.r < # and n.objID=p.objID and pz.objID=p.objID and p.type = #"
+2019-08-11 21:49:00,1

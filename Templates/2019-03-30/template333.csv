@@ -1,0 +1,2 @@
+1,"select top # max(a.title) as album,max(ar.name) as artist,sum(t.unitprice) as cost ,     count(*) as numTrack   from chinook.Album a      inner join chinook.artist ar      on ar.artistid=a.artistid      inner join chinook.Track t      on t.albumid=a.albumid  group by a.albumid,ar.artistid  order by cost desc"
+2019-03-30 10:46:00,1

@@ -1,0 +1,2 @@
+1,"select top # p.u-p.r, p.g-p.r , p.r-p.i , p.r-p.z, p.l, p.b from star p where b BETWEEN # and # OR b betweeen # and #"
+2019-10-05 08:44:00,1

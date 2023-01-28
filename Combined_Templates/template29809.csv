@@ -1,0 +1,2 @@
+1,"SELECT p.Name, p.objID, p.photoz, p.photozErr, p.specz, p.speczErr, s.ra, s.dec INTO mydb.wiyn_targets_zcoord FROM mydb.wiyn_targets_allz as p INNER JOIN mydb.wiynobs as s ON p.Name = s.name"
+2019-04-13 14:13:00,1

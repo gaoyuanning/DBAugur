@@ -1,0 +1,4 @@
+3,"SELECT specsfr_tot_p5# FROM galSpecExtra as g, myDB.mytable as m, specObj as s WHERE m.objID_DR1# = s.bestobjID AND s.specObjID = g.specObjID"
+2019-10-25 01:54:00,1
+2019-10-25 01:57:00,1
+2019-10-25 01:59:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.run, p.rerun, p.camCol, p.field, p.obj, str (p.ra, #, #) as ra, str (p.[dec], #, #) as dec, p.r, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, IS# (s.plate, #) as plate, IS# (s.mjd, #) as mjd, IS# (s.fiberid, #) as fiberid, IS# (s.z, #) as z, IS# (s.zErr, #) as zErr, IS# (s.zWarning, #) as zWarning, IS# (s.class, #) as class FROM BESTDR9..Galaxy AS p LEFT OUTER JOIN BESTDR9..SpecObj s ON p.objID = s.bestObjID JOIN dbo.fGetNearbyObjEq (#, #, #) AS b ON b.objID = P.objID"
+2019-04-09 12:30:00,1

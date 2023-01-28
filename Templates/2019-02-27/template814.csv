@@ -1,0 +1,2 @@
+1,"SELECT    p.objid,p.ra,p.dec,    p.modelMag_u,p.modelMag_g,p.modelMag_r,p.modelMag_i,p.modelMag_z,    p.extinction_u,p.extinction_g,p.extinction_r,p.extinction_i,p.extinction_z,    p.petroR5#_u,p.petroR5#_g,p.petroR5#_r,p.petroR5#_i,p.petroR5#_z,    p.run, p.rerun, p.camcol, p.field,    s.specobjid, s.class, s.z,    s.plate, s.mjd, s.fiberid FROM PhotoObj AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid into mydb.DR1#_photObj_specObj_keyFields"
+2019-02-27 09:33:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # SpecObj.specObjID,lineID,height,ew,SpecObj.z into mydb.MyTable from SpecLine as Q_SpecLine INNER JOIN SpecObj ON Q_SpecLine.specObjID=SpecObj.specObjID WHERE   Q_SpecLine.wave != #   and SpecObj.objType = #   and SpecObj.specClass = #"
+2019-11-22 15:07:00,1

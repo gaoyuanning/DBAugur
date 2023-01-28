@@ -1,0 +1,2 @@
+1,"select p.ra, p.dec, p.objid, p.g_err, p.r_err, g.h_alpha_flux_err, g.nii_#_flux_err into mydb.tableWithErrors from MyDB.galaxyData as m 	cross apply dbo.fGetNearbyObjEq(m.ra, m.dec, #) as n 	join photoObj as p on p.objid = n.objid 	join galSpecLine as g on g.specobjid = p.specobjid 	join galSpecInfo as i on i.specobjid = g.specobjid 	join specObj as s on s.bestobjid = p.objid and s.z <= .# and s.Class= &&& and g.h_alpha_flux > # and g.h_alpha_flux_err < g.h_alpha_flux and g.nii_#_flux > # and g.nii_#_flux_err < g.nii_#_flux and i.subclass != 'AGN"
+2019-03-03 16:33:00,1

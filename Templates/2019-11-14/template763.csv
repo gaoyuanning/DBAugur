@@ -1,0 +1,2 @@
+1,"select  GalexGR6.PhotoObjAll.objid, GalexGR6.PhotoObjAll.ra, GalexGR6.PhotoObjAll.dec, GalexGR6.PhotoObjAll.nuv_mag, GalexGR6.PhotoObjAll.nuv_magerr, GalexGR6.PhotoObjAll.fuv_mag, GalexGR6.PhotoObjAll.fuv_magerr, GalexGR6.PhotoObjAll.nuv_weight, GalexGR6.PhotoObjAll.nuv_artifact GalexGR6.PhotoObjAll.E_bv into mydb.MyTable_# from GalexGR6.PhotoObjAll  where p.ra>= # and p.dec>#"
+2019-11-14 10:36:00,1

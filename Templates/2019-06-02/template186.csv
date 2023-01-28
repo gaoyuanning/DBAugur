@@ -1,0 +1,2 @@
+2,"SELECT top #   ap2.ra,ap2.dec,ap2.glon,ap2.glat,ap2.field,   ap.teff,ap.teff_err,ap.logg,ap.logg_err,   ap.m_h,ap.m_h_err,ap.alpha_m,ap.alpha_m_err FROM aspcapStar AS ap    JOIN apogeeStar AS ap2 ON ap2.apstar_id = ap.apstar_id WHERE   ap.aspcapflag = # and ap.alpha_m_flag = # and ap.teff_flag = #   and ap.logg_flag = # and ap.m_h_flag = #   and (ap2.glat > # or ap2.glat < #)"
+2019-06-02 10:45:00,2

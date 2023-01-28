@@ -1,0 +1,4 @@
+4,"select county, C = centroid.ToString () , SRID = centroid.STSrid, dist = centroid.STDistance (geography::Point (#, #, #) ) from optw.tamass.TRACTS where state = #"
+2019-10-26 16:46:00,2
+2019-10-26 16:47:00,1
+2019-10-26 16:52:00,1

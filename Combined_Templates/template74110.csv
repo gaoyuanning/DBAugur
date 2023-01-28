@@ -1,0 +1,5 @@
+4,"SELECT TOP # s.specobjid, s.ra, s.dec, s.z, s.velDisp, p.PetroRad_r FROM SpecObj s JOIN photoObj p ON s.bestObjID = p.objId WHERE s.class = GALAXY"
+2019-11-06 11:37:00,1
+2019-11-06 11:47:00,1
+2019-11-06 11:55:00,1
+2019-11-06 11:56:00,1

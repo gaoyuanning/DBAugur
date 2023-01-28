@@ -1,0 +1,2 @@
+1,"select s.z, s.specobjid, min (ra) as min_ra from SpecObj s where specClass = # AND zconf> .#"
+2019-06-14 17:58:00,1

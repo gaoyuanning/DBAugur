@@ -1,0 +1,2 @@
+1,"SELECT objid, nvote,ra,dec p_cw as spiralclock, p_acw as spiralanticlock, p_edge as edgeon, into mydb.MyTable from ZooNoSpec"
+2019-03-24 13:12:00,1

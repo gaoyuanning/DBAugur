@@ -1,0 +1,2 @@
+1,"SELECT specObjID, ra, dec, plate, mjd, fibered FROM SpecObjAll as sp WHERE sp.sciencePrimary = #"
+2019-01-01 11:27:00,1

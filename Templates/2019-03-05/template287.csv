@@ -1,0 +1,2 @@
+1,"select g.ra,g.dec,g.objid,s.z from galaxy as g,specobj as s,  dbo.fGetNearbySpecObjEq(#,#,#) as N where g.specobjID = N.specobjID and  s.z between # and # and class=&&&"
+2019-03-05 17:25:00,1

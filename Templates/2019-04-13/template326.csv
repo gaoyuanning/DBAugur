@@ -1,0 +1,2 @@
+2,"select    ss.ra, ss.dec, ss.z, ss.m2l_min_r , ss. m2l_max_r , ss.metallicity, ss.metallicity_err , ss.metallicity_mean , ss.dust1_mean, ss.dust1_err, ss.dust2_mean,   ss.dust2_err,ss.tau_mean, ss.tau_err    from    stellarMassFSPSGranEarlyDust as ss      into MyDB.conory_et_al_#      where           ss.z between # and #"
+2019-04-13 10:19:00,2

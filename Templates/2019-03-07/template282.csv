@@ -1,0 +1,2 @@
+1,"select x.Modelmag_i, x.Modelmag_z, x.Modelmag_g -x.Modelmag_r where name=&&& or name=&&& or name=&&&"
+2019-03-07 18:30:00,1

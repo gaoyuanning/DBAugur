@@ -1,0 +1,2 @@
+1,"select p.objID, p.ra, p.dec, p.g, p.r from photoObj p join dbo.fgetnearbyobjeq(#,#,#) n on p.objid=n.objid where p.petrorad_r > # and p.r < # and s.Class= &&& and s.z >= #"
+2019-02-15 06:10:00,1

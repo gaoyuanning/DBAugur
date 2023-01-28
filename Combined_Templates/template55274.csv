@@ -1,0 +1,3 @@
+2,SELECT count (*) as # into mydb.countalltarg from PhotoPrimary
+2019-08-05 19:45:00,1
+2019-08-16 13:25:00,1

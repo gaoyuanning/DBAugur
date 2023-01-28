@@ -1,0 +1,2 @@
+1,"SELECT s.bestobjid, e.specobjID, d7.specObjID, d7.dr7ObjID, s.ra, s.dec, s.z, p.mjd, s.mjd, f.mjd_u, f.mjd_g, f.mjd_r, f.mjd_i, f.mjd_z, s.class, p.type, g.sigma_balmer, g.sigma_forbidden, s.veldisp, e.bpt into mydb.MyTable_# from PhotoObjAll AS p JOIN SpecObjAll AS s ON s.bestobjid = p.objid JOIN Field AS f ON f.fieldid = p.fieldid JOIN galSpecLine AS g ON g.specobjid = s.specobjid JOIN SpecDR7 AS d7 ON d7.specObjID = s.specObjID JOIN emissionLinesPort AS e ON e.specobjID = s.specObjID WHERE s.z BETWEEN # AND # AND p.type = #"
+2019-10-24 15:50:00,1

@@ -1,0 +1,2 @@
+1,"SELECT ts.TestScore, es.Score   FROM TestScores ts      INNER JOIN EmotionalScreener es     ON es.StudentID = ts.SystemStudentID"
+2019-04-19 18:31:00,1

@@ -1,0 +1,2 @@
+2,"SELECT artist.Name, COUNT (track.AlbumId) AS Num, SUM (track.UnitPrice) AS Price FROM chinook.Album album LEFT JOIN chinook.Track track ON album.AlbumId = track.AlbumId RIGHT JOIN chinook.Artist artist ON album.ArtistId = artist.ArtistId GROUP BY artist.Name HAVING COUNT (track.AlbumId) > #"
+2019-04-23 16:13:00,2

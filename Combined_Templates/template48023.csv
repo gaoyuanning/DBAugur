@@ -1,0 +1,2 @@
+2,"select top # p.objid, p.ra, p.dec from photoobj p, dbo.fgetNearByObjEq (#, #, #) n where p.objid = n.objid and (p.u BETWEEN # AND #) and (p.g BETWEEN # AND #) and (p.r BETWEEN # AND #) and (p.i BETWEEN # AND #) and (p.z BETWEEN # AND #) and (p.u-p.g BETWEEN # AND #) and (p.g-p.r BETWEEN # AND #) and (p.r-p.i BETWEEN # AND #) and (p.i-p.z BETWEEN # AND #) and (p.u-p.r BETWEEN # AND #)"
+2019-06-25 17:50:00,2

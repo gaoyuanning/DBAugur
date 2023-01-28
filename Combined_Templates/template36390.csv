@@ -1,0 +1,4 @@
+3,"SELECT TOP # ra, dec, type, run, objid, psfmag_u, psfmag_g, psfmag_r, psfmag_i, psfmag_z into mydb.phototype from photoprimary WHERE ra > #. and ra < # and dec > # and dec < #"
+2019-05-02 13:42:00,1
+2019-05-02 13:43:00,1
+2019-05-03 03:35:00,1

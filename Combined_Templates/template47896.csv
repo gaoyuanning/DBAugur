@@ -1,0 +1,4 @@
+4,"SELECT TOP # modelmag_r, modelmag_r-#*log1# (#E+#*z) +# as abs_mag_r, rv_teff FROM SpecPhoto, apogeeStar WHERE (class = #) AND rv_teff = # AND modelmag_r-#*log1# (#E+#*z) +# < #AND z> #"
+2019-06-24 08:46:00,2
+2019-06-24 08:47:00,1
+2019-06-24 08:51:00,1

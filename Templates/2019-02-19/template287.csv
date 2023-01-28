@@ -1,0 +1,2 @@
+1,"SELECT p.objid,p.ra,p.dec,p.g,p.r,p.i, (p.r-p.i) as &&&, (p.g-p.r) as &&&, p.psfmag_r, p.psfmagerr_r, p.type as obj_ph_type, into mydb.cmass_photo_only from PhotoObj AS p WHERE    cmodelmag_i BETWEEN # AND #    AND (modelmag_r-modelmag_i) - (modelmag_g-modelmag_r)/# > #     AND cmodelmag_i < # + #*((modelmag_r-modelmag_i) - (modelmag_g-modelmag_r)/#. - #)   AND (modelmag_r-modelmag_i) < #   AND fiber2mag_i < #   AND (psfmag_i - modelmag_i) > # + #*(# - modelmag_i)   AND (psfmag_z - modelmag_z) > # - #*modelmag_z"
+2019-02-19 14:17:00,1

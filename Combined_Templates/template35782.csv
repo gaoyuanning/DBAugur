@@ -1,0 +1,2 @@
+1,"SELECT DISTINCT p.dr7objid, p.ra, p.dec, p.petroR9#_r FROM PhotoObjDR7 AS p JOIN zoo2MainSpecz as z ON z.dr7objid = p.dr7objid"
+2019-04-30 08:20:00,1

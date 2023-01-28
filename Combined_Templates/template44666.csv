@@ -1,0 +1,2 @@
+1,"SELECT TOP # gz2.ra, gz2.dec, dr7.petroR9#_r FROM zoo2MainSpecz AS gz2, SpecDR7 AS dr7 WHERE gz2.dr7objid = dr7.dr7objid"
+2019-06-07 22:58:00,1

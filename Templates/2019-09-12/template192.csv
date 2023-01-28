@@ -1,0 +1,2 @@
+1,"select top # specobjid as name, ra, dec from SpecObj where type = &&&"
+2019-09-12 15:51:00,1

@@ -1,0 +1,4 @@
+3,"SELECT s.ra, s.dec, s.psfMag_r FROM Star s, dbo.fGetNearbyObjEq (#, #, #) n WHERE n.objID = s.objID and psfMag_r < #"
+2019-09-02 18:43:00,1
+2019-09-02 18:45:00,1
+2019-09-02 18:47:00,1

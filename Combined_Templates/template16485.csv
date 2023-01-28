@@ -1,0 +1,6 @@
+5,"SELECT dbo.fIAUFromEq (ra, dec) , ra, dec, g, r, i, expRad_r, (isoA_r/#) , petroMag_r, petroRad_i, rho, (g+rho) , (g-r) , (r-i) , fracDeV_r, flags_r, specObjID FROM Galaxy WHERE ra between # and # and dec between # and # and expRad_r > # and (isoA_r/#) > # and r < # and fracDeV_r < # and g-r < # and g-r > # and r-i < # and r-i > # and (g+rho) between # and # and (flags_r & (dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) + dbo.fPhotoFlags (#) )) = #"
+2019-03-03 09:31:00,1
+2019-03-03 10:52:00,1
+2019-03-03 11:15:00,1
+2019-03-03 11:56:00,1
+2019-03-03 12:25:00,1

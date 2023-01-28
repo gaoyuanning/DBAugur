@@ -1,0 +1,2 @@
+1,"select objid, ra, dec into blueberry from photoobj where cmodelmag_g> # and cmodelmag_g< # and psfmag_g< # and cmodelmagerr_g< # and cmodelmagerr_r< # and cmodelmag_u- cmodelmag_g> # and psfmag_u-psfmag_g> # and cmodelmag_r- cmodelmag_g> # and psfmag_r-psfmag_g> # and cmodelmag_r- cmodelmag_i< # and psfmag_r-psfmag_i< # and (cmodelmag_r-cmodelmag_g> # or cmodelmag_i-psfmag_g> #) and pasfmag_r- psfmag_g> # or psfmag_i- psfmag.#"
+2019-05-02 07:58:00,1

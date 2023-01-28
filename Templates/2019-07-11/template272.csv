@@ -1,0 +1,2 @@
+1,"SELECT TOP # objid, ra, dec, modelmag_r, modelmag_r-#*log1#(#E+#*z)+# as abs_r WHERE type = #"
+2019-07-11 14:33:00,1

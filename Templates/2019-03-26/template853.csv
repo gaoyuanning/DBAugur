@@ -1,0 +1,2 @@
+1,"SELECT bestObjID, z CASE (  WHEN # <= z AND z <# THEN &&&  WHEN # < z AND z < # THEN &&& ELSE &&& END AS Quant ) FROM SpecObj"
+2019-03-26 07:11:00,1

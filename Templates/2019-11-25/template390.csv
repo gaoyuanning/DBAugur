@@ -1,0 +1,2 @@
+1,"SELECT galaxy.objId,galaxy.dered_u as u, galaxy.dered_g as g, galaxy.dered_r as r, galaxy.dered_i as i  FROM galaxy      JOIN SpecObj ON SpecObj.bestobjid = galaxy.objid WHERE galaxy.g < #"
+2019-11-25 08:28:00,1

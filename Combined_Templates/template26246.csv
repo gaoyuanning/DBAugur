@@ -1,0 +1,4 @@
+3,"select top # objid, modelmag_u, modelmag_g, modelmag_r, modelmag_i, modelmag_z, z from SpecPhoto where class = # AND z BETWEEN # AND # AND modelmag_u< # AND modelmag_g< # AND modelmag_r< # AND modelmag_i< # AND modelmag_z< #"
+2019-03-31 07:34:00,1
+2019-03-31 07:36:00,1
+2019-04-04 09:54:00,1

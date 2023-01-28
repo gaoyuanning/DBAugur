@@ -1,0 +1,6 @@
+5,"select top # h.ifura, h.ifudec, h.mangaid, h.mngtarg1, h.mngtarg2, h.mngtarg3,h.objdec, h.objra, h.plateifu, h.mjdmax, h.redsn2, h.drp3qual, h.bluesn2 from mangaDRPall h"
+2019-04-05 15:19:00,1
+2019-04-05 15:21:00,1
+2019-04-05 15:45:00,1
+2019-04-05 15:46:00,1
+2019-04-05 16:01:00,1

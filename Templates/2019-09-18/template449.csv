@@ -1,0 +1,2 @@
+1,SELECT  MAX(z) as max_z into mydb.redshift_table_max from SpecObj
+2019-09-18 08:39:00,1

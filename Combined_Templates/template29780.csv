@@ -1,0 +1,2 @@
+1,"SELECT RA, DEC, RV FROM marvelsVelocityCurveUF1D WHERE ABS (RV) > #"
+2019-04-13 15:45:00,1

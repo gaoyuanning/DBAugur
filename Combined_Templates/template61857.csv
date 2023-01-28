@@ -1,0 +1,2 @@
+1,"SELECT p.u, p.g, p.r, p.i, p.z, s.z as zspec, s.zErr, s.class, s.subclass FROM Galaxy as p, SpecObj as s WHERE p.mode = # AND p.specObjId = s.specObjId AND p.ra BETWEEN # AND #"
+2019-09-09 13:11:00,1

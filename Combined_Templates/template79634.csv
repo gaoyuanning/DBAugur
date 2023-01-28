@@ -1,0 +1,5 @@
+5,"select top # class, SpecObjID from specObj where class = # and zWarning = # order by RAND ()"
+2019-11-29 17:49:00,2
+2019-11-29 17:54:00,1
+2019-11-29 17:55:00,1
+2019-11-29 17:56:00,1

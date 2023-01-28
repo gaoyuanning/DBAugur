@@ -1,0 +1,4 @@
+3,"SELECT my.ra,my.dec into mydb.MyTable2 from MyDB.radec_mc_short as my   CROSS APPLY dbo.fGetNearestObjAllEq(my.ra,my.dec,#)"
+2019-04-12 10:28:00,1
+2019-04-12 10:29:00,1
+2019-04-12 10:31:00,1

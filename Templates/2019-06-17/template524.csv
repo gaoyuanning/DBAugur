@@ -1,0 +1,3 @@
+2,select top # * from MRscPlanck1 where redshift < #
+2019-06-17 04:00:00,1
+2019-06-17 04:03:00,1

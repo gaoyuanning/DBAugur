@@ -1,0 +1,2 @@
+1,"SELECT m.name, m.ra AS ra1, m.dec AS dec1, p.objid AS sdssid, p.ra AS ra2, p.dec AS dec2, n.distance, p.g, p.r, p.PetroRad_g AS radiusg, p.PetroRad_r as radiusr, sm.logMass as mass into mydb.pustilnik_output from MyDB.Pustilnik AS m CROSS APPLY dbo.fGetNearestObjEq (m.RA, m.DEC, #) AS n JOIN photoObj AS p ON p.objid = n.objid JOIN specObj AS s ON s.bestobjid = p.objid JOIN stellarMassStarformingPort AS sm on sm.specobjid = s.specobjid AND s.Class = #"
+2019-03-29 19:38:00,1

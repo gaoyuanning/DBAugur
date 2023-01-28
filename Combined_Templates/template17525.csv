@@ -1,0 +1,4 @@
+4,"SELECT main.objID, main.type, main.ra, main.dec, main.psfMag_u, main.psfMag_g, main.psfMag_r, main.psfMag_i, main.psfMag_z, main.dered_u, main.dered_g, main.dered_r, main.dered_i, main.dered_z, main.extinction_u, main.extinction_g, main.extinction_r, main.extinction_i, main.extinction_z, main.mode = # into MyDB.MyTable_success FROM DR7.PhotoObjAll as main INNER JOIN Star as star ON main.objID = star.objID WHERE main.ra > =# AND main.ra < =# AND main.type = #"
+2019-03-05 11:13:00,1
+2019-03-05 11:14:00,2
+2019-03-05 11:15:00,1

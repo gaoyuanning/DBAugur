@@ -1,0 +1,2 @@
+1,"SELECT    y.specObjID, bestObjID, id, specsfr_tot_p5#    FROM MyDB.Y2b AS y   join galSpecExtra as s on y.specobjid=s.specobjid   order by idSELECT    specObjID, bestObjID, id   into MyDB.Y2b FROM MyDB.Y2a AS y   join SpecObjAll as s on y.objid=s.bestobjid"
+2019-05-29 08:39:00,1

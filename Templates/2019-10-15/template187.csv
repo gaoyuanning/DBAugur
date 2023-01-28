@@ -1,0 +1,5 @@
+101,"SELECT top # ra,dec,u,g,r,i,z,GNOE.distance*# FROM PhotoObj as PT JOIN dbo.fGetNearbyObjEq(ra,dec,#) as GNOE on PT.objID = GNOE.objID ORDER BY GNOE.distance"
+2019-10-15 16:21:00,18
+2019-10-15 16:22:00,39
+2019-10-15 16:23:00,38
+2019-10-15 16:24:00,6

@@ -1,0 +1,2 @@
+1,"SELECT  u.up_id, s.bestobjID, s.ra, s.dec, s.plate, s.mjd, s.fiberid, s.specobjid FROM #upload u       JOIN SpecObjAll s ON (s.plate=u.up_plate AND s.mjd=u.up_mjd AND s.fiberID=u.up_fiber) ORDER by u.up_id WHERE NOT EXTISTS (SELECT * FROM  u)"
+2019-04-08 15:23:00,1

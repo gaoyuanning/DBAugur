@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.z AS z, petroMag_r as m_r, petroMag_r-#*log1#(dbo.fCosmoDl(s.z))#-extinction_r as M, ROW_NUMBER() OVER (ORDER BY s.z) as temp,  NTILE(#) OVER (ORDER BY s.z) as nt FROM SpecObj s INNER JOIN PhotoObj ON s.bestObjID=PhotoObj.ObjID WHERE s.z BETWEEN # AND #    AND petroMag_r-#*log1#(dbo.fCosmoDl(s.z))#-extinction_r < #    AND objTypeName = &&& ), b AS ( SELECT z, m_r, M, ROW_NUMBER() OVER (PARTITION BY nt ORDER BY M) as rn FROM q )  SELECT z, m_r, M FROM b WHERE rn = #"
+2019-01-23 15:28:00,1

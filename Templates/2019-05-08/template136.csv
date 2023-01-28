@@ -1,0 +1,2 @@
+1,"SELECT TOP #   s.ra,   s.dec,   s.z,   s.zErr,   p.petroMag_r,   p.petroMag_u,   p.fracDeV_r     IF p.lnLExp_r < p.lnLDeV_r   BEGIN     SELECT p.DeVAB_r,p.DeVPhi_r   END IF p.lnLExp_r > p.lnLDeV_r   BEGIN     SELECT p.expAB_r,p.expPhi_r   END into mydb.MyTable_# from PhotoObj p   JOIN SpecObj s ON s.bestObjID = p.objID  WHERE   s.class = &&& AND   s.z < # AND   s.z <> #"
+2019-05-08 19:28:00,1

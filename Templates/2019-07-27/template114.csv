@@ -1,0 +1,2 @@
+1,"CREATE TABLE Wangoutput(   ra_iso   float  not null,   dec_iso   float  not null,   objID     bigint not null,    ra       float  not null,   dec       float  not null,   spiral  int  not null,   elliptical  int  not null,   uncertain  int  not null       );"
+2019-07-27 18:37:00,1

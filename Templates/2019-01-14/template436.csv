@@ -1,0 +1,2 @@
+1,"select      S.apogee_id, P.aspcap_id, S.ra, S.dec, S.glon, S.glat, O.j, O.j_err, O.h, O.h_err, O.k, O.k_err, O.pmra, O.pmra_err, O.pmdec, O.pmdec_err, P.aspcap_chi2, P.teff, P.teff_err, P.logg, P.logg_err, P.m_h, P.m_h_err, P.alpha_m, P.alpha_m_err, P.c_fe, P.c_fe_err, P.n_fe, P.n_fe_err, P.o_fe, P.o_fe_err, P.na_fe, P.na_fe_err, P.mg_fe, P.mg_fe_err, P.al_fe, P.al_fe_err, P.fe_h, P.fe_h_err  into mydb.APOGEE_spec_tets  from apogeeObject as O, apogeeStar as S, aspcapStar as P  where O.target_id = P.target_id"
+2019-01-14 10:15:00,1

@@ -1,0 +1,4 @@
+3,"SELECT p.objid, p.ra, p.dec, pz.z as z_phot, p.dered_r INTO mydb.grispy_DR1#_# FROM PhotoObj AS p JOIN Photoz AS pz ON p.objid = pz.objid WHERE p.rerun = # and p.mode = # and p.type = # and p.clean = # and p.dered_r < # ORDER BY p.ra offset # rows fetch next # rows only"
+2019-01-24 07:12:00,1
+2019-01-24 12:55:00,1
+2019-01-24 14:43:00,1

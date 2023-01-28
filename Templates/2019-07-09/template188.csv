@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid,   p.field, p.obj,   p.class, p.ra, p.dec, p.z, p.zErr   FROM fGetObjFromRectEq(#,#,#,#) n,   SpecPhoto p   WHERE n.objID=p.objID AND p.class=&&&"
+2019-07-09 16:34:00,1

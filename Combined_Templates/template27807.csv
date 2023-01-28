@@ -1,0 +1,2 @@
+1,"SELECT s.cluid, s.ra, s.dec, p.designation as name_#mass, p.ra as ra_#mass, p.dec as dec_#mass, p.r_k2#fe, p.j_m_k2#fe, p.j_msig_k2#fe, p.j_flg_k2#fe, p.h_m_k2#fe, p.h_msig_k2#fe, p.h_flg_k2#fe, p.k_m_k2#fe, p.k_msig_k2#fe, p.k_flg_k2#fe into mydb.clu_april_#mass from dbo.PhotoXSC AS p, myDB.clu_april as s WHERE p.id = dbo.fGetNearestObjIdEq (s.ra, s.dec, #) AND dbo.fGetNearestObjIdEq (s.ra, s.dec, #) IS NOT #"
+2019-04-04 12:22:00,1

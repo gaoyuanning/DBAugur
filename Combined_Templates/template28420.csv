@@ -1,0 +1,2 @@
+1,"select s.specObjID, s.logMass, s.z from stellarMassStarformingPort s, SpecObj g where g.specObjID = s.specObjID and g.class = # and g.subclass = # and s.logMass < = #"
+2019-04-08 17:03:00,1

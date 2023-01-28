@@ -1,0 +1,2 @@
+1,"select a.objid, a.ra, a.dec, a.type, a.probPSF, a.petroMag_g, a.petroMag_r, a.petroRad_g, a.petroR5#_g, a.deVRad_g, a.deVRad_r, a.expRad_g, a.cModelMag_g, a.cModelMag_r, b.z, b.zerr, b.lumDist, b.synthG, b.synthR, b.absMagG, b.absMagR, c.logd_#, c.bmvt, c.loga_e, c.mpe from PhotoObjAll as a join photoz as b on a.objid = b.objid join RC3 as c on a.objid = c.objid where c.mpe > # and a.petroMag_g < # and a.petroMag_r < # and a.type = # and petror5#_g > # and (a.petroMag_g+#+#*LOG1# (#*petroR5#_g*petroR5#_g) > #)"
+2019-03-11 15:26:00,1

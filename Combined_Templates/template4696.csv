@@ -1,0 +1,8 @@
+8,"SELECT TOP # ph.objID, ph.ra, ph.dec, ph.psfMag_u, ph.psfMag_g, ph.psfMag_r, ph.psfMag_i, ph.psfMag_z FROM dbo.PhotoObjAll ph WHERE ph.ra BETWEEN # AND # AND ph.dec BETWEEN # AND # AND ph.psfMag_r< # AND ph.psfMag_r> # AND ph.psfMag_g> #"
+2019-01-19 05:09:00,1
+2019-01-19 05:37:00,1
+2019-01-19 07:04:00,1
+2019-01-19 07:23:00,1
+2019-01-19 07:24:00,2
+2019-01-24 10:44:00,1
+2019-01-24 10:45:00,1

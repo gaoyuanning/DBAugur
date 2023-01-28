@@ -1,0 +1,2 @@
+1,"SELECT   p.objid,p.ra,p.dec,p.r,   s.specobjid,s.z,   dbo.fSpecZWarningN(s.zWarning) as warning,   s.plate, s.mjd, s.fiberid   FROM PhotoObj AS p   JOIN SpecObj AS s ON s.bestobjid = p.objid   WHERE   p.ra < #+# and p.ra > #-#   AND p.dec < #+# and p.dec > #-#"
+2019-05-02 12:53:00,1

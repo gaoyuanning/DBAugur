@@ -1,0 +1,4 @@
+4,"SELECT DISTINCT p.run, p.rerun, p.camcol, p.field FROM PhotoObjAll AS p WHERE ((p.ra between # and #) and (p.dec between # and #))"
+2019-04-19 15:57:00,1
+2019-04-19 16:09:00,1
+2019-04-19 17:16:00,2

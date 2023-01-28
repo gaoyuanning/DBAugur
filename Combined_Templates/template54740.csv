@@ -1,0 +1,2 @@
+1,"SELECT sp.bestobjid, sp.TEFFSPEC, sp.LOGGSPEC, sp.FEHSPEC, sp.SNR, ph.objID as photoobjall_bestobjid, ph.ra, ph.dec FROM sppParams as sp JOIN PhotoObjAll as ph ON sp.bestobjid = ph.objID"
+2019-07-31 16:08:00,1

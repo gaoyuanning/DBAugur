@@ -1,0 +1,2 @@
+1,"SELECT z, velDisp, plate, mjd, fiberid INTO GVal_z0#z1# FROM SpecObj WHERE s.z BETWEEN # AND # AND s.survey = # AND s.class = # AND s.snMedian_r > # AND s.zWARNING = #"
+2019-02-28 17:36:00,1

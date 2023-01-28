@@ -1,0 +1,2 @@
+1,"select top # objid, ra, dec, p_el, p_cw, p_acw, elliptical, spiral, nvote into mydb.Table7 from dbo.zooSpec where nvote > #  or where elliptical=#   or spiral=#"
+2019-05-13 14:50:00,1

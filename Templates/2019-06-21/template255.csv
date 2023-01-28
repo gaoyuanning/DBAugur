@@ -1,0 +1,2 @@
+1,"SELECT    p.objid,p.ra,p.dec,p.l,p.b,p.dered_u,p.dered_g,p.dered_r,p.dered_i,p.dered_z into mydb.toms from Star AS p WHERE     (p.dered_u - p.dered_g) > #    AND (p.dered_g - p.dered_r) BETWEEN # AND #    AND (p.dered_u - p.dered_g) BETWEEN # AND #    AND p.l BETWEEN # AND #    AND p.b BETWEEN # AND #"
+2019-06-21 10:49:00,1

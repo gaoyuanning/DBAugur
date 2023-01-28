@@ -1,0 +1,2 @@
+1,SELECT objID  FROM Galaxy  WHERE uv-r < #			-- r IS NOT deredenned   and extinction_r > #	-- extinction more than #
+2019-04-30 00:32:00,1

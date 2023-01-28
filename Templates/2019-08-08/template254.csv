@@ -1,0 +1,2 @@
+1,"SELECT TOP # PhotoObjAll.ra, PhotoObjAll.dec into mydb.newtable2 from PhotoObjAll, stellarMassStarformingPort, SpecObjAll   WHERE SpecObjAll.z < # AND SpecObjAll.z > # AND SpecObjAll.class = &&& AND SpecObjAll.zWarning = # AND PhotoObjAll.z = SpecObjAll.z"
+2019-08-08 14:36:00,1

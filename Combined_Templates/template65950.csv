@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objID, p.ra, p.dec, p.cModelMag_g , s.z, s.class FROM PhotoObjAll as p join specObjAll as s on p.objID WHERE p.ra BETWEEN # AND # AND p.dec < # and s.class = #"
+2019-09-26 08:51:00,1

@@ -1,0 +1,2 @@
+2,"select   top #   count(*),   specobjid, class, subclass, objid, z, type from   specphoto where   type=#   and   class<>&&&"
+2019-09-14 02:53:00,2

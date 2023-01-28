@@ -1,0 +1,7 @@
+19,"SELECT TOP # specObjID, z, psfMag_u - extinction_u AS u,  psfMag_g - extinction_g AS g,  psfMag_r - extinction_u AS r,  psfMag_i - extinction_u AS i,  psfMag_z - extinction_u AS z FROM SpecPhoto  WHERE class = &&&  AND zWarning = # AND z > # AND z <= #"
+2019-03-12 02:54:00,3
+2019-03-12 02:55:00,6
+2019-03-12 02:56:00,7
+2019-03-12 02:57:00,1
+2019-03-12 03:10:00,1
+2019-03-12 03:11:00,1

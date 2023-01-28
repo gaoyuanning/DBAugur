@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec, raErr, decErr into mydb.RMsdss from PhotoObj WHERE ra> # and ra< # and dec> # and DEC< #"
+2019-04-15 17:10:00,1

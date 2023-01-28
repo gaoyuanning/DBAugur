@@ -1,0 +1,6 @@
+20,"SELECT floor(ra/#)*#, count(*) from GalaxyTag WHERE ra BETWEEN # AND # and type=# group by floor(ra/#)*# order by floor(ra/#)*#"
+2019-01-28 11:15:00,4
+2019-01-28 11:19:00,4
+2019-01-28 11:23:00,4
+2019-01-28 11:26:00,4
+2019-01-28 11:29:00,4

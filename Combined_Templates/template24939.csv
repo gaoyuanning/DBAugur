@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.specObjID, s.z, s.zErr, s.zWarning, s.class, p.ra, p.dec, p.r FROM ..SpecObj as s JOIN ..PhotoObj AS p ON s.bestObjID = p.objID JOIN dbo.fGetNearbySpecObjEq (#, #, #) AS b ON b.SpecobjID = S.SpecobjID"
+2019-03-28 17:28:00,1

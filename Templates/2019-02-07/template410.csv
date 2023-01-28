@@ -1,0 +1,2 @@
+1,"SELECT dr7objid, ra, dec into mydb.no_spiral_feature_#d from dbo.zoo2Stripe8#Coadd2 WHERE    total_votes > #    and t0#_smooth_or_features_a0#_smooth_fraction >#   and t0#_smooth_or_features_a0#_smooth_weighted_fraction >#   and t0#_smooth_or_features_a0#_smooth_debiased >#   and t0#_spiral_a0#_no_spiral_fraction >#   and t0#_spiral_a0#_no_spiral_weighted_fraction >#   and t0#_spiral_a0#_no_spiral_debiased >#"
+2019-02-07 08:46:00,1

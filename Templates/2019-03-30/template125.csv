@@ -1,0 +1,2 @@
+2,"SELECT s.z,s.specObjID,s.rChi2, s.DOF  gs.oiii_#_reqw, si.reliable FROM SpecObj as s  JOIN galSpecLine as gs ON s.specObjID= gs.specObjID  JOIN galSpecInfo as si ON s.specObjID= si.specObjID WHERE s.z BETWEEN # AND #"
+2019-03-30 22:13:00,2

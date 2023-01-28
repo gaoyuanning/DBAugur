@@ -1,0 +1,2 @@
+1,"SELECT sp.specObjID, sp.mjd, sp.plate, sp.tile, sp.fiberID, sp.z, sp.zErr, sp.class, sp.subClass, sp.zWarning into mydb.DR1#_# from SpecPhoto AS sp WHERE z BETWEEN # AND # AND class = #"
+2019-01-31 11:49:00,1

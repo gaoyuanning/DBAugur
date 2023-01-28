@@ -1,0 +1,2 @@
+1,"SELECT p.objId, p.ra, p.dec, p.petror9#_r, p.expAB_r,     p.dered_u as g, p.dered_g as u, p.dered_r as r, p.dered_i as i,     s.z, s.plate, s.mjd, s.fiberid, s.velDisp, n.sersic_n FROM galaxy AS p     JOIN SpecObj AS s ON s.bestobjid = p.objid     JOIN nsatlas AS n ON n.mjd = s.mjd and n.fiberID = s.fiberID and n.plate = s.plate     JOIN emissionLinesPort AS e ON e.mjd = s.mjd and e.fiberID = s.fiberID and e.plate = s.plate"
+2019-07-12 11:24:00,1

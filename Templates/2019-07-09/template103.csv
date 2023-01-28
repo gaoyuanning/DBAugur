@@ -1,0 +1,2 @@
+1,"select g.specObjID, g.ra, g.dec, s.z, s.plateID, s.mjd, s.fiberID, s.run2d  from galaxy g JOIN galSpecExtra e ON e.specObjID = g.specObjID JOIN specObj s ON s.specObjID = g.specObjID JOIN zooSpec z ON z.specObjID = g.specObjID JOIN zooVotes v ON v.specObjID = g.specObjID  where e.bptclass = # AND s.z < .# AND (z.p_mg BETWEEN .# AND .#) AND v.nvote_tot >= #  order by z.p_mg"
+2019-07-09 19:23:00,1

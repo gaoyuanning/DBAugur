@@ -1,0 +1,2 @@
+1,"select TOP # specobjid as s.name, s.ra, s.dec, s.velDisp, p.PetroRad_r from SpecObj s J0IN photoObj p ON p.objId = s.bestObjID where s.class = GALAXY AND s.ra between # and #"
+2019-11-02 07:26:00,1

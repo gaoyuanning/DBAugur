@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objID, p.run, f.run, p.ra, p.dec, p.psfMag_u, p.psfMag_g, p.psfMag_r, p.psfMag_i, p.psfMag_z, f.TAI_u into mydb.MyTable_# FROM PhotoObjAll p, Field f WHERE (p.objID = # AND f.fieldID = p.fieldID)"
+2019-09-06 05:14:00,1

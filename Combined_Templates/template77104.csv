@@ -1,0 +1,2 @@
+1,"select s.specObjID, s.z, p.petroMag_r, s.ra, s.dec, g.oiii_#_flux, g.oiii_#_flux_err, g.nii_#_flux, g.nii_#_flux_err, g.h_beta_flux, g.h_beta_flux_err, g.h_alpha_flux, g.h_alpha_flux_err into mydb.ml_test from galSpecInfo as s, galSpecLine as g, PhotoObjAll as p where g.specObjID = s.specObjID and p.objID = g.specObjID and s.z> =# and s.z< =#"
+2019-11-18 07:20:00,1

@@ -1,0 +1,2 @@
+1,"select a.objID, a.specObjID, a.ra, a.dec, d.z, a.petroMag_g, a.petroMagErr_g, a.petroMag_r, a.petroMagErr_r, a.extinction_g, a.extinction_r, a.expAB_g, a.expABErr_g, a.expAB_r, a.expABErr_r, a.deVAB_g, a.deVABErr_g, a.deVAB_r, a.deVABErr_r, a.fracDeV_g, a.fracDeV_r, a.petroR5#_r, a.petroR5#Err_r from PhotoObjAll as a , SpecPhotoAll as d where a.type = # and a.objID = d.objID and d.specObjID = a.specObjID and d.z> # and d.z< # and abs (a.petroMag_r-#* (log1# (#e5*d.z/#) +#) +#) < #"
+2019-11-15 01:15:00,1

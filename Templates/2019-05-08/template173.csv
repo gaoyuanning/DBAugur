@@ -1,0 +1,4 @@
+3,"SELECT ALL    p.objID, p.ra, p.dec,   p.u, p.err_u,p.g, p.err_g,p.r, p.err_r,p.i, p.err_i,p.z, p.err_z,   p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i, p.extinction_z,    p.fiberMag_u, p.fiberMagErr_u, p.fiberMag_g, p.fiberMagErr_g, p.fiberMag_r, p.fiberMagErr_r, p.fiberMag_i, p.fiberMagErr_i, p.fiberMag_z, p.fiberMagErr_z,   p.petroR5#_r, p.petroR5#Err_r,   p.petroR9#_r, p.petroR9#Err_r,   p.deVRad_r, p.deVRadErr_r,   p.deVAB_r, p.deVABErr_r,   p.deVPhi_r,    p.expRad_r, p.expRadErr_r,    p.expAB_r, p.expABErr_r,    p.expPhi_r,    lnLExp_r,    lnLDeV_r,    lnLStar_r,    q_r, qErr_r,   u_r, uErr_r  into MyDB.amusing_sdss from DR1#.PhotoObjAll AS p JOIN MyDB.amusing_sample AS x on x.objID=p.ObjID"
+2019-05-08 14:39:00,1
+2019-05-08 15:52:00,1
+2019-05-08 18:39:00,1

@@ -1,0 +1,2 @@
+2,"SELECT TOP # z.objid, z.ra, z.dec, p_el as elliptical, p_cw as spiralclock, p_acw as spiralanticlock, p_dk as dontknow,  FROM ZooNoSpec as z JOIN PhotoObjAll as s  ON s.objid = z.objid"
+2019-11-11 16:52:00,2

@@ -1,0 +1,4 @@
+3,"SELECT TOP # specobjid, ra, dec, fiberid, mjd, plate, subclass FROM Specobj where class = #"
+2019-01-25 09:28:00,1
+2019-01-25 09:30:00,1
+2019-01-25 09:31:00,1

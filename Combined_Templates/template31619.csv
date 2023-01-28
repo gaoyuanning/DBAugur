@@ -1,0 +1,5 @@
+297,"SELECT TOP # g.objid, g.type, g.ra, g.dec, g.u, g.g, g.r, g.i, g.z, g.err_u, g.err_g, g.err_r, g.err_i, g.err_z, n.distance AS offset, pz.z AS redshift, pz.zErr AS err_redshift FROM fGetNearbyObjEq (#, #, #) n JOIN Galaxy g ON n.objID = g.objID LEFT JOIN Photoz pz ON pz.objID = g.objID ORDER BY offset"
+2019-04-18 05:43:00,196
+2019-04-18 05:44:00,60
+2019-04-18 05:49:00,20
+2019-04-18 05:50:00,21

@@ -1,0 +1,2 @@
+1,"SELECT p.objID, p.tmassxsc_ra, p.tmassxsc_dec, p.ID_CAT FROM TwoMassXSC as p on p.objID=# INTO mydb.Host_test"
+2019-02-01 04:40:00,1

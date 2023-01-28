@@ -1,0 +1,2 @@
+1,select objID from photoObjAll where objID = #
+2019-04-25 17:13:00,1

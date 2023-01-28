@@ -1,0 +1,7 @@
+8,"SELECT  m.ra AS ra, m.dec AS dec, s.plate as plate, s.mjd as mjd, s.fiberid as fiberid, s.run2d as run2d    into mydb.rakshit_nls1_spec from MyDB.rakshit_nls1_ra_dec AS m   OUTER APPLY dbo.fGetNearestSpecObjAllEq( m.ra, m.dec, #) AS n   LEFT JOIN specObjAll AS s ON n.specObjID=s.specObjID"
+2019-05-14 05:20:00,2
+2019-05-14 05:22:00,1
+2019-05-14 05:23:00,1
+2019-05-14 05:28:00,2
+2019-05-14 05:31:00,1
+2019-05-14 05:32:00,1

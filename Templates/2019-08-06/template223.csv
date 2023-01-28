@@ -1,0 +1,4 @@
+7,"select top #   sa.OBJID,   sa.RA,   sa.DEC      into output1#      from MyDB.akari_subset AS sa     CROSS APPLY dbo.fGetNearestObjEq( sa.RA, sa.DEC, #) AS n"
+2019-08-06 12:35:00,2
+2019-08-06 12:51:00,4
+2019-08-06 12:52:00,1

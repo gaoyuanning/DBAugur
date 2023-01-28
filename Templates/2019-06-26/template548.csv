@@ -1,0 +1,2 @@
+2,"SELECT P.ObjID, P.ra, P.dec, S.z, S.specclass, P.petromag_r, P.isoA_r, P.isoB_r      into mydb.ML_test_v2  From SpecObj S, galaxy G, PhotoObjAll P, mydb.ML_test x  WHERE x.id = P.Objid   and P.ObjID = S.bestObjID   and S.bestObjID = G.ObjID"
+2019-06-26 04:43:00,2

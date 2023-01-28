@@ -1,0 +1,6 @@
+5,"SELECT SA.ra, SA.dec, SA.z, PA.fracDeV_r, PA.petroR5#_r, SA.velDisp, PA.petromag_r into GU2#_hw2_w5_# from SpecObjAll as SA, PhotoObjAll as PA Where SA.class = # and SA.z < # and SA.z > # and SA.specObjID = PA.specObjID and PA.fracDev_r > #"
+2019-05-03 09:47:00,1
+2019-05-05 03:05:00,1
+2019-05-05 03:10:00,1
+2019-05-05 09:52:00,1
+2019-05-05 12:46:00,1

@@ -1,0 +1,2 @@
+1,"select PhotoObjAll.ObjID, PhotoObjAll.ra, PhotoObjAll.dec, buta.z, PhotoObjAll.deVMag_u, PhotoObjAll.deVMag_g, PhotoObjAll.deVMag_r, PhotoObjAll.deVMag_i, PhotoObjAll.deVMag_z, PhotoObjAll.expMag_u, PhotoObjAll.expMag_g, PhotoObjAll.expMag_r, PhotoObjAll.expMag_i, PhotoObjAll.expMag_z into MyDB.buta_ids5_DR7_col from MyDB.buta, PhotoObjAll where PhotoObjAll.type = # and PhotoObjAll.petroRad_g> # and PhotoObjAll.deVMag_g< # and sqrt (power (buta.ra-PhotoObjAll.ra, #) +power (buta.dec-PhotoObjAll.dec, #) )< #"
+2019-09-21 00:33:00,1

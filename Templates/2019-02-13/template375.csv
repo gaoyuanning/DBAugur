@@ -1,0 +1,2 @@
+2,"select    top #     phot.objID as objid, phot.probPSF as star, fieldID as field,    phot.petroR5#_r, phot.petroR5#Err_r, petroR9#_r, petroR9#Err_r,    deVRad_r, deVRadErr_r, deVAB_r, deVABErr_r,    expRad_r, expRadErr_r, expAB_r, expABErr_r,   gx.nvote, gx.p_el, gx.p_cw, gx.p_acw, gx.p_edge, gx.p_dk, gx.mg_mg, gx.p_cs, gx.p_el_debiased, gx.p_cs_debiased, gx.spiral, gx.elliptical, gx.uncertain into mydb.dr1#gxphotmodels from PhotoObjAll as phot   join dbo.zooSpec as gx on phot.objID=gx.objid"
+2019-02-13 15:57:00,2

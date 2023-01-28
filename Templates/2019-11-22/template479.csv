@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.target_id, s.ra, s.dec, s.class, s.z as redshift, s.elodieTEff, s.spectroFlux_r, g.ra, g.dec, g.wash_ddo5#_giant_flag FROM  SpecObj AS s JOIN aopgeeObject AS g ON g.ra=s.ra AND g.dec=g.dec WHERE   s.ra BETWEEN # AND #  AND s.dec BETWEEN # AND #  AND s.class=&&&"
+2019-11-22 11:24:00,1

@@ -1,0 +1,12 @@
+183,"SELECT p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.Err_u, p.Err_g, p.Err_r, p.Err_i, p.Err_z FROM fGetNearbyObjEq (#, #, #) n, PhotoPrimary p WHERE n.objID = p.objID AND p.type = # ORDER BY n.distance ASC LIMIT #"
+2019-10-29 19:39:00,1
+2019-10-29 19:40:00,1
+2019-10-29 19:41:00,9
+2019-10-29 19:42:00,8
+2019-10-29 19:43:00,30
+2019-10-29 19:44:00,34
+2019-10-29 19:45:00,15
+2019-10-29 19:47:00,16
+2019-10-29 19:48:00,34
+2019-10-29 19:49:00,32
+2019-10-29 19:50:00,3

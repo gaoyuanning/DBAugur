@@ -1,0 +1,2 @@
+1,select count(*) specobjid into mydb.INFSCI_Size_Test from dbo.zoo2MainSpecz
+2019-03-31 18:23:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.ra, s.dec, INTO mydb.target_galaxies5 FROM PhotoObj p JOIN SpecObj s ON s.bestObjID = p.objID WHERE (p.DeVPhi_r BETWEEN # and #) AND (p.expPhi_r BETWEEN # and #) AND (p.DeVAB_r > #) AND (p.expAB_r > #) AND (s.class = #) AND (s.z BETWEEN # and #) AND (abs (s.zErr) < #e-#) AND (s.zWarning = #) AND ( ((s.ra BETWEEN # and #) AND (s.dec BETWEEN # and #) ) OR ( (s.ra BETWEEN # and #) AND (s.dec BETWEEN # and #) ) OR ( (s.ra BETWEEN # and #) AND (s.dec BETWEEN # and #) ) OR ( (s.ra BETWEEN # and #) AND (s.dec BETWEEN # and #) ))"
+2019-06-15 19:05:00,1

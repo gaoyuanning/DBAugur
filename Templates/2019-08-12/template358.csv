@@ -1,0 +1,2 @@
+1,"select ra,dec,psfMag_u,psfMag_g into mydb.MyTable_#   from specObj Where ra BETWEEN # and # AND dec BETWEEN # and #   AND class = &&&"
+2019-08-12 09:40:00,1

@@ -1,0 +1,2 @@
+1,"select   objID, ra, dec, u, g, r, i, z from  galaxy  where   ra BETWEEN # and #  AND g<#  AND u-g> # select  bestObjID, ra, dec, z from  specObj where  class=&&&   AND z > #   AND zWarning = #"
+2019-11-19 12:05:00,1

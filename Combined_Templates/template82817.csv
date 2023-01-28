@@ -1,0 +1,2 @@
+1,"select id, s.bestobjID as objid, s.specObjID as specobjid, s.z as zspec, s.zErr, zWarning as zW, sciencePrimary as prim, s.plate, s.mjd, s.fiberid, snMedian as SN, d4#_n as d4#n, lick_hb as hb, lick_hd_a as hd, lick_hg_a as hg, h_delta_eqw as Hd_EW, h_gamma_eqw as Hg_EW, h_beta_eqw as Hb_EW, h_alpha_eqw as Ha_EW, EW_Ha_#, Flux_OIII_#, Flux_SII_#, Flux_SII_#, Flux_Ha_#, Flux_Hb_# from MyDB.temp as t left join SpecObjAll as s on s.bestObjID = t.objid left join emissionLinesPort as e on s.specObjID = e.specObjID order by id"
+2019-12-14 18:27:00,1

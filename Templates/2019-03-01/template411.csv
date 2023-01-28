@@ -1,0 +1,2 @@
+1,"select a.apogee_id, a.ra, a.dec, a.h, b.objID, b.ra, b.dec, b.probPSF, c.specObjID, c.ra, c.dec, c.z, c.logMass, c.ssfr,c.chi2 from apogeeObject a join PhotoObjAll b on b.ra = a.ra AND b.dec = a.dec join stellarMassFSPSGranEarlyDust c on b.ra = c.ra AND b.dec = c.dec WHERE c.z < # AND a.h < # AND b.probPSF=#"
+2019-03-01 13:52:00,1

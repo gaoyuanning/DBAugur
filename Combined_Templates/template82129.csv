@@ -1,0 +1,3 @@
+2,"SELECT s.ra, s.dec, s.z, pz.z as phz , pz.zErr as phzErr, e.lgm_tot_p5#, e.lgm_tot_p8#, e.lgm_tot_p1#, e.sfr_tot_p5#, e.sfr_tot_p8#, e.sfr_tot_p1#, e.bptclass, z.elliptical into mydb.GalZOO from zooSpec as z JOIN SpecPhotoAll AS p ON p.specobjid = z.specobjid JOIN Photoz AS pz ON pz.objID = p.objID JOIN SpecObj AS s ON s.specobjid = z.specobjid LEFT JOIN galSpecExtra AS e ON e.specobjid = z.specobjid LEFT JOIN galSpecLine AS g ON g.specobjid = z.specobjid WHERE s.zwarning = # AND s.z < # AND p.petroMagErr_u > # AND p.petroMagErr_g > # AND p.petroMagErr_r > # AND p.petroMagErr_i > # AND p.petroMagErr_z > # AND pz.zErr > # AND pz.photoErrorClass > # AND z.elliptical = #"
+2019-12-11 09:18:00,1
+2019-12-11 09:25:00,1

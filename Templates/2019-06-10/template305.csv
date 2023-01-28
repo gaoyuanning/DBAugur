@@ -1,0 +1,5 @@
+4,"SELECT  all  s.SpecObjID,  s.objTypeName,  s.z,  s.mag_#,  L.sigma,  L.height,  L.nSigma  into [myscratch:default].zlimit FROM SpecObjAll as s JOIN SpecLine as L ON s.SpecObjID = L.specObjID WHERE L.LineId = # and abs(s.z-#) < # and s.zwarning = # and specClass = #"
+2019-06-10 12:05:00,1
+2019-06-10 12:06:00,1
+2019-06-10 12:10:00,1
+2019-06-10 12:15:00,1

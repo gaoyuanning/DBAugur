@@ -1,0 +1,2 @@
+2,"select top # PO.obj, PO.ra, PO.dec, sample into MyDB.test2 from PhotoObjDR7 as PO full outer join zoo2MainPhotoz as zmp on PO.dr8objid = zmp.dr8objid where clean = # and petror9#_r > # order by objID"
+2019-01-16 01:03:00,2

@@ -1,0 +1,2 @@
+2,"select data.*, cat.w1mpro, cat.w1sigmpro, cat.w2mpro, cat.w2sigmpro into mydb.sb_galex_sdss_wise_data from mydb.sb_galex_sdss_wise_ids as data, wise_allsky as cat where cat.cntr = data.wise_cntr"
+2019-05-29 16:31:00,2

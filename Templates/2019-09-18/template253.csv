@@ -1,0 +1,4 @@
+3,"SELECT o.deepsourceid,o.ra,o.decl,o.htmid FROM htm.Cover(@r) c   ,    m_object_test o  where o.htmid between c.htmidstart and c.htmidend    and region.ContainsEq(@r, o.ra,o.decl)=#"
+2019-09-18 18:16:00,1
+2019-09-18 18:18:00,1
+2019-09-18 18:19:00,1

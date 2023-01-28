@@ -1,0 +1,2 @@
+2,"SELECT floor(ra/#)*#, count(*) from GalaxyTag WHERE g.ra BETWEEN # AND #"
+2019-01-25 18:41:00,2

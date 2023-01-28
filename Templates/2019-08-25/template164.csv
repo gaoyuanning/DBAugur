@@ -1,0 +1,4 @@
+11,"SELECT  SpecObj.plate, SpecObj.mjd, SpecObj.fiberID, SpecObj.z FROM  SpecObj WHERE  SpecObj.class = &&& AND SpecObj.z < #  AND SpecObj.sn1_g >#"
+2019-08-25 09:10:00,1
+2019-08-25 09:11:00,8
+2019-08-25 09:12:00,2

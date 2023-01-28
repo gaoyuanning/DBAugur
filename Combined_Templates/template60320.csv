@@ -1,0 +1,2 @@
+1,"SELECT TOP # bestObjID, ra, dec, z, zWarning, class, subClass into mydb.allsdssz from SpecObjAll WHERE sciencePrimary > # AND (zWarning = # or zWarning = #)"
+2019-09-02 05:11:00,1

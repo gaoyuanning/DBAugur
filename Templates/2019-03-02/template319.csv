@@ -1,0 +1,2 @@
+1,"select top #  p.ra, p.dec from RC3 as p   p.mpe > #  and p.mp2# > #"
+2019-03-02 14:31:00,1

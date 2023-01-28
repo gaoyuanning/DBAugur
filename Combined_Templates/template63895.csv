@@ -1,0 +1,2 @@
+1,"select top # ra, decl, htmId , htmid.fromeq (ra, decl) as htmid2 from m_object_test"
+2019-09-18 17:56:00,1

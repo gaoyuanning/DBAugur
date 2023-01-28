@@ -1,0 +1,2 @@
+1,"select cModelAbsMag_u, cModelAbsMag_g, cModelAbsMag_r, cModelAbsMag_i, cModelAbsMag_z, z, logMass from stellarMassFSPSGranWideDust where z < # AND logMass > #"
+2019-11-13 17:21:00,1

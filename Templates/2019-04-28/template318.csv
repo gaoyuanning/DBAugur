@@ -1,0 +1,2 @@
+1,"select   S.bestobjID objectID, S.z redshift into mydb.redshiftDist from SpecObj S    where   S.specClass = #"
+2019-04-28 06:08:00,1

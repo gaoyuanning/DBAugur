@@ -1,0 +1,27 @@
+92,"select name,ucd from dbcolumns where tablename = &&& and ( name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&& or  name like &&&)"
+2019-01-14 00:59:00,1
+2019-01-14 02:00:00,1
+2019-01-14 02:58:00,1
+2019-01-14 03:59:00,1
+2019-01-14 05:00:00,1
+2019-01-14 06:00:00,1
+2019-01-14 06:59:00,1
+2019-01-14 07:58:00,1
+2019-01-14 08:33:00,27
+2019-01-14 08:50:00,9
+2019-01-14 08:57:00,1
+2019-01-14 09:58:00,1
+2019-01-14 10:17:00,1
+2019-01-14 10:58:00,1
+2019-01-14 11:45:00,9
+2019-01-14 11:58:00,1
+2019-01-14 12:58:00,1
+2019-01-14 13:27:00,9
+2019-01-14 13:57:00,1
+2019-01-14 14:57:00,1
+2019-01-14 15:57:00,1
+2019-01-14 16:11:00,9
+2019-01-14 16:16:00,9
+2019-01-14 16:58:00,1
+2019-01-14 17:57:00,1
+2019-01-14 18:58:00,1

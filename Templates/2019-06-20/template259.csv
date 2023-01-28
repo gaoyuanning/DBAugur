@@ -1,0 +1,2 @@
+1,"select ra, dec, mode, type from photoobj_all where mode = # and ra > minRa and ra < maxRa and dec > minDec and dec < maxDec"
+2019-06-20 15:00:00,1

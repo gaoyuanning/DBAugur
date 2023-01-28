@@ -1,0 +1,2 @@
+1,"select top # ra, dec from SpecObjAll where class=&&& group by ra, dec having count(*)># order by ra"
+2019-07-01 01:58:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # W.ra as wise.ra, W.dec as wise.dec FROM wise_xmatch as X join wise_allsky as W on X.wise_cntr = W.cntr join photoTag as S on X.sdss_objid = S.objid where S.nchild = #"
+2019-04-14 15:59:00,1

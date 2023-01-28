@@ -1,0 +1,2 @@
+1,"SELECT TOP #   pz.objID AS sdssid_pz,   pz.z AS zph,    pz.zErr AS e_zph    FROM    Photoz AS pz,   SpecPhotoAll AS sp    INTO   mydb.Photoz    where   pz.objID = sp.specObjID   and pz.z >= #    and pz.zErr <> #"
+2019-08-19 17:02:00,1

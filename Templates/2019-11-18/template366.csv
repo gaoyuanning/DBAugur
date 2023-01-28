@@ -1,0 +1,3 @@
+3,"select count(*) from Data as d, Runs r, Users u"
+2019-11-18 12:54:00,2
+2019-11-18 12:55:00,1

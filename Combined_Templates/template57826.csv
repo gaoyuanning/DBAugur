@@ -1,0 +1,2 @@
+1,SELECT distinct (type_g) into mydb.distinct_type_g from photoObjAll ;
+2019-08-15 11:59:00,1

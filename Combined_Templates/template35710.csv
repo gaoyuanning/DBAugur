@@ -1,0 +1,4 @@
+3,"select count (*) from MyDB.DR1#_ccw , specObjAll where DR1#_ccw.ID = specObjAll.bestObjID and specObjAll.z> # and specObjAll.z< =# and (specObjAll.ra> # and specObjAll.ra< #) select count (*) from MyDB.DR1#_ccw , specObjAll where DR1#_ccw.ID = specObjAll.bestObjID and specObjAll.z> # and specObjAll.z< =# and (specObjAll.ra> # and specObjAll.ra< #) select count (*) from MyDB.DR1#_ccw , specObjAll where DR1#_ccw.ID = specObjAll.bestObjID and specObjAll.z> # and specObjAll.z< =# and (specObjAll.ra> # and specObjAll.ra< #) select count (*) from MyDB.DR1#_ccw , specObjAll where DR1#_ccw.ID = specObjAll.bestObjID and specObjAll.z> # and specObjAll.z< =# and (specObjAll.ra> # and specObjAll.ra< #) select count (*) from MyDB.DR1#_ccw , specObjAll where DR1#_ccw.ID = specObjAll.bestObjID and specObjAll.z> # and specObjAll.z< =# and (specObjAll.ra> # and specObjAll.ra< #)"
+2019-04-30 12:39:00,1
+2019-04-30 12:42:00,1
+2019-04-30 12:51:00,1

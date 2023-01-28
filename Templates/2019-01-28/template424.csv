@@ -1,0 +1,3 @@
+2,"SELECT top # specObj.bestObjid,photoObj.Objid, specObj.ra,specObj.dec,specObj.z,specObj.zErr, photoObj.modelMag_u,photoObj.modelMag_g, photoObj.modelMag_r, photoObj.modelMag_i, photoObj.modelMag_z, specObj.spectroFlux_u, specObj.spectroFlux_g, specObj.spectroFlux_r, specObj.spectroFlux_i, specObj.spectroFlux_z, specObj.spectroFluxIvar_u, specObj.spectroFluxIvar_g, specObj.spectroFluxIvar_r, specObj.spectroFluxIvar_i, specObj.spectroFluxIvar_z  from SpecObj, photoObj WHERE  specObj.bestObjid = photoObj.ObjID AND specObj.zWarning=# AND specObj.z># AND specObj.class=&&& AND specObj.ra># AND specObj.ra<# AND specObj.z<# AND specObj.z<#"
+2019-01-28 10:26:00,1
+2019-01-28 10:27:00,1

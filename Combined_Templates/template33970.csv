@@ -1,0 +1,2 @@
+1,"select distinct M.Name, G.Name from chinook.Track as T, chinook.MediaType as M, chinook.Genre as G; where T.MediaTypeId = M.MediaTypeId where T.GenreId = G.GenreId"
+2019-04-24 17:17:00,1

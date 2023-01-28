@@ -1,0 +1,2 @@
+1,"SELECT Zipcode, count(Permit_Number) FROM    (SELECT Zipcode FROM SFViolations   UNION SELECT Permit_ZipCode FROM SFParklets)"
+2019-02-11 13:41:00,1

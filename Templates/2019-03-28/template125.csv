@@ -1,0 +1,2 @@
+1,"SELECT TOP #  sp.objID, sp.specObjID, sp.ra, sp.dec,  sp.modelMag_u, sp.modelMag_g, sp.modelMag_r, sp.modelMag_i, sp.modelMag_z, sp.modelMagErr_u, sp.modelMagErr_g, sp.modelMagErr_g, sp.modelMagErr_i, sp.modelMagErr_z,  Sp.z  FROM SpecPhoto sp"
+2019-03-28 21:35:00,1

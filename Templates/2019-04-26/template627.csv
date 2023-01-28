@@ -1,0 +1,2 @@
+1,"SELECT TOP #  s.bestObjID,p.objID FROM PhotoObjAll AS p,   --mydb.test_# as a,   SpecObjAll as s     WHERE   ( p.type = # OR p.type = #) and  p.objID = s.bestObjID"
+2019-04-26 03:40:00,1

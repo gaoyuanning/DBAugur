@@ -1,0 +1,2 @@
+2,"SELECT TOP # S.ObjID, S.ra, S.dec, S.z, #, L_ha.ew, L_ha.ewErr, L_ha.continuum, #, L_OII.ew , L_OII.ewErr, L_OII.continuum FROM SpecPhoto AS S JOIN SpecLine AS L_ha ON S.SpecObjID = L_ha.SpecObjID JOIN SpecLine AS L_OII ON S.SpecObjID = L_OII.SpecObjID, photoobj WHERE photoobj.objid = s.objid and s.specclass = # and L_ha.LineId = # and L_OII.LineId = # and L_ha.ewerr between # and # and L_oii.ewerr between # and # and s.z between # and # and s.modelmag_r between # and #"
+2019-01-22 19:29:00,2

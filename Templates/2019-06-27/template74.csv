@@ -1,0 +1,2 @@
+1,"select s.objTypeName, p.objID, s.z as redshift, p.g, p.r, p.g-p.r as gMinusR from photoObj p, SpecObj s WHERE s.objType=# and s.z between # and # and p.specObjID=s.specObjID and p.ra BETWEEN # AND # AND p.dec BETWEEN # AND # order by s.z"
+2019-06-27 21:25:00,1

@@ -1,0 +1,2 @@
+2,"SELECT P.ra AS RA, P.dec AS DEC, P.u AS u_mMAG, P.r AS r_mMAG, P.objID AS pID, S.bestObjID AS sID, IS# (S.z, #) INTO MYDB.u_r modelMag_DR8 FROM PhotoObjAll AS P SpecObjAll AS S where S.z between # and # and P.objID = S.bestObjID"
+2019-01-27 05:00:00,2

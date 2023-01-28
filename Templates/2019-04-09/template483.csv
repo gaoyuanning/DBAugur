@@ -1,0 +1,7 @@
+6,"select ra, dec, run, rerun, camcol, field from Field where (ra between # and #) and (dec between # and #)"
+2019-04-09 08:49:00,1
+2019-04-09 09:02:00,1
+2019-04-09 09:09:00,1
+2019-04-09 09:18:00,1
+2019-04-09 09:28:00,1
+2019-04-09 09:34:00,1

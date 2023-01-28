@@ -1,0 +1,2 @@
+1,"SELECT p.objId,s.ra,q.ra,s.dec,q.dec,s.z,q.z,s.zErr,q.zerr,g.ra,g.raErr,g.dec,g.decErr,p.z,p.zErr into mydb.MyTable1 from PhotoObjAll as g   JOIN Photoz as p ON g.objId = p.objId   JOIN SpecPhotoAll as s ON s.dec = g.dec   JOIN SpecPhotoAll as q ON q.ra = g.ra WHERE      p.z BETWEEN # and #      and p.photoErrorClass=#   and p.nnCount>#   and g.ra>#   and g.ra<#   and g.dec>#   and g.dec<#"
+2019-08-12 17:12:00,1

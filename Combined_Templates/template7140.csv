@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.run, p.rerun, p.camcol, p.field, s.mangaid, s.objra, s.objdec FROM PhotoObj AS p JOIN mangadrpall AS s ON s.objra = p.ra AND s.objdec = p.dec WHERE p.u BETWEEN # AND # AND g BETWEEN # AND #"
+2019-01-31 21:05:00,1

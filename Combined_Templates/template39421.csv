@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec into mydb.MyTable_# from PhotoObjAll WHERE ra BETWEEN # AND # AND dec BETWEEN # AND #"
+2019-05-14 08:48:00,1

@@ -1,0 +1,2 @@
+1,"SELECT sl.plate, sl.mjd, sl.fiberID, sl.z, sl.zErr, sl.Class, sl.subClass, sl.elodieTEff, sl.elodieLogG, sl.elodieFeH, sl.elodieBV into mydb.MyTable from SpecObj AS sl WHERE class = # AND LEFT (subClass, #) = # OR LEFT (subClass, #) = # OR LEFT (subClass, #) = #"
+2019-12-28 02:11:00,1

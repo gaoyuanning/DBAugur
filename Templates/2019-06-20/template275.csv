@@ -1,0 +1,3 @@
+2,"SELECT   p.objid,p.g,p.r,   s.specobjid,s.class, s.z as redshift,   photoz.absmagr  FROM PhotoObj as p,specobj as s,photoz  WHERE  s.bestobjid=p.objid and p.objid=photoz.objid and   s.z BETWEEN # AND # and  p.type=# order by class asc"
+2019-06-20 11:28:00,1
+2019-06-20 14:10:00,1

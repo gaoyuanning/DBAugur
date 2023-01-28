@@ -1,0 +1,3 @@
+2,"select top # spa.ra, spa.dec, from apogeestar as spa where spa.plate = #"
+2019-10-02 11:33:00,1
+2019-10-02 11:34:00,1

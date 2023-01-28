@@ -1,0 +1,5 @@
+8,"select DISTINCT GenreId, MediaTypeId from chinook.Track"
+2019-04-23 15:35:00,2
+2019-04-23 15:37:00,2
+2019-04-23 15:38:00,2
+2019-04-23 15:42:00,2

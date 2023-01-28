@@ -1,0 +1,2 @@
+1,"select top # ID, X, geography::STPointFromText (#) from IntroSQL.data"
+2019-11-23 17:25:00,1

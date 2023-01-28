@@ -1,0 +1,2 @@
+2,"SELECT top # ra, dec, u, g, r, i, z, extinction_u, extinction_g, extinction_r, extinction_i, extinction_z  into randomg FROM Galaxy WHERE (htmid*# & #)     < (# * #)  SELECT top # ra, dec, u, g, r, i, z, extinction_u, extinction_g, extinction_r, extinction_i, extinction_z  into randoms FROM Star WHERE (htmid*# & #)     < (# * #)"
+2019-10-07 07:48:00,2

@@ -1,0 +1,5 @@
+4,"SELECT TOP # cast (str (p.ra, #, #) as float) as ra, cast (str (p.[dec], #, #) as float) as dec, p.u, p.g, p.r, p.i, p.z, IS# (s.theta_#, #) as theta_# FROM ..Star AS p LEFT OUTER JOIN ..SpecObj s ON p.objID = s.bestObjID JOIN dbo.fGetNearbyObjEq (#, #, #) AS b ON b.objID = P.objID"
+2019-09-10 18:57:00,1
+2019-09-10 18:58:00,1
+2019-09-10 19:05:00,1
+2019-09-10 19:10:00,1

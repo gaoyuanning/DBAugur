@@ -1,0 +1,2 @@
+1,"select p.objid, p.u, p.g, p.r, p.i, z.p_mg into mydb.MyTable_# from photoprimaryDR7 p join zoonospec z on z.objid = p.objid join specobjall s on p.objid = s.bestobjid where z.p_mg> # and z.nvote> # and z.p_mg> z.p_dk and p.r< # and s.z< # and s.z> #"
+2019-07-09 06:00:00,1

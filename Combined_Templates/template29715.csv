@@ -1,0 +1,2 @@
+1,"select e.SystemStudentID, ts.TestScore FROM Enrollment e JOIN TestScores ts ON e.SystemStudentID = ts.SystemStudentID UNION select e.SystemStudentID, SUM (p.Hours) TestScore FROM Enrollment e JOIN ParentEngagement p ON e.SystemStudentID = p.StudentID GROUP BY e.SystemStudentID"
+2019-04-12 02:28:00,1

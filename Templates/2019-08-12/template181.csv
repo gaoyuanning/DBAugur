@@ -1,0 +1,2 @@
+1,"SELECT TOP # PhotoObjAll.ra, PhotoObjAll.dec from PhotoObjAll, SpecObjAll,  stellarMassStarformingPort  WHERE SpecObjAll.z < # AND SpecObjAll.z > # AND SpecObjAll.class = &&& AND SpecObjAll.zWarning = # AND  PhotoObjAll.expRad_u > #   AND PhotoObjAll.SPecObjID = SpecObjAll.SpecObjID AND PhotoObjAll.SPecObjID = stellarMassStarformingPort.SpecObjID AND  stellarMassStarformingPort.SFR < #"
+2019-08-12 17:52:00,1

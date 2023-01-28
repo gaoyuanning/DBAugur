@@ -1,0 +1,7 @@
+219,"SELECT p.ra, p.dec, p.type, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, pz.z FROM Photoz AS pz RIGHT JOIN PhotoObj AS p ON pz.objid = p.objid WHERE p.mode = # AND p.ra < # and p.ra > # AND p.dec < # and p.dec > #"
+2019-07-31 21:15:00,1
+2019-07-31 21:16:00,1
+2019-07-31 21:19:00,5
+2019-07-31 21:20:00,47
+2019-07-31 21:23:00,128
+2019-07-31 21:24:00,37

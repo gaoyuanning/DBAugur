@@ -1,0 +1,4 @@
+3,"SELECT TOP # p.ObjID, p.ra, p.dec, p.clean, p.type, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, p.petroR9#_u, p.petroR9#_g, p.petroR9#_r, p.petroR9#_i, p.petroR9#_z FROM PhotoObjAll as p WHERE p.modelMag_g< # AND p.modelMag_g> # AND p.modelMagErr_g< # AND clean = #"
+2019-08-03 06:24:00,1
+2019-08-03 06:26:00,1
+2019-08-03 06:43:00,1

@@ -1,0 +1,2 @@
+1,"SELECT top1# specobjid, z, survey, besetobjid FROM specobj AND zwarning = o AND z BETWEEN # AND # AND (survey = # OR survey = #) order by newid ()"
+2019-04-03 19:58:00,1

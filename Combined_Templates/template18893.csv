@@ -1,0 +1,3 @@
+2,"select ra, dec, PLATEID, FIBERMAG_r from sppTargets where ra BETWEEN # and # AND dec BETWEEN # and #"
+2019-03-09 17:30:00,1
+2019-03-09 17:31:00,1

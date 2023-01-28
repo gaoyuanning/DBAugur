@@ -1,0 +1,3 @@
+2,"SELECT     m.ra, m.dec, n.objid as objid1, o.objid as objid2, o.z, o.zErr into mydb.MyTable_# from MyDB.WiseSecondSearch AS m  CROSS APPLY dbo.fGetNearestObjEq( m.ra, m.dec, #) AS n  JOIN Photoz AS o ON n.objid=o.objid"
+2019-06-20 18:31:00,1
+2019-06-20 18:37:00,1

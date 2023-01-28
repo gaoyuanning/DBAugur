@@ -1,0 +1,2 @@
+1,"select top # p.bin, p.band, p.profMeanfrom PhotoProfile AS p JOIN dbo.fGetNearbyObjEq (#, #, #) AS GN ON p.objID = GN.objID ORDER BY distance"
+2019-11-19 18:43:00,1

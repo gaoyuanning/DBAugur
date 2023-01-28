@@ -1,0 +1,2 @@
+1,"SELECT top #    into mydb.MyTable_# from MyDB.dani_table_chiara_new1  OUTER APPLY dbo.fGetNearestApogeeStarEq( RAdeg, DEdeg, #)"
+2019-06-13 03:53:00,1

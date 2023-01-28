@@ -1,0 +1,7 @@
+6,"SELECT plate.programname, class,  COUNT(specObjId) AS numObjs  FROM SpecObjAll JOIN PlateX AS plate ON plate.plate = specObjAll.plate GROUP BY plate.programname, class ORDER BY plate.programname, class"
+2019-03-21 02:23:00,1
+2019-03-21 07:16:00,1
+2019-03-21 15:44:00,1
+2019-03-21 16:46:00,1
+2019-03-21 22:13:00,1
+2019-03-21 22:23:00,1

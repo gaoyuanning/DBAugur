@@ -1,0 +1,2 @@
+1,"select top # objid, ra, dec, mpe, mp2# from RC3 where mpe + #*log1# (deVRad_g*deVRad_g) > #"
+2019-03-01 18:56:00,1

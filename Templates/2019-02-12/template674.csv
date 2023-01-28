@@ -1,0 +1,2 @@
+1,"SELECT Top # ObjID, modelMag_r, petroRad_r FROM specObj WHERE (ra between # and #) and (dec between # and #) AND modelMag_r < # AND petroRad_r > #"
+2019-02-12 07:00:00,1

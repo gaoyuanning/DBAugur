@@ -1,0 +1,2 @@
+1,"select   nsaid, isdss, ra, dec from   nsatlas into MyDB.nsa_basic_info"
+2019-04-16 08:06:00,1

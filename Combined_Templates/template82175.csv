@@ -1,0 +1,3 @@
+2,"select objid, ra, dec, u, g, r, i, z from galaxy where ra > # and ra < # and modelmag_g > # and modelmag_u - modelmag_g > #"
+2019-12-11 08:42:00,1
+2019-12-11 08:43:00,1

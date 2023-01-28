@@ -1,0 +1,2 @@
+1,"SELECT TOP # s.plate, s.mjd, s.fiberid, s.z, s.zErr, s.zWarning, s.class, p.run, p.rerun, p.camCol, p.field, p.obj FROM ..SpecObj as s JOIN ..Galaxy AS p ON s.bestObjID = p.objID JOIN Galaxy AS p ON s.bestobjid = p.objid WHERE s.z > # AND s.zWarning = # AND (s.class = #) AND s.z < # AND (p.flags & (dbo.fPhotoFlags (#) ) > #)"
+2019-06-10 16:09:00,1

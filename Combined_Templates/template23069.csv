@@ -1,0 +1,2 @@
+1,"SELECT s.ra, s.dec FROM ZooNoSpec zoo JOIN SpecObj s ON s.objid = zoo.objid WHERE p_cw > #"
+2019-03-24 22:11:00,1

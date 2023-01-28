@@ -1,0 +1,2 @@
+2,"SELECT   m.dr8objid, s.specobjid, p.ra, p.dec, p.dered_u,p.dered_g,p.dered_r,p.dered_i,p.dered_z,   s.z as redshift, m.gz2class into Spiral_gz_phot_rshft from dr1#.PhotoObjAll AS p     JOIN DR1#.SpecObj AS s ON s.bestobjid = p.objid     JOIN MyDB.Spiral_gz AS m ON m.dr8objid = p.objid"
+2019-10-08 07:37:00,2

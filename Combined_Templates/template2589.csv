@@ -1,0 +1,4 @@
+3,"SELECT z as name, ra, dec FROM SpecPhoto WHERE z BETWEEN # and #"
+2019-01-14 17:53:00,1
+2019-03-23 13:14:00,1
+2019-11-14 16:50:00,1

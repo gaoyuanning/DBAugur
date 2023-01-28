@@ -1,0 +1,2 @@
+1,"SELECT Name, SUBSTRING (Name, #, #) AS initial FROM chinook.Artist GROUP BY SUBSTRING (Name, #, #)"
+2019-04-24 17:38:00,1

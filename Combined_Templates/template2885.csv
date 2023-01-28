@@ -1,0 +1,2 @@
+1,"select dbo.fSpecidFromSDSS (#, #, #, #) as specObjID -- ph.objID, -- ph.ra, -- ph.dec, -- ph.u, ph.g, ph.r, ph.i, ph.z, -- ph.err_u, ph.err_g, ph.err_i, ph.err_z --, PhotoObjALL as ph, SpecObjAll as sp into mydb.dr1#q_photo_sdss --where specObjID = id -- and sp.bestObjID = ph.objID -- and sp.fluxObjID = ph.objID -- and q.spectro = # -- and ph.clean = #"
+2019-01-14 09:16:00,1

@@ -1,0 +1,4 @@
+3,"SELECT TOP # P1.objID AS name, P1.ra AS ra, P1.dec AS dec, FROM PhotoTag P1,   Neighbors N,   PhotoTag P2  WHERE P1.objID = N. objID   AND P2.objID = N.NeighborObjID  AND N.Distance < .#"
+2019-11-28 19:14:00,1
+2019-11-28 19:15:00,1
+2019-11-28 19:17:00,1

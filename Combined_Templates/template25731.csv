@@ -1,0 +1,2 @@
+1,"select top # ra, dec from PhotoTag where fPhotoType = # order by modelMag_g desc"
+2019-03-29 04:03:00,1

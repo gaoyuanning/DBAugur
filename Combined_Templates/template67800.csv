@@ -1,0 +1,2 @@
+1,"select bestObjID, ra, dec, class, subclass, z, zErr, zWarning, spectroFlux_u, spectroFlux_g, spectroFlux_r spectroFlux_i, spectroFlux_z, spectroFluxIvar_u, spectroFluxIvar_g, spectroFluxIvar_r spectroFluxIvar_i, spectroFluxIvar_z from SpecObj where abs (dec) < #"
+2019-10-04 18:51:00,1

@@ -1,0 +1,2 @@
+1,"select top # p.dec, p.ra into mydb.MyTable from photoObj p where p.type = #"
+2019-04-24 11:58:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # G.objID, P.ra ,P.dec, GN.distance  FROM Galaxy as G PhotoPrimary as P  JOIN dbo.fGetNearbyObjEq(#.,#, #) AS GN  ON G.objID = GN.objID  ORDER BY distance"
+2019-05-02 21:46:00,1

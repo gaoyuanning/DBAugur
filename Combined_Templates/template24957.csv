@@ -1,0 +1,2 @@
+1,"SELECT count (*) as #, sum (case when (Type = #) then # else # end) as #, FROM PhotoPrimary WHERE (TYPE = #) AND (petror9#_r < #)"
+2019-03-28 17:12:00,1

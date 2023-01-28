@@ -1,0 +1,2 @@
+1,"SELECT TOP # SpecObjID, s.ra, s.dec, s.z, class FROM SpecObjAll s, dbo.fGetNearbyObjEq (#, #, #) n WHERE AND n.objID = SpecObjID"
+2019-01-16 17:48:00,1

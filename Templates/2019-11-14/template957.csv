@@ -1,0 +1,4 @@
+3,"SELECT top #  z,ra,dec FROM   specObj WHERE   class = &&& AND  ra ># AND ra< # AND  dec ># AND dec <+# AND  z># AND z < # AND  zWarning = #"
+2019-11-14 02:39:00,1
+2019-11-14 02:49:00,1
+2019-11-14 03:12:00,1

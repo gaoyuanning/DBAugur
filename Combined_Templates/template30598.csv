@@ -1,0 +1,22 @@
+21,"CREATE TABLE [Pain] (eid BIGINT NOT # , [Pain_type_s_experienced_in_last_month_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Headaches_for_#_months_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Facial_pains_for_#_months_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Neck_shoulder_pain_for_#_months_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Back_pain_for_#_months_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Stomach_abdominal_pain_for_#_months_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Hip_pain_for_#_months_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [Knee_pain_for_#_months_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , [General_pain_for_#_months_#] VARCHAR (MAX) -- f_# - http://biobank.ctsu.ox.ac.uk/crystal/field.cgi? id = # , PRIMARY KEY (eid) ) GO"
+2019-04-15 13:25:00,1
+2019-04-15 13:35:00,1
+2019-04-16 08:56:00,1
+2019-04-16 08:58:00,1
+2019-04-16 10:12:00,1
+2019-04-16 10:14:00,1
+2019-04-16 10:17:00,1
+2019-04-16 10:35:00,1
+2019-04-17 11:27:00,1
+2019-04-23 09:44:00,1
+2019-04-23 10:47:00,1
+2019-04-23 10:51:00,1
+2019-04-24 09:48:00,1
+2019-04-24 09:54:00,1
+2019-04-24 13:19:00,1
+2019-04-29 11:38:00,1
+2019-04-30 11:43:00,1
+2019-04-30 15:37:00,1
+2019-05-01 09:26:00,1
+2019-05-02 09:32:00,1
+2019-05-02 10:34:00,1

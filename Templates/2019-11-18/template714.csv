@@ -1,0 +1,2 @@
+2,"SELECT    m.ra2, m.dec2, s.plate, s.mjd, s.fiberID, s.psfMag_u, s.psfMag_g, s.psfMag_r, s.psfMag_i, s.psfMag_z, s.Class, s.z, s.zWarning from mydb.obj_gal_xmatch m, SpecPhoto s into mydb.pmf_gal_xmatch   WHERE s.run = m.run AND s.rerun = m.rerun AND s.field = m.field AND s.obj = m.obj AND m.mode = #"
+2019-11-18 11:07:00,2

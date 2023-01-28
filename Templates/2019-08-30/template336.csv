@@ -1,0 +1,2 @@
+1,"select * from cell  where sampleid =#     and px between # and #    and py between # and #    and ptype=# ) select cg.geom.ToString() as wkt,cg.geom.STArea() as area, cg.cellid , cx,cy,px,py from ca   join cellgeom cg on cg.cellid=ca.cellid and cg.btype=#"
+2019-08-30 09:48:00,1

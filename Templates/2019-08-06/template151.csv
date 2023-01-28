@@ -1,0 +1,2 @@
+1,"select p.objID, p.ra, p.dec, p.deVRad_r, p.u, p.r, p.extinction_r, p.extinction_u, q.z as RedShift, count(q.z) as num_redshift from galaxy p, dbo.fgetNearByObjEq(#,#,#) n, galSpecInfo q where p.objid=n.objid and p.specObjID=q.specObjID and p.specObjID<># and q.z>#"
+2019-08-06 16:03:00,1

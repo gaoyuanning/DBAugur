@@ -1,0 +1,2 @@
+1,"select p.run, p.camcol, p.field, max(avg(s.z)) from photoobj p join specobj s on s.bestobjid=p.objid where s.class=&&& and p.run=# and camcol=#"
+2019-07-03 07:31:00,1

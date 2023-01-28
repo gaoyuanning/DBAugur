@@ -1,0 +1,2 @@
+1,"SELECT field, run FROM Field Where raMin<# and raMax># and decMin<# and decMax>#"
+2019-05-19 21:12:00,1

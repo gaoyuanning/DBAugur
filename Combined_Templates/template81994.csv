@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.ra, p.dec, str (s.ra, #, #) as ra, str (s.[dec], #, #) as dec FROM BESTDR7..SpecObj as s JOIN BESTDR7..PhotoObj AS p ON s.bestObjID = p.objID JOIN #x AS x ON x.objID = p.objID JOIN #upload AS u ON u.up_id = x.up_id WHERE (s.specClass = dbo.fSpecClass (#) ) AND (p.type = # OR p.type = #) ORDER BY x.up_id"
+2019-12-10 00:11:00,1

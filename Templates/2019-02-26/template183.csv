@@ -1,0 +1,2 @@
+1,"SELECT TOP #  cast(str(p.g - p.r,#,#) as float) as grModelColor,ISNULL(s.plate,#) as plate,ISNULL(s.mjd,#) as mjd,ISNULL(s.fiberid,#) as fiberid  FROM ..Galaxy AS p  LEFT OUTER JOIN ..SpecObj s ON p.objID = s.bestObjID  JOIN dbo.fGetNearbyObjEq(#,#,#) AS b ON b.objID = P.objID  WHERE p.r > # AND p.r < #"
+2019-02-26 18:51:00,1

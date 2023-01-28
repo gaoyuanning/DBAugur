@@ -1,0 +1,5 @@
+4,"SELECT sp.objID,sp.specObjID,sp.ra, sp.dec, sp.z,  sp.zWarning, sp.zErr, sp.class, sp.subClass  sp.modelMag_u, sp.modelMag_g, sp.modelMag_r, sp.modelMag_i, sp.modelMag_z,  sp.dered_u, sp.dered_g, sp.dered_r, sp.dered_i, sp.dered_z FROM SpecPhotoAll AS sp WHERE sp.ra BETWEEN # AND #  AND sp.dec BETWEEN # and #  AND sp.class = &&&  AND sp.z BETWEEN # and #  AND sp.zWarning = # ORDER BY sp.z"
+2019-09-18 07:33:00,1
+2019-09-18 07:34:00,1
+2019-09-18 07:35:00,1
+2019-09-18 07:37:00,1

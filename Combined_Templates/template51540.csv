@@ -1,0 +1,5 @@
+4,"select distinct eid, Ever_had_eye_surgery_# from r2#.Eye_surgery_complications a cross apply openjson (Ever_had_eye_surgery_#) j where j.value IN ()"
+2019-07-12 14:11:00,1
+2019-07-15 14:28:00,1
+2019-07-15 14:37:00,1
+2019-08-28 13:37:00,1

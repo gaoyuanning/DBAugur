@@ -1,0 +1,2 @@
+1,"SELECT TOP # bestObjID, z as redshift FROM SpecObj WHERE htmid*# & # < (# * #) AND z BETWEEN # AND # AND CLASS = # AND zWarning = #"
+2019-03-28 17:04:00,1

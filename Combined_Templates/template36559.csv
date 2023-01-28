@@ -1,0 +1,2 @@
+2,"SELECT p.ra, p.dec, p.type into mydb.MyTable from photoobj AS p JOIN mydb.stripe8#_star AS s ON fdistanceeq (s.ra, s.dec, p.ra, p.dec) < #/#"
+2019-05-02 04:47:00,2

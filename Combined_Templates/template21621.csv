@@ -1,0 +1,9 @@
+12,"select count (*) FROM SpecObjAll as s, SpecPhotoAll as ph, sppParams as spp where s.SPECOBJID = spp.SPECOBJID and spp.SPECOBJID = ph.specObjID and s.class = # and s.subclass like # and spp.snr> =#"
+2019-03-19 06:53:00,1
+2019-03-19 07:15:00,2
+2019-03-20 12:12:00,1
+2019-03-20 12:13:00,1
+2019-03-20 12:30:00,1
+2019-03-20 13:56:00,1
+2019-03-20 14:25:00,4
+2019-03-21 02:40:00,1

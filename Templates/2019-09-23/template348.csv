@@ -1,0 +1,2 @@
+1,"SELECT   d.sdss_s_ra AS input_ra, d.sdss_s_dec AS input_dec, s.ra as s_ra, s.dec as s_dec, s.z as s_z, s.specObjID, p.objID,   p.q_u, p.q_g, p.q_r, p.q_i, p.q_z, p.u_u, p.u_g, p.u_r, p.u_i, p.u_z,   p.qErr_u, p.qErr_g, p.qErr_r, p.qErr_i, p.qErr_z, p.uErr_u, p.uErr_g, p.uErr_r, p.uErr_i, p.uErr_z into mydb.MyTable_# from MyDB.ESO_prop_radec AS d     OUTER APPLY dbo.fGetNearestObjEq( d.sdss_s_ra, d.sdss_s_dec, #) AS n      LEFT JOIN SpecObjAll AS s ON n.objid=s.bestObjID      LEFT JOIN PhotoObjAll AS p ON n.objid=p.objID"
+2019-09-23 11:53:00,1

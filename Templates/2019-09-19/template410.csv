@@ -1,0 +1,2 @@
+2,"SELECT    spec.specobjId,   spec.plate,   spec.mjd,   spec.fiberid,   spec.ra,   spec.dec,   spec.z,   spec.zErr,   galspec.h_beta_eqw,   galspec.h_beta_flux/galspec.oiii_#_flux,   spec.class,   spec.subclass     INTO MYDB.MyTable_SIII_# FROM   SpecObjAll as spec    JOIN galSpecLine as galspec on galspec.specobjid = spec.specobjid WHERE spec.z < # and    galspec.h_beta_eqw < # and   galspec.h_beta_eqw/galspec.h_beta_eqw_err < # and   galspec.oiii_#_flux/galspec.oiii_#_flux_err > # and   spec.class = &&&     ORDER BY spec.plate"
+2019-09-19 03:35:00,2

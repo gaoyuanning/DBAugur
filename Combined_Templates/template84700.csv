@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID, ra, dec, u, g, r, i, z, run, rerun, camCol, field, specobjID, mjd, into mydb.MyTable_#"
+2019-12-29 18:17:00,1

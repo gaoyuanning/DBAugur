@@ -1,0 +1,2 @@
+1,"SELECT TOP # objid, nvote, p_el as elliptical, p_cw as spiralclock, p_acw as spiralanticlock, p_edge as edgeon, p_dk as dontknow, p_mg as merger"
+2019-11-10 21:58:00,1

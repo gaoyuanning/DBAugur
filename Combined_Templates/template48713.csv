@@ -1,0 +1,3 @@
+2,"select p.objid, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, pz.z, s.specobjid, s.class, s.z as redshift from photoobj AS p JOIN Photoz AS pz ON p.objid = pz.objid JOIN SpecObj AS s ON p.objid = s.bestobjid, dbo.fgetNearByObjEq (#, #, #) n where p.objid = n.objid"
+2019-06-27 06:11:00,1
+2019-06-27 06:22:00,1

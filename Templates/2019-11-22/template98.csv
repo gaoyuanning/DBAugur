@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.ra,p.u,p.g,p.r,p.i,p.z,p.dec FROM PhotoObj AS p WHERE   p.ra (#)  AND p.dec IN (#)"
+2019-11-22 21:17:00,1

@@ -1,0 +1,2 @@
+1,"SELECT c.search_id as id, c.ra as KRA, c.dec as KDEC, c.name,     n.objid, n.distance,     o.* FROM mydb.coordinatesPNs as c     CROSS APPLY dbo.fGetNearbyObjEq(c.ra, c.dec, #/#.) AS n     JOIN PhotoObjAll AS o ON n.objID = o.objID WHERE clean = #"
+2019-03-20 10:28:00,1

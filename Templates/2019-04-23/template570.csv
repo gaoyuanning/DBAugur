@@ -1,0 +1,2 @@
+1,"SELECT     m.id, m.ra AS ra1, m.dec AS dec1,     n.objid, n.distance,     o.ra AS ra2, o.dec AS dec2, o.g As g, o.r As r, o.i As i, o.u As u, o.dered_g As g_#, o.dered_r As r_#, o.dered_i As i_#, o.dered_u As u_#, o.flags_g As flags_g, o.flags_r As flags_r, o.flags_i As flags_i into mydb.MyTable_# from MyDB.MyTable_# AS m     CROSS APPLY dbo.fGetNearestObjEq( m.ra, m.dec, #) AS n     JOIN PhotoObj AS o ON n.objid=o.objid"
+2019-04-23 06:55:00,1

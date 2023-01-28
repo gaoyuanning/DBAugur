@@ -1,0 +1,4 @@
+5,"SELECT ra, dec, petroRad_u, FROM Galaxy WHERE ra between # and # and dec between # and # and petroRad_u > #"
+2019-12-06 15:15:00,1
+2019-12-06 15:16:00,2
+2019-12-06 15:17:00,2

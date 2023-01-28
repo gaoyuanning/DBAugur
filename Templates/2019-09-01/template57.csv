@@ -1,0 +1,5 @@
+71,"SELECT g.ra, g.dec, dbo.fIAUFromEq(g.ra, g.dec) as name, n.distance, pz.z, pz.zErr, g.petroMag_r, dbo.fPhotoTypeN(g.type) as type FROM Galaxy AS g JOIN PhotoZ AS pz ON g.objid = pz.objid, fGetNearbyObjEq(#,#,#) AS n WHERE g.objID = n.objID"
+2019-09-01 16:39:00,1
+2019-09-01 16:42:00,3
+2019-09-01 22:23:00,35
+2019-09-01 22:24:00,32

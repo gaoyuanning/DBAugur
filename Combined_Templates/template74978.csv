@@ -1,0 +1,8 @@
+9,"SELECT TOP # p.run, p.rerun, p.camCol, p.field, p.obj FROM ..PhotoObj AS p JOIN dbo.fGetObjFromRect (#, #, #, #) AS b ON p.objID = b.objID WHERE p.u > ,"
+2019-11-11 20:04:00,1
+2019-11-14 20:38:00,2
+2019-11-14 20:40:00,1
+2019-11-14 21:28:00,1
+2019-11-14 21:32:00,2
+2019-11-19 18:51:00,1
+2019-11-19 19:15:00,1

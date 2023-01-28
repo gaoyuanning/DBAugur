@@ -1,0 +1,3 @@
+2,"SELECT EID,[Fluid_intelligence_completion_status_#],[When_fluid_intelligence_test_completed_#],[Fluid_intelligence_score_#],[Number_of_fluid_intelligence_questions_attempted_within_time_limit_#],[FI1_numeric_addition_test_#],[FI2_identify_largest_number_#],[FI3_word_interpolation_#],[FI4_positional_arithmetic_#],[FI5_family_relationship_calculation_#],[FI6_conditional_arithmetic_#],[FI7_synonym_#],[FI8_chained_arithmetic_#],[FI9_concept_interpolation_#],[FI1#_arithmetic_sequence_recognition_#],[FI1#_antonym_#],[FI1#_square_sequence_recognition_#],[FI1#_subset_inclusion_logic_#],[FI1#_alphanumeric_substitution_#] FROM Fluid_intelligence_# GO"
+2019-04-30 11:44:00,1
+2019-04-30 15:39:00,1

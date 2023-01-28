@@ -1,0 +1,3 @@
+2,"select top #   s.specobjid, p.objtype, p.ra, p.dec, p.z, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, s.lgm_fib_p5#, s.lgm_tot_p5# into mydb.MyTable from dbo.galSpecExtra as s, specphoto as p where    s.specobjid =p.specobjid   AND p.dec between # and #"
+2019-05-29 15:49:00,1
+2019-05-29 15:50:00,1

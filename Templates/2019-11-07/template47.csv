@@ -1,0 +1,2 @@
+1,"SELECT count (*) s.ra, s.dec, s.z, s.zErr, s.velDisp, s.velDispErr FROM SpecObj as s  join SpecPhotoALL as i on s.specObjID = i.specObjID WHERE s.ra BETWEEN # AND #  AND s.dec BETWEEN # AND #  AND s.class = &&&  AND s.subclass = &&&  AND s.programname = &&&  AND (i.petroMag_r-i.extinction_r)<#"
+2019-11-07 21:48:00,1

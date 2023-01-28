@@ -1,0 +1,2 @@
+2,SELECT count (*) into mydb.MyTable from SpecObjAll as s
+2019-09-04 15:48:00,2

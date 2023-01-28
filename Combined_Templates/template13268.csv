@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec, p.deVAB_g, p.deVAB_i, p.deVAB_r, p.deVAB_u, p.deVAB_z, p.deVABErr_g, p.deVABErr_i, p.deVABErr_r, p.deVABErr_u, p.deVABErr_z, s.velDisp, s.velDispErr, s.plate, s.mjd, s.fiberID FROM PhotoObj AS p JOIN SpecObjAll s ON p.objid = s.BestObjid JOIN MyDB.Best_Medium as b ON b.Plate = s.plate and b.MJD = s.mjd and b.Fiber = s.fiberID"
+2019-02-21 09:16:00,1

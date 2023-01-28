@@ -1,0 +1,2 @@
+1,"select objId1, objId2, #/#. as distance FROM match UNION all) as M JOIN PhotoObj as Obj on (obj.objId = M.objId2) JOIN Field as F on F.fieldId = obj.fieldId WHERE M.ObjId1 = dbo.fGetNearestObjIdEq (# , # , #)"
+2019-12-17 02:43:00,1

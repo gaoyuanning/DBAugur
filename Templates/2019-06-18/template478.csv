@@ -1,0 +1,2 @@
+1,"SELECT    m.ra AS input_ra, m.dec AS input_dec,    n.objid as sdssm_objid, n.distance as sdssm_distance,    p.ra AS sdss_p_ra, p.dec AS sdss_p_dec, p.run as p_run, p.rerun as p_rerun, p.camcol as p_camcol, p.field as p_field into mydb.MyTable_# from MyDB.LASER_ML_testset_radec AS m    OUTER APPLY dbo.fGetNearestObjEq( m.RA_deg, m.DEC_deg, #) AS n   LEFT JOIN PhotoObj AS p ON n.objid=p.objid"
+2019-06-18 06:53:00,1

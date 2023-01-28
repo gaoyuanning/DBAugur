@@ -1,0 +1,2 @@
+1,"SELECT TOP #  p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,  p.run, p.rerun, p.camcol, p.field,  s.specobjid, s.class, s.z as redshift,  s.plate, s.mjd, s.fiberid FROM galaxy p dbo.fgetNearByObjEq(,,) n WHERE   p.u BETWEEN # AND #  AND g BETWEEN # AND #"
+2019-03-26 08:49:00,1

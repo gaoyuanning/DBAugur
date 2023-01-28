@@ -1,0 +1,2 @@
+1,"select s.z, s.dec, s.ra into mydb.W1_number_download from specObj as s JOIN photoObj p ON s.bestObjID = p.objID where (s.boss_Target1& (dbo.fBossTarget1 (#) | dbo.fBossTarget1 (#) )) > # and s.ra between # and # and s.dec between # and # and s.z_noqso > # and s.zWarning = # and s.class = #"
+2019-05-08 11:00:00,1

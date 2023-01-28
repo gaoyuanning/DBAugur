@@ -1,0 +1,2 @@
+1,"select top #  eid,Ever_had_eye_surgery_#,* from dbo.Eye_surgery_complications a       cross apply openjson(Ever_had_eye_surgery_#) j where j.value in (#,#)"
+2019-08-28 13:38:00,1

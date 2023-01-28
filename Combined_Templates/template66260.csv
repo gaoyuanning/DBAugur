@@ -1,0 +1,3 @@
+2,"select soa.specObjID, soa.ra, soa.dec into MyDB.Coop from DR1#.SpecObjAll as soa join MyDB.Selected as s on s.specObjID = soa.specObjID"
+2019-09-27 05:37:00,1
+2019-09-27 05:38:00,1

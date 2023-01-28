@@ -1,0 +1,4 @@
+4,"SELECT m.objID, m.RAdeg AS ra1, m.DEdeg AS dec1, ra, dec, glon, glat, apstar_id, apogee_id, htmID into mydb.MyTable_# from MyDB.dani_table_chiara_new1 AS m OUTER APPLY dbo.fGetNearestApogeeStarEq (#, #, #)"
+2019-06-14 03:07:00,1
+2019-06-14 03:09:00,1
+2019-06-14 03:10:00,2

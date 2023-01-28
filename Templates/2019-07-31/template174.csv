@@ -1,0 +1,7 @@
+10,"select ObjID, specObjID, ra,dec, r, err_r from PhotoObjAll where  ra BETWEEN # and # AND dec BETWEEN # and # AND type = # AND r <# AND #< r"
+2019-07-31 16:57:00,1
+2019-07-31 16:58:00,3
+2019-07-31 17:00:00,1
+2019-07-31 17:08:00,2
+2019-07-31 17:18:00,1
+2019-07-31 17:22:00,2

@@ -1,0 +1,2 @@
+1,"SELECT top #   p.ra,p.dec,p.type,p.psfmag_u,psfmag_g,psfmag_r,psfmag_i,psfmag_z,   s.ra,s.dec into mydb.morphology from photoobj AS p   JOIN stripe8#.star AS s ON s.objid=p.objid"
+2019-05-02 12:49:00,1

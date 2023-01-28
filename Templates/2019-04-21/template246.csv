@@ -1,0 +1,6 @@
+5,"SELECT mangaID,manga_tileid,ifudesignsize  FROM mangatarget  WHERE (manga_target1 & (power(#,#)) != #) AND manga_tileid > # AND IFUDESIGNSIZE > #"
+2019-04-21 02:05:00,1
+2019-04-21 08:20:00,1
+2019-04-21 08:39:00,1
+2019-04-21 08:40:00,1
+2019-04-21 15:01:00,1

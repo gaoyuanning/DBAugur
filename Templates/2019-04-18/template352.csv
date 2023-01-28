@@ -1,0 +1,2 @@
+1,"SELECT TOP p.objID as id, p.ra as ra, p.dec as dec, p.dered_u as u, p.dered_g as g, p.dered_r as r, p.dered_i as i, p.z, s.z as z_spec, s.zErr as z_err     FROM PhotoPrimary AS p     JOIN SpecObj AS s ON s.bestobjid = p.objID     WHERE p.type=# AND p.petroMag_r < # AND ((p.petroMag_r + #*LOG(#*#*p.petroR5#_r*p.petroR5#_r)) < #)"
+2019-04-18 15:19:00,1

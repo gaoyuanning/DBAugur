@@ -1,0 +1,3 @@
+2,"SELECT TOP # objid, ra, dec, u, g, r, i, z, run, rerun, camcol, field, score, type petroRad_u, petroR5#_u, expRad_u FROM PhotoObj WHERE score > # AND u BETWEEN # AND # AND g BETWEEN # AND # ORDER BY field"
+2019-08-07 05:23:00,1
+2019-08-07 05:24:00,1

@@ -1,0 +1,2 @@
+1,"select class, count (z) from specObj where z BETWEEN # and #"
+2019-08-11 11:10:00,1

@@ -1,0 +1,3 @@
+2,"SELECT po.ra, po.dec FROM segueTargetAll AS st JOIN PhotoObjAll AS po ON po.objID=st.objid AND po.b > #"
+2019-07-13 12:02:00,1
+2019-07-13 12:03:00,1

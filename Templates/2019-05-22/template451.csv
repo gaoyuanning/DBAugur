@@ -1,0 +1,2 @@
+1,"SELECT  ra,dec,plate,mjd,fiberID,z,zErr,snMedian_g into hzc_# FROM dr1#.SpecObjAll WHERE class=&&& and z > # and z < #"
+2019-05-22 10:36:00,1

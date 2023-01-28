@@ -1,0 +1,3 @@
+2,"SELECT  sp.segue2Primary, sp.bossPrimary, sp.sdssPrimary, sp.survey, sp.programname, sp.legacy_target1, sp.legacy_target2, sp.special_target1, sp.special_target2, sp.segue1_target1 into mydb.DR1#_# from SpecPhoto AS sp WHERE z BETWEEN # AND #   AND class=&&&"
+2019-01-31 11:56:00,1
+2019-01-31 12:03:00,1

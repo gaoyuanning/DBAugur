@@ -1,0 +1,2 @@
+1,"SELECT d.RAJ2# AS input_ra, d.DEJ2# AS input_dec, s.ra as s_ra, s.dec as s_dec, s.z as s_z, s.specObjID, p.objID, p.petroRad_u, p.petroRad_g, p.petroRad_r, p.petroRad_i, p.petroRad_z, p.petroRadErr_u, p.petroRadErr_g, p.petroRadErr_r, p.petroRadErr_i, p.petroRadErr_z into mydb.MyTable_# from MyDB.CAGN_QSO2_final_radec AS d OUTER APPLY dbo.fGetNearestObjEq (d.RAJ2#, d.DEJ2#, #) AS n LEFT JOIN SpecObjAll AS s ON n.objid = s.bestObjID LEFT JOIN PhotoObjAll AS p ON n.objid = p.objID"
+2019-08-30 09:01:00,1

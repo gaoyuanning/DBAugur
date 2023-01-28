@@ -1,0 +1,2 @@
+2,"SELECT d.*, s.specObjID, s.zWarning, s.class FROM MyDB.LAMOS_dr6_radec1 AS d CROSS APPLY dbo.fGetNearestSpecObjAllEq (d.ra_obs, d.dec_obs, #) AS n INNER JOIN SpecObjAll AS s ON n.specObjID = s.specObjID INTO MyDB.LAMOST1_dr6_DR1# ORDER BY d.obsid, n.distance"
+2019-11-26 05:13:00,2

@@ -1,0 +1,2 @@
+1,"select ra_Ps, decl_PS FROM Object WHERE deepSourceId IN (#, #, #, #)"
+2019-05-02 11:37:00,1

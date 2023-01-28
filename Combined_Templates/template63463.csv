@@ -1,0 +1,2 @@
+1,"SELECT g.id, g.ra AS ra1, g.dec AS dec1, g.parallax, g.phot_g_mean_mag, g.bp_rp, n.objid, n.distance, s.ra AS ra2, s.dec AS dec2, s.u, s.g, s.r, s.i, s.z into mydb.gaia_sdss_phot_wd from MyDB.gaia_wds_loc AS g CROSS APPLY dbo.fGetNearestObjEq (m.ra, m.dec, #) AS n JOIN Star AS s ON n.objid = s.objid"
+2019-09-17 19:10:00,1

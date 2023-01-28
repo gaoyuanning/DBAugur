@@ -1,0 +1,2 @@
+1,select * from WISE_allsky where ra > # and ra < # and dec > # and dec <#
+2019-10-09 11:27:00,1

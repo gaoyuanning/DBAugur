@@ -1,0 +1,2 @@
+1,"SELECT m.imageID, p.specObjID, p.t0#_smooth_or_features_a0#_smooth_debiased, p.t0#_smooth_or_features_a0#_smooth_flag, p.t0#_smooth_or_features_a0#_features_or_disk_debiased, p.t0#_smooth_or_features_a0#_features_or_disk_flag, p.t0#_smooth_or_features_a0#_star_or_artifact_debiased, p.t0#_smooth_or_features_a0#_star_or_artifact_flag into mydb.galaxyZoo2 from zoo2MainSpecz as p , MyDB.pasquet_gal_zoo as m WHERE p.specObjID = m.specObjID"
+2019-11-15 15:32:00,1

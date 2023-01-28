@@ -1,0 +1,2 @@
+1,"select PhotoObjAll.type, PhotoObjAll.ra, PhotoObjAll.dec, PhotoZ.z, PhotoZ.zErr, PhotoZ.objID from PhotoZ, PhotoObjAll where PhotoZ.objID = PhotoObjAll.objID and class = #"
+2019-07-19 13:56:00,1

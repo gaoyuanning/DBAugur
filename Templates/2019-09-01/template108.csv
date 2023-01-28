@@ -1,0 +1,2 @@
+1,"select o.*, g.objID,  g.ISOA_R into mydb.sdss_photdr1#X2_iso from mydb.objID_GSWLCX2 as o, PhotoObjAll as g where g.objID = o.objid"
+2019-09-01 19:43:00,1

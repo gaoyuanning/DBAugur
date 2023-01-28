@@ -1,0 +1,13 @@
+21,"select top # c.row_id, c.doShowInUserHistory, c.content, smt.name as message_type, m.host, m.application, m.method, m.time, m.client_IP, u.user_name from computemessages c join messages m on c.row_id = m.row_id join users u on u.user_id = m.user_id join standardMessageTypes smt on smt.id = m.message_type"
+2019-03-06 10:44:00,2
+2019-03-06 10:45:00,1
+2019-03-06 10:48:00,2
+2019-03-06 10:49:00,2
+2019-03-06 10:50:00,1
+2019-03-06 10:51:00,3
+2019-03-06 10:53:00,1
+2019-03-06 10:54:00,2
+2019-03-06 10:55:00,1
+2019-03-06 11:35:00,2
+2019-03-06 11:38:00,3
+2019-03-06 11:39:00,1

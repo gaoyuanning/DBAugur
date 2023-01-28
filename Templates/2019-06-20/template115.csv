@@ -1,0 +1,4 @@
+3,"SELECT TOP #              s.specObjID, s.mjd, s.plate, s.fiberID, s.ra, s.dec, s.z,             spp.feha AS fe_h, spp.teffa AS t_eff, spp.logga AS log_g         FROM SpecObjAll s             INNER JOIN sppParams spp ON spp.specobjID = s.specObjID         WHERE specClass = # AND zConf > #          ORDER BY s.mjd, s.plate, s.fiberID"
+2019-06-20 18:16:00,1
+2019-06-20 18:24:00,1
+2019-06-20 18:27:00,1

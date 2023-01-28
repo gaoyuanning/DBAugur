@@ -1,0 +1,2 @@
+1,"select objID,psfMag_u, psfMag_g, psfMag_r, psfMag_i, psfMag_z, psfMagErr_u, psfMagErr_g, psfMagErr_r, psfMagErr_i, psfMagErr_z, ra, dec, raErr, decErr, b, l, u, g, r, i, z into [myscratch:default].SDSSudata  from SDSSDR9:PhotoObjAll where psfMag_u between # and #   and type = #   and clean = #"
+2019-10-22 11:37:00,1

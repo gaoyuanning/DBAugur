@@ -1,0 +1,2 @@
+1,"SELECT  s.SpecObjID, s.ra, s.dec, s.z, s.plate, s.mjd, s.fiberid, g.oii_#_flux, g.oii_#_flux, g.nii_#_flux FROM  SpecObj AS s JOIN galSpecLine AS g ON s.SpecObjID = g.SpecObjID JOIN galSpecInfo AS gi ON s.SpecObjID = gi.SpecObjID WHERE   s.z BETWEEN # and #  AND g.nii_#_flux > #  AND g.oii_#_flux > #  AND g.oii_#_flux > #  AND gi.targettype = &&&  AND (gi.subclass = &&& OR gi.subclass = &&&)"
+2019-01-08 03:33:00,1

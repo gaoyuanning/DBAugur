@@ -1,0 +1,3 @@
+2,"select distinct  eid from r2#.Eye_surgery_complications a cross apply openjson(Ever_had_eye_surgery_#) j where j.value in (#,#) ) select top # e.eid   , cast(json_value(Ever_had_cataract_surgery_#,&&&) as integer)"
+2019-07-12 15:22:00,1
+2019-07-12 15:24:00,1

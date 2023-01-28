@@ -1,0 +1,2 @@
+1,"select class, ra, dec from specObj where z BETWEEN # and # order by ra, dec desc"
+2019-12-23 07:50:00,1

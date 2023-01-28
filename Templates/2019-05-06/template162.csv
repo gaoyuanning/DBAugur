@@ -1,0 +1,10 @@
+170,"select ra,dec,psfMag_r - extinction_r + # as psfMagCorr_r,psfMagErr_r,#*LOG1#(psfFlux_r) + # - extinction_r + # as psfPogCorr_r,#/SQRT(psfFluxIvar_r)/psfFlux_r as psfPogErr_r from star as s JOIN dbo.fGetNearbyObjEq(#,#,# ) AS GN ON s.objID = GN.objID where s.clean=# and psfFlux_r > #"
+2019-05-06 15:25:00,1
+2019-05-06 15:27:00,1
+2019-05-06 15:30:00,1
+2019-05-06 15:48:00,1
+2019-05-06 15:53:00,53
+2019-05-06 15:54:00,82
+2019-05-06 15:55:00,4
+2019-05-06 18:03:00,1
+2019-05-06 18:13:00,26

@@ -1,0 +1,2 @@
+1,select dered_u into mydb.MyTable_# from photoz where objid IN ()
+2019-03-04 15:51:00,1

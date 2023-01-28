@@ -1,0 +1,2 @@
+1,"select top # s.gal_id, o.objid as galex_id, o.nuv_alpha_j2# as ra, o.nuv_delta_j2# as dec, o.nuv_poserr as poserr from mydb.sdss7 as s cross apply dbo.fGetNearestObjEq (s.ra, s.dec, #) AS n join galexgr6.photoobjall as o on n.objid = o.objid"
+2019-10-22 03:58:00,1

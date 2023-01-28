@@ -1,0 +1,2 @@
+1,"SELECT TOP # objID,clean,RA,DEC,psfMag_u,psfMag_g,psfMag_r,psfMag_i,psfMag_z, FROM PhotoObj WHERE  type = &&&"
+2019-06-20 10:26:00,1

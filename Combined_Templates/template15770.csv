@@ -1,0 +1,5 @@
+4,"select top # psfMag_r, petroR5#_r, petroR9#_r, petroMag_r, deVRad_r, deVAB_r, deVMag_r, expRad_r, expAB_r, expMag_r from PhotoObjAll where probPSF = #"
+2019-02-28 21:03:00,1
+2019-03-13 13:59:00,1
+2019-03-13 14:00:00,1
+2019-03-13 14:36:00,1

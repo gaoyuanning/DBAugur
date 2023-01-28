@@ -1,0 +1,2 @@
+1,"SELECT   t.ra, t.dec, t.plate, t.mjd, t.fiberid    into mydb.stars_mailDave FROM MyDB.mytable_# AS m   CROSS APPLY dbo.fGetNearestObjEq(m.ra, m.dec, #) AS n    JOIN specphotoall AS t ON n.objid=t.objid"
+2019-05-24 17:49:00,1

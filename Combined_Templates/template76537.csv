@@ -1,0 +1,2 @@
+1,"SELECT TOP # G.objID, G.distance FROM Galaxy as G ORDER BY distance"
+2019-11-16 13:37:00,1

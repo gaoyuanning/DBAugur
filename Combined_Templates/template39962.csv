@@ -1,0 +1,2 @@
+1,"SELECT s.z, s.zErr, s.class, s.subClass, s.class_person, s.comments_person, g.* FROM SpecObj AS s JOIN galSpecLine AS g ON s.specObjID = g.specObjID WHERE htmid*# & # < (# * #) AND s.class < > #"
+2019-05-16 10:32:00,1

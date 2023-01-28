@@ -1,0 +1,2 @@
+1,"select a.ID, a.Genre_Name, a.Media_Name from (select distinct Track.GenreId as #, Genre.GenreId as ID, Genre.Name as Genre_Name, Track.MediaTypeId as #, MediaType.MediaTypeId as #, MediaType.Name as # From chinook.Track Inner Join chinook.genre on Track.GenreId = Genre.GenreId Inner Join chinook.MediaType on Track.MediaTypeId = MediaType.MediaTypeId) a Order By Genre_Name"
+2019-04-21 13:22:00,1

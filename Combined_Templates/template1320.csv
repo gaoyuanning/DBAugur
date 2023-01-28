@@ -1,0 +1,2 @@
+1,"SELECT plate, mjd, fiberID into zzz from dbo.SpecObjAll"
+2019-01-07 14:45:00,1

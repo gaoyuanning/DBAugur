@@ -1,0 +1,2 @@
+1,"SELECT *    p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,    p.run, p.rerun, p.camcol, p.field,    s.specobjid, s.class, s.z as redshift,    s.plate, s.mjd, s.fiberid into mydb.MyTable_# from PhotoObj AS p    JOIN SpecObj AS s ON s.bestobjid = p.objid WHERE p.z >#"
+2019-03-26 17:34:00,1

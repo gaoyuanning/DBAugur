@@ -1,0 +1,2 @@
+1,"select top # m.*--, cm.content from computemessages cm join messages m on cm.row_id = m.row_id and m.method like # order by time"
+2019-09-30 13:46:00,1

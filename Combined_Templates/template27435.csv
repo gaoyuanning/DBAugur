@@ -1,0 +1,2 @@
+1,"select MANGAID, min (AngSep) as angSep, RA, DEC, w1, w2, w3, w4 into MaNGA_dap_mpl8_nodup from mydb.temp_manga group by MANGAID, RA, DEC, w1, w2, w3, w4 order by MANGAID"
+2019-04-03 09:55:00,1

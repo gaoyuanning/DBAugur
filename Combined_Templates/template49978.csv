@@ -1,0 +1,2 @@
+1,"select p.u, p.g, p.r, p.i, p.z, z.p_mg from photoobj p join zoonospec z on z.objid = p.objid join galaxy g on g.objid = p.objid where z.nvote> =# and p.r< #"
+2019-07-04 03:11:00,1

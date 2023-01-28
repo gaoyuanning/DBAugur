@@ -1,0 +1,2 @@
+1,"select top # objID, dbo.fPhotoFlagsN(flags) as flags  from photoObj"
+2019-07-11 16:52:00,1

@@ -1,0 +1,2 @@
+1,"SELECT top # specobjid, u.ra, u.dec, plate, mjd, fiberid FROM SpecPhoto FROM mydb.posMPL6 AS u"
+2019-01-18 15:42:00,1

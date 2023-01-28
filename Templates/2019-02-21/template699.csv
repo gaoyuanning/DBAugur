@@ -1,0 +1,4 @@
+3,"SELECT top # w.cntr, w.ra as wise_ra, w.dec as wise_dec into mydb.MyTable_# from wise_allsky as w WHERE   (w.w1mpro-w.w2mpro)>=#"
+2019-02-21 11:40:00,1
+2019-02-21 11:43:00,1
+2019-02-21 11:44:00,1

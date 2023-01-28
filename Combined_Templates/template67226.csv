@@ -1,0 +1,3 @@
+3,"SELECT Top # g.objID, g.ra, g.dec, y.z, g.petroMag_u, g.petroMag_g, g.petroMag_r, g.petroMag_i, g.petroMag_z, j.H_beta_flux, j.oiii_#_flux, j.H_alpha_flux, j.NII_#_flux, j.sigma_balmer, j.spectofiber, j.h_alpha_eqw into mydb.BL_test2 from galaxy g left outer join specobj y ON y.specobjID = g.specobjID left outer join emissionlinesport h ON h.specobjID = g.specobjID join galspecline j ON j.specobjID = g.specobjID"
+2019-10-02 08:50:00,1
+2019-10-02 08:51:00,2

@@ -1,0 +1,2 @@
+1,"select x = round (x, #) , n = count (ID) from data group by round (x, #) order by # declare @bin float = # select x = round (x/@bin, #) * @bin, n = count (ID) from data group by round (x/@bin, #) * @bin order by #"
+2019-04-24 12:52:00,1

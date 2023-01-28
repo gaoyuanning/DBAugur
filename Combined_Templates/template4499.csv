@@ -1,0 +1,2 @@
+1,"select a.objID, a.ra, a.dec, c.logMass, c.z into mydb.MyTable from PhotoObj as a, Photoz as b, stellarMassFSPSGranWideDust as c, SpecPhotoAll as d where a.type = # and a.objID = b.objID and c.specObjID = a.specObjID and a.specObjID = d.specObjID and c.fiberID = d.fiberID and c.plate = d.plate and c.MJD = d.mjd and abs (c.z*#-#) < # and c.logMass> # and abs (a.ra-#) < # and abs (a.dec-#) < # and abs (b.z-c.z) < #"
+2019-01-18 08:34:00,1

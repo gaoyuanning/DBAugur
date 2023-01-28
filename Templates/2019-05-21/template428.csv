@@ -1,0 +1,2 @@
+1,"SELECT     p.objid,p.ra,p.dec,p.u,p.g,p.r,p.i,p.z,    p.deVRad_r, p.deVAB_r,p.expRad_r, p.expAB_r,p.deVMag_r, p.expMag_r into mydb.MyTable from PhotoObjAll AS p   JOIN mydb.corr_nueva_#_csv AS s ON s.objid = p.objid"
+2019-05-21 08:31:00,1

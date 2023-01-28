@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.run, p.rerun, p.camcol, p.field, p.obj, p.type, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z, p.Err_u, p.Err_g, p.Err_r, p.Err_i, p.Err_z FROM PhotoObjAll p INNER JOIN fGetNearbyObjEq (#, #, #) n ON p.htmid = n.htmid"
+2019-07-06 21:08:00,1

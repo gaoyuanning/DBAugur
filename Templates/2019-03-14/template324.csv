@@ -1,0 +1,2 @@
+1,"SELECT    t.plate,t.mjd,t.fiberID,m.ps1ra, m.ps1dec,o.ra,o.dec,o.petromag_u, o.petromag_g,o.petromag_r,o.petromag_i,o.petromag_z,   o.petromagerr_u, o.petromagerr_g,o.petromagerr_r,o.petromagerr_i,o.petromagerr_z      into mydb.sdss_petromags_#sp_# FROM MyDB.MyTable_# AS m    CROSS APPLY dbo.fGetNearestObjEq(m.ps1ra, m.ps1dec, #) AS n    JOIN PhotoObj AS o ON n.objid=o.objid   JOIN specphotoall as t ON o.objid=t.objid"
+2019-03-14 15:51:00,1

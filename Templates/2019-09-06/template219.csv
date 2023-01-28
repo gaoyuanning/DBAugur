@@ -1,0 +1,2 @@
+2,"select top # dbo.fGetNearestObjIdEq(ra, dec, #/#) as objID --, s.run, s.psfmag_u, s.psfmag_g, s.psfmag_r, s.psfmag_i, s.psfmag_z from mydb.vstar_min where --s.objid = objID   dbo.fGetNearestObjIdEq(ra, dec,#/#) IS NOT NULL"
+2019-09-06 16:01:00,2

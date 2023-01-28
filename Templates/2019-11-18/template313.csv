@@ -1,0 +1,2 @@
+1,"select u.*, r.RunID, r.Comment from Users u   left join Runs r on r.UserID = u.UserID -- if the same, then inner join, if not corresponding, then null"
+2019-11-18 13:03:00,1

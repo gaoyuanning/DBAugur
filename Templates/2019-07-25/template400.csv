@@ -1,0 +1,2 @@
+1,"SELECT objID, psfMag_g, psfMag_r, l, b into mydb.MyTable_# from Star WHERE    l># AND l<#      AND b># AND b<#   AND (psfMag_g - psfMag_r) > #    AND (psfMag_g - psfMag_r) < #   AND (psfMag_u - extinction_u) - (psfMag_g - extinction_g) > #"
+2019-07-25 10:12:00,1

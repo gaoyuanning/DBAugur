@@ -1,0 +1,2 @@
+1,"SELECT SpecObjAll.ra, SpecObjAll.dec, SpecObjAll.z, SpecObjAll.zErr, SpecObjAll.zWarning,    PhotoObjAll.ra, PhotoObjAll.dec, PhotoObjAll.petroR5#_r, PhotoObjAll.petroR9#_r,    PhotoObjAll.dered_r, PhotoObjAll.modelMag_u, PhotoObjAll.modelMag_g, PhotoObjAll.modelMag_r, PhotoObjAll.modelMag_i, PhotoObjAll.modelMag_z from SpecObjAll   right join PhotoObjAll   on SpecObjAll.ra = PhotoObjAll.ra and SpecObjAll.dec = PhotoObjAll.dec    where SpecObjAll.z < #"
+2019-03-25 03:11:00,1

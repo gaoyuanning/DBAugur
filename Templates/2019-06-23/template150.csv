@@ -1,0 +1,2 @@
+1,"SELECT  p.objid, s.ra, s.dec, s.z, s.class, p.g, p.r, p.i, p.u, p.z, s.plate, s.fiberid, g.lgm_tot_p5# FROM PhotoObj AS p, SpecObj AS s, GalSpecExtra as g WHERE  s.bestobjid = p.objid AND g.specobjid = s.specobjid AND s.z BETWEEN # AND # AND g.lgm_tot_p5# BETWEEN # and # AND class = &&&"
+2019-06-23 20:16:00,1

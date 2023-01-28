@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, dered_g,dered_r,dered_u,flags into mydb.NGC5# from Star WHERE (ra BETWEEN # and #) AND   (dec BETWEEN # and #)"
+2019-06-28 06:00:00,1

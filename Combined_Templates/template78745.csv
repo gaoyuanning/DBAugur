@@ -1,0 +1,9 @@
+12,"SELECT galaxy.objId, galaxy.ra, galaxy.dec, galaxy.dered_r as r, galaxy.dered_u as u, galaxy.dered_g as g, SpecObj.z, SpecObj.plate, SpecObj.mjd, SpecObj.fiberid FROM galaxy JOIN SpecObj ON SpecObj.bestobjid = galaxy.objid WHERE SpecObj.z < # and # < galaxy.r and galaxy.r < # and galaxy.u-galaxy.g > # and galaxy.u-galaxy.g < #"
+2019-11-25 13:58:00,1
+2019-11-25 14:21:00,1
+2019-11-25 14:23:00,1
+2019-11-25 14:24:00,1
+2019-11-25 14:25:00,2
+2019-11-25 14:27:00,1
+2019-11-25 14:28:00,2
+2019-11-25 14:32:00,3

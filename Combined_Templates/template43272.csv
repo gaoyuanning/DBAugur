@@ -1,0 +1,2 @@
+1,"SELECT u.up_name as name, p.objID, p.ra, p.dec, p.modelMag_u, p.modelM"
+2019-05-31 03:03:00,1

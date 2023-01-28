@@ -1,0 +1,2 @@
+1,"select dr7.dr7objid, dr7.dr8objid into mydb.dr7dr8galaxies from PhotoObjDR7 as dr7 where dr7.type = #"
+2019-06-23 15:54:00,1

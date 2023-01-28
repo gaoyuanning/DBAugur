@@ -1,0 +1,2 @@
+1,"select top # a.eid, j.[key] as jkey, avg (cast (jj.value as real) ) as ajj from dbo.Autorefraction a cross apply openjson ([#mm_cylindrical_power_left__#]) j cross apply openjson (j.value) jj group by eid, j.[key]"
+2019-08-28 13:49:00,1

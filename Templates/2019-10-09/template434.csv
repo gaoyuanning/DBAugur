@@ -1,0 +1,2 @@
+1,"select raw.Source_Name, closest.objid as SDSS_ID, closest.distance as SDSS_Distance, closest.type from    MyDB.BeatrizFRI as raw   CROSS APPLY  dbo.fGetNearestObjEq (raw.ra, raw.dec, #) as closest   into MyDB.StageOneFRI"
+2019-10-09 10:33:00,1

@@ -1,0 +1,2 @@
+1,"SELECT ra, dec, z, zErr, zWarning from SpecObjAll where z < #"
+2019-03-25 02:45:00,1

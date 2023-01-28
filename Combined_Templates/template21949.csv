@@ -1,0 +1,2 @@
+1,"SELECT TOP # p.ra, p.dec, p.u, p.g, p.r, p.i, p.z WHERE p.u-p.g > # AND p.g - p.r > #"
+2019-03-20 07:14:00,1

@@ -1,0 +1,2 @@
+1,"SELECT TOP # ROW_NUMBER() OVER (ORDER BY s.dec ASC) as RowNumber, s.ra, s.dec,s.z, s.zwarning, lick_nad, lick_cn2, lick_ca4#,lick_g4#, lick_fe4#, lick_ca4#, lick_fe4#, lick_c4#, lick_hb, lick_fe5#, lick_mgb, lick_fe5#, lick_fe5#, lick_fe5#, lick_fe5#, lick_fe5#, lick_nad, lick_hd_a, d4#_n FROM GalSpecIndx AS g JOIN SpecObj AS s ON s.specobjid = g.specobjid WHERE s.class = &&& AND s.zwarning = #"
+2019-01-21 11:00:00,1

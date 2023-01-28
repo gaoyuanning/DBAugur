@@ -1,0 +1,6 @@
+5,"SELECT u.up_col0 as [col0], x.objID, p.ra, p.dec, p.modelMag_u, p.modelMag_g, p.modelMag_r, p.modelMag_i, p.modelMag_z, s.z, p.petroR9#_r, p.petroR5#_r, p.petroR5#_z, s.plate, s.fiberID FROM #x x, #upload u, SpecPhotoAll s, PhotoObjAll p WHERE u.up_id = x.up_id and x.objID = p.objID and p.objID = s.objID and s.z between # and # and p.petroR9#_r/p.petroR5#_r > # and p.petroR5#_r> # ORDER BY x.up_id"
+2019-07-29 13:17:00,1
+2019-07-29 13:18:00,1
+2019-07-29 13:22:00,1
+2019-07-29 13:24:00,1
+2019-07-29 13:25:00,1

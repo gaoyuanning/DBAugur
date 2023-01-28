@@ -1,0 +1,2 @@
+1,"SELECT p.objid, p.ra, p.dec FROM PhotoTag p, dbo.fGetNearbyObjEq (#, #, #) n WHERE p.objID = n.objID and p.petroRad_r > # ---bright problem and p.dered_r < # and dered_r > # and p.dered_i < # and p.dered_z < # and (flags & dbo.fPhotoFlags (#) ) = #"
+2019-05-29 11:35:00,1

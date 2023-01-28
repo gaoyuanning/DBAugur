@@ -1,0 +1,2 @@
+1,"SELECT P.objID,  P.ra, P.dec,  P.u, P.g, P.r, P.i, P.z, P.err_u, P.err_g, P.err_r, P.err_i, P.err_z, P.type FROM PhotoObjAll P WHERE ((dec < #)  and (dec > #) and (ra > #)  and (ra < #) )"
+2019-01-17 07:15:00,1

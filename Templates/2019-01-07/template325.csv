@@ -1,0 +1,2 @@
+1,"SELECT *   dr9.objID,   dr9.obj,   dr9.ra,  dr9.dec into mydb.dr9ids from PhotoObjAll AS dr9"
+2019-01-07 12:13:00,1

@@ -1,0 +1,2 @@
+1,"SELECT objID, ra, dec, dered_g, dered_r, dered_i, dered_z, cModelMag_r, psfMag_r, probPSF_r into mydb.w3 from PhotoPrimary WHERE ra > # and ra < # and dec > # and dec < #"
+2019-07-05 03:53:00,1

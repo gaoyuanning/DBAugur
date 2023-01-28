@@ -1,0 +1,2 @@
+2,select ra from mydb.kGiants) and dec = (select dec from mydb.kGiants)
+2019-10-09 16:48:00,2

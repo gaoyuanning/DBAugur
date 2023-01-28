@@ -1,0 +1,2 @@
+1,"SELECT TOP #   Z.specobjid, Z.p_el, Z.p_cw, Z.p_acw, M.specObjid, M.mstellar_median, A.specObjID, A.t_age, A.age    INTO    mydb.sco_OG_All_kai1    FROM   zooVotes as Z, stellarMassPCAWiscBC0# as M, galSpecInfo as S, stellarMassFSPSGranWideDust as A    WHERE   S.targettype = &&& and S.spectrotype = &&& and S.specObjID = M.specObjID and S.specObjID = A.specObjID and S.specObjID = Z.specobjid"
+2019-09-17 05:01:00,1

@@ -1,0 +1,2 @@
+1,"SELECT DISTINCT p.ra, p.dec, p.ObjType, p.PhotoFlags FROM PhotoObjAll AS p WHERE ( (p.ra between # and #) and (p.dec between # and #) )"
+2019-03-18 18:44:00,1

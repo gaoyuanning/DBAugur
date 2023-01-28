@@ -1,0 +1,2 @@
+1,"SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = #) ) BEGIN drop table Cycles_S1# END create table Cycles_S1# (cycleRootId bigint , snapnum smallint , rotationAngle float , area float , circumference float , xmin float, ymin float , xmax float, ymax float , numEdges integer)"
+2019-01-22 00:39:00,1

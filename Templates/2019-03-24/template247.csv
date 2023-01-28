@@ -1,0 +1,2 @@
+2,"SELECT TOP # cs.limitingMagnitudes_g FROM SDSSConstants AS cs SELECT TOP # p.g,p.r FROM PhotoObj AS p WHERE p.g BETWEEN # AND # AND p.r BETWEEN # AND #"
+2019-03-24 15:15:00,2

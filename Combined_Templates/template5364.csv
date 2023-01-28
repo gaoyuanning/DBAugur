@@ -1,0 +1,4 @@
+3,"SELECT SpecObjID, plate, mjd, fiberid into mydb.spectralTestData2# from SpecObjAll WHERE SpecObjID IN () ;"
+2019-01-23 15:30:00,1
+2019-01-23 15:45:00,1
+2019-01-23 16:28:00,1

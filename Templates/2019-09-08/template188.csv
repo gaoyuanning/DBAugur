@@ -1,0 +1,4 @@
+3,"SELECT TOP #   objID, ra ,dec   FROM   PhotoPrimary   WHERE   ra > # and ra < #   AND dec > # and dec < #"
+2019-09-08 06:14:00,1
+2019-09-08 09:32:00,1
+2019-09-08 15:05:00,1

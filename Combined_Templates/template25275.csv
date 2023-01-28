@@ -1,0 +1,6 @@
+6,"select count (*) from photoobj p, specobj s where p.objid = s.bestobjid and (p.r BETWEEN # AND #)"
+2019-03-29 19:28:00,1
+2019-03-29 19:31:00,1
+2019-03-29 19:32:00,1
+2019-03-29 19:37:00,2
+2019-03-29 19:38:00,1

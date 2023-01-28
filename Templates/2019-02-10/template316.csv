@@ -1,0 +1,2 @@
+1,"select all survey,programname,plate,mjd,fiberid,ra,dec,flag,snr,elodiervfinal  from SppParams where plate=&&& and mjd=&&& and fiberid=&&&"
+2019-02-10 09:57:00,1

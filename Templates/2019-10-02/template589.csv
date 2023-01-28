@@ -1,0 +1,2 @@
+2,"SELECT    p.objid, h.wise_cntr, g.w1mpro, g.w1sigmpro, g.w2mpro, g.w2sigmpro,    g.w3mpro, g.w3sigmpro, g.w4mpro, g.w4sigmpro into mydb.MyTable_# FROM Galaxy p     join dbo.fGetNearbyObjEq(#,#,#) as N ON N.objID = p.objID          Join wise_xmatch h ON h.sdss_objID = p.objID           left outer join wise_allsky g ON g.cntr = h.wise_cntr"
+2019-10-02 05:12:00,2

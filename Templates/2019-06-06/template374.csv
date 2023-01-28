@@ -1,0 +1,2 @@
+1,"SELECT     s.plate, s.fiberid, s.mjd, s.z, s.zwarning,     g.Flux_OIII_#, g.Flux_OIII_#_Err into mydb.MyTable_# from emissionLinesPort AS g WHERE     Flux_OIII_# > Flux_OIII_#_Err*#     AND s.specobjid = g.specobjid     AND h_alpha_flux > #.*h_beta_flux     AND s.class = &&&     AND s.zwarning = #"
+2019-06-06 08:03:00,1

@@ -1,0 +1,2 @@
+2,"select top # s.specobjid, s.z as sdssz ,s.ra,s.dec, &&&+ cast(s.ra as varchar(#))+ &&&+cast( s.dec as varchar(#)) + &&&+ &&&"
+2019-05-09 14:41:00,2

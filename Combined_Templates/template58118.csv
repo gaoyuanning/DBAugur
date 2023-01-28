@@ -1,0 +1,2 @@
+1,"SELECT TOP # g.h_beta_flux, sq.fwhm3_hb FROM spiders_quasar AS sq JOIN galSpecLine as g ON sq.specObjID = g.specObjID WHERE l_# > # AND DR1#_SN_MEDIAN_ALL > # AND sq.fwhm3_hb> # AND sq.fwhm3_hb> sq.fwhm2_hb"
+2019-08-18 09:56:00,1

@@ -1,0 +1,3 @@
+3,"select top # objid, ra, dec, p_el, p_cw, p_acw, elliptical, spiral, nvote into mybd.Table3 from dbo.zooSpec where elliptical=#   or spiral=#"
+2019-05-13 14:32:00,1
+2019-05-13 14:33:00,2

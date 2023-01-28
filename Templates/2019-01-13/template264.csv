@@ -1,0 +1,2 @@
+1,"SELECT    objID,    psfMag_g,    psfMag_r,    psfMag_i,    psfMag_z,    psfFlux_u FROM SpecPhotoAll WHERE   class=&&&"
+2019-01-13 04:06:00,1

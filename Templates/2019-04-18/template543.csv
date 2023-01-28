@@ -1,0 +1,4 @@
+3,"select mag_r as xcol, magErr_r as ycol from MyTable where  magErr_r < #"
+2019-04-18 06:24:00,1
+2019-04-18 06:36:00,1
+2019-04-18 06:38:00,1

@@ -1,0 +1,2 @@
+3,"SELECT ra, dec, z, count (ra) FROM PhotoObjAll WHERE (ra BETWEEN # AND #) AND (dec BETWEEN # AND #) GROUP BY z"
+2019-05-23 08:46:00,3

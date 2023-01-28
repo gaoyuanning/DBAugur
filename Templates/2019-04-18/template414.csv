@@ -1,0 +1,2 @@
+1,"SELECT ALL  p.objID, p.type, p.ra, p.dec, p.u, p.g, p.r, p.i, p.z,  s.specObjID, s.z, s.zErr, s.specClass, s.ra, s.dec,   s.plateID, s.fiberMag_u, s.fiberMag_g, s.fiberMag_r,  s.fiberMag_i, s.fiberMag_z from photoObj AS p on p.type = # JOIN SpecObj AS s on s.specClass = # WHERE  p.ra BETWEEN # AND # AND p.dec BETWEEN # AND # OR  (s.ra BETWEEN # AND # AND s.dec BETWEEN # AND #)"
+2019-04-18 12:22:00,1

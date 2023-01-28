@@ -1,0 +1,3 @@
+2,"SELECT G.ra,G.dec,G.type,G.CmodelMag_g,G.CmodelMag_r FROM Galaxy as G JOIN dbo.fGetNearbyObjEq(#,#, #) AS GN  ON G.objID = GN.objID  WHERE (G.flags & dbo.fPhotoFlags(&&&)) = #"
+2019-11-29 05:31:00,1
+2019-11-29 05:40:00,1

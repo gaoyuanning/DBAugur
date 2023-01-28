@@ -1,0 +1,2 @@
+1,"SELECT       tm.objID, tm.EXT_KEY    INTO mydb.TWOMASS_GalaxyZoo1_objID_EXT_KEY FROM TwoMassXSC AS tm   JOIN zooVotes AS zoo ON tm.objID = zoo.objid WHERE tm.SYS_FLG = #   and tm.CONTAM_FLG = #"
+2019-07-25 10:20:00,1

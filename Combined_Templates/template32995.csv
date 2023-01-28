@@ -1,0 +1,2 @@
+1,"SELECT s.stable_id as case_id, m.* FROM sample_list sl join sample_list_list sll on sl.list_id = sll.list_id join sample s on s.internal_id = sll.sample_id join mutation m on m.sample_id = s.internal_id where sl.stable_id = #"
+2019-04-22 07:35:00,1

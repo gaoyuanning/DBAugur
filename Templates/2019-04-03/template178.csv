@@ -1,0 +1,10 @@
+11,"SELECT p.ra,p.dec, p.petroMag_u, p.petroMag_g, p.petroMag_r, p.petroMag_i, p.petroMag_z, p.petroMagErr_u, p.petroMagErr_g, p.petroMagErr_r, p.petroMagErr_i, p.petroMagErr_z, p.petroRad_r, p.clean,p.type,p.mode, g.h_alpha_reqw, g.h_alpha_reqw_err, g.h_alpha_flux, g.h_alpha_flux_err,g.h_alpha_cont,g.h_alpha_cont_err , g.h_beta_reqw, g.h_beta_reqw_err, g.h_beta_flux, g.h_beta_flux_err,g.h_beta_cont,g.h_beta_cont_err , s.z, s.class, s.subclass FROM galSpecLine AS g JOIN SpecObj AS s ON s.specObjID = g.specObjID JOIN PhotoObj AS p ON p.specObjID = s.specObjID WHERE s.class = &&& AND p.type = # AND clean = # AND s.z <= # AND petroMag_r <= #. AND petroRad_r > # AND g.h_beta_reqw between # and #"
+2019-04-03 18:22:00,1
+2019-04-03 18:30:00,1
+2019-04-03 18:32:00,2
+2019-04-03 18:37:00,2
+2019-04-03 18:39:00,1
+2019-04-03 18:54:00,1
+2019-04-03 19:42:00,1
+2019-04-03 19:53:00,1
+2019-04-03 19:56:00,1

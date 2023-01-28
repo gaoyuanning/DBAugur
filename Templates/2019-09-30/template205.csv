@@ -1,0 +1,2 @@
+1,"SELECT    p.objID, p.type,    p.modelmag_u, p.modelmag_g, p.modelmag_r, p.modelmag_i, p.modelmag_z,    p.extinction_u, p.extinction_g, p.extinction_r, p.extinction_i, p.extinction_z,    p.dered_u, p.dered_g, p.dered_r, p.dered_i, p.dered_z,    pz.kcorru, pz.kcorrg, pz.kcorrr, pz.kcorri, pz.kcorrz,    s.z as Z INTO #tt FROM   PhotoPrimary AS p,   specobj as s,    photoz as pz   LEFT JOIN s ON p.objID=s.objID WHERE #<s.z and s.z<#        and #<p.dered_r and p.dered_r<#         and p.type=#   ORDER BY p.objID INTO MyDB.MainSample"
+2019-09-30 16:55:00,1

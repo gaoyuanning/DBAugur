@@ -1,0 +1,2 @@
+1,select top # * from MRscPlanck1 where stellarMass > # AND redshift < #
+2019-06-17 04:18:00,1

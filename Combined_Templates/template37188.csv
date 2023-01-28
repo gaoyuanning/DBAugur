@@ -1,0 +1,2 @@
+1,SELECT p.objID from Galaxy as G where G.lnlDev_r> G.lnlExp_r+# ((# - # < = p.ra and p.ra < = #) or (# < = p.ra and p.ra < = #) ) and # < = p.dec and p.dec < = #
+2019-05-06 07:39:00,1
